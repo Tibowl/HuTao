@@ -1,0 +1,13 @@
+{
+    "token": "DISCORD TOKEN",
+    "prefix": "ht!",
+    "production": false,
+    "activity": "ht!help",
+    "admins": ["YOUR USER ID HERE"],
+    "twitter": {
+        "consumer_key":        "CONSUMER KEY",
+        "consumer_secret":     "CONSUMER SECRET",
+        "access_token":        "ACCESS TOKEN",
+        "access_token_secret": "ACCESS TOKEN SECRET"
+    }
+}
