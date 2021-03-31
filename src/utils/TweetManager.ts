@@ -25,8 +25,10 @@ export default class Tweetmanager {
         const T = new Twit(config.twitter)
 
         const follow = Object.values(this.tweeters).map(k => k ?? "")
-        this.stream = T.stream("statuses/filter", { follow })
+        this.stream = T.stream("statuses/filter", { follow, include_rts: false })
         this.stream.on("tweet", this.handleTweet)
+        this.stream.on("limit", l => Logger.debug("Twitter limit", l))
+        this.stream.on("warning", w => Logger.debug("Twitter warning", w))
 
         Logger.info(`Following ${follow.length} twitter account(s)!`)
     }
@@ -103,4 +105,3 @@ export default class Tweetmanager {
             this.stream.stop()
     }
 }
-

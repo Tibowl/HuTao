@@ -2,7 +2,7 @@ import {  Message, TextChannel, StringResolvable, MessageEmbed, MessageAttachmen
 
 import client from "./../main"
 import config from "./../data/config.json"
-import { NameTable, Padding } from "./Types"
+import { NameTable, Padding, Server } from "./Types"
 
 /**
  * Send a message to a list of channels
@@ -73,4 +73,70 @@ export function createTable(names: NameTable | undefined, rows: StringResolvable
         return [title, ...table].join("\n")
     else
         return table.join("\n")
+}
+
+// Get time information
+const offsets: {[server in Server]: number} = {
+    America: -5,
+    Europe: 1,
+    Asia: +8,
+    "TW, HK, MO": +8,
+}
+const servers = Object.keys(offsets) as Server[]
+
+export function getServerTimeInfo(): {
+    server: Server
+    offset: string
+    time: Date
+    nextDailyReset: Date
+    nextWeeklyReset: Date
+}[] {
+    return servers.map(server => {
+        const now = new Date()
+        const offset = offsets[server]
+        now.setUTCHours(now.getUTCHours() + offset)
+
+        const nextDailyReset = new Date(now.getTime())
+        nextDailyReset.setUTCHours(4, 0, 0, 0)
+        while (nextDailyReset.getTime() < now.getTime())
+            nextDailyReset.setUTCDate(nextDailyReset.getUTCDate() + 1)
+
+        const nextWeeklyReset = new Date(nextDailyReset.getTime())
+        while (nextWeeklyReset.getDay() !== 1)
+            nextWeeklyReset.setUTCDate(nextWeeklyReset.getUTCDate() + 1)
+
+        return {
+            server,
+            offset: offset < 0 ? offset.toString() : `+${offset}`,
+            time: now,
+            nextDailyReset,
+            nextWeeklyReset
+        }
+    })
+}
+
+export function timeLeft(diff: number): string {
+    const result = [], originalTime = diff / 1000
+
+    diff /= 1000 // convert to s
+    if (diff >= 24*60*60) {
+        result.push(Math.floor(diff / 24 / 60 / 60) + "d")
+        diff -= Math.floor(diff / 24 / 60 / 60) * 24 * 60 * 60
+    }
+
+    if (diff >= 60*60) {
+        result.push(Math.floor(diff / 60 / 60) + "h")
+        diff -= Math.floor(diff / 60 / 60) * 60 * 60
+    }
+
+    if (diff >= 60 && originalTime < 24*60*60) {
+        result.push(Math.floor(diff / 60) + "m")
+        diff -= Math.floor(diff / 60) * 60
+    }
+
+    if (diff > 0  && originalTime < 60*60) {
+        result.push(Math.floor(diff) + "s")
+    }
+
+    return result.join(", ")
 }

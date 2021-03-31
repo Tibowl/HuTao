@@ -1,10 +1,11 @@
 import { Message, MessageReaction } from "discord.js"
+import log4js from "log4js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
 import config from "../../data/config.json"
 
-const Logger = require("log4js").getLogger("shutdown")
+const Logger = log4js.getLogger("shutdown")
 
 export default class Shutdown extends Command {
     constructor(name: string) {

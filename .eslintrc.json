@@ -1,6 +1,6 @@
 {
     "env": {
-        "es6": true,
+        "es2020": true,
         "node": true
     },
     "extends": [
@@ -17,14 +17,16 @@
         "@typescript-eslint"
     ],
     "parserOptions": {
+        "project": "./tsconfig.json",
         "ecmaVersion": 2020
     },
     "rules": {
         "camelcase": "off",
         "@typescript-eslint/camelcase": "off",
-        "prefer-const": "off",
+        "prefer-const": "warn",
         "no-trailing-spaces": "error",
-        "indent": [
+        "indent": "off",
+        "@typescript-eslint/indent": [
             "error",
             4,
             {
@@ -41,19 +43,25 @@
                 "ImportDeclaration": "first"
             }
         ],
+        "spaced-comment": "warn",
         "linebreak-style": [
             "error",
             "windows"
         ],
-        "quotes": [
+        "quotes": "off",
+        "@typescript-eslint/quotes": [
             "error",
             "double"
         ],
-        "semi": [
+        "dot-notation": "off",
+        "@typescript-eslint/dot-notation": [
+            "error"
+        ],
+        "semi": "off",
+        "@typescript-eslint/semi": [
             "error",
             "never"
         ],
-        "@typescript/semi": "never",
         "no-multiple-empty-lines": [
             "error",
             {
@@ -62,19 +70,47 @@
                 "maxEOF": 0
             }
         ],
-        "keyword-spacing": ["warn", { "before": true, "after": true }],
+        "keyword-spacing": "off",
+        "@typescript-eslint/keyword-spacing": [
+            "warn",
+            {
+                "before": true,
+                "after": true
+            }
+        ],
         "eol-last": "error",
         "no-unused-vars": "off",
-        "no-console": "error",
-        "@typescript-eslint/member-delimiter-style": ["error", {
-            "multiline": {
-                "delimiter": "none",
-                "requireLast": false
-            },
-            "singleline": {
-                "delimiter": "comma",
-                "requireLast": false
+        "@typescript-eslint/no-unused-vars": [
+            "warn",
+            {
+                "argsIgnorePattern": "^_"
             }
-        }]
+        ],
+        "no-useless-escape": "error",
+        "brace-style": "off",
+        "@typescript-eslint/brace-style": [
+            "error",
+            "1tbs"
+        ],
+        "object-curly-spacing": [
+            "warn",
+            "always"
+        ],
+        "@typescript-eslint/type-annotation-spacing": "warn",
+        "comma-spacing": "warn",
+        "no-console": "error",
+        "@typescript-eslint/member-delimiter-style": [
+            "error",
+            {
+                "multiline": {
+                    "delimiter": "none",
+                    "requireLast": false
+                },
+                "singleline": {
+                    "delimiter": "comma",
+                    "requireLast": false
+                }
+            }
+        ]
     }
 }

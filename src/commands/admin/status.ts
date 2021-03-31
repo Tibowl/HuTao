@@ -34,7 +34,7 @@ export default class Status extends Command {
         const getVersion = (): string => `https://github.com/Tibowl/HuTao/commit/${child_process.execSync("git rev-parse HEAD").toString().trim()}`
         const getMemoryUsage = (): string => {
             const mem = (bytes: number): string => `${(bytes/10e6).toFixed(2)} MB`
-            const {heapTotal, heapUsed} = process.memoryUsage()
+            const { heapTotal, heapUsed } = process.memoryUsage()
             return `${mem(heapUsed)}/${mem(heapTotal)}`
         }
         const getAdmins = async (): Promise<string> => {
@@ -45,7 +45,7 @@ export default class Status extends Command {
         const stats = data.store.stats
         if (stats == undefined) return message.reply("Stats are unavailable, try again later")
 
-        const totalCommands = Object.keys(stats).map(k => Object.values(stats[k]).reduce((a,b) => a+b, 0)).reduce((a,b) => a+b, 0)
+        const totalCommands = Object.keys(stats).map(k => Object.values(stats[k]).reduce((a, b) => a+b, 0)).reduce((a, b) => a+b, 0)
         return message.channel.send(`Running on commit <${getVersion()}>
 Memory heap usage: ${getMemoryUsage()}
 Current uptime: ${formatTime(process.uptime())}

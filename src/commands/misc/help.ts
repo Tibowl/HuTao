@@ -18,14 +18,15 @@ export default class Help extends Command {
     run(message: Discord.Message, args: string[]): Promise<Discord.Message | Discord.Message[]> {
         const { commands } = client
         if (!args || args.length < 1) {
-            let categorized: { [a in CommandCategory]: string[] } = {
+            const categorized: { [a in CommandCategory]: string[] } = {
                 Hidden: [],
+                Time: [],
                 News: [],
                 Misc: [],
                 Admin: []
             }
             commands.forEach(cmd => {
-                let category = cmd?.category ?? "Misc"
+                const category = cmd?.category ?? "Misc"
                 categorized[category].push(cmd.commandName)
             })
 

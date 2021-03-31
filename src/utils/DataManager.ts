@@ -14,9 +14,10 @@ const defaultStore: Store = {}
 
 export default class DataManager {
     store: Store = defaultStore
+    readonly max_resin = 160
+    readonly minutes_per_resin = 8
 
     constructor() {
-
         try {
             if (existsSync(store))
                 try {

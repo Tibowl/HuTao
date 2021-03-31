@@ -10,6 +10,9 @@ export interface CommandStats {
     [key: string]: number
 }
 
+// Genshin stuff
+export type Server = "America" | "Europe" | "Asia" | "TW, HK, MO"
+
 // Following stuff
 export type FollowCategory = "birthday" | "maint" | "twitter_en" | "twitter_jp" | "twitter_fr" | "twitter_kr" | "twitter_es"
 export interface Follower {

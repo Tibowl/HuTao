@@ -1,7 +1,7 @@
-import Discord from "discord.js"
+import Discord, { Message } from "discord.js"
 import config from "../data/config.json"
 
-export type CommandCategory = "Admin" | "News" | "Misc" | "Hidden"
+export type CommandCategory = "Admin" | "Time" | "News" | "Misc" | "Hidden"
 export interface CommandOptions {
     name: string
     help: false | string
@@ -27,7 +27,7 @@ export default abstract class Command {
 
     abstract run(message: Discord.Message, args: string[], command: string): Promise<Discord.Message | Discord.Message[] | undefined> | undefined
 
-    sendHelp(message: Discord.Message) {
+    async sendHelp(message: Discord.Message): Promise<Message> {
         return message.reply(`Usage: \`${this.usage}\`
 See \`${config.prefix}help ${this.commandName}\` for more info`)
     }
