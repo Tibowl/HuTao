@@ -13,6 +13,6 @@ export default class Invite extends Command {
     }
 
     async run(message: Message): Promise<Message | Message[]> {
-        return message.channel.send("You can invite this bot with <https://discord.com/api/oauth2/authorize?client_id=826550363355086918&scope=bot&permissions=311360>")
+        return message.channel.send("You can invite this bot with <https://discord.com/api/oauth2/authorize?client_id=826550363355086918&scope=bot&permissions=319552>")
     }
 }
