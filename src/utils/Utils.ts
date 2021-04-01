@@ -267,13 +267,15 @@ function clean(line: string) {
 
 // Pagination functions
 const emojis = ["⬅️", "➡️"]
-async function paginatorLoop(message: Message, reply: Message, pages: ((p: number) => MessageEmbed | undefined), currentPage = 0): Promise<void> {
+async function paginatorLoop(message: Message, reply: Message, pages: ((p: number) => MessageEmbed | undefined), skipPages: Record<string, number> = {}, currentPage = 0): Promise<void> {
     reply.awaitReactions(
-        (reaction, user) => emojis.includes(reaction.emoji.name) && (user.id == message.author.id || config.admins.includes(user.id)),
+        (reaction, user) => [...emojis, ...Object.keys(skipPages).map(name => name.match(/<:(.*?):\d+>/)?.[1] ?? name)].includes(reaction.emoji.name) && (user.id == message.author.id || config.admins.includes(user.id)),
         { max: 1, time: 60000, errors: ["time"] }
     ).then((collected) => {
         const r = collected.first()
-        if (r?.emoji.name == emojis[0]) {
+        const name = r?.emoji.name
+
+        if (name == emojis[0]) {
             if (currentPage > 0) {
                 const newEmbed = pages(currentPage - 1)
                 if (newEmbed) {
@@ -281,11 +283,20 @@ async function paginatorLoop(message: Message, reply: Message, pages: ((p: numbe
                     reply.edit(newEmbed)
                 }
             }
-        } else if (r?.emoji.name == emojis[1]) {
+        } else if (name == emojis[1]) {
             const newEmbed = pages(currentPage + 1)
             if (newEmbed) {
                 currentPage++
                 reply.edit(newEmbed)
+            }
+        } else if (name) {
+            const newPage = Object.entries(skipPages).find(([k]) => k == name || k.includes(`<:${name}:`))?.[1]
+            if (newPage !== undefined) {
+                const newEmbed = pages(newPage)
+                if (newEmbed) {
+                    currentPage = newPage
+                    reply.edit(newEmbed)
+                }
             }
         }
 
@@ -295,21 +306,27 @@ async function paginatorLoop(message: Message, reply: Message, pages: ((p: numbe
             // No permission
         }
 
-        paginatorLoop(message, reply, pages, currentPage)
-    }).catch(() => {
+        paginatorLoop(message, reply, pages, skipPages, currentPage)
+    }).catch(async () => {
         const user = client.user
         if (user == undefined) return
-        reply?.reactions?.cache.forEach((reaction) => {
-            if (reaction.me)
-                reaction.users.remove(user)
-        })
+        try {
+            await reply.reactions.removeAll()
+        } catch (error) {
+            await Promise.all(reply.reactions?.cache.map((reaction) => {
+                if (reaction.me)
+                    return reaction.users.remove(user)
+            }).filter(r => r))
+        }
     })
 
 }
-export async function paginator(message: Message, reply: Message, pages: ((p: number) => MessageEmbed | undefined), currentPage = 0): Promise<void> {
-    paginatorLoop(message, reply, pages, currentPage)
+export async function paginator(message: Message, reply: Message, pages: ((p: number) => MessageEmbed | undefined), skipPages: Record<string, number> = {}, currentPage = 0): Promise<void> {
+    paginatorLoop(message, reply, pages, skipPages, currentPage)
 
     for (const emoji of emojis)
+        await reply.react(emoji)
+    for (const emoji of Object.keys(skipPages))
         await reply.react(emoji)
 }
 
@@ -349,17 +366,24 @@ function caps(str: string): string {
 }
 
 export function findFuzzy(target: string[], search: string): string | undefined {
+    const cleaned = searchClean(search)
     const found = target.find(t => searchClean(t) == search)
     if (found)
         return found
 
     let candidates = target.filter(t => t[0].toLowerCase() == search[0].toLowerCase())
     if (candidates.length == 0) candidates = target
+    // console.log(search, candidates)
 
-    const filteredCandidates = candidates.filter(t => caps(t) == caps(search))
+    let filteredCandidates = candidates.filter(t => searchClean(t).startsWith(cleaned.substring(0, 3)) || searchClean(t).endsWith(cleaned.substring(cleaned.length - 3)))
     if (filteredCandidates.length != 0) candidates = filteredCandidates
+    // console.log(search, filteredCandidates)
 
-    const dists = candidates.map(e => levenshtein(searchClean(e), searchClean(search)))
+    filteredCandidates = candidates.filter(t => caps(t) == caps(search))
+    if (filteredCandidates.length != 0) candidates = filteredCandidates
+    // console.log(search, filteredCandidates)
+
+    const dists = candidates.map(e => levenshtein(searchClean(e), cleaned))
     const min = Math.min(...dists)
     return candidates[dists.indexOf(min)]
 }

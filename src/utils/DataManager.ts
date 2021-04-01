@@ -2,11 +2,16 @@ import log4js from "log4js"
 import { exists, unlink, move, writeFile, existsSync, readFileSync } from "fs-extra"
 import { join } from "path"
 
-import { Artifact, ArtifactType, MainStatInfo, Store } from "./Types"
+import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store } from "./Types"
 
 import artifactsData from "../data/gamedata/artifacts.json"
 import artifactsMainStats from "../data/gamedata/artifact_main_stats.json"
 import artifactsMainLevels from "../data/gamedata/artifact_main_levels.json"
+
+import characterData from "../data/gamedata/characters.json"
+
+import emojiData from "../data/emojis.json"
+
 import { findFuzzy } from "./Utils"
 
 const Logger = log4js.getLogger("DataManager")
@@ -26,6 +31,10 @@ export default class DataManager {
     readonly artifacts: Record<string, Artifact> = artifactsData as Record<string, Artifact>
     readonly artifactMainStats: Record<ArtifactType, MainStatInfo[]> = artifactsMainStats as Record<ArtifactType, MainStatInfo[]>
     readonly artifactMainLevels: Record<string, Record<number, Record<number, string>>> = artifactsMainLevels as Record<string, Record<number, Record<number, string>>>
+
+    readonly characters: Record<string, Character> = characterData as Record<string, Character>
+
+    readonly emojis: Record<BotEmoji, string> = emojiData
 
     constructor() {
         try {
@@ -72,6 +81,15 @@ export default class DataManager {
         }
     }
 
+    emoji(type: string | undefined, includeName = false): string {
+        if (!type)
+            return type ?? "Unknown"
+
+        const found = this.emojis[type as BotEmoji]
+        if (!found) return type
+        if (includeName) return `${found} ${type}`
+        return found
+    }
 
     getArtifactByName(name: string): Artifact | undefined {
         const targetNames = Object.keys(this.artifacts)
@@ -79,6 +97,16 @@ export default class DataManager {
 
         if (target)
             return this.artifacts[target]
+
+        return undefined
+    }
+
+    getCharacterByName(name: string): Character | undefined {
+        const targetNames = Object.keys(this.characters)
+        const target = findFuzzy(targetNames, name)
+
+        if (target)
+            return this.characters[target]
 
         return undefined
     }

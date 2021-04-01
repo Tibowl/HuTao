@@ -259,3 +259,99 @@ export interface MainStatInfo {
     name:   string
     weight: number
 }
+
+export interface Character {
+    name:             string
+    desc:             string
+    releasedOn:       string
+    star:             number
+    weaponType:       WeaponType
+    icon:             string
+    iconBig:          string
+    hpBase:           number
+    attackBase:       number
+    defenseBase:      number
+    criticalBase:     number
+    criticalHurtBase: number
+    curves:           CurveElement[]
+    meta:             Meta
+    skills:           Skills[]
+}
+
+export interface CurveElement {
+    name:  CureveStatTypeEnum
+    curve: CurveEnum
+}
+
+export enum CurveEnum {
+    RegularAtk4 = "Regular atk 4*",
+    RegularAtk5 = "Regular atk 5*",
+    RegularHpdef4 = "Regular hpdef 4*",
+    RegularHpdef5 = "Regular hpdef 5*",
+}
+
+export enum CureveStatTypeEnum {
+    BaseATK = "Base ATK",
+    BaseDEF = "Base DEF",
+    BaseHP = "Base HP",
+}
+
+export interface Meta {
+    birthMonth?:   number
+    birthDay?:     number
+    association:   string
+    title:         string
+    detail:        string
+    affiliation:   string
+    element:       string
+    constellation: string
+    cvChinese:     string
+    cvJapanese:    string
+    cvEnglish:     string
+    cvKorean:      string
+}
+
+export interface Skills {
+    talents:        Skill[]
+    ult:            Skill
+    passive:        Passive[]
+    constellations: Constellation[]
+}
+
+export interface Constellation {
+    name: string
+    desc: string
+    icon: string
+}
+
+export interface Passive {
+    name:         string
+    desc:         string
+    minAscension: number
+}
+
+export interface Skill {
+    name:    string
+    desc:    string
+    charges: number
+    table:   TalentTable[]
+    type?:   string
+}
+
+export interface TalentTable {
+    name:   string
+    values: string[]
+}
+
+export enum WeaponType {
+    Bow = "Bow",
+    Catalyst = "Catalyst",
+    Claymore = "Claymore",
+    Polearm = "Polearm",
+    Sword = "Sword",
+}
+
+// Emojis
+export type BotEmoji =
+    "Electric" | "Fire" | "Grass" | "Ice" | "Rock" | "Water" | "Wind" |
+    "Bow" | "Catalyst" | "Claymore" | "Polearm" | "Sword"
