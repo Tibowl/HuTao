@@ -1,0 +1,1443 @@
+{
+  "Adventurer": {
+    "name": "Adventurer",
+    "levels": [
+      1,
+      2,
+      3
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10010_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Max HP increased by 1000."
+      },
+      {
+        "count": 4,
+        "desc": "Opening a chest regenerates 30% Max HP over 5s."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Adventurer's Flower",
+        "desc": "A resilient flower that survived the harsh environment of an ancient city. It is now proudly worn like a medal.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10010_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Adventurer's Tail Feather",
+        "desc": "The feather of an exotic bird rarely seen on this continent.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10010_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Adventurer's Pocket Watch",
+        "desc": "It's easy to lose track of time when you're adventuring where the sun doesn't shine, whether that's the depths of the abyss or the ruins of a lost city.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10010_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Adventurer's Golden Goblet",
+        "desc": "The spoils of one of an adventurer's many expeditions. Though a little damaged, it is still an excellent find.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10010_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Adventurer's Bandana",
+        "desc": "A cloth garment worn at the forehead. Though soaked in sweat and covered in dust, it still beams with an adventurer's pride.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10010_3.png"
+      }
+    ]
+  },
+  "Lucky Dog": {
+    "name": "Lucky Dog",
+    "levels": [
+      1,
+      2,
+      3
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10011_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "DEF increased by 100."
+      },
+      {
+        "count": 4,
+        "desc": "Picking up Mora restores 300 HP."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Lucky Dog's Clover",
+        "desc": "A four-leaf clover that grows in the wild. It was picked because it is said to bring good luck.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10011_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Lucky Dog's Eagle Feather",
+        "desc": "A monster once cornered an adventurer, but was then picked off by a hunting eagle... That eagle dropped this feather, which now carries some of the adventurer's good luck.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10011_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Lucky Dog's Hourglass",
+        "desc": "A broken hourglass from which all the sand has escaped. But it's fine, because the passage of time means nothing to someone without a single worry in the whole world.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10011_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Lucky Dog's Goblet",
+        "desc": "An exquisite metallic vessel that was once used to knock out a thief.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10011_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Lucky Dog's Silver Circlet",
+        "desc": "Its former owner once fell into a cave and found the treasure trove of an exiled royal. This is a souvenir from that incident.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10011_3.png"
+      }
+    ]
+  },
+  "Traveling Doctor": {
+    "name": "Traveling Doctor",
+    "levels": [
+      1,
+      2,
+      3
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10013_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases incoming healing by 20%."
+      },
+      {
+        "count": 4,
+        "desc": "Using Elemental Burst restores 20% HP."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Traveling Doctor's Silver Lotus",
+        "desc": "A precious medicinal ingredient that has lost all medicinal value after years in storage.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10013_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Traveling Doctor's Owl Feather",
+        "desc": "The durable feather of an owl. Emblematic of nocturnal supremacy, it gave some encouragement to the Traveling Doctor when venturing out to visit patients late at night.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10013_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Traveling Doctor's Pocket Watch",
+        "desc": "A precise instrument used for keeping time. For a doctor, every second counts.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10013_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Traveling Doctor's Medicine Pot",
+        "desc": "This pot used to carry concentrated and extremely potent concoctions. It is now empty, but still gives off a strong smell of medicine.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10013_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Traveling Doctor's Handkerchief",
+        "desc": "Used to tie back the doctor's hair when treating patients. Can also be used as a sling for sprains and broken arms in emergencies.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10013_3.png"
+      }
+    ]
+  },
+  "Resolution of Sojourner": {
+    "name": "Resolution of Sojourner",
+    "levels": [
+      3,
+      4
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10001_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "ATK +18%."
+      },
+      {
+        "count": 4,
+        "desc": "Increases Charged Attack CRIT Rate by 30%."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Heart of Comradeship",
+        "desc": "A small cerulean flower with somebody's ribbon pinned to the stem.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10001_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Feather of Homecoming",
+        "desc": "A blue arrow fletching imbued with the sentiment of travelers that had once faded into the horizon.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10001_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Sundial of the Sojourner",
+        "desc": "A sundial that has survived the ages, always silently recording the cycles of the sun and moon as they pass through the sky.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10001_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Goblet of the Sojourner",
+        "desc": "A plain porcelain goblet that was once brimming with joyous brews.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10001_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Crown of Parting",
+        "desc": "A reed coronet that emanates the spring breeze.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10001_3.png"
+      }
+    ]
+  },
+  "Tiny Miracle": {
+    "name": "Tiny Miracle",
+    "levels": [
+      3,
+      4
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10004_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "All Elemental RES increased by 20%."
+      },
+      {
+        "count": 4,
+        "desc": "Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Tiny Miracle's Flower",
+        "desc": "A flower that grew from a rock, breaking through the stone as it strove to reach the light.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10004_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Tiny Miracle's Feather",
+        "desc": "A feather from a bird of prey that flies almost too fast for the human eye to detect.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10004_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Tiny Miracle's Hourglass",
+        "desc": "Just an ordinary, everyday hourglass. Turn it upside down and sure enough, the dry sand starts trickling down like water.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10004_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Tiny Miracle's Goblet",
+        "desc": "A cup commonly used for fortune-telling. It can also hold water, of course.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10004_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Tiny Miracle's Earrings",
+        "desc": "A cheap accessory that is actually made from ancient meteoric ore.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10004_3.png"
+      }
+    ]
+  },
+  "Berserker": {
+    "name": "Berserker",
+    "levels": [
+      3,
+      4
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10005_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "CRIT Rate +12%"
+      },
+      {
+        "count": 4,
+        "desc": "When HP is below 70%, CRIT Rate increases by an additional 24%."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Berserker's Rose",
+        "desc": "An exquisite flower that has been dyed red. It represents the qualities of the Berserker.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10005_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Berserker's Indigo Feather",
+        "desc": "An indigo feather from a legendary raven, part of which has been dyed crimson red.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10005_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Berserker's Timepiece",
+        "desc": "An instrument with an eternal flow that continues mercilessly within, reminding the Berserker of the limited time he has left — both on the battlefield as well as in the world.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10005_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Berserker's Bone Goblet",
+        "desc": "A goblet made from the bone of an unknown beast. It was taken as a trophy after some deadly encounter.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10005_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Berserker's Battle Mask",
+        "desc": "A hideous iron mask that has been left half-shattered from vicious battles.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10005_3.png"
+      }
+    ]
+  },
+  "Instructor": {
+    "name": "Instructor",
+    "levels": [
+      3,
+      4
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10007_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases Elemental Mastery by 80."
+      },
+      {
+        "count": 4,
+        "desc": "Upon triggering an Elemental Reaction, increases all party members' Elemental Mastery by 120 for 8s."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Instructor's Brooch",
+        "desc": "Whenever the instructor wore this brooch, it meant there would be no training sessions that day.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10007_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Instructor's Feather Accessory",
+        "desc": "Any instructor who has mastered the art of de-escalation knows to keep this accessory firmly in their grasp at all times.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10007_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Instructor's Pocket Watch",
+        "desc": "A stopwatch used not for general timekeeping but to measure the duration of a training session.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10007_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Instructor's Tea Cup",
+        "desc": "It may seem like an ordinary tea cup to most. But to students, it is the symbol of the instructor's authority.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10007_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Instructor's Cap",
+        "desc": "A standard-issue honorary instructor's cap, only granted to those who turn down a promotion.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10007_3.png"
+      }
+    ]
+  },
+  "The Exile": {
+    "name": "The Exile",
+    "levels": [
+      3,
+      4
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10009_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Energy Recharge +20%"
+      },
+      {
+        "count": 4,
+        "desc": "Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Exile's Flower",
+        "desc": "A withered flower worn on the shirt. Its former owner insisted on wearing it even in exile, so it must mean something.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10009_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Exile's Feather",
+        "desc": "Not an actual accessory per se. Just a random bird feather that was found somewhere in the wilderness by the exile.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10009_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Exile's Pocket Watch",
+        "desc": "Even after the crystal watch face was shattered and the hands lost, its former owner kept it until the end.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10009_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Exile's Goblet",
+        "desc": "A dull goblet made of a heavy metal. It was once inlaid with gemstones, but they have since been stripped off.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10009_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Exile's Circlet",
+        "desc": "A prestigious circlet. However, the royal insignia has been scratched out, and it is no longer the symbol of distinguished status that it once was.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10009_3.png"
+      }
+    ]
+  },
+  "Defender's Will": {
+    "name": "Defender's Will",
+    "levels": [
+      3,
+      4
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10003_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "DEF +30%"
+      },
+      {
+        "count": 4,
+        "desc": "For each different element present in your own party, the wearer's Elemental RES to that corresponding element is increased by 30%."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Guardian's Flower",
+        "desc": "An iris that was cherished by the guardian. Unfortunately, the chance never came for it to be given to whom the guardian loved.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10003_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Guardian's Sigil",
+        "desc": "A feather-shaped brooch that symbolizes someone’s yearning to defend others like a shield.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10003_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Guardian's Clock",
+        "desc": "A small timekeeping gadget. On moonless nights, it was the only way its former owner could know the time.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10003_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Guardian's Vessel",
+        "desc": "A metal vessel that can be filled with a drink to dispel the loneliness of the long watch.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10003_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Guardian's Band",
+        "desc": "A fabric band dyed indigo by the darkness of night. Can also double as a bandage in the event of an emergency.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10003_3.png"
+      }
+    ]
+  },
+  "Brave Heart": {
+    "name": "Brave Heart",
+    "levels": [
+      3,
+      4
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10002_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "ATK +18%."
+      },
+      {
+        "count": 4,
+        "desc": "Increases DMG by 30% against opponents with more than 50% HP."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Medal of the Brave",
+        "desc": "A simple flower brooch that is a keepsake from someone's first adventure.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10002_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Prospect of the Brave",
+        "desc": "A shimmering feather from a songbird that brings a nudge of courage to its wearer.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10002_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Fortitude of the Brave",
+        "desc": "A dated miniature hourglass that serves no practical purpose. It seems as elusive as time itself.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10002_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Outset of the Brave",
+        "desc": "A crude wooden vessel filled only with memories.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10002_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Crown of the Brave",
+        "desc": "A rough-and-ready laurel wreath that seems as precious as a king's golden crown.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10002_3.png"
+      }
+    ]
+  },
+  "Martial Artist": {
+    "name": "Martial Artist",
+    "levels": [
+      3,
+      4
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10006_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases Normal Attack and Charged Attack DMG by 15%."
+      },
+      {
+        "count": 4,
+        "desc": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Martial Artist's Red Flower",
+        "desc": "This particular kind of red flower was the only thing that could alleviate the Martial Artist's pain.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10006_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Martial Artist's Feather Accessory",
+        "desc": "A common bird feather. Experts use it to practice strength control, while rookies use it to make fans.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10006_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Martial Artist's Water Hourglass",
+        "desc": "A tool to keep track of time in endurance training. It is more accurate and reliable than a regular hourglass.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10006_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Martial Artist's Wine Cup",
+        "desc": "A rather exquisite wine cup used in pre-combat rituals.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10006_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Martial Artist's Bandana",
+        "desc": "The first lesson as an apprentice: Vigor, Strength, Will. These words are written on the bandana so you'll never forget them.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10006_3.png"
+      }
+    ]
+  },
+  "Gambler": {
+    "name": "Gambler",
+    "levels": [
+      3,
+      4
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10008_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases Elemental Skill DMG by 20%."
+      },
+      {
+        "count": 4,
+        "desc": "Defeating an opponent has a 100% chance to remove Elemental Skill CD. Can only occur once every 15s."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Gambler's Brooch",
+        "desc": "A big, luxurious flower that can hide a loaded dice.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10008_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Gambler's Feather Accessory",
+        "desc": "The tail feather of a large bird. Perfect for discretely concealing a trump card.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10008_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Gambler's Pocket Watch",
+        "desc": "A shattered pocket watch that once took a lethal hit for its owner.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10008_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Gambler's Dice Cup",
+        "desc": "This vessel was specially made for a single purpose. It has absolutely no secret compartments built into it.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10008_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Gambler's Earrings",
+        "desc": "A pair of blue earrings that, when worn, calm the mind and encourage a rational assessment of risks.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10008_3.png"
+      }
+    ]
+  },
+  "Scholar": {
+    "name": "Scholar",
+    "levels": [
+      3,
+      4
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10012_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Energy Recharge +20%"
+      },
+      {
+        "count": 4,
+        "desc": "Gaining Elemental Particles or Orbs gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occur once every 3s."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Scholar's Bookmark",
+        "desc": "A dried flower used as a bookmark. It has absorbed the scent from the pages.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10012_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Scholar's Quill Pen",
+        "desc": "A bird's feather that serves as a quill pen. The tip has long been stained black.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10012_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Scholar's Clock",
+        "desc": "A small desktop clock, whose former owner was a scholar sat in a windowless room buried in books. This was probably the only reference they had to the time of day.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10012_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Scholar's Ink Cup",
+        "desc": "Originally designed to hold drinking water, this cup was stained black after a scholar used it to wash their paint brushes.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10012_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Scholar's Lens",
+        "desc": "This corrective lens helped restore the vision of one whose eyes were damaged from intensive studying.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_10012_3.png"
+      }
+    ]
+  },
+  "Prayers for Illumination": {
+    "name": "Prayers for Illumination",
+    "levels": [
+      3,
+      4
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15009_3.png",
+    "bonuses": [
+      {
+        "count": 1,
+        "desc": "Affected by Pyro for 40% less time."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Circlet",
+        "name": "Tiara of Flame",
+        "desc": "A tiara worn by those tasked with offering sacrifices in ancient times. After being subjected to the dancing sacrificial flames year in and year out, it possesses remarkable resistance.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15009_3.png"
+      }
+    ]
+  },
+  "Prayers for Destiny": {
+    "name": "Prayers for Destiny",
+    "levels": [
+      3,
+      4
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15010_3.png",
+    "bonuses": [
+      {
+        "count": 1,
+        "desc": "Affected by Hydro for 40% less time."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Circlet",
+        "name": "Tiara of Torrents",
+        "desc": "A tiara worn by those tasked with offering sacrifices in ancient times. Because it was submerged in water year in and year out, it possesses remarkable resistance.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15010_3.png"
+      }
+    ]
+  },
+  "Prayers for Wisdom": {
+    "name": "Prayers for Wisdom",
+    "levels": [
+      3,
+      4
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15011_3.png",
+    "bonuses": [
+      {
+        "count": 1,
+        "desc": "Affected by Electro for 40% less time."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Circlet",
+        "name": "Tiara of Thunder",
+        "desc": "A tiara worn by those tasked with offering sacrifices in ancient times. Because it harkened to the call of thunder year in and year out, it possesses remarkable resistance.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15011_3.png"
+      }
+    ]
+  },
+  "Prayers to Springtime": {
+    "name": "Prayers to Springtime",
+    "levels": [
+      3,
+      4
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15013_3.png",
+    "bonuses": [
+      {
+        "count": 1,
+        "desc": "Affected by Cryo for 40% less time."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Circlet",
+        "name": "Tiara of Frost",
+        "desc": "A tiara worn by those tasked with offering sacrifices in ancient times. Because it once weathered years of the icy cold, it possesses remarkable resistance.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15013_3.png"
+      }
+    ]
+  },
+  "Blizzard Strayer": {
+    "name": "Blizzard Strayer",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Cryo DMG Bonus +15%"
+      },
+      {
+        "count": 4,
+        "desc": "When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Snowswept Memory",
+        "desc": "A long-extinct flower, covered in beads of frost, that once grew on the glaciers. There was a time when even the proudest and most arrogant warriors bowed before it.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Icebreaker's Resolve",
+        "desc": "A feather that exudes a chilly aura. One can almost feel the turbulent winds that brought it here, wailing over snow-covered plains and between frosty peaks.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Frozen Homeland's Demise",
+        "desc": "A timepiece from a nation of old that waited for their warriors' return. What flows inside is not sand, but bits of ice that never melt.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Frost-Weaved Dignity",
+        "desc": "A cup carved out of ice that is as chilly and biting as winter. Its former master would drink an unfreezable liquor from it.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Broken Rime's Echo",
+        "desc": "The crown of an ancient hero who dreamt of conquering the cold. It is proof of its former master's bravery in facing the bone-chilling cold of winter.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_3.png"
+      }
+    ]
+  },
+  "Thundersoother": {
+    "name": "Thundersoother",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14002_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Electro RES increased by 40%."
+      },
+      {
+        "count": 4,
+        "desc": "Increases DMG against opponents affected by Electro by 35%."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Thundersoother's Heart",
+        "desc": "A flower that blooms even amidst ferocious thunder and lightning. To this day, it still grants courage to travelers in thunderstorms.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14002_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Thundersoother's Plume",
+        "desc": "The feather of a predatory bird that soars through lightning storms. It was said to have been adopted as an insignia by the legendary hero who pacified thunder and lightning.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14002_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Hour of Soothing Thunder",
+        "desc": "A timepiece kept by the hero who conquered thunder and lightning. The tiny shards of Electro crystal within flow back and forth with the passing of time.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14002_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Thundersoother's Goblet",
+        "desc": "The wine goblet from which the Thundersoother, who defeated the Beast of Thunder, once drank violet lightning.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14002_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Thundersoother's Diadem",
+        "desc": "The crown given to the Thundersoother for defeating the Beast of Thunder that had been wreaking havoc upon the land.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14002_3.png"
+      }
+    ]
+  },
+  "Lavawalker": {
+    "name": "Lavawalker",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14003_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Pyro RES increased by 40%."
+      },
+      {
+        "count": 4,
+        "desc": "Increases DMG against opponents affected by Pyro by 35%."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Lavawalker's Resolution",
+        "desc": "A flower that blooms amidst burning flames. It is said that long ago, a sage once wore it as he walked into a sea of fire.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14003_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Lavawalker's Salvation",
+        "desc": "The feather of a proud phoenix. You can almost hear the sound of its wings flapping in the scorching flames.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14003_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Lavawalker's Torment",
+        "desc": "Burning sand flows within this hourglass. Despite the intense heat, the sand leave no mark upon the vessel that houses it.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14003_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Lavawalker's Epiphany",
+        "desc": "A legendary goblet that can withstand extremely high temperatures. It still retains a degree of warmth even though it is now empty.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14003_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Lavawalker's Wisdom",
+        "desc": "The circlet of a sage who traversed a sea of fire. It once shone brightly from their ancient silhouette as they stood strong amidst the flames.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14003_3.png"
+      }
+    ]
+  },
+  "Maiden Beloved": {
+    "name": "Maiden Beloved",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14004_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Character Healing Effectiveness +15%"
+      },
+      {
+        "count": 4,
+        "desc": "Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Maiden's Distant Love",
+        "desc": "A fragrant flower that will bloom for all eternity and never wither.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14004_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Maiden's Heart-stricken Infatuation",
+        "desc": "A feathered accessory that carries the longing for a certain someone, like a migratory bird on the wind.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14004_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Maiden's Passing Youth",
+        "desc": "The hands of time will never come to an end, but the same cannot not be said for those cherished years of the young maiden's life when she was doted upon.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14004_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Maiden's Fleeting Leisure",
+        "desc": "A vessel made with sweet black tea in mind rather than bitter liquor.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14004_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Maiden's Fading Beauty",
+        "desc": "A meticulously well-maintained woman's hat that keeps wrinkles safely out of sight.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14004_3.png"
+      }
+    ]
+  },
+  "Gladiator's Finale": {
+    "name": "Gladiator's Finale",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "ATK +18%."
+      },
+      {
+        "count": 4,
+        "desc": "If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Gladiator's Nostalgia",
+        "desc": "No-one knows why the legendary gladiator wore this flower on his chest. It was the brutal warrior's only weakness.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Gladiator's Destiny",
+        "desc": "A feather of dreams that soars free like an eagle. At the end of the gladiator's legendary life, this parting gift was left upon his chest by a bird that knew true freedom.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Gladiator's Longing",
+        "desc": "A timepiece that recorded the gladiator's days in the bloodstained Colosseum. To him, it counted down the days on his long road to freedom.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Gladiator's Intoxication",
+        "desc": "The golden cup a champion gladiator drank from in ancient times. It brimmed with his glory for years until the fateful day of his fall.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Gladiator's Triumphus",
+        "desc": "The helmet of a legendary gladiator from ancient times, who would proudly stretch out his bloodied arms to welcome the thunderous applause of his audience.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_3.png"
+      }
+    ]
+  },
+  "Viridescent Venerer": {
+    "name": "Viridescent Venerer",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15002_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Anemo DMG Bonus +15%"
+      },
+      {
+        "count": 4,
+        "desc": "Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "In Remembrance of Viridescent Fields",
+        "desc": "A wild flower that was once a ubiquitous sight in its homeland. It was picked by a hunter who wore it on their chest.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15002_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Viridescent Arrow Feather",
+        "desc": "The fletching of an arrow that once pierced right through its prey, but somehow still remains spotless.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15002_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Viridescent Venerer's Determination",
+        "desc": "A wondrous instrument that a hunter once wore. It forever points towards their prey.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15002_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Viridescent Venerer's Vessel",
+        "desc": "A water pouch used by the Viridescent Venerer. Its capacity is much greater than one would expect.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15002_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Viridescent Venerer's Diadem",
+        "desc": "A proud crown that once belonged to the Viridescent Venerer. It is as lush and green as the breezes of the wild.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15002_3.png"
+      }
+    ]
+  },
+  "Wanderer's Troupe": {
+    "name": "Wanderer's Troupe",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15003_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases Elemental Mastery by 80."
+      },
+      {
+        "count": 4,
+        "desc": "Increases Charged Attack DMG by 35% if the character uses a Catalyst or a Bow."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Troupe's Dawnlight",
+        "desc": "A small flower-shaped insignia. If you listen carefully, you can almost hear a flute playing and voices singing.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15003_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Bard's Arrow Feather",
+        "desc": "An azure arrow fletching that has neither faded nor splintered with the passage of time. The sound of running water seems to linger around it.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15003_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Concert's Final Hour",
+        "desc": "An hourglass used to keep time during a band performance. It once made a crisp sound, but their performance has since ended.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15003_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Wanderer's String-Kettle",
+        "desc": "An ancient, strangely-shaped canteen. The interior is fitted with harp strings, which play a wondrous tune as the water flows out.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15003_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Conductor's Top Hat",
+        "desc": "A top hat that has managed to retain its radiance despite braving the elements for time untold. An ancient tune still resonates within.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15003_3.png"
+      }
+    ]
+  },
+  "Thundering Fury": {
+    "name": "Thundering Fury",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15005_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Electro DMG Bonus +15%"
+      },
+      {
+        "count": 4,
+        "desc": "Increases damage caused by Overloaded, Electro-Charged and Superconduct by 40%. Triggering such effects decreases Elemental Skill CD by 1s. Can only occur once every 0.8s."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Thunderbird's Mercy",
+        "desc": "A lightning-infused flower, somehow spared the fate of being trodden underfoot or reduced to ash by the furious purple fire, making it the sole survivor on the day of disaster.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15005_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Survivor of Catastrophe",
+        "desc": "A lightning-charged feather that still flickers with the wrath of the Thunderbird's cruel retribution.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15005_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Hourglass of Thunder",
+        "desc": "The hourglass used to foretell the coming of the Thunderbird by the tribe that worshiped it. It has fallen into eternal silence now that the tribe is no more.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15005_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Omen of Thunderstorm",
+        "desc": "A ceremonial cup that holds the blood of the innocent. It is brimming with the thundering fury of the prayers that echo within.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15005_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Thunder Summoner's Crown",
+        "desc": "A crown once worn by an ancient shaman who worshiped the Thunderbird. The capricious beast remained unmoved by the shaman's devotion.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15005_3.png"
+      }
+    ]
+  },
+  "Crimson Witch of Flames": {
+    "name": "Crimson Witch of Flames",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15006_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Pyro DMG Bonus +15%"
+      },
+      {
+        "count": 4,
+        "desc": "Increases Overloaded and Burning DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Witch's Flower of Blaze",
+        "desc": "A flower touched by the witch who once dreamt of burning away all the demons in the world. The anonymous flames affectionately caress the hands of those who touch it.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15006_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Witch's Ever-Burning Plume",
+        "desc": "A bird feather touched by the witch who once dreamt of burning away all the demons in the world. Its eternal flame burns hot.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15006_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Witch's End Time",
+        "desc": "A timepiece worn by the witch who dreamt of burning away all the demons in the world. The years the witch dedicated to the flames flow within.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15006_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Witch's Heart Flames",
+        "desc": "A flame-spitting urn left behind by the Crimson Witch of Flames, who once dreamt of burning away all the demons in the world. The fire in the urn burns eternally, as did its former master.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15006_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Witch's Scorching Hat",
+        "desc": "A hat once worn by the witch who dreamt of burning away all of the demons in the world. The large brim blocked her sight.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15006_3.png"
+      }
+    ]
+  },
+  "Noblesse Oblige": {
+    "name": "Noblesse Oblige",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15007_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Elemental Burst DMG +20%"
+      },
+      {
+        "count": 4,
+        "desc": "Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Royal Flora",
+        "desc": "A satin flower with a glossy finish, fit for an elegant gathering. It still looks as distinguished as it did on the day it was cast aside.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15007_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Royal Plume",
+        "desc": "A feathered hat accessory worn by the old aristocrats of Mondstadt on hunts. It still stands proudly as if no time has passed.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15007_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Royal Pocket Watch",
+        "desc": "A pocket watch that once belonged to the old aristocrats of Mondstadt. Passed down from generation to generation, it has witnessed many years of history.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15007_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Royal Silver Urn",
+        "desc": "An ornamental urn that once belonged to the old aristocrats of Mondstadt. Mournful winds seem to echo within its empty interior.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15007_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Royal Masque",
+        "desc": "A masquerade mask worn by the old aristocrats of Mondstadt. Its hollow eyes are fixated on the golden days of the past.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15007_3.png"
+      }
+    ]
+  },
+  "Bloodstained Chivalry": {
+    "name": "Bloodstained Chivalry",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15008_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Physical DMG +25%"
+      },
+      {
+        "count": 4,
+        "desc": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Bloodstained Flower of Iron",
+        "desc": "A dried flower stained black with blood and now as hard as steel. Probably some sort of a memento for its former master.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15008_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Bloodstained Black Plume",
+        "desc": "A raven feather pinned to a knight's cape. Countless bloodstains have dyed it pitch black.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15008_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Bloodstained Final Hour",
+        "desc": "A timepiece once used by a knight. The liquid inside has dried up, rendering it useless.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15008_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Bloodstained Chevalier's Goblet",
+        "desc": "The dark metallic vessel owned by the Bloodstained Knight. Its exterior has been stained as black as the night by smoke and coagulated blood.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15008_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Bloodstained Iron Mask",
+        "desc": "The iron mask the knight used to conceal their identity. Many have speculated about the face behind the mask.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15008_3.png"
+      }
+    ]
+  },
+  "Archaic Petra": {
+    "name": "Archaic Petra",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15014_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Gain a 15% Geo DMG Bonus."
+      },
+      {
+        "count": 4,
+        "desc": "Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain a 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Flower of Creviced Cliff",
+        "desc": "A flower born of the minerals and rocks of cliffside cracks. The way its petals blow in the wind makes it seem alive.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15014_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Feather of Jagged Peaks",
+        "desc": "A hard feather from a large seacliff hawk. The basalt tip of the feather sometimes glistens with a cool dew.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15014_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Sundial of Enduring Jade",
+        "desc": "A sundial carved from a single, large piece of jade. Its lined with a pattern that silently records the passage of time.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15014_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Goblet of Chiseled Crag",
+        "desc": "A resplendent yet dignified wine goblet, once filled to the brim in an era long gone.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15014_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Mask of Solitude Basalt",
+        "desc": "A solemn mask exquisitely carved from basalt. Its hollow eyes stare ahead expressionless and cold.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15014_3.png"
+      }
+    ]
+  },
+  "Retracing Bolide": {
+    "name": "Retracing Bolide",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15015_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases Shield Strength by 35%."
+      },
+      {
+        "count": 4,
+        "desc": "While protected by a shield, gain an additional 40% Normal and Charged Attack DMG."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Summer Night's Bloom",
+        "desc": "A man-made flower in eternal bloom. Who knows if there truly is life in there?",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15015_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Summer Night's Finale",
+        "desc": "A well-crafted wooden dart. It will only stop once it has reached its destination.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15015_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Summer Night's Moment",
+        "desc": "A pocketwatch that has stopped at a certain point in time.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15015_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Summer Night's Waterballoon",
+        "desc": "Water balloons can be seen everywhere during the summer festival, but none are as finely-wrought as this one.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15015_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Summer Night's Mask",
+        "desc": "A popular mask cast in the image of a deity, as described in the legends.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15015_3.png"
+      }
+    ]
+  },
+  "Heart of Depth": {
+    "name": "Heart of Depth",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15016_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Hydro DMG Bonus +15%"
+      },
+      {
+        "count": 4,
+        "desc": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Gilded Corsage",
+        "desc": "A mantle brooch that has lost its luster. The gold plating that once adorned it was ground away by the wind and the waves long ago.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15016_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Gust of Nostalgia",
+        "desc": "A feather carried over by whimpering sea winds and crimson waves. The passage of time has changed its shape and color.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15016_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Copper Compass",
+        "desc": "An ancient bronze compass. Its needle points towards some ever-distant shore, to a non-existent harbor.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15016_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Goblet of Thundering Deep",
+        "desc": "A faded wine cup that was unintentionally dredged up from the sea. Its dull exterior tells of the days it has spent beneath the waves.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15016_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Wine-Stained Tricorne",
+        "desc": "An ancient, wine-stained sea hat that still reeks of alcohol even now.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15016_3.png"
+      }
+    ]
+  }
+}

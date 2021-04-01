@@ -19,11 +19,14 @@ export default class Help extends Command {
         const { commands } = client
         if (!args || args.length < 1) {
             const categorized: { [a in CommandCategory]: string[] } = {
-                Hidden: [],
-                Time: [],
+                Character: [],
+                Weapons: [],
+                Artifact: [],
                 News: [],
+                Time: [],
                 Misc: [],
-                Admin: []
+                Admin: [],
+                Hidden: [],
             }
             commands.forEach(cmd => {
                 const category = cmd?.category ?? "Misc"

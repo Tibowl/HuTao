@@ -1,0 +1,112 @@
+{
+  "Flower": [
+    {
+      "name": "HP",
+      "weight": 1000
+    }
+  ],
+  "Plume": [
+    {
+      "name": "ATK",
+      "weight": 1000
+    }
+  ],
+  "Sands": [
+    {
+      "name": "HP%",
+      "weight": 1334
+    },
+    {
+      "name": "ATK%",
+      "weight": 1333
+    },
+    {
+      "name": "DEF%",
+      "weight": 1333
+    },
+    {
+      "name": "Energy Recharge",
+      "weight": 500
+    },
+    {
+      "name": "Elemental Mastery",
+      "weight": 500
+    }
+  ],
+  "Goblet": [
+    {
+      "name": "HP%",
+      "weight": 850
+    },
+    {
+      "name": "ATK%",
+      "weight": 850
+    },
+    {
+      "name": "DEF%",
+      "weight": 800
+    },
+    {
+      "name": "Elemental Mastery",
+      "weight": 100
+    },
+    {
+      "name": "Pyro DMG Bonus",
+      "weight": 200
+    },
+    {
+      "name": "Electro DMG Bonus",
+      "weight": 200
+    },
+    {
+      "name": "Cryo DMG Bonus",
+      "weight": 200
+    },
+    {
+      "name": "Hydro DMG Bonus",
+      "weight": 200
+    },
+    {
+      "name": "Anemo DMG Bonus",
+      "weight": 200
+    },
+    {
+      "name": "Geo DMG Bonus",
+      "weight": 200
+    },
+    {
+      "name": "Physical DMG Bonus",
+      "weight": 200
+    }
+  ],
+  "Circlet": [
+    {
+      "name": "HP%",
+      "weight": 1100
+    },
+    {
+      "name": "ATK%",
+      "weight": 1100
+    },
+    {
+      "name": "DEF%",
+      "weight": 1100
+    },
+    {
+      "name": "CRIT Rate",
+      "weight": 500
+    },
+    {
+      "name": "CRIT DMG",
+      "weight": 500
+    },
+    {
+      "name": "Healing Bonus",
+      "weight": 500
+    },
+    {
+      "name": "Elemental Mastery",
+      "weight": 200
+    }
+  ]
+}

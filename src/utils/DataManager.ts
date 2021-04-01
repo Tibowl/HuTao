@@ -2,7 +2,12 @@ import log4js from "log4js"
 import { exists, unlink, move, writeFile, existsSync, readFileSync } from "fs-extra"
 import { join } from "path"
 
-import { Store } from "./Types"
+import { Artifact, ArtifactType, MainStatInfo, Store } from "./Types"
+
+import artifactsData from "../data/gamedata/artifacts.json"
+import artifactsMainStats from "../data/gamedata/artifact_main_stats.json"
+import artifactsMainLevels from "../data/gamedata/artifact_main_levels.json"
+import { findFuzzy } from "./Utils"
 
 const Logger = log4js.getLogger("DataManager")
 const existsP = (path: string): Promise<boolean> => new Promise((resolve) => exists(path, resolve))
@@ -14,8 +19,13 @@ const defaultStore: Store = {}
 
 export default class DataManager {
     store: Store = defaultStore
+
     readonly max_resin = 160
     readonly minutes_per_resin = 8
+
+    readonly artifacts: Record<string, Artifact> = artifactsData as Record<string, Artifact>
+    readonly artifactMainStats: Record<ArtifactType, MainStatInfo[]> = artifactsMainStats as Record<ArtifactType, MainStatInfo[]>
+    readonly artifactMainLevels: Record<string, Record<number, Record<number, string>>> = artifactsMainLevels as Record<string, Record<number, Record<number, string>>>
 
     constructor() {
         try {
@@ -60,5 +70,16 @@ export default class DataManager {
                 this.lastStore = undefined
             }, 1000)
         }
+    }
+
+
+    getArtifactByName(name: string): Artifact | undefined {
+        const targetNames = Object.keys(this.artifacts)
+        const target = findFuzzy(targetNames, name)
+
+        if (target)
+            return this.artifacts[target]
+
+        return undefined
     }
 }

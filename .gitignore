@@ -92,4 +92,4 @@ dist/
 **/config.json
 **/store.json
 *.old
-data/
+*.db

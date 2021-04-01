@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { createTable, getNewsEmbed, paginator } from "../../utils/Utils"
+import { getNewsEmbed, paginator } from "../../utils/Utils"
 import config from "../../data/config.json"
 
 export default class News extends Command {

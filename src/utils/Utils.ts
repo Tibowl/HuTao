@@ -312,3 +312,54 @@ export async function paginator(message: Message, reply: Message, pages: ((p: nu
     for (const emoji of emojis)
         await reply.react(emoji)
 }
+
+export function levenshtein(a: string, b: string): number {
+    if (a.length == 0) return b.length
+    if (b.length == 0) return a.length
+
+    // swap to save some memory O(min(a,b)) instead of O(a)
+    if (a.length > b.length) [a, b] = [b, a]
+
+    const row = []
+    // init the row
+    for (let i = 0; i <= a.length; i++)
+        row[i] = i
+
+
+    // fill in the rest
+    for (let i = 1; i <= b.length; i++) {
+        let prev = i
+        for (let j = 1; j <= a.length; j++) {
+            const val = (b.charAt(i - 1) == a.charAt(j - 1)) ? row[j - 1] : Math.min(row[j - 1] + 1, prev + 1, row[j] + 1)
+            row[j - 1] = prev
+            prev = val
+        }
+        row[a.length] = prev
+    }
+
+    return row[a.length]
+}
+
+function searchClean(str: string): string {
+    return str.toLowerCase().replace(/'/g, "")
+}
+
+function caps(str: string): string {
+    return str.split("").filter(k => k != k.toLowerCase()).join("")
+}
+
+export function findFuzzy(target: string[], search: string): string | undefined {
+    const found = target.find(t => searchClean(t) == search)
+    if (found)
+        return found
+
+    let candidates = target.filter(t => t[0].toLowerCase() == search[0].toLowerCase())
+    if (candidates.length == 0) candidates = target
+
+    const filteredCandidates = candidates.filter(t => caps(t) == caps(search))
+    if (filteredCandidates.length != 0) candidates = filteredCandidates
+
+    const dists = candidates.map(e => levenshtein(searchClean(e), searchClean(search)))
+    const min = Math.min(...dists)
+    return candidates[dists.indexOf(min)]
+}

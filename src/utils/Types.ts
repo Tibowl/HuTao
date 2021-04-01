@@ -225,3 +225,37 @@ interface User {
 
     [key: string]: unknown
 }
+
+// Game data
+export interface Artifact {
+    name:    string
+    levels:  number[]
+    icon:    string
+    bonuses: Bonus[]
+    artis:   Arti[]
+}
+
+export interface Arti {
+    type: ArtifactType
+    name: string
+    desc: string
+    icon: string
+}
+
+export enum ArtifactType {
+    Flower = "Flower",
+    Plume = "Plume",
+    Sands = "Sands",
+    Goblet = "Goblet",
+    Circlet = "Circlet",
+}
+
+export interface Bonus {
+    count: number
+    desc:  string
+}
+
+export interface MainStatInfo {
+    name:   string
+    weight: number
+}
