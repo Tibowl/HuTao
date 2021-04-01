@@ -2,7 +2,7 @@ import {  Message, TextChannel, StringResolvable, MessageEmbed, MessageAttachmen
 
 import client from "./../main"
 import config from "./../data/config.json"
-import { NameTable, Padding, Server } from "./Types"
+import { Cover, NameTable, Padding, Server, StoredNews } from "./Types"
 
 /**
  * Send a message to a list of channels
@@ -75,6 +75,24 @@ export function createTable(names: NameTable | undefined, rows: StringResolvable
         return table.join("\n")
 }
 
+// Truncating of strings
+function limitIndex(words: string[], maxLength = 50): number {
+    let end = 0; let currentLength = 0
+    for (; end < words.length; end++) {
+        if (currentLength + words[end].length >= maxLength) {
+            break
+        }
+        currentLength += words[end].length + 1
+    }
+    return end
+}
+
+export function truncate(text: string, maxLength = 50): string {
+    const words = text.split(" ")
+    const end = limitIndex(words, maxLength)
+    return `${words.slice(0, end).join(" ")}${end < words.length ? "..." : ""}`
+}
+
 // Get time information
 const offsets: {[server in Server]: number} = {
     America: -5,
@@ -139,4 +157,158 @@ export function timeLeft(diff: number): string {
     }
 
     return result.join(", ")
+}
+
+
+// Format news
+export function getNewsEmbed(post: StoredNews, page = -1): MessageEmbed | undefined {
+    const embed = new MessageEmbed()
+        .setTitle(post.subject)
+        .setAuthor(post.nickname)
+        .setTimestamp(post.created_at * 1000)
+        .setURL(`https://www.hoyolab.com/genshin/article/${post.post_id}`)
+        .setColor(["#07EADB", "#00EA69", "#EA6907"][post.type - 1] ?? "#C1C1C1")
+
+    const parsed = parseNewsContent(post.content)
+
+    if (page == -1) {
+        embed.setDescription(truncate(parsed.find(k => k.text)?.text ?? "Unknown text", 1500))
+
+        if (post.image_url) {
+            const imgData: Cover[] = JSON.parse(post.image_url)
+            if (imgData?.[0]?.url)
+                embed.setImage(imgData[0].url)
+        }
+    } else if (page >= 0 && page < parsed.length) {
+        const cont = parsed[page]
+        if (cont.text)
+            embed.setDescription(truncate(cont.text, 1500))
+        else if (cont.img)
+            embed.setImage(cont.img).setDescription(`[Open image in browser](${cont.img})`)
+        embed.setFooter(`Page ${page + 1}/${parsed.length}`)
+    } else
+        return undefined
+    return embed
+}
+
+interface Content {
+    text?: string
+    img?: string
+}
+
+export function parseNewsContent(content: string): Content[] {
+    const target: Content[] = []
+    let currentLine = ""
+
+    const matches = content.match(/<p.*?>(.*?)<\/p>/g)
+    if (!matches) return target
+
+    for (const paragraph of matches) {
+        let middle = paragraph.match(/<p.*?>(.*?)<\/p>/)?.[1]
+        if (!middle) continue
+        middle = middle
+            .replace(/<\/?br.*?>/g, "\n")
+            .replace(/&gt;/g, ">")
+            .replace(/&lt;/g, "<")
+            .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(n))
+            .replace(/<\/?span.*?>/g, "")
+            .replace(/<\/?strong.*?>/g, "**")
+            // .replace(/<\/?b.*?>/g, "**")
+            // .replace(/<\/?i.*?>/g, "*")
+            // .replace(/<\/?em.*?>/g, "*")
+            .replace(/<a.*?href="(.*?)".*?>(.*?)<\/a>/g, (_, link, title) => `[${title}](${link})`)
+
+        const imgFinder = middle.match(/<img.*?src="(.*?)".*?>/)
+
+        if (imgFinder && currentLine.trim().length > 0) {
+            target.push({ text: clean(currentLine) })
+            currentLine = ""
+        } else if (currentLine.length >= 1000) {
+            let splitted: string[] = [];
+            ({ splitted, currentLine } = split(splitted, currentLine, /\n\s*\n/g))
+
+            if (splitted.length > 0)
+                target.push({ text: clean(splitted.join("\n\n")) })
+            else {
+                ({ splitted, currentLine } = split(splitted, currentLine, "\n"))
+
+                if (splitted.length > 0)
+                    target.push({ text: clean(splitted.join("\n")) })
+            }
+        }
+
+        if (imgFinder) {
+            target.push({ img: imgFinder[1] })
+        } else {
+            currentLine += middle
+        }
+        currentLine += "\n"
+    }
+
+    if (currentLine.trim().length > 0)
+        target.push({ text: clean(currentLine) })
+
+    return target
+}
+
+function split(splitted: string[], currentLine: string, toSplit: string | RegExp) {
+    splitted = currentLine.split(toSplit)
+    currentLine = splitted.pop() ?? ""
+
+    while (currentLine.trim().length == 0 || splitted.join("\n\n").length >= 1000)
+        currentLine = (splitted.pop() ?? "") + currentLine
+
+    return { splitted, currentLine }
+}
+
+function clean(line: string) {
+    return line.trim().replace(/\n\n\n+/g, "\n\n")
+}
+
+// Pagination functions
+const emojis = ["⬅️", "➡️"]
+async function paginatorLoop(message: Message, reply: Message, pages: ((p: number) => MessageEmbed | undefined), currentPage = 0): Promise<void> {
+    reply.awaitReactions(
+        (reaction, user) => emojis.includes(reaction.emoji.name) && (user.id == message.author.id || config.admins.includes(user.id)),
+        { max: 1, time: 60000, errors: ["time"] }
+    ).then((collected) => {
+        const r = collected.first()
+        if (r?.emoji.name == emojis[0]) {
+            if (currentPage > 0) {
+                const newEmbed = pages(currentPage - 1)
+                if (newEmbed) {
+                    currentPage--
+                    reply.edit(newEmbed)
+                }
+            }
+        } else if (r?.emoji.name == emojis[1]) {
+            const newEmbed = pages(currentPage + 1)
+            if (newEmbed) {
+                currentPage++
+                reply.edit(newEmbed)
+            }
+        }
+
+        try {
+            r?.users.remove(message.author)
+        } catch (error) {
+            // No permission
+        }
+
+        paginatorLoop(message, reply, pages, currentPage)
+    }).catch(() => {
+        const user = client.user
+        if (user == undefined) return
+        reply?.reactions?.cache.forEach((reaction) => {
+            if (reaction.me)
+                reaction.users.remove(user)
+        })
+    })
+
+}
+export async function paginator(message: Message, reply: Message, pages: ((p: number) => MessageEmbed | undefined), currentPage = 0): Promise<void> {
+    paginatorLoop(message, reply, pages, currentPage)
+
+    for (const emoji of emojis)
+        await reply.react(emoji)
 }

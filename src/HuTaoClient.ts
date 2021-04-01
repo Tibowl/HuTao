@@ -1,4 +1,4 @@
-import Discord, { ClientEvents } from "discord.js"
+import Discord, { ClientEvents, Intents } from "discord.js"
 import Enmap from "enmap"
 import fs from "fs"
 import { join } from "path"
@@ -12,8 +12,18 @@ import config from "./data/config.json"
 import log4js from "log4js"
 import Command from "./utils/Command"
 import FollowManager from "./utils/FollowManager"
+import NewsManager from "./utils/NewsManager"
 
 const Logger = log4js.getLogger("main")
+const intents = new Intents()
+intents.add(
+    // For handling commands in DMs
+    "DIRECT_MESSAGES", "DIRECT_MESSAGE_REACTIONS",
+    // For follow stuff, also required for guild messages for some reason?
+    "GUILDS",
+    // For handling commands in guilds, reactions for X to delete
+    "GUILD_MESSAGES", "GUILD_MESSAGE_REACTIONS",
+)
 
 export default class HuTaoClient extends Discord.Client {
     data: DataManager = new DataManager()
@@ -21,12 +31,15 @@ export default class HuTaoClient extends Discord.Client {
     followManager: FollowManager = new FollowManager()
 
     tweetManager: TweetManager = new TweetManager()
+    newsManager: NewsManager = new NewsManager()
 
     commands: Enmap<string, Command> = new Enmap()
     recentMessages: Discord.Message[] = []
 
-    constructor(options?: Discord.ClientOptions | undefined) {
-        super(options)
+    constructor() {
+        super({
+            ws: { intents }
+        })
     }
 
     init(): void {

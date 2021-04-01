@@ -2764,7 +2764,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^4.20.0
   '@typescript-eslint/parser': ^4.20.0
   better-sqlite3: ^7.1.4
-  discord.js: ^12.5.1
+  discord.js: ^12.5.2
   enmap: ^5.8.4
   eslint: ^7.23.0
   fs-extra: ^9.1.0

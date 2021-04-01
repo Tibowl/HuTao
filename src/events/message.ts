@@ -63,7 +63,7 @@ async function handleCommand(message: Message, cmdInfo: ParsedCommand): Promise<
             }).catch(() => {
                 const user = client.user
                 if (user == undefined) return
-                reply?.reactions?.cache.map((reaction) => reaction.me ? reaction.users.remove(user) : undefined)
+                reply?.reactions?.cache.map((reaction) => reaction.me && reaction.emoji.name == "❌" ? reaction.users.remove(user) : undefined)
             })
             client.recentMessages.push(reply)
             setTimeout(() => {
