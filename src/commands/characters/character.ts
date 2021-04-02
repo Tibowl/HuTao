@@ -2,8 +2,9 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { paginator } from "../../utils/Utils"
-import { BotEmoji, Character } from "../../utils/Types"
+import { createTable, PAD_END, PAD_START, paginator } from "../../utils/Utils"
+import { BotEmoji, Character, Skill } from "../../utils/Types"
+import config from "../../data/config.json"
 
 const elementColors: Record<string, string> = {
     "Anemo": "#32D39F",
@@ -88,16 +89,22 @@ export default class CharacterCommand extends Command {
             return reply
         }
 
+        let low = false
+        if (args.includes("-low")) {
+            low = true
+            args.splice(args.indexOf("-low"), 1)
+        }
+
         const char = data.getCharacterByName(args.join(" "))
         if (char == undefined)
             return message.channel.send("Unable to find character")
 
-        const embed = this.getCharacter(char, 0)
+        const embed = this.getCharacter(char, 0, low)
         if (!embed) return message.channel.send("No character data loaded")
 
         const reply = await message.channel.send(embed)
 
-        await paginator(message, reply, (page) => this.getCharacter(char, page), this.getCharPages(char))
+        await paginator(message, reply, (page) => this.getCharacter(char, page, low), this.getCharPages(char))
         return reply
     }
 
@@ -130,7 +137,7 @@ export default class CharacterCommand extends Command {
         return pages
     }
 
-    getCharacter(char: Character, page: number): MessageEmbed | undefined {
+    getCharacter(char: Character, page: number, low: boolean): MessageEmbed | undefined {
         const { data } = client
         const embed = new MessageEmbed()
             .setColor(elementColors[char.meta.element] ?? "")
@@ -165,28 +172,54 @@ export default class CharacterCommand extends Command {
             return embed
         }
 
+        function showTalent(skill: Skill): void {
+            embed.setTitle(`${char.name}: ${skill.name}`)
+                .setDescription(skill.desc)
+
+            if (skill.charges > 1)
+                embed.addField("Charges", skill.charges)
+
+            let hasLevels = false
+            for (const { name, values } of skill.table) {
+                if (values.filter(k => k != values[0]).length > 0) {
+                    hasLevels= true
+                    embed.addField(name, "```\n"+ createTable(
+                        undefined,
+                        Object.entries(values)
+                            .map(([lv, val]) => [+lv + 1, val])
+                            .filter(([lv]) => (low ? lv <= 6 : lv >= 6) && lv <= 13),
+                        [PAD_START, PAD_END]
+                    ) + "\n```", true)
+                } else
+                    embed.addField(name, values[0], true)
+            }
+            if (skill.type)
+                embed.addField("Element type", skill.type, true)
+            if (hasLevels)
+                embed.addField("Other talent levels", `*Use \`${config.prefix}c ${char.name}${low ? "` for higher" : " -low` lower"} levels*`)
+        }
+
         let currentPage = 3
         for (const skills of char.skills) {
             embed.setColor(elementColors[skills.ult.type ?? "None"])
 
             for (const talent of skills.talents) {
                 if (currentPage++ == page) {
-                    embed.setTitle(`${char.name}: ${talent.name}`)
-                        .setDescription(talent.desc) // TODO
+                    showTalent(talent)
                     return embed
                 }
             }
 
             if (currentPage++ == page) {
-                embed.setTitle(`${char.name}: ${skills.ult.name}`)
-                    .setDescription(skills.ult.desc) // TODO
+                showTalent(skills.ult)
                 return embed
             }
 
             for (const passive of skills.passive) {
                 if (currentPage++ == page) {
                     embed.setTitle(`${char.name}: ${passive.name}`)
-                        .setDescription(passive.desc) // TODO
+                        .setDescription(passive.desc)
+                        .addField("Unlocked by", passive.minAscension ? `Ascension ${passive.minAscension}` : "Unlocked by default")
                     return embed
                 }
             }
