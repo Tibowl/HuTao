@@ -221,7 +221,7 @@ export default class CharacterCommand extends Command {
 
             embed.setTitle(`${char.name}: Ascensions + stats`)
                 .setDescription("Character stats:\n```\n" + createTable(
-                    ["Lvl", "Asc", ...columns.map(c => c.replace("Base", "").replace("CRIT ", "C"))],
+                    ["Lvl", "Asc", ...columns.map(c => c.replace("Base ", "").replace("CRIT ", "C"))],
                     rows,
                     [PAD_START]
                 ) + "\n```")

@@ -70,12 +70,12 @@ export default class CharacterStatsCommand extends Command {
             }
         }
         if (rows.length == 0)
-            return `No stats found for filters ${searchLevel == -1 ? "" : `level = ${searchLevel} `}${searchAscension == -1 ? "" : `ascension = ${searchLevel} `}`
+            return `No stats found for filters ${searchLevel == -1 ? "" : `level = ${searchLevel} `}${searchAscension == -1 ? "" : `ascension = ${searchAscension} `}`
 
         return `Character stats:
 \`\`\`
 ${createTable(
-        ["Lvl", "Asc", ...columns.map(c => c.replace("Base", "").replace("CRIT ", "C"))],
+        ["Lvl", "Asc", ...columns.map(c => c.replace("Base ", "").replace("CRIT ", "C"))],
         rows,
         [PAD_START]
     ) }
