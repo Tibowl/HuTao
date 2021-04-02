@@ -3,7 +3,7 @@ import { Message, MessageEmbed } from "discord.js"
 import Command from "../../utils/Command"
 import client from "../../main"
 import { createTable, PAD_END, PAD_START, paginator } from "../../utils/Utils"
-import { BotEmoji, Character, Skill } from "../../utils/Types"
+import { BotEmoji, Character, Cost, Skill } from "../../utils/Types"
 import config from "../../data/config.json"
 
 const elementColors: Record<string, string> = {
@@ -109,7 +109,9 @@ export default class CharacterCommand extends Command {
         })
         addArg(["-info", "-i"], () => defaultPage = 1)
         addArg(["-art", "-a"], () => defaultPage = "🎨")
-        addArg(["-skill", "-skills", "-talents", "-s", "-t"], () => defaultPage = 3)
+        addArg(["-stats", "-asc", "-ascensions", "-ascend"], () => defaultPage = 2)
+        addArg(["-books", "-talentupgrade"], () => defaultPage = 3)
+        addArg(["-skill", "-skills", "-talents", "-s", "-t"], () => defaultPage = 4)
         addArg(["-const", "-constellation", "-constellations", "-c"], () => defaultPage = "🇨")
 
         // for MC
@@ -144,7 +146,7 @@ export default class CharacterCommand extends Command {
             "🚀": 2,
         }
 
-        let currentPage = 3
+        let currentPage = 4
         if (char.skills.length == 1) {
             pages[data.emojis[char.weaponType as BotEmoji] ?? "⚔️"] = currentPage
 
@@ -195,8 +197,43 @@ export default class CharacterCommand extends Command {
 `)
             return embed
         } else if (page == 2) {
+            const columns: string[] = []
+            const rows: string[][] = []
+
+            const addRow = (char: Character, level: number, ascension: number) => {
+                const stats = data.getCharStatsAt(char, level, ascension)
+                for (const key of Object.keys(stats))
+                    if (!columns.includes(key))
+                        columns.push(key)
+
+                rows.push([level.toString(), ascension.toString(), ...columns.map(c => stats[c] < 2 ? ((stats[c] * 100).toFixed(0) + "%") : stats[c].toFixed(0))])
+            }
+
+            let previousMax = 1
+            for (const asc of char.ascensions) {
+                addRow(char, previousMax, asc.level)
+                previousMax = asc.maxLevel
+                addRow(char, previousMax, asc.level)
+
+                if (asc.cost.mora || asc.cost.items.length > 0)
+                    embed.addField(`Ascension ${asc.level} costs`, this.getCosts(asc.cost), true)
+            }
+
             embed.setTitle(`${char.name}: Ascensions + stats`)
-                .setDescription("TODO")
+                .setDescription("Character stats:\n```\n" + createTable(
+                    ["Lvl", "Asc", ...columns.map(c => c.replace("Base", "").replace("CRIT ", "C"))],
+                    rows,
+                    [PAD_START]
+                ) + "\n```")
+            return embed
+        } else if (page == 3) {
+            let i = 1
+            for (const cost of char.skills[0].ult.costs) {
+                if (cost.mora || cost.items.length > 0)
+                    embed.addField(`Talent lv ${++i} costs`, this.getCosts(cost), true)
+            }
+
+            embed.setTitle(`${char.name}: Talent upgrade costs`)
             return embed
         }
 
@@ -208,7 +245,7 @@ export default class CharacterCommand extends Command {
                 embed.addField("Charges", skill.charges)
 
             let hasLevels = false
-            for (const { name, values } of skill.table) {
+            for (const { name, values } of skill.talentTable) {
                 if (values.filter(k => k != values[0]).length > 0) {
                     hasLevels= true
                     embed.addField(name, "```\n"+ createTable(
@@ -227,7 +264,7 @@ export default class CharacterCommand extends Command {
                 embed.setFooter(`${embed.footer?.text} - Use '${config.prefix}c ${char.name}${low ? "' to display higher" : " -low' to display lower"} levels`)
         }
 
-        let currentPage = 3
+        let currentPage = 4
         for (const skills of char.skills) {
             embed.setColor(elementColors[skills.ult.type ?? "None"])
 
@@ -275,5 +312,9 @@ export default class CharacterCommand extends Command {
         }
 
         return undefined
+    }
+
+    private getCosts(cost: Cost): string {
+        return `**${cost.mora}**x *Mora*\n${cost.items.map(i => `**${i.count}**x *${i.name}*`).join("\n")}`
     }
 }

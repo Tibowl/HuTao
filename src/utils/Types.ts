@@ -260,6 +260,12 @@ export interface MainStatInfo {
     weight: number
 }
 
+// To parse this data:
+//
+//   import { Convert } from "./file";
+//
+//   const character = Convert.toCharacter(json);
+
 export interface Character {
     name:             string
     desc:             string
@@ -276,10 +282,54 @@ export interface Character {
     curves:           CurveElement[]
     meta:             Meta
     skills:           Skills[]
+    ascensions:       Ascension[]
+}
+
+export interface Ascension {
+    level:    number
+    maxLevel: number
+    cost:     Cost
+    statsup:  Statsup[]
+}
+
+export interface Cost {
+    items: Item[]
+    mora?: number
+}
+
+export interface Item {
+    count: number
+    name:  string
+}
+
+export interface Statsup {
+    stat:  StatsName
+    value: number
+}
+
+export enum StatsName {
+    AnemoDMGBonus = "Anemo DMG Bonus",
+    Atk = "ATK%",
+    BaseATK = "Base ATK",
+    BaseDEF = "Base DEF",
+    BaseHP = "Base HP",
+    CRITRate = "CRIT Rate",
+    CritDmg = "CRIT DMG",
+    CryoDMGBonus = "Cryo DMG Bonus",
+    Def = "DEF%",
+    ElectroDMGBonus = "Electro DMG Bonus",
+    ElementalMastery = "Elemental Mastery",
+    EnergyRecharge = "Energy Recharge",
+    GeoDMGBonus = "Geo DMG Bonus",
+    HP = "HP%",
+    HealingBonus = "Healing Bonus",
+    HydroDMGBonus = "Hydro DMG Bonus",
+    PhysicalDMGBonus = "Physical DMG Bonus",
+    PyroDMGBonus = "Pyro DMG Bonus",
 }
 
 export interface CurveElement {
-    name:  CureveStatTypeEnum
+    name:  StatsName
     curve: CurveEnum
 }
 
@@ -290,16 +340,10 @@ export enum CurveEnum {
     RegularHpdef5 = "Regular hpdef 5*",
 }
 
-export enum CureveStatTypeEnum {
-    BaseATK = "Base ATK",
-    BaseDEF = "Base DEF",
-    BaseHP = "Base HP",
-}
-
 export interface Meta {
     birthMonth?:   number
     birthDay?:     number
-    association:   string
+    association:   Association
     title:         string
     detail:        string
     affiliation:   string
@@ -309,6 +353,13 @@ export interface Meta {
     cvJapanese:    string
     cvEnglish:     string
     cvKorean:      string
+}
+
+export enum Association {
+    Fatui = "Fatui",
+    Liyue = "Liyue",
+    Mc = "MC",
+    Mondstadt = "Mondstadt",
 }
 
 export interface Skills {
@@ -331,11 +382,12 @@ export interface Passive {
 }
 
 export interface Skill {
-    name:    string
-    desc:    string
-    charges: number
-    table:   TalentTable[]
-    type?:   string
+    name:        string
+    desc:        string
+    charges:     number
+    talentTable: TalentTable[]
+    costs:       Cost[]
+    type?:       string
 }
 
 export interface TalentTable {
@@ -350,6 +402,26 @@ export enum WeaponType {
     Polearm = "Polearm",
     Sword = "Sword",
 }
+
+export enum WeaponType {
+    Bow = "Bow",
+    Catalyst = "Catalyst",
+    Claymore = "Claymore",
+    Polearm = "Polearm",
+    Sword = "Sword",
+}
+
+// Converts JSON strings to/from your types
+export class Convert {
+    public static toCharacter(json: string): { [key: string]: Character } {
+        return JSON.parse(json)
+    }
+
+    public static characterToJson(value: { [key: string]: Character }): string {
+        return JSON.stringify(value)
+    }
+}
+
 
 // Emojis
 export type BotEmoji =

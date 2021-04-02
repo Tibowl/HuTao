@@ -9,6 +9,7 @@ import artifactsMainStats from "../data/gamedata/artifact_main_stats.json"
 import artifactsMainLevels from "../data/gamedata/artifact_main_levels.json"
 
 import characterData from "../data/gamedata/characters.json"
+import curves from "../data/gamedata/curves.json"
 
 import emojiData from "../data/emojis.json"
 
@@ -109,5 +110,27 @@ export default class DataManager {
             return this.characters[target]
 
         return undefined
+    }
+
+    getCharStatsAt(char: Character, level: number, ascension: number): Record<string, number> {
+        const stats: Record<string, number> = {
+            "Base HP": char.hpBase,
+            "Base ATK": char.attackBase,
+            "Base DEF": char.defenseBase,
+            "CRIT Rate": char.criticalBase,
+            "CRIT DMG": char.criticalHurtBase,
+        }
+
+        for (const curve of char.curves) {
+            stats[curve.name] = stats[curve.name] * curves[curve.curve][level - 1]
+        }
+
+        const asc = char.ascensions.find(a => a.level == ascension)
+
+        for (const statup of asc?.statsup ?? []) {
+            stats[statup.stat] = (stats[statup.stat] ?? 0) + statup.value
+        }
+
+        return stats
     }
 }
