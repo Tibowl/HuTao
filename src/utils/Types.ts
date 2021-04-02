@@ -267,7 +267,7 @@ export interface Character {
     star:             number
     weaponType:       WeaponType
     icon:             string
-    iconBig:          string
+    imgs:             string[]
     hpBase:           number
     attackBase:       number
     defenseBase:      number

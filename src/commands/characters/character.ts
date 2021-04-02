@@ -90,21 +90,49 @@ export default class CharacterCommand extends Command {
         }
 
         let low = false
-        if (args.includes("-low")) {
-            low = true
-            args.splice(args.indexOf("-low"), 1)
+        let defaultPage: string | number = 0
+
+        function addArg(queries: string | string[], exec: () => void) {
+            if (typeof queries == "string")
+                queries = [queries]
+            for (const query of queries) {
+                if (args.includes(query)) {
+                    exec()
+                    args.splice(args.indexOf(query), 1)
+                }
+            }
         }
+
+        addArg(["-low", "-l"], () => {
+            low = true
+            defaultPage = 3
+        })
+        addArg(["-info", "-i"], () => defaultPage = 1)
+        addArg(["-art", "-a"], () => defaultPage = "🎨")
+        addArg(["-skill", "-skills", "-talents", "-s", "-t"], () => defaultPage = 3)
+        addArg(["-const", "-constellation", "-constellations", "-c"], () => defaultPage = "🇨")
+
+        // for MC
+        addArg(["-anemo"], () => defaultPage = data.emojis.Wind)
+        addArg(["-geo"], () => defaultPage = data.emojis.Rock)
+        addArg(["-electro"], () => defaultPage = data.emojis.Electric)
+        addArg(["-pyro"], () => defaultPage = data.emojis.Fire)
+        addArg(["-dendro"], () => defaultPage = data.emojis.Grass)
+        addArg(["-cryo"], () => defaultPage = data.emojis.Ice)
+        addArg(["-hydro"], () => defaultPage = data.emojis.Water)
 
         const char = data.getCharacterByName(args.join(" "))
         if (char == undefined)
             return message.channel.send("Unable to find character")
 
-        const embed = this.getCharacter(char, 0, low)
-        if (!embed) return message.channel.send("No character data loaded")
+        const charpages = this.getCharPages(char)
+        const page = typeof defaultPage == "string" ? charpages[defaultPage] : defaultPage
+        const embed = this.getCharacter(char, page, low)
+        if (!embed) return message.channel.send("Unable to load character")
 
         const reply = await message.channel.send(embed)
 
-        await paginator(message, reply, (page) => this.getCharacter(char, page, low), this.getCharPages(char))
+        await paginator(message, reply, (page) => this.getCharacter(char, page, low), charpages, page)
         return reply
     }
 
@@ -142,7 +170,7 @@ export default class CharacterCommand extends Command {
         const embed = new MessageEmbed()
             .setColor(elementColors[char.meta.element] ?? "")
             .setThumbnail(char.icon)
-            .setFooter(`Page ${page + 1} / ${this.getCharPages(char)["🎨"] + 1}`)
+            .setFooter(`Page ${page + 1} / ${this.getCharPages(char)["🎨"] + char.imgs.length}`)
 
         if (page == 0) {
             embed.setTitle(`${char.name}: Description`)
@@ -196,7 +224,7 @@ export default class CharacterCommand extends Command {
             if (skill.type)
                 embed.addField("Element type", skill.type, true)
             if (hasLevels)
-                embed.addField("Other talent levels", `*Use \`${config.prefix}c ${char.name}${low ? "` for higher" : " -low` lower"} levels*`)
+                embed.setFooter(`${embed.footer?.text} - Use '${config.prefix}c ${char.name}${low ? "' to display higher" : " -low' to display lower"} levels`)
         }
 
         let currentPage = 3
@@ -230,15 +258,18 @@ export default class CharacterCommand extends Command {
                 if (currentPage++ == page) {
                     embed.setTitle(`${char.name} C${c}: ${constellation.name}`)
                         .setThumbnail(constellation.icon)
-                        .setDescription(constellation.desc) // TODO
+                        .setDescription(constellation.desc)
                     return embed
                 }
             }
         }
 
-        if (currentPage++ == page) {
+        const offset = page - currentPage
+        if (offset >= 0 && offset < char.imgs.length) {
+            const img = char.imgs[offset]
             embed.setTitle(`${char.name}`)
-                .setImage(char.iconBig)
+                .setDescription(`[Open image in browser](${img})`)
+                .setImage(img)
             embed.thumbnail = null
             return embed
         }

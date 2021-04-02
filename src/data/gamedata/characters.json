@@ -6,7 +6,10 @@
     "star": 5,
     "weaponType": "Sword",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qin.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Qin@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Character_Jean_Card.jpg/revision/latest?cb=20190703155524",
+      "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Character_Jean_Portrait.png/revision/latest?cb=20200916180808"
+    ],
     "hpBase": 1143.9840087890625,
     "attackBase": 18.6200008392334,
     "defenseBase": 59.83000183105469,
@@ -505,7 +508,12 @@
     "star": 5,
     "weaponType": "Sword",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerGirl.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_PlayerGirl@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Traveler_Female_Card.jpg/revision/latest?cb=20201024043415",
+      "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Traveler_Male_Card.jpg/revision/latest?cb=20201024043323",
+      "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Character_Traveler_(Female)_Portrait.png/revision/latest?cb=20200915141952",
+      "https://static.wikia.nocookie.net/gensin-impact/images/4/47/Character_Traveler_(Male)_Portrait.png/revision/latest?cb=20200915142015"
+    ],
     "hpBase": 911.791015625,
     "attackBase": 17.808000564575195,
     "defenseBase": 57.224998474121094,
@@ -1407,7 +1415,10 @@
     "star": 4,
     "weaponType": "Catalyst",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lisa.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Lisa@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Character_Lisa_Card.jpg/revision/latest?cb=20201024042621",
+      "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Character_Lisa_Portrait.png/revision/latest?cb=20200916171314"
+    ],
     "hpBase": 802.3760986328125,
     "attackBase": 19.410720825195312,
     "defenseBase": 48.069000244140625,
@@ -1906,7 +1917,10 @@
     "star": 4,
     "weaponType": "Catalyst",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Barbara@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Character_Barbara_Card.jpg/revision/latest?cb=20201024042228",
+      "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Barbara_Portrait.png/revision/latest?cb=20200916170845"
+    ],
     "hpBase": 820.6118774414062,
     "attackBase": 13.355999946594238,
     "defenseBase": 56.080501556396484,
@@ -2345,7 +2359,10 @@
     "star": 4,
     "weaponType": "Sword",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaeya.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Kaeya@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Character_Kaeya_Card.jpg/revision/latest?cb=20190704215128",
+      "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Character_Kaeya_Portrait.png/revision/latest?cb=20200916171117"
+    ],
     "hpBase": 975.6163940429688,
     "attackBase": 18.698400497436523,
     "defenseBase": 66.38099670410156,
@@ -2764,7 +2781,10 @@
     "star": 5,
     "weaponType": "Claymore",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diluc.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Diluc@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Character_Diluc_Card.jpg/revision/latest?cb=20200220072322",
+      "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Character_Diluc_Portrait.png/revision/latest?cb=20200916171027"
+    ],
     "hpBase": 1010.5192260742188,
     "attackBase": 26.06800079345703,
     "defenseBase": 61.0265998840332,
@@ -3283,7 +3303,10 @@
     "star": 4,
     "weaponType": "Claymore",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Razor@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Razor_Card.jpg/revision/latest?cb=20201024043017",
+      "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Razor_Portrait.png/revision/latest?cb=20200916151017"
+    ],
     "hpBase": 1002.9700927734375,
     "attackBase": 19.58880043029785,
     "defenseBase": 62.9474983215332,
@@ -3882,7 +3905,10 @@
     "star": 4,
     "weaponType": "Bow",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ambor.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Ambor@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Character_Amber_Card.jpg/revision/latest?cb=20201024042115",
+      "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Amber_Portrait.png/revision/latest?cb=20200914160851"
+    ],
     "hpBase": 793.2581787109375,
     "attackBase": 18.698400497436523,
     "defenseBase": 50.358001708984375,
@@ -4341,7 +4367,10 @@
     "star": 5,
     "weaponType": "Bow",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Venti.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Venti@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Character_Venti_Card.jpg/revision/latest?cb=20201024042752",
+      "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Character_Venti_Portrait.png/revision/latest?cb=20200916184309"
+    ],
     "hpBase": 819.855224609375,
     "attackBase": 20.48200035095215,
     "defenseBase": 52.052101135253906,
@@ -4840,7 +4869,10 @@
     "star": 4,
     "weaponType": "Polearm",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Xiangling@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Character_Xiangling_Card.jpg/revision/latest?cb=20200331191545",
+      "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Xiangling_Portrait.png/revision/latest?cb=20200916184026"
+    ],
     "hpBase": 911.791015625,
     "attackBase": 18.876480102539062,
     "defenseBase": 56.080501556396484,
@@ -5319,7 +5351,10 @@
     "star": 4,
     "weaponType": "Claymore",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Beidou@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Character_Beidou_Card.jpg/revision/latest?cb=20200401024902",
+      "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Character_Beidou_Portrait.png/revision/latest?cb=20200916170732"
+    ],
     "hpBase": 1094.149169921875,
     "attackBase": 18.876480102539062,
     "defenseBase": 54.36375045776367,
@@ -5858,7 +5893,10 @@
     "star": 4,
     "weaponType": "Sword",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Xingqiu@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Character_Xingqiu_Card.jpg/revision/latest?cb=20201024043209",
+      "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Character_Xingqiu_Portrait.png/revision/latest?cb=20200916184107"
+    ],
     "hpBase": 857.0835571289062,
     "attackBase": 16.917600631713867,
     "defenseBase": 63.51974868774414,
@@ -6317,7 +6355,10 @@
     "star": 4,
     "weaponType": "Catalyst",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Ningguang@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Character_Ningguang_Card.jpg/revision/latest?cb=20200401040354",
+      "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Character_Ningguang_Portrait.png/revision/latest?cb=20200916184236"
+    ],
     "hpBase": 820.6118774414062,
     "attackBase": 17.808000564575195,
     "defenseBase": 48.069000244140625,
@@ -6676,7 +6717,10 @@
     "star": 5,
     "weaponType": "Catalyst",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Klee.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Klee@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/7/78/Character_Klee_Card.jpg/revision/latest?cb=20201024041912",
+      "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Character_Klee_Portrait.png/revision/latest?cb=20200916171245"
+    ],
     "hpBase": 800.788818359375,
     "attackBase": 24.20599937438965,
     "defenseBase": 47.86399841308594,
@@ -7095,7 +7139,10 @@
     "star": 4,
     "weaponType": "Bow",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Fischl.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Fischl@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Character_Fischl_Card.jpg/revision/latest?cb=20200331202523",
+      "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Character_Fischl_Portrait.png/revision/latest?cb=20200916171212"
+    ],
     "hpBase": 770.46337890625,
     "attackBase": 20.47920036315918,
     "defenseBase": 49.78575134277344,
@@ -7534,7 +7581,10 @@
     "star": 4,
     "weaponType": "Sword",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Bennett@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Character_Bennett_Card.jpg/revision/latest?cb=20201024042332",
+      "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Character_Bennett_Portrait.png/revision/latest?cb=20200916170558"
+    ],
     "hpBase": 1039.4417724609375,
     "attackBase": 16.02720069885254,
     "defenseBase": 64.66425323486328,
@@ -8053,7 +8103,10 @@
     "star": 4,
     "weaponType": "Claymore",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Noel@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Character_Noelle_Card.jpg/revision/latest?cb=20200403111008",
+      "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Character_Noelle_Portrait.png/revision/latest?cb=20200916183843"
+    ],
     "hpBase": 1012.0880126953125,
     "attackBase": 16.02720069885254,
     "defenseBase": 66.9532470703125,
@@ -8612,7 +8665,10 @@
     "star": 5,
     "weaponType": "Sword",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qiqi.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Qiqi@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Qiqi_Card.jpg/revision/latest?cb=20200904131037",
+      "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Character_Qiqi_Portrait.png/revision/latest?cb=20200916183756"
+    ],
     "hpBase": 962.8532104492188,
     "attackBase": 22.3439998626709,
     "defenseBase": 71.7959976196289,
@@ -9131,7 +9187,10 @@
     "star": 4,
     "weaponType": "Claymore",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chongyun.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Chongyun@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Character_Chongyun_Card.jpg/revision/latest?cb=20201024042420",
+      "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Character_Chongyun_Portrait.png/revision/latest?cb=20200916181119"
+    ],
     "hpBase": 920.908935546875,
     "attackBase": 18.698400497436523,
     "defenseBase": 54.36375045776367,
@@ -9590,7 +9649,10 @@
     "star": 5,
     "weaponType": "Catalyst",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mona.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Mona@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Character_Mona_Card.jpg/revision/latest?cb=20210323193416",
+      "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Character_Mona_Portrait.png/revision/latest?cb=20210128000315"
+    ],
     "hpBase": 810.322021484375,
     "attackBase": 22.3439998626709,
     "defenseBase": 50.855499267578125,
@@ -10068,7 +10130,10 @@
     "star": 5,
     "weaponType": "Sword",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Keqing.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Keqing@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Character_Keqing_Card.jpg/revision/latest?cb=20201024042513",
+      "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Character_Keqing_Portrait.png/revision/latest?cb=20200916184644"
+    ],
     "hpBase": 1020.0524291992188,
     "attackBase": 25.136999130249023,
     "defenseBase": 62.223201751708984,
@@ -10547,7 +10612,10 @@
     "star": 4,
     "weaponType": "Catalyst",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Sucrose@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Sucrose_Card.jpg/revision/latest?cb=20201024043113",
+      "https://static.wikia.nocookie.net/gensin-impact/images/2/20/Character_Sucrose_Portrait.png/revision/latest?cb=20200916181011"
+    ],
     "hpBase": 775.0223388671875,
     "attackBase": 14.246399879455566,
     "defenseBase": 58.941749572753906,
@@ -10966,7 +11034,10 @@
     "star": 5,
     "weaponType": "Bow",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tartaglia.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Tartaglia@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Tartaglia_Card.png/revision/latest?cb=20201106023840",
+      "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Character_Tartaglia_Portrait.png/revision/latest?cb=20201109083418"
+    ],
     "hpBase": 1020.0524291992188,
     "attackBase": 23.461200714111328,
     "defenseBase": 63.4197998046875,
@@ -11725,7 +11796,10 @@
     "star": 4,
     "weaponType": "Bow",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Diona@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Character_Diona_Card.png/revision/latest?cb=20201107193459",
+      "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Character_Diona_Portrait.png/revision/latest?cb=20201117115533"
+    ],
     "hpBase": 802.3760986328125,
     "attackBase": 17.808000564575195,
     "defenseBase": 50.358001708984375,
@@ -12244,7 +12318,10 @@
     "star": 5,
     "weaponType": "Polearm",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zhongli.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Zhongli@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Character_Zhongli_Card.png/revision/latest?cb=20201217052506",
+      "https://static.wikia.nocookie.net/gensin-impact/images/7/7d/Character_Zhongli_Portrait.png/revision/latest?cb=20201126135653"
+    ],
     "hpBase": 1143.9840087890625,
     "attackBase": 19.551000595092773,
     "defenseBase": 57.436798095703125,
@@ -12783,7 +12860,10 @@
     "star": 4,
     "weaponType": "Claymore",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Xinyan@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Xinyan_Card.jpeg/revision/latest?cb=20201128161752",
+      "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Character_Xinyan_Portrait.png/revision/latest?cb=20201128161608"
+    ],
     "hpBase": 939.1447143554688,
     "attackBase": 20.835359573364258,
     "defenseBase": 66.9532470703125,
@@ -13342,7 +13422,10 @@
     "star": 5,
     "weaponType": "Sword",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Albedo@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Albedo_Card.png/revision/latest?cb=20210302092013",
+      "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Character_Albedo_Portrait.png/revision/latest?cb=20201217140004"
+    ],
     "hpBase": 1029.5855712890625,
     "attackBase": 19.551000595092773,
     "defenseBase": 68.2061996459961,
@@ -13801,7 +13884,10 @@
     "star": 5,
     "weaponType": "Bow",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ganyu.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Ganyu@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Character_Ganyu_Card.png/revision/latest?cb=20210106062018",
+      "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Ganyu_Portrait.png/revision/latest?cb=20210109020221"
+    ],
     "hpBase": 762.656005859375,
     "attackBase": 26.06800079345703,
     "defenseBase": 49.06060028076172,
@@ -14320,7 +14406,10 @@
     "star": 5,
     "weaponType": "Polearm",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiao.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Xiao@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/8/88/Character_Xiao_Card.jpg/revision/latest?cb=20200331193542",
+      "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Xiao_Portrait.png/revision/latest?cb=20200916152108"
+    ],
     "hpBase": 991.4528198242188,
     "attackBase": 27.185199737548828,
     "defenseBase": 62.223201751708984,
@@ -14779,7 +14868,10 @@
     "star": 5,
     "weaponType": "Polearm",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Hutao.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Hutao@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Hu_Tao_Card.jpg/revision/latest?cb=20210227051236",
+      "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Character_Hu_Tao_Portrait.png/revision/latest?cb=20210227222357"
+    ],
     "hpBase": 1210.7164306640625,
     "attackBase": 8.285900115966797,
     "defenseBase": 68.2061996459961,
@@ -15338,7 +15430,10 @@
     "star": 4,
     "weaponType": "Polearm",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Rosaria.png",
-    "iconBig": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Rosaria@2x.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/Character_Rosaria_Card.png/revision/latest?cb=20210330063015",
+      "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Character_Rosaria_Portrait.png/revision/latest?cb=20210330062634"
+    ],
     "hpBase": 1030.3238525390625,
     "attackBase": 20.12303924560547,
     "defenseBase": 59.513999938964844,
