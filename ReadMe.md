@@ -4,15 +4,15 @@ Hu Tao
 
 Hu Tao is a Genshin Impact discord bot. An invite link for this bot can be found [here](https://discord.com/api/oauth2/authorize?client_id=826550363355086918&scope=bot&permissions=319552). You can find the support Discord [here](https://discord.gg/BM3Srp8j8G).
 
-## Permissions Required
+## Required Permissions
 Please make sure the bot has these permissions inside the channels you want to use the bot. 
 - **Send/Receive Messages**: Needed to actually receive and respond to commands.
 - **Manage Messages**: Used to delete reactions of others after clicking them, improves user experience by making it easier to click on it again.
-- **Attach Files** / **Embed Links**: Used to send embeds, as well as display forum links.
+- **Attach Files** / **Embed Links**: Used to send embeds, as well as display forum posts.
 - **Add Reactions**: Used to add reactions on own messages that users can click on.
 - **Use External Emoji**: Used in character/weapon menu to indicate mora/items/element/weapon type/...
 
-**TIP**: You can check if these are given with `ht!help`. In case one is missing, it'll be shown in a bold **NOTE** at the end of the message.
+**TIP**: You can check if these permissions are given with `ht!help`. In case one is missing, it'll be shown in a bold **NOTE** at the end of the message.
 
 ## Commands
 The bot command prefix is `ht!`. Help for a specific command can be retrieved via `ht!help <command>`.
@@ -63,6 +63,3 @@ See `ht!help weapon` for more information.
 - `ht!resin <current resin> [time until next resin in mm:ss]`: Check how long until your resin refills.
     - Example with just amount: `ht!resin 13` [picture](https://i.imgur.com/JBLeDUa.png)
     - Example with time until next resin: `ht!resin 77 7:15` [picture](https://i.imgur.com/kPRQfEb.png)
-
-
-**TODO**: replace weapon & char image, char/weapon stats image
