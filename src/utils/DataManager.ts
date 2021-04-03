@@ -174,12 +174,13 @@ export default class DataManager {
     }
 
     getCosts(cost: Cost): string {
-        const items = cost.items
+        let items = cost.items
         if (cost.mora)
-            items.unshift({
+            items = [{
                 name: "Mora",
                 count: cost.mora
-            })
-        return cost.items.map(i => `**${i.count}**x *${i.name}*`).join("\n")
+            }, ...items]
+
+        return items.map(i => `**${i.count}**x *${this.emoji(i.name, true)}*`).join("\n")
     }
 }

@@ -183,12 +183,12 @@ Note: this command supports fuzzy search.`,
             currentPage += skills.talents.length + 1 + skills.passive.length
             pages["🇨"] = currentPage
 
-            currentPage += skills.constellations.length
+            currentPage += 1
             pages["🎨"] = currentPage
         } else {
             for (const skills of char.skills) {
                 pages[data.emojis[skills.ult.type as BotEmoji] ?? "❔"] = currentPage
-                currentPage += skills.talents.length + 1 + skills.passive.length + skills.constellations.length
+                currentPage += skills.talents.length + 1 + skills.passive.length + 1
             }
             pages["🎨"] = currentPage
         }
@@ -208,6 +208,30 @@ Note: this command supports fuzzy search.`,
                 .addField("Basics", `${this.getElementIcons(char)} ${char.star}★ ${data.emoji(char.weaponType, true)} user`)
                 .setDescription(char.desc)
 
+            // This is ugly, but is for Traveler/other multi-book characters, also enforces some order/grade of item
+            const talentCostLv2 = char.skills[0]?.ult.costs[2]?.items,
+                  talentCostLv3 = char.skills[0]?.ult.costs[3]?.items,
+                  talentCostLv4 = char.skills[0]?.ult.costs[4]?.items,
+                  talentCostLv5 = char.skills[0]?.ult.costs[5]?.items
+
+            let talentMat = [
+                talentCostLv4[0],
+                talentCostLv4[1],
+                ...talentCostLv5.slice(2),
+            ]
+
+            if (talentCostLv3[0].name !== talentCostLv4[0].name) {
+                talentMat = [
+                    talentCostLv3[0],
+                    talentCostLv4[0],
+                    talentCostLv2[0],
+                    talentCostLv4[1],
+                    ...talentCostLv5.slice(2),
+                ]
+            }
+
+            embed.addField("Upgrade material", `Ascensions: ${char.ascensions[4]?.cost.items.map(i => data.emoji(i.name)).join("")}
+Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
             return embed
         } else if (page == 1) {
             embed.setTitle(`${char.name}: Information`)
@@ -320,15 +344,13 @@ Note: this command supports fuzzy search.`,
                 }
             }
 
-            let c = 0
-            for (const constellation of skills.constellations) {
-                c++
-                if (currentPage++ == page) {
-                    embed.setTitle(`${char.name} C${c}: ${constellation.name}`)
-                        .setThumbnail(constellation.icon)
-                        .setDescription(constellation.desc)
-                    return embed
-                }
+            if (currentPage++ == page) {
+                embed.setTitle(`${char.name}: Constellations`)
+                let c = 0
+                for (const constellation of skills.constellations)
+                    embed.addField(`C${++c}: ${constellation.name}`, constellation.desc)
+
+                return embed
             }
         }
 
