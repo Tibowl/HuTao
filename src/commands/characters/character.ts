@@ -351,6 +351,7 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
 
             if (currentPage++ == page) {
                 embed.setTitle(`${char.name}: Constellations`)
+                    .setThumbnail(skills.constellations[0]?.icon)
                 let c = 0
                 for (const constellation of skills.constellations)
                     embed.addField(`C${++c}: ${constellation.name}`, constellation.desc)
