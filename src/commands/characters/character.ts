@@ -31,17 +31,17 @@ const elementColors: Record<string, string> = {
     "None": "#545353",
 }
 
-const elementTypes = Object.values(client.data.characters)
+const elementTypes = client.data.getCharacters()
     .map(c => c.meta.element)
     .filter((v, i, arr) => arr.indexOf(v) == i && v !== "None")
     .sort()
 
-const weaponTypes = Object.values(client.data.characters)
+const weaponTypes = client.data.getCharacters()
     .map(c => c.weaponType)
     .filter((v, i, arr) => arr.indexOf(v) == i)
     .sort()
 
-const possibleStars = Object.values(client.data.characters)
+const possibleStars = client.data.getCharacters()
     .map(c => c.star)
     .filter((v, i, arr) => arr.indexOf(v) == i)
     .sort((a, b) => a-b)
@@ -69,12 +69,12 @@ Note: this command supports fuzzy search.`,
 
     getCharacters(elementFilter: string[], weaponTypeFilter: string[], starFilter: number[], page: number): MessageEmbed | undefined {
         const { data } = client
-        const arti = Object.entries(data.characters)
-            .filter(([_, info]) => starFilter.length == 0 || starFilter.includes(info.star))
-            .filter(([_, info]) => elementFilter.length == 0 || elementFilter.find(elem => this.getElementIcons(info).includes(elem)))
-            .filter(([_, info]) => weaponTypeFilter.length == 0 || weaponTypeFilter.includes(info.weaponType))
+        const arti = data.getCharacters()
+            .filter((char) => starFilter.length == 0 || starFilter.includes(char.star))
+            .filter((char) => elementFilter.length == 0 || elementFilter.find(elem => this.getElementIcons(char).includes(elem)))
+            .filter((char) => weaponTypeFilter.length == 0 || weaponTypeFilter.includes(char.weaponType))
             .reverse()
-            .map(([name, info]) => `**${name}**: ${this.getElementIcons(info)} ${info.star}★ ${data.emoji(info.weaponType, true)} user`)
+            .map((char) => `**${char.name}**: ${this.getElementIcons(char)} ${char.star}★ ${data.emoji(char.weaponType, true)} user`)
 
         const pages: string[] = []
         let paging = ""

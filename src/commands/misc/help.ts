@@ -1,8 +1,17 @@
 import Command from "../../utils/Command"
-import Discord from "discord.js"
+import Discord, { TextChannel } from "discord.js"
 import client from "../../main"
 import { CommandCategory } from "../../utils/Command"
 import config from "../../data/config.json"
+import { PermissionResolvable } from "discord.js"
+
+const requiredPermissions: PermissionResolvable[] = [
+    "ADD_REACTIONS",
+    "ATTACH_FILES",
+    "EMBED_LINKS",
+    "MANAGE_MESSAGES",
+    "USE_EXTERNAL_EMOJIS"
+]
 
 export default class Help extends Command {
     constructor(name: string) {
@@ -15,7 +24,7 @@ export default class Help extends Command {
         })
     }
 
-    run(message: Discord.Message, args: string[]): Promise<Discord.Message | Discord.Message[]> {
+    async run(message: Discord.Message, args: string[]): Promise<Discord.Message | Discord.Message[]> {
         const { commands } = client
         if (!args || args.length < 1) {
             const categorized: { [a in CommandCategory]: string[] } = {
@@ -33,6 +42,16 @@ export default class Help extends Command {
                 categorized[category].push(cmd.commandName)
             })
 
+            const missingPerms: PermissionResolvable[] = []
+            if (message.channel instanceof TextChannel) {
+                const userPerms = await message.channel.permissionsFor(client.user ?? "")
+
+                for (const permission of requiredPermissions)
+                    if (userPerms && !userPerms.has(permission)) {
+                        missingPerms.push(permission)
+                    }
+            }
+
             return message.channel.send(`**Commands**: 
 
 ${Object.entries(categorized)
@@ -44,7 +63,9 @@ ${Object.entries(categorized)
         .join("\n")}
 
 *Use \`${config.prefix}help <command name>\` for more information about a specific command.*
-*You can invite this bot to your server with \`${config.prefix}invite\`.*`)
+*You can invite this bot to your server with \`${config.prefix}invite\`.*${missingPerms.length > 0 ? `
+
+**NOTE**: This bot is missing some permissions required for optimal usage, please add ${missingPerms.join(", ")}`: ""}`)
         }
 
         let commandName = args[0]

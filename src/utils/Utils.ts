@@ -271,7 +271,7 @@ async function paginatorLoop(message: Message, reply: Message, pages: ((p: numbe
     reply.awaitReactions(
         (reaction, user) => ["❌", ...emojis, ...Object.keys(skipPages).map(name => name.match(/<:(.*?):\d+>/)?.[1] ?? name)].includes(reaction.emoji.name) && (user.id == message.author.id || config.admins.includes(user.id)),
         { max: 1, time: 60000, errors: ["time"] }
-    ).then((collected) => {
+    ).then(async (collected) => {
         const r = collected.first()
         const name = r?.emoji.name
 
@@ -307,13 +307,13 @@ async function paginatorLoop(message: Message, reply: Message, pages: ((p: numbe
             }
         }
 
+        paginatorLoop(message, reply, pages, skipPages, currentPage)
+
         try {
-            r?.users.remove(message.author)
+            await r?.users.remove(message.author)
         } catch (error) {
             // No permission
         }
-
-        paginatorLoop(message, reply, pages, skipPages, currentPage)
     }).catch(async () => {
         client.recentMessages = client.recentMessages.filter(k => k != reply)
         const user = client.user

@@ -36,7 +36,7 @@ export default class DataManager {
     readonly artifactMainStats: Record<ArtifactType, MainStatInfo[]> = artifactsMainStats as Record<ArtifactType, MainStatInfo[]>
     readonly artifactMainLevels: Record<string, Record<number, Record<number, string>>> = artifactsMainLevels as Record<string, Record<number, Record<number, string>>>
 
-    readonly characters: Record<string, Character> = characterData as Record<string, Character>
+    private readonly characters: Record<string, Character> = characterData as Record<string, Character>
     readonly weapons: Record<string, Weapon> = weaponData as Record<string, Weapon>
 
     readonly emojis: Record<BotEmoji, string> = emojiData
@@ -96,6 +96,13 @@ export default class DataManager {
         return found
     }
 
+    getCharacters(): Character[] {
+        return Object.values(this.characters).filter(char => {
+            const releasedOn = new Date(`${char.releasedOn.replace(" ", "T")}+08:00`)
+            return Date.now() >= releasedOn.getTime()
+        })
+    }
+
     getArtifactByName(name: string): Artifact | undefined {
         const targetNames = Object.keys(this.artifacts)
         const target = findFuzzy(targetNames, name)
@@ -107,7 +114,7 @@ export default class DataManager {
     }
 
     getCharacterByName(name: string): Character | undefined {
-        const targetNames = Object.keys(this.characters)
+        const targetNames = this.getCharacters().map(c => c.name)
         const target = findFuzzy(targetNames, name)
 
         if (target)
