@@ -208,9 +208,20 @@ Note: this command supports fuzzy search.`,
             .setFooter(`Page ${page + 1} / ${this.getCharPages(char)["🎨"] + char.imgs.length}`)
 
         if (page == 0) {
+            const maxAscension = char.ascensions[char.ascensions.length - 1]
             embed.setTitle(`${char.name}: Description`)
                 .addField("Basics", `${this.getElementIcons(char)} ${char.star}★ ${data.emoji(char.weaponType, true)} user`)
                 .setDescription(char.desc)
+                .addField("Base stats", `${
+                    Object.entries(data.getCharStatsAt(char, 1, 0))
+                        .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
+                        .join("\n")
+                }`, true)
+                .addField(`Lv. ${maxAscension.maxLevel} A${maxAscension.level} stats`, `${
+                    Object.entries(data.getCharStatsAt(char, maxAscension.maxLevel, maxAscension.level))
+                        .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
+                        .join("\n")
+                }`, true)
 
             // This is ugly, but is for Traveler/other multi-book characters, also enforces some order/grade of item
             const talentCostLv2 = char.skills[0]?.ult.costs[2]?.items,

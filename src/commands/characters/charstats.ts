@@ -80,7 +80,7 @@ Note: this command supports fuzzy search.`,
         if (rows.length == 0)
             return `No stats found for filters ${searchLevel == -1 ? "" : `level = ${searchLevel} `}${searchAscension == -1 ? "" : `ascension = ${searchAscension} `}`
 
-        return `Character stats:
+        return `**${char.name}** stats:
 \`\`\`
 ${createTable(
         ["Lvl", "Asc", ...columns.map(c => data.statName(c))],

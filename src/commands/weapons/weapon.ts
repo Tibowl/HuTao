@@ -142,9 +142,9 @@ Note: this command supports fuzzy search.`,
 
             if (hasRefinements)
                 embed.addField(`${weapon.refinement[0][0].name} (at R1)`, weapon.refinement[0][0].desc)
-
+            embed.addField("Upgrade material", `Ascensions: ${weapon.ascensions[2]?.cost.items.map(i => data.emoji(i.name)).join("")}`)
             return embed
-            // eslint-disable-next-line no-dupe-else-if
+        // eslint-disable-next-line no-dupe-else-if
         } else if (page == currentPage++) {
             const columns: string[] = []
             const rows: string[][] = []
@@ -184,19 +184,19 @@ Note: this command supports fuzzy search.`,
                     embed.addField(`${info.name} ${+refinement+1}`, info.desc)
 
             return embed
-            // eslint-disable-next-line no-dupe-else-if
+        // eslint-disable-next-line no-dupe-else-if
         } else if (page == currentPage++) {
             embed.setTitle(`${weapon.name}: Lore`)
                 .setDescription(weapon.lore)
             return embed
-            // eslint-disable-next-line no-dupe-else-if
+        // eslint-disable-next-line no-dupe-else-if
         } else if (page == currentPage++) {
             embed.setTitle(`${weapon.name}: Base`)
                 .setDescription(`[Open image in browser](${weapon.icon})`)
                 .setImage(weapon.icon)
             embed.thumbnail = null
             return embed
-            // eslint-disable-next-line no-dupe-else-if
+        // eslint-disable-next-line no-dupe-else-if
         } else if (page == currentPage++) {
             embed.setTitle(`${weapon.name}: 2nd Ascension`)
                 .setDescription(`[Open image in browser](${weapon.awakenIcon})`)
