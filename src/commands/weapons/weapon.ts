@@ -98,14 +98,20 @@ Note: this command supports fuzzy search.`,
             return message.channel.send("Unable to find weapon")
 
         const hasRefinements = weapon.refinement.length > 0 && weapon.refinement[0].length > 0
-        if (!hasRefinements && defaultPage > 2) defaultPage --
+        if (!hasRefinements && defaultPage > 2) defaultPage--
 
+        const pages: Record<string, number> = {
+            "📝": 0,
+        }
+        if (hasRefinements)
+            pages["🇷"] = 2
+        pages["🎨"] = hasRefinements ? 4 : 3
 
         const embed = this.getWeapon(weapon, defaultPage)
         if (!embed) return message.channel.send("No weapon data loaded")
 
         const reply = await message.channel.send(embed)
-        await paginator(message, reply, (page) => this.getWeapon(weapon, page), undefined, defaultPage)
+        await paginator(message, reply, (page) => this.getWeapon(weapon, page), pages, defaultPage)
         return reply
     }
 
