@@ -1,4 +1,4 @@
-import { Message, MessageReaction } from "discord.js"
+import { Message } from "discord.js"
 import log4js from "log4js"
 
 import Command from "../../utils/Command"
@@ -14,7 +14,7 @@ export default class Shutdown extends Command {
             category: "Admin",
             help: "Kills bot. Admins only.",
             usage: "shutdown",
-            aliases: ["exit"]
+            aliases: ["exit", "restart"]
         })
     }
 
@@ -22,21 +22,29 @@ export default class Shutdown extends Command {
         if (!config.admins.includes(message.author.id)) return message.reply("Admins only")
 
         Logger.info(`Shutting down by ${message.author.id}`)
-        let toRemove: (Promise<MessageReaction> | undefined)[] = []
+        let toRemove: (Promise<unknown> | undefined)[] = []
 
         const user = client.user
         if (user != undefined) {
             await user.setStatus("dnd")
 
             toRemove = client.recentMessages
-                .map(reply => reply?.reactions?.cache.map((reaction) => reaction.me ? reaction.users.remove(user) : undefined).find(k => k))
-                .filter(k => k)
+                .map(async (reply) => {
+                    try {
+                        return reply.reactions.removeAll()
+                    } catch (error) {
+                        return reply?.reactions?.cache.map((reaction) => reaction.me ? reaction.users.remove(user) : undefined).find(k => k)
+                    }
+                })
         }
         const reply = await message.reply(`Shutting down after cleanup. ${toRemove.length ? `Removing ${toRemove.length} reactions...` : ""}`)
 
         try {
-            await Promise.all(toRemove)
-            await reply.edit("poof")
+            const settled = await Promise.allSettled(toRemove)
+            if (settled.some(s => s.status == "rejected"))
+                await reply.edit("poof, some reactions not removed")
+            else
+                await reply.edit("poof")
         } catch (error) {
             await reply.edit("poof, some reactions not removed")
         }

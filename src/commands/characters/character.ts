@@ -105,7 +105,7 @@ Note: this command supports fuzzy search.`,
         return info.skills.map(skill => data.emoji(skill.ult.type)).join(", ")
     }
 
-    async run(message: Message, args: string[]): Promise<Message | Message[]> {
+    async run(message: Message, args: string[]): Promise<Message | Message[] | undefined> {
         const { data } = client
 
         const elementFilter: string[] = []
@@ -126,7 +126,7 @@ Note: this command supports fuzzy search.`,
 
             const reply = await message.channel.send(embed)
             await paginator(message, reply, (page) => this.getCharacters(elementFilter, weaponTypeFilter, starFilter, page))
-            return reply
+            return undefined
         }
 
         let low = false
@@ -158,14 +158,14 @@ Note: this command supports fuzzy search.`,
             return message.channel.send("Unable to find character")
 
         const charpages = this.getCharPages(char)
-        const page = typeof defaultPage == "string" ? charpages[defaultPage] : defaultPage
+        const page = Math.abs(typeof defaultPage == "string" ? charpages[defaultPage] : defaultPage)
         const embed = this.getCharacter(char, page, low)
         if (!embed) return message.channel.send("Unable to load character")
 
         const reply = await message.channel.send(embed)
 
         await paginator(message, reply, (page) => this.getCharacter(char, page, low), charpages, page)
-        return reply
+        return undefined
     }
 
     getCharPages(char: Character): Record<string, number> {
@@ -182,7 +182,7 @@ Note: this command supports fuzzy search.`,
 
             const skills = char.skills[0]
             currentPage += skills.talents.length + 1
-            pages["💤"] = currentPage
+            pages["💤"] = -currentPage
 
             currentPage += 1
             pages["🇨"] = currentPage

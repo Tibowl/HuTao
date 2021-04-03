@@ -269,11 +269,18 @@ function clean(line: string) {
 const emojis = ["⬅️", "➡️"]
 async function paginatorLoop(message: Message, reply: Message, pages: ((p: number) => MessageEmbed | undefined), skipPages: Record<string, number> = {}, currentPage = 0): Promise<void> {
     reply.awaitReactions(
-        (reaction, user) => [...emojis, ...Object.keys(skipPages).map(name => name.match(/<:(.*?):\d+>/)?.[1] ?? name)].includes(reaction.emoji.name) && (user.id == message.author.id || config.admins.includes(user.id)),
+        (reaction, user) => ["❌", ...emojis, ...Object.keys(skipPages).map(name => name.match(/<:(.*?):\d+>/)?.[1] ?? name)].includes(reaction.emoji.name) && (user.id == message.author.id || config.admins.includes(user.id)),
         { max: 1, time: 60000, errors: ["time"] }
     ).then((collected) => {
         const r = collected.first()
         const name = r?.emoji.name
+
+        if (name == "❌") {
+            reply.delete()
+            client.recentMessages = client.recentMessages.filter(k => k != reply)
+
+            return
+        }
 
         if (name == emojis[0]) {
             if (currentPage > 0) {
@@ -308,6 +315,7 @@ async function paginatorLoop(message: Message, reply: Message, pages: ((p: numbe
 
         paginatorLoop(message, reply, pages, skipPages, currentPage)
     }).catch(async () => {
+        client.recentMessages = client.recentMessages.filter(k => k != reply)
         const user = client.user
         if (user == undefined) return
         try {
@@ -324,10 +332,12 @@ async function paginatorLoop(message: Message, reply: Message, pages: ((p: numbe
 export async function paginator(message: Message, reply: Message, pages: ((p: number) => MessageEmbed | undefined), skipPages: Record<string, number> = {}, currentPage = 0): Promise<void> {
     paginatorLoop(message, reply, pages, skipPages, currentPage)
 
+    client.recentMessages.push(reply)
     for (const emoji of emojis)
         await reply.react(emoji)
-    for (const emoji of Object.keys(skipPages))
+    for (const emoji of Object.entries(skipPages).filter(([_key, page]) => page >= 0).map(([key]) => key))
         await reply.react(emoji)
+    await reply.react("❌")
 }
 
 export function addArg(args: string[], queries: string | string[], exec: () => void): void {

@@ -16,7 +16,7 @@ export default class News extends Command {
         })
     }
 
-    async run(message: Message, args: string[]): Promise<Message | Message[]> {
+    async run(message: Message, args: string[]): Promise<Message | Message[] | undefined> {
         const { newsManager } = client
 
         if (args.length == 0) {
@@ -46,6 +46,6 @@ export default class News extends Command {
 
         await paginator(message, reply, (page) => getNewsEmbed(post, page))
 
-        return reply
+        return undefined
     }
 }

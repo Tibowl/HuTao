@@ -65,7 +65,7 @@ Note: this command supports fuzzy search.`,
         return embed
     }
 
-    async run(message: Message, args: string[]): Promise<Message | Message[]> {
+    async run(message: Message, args: string[]): Promise<Message | Message[] | undefined> {
         const { data } = client
 
         const weaponFilter: string[] = []
@@ -82,7 +82,7 @@ Note: this command supports fuzzy search.`,
 
             const reply = await message.channel.send(embed)
             await paginator(message, reply, (page) => this.weapons(weaponFilter, starFilter, page))
-            return reply
+            return undefined
         }
 
         let defaultPage = 0
@@ -112,7 +112,7 @@ Note: this command supports fuzzy search.`,
 
         const reply = await message.channel.send(embed)
         await paginator(message, reply, (page) => this.getWeapon(weapon, page), pages, defaultPage)
-        return reply
+        return undefined
     }
 
     getWeapon(weapon: Weapon, page: number): MessageEmbed | undefined {

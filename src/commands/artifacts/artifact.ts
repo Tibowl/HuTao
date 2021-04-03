@@ -48,7 +48,7 @@ Note: this command supports fuzzy search.`,
         return embed
     }
 
-    async run(message: Message, args: string[]): Promise<Message | Message[]> {
+    async run(message: Message, args: string[]): Promise<Message | Message[] | undefined> {
         const { data } = client
 
         if (args.length == 0) {
@@ -57,7 +57,7 @@ Note: this command supports fuzzy search.`,
 
             const reply = await message.channel.send(embed)
             await paginator(message, reply, (page) => this.getArtiSets(page))
-            return reply
+            return undefined
         }
 
         const arti = data.getArtifactByName(args.join(" "))
@@ -69,7 +69,7 @@ Note: this command supports fuzzy search.`,
 
         const reply = await message.channel.send(embed)
         await paginator(message, reply, (page) => this.getArti(arti, page))
-        return reply
+        return undefined
     }
 
     getArti(set: Artifact, page: number): MessageEmbed | undefined {

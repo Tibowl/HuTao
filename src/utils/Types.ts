@@ -14,7 +14,7 @@ export interface CommandStats {
 export type Server = "America" | "Europe" | "Asia" | "TW, HK, MO"
 
 // Following stuff
-export type FollowCategory = "maint" | "news" | "twitter_en" | "twitter_jp" | "twitter_fr" | "twitter_kr" | "twitter_es" | "birthday"
+export type FollowCategory = "news" | "twitter_en" | "twitter_jp" | "twitter_fr" | "twitter_kr" | "twitter_es"
 export interface Follower {
     channelID: string
     category: FollowCategory

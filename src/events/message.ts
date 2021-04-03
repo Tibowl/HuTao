@@ -58,17 +58,18 @@ async function handleCommand(message: Message, cmdInfo: ParsedCommand): Promise<
                 (reaction, user) => reaction.emoji.name == "❌" && (user.id == message.author.id || config.admins.includes(user.id)),
                 { max: 1, time: 60000, errors: ["time"] }
             ).then((collected) => {
-                if (collected)
+                if (collected) {
                     reply.delete()
+                    client.recentMessages = client.recentMessages.filter(k => k != reply)
+                }
             }).catch(() => {
+                client.recentMessages = client.recentMessages.filter(k => k != reply)
+
                 const user = client.user
                 if (user == undefined) return
                 reply?.reactions?.cache.map((reaction) => reaction.me && reaction.emoji.name == "❌" ? reaction.users.remove(user) : undefined)
             })
             client.recentMessages.push(reply)
-            setTimeout(() => {
-                client.recentMessages.shift()
-            }, 65000)
         } catch (error) {
             if (reply.editable)
                 reply.edit(reply.content + "\n\nUnable to add ❌ reaction, please contact admins of this discord guild to give this bot permission to add reactions. Doing so, will allow users to delete bot replies within some time.")

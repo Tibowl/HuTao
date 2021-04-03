@@ -7,8 +7,6 @@ import { createTable } from "../../utils/Utils"
 import config from "../../data/config.json"
 
 const descriptions: { [x in FollowCategory]: string } = {
-    birthday: "Birthday reminders of characters",
-    maint: "Countdown towards maintance",
     news: "Forum news articles",
     twitter_en: "English Twitter feed",
     twitter_jp: "Japanese Twitter feed",
