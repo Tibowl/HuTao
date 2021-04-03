@@ -3,14 +3,20 @@ import client from "../../main"
 
 import Command from "../../utils/Command"
 import { timeLeft } from "../../utils/Utils"
+import config from "../../data/config.json"
 
+const values = [20, 40, 60, client.data.max_resin]
 export default class Resin extends Command {
     constructor(name: string) {
         super({
             name,
             category: "Time",
-            help: "Get time until full resin refill/certain values",
+            help: `Get time until full resin refill/certain values (these are ${values.join(", ")}).
+
+Example with just amount: \`${config.prefix}resin 13\`
+Example with time until next resin: \`${config.prefix}resin 77 7:15\``,
             usage: "resin <current resin> [time until next resin in mm:ss]",
+            aliases: ["r"]
         })
     }
 
@@ -44,7 +50,6 @@ export default class Resin extends Command {
         if (currentResin == max_resin)
             return message.channel.send(`Already at max resin (${currentResin}/${max_resin})`)
 
-        const values = [20, 40, 60, max_resin]
         const correction = mm * 60 + ss
 
         return message.channel.send(`Starting from ${currentResin}/${max_resin}:

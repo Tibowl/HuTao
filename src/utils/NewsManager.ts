@@ -63,7 +63,7 @@ export default class NewsManager {
     async post(post: StoredNews): Promise<void> {
         const embed = getNewsEmbed(post)
 
-        client.followManager.send("news", "A new news article got posted on the forum", embed)
+        client.followManager.send("news", "A news article got posted on the forum", embed)
     }
 
     private addNewsStatement: SQLite.Statement

@@ -53,6 +53,7 @@ export default class HuTaoClient extends Discord.Client {
             })
         })
 
+        const knownCommands: string[] = []
         const readDir = (dir: string): void => {
             fs.readdir(join(__dirname, dir), (err, files) => {
                 if (err) return Logger.error(err)
@@ -62,7 +63,22 @@ export default class HuTaoClient extends Discord.Client {
                     const props = require(`${dir}${file}`)
                     const commandName = file.split(".")[0]
                     Logger.info(`Loading ${commandName}`)
-                    this.commands.set(commandName, new (props.default)(commandName))
+
+                    const command: Command = new (props.default)(commandName)
+                    // Check if command is already registered
+                    if (knownCommands.includes(commandName.toLowerCase()))
+                        Logger.error(`${commandName} already exists!`)
+                    knownCommands.push(commandName.toLowerCase())
+
+                    // Check if any of the aliases are already registered
+                    for (const alias of command.aliases) {
+                        if (knownCommands.includes(alias.toLowerCase()))
+                            Logger.error(`${commandName} is trying to register an alias that's already registered: ${alias}`)
+
+                        knownCommands.push(alias.toLowerCase())
+                    }
+
+                    this.commands.set(commandName, command)
                 })
             })
         }

@@ -10,7 +10,9 @@ export default class ArtifactLevelsCommand extends Command {
             name,
             category: "Artifact",
             usage: "artifact-levels <main stat> [stars = 5]",
-            help: "See artifact main stat level scaling",
+            help: `See artifact main stat level scaling.
+
+Note: this command supports fuzzy search.`,
             aliases: ["artifactlevels", "artifact_levels", "arti-levels", "arti_levels", "main", "mainstat", "artimain", "artimainstat", "al", "am"]
         })
     }

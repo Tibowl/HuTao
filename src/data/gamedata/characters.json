@@ -924,7 +924,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -963,7 +963,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 980.8628540039062
@@ -1006,7 +1006,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1677.791748046875
@@ -1049,7 +1049,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2607.0302734375
@@ -1092,7 +1092,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3303.958984375
@@ -1135,7 +1135,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 4000.887939453125
@@ -1178,7 +1178,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 4697.81689453125
@@ -2946,7 +2946,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -2985,7 +2985,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 681.154541015625
@@ -3024,7 +3024,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1165.1328125
@@ -3063,7 +3063,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1810.4371337890625
@@ -3102,7 +3102,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2294.415283203125
@@ -3141,7 +3141,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2778.3935546875
@@ -3180,7 +3180,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3262.371826171875
@@ -4126,7 +4126,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -4165,7 +4165,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 599.416015625
@@ -4208,7 +4208,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1025.31689453125
@@ -4251,7 +4251,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1593.1846923828125
@@ -4294,7 +4294,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2019.0855712890625
@@ -4337,7 +4337,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2444.986328125
@@ -4380,7 +4380,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2870.88720703125
@@ -5266,7 +5266,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -5305,7 +5305,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 613.0391235351562
@@ -5348,7 +5348,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1048.6195068359375
@@ -5391,7 +5391,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1629.3934326171875
@@ -5434,7 +5434,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2064.973876953125
@@ -5477,7 +5477,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2500.55419921875
@@ -5520,7 +5520,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2936.134765625
@@ -6386,7 +6386,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -6425,7 +6425,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 728.8353881835938
@@ -6468,7 +6468,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1246.692138671875
@@ -6511,7 +6511,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1937.167724609375
@@ -6554,7 +6554,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2455.0244140625
@@ -6597,7 +6597,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2972.881103515625
@@ -6640,7 +6640,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3490.73779296875
@@ -7606,7 +7606,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -7645,7 +7645,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 866.4288330078125
@@ -7688,7 +7688,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1482.04931640625
@@ -7731,7 +7731,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2302.876708984375
@@ -7774,7 +7774,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2918.4970703125
@@ -7817,7 +7817,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3534.11767578125
@@ -7860,7 +7860,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 4149.73828125
@@ -8906,7 +8906,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -8945,7 +8945,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 749.27001953125
@@ -8988,7 +8988,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1281.6461181640625
@@ -9031,7 +9031,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1991.4808349609375
@@ -9074,7 +9074,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2523.85693359375
@@ -9117,7 +9117,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3056.23291015625
@@ -9160,7 +9160,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3588.609130859375
@@ -10066,7 +10066,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -10105,7 +10105,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 592.6044921875
@@ -10148,7 +10148,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1013.66552734375
@@ -10191,7 +10191,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1575.080322265625
@@ -10234,7 +10234,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1996.141357421875
@@ -10277,7 +10277,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2417.202392578125
@@ -10320,7 +10320,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2838.263427734375
@@ -11266,7 +11266,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -11305,7 +11305,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 702.9517211914062
@@ -11348,7 +11348,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1202.4173583984375
@@ -11391,7 +11391,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1868.37158203125
@@ -11434,7 +11434,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2367.83740234375
@@ -11477,7 +11477,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2867.302978515625
@@ -11520,7 +11520,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3366.768798828125
@@ -12446,7 +12446,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -12485,7 +12485,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 681.154541015625
@@ -12528,7 +12528,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1165.1328125
@@ -12571,7 +12571,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1810.4371337890625
@@ -12614,7 +12614,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2294.415283203125
@@ -12657,7 +12657,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2778.3935546875
@@ -12700,7 +12700,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3262.371826171875
@@ -13686,7 +13686,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -13725,7 +13725,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 817.385498046875
@@ -13768,7 +13768,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1398.1593017578125
@@ -13811,7 +13811,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2172.524658203125
@@ -13854,7 +13854,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2753.29833984375
@@ -13897,7 +13897,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3334.072265625
@@ -13940,7 +13940,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3914.84619140625
@@ -14846,7 +14846,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -14885,7 +14885,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 640.2852783203125
@@ -14928,7 +14928,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1095.224853515625
@@ -14971,7 +14971,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1701.8109130859375
@@ -15014,7 +15014,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2156.75048828125
@@ -15057,7 +15057,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2611.68994140625
@@ -15100,7 +15100,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3066.629638671875
@@ -15906,7 +15906,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -15945,7 +15945,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 613.0391235351562
@@ -15988,7 +15988,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1048.6195068359375
@@ -16031,7 +16031,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1629.3934326171875
@@ -16074,7 +16074,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2064.973876953125
@@ -16117,7 +16117,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2500.55419921875
@@ -16160,7 +16160,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2936.134765625
@@ -17026,7 +17026,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -17065,7 +17065,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 686.60400390625
@@ -17108,7 +17108,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1174.4542236328125
@@ -17151,7 +17151,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1824.921142578125
@@ -17194,7 +17194,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2312.771240234375
@@ -17237,7 +17237,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2800.62158203125
@@ -17280,7 +17280,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3288.4716796875
@@ -18166,7 +18166,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -18205,7 +18205,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 575.5756225585938
@@ -18248,7 +18248,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 984.5372314453125
@@ -18291,7 +18291,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1529.8193359375
@@ -18334,7 +18334,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1938.781005859375
@@ -18377,7 +18377,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2347.74267578125
@@ -18420,7 +18420,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2756.7041015625
@@ -19386,7 +19386,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -19425,7 +19425,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 776.5161743164062
@@ -19468,7 +19468,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1328.2513427734375
@@ -19511,7 +19511,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2063.8984375
@@ -19554,7 +19554,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2615.633544921875
@@ -19597,7 +19597,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3167.36865234375
@@ -19640,7 +19640,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3719.10400390625
@@ -20646,7 +20646,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -20685,7 +20685,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 756.08154296875
@@ -20728,7 +20728,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1293.29736328125
@@ -20771,7 +20771,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2009.585205078125
@@ -20814,7 +20814,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2546.801025390625
@@ -20857,7 +20857,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3084.016845703125
@@ -20900,7 +20900,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3621.232666015625
@@ -21866,7 +21866,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -21905,7 +21905,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 825.5595703125
@@ -21948,7 +21948,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1412.141357421875
@@ -21991,7 +21991,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2194.25048828125
@@ -22034,7 +22034,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2780.832275390625
@@ -22077,7 +22077,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3367.4140625
@@ -22120,7 +22120,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3953.995849609375
@@ -23026,7 +23026,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -23065,7 +23065,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 687.9661254882812
@@ -23108,7 +23108,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1176.7841796875
@@ -23151,7 +23151,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1828.54150390625
@@ -23194,7 +23194,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2317.359619140625
@@ -23237,7 +23237,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2806.177490234375
@@ -23280,7 +23280,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3294.99560546875
@@ -24206,7 +24206,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -24245,7 +24245,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 694.77783203125
@@ -24288,7 +24288,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1188.435791015625
@@ -24331,7 +24331,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1846.6463623046875
@@ -24374,7 +24374,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2340.30419921875
@@ -24417,7 +24417,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2833.962158203125
@@ -24460,7 +24460,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3327.6201171875
@@ -25386,7 +25386,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -25425,7 +25425,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 874.6027221679688
@@ -25468,7 +25468,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1496.0308837890625
@@ -25511,7 +25511,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2324.601806640625
@@ -25554,7 +25554,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2946.030029296875
@@ -25597,7 +25597,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3567.45849609375
@@ -25640,7 +25640,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 4188.88671875
@@ -26506,7 +26506,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -26545,7 +26545,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 578.9813842773438
@@ -26588,7 +26588,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 990.3628540039062
@@ -26631,7 +26631,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1538.87158203125
@@ -26674,7 +26674,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1950.2530517578125
@@ -26717,7 +26717,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2361.634521484375
@@ -26760,7 +26760,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2773.01611328125
@@ -27966,7 +27966,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -28005,7 +28005,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 874.6027221679688
@@ -28048,7 +28048,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1496.0308837890625
@@ -28091,7 +28091,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2324.601806640625
@@ -28134,7 +28134,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2946.030029296875
@@ -28177,7 +28177,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3567.45849609375
@@ -28220,7 +28220,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 4188.88671875
@@ -29186,7 +29186,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -29225,7 +29225,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 599.416015625
@@ -29268,7 +29268,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1025.31689453125
@@ -29311,7 +29311,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1593.1846923828125
@@ -29354,7 +29354,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2019.08544921875
@@ -29397,7 +29397,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2444.986328125
@@ -29440,7 +29440,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2870.88720703125
@@ -30426,7 +30426,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -30465,7 +30465,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 980.86279296875
@@ -30508,7 +30508,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1677.791748046875
@@ -30551,7 +30551,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2607.0302734375
@@ -30594,7 +30594,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3303.958984375
@@ -30637,7 +30637,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 4000.887939453125
@@ -30680,7 +30680,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 4697.81689453125
@@ -31686,7 +31686,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -31725,7 +31725,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 701.5891723632812
@@ -31768,7 +31768,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1200.0867919921875
@@ -31811,7 +31811,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1864.750244140625
@@ -31854,7 +31854,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2363.247802734375
@@ -31897,7 +31897,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2861.745361328125
@@ -31940,7 +31940,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3360.242919921875
@@ -32846,7 +32846,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -32885,7 +32885,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 882.7765502929688
@@ -32928,7 +32928,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1510.0125732421875
@@ -32971,7 +32971,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2346.3271484375
@@ -33014,7 +33014,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2973.563232421875
@@ -33057,7 +33057,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3600.799072265625
@@ -33100,7 +33100,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 4228.03515625
@@ -34066,7 +34066,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -34105,7 +34105,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 653.9085693359375
@@ -34148,7 +34148,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1118.52783203125
@@ -34191,7 +34191,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1738.0201416015625
@@ -34234,7 +34234,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2202.639404296875
@@ -34277,7 +34277,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2667.258544921875
@@ -34320,7 +34320,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3131.8779296875
@@ -35226,7 +35226,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -35265,7 +35265,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 850.0811157226562
@@ -35308,7 +35308,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1454.086181640625
@@ -35351,7 +35351,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2259.42626953125
@@ -35394,7 +35394,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2863.43115234375
@@ -35437,7 +35437,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3467.436279296875
@@ -35480,7 +35480,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 4071.441162109375
@@ -36486,7 +36486,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -36525,7 +36525,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1038.079833984375
@@ -36568,7 +36568,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1775.662841796875
@@ -36611,7 +36611,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2759.10693359375
@@ -36654,7 +36654,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3496.68994140625
@@ -36697,7 +36697,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 4234.27294921875
@@ -36740,7 +36740,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 4971.85595703125
@@ -37626,7 +37626,7 @@
         "cost": {
           "items": []
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 0
@@ -37665,7 +37665,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 769.7046508789062
@@ -37708,7 +37708,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 1316.60009765625
@@ -37751,7 +37751,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2045.7939453125
@@ -37794,7 +37794,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 2592.689453125
@@ -37837,7 +37837,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3139.584716796875
@@ -37880,7 +37880,7 @@
             }
           ]
         },
-        "statsup": [
+        "statsUp": [
           {
             "stat": "Base HP",
             "value": 3686.480224609375

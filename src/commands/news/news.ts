@@ -12,7 +12,7 @@ export default class News extends Command {
             category: "News",
             usage: "news [id]",
             help: `Check up on latest news. You can follow these with \`${config.prefix}follow add news\``,
-            aliases: ["following", "reminders", "notifications", "subscribe"]
+            aliases: ["new", "n"]
         })
     }
 

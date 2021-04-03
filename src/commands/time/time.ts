@@ -8,7 +8,7 @@ export default class Time extends Command {
         super({
             name,
             category: "Time",
-            help: "Get current time in the server timezones",
+            help: "Get the current time in the server timezones. Also displays time until next daily and weekly reset.",
             usage: "time",
             aliases: ["times", "currenttime", "daily"],
         })

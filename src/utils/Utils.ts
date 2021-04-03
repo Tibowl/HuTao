@@ -330,6 +330,22 @@ export async function paginator(message: Message, reply: Message, pages: ((p: nu
         await reply.react(emoji)
 }
 
+export function addArg(args: string[], queries: string | string[], exec: () => void): void {
+    if (typeof queries == "string")
+        queries = [queries]
+
+    const lowerArgs = args.map(a => a.toLowerCase())
+    for (let query of queries) {
+        query = query.toLowerCase()
+
+        if (lowerArgs.includes(query)) {
+            exec()
+            args.splice(lowerArgs.indexOf(query), 1)
+            lowerArgs.splice(lowerArgs.indexOf(query), 1)
+        }
+    }
+}
+
 export function levenshtein(a: string, b: string): number {
     if (a.length == 0) return b.length
     if (b.length == 0) return a.length

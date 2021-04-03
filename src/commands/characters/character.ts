@@ -2,8 +2,8 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { createTable, PAD_END, PAD_START, paginator } from "../../utils/Utils"
-import { BotEmoji, Character, Cost, Skill } from "../../utils/Types"
+import { addArg, createTable, PAD_END, PAD_START, paginator } from "../../utils/Utils"
+import { BotEmoji, Character, Skill } from "../../utils/Types"
 import config from "../../data/config.json"
 
 const elementColors: Record<string, string> = {
@@ -22,8 +22,8 @@ const elementColors: Record<string, string> = {
     "Hydro": "#06E5FE",
     "Water": "#06E5FE",
 
-    "Fire": "#FFAA6E",
     "Pyro": "#FFAA6E",
+    "Fire": "#FFAA6E",
 
     "Dendro": "#B2EB28",
     "Grass": "#B2EB28",
@@ -31,20 +31,48 @@ const elementColors: Record<string, string> = {
     "None": "#545353",
 }
 
+const elementTypes = Object.values(client.data.characters)
+    .map(c => c.meta.element)
+    .filter((v, i, arr) => arr.indexOf(v) == i && v !== "None")
+    .sort()
+
+const weaponTypes = Object.values(client.data.characters)
+    .map(c => c.weaponType)
+    .filter((v, i, arr) => arr.indexOf(v) == i)
+    .sort()
+
+const possibleStars = Object.values(client.data.characters)
+    .map(c => c.star)
+    .filter((v, i, arr) => arr.indexOf(v) == i)
+    .sort((a, b) => a-b)
+
 export default class CharacterCommand extends Command {
     constructor(name: string) {
         super({
             name,
             category: "Character",
             usage: "character [name]",
-            help: "Search for a character",
+            help: `Displays character information. If no name is provided, a list of all characters will be displayed.
+
+By default, the talent pages will only list high talent levels, to show lower levels, use \`${config.prefix}c <name> -low\`.
+
+To directly skip to a certain section, one can use \`${config.prefix}c <name> -[info|art|stats|books|skill|const]\` to directly skip to that page.
+Note: for the Traveler (or any other future character with multiple elements) you can only use \`${config.prefix}c <name> -[info|art|stats|anemo|geo|...]\`
+
+The list of characters can be filtered by using \`${config.prefix}c -[${possibleStars.map(star => star + "*").join("|")}|${elementTypes.map(e => e.toLowerCase()).join("|")}|${weaponTypes.map(e => e.toLowerCase()).join("|")}]\`, these can be combined.
+Characters listed will be from any of the searched stars AND from any of the listed elements AND from any of the listed weapon types.
+
+Note: this command supports fuzzy search.`,
             aliases: ["characters", "cstats", "cmeta", "c", "cascension", "char"]
         })
     }
 
-    getCharacters(page: number): MessageEmbed | undefined {
+    getCharacters(elementFilter: string[], weaponTypeFilter: string[], starFilter: number[], page: number): MessageEmbed | undefined {
         const { data } = client
         const arti = Object.entries(data.characters)
+            .filter(([_, info]) => starFilter.length == 0 || starFilter.includes(info.star))
+            .filter(([_, info]) => elementFilter.length == 0 || elementFilter.find(elem => this.getElementIcons(info).includes(elem)))
+            .filter(([_, info]) => weaponTypeFilter.length == 0 || weaponTypeFilter.includes(info.weaponType))
             .reverse()
             .map(([name, info]) => `**${name}**: ${this.getElementIcons(info)} ${info.star}★ ${data.emoji(info.weaponType, true)} user`)
 
@@ -80,48 +108,49 @@ export default class CharacterCommand extends Command {
     async run(message: Message, args: string[]): Promise<Message | Message[]> {
         const { data } = client
 
+        const elementFilter: string[] = []
+        for (const element of elementTypes)
+            addArg(args, [`-${element}`], () => elementFilter.push(element))
+
+        const weaponTypeFilter: string[] = []
+        for (const weaponType of weaponTypes)
+            addArg(args, [`-${weaponType}`], () => weaponTypeFilter.push(weaponType))
+
+        const starFilter: number[] = []
+        for (const star of possibleStars)
+            addArg(args, [`-${star}`, `-${star}*`], () => starFilter.push(star))
+
         if (args.length == 0) {
-            const embed = this.getCharacters(0)
+            const embed = this.getCharacters(elementFilter, weaponTypeFilter, starFilter, 0)
             if (!embed) return message.channel.send("No character data loaded")
 
             const reply = await message.channel.send(embed)
-            await paginator(message, reply, (page) => this.getCharacters(page))
+            await paginator(message, reply, (page) => this.getCharacters(elementFilter, weaponTypeFilter, starFilter, page))
             return reply
         }
 
         let low = false
         let defaultPage: string | number = 0
 
-        function addArg(queries: string | string[], exec: () => void) {
-            if (typeof queries == "string")
-                queries = [queries]
-            for (const query of queries) {
-                if (args.includes(query)) {
-                    exec()
-                    args.splice(args.indexOf(query), 1)
-                }
-            }
-        }
-
-        addArg(["-low", "-l"], () => {
+        addArg(args, ["-low", "-l"], () => {
             low = true
             defaultPage = 3
         })
-        addArg(["-info", "-i"], () => defaultPage = 1)
-        addArg(["-art", "-a"], () => defaultPage = "🎨")
-        addArg(["-stats", "-asc", "-ascensions", "-ascend"], () => defaultPage = 2)
-        addArg(["-books", "-talentupgrade"], () => defaultPage = 3)
-        addArg(["-skill", "-skills", "-talents", "-s", "-t"], () => defaultPage = 4)
-        addArg(["-const", "-constellation", "-constellations", "-c"], () => defaultPage = "🇨")
+        addArg(args, ["-info", "-i"], () => defaultPage = 1)
+        addArg(args, ["-art", "-a"], () => defaultPage = "🎨")
+        addArg(args, ["-stats", "-asc", "-ascensions", "-ascend"], () => defaultPage = 2)
+        addArg(args, ["-books", "-talentupgrade"], () => defaultPage = 3)
+        addArg(args, ["-skill", "-skills", "-talents", "-s", "-t"], () => defaultPage = 4)
+        addArg(args, ["-const", "-constellation", "-constellations", "-c"], () => defaultPage = "🇨")
 
         // for MC
-        addArg(["-anemo"], () => defaultPage = data.emojis.Wind)
-        addArg(["-geo"], () => defaultPage = data.emojis.Rock)
-        addArg(["-electro"], () => defaultPage = data.emojis.Electric)
-        addArg(["-pyro"], () => defaultPage = data.emojis.Fire)
-        addArg(["-dendro"], () => defaultPage = data.emojis.Grass)
-        addArg(["-cryo"], () => defaultPage = data.emojis.Ice)
-        addArg(["-hydro"], () => defaultPage = data.emojis.Water)
+        if (elementFilter.includes("Anemo")) defaultPage = data.emojis.Wind
+        if (elementFilter.includes("Geo")) defaultPage = data.emojis.Rock
+        if (elementFilter.includes("Electro")) defaultPage = data.emojis.Electric
+        if (elementFilter.includes("Pyro")) defaultPage = data.emojis.Fire
+        if (elementFilter.includes("Dendro")) defaultPage = data.emojis.Grass
+        if (elementFilter.includes("Cryo")) defaultPage = data.emojis.Ice
+        if (elementFilter.includes("Hydro")) defaultPage = data.emojis.Water
 
         const char = data.getCharacterByName(args.join(" "))
         if (char == undefined)
@@ -206,7 +235,7 @@ export default class CharacterCommand extends Command {
                     if (!columns.includes(key))
                         columns.push(key)
 
-                rows.push([level.toString(), ascension.toString(), ...columns.map(c => stats[c] < 2 ? ((stats[c] * 100).toFixed(0) + "%") : stats[c].toFixed(0))])
+                rows.push([level.toString(), ascension.toString(), ...columns.map(c => data.stat(c, stats[c]))])
             }
 
             let previousMax = 1
@@ -216,21 +245,23 @@ export default class CharacterCommand extends Command {
                 addRow(char, previousMax, asc.level)
 
                 if (asc.cost.mora || asc.cost.items.length > 0)
-                    embed.addField(`Ascension ${asc.level} costs`, this.getCosts(asc.cost), true)
+                    embed.addField(`Ascension ${asc.level} costs`, data.getCosts(asc.cost), true)
             }
 
             embed.setTitle(`${char.name}: Ascensions + stats`)
                 .setDescription("Character stats:\n```\n" + createTable(
-                    ["Lvl", "Asc", ...columns.map(c => c.replace("Base ", "").replace("CRIT ", "C"))],
+                    ["Lvl", "Asc", ...columns.map(c => data.statName(c))],
                     rows,
                     [PAD_START]
                 ) + "\n```")
+                .setFooter(`${embed.footer?.text} - Use '${config.prefix}charstats ${char.name} [level] [A<ascension>]' for a specific level`)
+
             return embed
         } else if (page == 3) {
             let i = 1
             for (const cost of char.skills[0].ult.costs) {
                 if (cost.mora || cost.items.length > 0)
-                    embed.addField(`Talent lv ${++i} costs`, this.getCosts(cost), true)
+                    embed.addField(`Talent lv ${++i} costs`, data.getCosts(cost), true)
             }
 
             embed.setTitle(`${char.name}: Talent upgrade costs`)
@@ -312,9 +343,5 @@ export default class CharacterCommand extends Command {
         }
 
         return undefined
-    }
-
-    private getCosts(cost: Cost): string {
-        return `**${cost.mora}**x *Mora*\n${cost.items.map(i => `**${i.count}**x *${i.name}*`).join("\n")}`
     }
 }

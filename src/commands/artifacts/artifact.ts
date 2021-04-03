@@ -12,7 +12,9 @@ export default class ArtifactCommand extends Command {
             name,
             category: "Artifact",
             usage: "artifact [name]",
-            help: "Search for an artifact set",
+            help: `Displays artifact set information. If no name is provided, a list of all artifact sets will be displayed.
+
+Note: this command supports fuzzy search.`,
             aliases: ["artifactset", "arti", "artiset"]
         })
     }

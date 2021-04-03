@@ -2,7 +2,7 @@ import log4js from "log4js"
 import { exists, unlink, move, writeFile, existsSync, readFileSync } from "fs-extra"
 import { join } from "path"
 
-import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store } from "./Types"
+import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost } from "./Types"
 
 import artifactsData from "../data/gamedata/artifacts.json"
 import artifactsMainStats from "../data/gamedata/artifact_main_stats.json"
@@ -10,6 +10,9 @@ import artifactsMainLevels from "../data/gamedata/artifact_main_levels.json"
 
 import characterData from "../data/gamedata/characters.json"
 import curves from "../data/gamedata/curves.json"
+
+import weaponData from "../data/gamedata/weapons.json"
+import weaponCurves from "../data/gamedata/weaponcurves.json"
 
 import emojiData from "../data/emojis.json"
 
@@ -34,6 +37,7 @@ export default class DataManager {
     readonly artifactMainLevels: Record<string, Record<number, Record<number, string>>> = artifactsMainLevels as Record<string, Record<number, Record<number, string>>>
 
     readonly characters: Record<string, Character> = characterData as Record<string, Character>
+    readonly weapons: Record<string, Weapon> = weaponData as Record<string, Weapon>
 
     readonly emojis: Record<BotEmoji, string> = emojiData
 
@@ -112,6 +116,16 @@ export default class DataManager {
         return undefined
     }
 
+    getWeaponByName(name: string): Weapon | undefined {
+        const targetNames = Object.keys(this.weapons)
+        const target = findFuzzy(targetNames, name)
+
+        if (target)
+            return this.weapons[target]
+
+        return undefined
+    }
+
     getCharStatsAt(char: Character, level: number, ascension: number): Record<string, number> {
         const stats: Record<string, number> = {
             "Base HP": char.hpBase,
@@ -127,10 +141,45 @@ export default class DataManager {
 
         const asc = char.ascensions.find(a => a.level == ascension)
 
-        for (const statup of asc?.statsup ?? []) {
+        for (const statup of asc?.statsUp ?? []) {
             stats[statup.stat] = (stats[statup.stat] ?? 0) + statup.value
         }
 
         return stats
+    }
+
+    getWeaponStatsAt(weapon: Weapon, level: number, ascension: number): Record<string, number> {
+        const stats: Record<string, number> = {}
+
+        for (const curve of weapon.weaponCurve) {
+            stats[curve.stat] = curve.init * weaponCurves[curve.curve][level - 1]
+        }
+
+        const asc = weapon.ascensions.find(a => a.level == ascension)
+
+        for (const statup of asc?.statsUp ?? []) {
+            stats[statup.stat] = (stats[statup.stat] ?? 0) + statup.value
+        }
+
+        return stats
+    }
+
+    stat(name: string, value: number): string {
+        // TODO base on name instead of value
+        return value < 2 ? ((value * 100).toFixed(0) + "%") : value.toFixed(0)
+    }
+
+    statName(name: string): string {
+        return name.replace("Base ", "").replace("CRIT ", "C")
+    }
+
+    getCosts(cost: Cost): string {
+        const items = cost.items
+        if (cost.mora)
+            items.unshift({
+                name: "Mora",
+                count: cost.mora
+            })
+        return cost.items.map(i => `**${i.count}**x *${i.name}*`).join("\n")
     }
 }

@@ -26,7 +26,9 @@ export default class Follow extends Command {
             help: `Follow certain events in a channel
 
 **Possible events**:
-${Object.entries(descriptions).map(([k, v]) => `  ${k}: *${v}*`).join("\n")}`,
+${Object.entries(descriptions).map(([k, v]) => `  ${k}: *${v}*`).join("\n")}
+
+Example of adding news: \`${config.prefix}follow add news\``,
             aliases: ["following", "reminders", "notifications", "subscribe"]
         })
     }
