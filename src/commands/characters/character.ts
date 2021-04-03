@@ -56,7 +56,7 @@ export default class CharacterCommand extends Command {
 
 By default, the talent pages will only list high talent levels, to show lower levels, use \`${config.prefix}c <name> -low\`.
 
-To directly skip to a certain section, one can use \`${config.prefix}c <name> -[info|art|stats|books|skill|const]\` to directly skip to that page.
+To directly skip to a certain section, one can use \`${config.prefix}c <name> -[info|art|stats|books|skill|passive|const]\` to directly skip to that page.
 Note: for the Traveler (or any other future character with multiple elements) you can only use \`${config.prefix}c <name> -[info|art|stats|anemo|geo|...]\`
 
 The list of characters can be filtered by using \`${config.prefix}c -[${possibleStars.map(star => star + "*").join("|")}|${elementTypes.map(e => e.toLowerCase()).join("|")}|${weaponTypes.map(e => e.toLowerCase()).join("|")}]\`, these can be combined.
@@ -141,6 +141,7 @@ Note: this command supports fuzzy search.`,
         addArg(args, ["-stats", "-asc", "-ascensions", "-ascend"], () => defaultPage = 2)
         addArg(args, ["-books", "-talentupgrade"], () => defaultPage = 3)
         addArg(args, ["-skill", "-skills", "-talents", "-s", "-t"], () => defaultPage = 4)
+        addArg(args, ["-passive", "-passives", "-p"], () => defaultPage = "💤")
         addArg(args, ["-const", "-constellation", "-constellations", "-c"], () => defaultPage = "🇨")
 
         // for MC
@@ -180,7 +181,10 @@ Note: this command supports fuzzy search.`,
             pages[data.emojis[char.weaponType as BotEmoji] ?? "⚔️"] = currentPage
 
             const skills = char.skills[0]
-            currentPage += skills.talents.length + 1 + skills.passive.length
+            currentPage += skills.talents.length + 1
+            pages["💤"] = currentPage
+
+            currentPage += 1
             pages["🇨"] = currentPage
 
             currentPage += 1
@@ -188,7 +192,7 @@ Note: this command supports fuzzy search.`,
         } else {
             for (const skills of char.skills) {
                 pages[data.emojis[skills.ult.type as BotEmoji] ?? "❔"] = currentPage
-                currentPage += skills.talents.length + 1 + skills.passive.length + 1
+                currentPage += skills.talents.length + 3
             }
             pages["🎨"] = currentPage
         }
@@ -335,13 +339,14 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
                 return embed
             }
 
-            for (const passive of skills.passive) {
-                if (currentPage++ == page) {
-                    embed.setTitle(`${char.name}: ${passive.name}`)
-                        .setDescription(passive.desc)
-                        .addField("Unlocked by", passive.minAscension ? `Ascension ${passive.minAscension}` : "Unlocked by default")
-                    return embed
+            if (currentPage++ == page) {
+                embed.setTitle(`${char.name}: Passives`)
+                for (const passive of skills.passive.sort((a, b) => a.minAscension - b.minAscension)) {
+                    embed.addField(passive.name, `${passive.desc}
+    
+*${passive.minAscension > 0 ? `Unlocks at ascension **${passive.minAscension}**` : "Unlocked by **default**"}*`)
                 }
+                return embed
             }
 
             if (currentPage++ == page) {
