@@ -1,7 +1,7 @@
 {
   "1": {
     "teams": 1,
-    "leyline": "Pyro DMG dealt by all party members increased by 75%.",
+    "leyline": "Pyro DMG dealt by all party members increased by 75%.\nOverloaded DMG increased by 200%.",
     "chambers": [
       {
         "chamber": 1,
@@ -48,7 +48,7 @@
   },
   "2": {
     "teams": 1,
-    "leyline": "Cryo DMG dealt by all party members increased by 75%.",
+    "leyline": "Cryo DMG dealt by all party members increased by 75%.\nThe duration of the Frozen status effect is greatly increased.",
     "chambers": [
       {
         "chamber": 1,
@@ -91,7 +91,7 @@
   },
   "3": {
     "teams": 1,
-    "leyline": "Increases Swirl reaction DMG by 300%, and its AoE by 100%.",
+    "leyline": "Increases Swirl reaction DMG by 300%, and its AoE by 100%.\nAnemo DMG dealt by all party members increased by 75%.",
     "chambers": [
       {
         "chamber": 1,
@@ -141,7 +141,7 @@
   },
   "4": {
     "teams": 1,
-    "leyline": "Electro DMG dealt by all party members increased by 75%.",
+    "leyline": "Electro DMG dealt by all party members increased by 75%.\nElectro-Charged DMG increased by 150%, and its AoE is increased by 100%.",
     "chambers": [
       {
         "chamber": 1,
@@ -190,7 +190,7 @@
   },
   "5": {
     "teams": 2,
-    "leyline": "When your character's HP is greater than 50%, ATK and DEF are increased by 25%.",
+    "leyline": "When your character's HP is greater than 50%, ATK and DEF are increased by 25%.\nWhen HP is greater than 80%, Normal Attack SPD is increased by 20%.\nWhen HP is greater than 80%, Movement SPD is increased by 20%.\nWhen HP is greater than 95%, CRIT Rate is increased by 10% and CRIT DMG is increased by 20%.",
     "chambers": [
       {
         "chamber": 1,
@@ -323,7 +323,7 @@
   },
   "7": {
     "teams": 2,
-    "leyline": "CRIT hits will generate Elemental Particles and Orbs. Can only occur once every 15s.",
+    "leyline": "CRIT hits will generate Elemental Particles and Orbs. Can only occur once every 15s.\nCRIT DMG dealt by all party members increased by 120%.",
     "chambers": [
       {
         "chamber": 1,
@@ -380,7 +380,7 @@
   },
   "8": {
     "teams": 2,
-    "leyline": "When HP is less than 60%, ATK is increased by 50% and DEF is increased by 50%.",
+    "leyline": "When HP is less than 60%, ATK is increased by 50% and DEF is increased by 50%.\nWhen HP is less than 45%, Normal Attack SPD is increased by 30%.\nWhen HP is less than 45%, Movement SPD is increased by 30%.\nWhen HP is less than 30%, CRIT Rate is increased by 20% and CRIT DMG is increased by 40%.",
     "chambers": [
       {
         "chamber": 1,
@@ -433,7 +433,7 @@
   },
   "9": {
     "teams": 2,
-    "leyline": "Pyro DMG dealt by all party members increased by 75%.",
+    "leyline": "Pyro DMG dealt by all party members increased by 75%.\nElectro DMG dealt by all party members increased by 75%.\nOverloaded DMG increased by 200%.",
     "chambers": [
       {
         "chamber": 1,
@@ -491,7 +491,7 @@
   },
   "10": {
     "teams": 2,
-    "leyline": "Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed.",
+    "leyline": "Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed.\nIncoming healing bonus of all party members increased by 50%.",
     "chambers": [
       {
         "chamber": 1,
@@ -548,7 +548,7 @@
   },
   "11": {
     "teams": 2,
-    "leyline": "Electro DMG dealt by all party members increased by 75%.",
+    "leyline": "Electro DMG dealt by all party members increased by 75%.\nCryo DMG dealt by all party members increased by 75%.\nSuperconduct DMG increased by 300%, and decreases target's Physical RES by an additional 20%.",
     "chambers": [
       {
         "chamber": 1,
@@ -613,7 +613,7 @@
   },
   "12": {
     "teams": 2,
-    "leyline": "Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption and preventing its natural regeneration until the inflicted Cryo element is removed.",
+    "leyline": "Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption and preventing its natural regeneration until the inflicted Cryo element is removed.\nPyro DMG dealt by all party members increased by 75%.",
     "chambers": [
       {
         "chamber": 1,
@@ -674,7 +674,7 @@
   },
   "13": {
     "teams": 2,
-    "leyline": "Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.",
+    "leyline": "Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.\nOpponents will attack the Ruin Braziers, preventing them from diminishing the effects of Sheer Cold in the area. Deactivated Ruin Braziers will restart after a while.",
     "chambers": [
       {
         "chamber": 1,
@@ -731,7 +731,7 @@
   },
   "14": {
     "teams": 2,
-    "leyline": "Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.",
+    "leyline": "Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.\nWarming Seelie appear on the field, and will continually alleviate nearby characters' Sheer Cold.",
     "chambers": [
       {
         "chamber": 1,
@@ -785,7 +785,7 @@
   },
   "15": {
     "teams": 2,
-    "leyline": "Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed.",
+    "leyline": "Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed.\nCryo DMG dealt by all party members increased by 75%.",
     "chambers": [
       {
         "chamber": 1,
@@ -905,7 +905,7 @@
   },
   "17": {
     "teams": 2,
-    "leyline": "For this floor only, the ley line flow will be normal",
+    "leyline": "For this floor only, the ley line flow will be normal\nNo Ley Line Disorder",
     "chambers": [
       {
         "chamber": 1,

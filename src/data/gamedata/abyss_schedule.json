@@ -3,7 +3,7 @@
     "start": "2020-10-01 04:00:00",
     "end": "2020-10-16 03:59:59",
     "buff": "Steel Moon",
-    "buffDesc": "Auras that increase your characters' Shield Strength will occasionally appear during the battle.",
+    "buffDesc": "Auras that increase your characters' Shield Strength will occasionally appear during the battle.\nWhen your character's Stamina is above 50%, a shockwave will be released upon attacking an opponent. Can occur once every 10s.",
     "regularFloors": [
       1,
       2,
@@ -25,7 +25,7 @@
     "start": "2020-10-16 04:00:00",
     "end": "2020-11-01 03:59:59",
     "buff": "Steel Moon",
-    "buffDesc": "Auras that increase your characters' Shield Strength will occasionally appear during the battle.",
+    "buffDesc": "Auras that increase your characters' Shield Strength will occasionally appear during the battle.\nWhen your character's Stamina is above 50%, a shockwave will be released upon attacking an opponent. Can occur once every 10s.",
     "regularFloors": [
       1,
       2,
@@ -47,7 +47,7 @@
     "start": "2020-11-01 04:00:00",
     "end": "2020-11-16 03:59:59",
     "buff": "Efflorescent Moon",
-    "buffDesc": "During the battle, Auras will occasionally appear which increase your characters' Normal ATK SPD and DMG.",
+    "buffDesc": "During the battle, Auras will occasionally appear which increase your characters' Normal ATK SPD and DMG.\nYour character gains increased DMG after rapidly attacking an opponent with Normal or Charged Attacks within a short time. This effect lasts for 1s and can stack up to 10 times, with a 50% chance of causing a shockwave when a stack is added.",
     "regularFloors": [
       1,
       2,
@@ -135,7 +135,7 @@
     "start": "2021-01-01 04:00:00",
     "end": "2021-01-16 03:59:59",
     "buff": "Snowfall Moon",
-    "buffDesc": "When a character obtains an Elemental Shard created from a Crystallize Reaction between Geo and Cryo, a shockwave will be released, dealing DMG to surrounding opponents.",
+    "buffDesc": "When a character obtains an Elemental Shard created from a Crystallize Reaction between Geo and Cryo, a shockwave will be released, dealing DMG to surrounding opponents.\nWhen a character obtains an Elemental Shard created from a Crystallize Reaction between Geo and Cryo, Elemental Skill CD is decreased by 1s.",
     "regularFloors": [
       1,
       2,
@@ -201,7 +201,7 @@
     "start": "2021-02-16 04:00:00",
     "end": "2021-03-01 03:59:59",
     "buff": "Righteous Moon",
-    "buffDesc": "When active character's HP is less than 70%, ATK is increased by 20% and ATK SPD is increased by 15%.",
+    "buffDesc": "When active character's HP is less than 70%, ATK is increased by 20% and ATK SPD is increased by 15%.\nWhen active character's HP is less than 35% and they are under the protection of a shield, CRIT Rate is increased by 20% and CRIT DMG is increased by 40%.",
     "regularFloors": [
       1,
       2,
