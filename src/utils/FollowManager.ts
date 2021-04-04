@@ -19,7 +19,8 @@ export default class FollowManager {
         process.on("SIGINT", () => process.exit(128 + 2))
         process.on("SIGTERM", () => process.exit(128 + 15))
 
-        this.sql.prepare("CREATE TABLE IF NOT EXISTS follows (guildID TEXT, channelID TEXT, category TEXT, addedOn BIGINT, addedBy TEXT, PRIMARY KEY (channelID, category))").run()
+        this.sql.exec("CREATE TABLE IF NOT EXISTS follows (guildID TEXT, channelID TEXT, category TEXT, addedOn BIGINT, addedBy TEXT, PRIMARY KEY (channelID, category))")
+        this.sql.exec("UPDATE follows SET category='news_en-us' WHERE category='news'") // Migration
 
         this.addFollowStatement = this.sql.prepare("INSERT OR REPLACE INTO follows VALUES (@guildID, @channelID, @category, @addedOn, @addedBy)")
 

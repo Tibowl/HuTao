@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { getNewsEmbed, paginator } from "../../utils/Utils"
+import { findFuzzy, getNewsEmbed, paginator } from "../../utils/Utils"
 import config from "../../data/config.json"
 
 export default class News extends Command {
@@ -10,8 +10,9 @@ export default class News extends Command {
         super({
             name,
             category: "News",
-            usage: "news [id]",
-            help: `Check up on latest news. You can follow these with \`${config.prefix}follow add news\``,
+            usage: "news [language or id]",
+            help: `Check up on latest news. You can follow the English ones with \`${config.prefix}follow add news_en-us\`
+Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).join(", ")}`,
             aliases: ["new", "n"]
         })
     }
@@ -19,16 +20,27 @@ export default class News extends Command {
     async run(message: Message, args: string[]): Promise<Message | Message[] | undefined> {
         const { newsManager } = client
 
-        if (args.length == 0) {
+        if (args.length == 0 || !args[0].match(/^\d+/)) {
+            let lang = findFuzzy([
+                ...newsManager.getLanguages(),
+                ...newsManager.getLanguages().map(l => newsManager.getLanguageName(l))
+            ], args[0] ?? "en-us") ?? "en-us"
+
+            for (const l of newsManager.getLanguages())
+                if (lang == newsManager.getLanguageName(l)) {
+                    lang = l
+                    break
+                }
+
             const stored = newsManager
-                .getNews()
+                .getNews(lang)
                 .map(art => `[\`${art.post_id}\`](https://www.hoyolab.com/genshin/article/${art.post_id}): ${art.subject}`)
 
             while (stored.join("\n").length > 1500) stored.pop()
 
             const embed = new MessageEmbed()
                 .setColor("#00EA69")
-                .setTitle("Most recent news articles:")
+                .setTitle(`Most recent ${newsManager.getLanguageName(lang)} news articles:`)
                 .setDescription(stored.join("\n"))
 
             return message.channel.send(embed)

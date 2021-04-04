@@ -7,12 +7,25 @@ import { createTable } from "../../utils/Utils"
 import config from "../../data/config.json"
 
 const descriptions: { [x in FollowCategory]: string } = {
-    news: "Forum news articles",
+    "news_zh-cn": "简体中文 forum news articles",
+    "news_zh-tw": "繁體中文 forum news articles",
+    "news_de-de": "Deutsch forum news articles",
+    "news_en-us": "English forum news articles",
+    "news_es-es": "Español forum news articles",
+    "news_fr-fr": "Français forum news articles",
+    "news_id-id": "Indonesia forum news articles",
+    "news_ja-jp": "日本語 forum news articles",
+    "news_ko-kr": "한국어 forum news articles",
+    "news_pt-pt": "Português forum news articles",
+    "news_ru-ru": "Pусский forum news articles",
+    "news_th-th": "ภาษาไทย forum news articles",
+    "news_vi-vn": "Tiếng Việt forum news articles",
+
     twitter_en: "English Twitter feed",
-    twitter_jp: "Japanese Twitter feed",
-    twitter_kr: "Korean Twitter feed",
-    twitter_es: "Spanish Twitter feed",
-    twitter_fr: "French Twitter feed",
+    twitter_es: "Español Twitter feed",
+    twitter_fr: "Français Twitter feed",
+    twitter_jp: "日本語 Twitter feed",
+    twitter_kr: "한국어 Twitter feed",
 }
 
 export default class Follow extends Command {

@@ -14,7 +14,10 @@ export interface CommandStats {
 export type Server = "America" | "Europe" | "Asia" | "TW, HK, MO"
 
 // Following stuff
-export type FollowCategory = "news" | "twitter_en" | "twitter_jp" | "twitter_fr" | "twitter_kr" | "twitter_es"
+export type FollowCategory =
+    "twitter_en" | "twitter_jp" | "twitter_fr" | "twitter_kr" | "twitter_es" |
+    "news_en-us" | "news_zh-cn" | "news_zh-tw" | "news_de-de" | "news_es-es" | "news_fr-fr" | "news_id-id" | "news_ja-jp" | "news_ko-kr" | "news_pt-pt" | "news_ru-ru" | "news_th-th" | "news_vi-vn"
+
 export interface Follower {
     channelID: string
     category: FollowCategory
@@ -154,6 +157,7 @@ export interface LevelExp {
 
 export interface StoredNews {
     post_id: string
+    lang: string
     type: number
     subject: string
     created_at: number

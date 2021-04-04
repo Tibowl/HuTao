@@ -1,13 +1,49 @@
 import log4js from "log4js"
 import SQLite from "better-sqlite3"
 import { ensureDirSync } from "fs-extra"
-import { News, StoredNews } from "./Types"
 import fetch from "node-fetch"
+
+import { FollowCategory, News, StoredNews } from "./Types"
 import client from "../main"
 import { getNewsEmbed } from "./Utils"
+import config from "../data/config.json"
 
 const Logger = log4js.getLogger("NewsManager")
 ensureDirSync("data/")
+
+type Lang = "zh-cn" | "zh-tw" | "de-de" | "en-us" | "es-es" | "fr-fr" | "id-id" | "ja-jp" | "ko-kr" | "pt-pt" | "ru-ru" | "th-th" | "vi-vn"
+
+const langMap: Record<Lang, string> = {
+    "zh-cn": "简体中文",
+    "zh-tw": "繁體中文",
+    "de-de": "Deutsch",
+    "en-us": "English",
+    "es-es": "Español",
+    "fr-fr": "Français",
+    "id-id": "Indonesia",
+    "ja-jp": "日本語",
+    "ko-kr": "한국어",
+    "pt-pt": "Português",
+    "ru-ru": "Pусский",
+    "th-th": "ภาษาไทย",
+    "vi-vn": "Tiếng Việt",
+}
+
+const languages: { [x in FollowCategory]?: Lang} = {
+    "news_en-us": "en-us",
+    "news_zh-cn": "zh-cn",
+    "news_zh-tw": "zh-tw",
+    "news_de-de": "de-de",
+    "news_es-es": "es-es",
+    "news_fr-fr": "fr-fr",
+    "news_id-id": "id-id",
+    "news_ja-jp": "ja-jp",
+    "news_ko-kr": "ko-kr",
+    "news_pt-pt": "pt-pt",
+    "news_ru-ru": "ru-ru",
+    "news_th-th": "th-th",
+    "news_vi-vn": "vi-vn",
+}
 
 export default class NewsManager {
     sql = new SQLite("data/news.db")
@@ -19,57 +55,65 @@ export default class NewsManager {
         process.on("SIGINT", () => process.exit(128 + 2))
         process.on("SIGTERM", () => process.exit(128 + 15))
 
-        this.sql.exec("CREATE TABLE IF NOT EXISTS news (post_id TEXT, type INT, subject TEXT, created_at INT, nickname TEXT, image_url TEXT, content TEXT, PRIMARY KEY (post_id))")
+        this.sql.exec("CREATE TABLE IF NOT EXISTS news (post_id TEXT, lang TEXT, type INT, subject TEXT, created_at INT, nickname TEXT, image_url TEXT, content TEXT, PRIMARY KEY (post_id))")
         // this.sql.exec("DELETE FROM news WHERE post_id='241284'")
 
-        this.addNewsStatement = this.sql.prepare("INSERT OR REPLACE INTO news VALUES (@post_id, @type, @subject, @created_at, @nickname, @image_url, @content)")
+        this.addNewsStatement = this.sql.prepare("INSERT OR REPLACE INTO news VALUES (@post_id, @lang, @type, @subject, @created_at, @nickname, @image_url, @content)")
         this.getNewsByIdStatement = this.sql.prepare("SELECT * FROM news WHERE post_id = @post_id")
-        this.getNewsStatement = this.sql.prepare("SELECT * FROM news ORDER BY created_at DESC LIMIT 20")
+        this.getNewsStatement = this.sql.prepare("SELECT * FROM news WHERE lang = @lang ORDER BY created_at DESC, post_id DESC LIMIT 20")
 
         this.fetchNews()
     }
 
     async fetchNews(): Promise<void> {
-        try {
+        for (const language of Object.keys(languages) as FollowCategory[])
             for (const type of [1, 2, 3]) {
-                const data = await (await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getNewsList?gids=2&page_size=20&type=${type}`)).json()
+                try {
+                    const langid = languages[language]
+                    if (langid == undefined) {
+                        Logger.error(`Unknown lang ID ${language}`)
+                        continue
+                    }
+                    const data = await (await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getNewsList?gids=2&page_size=20&type=${type}`, { headers:{ "x-rpc-language":langid } })).json()
 
-                if (!data?.data?.list) continue
+                    if (!data?.data?.list) continue
 
-                const articles: News[] = data.data.list
-                for (const article of articles) {
-                    const post_id = article.post.post_id
-                    if (this.getNewsById(post_id)) continue
+                    const articles: News[] = data.data.list
+                    for (const article of articles) {
+                        const post_id = article.post.post_id
+                        if (this.getNewsById(post_id)) continue
 
-                    Logger.info(`Fetching new post: ${post_id} - ${article.post.subject}`)
-                    const postdata = await (await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`)).json()
-                    if (!postdata?.data?.post) continue
+                        Logger.info(`Fetching new post: ${language} ${post_id} - ${article.post.subject}`)
+                        const postdata = await (await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`)).json()
+                        if (!postdata?.data?.post) continue
 
-                    const post: News = postdata.data.post
-                    article.post = post.post
+                        const post: News = postdata.data.post
+                        article.post = post.post
 
-                    const stored = this.addNews(article, type)
-                    this.post(stored)
+                        const stored = this.addNews(article, langid, type)
+                        this.post(language, stored)
+                    }
+                } catch (error) {
+                    Logger.error("An error occurred while fetching news", error)
                 }
             }
-        } catch (error) {
-            Logger.error("An error occurred while fetching news", error)
-        }
+
         setTimeout(() => {
             this.fetchNews()
-        }, 60 * 1000)
+        }, 60 * 1000 * (config.production ? 1 : 30))
     }
 
-    async post(post: StoredNews): Promise<void> {
+    async post(lang: FollowCategory, post: StoredNews): Promise<void> {
         const embed = getNewsEmbed(post)
 
-        client.followManager.send("news", "A news article got posted on the forum", embed)
+        client.followManager.send(lang, "A news article got posted on the forum", embed)
     }
 
     private addNewsStatement: SQLite.Statement
-    addNews(post: News, type: number): StoredNews {
+    addNews(post: News, lang: string, type: number): StoredNews {
         const stored: StoredNews = {
             post_id: post.post.post_id,
+            lang,
             subject: post.post.subject,
             created_at: post.post.created_at,
             nickname: post.user.nickname,
@@ -84,8 +128,10 @@ export default class NewsManager {
     }
 
     private getNewsStatement: SQLite.Statement
-    getNews(): StoredNews[] {
-        return this.getNewsStatement.all()
+    getNews(lang: string): StoredNews[] {
+        return this.getNewsStatement.all({
+            lang
+        })
     }
 
     private getNewsByIdStatement: SQLite.Statement
@@ -93,5 +139,13 @@ export default class NewsManager {
         return this.getNewsByIdStatement.get({
             post_id
         })
+    }
+
+    getLanguages(): string[] {
+        return Object.values(languages) as string[]
+    }
+
+    getLanguageName(lang: string): string {
+        return langMap[lang as Lang] ?? lang
     }
 }
