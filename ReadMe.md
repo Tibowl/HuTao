@@ -49,7 +49,6 @@ See `ht!help weapon` for more information.
 ### Artifacts
 - `ht!artifact`: Displays [a list of all artifact sets](https://i.imgur.com/zBrbFET.png).
 - `ht!artifact <name>`: Displays artifact [set details](https://i.imgur.com/bnqPEA7.png) and [specific items in the set](https://i.imgur.com/8bRmk9K.png)
-    - See links for examples.
 - `ht!artifact-levels <main stat> [stars]`: Displays [scaling of a main stat](https://i.imgur.com/vWxcaNA.png). Stars defaults to `5`, stat search is also fuzzy.
 
 ### News
@@ -63,3 +62,8 @@ See `ht!help weapon` for more information.
 - `ht!resin <current resin> [time until next resin in mm:ss]`: Check how long until your resin refills.
     - Example with just amount: `ht!resin 13` [picture](https://i.imgur.com/JBLeDUa.png)
     - Example with time until next resin: `ht!resin 77 7:15` [picture](https://i.imgur.com/kPRQfEb.png)
+
+### Misc
+- `ht!abyss [cycle: yyyy-mm-1/yyyy-mm-2] [floor]`: Displays current [abyss buff](https://i.imgur.com/9EQSPB3.png) and [floors](https://i.imgur.com/r802uTg.png).
+    - When a floor is provided, the embed will either just list that floor (for Corridor floors) or skip to it in the embed (for Moon Spire floors).
+    - Old floors/buffs can be accessed by providing the cycle, like: `ht!abyss 2020-11-2`
