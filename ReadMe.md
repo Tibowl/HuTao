@@ -66,6 +66,6 @@ See `ht!help weapon` for more information.
     - Example with time until next resin: `ht!resin 77 7:15` [picture](https://i.imgur.com/kPRQfEb.png)
 
 ### Misc
-- `ht!abyss [cycle: yyyy-mm-1/yyyy-mm-2] [floor]`: Displays current [abyss buff](https://i.imgur.com/9EQSPB3.png) and [floors](https://i.imgur.com/r802uTg.png).
+- `ht!abyss [cycle: yyyy-mm-1/yyyy-mm-2] [floor]`: Displays current [abyss buff](https://i.imgur.com/9EQSPB3.png) and [floors](https://i.imgur.com/VeXEvSr.png).
     - When a floor is provided, the embed will either just list that floor (for Corridor floors) or skip to it in the embed (for Moon Spire floors).
     - Old floors/buffs can be accessed by providing the cycle, like: `ht!abyss 2020-11-2`
