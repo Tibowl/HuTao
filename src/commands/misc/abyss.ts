@@ -93,7 +93,7 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
 
         const lastChamber = floor.chambers[floor.chambers.length - 1]
         for (const chamber of floor.chambers) {
-            embed.addField(`Chamber ${chamber.chamber}: Conditions`, chamber.conds.join("\n"))
+            embed.addField(`Chamber ${chamber.chamber}: Conditions`, chamber.conds)
 
             for (const [ind, monsters] of Object.entries(chamber.monsters)) {
                 const status = `${+ind+1}/${chamber.monsters.length}`

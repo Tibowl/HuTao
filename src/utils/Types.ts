@@ -457,7 +457,7 @@ export interface AbyssFloor {
 export interface AbyssChamber {
     chamber:  number
     level:    number
-    conds:    string[]
+    conds:    string
     monsters: Array<string[]>
 }
 

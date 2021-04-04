@@ -6,11 +6,7 @@
       {
         "chamber": 1,
         "level": 24,
-        "conds": [
-          "More than 90 seconds left",
-          "More than 150 seconds left",
-          "More than 210 seconds left"
-        ],
+        "conds": "More than 90/150/210 seconds left",
         "monsters": [
           [
             "Electro Slime",
@@ -22,11 +18,7 @@
       {
         "chamber": 2,
         "level": 24,
-        "conds": [
-          "More than 90 seconds left",
-          "More than 150 seconds left",
-          "More than 210 seconds left"
-        ],
+        "conds": "More than 90/150/210 seconds left",
         "monsters": [
           [
             "Hilichurl Fighter",
@@ -41,11 +33,7 @@
       {
         "chamber": 3,
         "level": 24,
-        "conds": [
-          "More than 90 seconds left",
-          "More than 150 seconds left",
-          "More than 210 seconds left"
-        ],
+        "conds": "More than 90/150/210 seconds left",
         "monsters": [
           [
             "Hilichurl Shooter",
@@ -65,11 +53,7 @@
       {
         "chamber": 1,
         "level": 39,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 90 seconds left",
-          "More than 180 seconds left"
-        ],
+        "conds": "More than 60/90/180 seconds left",
         "monsters": [
           [
             "Electro Slime",
@@ -81,11 +65,7 @@
       {
         "chamber": 2,
         "level": 39,
-        "conds": [
-          "More than 20% HP left",
-          "More than 40% HP left",
-          "More than 60% HP left"
-        ],
+        "conds": "More than 20/40/60% HP left",
         "monsters": [
           [
             "Hydro Slime",
@@ -98,11 +78,7 @@
       {
         "chamber": 3,
         "level": 39,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 90 seconds left",
-          "More than 180 seconds left"
-        ],
+        "conds": "More than 60/90/180 seconds left",
         "monsters": [
           [
             "Hydro Samachurl",
@@ -120,11 +96,7 @@
       {
         "chamber": 1,
         "level": 44,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 90 seconds left",
-          "More than 180 seconds left"
-        ],
+        "conds": "More than 60/90/180 seconds left",
         "monsters": [
           [
             "Cryo Slime",
@@ -141,11 +113,7 @@
       {
         "chamber": 2,
         "level": 44,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 90 seconds left",
-          "More than 180 seconds left"
-        ],
+        "conds": "More than 60/90/180 seconds left",
         "monsters": [
           [
             "Treasure Hoarders: Pyro Potioneer",
@@ -161,11 +129,7 @@
       {
         "chamber": 3,
         "level": 44,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 90 seconds left",
-          "More than 120 seconds left"
-        ],
+        "conds": "More than 60/90/120 seconds left",
         "monsters": [
           [
             "Blazing Axe Mitachurl",
@@ -182,11 +146,7 @@
       {
         "chamber": 1,
         "level": 49,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 120 seconds left",
-          "More than 180 seconds left"
-        ],
+        "conds": "More than 60/120/180 seconds left",
         "monsters": [
           [
             "Hydro Slime",
@@ -200,11 +160,7 @@
       {
         "chamber": 2,
         "level": 49,
-        "conds": [
-          "More than 20% HP left",
-          "More than 40% HP left",
-          "More than 60% HP left"
-        ],
+        "conds": "More than 20/40/60% HP left",
         "monsters": [
           [
             "Hydro Slime",
@@ -219,11 +175,7 @@
       {
         "chamber": 3,
         "level": 49,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 90 seconds left",
-          "More than 120 seconds left"
-        ],
+        "conds": "More than 60/90/120 seconds left",
         "monsters": [
           [
             "Cryo Hilichurl Shooter",
@@ -243,11 +195,7 @@
       {
         "chamber": 1,
         "level": 54,
-        "conds": [
-          "More than 180 seconds left",
-          "More than 300 seconds left",
-          "More than 420 seconds left"
-        ],
+        "conds": "More than 180/300/420 seconds left",
         "monsters": [
           [
             "Large Cryo Slime",
@@ -262,11 +210,7 @@
       {
         "chamber": 2,
         "level": 54,
-        "conds": [
-          "More than 90 seconds left",
-          "More than 180 seconds left",
-          "More than 240 seconds left"
-        ],
+        "conds": "More than 90/180/240 seconds left",
         "monsters": [
           [
             "Treasure Hoarders: Gravedigger",
@@ -287,11 +231,7 @@
       {
         "chamber": 3,
         "level": 54,
-        "conds": [
-          "More than 180 seconds left",
-          "More than 300 seconds left",
-          "More than 420 seconds left"
-        ],
+        "conds": "More than 180/300/420 seconds left",
         "monsters": [
           [
             "Fatui Electro Cicin Mage",
@@ -312,11 +252,7 @@
       {
         "chamber": 1,
         "level": 59,
-        "conds": [
-          "More than 30 seconds left",
-          "More than 60 seconds left",
-          "More than 120 seconds left"
-        ],
+        "conds": "More than 30/60/120 seconds left",
         "monsters": [
           [
             "Cryo Whopperflower",
@@ -338,11 +274,7 @@
       {
         "chamber": 2,
         "level": 59,
-        "conds": [
-          "More than 90 seconds left",
-          "More than 180 seconds left",
-          "More than 270 seconds left"
-        ],
+        "conds": "More than 90/180/270 seconds left",
         "monsters": [
           [
             "Cryo Abyss Mage",
@@ -372,11 +304,7 @@
       {
         "chamber": 3,
         "level": 59,
-        "conds": [
-          "More than 120 seconds left",
-          "More than 240 seconds left",
-          "More than 330 seconds left"
-        ],
+        "conds": "More than 120/240/330 seconds left",
         "monsters": [
           [
             "Stonehide Lawachurl",
@@ -400,11 +328,7 @@
       {
         "chamber": 1,
         "level": 64,
-        "conds": [
-          "More than 120 seconds left",
-          "More than 300 seconds left",
-          "More than 420 seconds left"
-        ],
+        "conds": "More than 120/300/420 seconds left",
         "monsters": [
           [
             "Fatui Skirmisher - Cryogunner Legionnaire",
@@ -421,11 +345,7 @@
       {
         "chamber": 2,
         "level": 64,
-        "conds": [
-          "More than 120 seconds left",
-          "More than 300 seconds left",
-          "More than 390 seconds left"
-        ],
+        "conds": "More than 120/300/390 seconds left",
         "monsters": [
           [
             "Fatui Skirmisher - Cryogunner Legionnaire",
@@ -442,11 +362,7 @@
       {
         "chamber": 3,
         "level": 64,
-        "conds": [
-          "More than 120 seconds left",
-          "More than 330 seconds left",
-          "More than 450 seconds left"
-        ],
+        "conds": "More than 120/330/450 seconds left",
         "monsters": [
           [
             "Fatui Skirmisher - Hydrogunner Legionnaire",
@@ -469,11 +385,7 @@
       {
         "chamber": 1,
         "level": 69,
-        "conds": [
-          "More than 180 seconds left",
-          "More than 330 seconds left",
-          "More than 420 seconds left"
-        ],
+        "conds": "More than 180/330/420 seconds left",
         "monsters": [
           [
             "Hydro Abyss Mage",
@@ -487,11 +399,7 @@
       {
         "chamber": 2,
         "level": 69,
-        "conds": [
-          "More than 180 seconds left",
-          "More than 300 seconds left",
-          "More than 360 seconds left"
-        ],
+        "conds": "More than 180/300/360 seconds left",
         "monsters": [
           [
             "Ruin Guard",
@@ -511,11 +419,7 @@
       {
         "chamber": 3,
         "level": 69,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 120 seconds left",
-          "More than 180 seconds left"
-        ],
+        "conds": "More than 60/120/180 seconds left",
         "monsters": [
           [
             "Cryo Regisvine"
@@ -534,11 +438,7 @@
       {
         "chamber": 1,
         "level": 71,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 180 seconds left",
-          "More than 300 seconds left"
-        ],
+        "conds": "More than 60/180/300 seconds left",
         "monsters": [
           [
             "Large Pyro Slime",
@@ -555,11 +455,7 @@
       {
         "chamber": 2,
         "level": 73,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 180 seconds left",
-          "More than 300 seconds left"
-        ],
+        "conds": "More than 60/180/300 seconds left",
         "monsters": [
           [
             "Fatui Electro Cicin Mage",
@@ -580,11 +476,7 @@
       {
         "chamber": 3,
         "level": 75,
-        "conds": [
-          "More than 180 seconds left",
-          "More than 300 seconds left",
-          "More than 420 seconds left"
-        ],
+        "conds": "More than 180/300/420 seconds left",
         "monsters": [
           [
             "Geovishap Hatchling",
@@ -604,11 +496,7 @@
       {
         "chamber": 1,
         "level": 79,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 180 seconds left",
-          "More than 300 seconds left"
-        ],
+        "conds": "More than 60/180/300 seconds left",
         "monsters": [
           [
             "Blazing Axe Mitachurl",
@@ -624,11 +512,7 @@
       {
         "chamber": 2,
         "level": 81,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 180 seconds left",
-          "More than 300 seconds left"
-        ],
+        "conds": "More than 60/180/300 seconds left",
         "monsters": [
           [
             "Blazing Axe Mitachurl",
@@ -646,11 +530,7 @@
       {
         "chamber": 3,
         "level": 84,
-        "conds": [
-          "More than 180 seconds left",
-          "More than 300 seconds left",
-          "More than 420 seconds left"
-        ],
+        "conds": "More than 180/300/420 seconds left",
         "monsters": [
           [
             "Fatui Skirmisher - Anemoboxer Vanguard",
@@ -673,11 +553,7 @@
       {
         "chamber": 1,
         "level": 87,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 180 seconds left",
-          "More than 300 seconds left"
-        ],
+        "conds": "More than 60/180/300 seconds left",
         "monsters": [
           [
             "Large Cryo Slime",
@@ -698,11 +574,7 @@
       {
         "chamber": 2,
         "level": 89,
-        "conds": [
-          "More than 20% HP left",
-          "More than 40% HP left",
-          "More than 60% HP left"
-        ],
+        "conds": "More than 20/40/60% HP left",
         "monsters": [
           [
             "Blazing Axe Mitachurl",
@@ -723,11 +595,7 @@
       {
         "chamber": 3,
         "level": 91,
-        "conds": [
-          "More than 180 seconds left",
-          "More than 300 seconds left",
-          "More than 420 seconds left"
-        ],
+        "conds": "More than 180/300/420 seconds left",
         "monsters": [
           [
             "Fatui Skirmisher - Cryogunner Legionnaire",
@@ -750,11 +618,7 @@
       {
         "chamber": 1,
         "level": 94,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 180 seconds left",
-          "More than 300 seconds left"
-        ],
+        "conds": "More than 60/180/300 seconds left",
         "monsters": [
           [
             "Wooden Shieldwall Mitachurl",
@@ -771,11 +635,7 @@
       {
         "chamber": 2,
         "level": 97,
-        "conds": [
-          "More than 20% HP left",
-          "More than 40% HP left",
-          "More than 60% HP left"
-        ],
+        "conds": "More than 20/40/60% HP left",
         "monsters": [
           [
             "Cryo Whopperflower",
@@ -795,11 +655,7 @@
       {
         "chamber": 3,
         "level": 99,
-        "conds": [
-          "More than 180 seconds left",
-          "More than 300 seconds left",
-          "More than 420 seconds left"
-        ],
+        "conds": "More than 180/300/420 seconds left",
         "monsters": [
           [
             "Fatui Skirmisher - Cryogunner Legionnaire",
@@ -823,11 +679,7 @@
       {
         "chamber": 1,
         "level": 71,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 180 seconds left",
-          "More than 300 seconds left"
-        ],
+        "conds": "More than 60/180/300 seconds left",
         "monsters": [
           [
             "Ice Shieldwall Mitachurl",
@@ -845,11 +697,7 @@
       {
         "chamber": 2,
         "level": 73,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 180 seconds left",
-          "More than 300 seconds left"
-        ],
+        "conds": "More than 60/180/300 seconds left",
         "monsters": [
           [
             "Ice Shieldwall Mitachurl",
@@ -867,11 +715,7 @@
       {
         "chamber": 3,
         "level": 75,
-        "conds": [
-          "More than 180 seconds left",
-          "More than 300 seconds left",
-          "More than 420 seconds left"
-        ],
+        "conds": "More than 180/300/420 seconds left",
         "monsters": [
           [
             "Frostarm Lawachurl",
@@ -892,11 +736,7 @@
       {
         "chamber": 1,
         "level": 79,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 180 seconds left",
-          "More than 300 seconds left"
-        ],
+        "conds": "More than 60/180/300 seconds left",
         "monsters": [
           [
             "Cryo Abyss Mage",
@@ -913,11 +753,7 @@
       {
         "chamber": 2,
         "level": 81,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 180 seconds left",
-          "More than 300 seconds left"
-        ],
+        "conds": "More than 60/180/300 seconds left",
         "monsters": [
           [
             "Ice Shieldwall Mitachurl",
@@ -934,11 +770,7 @@
       {
         "chamber": 3,
         "level": 84,
-        "conds": [
-          "More than 180 seconds left",
-          "More than 300 seconds left",
-          "More than 420 seconds left"
-        ],
+        "conds": "More than 180/300/420 seconds left",
         "monsters": [
           [
             "Fatui Cryo Cicin Mage",
@@ -958,11 +790,7 @@
       {
         "chamber": 1,
         "level": 87,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 180 seconds left",
-          "More than 300 seconds left"
-        ],
+        "conds": "More than 60/180/300 seconds left",
         "monsters": [
           [
             "Hydro Abyss Mage",
@@ -979,11 +807,7 @@
       {
         "chamber": 2,
         "level": 89,
-        "conds": [
-          "More than 20% HP left",
-          "More than 40% HP left",
-          "More than 60% HP left"
-        ],
+        "conds": "More than 20/40/60% HP left",
         "monsters": [
           [
             "Wooden Shieldwall Mitachurl",
@@ -1007,11 +831,7 @@
       {
         "chamber": 3,
         "level": 91,
-        "conds": [
-          "More than 180 seconds left",
-          "More than 300 seconds left",
-          "More than 420 seconds left"
-        ],
+        "conds": "More than 180/300/420 seconds left",
         "monsters": [
           [
             "Fatui Skirmisher - Anemoboxer Vanguard",
@@ -1034,11 +854,7 @@
       {
         "chamber": 1,
         "level": 94,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 180 seconds left",
-          "More than 300 seconds left"
-        ],
+        "conds": "More than 60/180/300 seconds left",
         "monsters": [
           [
             "Rock Shieldwall Mitachurl",
@@ -1054,11 +870,7 @@
       {
         "chamber": 2,
         "level": 97,
-        "conds": [
-          "More than 60 seconds left",
-          "More than 180 seconds left",
-          "More than 300 seconds left"
-        ],
+        "conds": "More than 60/180/300 seconds left",
         "monsters": [
           [
             "Treasure Hoarders: Gravedigger",
@@ -1075,11 +887,7 @@
       {
         "chamber": 3,
         "level": 99,
-        "conds": [
-          "More than 180 seconds left",
-          "More than 300 seconds left",
-          "More than 420 seconds left"
-        ],
+        "conds": "More than 180/300/420 seconds left",
         "monsters": [
           [
             "Fatui Electro Cicin Mage",
@@ -1102,11 +910,7 @@
       {
         "chamber": 1,
         "level": 94,
-        "conds": [
-          "More than 180 seconds left",
-          "More than 300 seconds left",
-          "More than 420 seconds left"
-        ],
+        "conds": "More than 180/300/420 seconds left",
         "monsters": [
           [
             "Geovishap"
@@ -1119,11 +923,7 @@
       {
         "chamber": 2,
         "level": 97,
-        "conds": [
-          "More than 180 seconds left",
-          "More than 300 seconds left",
-          "More than 420 seconds left"
-        ],
+        "conds": "More than 180/300/420 seconds left",
         "monsters": [
           [
             "Fatui Electro Cicin Mage",
@@ -1138,11 +938,7 @@
       {
         "chamber": 3,
         "level": 99,
-        "conds": [
-          "More than 180 seconds left",
-          "More than 300 seconds left",
-          "More than 420 seconds left"
-        ],
+        "conds": "More than 180/300/420 seconds left",
         "monsters": [
           [
             "Ruin Guard"
