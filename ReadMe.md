@@ -35,6 +35,7 @@ See `ht!help character` for more information.
     - With level: `ht!cs Hu Tao 80` [picture](https://i.imgur.com/1USGQSo.png)
     - With ascension: `ht!cs Hu Tao A6` [picture](https://i.imgur.com/Xc5EOnC.png)
     - Search is also fuzzy, just like `ht!character`.
+- `ht!books`: Displays a list of [Talent Book availability per day](https://i.imgur.com/89Ag7N3.png)
 
 ### Weapons
 - `ht!weapon`: Displays [a list of all weapons](https://i.imgur.com/HbQwOYV.png).
@@ -45,6 +46,7 @@ See `ht!help character` for more information.
 See `ht!help weapon` for more information.
 - `ht!weaponstats <name> [level] A[ascension]`: Displays [weapon stats at a certain level/ascension](https://i.imgur.com/g8ZBKmD.png).
     - This command is very similar to `ht!charstats`, see that command for more information.
+- `ht!weaponmats`: Displays a list of [Weapon Ascension Materials availability per day](https://i.imgur.com/IWQFfU0.png)
 
 ### Artifacts
 - `ht!artifact`: Displays [a list of all artifact sets](https://i.imgur.com/zBrbFET.png).
