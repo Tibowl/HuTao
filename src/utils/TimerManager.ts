@@ -18,6 +18,8 @@ export default class TimerManager {
             client.user.setActivity(config.activity, {
                 type: "LISTENING"
             })
+
+            this.activityTimer = setTimeout(updateActivity, 60000)
         }
 
         if (this.activityTimer == undefined)

@@ -7,7 +7,7 @@ export default class Credits extends Command {
     constructor(name: string) {
         super({
             name,
-            category: "Misc",
+            category: "Meta",
             help: "Bot credits",
             usage: "credits",
             aliases: ["about"]

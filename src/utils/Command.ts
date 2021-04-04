@@ -1,7 +1,7 @@
 import Discord, { Message } from "discord.js"
 import config from "../data/config.json"
 
-export type CommandCategory = "Character" | "Weapons" | "Artifact" | "News" | "Time" | "Misc" | "Admin" | "Hidden"
+export type CommandCategory = "Character" | "Weapons" | "Artifact" | "News" | "Time" | "Misc" | "Meta" | "Admin" | "Hidden"
 export interface CommandOptions {
     name: string
     help: false | string

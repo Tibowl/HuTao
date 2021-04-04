@@ -1,0 +1,332 @@
+{
+  "1": {
+    "start": "2020-10-01 04:00:00",
+    "end": "2020-10-16 03:59:59",
+    "buff": "Steel Moon",
+    "buffDesc": "Auras that increase your characters' Shield Strength will occasionally appear during the battle.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "2": {
+    "start": "2020-10-16 04:00:00",
+    "end": "2020-11-01 03:59:59",
+    "buff": "Steel Moon",
+    "buffDesc": "Auras that increase your characters' Shield Strength will occasionally appear during the battle.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "3": {
+    "start": "2020-11-01 04:00:00",
+    "end": "2020-11-16 03:59:59",
+    "buff": "Efflorescent Moon",
+    "buffDesc": "During the battle, Auras will occasionally appear which increase your characters' Normal ATK SPD and DMG.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "4": {
+    "start": "2020-11-16 04:00:00",
+    "end": "2020-12-01 03:59:59",
+    "buff": "Guardian Moon",
+    "buffDesc": "While protected by a shield, Character ATK +50%",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "5": {
+    "start": "2020-12-01 04:00:00",
+    "end": "2020-12-16 03:59:59",
+    "buff": "Bejeweled Moon",
+    "buffDesc": "When Crystallize occurs, the elemental shard obtained by the character deals Elemental DMG to surrounding opponents. Increased DMG is dealt when the shield is more powerful. DMG dealt scales based on Shield Strength.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "6": {
+    "start": "2020-12-16 04:00:00",
+    "end": "2021-01-01 03:59:59",
+    "buff": "Defiant Moon",
+    "buffDesc": "When a character protected by a shield is hit, it causes an energy explosion, dealing DMG to surrounding opponents. Can only occur once every 4s. DMG dealt scales based on Shield Strength.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "7": {
+    "start": "2021-01-01 04:00:00",
+    "end": "2021-01-16 03:59:59",
+    "buff": "Snowfall Moon",
+    "buffDesc": "When a character obtains an Elemental Shard created from a Crystallize Reaction between Geo and Cryo, a shockwave will be released, dealing DMG to surrounding opponents.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "8": {
+    "start": "2021-01-16 04:00:00",
+    "end": "2021-02-01 03:59:59",
+    "buff": "Midwinter Moon",
+    "buffDesc": "When a character obtains an Elemental Shard created from a Crystallize Reaction between Geo and Cryo, gain 5% increased ATK, 5% increased ATK SPD, and 4% increased Movement SPD. This effect lasts for 20s, and has a maximum of 5 stacks.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "9": {
+    "start": "2021-02-01 04:00:00",
+    "end": "2021-02-16 03:59:59",
+    "buff": "Rime-Worn Moon",
+    "buffDesc": "When a character obtains an Elemental Shard created from a Crystallize Reaction between Geo and Cryo, gain 8% increased CRIT Rate. This effect lasts for 20s, and has a maximum of 5 stacks.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "10": {
+    "start": "2021-02-16 04:00:00",
+    "end": "2021-03-01 03:59:59",
+    "buff": "Righteous Moon",
+    "buffDesc": "When active character's HP is less than 70%, ATK is increased by 20% and ATK SPD is increased by 15%.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      13,
+      14,
+      15,
+      17
+    ]
+  },
+  "11": {
+    "start": "2021-03-01 04:00:00",
+    "end": "2021-03-16 03:59:59",
+    "buff": "Refreshing Moon",
+    "buffDesc": "A Charge will accumulate every 10s, with a maximum of three existing at any one time. If the active character's HP is less than 50%, they will consume a Charge when they hit an opponent to create an unstable energy orb at the opponent's position. This orb will explode after 1s, and only one of them can be created every 2s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      13,
+      14,
+      15,
+      17
+    ]
+  },
+  "12": {
+    "start": "2021-03-16 04:00:00",
+    "end": "2021-04-01 03:59:59",
+    "buff": "Majestic Moon",
+    "buffDesc": "When the active character's HP is less than 50%, they gain a 2% DMG Bonus for 10s after hitting an opponent. This effect can stack up to 10 times, and each character in the party will have their own independent stacks and durations. Each time the stack count or duration of this effect resets, there is a 50% chance to release an Energy Blast. An Energy Blast can be triggered once every 10s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      13,
+      14,
+      15,
+      17
+    ]
+  },
+  "13": {
+    "start": "2021-04-01 04:00:00",
+    "end": "2021-04-16 03:59:59",
+    "buff": "Windward Moon",
+    "buffDesc": "Characters possess an ATK-increasing Windward Aura that can increase their ATK by a maximum of 60%. For every opponent who steps within the Aura, the Aura's effect is decreased by 25%. When 4 or more opponents are within the Aura, this effect will not provide an ATK increase.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      13,
+      14,
+      15,
+      17
+    ]
+  },
+  "14": {
+    "start": "2021-04-16 04:00:00",
+    "end": "2021-05-01 03:59:59",
+    "buff": "Skyward Moon",
+    "buffDesc": "Hitting an opponent with a Plunging Attack decreases their DEF by 40% for 10s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      13,
+      14,
+      15,
+      17
+    ]
+  },
+  "15": {
+    "start": "2021-05-01 04:00:00",
+    "end": "2021-05-16 03:59:59",
+    "buff": "Euphonic Moon",
+    "buffDesc": "Plunging Attacks that hit enemies generate a certain number of Elemental Particles that will recover 6 Energy for the character. Each Plunging Attack can generate Elemental Particles once in this manner, and this can occur once every 1s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      13,
+      14,
+      15,
+      17
+    ]
+  }
+}

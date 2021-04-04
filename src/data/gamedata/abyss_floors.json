@@ -1,0 +1,1157 @@
+{
+  "1": {
+    "teams": 1,
+    "leyline": "Pyro DMG dealt by all party members increased by 75%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 24,
+        "conds": [
+          "More than 90 seconds left",
+          "More than 150 seconds left",
+          "More than 210 seconds left"
+        ],
+        "monsters": [
+          [
+            "Electro Slime",
+            "Large Electro Slime",
+            "Mutant Electro Slime"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 24,
+        "conds": [
+          "More than 90 seconds left",
+          "More than 150 seconds left",
+          "More than 210 seconds left"
+        ],
+        "monsters": [
+          [
+            "Hilichurl Fighter",
+            "Wooden Shield Hilichurl Guard",
+            "Hilichurl Shooter",
+            "Hilichurl Grenadier",
+            "Wooden Shieldwall Mitachurl",
+            "Blazing Axe Mitachurl"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 24,
+        "conds": [
+          "More than 90 seconds left",
+          "More than 150 seconds left",
+          "More than 210 seconds left"
+        ],
+        "monsters": [
+          [
+            "Hilichurl Shooter",
+            "Wooden Shieldwall Mitachurl",
+            "Large Electro Slime",
+            "Mutant Electro Slime",
+            "Fatui Electro Cicin Mage"
+          ]
+        ]
+      }
+    ]
+  },
+  "2": {
+    "teams": 1,
+    "leyline": "Cryo DMG dealt by all party members increased by 75%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 39,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 90 seconds left",
+          "More than 180 seconds left"
+        ],
+        "monsters": [
+          [
+            "Electro Slime",
+            "Large Electro Slime",
+            "Mutant Electro Slime"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 39,
+        "conds": [
+          "More than 20% HP left",
+          "More than 40% HP left",
+          "More than 60% HP left"
+        ],
+        "monsters": [
+          [
+            "Hydro Slime",
+            "Large Hydro Slime",
+            "Blazing Axe Mitachurl",
+            "Hydro Abyss Mage"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 39,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 90 seconds left",
+          "More than 180 seconds left"
+        ],
+        "monsters": [
+          [
+            "Hydro Samachurl",
+            "Blazing Axe Mitachurl",
+            "Hydro Abyss Mage"
+          ]
+        ]
+      }
+    ]
+  },
+  "3": {
+    "teams": 1,
+    "leyline": "Increases Swirl reaction DMG by 300%, and its AoE by 100%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 44,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 90 seconds left",
+          "More than 180 seconds left"
+        ],
+        "monsters": [
+          [
+            "Cryo Slime",
+            "Pyro Slime",
+            "Pyro Hilichurl Shooter",
+            "Cryo Hilichurl Shooter",
+            "Wooden Shield Hilichurl Guard",
+            "Large Electro Slime",
+            "Large Cryo Slime",
+            "Large Pyro Slime"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 44,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 90 seconds left",
+          "More than 180 seconds left"
+        ],
+        "monsters": [
+          [
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders: Hydro Potioneer",
+            "Treasure Hoarders: Electro Potioneer",
+            "Treasure Hoarders: Cryo Potioneer",
+            "Treasure Hoarders: Gravedigger",
+            "Treasure Hoarders - Pugilist",
+            "Treasure Hoarders - Crusher"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 44,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 90 seconds left",
+          "More than 120 seconds left"
+        ],
+        "monsters": [
+          [
+            "Blazing Axe Mitachurl",
+            "Ruin Guard"
+          ]
+        ]
+      }
+    ]
+  },
+  "4": {
+    "teams": 1,
+    "leyline": "Electro DMG dealt by all party members increased by 75%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 49,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 120 seconds left",
+          "More than 180 seconds left"
+        ],
+        "monsters": [
+          [
+            "Hydro Slime",
+            "Large Hydro Slime",
+            "Hilichurl Fighter",
+            "Cryo Hilichurl Shooter",
+            "Hydro Abyss Mage"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 49,
+        "conds": [
+          "More than 20% HP left",
+          "More than 40% HP left",
+          "More than 60% HP left"
+        ],
+        "monsters": [
+          [
+            "Hydro Slime",
+            "Hilichurl Fighter",
+            "Cryo Hilichurl Shooter",
+            "Hilichurl Berserker",
+            "Blazing Axe Mitachurl",
+            "Hydro Abyss Mage"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 49,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 90 seconds left",
+          "More than 120 seconds left"
+        ],
+        "monsters": [
+          [
+            "Cryo Hilichurl Shooter",
+            "Hilichurl Fighter",
+            "Hydro Samachurl",
+            "Blazing Axe Mitachurl",
+            "Hydro Abyss Mage"
+          ]
+        ]
+      }
+    ]
+  },
+  "5": {
+    "teams": 2,
+    "leyline": "When your character's HP is greater than 50%, ATK and DEF are increased by 25%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 54,
+        "conds": [
+          "More than 180 seconds left",
+          "More than 300 seconds left",
+          "More than 420 seconds left"
+        ],
+        "monsters": [
+          [
+            "Large Cryo Slime",
+            "Electro Hilichurl Shooter",
+            "Cryo Slime"
+          ],
+          [
+            "Pyro Abyss Mage"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 54,
+        "conds": [
+          "More than 90 seconds left",
+          "More than 180 seconds left",
+          "More than 240 seconds left"
+        ],
+        "monsters": [
+          [
+            "Treasure Hoarders: Gravedigger",
+            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders: Handyman",
+            "Treasure Hoarders: Cryo Potioneer",
+            "Treasure Hoarders - Marksman"
+          ],
+          [
+            "Treasure Hoarders - Crusher",
+            "Treasure Hoarders - Pugilist",
+            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders - Scout"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 54,
+        "conds": [
+          "More than 180 seconds left",
+          "More than 300 seconds left",
+          "More than 420 seconds left"
+        ],
+        "monsters": [
+          [
+            "Fatui Electro Cicin Mage",
+            "Treasure Hoarders: Handyman"
+          ],
+          [
+            "Fatui Pyro Agent",
+            "Treasure Hoarders: Electro Potioneer"
+          ]
+        ]
+      }
+    ]
+  },
+  "6": {
+    "teams": 2,
+    "leyline": "Using an Elemental Burst increases all party members' ATK and DEF by 6%. Max 10 stacks. At 5 stacks and above, increases character Normal Attack SPD and Movement SPD are by an additional 30%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 59,
+        "conds": [
+          "More than 30 seconds left",
+          "More than 60 seconds left",
+          "More than 120 seconds left"
+        ],
+        "monsters": [
+          [
+            "Cryo Whopperflower",
+            "Large Cryo Slime",
+            "Electro Hilichurl Shooter",
+            "Hilichurl Fighter",
+            "Cryo Slime"
+          ],
+          [
+            "Pyro Whopperflower",
+            "Large Pyro Slime",
+            "Anemo Samachurl",
+            "Cryo Hilichurl Shooter",
+            "Hilichurl Fighter",
+            "Pyro Slime"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 59,
+        "conds": [
+          "More than 90 seconds left",
+          "More than 180 seconds left",
+          "More than 270 seconds left"
+        ],
+        "monsters": [
+          [
+            "Cryo Abyss Mage",
+            "Rock Shieldwall Mitachurl",
+            "Blazing Axe Mitachurl",
+            "Wooden Shieldwall Mitachurl",
+            "Hydro Samachurl",
+            "Pyro Hilichurl Shooter",
+            "Cryo Hilichurl Shooter",
+            "Electro Hilichurl Shooter",
+            "Hilichurl Grenadier",
+            "Hilichurl Berserker",
+            "Rock Shield Hilichurl Guard",
+            "Wooden Shield Hilichurl Guard"
+          ],
+          [
+            "Dendro Samachurl",
+            "Anemo Samachurl",
+            "Large Pyro Slime",
+            "Pyro Hilichurl Shooter",
+            "Cryo Hilichurl Shooter",
+            "Electro Hilichurl Shooter",
+            "Pyro Slime"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 59,
+        "conds": [
+          "More than 120 seconds left",
+          "More than 240 seconds left",
+          "More than 330 seconds left"
+        ],
+        "monsters": [
+          [
+            "Stonehide Lawachurl",
+            "Cryo Hilichurl Shooter",
+            "Electro Hilichurl Shooter",
+            "Geo Samachurl",
+            "Rock Shield Hilichurl Guard"
+          ],
+          [
+            "Pyro Abyss Mage",
+            "Large Pyro Slime"
+          ]
+        ]
+      }
+    ]
+  },
+  "7": {
+    "teams": 2,
+    "leyline": "CRIT hits will generate Elemental Particles and Orbs. Can only occur once every 15s.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 64,
+        "conds": [
+          "More than 120 seconds left",
+          "More than 300 seconds left",
+          "More than 420 seconds left"
+        ],
+        "monsters": [
+          [
+            "Fatui Skirmisher - Cryogunner Legionnaire",
+            "Fatui Skirmisher - Hydrogunner Legionnaire",
+            "Fatui Skirmisher - Electrohammer Vanguard"
+          ],
+          [
+            "Fatui Skirmisher - Cryogunner Legionnaire",
+            "Fatui Skirmisher - Pyroslinger Bracer",
+            "Fatui Skirmisher - Anemoboxer Vanguard"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 64,
+        "conds": [
+          "More than 120 seconds left",
+          "More than 300 seconds left",
+          "More than 390 seconds left"
+        ],
+        "monsters": [
+          [
+            "Fatui Skirmisher - Cryogunner Legionnaire",
+            "Fatui Skirmisher - Geochanter Bracer",
+            "Fatui Skirmisher - Electrohammer Vanguard"
+          ],
+          [
+            "Fatui Skirmisher - Geochanter Bracer",
+            "Fatui Skirmisher - Pyroslinger Bracer",
+            "Fatui Skirmisher - Anemoboxer Vanguard"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 64,
+        "conds": [
+          "More than 120 seconds left",
+          "More than 330 seconds left",
+          "More than 450 seconds left"
+        ],
+        "monsters": [
+          [
+            "Fatui Skirmisher - Hydrogunner Legionnaire",
+            "Fatui Skirmisher - Electrohammer Vanguard",
+            "Fatui Skirmisher - Anemoboxer Vanguard"
+          ],
+          [
+            "Fatui Skirmisher - Pyroslinger Bracer",
+            "Fatui Skirmisher - Electrohammer Vanguard",
+            "Fatui Skirmisher - Anemoboxer Vanguard"
+          ]
+        ]
+      }
+    ]
+  },
+  "8": {
+    "teams": 2,
+    "leyline": "When HP is less than 60%, ATK is increased by 50% and DEF is increased by 50%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 69,
+        "conds": [
+          "More than 180 seconds left",
+          "More than 330 seconds left",
+          "More than 420 seconds left"
+        ],
+        "monsters": [
+          [
+            "Hydro Abyss Mage",
+            "Cryo Abyss Mage"
+          ],
+          [
+            "Pyro Abyss Mage"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 69,
+        "conds": [
+          "More than 180 seconds left",
+          "More than 300 seconds left",
+          "More than 360 seconds left"
+        ],
+        "monsters": [
+          [
+            "Ruin Guard",
+            "Cryo Hilichurl Shooter",
+            "Hilichurl Shooter",
+            "Wooden Shield Hilichurl Guard",
+            "Hilichurl Fighter"
+          ],
+          [
+            "Ruin Guard",
+            "Pyro Hilichurl Shooter",
+            "Hilichurl Berserker",
+            "Hilichurl Grenadier"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 69,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 120 seconds left",
+          "More than 180 seconds left"
+        ],
+        "monsters": [
+          [
+            "Cryo Regisvine"
+          ],
+          [
+            "Pyro Regisvine"
+          ]
+        ]
+      }
+    ]
+  },
+  "9": {
+    "teams": 2,
+    "leyline": "Pyro DMG dealt by all party members increased by 75%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 71,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 180 seconds left",
+          "More than 300 seconds left"
+        ],
+        "monsters": [
+          [
+            "Large Pyro Slime",
+            "Large Electro Slime",
+            "Mutant Electro Slime"
+          ],
+          [
+            "Large Electro Slime",
+            "Mutant Electro Slime",
+            "Large Pyro Slime"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 73,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 180 seconds left",
+          "More than 300 seconds left"
+        ],
+        "monsters": [
+          [
+            "Fatui Electro Cicin Mage",
+            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders: Electro Potioneer",
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders: Cryo Potioneer",
+            "Treasure Hoarders - Scout"
+          ],
+          [
+            "Fatui Skirmisher - Cryogunner Legionnaire",
+            "Fatui Skirmisher - Electrohammer Vanguard",
+            "Fatui Skirmisher - Geochanter Bracer",
+            "Fatui Skirmisher - Anemoboxer Vanguard"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 75,
+        "conds": [
+          "More than 180 seconds left",
+          "More than 300 seconds left",
+          "More than 420 seconds left"
+        ],
+        "monsters": [
+          [
+            "Geovishap Hatchling",
+            "Stonehide Lawachurl"
+          ],
+          [
+            "Ruin Guard"
+          ]
+        ]
+      }
+    ]
+  },
+  "10": {
+    "teams": 2,
+    "leyline": "Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 79,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 180 seconds left",
+          "More than 300 seconds left"
+        ],
+        "monsters": [
+          [
+            "Blazing Axe Mitachurl",
+            "Large Pyro Slime",
+            "Hilichurl Berserker"
+          ],
+          [
+            "Pyro Abyss Mage",
+            "Blazing Axe Mitachurl"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 81,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 180 seconds left",
+          "More than 300 seconds left"
+        ],
+        "monsters": [
+          [
+            "Blazing Axe Mitachurl",
+            "Pyro Whopperflower",
+            "Hilichurl Grenadier",
+            "Hilichurl Fighter"
+          ],
+          [
+            "Pyro Abyss Mage",
+            "Blazing Axe Mitachurl",
+            "Pyro Hilichurl Shooter"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 84,
+        "conds": [
+          "More than 180 seconds left",
+          "More than 300 seconds left",
+          "More than 420 seconds left"
+        ],
+        "monsters": [
+          [
+            "Fatui Skirmisher - Anemoboxer Vanguard",
+            "Fatui Skirmisher - Pyroslinger Bracer"
+          ],
+          [
+            "Pyro Abyss Mage",
+            "Dendro Samachurl",
+            "Pyro Hilichurl Shooter",
+            "Pyro Whopperflower"
+          ]
+        ]
+      }
+    ]
+  },
+  "11": {
+    "teams": 2,
+    "leyline": "Electro DMG dealt by all party members increased by 75%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 87,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 180 seconds left",
+          "More than 300 seconds left"
+        ],
+        "monsters": [
+          [
+            "Large Cryo Slime",
+            "Large Electro Slime",
+            "Mutant Electro Slime",
+            "Cryo Hilichurl Shooter",
+            "Wooden Shield Hilichurl Guard"
+          ],
+          [
+            "Fatui Electro Cicin Mage",
+            "Cryo Abyss Mage",
+            "Hydro Samachurl",
+            "Cryo Hilichurl Shooter",
+            "Electro Hilichurl Shooter"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 89,
+        "conds": [
+          "More than 20% HP left",
+          "More than 40% HP left",
+          "More than 60% HP left"
+        ],
+        "monsters": [
+          [
+            "Blazing Axe Mitachurl",
+            "Rock Shieldwall Mitachurl",
+            "Hilichurl Grenadier",
+            "Rock Shield Hilichurl Guard"
+          ],
+          [
+            "Blazing Axe Mitachurl",
+            "Rock Shieldwall Mitachurl",
+            "Large Electro Slime",
+            "Mutant Electro Slime",
+            "Electro Hilichurl Shooter",
+            "Cryo Hilichurl Shooter"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 91,
+        "conds": [
+          "More than 180 seconds left",
+          "More than 300 seconds left",
+          "More than 420 seconds left"
+        ],
+        "monsters": [
+          [
+            "Fatui Skirmisher - Cryogunner Legionnaire",
+            "Fatui Skirmisher - Geochanter Bracer",
+            "Fatui Skirmisher - Anemoboxer Vanguard"
+          ],
+          [
+            "Fatui Skirmisher - Electrohammer Vanguard",
+            "Fatui Skirmisher - Anemoboxer Vanguard",
+            "Fatui Skirmisher - Geochanter Bracer"
+          ]
+        ]
+      }
+    ]
+  },
+  "12": {
+    "teams": 2,
+    "leyline": "Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption and preventing its natural regeneration until the inflicted Cryo element is removed.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 94,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 180 seconds left",
+          "More than 300 seconds left"
+        ],
+        "monsters": [
+          [
+            "Wooden Shieldwall Mitachurl",
+            "Large Cryo Slime",
+            "Cryo Whopperflower"
+          ],
+          [
+            "Cryo Abyss Mage",
+            "Large Cryo Slime",
+            "Cryo Hilichurl Shooter"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 97,
+        "conds": [
+          "More than 20% HP left",
+          "More than 40% HP left",
+          "More than 60% HP left"
+        ],
+        "monsters": [
+          [
+            "Cryo Whopperflower",
+            "Pyro Hilichurl Shooter",
+            "Cryo Hilichurl Shooter"
+          ],
+          [
+            "Cryo Abyss Mage",
+            "Wooden Shieldwall Mitachurl",
+            "Large Cryo Slime",
+            "Cryo Hilichurl Shooter",
+            "Electro Hilichurl Shooter",
+            "Pyro Hilichurl Shooter"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 99,
+        "conds": [
+          "More than 180 seconds left",
+          "More than 300 seconds left",
+          "More than 420 seconds left"
+        ],
+        "monsters": [
+          [
+            "Fatui Skirmisher - Cryogunner Legionnaire",
+            "Fatui Skirmisher - Electrohammer Vanguard",
+            "Fatui Skirmisher - Anemoboxer Vanguard"
+          ],
+          [
+            "Fatui Skirmisher - Cryogunner Legionnaire",
+            "Fatui Skirmisher - Electrohammer Vanguard",
+            "Fatui Skirmisher - Anemoboxer Vanguard",
+            "Fatui Skirmisher - Geochanter Bracer"
+          ]
+        ]
+      }
+    ]
+  },
+  "13": {
+    "teams": 2,
+    "leyline": "Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 71,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 180 seconds left",
+          "More than 300 seconds left"
+        ],
+        "monsters": [
+          [
+            "Ice Shieldwall Mitachurl",
+            "Ice Shield Hilichurl Guard",
+            "Large Cryo Slime"
+          ],
+          [
+            "Cryo Abyss Mage",
+            "Ice Shieldwall Mitachurl",
+            "Cryo Samachurl",
+            "Cryo Hilichurl Shooter"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 73,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 180 seconds left",
+          "More than 300 seconds left"
+        ],
+        "monsters": [
+          [
+            "Ice Shieldwall Mitachurl",
+            "Ice Shield Hilichurl Guard",
+            "Cryo Hilichurl Grenadier",
+            "Large Cryo Slime"
+          ],
+          [
+            "Fatui Skirmisher - Cryogunner Legionnaire",
+            "Fatui Skirmisher - Electrohammer Vanguard",
+            "Fatui Skirmisher - Anemoboxer Vanguard"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 75,
+        "conds": [
+          "More than 180 seconds left",
+          "More than 300 seconds left",
+          "More than 420 seconds left"
+        ],
+        "monsters": [
+          [
+            "Frostarm Lawachurl",
+            "Cryo Hilichurl Shooter"
+          ],
+          [
+            "Cryo Abyss Mage",
+            "Ice Shieldwall Mitachurl"
+          ]
+        ]
+      }
+    ]
+  },
+  "14": {
+    "teams": 2,
+    "leyline": "Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 79,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 180 seconds left",
+          "More than 300 seconds left"
+        ],
+        "monsters": [
+          [
+            "Cryo Abyss Mage",
+            "Cryo Hilichurl Grenadier",
+            "Large Cryo Slime"
+          ],
+          [
+            "Fatui Electro Cicin Mage",
+            "Cryo Abyss Mage",
+            "Hydro Samachurl"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 81,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 180 seconds left",
+          "More than 300 seconds left"
+        ],
+        "monsters": [
+          [
+            "Ice Shieldwall Mitachurl",
+            "Ice Shield Hilichurl Guard",
+            "Cryo Hilichurl Grenadier"
+          ],
+          [
+            "Fatui Cryo Cicin Mage",
+            "Treasure Hoarders: Electro Potioneer",
+            "Treasure Hoarders: Cryo Potioneer"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 84,
+        "conds": [
+          "More than 180 seconds left",
+          "More than 300 seconds left",
+          "More than 420 seconds left"
+        ],
+        "monsters": [
+          [
+            "Fatui Cryo Cicin Mage",
+            "Fatui Pyro Agent"
+          ],
+          [
+            "Frostarm Lawachurl"
+          ]
+        ]
+      }
+    ]
+  },
+  "15": {
+    "teams": 2,
+    "leyline": "Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 87,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 180 seconds left",
+          "More than 300 seconds left"
+        ],
+        "monsters": [
+          [
+            "Hydro Abyss Mage",
+            "Large Electro Slime",
+            "Mutant Electro Slime",
+            "Large Hydro Slime"
+          ],
+          [
+            "Rock Shieldwall Mitachurl",
+            "Blazing Axe Mitachurl"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 89,
+        "conds": [
+          "More than 20% HP left",
+          "More than 40% HP left",
+          "More than 60% HP left"
+        ],
+        "monsters": [
+          [
+            "Wooden Shieldwall Mitachurl",
+            "Blazing Axe Mitachurl",
+            "Rock Shield Hilichurl Guard",
+            "Hilichurl Berserker",
+            "Electro Hilichurl Shooter",
+            "Pyro Hilichurl Shooter"
+          ],
+          [
+            "Fatui Electro Cicin Mage",
+            "Fatui Pyro Agent",
+            "Treasure Hoarders: Gravedigger",
+            "Treasure Hoarders - Pugilist",
+            "Treasure Hoarders - Crusher",
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders: Hydro Potioneer"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 91,
+        "conds": [
+          "More than 180 seconds left",
+          "More than 300 seconds left",
+          "More than 420 seconds left"
+        ],
+        "monsters": [
+          [
+            "Fatui Skirmisher - Anemoboxer Vanguard",
+            "Fatui Skirmisher - Electrohammer Vanguard",
+            "Fatui Skirmisher - Geochanter Bracer",
+            "Fatui Skirmisher - Hydrogunner Legionnaire"
+          ],
+          [
+            "Fatui Pyro Agent",
+            "Fatui Electro Cicin Mage"
+          ]
+        ]
+      }
+    ]
+  },
+  "16": {
+    "teams": 2,
+    "leyline": "Geo DMG dealt by all party members increased by 75%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 94,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 180 seconds left",
+          "More than 300 seconds left"
+        ],
+        "monsters": [
+          [
+            "Rock Shieldwall Mitachurl",
+            "Blazing Axe Mitachurl",
+            "Rock Shield Hilichurl Guard"
+          ],
+          [
+            "Ruin Guard",
+            "Eye of the Storm"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 97,
+        "conds": [
+          "More than 60 seconds left",
+          "More than 180 seconds left",
+          "More than 300 seconds left"
+        ],
+        "monsters": [
+          [
+            "Treasure Hoarders: Gravedigger",
+            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders: Handyman",
+            "Treasure Hoarders - Pugilist",
+            "Treasure Hoarders - Crusher"
+          ],
+          [
+            "Fatui Pyro Agent"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 99,
+        "conds": [
+          "More than 180 seconds left",
+          "More than 300 seconds left",
+          "More than 420 seconds left"
+        ],
+        "monsters": [
+          [
+            "Fatui Electro Cicin Mage",
+            "Rock Shieldwall Mitachurl",
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders: Cryo Potioneer"
+          ],
+          [
+            "Fatui Pyro Agent",
+            "Rock Shieldwall Mitachurl"
+          ]
+        ]
+      }
+    ]
+  },
+  "17": {
+    "teams": 2,
+    "leyline": "For this floor only, the ley line flow will be normal",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 94,
+        "conds": [
+          "More than 180 seconds left",
+          "More than 300 seconds left",
+          "More than 420 seconds left"
+        ],
+        "monsters": [
+          [
+            "Geovishap"
+          ],
+          [
+            "Geovishap"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 97,
+        "conds": [
+          "More than 180 seconds left",
+          "More than 300 seconds left",
+          "More than 420 seconds left"
+        ],
+        "monsters": [
+          [
+            "Fatui Electro Cicin Mage",
+            "Fatui Cryo Cicin Mage"
+          ],
+          [
+            "Fatui Pyro Agent",
+            "Treasure Hoarders: Gravedigger"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 99,
+        "conds": [
+          "More than 180 seconds left",
+          "More than 300 seconds left",
+          "More than 420 seconds left"
+        ],
+        "monsters": [
+          [
+            "Ruin Guard"
+          ],
+          [
+            "Ruin Grader"
+          ]
+        ]
+      }
+    ]
+  }
+}

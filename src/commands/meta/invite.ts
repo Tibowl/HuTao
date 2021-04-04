@@ -6,7 +6,7 @@ export default class Invite extends Command {
     constructor(name: string) {
         super({
             name,
-            category: "Misc",
+            category: "Meta",
             help: "Get a link to the invite URL",
             usage: "invite"
         })

@@ -2,7 +2,7 @@ import log4js from "log4js"
 import { exists, unlink, move, writeFile, existsSync, readFileSync } from "fs-extra"
 import { join } from "path"
 
-import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost } from "./Types"
+import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor } from "./Types"
 
 import artifactsData from "../data/gamedata/artifacts.json"
 import artifactsMainStats from "../data/gamedata/artifact_main_stats.json"
@@ -13,6 +13,9 @@ import curves from "../data/gamedata/curves.json"
 
 import weaponData from "../data/gamedata/weapons.json"
 import weaponCurves from "../data/gamedata/weaponcurves.json"
+
+import abyssFloors from "../data/gamedata/abyss_floors.json"
+import abyssSchedule from "../data/gamedata/abyss_schedule.json"
 
 import emojiData from "../data/emojis.json"
 
@@ -38,6 +41,9 @@ export default class DataManager {
 
     private readonly characters: Record<string, Character> = characterData as Record<string, Character>
     readonly weapons: Record<string, Weapon> = weaponData as Record<string, Weapon>
+
+    private readonly abyssSchedule: Record<number, AbyssSchedule> = abyssSchedule
+    readonly abyssFloors: Record<number, AbyssFloor> = abyssFloors
 
     readonly emojis: Record<BotEmoji, string> = emojiData
 
@@ -97,10 +103,15 @@ export default class DataManager {
     }
 
     getCharacters(): Character[] {
-        return Object.values(this.characters).filter(char => {
-            const releasedOn = new Date(`${char.releasedOn.replace(" ", "T")}+08:00`)
-            return Date.now() >= releasedOn.getTime()
-        })
+        return Object.values(this.characters).filter(char =>
+            Date.now() >= new Date(`${char.releasedOn.replace(" ", "T")}+08:00`).getTime()
+        )
+    }
+
+    getAbyssSchedules(): AbyssSchedule[] {
+        return Object.values(this.abyssSchedule).filter(schedule =>
+            Date.now() >= new Date(`${schedule.start.replace(" ", "T")}+08:00`).getTime()
+        )
     }
 
     getArtifactByName(name: string): Artifact | undefined {

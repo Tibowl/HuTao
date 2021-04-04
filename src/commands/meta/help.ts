@@ -34,11 +34,12 @@ export default class Help extends Command {
                 News: [],
                 Time: [],
                 Misc: [],
+                Meta: [],
                 Admin: [],
                 Hidden: [],
             }
             commands.forEach(cmd => {
-                const category = cmd?.category ?? "Misc"
+                const category = cmd?.category ?? "Meta"
                 categorized[category].push(cmd.commandName)
             })
 

@@ -448,6 +448,29 @@ export enum WeaponCurveName {
     C3 = "C3",
 }
 
+export interface AbyssFloor {
+    teams:    number
+    leyline:  string
+    chambers: AbyssChamber[]
+}
+
+export interface AbyssChamber {
+    chamber:  number
+    level:    number
+    conds:    string[]
+    monsters: Array<string[]>
+}
+
+export interface AbyssSchedule {
+    start:             string
+    end:               string
+    buff:              string
+    buffDesc:          string
+    regularFloors:     number[]
+    spiralAbyssFloors: number[]
+}
+
+
 // Emojis
 export type BotEmoji =
     "Electric" | "Fire" | "Grass" | "Ice" | "Rock" | "Water" | "Wind" |
