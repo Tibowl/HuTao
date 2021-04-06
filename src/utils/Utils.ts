@@ -3,6 +3,9 @@ import {  Message, TextChannel, StringResolvable, MessageEmbed, MessageAttachmen
 import client from "./../main"
 import config from "./../data/config.json"
 import { Cover, NameTable, Padding, Server, StoredNews } from "./Types"
+import log4js from "log4js"
+
+const Logger = log4js.getLogger("Utils")
 
 /**
  * Send a message to a list of channels
@@ -16,14 +19,18 @@ export async function sendToChannels(channels: string[] | undefined, content: St
     if (!channels) return Promise.all([])
 
     for (const channel of channels) {
-        const chanObj = await client.channels.fetch(channel)
-        if (!(chanObj && chanObj instanceof TextChannel))
-            continue
+        try {
+            const chanObj = await client.channels.fetch(channel)
+            if (!(chanObj && chanObj instanceof TextChannel))
+                continue
 
-        if (embed)
-            messages.push(chanObj.send(content, embed))
-        else
-            messages.push(chanObj.send(content))
+            if (embed)
+                messages.push(chanObj.send(content, embed))
+            else
+                messages.push(chanObj.send(content))
+        } catch (error) {
+            Logger.error(`Failed to fetch ${channel}`)
+        }
     }
 
     return Promise.all(messages)
@@ -36,8 +43,8 @@ export async function sendToChannels(channels: string[] | undefined, content: St
  * @returns List of messages
  */
 export async function sendError(content: StringResolvable, embed?: MessageEmbed | MessageAttachment): Promise<(Message | Message[])[]> {
-    const channels = config.errorLog
-    return sendToChannels(channels, content, embed)
+    Logger.error(content)
+    return sendToChannels(config.errorLog, content, embed)
 }
 
 export const PAD_START = 0

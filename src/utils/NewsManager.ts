@@ -65,7 +65,15 @@ export default class NewsManager {
         this.fetchNews()
     }
 
+    lastFetched = 0
     async fetchNews(): Promise<void> {
+        setTimeout(() => {
+            this.fetchNews()
+        }, 60 * 1000 * (config.production ? 1 : 30))
+
+        if (this.lastFetched > Date.now() - 30 * 1000) return
+        this.lastFetched = Date.now()
+
         for (const language of Object.keys(languages) as FollowCategory[])
             for (const type of [1, 2, 3]) {
                 try {
@@ -75,6 +83,7 @@ export default class NewsManager {
                         continue
                     }
                     const data = await (await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getNewsList?gids=2&page_size=20&type=${type}`, { headers:{ "x-rpc-language":langid } })).json()
+                    this.lastFetched = Date.now()
 
                     if (!data?.data?.list) continue
 
@@ -85,6 +94,7 @@ export default class NewsManager {
 
                         Logger.info(`Fetching new post: ${language} ${post_id} - ${article.post.subject}`)
                         const postdata = await (await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`)).json()
+                        this.lastFetched = Date.now()
                         if (!postdata?.data?.post) continue
 
                         const post: News = postdata.data.post
@@ -97,10 +107,6 @@ export default class NewsManager {
                     Logger.error("An error occurred while fetching news", error)
                 }
             }
-
-        setTimeout(() => {
-            this.fetchNews()
-        }, 60 * 1000 * (config.production ? 1 : 30))
     }
 
     async post(lang: FollowCategory, post: StoredNews): Promise<void> {

@@ -4,6 +4,7 @@ import child_process from "child_process"
 import Command from "../../utils/Command"
 import client from "../../main"
 import config from "../../data/config.json"
+import { timeLeft } from "../../utils/Utils"
 
 export default class Status extends Command {
     constructor(name: string) {
@@ -45,6 +46,8 @@ export default class Status extends Command {
         const stats = data.store.stats
         if (stats == undefined) return message.reply("Stats are unavailable, try again later")
 
+        const abyss = client.data.getAbyssSchedules()
+
         const totalCommands = Object.keys(stats).map(k => Object.values(stats[k]).reduce((a, b) => a+b, 0)).reduce((a, b) => a+b, 0)
         return message.channel.send(`Running on commit <${getVersion()}>
 Memory heap usage: ${getMemoryUsage()}
@@ -52,6 +55,15 @@ Current uptime: ${formatTime(process.uptime())}
 Cache: in ${client.channels.cache.size} channels on ${client.guilds.cache.size} servers, for a total of ${client.users.cache.size} users.
 Total commands executed: ${totalCommands}
 ${args && args.length > 0 ? `
+News: ${new Date(client.newsManager.lastFetched).toISOString()} (${timeLeft(Date.now() - new Date(client.newsManager.lastFetched).getTime())} ago)
+
+Artifact sets: ${Object.keys(client.data.artifacts).length}
+Weapons: ${Object.keys(client.data.weapons).length}
+Characters: ${Object.keys(client.data.getCharacters()).length}
+Abyss floors: ${Object.keys(client.data.abyssFloors).length}
+Abyss buffs: ${abyss.length} (until ${abyss[abyss.length - 1]?.end})
+Emojis: ${Object.keys(client.data.emojis).length}
+Resin: ${client.data.minutes_per_resin} m/resin; capped at ${client.data.max_resin}
 
 Admins: ${await getAdmins()}
 `:""}`)
