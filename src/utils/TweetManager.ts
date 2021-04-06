@@ -42,10 +42,11 @@ export default class Tweetmanager {
         if (tweet.in_reply_to_user_id_str && !Object.values(this.tweeters).includes(tweet.in_reply_to_user_id_str))
             return Logger.debug(`Skipping random reply ${tweetLink}`)
 
-        let text = (tweet.extended_tweet?.full_text ?? tweet.text).replace("&gt;", ">").replace("&lt;", "<")
+        let text = (tweet.extended_tweet?.full_text ?? tweet.text).replace(/&gt;/g, ">").replace(/&lt;/g, "<")
 
         Logger.info(`Sending tweet to channels: ${tweetLink}`)
 
+        const tweeter = tweet.user.id_str
         if (tweet.retweeted_status)
             tweet = tweet.retweeted_status
 
@@ -56,7 +57,7 @@ export default class Tweetmanager {
         // Tweet has media, don't embed it
         if (tweet.extended_entities?.media) {
             if (tweet.extended_entities.media[0].type != "photo") {
-                this.send(tweet.user.id_str, tweetLink)
+                this.send(tweeter, tweetLink)
                 return
             } else
                 embed.setImage(tweet.extended_entities.media[0].media_url_https)
@@ -73,7 +74,7 @@ export default class Tweetmanager {
             // Tweet has media, don't embed it
             if (entities.media) {
                 if (entities.media[0].type != "photo") {
-                    this.send(tweet.user.id_str, tweetLink)
+                    this.send(tweeter, tweetLink)
                     return
                 } else
                     embed.setImage(entities.media[0].media_url_https)
@@ -86,7 +87,7 @@ export default class Tweetmanager {
 
         embed.setDescription(text)
 
-        this.send(tweet.user.id_str, `<${tweetLink}>`, embed)
+        this.send(tweeter, `<${tweetLink}>`, embed)
     }
 
     async send(tweeter: string, content?: StringResolvable, embed?: MessageEmbed): Promise<void> {
