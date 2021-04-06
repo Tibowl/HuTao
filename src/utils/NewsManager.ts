@@ -6,7 +6,6 @@ import fetch from "node-fetch"
 import { FollowCategory, News, StoredNews } from "./Types"
 import client from "../main"
 import { getNewsEmbed } from "./Utils"
-import config from "../data/config.json"
 
 const Logger = log4js.getLogger("NewsManager")
 ensureDirSync("data/")
@@ -67,9 +66,14 @@ export default class NewsManager {
 
     lastFetched = 0
     async fetchNews(): Promise<void> {
+        const nextScanTime = new Date()
+        nextScanTime.setUTCMinutes(0, 0, 0)
+        while (nextScanTime.getTime() < Date.now())
+            nextScanTime.setUTCMinutes(nextScanTime.getUTCMinutes() + 5)
+
         setTimeout(() => {
             this.fetchNews()
-        }, 60 * 1000 * (config.production ? 1 : 30))
+        }, Math.max(0, nextScanTime.getTime() - Date.now()) + 1000)
 
         if (this.lastFetched > Date.now() - 30 * 1000) return
         this.lastFetched = Date.now()
