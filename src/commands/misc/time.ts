@@ -7,7 +7,7 @@ export default class Time extends Command {
     constructor(name: string) {
         super({
             name,
-            category: "Time",
+            category: "Misc",
             help: "Get the current time in the server timezones. Also displays time until next daily and weekly reset.",
             usage: "time",
             aliases: ["times", "currenttime", "daily"],

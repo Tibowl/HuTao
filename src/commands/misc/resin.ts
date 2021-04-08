@@ -10,7 +10,7 @@ export default class Resin extends Command {
     constructor(name: string) {
         super({
             name,
-            category: "Time",
+            category: "Misc",
             help: `Get time until full resin refill/certain values (these are ${values.join(", ")}).
 
 Example with just amount: \`${config.prefix}resin 13\`

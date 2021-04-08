@@ -64,13 +64,11 @@ See `ht!help weapon` for more information.
     - Example of [forum news feed](https://i.imgur.com/0VfS4xp.png), [twitter feed](https://i.imgur.com/HnmV65Y.png) and [events](https://i.imgur.com/IYdeSsT.png).
 - `ht!events`: Check up on current and upcoming events. Examples: [list](https://i.imgur.com/or1L70I.png), going to the left shows [current ones](https://i.imgur.com/vGljfsK.png) while to the right are [future ones](https://i.imgur.com/ylCSvUA.png). Start/end/reminders for these can be followed with `ht!follow add events`.
 
-### Time
+### Misc
 - `ht!time`: Check [current server times](https://i.imgur.com/CKSe9XT.png) as well as time until next daily/weekly reset.
 - `ht!resin <current resin> [time until next resin in mm:ss]`: Check how long until your resin refills.
     - Example with just amount: `ht!resin 13` [picture](https://i.imgur.com/JBLeDUa.png)
     - Example with time until next resin: `ht!resin 77 7:15` [picture](https://i.imgur.com/kPRQfEb.png)
-
-### Misc
 - `ht!abyss [cycle: yyyy-mm-1/yyyy-mm-2] [floor]`: Displays current [abyss buff](https://i.imgur.com/9EQSPB3.png) and [floors](https://i.imgur.com/VeXEvSr.png).
     - When a floor is provided, the embed will either just list that floor (for Corridor floors) or skip to it in the embed (for Moon Spire floors).
     - Old floors/buffs can be accessed by providing the cycle, like: `ht!abyss 2020-11-2`

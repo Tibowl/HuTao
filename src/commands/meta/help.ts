@@ -32,7 +32,6 @@ export default class Help extends Command {
                 Weapons: [],
                 Artifact: [],
                 News: [],
-                Time: [],
                 Misc: [],
                 Meta: [],
                 Admin: [],
