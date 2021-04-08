@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Genshin Impact Daily Check-In",
+        "type": "Web",
+        "link": "https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/03/01/1015537/6d8a8389d824ad4f291037680d3f75f1_1565842244695494844.jpg",
+        "start": "2021-03-01 00:00:00",
+        "reminder": "daily",
+        "remindtime": "00:00:00"
+    },
+    {
+        "name": "\"Contending Tides\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/genshin/article/275307",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/03/30/1015537/d14b2234ba4801ed47fc16c1f3867371_3652552730141970188.jpg",
+        "start": "2021-04-02 10:00:00",
+        "end": "2021-04-12 03:59:59",
+        "reminder": "end"
+    },
+    {
+        "name": "\"A Thousand Questions With Paimon\" Quiz Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/genshin/article/283665",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/04/02/1015537/7d8d1ce3d75fd164173f9a5fad1fce11_1945247609127083405.png",
+        "start": "2021-01-06 13:00:00",
+        "end": "2021-04-08 23:59:59",
+        "reminder": "daily",
+        "remindtime": "00:00:00"
+    },
+    {
+        "name": "\"Wishful Drops\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/genshin/article/286280",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/04/06/1015537/eac9814d4ec73b679b1eb953e1f35d73_246861676731252783.jpg",
+        "start": "2021-04-09 10:00:00",
+        "end": "2021-04-16 03:59:59",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Farewell of Snezhnaya\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/genshin/article/279471",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/04/02/1015537/b23dda81b6b9b0bb8a46b9adcd0e2a70_1479948151736832476.jpg",
+        "start": "2021-04-06 18:00:00",
+        "end": "2021-04-27 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/genshin/article/279497",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/04/02/1015537/2990bea9a81bbfa9aa348dbddaf0aad5_8867096048015043654.jpg",
+        "start": "2021-04-06 18:00:00",
+        "end": "2021-04-27 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Chapter I: Act IV - We Will Be Reunited",
+        "type": "In-game",
+        "start": "2021-04-12 04:00:00"
+    },
+    {
+        "name": "\"Marvelous Merchandise\" Event",
+        "type": "In-game",
+        "start": "2021-04-16 10:00:00",
+        "end": "2021-04-23 03:59:59",
+        "reminder": "daily",
+        "remindtime": "04:00:00"
+    }
+]

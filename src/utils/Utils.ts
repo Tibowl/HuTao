@@ -166,6 +166,10 @@ export function timeLeft(diff: number): string {
     return result.join(", ")
 }
 
+export function getDate(timestamp: string): Date {
+    return new Date(`${timestamp.replace(" ", "T")}+08:00`)
+}
+
 
 // Format news
 export function getNewsEmbed(post: StoredNews, page = -1): MessageEmbed | undefined {

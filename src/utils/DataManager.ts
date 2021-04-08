@@ -2,7 +2,7 @@ import log4js from "log4js"
 import { exists, unlink, move, writeFile, existsSync, readFileSync } from "fs-extra"
 import { join } from "path"
 
-import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor } from "./Types"
+import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event } from "./Types"
 
 import artifactsData from "../data/gamedata/artifacts.json"
 import artifactsMainStats from "../data/gamedata/artifact_main_stats.json"
@@ -20,8 +20,9 @@ import abyssFloors from "../data/gamedata/abyss_floors.json"
 import abyssSchedule from "../data/gamedata/abyss_schedule.json"
 
 import emojiData from "../data/emojis.json"
+import eventData from "../data/events.json" // Not in gamedata since it also contains webevents
 
-import { findFuzzy } from "./Utils"
+import { findFuzzy, getDate } from "./Utils"
 
 const Logger = log4js.getLogger("DataManager")
 const existsP = (path: string): Promise<boolean> => new Promise((resolve) => exists(path, resolve))
@@ -49,6 +50,7 @@ export default class DataManager {
     private readonly abyssSchedule: Record<number, AbyssSchedule> = abyssSchedule
     readonly abyssFloors: Record<number, AbyssFloor> = abyssFloors
 
+    readonly events: Event[] = eventData as Event[]
     readonly emojis: Record<BotEmoji, string> = emojiData
 
     constructor() {
@@ -108,13 +110,13 @@ export default class DataManager {
 
     getCharacters(): Character[] {
         return Object.values(this.characters).filter(char =>
-            Date.now() >= new Date(`${char.releasedOn.replace(" ", "T")}+08:00`).getTime()
+            Date.now() >= getDate(char.releasedOn).getTime()
         )
     }
 
     getAbyssSchedules(): AbyssSchedule[] {
         return Object.values(this.abyssSchedule).filter(schedule =>
-            Date.now() >= new Date(`${schedule.start.replace(" ", "T")}+08:00`).getTime()
+            Date.now() >= getDate(schedule.start).getTime()
         )
     }
 

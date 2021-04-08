@@ -15,6 +15,7 @@ export type Server = "America" | "Europe" | "Asia" | "TW, HK, MO"
 
 // Following stuff
 export type FollowCategory =
+    "events" |
     "twitter_en" | "twitter_jp" | "twitter_fr" | "twitter_kr" | "twitter_es" |
     "news_en-us" | "news_zh-cn" | "news_zh-tw" | "news_de-de" | "news_es-es" | "news_fr-fr" | "news_id-id" | "news_ja-jp" | "news_ko-kr" | "news_pt-pt" | "news_ru-ru" | "news_th-th" | "news_vi-vn"
 
@@ -468,6 +469,28 @@ export interface AbyssSchedule {
     buffDesc:          string
     regularFloors:     number[]
     spiralAbyssFloors: number[]
+}
+
+// Events
+export interface Event {
+    name:        string
+    type:        EventType
+    link?:       string
+    img?:        string
+    start:       string
+    reminder?:   EventReminderType
+    remindtime?: string
+    end?:        string
+}
+
+export enum EventType {
+    Web = "Web",
+    InGame = "In-game",
+    Banner = "Banner"
+}
+export enum EventReminderType {
+    Daily = "daily",
+    End = "end"
 }
 
 

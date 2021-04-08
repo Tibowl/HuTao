@@ -73,7 +73,7 @@ export default class NewsManager {
 
         setTimeout(() => {
             this.fetchNews()
-        }, Math.max(0, nextScanTime.getTime() - Date.now()) + 1000)
+        }, Math.max(0, nextScanTime.getTime() - Date.now()) + 5000)
 
         if (this.lastFetched > Date.now() - 30 * 1000) return
         this.lastFetched = Date.now()

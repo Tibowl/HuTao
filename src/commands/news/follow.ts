@@ -7,6 +7,8 @@ import { createTable } from "../../utils/Utils"
 import config from "../../data/config.json"
 
 const descriptions: { [x in FollowCategory]: string } = {
+    "events": "Get event reminders",
+
     "news_zh-cn": "简体中文 forum news articles",
     "news_zh-tw": "繁體中文 forum news articles",
     "news_de-de": "Deutsch forum news articles",
