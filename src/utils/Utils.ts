@@ -345,8 +345,8 @@ async function paginatorLoop(message: Message, reply: Message, pages: ((p: numbe
         try {
             await reply.reactions.removeAll()
         } catch (error) {
-            await Promise.all(reply.reactions?.cache.map((reaction) => {
-                if (reaction.me)
+            await Promise.allSettled(reply.reactions?.cache.map((reaction) => {
+                if (client.user && reaction.users.cache.has(client.user.id))
                     return reaction.users.remove(user)
             }).filter(r => r))
         }
@@ -361,7 +361,8 @@ export async function paginator(message: Message, reply: Message, pages: ((p: nu
         await reply.react(emoji)
     for (const emoji of Object.entries(skipPages).filter(([_key, page]) => page >= 0).map(([key]) => key))
         await reply.react(emoji)
-    await reply.react("❌")
+    if (reply.channel.type !== "dm")
+        await reply.react("❌")
 }
 
 export function addArg(args: string[], queries: string | string[], exec: () => void): void {

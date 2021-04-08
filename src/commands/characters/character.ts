@@ -250,8 +250,14 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
             return embed
         } else if (page == 1) {
             embed.setTitle(`${char.name}: Information`)
-                .setDescription(`**Birthday**: ${char.meta.birthDay ?? "??"}/${char.meta.birthMonth ?? "??"} *(dd/mm)*
-**Title**: ${char.meta.title || "-"}
+                .setDescription(`${char.meta.birthDay != undefined && char.meta.birthMonth!= undefined ? `**Birthday**: ${
+                    new Date(Date.UTC(2020, char.meta.birthMonth - 1, char.meta.birthDay))
+                        .toLocaleString("en-UK", {
+                            timeZone: "UTC",
+                            month: "long",
+                            day: "numeric",
+                        })}
+` : ""}**Title**: ${char.meta.title || "-"}
 **Detail**: ${char.meta.detail}
 
 **Association**: ${char.meta.association}

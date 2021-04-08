@@ -33,9 +33,10 @@ export default class Shutdown extends Command {
                     try {
                         return reply.reactions.removeAll()
                     } catch (error) {
-                        return reply?.reactions?.cache.map((reaction) => reaction.me ? reaction.users.remove(user) : undefined).find(k => k)
+                        return reply?.reactions?.cache.map((reaction) => client.user && reaction.users.cache.has(client.user.id) ? reaction.users.remove(user) : undefined).filter(k => k)
                     }
                 })
+                .flat()
         }
         const reply = await message.reply(`Shutting down after cleanup. ${toRemove.length ? `Removing ${toRemove.length} reactions...` : ""}`)
 
