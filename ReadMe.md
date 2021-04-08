@@ -61,7 +61,8 @@ See `ht!help weapon` for more information.
 - `ht!news [lang]`: Displays [most recently posted news articles on the forum](https://i.imgur.com/PFAuOJQ.png)
 - `ht!news <id>`: Displays [a news article](https://i.imgur.com/mEqXMyg.png), these most likely [have multiple pages](https://i.imgur.com/fxO8LZv.png).
 - `ht!follow <list|add|remove> [type]`: [Add](https://i.imgur.com/PIXyiT5.png) or remove a certain events from the following list in the current channel (official forum posts and the twitter accounts, please refer to `ht!help follow` for an up to date list of supported languages). Or a [list](https://i.imgur.com/OhvclGx.png) of what the bot is following in your server.
-    - Example of [forum news feed](https://i.imgur.com/0VfS4xp.png) and [twitter feed](https://i.imgur.com/HnmV65Y.png).
+    - Example of [forum news feed](https://i.imgur.com/0VfS4xp.png), [twitter feed](https://i.imgur.com/HnmV65Y.png) and [events](https://i.imgur.com/IYdeSsT.png).
+- `ht!events`: Check up on current and upcoming events. Examples: [list](https://i.imgur.com/or1L70I.png), going to the left shows [current ones](https://i.imgur.com/vGljfsK.png) while to the right are [future ones](https://i.imgur.com/ylCSvUA.png). Start/end/reminders for these can be followed with `ht!follow add events`.
 
 ### Time
 - `ht!time`: Check [current server times](https://i.imgur.com/CKSe9XT.png) as well as time until next daily/weekly reset.

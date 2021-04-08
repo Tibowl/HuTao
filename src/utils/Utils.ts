@@ -2,7 +2,7 @@ import {  Message, TextChannel, StringResolvable, MessageEmbed, MessageAttachmen
 
 import client from "./../main"
 import config from "./../data/config.json"
-import { Cover, NameTable, Padding, Server, StoredNews } from "./Types"
+import { Cover, Event, EventType, NameTable, Padding, Server, StoredNews } from "./Types"
 import log4js from "log4js"
 
 const Logger = log4js.getLogger("Utils")
@@ -260,6 +260,19 @@ export function parseNewsContent(content: string): Content[] {
         target.push({ text: clean(currentLine) })
 
     return target
+}
+
+export function getEventEmbed(event: Event): MessageEmbed {
+    const embed = new MessageEmbed()
+
+    embed.setTitle(event.name)
+    if (event.img) embed.setImage(event.img)
+    if (event.link) embed.setURL(event.link)
+    if (event.start) embed.addField(event.type == EventType.Unlock ? "Unlock Time" : "Start Time", event.start, true)
+    if (event.end) embed.addField("End Time", event.end, true)
+    if (event.type && event.type !== EventType.Unlock) embed.addField("Type", event.type, true)
+
+    return embed
 }
 
 function split(splitted: string[], currentLine: string, toSplit: string | RegExp) {

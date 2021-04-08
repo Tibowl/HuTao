@@ -3,8 +3,8 @@ import log4js from "log4js"
 import client from "../main"
 import config from "../data/config.json"
 import { MessageEmbed } from "discord.js"
-import { getDate } from "./Utils"
-import { Event, EventType } from "./Types"
+import { getDate, getEventEmbed } from "./Utils"
+import { EventType } from "./Types"
 
 const Logger = log4js.getLogger("TimerManager")
 
@@ -51,7 +51,7 @@ export default class TimerManager {
             if (start.getTime() > this.queuedUntil) {
                 if (this.shouldQueue(start, queueUntil)) {
                     Logger.info(`Queue start @ ${start.toISOString()} for ${event.name}`)
-                    const embed = this.getEventEmbed(event)
+                    const embed = getEventEmbed(event)
 
                     switch (event.type) {
                         case EventType.Banner: embed.setDescription("This banner is now available"); break
@@ -80,7 +80,7 @@ export default class TimerManager {
                 // Queue exact ending
                 if (this.shouldQueue(end, queueUntil)) {
                     Logger.info(`Queue end @ ${end.toISOString()} for ${event.name}`)
-                    const embed = this.getEventEmbed(event)
+                    const embed = getEventEmbed(event)
 
                     switch (event.type) {
                         case EventType.Banner: embed.setDescription("This banner is no longer available"); break
@@ -100,7 +100,7 @@ export default class TimerManager {
                     if (this.shouldQueue(target, queueUntil)) {
                         Logger.info(`Queue event end reminder @ ${target.toISOString()} for ${event.name}`)
                         this.queueTimer(
-                            this.getEventEmbed(event)
+                            getEventEmbed(event)
                                 .setDescription("This event will end tomorrow")
                                 .setColor("#F7322E"),
                             end
@@ -126,7 +126,7 @@ export default class TimerManager {
                 if (this.shouldQueue(target, queueUntil)) {
                     Logger.info(`Queue daily reminder @ ${target.toISOString()} for ${event.name}`)
                     this.queueTimer(
-                        this.getEventEmbed(event)
+                        getEventEmbed(event)
                             .setDescription("This is your daily reminder for this event")
                             .setColor("#F49C1F"),
                         target
@@ -136,19 +136,6 @@ export default class TimerManager {
         }
 
         this.queuedUntil = queueUntil
-    }
-
-    private getEventEmbed(event: Event) {
-        const embed = new MessageEmbed()
-
-        embed.setTitle(event.name)
-        if (event.img) embed.setImage(event.img)
-        if (event.link) embed.setURL(event.link)
-        if (event.start) embed.addField(event.type == EventType.Unlock ? "Unlock Time" : "Start Time", event.start, true)
-        if (event.end) embed.addField("End Time", event.end, true)
-        if (event.type && event.type !== EventType.Unlock) embed.addField("Type", event.type, true)
-
-        return embed
     }
 
     private shouldQueue(time: Date, until: number) {
