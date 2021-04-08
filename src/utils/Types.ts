@@ -486,6 +486,8 @@ export interface Event {
 export enum EventType {
     Web = "Web",
     InGame = "In-game",
+    Maintenance = "Maintenance",
+    Unlock = "Unlock",
     Banner = "Banner"
 }
 export enum EventReminderType {
