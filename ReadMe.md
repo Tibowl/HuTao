@@ -24,7 +24,7 @@ To improve usability, most commands that search stuff are fuzzy search. This mea
 ### Characters
 - `ht!character`: Displays [a list of all characters](https://i.imgur.com/TdUS701.png). 
     - This command supports filtering such as element type (like `ht!c -pyro`), weapon type (like `ht!c -polearm`) and/or stars (like `ht!c -5*`). [Example](https://i.imgur.com/OB6Fhz0.png)
-- `ht!character <name>`: Displays character information, such as [basic data](https://i.imgur.com/mtKqXOR.png) / [meta data](https://i.imgur.com/tYZdMLM.png) / [ascensions + stats](https://i.imgur.com/COQQwbZ.png) / [talent costs](https://i.imgur.com/9FKcdom.png) / [talents](https://i.imgur.com/nJjAbhQ.png) / [passives](https://i.imgur.com/dFZ70km.png) / [constellations](https://i.imgur.com/GiXH0N8.png) / [art](https://i.imgur.com/DwcdR4R.png).
+- `ht!character <name>`: Displays character information, such as [basic data](https://i.imgur.com/mtKqXOR.png) / [meta data](https://i.imgur.com/pyXZDs9.png) / [ascensions + stats](https://i.imgur.com/COQQwbZ.png) / [talent costs](https://i.imgur.com/9FKcdom.png) / [talents](https://i.imgur.com/nJjAbhQ.png) / [passives](https://i.imgur.com/dFZ70km.png) / [constellations](https://i.imgur.com/GiXH0N8.png) / [art](https://i.imgur.com/DwcdR4R.png).
     - See links for examples, reactions will correspond to directly skipping to that section. These can also be triggered directly via the command like `ht!c Hu Tao -art`.
     - Search is fuzzy, meaning `ht!c HT` *should* match Hu Tao as long as there's no other character being introduced that becomes a closer match.
 
