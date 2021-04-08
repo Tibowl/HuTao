@@ -16,8 +16,8 @@ export type Server = "America" | "Europe" | "Asia" | "TW, HK, MO"
 // Following stuff
 export type FollowCategory =
     "events" |
-    "twitter_en" | "twitter_jp" | "twitter_fr" | "twitter_kr" | "twitter_es" |
-    "news_en-us" | "news_zh-cn" | "news_zh-tw" | "news_de-de" | "news_es-es" | "news_fr-fr" | "news_id-id" | "news_ja-jp" | "news_ko-kr" | "news_pt-pt" | "news_ru-ru" | "news_th-th" | "news_vi-vn"
+    "twitter_en" | "twitter_es" | "twitter_fr" | "twitter_jp" | "twitter_ko" |
+    "news_en-us" | "news_es-es" | "news_fr-fr" | "news_ja-jp" | "news_ko-kr" | "news_zh-cn" | "news_zh-tw" | "news_de-de" |  "news_id-id" | "news_pt-pt" | "news_ru-ru" | "news_th-th" | "news_vi-vn"
 
 export interface Follower {
     channelID: string
