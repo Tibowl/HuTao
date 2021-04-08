@@ -35,6 +35,9 @@ See `ht!help character` for more information.
     - With level: `ht!cs Hu Tao 80` [picture](https://i.imgur.com/1USGQSo.png)
     - With ascension: `ht!cs Hu Tao A6` [picture](https://i.imgur.com/Xc5EOnC.png)
     - Search is also fuzzy, just like `ht!character`.
+- `ht!charlevel <current level> [current level experience] [target level]`: Display experience (also in terms of experience books and 1★ weapons with minimal XP needed to farm) and mora required to *level* to a target level. [Examples](https://i.imgur.com/Ui57Cad.png).
+    - If no current experience is specified, 0 will be assumed.
+    - If target level is not specified, both next ascension and max level (currently lv. 90) will be shown.
 - `ht!books`: Displays a list of [Talent Book availability per day](https://i.imgur.com/89Ag7N3.png)
 
 ### Weapons
@@ -46,6 +49,7 @@ See `ht!help character` for more information.
 See `ht!help weapon` for more information.
 - `ht!weaponstats <name> [level] A[ascension]`: Displays [weapon stats at a certain level/ascension](https://i.imgur.com/g8ZBKmD.png).
     - This command is very similar to `ht!charstats`, see that command for more information.
+- `ht!weaponlevel <star> <current level> [current level experience] [target level]`: Display experience (also in terms of enhancement ores with minimal XP loss) and mora required to *level* to a target level. [Examples](https://i.imgur.com/kWUMMr5.png).
 - `ht!weaponmats`: Displays a list of [Weapon Ascension Materials availability per day](https://i.imgur.com/IWQFfU0.png)
 
 ### Artifacts

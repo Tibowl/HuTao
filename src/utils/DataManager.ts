@@ -9,10 +9,12 @@ import artifactsMainStats from "../data/gamedata/artifact_main_stats.json"
 import artifactsMainLevels from "../data/gamedata/artifact_main_levels.json"
 
 import characterData from "../data/gamedata/characters.json"
-import curves from "../data/gamedata/curves.json"
+import characterCurves from "../data/gamedata/character_curves.json"
+import characterLevels from "../data/gamedata/character_levels.json"
 
 import weaponData from "../data/gamedata/weapons.json"
-import weaponCurves from "../data/gamedata/weaponcurves.json"
+import weaponCurves from "../data/gamedata/weapon_curves.json"
+import weaponLevels from "../data/gamedata/weapon_levels.json"
 
 import abyssFloors from "../data/gamedata/abyss_floors.json"
 import abyssSchedule from "../data/gamedata/abyss_schedule.json"
@@ -38,9 +40,11 @@ export default class DataManager {
     readonly artifacts: Record<string, Artifact> = artifactsData as Record<string, Artifact>
     readonly artifactMainStats: Record<ArtifactType, MainStatInfo[]> = artifactsMainStats as Record<ArtifactType, MainStatInfo[]>
     readonly artifactMainLevels: Record<string, Record<number, Record<number, string>>> = artifactsMainLevels as Record<string, Record<number, Record<number, string>>>
+    readonly characterLevels: Array<number> = characterLevels
 
     private readonly characters: Record<string, Character> = characterData as Record<string, Character>
     readonly weapons: Record<string, Weapon> = weaponData as Record<string, Weapon>
+    readonly weaponLevels: Array<number[]> = weaponLevels
 
     private readonly abyssSchedule: Record<number, AbyssSchedule> = abyssSchedule
     readonly abyssFloors: Record<number, AbyssFloor> = abyssFloors
@@ -154,7 +158,7 @@ export default class DataManager {
         }
 
         for (const curve of char.curves) {
-            stats[curve.name] = stats[curve.name] * curves[curve.curve][level - 1]
+            stats[curve.name] = stats[curve.name] * characterCurves[curve.curve][level - 1]
         }
 
         const asc = char.ascensions.find(a => a.level == ascension)
