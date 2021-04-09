@@ -294,7 +294,7 @@ const emojis = ["⬅️", "➡️"]
 async function paginatorLoop(message: Message, reply: Message, pages: ((p: number) => MessageEmbed | undefined), skipPages: Record<string, number> = {}, currentPage = 0): Promise<void> {
     reply.awaitReactions(
         (reaction, user) => ["❌", ...emojis, ...Object.keys(skipPages).map(name => name.match(/<:(.*?):\d+>/)?.[1] ?? name)].includes(reaction.emoji.name) && (user.id == message.author.id || config.admins.includes(user.id)),
-        { max: 1, time: 60000, errors: ["time"] }
+        { max: 1, time: 60000, errors: ["time", "messageDelete", "channelDelete", "guildDelete"] }
     ).then(async (collected) => {
         const r = collected.first()
         const name = r?.emoji.name
@@ -341,7 +341,7 @@ async function paginatorLoop(message: Message, reply: Message, pages: ((p: numbe
     }).catch(async () => {
         client.recentMessages = client.recentMessages.filter(k => k != reply)
         const user = client.user
-        if (user == undefined) return
+        if (user == undefined || reply.deleted) return
         try {
             await reply.reactions.removeAll()
         } catch (error) {

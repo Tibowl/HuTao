@@ -56,17 +56,17 @@ async function handleCommand(message: Message, cmdInfo: ParsedCommand): Promise<
             await reply.react("❌")
             reply.awaitReactions(
                 (reaction, user) => reaction.emoji.name == "❌" && (user.id == message.author.id || config.admins.includes(user.id)),
-                { max: 1, time: 60000, errors: ["time"] }
+                { max: 1, time: 60000, errors: ["time", "messageDelete", "channelDelete", "guildDelete"] }
             ).then((collected) => {
-                if (collected) {
+                client.recentMessages = client.recentMessages.filter(k => k != reply)
+                if (collected && collected.size > 0 && reply.deletable) {
                     reply.delete()
-                    client.recentMessages = client.recentMessages.filter(k => k != reply)
                 }
             }).catch(() => {
                 client.recentMessages = client.recentMessages.filter(k => k != reply)
 
                 const user = client.user
-                if (user == undefined) return
+                if (user == undefined || reply.deleted) return
                 reply?.reactions?.cache.map((reaction) => client.user && reaction.users.cache.has(client.user.id) && reaction.emoji.name == "❌" ? reaction.users.remove(user) : undefined)
             })
             client.recentMessages.push(reply)
