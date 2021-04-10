@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { createTable, paginator } from "../../utils/Utils"
+import { Colors, createTable, paginator } from "../../utils/Utils"
 import { Artifact } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -43,7 +43,7 @@ Note: this command supports fuzzy search.`,
             .setTitle("Artifact Sets")
             .setDescription(pages[page])
             .setFooter(`Page ${page + 1} / ${pages.length}`)
-            .setColor("#00EA69")
+            .setColor(Colors.GREEN)
 
         return embed
     }
@@ -75,7 +75,7 @@ Note: this command supports fuzzy search.`,
     getArti(set: Artifact, page: number): MessageEmbed | undefined {
         const { data } = client
         const embed = new MessageEmbed()
-            .setColor("#07EADB")
+            .setColor(Colors.AQUA)
             .setThumbnail(set.icon)
             .setFooter(`Page ${page + 1} / ${1 + set.artis.length}`)
 

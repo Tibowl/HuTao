@@ -2,34 +2,9 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { addArg, createTable, PAD_END, PAD_START, paginator } from "../../utils/Utils"
+import { addArg, Colors, createTable, PAD_END, PAD_START, paginator } from "../../utils/Utils"
 import { BotEmoji, Character, Skill } from "../../utils/Types"
 import config from "../../data/config.json"
-
-const elementColors: Record<string, string> = {
-    "Anemo": "#32D39F",
-    "Wind": "#32D39F",
-
-    "Cryo": "#79E8EB",
-    "Ice": "#79E8EB",
-
-    "Electro": "#CA7FFF",
-    "Electric": "#CA7FFF",
-
-    "Geo": "#FEE263",
-    "Rock": "#FEE263",
-
-    "Hydro": "#06E5FE",
-    "Water": "#06E5FE",
-
-    "Pyro": "#FFAA6E",
-    "Fire": "#FFAA6E",
-
-    "Dendro": "#B2EB28",
-    "Grass": "#B2EB28",
-
-    "None": "#545353",
-}
 
 const elementTypes = client.data.getCharacters()
     .map(c => c.meta.element)
@@ -94,7 +69,7 @@ Note: this command supports fuzzy search.`,
             .setTitle("Character list")
             .setDescription(pages[page])
             .setFooter(`Page ${page + 1} / ${pages.length}`)
-            .setColor("#00EA69")
+            .setColor(Colors.GREEN)
 
         return embed
     }
@@ -203,7 +178,7 @@ Note: this command supports fuzzy search.`,
     getCharacter(char: Character, page: number, low: boolean): MessageEmbed | undefined {
         const { data } = client
         const embed = new MessageEmbed()
-            .setColor(elementColors[char.meta.element] ?? "")
+            .setColor(Colors[char.meta.element] ?? "")
             .setThumbnail(char.icon)
             .setFooter(`Page ${page + 1} / ${this.getCharPages(char)["🎨"] + char.imgs.length}`)
 
@@ -342,7 +317,7 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
 
         let currentPage = 4
         for (const skills of char.skills) {
-            embed.setColor(elementColors[skills.ult.type ?? "None"])
+            embed.setColor(Colors[skills.ult.type ?? "None"])
 
             for (const talent of skills.talents) {
                 if (currentPage++ == page) {

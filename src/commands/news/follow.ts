@@ -43,7 +43,7 @@ export default class Follow extends Command {
 ${Object.entries(descriptions).map(([k, v]) => `  ${k}: *${v}*`).join("\n")}
 
 Example of adding news: \`${config.prefix}follow add news\``,
-            aliases: ["following", "reminders", "notifications", "subscribe"]
+            aliases: ["following", "notifications", "subscribe"]
         })
     }
 

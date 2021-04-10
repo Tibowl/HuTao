@@ -16,7 +16,7 @@ export default class Resin extends Command {
 Example with just amount: \`${config.prefix}resin 13\`
 Example with time until next resin: \`${config.prefix}resin 77 7:15\``,
             usage: "resin <current resin> [time until next resin in mm:ss]",
-            aliases: ["r"]
+            aliases: ["re"]
         })
     }
 

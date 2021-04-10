@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { paginator } from "../../utils/Utils"
+import { Colors, paginator } from "../../utils/Utils"
 import { AbyssSchedule } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -63,7 +63,7 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
     getSpiralAbyss(abyss: AbyssSchedule, page: number): MessageEmbed | undefined {
         const footer = `Page ${page + 1} / ${1 + abyss.spiralAbyssFloors.length}`
         const embed = new MessageEmbed()
-            .setColor("#6B68B1")
+            .setColor(Colors.PURPLE)
             .setFooter(footer)
 
         let currentPage = 0
@@ -87,7 +87,7 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
         const floor = client.data.abyssFloors[floorId]
 
         const embed = new MessageEmbed()
-            .setColor("#6B68B1")
+            .setColor(Colors.PURPLE)
             .setTitle(`Floor ${num}`)
             .setDescription(floor.leyline)
 

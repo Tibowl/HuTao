@@ -26,6 +26,15 @@ export interface Follower {
     addedBy: string
 }
 
+// Reminder stuff
+export interface Reminder {
+    id: number
+    subject: string
+    user: string
+    timestamp: number
+    duration: number
+}
+
 // News posts
 export interface News {
     post:               Post

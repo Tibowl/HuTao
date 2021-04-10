@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { findFuzzy, getNewsEmbed, paginator } from "../../utils/Utils"
+import { Colors, findFuzzy, getNewsEmbed, paginator } from "../../utils/Utils"
 import config from "../../data/config.json"
 
 export default class News extends Command {
@@ -39,7 +39,7 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
             while (stored.join("\n").length > 1500) stored.pop()
 
             const embed = new MessageEmbed()
-                .setColor("#00EA69")
+                .setColor(Colors.GREEN)
                 .setTitle(`Most recent ${newsManager.getLanguageName(lang)} news articles:`)
                 .setDescription(stored.join("\n"))
 

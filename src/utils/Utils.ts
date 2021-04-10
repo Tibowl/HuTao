@@ -140,30 +140,37 @@ export function getServerTimeInfo(): {
     })
 }
 
-export function timeLeft(diff: number): string {
+export function timeLeft(diff: number, full = false, short = true): string {
+    const ago = diff < 0
+    if (ago) diff = -diff
+
     const result = [], originalTime = diff / 1000
 
     diff /= 1000 // convert to s
     if (diff >= 24*60*60) {
-        result.push(Math.floor(diff / 24 / 60 / 60) + "d")
-        diff -= Math.floor(diff / 24 / 60 / 60) * 24 * 60 * 60
+        const days = Math.floor(diff / 24 / 60 / 60)
+        result.push(days + (short ? "d" : (days == 1 ? " day" : " days")))
+        diff -= days * 24 * 60 * 60
     }
 
     if (diff >= 60*60) {
-        result.push(Math.floor(diff / 60 / 60) + "h")
-        diff -= Math.floor(diff / 60 / 60) * 60 * 60
+        const hours = Math.floor(diff / 60 / 60)
+        result.push(hours + (short ? "h" : (hours == 1 ? " hour" : " hours")))
+        diff -= hours * 60 * 60
     }
 
-    if (diff >= 60 && originalTime < 24*60*60) {
-        result.push(Math.floor(diff / 60) + "m")
-        diff -= Math.floor(diff / 60) * 60
+    if (diff >= 60 && (originalTime < 24*60*60 || full)) {
+        const minutes = Math.floor(diff / 60)
+        result.push(minutes + (short ? "m" : (minutes == 1 ? " minute" : " minutes")))
+        diff -= minutes * 60
     }
 
-    if (diff > 0  && originalTime < 60*60) {
-        result.push(Math.floor(diff) + "s")
+    if (diff > 0  && (originalTime < 60*60 || full)) {
+        const seconds = Math.floor(diff)
+        result.push(seconds + (short ? "s" : (seconds == 1 ? " second" : " seconds")))
     }
 
-    return result.join(", ")
+    return result.join(", ") + (ago ? " ago" : "")
 }
 
 export function getDate(timestamp: string): Date {
@@ -178,7 +185,7 @@ export function getNewsEmbed(post: StoredNews, page = -1): MessageEmbed | undefi
         .setAuthor(post.nickname)
         .setTimestamp(post.created_at * 1000)
         .setURL(`https://www.hoyolab.com/genshin/article/${post.post_id}`)
-        .setColor(["#07EADB", "#00EA69", "#EA6907"][post.type - 1] ?? "#C1C1C1")
+        .setColor([Colors.AQUA, Colors.GREEN, "#EA6907"][post.type - 1] ?? "#C1C1C1")
 
     const parsed = parseNewsContent(post.content)
 
@@ -437,4 +444,40 @@ export function findFuzzy(target: string[], search: string): string | undefined 
     const dists = candidates.map(e => levenshtein(searchClean(e), cleaned))
     const min = Math.min(...dists)
     return candidates[dists.indexOf(min)]
+}
+
+export const Colors: Record<string, string> = {
+    GREEN: "#00EA69",
+    DARK_GREEN: "#2EF41F",
+
+    ORANGE: "#F49C1F",
+
+    RED: "#F7322E",
+    DARK_RED: "#F4231F",
+
+    AQUA: "#07EADB",
+    PURPLE: "#6B68B1",
+
+    "Anemo": "#32D39F",
+    "Wind": "#32D39F",
+
+    "Cryo": "#79E8EB",
+    "Ice": "#79E8EB",
+
+    "Electro": "#CA7FFF",
+    "Electric": "#CA7FFF",
+
+    "Geo": "#FEE263",
+    "Rock": "#FEE263",
+
+    "Hydro": "#06E5FE",
+    "Water": "#06E5FE",
+
+    "Pyro": "#FFAA6E",
+    "Fire": "#FFAA6E",
+
+    "Dendro": "#B2EB28",
+    "Grass": "#B2EB28",
+
+    "None": "#545353",
 }

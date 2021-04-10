@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { getDate, getEventEmbed, paginator } from "../../utils/Utils"
+import { Colors, getDate, getEventEmbed, paginator } from "../../utils/Utils"
 import { Event } from "../../utils/Types"
 
 export default class Events extends Command {
@@ -65,7 +65,7 @@ export default class Events extends Command {
                     )
                     .join("\n"))
                 .setFooter(`Page ${page+1} / ${total}`)
-                .setColor("#2EF41F")
+                .setColor(Colors.DARK_GREEN)
         } else if (currentPage > 0) {
             const event = upcoming[Math.abs(currentPage) - 1]
             if (event == undefined) return undefined

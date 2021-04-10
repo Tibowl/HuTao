@@ -3,14 +3,14 @@ import log4js from "log4js"
 import client from "../main"
 import config from "../data/config.json"
 import { MessageEmbed } from "discord.js"
-import { getDate, getEventEmbed } from "./Utils"
+import { Colors, getDate, getEventEmbed, timeLeft } from "./Utils"
 import { EventType } from "./Types"
 
 const Logger = log4js.getLogger("TimerManager")
 
 export default class TimerManager {
     activityTimer: NodeJS.Timeout | undefined = undefined
-    queuedUntil = Date.now()
+    queuedUntil = Date.now() - 20000
 
     init(): void {
         const updateActivity = (): void => {
@@ -19,16 +19,7 @@ export default class TimerManager {
                 return
             }
 
-            const now = new Date()
-            const nextMinute = new Date()
-            nextMinute.setUTCMinutes(now.getUTCMinutes() + 1, 0, 0)
-
-            let delay = nextMinute.getTime() - now.getTime()
-            if (delay < 15000)
-                delay += 60000
-
-            this.activityTimer = setTimeout(updateActivity, delay + 500)
-
+            this.activityTimer = setTimeout(updateActivity, 30000)
 
             client.user.setActivity(config.activity, {
                 type: "LISTENING"
@@ -40,10 +31,16 @@ export default class TimerManager {
         if (this.activityTimer == undefined)
             setTimeout(updateActivity, 5000)
     }
-
     queueTimers(): void {
-        const queueUntil = Date.now() + 5 * 60 * 1000
+        const queueUntil = Date.now() + 1 * 60 * 1000
 
+        this.queueReminders(queueUntil)
+        this.queueEvents(queueUntil)
+
+        this.queuedUntil = queueUntil
+    }
+
+    queueEvents(queueUntil: number): void {
         for (const event of client.data.events) {
             const start = getDate(event.start)
 
@@ -61,7 +58,7 @@ export default class TimerManager {
                     }
 
                     this.queueTimer(
-                        embed.setColor("#2EF41F"),
+                        embed.setColor(Colors.DARK_GREEN),
                         start
                     )
                 }
@@ -89,7 +86,7 @@ export default class TimerManager {
                     }
 
                     this.queueTimer(
-                        embed.setColor("#F4231F"),
+                        embed.setColor(Colors.DARK_RED),
                         end
                     )
                 }
@@ -102,7 +99,7 @@ export default class TimerManager {
                         this.queueTimer(
                             getEventEmbed(event)
                                 .setDescription("This event will end tomorrow")
-                                .setColor("#F7322E"),
+                                .setColor(Colors.RED),
                             end
                         )
                     }
@@ -128,14 +125,61 @@ export default class TimerManager {
                     this.queueTimer(
                         getEventEmbed(event)
                             .setDescription("This is your daily reminder for this event")
-                            .setColor("#F49C1F"),
+                            .setColor(Colors.ORANGE),
                         target
                     )
                 }
             }
         }
+    }
 
-        this.queuedUntil = queueUntil
+    queueReminders(queueUntil: number): void {
+        for (const reminder of client.reminderManager.getUpcomingReminders(queueUntil)) {
+            const timestamp = new Date(reminder.timestamp)
+
+            if (this.shouldQueue(timestamp, queueUntil)) {
+                Logger.info(`Queue reminder @ ${timestamp.toISOString()} for ${reminder.user} #${reminder.id}`)
+
+                setTimeout(async () => {
+                    try {
+                        const embed = new MessageEmbed()
+                            .setTitle(`Reminder: ${reminder.id}`)
+                            .setDescription(`I'm here to remind you about \`${reminder.subject}\``)
+                            .addField("Repeating the reminder", `You can repeat this reminder with \`${config.prefix}ar ${reminder.subject} in ${timeLeft(reminder.duration, true)}\``)
+                            .setColor(Colors.GREEN)
+                            .setTimestamp(reminder.timestamp)
+
+                        if (client.reminderManager.getReminderById(reminder.user, reminder.id)?.timestamp == reminder.timestamp) {
+                            const user = await client.users.fetch(reminder.user)
+                            await user.send(embed)
+
+                            client.reminderManager.deleteReminder(reminder.user, reminder.id, reminder.timestamp)
+                        }
+                    } catch (error) {
+                        Logger.error("Error occured while sending reminder", error)
+                    }
+                }, reminder.timestamp - Date.now() + 100)
+            } else if (Date.now() > timestamp.getTime() + 2 * 60 * 1000) {
+                Logger.info(`Late reminder ${reminder.timestamp} for ${reminder.user} #${reminder.id}: ${reminder.subject}`)
+                setImmediate(async () => {
+                    try {
+                        client.reminderManager.deleteReminder(reminder.user, reminder.id, reminder.timestamp)
+
+                        const embed = new MessageEmbed()
+                            .setTitle(`Late reminder: ${reminder.id}`)
+                            .setDescription(`Due to technical reasons, this reminder got delivered too late: \`${reminder.subject}\``)
+                            .addField("Repeating the reminder", `You can repeat this reminder with \`${config.prefix}ar ${reminder.subject} in ${timeLeft(reminder.duration, true)}\``)
+                            .setColor(Colors.ORANGE)
+                            .setTimestamp(reminder.timestamp)
+
+                        const user = await client.users.fetch(reminder.user)
+                        await user.send(embed)
+                    } catch (error) {
+                        Logger.error("Error occured while sending late reminder", error)
+                    }
+                })
+            }
+        }
     }
 
     private shouldQueue(time: Date, until: number) {

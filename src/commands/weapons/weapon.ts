@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { addArg, createTable, PAD_START, paginator } from "../../utils/Utils"
+import { addArg, Colors, createTable, PAD_START, paginator } from "../../utils/Utils"
 import { Weapon } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -60,7 +60,7 @@ Note: this command supports fuzzy search.`,
             .setTitle("Weapons")
             .setDescription(pages[page])
             .setFooter(`Page ${page + 1} / ${pages.length}`)
-            .setColor("#00EA69")
+            .setColor(Colors.GREEN)
 
         return embed
     }
@@ -119,7 +119,7 @@ Note: this command supports fuzzy search.`,
         const { data } = client
         const hasRefinements = weapon.refinement.length > 0 && weapon.refinement[0].length > 0
         const embed = new MessageEmbed()
-            .setColor("#07EADB")
+            .setColor(Colors.AQUA)
             .setThumbnail(weapon.icon)
             .setFooter(`Page ${page + 1} / ${hasRefinements ? 6 : 5}`)
 
