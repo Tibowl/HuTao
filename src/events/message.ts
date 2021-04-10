@@ -27,7 +27,7 @@ function getCommand(message: Message): ParsedCommand | false {
         if (!cmd)
             return false
     }
-    if (message.content.indexOf(config.prefix) !== 0) return false
+    if (!message.content.toLowerCase().startsWith(config.prefix)) return false
     return { args, command, cmd }
 }
 
