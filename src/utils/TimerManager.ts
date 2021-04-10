@@ -4,7 +4,7 @@ import client from "../main"
 import config from "../data/config.json"
 import { MessageEmbed } from "discord.js"
 import { Colors, getDate, getEventEmbed, timeLeft } from "./Utils"
-import { EventType } from "./Types"
+import { EventType, Reminder } from "./Types"
 
 const Logger = log4js.getLogger("TimerManager")
 
@@ -140,25 +140,7 @@ export default class TimerManager {
             if (this.shouldQueue(timestamp, queueUntil)) {
                 Logger.info(`Queue reminder @ ${timestamp.toISOString()} for ${reminder.user} #${reminder.id}`)
 
-                setTimeout(async () => {
-                    try {
-                        const embed = new MessageEmbed()
-                            .setTitle(`Reminder: ${reminder.id}`)
-                            .setDescription(`I'm here to remind you about \`${reminder.subject}\``)
-                            .addField("Repeating the reminder", `You can repeat this reminder with \`${config.prefix}ar ${reminder.subject} in ${timeLeft(reminder.duration, true)}\``)
-                            .setColor(Colors.GREEN)
-                            .setTimestamp(reminder.timestamp)
-
-                        if (client.reminderManager.getReminderById(reminder.user, reminder.id)?.timestamp == reminder.timestamp) {
-                            const user = await client.users.fetch(reminder.user)
-                            await user.send(embed)
-
-                            client.reminderManager.deleteReminder(reminder.user, reminder.id, reminder.timestamp)
-                        }
-                    } catch (error) {
-                        Logger.error("Error occured while sending reminder", error)
-                    }
-                }, reminder.timestamp - Date.now() + 100)
+                this.queueReminder(reminder)
             } else if (Date.now() > timestamp.getTime() + 2 * 60 * 1000) {
                 Logger.info(`Late reminder ${reminder.timestamp} for ${reminder.user} #${reminder.id}: ${reminder.subject}`)
                 setImmediate(async () => {
@@ -180,6 +162,28 @@ export default class TimerManager {
                 })
             }
         }
+    }
+
+    queueReminder(reminder: Reminder): void {
+        setTimeout(async () => {
+            try {
+                const embed = new MessageEmbed()
+                    .setTitle(`Reminder: ${reminder.id}`)
+                    .setDescription(`I'm here to remind you about \`${reminder.subject}\``)
+                    .addField("Repeating the reminder", `You can repeat this reminder with \`${config.prefix}ar ${reminder.subject} in ${timeLeft(reminder.duration, true)}\``)
+                    .setColor(Colors.GREEN)
+                    .setTimestamp(reminder.timestamp)
+
+                if (client.reminderManager.getReminderById(reminder.user, reminder.id)?.timestamp == reminder.timestamp) {
+                    const user = await client.users.fetch(reminder.user)
+                    await user.send(embed)
+
+                    client.reminderManager.deleteReminder(reminder.user, reminder.id, reminder.timestamp)
+                }
+            } catch (error) {
+                Logger.error("Error occured while sending reminder", error)
+            }
+        }, reminder.timestamp - Date.now() + 100)
     }
 
     private shouldQueue(time: Date, until: number) {

@@ -65,6 +65,9 @@ See `ht!help weapon` for more information.
 - `ht!events`: Check up on current and upcoming events. Examples: [list](https://i.imgur.com/or1L70I.png), going to the left shows [current ones](https://i.imgur.com/vGljfsK.png) while to the right are [future ones](https://i.imgur.com/ylCSvUA.png). Start/end/reminders for these can be followed with `ht!follow add events`.
 
 ### Misc
+- `ht!reminders`: List your current reminders. [Example of list](https://i.imgur.com/ROCPehX.png) - [Example of a reminder](https://i.imgur.com/i0AgETk.png)
+- `ht!addreminder <name> in <duration>`: [Adds a reminder](https://i.imgur.com/y6OOADd.png)
+- `ht!delreminder <id>`: [Deletes a reminder](https://i.imgur.com/1JYj86z.png)
 - `ht!time`: Check [current server times](https://i.imgur.com/CKSe9XT.png) as well as time until next daily/weekly reset.
 - `ht!resin <current resin> [time until next resin in mm:ss]`: Check how long until your resin refills.
     - Example with just amount: `ht!resin 13` [picture](https://i.imgur.com/JBLeDUa.png)

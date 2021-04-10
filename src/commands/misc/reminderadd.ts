@@ -21,7 +21,7 @@ Example: \`${config.prefix}ar Parametric in 6 days and 23h\``,
     }
 
     async run(message: Message, args: string[]): Promise<Message | Message[] | undefined> {
-        const { reminderManager } = client
+        const { reminderManager, timerManager } = client
         const userid = message.author.id
 
         const reminders = reminderManager.getReminders(userid)
@@ -52,6 +52,9 @@ Example: \`${config.prefix}ar Parametric in 6 days and 23h\``,
             id++
 
         const reminder = reminderManager.addReminder(id, name, userid, duration)
+
+        if (reminder.timestamp <= timerManager.queuedUntil)
+            timerManager.queueReminder(reminder)
 
         return message.channel.send(new MessageEmbed()
             .setTitle(`Created reminder #${reminder.id}`)
