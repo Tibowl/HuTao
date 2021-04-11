@@ -10,8 +10,6 @@ import { sendError } from "./Utils"
 const Logger = log4js.getLogger("TweetManager")
 
 export default class Tweetmanager {
-    T: Twit = new Twit(config.twitter)
-
     stream: Twit.Stream | undefined = undefined
     tweeters: {[x in FollowCategory]?: string} = {
         twitter_en: "1072404907230060544",
@@ -25,7 +23,7 @@ export default class Tweetmanager {
         const T = new Twit(config.twitter)
 
         const follow = Object.values(this.tweeters).map(k => k ?? "")
-        this.stream = T.stream("statuses/filter", { follow, include_rts: false })
+        this.stream = T.stream("statuses/filter", { follow })
         this.stream.on("tweet", async (tweet: Tweet) => this.handleTweet(tweet).catch(Logger.error))
         this.stream.on("limit", l => Logger.debug("Twitter limit", l))
         this.stream.on("warning", w => Logger.debug("Twitter warning", w))
