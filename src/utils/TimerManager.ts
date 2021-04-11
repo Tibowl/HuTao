@@ -100,7 +100,7 @@ export default class TimerManager {
                             getEventEmbed(event)
                                 .setDescription("This event will end tomorrow")
                                 .setColor(Colors.RED),
-                            end
+                            target
                         )
                     }
                 }
