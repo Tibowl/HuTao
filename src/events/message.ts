@@ -62,12 +62,12 @@ async function handleCommand(message: Message, cmdInfo: ParsedCommand): Promise<
                 if (collected && collected.size > 0 && reply.deletable) {
                     reply.delete()
                 }
-            }).catch(() => {
+            }).catch(async () => {
                 client.recentMessages = client.recentMessages.filter(k => k != reply)
 
                 const user = client.user
                 if (user == undefined || reply.deleted) return
-                reply?.reactions?.cache.map((reaction) => client.user && reaction.users.cache.has(client.user.id) && reaction.emoji.name == "❌" ? reaction.users.remove(user) : undefined)
+                await Promise.allSettled(reply?.reactions?.cache.map((reaction) => client.user && reaction.users.cache.has(client.user.id) && reaction.emoji.name == "❌" ? reaction.users.remove(user) : undefined).filter(f => f))
             })
             client.recentMessages.push(reply)
         } catch (error) {
