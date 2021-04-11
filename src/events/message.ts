@@ -57,10 +57,10 @@ async function handleCommand(message: Message, cmdInfo: ParsedCommand): Promise<
             reply.awaitReactions(
                 (reaction, user) => reaction.emoji.name == "❌" && (user.id == message.author.id || config.admins.includes(user.id)),
                 { max: 1, time: 60000, errors: ["time", "messageDelete", "channelDelete", "guildDelete"] }
-            ).then((collected) => {
+            ).then(async (collected) => {
                 client.recentMessages = client.recentMessages.filter(k => k != reply)
                 if (collected && collected.size > 0 && reply.deletable) {
-                    reply.delete()
+                    await reply.delete()
                 }
             }).catch(async () => {
                 client.recentMessages = client.recentMessages.filter(k => k != reply)
@@ -72,7 +72,7 @@ async function handleCommand(message: Message, cmdInfo: ParsedCommand): Promise<
             client.recentMessages.push(reply)
         } catch (error) {
             if (reply.editable)
-                reply.edit(reply.content + "\n\nUnable to add ❌ reaction, please contact admins of this discord guild to give this bot permission to add reactions. Doing so, will allow users to delete bot replies within some time.")
+                await reply.edit(reply.content + "\n\nUnable to add ❌ reaction, please contact admins of this discord guild to give this bot permission to add reactions. Doing so, will allow users to delete bot replies within some time.")
             else
                 Logger.error(error)
         }
@@ -93,8 +93,8 @@ export async function handle(message: Message): Promise<void> {
         else
             Logger.info(`${message.author.id} (${message.author.tag}) executes command in ${message.channel instanceof TextChannel ? message.channel.name : message.channel.type} (guild ${message.guild ? message.guild.id : "NaN"}): ${message.content}`)
 
-        handleCommand(message, cmdInfo)
         addStats(message, cmdInfo)
+        await handleCommand(message, cmdInfo)
     } else if (message.channel.type === "dm") {
         Logger.info(`${message.author.id} (${message.author.tag}) sends message ${message.type} in dm: ${message.content}`)
     }

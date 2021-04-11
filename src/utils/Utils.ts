@@ -298,7 +298,7 @@ function clean(line: string) {
 
 // Pagination functions
 const emojis = ["⬅️", "➡️"]
-async function paginatorLoop(message: Message, reply: Message, pages: ((p: number) => MessageEmbed | undefined), skipPages: Record<string, number> = {}, currentPage = 0): Promise<void> {
+function paginatorLoop(message: Message, reply: Message, pages: ((p: number) => MessageEmbed | undefined), skipPages: Record<string, number> = {}, currentPage = 0): void {
     reply.awaitReactions(
         (reaction, user) => ["❌", ...emojis, ...Object.keys(skipPages).map(name => name.match(/<:(.*?):\d+>/)?.[1] ?? name)].includes(reaction.emoji.name) && (user.id == message.author.id || config.admins.includes(user.id)),
         { max: 1, time: 60000, errors: ["time", "messageDelete", "channelDelete", "guildDelete"] }
@@ -307,9 +307,8 @@ async function paginatorLoop(message: Message, reply: Message, pages: ((p: numbe
         const name = r?.emoji.name
 
         if (name == "❌") {
-            reply.delete()
             client.recentMessages = client.recentMessages.filter(k => k != reply)
-
+            await reply.delete()
             return
         }
 
@@ -318,14 +317,14 @@ async function paginatorLoop(message: Message, reply: Message, pages: ((p: numbe
                 const newEmbed = pages(currentPage - 1)
                 if (newEmbed) {
                     currentPage--
-                    reply.edit(newEmbed)
+                    await reply.edit(newEmbed)
                 }
             }
         } else if (name == emojis[1]) {
             const newEmbed = pages(currentPage + 1)
             if (newEmbed) {
                 currentPage++
-                reply.edit(newEmbed)
+                await reply.edit(newEmbed)
             }
         } else if (name) {
             const newPage = Object.entries(skipPages).find(([k]) => k == name || k.includes(`<:${name}:`))?.[1]
@@ -333,7 +332,7 @@ async function paginatorLoop(message: Message, reply: Message, pages: ((p: numbe
                 const newEmbed = pages(newPage)
                 if (newEmbed) {
                     currentPage = newPage
-                    reply.edit(newEmbed)
+                    await reply.edit(newEmbed)
                 }
             }
         }

@@ -21,7 +21,7 @@ export default class Ping extends Command {
             `The message round-trip took **${pingMsg.createdTimestamp - message.createdTimestamp}ms**.`,
             client.ws.ping ? `The heartbeat ping is **${Math.round(client.ws.ping)}ms**.` : ""
         ].join(" ").trim()
-        pingMsg.edit(msgPong)
+        await pingMsg.edit(msgPong)
         return pingMsg
     }
 }

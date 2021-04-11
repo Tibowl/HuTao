@@ -25,7 +25,7 @@ import eventData from "../data/events.json" // Not in gamedata since it also con
 import { findFuzzy, getDate } from "./Utils"
 
 const Logger = log4js.getLogger("DataManager")
-const existsP = (path: string): Promise<boolean> => new Promise((resolve) => exists(path, resolve))
+const existsP = async (path: string): Promise<boolean> => new Promise((resolve) => exists(path, resolve))
 
 const path = join(__dirname, "../../src/data/")
 const store = join(path, "store.json")

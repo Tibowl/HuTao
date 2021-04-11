@@ -14,5 +14,5 @@ export async function handle(): Promise<void> {
     client.tweetManager.init()
 
     if (client.user == null) return
-    client.user.setStatus("online")
+    await client.user.setStatus("online")
 }

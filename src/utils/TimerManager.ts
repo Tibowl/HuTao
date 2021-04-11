@@ -13,7 +13,7 @@ export default class TimerManager {
     queuedUntil = Date.now() - 20000
 
     init(): void {
-        const updateActivity = (): void => {
+        const updateActivity = async (): Promise<void> => {
             if (client.user == undefined) {
                 this.activityTimer = setTimeout(updateActivity, 5000)
                 return
@@ -21,11 +21,11 @@ export default class TimerManager {
 
             this.activityTimer = setTimeout(updateActivity, 30000)
 
-            client.user.setActivity(config.activity, {
+            this.queueTimers()
+
+            await client.user.setActivity(config.activity, {
                 type: "LISTENING"
             })
-
-            this.queueTimers()
         }
 
         if (this.activityTimer == undefined)
@@ -193,7 +193,7 @@ export default class TimerManager {
     queueTimer(embed: MessageEmbed, targetTime: Date): void {
         const { followManager } = client
         setTimeout(() => {
-            followManager.send("events", embed)
+            followManager.send("events", embed).catch(Logger.error)
         }, targetTime.getTime() - Date.now() + 500)
     }
 }

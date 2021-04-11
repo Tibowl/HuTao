@@ -26,14 +26,14 @@ export default class Tweetmanager {
 
         const follow = Object.values(this.tweeters).map(k => k ?? "")
         this.stream = T.stream("statuses/filter", { follow, include_rts: false })
-        this.stream.on("tweet", this.handleTweet)
+        this.stream.on("tweet", async (tweet: Tweet) => this.handleTweet(tweet).catch(Logger.error))
         this.stream.on("limit", l => Logger.debug("Twitter limit", l))
         this.stream.on("warning", w => Logger.debug("Twitter warning", w))
 
         Logger.info(`Following ${follow.length} twitter account(s)!`)
     }
 
-    handleTweet = (tweet: Tweet): void => {
+    handleTweet = async (tweet: Tweet): Promise<void> => {
         if (!Object.values(this.tweeters).includes(tweet.user.id_str)) return
         const tweetLink = `https://twitter.com/${tweet.user.screen_name}/status/${tweet.id_str}`
 
@@ -57,7 +57,7 @@ export default class Tweetmanager {
         // Tweet has media, don't embed it
         if (tweet.extended_entities?.media) {
             if (tweet.extended_entities.media[0].type != "photo") {
-                this.send(tweeter, tweetLink)
+                await this.send(tweeter, tweetLink)
                 return
             } else
                 embed.setImage(tweet.extended_entities.media[0].media_url_https)
@@ -74,7 +74,7 @@ export default class Tweetmanager {
             // Tweet has media, don't embed it
             if (entities.media) {
                 if (entities.media[0].type != "photo") {
-                    this.send(tweeter, tweetLink)
+                    await this.send(tweeter, tweetLink)
                     return
                 } else
                     embed.setImage(entities.media[0].media_url_https)
@@ -87,18 +87,18 @@ export default class Tweetmanager {
 
         embed.setDescription(text)
 
-        this.send(tweeter, `<${tweetLink}>`, embed)
+        await this.send(tweeter, `<${tweetLink}>`, embed)
     }
 
     async send(tweeter: string, content?: StringResolvable, embed?: MessageEmbed): Promise<void> {
         const category = Object.entries(this.tweeters).find(([_k, v]) => v == tweeter)?.[0] as FollowCategory | undefined
 
         if (!category) {
-            sendError(`Unknown Tweeter ${tweeter}, ${content}`)
+            await sendError(`Unknown Tweeter ${tweeter}, ${content}`)
             return
         }
 
-        client.followManager.send(category, content, embed)
+        await client.followManager.send(category, content, embed)
     }
 
     shutdown = (): void => {

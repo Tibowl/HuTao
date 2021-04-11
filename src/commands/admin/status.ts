@@ -39,7 +39,7 @@ export default class Status extends Command {
             return `${mem(heapUsed)}/${mem(heapTotal)}`
         }
         const getAdmins = async (): Promise<string> => {
-            const users = config.admins.map(id => client.users.fetch(id))
+            const users = config.admins.map(async id => client.users.fetch(id))
             return (await Promise.all(users)).map(user => user.tag).join(", ")
         }
 

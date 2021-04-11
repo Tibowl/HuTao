@@ -3,6 +3,6 @@ import { Guild } from "discord.js"
 
 const Logger = log4js.getLogger("join")
 
-export async function handle(guild: Guild): Promise<void> {
+export function handle(guild: Guild): void {
     Logger.info(`Joined ${guild.id} - ${guild.name} with ${guild.memberCount} members`)
 }

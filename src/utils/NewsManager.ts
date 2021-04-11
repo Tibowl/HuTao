@@ -61,7 +61,7 @@ export default class NewsManager {
         this.getNewsByIdStatement = this.sql.prepare("SELECT * FROM news WHERE post_id = @post_id")
         this.getNewsStatement = this.sql.prepare("SELECT * FROM news WHERE lang = @lang ORDER BY created_at DESC, post_id DESC LIMIT 20")
 
-        this.fetchNews()
+        this.fetchNews().catch(Logger.error)
     }
 
     lastFetched = 0
@@ -72,7 +72,7 @@ export default class NewsManager {
             nextScanTime.setUTCMinutes(nextScanTime.getUTCMinutes() + 5)
 
         setTimeout(() => {
-            this.fetchNews()
+            this.fetchNews().catch(Logger.error)
         }, Math.max(0, nextScanTime.getTime() - Date.now()) + 5000)
 
         if (this.lastFetched > Date.now() - 30 * 1000) return
@@ -105,7 +105,7 @@ export default class NewsManager {
                         article.post = post.post
 
                         const stored = this.addNews(article, langid, type)
-                        this.post(language, stored)
+                        this.post(language, stored).catch(Logger.error)
                     }
                 } catch (error) {
                     Logger.error("An error occurred while fetching news", error)
@@ -116,7 +116,7 @@ export default class NewsManager {
     async post(lang: FollowCategory, post: StoredNews): Promise<void> {
         const embed = getNewsEmbed(post)
 
-        client.followManager.send(lang, "A news article got posted on the forum", embed)
+        await client.followManager.send(lang, "A news article got posted on the forum", embed)
     }
 
     private addNewsStatement: SQLite.Statement

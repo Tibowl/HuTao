@@ -4,7 +4,7 @@ import client from "../main"
 
 const Logger = log4js.getLogger("channelDelete")
 
-export async function handle(channel: DMChannel | GuildChannel): Promise<void> {
+export function handle(channel: DMChannel | GuildChannel): void {
     if (!(channel instanceof GuildChannel)) return
 
     const follows = client.followManager.getFollows(channel)

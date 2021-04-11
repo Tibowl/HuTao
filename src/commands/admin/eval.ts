@@ -35,7 +35,7 @@ export default class Eval extends Command {
         }
     }
 
-    format(message: Message, obj: unknown): Promise<Message | Message[]> {
+    async format(message: Message, obj: unknown): Promise<Message | Message[]> {
         return message.reply(`\`\`\`json\n${obj}\`\`\``)
     }
 }

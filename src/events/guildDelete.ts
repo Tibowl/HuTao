@@ -4,7 +4,7 @@ import client from "../main"
 
 const Logger = log4js.getLogger("left")
 
-export async function handle(guild: Guild): Promise<void> {
+export function handle(guild: Guild): void {
     Logger.info(`Left ${guild.id} - ${guild.name} with ${guild.memberCount} members`)
     const following = client.followManager.following(guild)
     if (following.length > 0) {
