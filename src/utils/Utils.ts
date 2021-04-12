@@ -14,7 +14,7 @@ const Logger = log4js.getLogger("Utils")
  * @param embed Possible embed/attachment to send
  * @returns All the messages send
  */
-export async function sendToChannels(channels: string[] | undefined, content: StringResolvable, embed?: MessageEmbed | MessageAttachment): Promise<(Message | Message[])[]> {
+export async function sendToChannels(channels: string[] | undefined, content?: StringResolvable, embed?: MessageEmbed | MessageAttachment): Promise<PromiseSettledResult<Message | Message[]>[]> {
     const messages = []
     if (!channels) return Promise.all([])
 
@@ -33,7 +33,7 @@ export async function sendToChannels(channels: string[] | undefined, content: St
         }
     }
 
-    return Promise.all(messages)
+    return Promise.allSettled(messages)
 }
 
 /**
@@ -42,9 +42,9 @@ export async function sendToChannels(channels: string[] | undefined, content: St
  * @param embed Possible embed/attachment to send
  * @returns List of messages
  */
-export async function sendError(content: StringResolvable, embed?: MessageEmbed | MessageAttachment): Promise<(Message | Message[])[]> {
+export async function sendError(content: StringResolvable, embed?: MessageEmbed | MessageAttachment): Promise<Message[]> {
     Logger.error(content)
-    return sendToChannels(config.errorLog, content, embed)
+    return (await sendToChannels(config.errorLog, content, embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
 }
 
 export const PAD_START = 0
