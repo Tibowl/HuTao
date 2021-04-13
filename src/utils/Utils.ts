@@ -184,7 +184,7 @@ export function getNewsEmbed(post: StoredNews, page = -1): MessageEmbed | undefi
         .setTitle(post.subject)
         .setAuthor(post.nickname)
         .setTimestamp(post.created_at * 1000)
-        .setURL(`https://www.hoyolab.com/genshin/article/${post.post_id}`)
+        .setURL(post.lang == "bbs-zh-cn" ? `https://bbs.mihoyo.com/ys/article/${post.post_id}` : `https://www.hoyolab.com/genshin/article/${post.post_id}`)
         .setColor([Colors.AQUA, Colors.GREEN, "#EA6907"][post.type - 1] ?? "#C1C1C1")
 
     const parsed = parseNewsContent(post.content)

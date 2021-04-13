@@ -3,17 +3,17 @@ import SQLite from "better-sqlite3"
 import { ensureDirSync } from "fs-extra"
 import fetch from "node-fetch"
 
-import { FollowCategory, News, StoredNews } from "./Types"
+import { FollowCategory, News, NewsLang, StoredNews } from "./Types"
 import client from "../main"
 import { getNewsEmbed } from "./Utils"
 
 const Logger = log4js.getLogger("NewsManager")
 ensureDirSync("data/")
 
-type Lang = "zh-cn" | "zh-tw" | "de-de" | "en-us" | "es-es" | "fr-fr" | "id-id" | "ja-jp" | "ko-kr" | "pt-pt" | "ru-ru" | "th-th" | "vi-vn"
 
-const langMap: Record<Lang, string> = {
+const langMap: Record<NewsLang, string> = {
     "zh-cn": "简体中文",
+    "bbs-zh-cn": "简体中文",
     "zh-tw": "繁體中文",
     "de-de": "Deutsch",
     "en-us": "English",
@@ -28,9 +28,10 @@ const langMap: Record<Lang, string> = {
     "vi-vn": "Tiếng Việt",
 }
 
-const languages: { [x in FollowCategory]?: Lang} = {
+const languages: { [x in FollowCategory]?: NewsLang} = {
     "news_en-us": "en-us",
     "news_zh-cn": "zh-cn",
+    "news_bbs-zh-cn": "bbs-zh-cn",
     "news_zh-tw": "zh-tw",
     "news_de-de": "de-de",
     "news_es-es": "es-es",
@@ -54,8 +55,9 @@ export default class NewsManager {
         process.on("SIGINT", () => process.exit(128 + 2))
         process.on("SIGTERM", () => process.exit(128 + 15))
 
-        this.sql.exec("CREATE TABLE IF NOT EXISTS news (post_id TEXT, lang TEXT, type INT, subject TEXT, created_at INT, nickname TEXT, image_url TEXT, content TEXT, PRIMARY KEY (post_id))")
-        // this.sql.exec("DELETE FROM news WHERE post_id='241284'")
+        this.sql.exec("CREATE TABLE IF NOT EXISTS news (post_id TEXT, lang TEXT, type INT, subject TEXT, created_at INT, nickname TEXT, image_url TEXT, content TEXT, PRIMARY KEY (post_id, lang))")
+        // this.sql.exec("DELETE FROM news WHERE post_id='295572'")
+        // this.sql.exec("DELETE FROM news WHERE post_id='295568'")
 
         this.addNewsStatement = this.sql.prepare("INSERT OR REPLACE INTO news VALUES (@post_id, @lang, @type, @subject, @created_at, @nickname, @image_url, @content)")
         this.getNewsByIdStatement = this.sql.prepare("SELECT * FROM news WHERE post_id = @post_id")
@@ -86,7 +88,8 @@ export default class NewsManager {
                         Logger.error(`Unknown lang ID ${language}`)
                         continue
                     }
-                    const data = await (await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getNewsList?gids=2&page_size=20&type=${type}`, { headers:{ "x-rpc-language":langid } })).json()
+                    const newsList = langid == "bbs-zh-cn" ? `https://bbs-api.mihoyo.com/post/wapi/getNewsList?gids=2&page_size=20&type=${type}` : `https://bbs-api-os.hoyolab.com/community/post/wapi/getNewsList?gids=2&page_size=20&type=${type}`
+                    const data = await (await fetch(newsList, { headers: { "x-rpc-language": langid } })).json()
                     this.lastFetched = Date.now()
 
                     if (!data?.data?.list) continue
@@ -97,7 +100,13 @@ export default class NewsManager {
                         if (this.getNewsById(post_id)) continue
 
                         Logger.info(`Fetching new post: ${language} ${post_id} - ${article.post.subject}`)
-                        const postdata = await (await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`)).json()
+                        let fetched
+                        if (langid == "bbs-zh-cn")
+                            fetched = await fetch(`https://bbs-api.mihoyo.com/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { Referer: "https://bbs.mihoyo.com/" } })
+                        else
+                            fetched = await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { Referer: "https://www.hoyolab.com/" } })
+
+                        const postdata = await fetched.json()
                         this.lastFetched = Date.now()
                         if (!postdata?.data?.post) continue
 
@@ -120,7 +129,7 @@ export default class NewsManager {
     }
 
     private addNewsStatement: SQLite.Statement
-    addNews(post: News, lang: string, type: number): StoredNews {
+    addNews(post: News, lang: NewsLang, type: number): StoredNews {
         const stored: StoredNews = {
             post_id: post.post.post_id,
             lang,
@@ -156,6 +165,6 @@ export default class NewsManager {
     }
 
     getLanguageName(lang: string): string {
-        return langMap[lang as Lang] ?? lang
+        return langMap[lang as NewsLang] ?? lang
     }
 }

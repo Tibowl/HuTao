@@ -15,7 +15,8 @@ const descriptions: { [x in FollowCategory]: string } = {
     "news_ja-jp": "日本語 forum news articles",
     "news_ko-kr": "한국어 forum news articles",
 
-    "news_zh-cn": "简体中文 forum news articles",
+    "news_zh-cn": "简体中文 forum news articles (from hoyolab.com)",
+    "news_bbs-zh-cn": "简体中文 forum news articles (from bbs.mihoyo.com)",
     "news_zh-tw": "繁體中文 forum news articles",
     "news_de-de": "Deutsch forum news articles",
     "news_id-id": "Indonesia forum news articles",
