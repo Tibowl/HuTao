@@ -218,11 +218,11 @@ export function parseNewsContent(content: string): Content[] {
     const target: Content[] = []
     let currentLine = ""
 
-    const matches = content.match(/<p.*?>(.*?)<\/p>/g)
+    const matches = content.match(/<(p|div).*?>(.*?)<\/(p|div)>/g)
     if (!matches) return target
 
     for (const paragraph of matches) {
-        let middle = paragraph.match(/<p.*?>(.*?)<\/p>/)?.[1]
+        let middle = paragraph.match(/<(p|div).*?>(.*?)<\/(p|div)>/)?.[2]
         if (!middle) continue
         middle = middle
             .replace(/<\/?br.*?>/g, "\n")
