@@ -48,16 +48,18 @@ Example: \`${config.prefix}ar Weekly boss in 36 resin\``,
         }
 
         let duration = 0
-        const times = [...time.matchAll(/((\d+) ?(months?|mo|weeks?|w|days?|d|hours?|h|minutes?|min|m|seconds?|sec|s|resins?|r))/g)]
+        const times = [...time.matchAll(/((\d+) ?(months?|mo|weeks?|w|days?|d|hours?|h|minutes?|min|m|seconds?|sec|s|resins?|r))/gi)]
 
-        for (const time of times)
-            if      (time[3].startsWith("mo")) duration += +time[2] * 30 * 24 * 60 * 60 * 1000
-            else if (time[3].startsWith("w"))  duration += +time[2] *  7 * 24 * 60 * 60 * 1000
-            else if (time[3].startsWith("d"))  duration += +time[2] * 24 * 60 * 60 * 1000
-            else if (time[3].startsWith("h"))  duration += +time[2] * 60 * 60 * 1000
-            else if (time[3].startsWith("m"))  duration += +time[2] * 60 * 1000
-            else if (time[3].startsWith("s"))  duration += +time[2] * 1000
-            else if (time[3].startsWith("r"))  duration += +time[2] * client.data.minutes_per_resin * 60 * 1000
+        for (const time of times) {
+            const name = time[3].toLowerCase(), amount = parseInt(time[2])
+            if      (name.startsWith("mo")) duration += amount * 30 * 24 * 60 * 60 * 1000
+            else if (name.startsWith("w"))  duration += amount *  7 * 24 * 60 * 60 * 1000
+            else if (name.startsWith("d"))  duration += amount * 24 * 60 * 60 * 1000
+            else if (name.startsWith("h"))  duration += amount * 60 * 60 * 1000
+            else if (name.startsWith("m"))  duration += amount * 60 * 1000
+            else if (name.startsWith("s"))  duration += amount * 1000
+            else if (name.startsWith("r"))  duration += amount * client.data.minutes_per_resin * 60 * 1000
+        }
 
         if (duration == 0) return this.sendHelp(message)
 
