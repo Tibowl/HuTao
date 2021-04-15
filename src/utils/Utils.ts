@@ -173,8 +173,8 @@ export function timeLeft(diff: number, full = false, short = true): string {
     return result.join(", ") + (ago ? " ago" : "")
 }
 
-export function getDate(timestamp: string): Date {
-    return new Date(`${timestamp.replace(" ", "T")}+08:00`)
+export function getDate(timestamp: string, timezone = "+08:00"): Date {
+    return new Date(`${timestamp.replace(" ", "T")}${timezone}`)
 }
 
 
@@ -275,8 +275,8 @@ export function getEventEmbed(event: Event): MessageEmbed {
     embed.setTitle(event.name)
     if (event.img) embed.setImage(event.img)
     if (event.link) embed.setURL(event.link)
-    if (event.start) embed.addField(event.type == EventType.Unlock ? "Unlock Time" : "Start Time", event.start, true)
-    if (event.end) embed.addField("End Time", event.end, true)
+    if (event.start) embed.addField(event.type == EventType.Unlock ? "Unlock Time" : "Start Time", `${event.start}${event.timezone?` (GMT${event.timezone})`:""}`, true)
+    if (event.end) embed.addField("End Time", `${event.end}${event.timezone?` (GMT${event.timezone})`:""}`, true)
     if (event.type && event.type !== EventType.Unlock) embed.addField("Type", event.type, true)
 
     return embed

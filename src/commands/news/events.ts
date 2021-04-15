@@ -22,23 +22,23 @@ export default class Events extends Command {
 
         const ongoing = events
             .filter(e =>
-                getDate(e.start).getTime() <= now &&
+                getDate(e.start, e.timezone).getTime() <= now &&
                 (
-                    (e.end && getDate(e.end).getTime() >= now) ||
+                    (e.end && getDate(e.end, e.timezone).getTime() >= now) ||
                     (!e.end && e.reminder == "daily")
                 )
             ).sort((a, b) => {
                 if (!a.end) return 1
                 if (!b.end) return -1
-                return getDate(a.end).getTime() - getDate(b.end).getTime()
+                return getDate(a.end, a.timezone).getTime() - getDate(b.end, b.timezone).getTime()
             })
 
         const upcoming = events
-            .filter(e => getDate(e.start).getTime() > now)
-            .sort((a, b) => getDate(a.start).getTime() - getDate(b.start).getTime())
+            .filter(e => getDate(e.start, e.timezone).getTime() > now)
+            .sort((a, b) => getDate(a.start, a.timezone).getTime() - getDate(b.start, b.timezone).getTime())
 
         const embed = this.getEvent(ongoing, upcoming, ongoing.length)
-        if (!embed) return message.channel.send("No artifact data loaded")
+        if (!embed) return message.channel.send("No event data loaded")
 
         const reply = await message.channel.send(embed)
         await paginator(message, reply, (page) => this.getEvent(ongoing, upcoming, page), undefined, ongoing.length)
@@ -55,13 +55,13 @@ export default class Events extends Command {
                 .addField("Current Events",
                           ongoing.length == 0 ? "None" : ongoing
                               .map(e =>
-                                  `${e.end ? `Ending on ${e.end}` : "Ongoing"}: ${e.link ? `[${e.name}](${e.link}) ` : e.name}`
+                                  `${e.end ? `Ending on ${e.end}${e.timezone?` (GMT${e.timezone})`:""}` : "Ongoing"}: ${e.link ? `[${e.name}](${e.link}) ` : e.name}`
                               )
                               .join("\n")
                 )
                 .addField("Upcoming Events", upcoming.length == 0 ? "None" : upcoming
                     .map(e =>
-                        `Starting on ${e.start}: ${e.link ? `[${e.name}](${e.link})` : e.name}`
+                        `Starting on ${e.start}${e.timezone?` (GMT${e.timezone})`:""}: ${e.link ? `[${e.name}](${e.link})` : e.name}`
                     )
                     .join("\n"))
                 .setFooter(`Page ${page+1} / ${total}`)
@@ -70,16 +70,26 @@ export default class Events extends Command {
             const event = upcoming[Math.abs(currentPage) - 1]
             if (event == undefined) return undefined
 
-            return getEventEmbed(event)
+            const embed = getEventEmbed(event)
                 .setFooter(`Page ${page+1} / ${total}`)
                 .setColor("#F4231F")
+
+            if (event.start)
+                embed.setTimestamp(getDate(event.start, event.timezone))
+
+            return embed
         } else if (currentPage < 0) {
             const event = ongoing[Math.abs(currentPage) - 1]
             if (event == undefined) return undefined
 
-            return getEventEmbed(event)
+            const embed = getEventEmbed(event)
                 .setFooter(`Page ${page+1} / ${total}`)
                 .setColor("#F49C1F")
+
+            if (event.end)
+                embed.setTimestamp(getDate(event.end, event.timezone))
+
+            return embed
         }
         return undefined
     }

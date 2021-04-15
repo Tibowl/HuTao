@@ -42,7 +42,7 @@ export default class TimerManager {
 
     queueEvents(queueUntil: number): void {
         for (const event of client.data.events) {
-            const start = getDate(event.start)
+            const start = getDate(event.start, event.timezone)
 
             // Starting
             if (start.getTime() > this.queuedUntil) {
@@ -68,7 +68,7 @@ export default class TimerManager {
 
             // Endings
             if (event.end) {
-                const end = getDate(event.end)
+                const end = getDate(event.end, event.timezone)
 
                 // Already ended
                 if (end.getTime() <= this.queuedUntil)
@@ -111,13 +111,13 @@ export default class TimerManager {
                 const target = new Date(start)
                 if (event.remindtime) {
                     const [hh, mm, ss] = event.remindtime.split(":").map(i => parseInt(i))
-                    target.setUTCHours((hh ?? 0) - 8, mm ?? 0, ss??0, 0)
+                    target.setUTCHours((hh ?? 0) - 8, mm ?? 0, ss ?? 0, 0)
                 }
                 while (target.getTime() < this.queuedUntil)
                     target.setUTCDate(target.getUTCDate() + 1)
 
                 // Reminder past event end
-                if (event.end && target.getTime() >= getDate(event.end).getTime())
+                if (event.end && target.getTime() >= getDate(event.end, event.timezone).getTime())
                     continue
 
                 if (this.shouldQueue(target, queueUntil)) {

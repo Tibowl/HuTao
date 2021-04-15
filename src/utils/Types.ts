@@ -489,6 +489,7 @@ export interface Event {
     link?:       string
     img?:        string
     start:       string
+    timezone?:   string
     reminder?:   EventReminderType
     remindtime?: string
     end?:        string
@@ -498,6 +499,7 @@ export enum EventType {
     Web = "Web",
     InGame = "In-game",
     Maintenance = "Maintenance",
+    Stream = "Stream",
     Unlock = "Unlock",
     Banner = "Banner"
 }

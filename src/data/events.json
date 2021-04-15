@@ -70,5 +70,20 @@
         "end": "2021-04-23 03:59:59",
         "reminder": "daily",
         "remindtime": "04:00:00"
+    },
+    {
+        "name": "1.5 Special Program [CN]",
+        "type": "Stream",
+        "link": "https://bbs.mihoyo.com/ys/article/5527140",
+        "img": "https://upload-bbs.mihoyo.com/upload/2021/04/15/75276539/1ed522d561ac6136701e54b8879b36f5_9056138232267959094.jpg",
+        "start": "2021-04-16 20:00:00"
+    },
+    {
+        "name": "1.5 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/genshin/article/298552",
+        "img": "https://upload-os-bbs.mihoyo.com/upload/2021/04/15/1015613/df1f9390716004a20bcdf3c6e6650f39_1573465847055286685.jpg",
+        "start": "2021-04-16 11:00:00",
+        "timezone": "-05:00"
     }
 ]
