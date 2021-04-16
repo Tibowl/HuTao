@@ -20,7 +20,7 @@ export default class Help extends Command {
             category: "Hidden",
             help: "Get some help.",
             usage: "help [command]",
-            aliases: ["command", "commands"]
+            aliases: ["command", "commands", "h"]
         })
     }
 
@@ -62,8 +62,8 @@ ${Object.entries(categorized)
     ${items.sort((a, b) => a.localeCompare(b)).map(cmd => `${config.prefix}${cmd}`).join(", ")}`)
         .join("\n")}
 
-*Use \`${config.prefix}help <command name>\` for more information about a specific command.*
-*You can invite this bot to your server with \`${config.prefix}invite\`.*${missingPerms.length > 0 ? `
+*Make sure to check out \`${config.prefix}help <command name>\` for more information about a specific command, you might find some useful shortcuts/tips (like command aliases/how most search commands support fuzzy search).*
+*Any problems/suggestions? Check out \`${config.prefix}about\`.*${missingPerms.length > 0 ? `
 
 **NOTE**: This bot is missing some permissions required for optimal usage, please add ${missingPerms.join(", ")}`: ""}`)
         }
