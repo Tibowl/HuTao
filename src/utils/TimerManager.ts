@@ -56,6 +56,7 @@ export default class TimerManager {
                         case EventType.Banner: embed.setDescription("This banner is now available"); break
                         case EventType.Maintenance: embed.setDescription("Maintenance has now started"); break
                         case EventType.Unlock: embed.setDescription("This should now be available"); break
+                        case EventType.Stream: embed.setDescription("Stream should have started"); break
                         default: embed.setDescription("This event is now available"); break
                     }
 
@@ -84,6 +85,7 @@ export default class TimerManager {
                     switch (event.type) {
                         case EventType.Banner: embed.setDescription("This banner is no longer available"); break
                         case EventType.Maintenance: embed.setDescription("Maintenance should be done"); break
+                        case EventType.Stream: embed.setDescription("Stream should be done"); break
                         default: embed.setDescription("This event has ended"); break
                     }
 
