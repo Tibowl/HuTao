@@ -20,6 +20,9 @@ export default class FollowManager {
         process.on("SIGTERM", () => process.exit(128 + 15))
 
         this.sql.exec("CREATE TABLE IF NOT EXISTS follows (guildID TEXT, channelID TEXT, category TEXT, addedOn BIGINT, addedBy TEXT, PRIMARY KEY (channelID, category))")
+        this.sql.exec("CREATE INDEX IF NOT EXISTS follows_category ON follows (category)")
+        this.sql.exec("CREATE INDEX IF NOT EXISTS follows_channelID ON follows (channelID)")
+        this.sql.exec("CREATE INDEX IF NOT EXISTS follows_guildID ON follows (guildID)")
 
         this.addFollowStatement = this.sql.prepare("INSERT OR REPLACE INTO follows VALUES (@guildID, @channelID, @category, @addedOn, @addedBy)")
 

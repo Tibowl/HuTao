@@ -56,8 +56,9 @@ export default class NewsManager {
         process.on("SIGTERM", () => process.exit(128 + 15))
 
         this.sql.exec("CREATE TABLE IF NOT EXISTS news (post_id TEXT, lang TEXT, type INT, subject TEXT, created_at INT, nickname TEXT, image_url TEXT, content TEXT, PRIMARY KEY (post_id, lang))")
-        // this.sql.exec("DELETE FROM news WHERE post_id='295572'")
-        // this.sql.exec("DELETE FROM news WHERE post_id='295568'")
+        this.sql.exec("CREATE INDEX IF NOT EXISTS news_post_id ON news (post_id)")
+        this.sql.exec("CREATE INDEX IF NOT EXISTS news_lang ON news (lang)")
+        this.sql.exec("CREATE INDEX IF NOT EXISTS news_created_at ON news (created_at)")
 
         this.addNewsStatement = this.sql.prepare("INSERT OR REPLACE INTO news VALUES (@post_id, @lang, @type, @subject, @created_at, @nickname, @image_url, @content)")
         this.getNewsByIdStatement = this.sql.prepare("SELECT * FROM news WHERE post_id = @post_id")
