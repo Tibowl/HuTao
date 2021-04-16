@@ -488,7 +488,7 @@ export interface Event {
     type:        EventType
     link?:       string
     img?:        string
-    start:       string
+    start?:       string
     timezone?:   string
     reminder?:   EventReminderType
     remindtime?: string

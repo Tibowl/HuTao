@@ -22,6 +22,7 @@ export default class Events extends Command {
 
         const ongoing = events
             .filter(e =>
+                e.start &&
                 getDate(e.start, e.timezone).getTime() <= now &&
                 (
                     (e.end && getDate(e.end, e.timezone).getTime() >= now) ||
@@ -34,8 +35,12 @@ export default class Events extends Command {
             })
 
         const upcoming = events
-            .filter(e => getDate(e.start, e.timezone).getTime() > now)
-            .sort((a, b) => getDate(a.start, a.timezone).getTime() - getDate(b.start, b.timezone).getTime())
+            .filter(e => e.start == undefined || getDate(e.start, e.timezone).getTime() > now)
+            .sort((a, b) => {
+                if (!a.start) return 1
+                if (!b.start) return -1
+                return getDate(a.start, a.timezone).getTime() - getDate(b.start, b.timezone).getTime()
+            })
 
         const embed = this.getEvent(ongoing, upcoming, ongoing.length)
         if (!embed) return message.channel.send("No event data loaded")
@@ -61,7 +66,7 @@ export default class Events extends Command {
                 )
                 .addField("Upcoming Events", upcoming.length == 0 ? "None" : upcoming
                     .map(e =>
-                        `Starting on ${e.start}${e.timezone?` (GMT${e.timezone})`:""}: ${e.link ? `[${e.name}](${e.link})` : e.name}`
+                        `${e.type == "Unlock" ? "Unlocks at" : "Starting on"} ${e.start ? e.start : "????"}${e.timezone?` (GMT${e.timezone})`:""}: ${e.link ? `[${e.name}](${e.link})` : e.name}`
                     )
                     .join("\n"))
                 .setFooter(`Page ${page+1} / ${total}`)

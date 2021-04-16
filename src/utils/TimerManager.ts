@@ -42,6 +42,8 @@ export default class TimerManager {
 
     queueEvents(queueUntil: number): void {
         for (const event of client.data.events) {
+            if (!event.start) continue
+
             const start = getDate(event.start, event.timezone)
 
             // Starting

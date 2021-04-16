@@ -85,5 +85,31 @@
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/04/15/1015613/df1f9390716004a20bcdf3c6e6650f39_1573465847055286685.jpg",
         "start": "2021-04-16 11:00:00",
         "timezone": "-05:00"
+    },
+    {
+        "name": "1.5 Maintenance",
+        "type": "Maintenance",
+        "img": "https://upload-os-bbs.mihoyo.com/upload/2021/04/16/1015554/2dcbcdacd4910d901c19a65361fdb32a_5192697560737504354.jpg",
+        "start": "2021-04-28"
+    },
+    {
+        "name": "\"Energy Amplifier Initiation\" Event",
+        "type": "In-game"
+    },
+    {
+        "name": "\"Battlefront: Misty Dungeon\" Event",
+        "type": "In-game"
+    },
+    {
+        "name": "\"Windtrace\" Event",
+        "type": "In-game"
+    },
+    {
+        "name": "\"Mini Tomo\" Event",
+        "type": "In-game"
+    },
+    {
+        "name": "\"Overflowing Mastery\" Event",
+        "type": "In-game"
     }
 ]
