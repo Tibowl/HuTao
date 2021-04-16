@@ -43,11 +43,12 @@ Note: this command supports fuzzy search.`,
             .map(([name, info]) => `${info.stars}★ ${data.emoji(info.weaponType, true)}: **${name}**`)
 
         const pages: string[] = []
-        let paging = ""
+        let paging = "", c = 0
         for (const weapon of weapons) {
-            if (paging.length + weapon.length > 1000) {
+            if (paging.length + weapon.length > 1800 || ++c > 15) {
                 pages.push(paging.trim())
                 paging = weapon
+                c = 1
             } else
                 paging += "\n" + weapon
         }
@@ -59,7 +60,7 @@ Note: this command supports fuzzy search.`,
         const embed = new MessageEmbed()
             .setTitle("Weapons")
             .setDescription(pages[page])
-            .setFooter(`Page ${page + 1} / ${pages.length}`)
+            .setFooter(`Page ${page + 1} / ${pages.length} - See '${config.prefix}help weapon' for more info about what you can do`)
             .setColor(Colors.GREEN)
 
         return embed

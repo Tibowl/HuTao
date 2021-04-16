@@ -26,11 +26,12 @@ Note: this command supports fuzzy search.`,
             .map(([name, info]) => `**${name}**: ${Math.min(...info.levels)}★ ~ ${Math.max(...info.levels)}★`)
 
         const pages: string[] = []
-        let paging = ""
+        let paging = "", c = 0
         for (const art of arti) {
-            if (paging.length + art.length > 500) {
+            if (paging.length + arti.length > 1800 || ++c > 15) {
                 pages.push(paging.trim())
                 paging = art
+                c = 1
             } else
                 paging += "\n" + art
         }
@@ -42,7 +43,7 @@ Note: this command supports fuzzy search.`,
         const embed = new MessageEmbed()
             .setTitle("Artifact Sets")
             .setDescription(pages[page])
-            .setFooter(`Page ${page + 1} / ${pages.length}`)
+            .setFooter(`Page ${page + 1} / ${pages.length} - See '${config.prefix}help artifact' for more info about what you can do`)
             .setColor(Colors.GREEN)
 
         return embed

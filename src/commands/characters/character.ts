@@ -44,21 +44,22 @@ Note: this command supports fuzzy search.`,
 
     getCharacters(elementFilter: string[], weaponTypeFilter: string[], starFilter: number[], page: number): MessageEmbed | undefined {
         const { data } = client
-        const arti = data.getCharacters()
+        const chars = data.getCharacters()
             .filter((char) => starFilter.length == 0 || starFilter.includes(char.star))
             .filter((char) => elementFilter.length == 0 || elementFilter.find(elem => this.getElementIcons(char).includes(elem)))
             .filter((char) => weaponTypeFilter.length == 0 || weaponTypeFilter.includes(char.weaponType))
-            .reverse()
+            .sort((a, b) => b.releasedOn.localeCompare(a.releasedOn) || b.star - a.star || a.name.localeCompare(b.name))
             .map((char) => `**${char.name}**: ${this.getElementIcons(char)} ${char.star}★ ${data.emoji(char.weaponType, true)} user`)
 
         const pages: string[] = []
-        let paging = ""
-        for (const art of arti) {
-            if (paging.length + art.length > 1000) {
+        let paging = "", c = 0
+        for (const char of chars) {
+            if (paging.length + char.length > 1800 || ++c > 15) {
                 pages.push(paging.trim())
-                paging = art
+                paging = char
+                c = 1
             } else
-                paging += "\n" + art
+                paging += "\n" + char
         }
         if (paging.trim().length > 0) pages.push(paging)
 
@@ -68,7 +69,7 @@ Note: this command supports fuzzy search.`,
         const embed = new MessageEmbed()
             .setTitle("Character list")
             .setDescription(pages[page])
-            .setFooter(`Page ${page + 1} / ${pages.length}`)
+            .setFooter(`Page ${page + 1} / ${pages.length} - See '${config.prefix}help char' for more info about what you can do`)
             .setColor(Colors.GREEN)
 
         return embed
