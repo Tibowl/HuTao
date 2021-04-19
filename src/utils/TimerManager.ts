@@ -178,11 +178,10 @@ export default class TimerManager {
                     .setColor(Colors.GREEN)
                     .setTimestamp(reminder.timestamp)
 
-                if (client.reminderManager.getReminderById(reminder.user, reminder.id)?.timestamp == reminder.timestamp) {
+                const result = client.reminderManager.deleteReminder(reminder.user, reminder.id, reminder.timestamp)
+                if (result.changes > 0) {
                     const user = await client.users.fetch(reminder.user)
                     await user.send(embed)
-
-                    client.reminderManager.deleteReminder(reminder.user, reminder.id, reminder.timestamp)
                 }
             } catch (error) {
                 Logger.error("Error occured while sending reminder", error)

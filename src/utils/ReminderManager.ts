@@ -18,9 +18,10 @@ export default class ReminderManager {
         process.on("SIGINT", () => process.exit(128 + 2))
         process.on("SIGTERM", () => process.exit(128 + 15))
 
-        this.sql.exec("CREATE TABLE IF NOT EXISTS reminders (id INT, user TEXT, subject TEXT, timestamp INT, duration INT, PRIMARY KEY (id, user))")
+        this.sql.exec("CREATE TABLE IF NOT EXISTS reminders (global_id INTEGER PRIMARY KEY, id INTEGER, user TEXT, subject TEXT, timestamp INTEGER, duration INTEGER)")
         this.sql.exec("CREATE INDEX IF NOT EXISTS reminders_timestamp ON reminders (timestamp)")
         this.sql.exec("CREATE INDEX IF NOT EXISTS reminders_user ON reminders (user)")
+        this.sql.exec("CREATE INDEX IF NOT EXISTS reminders_userid ON reminders (id, user)")
 
         this.addReminderStatement = this.sql.prepare("INSERT OR REPLACE INTO reminders (id, user, subject, timestamp, duration) VALUES (@id, @user, @subject, @timestamp, @duration)")
         this.getReminderByIdStatement = this.sql.prepare("SELECT * FROM reminders WHERE id = @id AND user = @user")
