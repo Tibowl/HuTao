@@ -30,17 +30,17 @@ export default class ReminderManager {
     }
 
     private addReminderStatement: SQLite.Statement
-    addReminder(id: number, subject: string, userid: string, duration: number): Reminder {
+    addReminder(id: number, subject: string, userid: string, duration: number, timestamp: number): Reminder {
         const reminder: Reminder = {
             id,
             subject,
             user: userid,
-            timestamp: Date.now() + duration,
+            timestamp,
             duration
         }
 
-        Logger.info(`Adding new reminder for ${userid} @ ${reminder.timestamp} in ${timeLeft(duration)}: ${subject}`)
         this.addReminderStatement.run(reminder)
+        Logger.info(`Added new reminder for ${userid} @ ${reminder.timestamp} in ${timeLeft(duration)}: ${subject}`)
         return reminder
     }
 

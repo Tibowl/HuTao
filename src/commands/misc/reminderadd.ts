@@ -44,6 +44,9 @@ Example: \`${config.prefix}ar Weekly boss in 36 resin\``,
             if (name.match(/^Para(metric)?s?( Trans(former)?s?)?$/i)) time = "6 days and 22 hours"
             else if (name.match(/^(Ores?|Minerals?|(Blue )?Crystals?( Chunks?)?)$/i)) time = "3 days"
             else if (name.match(/Special(tie)?s?$/i)) time = "48 hours"
+            else if (name.match(/Art(i|e)facts?( run)?$/i)) time = "1 day"
+            else if (name.match(/^Daily/i)) time = "1 day"
+            else if (name.match(/^Weekly/i)) time = "7 days"
             else return this.sendHelp(message)
         }
 
@@ -67,17 +70,21 @@ Example: \`${config.prefix}ar Weekly boss in 36 resin\``,
         while (reminders.some(r => r.id == id) || reminderManager.getReminderById(userid, id))
             id++
 
-        const reminder = reminderManager.addReminder(id, name, userid, duration)
+        const timestamp = Date.now() + duration
+        const reply = message.channel.send(
+            new MessageEmbed()
+                .setTitle(`Created reminder #${id}`)
+                .setColor(Colors.GREEN)
+                .setDescription(`I'll remind you in DM's about \`${name}\` in **${timeLeft(duration, true, false)}**`)
+                .setFooter("In your local timezone")
+                .setTimestamp(timestamp)
+        )
+
+        const reminder = reminderManager.addReminder(id, name, userid, duration, timestamp)
 
         if (reminder.timestamp <= timerManager.queuedUntil)
             timerManager.queueReminder(reminder)
 
-        return message.channel.send(new MessageEmbed()
-            .setTitle(`Created reminder #${reminder.id}`)
-            .setColor(Colors.GREEN)
-            .setDescription(`I'll remind you in DM's about \`${reminder.subject}\` in **${timeLeft(reminder.duration, true, false)}**`)
-            .setFooter("In your local timezone")
-            .setTimestamp(reminder.timestamp)
-        )
+        return reply
     }
 }

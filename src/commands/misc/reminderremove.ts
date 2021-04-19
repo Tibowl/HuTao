@@ -33,16 +33,19 @@ Example: \`${config.prefix}dr 1\``,
 
         if (!reminder) return message.channel.send(`Could not find reminder with ID #${id}`)
 
-        reminderManager.deleteReminder(userid, id, reminder.timestamp)
-
-        return message.channel.send(new MessageEmbed()
-            .setTitle(`Deleted reminder #${reminder.id}`)
-            .setColor(Colors.RED)
-            .setDescription(`I won't remind you about \`${reminder.subject}\` in ${timeLeft(reminder.timestamp - Date.now(), false, false)}
+        const reply = message.channel.send(
+            new MessageEmbed()
+                .setTitle(`Deleted reminder #${reminder.id}`)
+                .setColor(Colors.RED)
+                .setDescription(`I won't remind you about \`${reminder.subject}\` in ${timeLeft(reminder.timestamp - Date.now(), false, false)}
 
 You can re-start this reminder with \`${config.prefix}ar ${reminder.subject} in ${timeLeft(reminder.duration, true, true)}\` or with \`${config.prefix}ar ${reminder.subject} in ${timeLeft(reminder.timestamp - Date.now(), true, true)}\` if you don't want to reset the duration`)
-            .setFooter("In your local timezone")
-            .setTimestamp(reminder.timestamp)
+                .setFooter("In your local timezone")
+                .setTimestamp(reminder.timestamp)
         )
+
+        reminderManager.deleteReminder(userid, id, reminder.timestamp)
+
+        return reply
     }
 }
