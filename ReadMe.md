@@ -67,6 +67,8 @@ See `ht!help weapon` for more information.
 ### Misc
 - `ht!reminders`: List your current reminders. [Example of list](https://i.imgur.com/ROCPehX.png) - [Example of a reminder](https://i.imgur.com/i0AgETk.png)
 - `ht!addreminder <name> in <duration>`: [Adds a reminder](https://i.imgur.com/y6OOADd.png)
+    - Sometimes, the duration can be derrived from the name. For example, running `ht!ar Parametric` will create a reminder about the Parametric Transformer in 6 days and 22 hours (reset time for that gadget). `ht!ar Ores` will create one in 3 days and `ht!ar Liyue Specialties` creates one for in 2 days.
+    - `<duration>` needs to be something like `<amount> <unit>`, joined by pretty much anything spaces/commas/"and"/etc. Units can be abbreviated (`m` works for minutes, `d` for days, etc). Also supports `resin` as a unit of time. For example: `ht!ar Elite Boss in 36 resin`
 - `ht!delreminder <id>`: [Deletes a reminder](https://i.imgur.com/1JYj86z.png)
 - `ht!time`: Check [current server times](https://i.imgur.com/CKSe9XT.png) as well as time until next daily/weekly reset.
 - `ht!resin <current resin> [time until next resin in mm:ss]`: Check how long until your resin refills.

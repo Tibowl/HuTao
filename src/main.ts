@@ -17,7 +17,7 @@ const client = new HuTaoClient()
 if (!fs.existsSync(join(__dirname, "./data/config.json"))) {
     Logger.error("Config does not exist!")
 } else {
-    client.init()
+    client.init().catch(Logger.error)
 }
 
 export default client
