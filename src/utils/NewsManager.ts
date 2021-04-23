@@ -98,6 +98,7 @@ export default class NewsManager {
                                 data = await (await fetch(`https://bbs-api.mihoyo.com/post/wapi/getNewsList?gids=2&page_size=20&type=${type}`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, timeout: 29000 })).json()
                             else
                                 data = await (await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getNewsList?gids=2&page_size=20&type=${type}`, { headers: { "x-rpc-language": langid, Referer: "https://www.hoyolab.com/" }, timeout: 29000 })).json()
+                            break
                         } catch (error) {
                             Logger.error(`Failed to fetch ${language} - ${type}, attempt #${attempt}.`)
                             if (attempt == 5) throw error
