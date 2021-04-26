@@ -3556,7 +3556,7 @@
           },
           {
             "name": "Violet Arc",
-            "desc": "Channels the power of lightning to sweep bothersome matters away.\n\n**Press**\nReleases a homing Lightning Orb.\nOn hit, it deals **Electro DMG**, and applies a stack of the Conductive status (Max 3 stacks) to opponents in a small AoE.\n\n**Hold**\nAfter an extended casting time, calls down lightning from the heavens, dealing massive **Electro DMG** to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.\n\n**Electro Purple is the raiment of the Witch of Purple Rose.**",
+            "desc": "Channels the power of lightning to sweep bothersome matters away.\n\n**Press**\nReleases a homing Lightning Orb.\nOn hit, it deals **Electro DMG** and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE.\n\n**Hold**\nAfter an extended casting time, calls down lightning from the heavens, dealing massive **Electro DMG** to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.\n\n**Electro Purple is the raiment of the Witch of Purple Rose.**",
             "charges": 1,
             "talentTable": [
               {
@@ -5543,7 +5543,7 @@
   },
   "Kaeya": {
     "name": "Kaeya",
-    "desc": "A thinker in the Knights of Favonius with a somewhat exotic appearance.",
+    "desc": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
     "releasedOn": "2020-09-15 04:00:00",
     "star": 4,
     "weaponType": "Sword",
@@ -5576,7 +5576,7 @@
       "birthDay": 30,
       "association": "Mondstadt",
       "title": "Frostwind Swordsman",
-      "detail": "A thinker in the Knights of Favonius with a somewhat exotic appearance.",
+      "detail": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
       "affiliation": "Knights of Favonius",
       "element": "Cryo",
       "constellation": "Pavo Ocellus",
@@ -6710,7 +6710,7 @@
         "talents": [
           {
             "name": "Normal Attack: Tempered Sword",
-            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
             "charges": 1,
             "talentTable": [
               {
@@ -6774,7 +6774,7 @@
                 ]
               },
               {
-                "name": "4-hit DMG",
+                "name": "4-Hit DMG",
                 "values": [
                   "133.99%",
                   "144.89%",
@@ -7056,7 +7056,7 @@
           },
           {
             "name": "Searing Onslaught",
-            "desc": "Performs a forward slash that deals **Pyro DMG**.\n\nThis skill can be used 3 times consecutively. Enters CD if not cast again within a short period.\n\n**The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.**",
+            "desc": "Performs a forward slash that deals **Pyro DMG**.\n\nThis skill can be consecutively used 3 times. Enters CD if not cast again within a short period.\n\n**The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.**",
             "charges": 1,
             "talentTable": [
               {
@@ -7100,7 +7100,7 @@
                 ]
               },
               {
-                "name": "3-hit DMG",
+                "name": "3-Hit DMG",
                 "values": [
                   "128.80%",
                   "138.46%",
@@ -7283,7 +7283,7 @@
         ],
         "ult": {
           "name": "Dawn",
-          "desc": "Releases intense flames to knock nearby opponents back, dealing **Pyro DMG**. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive **Pyro DMG** to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of **AoE Pyro DMG**.\nThe searing flames that run down his blade cause it to be infused with **Pyro**.\n\n**The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.**",
+          "desc": "Releases intense flames to knock back nearby opponents, dealing **Pyro DMG**. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive **Pyro DMG** to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of **AoE Pyro DMG**.\nThe searing flames that run down his blade cause it to be infused with **Pyro**.\n\n**The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.**",
           "charges": 1,
           "talentTable": [
             {
@@ -7930,7 +7930,7 @@
         "talents": [
           {
             "name": "Normal Attack: Steel Fang",
-            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "charges": 1,
             "talentTable": [
               {
@@ -7974,7 +7974,7 @@
                 ]
               },
               {
-                "name": "3-hit DMG",
+                "name": "3-Hit DMG",
                 "values": [
                   "103.31%",
                   "110.36%",
@@ -7994,7 +7994,7 @@
                 ]
               },
               {
-                "name": "4-hit DMG",
+                "name": "4-Hit DMG",
                 "values": [
                   "136.05%",
                   "145.32%",
@@ -8276,7 +8276,7 @@
           },
           {
             "name": "Claw and Thunder",
-            "desc": "Hunts his prey using the techniques taught to him by his master and his Lupical.\n\n**Press**\nSwings the Thunder Wolf Claw, dealing **Electro DMG** to opponents in front of Razor.\nUpon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\n\n**Hold**\nGathers Electro energy to unleash a lightning storm over a small AoE, causing massive **Electro DMG**, and clears all of Razor's Electro Sigils.\nEach Electro Sigil cleared in this manner will be converted into Energy for Razor.\n\n**In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.**",
+            "desc": "Hunts his prey using the techniques taught to him by his master and his lupical.\n\n**Press**\nSwings the Thunder Wolf Claw, dealing **Electro DMG** to opponents in front of Razor.\nUpon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\n\n**Hold**\nGathers Electro energy to unleash a lightning storm over a small AoE, causing massive **Electro DMG**, and clears all of Razor's Electro Sigils.\nEach Electro Sigil cleared in this manner will be converted into Energy for Razor.\n\n**In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.**",
             "charges": 1,
             "talentTable": [
               {
@@ -8563,7 +8563,7 @@
         ],
         "ult": {
           "name": "Lightning Fang",
-          "desc": "Summons the Wolf Within which deals **Electro DMG** to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into elemental energy for him.\nThe Wolf Within will fight alongside Razor for the skill's duration.\n\n**The Wolf Within**\n·Strikes alongside Razor's normal attacks, dealing **Electro DMG**.\n·Raises Razor's ATK SPD and **Electro RES**.\n·Causes Razor to be immune to DMG inflicted by the **Electro-Charged** status.\n·Disables Razor's Charged Attacks.\n·Increases Razor's resistance to interruption.\n\nThese effects end when Razor leaves the battlefield.\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.\n\n**The wolf has awoken. The hunt is on.**",
+          "desc": "Summons the Wolf Within, which deals **Electro DMG** to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into Elemental Energy for him.\nThe Wolf Within will fight alongside Razor for the skill's duration.\n\n**The Wolf Within**\n·Strikes alongside Razor's normal attacks, dealing **Electro DMG**.\n·Raises Razor's ATK SPD and **Electro RES**.\n·Causes Razor to be immune to DMG inflicted by the **Electro-Charged** status.\n·Disables Razor's Charged Attacks.\n·Increases Razor's resistance to interruption.\n\nThese effects end when Razor leaves the battlefield.\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.\n\n**The wolf has awoken. The hunt is on.**",
           "charges": 1,
           "talentTable": [
             {
@@ -12770,7 +12770,7 @@
         "talents": [
           {
             "name": "Normal Attack: Oceanborne",
-            "desc": "**Normal Attack**\nPerform up to 5 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerform up to 5 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
             "charges": 1,
             "talentTable": [
               {
@@ -14833,7 +14833,7 @@
           },
           {
             "name": "Hence, Call Them My Own Verses",
-            "desc": "Activating 2 of **Guhua Sword: Raincutter**'s sword rain attacks greatly increases the DMG of the third. Xingqiu regenerates 3 Energy when sword rain attacks hit opponents.",
+            "desc": "Activating 2 of **Guhua Sword: Raincutter**'s sword rain attacks greatly enhances the third sword rain attack. On hit, the third sword rain attack also regenerates 3 Energy for Xingqiu.",
             "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xingqiu_04.png"
           }
         ]
@@ -16183,7 +16183,7 @@
   },
   "Klee": {
     "name": "Klee",
-    "desc": "An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight.",
+    "desc": "An explosives expert and a regular at the Knights of Favonius's confinement room. Also known as Fleeing Sunlight.",
     "releasedOn": "2020-09-15 04:00:00",
     "star": 5,
     "weaponType": "Catalyst",
@@ -16216,7 +16216,7 @@
       "birthDay": 27,
       "association": "Mondstadt",
       "title": "Fleeing Sunlight",
-      "detail": "An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight.",
+      "detail": "An explosives expert and a regular at the Knights of Favonius's confinement room. Also known as Fleeing Sunlight.",
       "affiliation": "Knights of Favonius",
       "element": "Pyro",
       "constellation": "Trifolium",
@@ -19710,7 +19710,7 @@
         "talents": [
           {
             "name": "Normal Attack: Favonius Bladework - Maid",
-            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "charges": 1,
             "talentTable": [
               {
@@ -19774,7 +19774,7 @@
                 ]
               },
               {
-                "name": "4-hit DMG",
+                "name": "4-Hit DMG",
                 "values": [
                   "113.43%",
                   "122.67%",
@@ -21820,7 +21820,7 @@
             "minAscension": 1
           },
           {
-            "name": "A Glimpse into Arcanum",
+            "name": "A Glimpse Into Arcanum",
             "desc": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.",
             "minAscension": 4
           }
@@ -22190,7 +22190,7 @@
         "talents": [
           {
             "name": "Normal Attack: Demonbane",
-            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "charges": 1,
             "talentTable": [
               {
@@ -22254,7 +22254,7 @@
                 ]
               },
               {
-                "name": "4-hit DMG",
+                "name": "4-Hit DMG",
                 "values": [
                   "101.22%",
                   "109.46%",
@@ -24483,7 +24483,7 @@
   },
   "Keqing": {
     "name": "Keqing",
-    "desc": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue — but in truth, gods admire skeptics such as her quite a lot.",
+    "desc": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis's unilateral approach to policymaking in Liyue — but in truth, gods admire skeptics such as her quite a lot.",
     "releasedOn": "2020-09-15 04:00:00",
     "star": 5,
     "weaponType": "Sword",
@@ -24516,7 +24516,7 @@
       "birthDay": 20,
       "association": "Liyue",
       "title": "Driving Thunder",
-      "detail": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue — but in truth, gods admire skeptics such as her quite a lot.",
+      "detail": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis's unilateral approach to policymaking in Liyue — but in truth, gods admire skeptics such as her quite a lot.",
       "affiliation": "Liyue Qixing",
       "element": "Electro",
       "constellation": "Trulla Cementarii",
@@ -28662,21 +28662,21 @@
               {
                 "name": "Duration",
                 "values": [
-                  "1.8s per Claw",
-                  "1.9s per Claw",
-                  "2.0s per Claw",
-                  "2.1s per Claw",
-                  "2.2s per Claw",
-                  "2.3s per Claw",
-                  "2.4s per Claw",
-                  "2.4s per Claw",
-                  "2.4s per Claw",
-                  "2.4s per Claw",
-                  "2.4s per Claw",
-                  "2.4s per Claw",
-                  "2.4s per Claw",
-                  "2.4s per Claw",
-                  "2.4s per Claw"
+                  "1.8s per Paw",
+                  "1.9s per Paw",
+                  "2.0s per Paw",
+                  "2.1s per Paw",
+                  "2.2s per Paw",
+                  "2.3s per Paw",
+                  "2.4s per Paw",
+                  "2.4s per Paw",
+                  "2.4s per Paw",
+                  "2.4s per Paw",
+                  "2.4s per Paw",
+                  "2.4s per Paw",
+                  "2.4s per Paw",
+                  "2.4s per Paw",
+                  "2.4s per Paw"
                 ]
               },
               {
@@ -29501,7 +29501,7 @@
       "element": "Geo",
       "constellation": "???",
       "cvChinese": "彭博",
-      "cvJapanese": "前野 智昭",
+      "cvJapanese": "前野智昭",
       "cvEnglish": "Keith Silverstein",
       "cvKorean": "표영재"
     },
@@ -30750,7 +30750,7 @@
         "talents": [
           {
             "name": "Normal Attack: Dance on Fire",
-            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "charges": 1,
             "talentTable": [
               {
@@ -37896,6 +37896,2524 @@
           {
             "stat": "ATK%",
             "value": 0.23999999463558197
+          }
+        ]
+      }
+    ]
+  },
+  "Yanfei": {
+    "name": "Yanfei",
+    "desc": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",
+    "releasedOn": "2021-04-28 11:00:00",
+    "star": 4,
+    "weaponType": "Catalyst",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
+    "imgs": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Feiyan@2x.png"
+    ],
+    "hpBase": 784.1402587890625,
+    "attackBase": 20.12303924560547,
+    "defenseBase": 49.2135009765625,
+    "criticalBase": 0.05000000074505806,
+    "criticalHurtBase": 0.5,
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 4*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 4*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 4*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 7,
+      "birthDay": 28,
+      "association": "Liyue",
+      "title": "Wise Innocence",
+      "detail": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",
+      "affiliation": "Liyue Harbor",
+      "element": "Pyro",
+      "constellation": "Bestia Iustitia",
+      "cvChinese": "苏子芜",
+      "cvJapanese": "花守ゆみり",
+      "cvEnglish": "",
+      "cvKorean": "조경이"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Seal of Approval",
+            "desc": "**Normal Attack**\nShoots fireballs that deal up to three counts of **Pyro DMG**.\nWhen Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal. Yanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh.\nEach Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.\n\n**Charged Attack**\nConsumes Stamina and all Scarlet Seals before dealing **AoE Pyro DMG** to opponents after a short casting time.\nThis Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.\n\n**Plunging Attack**\nGathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Pyro DMG** upon impact with the ground.",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "58.34%",
+                  "62.72%",
+                  "67.09%",
+                  "72.93%",
+                  "77.30%",
+                  "81.68%",
+                  "87.51%",
+                  "93.35%",
+                  "99.18%",
+                  "105.01%",
+                  "110.85%",
+                  "116.68%",
+                  "123.98%",
+                  "131.27%",
+                  "138.56%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "52.13%",
+                  "56.04%",
+                  "59.94%",
+                  "65.16%",
+                  "69.07%",
+                  "72.98%",
+                  "78.19%",
+                  "83.40%",
+                  "88.61%",
+                  "93.83%",
+                  "99.04%",
+                  "104.25%",
+                  "110.77%",
+                  "117.28%",
+                  "123.80%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "76.01%",
+                  "81.71%",
+                  "87.41%",
+                  "95.02%",
+                  "100.72%",
+                  "106.42%",
+                  "114.02%",
+                  "121.62%",
+                  "129.22%",
+                  "136.82%",
+                  "144.42%",
+                  "152.03%",
+                  "161.53%",
+                  "171.03%",
+                  "180.53%"
+                ]
+              },
+              {
+                "name": "Charged Attack",
+                "values": [
+                  "98.23%/115.56%/132.90%/150.23%/167.57%",
+                  "104.11%/122.48%/140.86%/159.23%/177.60%",
+                  "109.99%/129.40%/148.81%/168.23%/187.64%",
+                  "117.64%/138.40%/159.16%/179.92%/200.68%",
+                  "123.52%/145.32%/167.12%/188.92%/210.71%",
+                  "129.40%/152.24%/175.08%/197.91%/220.75%",
+                  "137.05%/161.24%/185.42%/209.61%/233.79%",
+                  "144.70%/170.23%/195.77%/221.30%/246.84%",
+                  "152.34%/179.23%/206.11%/233.00%/259.88%",
+                  "159.99%/188.22%/216.46%/244.69%/272.92%",
+                  "167.64%/197.22%/226.80%/256.39%/285.97%",
+                  "175.28%/206.22%/237.15%/268.08%/299.01%",
+                  "182.93%/215.21%/247.49%/279.78%/312.06%",
+                  "190.58%/224.21%/257.84%/291.47%/325.10%",
+                  "198.22%/233.20%/268.18%/303.17%/338.15%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "values": [
+                  "50.0",
+                  "50.0",
+                  "50.0",
+                  "50.0",
+                  "50.0",
+                  "50.0",
+                  "50.0",
+                  "50.0",
+                  "50.0",
+                  "50.0",
+                  "50.0",
+                  "50.0",
+                  "50.0",
+                  "50.0",
+                  "50.0"
+                ]
+              },
+              {
+                "name": "Scarlet Seal Stamina Consumption Decrease",
+                "values": [
+                  "15.0% Per Seal",
+                  "15.0% Per Seal",
+                  "15.0% Per Seal",
+                  "15.0% Per Seal",
+                  "15.0% Per Seal",
+                  "15.0% Per Seal",
+                  "15.0% Per Seal",
+                  "15.0% Per Seal",
+                  "15.0% Per Seal",
+                  "15.0% Per Seal",
+                  "15.0% Per Seal",
+                  "15.0% Per Seal",
+                  "15.0% Per Seal",
+                  "15.0% Per Seal",
+                  "15.0% Per Seal"
+                ]
+              },
+              {
+                "name": "Scarlet Seal Duration",
+                "values": [
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s"
+                ]
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "56.8%",
+                  "61.5%",
+                  "66.1%",
+                  "72.7%",
+                  "77.3%",
+                  "82.6%",
+                  "89.9%",
+                  "97.1%",
+                  "104.4%",
+                  "112.3%",
+                  "120.3%",
+                  "128.2%",
+                  "136.1%",
+                  "144.1%",
+                  "152.0%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "113.63%/141.93%",
+                  "122.88%/153.49%",
+                  "132.13%/165.04%",
+                  "145.35%/181.54%",
+                  "154.59%/193.10%",
+                  "165.16%/206.30%",
+                  "179.70%/224.45%",
+                  "194.23%/242.61%",
+                  "208.77%/260.76%",
+                  "224.62%/280.57%",
+                  "240.48%/300.37%",
+                  "256.34%/320.18%",
+                  "272.19%/339.98%",
+                  "288.05%/359.79%",
+                  "303.90%/379.59%"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Gold"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Treasure Hoarder Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Gold"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Gold"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Gold"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Gold"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Gold"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Bloodjade Branch"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Gold"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Bloodjade Branch"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Gold"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Bloodjade Branch"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Gold"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Bloodjade Branch"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Signed Edict",
+            "desc": "Summons blistering flames that deal **AoE Pyro DMG**.\nOpponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.\n\n**Apart from their legal uses, Yanfei's seals also come with her customized additional terms and conditions. Well, it's not as if the Ministry of Civil Affairs can change the laws of nature.**",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "Skill DMG",
+                "values": [
+                  "169.60%",
+                  "182.32%",
+                  "195.04%",
+                  "212.00%",
+                  "224.72%",
+                  "237.44%",
+                  "254.40%",
+                  "271.36%",
+                  "288.32%",
+                  "305.28%",
+                  "322.24%",
+                  "339.20%",
+                  "360.40%",
+                  "381.60%",
+                  "402.80%"
+                ]
+              },
+              {
+                "name": "CD",
+                "values": [
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Gold"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Treasure Hoarder Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Gold"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Gold"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Gold"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Gold"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Gold"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Bloodjade Branch"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Gold"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Bloodjade Branch"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Gold"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Bloodjade Branch"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Gold"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Bloodjade Branch"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ult": {
+          "name": "Done Deal",
+          "desc": "Triggers a spray of intense flames that rush at nearby opponents, dealing **AoE Pyro DMG**, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\n\n**Brilliance**\nHas the following effects:\n·Grants Yanfei a Scarlet Seal at fixed intervals.\n·Increases the DMG dealt by her Charged Attacks.\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.\n\n**\"Here are the full terms for this matter of life and death — by which I mean my life and your death!\"**",
+          "charges": 1,
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "182.40%",
+                "196.08%",
+                "209.76%",
+                "228.00%",
+                "241.68%",
+                "255.36%",
+                "273.60%",
+                "291.84%",
+                "310.08%",
+                "328.32%",
+                "346.56%",
+                "364.80%",
+                "387.60%",
+                "410.40%",
+                "433.20%"
+              ]
+            },
+            {
+              "name": "Scarlet Seal Grant Interval",
+              "values": [
+                "1.0s",
+                "1.0s",
+                "1.0s",
+                "1.0s",
+                "1.0s",
+                "1.0s",
+                "1.0s",
+                "1.0s",
+                "1.0s",
+                "1.0s",
+                "1.0s",
+                "1.0s",
+                "1.0s",
+                "1.0s",
+                "1.0s"
+              ]
+            },
+            {
+              "name": "Charged Attack DMG Bonus",
+              "values": [
+                "33.40%",
+                "35.40%",
+                "37.40%",
+                "40.00%",
+                "42.00%",
+                "44.00%",
+                "46.60%",
+                "49.20%",
+                "51.80%",
+                "54.40%",
+                "57.00%",
+                "59.60%",
+                "62.20%",
+                "64.80%",
+                "67.40%"
+              ]
+            },
+            {
+              "name": "Duration",
+              "values": [
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s"
+              ]
+            },
+            {
+              "name": "CD",
+              "values": [
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s"
+              ]
+            },
+            {
+              "name": "Energy Cost",
+              "values": [
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80"
+              ]
+            }
+          ],
+          "costs": [
+            {
+              "mora": 12500,
+              "items": [
+                {
+                  "count": 3,
+                  "name": "Teachings of Gold"
+                },
+                {
+                  "count": 6,
+                  "name": "Treasure Hoarder Insignia"
+                }
+              ]
+            },
+            {
+              "mora": 17500,
+              "items": [
+                {
+                  "count": 2,
+                  "name": "Guide to Gold"
+                },
+                {
+                  "count": 3,
+                  "name": "Silver Raven Insignia"
+                }
+              ]
+            },
+            {
+              "mora": 25000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Guide to Gold"
+                },
+                {
+                  "count": 4,
+                  "name": "Silver Raven Insignia"
+                }
+              ]
+            },
+            {
+              "mora": 30000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Guide to Gold"
+                },
+                {
+                  "count": 6,
+                  "name": "Silver Raven Insignia"
+                }
+              ]
+            },
+            {
+              "mora": 37500,
+              "items": [
+                {
+                  "count": 9,
+                  "name": "Guide to Gold"
+                },
+                {
+                  "count": 9,
+                  "name": "Silver Raven Insignia"
+                }
+              ]
+            },
+            {
+              "mora": 120000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Philosophies of Gold"
+                },
+                {
+                  "count": 4,
+                  "name": "Golden Raven Insignia"
+                },
+                {
+                  "count": 1,
+                  "name": "Bloodjade Branch"
+                }
+              ]
+            },
+            {
+              "mora": 260000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Philosophies of Gold"
+                },
+                {
+                  "count": 6,
+                  "name": "Golden Raven Insignia"
+                },
+                {
+                  "count": 1,
+                  "name": "Bloodjade Branch"
+                }
+              ]
+            },
+            {
+              "mora": 450000,
+              "items": [
+                {
+                  "count": 12,
+                  "name": "Philosophies of Gold"
+                },
+                {
+                  "count": 9,
+                  "name": "Golden Raven Insignia"
+                },
+                {
+                  "count": 2,
+                  "name": "Bloodjade Branch"
+                }
+              ]
+            },
+            {
+              "mora": 700000,
+              "items": [
+                {
+                  "count": 16,
+                  "name": "Philosophies of Gold"
+                },
+                {
+                  "count": 12,
+                  "name": "Golden Raven Insignia"
+                },
+                {
+                  "count": 2,
+                  "name": "Bloodjade Branch"
+                },
+                {
+                  "count": 1,
+                  "name": "Crown of Insight"
+                }
+              ]
+            }
+          ],
+          "type": "Fire"
+        },
+        "passive": [
+          {
+            "name": "Encyclopedic Expertise",
+            "desc": "Displays the location of nearby **resources unique to Liyue** on the mini-map.",
+            "minAscension": 0
+          },
+          {
+            "name": "Proviso",
+            "desc": "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's **Pyro DMG Bonus** by 5%. This effects lasts for 6s. When a Charged Attack is used again during the effect's duration, it will dispel the previous effect.",
+            "minAscension": 1
+          },
+          {
+            "name": "Blazing Eye",
+            "desc": "When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an additional instance of **AoE Pyro DMG** equal to 80% of her ATK. This DMG counts as Charged Attack DMG.",
+            "minAscension": 4
+          }
+        ],
+        "constellations": [
+          {
+            "name": "The Law Knows No Kindness",
+            "desc": "When Yanfei uses her Charged Attack, each existing Scarlet Seal additionally reduces the stamina cost of this Charged Attack by 10% and increases resistance against interruption during its release.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Feiyan_01.png"
+          },
+          {
+            "name": "Right of Final Interpretation",
+            "desc": "Increases Yanfei's Charged Attack CRIT Rate by 20% against enemies below 50% HP.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Feiyan_02.png"
+          },
+          {
+            "name": "Samadhi Fire-Forged",
+            "desc": "Increases the Level of **Signed Edict** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Feiyan_01.png"
+          },
+          {
+            "name": "Supreme Amnesty",
+            "desc": "When **Done Deal** is used:\nCreates a shield that absorbs up to 45% of Yanfei's Max HP for 15s.\nThis shield absorbs **Pyro DMG** 250% more effectively.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Feiyan_03.png"
+          },
+          {
+            "name": "Abiding Affidavit",
+            "desc": "Increases the Level of **Done Deal** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Feiyan_02.png"
+          },
+          {
+            "name": "Extra Clause",
+            "desc": "Increases the maximum number of Scarlet Seals by 1.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Feiyan_04.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "cost": {
+          "items": []
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "Pyro DMG Bonus",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 1,
+              "name": "Agnidus Agate Sliver"
+            },
+            {
+              "count": 3,
+              "name": "Noctilucous Jade"
+            },
+            {
+              "count": 3,
+              "name": "Treasure Hoarder Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 585.7929077148438
+          },
+          {
+            "stat": "Base DEF",
+            "value": 36.76499938964844
+          },
+          {
+            "stat": "Base ATK",
+            "value": 15.033293724060059
+          },
+          {
+            "stat": "Pyro DMG Bonus",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "cost": {
+          "mora": 40000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Agnidus Agate Fragment"
+            },
+            {
+              "count": 2,
+              "name": "Juvenile Jade"
+            },
+            {
+              "count": 10,
+              "name": "Noctilucous Jade"
+            },
+            {
+              "count": 15,
+              "name": "Treasure Hoarder Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1002.0142211914062
+          },
+          {
+            "stat": "Base DEF",
+            "value": 62.88750076293945
+          },
+          {
+            "stat": "Base ATK",
+            "value": 25.714845657348633
+          },
+          {
+            "stat": "Pyro DMG Bonus",
+            "value": 0.05999999865889549
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "cost": {
+          "mora": 60000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Agnidus Agate Fragment"
+            },
+            {
+              "count": 4,
+              "name": "Juvenile Jade"
+            },
+            {
+              "count": 20,
+              "name": "Noctilucous Jade"
+            },
+            {
+              "count": 12,
+              "name": "Silver Raven Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1556.9759521484375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 97.71749877929688
+          },
+          {
+            "stat": "Base ATK",
+            "value": 39.956912994384766
+          },
+          {
+            "stat": "Pyro DMG Bonus",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "cost": {
+          "mora": 80000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Agnidus Agate Chunk"
+            },
+            {
+              "count": 8,
+              "name": "Juvenile Jade"
+            },
+            {
+              "count": 30,
+              "name": "Noctilucous Jade"
+            },
+            {
+              "count": 18,
+              "name": "Silver Raven Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1973.197265625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 123.83999633789062
+          },
+          {
+            "stat": "Base ATK",
+            "value": 50.638465881347656
+          },
+          {
+            "stat": "Pyro DMG Bonus",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "cost": {
+          "mora": 100000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Agnidus Agate Chunk"
+            },
+            {
+              "count": 12,
+              "name": "Juvenile Jade"
+            },
+            {
+              "count": 45,
+              "name": "Noctilucous Jade"
+            },
+            {
+              "count": 12,
+              "name": "Golden Raven Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2389.41845703125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 149.96249389648438
+          },
+          {
+            "stat": "Base ATK",
+            "value": 61.32001495361328
+          },
+          {
+            "stat": "Pyro DMG Bonus",
+            "value": 0.18000000715255737
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "cost": {
+          "mora": 120000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Agnidus Agate Gemstone"
+            },
+            {
+              "count": 20,
+              "name": "Juvenile Jade"
+            },
+            {
+              "count": 60,
+              "name": "Noctilucous Jade"
+            },
+            {
+              "count": 24,
+              "name": "Golden Raven Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2805.639892578125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 176.0850067138672
+          },
+          {
+            "stat": "Base ATK",
+            "value": 72.0015640258789
+          },
+          {
+            "stat": "Pyro DMG Bonus",
+            "value": 0.23999999463558197
+          }
+        ]
+      }
+    ]
+  },
+  "Eula": {
+    "name": "Eula",
+    "desc": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
+    "releasedOn": "2021-05-18 18:00:00",
+    "star": 5,
+    "weaponType": "Claymore",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Eula.png",
+    "imgs": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Eula@2x.png"
+    ],
+    "hpBase": 1029.5855712890625,
+    "attackBase": 26.62660026550293,
+    "defenseBase": 58.45391082763672,
+    "criticalBase": 0.05000000074505806,
+    "criticalHurtBase": 0.5,
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 10,
+      "birthDay": 25,
+      "association": "Mondstadt",
+      "title": "Dance of the Shimmering Wave",
+      "detail": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
+      "affiliation": "Knights of Favonius",
+      "element": "Cryo",
+      "constellation": "Aphros Delos",
+      "cvChinese": "子音",
+      "cvJapanese": "佐藤利奈",
+      "cvEnglish": "Suzie Yeung",
+      "cvKorean": "김현지"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Favonius Bladework - Edel",
+            "desc": "**Normal Attack**\nPerform up to 5 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "89.7%",
+                  "97.0%",
+                  "104.3%",
+                  "114.8%",
+                  "122.1%",
+                  "130.4%",
+                  "141.9%",
+                  "153.4%",
+                  "164.9%",
+                  "177.4%",
+                  "191.7%",
+                  "208.6%",
+                  "225.5%",
+                  "242.3%",
+                  "260.7%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "93.6%",
+                  "101.2%",
+                  "108.8%",
+                  "119.7%",
+                  "127.3%",
+                  "136.0%",
+                  "147.9%",
+                  "159.9%",
+                  "171.9%",
+                  "184.9%",
+                  "199.9%",
+                  "217.5%",
+                  "235.1%",
+                  "252.7%",
+                  "271.8%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "56.8%+56.8%",
+                  "61.4%+61.4%",
+                  "66.0%+66.0%",
+                  "72.6%+72.6%",
+                  "77.3%+77.3%",
+                  "82.6%+82.6%",
+                  "89.8%+89.8%",
+                  "97.1%+97.1%",
+                  "104.4%+104.4%",
+                  "112.3%+112.3%",
+                  "121.4%+121.4%",
+                  "132.0%+132.0%",
+                  "142.7%+142.7%",
+                  "153.4%+153.4%",
+                  "165.0%+165.0%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "112.6%",
+                  "121.8%",
+                  "131.0%",
+                  "144.1%",
+                  "153.2%",
+                  "163.7%",
+                  "178.1%",
+                  "192.5%",
+                  "206.9%",
+                  "222.7%",
+                  "240.7%",
+                  "261.9%",
+                  "283.0%",
+                  "304.2%",
+                  "327.3%"
+                ]
+              },
+              {
+                "name": "5-Hit DMG",
+                "values": [
+                  "71.8%+71.8%",
+                  "77.7%+77.7%",
+                  "83.5%+83.5%",
+                  "91.9%+91.9%",
+                  "97.7%+97.7%",
+                  "104.4%+104.4%",
+                  "113.6%+113.6%",
+                  "122.8%+122.8%",
+                  "132.0%+132.0%",
+                  "142.0%+142.0%",
+                  "153.5%+153.5%",
+                  "167.0%+167.0%",
+                  "180.5%+180.5%",
+                  "194.0%+194.0%",
+                  "208.7%+208.7%"
+                ]
+              },
+              {
+                "name": "Charged Attack Spinning DMG",
+                "values": [
+                  "68.8%",
+                  "74.4%",
+                  "80.0%",
+                  "88.0%",
+                  "93.6%",
+                  "100.0%",
+                  "108.8%",
+                  "117.6%",
+                  "126.4%",
+                  "136.0%",
+                  "147.0%",
+                  "159.9%",
+                  "172.9%",
+                  "185.8%",
+                  "199.9%"
+                ]
+              },
+              {
+                "name": "Charged Attack Final DMG",
+                "values": [
+                  "124.40%",
+                  "134.52%",
+                  "144.65%",
+                  "159.12%",
+                  "169.24%",
+                  "180.81%",
+                  "196.72%",
+                  "212.64%",
+                  "228.55%",
+                  "245.90%",
+                  "265.79%",
+                  "289.18%",
+                  "312.57%",
+                  "335.96%",
+                  "361.48%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "values": [
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s"
+                ]
+              },
+              {
+                "name": "Max Duration",
+                "values": [
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s"
+                ]
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "74.6%",
+                  "80.7%",
+                  "86.7%",
+                  "95.4%",
+                  "101.5%",
+                  "108.4%",
+                  "118.0%",
+                  "127.5%",
+                  "137.0%",
+                  "147.4%",
+                  "159.4%",
+                  "173.4%",
+                  "187.4%",
+                  "201.4%",
+                  "216.7%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "149.14%/186.29%",
+                  "161.28%/201.45%",
+                  "173.42%/216.62%",
+                  "190.77%/238.28%",
+                  "202.91%/253.44%",
+                  "216.78%/270.77%",
+                  "235.86%/294.60%",
+                  "254.93%/318.42%",
+                  "274.01%/342.25%",
+                  "294.82%/368.25%",
+                  "318.67%/398.03%",
+                  "346.71%/433.06%",
+                  "374.75%/468.08%",
+                  "402.79%/503.11%",
+                  "433.38%/541.32%"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Resistance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Damaged Mask"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Resistance"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Stained Mask"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Resistance"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Stained Mask"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Resistance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Stained Mask"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Resistance"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Stained Mask"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Resistance"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Ominous Mask"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Resistance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Ominous Mask"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Resistance"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Ominous Mask"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Resistance"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Ominous Mask"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Dragon Lord's Crown"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Icetide Vortex",
+            "desc": "Sharp frost, swift blade.\n\n**Press**\nSlashes swiftly, dealing **Cryo DMG**.\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.\n\n**Grimheart**\nIncreases Eula's resistance to interruption and DEF.\n\n**Hold**\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing **AoE Cryo DMG** to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and **Cryo RES** decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals **Cryo DMG** to nearby opponents.\n\n**\"So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.\"**",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "Press DMG",
+                "values": [
+                  "146.40%",
+                  "157.38%",
+                  "168.36%",
+                  "183.00%",
+                  "193.98%",
+                  "204.96%",
+                  "219.60%",
+                  "234.24%",
+                  "248.88%",
+                  "263.52%",
+                  "278.16%",
+                  "292.80%",
+                  "311.10%",
+                  "329.40%",
+                  "347.70%"
+                ]
+              },
+              {
+                "name": "Hold DMG",
+                "values": [
+                  "245.60%",
+                  "264.02%",
+                  "282.44%",
+                  "307.00%",
+                  "325.42%",
+                  "343.84%",
+                  "368.40%",
+                  "392.96%",
+                  "417.52%",
+                  "442.08%",
+                  "466.64%",
+                  "491.20%",
+                  "521.90%",
+                  "552.60%",
+                  "583.30%"
+                ]
+              },
+              {
+                "name": "Icewhirl Brand DMG",
+                "values": [
+                  "96.00%",
+                  "103.20%",
+                  "110.40%",
+                  "120.00%",
+                  "127.20%",
+                  "134.40%",
+                  "144.00%",
+                  "153.60%",
+                  "163.20%",
+                  "172.80%",
+                  "182.40%",
+                  "192.00%",
+                  "204.00%",
+                  "216.00%",
+                  "228.00%"
+                ]
+              },
+              {
+                "name": "DEF Bonus",
+                "values": [
+                  "30.00% Per Stack",
+                  "30.00% Per Stack",
+                  "30.00% Per Stack",
+                  "30.00% Per Stack",
+                  "30.00% Per Stack",
+                  "30.00% Per Stack",
+                  "30.00% Per Stack",
+                  "30.00% Per Stack",
+                  "30.00% Per Stack",
+                  "30.00% Per Stack",
+                  "30.00% Per Stack",
+                  "30.00% Per Stack",
+                  "30.00% Per Stack",
+                  "30.00% Per Stack",
+                  "30.00% Per Stack"
+                ]
+              },
+              {
+                "name": "Grimheart Duration",
+                "values": [
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s"
+                ]
+              },
+              {
+                "name": "Physical RES Decrease",
+                "values": [
+                  "16.00%",
+                  "17.00%",
+                  "18.00%",
+                  "19.00%",
+                  "20.00%",
+                  "21.00%",
+                  "22.00%",
+                  "23.00%",
+                  "24.00%",
+                  "25.00%",
+                  "25.00%",
+                  "25.00%",
+                  "25.00%",
+                  "25.00%",
+                  "25.00%"
+                ]
+              },
+              {
+                "name": "Cryo RES Decrease",
+                "values": [
+                  "16.00%",
+                  "17.00%",
+                  "18.00%",
+                  "19.00%",
+                  "20.00%",
+                  "21.00%",
+                  "22.00%",
+                  "23.00%",
+                  "24.00%",
+                  "25.00%",
+                  "25.00%",
+                  "25.00%",
+                  "25.00%",
+                  "25.00%",
+                  "25.00%"
+                ]
+              },
+              {
+                "name": "RES Decrease Duration",
+                "values": [
+                  "7.0s",
+                  "7.0s",
+                  "7.0s",
+                  "7.0s",
+                  "7.0s",
+                  "7.0s",
+                  "7.0s",
+                  "7.0s",
+                  "7.0s",
+                  "7.0s",
+                  "7.0s",
+                  "7.0s",
+                  "7.0s",
+                  "7.0s",
+                  "7.0s"
+                ]
+              },
+              {
+                "name": "Press CD",
+                "values": [
+                  "4.0s",
+                  "4.0s",
+                  "4.0s",
+                  "4.0s",
+                  "4.0s",
+                  "4.0s",
+                  "4.0s",
+                  "4.0s",
+                  "4.0s",
+                  "4.0s",
+                  "4.0s",
+                  "4.0s",
+                  "4.0s",
+                  "4.0s",
+                  "4.0s"
+                ]
+              },
+              {
+                "name": "CD (hold)",
+                "values": [
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Resistance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Damaged Mask"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Resistance"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Stained Mask"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Resistance"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Stained Mask"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Resistance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Stained Mask"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Resistance"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Stained Mask"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Resistance"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Ominous Mask"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Resistance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Ominous Mask"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Resistance"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Ominous Mask"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Resistance"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Ominous Mask"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Dragon Lord's Crown"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ult": {
+          "name": "Glacial Illumination",
+          "desc": "Brandishes her greatsword, dealing **Cryo DMG** to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will explode immediately.\n\n**It is easy to sink. But even so, she desires to freeze this oncoming tide.**",
+          "charges": 1,
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "245.60%",
+                "264.02%",
+                "282.44%",
+                "307.00%",
+                "325.42%",
+                "343.84%",
+                "368.40%",
+                "392.96%",
+                "417.52%",
+                "442.08%",
+                "466.64%",
+                "491.20%",
+                "521.90%",
+                "552.60%",
+                "583.30%"
+              ]
+            },
+            {
+              "name": "Lightfall Sword Base DMG",
+              "values": [
+                "367.0%",
+                "396.9%",
+                "426.8%",
+                "469.5%",
+                "499.4%",
+                "533.5%",
+                "580.4%",
+                "627.4%",
+                "674.3%",
+                "725.6%",
+                "784.2%",
+                "853.3%",
+                "922.3%",
+                "991.3%",
+                "1066.6%"
+              ]
+            },
+            {
+              "name": "DMG Per Stack",
+              "values": [
+                "75.0%",
+                "81.1%",
+                "87.2%",
+                "95.9%",
+                "102.0%",
+                "109.0%",
+                "118.6%",
+                "128.2%",
+                "137.8%",
+                "148.2%",
+                "160.2%",
+                "174.3%",
+                "188.4%",
+                "202.5%",
+                "217.9%"
+              ]
+            },
+            {
+              "name": "Maximum Stacks",
+              "values": [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            },
+            {
+              "name": "CD",
+              "values": [
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s"
+              ]
+            },
+            {
+              "name": "Energy Cost",
+              "values": [
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80"
+              ]
+            }
+          ],
+          "costs": [
+            {
+              "mora": 12500,
+              "items": [
+                {
+                  "count": 3,
+                  "name": "Teachings of Resistance"
+                },
+                {
+                  "count": 6,
+                  "name": "Damaged Mask"
+                }
+              ]
+            },
+            {
+              "mora": 17500,
+              "items": [
+                {
+                  "count": 2,
+                  "name": "Guide to Resistance"
+                },
+                {
+                  "count": 3,
+                  "name": "Stained Mask"
+                }
+              ]
+            },
+            {
+              "mora": 25000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Guide to Resistance"
+                },
+                {
+                  "count": 4,
+                  "name": "Stained Mask"
+                }
+              ]
+            },
+            {
+              "mora": 30000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Guide to Resistance"
+                },
+                {
+                  "count": 6,
+                  "name": "Stained Mask"
+                }
+              ]
+            },
+            {
+              "mora": 37500,
+              "items": [
+                {
+                  "count": 9,
+                  "name": "Guide to Resistance"
+                },
+                {
+                  "count": 9,
+                  "name": "Stained Mask"
+                }
+              ]
+            },
+            {
+              "mora": 120000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Philosophies of Resistance"
+                },
+                {
+                  "count": 4,
+                  "name": "Ominous Mask"
+                },
+                {
+                  "count": 1,
+                  "name": "Dragon Lord's Crown"
+                }
+              ]
+            },
+            {
+              "mora": 260000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Philosophies of Resistance"
+                },
+                {
+                  "count": 6,
+                  "name": "Ominous Mask"
+                },
+                {
+                  "count": 1,
+                  "name": "Dragon Lord's Crown"
+                }
+              ]
+            },
+            {
+              "mora": 450000,
+              "items": [
+                {
+                  "count": 12,
+                  "name": "Philosophies of Resistance"
+                },
+                {
+                  "count": 9,
+                  "name": "Ominous Mask"
+                },
+                {
+                  "count": 2,
+                  "name": "Dragon Lord's Crown"
+                }
+              ]
+            },
+            {
+              "mora": 700000,
+              "items": [
+                {
+                  "count": 16,
+                  "name": "Philosophies of Resistance"
+                },
+                {
+                  "count": 12,
+                  "name": "Ominous Mask"
+                },
+                {
+                  "count": 2,
+                  "name": "Dragon Lord's Crown"
+                },
+                {
+                  "count": 1,
+                  "name": "Crown of Insight"
+                }
+              ]
+            }
+          ],
+          "type": "Ice"
+        },
+        "passive": [
+          {
+            "name": "Aristocratic Introspection",
+            "desc": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product.",
+            "minAscension": 0
+          },
+          {
+            "name": "Roiling Rime",
+            "desc": "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of **Icetide Vortex**, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by **Glacial Illumination**.",
+            "minAscension": 1
+          },
+          {
+            "name": "Wellspring of War-Lust",
+            "desc": "When **Glacial Illumination** is cast, the CD of **Icetide Vortex** is reset and Eula gains 1 stack of Grimheart.",
+            "minAscension": 4
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Tidal Illusion",
+            "desc": "Every time **Icetide Vortex**'s Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Eula_01.png"
+          },
+          {
+            "name": "Lady of Seafoam",
+            "desc": "Decreases the CD of **Icetide Vortex**'s Holding Mode, rendering it identical to Press CD.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Eula_02.png"
+          },
+          {
+            "name": "Lawrence Pedigree",
+            "desc": "Increases the Level of **Glacial Illumination** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Eula_01.png"
+          },
+          {
+            "name": "The Obstinacy of One's Inferiors",
+            "desc": "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Eula_03.png"
+          },
+          {
+            "name": "Chivalric Quality",
+            "desc": "Increases the Level of **Icetide Vortex** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Eula_02.png"
+          },
+          {
+            "name": "Noble Obligation",
+            "desc": "Lightfall Swords created by **Glacial Illumination** start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Eula_04.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "cost": {
+          "items": []
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 1,
+              "name": "Shivada Jade Sliver"
+            },
+            {
+              "count": 3,
+              "name": "Dandelion Seed"
+            },
+            {
+              "count": 3,
+              "name": "Damaged Mask"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 882.7765502929688
+          },
+          {
+            "stat": "Base DEF",
+            "value": 50.12009811401367
+          },
+          {
+            "stat": "Base ATK",
+            "value": 22.82823371887207
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "cost": {
+          "mora": 40000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Shivada Jade Fragment"
+            },
+            {
+              "count": 2,
+              "name": "Crystalline Bloom"
+            },
+            {
+              "count": 10,
+              "name": "Dandelion Seed"
+            },
+            {
+              "count": 15,
+              "name": "Damaged Mask"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1510.0125732421875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 85.73175048828125
+          },
+          {
+            "stat": "Base ATK",
+            "value": 39.04829406738281
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.09600000083446503
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "cost": {
+          "mora": 60000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Shivada Jade Fragment"
+            },
+            {
+              "count": 4,
+              "name": "Crystalline Bloom"
+            },
+            {
+              "count": 20,
+              "name": "Dandelion Seed"
+            },
+            {
+              "count": 12,
+              "name": "Stained Mask"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2346.3271484375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 133.2139434814453
+          },
+          {
+            "stat": "Base ATK",
+            "value": 60.67504119873047
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.19200000166893005
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "cost": {
+          "mora": 80000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Shivada Jade Chunk"
+            },
+            {
+              "count": 8,
+              "name": "Crystalline Bloom"
+            },
+            {
+              "count": 30,
+              "name": "Dandelion Seed"
+            },
+            {
+              "count": 18,
+              "name": "Stained Mask"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2973.563232421875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 168.8256072998047
+          },
+          {
+            "stat": "Base ATK",
+            "value": 76.89510345458984
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.19200000166893005
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "cost": {
+          "mora": 100000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Shivada Jade Chunk"
+            },
+            {
+              "count": 12,
+              "name": "Crystalline Bloom"
+            },
+            {
+              "count": 45,
+              "name": "Dandelion Seed"
+            },
+            {
+              "count": 12,
+              "name": "Ominous Mask"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3600.799072265625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 204.437255859375
+          },
+          {
+            "stat": "Base ATK",
+            "value": 93.11516571044922
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.2879999876022339
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "cost": {
+          "mora": 120000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Shivada Jade Gemstone"
+            },
+            {
+              "count": 20,
+              "name": "Crystalline Bloom"
+            },
+            {
+              "count": 60,
+              "name": "Dandelion Seed"
+            },
+            {
+              "count": 24,
+              "name": "Ominous Mask"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 4228.03515625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 240.0489044189453
+          },
+          {
+            "stat": "Base ATK",
+            "value": 109.3352279663086
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.3840000033378601
           }
         ]
       }

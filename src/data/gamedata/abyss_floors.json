@@ -905,7 +905,7 @@
   },
   "17": {
     "teams": 2,
-    "leyline": "For this floor only, the ley line flow will be normal\nNo Ley Line Disorder",
+    "leyline": "For this floor only, the ley line flow will be normal.\nNo Ley Line Disorder",
     "chambers": [
       {
         "chamber": 1,
@@ -945,6 +945,128 @@
           ],
           [
             "Ruin Grader"
+          ]
+        ]
+      }
+    ]
+  },
+  "18": {
+    "teams": 2,
+    "leyline": "Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted Hydro element is removed.\nPhysical DMG dealt by all party members increased by 75%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 87,
+        "conds": "More than 20/40/60% HP left",
+        "monsters": [
+          [
+            "Treasure Hoarders - Crusher",
+            "Treasure Hoarders - Pugilist",
+            "Treasure Hoarders - Marksman"
+          ],
+          [
+            "Treasure Hoarders: Gravedigger",
+            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders: Handyman",
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders: Hydro Potioneer",
+            "Treasure Hoarders: Electro Potioneer",
+            "Treasure Hoarders: Cryo Potioneer"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 89,
+        "conds": "More than 120/240/360 seconds left",
+        "monsters": [
+          [
+            "Fatui Skirmisher - Electrohammer Vanguard",
+            "Fatui Skirmisher - Hydrogunner Legionnaire",
+            "Fatui Skirmisher - Anemoboxer Vanguard"
+          ],
+          [
+            "Fatui Skirmisher - Electrohammer Vanguard",
+            "Fatui Skirmisher - Hydrogunner Legionnaire",
+            "Fatui Skirmisher - Geochanter Bracer"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 91,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Fatui Electro Cicin Mage",
+            "Fatui Cryo Cicin Mage"
+          ],
+          [
+            "Abyss Herald: Wicked Torrents"
+          ]
+        ]
+      }
+    ]
+  },
+  "19": {
+    "teams": 2,
+    "leyline": "For this floor only, the ley line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 94,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Geovishap",
+            "Pyro Whopperflower"
+          ],
+          [
+            "Geovishap",
+            "Cryo Whopperflower"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 97,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Treasure Hoarders: Gravedigger",
+            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders - Pugilist",
+            "Treasure Hoarders - Crusher",
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders: Hydro Potioneer",
+            "Treasure Hoarders: Electro Potioneer",
+            "Electro Cicin",
+            "Hydro Cicin",
+            "Cryo Cicin"
+          ],
+          [
+            "Pyro Abyss Mage",
+            "Hydro Abyss Mage",
+            "Hydro Mimic Boar",
+            "Hydro Mimic Crane",
+            "Hydro Mimic Crab",
+            "Hydro Mimic Mallard",
+            "Hydro Mimic Ferret"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 99,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Abyss Lector: Violet Lightning"
+          ],
+          [
+            "Fatui Pyro Agent",
+            "Fatui Electro Cicin Mage",
+            "Fatui Cryo Cicin Mage"
           ]
         ]
       }

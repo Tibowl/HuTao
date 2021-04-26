@@ -2620,7 +2620,7 @@
         }
       }
     ],
-    "lore": "When the young Arundolyn swung his replica greatsword — modeled off the great Ravenwood, Knight of Boreas' own greatsword — imagining that he was cutting the old nobles of Mondstadt down, he never envisaged he would become the renowned \"Lion of Light.\" Nor did he envisage that his young rival Rostam, who later died after serving the people of Mondstadt for 23 years, would one day become his most trusted right-hand man.\nThe replica of the Lion of Light's greatsword is now in the hands of another youngster.\nHow will this mysterious fate be passed on?",
+    "lore": "When the young Arundolyn swung his replica greatsword — modeled off the great Ravenwood, the Knight of Boreas's own greatsword — imagining that he was cutting the old nobles of Mondstadt down, he never envisaged he would become the renowned \"Lion of Light.\" Nor did he envisage that his young rival Rostam, who later died after serving the people of Mondstadt for 23 years, would one day become his most trusted right-hand man.\nThe replica of the Lion of Light's greatsword is now in the hands of another youngster.\nHow will this mysterious fate be passed on?",
     "refinement": [
       [
         {
@@ -2837,7 +2837,7 @@
         }
       }
     ],
-    "lore": "Legend says that after slaying the venomous dragon,\nThe famed hero bathed in its blood, for he desired invulnerability.\nSure enough, he became untouchable.\nBe it swords, be it spears, or be it rain of arrows,\nHe laughed and shrugged them off.\nAlas, his foes learned,\n'Twas with his prized greatsword that he bathed together.\nHis greatest strength became his fatal weakness.",
+    "lore": "Legend says that after slaying the venomous dragon,\nThe famed hero bathed in its blood, for he desired invulnerability.\nSure enough, he became untouchable.\nBe it swords, be it spears, or be it rain of arrows,\nHe laughed and shrugged them off.\nEventually, his foes learned:\nHe had borne his prized greatsword on his back as he bathed\nAnd now, his back bore a great weak spot, the very shape and size of that sword.",
     "refinement": [
       [
         {
@@ -4818,7 +4818,7 @@
   },
   "Emerald Orb": {
     "name": "Emerald Orb",
-    "desc": "A catalyst carved out of the hard jade from Jueyun Karst north of Liyue. It is small, light, and durable.",
+    "desc": "A catalyst carved out of the hard jade from Jueyun Karst north of Liyue. Small, light, and durable, it is known more colloquially as the \"jade ball.\"",
     "weaponType": "Catalyst",
     "stars": 3,
     "weaponCurve": [
@@ -5007,7 +5007,7 @@
         }
       }
     ],
-    "lore": "A lightweight Catalyst carved out of jade. It is durable and affordable, which makes it a popular item all around.\nSmall but exquisitely made, it is referred to by the people of Liyue as the Jade Orb.\nIt is a highly efficient defensive Catalyst as well as a good-looking accessory.",
+    "lore": "A lightweight catalyst carved out of emerald-green jade. It is durable and affordable, which makes it a popular item all around.\nSmall but exquisitely made, it is colloquially referred to by the people of Liyue as the \"jade ball.\"\nIt is a highly efficient defensive Catalyst as well as a good-looking accessory.",
     "refinement": [
       [
         {
@@ -6960,7 +6960,7 @@
         }
       }
     ],
-    "lore": "On the cliff facing the eastern sea, the ancestors worshiped the masters of Time and Anemo together.\nThe two are intimately related, as expressed in the saying, \"Anemo brings stories while Time nurtures them.\"\nThis sword tells the story of protection to show the courage to protect.\nOriginally just a prop, its blade was sharpened by the passage of time.\n\nThis sword once belonged to the kindly Gunnhildr clan.\nIn sacrificial ceremonies, they would enact the defense of Mondstadt.\n\nThere were three acts in the ceremony dedicated to the winds of time.\nThe final act told a tale of the protection of Mondstadt, of life, and of freedom.\n\nThe ceremony and its history have now been lost.\nBut the Gunnhildr clan continues to act as guardians of Mondstadt to this day.",
+    "lore": "On the cliff facing the eastern sea, the ancestors worshiped the masters of Time and Anemo together.\nThe two are intimately related, as expressed in the saying, \"Anemo brings stories while Time nurtures them.\"\nThis sword tells the story of protection to show the courage to protect.\nOriginally just a prop, its blade was sharpened by the passage of time.\n\nThis sword once belonged to the kindly Gunnhildr Clan.\nIn sacrificial ceremonies, they would enact the defense of Mondstadt.\n\nThere were three acts in the ceremony dedicated to the winds of time.\nThe final act told a tale of the protection of Mondstadt, of life, and of freedom.\n\nThe ceremony and its history have now been lost.\nBut the Gunnhildr Clan continues to act as guardians of Mondstadt to this day.",
     "refinement": [
       [
         {
@@ -9331,7 +9331,7 @@
         }
       }
     ],
-    "lore": "A strange greatsword decorated with an exquisite clock.\nThe distinctive sound of clockwork served as a combat rhythm for the wielder and their friends.\nAfter the Wanderer's Troupe disbanded, the greatsword was soaked in acid. The gears have rusted because of this.\nEven so, it still makes a lethal weapon.\n\nOne by the name of Kreuzlied traveled with the Wanderer's Troupe. Once a member of the ruling Lawrence clan, now a traitor and outcast.\nIn that time, scholars and bards paid no heed to history. For the Aristocracy preferred to remain willfully ignorant of their own moral degeneracy than face history's judgment.\nBut the aristocrats trembled in fear at the sound of this blade as it flew through the air, for it was the toll of the bell of judgment.\n\nIt was not made public what punishment Kreuzlied met with after the failed uprising. This in itself is a testament to his privileged origins.\nLegend says that after being dismissed from office, his desire to continue the legacy of his fellow rebels led him to establish a secret society aimed at bringing down the Aristocracy.\nIt is also said that he gave his full assistance to the enslaved gladiator when she revolted.\n\nFurther in the past, the popular rumor was that Kreuzlied's secret society was working constantly in the background,\nHelping the Knights of Favonius keep Mondstadt safe through deeds that no knight should ever be party to.\nIt was even said that the Wolf Pup Rostam ran this organization in secret, behind the Grand Master's back.",
+    "lore": "A strange greatsword decorated with an exquisite clock.\nThe distinctive sound of clockwork served as a combat rhythm for the wielder and their friends.\nAfter the Wanderer's Troupe disbanded, the greatsword was soaked in acid. The gears have rusted because of this.\nEven so, it still makes a lethal weapon.\n\nOne by the name of Kreuzlied traveled with the Wanderer's Troupe. Once a member of the ruling Lawrence Clan, now a traitor and outcast.\nIn that time, scholars and bards paid no heed to history. For the Aristocracy preferred to remain willfully ignorant of their own moral degeneracy than face history's judgment.\nBut the aristocrats trembled in fear at the sound of this blade as it flew through the air, for it was the toll of the bell of judgment.\n\nIt was not made public what punishment Kreuzlied met with after the failed uprising. This in itself is a testament to his privileged origins.\nLegend says that after being dismissed from office, his desire to continue the legacy of his fellow rebels led him to establish a secret society aimed at bringing down the Aristocracy.\nIt is also said that he gave his full assistance to the enslaved gladiator when she revolted.\n\nFurther in the past, the popular rumor was that Kreuzlied's secret society was working constantly in the background,\nHelping the Knights of Favonius keep Mondstadt safe through deeds that no knight should ever be party to.\nIt was even said that the Wolf Pup Rostam ran this organization in secret, behind the Grand Master's back.",
     "refinement": [
       [
         {
@@ -9548,7 +9548,7 @@
         }
       }
     ],
-    "lore": "On the cliff facing the eastern sea, the ancestors worshiped the masters of Time and Anemo together.\nThe two are intimately related, as expressed in the saying, \"Anemo brings stories while Time nurtures them.\"\nThe sword tells a story of war, and was used in the enactment of war tales.\nOriginally just a prop, its blade has been hardened by the passage of time.\n\nThis sword once belonged to the Imunlaukr clan, a clan of brave and gifted warriors who fought hard and died young.\nIn sacrificial ceremonies, they would enact duels between brave warriors stained black with blood.\n\nIn the eyes of the Imunlaukr clan, combat existed not for protection, for glory, or for gaining territory.\nRather, it was for the amusement of the gods, high up in the heavens, for whom little else could serve to entertain.\nMonsters and outlaws, they fought them all the same, with no regard for whether this time they would return to their beloveds afterwards.\nFor none of that mattered. What mattered was to roar, loud and clear, in the heat of bloody battle. That was duty fulfilled.\n\nSuch hot blood running through the veins should not have been conducive to a long history for the Imunlaukr clan.\nFor their fight was one without end, and without hope of victory.\nAnd yet, as the snow slowly melted and Mondstadt began to take shape, gradually they realized: They had found something to fight for at last.",
+    "lore": "On the cliff facing the eastern sea, the ancestors worshiped the masters of Time and Anemo together.\nThe two are intimately related, as expressed in the saying, \"Anemo brings stories while Time nurtures them.\"\nThe sword tells a story of war, and was used in the enactment of war tales.\nOriginally just a prop, its blade has been hardened by the passage of time.\n\nThis sword once belonged to the Imunlaukr Clan, a clan of brave and gifted warriors who fought hard and died young.\nIn sacrificial ceremonies, they would enact duels between brave warriors stained black with blood.\n\nIn the eyes of the Imunlaukr Clan, combat existed not for protection, for glory, or for gaining territory.\nRather, it was for the amusement of the gods, high up in the heavens, for whom little else could serve to entertain.\nMonsters and outlaws, they fought them all the same, with no regard for whether this time they would return to their beloveds afterwards.\nFor none of that mattered. What mattered was to roar, loud and clear, in the heat of bloody battle. That was duty fulfilled.\n\nSuch hot blood running through the veins should not have been conducive to a long history for the Imunlaukr Clan.\nFor their fight was one without end, and without hope of victory.\nAnd yet, as the snow slowly melted and Mondstadt began to take shape, gradually they realized: They had found something to fight for at last.",
     "refinement": [
       [
         {
@@ -9765,7 +9765,7 @@
         }
       }
     ],
-    "lore": "A greatsword used by a noble who ruled over Mondstadt. It was crafted with premium materials and master craftsmanship.\nFor that reason, even after being passed down for generations, it is still as good as new.\nCombat was once a responsibility of the nobles.\nThey protected their people from monsters threatening peace and stability.\nUnfortunately, they all but forgot their responsibilities, which turned them into the very monsters they once sought to destroy.\n\nResearch suggests that gladiatorial combat originated in a religious context during the rule of the Aristocracy.\nNow outlawed by the Knights of Favonius, it began as a sacrificial ceremony held jointly with prayers to the gods.\n\nThough the practice was later turned into a perverted sport for the Lawrence clan's pleasure, and subsequently abolished by the Knights,\nSome texts of the original prayers still remain.\n\n\"Please look after Mondstadt's winds. Look after me, my friends, my countrymen, and my opponent. May the sound of clashing blades delight you, and may the offering of sweat and blood please you.\"\n\"To the wind that guides me. When I'm exhausted, bless me with the strength to keep going forward. When I'm uncertain, bless me with the wisdom to distinguish good from evil.\"",
+    "lore": "A greatsword used by a noble who ruled over Mondstadt. It was crafted with premium materials and master craftsmanship.\nFor that reason, even after being passed down for generations, it is still as good as new.\nCombat was once a responsibility of the nobles.\nThey protected their people from monsters threatening peace and stability.\nUnfortunately, they all but forgot their responsibilities, which turned them into the very monsters they once sought to destroy.\n\nResearch suggests that gladiatorial combat originated in a religious context during the rule of the Aristocracy.\nNow outlawed by the Knights of Favonius, it began as a sacrificial ceremony held jointly with prayers to the gods.\n\nThough the practice was later turned into a perverted sport for the Lawrence Clan's pleasure, and subsequently abolished by the Knights,\nSome texts of the original prayers still remain.\n\n\"Please look after Mondstadt's winds. Look after me, my friends, my countrymen, and my opponent. May the sound of clashing blades delight you, and may the offering of sweat and blood please you.\"\n\"To the wind that guides me. When I'm exhausted, bless me with the strength to keep going forward. When I'm uncertain, bless me with the wisdom to distinguish good from evil.\"",
     "refinement": [
       [
         {
@@ -12374,23 +12374,23 @@
       [
         {
           "name": "Gladiator",
-          "desc": "If there are at least 2 opponents nearby, ATK is increased by **16%** and DEF is increased by **16%**. If there are less than 2 opponents nearby, ATK is increased by **24%**."
+          "desc": "If there are at least 2 opponents nearby, ATK is increased by **16%** and DEF is increased by **16%**. If there are fewer than 2 opponents nearby, ATK is increased by **24%**."
         },
         {
           "name": "Gladiator",
-          "desc": "If there are at least 2 opponents nearby, ATK is increased by **20%** and DEF is increased by **20%**. If there are less than 2 opponents nearby, ATK is increased by **30%**."
+          "desc": "If there are at least 2 opponents nearby, ATK is increased by **20%** and DEF is increased by **20%**. If there are fewer than 2 opponents nearby, ATK is increased by **30%**."
         },
         {
           "name": "Gladiator",
-          "desc": "If there are at least 2 opponents nearby, ATK is increased by **24%** and DEF is increased by **24%**. If there are less than 2 opponents nearby, ATK is increased by **36%**."
+          "desc": "If there are at least 2 opponents nearby, ATK is increased by **24%** and DEF is increased by **24%**. If there are fewer than 2 opponents nearby, ATK is increased by **36%**."
         },
         {
           "name": "Gladiator",
-          "desc": "If there are at least 2 opponents nearby, ATK is increased by **28%** and DEF is increased by **28%**. If there are less than 2 opponents nearby, ATK is increased by **42%**."
+          "desc": "If there are at least 2 opponents nearby, ATK is increased by **28%** and DEF is increased by **28%**. If there are fewer than 2 opponents nearby, ATK is increased by **42%**."
         },
         {
           "name": "Gladiator",
-          "desc": "If there are at least 2 opponents nearby, ATK is increased by **32%** and DEF is increased by **32%**. If there are less than 2 opponents nearby, ATK is increased by **48%**."
+          "desc": "If there are at least 2 opponents nearby, ATK is increased by **32%** and DEF is increased by **32%**. If there are fewer than 2 opponents nearby, ATK is increased by **48%**."
         }
       ]
     ]
@@ -14105,7 +14105,7 @@
         }
       }
     ],
-    "lore": "A delicate scroll treated with wax to prevent decay and moth damage.\nIt contains the research of royal mages — research which is still rather forward-looking to this day.\nThe royal mages were tasked with nourishing the water and soil as well as fighting off monsters. They also served as tutors for the nobles.\nTherefore, the scroll contains a wealth of information regarding history, governance, management, and culture.\nWhen the people overthrew the royals, they exiled the royal mages at the same time,\nFor the mages had forsaken their responsibility to instill goodness and virtue in the nobles, instead becoming birds of a feather with them.\n\nIn the early days of Mondstadt, the Lawrence clan was led by Venerare.\nUnder her guidance, the people built a tall statue in the plaza to commemorate the miracle of the Anemo Archon's descent.\n\nThe inscription beneath the statue was put there by the leader of all the clans. It bore an oath of protection to Mondstadt that they had sworn.\nOver the years, the Lawrence clan forsook the noble aspirations of their forebears, and the statue was taken down.\nThe wise mages of the court spoke neither of history nor of the oath ever again.\n\nIn the age of the Knights of Favonius, the statue was rebuilt.\nBut the wording of the oath on the inscription was lost forever.",
+    "lore": "A delicate scroll treated with wax to prevent decay and moth damage.\nIt contains the research of royal mages — research which is still rather forward-looking to this day.\nThe royal mages were tasked with nourishing the water and soil as well as fighting off monsters. They also served as tutors for the nobles.\nTherefore, the scroll contains a wealth of information regarding history, governance, management, and culture.\nWhen the people overthrew the royals, they exiled the royal mages at the same time,\nFor the mages had forsaken their responsibility to instill goodness and virtue in the nobles, instead becoming birds of a feather with them.\n\nIn the early days of Mondstadt, the Lawrence Clan was led by Venerare.\nUnder her guidance, the people built a tall statue in the plaza to commemorate the miracle of the Anemo Archon's descent.\n\nThe inscription beneath the statue was put there by the leader of all the clans. It bore an oath of protection to Mondstadt that they had sworn.\nOver the years, the Lawrence Clan forsook the noble aspirations of their forebears, and the statue was taken down.\nThe wise mages of the court spoke neither of history nor of the oath ever again.\n\nIn the age of the Knights of Favonius, the statue was rebuilt.\nBut the wording of the oath on the inscription was lost forever.",
     "refinement": [
       [
         {
@@ -16275,7 +16275,7 @@
         }
       }
     ],
-    "lore": "On the cliff facing the eastern sea, the ancestors worshiped the masters of Time and Anemo together.\nThe two are intimately related, as expressed in the saying, \"Anemo brings stories while Time nurtures them.\"\nThis bow tells the story of the pioneers and the hardships they went through.\nIt used to be a prop with an immobile bowstring, but the string became both flexible and sturdier with the passage of time.\n\nThis bow was once the property of the proud Lawrence clan.\nIn the far-flung past, they used it to reenact their clan's brave victory over the frozen wilderness.\n\nThe first act of the ceremony told the tale of their forebears conquering the land through their wisdom and strength.\nOver their long history, though this ceremony was lost, they continued to play the same role.\n\nBut this role became corrupted. Gradually, their view of themselves shifted from conquerors, to overlords, to kings.\nGradually, they strayed onto the path of depravity, and lost the affection of Mondstadt's winds.",
+    "lore": "On the cliff facing the eastern sea, the ancestors worshiped the masters of Time and Anemo together.\nThe two are intimately related, as expressed in the saying, \"Anemo brings stories while Time nurtures them.\"\nThis bow tells the story of the pioneers and the hardships they went through.\nIt used to be a prop with an immobile bowstring, but the string became both flexible and sturdier with the passage of time.\n\nThis bow was once the property of the proud Lawrence Clan.\nIn the far-flung past, they used it to reenact their clan's brave victory over the frozen wilderness.\n\nThe first act of the ceremony told the tale of their forebears conquering the land through their wisdom and strength.\nOver their long history, though this ceremony was lost, they continued to play the same role.\n\nBut this role became corrupted. Gradually, their view of themselves shifted from conquerors, to overlords, to kings.\nGradually, they strayed onto the path of depravity, and lost the affection of Mondstadt's winds.",
     "refinement": [
       [
         {
@@ -16492,7 +16492,7 @@
         }
       }
     ],
-    "lore": "A longbow used by a noble who ruled over Mondstadt. It was crafted with premium materials and master craftsmanship.\nFor that reason, generations later, it is still as powerful as ever.\nHunting was once a pastime of the nobles.\nThey demonstrated their strength in the natural world, and shared the spoils with the people in benevolence.\nUnfortunately, benevolence was lost, and with it, their reign.\n\nAfter the uprising, the Lawrence clan that had long ruled Mondstadt was overthrown.\nIn the name of benevolent governance, the newly established Knights of Favonius deemed that protracted investigations would be unnecessary.\nThe Lawrence clan was promptly cast out from Mondstadt, never to return.\n\n\"On the road bound to our exile, I watched my father sigh with grief: at the betrayal of the people, at the end of a glorious era, at the final chapter of history.\"\n\"We watched the people who were once our subjects rejoicing in the open country as we bid farewell to our homeland.\"\n\"Only years later did I realize: it was we, the Lawrence clan, who had betrayed, who had ended a glorious era, and who had closed the history books. Only now was Mondstadt as it always should have been.\"\n\nVennessa was but the final push that toppled a crumbling tower. Before her, the flames of fury already burned bright, and occasionally the flickering flames had shone through the thick smoke of secrecy:\nThe phantom thief praised in secret by the people. The woman who could see death. The Wanderer's Troupe intent on revolution.\nThe spirit of resistance is in Mondstadters' blood.",
+    "lore": "A longbow used by a noble who ruled over Mondstadt. It was crafted with premium materials and master craftsmanship.\nFor that reason, generations later, it is still as powerful as ever.\nHunting was once a pastime of the nobles.\nThey demonstrated their strength in the natural world, and shared the spoils with the people in benevolence.\nUnfortunately, benevolence was lost, and with it, their reign.\n\nAfter the uprising, the Lawrence Clan that had long ruled Mondstadt was overthrown.\nIn the name of benevolent governance, the newly established Knights of Favonius deemed that protracted investigations would be unnecessary.\nThe Lawrence Clan was promptly cast out from Mondstadt, never to return.\n\n\"On the road bound to our exile, I watched my father sigh with grief: at the betrayal of the people, at the end of a glorious era, at the final chapter of history.\"\n\"We watched the people who were once our subjects rejoicing in the open country as we bid farewell to our homeland.\"\n\"Only years later did I realize: it was we, the Lawrence Clan, who had betrayed, who had ended a glorious era, and who had closed the history books. Only now was Mondstadt as it always should have been.\"\n\nVennessa was but the final push that toppled a crumbling tower. Before her, the flames of fury already burned bright, and occasionally the flickering flames had shone through the thick smoke of secrecy:\nThe phantom thief praised in secret by the people. The woman who could see death. The Wanderer's Troupe intent on revolution.\nThe spirit of resistance is in Mondstadters' blood.",
     "refinement": [
       [
         {
@@ -19096,7 +19096,7 @@
         }
       }
     ],
-    "lore": "Possessed of sky-shaking bravery.\nEven the vile dragon born from sin in the ancient kingdom of the abyss,\nLost its wings to this proud servant of Anemo.\n\nThe shadow dragon Durin terrorized Mondstadt.\nAwoken by the cries of its victims,\nThe Anemo Archon summoned his faithful servant.\nHe rode against the shadow dragon to protect life and freedom.\n\nDvalin unleashed its six-winged fury,\nSlashing through Durin's iron scales.\nStriking out with its wind-blade claws in draconic combat,\nDvalin pierced deep into Durin's black, rotten flesh.\n\nThe battle tore the world asunder, veiling the sun.\nDvalin tore out Durin's throat, and evil was overcome.\nA victory won, a people saved, by the blessed Anemo dragon Dvalin.\nYet Dvalin became poisoned by tainted blood, and it sank deep into his bones.\n\nNow a fallen hero, poor Dvalin's rotting flesh drew monsters.\nLost he became, deceived by the abyss. He fell to evil, and Stormterror was born.\nAt last his master returned to calm his frenzied mind and ease his pain.\nCleanse the land did they, and restore Dvalin's honor.\n\nWhile the dragon slumbered, Mondstadt forgot its savior's powers.\nBut it returned once again, to demonstrate its full might.\nBlessed by the Anemo Archon, surrounded by Barbatos' songs,\nRiding on the boundless winds, Dvalin took flight once more.",
+    "lore": "This is a tale of sky-shaking valor.\nEven the vile dragon brought into the world by a sinner of that ancient abyssal nation\nLost its dark, metallic wings to Anemo's pride and joy.\n\nLong ago, the shadow dragon Durin terrorized Mondstadt, driven by jealousy for the city's glory.\nAwoken from his sylvan slumber by the cries of Durin's victims,\nThe Anemo Archon came forth and summoned his faithful servant to his side.\nFor life and for freedom, the Archon and the Wind Dragon rode the wind to face their foe.\n\nIn a battle that ripped clouds from the skies, Dvalin spread his six blessed wings wide,\nSevering the sky and tearing through Durin's iron scales with the force of a colossal blade.\nAs the conflict plunged the world into darkness, the Wind Dragon struck out with his claws, like swords forged of wind.\nThey pierced deep into Durin's dark, corrupt flesh.\n\nThe battle shook the heavens, even the sun quaked with fear.\nFinally, Dvalin tore out Durin's throat with his teeth, and the evil dragon fell from the sky.\nWith his god's blessing, the Wind Dragon seized victory and saved the people of Mondstadt.\nYet Dvalin became poisoned by the tainted blood he had consumed, and corruption seeped into his bones.\n\nThough a hero, Dvalin was forced to suffer in solitude, while the stench of corruption drew creatures of evil to his side.\nDeceived by the Abyss, the Wind Dragon fell to evil, and Stormterror was born.\nAt last, his master returned to calm his frenzied mind and ease his pain.\nHis faithful friend and a new companion fought bravely to drive out the monsters and restore Dvalin's honor.\n\nIn the century while Dvalin slept, his image faded from Mondstadt's memory,\nBut in the tumultuous times of the recent past, the people bore witness to his six-winged figure once more.\nNow, blessed by the Anemo Archon, serenaded by the songs of Barbatos,\nRiding on the boundless winds, Dvalin takes to the skies once more.",
     "refinement": [
       [
         {
@@ -19552,6 +19552,223 @@
         {
           "name": "Golden Majesty",
           "desc": "Increases Shield Strength by **40%**. Scoring hits on opponents increases ATK by **8%** for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
+        }
+      ]
+    ]
+  },
+  "Song of Broken Pines": {
+    "name": "Song of Broken Pines",
+    "desc": "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.",
+    "weaponType": "Claymore",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 49.137699127197266,
+        "curve": "ATK 3.3"
+      },
+      {
+        "stat": "Physical DMG Bonus",
+        "init": 0.04500000178813934,
+        "curve": "C3"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ],
+        "cost": {
+          "mora": 10000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Tile of Decarabian's Tower"
+            },
+            {
+              "count": 5,
+              "name": "Heavy Horn"
+            },
+            {
+              "count": 3,
+              "name": "Damaged Mask"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Debris of Decarabian's City"
+            },
+            {
+              "count": 18,
+              "name": "Heavy Horn"
+            },
+            {
+              "count": 12,
+              "name": "Damaged Mask"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 9,
+              "name": "Debris of Decarabian's City"
+            },
+            {
+              "count": 9,
+              "name": "Black Bronze Horn"
+            },
+            {
+              "count": 9,
+              "name": "Stained Mask"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Fragment of Decarabian's Epic"
+            },
+            {
+              "count": 18,
+              "name": "Black Bronze Horn"
+            },
+            {
+              "count": 14,
+              "name": "Stained Mask"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 55000,
+          "items": [
+            {
+              "count": 9,
+              "name": "Fragment of Decarabian's Epic"
+            },
+            {
+              "count": 14,
+              "name": "Black Crystal Horn"
+            },
+            {
+              "count": 9,
+              "name": "Ominous Mask"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 65000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Scattered Piece of Decarabian's Dream"
+            },
+            {
+              "count": 27,
+              "name": "Black Crystal Horn"
+            },
+            {
+              "count": 18,
+              "name": "Ominous Mask"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "There was once a popular folk song that went like this:\n\"Toss to the bard all the coins you can spare,\"\n\"Give your bouquet to yon maiden so fair,\"\n\"Take wine so bitter it makes the tears flow,\"\n\"Drink to the yesterday now been and gone, and sing for tomorrow that comes with the dawn.\"\n\nIn the land where songs and music carry on the wind, the people have merry yet sensitive souls.\nIt is said that there were times in history when the tyrant Decarabian and the ruling aristocrats would ban certain chords and tunes,\nFor discerning people could sense the spirit of resistance that lay behind the music of the bards and singers.\nSongs and hymns had also indeed been used before as a way for rebels to communicate.\n\nIn the days of the ruling aristocracy, the Church that revered the Anemo Archon was once split in twain by a schism:\nOn one side stood the clergy, who ate at the lords' table, and overturned the archon's statues with them even as they wrote songs and hymns of praise.\nOn the other stood the saints, who held no clerical office, and who walked the streets, the wine cellars, and the world beyond the walls.\nThese saints drank cheap moonshine, blessing the slave and the plebeian with the original holy manuscripts that circulated amongst the people and with words that the wind brought to them.\nAnd while they did so, they penned forbidden songs and poetry.\n\nWhen the gladiator from a foreign land arose together with the re-awakened Anemo Archon and raised the banner of rebellion,\nThe aged saint known as the Nameless Shepherd mobilized the true adherents of the Church of Favonius.\nTogether with many others, they spilled their martyred blood upon these emerald fields.\nAnd together, they sang a rallying cry to save the nation, the hitherto-unsung half of that folk song of old:\n\n\"Leave the keen steel to those who will give their lives for the fight,\"\n\"Prepare the thieves' gallows,\"\n\"Sharpen your rusted arrows,\"\n\"For when the music sounds, we shoot the beasts down.\"",
+    "refinement": [
+      [
+        {
+          "name": "Rebel's Banner-Hymn",
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by **16%**, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by **12%** and increases ATK by **20%**. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
+        },
+        {
+          "name": "Rebel's Banner-Hymn",
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by **20%**, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by **15%** and increases ATK by **25%**. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
+        },
+        {
+          "name": "Rebel's Banner-Hymn",
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by **24%**, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by **18%** and increases ATK by **30%**. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
+        },
+        {
+          "name": "Rebel's Banner-Hymn",
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by **28%**, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by **21%** and increases ATK by **35%**. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
+        },
+        {
+          "name": "Rebel's Banner-Hymn",
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by **32%**, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by **24%** and increases ATK by **40%**. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
         }
       ]
     ]

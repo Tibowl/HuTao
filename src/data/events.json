@@ -106,7 +106,21 @@
     },
     {
         "name": "Event Wish \"Gentry of Hermitage\"",
-        "type": "Banner"
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/genshin/article/324025",
+        "img": "https://upload-os-bbs.mihoyo.com/upload/2021/04/25/1015537/5800bc8cae272566c0c70b2a3a4c452d_8480392818056458896.jpg",
+        "start": "2021-04-28 11:00:00",
+        "end": "2021-05-18 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/genshin/article/324040",
+        "img": "https://upload-os-bbs.mihoyo.com/upload/2021/04/25/1015537/1df2bb7513a56f26bd87a4aa86ff8a93_8076639008885797857.jpg",
+        "start": "2021-04-28 11:00:00",
+        "end": "2021-05-18 17:59:00",
+        "reminder": "end"
     },
     {
         "name": "Event Wish \"Born of Ocean Swell\"",
@@ -115,8 +129,10 @@
     {
         "name": "\"Energy Amplifier Initiation\" Event",
         "type": "In-game",
+        "img": "https://i.imgur.com/zzor3qv.png",
         "start": "2021-04-30 10:00:00",
-        "end": "2021-05-17 03:59:00"
+        "end": "2021-05-17 03:59:00",
+        "reminder": "end"
     },
     {
         "name": "\"Battlefront: Misty Dungeon\" Event",
@@ -124,7 +140,11 @@
     },
     {
         "name": "\"Windtrace\" Event",
-        "type": "In-game"
+        "type": "In-game",
+        "img": "https://i.imgur.com/emnJzzz.png",
+        "start": "2021-5-14 10:00:00",
+        "end": "2021-05-24 03:59:00",
+        "reminder": "end"
     },
     {
         "name": "\"Mini Tomo\" Event",

@@ -310,8 +310,8 @@
   "15": {
     "start": "2021-05-01 04:00:00",
     "end": "2021-05-16 03:59:59",
-    "buff": "Euphonic Moon",
-    "buffDesc": "Plunging Attacks that hit enemies generate a certain number of Elemental Particles that will recover 6 Energy for the character. Each Plunging Attack can generate Elemental Particles once in this manner, and this can occur once every 1s.",
+    "buff": "Blade-Dance Moon",
+    "buffDesc": "When a character scores consecutive hits on an opponent with Normal Attacks within 2s, this character's Physical DMG is increased by 5% for 10s. This effect stacks up to 5 times, and only 1 stack is added at a time regardless of how many enemies are hit in one strike. When 5 stacks have been obtained, further hits on opponents will unleash shockwaves that deal AoE DMG. A shockwave can be created in this manner once every 1s.",
     "regularFloors": [
       1,
       2,
@@ -325,8 +325,52 @@
     "spiralAbyssFloors": [
       13,
       14,
-      15,
-      17
+      18,
+      19
+    ]
+  },
+  "16": {
+    "start": "2021-05-16 04:00:00",
+    "end": "2021-06-01 03:59:59",
+    "buff": "Thorny Moon",
+    "buffDesc": "A backlash will occur when opponents hit a character protected by a shield, unleashing a shockwave that deals AoE DMG. Can occur once every 6s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      13,
+      14,
+      18,
+      19
+    ]
+  },
+  "17": {
+    "start": "2021-06-01 04:00:00",
+    "end": "2021-06-16 03:59:59",
+    "buff": "Rebellious Moon",
+    "buffDesc": "When a character scores Normal, Charged, and Plunging Attack hits that deal Physical DMG to opponents, this character's CRIT Rate is increased by 3% for 10s. This effect stacks up to 5 times, and only 1 stack is added at a time regardless of how many enemies are hit in one strike. When 5 stacks have been obtained, CRIT Hits on opponents will unleash shockwaves that deal AoE DMG. A shockwave can be created in this manner once every 1s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      13,
+      14,
+      18,
+      19
     ]
   }
 }

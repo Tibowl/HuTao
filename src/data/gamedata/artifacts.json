@@ -1439,5 +1439,105 @@
         "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15016_3.png"
       }
     ]
+  },
+  "Tenacity of the Millelith": {
+    "name": "Tenacity of the Millelith",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15017_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "HP increased by 20%."
+      },
+      {
+        "count": 4,
+        "desc": "When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Flower of Accolades",
+        "desc": "A flower made from gold leaf. It represents the glories and honors attained by its wearer.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15017_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Ceremonial War-Plume",
+        "desc": "A falcon feather worn on ceremonial occasions. It displays the dignity and resolve of Liyue Harbor to the outside world.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15017_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Orichalceous Time-Dial",
+        "desc": "A simple device for telling time. This was once standard-issue for the Millelith during times of war.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15017_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Noble's Pledging Vessel",
+        "desc": "A golden cup used by the Millelith to take their oaths. Still bears the lovely scent of wine.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15017_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "General's Ancient Helm",
+        "desc": "A splendorous helmet from ages past. Clean the dust away and it will look brand-new once more.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15017_3.png"
+      }
+    ]
+  },
+  "Pale Flame": {
+    "name": "Pale Flame",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Physical DMG is increased by 25%."
+      },
+      {
+        "count": 4,
+        "desc": "When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Stainless Bloom",
+        "desc": "A hard, blue artificial flower. Its petals shall never wither, nor shall its colors fade.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Wise Doctor's Pinion",
+        "desc": "An ominous pinion with edges of unsurpassed keenness. Perhaps it represents an unnaturally uninhibited nature.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Moment of Cessation",
+        "desc": "A pocket watch with a cover that cannot be opened. Yet it ticks and tocks away, following the inexorable flow of time.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Surpassing Cup",
+        "desc": "An intricately-made cup. Its appearance betrays nothing of its age to an observer.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Mocking Mask",
+        "desc": "A mask that covers the face, hiding one's expression from others.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_3.png"
+      }
+    ]
   }
 }
