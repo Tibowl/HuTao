@@ -142,7 +142,7 @@
         "name": "\"Windtrace\" Event",
         "type": "In-game",
         "img": "https://i.imgur.com/emnJzzz.png",
-        "start": "2021-5-14 10:00:00",
+        "start": "2021-05-14 10:00:00",
         "end": "2021-05-24 03:59:00",
         "reminder": "end"
     },
