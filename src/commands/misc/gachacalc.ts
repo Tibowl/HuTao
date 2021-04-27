@@ -123,7 +123,7 @@ ${createTable(
 \`\`\``)
     }
 
-    calcSims = memoize(this.calcSimsRegular, { max: 1 })
+    calcSims = memoize(this.calcSimsRegular, { max: 50 })
 
     private calcSimsRegular(pity: number, pulls: number, guaranteed: boolean, bannerName: string): ReducedSim[] {
         const banner = gachas[bannerName]
@@ -172,7 +172,7 @@ ${createTable(
             const addOrMerge = (sim: Sim) => {
                 if (sim.rate <= 0) return
 
-                const v = ((+sim.guaranteed) * (banner.maxConst + 1) + (sim.const + 1)) * 100 + sim.pity
+                const v = ((+sim.guaranteed) * (banner.maxConst + 2) + (sim.const + 1)) * (banner.maxPity + 5) + sim.pity
                 const other = newSims[v]
 
                 if (other) {
