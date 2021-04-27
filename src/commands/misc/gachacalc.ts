@@ -10,19 +10,45 @@ const Logger = log4js.getLogger("GachaCalc")
 
 const gachas: Record<string, Banner> = {
     char: {
+        bannerName: "5* Banner character",
         banner: 0.5,
         guaranteed: 1,
         maxConst: 6,
+        constFormat: "C",
+        constName: "Constellations",
         maxPity: 90,
-        rate: (pity) => pity < 74 ? 0.6 : [6.8, 12.7, 18.8, 24.9, 30.7, 37.1, 42.3, 48.6, 55, 60.2, 62.3, 70, 75, 80, 90, 95, 100][pity - 74] ?? 100
+        rate: (pity) => pity < 74 ? 0.6 : [6.6, 12.9, 18.6, 24.4, 31, 36.3, 41.7, 48.4, 54.6, 60, 65, 71, 76, 82, 88, 94, 100][pity - 74] ?? 100
+    },
+    "4*char": {
+        bannerName: "Specific 4* banner character",
+        banner: 0.5,
+        guaranteed: 1/3,
+        maxConst: 6,
+        constFormat: "C",
+        constName: "Constellations",
+        maxPity: 10,
+        rate: (pity) => pity < 9 ? 6.2 : [57, 100][pity - 9] ?? 100
+    },
+    weapon: {
+        bannerName: "Specific banner weapon",
+        banner: 0.75,
+        guaranteed: 0.5,
+        maxConst: 5,
+        constFormat: "R",
+        constName: "Refinements",
+        maxPity: 80,
+        rate: (pity) => pity < 63 ? 0.7 : [7.96, 16, 22.3, 28.7, 37.1, 44, 49, 53, 61, 65.2, 70, 73, 78, 82, 86, 90, 95, 100][pity - 63] ?? 100
     }
 }
 
 type Banner = {
+    bannerName: string
     banner: number
     guaranteed: number
     maxConst: number
     maxPity: number
+    constFormat: string
+    constName: string
     rate: (pity: number) => number
 }
 
@@ -41,21 +67,27 @@ export default class GachaCalc extends Command {
         super({
             name,
             category: "Misc",
-            help: `Calculate chance to get banner character in a certain amount of pulls.
+            help: `Calculate chance to get banner character/weapon in a certain amount of pulls.
 
-NOTE: Rates with high pity might not be accurate, not a lot of data in this rang...
+Available banners: ${Object.keys(gachas).map(x => `\`${x}\``).join(", ")}
+
+NOTE: Rates with high pity might not be accurate, not a lot of data in this range (especially with weapon banner)...
             
 Example with just amount of pulls (assumes char banner, 50/50 limited, 0 pity): \`${config.prefix}gachacalc 70\`
 Example with 70 pulls and 10 pity: \`${config.prefix}gachacalc 70 10\`
 Example with 70 pulls, 10 pity and guaranteed: \`${config.prefix}gachacalc 70 10 y\`
 `,
-            usage: "gachacalc <pulls> [pity] [guaranteed]",
+            usage: "gachacalc [gacha] <pulls> [pity] [guaranteed]",
             aliases: ["gc", "gachasim", "gcalc", "gsim", "gs"]
         })
     }
 
     async run(message: Message, args: string[]): Promise<Message | Message[]> {
         if (args.length <= 0) return this.sendHelp(message)
+
+        let gacha = "char"
+        if (Object.keys(gachas).includes(args[0].toLowerCase()))
+            gacha = args.shift()?.toLowerCase() ?? "char"
 
         const pulls = parseInt(args[0] ?? "75")
         if (isNaN(pulls) || pulls <= 0 || pulls > 9999)
@@ -68,25 +100,25 @@ Example with 70 pulls, 10 pity and guaranteed: \`${config.prefix}gachacalc 70 10
         let guaranteed = false
         if (args[2]?.match(/y(es)|t(rue)|g(uaranteed)/))
             guaranteed = true
-        else if (args[2]?.match(/no?|f(alse)|50\/50/))
+        else if (args[2]?.match(/no?|f(alse)|50\/50|75\/25/))
             guaranteed = false
         else if (args[2])
             return message.channel.send("Invalid 50/50, should be y(es)/g(uaranteed) or n(o)/50/50")
 
-        // TODO different banner support
+        const banner = gachas[gacha]
 
         const start = Date.now()
-        const sims = this.calcSims(pity, pulls, guaranteed, "char")
+        const sims = this.calcSims(pity, pulls, guaranteed, gacha)
         const time = Date.now() - start
         Logger.info(`Calculation done in ${time}ms`)
 
-        return message.channel.send(`Banner character in **${pulls}** pulls, starting from **${pity}** pity and **${guaranteed ? "guaranteed" : "50/50"}** banner:
+        return message.channel.send(`**${banner.bannerName}** in **${pulls}** pulls, starting from **${pity}** pity and **${guaranteed ? "guaranteed" : `${banner.banner * 100}/${(1 - banner.banner) * 100}`}** banner:
 \`\`\`
 ${createTable(
-        ["Constellations", "Rate"],
+        [banner.constName, "Rate"],
         sims
             .sort((a, b) => a.const - b.const)
-            .map(k => [k.const < 0 ? "/" : `C${k.const}`, `${(k.rate * 100).toFixed(2)}%`])
+            .map(k => [k.const < 0 ? "/" : `${banner.constFormat}${k.const}`, `${(k.rate * 100).toFixed(2)}%`])
     )}
 \`\`\``)
     }
@@ -130,7 +162,7 @@ ${createTable(
                 }
         })
 
-        return reducedSims.filter(k => k.rate >= 0.006)
+        return reducedSims.filter(k => k.rate >= 0.005)
     }
 
     private calcSimsExact(sims: Sim[], pulls: number, banner: Banner, prune = 1e-8) {
