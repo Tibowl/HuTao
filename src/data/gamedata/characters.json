@@ -37904,12 +37904,13 @@
   "Yanfei": {
     "name": "Yanfei",
     "desc": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",
-    "releasedOn": "2021-04-28 11:00:00",
+    "releasedOn": "2021-04-27 00:00:00",
     "star": 4,
     "weaponType": "Catalyst",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
     "imgs": [
-      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Feiyan@2x.png"
+      "https://static.wikia.nocookie.net/gensin-impact/images/f/f3/Character_Yanfei_Card.png/revision/latest?cb=20210422100113",
+      "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Character_Yanfei_Portrait.png/revision/latest?cb=20210504205222"
     ],
     "hpBase": 784.1402587890625,
     "attackBase": 20.12303924560547,
