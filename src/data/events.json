@@ -155,9 +155,10 @@
     {
         "name": "\"Windtrace\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/emnJzzz.png",
+        "link": "https://www.hoyolab.com/genshin/article/362368",
+        "img": "https://upload-os-bbs.mihoyo.com/upload/2021/05/10/1015537/b4311427869c20aa96685456c9760c49_3700746690392602081.jpg",
         "start": "2021-05-14 10:00:00",
-        "end": "2021-05-24 03:59:00",
+        "end": "2021-05-24 03:59:59",
         "reminder": "end"
     },
     {
