@@ -125,15 +125,19 @@
     {
         "name": "Event Wish \"Born of Ocean Swell\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/genshin/article/371049",
+        "img": "https://upload-os-bbs.mihoyo.com/upload/2021/05/14/1015537/d0603bf9d9cba8a1b25dfed02ac11124_19421007593763451.jpg",
         "start": "2021-05-18 18:00:00",
-        "end": "2021-06-08 17:59:00",
+        "end": "2021-06-08 14:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/genshin/article/371062",
+        "img": "https://upload-os-bbs.mihoyo.com/upload/2021/05/14/1015537/ebaf3dea32f20414c122a7fdeab56d3e_3752873402510354162.jpg",
         "start": "2021-05-18 18:00:00",
-        "end": "2021-06-08 17:59:00",
+        "end": "2021-06-08 14:59:00",
         "reminder": "end"
     },
     {
@@ -148,8 +152,9 @@
     {
         "name": "\"Battlefront: Misty Dungeon\" Event",
         "type": "In-game",
-        "start": "2021-05-21",
-        "end": "2021-05-31",
+        "img": "https://i.imgur.com/SqMzYPq.png",
+        "start": "2021-05-21 10:00:00",
+        "end": "2021-05-31 03:59:00",
         "reminder": "end"
     },
     {
@@ -164,15 +169,17 @@
     {
         "name": "\"Mini Tomo\" Event",
         "type": "In-game",
-        "start": "2021-05-27",
-        "end": "2021-06-08",
+        "img": "https://i.imgur.com/XuEnuKg.png",
+        "start": "2021-05-27 10:00:00",
+        "end": "2021-06-06 03:59:00",
         "reminder": "end"
     },
     {
         "name": "\"Overflowing Mastery\" Event",
         "type": "In-game",
-        "start": "2021-05-31",
-        "end": "2021-06-07",
+        "img": "https://i.imgur.com/9X5xQKr.png",
+        "start": "2021-05-31 04:00:00",
+        "end": "2021-06-07 03:59:00",
         "reminder": "daily"
     }
 ]
