@@ -26,10 +26,10 @@ const descriptions: { [x in FollowCategory]: string } = {
     "news_vi-vn": "Tiếng Việt forum news articles",
 
     twitter_en: "English Twitter feed",
-    twitter_es: "Español Twitter feed",
-    twitter_fr: "Français Twitter feed",
+    // twitter_es: "Español Twitter feed",
+    // twitter_fr: "Français Twitter feed",
     twitter_jp: "日本語 Twitter feed",
-    twitter_ko: "한국어 Twitter feed",
+    // twitter_ko: "한국어 Twitter feed",
 }
 
 export default class Follow extends Command {

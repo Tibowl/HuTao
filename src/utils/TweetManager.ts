@@ -14,9 +14,9 @@ export default class Tweetmanager {
     tweeters: {[x in FollowCategory]?: string} = {
         twitter_en: "1072404907230060544",
         twitter_jp: "1070960596357509121",
-        twitter_fr: "1133565935615299585",
-        twitter_ko: "1133563273914212352",
-        twitter_es: "1149150831679135745"
+        // twitter_fr: "1133565935615299585",
+        // twitter_ko: "1133563273914212352",
+        // twitter_es: "1149150831679135745"
     }
 
     init(): void {
