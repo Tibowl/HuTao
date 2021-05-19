@@ -152,9 +152,10 @@
     {
         "name": "\"Battlefront: Misty Dungeon\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/SqMzYPq.png",
+        "link": "https://www.hoyolab.com/genshin/article/377249",
+        "img": "https://upload-os-bbs.mihoyo.com/upload/2021/05/19/1015537/5381c8b8a20cc0f0a7dea1187b7ca13f_6298756376554815453.jpg",
         "start": "2021-05-21 10:00:00",
-        "end": "2021-05-31 03:59:00",
+        "end": "2021-05-31 03:59:59",
         "reminder": "end"
     },
     {
