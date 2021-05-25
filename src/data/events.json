@@ -170,7 +170,8 @@
     {
         "name": "\"Mini Tomo\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/XuEnuKg.png",
+        "link": "https://www.hoyolab.com/genshin/article/387817",
+        "img": "https://upload-os-bbs.mihoyo.com/upload/2021/05/25/1015537/4bb0f0cb43d95e5b8e5f5387d7bc3dd4_2655040330902033319.jpg",
         "start": "2021-05-27 10:00:00",
         "end": "2021-06-06 03:59:00",
         "reminder": "end"
