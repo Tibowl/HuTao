@@ -179,7 +179,8 @@
     {
         "name": "\"Overflowing Mastery\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/9X5xQKr.png",
+        "link": "https://www.hoyolab.com/genshin/article/394841",
+        "img": "https://upload-os-bbs.mihoyo.com/upload/2021/05/25/1015537/8a304c186f5a725d6ca5fad6c953ef83_3536921475780913159.jpg",
         "start": "2021-05-31 04:00:00",
         "end": "2021-06-07 03:59:00",
         "reminder": "daily"
@@ -198,5 +199,11 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/05/25/1015537/ee96b5407ce883d359b62266c0467154_3458905455498066406.png",
         "start": "2021-05-28 11:00:00",
         "timezone": "-05:00"
+    },
+    {
+        "name": "1.6 Maintenance",
+        "type": "Maintenance",
+        "start": "2021-06-09 06:00:00",
+        "end": "2021-06-09 11:00:00"
     }
 ]
