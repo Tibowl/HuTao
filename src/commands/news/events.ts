@@ -66,7 +66,7 @@ export default class Events extends Command {
                 )
                 .addField("Upcoming Events", upcoming.length == 0 ? "None" : upcoming
                     .map(e =>
-                        `${e.type == "Unlock" ? "Unlocks at" : "Starting on"} ${e.start ? e.start : "????"}${e.timezone?` (GMT${e.timezone})`:""}: ${e.link ? `[${e.name}](${e.link})` : e.name}`
+                        `${e.type == "Unlock" ? "Unlocks at" : "Starting on"} ${e.prediction ? "*(prediction)* " : ""}${e.start ? e.start : "????"}${e.timezone?` (GMT${e.timezone})`:""}: ${e.link ? `[${e.name}](${e.link})` : e.name}`
                     )
                     .join("\n"))
                 .setFooter(`Page ${page+1} / ${total}`)

@@ -79,7 +79,7 @@
         "start": "2021-04-16 20:00:00"
     },
     {
-        "name": "1.5 Special Program",
+        "name": "1.5 Special Program [EN]",
         "type": "Stream",
         "link": "https://www.hoyolab.com/genshin/article/298552",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/04/15/1015613/df1f9390716004a20bcdf3c6e6650f39_1573465847055286685.jpg",
@@ -193,7 +193,7 @@
         "start": "2021-05-28 20:00:00"
     },
     {
-        "name": "1.6 Special Program",
+        "name": "1.6 Special Program [EN]",
         "type": "Stream",
         "link": "https://www.hoyolab.com/genshin/article/389908",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/05/25/1015537/ee96b5407ce883d359b62266c0467154_3458905455498066406.png",
@@ -203,7 +203,85 @@
     {
         "name": "1.6 Maintenance",
         "type": "Maintenance",
+        "prediction": true,
         "start": "2021-06-09 06:00:00",
         "end": "2021-06-09 11:00:00"
+    },
+    {
+        "name": "Event Wish \"Sparkling Steps\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2021-06-09 11:00:00",
+        "end": "2021-06-30 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2021-06-09 11:00:00",
+        "end": "2021-06-30 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Leaves in the Wind\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2021-06-30 18:00:00",
+        "end": "2021-07-21 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2021-06-30 18:00:00",
+        "end": "2021-07-21 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Midsummer Island Adventure\" Event",
+        "type": "In-game",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Echoing Tales\" Event",
+        "type": "In-game",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Kaboomball Kombat\" Event",
+        "type": "In-game",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Never-Ending Battle\" Event",
+        "type": "In-game",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Legend of the Vagabond Sword\" Event",
+        "type": "In-game",
+        "reminder": "end"
+    },
+    {
+        "name": "Next Special Program [CN]",
+        "type": "Stream",
+        "prediction": true,
+        "start": "2021-07-09 20:00:00"
+    },
+    {
+        "name": "Next Special Program [EN]",
+        "type": "Stream",
+        "prediction": true,
+        "start": "2021-07-09 11:00:00",
+        "timezone": "-05:00"
+    },
+    {
+        "name": "Next maintenance",
+        "type": "Maintenance",
+        "prediction": true,
+        "start": "2021-07-21 06:00:00",
+        "end": "2021-07-21 11:00:00"
     }
 ]

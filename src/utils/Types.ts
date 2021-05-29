@@ -486,9 +486,10 @@ export interface AbyssSchedule {
 export interface Event {
     name:        string
     type:        EventType
+    prediction?:  boolean
     link?:       string
     img?:        string
-    start?:       string
+    start?:      string
     timezone?:   string
     reminder?:   EventReminderType
     remindtime?: string
