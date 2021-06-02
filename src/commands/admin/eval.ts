@@ -3,6 +3,7 @@ import { Message } from "discord.js"
 import Command from "../../utils/Command"
 import client from "../../main"
 import config from "../../data/config.json"
+import { sendMessage } from "../../utils/Utils"
 
 export default class Eval extends Command {
     constructor(name: string) {
@@ -15,7 +16,7 @@ export default class Eval extends Command {
     }
 
     async run(message: Message, args: string[]): Promise<Message | Message[]> {
-        if (config.admins[0] !== message.author.id) return message.reply("Admins only")
+        if (config.admins[0] !== message.author.id) return sendMessage(message, "Admins only")
 
         try {
             const result = await eval(args.join(" "))
@@ -31,11 +32,11 @@ export default class Eval extends Command {
                     ""
                 ))
         } catch (error) {
-            return message.reply(`${error.name}: ${error.message}`)
+            return sendMessage(message, `${error.name}: ${error.message}`)
         }
     }
 
     async format(message: Message, obj: unknown): Promise<Message | Message[]> {
-        return message.reply(`\`\`\`json\n${obj}\`\`\``)
+        return sendMessage(message, `\`\`\`json\n${obj}\`\`\``)
     }
 }

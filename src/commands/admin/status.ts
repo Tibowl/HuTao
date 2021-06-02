@@ -4,7 +4,7 @@ import child_process from "child_process"
 import Command from "../../utils/Command"
 import client from "../../main"
 import config from "../../data/config.json"
-import { timeLeft } from "../../utils/Utils"
+import { sendMessage, timeLeft } from "../../utils/Utils"
 
 export default class Status extends Command {
     constructor(name: string) {
@@ -18,7 +18,7 @@ export default class Status extends Command {
     }
 
     async run(message: Message, args: string[]): Promise<Message | Message[]> {
-        if (!config.admins.includes(message.author.id)) return message.reply("Admins only")
+        if (!config.admins.includes(message.author.id)) return sendMessage(message, "Admins only")
         const { data } = client
 
         const formatTime = (sec: number): string => {
@@ -44,12 +44,12 @@ export default class Status extends Command {
         }
 
         const stats = data.store.stats
-        if (stats == undefined) return message.reply("Stats are unavailable, try again later")
+        if (stats == undefined) return sendMessage(message, "Stats are unavailable, try again later")
 
         const abyss = client.data.getAbyssSchedules()
 
         const totalCommands = Object.keys(stats).map(k => Object.values(stats[k]).reduce((a, b) => a+b, 0)).reduce((a, b) => a+b, 0)
-        return message.channel.send(`Running on commit <${getVersion()}>
+        return sendMessage(message, `Running on commit <${getVersion()}>
 Memory heap usage: ${getMemoryUsage()}
 Current uptime: ${formatTime(process.uptime())}
 Cache: in ${client.channels.cache.size} channels on ${client.guilds.cache.size} servers, for a total of ${client.users.cache.size} users.

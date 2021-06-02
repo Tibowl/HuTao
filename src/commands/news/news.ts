@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { Colors, findFuzzy, getNewsEmbed, parseNewsContent, simplePaginator } from "../../utils/Utils"
+import { Colors, findFuzzy, getNewsEmbed, parseNewsContent, sendMessage, simplePaginator } from "../../utils/Utils"
 import config from "../../data/config.json"
 
 export default class News extends Command {
@@ -44,12 +44,12 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
                 .setFooter(`You can use open the links or use \`${config.prefix}news <post id>\` to view more details about a post`)
                 .setDescription(stored.join("\n"))
 
-            return message.channel.send(embed)
+            return sendMessage(message, embed)
         }
 
         const post = newsManager.getNewsById(args[0])
         if (!post)
-            return message.channel.send(`Couldn't find article in cache. Try to see if it exists on the forum: <https://www.hoyolab.com/genshin/article/${args[0]}>`)
+            return sendMessage(message, `Couldn't find article in cache. Try to see if it exists on the forum: <https://www.hoyolab.com/genshin/article/${args[0]}>`)
 
         await simplePaginator(message, (relativePage, currentPage, maxPages) => getNewsEmbed(post, relativePage, currentPage, maxPages), parseNewsContent(post.content).length)
 

@@ -459,6 +459,33 @@ function getButtons(pageInfo: Bookmarkable[], currentPage: number, maxPages: num
     return rows
 }
 
+export function getDeleteButton(): MessageActionRow {
+    const row = new MessageActionRow()
+
+    row.addComponents(
+        new MessageButton()
+            .setCustomID("delete")
+            .setLabel("Delete")
+            .setStyle("DANGER")
+            .setEmoji("✖️"),
+    )
+    return row
+}
+
+export async function sendMessage(message: Message, content: string | MessageEmbed): Promise<Message | Message[]> {
+    if (typeof content == "string")
+        return message.channel.send(content, {
+            components: [getDeleteButton()],
+            split: {
+                append: "```",
+                prepend: "```",
+                maxLength: 1900
+            }
+        })
+    else
+        return message.channel.send({ embed: content, components: [getDeleteButton()] })
+}
+
 export function addArg(args: string[], queries: string | string[], exec: () => void): void {
     if (typeof queries == "string")
         queries = [queries]

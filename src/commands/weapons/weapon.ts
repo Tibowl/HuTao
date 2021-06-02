@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { addArg, Bookmarkable, Colors, createTable, PAD_START, paginator, simplePaginator } from "../../utils/Utils"
+import { addArg, Bookmarkable, Colors, createTable, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
 import { Weapon } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -82,7 +82,7 @@ Note: this command supports fuzzy search.`,
 
         if (args.length == 0) {
             const pages = this.getWeaponsPages(weaponFilter, starFilter)
-            if (pages.length == 0) return message.channel.send("No character data loaded")
+            if (pages.length == 0) return sendMessage(message, "No character data loaded")
 
             await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getWeaponsPage(pages, relativePage, currentPage, maxPages), pages.length)
             return undefined
@@ -98,7 +98,7 @@ Note: this command supports fuzzy search.`,
 
         const weapon = data.getWeaponByName(args.join(" "))
         if (weapon == undefined)
-            return message.channel.send("Unable to find weapon")
+            return sendMessage(message, "Unable to find weapon")
 
         const hasRefinements = weapon.refinement.length > 0 && weapon.refinement[0].length > 0
 

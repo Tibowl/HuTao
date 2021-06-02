@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { Colors, simplePaginator } from "../../utils/Utils"
+import { Colors, sendMessage, simplePaginator } from "../../utils/Utils"
 import { AbyssSchedule } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -42,12 +42,12 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
 
                 abyss = schedule.filter(s => s.start.startsWith(`${year}-${month.padStart(2, "0")}-`))?.[+cycle - 1]
                 if (!abyss)
-                    return message.channel.send(`Couldn't find abyss \`${line}\``)
+                    return sendMessage(message, `Couldn't find abyss \`${line}\``)
             } else
-                return message.channel.send(`Unknown abyss argument \`${arg}\`.`)
+                return sendMessage(message, `Unknown abyss argument \`${arg}\`.`)
         }
         if (floor > 0 && floor <= abyss.regularFloors.length) {
-            return message.channel.send(this.getSpiralFloor(abyss.regularFloors[floor - 1], floor))
+            return sendMessage(message, this.getSpiralFloor(abyss.regularFloors[floor - 1], floor))
         }
 
         const defaultPage = floor > 0 ? floor - abyss.regularFloors.length : 0

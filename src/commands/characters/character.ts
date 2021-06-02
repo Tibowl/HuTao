@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { addArg, Bookmarkable, Colors, createTable, PAD_END, PAD_START, paginator, simplePaginator } from "../../utils/Utils"
+import { addArg, Bookmarkable, Colors, createTable, PAD_END, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
 import { BotEmoji, Character, Skill } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -103,7 +103,7 @@ Note: this command supports fuzzy search.`,
 
         if (args.length == 0) {
             const pages = this.getCharactersPages(elementFilter, weaponTypeFilter, starFilter)
-            if (pages.length == 0) return message.channel.send("No character data loaded")
+            if (pages.length == 0) return sendMessage(message, "No character data loaded")
 
             await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getCharacterPage(pages, relativePage, currentPage, maxPages), pages.length)
             return undefined
@@ -139,7 +139,7 @@ Note: this command supports fuzzy search.`,
 
         const char = data.getCharacterByName(args.join(" "))
         if (char == undefined)
-            return message.channel.send("Unable to find character")
+            return sendMessage(message, "Unable to find character")
 
         const charpages = this.getCharPages(char, talentMode)
 

@@ -3,12 +3,11 @@ import Discord, { TextChannel, PermissionResolvable } from "discord.js"
 import client from "../../main"
 import { CommandCategory } from "../../utils/Command"
 import config from "../../data/config.json"
+import { sendMessage } from "../../utils/Utils"
 
 const requiredPermissions: PermissionResolvable[] = [
-    "ADD_REACTIONS",
     "ATTACH_FILES",
     "EMBED_LINKS",
-    "MANAGE_MESSAGES",
     "USE_EXTERNAL_EMOJIS"
 ]
 
@@ -51,7 +50,7 @@ export default class Help extends Command {
                     }
             }
 
-            return message.channel.send(`**Commands**: 
+            return sendMessage(message, `**Commands**: 
 
 ${Object.entries(categorized)
         .filter(([category]) =>
@@ -80,12 +79,12 @@ ${Object.entries(categorized)
             command = commands.find(k => k.commandName === commandName.replace(config.prefix, "") || (k.aliases||[]).includes(commandName.replace(config.prefix, "")))
 
         if (command == null)
-            return message.reply("Command does not exist")
+            return sendMessage(message, "Command does not exist")
 
         if (command.help == false)
-            return message.channel.send(`${command.commandName}`)
+            return sendMessage(message, `${command.commandName}`)
 
-        return message.channel.send(`${command.commandName} - ${command.help}
+        return sendMessage(message, `${command.commandName} - ${command.help}
 
 Usage: \`${config.prefix}${command.usage}\`${command.aliases ? `
 Aliases: ${command.aliases.map(k => `\`${k}\``).join(", ")}` : "None"}`)

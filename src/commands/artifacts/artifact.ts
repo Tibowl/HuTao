@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { Colors, createTable,  simplePaginator } from "../../utils/Utils"
+import { Colors, createTable,  sendMessage,  simplePaginator } from "../../utils/Utils"
 import { Artifact } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -57,7 +57,7 @@ Note: this command supports fuzzy search.`,
 
         if (args.length == 0) {
             const pages = this.getArtiSetsPages()
-            if (pages.length == 0) return message.channel.send("No artifact data loaded")
+            if (pages.length == 0) return sendMessage(message, "No artifact data loaded")
 
             await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getArtiSets(pages, relativePage, currentPage, maxPages), pages.length)
             return undefined
@@ -65,7 +65,7 @@ Note: this command supports fuzzy search.`,
 
         const arti = data.getArtifactByName(args.join(" "))
         if (arti == undefined)
-            return message.channel.send("Unable to find artifact")
+            return sendMessage(message, "Unable to find artifact")
 
         await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getArti(arti, relativePage, currentPage, maxPages), 1 + arti.artis.length)
         return undefined

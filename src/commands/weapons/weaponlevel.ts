@@ -3,6 +3,7 @@ import { Message } from "discord.js"
 import Command from "../../utils/Command"
 import client from "../../main"
 import config from "../../data/config.json"
+import { sendMessage } from "../../utils/Utils"
 
 export default class WeaponLevelCommand extends Command {
     constructor(name: string) {
@@ -51,12 +52,12 @@ If no target level provided, assuming max for current ascension. If no current l
             const nextAscension = ascensions.sort((a, b) => a.level - b.level).find(a => currentLevel < a.maxLevel)?.maxLevel
 
             if (nextAscension == undefined || nextAscension == maxLevel)
-                return message.channel.send(this.getWeaponLevelStuff(stars, currentLevel, currentExperience, maxLevel))
+                return sendMessage(message, this.getWeaponLevelStuff(stars, currentLevel, currentExperience, maxLevel))
             else
-                return message.channel.send(this.getWeaponLevelStuff(stars, currentLevel, currentExperience, nextAscension) + "\n\n" + this.getWeaponLevelStuff(stars, currentLevel, currentExperience, maxLevel))
+                return sendMessage(message, this.getWeaponLevelStuff(stars, currentLevel, currentExperience, nextAscension) + "\n\n" + this.getWeaponLevelStuff(stars, currentLevel, currentExperience, maxLevel))
         }
 
-        return message.channel.send(this.getWeaponLevelStuff(stars, currentLevel, currentExperience, targetLevel))
+        return sendMessage(message, this.getWeaponLevelStuff(stars, currentLevel, currentExperience, targetLevel))
     }
 
 

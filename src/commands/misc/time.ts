@@ -1,7 +1,7 @@
 import { Message } from "discord.js"
 
 import Command from "../../utils/Command"
-import { getServerTimeInfo, timeLeft } from "../../utils/Utils"
+import { getServerTimeInfo, sendMessage, timeLeft } from "../../utils/Utils"
 
 export default class Time extends Command {
     constructor(name: string) {
@@ -15,7 +15,7 @@ export default class Time extends Command {
     }
 
     async run(message: Message): Promise<Message | Message[]> {
-        return message.channel.send(`**Current server times:**
+        return sendMessage(message, `**Current server times:**
 
 ${getServerTimeInfo().map(({ offset, server, time, nextDailyReset, nextWeeklyReset }) => `**${server}** (UTC${offset}): *${time.toLocaleString("en-UK", {
         timeZone: "UTC",

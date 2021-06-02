@@ -1,5 +1,6 @@
 import Discord, { Message } from "discord.js"
 import config from "../data/config.json"
+import { sendMessage } from "./Utils"
 
 export type CommandCategory = "Character" | "Weapons" | "Artifact" | "News" | "Misc" | "Meta" | "Admin" | "Hidden"
 export interface CommandOptions {
@@ -27,8 +28,8 @@ export default abstract class Command {
 
     abstract run(message: Discord.Message, args: string[], command: string): Promise<Discord.Message | Discord.Message[] | undefined> | undefined
 
-    async sendHelp(message: Discord.Message): Promise<Message> {
-        return message.reply(`Usage: \`${this.usage}\`
+    async sendHelp(message: Discord.Message): Promise<Message | Message[]> {
+        return sendMessage(message, `Usage: \`${this.usage}\`
 See \`${config.prefix}help ${this.commandName}\` for more info`)
     }
 }

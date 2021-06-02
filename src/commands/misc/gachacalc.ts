@@ -3,7 +3,7 @@ import memoize from "memoizee"
 
 import Command from "../../utils/Command"
 import config from "../../data/config.json"
-import { createTable } from "../../utils/Utils"
+import { createTable, sendMessage } from "../../utils/Utils"
 import log4js from "log4js"
 
 const Logger = log4js.getLogger("GachaCalc")
@@ -91,19 +91,19 @@ Example with 70 pulls, 10 pity and guaranteed: \`${config.prefix}gachacalc 70 10
 
         const pulls = parseInt(args[0] ?? "75")
         if (isNaN(pulls) || pulls <= 0 || pulls > 9999)
-            return message.channel.send("Invalid pulls amount, should be a number greater than 1")
+            return sendMessage(message, "Invalid pulls amount, should be a number greater than 1")
 
         const pity = parseInt(args[1] ?? "0")
         if (isNaN(pity) || pity < 0 || pity >= 90) // TODO check banner
-            return message.channel.send("Invalid pity amount, should be a number between 0 (inclusive) and 90 (exclusive)")
+            return sendMessage(message, "Invalid pity amount, should be a number between 0 (inclusive) and 90 (exclusive)")
 
         let guaranteed = false
-        if (args[2]?.match(/y(es)|t(rue)|g(uaranteed)/))
+        if (args[2]?.match(/y(es)?|t(rue)?|g(uaranteed)?/))
             guaranteed = true
-        else if (args[2]?.match(/no?|f(alse)|50\/50|75\/25/))
+        else if (args[2]?.match(/no?|f(alse)?|50\/50|75\/25/))
             guaranteed = false
         else if (args[2])
-            return message.channel.send("Invalid 50/50, should be y(es)/g(uaranteed) or n(o)/50/50")
+            return sendMessage(message, "Invalid 50/50, should be y(es)/g(uaranteed) or n(o)/50/50")
 
         const banner = gachas[gacha]
 
@@ -112,7 +112,7 @@ Example with 70 pulls, 10 pity and guaranteed: \`${config.prefix}gachacalc 70 10
         const time = Date.now() - start
         Logger.info(`Calculation done in ${time}ms`)
 
-        return message.channel.send(`**${banner.bannerName}** in **${pulls}** pulls, starting from **${pity}** pity and **${guaranteed ? "guaranteed" : `${banner.banner * 100}/${(1 - banner.banner) * 100}`}** banner:
+        return sendMessage(message, `**${banner.bannerName}** in **${pulls}** pulls, starting from **${pity}** pity and **${guaranteed ? "guaranteed" : `${banner.banner * 100}/${(1 - banner.banner) * 100}`}** banner:
 \`\`\`
 ${createTable(
         [banner.constName, "Rate"],

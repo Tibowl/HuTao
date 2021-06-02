@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 import client from "../../main"
 
 import Command from "../../utils/Command"
-import { simplePaginator, timeLeft } from "../../utils/Utils"
+import { sendMessage, simplePaginator, timeLeft } from "../../utils/Utils"
 import { Reminder } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -20,10 +20,10 @@ export default class Reminders extends Command {
     async run(message: Message): Promise<Message | Message[] | undefined> {
         const { reminderManager } = client
         const reminders = reminderManager.getReminders(message.author.id)
-        if (reminders.length == 0) return message.channel.send(`You don't have any reminders saved, see \`${config.prefix}help reminderadd\` on how to add a reminder`)
+        if (reminders.length == 0) return sendMessage(message, `You don't have any reminders saved, see \`${config.prefix}help reminderadd\` on how to add a reminder`)
 
         const maxPages = Math.ceil(reminders.length / 10)
-        if (reminders.length <= 10) return message.channel.send(this.getReminders(reminders, 0, 1, 1))
+        if (reminders.length <= 10) return sendMessage(message, this.getReminders(reminders, 0, 1, 1))
 
         await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getReminders(reminders, relativePage, currentPage, maxPages), maxPages)
         return undefined

@@ -50,36 +50,42 @@ async function handleCommand(message: Message, cmdInfo: ParsedCommand): Promise<
         if (!msg || message.channel.type !== "text") return true
         const reply = await msg
         if (!reply) return true
-        if (!(reply instanceof Message)) return true
 
-        try {
-            await reply.react("❌")
-            reply.awaitReactions(
-                (reaction, user) => reaction.emoji.name == "❌" && (user.id == message.author.id || config.admins.includes(user.id)),
-                { max: 1, time: 60000, errors: ["time", "messageDelete", "channelDelete", "guildDelete"] }
-            ).then(async (collected) => {
-                client.recentMessages = client.recentMessages.filter(k => k != reply)
-                if (collected && collected.size > 0 && reply.deletable) {
-                    await reply.delete()
-                }
-            }).catch(async () => {
-                client.recentMessages = client.recentMessages.filter(k => k != reply)
-
-                const user = client.user
-                if (user == undefined || reply.deleted) return
-                await Promise.allSettled(reply?.reactions?.cache.map((reaction) => client.user && reaction.users.cache.has(client.user.id) && reaction.emoji.name == "❌" ? reaction.users.remove(user) : undefined).filter(f => f))
-            })
-            client.recentMessages.push(reply)
-        } catch (error) {
-            if (reply.editable)
-                await reply.edit(reply.content + "\n\nUnable to add ❌ reaction, please contact admins of this discord guild to give this bot permission to add reactions. Doing so, will allow users to delete bot replies within some time.")
-            else
-                Logger.error(error)
+        if (!(reply instanceof Message)) {
+            for (const r of reply)
+                handleResponse(message, r)
+            return true
         }
+
+        handleResponse(message, reply)
     } catch (error) {
         Logger.error(error)
     }
     return true
+}
+
+function handleResponse(message: Message, reply: Message) {
+    try {
+        reply.awaitMessageComponentInteractions(
+            (interaction) => (interaction.user.id == message.author.id || config.admins.includes(interaction.user.id)),
+            { max: 1, time: 60000, errors: ["time", "messageDelete", "channelDelete", "guildDelete"] }
+        ).then(async (collected) => {
+            const first = collected.first()
+            if (first && reply.deletable && first.customID == "delete") {
+                await reply.delete()
+                client.recentMessages = client.recentMessages.filter(k => k != reply)
+            }
+        }).catch(async () => {
+            client.recentMessages = client.recentMessages.filter(k => k != reply)
+
+            const user = client.user
+            if (user == undefined || reply.deleted) return
+            await reply.edit({ components: [] })
+        })
+        client.recentMessages.push(reply)
+    } catch (error) {
+        Logger.error(error)
+    }
 }
 
 export async function handle(message: Message): Promise<void> {
