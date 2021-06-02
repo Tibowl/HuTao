@@ -1,4 +1,4 @@
-import { MessageEmbed, StringResolvable } from "discord.js"
+import { MessageEmbed } from "discord.js"
 import log4js from "log4js"
 import Twit from "twit"
 
@@ -88,7 +88,7 @@ export default class Tweetmanager {
         await this.send(tweeter, `<${tweetLink}>`, embed)
     }
 
-    async send(tweeter: string, content?: StringResolvable, embed?: MessageEmbed): Promise<void> {
+    async send(tweeter: string, content?: string, embed?: MessageEmbed): Promise<void> {
         const category = Object.entries(this.tweeters).find(([_k, v]) => v == tweeter)?.[0] as FollowCategory | undefined
 
         if (!category) {

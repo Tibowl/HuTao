@@ -1,6 +1,6 @@
 import log4js from "log4js"
 import SQLite from "better-sqlite3"
-import { Channel, User, Guild, Message, MessageEmbed, MessageAttachment, Snowflake, StringResolvable } from "discord.js"
+import { Channel, User, Guild, Message, MessageEmbed, MessageAttachment, Snowflake } from "discord.js"
 import { ensureDirSync } from "fs-extra"
 
 import { FollowCategory, Follower } from "./Types"
@@ -109,12 +109,12 @@ export default class FollowManager {
         })
     }
 
-    async send(category: FollowCategory, content?: StringResolvable, embed?: MessageEmbed | MessageAttachment): Promise<(Message | Message[])[]> {
+    async send(category: FollowCategory, content?: string, embed?: MessageEmbed | MessageAttachment): Promise<(Message | Message[])[]> {
         let channels = this.getFollowers(category).map(k => k.channelID)
         channels = channels.filter((val, ind) => channels.indexOf(val) === ind)
 
         Logger.info(`Sending ${category} to ${channels.length} channels: ${content}`)
-        const messages = (await sendToChannels(channels, content, embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
+        const messages = (await sendToChannels(channels, content ?? "", embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
 
         for (const message of messages)
             if (message instanceof Message && message.channel.type === "news")

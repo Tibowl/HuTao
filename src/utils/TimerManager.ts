@@ -196,7 +196,7 @@ export default class TimerManager {
     queueTimer(embed: MessageEmbed, targetTime: Date): void {
         const { followManager } = client
         setTimeout(() => {
-            followManager.send("events", embed).catch(Logger.error)
+            followManager.send("events", "", embed).catch(Logger.error)
         }, targetTime.getTime() - Date.now() + 500)
     }
 }

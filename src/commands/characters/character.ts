@@ -304,7 +304,7 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
                 .setDescription(skill.desc)
 
             if (skill.charges > 1)
-                embed.addField("Charges", skill.charges)
+                embed.addField("Charges", skill.charges.toString())
 
             let hasLevels = false
             for (const { name, values } of skill.talentTable) {

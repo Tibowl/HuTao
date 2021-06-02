@@ -1,4 +1,4 @@
-import {  Message, TextChannel, MessageEmbed, MessageAttachment, Snowflake, StringResolvable, MessageActionRow, MessageButton } from "discord.js"
+import {  Message, TextChannel, MessageEmbed, MessageAttachment, Snowflake, MessageActionRow, MessageButton } from "discord.js"
 
 import client from "./../main"
 import config from "./../data/config.json"
@@ -15,7 +15,7 @@ const Logger = log4js.getLogger("Utils")
  * @param embed Possible embed/attachment to send
  * @returns All the messages send
  */
-export async function sendToChannels(channels: Snowflake[] | undefined, content?: StringResolvable, embed?: MessageEmbed | MessageAttachment): Promise<PromiseSettledResult<Message | Message[]>[]> {
+export async function sendToChannels(channels: Snowflake[] | undefined, content: string, embed?: MessageEmbed | MessageAttachment): Promise<PromiseSettledResult<Message | Message[]>[]> {
     const messages = []
     if (!channels) return Promise.all([])
 
@@ -43,7 +43,7 @@ export async function sendToChannels(channels: Snowflake[] | undefined, content?
  * @param embed Possible embed/attachment to send
  * @returns List of messages
  */
-export async function sendError(content: StringResolvable, embed?: MessageEmbed | MessageAttachment): Promise<Message[]> {
+export async function sendError(content: string, embed?: MessageEmbed | MessageAttachment): Promise<Message[]> {
     Logger.error(content)
     return (await sendToChannels(config.errorLog as Snowflake[], content, embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
 }
@@ -57,7 +57,7 @@ export const PAD_END = 1
  * @param pads Padding information
  * @returns Table
  */
-export function createTable(names: NameTable | undefined, rows: StringResolvable[], pads: Padding[] = [PAD_END]): string {
+export function createTable(names: NameTable | undefined, rows: (string | number)[][], pads: Padding[] = [PAD_END]): string {
     const maxColumns = Math.max(...rows.map(row => row.length))
     let title = "", currentInd = 0
 

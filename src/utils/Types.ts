@@ -237,6 +237,7 @@ interface Entities {
 }
 
 interface User {
+    name: string
     screen_name: string
     id_str: string
     profile_image_url_https: string
