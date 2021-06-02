@@ -31,7 +31,10 @@ export default class Shutdown extends Command {
             toRemove = client.recentMessages
                 .map(async (reply) => {
                     try {
-                        return reply.reactions.removeAll()
+                        if (reply.components.length > 0)
+                            return reply.edit(reply.content, { components: [] })
+                        else
+                            return reply.reactions.removeAll()
                     } catch (error) {
                         return reply?.reactions?.cache.map((reaction) => client.user && reaction.users.cache.has(client.user.id) ? reaction.users.remove(user) : undefined).filter(k => k)
                     }

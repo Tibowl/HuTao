@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { Colors, getDate, getEventEmbed, paginator } from "../../utils/Utils"
+import { Colors, getDate, getEventEmbed, simplePaginator } from "../../utils/Utils"
 import { Event } from "../../utils/Types"
 
 export default class Events extends Command {
@@ -42,19 +42,15 @@ export default class Events extends Command {
                 return getDate(a.start, a.timezone).getTime() - getDate(b.start, b.timezone).getTime()
             })
 
-        const embed = this.getEvent(ongoing, upcoming, ongoing.length)
-        if (!embed) return message.channel.send("No event data loaded")
+        const total = ongoing.length + upcoming.length + 1
 
-        const reply = await message.channel.send(embed)
-        await paginator(message, reply, (page) => this.getEvent(ongoing, upcoming, page), undefined, ongoing.length)
+        await simplePaginator(message,  (relativePage, currentPage, maxPages) => this.getEvent(ongoing, upcoming, relativePage, currentPage, maxPages), total, ongoing.length)
         return undefined
     }
 
-    getEvent(ongoing: Event[], upcoming: Event[], page: number): MessageEmbed | undefined {
-        const currentPage = page - ongoing.length
-        const total = ongoing.length + upcoming.length + 1
-
-        if (currentPage == 0) {
+    getEvent(ongoing: Event[], upcoming: Event[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const page = relativePage - ongoing.length
+        if (page == 0) {
             return new MessageEmbed()
                 .setTitle("Events")
                 .addField("Current Events",
@@ -69,26 +65,26 @@ export default class Events extends Command {
                         `${e.type == "Unlock" ? "Unlocks at" : "Starting on"} ${e.prediction ? "*(prediction)* " : ""}${e.start ? e.start : "????"}${e.timezone?` (GMT${e.timezone})`:""}: ${e.link ? `[${e.name}](${e.link})` : e.name}`
                     )
                     .join("\n"))
-                .setFooter(`Page ${page+1} / ${total}`)
+                .setFooter(`Page ${currentPage} / ${maxPages}`)
                 .setColor(Colors.DARK_GREEN)
-        } else if (currentPage > 0) {
-            const event = upcoming[Math.abs(currentPage) - 1]
+        } else if (page > 0) {
+            const event = upcoming[Math.abs(page) - 1]
             if (event == undefined) return undefined
 
             const embed = getEventEmbed(event)
-                .setFooter(`Page ${page+1} / ${total}`)
+                .setFooter(`Page ${currentPage} / ${maxPages}`)
                 .setColor("#F4231F")
 
             if (event.start)
                 embed.setTimestamp(getDate(event.start, event.timezone))
 
             return embed
-        } else if (currentPage < 0) {
-            const event = ongoing[Math.abs(currentPage) - 1]
+        } else if (page < 0) {
+            const event = ongoing[Math.abs(page) - 1]
             if (event == undefined) return undefined
 
             const embed = getEventEmbed(event)
-                .setFooter(`Page ${page+1} / ${total}`)
+                .setFooter(`Page ${currentPage} / ${maxPages}`)
                 .setColor("#F49C1F")
 
             if (event.end)

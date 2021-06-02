@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { Colors, createTable, paginator } from "../../utils/Utils"
+import { Colors, createTable,  simplePaginator } from "../../utils/Utils"
 import { Artifact } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -19,7 +19,7 @@ Note: this command supports fuzzy search.`,
         })
     }
 
-    getArtiSets(page: number): MessageEmbed | undefined {
+    getArtiSetsPages(): string[] {
         const { data } = client
         const arti = Object.entries(data.artifacts)
             .sort(([an, a],  [bn, b]) => Math.max(...b.levels) - Math.max(...a.levels) || Math.min(...a.levels) - Math.min(...b.levels) || an.localeCompare(bn))
@@ -36,14 +36,17 @@ Note: this command supports fuzzy search.`,
                 paging += "\n" + art
         }
         if (paging.trim().length > 0) pages.push(paging)
+        return pages
+    }
 
-        if (page >= pages.length)
+    getArtiSets(pages: string[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        if (relativePage >= pages.length)
             return undefined
 
         const embed = new MessageEmbed()
             .setTitle("Artifact Sets")
-            .setDescription(pages[page])
-            .setFooter(`Page ${page + 1} / ${pages.length} - See '${config.prefix}help artifact' for more info about what you can do`)
+            .setDescription(pages[relativePage])
+            .setFooter(`Page ${currentPage} / ${maxPages} - See '${config.prefix}help artifact' for more info about what you can do`)
             .setColor(Colors.GREEN)
 
         return embed
@@ -53,11 +56,10 @@ Note: this command supports fuzzy search.`,
         const { data } = client
 
         if (args.length == 0) {
-            const embed = this.getArtiSets(0)
-            if (!embed) return message.channel.send("No artifact data loaded")
+            const pages = this.getArtiSetsPages()
+            if (pages.length == 0) return message.channel.send("No artifact data loaded")
 
-            const reply = await message.channel.send(embed)
-            await paginator(message, reply, (page) => this.getArtiSets(page))
+            await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getArtiSets(pages, relativePage, currentPage, maxPages), pages.length)
             return undefined
         }
 
@@ -65,22 +67,18 @@ Note: this command supports fuzzy search.`,
         if (arti == undefined)
             return message.channel.send("Unable to find artifact")
 
-        const embed = this.getArti(arti, 0)
-        if (!embed) return message.channel.send("No artifact data loaded")
-
-        const reply = await message.channel.send(embed)
-        await paginator(message, reply, (page) => this.getArti(arti, page))
+        await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getArti(arti, relativePage, currentPage, maxPages), 1 + arti.artis.length)
         return undefined
     }
 
-    getArti(set: Artifact, page: number): MessageEmbed | undefined {
+    getArti(set: Artifact, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
         const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
             .setThumbnail(set.icon)
-            .setFooter(`Page ${page + 1} / ${1 + set.artis.length}`)
+            .setFooter(`Page ${currentPage} / ${maxPages}`)
 
-        if (page == 0) {
+        if (relativePage == 0) {
             for (const bonus of set.bonuses)
                 embed.addField(`${bonus.count}-Set Bonus`, bonus.desc)
 
@@ -91,8 +89,8 @@ Note: this command supports fuzzy search.`,
             return embed
         }
 
-        if (page <= set.artis.length) {
-            const arti = set.artis[page - 1]
+        if (relativePage <= set.artis.length) {
+            const arti = set.artis[relativePage - 1]
             const mainStats = data.artifactMainStats[arti.type]
             const total = mainStats.map(m => m.weight).reduce((a, b) => a+b, 0)
 

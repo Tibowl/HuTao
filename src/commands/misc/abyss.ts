@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { Colors, paginator } from "../../utils/Utils"
+import { Colors, simplePaginator } from "../../utils/Utils"
 import { AbyssSchedule } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -52,22 +52,17 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
 
         const defaultPage = floor > 0 ? floor - abyss.regularFloors.length : 0
 
-        const embed = this.getSpiralAbyss(abyss, defaultPage)
-        if (!embed) return message.channel.send("No abyss data loaded")
-
-        const reply = await message.channel.send(embed)
-        await paginator(message, reply, (page) => this.getSpiralAbyss(abyss, page), undefined, defaultPage)
+        await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getSpiralAbyss(abyss, relativePage, currentPage, maxPages), 1 + abyss.spiralAbyssFloors.length, defaultPage)
         return undefined
     }
 
-    getSpiralAbyss(abyss: AbyssSchedule, page: number): MessageEmbed | undefined {
-        const footer = `Page ${page + 1} / ${1 + abyss.spiralAbyssFloors.length}`
+    getSpiralAbyss(abyss: AbyssSchedule, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const footer = `Page ${currentPage} / ${maxPages}`
         const embed = new MessageEmbed()
             .setColor(Colors.PURPLE)
             .setFooter(footer)
 
-        let currentPage = 0
-        if (page == currentPage++) {
+        if (relativePage == 0) {
             embed.setTitle(`Spiral Abyss: ${abyss.buff}`)
                 .setDescription(abyss.buffDesc)
                 .addField("Starts", abyss.start, true)
@@ -75,9 +70,9 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
             return embed
         }
 
-        const floor = abyss.spiralAbyssFloors[page - 1]
+        const floor = abyss.spiralAbyssFloors[relativePage - 1]
         if (floor)
-            return this.getSpiralFloor(floor, abyss.regularFloors.length + page)
+            return this.getSpiralFloor(floor, abyss.regularFloors.length + relativePage)
                 .setFooter(footer)
 
         return undefined

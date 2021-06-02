@@ -1,6 +1,6 @@
 import log4js from "log4js"
 import SQLite from "better-sqlite3"
-import { Channel, User, Guild, Message, MessageEmbed, MessageAttachment, StringResolvable } from "discord.js"
+import { Channel, User, Guild, Message, MessageEmbed, MessageAttachment, Snowflake, StringResolvable } from "discord.js"
 import { ensureDirSync } from "fs-extra"
 
 import { FollowCategory, Follower } from "./Types"
@@ -62,7 +62,7 @@ export default class FollowManager {
     }
 
     private getFollowersStatement: SQLite.Statement
-    getFollowers(category: string): { channelID: string }[] {
+    getFollowers(category: string): { channelID: Snowflake }[] {
         return this.getFollowersStatement.all({
             category
         })
@@ -87,7 +87,7 @@ export default class FollowManager {
     }
 
     private dropChannelStatement: SQLite.Statement
-    dropChannel(channelID: string): void {
+    dropChannel(channelID: Snowflake): void {
         Logger.info(`Removing channel ${channelID}`)
         this.dropChannelStatement.run({
             channelID
@@ -95,7 +95,7 @@ export default class FollowManager {
     }
 
     private dropGuildStatement: SQLite.Statement
-    dropGuild(guildID: string): void {
+    dropGuild(guildID: Snowflake): void {
         Logger.info(`Removing guild ${guildID}`)
         this.dropGuildStatement.run({
             guildID
@@ -103,7 +103,7 @@ export default class FollowManager {
     }
 
     private followingStatement: SQLite.Statement
-    following(guild: Guild): { category: FollowCategory, channelID: string }[] {
+    following(guild: Guild): { category: FollowCategory, channelID: Snowflake }[] {
         return this.followingStatement.all({
             guildID: guild.id
         })

@@ -1,9 +1,8 @@
 import Command from "../../utils/Command"
-import Discord, { TextChannel } from "discord.js"
+import Discord, { TextChannel, PermissionResolvable } from "discord.js"
 import client from "../../main"
 import { CommandCategory } from "../../utils/Command"
 import config from "../../data/config.json"
-import { PermissionResolvable } from "discord.js"
 
 const requiredPermissions: PermissionResolvable[] = [
     "ADD_REACTIONS",

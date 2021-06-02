@@ -52,7 +52,7 @@ Example of adding news: \`${config.prefix}follow add news\``,
         if (!(message.channel instanceof TextChannel) || message.guild == null)
             return message.reply("This command can only be executed in guild channels. You can invite this bot in your own server via `.invite`")
 
-        if (!message.member?.hasPermission("ADMINISTRATOR") && !config.admins.includes(message.author.id))
+        if (!message.member?.permissions.has("ADMINISTRATOR") && !config.admins.includes(message.author.id))
             return message.reply("You do not have administrator rights in this server, and thus can't edit follows. If you still want to use this feature, add this bot in your own server via `.invite`")
 
         const { followManager } = client

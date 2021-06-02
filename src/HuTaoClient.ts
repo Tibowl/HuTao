@@ -40,7 +40,7 @@ export default class HuTaoClient extends Discord.Client {
 
     constructor() {
         super({
-            ws: { intents }
+            intents
         })
     }
 

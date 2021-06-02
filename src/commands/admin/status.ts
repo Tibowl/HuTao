@@ -1,4 +1,4 @@
-import { Message } from "discord.js"
+import { Message, Snowflake } from "discord.js"
 import child_process from "child_process"
 
 import Command from "../../utils/Command"
@@ -39,7 +39,7 @@ export default class Status extends Command {
             return `${mem(heapUsed)}/${mem(heapTotal)}`
         }
         const getAdmins = async (): Promise<string> => {
-            const users = config.admins.map(async id => client.users.fetch(id))
+            const users = config.admins.map(async (id) => client.users.fetch(id as Snowflake))
             return (await Promise.all(users)).map(user => user.tag).join(", ")
         }
 
