@@ -333,12 +333,11 @@ function paginatorLoop(message: Message, reply: Message, pageInfo: Bookmarkable[
         }
 
         paginatorLoop(message, reply, pageInfo, currentPage)
-    }).catch(async (e) => {
-        Logger.error(e)
+    }).catch(async () => {
         client.recentMessages = client.recentMessages.filter(k => k != reply)
         const user = client.user
         if (user == undefined || reply.deleted) return
-        await reply.edit("", { components: [] })
+        await reply.edit({ components: [] })
     })
 }
 
@@ -357,7 +356,7 @@ async function updatePage(interaction: MessageComponentInteraction, oldPage: num
     const embed = getPageEmbed(newPage, maxPages, pageInfo)
     if (!embed) return oldPage
 
-    await interaction.update("", { embeds: [embed], components: getButtons(pageInfo, newPage, maxPages) })
+    await interaction.update({ embeds: [embed], components: getButtons(pageInfo, newPage, maxPages) })
     return newPage
 }
 
