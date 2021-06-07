@@ -203,31 +203,33 @@
     {
         "name": "1.6 Maintenance",
         "type": "Maintenance",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/genshin/article/415463",
         "start": "2021-06-09 06:00:00",
         "end": "2021-06-09 11:00:00"
     },
     {
         "name": "Event Wish \"Sparkling Steps\"",
         "type": "Banner",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/genshin/article/415711",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/07/1015537/bf8645444de96287d9d66a813d9f0aa4_2451975548209649534.png",
         "start": "2021-06-09 11:00:00",
-        "end": "2021-06-30 17:59:00",
+        "end": "2021-06-29 17:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/genshin/article/415712",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/07/1015537/26a86231e87f5d39a87306a77487b387_5687829416457810134.png",
         "start": "2021-06-09 11:00:00",
-        "end": "2021-06-30 17:59:00",
+        "end": "2021-06-29 17:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Leaves in the Wind\"",
         "type": "Banner",
         "prediction": true,
-        "start": "2021-06-30 18:00:00",
+        "start": "2021-06-29 18:00:00",
         "end": "2021-07-21 14:59:00",
         "reminder": "end"
     },
@@ -235,18 +237,26 @@
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
         "prediction": true,
-        "start": "2021-06-30 18:00:00",
+        "start": "2021-06-29 18:00:00",
         "end": "2021-07-21 14:59:00",
         "reminder": "end"
     },
     {
         "name": "\"Midsummer Island Adventure\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/genshin/article/415687",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/07/1015537/271b4d0b0e2f3c848bccd1c4625fa6ca_1951559009485518734.png",
+        "start": "2021-06-09 11:00:00",
+        "end": "2021-06-28 03:59:59",
         "reminder": "end"
     },
     {
         "name": "\"Echoing Tales\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/genshin/article/415684",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/07/1015537/528eba2c062fec3768f66e3a24f2f23b_1431588138158128250.png",
+        "start": "2021-06-09 11:00:00",
+        "end": "2021-07-21 05:59:59",
         "reminder": "end"
     },
     {
