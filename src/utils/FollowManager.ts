@@ -114,7 +114,7 @@ export default class FollowManager {
         channels = channels.filter((val, ind) => channels.indexOf(val) === ind)
 
         Logger.info(`Sending ${category} to ${channels.length} channels: ${content}`)
-        const messages = (await sendToChannels(channels, content ?? "", embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
+        const messages = (await sendToChannels(channels, content, embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
 
         for (const message of messages)
             if (message instanceof Message && message.channel.type === "news")

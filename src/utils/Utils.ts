@@ -15,7 +15,7 @@ const Logger = log4js.getLogger("Utils")
  * @param embed Possible embed/attachment to send
  * @returns All the messages send
  */
-export async function sendToChannels(channels: Snowflake[] | undefined, content: string, embed?: MessageEmbed | MessageAttachment): Promise<PromiseSettledResult<Message | Message[]>[]> {
+export async function sendToChannels(channels: Snowflake[] | undefined, content?: string, embed?: MessageEmbed | MessageAttachment): Promise<PromiseSettledResult<Message | Message[]>[]> {
     const messages = []
     if (!channels) return Promise.all([])
 
@@ -25,9 +25,11 @@ export async function sendToChannels(channels: Snowflake[] | undefined, content:
             if (!(chanObj && chanObj instanceof TextChannel))
                 continue
 
-            if (embed)
+            if (embed && content && content.length > 0)
                 messages.push(chanObj.send(content, embed))
-            else
+            else if (embed)
+                messages.push(chanObj.send(embed))
+            else if (content)
                 messages.push(chanObj.send(content))
         } catch (error) {
             Logger.error(`Failed to fetch ${channel}`)
