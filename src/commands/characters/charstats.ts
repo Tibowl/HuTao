@@ -2,7 +2,7 @@ import { Message } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { createTable,  PAD_START } from "../../utils/Utils"
+import { createTable,  PAD_START, sendMessage } from "../../utils/Utils"
 import { Character } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -41,9 +41,9 @@ Note: this command supports fuzzy search.`,
 
         const char = data.getCharacterByName(args.join(" "))
         if (char == undefined)
-            return message.channel.send("Unable to find character")
+            return sendMessage(message, "Unable to find character")
 
-        return message.channel.send(this.getCharStats(char, level, ascension))
+        return sendMessage(message, this.getCharStats(char, level, ascension))
     }
 
 

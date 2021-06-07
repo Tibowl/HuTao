@@ -1,3 +1,5 @@
+import { Snowflake } from "discord.js"
+
 // Stored information
 export interface Store {
     stats?: Stats
@@ -30,7 +32,7 @@ export interface Follower {
 export interface Reminder {
     id: number
     subject: string
-    user: string
+    user: Snowflake
     timestamp: number
     duration: number
 }
@@ -235,6 +237,7 @@ interface Entities {
 }
 
 interface User {
+    name: string
     screen_name: string
     id_str: string
     profile_image_url_https: string

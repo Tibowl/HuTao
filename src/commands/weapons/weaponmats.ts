@@ -2,6 +2,7 @@ import { Message } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
+import { sendMessage } from "../../utils/Utils"
 
 export default class WeaponMats extends Command {
     constructor(name: string) {
@@ -23,7 +24,7 @@ export default class WeaponMats extends Command {
             "Wednesday & Saturday": ["Chains of the Dandelion Gladiator", "Piece of Aerosiderite"],
         }
 
-        return message.channel.send(`**Weapon Ascension Materials**:
+        return sendMessage(message, `**Weapon Ascension Materials**:
 ${Object.entries(mats).map(([day, mats]) => `**${day}**: ${mats.map(mat => data.emoji(mat, true)).join(" / ")}`).join("\n")}
 **Sunday**: All materials are available`)
     }

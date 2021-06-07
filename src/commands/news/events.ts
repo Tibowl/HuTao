@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { Colors, getDate, getEventEmbed, paginator } from "../../utils/Utils"
+import { Bookmarkable, Colors, getDate, getEventEmbed, paginator } from "../../utils/Utils"
 import { Event } from "../../utils/Types"
 
 export default class Events extends Command {
@@ -42,60 +42,114 @@ export default class Events extends Command {
                 return getDate(a.start, a.timezone).getTime() - getDate(b.start, b.timezone).getTime()
             })
 
-        const embed = this.getEvent(ongoing, upcoming, ongoing.length)
-        if (!embed) return message.channel.send("No event data loaded")
+        const summaryPages = this.getSummaryPages(ongoing, upcoming)
+        const pages: Bookmarkable[] = [{
+            bookmarkEmoji: "",
+            bookmarkName: "Ongoing",
+            invisible: true,
+            maxPages: ongoing.length,
+            pages: (rp, cp, mp) => this.getOngoingEvent(ongoing, rp, cp, mp)
+        }, {
+            bookmarkEmoji: "",
+            bookmarkName: "Summary",
+            invisible: true,
+            maxPages: summaryPages.length,
+            pages: (rp, cp, mp) => this.getSummary(summaryPages, rp, cp, mp)
+        }, {
+            bookmarkEmoji: "",
+            bookmarkName: "Upcoming",
+            invisible: true,
+            maxPages: upcoming.length,
+            pages: (rp, cp, mp) => this.getUpcomingEvent(upcoming, rp, cp, mp)
+        }]
 
-        const reply = await message.channel.send(embed)
-        await paginator(message, reply, (page) => this.getEvent(ongoing, upcoming, page), undefined, ongoing.length)
+        await paginator(message,  pages, "Summary")
         return undefined
     }
 
-    getEvent(ongoing: Event[], upcoming: Event[], page: number): MessageEmbed | undefined {
-        const currentPage = page - ongoing.length
-        const total = ongoing.length + upcoming.length + 1
+    getOngoingEvent(ongoing: Event[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const event = ongoing[ongoing.length - relativePage - 1]
+        if (event == undefined) return undefined
 
-        if (currentPage == 0) {
-            return new MessageEmbed()
-                .setTitle("Events")
-                .addField("Current Events",
-                          ongoing.length == 0 ? "None" : ongoing
-                              .map(e =>
-                                  `${e.end ? `Ending on ${e.end}${e.timezone?` (GMT${e.timezone})`:""}` : "Ongoing"}: ${e.link ? `[${e.name}](${e.link}) ` : e.name}`
-                              )
-                              .join("\n")
-                )
-                .addField("Upcoming Events", upcoming.length == 0 ? "None" : upcoming
-                    .map(e =>
-                        `${e.type == "Unlock" ? "Unlocks at" : "Starting on"} ${e.prediction ? "*(prediction)* " : ""}${e.start ? e.start : "????"}${e.timezone?` (GMT${e.timezone})`:""}: ${e.link ? `[${e.name}](${e.link})` : e.name}`
-                    )
-                    .join("\n"))
-                .setFooter(`Page ${page+1} / ${total}`)
-                .setColor(Colors.DARK_GREEN)
-        } else if (currentPage > 0) {
-            const event = upcoming[Math.abs(currentPage) - 1]
-            if (event == undefined) return undefined
+        const embed = getEventEmbed(event)
+            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setColor("#F49C1F")
 
-            const embed = getEventEmbed(event)
-                .setFooter(`Page ${page+1} / ${total}`)
-                .setColor("#F4231F")
+        if (event.end)
+            embed.setTimestamp(getDate(event.end, event.timezone))
 
-            if (event.start)
-                embed.setTimestamp(getDate(event.start, event.timezone))
+        return embed
+    }
 
-            return embed
-        } else if (currentPage < 0) {
-            const event = ongoing[Math.abs(currentPage) - 1]
-            if (event == undefined) return undefined
+    getUpcomingEvent(upcoming: Event[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const event = upcoming[relativePage]
+        if (event == undefined) return undefined
 
-            const embed = getEventEmbed(event)
-                .setFooter(`Page ${page+1} / ${total}`)
-                .setColor("#F49C1F")
+        const embed = getEventEmbed(event)
+            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setColor("#F4231F")
 
-            if (event.end)
-                embed.setTimestamp(getDate(event.end, event.timezone))
+        if (event.start)
+            embed.setTimestamp(getDate(event.start, event.timezone))
 
-            return embed
+        return embed
+    }
+
+    getSummary(pages: MessageEmbed[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        return pages[relativePage]
+            .setTitle("Events")
+            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setColor(Colors.DARK_GREEN)
+    }
+
+    getSummaryPages(ongoing: Event[], upcoming: Event[]): MessageEmbed[] {
+        const pages: MessageEmbed[] = []
+        const curr = ongoing
+            .map(e =>
+                `${e.end ? `Ending on ${e.end}${e.timezone?` (GMT${e.timezone})`:""}` : "Ongoing"}: ${e.link ? `[${e.name}](${e.link}) ` : e.name}`
+            )
+        const next = upcoming
+            .map(e =>
+                `${e.type == "Unlock" ? "Unlocks at" : "Starting on"} ${e.prediction ? "*(prediction)* " : ""}${e.start ? e.start : "????"}${e.timezone?` (GMT${e.timezone})`:""}: ${e.link ? `[${e.name}](${e.link})` : e.name}`
+            )
+
+        let currentEmbed = new MessageEmbed(), currLine = "", nextLine = ""
+        while (curr.length > 0) {
+            const newCurr = curr.shift()
+            if (newCurr == undefined) break
+            if (currLine.length + newCurr.length > 800 && currLine.length > 0) {
+                currentEmbed.addField("Current Events", currLine + "***See next page for more***")
+                pages.push(currentEmbed)
+                currentEmbed = new MessageEmbed()
+                currLine = ""
+            }
+            currLine += newCurr + "\n"
         }
-        return undefined
+        if (currLine.length > 0)
+            currentEmbed.addField("Current Events", currLine.trim())
+        if (ongoing.length == 0)
+            currentEmbed.addField("Current Events", "None")
+
+        while (next.length > 0) {
+            const newNext = next.shift()
+            if (newNext == undefined) break
+            if (nextLine.length + newNext.length > 800 && nextLine.length > 0) {
+                currentEmbed.addField("Upcoming Events", nextLine + "***See next page for more***")
+                pages.push(currentEmbed)
+                currentEmbed = new MessageEmbed()
+                nextLine = ""
+            }
+            nextLine += newNext + "\n"
+        }
+        if (nextLine.length > 0) {
+            currentEmbed.addField("Upcoming Events", nextLine.trim())
+            pages.push(currentEmbed)
+        }
+        if (upcoming.length == 0) {
+            currentEmbed.addField("Upcoming Events", "None")
+            pages.push(currentEmbed)
+        }
+
+        return pages
     }
 }

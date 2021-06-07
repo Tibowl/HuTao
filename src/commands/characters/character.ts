@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { addArg, Colors, createTable, PAD_END, PAD_START, paginator } from "../../utils/Utils"
+import { addArg, Bookmarkable, Colors, createTable, PAD_END, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
 import { BotEmoji, Character, Skill } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -20,6 +20,18 @@ const possibleStars = client.data.getCharacters()
     .map(c => c.star)
     .filter((v, i, arr) => arr.indexOf(v) == i)
     .sort((a, b) => a-b)
+
+const elementMap: Record<string, string|undefined> = {
+    Wind: "Anemo",
+    Rock: "Geo",
+    Electric: "Electro",
+    Fire: "Pyro",
+    Grass: "Dendro",
+    Ice: "Cryo",
+    Water: "Hydro",
+}
+
+type TalentMode = "LITTLE" | "HIGH" | "LOW"
 
 export default class CharacterCommand extends Command {
     constructor(name: string) {
@@ -42,7 +54,7 @@ Note: this command supports fuzzy search.`,
         })
     }
 
-    getCharacters(elementFilter: string[], weaponTypeFilter: string[], starFilter: number[], page: number): MessageEmbed | undefined {
+    getCharactersPages(elementFilter: string[], weaponTypeFilter: string[], starFilter: number[]): string[] {
         const { data } = client
         const chars = data.getCharacters()
             .filter((char) => starFilter.length == 0 || starFilter.includes(char.star))
@@ -62,14 +74,17 @@ Note: this command supports fuzzy search.`,
                 paging += "\n" + char
         }
         if (paging.trim().length > 0) pages.push(paging)
+        return pages
+    }
 
-        if (page >= pages.length)
+    getCharacterPage(pages: string[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        if (relativePage >= pages.length)
             return undefined
 
         const embed = new MessageEmbed()
             .setTitle("Character list")
-            .setDescription(pages[page])
-            .setFooter(`Page ${page + 1} / ${pages.length} - See '${config.prefix}help char' for more info about what you can do`)
+            .setDescription(pages[relativePage])
+            .setFooter(`Page ${currentPage} / ${maxPages} - See '${config.prefix}help char' for more info about what you can do`)
             .setColor(Colors.GREEN)
 
         return embed
@@ -97,93 +112,59 @@ Note: this command supports fuzzy search.`,
             addArg(args, [`-${star}`, `-${star}*`], () => starFilter.push(star))
 
         if (args.length == 0) {
-            const embed = this.getCharacters(elementFilter, weaponTypeFilter, starFilter, 0)
-            if (!embed) return message.channel.send("No character data loaded")
+            const pages = this.getCharactersPages(elementFilter, weaponTypeFilter, starFilter)
+            if (pages.length == 0) return sendMessage(message, "No character data loaded")
 
-            const reply = await message.channel.send(embed)
-            await paginator(message, reply, (page) => this.getCharacters(elementFilter, weaponTypeFilter, starFilter, page))
+            await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getCharacterPage(pages, relativePage, currentPage, maxPages), pages.length)
             return undefined
         }
 
-        let low = false
+        let talentMode: TalentMode = "LITTLE"
         let defaultPage: string | number = 0
 
         addArg(args, ["-low", "-l"], () => {
-            low = true
+            talentMode = "LOW"
+            defaultPage = 3
+        })
+        addArg(args, ["-high", "-h"], () => {
+            talentMode = "HIGH"
             defaultPage = 3
         })
         addArg(args, ["-info", "-i"], () => defaultPage = 1)
-        addArg(args, ["-art", "-a"], () => defaultPage = "🎨")
+        addArg(args, ["-art", "-a"], () => defaultPage = "Art")
         addArg(args, ["-stats", "-asc", "-ascensions", "-ascend"], () => defaultPage = 2)
         addArg(args, ["-books", "-talentupgrade"], () => defaultPage = 3)
         addArg(args, ["-skill", "-skills", "-talents", "-s", "-t"], () => defaultPage = 4)
-        addArg(args, ["-passive", "-passives", "-p"], () => defaultPage = "💤")
-        addArg(args, ["-const", "-constellation", "-constellations", "-c"], () => defaultPage = "🇨")
+        addArg(args, ["-passive", "-passives", "-p"], () => defaultPage = "Passives")
+        addArg(args, ["-const", "-constellation", "-constellations", "-c"], () => defaultPage = "Constellations")
 
         // for MC
-        if (elementFilter.includes("Anemo")) defaultPage = data.emojis.Wind
-        if (elementFilter.includes("Geo")) defaultPage = data.emojis.Rock
-        if (elementFilter.includes("Electro")) defaultPage = data.emojis.Electric
-        if (elementFilter.includes("Pyro")) defaultPage = data.emojis.Fire
-        if (elementFilter.includes("Dendro")) defaultPage = data.emojis.Grass
-        if (elementFilter.includes("Cryo")) defaultPage = data.emojis.Ice
-        if (elementFilter.includes("Hydro")) defaultPage = data.emojis.Water
+        if (elementFilter.includes("Anemo")) defaultPage = "Anemo"
+        if (elementFilter.includes("Geo")) defaultPage = "Geo"
+        if (elementFilter.includes("Electro")) defaultPage = "Electro"
+        if (elementFilter.includes("Pyro")) defaultPage = "Pyro"
+        if (elementFilter.includes("Dendro")) defaultPage = "Dendro"
+        if (elementFilter.includes("Cryo")) defaultPage = "Cryo"
+        if (elementFilter.includes("Hydro")) defaultPage = "Hydro"
 
         const char = data.getCharacterByName(args.join(" "))
         if (char == undefined)
-            return message.channel.send("Unable to find character")
+            return sendMessage(message, "Unable to find character")
 
-        const charpages = this.getCharPages(char)
-        const page = Math.abs(typeof defaultPage == "string" ? charpages[defaultPage] : defaultPage)
-        const embed = this.getCharacter(char, page, low)
-        if (!embed) return message.channel.send("Unable to load character")
+        const charpages = this.getCharPages(char, talentMode)
 
-        const reply = await message.channel.send(embed)
-
-        await paginator(message, reply, (page) => this.getCharacter(char, page, low), charpages, page)
+        await paginator(message, charpages, defaultPage)
         return undefined
     }
 
-    getCharPages(char: Character): Record<string, number> {
-        const { data } = client
-
-        const pages: Record<string, number> = {
-            "📝": 0,
-            "🚀": 2,
-        }
-
-        let currentPage = 4
-        if (char.skills.length == 1) {
-            pages[data.emojis[char.weaponType as BotEmoji] ?? "⚔️"] = currentPage
-
-            const skills = char.skills[0]
-            currentPage += skills.talents.length + 1
-            pages["💤"] = -currentPage
-
-            currentPage += 1
-            pages["🇨"] = currentPage
-
-            currentPage += 1
-            pages["🎨"] = currentPage
-        } else {
-            for (const skills of char.skills) {
-                pages[data.emojis[skills.ult.type as BotEmoji] ?? "❔"] = currentPage
-                currentPage += skills.talents.length + 3
-            }
-            pages["🎨"] = currentPage
-        }
-
-        return pages
-    }
-
-    getCharacter(char: Character, page: number, low: boolean): MessageEmbed | undefined {
+    getMainPage(char: Character, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
         const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors[char.meta.element] ?? "")
             .setThumbnail(char.icon)
-            .setFooter(`Page ${page + 1} / ${this.getCharPages(char)["🎨"] + char.imgs.length}`)
+            .setFooter(`Page ${currentPage} / ${maxPages}`)
 
-        if (page == 0) {
+        if (relativePage == 0) {
             const maxAscension = char.ascensions[char.ascensions.length - 1]
             embed.setTitle(`${char.name}: Description`)
                 .addField("Basics", `${this.getElementIcons(char)} ${char.star}★ ${data.emoji(char.weaponType, true)} user`)
@@ -224,7 +205,7 @@ Note: this command supports fuzzy search.`,
             embed.addField("Upgrade material", `Ascensions: ${char.ascensions[4]?.cost.items.map(i => data.emoji(i.name)).join("")}
 Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
             return embed
-        } else if (page == 1) {
+        } else if (relativePage == 1) {
             embed.setTitle(`${char.name}: Information`)
                 .setDescription(`${char.meta.birthDay != undefined && char.meta.birthMonth!= undefined ? `**Birthday**: ${
                     new Date(Date.UTC(2020, char.meta.birthMonth - 1, char.meta.birthDay))
@@ -246,7 +227,19 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
 **Korean**: ${char.meta.cvKorean}
 `)
             return embed
-        } else if (page == 2) {
+        }
+
+        return undefined
+    }
+
+    getStatsPage(char: Character, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const { data } = client
+        const embed = new MessageEmbed()
+            .setColor(Colors[char.meta.element] ?? "")
+            .setThumbnail(char.icon)
+            .setFooter(`Page ${currentPage} / ${maxPages}`)
+
+        if (relativePage == 0) {
             const columns: string[] = []
             const rows: string[][] = []
 
@@ -278,7 +271,7 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
                 .setFooter(`${embed.footer?.text} - Use '${config.prefix}charstats ${char.name} [level] [A<ascension>]' for a specific level`)
 
             return embed
-        } else if (page == 3) {
+        } else if (relativePage == 1) {
             let i = 1
             for (const cost of char.skills[0].ult.costs) {
                 if (cost.mora || cost.items.length > 0)
@@ -289,12 +282,39 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
             return embed
         }
 
+        return undefined
+    }
+
+    getArtPage(char: Character, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const embed = new MessageEmbed()
+            .setColor(Colors[char.meta.element] ?? "")
+            .setThumbnail(char.icon)
+            .setFooter(`Page ${currentPage} / ${maxPages}`)
+
+        if (relativePage >= 0 && relativePage < char.imgs.length) {
+            const img = char.imgs[relativePage]
+            embed.setTitle(`${char.name}`)
+                .setDescription(`[Open image in browser](${img})`)
+                .setImage(img)
+            embed.thumbnail = null
+            return embed
+        }
+
+        return undefined
+    }
+
+    getCharacter(char: Character, relativePage: number, currentPage: number, maxPages: number, talentMode: TalentMode): MessageEmbed | undefined {
+        const embed = new MessageEmbed()
+            .setColor(Colors[char.meta.element] ?? "")
+            .setThumbnail(char.icon)
+            .setFooter(`Page ${currentPage} / ${maxPages}`)
+
         function showTalent(skill: Skill): void {
             embed.setTitle(`${char.name}: ${skill.name}`)
                 .setDescription(skill.desc)
 
             if (skill.charges > 1)
-                embed.addField("Charges", skill.charges)
+                embed.addField("Charges", skill.charges.toString())
 
             let hasLevels = false
             for (const { name, values } of skill.talentTable) {
@@ -304,7 +324,17 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
                         undefined,
                         Object.entries(values)
                             .map(([lv, val]) => [+lv + 1, val])
-                            .filter(([lv]) => (low ? lv <= 6 : lv >= 6) && lv <= 13),
+                            .filter(([lv]) => {
+                                switch (talentMode) {
+                                    case "HIGH":
+                                        return lv >= 6 && lv <= 13
+                                    case "LOW":
+                                        return lv <= 6
+                                    case "LITTLE":
+                                    default:
+                                        return [6, 9, 12].includes(+lv)
+                                }
+                            }),
                         [PAD_START, PAD_END]
                     ) + "\n```", true)
                 } else
@@ -312,27 +342,31 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
             }
             if (skill.type)
                 embed.addField("Element type", skill.type, true)
-            if (hasLevels)
-                embed.setFooter(`${embed.footer?.text} - Use '${config.prefix}c ${char.name}${low ? "' to display higher" : " -low' to display lower"} levels`)
+            if (hasLevels && talentMode == "HIGH")
+                embed.setFooter(`${embed.footer?.text} - Use '${config.prefix}c ${char.name} -low' to display lower levels`)
+            else if (hasLevels && talentMode == "LOW")
+                embed.setFooter(`${embed.footer?.text} - Use '${config.prefix}c ${char.name} -high' to display higher levels`)
+            else if (hasLevels && talentMode == "LITTLE")
+                embed.setFooter(`${embed.footer?.text} - Use '${config.prefix}c ${char.name} -high' (or -low) to display higher (or lower) levels`)
         }
 
-        let currentPage = 4
+        let page = 0
         for (const skills of char.skills) {
             embed.setColor(Colors[skills.ult.type ?? "None"])
 
             for (const talent of skills.talents) {
-                if (currentPage++ == page) {
+                if (page++ == relativePage) {
                     showTalent(talent)
                     return embed
                 }
             }
 
-            if (currentPage++ == page) {
+            if (page++ == relativePage) {
                 showTalent(skills.ult)
                 return embed
             }
 
-            if (currentPage++ == page) {
+            if (page++ == relativePage) {
                 embed.setTitle(`${char.name}: Passives`)
                 for (const passive of skills.passive.sort((a, b) => a.minAscension - b.minAscension)) {
                     embed.addField(passive.name, `${passive.desc}
@@ -342,7 +376,7 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
                 return embed
             }
 
-            if (currentPage++ == page) {
+            if (page++ == relativePage) {
                 embed.setTitle(`${char.name}: Constellations`)
                     .setThumbnail(skills.constellations[0]?.icon)
                 let c = 0
@@ -353,16 +387,68 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
             }
         }
 
-        const offset = page - currentPage
-        if (offset >= 0 && offset < char.imgs.length) {
-            const img = char.imgs[offset]
-            embed.setTitle(`${char.name}`)
-                .setDescription(`[Open image in browser](${img})`)
-                .setImage(img)
-            embed.thumbnail = null
-            return embed
-        }
-
         return undefined
+    }
+
+    getCharPages(char: Character, talentMode: TalentMode): Bookmarkable[] {
+        const { data } = client
+
+        const pages: Bookmarkable[] = [
+            {
+                bookmarkEmoji: "📝",
+                bookmarkName: "General",
+                maxPages: 2,
+                pages: (rp, cp, mp) => this.getMainPage(char, rp, cp, mp)
+            },
+            {
+                bookmarkEmoji: "🚀",
+                bookmarkName: "Stats",
+                maxPages: 2,
+                pages: (rp, cp, mp) => this.getStatsPage(char, rp, cp, mp)
+            }
+        ]
+
+        if (char.skills.length == 1) {
+            const skills = char.skills[0]
+            pages.push({
+                bookmarkEmoji: data.emojis[char.weaponType as BotEmoji] ?? "⚔️",
+                bookmarkName: "Talents",
+                maxPages: skills.talents.length + 1,
+                pages: (rp, cp, mp) => this.getCharacter(char, rp, cp, mp, talentMode)
+            }, {
+                bookmarkEmoji: "💤",
+                bookmarkName: "Passives",
+                maxPages: 1,
+                pages: (rp, cp, mp) => this.getCharacter(char, rp + skills.talents.length + 1, cp, mp, talentMode)
+            }, {
+                bookmarkEmoji: "🇨",
+                bookmarkName: "Constellations",
+                maxPages: 1,
+                pages: (rp, cp, mp) => this.getCharacter(char, rp + skills.talents.length + 2, cp, mp, talentMode)
+            })
+
+        } else {
+            let currentPage = 0
+            for (const skills of char.skills) {
+                const offset = currentPage
+
+                pages.push({
+                    bookmarkEmoji: data.emojis[skills.ult.type as BotEmoji] ?? "❔",
+                    bookmarkName: elementMap[skills.ult.type ?? "?"] ?? "Unknown",
+                    maxPages: skills.talents.length + 3,
+                    pages: (rp, cp, mp) => this.getCharacter(char, rp + offset, cp, mp, talentMode)
+                })
+
+                currentPage += skills.talents.length + 3
+            }
+        }
+        pages.push({
+            bookmarkEmoji: "🎨",
+            bookmarkName: "Art",
+            maxPages: char.imgs.length,
+            pages: (rp, cp, mp) => this.getArtPage(char, rp, cp, mp)
+        })
+
+        return pages
     }
 }

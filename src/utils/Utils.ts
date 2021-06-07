@@ -1,9 +1,10 @@
-import {  Message, TextChannel, StringResolvable, MessageEmbed, MessageAttachment } from "discord.js"
+import {  Message, TextChannel, MessageEmbed, MessageAttachment, Snowflake, MessageActionRow, MessageButton } from "discord.js"
 
 import client from "./../main"
 import config from "./../data/config.json"
 import { Cover, Event, EventType, NameTable, Padding, Server, StoredNews } from "./Types"
 import log4js from "log4js"
+import { MessageComponentInteraction } from "discord.js"
 
 const Logger = log4js.getLogger("Utils")
 
@@ -14,7 +15,7 @@ const Logger = log4js.getLogger("Utils")
  * @param embed Possible embed/attachment to send
  * @returns All the messages send
  */
-export async function sendToChannels(channels: string[] | undefined, content?: StringResolvable, embed?: MessageEmbed | MessageAttachment): Promise<PromiseSettledResult<Message | Message[]>[]> {
+export async function sendToChannels(channels: Snowflake[] | undefined, content: string, embed?: MessageEmbed | MessageAttachment): Promise<PromiseSettledResult<Message | Message[]>[]> {
     const messages = []
     if (!channels) return Promise.all([])
 
@@ -42,9 +43,9 @@ export async function sendToChannels(channels: string[] | undefined, content?: S
  * @param embed Possible embed/attachment to send
  * @returns List of messages
  */
-export async function sendError(content: StringResolvable, embed?: MessageEmbed | MessageAttachment): Promise<Message[]> {
+export async function sendError(content: string, embed?: MessageEmbed | MessageAttachment): Promise<Message[]> {
     Logger.error(content)
-    return (await sendToChannels(config.errorLog, content, embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
+    return (await sendToChannels(config.errorLog as Snowflake[], content, embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
 }
 
 export const PAD_START = 0
@@ -56,7 +57,7 @@ export const PAD_END = 1
  * @param pads Padding information
  * @returns Table
  */
-export function createTable(names: NameTable | undefined, rows: StringResolvable[], pads: Padding[] = [PAD_END]): string {
+export function createTable(names: NameTable | undefined, rows: (string | number)[][], pads: Padding[] = [PAD_END]): string {
     const maxColumns = Math.max(...rows.map(row => row.length))
     let title = "", currentInd = 0
 
@@ -181,7 +182,7 @@ export function getDate(timestamp: string, timezone = "+08:00"): Date {
 
 
 // Format news
-export function getNewsEmbed(post: StoredNews, page = -1): MessageEmbed | undefined {
+export function getNewsEmbed(post: StoredNews, relativePage = -1, currentPage?: number, maxPages?: number): MessageEmbed | undefined {
     const embed = new MessageEmbed()
         .setTitle(post.subject)
         .setAuthor(post.nickname)
@@ -191,7 +192,7 @@ export function getNewsEmbed(post: StoredNews, page = -1): MessageEmbed | undefi
 
     const parsed = parseNewsContent(post.content)
 
-    if (page == -1) {
+    if (relativePage == -1) {
         embed.setDescription(truncate(parsed.find(k => k.text)?.text ?? "Unknown text", 1500))
 
         if (post.image_url) {
@@ -199,13 +200,13 @@ export function getNewsEmbed(post: StoredNews, page = -1): MessageEmbed | undefi
             if (imgData?.[0]?.url)
                 embed.setImage(imgData[0].url)
         }
-    } else if (page >= 0 && page < parsed.length) {
-        const cont = parsed[page]
+    } else if (relativePage >= 0 && relativePage < parsed.length) {
+        const cont = parsed[relativePage]
         if (cont.text)
             embed.setDescription(truncate(cont.text, 1500))
         else if (cont.img)
             embed.setImage(cont.img).setDescription(`[Open image in browser](${cont.img})`)
-        embed.setFooter(`Page ${page + 1}/${parsed.length}`)
+        embed.setFooter(`Page ${currentPage} / ${maxPages}`)
     } else
         return undefined
     return embed
@@ -277,7 +278,7 @@ export function getEventEmbed(event: Event): MessageEmbed {
     embed.setTitle(event.name)
     if (event.img) embed.setImage(event.img)
     if (event.link) embed.setURL(event.link)
-    embed.addField(event.type == EventType.Unlock ? "Unlock Time" : "Start Time", event.start ? `${event.start}${event.timezone?` (GMT${event.timezone})`:""}` : "Unknown", true)
+    embed.addField(event.type == EventType.Unlock ? "Unlock Time" : "Start Time", event.start ? `${event.prediction ? "(prediction) " : ""}${event.start}${event.timezone?` (GMT${event.timezone})`:""}` : "Unknown", true)
     if (event.end) embed.addField("End Time", `${event.end}${event.timezone?` (GMT${event.timezone})`:""}`, true)
     if (event.type && event.type !== EventType.Unlock) embed.addField("Type", event.type, true)
 
@@ -300,77 +301,189 @@ function clean(line: string) {
 
 // Pagination functions
 const emojis = ["⬅️", "➡️"]
-function paginatorLoop(message: Message, reply: Message, pages: ((p: number) => MessageEmbed | undefined), skipPages: Record<string, number> = {}, currentPage = 0): void {
-    reply.awaitReactions(
-        (reaction, user) => ["❌", ...emojis, ...Object.keys(skipPages).map(name => name.match(/<:(.*?):\d+>/)?.[1] ?? name)].includes(reaction.emoji.name) && (user.id == message.author.id || config.admins.includes(user.id)),
+function paginatorLoop(message: Message, reply: Message, pageInfo: Bookmarkable[], currentPage = 0): void {
+    reply.awaitMessageComponentInteractions(
+        (interaction) => (interaction.user.id == message.author.id || config.admins.includes(interaction.user.id)),
         { max: 1, time: 60000, errors: ["time", "messageDelete", "channelDelete", "guildDelete"] }
     ).then(async (collected) => {
         const r = collected.first()
-        const name = r?.emoji.name
+        if (r == undefined) return
 
-        if (name == "❌") {
+        const name = r.customID
+
+        if (name == "delete") {
             client.recentMessages = client.recentMessages.filter(k => k != reply)
             await reply.delete()
             return
         }
 
-        if (name == emojis[0]) {
-            if (currentPage > 0) {
-                const newEmbed = pages(currentPage - 1)
-                if (newEmbed) {
-                    currentPage--
-                    await reply.edit(newEmbed)
-                }
-            }
-        } else if (name == emojis[1]) {
-            const newEmbed = pages(currentPage + 1)
-            if (newEmbed) {
-                currentPage++
-                await reply.edit(newEmbed)
-            }
+        if (name == "prev") {
+            currentPage = await updatePage(r, currentPage, currentPage - 1, pageInfo)
+        } else if (name == "next") {
+            currentPage = await updatePage(r, currentPage, currentPage + 1, pageInfo)
         } else if (name) {
-            const newPage = Object.entries(skipPages).find(([k]) => k == name || k.includes(`<:${name}:`))?.[1]
-            if (newPage !== undefined) {
-                const newEmbed = pages(newPage)
-                if (newEmbed) {
-                    currentPage = newPage
-                    await reply.edit(newEmbed)
+            let newPage = 0
+            for (const pi of pageInfo) {
+                if (pi.bookmarkName == name) {
+                    currentPage = await updatePage(r, currentPage, newPage, pageInfo)
+                    break
                 }
+                newPage += pi.maxPages
             }
         }
 
-        paginatorLoop(message, reply, pages, skipPages, currentPage)
-
-        try {
-            await r?.users.remove(message.author)
-        } catch (error) {
-            // No permission
-        }
+        paginatorLoop(message, reply, pageInfo, currentPage)
     }).catch(async () => {
         client.recentMessages = client.recentMessages.filter(k => k != reply)
         const user = client.user
         if (user == undefined || reply.deleted) return
-        try {
-            await reply.reactions.removeAll()
-        } catch (error) {
-            await Promise.allSettled(reply.reactions?.cache.map((reaction) => {
-                if (client.user && reaction.users.cache.has(client.user.id))
-                    return reaction.users.remove(user)
-            }).filter(r => r))
-        }
+        await reply.edit({ components: [] })
     })
-
 }
-export async function paginator(message: Message, reply: Message, pages: ((p: number) => MessageEmbed | undefined), skipPages: Record<string, number> = {}, currentPage = 0): Promise<void> {
-    paginatorLoop(message, reply, pages, skipPages, currentPage)
+
+function getPageEmbed(newPage: number, maxPages: number, pageInfo: Bookmarkable[]) {
+    let bookmark = pageInfo[0], currentPage = 0
+    for (const bm of pageInfo) {
+        bookmark = bm
+        if (currentPage + bm.maxPages > newPage) break
+        currentPage += bm.maxPages
+    }
+    return bookmark.pages(newPage - currentPage, newPage + 1, maxPages)
+}
+async function updatePage(interaction: MessageComponentInteraction, oldPage: number, newPage: number, pageInfo: Bookmarkable[]): Promise<number> {
+    const maxPages = pageInfo.reduce((p, c) => p + c.maxPages, 0)
+
+    const embed = getPageEmbed(newPage, maxPages, pageInfo)
+    if (!embed) return oldPage
+
+    await interaction.update({ embeds: [embed], components: getButtons(pageInfo, newPage, maxPages) })
+    return newPage
+}
+
+type PageFunction = ((relativePage: number, currentPage: number, maxPages: number) => MessageEmbed | undefined)
+export type Bookmarkable = {
+    bookmarkName: string
+    bookmarkEmoji: string
+    pages: PageFunction
+    maxPages: number
+    invisible?: boolean
+}
+export async function paginator(message: Message, pageInfo: Bookmarkable[], startPage: number | string = 0): Promise<void> {
+    const maxPages = pageInfo.reduce((p, c) => p + c.maxPages, 0)
+
+    let currentPage = 0
+    if (typeof startPage == "string") {
+        let newPage = 0
+        for (const pi of pageInfo) {
+            if (pi.bookmarkName == startPage) {
+                currentPage = newPage
+                break
+            }
+            newPage += pi.maxPages
+        }
+    } else {
+        currentPage = startPage
+    }
+
+    const embed = getPageEmbed(currentPage, maxPages, pageInfo)
+
+    const reply = await message.channel.send({ embed, components: getButtons(pageInfo, currentPage, maxPages) })
+
+    paginatorLoop(message, reply, pageInfo, currentPage)
 
     client.recentMessages.push(reply)
-    for (const emoji of emojis)
-        await reply.react(emoji)
-    for (const emoji of Object.entries(skipPages).filter(([_key, page]) => page >= 0).map(([key]) => key))
-        await reply.react(emoji)
-    if (reply.channel.type !== "dm")
-        await reply.react("❌")
+}
+
+export async function simplePaginator(message: Message, pager: PageFunction, maxPages: number, startPage = 0): Promise<void> {
+    return paginator(message, [{
+        bookmarkEmoji: "⏮️",
+        bookmarkName: "Default",
+        pages: pager,
+        maxPages,
+        invisible: true
+    }], startPage)
+}
+
+function getButtons(pageInfo: Bookmarkable[], currentPage: number, maxPages: number) {
+    let i = 0
+    let currentRow = new MessageActionRow()
+    const rows = [currentRow]
+
+    let newPage = 0
+    for (const pi of pageInfo) {
+        if (!pi.invisible) {
+            if (i++ % 5 == 0 && i !== 1) {
+                currentRow = new MessageActionRow()
+                rows.push(currentRow)
+            }
+
+            currentRow.addComponents(
+                new MessageButton()
+                    .setCustomID(pi.bookmarkName)
+                    .setLabel(pi.bookmarkName)
+                    .setStyle("SECONDARY")
+                    .setDisabled(newPage == currentPage)
+                    .setEmoji(pi.bookmarkEmoji),
+            )
+        }
+
+        newPage += pi.maxPages
+    }
+
+    if (i !== 0 && i % 5 !== 1 && i % 5 !== 2) {
+        currentRow = new MessageActionRow()
+        rows.push(currentRow)
+    }
+
+    currentRow.addComponents(
+        new MessageButton()
+            .setCustomID("prev")
+            .setLabel("Previous")
+            .setStyle("PRIMARY")
+            .setDisabled(currentPage == 0)
+            .setEmoji(emojis[0]),
+
+        new MessageButton()
+            .setCustomID("next")
+            .setLabel("Next")
+            .setStyle("PRIMARY")
+            .setDisabled(currentPage >= maxPages - 1)
+            .setEmoji(emojis[1]),
+
+        new MessageButton()
+            .setCustomID("delete")
+            .setLabel("Delete")
+            .setStyle("DANGER")
+            .setEmoji("✖️"),
+    )
+    return rows
+}
+
+export function getDeleteButton(): MessageActionRow {
+    const row = new MessageActionRow()
+
+    row.addComponents(
+        new MessageButton()
+            .setCustomID("delete")
+            .setLabel("Delete")
+            .setStyle("DANGER")
+            .setEmoji("✖️"),
+    )
+    return row
+}
+
+export async function sendMessage(message: Message, content: string | MessageEmbed): Promise<Message | Message[]> {
+    if (typeof content == "string")
+        return message.channel.send(content, {
+            components: [getDeleteButton()],
+            split: {
+                append: "```",
+                prepend: "```",
+                maxLength: 1900
+            }
+        })
+    else
+        return message.channel.send({ embed: content, components: [getDeleteButton()] })
 }
 
 export function addArg(args: string[], queries: string | string[], exec: () => void): void {

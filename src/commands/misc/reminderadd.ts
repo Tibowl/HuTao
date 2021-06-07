@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 import client from "../../main"
 
 import Command from "../../utils/Command"
-import { Colors, timeLeft } from "../../utils/Utils"
+import { Colors, sendMessage, timeLeft } from "../../utils/Utils"
 import config from "../../data/config.json"
 
 export default class ReminderAdd extends Command {
@@ -31,7 +31,7 @@ Example: \`${config.prefix}ar Weekly boss in 36 resin\``,
         const userid = message.author.id
 
         const reminders = reminderManager.getReminders(userid)
-        if (reminders.length >= 25) return message.channel.send(`You can only have up to 25 reminders, see \`${config.prefix}reminders\` for which you have`)
+        if (reminders.length >= 25) return sendMessage(message, `You can only have up to 25 reminders, see \`${config.prefix}reminders\` for which you have`)
 
         if (args.length < 1) return this.sendHelp(message)
 
@@ -39,7 +39,7 @@ Example: \`${config.prefix}ar Weekly boss in 36 resin\``,
         let time = words.includes("in") ? args.splice(words.lastIndexOf("in")).slice(1).join(" ") : ""
         const name = args.join(" ") || "Unnamed reminder"
 
-        if (name.length > 128) return message.channel.send("Reminder name too long")
+        if (name.length > 128) return sendMessage(message, "Reminder name too long")
         if (time.length == 0) {
             if (name.match(/^Para(metric)?s?( Trans(former)?s?)?$/i)) time = "6 days and 22 hours"
             else if (name.match(/^(Ores?|Minerals?|(Blue )?Crystals?( Chunks?)?)$/i)) time = "3 days"
@@ -71,13 +71,13 @@ Example: \`${config.prefix}ar Weekly boss in 36 resin\``,
             id++
 
         const timestamp = Date.now() + duration
-        const reply = message.channel.send(
-            new MessageEmbed()
-                .setTitle(`Created reminder #${id}`)
-                .setColor(Colors.GREEN)
-                .setDescription(`I'll remind you in DM's about \`${name}\` in **${timeLeft(duration, true, false)}**`)
-                .setFooter("In your local timezone")
-                .setTimestamp(timestamp)
+        const reply = sendMessage(message,
+                                  new MessageEmbed()
+                                      .setTitle(`Created reminder #${id}`)
+                                      .setColor(Colors.GREEN)
+                                      .setDescription(`I'll remind you in DM's about \`${name}\` in **${timeLeft(duration, true, false)}**`)
+                                      .setFooter("In your local timezone")
+                                      .setTimestamp(timestamp)
         )
 
         const reminder = reminderManager.addReminder(id, name, userid, duration, timestamp)

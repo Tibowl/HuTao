@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { addArg, Colors, createTable, PAD_START, paginator } from "../../utils/Utils"
+import { addArg, Bookmarkable, Colors, createTable, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
 import { Weapon } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -34,7 +34,7 @@ Note: this command supports fuzzy search.`,
         })
     }
 
-    weapons(weaponFilter: string[], starFilter: number[], page: number): MessageEmbed | undefined {
+    getWeaponsPages(weaponFilter: string[], starFilter: number[]): string[] {
         const { data } = client
         const weapons = Object.entries(data.weapons)
             .filter(([_, info]) => weaponFilter.length == 0 || weaponFilter.includes(info.weaponType))
@@ -53,14 +53,17 @@ Note: this command supports fuzzy search.`,
                 paging += "\n" + weapon
         }
         if (paging.trim().length > 0) pages.push(paging)
+        return pages
+    }
 
-        if (page >= pages.length)
+    getWeaponsPage(pages: string[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        if (relativePage >= pages.length)
             return undefined
 
         const embed = new MessageEmbed()
             .setTitle("Weapons")
-            .setDescription(pages[page])
-            .setFooter(`Page ${page + 1} / ${pages.length} - See '${config.prefix}help weapon' for more info about what you can do`)
+            .setDescription(pages[relativePage])
+            .setFooter(`Page ${currentPage} / ${maxPages} - See '${config.prefix}help weapon' for more info about what you can do`)
             .setColor(Colors.GREEN)
 
         return embed
@@ -78,134 +81,182 @@ Note: this command supports fuzzy search.`,
             addArg(args, [`-${star}`, `-${star}*`], () => starFilter.push(star))
 
         if (args.length == 0) {
-            const embed = this.weapons(weaponFilter, starFilter, 0)
-            if (!embed) return message.channel.send("No weapon data loaded")
+            const pages = this.getWeaponsPages(weaponFilter, starFilter)
+            if (pages.length == 0) return sendMessage(message, "No character data loaded")
 
-            const reply = await message.channel.send(embed)
-            await paginator(message, reply, (page) => this.weapons(weaponFilter, starFilter, page))
+            await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getWeaponsPage(pages, relativePage, currentPage, maxPages), pages.length)
             return undefined
         }
 
-        let defaultPage = 0
-        addArg(args, ["-basic", "-b"], () => defaultPage = 0)
-        addArg(args, ["-stats", "-ascension", "-a", "-s", "-stat", "-asc", "-ascend"], () => defaultPage = 1)
-        addArg(args, ["-refinements", "-r", "-refine"], () => defaultPage = 2)
-        addArg(args, ["-lore", "-l"], () => defaultPage = 3)
-        addArg(args, ["-base", "-art"], () => defaultPage = 4)
-        addArg(args, ["-2nd", "-2"], () => defaultPage = 5)
+        let defaultPage: number | string = 0
+        addArg(args, ["-basic", "-b"], () => defaultPage = "General")
+        addArg(args, ["-stats", "-ascension", "-a", "-s", "-stat", "-asc", "-ascend"], () => defaultPage = "Stats")
+        addArg(args, ["-refinements", "-r", "-refine"], () => defaultPage = "Refinements")
+        addArg(args, ["-lore", "-l"], () => defaultPage = "Lore")
+        addArg(args, ["-base", "-art"], () => defaultPage = "Art")
+        addArg(args, ["-2nd", "-2"], () => defaultPage = "Art 2")
 
         const weapon = data.getWeaponByName(args.join(" "))
         if (weapon == undefined)
-            return message.channel.send("Unable to find weapon")
+            return sendMessage(message, "Unable to find weapon")
 
         const hasRefinements = weapon.refinement.length > 0 && weapon.refinement[0].length > 0
-        if (!hasRefinements && defaultPage > 2) defaultPage--
 
-        const pages: Record<string, number> = {
-            "📝": 0,
-        }
+        const pages: Bookmarkable[] = [{
+            bookmarkEmoji: "📝",
+            bookmarkName: "General",
+            maxPages: 1,
+            pages: (rp, cp, mp) => this.getMainWeaponPage(weapon, rp, cp, mp)
+        }, {
+            bookmarkEmoji: "-",
+            bookmarkName: "Stats",
+            maxPages: 1,
+            pages: (rp, cp, mp) => this.getStatsWeaponPage(weapon, rp, cp, mp),
+            invisible: true
+        }]
         if (hasRefinements)
-            pages["🇷"] = 2
-        pages["🎨"] = hasRefinements ? 4 : 3
+            pages.push({
+                bookmarkEmoji: "🇷",
+                bookmarkName: "Refinements",
+                maxPages: 1,
+                pages: (rp, cp, mp) => this.getRefinementWeaponPage(weapon, rp, cp, mp)
+            })
+        pages.push({
+            bookmarkEmoji: "-",
+            bookmarkName: "Lore",
+            maxPages: 1,
+            pages: (rp, cp, mp) => this.getLoreWeaponPage(weapon, rp, cp, mp),
+            invisible: true
+        }, {
+            bookmarkEmoji: "🎨",
+            bookmarkName: "Art",
+            maxPages: 1,
+            pages: (rp, cp, mp) => this.getArtWeaponPage(weapon, rp, cp, mp)
+        }, {
+            bookmarkEmoji: "-",
+            bookmarkName: "Art 2",
+            maxPages: 1,
+            pages: (rp, cp, mp) => this.getSecondArtWeaponPage(weapon, rp, cp, mp),
+            invisible: true
+        })
 
-        const embed = this.getWeapon(weapon, defaultPage)
-        if (!embed) return message.channel.send("No weapon data loaded")
-
-        const reply = await message.channel.send(embed)
-        await paginator(message, reply, (page) => this.getWeapon(weapon, page), pages, defaultPage)
+        await paginator(message, pages, defaultPage)
         return undefined
     }
 
-    getWeapon(weapon: Weapon, page: number): MessageEmbed | undefined {
+    getMainWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
         const { data } = client
         const hasRefinements = weapon.refinement.length > 0 && weapon.refinement[0].length > 0
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
             .setThumbnail(weapon.icon)
-            .setFooter(`Page ${page + 1} / ${hasRefinements ? 6 : 5}`)
+            .setFooter(`Page ${currentPage} / ${maxPages}`)
 
-        let currentPage = 0
-        if (page == currentPage++) {
-            const maxAscension = weapon.ascensions[weapon.ascensions.length - 1]
-            embed.setTitle(`${weapon.name}: Basic info`)
-                .setDescription(weapon.desc)
-                .addField("Basics", `${weapon.stars}★ ${data.emoji(weapon.weaponType)}`)
-                .addField("Base stats", `${
-                    Object.entries(data.getWeaponStatsAt(weapon, 1, 0))
-                        .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
-                        .join("\n")
-                }`, true)
-                .addField(`Lv. ${maxAscension.maxLevel} A${maxAscension.level} stats`, `${
-                    Object.entries(data.getWeaponStatsAt(weapon, maxAscension.maxLevel, maxAscension.level))
-                        .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
-                        .join("\n")
-                }`, true)
+        const maxAscension = weapon.ascensions[weapon.ascensions.length - 1]
+        embed.setTitle(`${weapon.name}: Basic info`)
+            .setDescription(weapon.desc)
+            .addField("Basics", `${weapon.stars}★ ${data.emoji(weapon.weaponType)}`)
+            .addField("Base stats", `${
+                Object.entries(data.getWeaponStatsAt(weapon, 1, 0))
+                    .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
+                    .join("\n")
+            }`, true)
+            .addField(`Lv. ${maxAscension.maxLevel} A${maxAscension.level} stats`, `${
+                Object.entries(data.getWeaponStatsAt(weapon, maxAscension.maxLevel, maxAscension.level))
+                    .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
+                    .join("\n")
+            }`, true)
 
-            if (hasRefinements)
-                embed.addField(`${weapon.refinement[0][0].name} (at R1)`, weapon.refinement[0][0].desc)
-            embed.addField("Upgrade material", `Ascensions: ${weapon.ascensions[2]?.cost.items.map(i => data.emoji(i.name)).join("")}`)
-            return embed
-        // eslint-disable-next-line no-dupe-else-if
-        } else if (page == currentPage++) {
-            const columns: string[] = []
-            const rows: string[][] = []
+        if (hasRefinements)
+            embed.addField(`${weapon.refinement[0][0].name} (at R1)`, weapon.refinement[0][0].desc)
+        embed.addField("Upgrade material", `Ascensions: ${weapon.ascensions[2]?.cost.items.map(i => data.emoji(i.name)).join("")}`)
+        return embed
+    }
 
-            const addRow = (char: Weapon, level: number, ascension: number) => {
-                const stats = data.getWeaponStatsAt(char, level, ascension)
-                for (const key of Object.keys(stats))
-                    if (!columns.includes(key))
-                        columns.push(key)
+    getStatsWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const { data } = client
+        const embed = new MessageEmbed()
+            .setColor(Colors.AQUA)
+            .setThumbnail(weapon.icon)
+            .setFooter(`Page ${currentPage} / ${maxPages}`)
 
-                rows.push([level.toString(), ascension.toString(), ...columns.map(c => data.stat(c, stats[c]))])
-            }
+        const columns: string[] = []
+        const rows: string[][] = []
 
-            let previousMax = 1
-            for (const asc of weapon.ascensions) {
-                addRow(weapon, previousMax, asc.level)
-                previousMax = asc.maxLevel
-                addRow(weapon, previousMax, asc.level)
+        const addRow = (char: Weapon, level: number, ascension: number) => {
+            const stats = data.getWeaponStatsAt(char, level, ascension)
+            for (const key of Object.keys(stats))
+                if (!columns.includes(key))
+                    columns.push(key)
 
-                if (asc.cost.mora || asc.cost.items.length > 0)
-                    embed.addField(`Ascension ${asc.level} costs`, data.getCosts(asc.cost), true)
-            }
-
-            embed.setTitle(`${weapon.name}: Ascensions + stats`)
-                .setDescription("Weapon stats:\n```\n" + createTable(
-                    ["Lvl", "Asc", ...columns.map(c => data.statName(c))],
-                    rows,
-                    [PAD_START]
-                ) + "\n```")
-                .setFooter(`${embed.footer?.text} - Use '${config.prefix}weaponstats ${weapon.name} [level] [A<ascension>]' for a specific level`)
-            return embed
-        // eslint-disable-next-line no-dupe-else-if
-        } else if (hasRefinements && page == currentPage++) {
-            embed.setTitle(`${weapon.name}: Refinements`)
-            for (const ref of weapon.refinement)
-                for (const [refinement, info] of Object.entries(ref))
-                    embed.addField(`${info.name} ${+refinement+1}`, info.desc)
-
-            return embed
-        // eslint-disable-next-line no-dupe-else-if
-        } else if (page == currentPage++) {
-            embed.setTitle(`${weapon.name}: Lore`)
-                .setDescription(weapon.lore)
-            return embed
-        // eslint-disable-next-line no-dupe-else-if
-        } else if (page == currentPage++) {
-            embed.setTitle(`${weapon.name}: Base`)
-                .setDescription(`[Open image in browser](${weapon.icon})`)
-                .setImage(weapon.icon)
-            embed.thumbnail = null
-            return embed
-        // eslint-disable-next-line no-dupe-else-if
-        } else if (page == currentPage++) {
-            embed.setTitle(`${weapon.name}: 2nd Ascension`)
-                .setDescription(`[Open image in browser](${weapon.awakenIcon})`)
-                .setImage(weapon.awakenIcon)
-            embed.thumbnail = null
-            return embed
+            rows.push([level.toString(), ascension.toString(), ...columns.map(c => data.stat(c, stats[c]))])
         }
 
-        return undefined
+        let previousMax = 1
+        for (const asc of weapon.ascensions) {
+            addRow(weapon, previousMax, asc.level)
+            previousMax = asc.maxLevel
+            addRow(weapon, previousMax, asc.level)
+
+            if (asc.cost.mora || asc.cost.items.length > 0)
+                embed.addField(`Ascension ${asc.level} costs`, data.getCosts(asc.cost), true)
+        }
+
+        embed.setTitle(`${weapon.name}: Ascensions + stats`)
+            .setDescription("Weapon stats:\n```\n" + createTable(
+                ["Lvl", "Asc", ...columns.map(c => data.statName(c))],
+                rows,
+                [PAD_START]
+            ) + "\n```")
+            .setFooter(`${embed.footer?.text} - Use '${config.prefix}weaponstats ${weapon.name} [level] [A<ascension>]' for a specific level`)
+        return embed
+    }
+
+    getRefinementWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const embed = new MessageEmbed()
+            .setColor(Colors.AQUA)
+            .setThumbnail(weapon.icon)
+            .setFooter(`Page ${currentPage} / ${maxPages}`)
+
+        embed.setTitle(`${weapon.name}: Refinements`)
+        for (const ref of weapon.refinement)
+            for (const [refinement, info] of Object.entries(ref))
+                embed.addField(`${info.name} ${+refinement+1}`, info.desc)
+
+        return embed
+    }
+
+    getLoreWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const embed = new MessageEmbed()
+            .setColor(Colors.AQUA)
+            .setThumbnail(weapon.icon)
+            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setTitle(`${weapon.name}: Lore`)
+            .setDescription(weapon.lore)
+        return embed
+    }
+
+    getArtWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const embed = new MessageEmbed()
+            .setColor(Colors.AQUA)
+            .setThumbnail(weapon.icon)
+            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setTitle(`${weapon.name}: Base`)
+            .setDescription(`[Open image in browser](${weapon.icon})`)
+            .setImage(weapon.icon)
+        embed.thumbnail = null
+        return embed
+    }
+
+    getSecondArtWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const embed = new MessageEmbed()
+            .setColor(Colors.AQUA)
+            .setThumbnail(weapon.icon)
+            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setTitle(`${weapon.name}: 2nd Ascension`)
+            .setDescription(`[Open image in browser](${weapon.awakenIcon})`)
+            .setImage(weapon.awakenIcon)
+        embed.thumbnail = null
+        return embed
     }
 }

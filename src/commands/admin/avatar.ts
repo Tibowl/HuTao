@@ -4,6 +4,7 @@ import Command from "../../utils/Command"
 import log4js from "log4js"
 import client from "../../main"
 import config from "../../data/config.json"
+import { sendMessage } from "../../utils/Utils"
 
 const Logger = log4js.getLogger("avatar")
 
@@ -19,7 +20,7 @@ export default class Avatar extends Command {
     }
 
     async run(message: Message, args: string[]): Promise<Message | Message[]> {
-        if (!config.admins.includes(message.author.id)) return message.reply("Admins only")
+        if (!config.admins.includes(message.author.id)) return sendMessage(message, "Admins only")
 
         const found = message.attachments?.find(k => !!k.url)
         let url
@@ -28,15 +29,15 @@ export default class Avatar extends Command {
         else if (found)
             url = found.url
 
-        if (url == undefined) return message.reply("No link found")
+        if (url == undefined) return sendMessage(message, "No link found")
 
         try {
             await client.user?.setAvatar(url)
             Logger.info(`Updated avatar to ${url} by ${message.author.id}`)
-            return message.reply("Success!")
+            return sendMessage(message, "Success!")
         } catch (err) {
             Logger.error(err)
-            return message.reply("Failed")
+            return sendMessage(message, "Failed")
         }
     }
 }

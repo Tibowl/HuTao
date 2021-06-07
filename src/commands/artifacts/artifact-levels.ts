@@ -2,7 +2,7 @@ import { Message } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { createTable, findFuzzy, PAD_START } from "../../utils/Utils"
+import { createTable, findFuzzy, PAD_START, sendMessage } from "../../utils/Utils"
 
 export default class ArtifactLevelsCommand extends Command {
     constructor(name: string) {
@@ -22,9 +22,9 @@ Note: this command supports fuzzy search.`,
 
         const keys = Object.keys(data.artifactMainLevels)
         if (args.length == 0) {
-            if (!keys) return message.channel.send("No artifact level data loaded")
+            if (!keys) return sendMessage(message, "No artifact level data loaded")
 
-            return await message.channel.send(`Usage: ${this.usage}
+            return await sendMessage(message, `Usage: ${this.usage}
 
 **List of main stats:**
 ${keys.join("\n")}`)
@@ -37,7 +37,7 @@ ${keys.join("\n")}`)
 
         const mainStat = findFuzzy(keys, args.join(" "))
         if (mainStat == undefined)
-            return message.channel.send("Unable to find main stat")
+            return sendMessage(message, "Unable to find main stat")
 
         const levelData = data.artifactMainLevels[mainStat][level]
         const entries = Object.entries(levelData)
@@ -53,7 +53,7 @@ ${keys.join("\n")}`)
         }
         table.push(currentLine)
 
-        return await message.channel.send(`**${mainStat}** main stat table for a **${level}**★ artifact:
+        return await sendMessage(message, `**${mainStat}** main stat table for a **${level}**★ artifact:
 \`\`\`
 ${createTable(
         ["Lvl", "Stat", "|", "Lvl", "Stat", "|", "Lvl", "Stat", "|", "Lvl", "Stat"],

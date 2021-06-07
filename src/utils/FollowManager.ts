@@ -1,6 +1,6 @@
 import log4js from "log4js"
 import SQLite from "better-sqlite3"
-import { Channel, User, Guild, Message, MessageEmbed, MessageAttachment, StringResolvable } from "discord.js"
+import { Channel, User, Guild, Message, MessageEmbed, MessageAttachment, Snowflake } from "discord.js"
 import { ensureDirSync } from "fs-extra"
 
 import { FollowCategory, Follower } from "./Types"
@@ -62,7 +62,7 @@ export default class FollowManager {
     }
 
     private getFollowersStatement: SQLite.Statement
-    getFollowers(category: string): { channelID: string }[] {
+    getFollowers(category: string): { channelID: Snowflake }[] {
         return this.getFollowersStatement.all({
             category
         })
@@ -87,7 +87,7 @@ export default class FollowManager {
     }
 
     private dropChannelStatement: SQLite.Statement
-    dropChannel(channelID: string): void {
+    dropChannel(channelID: Snowflake): void {
         Logger.info(`Removing channel ${channelID}`)
         this.dropChannelStatement.run({
             channelID
@@ -95,7 +95,7 @@ export default class FollowManager {
     }
 
     private dropGuildStatement: SQLite.Statement
-    dropGuild(guildID: string): void {
+    dropGuild(guildID: Snowflake): void {
         Logger.info(`Removing guild ${guildID}`)
         this.dropGuildStatement.run({
             guildID
@@ -103,18 +103,18 @@ export default class FollowManager {
     }
 
     private followingStatement: SQLite.Statement
-    following(guild: Guild): { category: FollowCategory, channelID: string }[] {
+    following(guild: Guild): { category: FollowCategory, channelID: Snowflake }[] {
         return this.followingStatement.all({
             guildID: guild.id
         })
     }
 
-    async send(category: FollowCategory, content?: StringResolvable, embed?: MessageEmbed | MessageAttachment): Promise<(Message | Message[])[]> {
+    async send(category: FollowCategory, content?: string, embed?: MessageEmbed | MessageAttachment): Promise<(Message | Message[])[]> {
         let channels = this.getFollowers(category).map(k => k.channelID)
         channels = channels.filter((val, ind) => channels.indexOf(val) === ind)
 
         Logger.info(`Sending ${category} to ${channels.length} channels: ${content}`)
-        const messages = (await sendToChannels(channels, content, embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
+        const messages = (await sendToChannels(channels, content ?? "", embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
 
         for (const message of messages)
             if (message instanceof Message && message.channel.type === "news")

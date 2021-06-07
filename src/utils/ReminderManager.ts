@@ -4,6 +4,7 @@ import { ensureDirSync } from "fs-extra"
 
 import { Reminder } from "./Types"
 import { timeLeft } from "./Utils"
+import { Snowflake } from "discord.js"
 
 const Logger = log4js.getLogger("ReminderManager")
 ensureDirSync("data/")
@@ -31,7 +32,7 @@ export default class ReminderManager {
     }
 
     private addReminderStatement: SQLite.Statement
-    addReminder(id: number, subject: string, userid: string, duration: number, timestamp: number): Reminder {
+    addReminder(id: number, subject: string, userid: Snowflake, duration: number, timestamp: number): Reminder {
         const reminder: Reminder = {
             id,
             subject,
