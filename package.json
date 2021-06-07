@@ -20,7 +20,7 @@
     "homepage": "https://github.com/Tibowl/HuTao#readme",
     "dependencies": {
         "better-sqlite3": "^7.1.4",
-        "discord.js": "^12.5.2",
+        "discord.js": "^13.0.0-dev.dec191aa1e4f22690285ca06c6eee7e6086b2930",
         "enmap": "^5.8.4",
         "fs-extra": "^9.1.0",
         "log4js": "^6.3.0",

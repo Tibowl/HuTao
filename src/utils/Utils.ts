@@ -278,7 +278,7 @@ export function getEventEmbed(event: Event): MessageEmbed {
     embed.setTitle(event.name)
     if (event.img) embed.setImage(event.img)
     if (event.link) embed.setURL(event.link)
-    embed.addField(event.type == EventType.Unlock ? "Unlock Time" : "Start Time", event.start ? `${event.start}${event.timezone?` (GMT${event.timezone})`:""}` : "Unknown", true)
+    embed.addField(event.type == EventType.Unlock ? "Unlock Time" : "Start Time", event.start ? `${event.prediction ? "(prediction) " : ""}${event.start}${event.timezone?` (GMT${event.timezone})`:""}` : "Unknown", true)
     if (event.end) embed.addField("End Time", `${event.end}${event.timezone?` (GMT${event.timezone})`:""}`, true)
     if (event.type && event.type !== EventType.Unlock) embed.addField("Type", event.type, true)
 

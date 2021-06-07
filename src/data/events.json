@@ -272,6 +272,9 @@
     {
         "name": "\"Legend of the Vagabond Sword\" Event",
         "type": "In-game",
+        "img": "https://i.imgur.com/xDdChWz.png",
+        "start": "2021-06-25 10:00:00",
+        "end": "2021-07-08 03:59:00",
         "reminder": "end"
     },
     {
