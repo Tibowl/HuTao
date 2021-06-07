@@ -21,6 +21,16 @@ const possibleStars = client.data.getCharacters()
     .filter((v, i, arr) => arr.indexOf(v) == i)
     .sort((a, b) => a-b)
 
+const elementMap: Record<string, string|undefined> = {
+    Wind: "Anemo",
+    Rock: "Geo",
+    Electric: "Electro",
+    Fire: "Pyro",
+    Grass: "Dendro",
+    Ice: "Cryo",
+    Water: "Hydro",
+}
+
 type TalentMode = "LITTLE" | "HIGH" | "LOW"
 
 export default class CharacterCommand extends Command {
@@ -129,13 +139,13 @@ Note: this command supports fuzzy search.`,
         addArg(args, ["-const", "-constellation", "-constellations", "-c"], () => defaultPage = "Constellations")
 
         // for MC
-        if (elementFilter.includes("Anemo")) defaultPage = data.emojis.Wind
-        if (elementFilter.includes("Geo")) defaultPage = data.emojis.Rock
-        if (elementFilter.includes("Electro")) defaultPage = data.emojis.Electric
-        if (elementFilter.includes("Pyro")) defaultPage = data.emojis.Fire
-        if (elementFilter.includes("Dendro")) defaultPage = data.emojis.Grass
-        if (elementFilter.includes("Cryo")) defaultPage = data.emojis.Ice
-        if (elementFilter.includes("Hydro")) defaultPage = data.emojis.Water
+        if (elementFilter.includes("Anemo")) defaultPage = "Anemo"
+        if (elementFilter.includes("Geo")) defaultPage = "Geo"
+        if (elementFilter.includes("Electro")) defaultPage = "Electro"
+        if (elementFilter.includes("Pyro")) defaultPage = "Pyro"
+        if (elementFilter.includes("Dendro")) defaultPage = "Dendro"
+        if (elementFilter.includes("Cryo")) defaultPage = "Cryo"
+        if (elementFilter.includes("Hydro")) defaultPage = "Hydro"
 
         const char = data.getCharacterByName(args.join(" "))
         if (char == undefined)
@@ -424,7 +434,7 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
 
                 pages.push({
                     bookmarkEmoji: data.emojis[skills.ult.type as BotEmoji] ?? "❔",
-                    bookmarkName: skills.ult.type ?? "Unknown",
+                    bookmarkName: elementMap[skills.ult.type ?? "?"] ?? "Unknown",
                     maxPages: skills.talents.length + 3,
                     pages: (rp, cp, mp) => this.getCharacter(char, rp + offset, cp, mp, talentMode)
                 })
