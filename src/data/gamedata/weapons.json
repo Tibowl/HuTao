@@ -2620,7 +2620,7 @@
         }
       }
     ],
-    "lore": "When the young Arundolyn swung his replica greatsword — modeled off the great Ravenwood, the Knight of Boreas's own greatsword — imagining that he was cutting the old nobles of Mondstadt down, he never envisaged he would become the renowned \"Lion of Light.\" Nor did he envisage that his young rival Rostam, who later died after serving the people of Mondstadt for 23 years, would one day become his most trusted right-hand man.\nThe replica of the Lion of Light's greatsword is now in the hands of another youngster.\nHow will this mysterious fate be passed on?",
+    "lore": "When the young Arundolyn swung his replica greatsword — modeled off the one wielded by Ravenwood, the Knight of Boreas — imagining that he was cutting the old nobles of Mondstadt down, he never envisaged that he would one day become the renowned \"Lion of Light.\" Nor did he envisage that his playmate Rostam, with whom he sparred in their childhood, would grow up to become his most trusted right-hand man, before going on to die in the course of duty, having served the people of Mondstadt for 23 years.\nThe replica of the Lion of Light's greatsword is now in the hands of another youngster.\nHow will this mysterious fate be passed on?",
     "refinement": [
       [
         {
@@ -9336,23 +9336,23 @@
       [
         {
           "name": "Rebellious Guardian",
-          "desc": "Taking DMG generates a shield which absorbs DMG up to **20%** of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every **45**s. While protected by the shield, the character gains **12%** increased DMG."
+          "desc": "Taking DMG generates a shield which absorbs DMG up to **20%** of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every **45**s. While protected by a shield, the character gains **12%** increased DMG."
         },
         {
           "name": "Rebellious Guardian",
-          "desc": "Taking DMG generates a shield which absorbs DMG up to **23%** of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every **45**s. While protected by the shield, the character gains **15%** increased DMG."
+          "desc": "Taking DMG generates a shield which absorbs DMG up to **23%** of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every **45**s. While protected by a shield, the character gains **15%** increased DMG."
         },
         {
           "name": "Rebellious Guardian",
-          "desc": "Taking DMG generates a shield which absorbs DMG up to **26%** of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every **45**s. While protected by the shield, the character gains **18%** increased DMG."
+          "desc": "Taking DMG generates a shield which absorbs DMG up to **26%** of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every **45**s. While protected by a shield, the character gains **18%** increased DMG."
         },
         {
           "name": "Rebellious Guardian",
-          "desc": "Taking DMG generates a shield which absorbs DMG up to **29%** of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every **45**s. While protected by the shield, the character gains **21%** increased DMG."
+          "desc": "Taking DMG generates a shield which absorbs DMG up to **29%** of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every **45**s. While protected by a shield, the character gains **21%** increased DMG."
         },
         {
           "name": "Rebellious Guardian",
-          "desc": "Taking DMG generates a shield which absorbs DMG up to **32%** of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every **45**s. While protected by the shield, the character gains **24%** increased DMG."
+          "desc": "Taking DMG generates a shield which absorbs DMG up to **32%** of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every **45**s. While protected by a shield, the character gains **24%** increased DMG."
         }
       ]
     ]
@@ -15650,6 +15650,223 @@
       ]
     ]
   },
+  "Dodoco Tales": {
+    "name": "Dodoco Tales",
+    "desc": "A children's book filled with childish short stories at which one cannot help but laugh.\\nEven those readers who have long reached adulthood cannot help but be absorbed by the innocent, naive little adventures portrayed within.",
+    "weaponType": "Catalyst",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 41.067100524902344,
+        "curve": "ATK 2.4"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.11999999731779099,
+        "curve": "C2"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ludiharpastum.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ludiharpastum_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ],
+        "cost": {
+          "mora": 5000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Boreal Wolf's Milk Tooth"
+            },
+            {
+              "count": 3,
+              "name": "Dead Ley Line Branch"
+            },
+            {
+              "count": 2,
+              "name": "Damaged Mask"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ],
+        "cost": {
+          "mora": 15000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Boreal Wolf's Cracked Tooth"
+            },
+            {
+              "count": 12,
+              "name": "Dead Ley Line Branch"
+            },
+            {
+              "count": 8,
+              "name": "Damaged Mask"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Boreal Wolf's Cracked Tooth"
+            },
+            {
+              "count": 6,
+              "name": "Dead Ley Line Leaves"
+            },
+            {
+              "count": 6,
+              "name": "Stained Mask"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Boreal Wolf's Broken Fang"
+            },
+            {
+              "count": 12,
+              "name": "Dead Ley Line Leaves"
+            },
+            {
+              "count": 9,
+              "name": "Stained Mask"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 35000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Boreal Wolf's Broken Fang"
+            },
+            {
+              "count": 9,
+              "name": "Ley Line Sprout"
+            },
+            {
+              "count": 6,
+              "name": "Ominous Mask"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 4,
+              "name": "Boreal Wolf's Nostalgia"
+            },
+            {
+              "count": 18,
+              "name": "Ley Line Sprout"
+            },
+            {
+              "count": 12,
+              "name": "Ominous Mask"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "Legend has it that there is a group of islands somewhere far away in the middle of a foggy sea, and this place is called the Golden Apple Archipelago.\nThey say that the cute and peace-loving Dodo Clan lives together on the many islands, and they have no troubles with the rest of the world.\nThe Dodo Clan are kind and playful creatures, and they love to tease each other and play with each other, and none of them ever get bored or sad.\n\"Dodoco!\" they all call each other, and that means \"the best of friends!\"\n\nBut just as dandelion seeds will one day leave the embrace of their stalk and go with the wind, every Dodoco will one day ride the wind and the waves, and travel to the wider world on an adventure, searching for a four-leaf clover.\nWhy must they do this?\nIt's because, having lived for a long time on the Golden Apple Archipelago, the Dodocos can no longer recognize each other. They're all \"Dodocos,\" and they all look the same, after all! So there's no \"you\" or \"me\" for them at all!\nBut only the red, blazing four-leaf clover can let them know the true meaning of \"Dodoco\" and tell each other apart, thus allowing them to play freely with all their friends!\n...At least, that's what my mom says, and she can do just about aaaanything!\nSo, in order to understand what makes a true \"Dodoco,\" they leave their good friends and go to faraway places to make new good friends and become their \"Dodoco,\" too!\nThey'll see all kinds of nice things, hear all kinds of interesting stuff, meet lots of friends... and one day, when their friends are looking at them, at a time when no one expects it — that's when the blazing, sparkling four-leaf clover will appear!\n\nAnd that's why when a furry Dodoco from the Golden Apple Archipelago tumbles into the sea or leaps into the wind before drifting far, far away, that means that a lucky child is about to meet their bestest friend ever!\nThis small, precious book was given by the freest mother in the world to the luckiest daughter in the world. It chronicles the countless adventures that Dodoco had before meeting her, and the adventures that she and Dodoco have had since — bigger and better adventures filled with sparks, splashes, treasures, and lots of friends!",
+    "refinement": [
+      [
+        {
+          "name": "Dodoventure!",
+          "desc": "Normal Attack hits on opponents increase Charged Attack DMG by **16%** for 6s. Charged Attack hits on opponents increase ATK by **8%** for 6s."
+        },
+        {
+          "name": "Dodoventure!",
+          "desc": "Normal Attack hits on opponents increase Charged Attack DMG by **20%** for 6s. Charged Attack hits on opponents increase ATK by **10%** for 6s."
+        },
+        {
+          "name": "Dodoventure!",
+          "desc": "Normal Attack hits on opponents increase Charged Attack DMG by **24%** for 6s. Charged Attack hits on opponents increase ATK by **12%** for 6s."
+        },
+        {
+          "name": "Dodoventure!",
+          "desc": "Normal Attack hits on opponents increase Charged Attack DMG by **28%** for 6s. Charged Attack hits on opponents increase ATK by **14%** for 6s."
+        },
+        {
+          "name": "Dodoventure!",
+          "desc": "Normal Attack hits on opponents increase Charged Attack DMG by **32%** for 6s. Charged Attack hits on opponents increase ATK by **16%** for 6s."
+        }
+      ]
+    ]
+  },
   "Favonius Warbow": {
     "name": "Favonius Warbow",
     "desc": "A standard-issue recurve bow of the Knights of Favonius. Only the best archers can unleash its full potential.",
@@ -18037,6 +18254,223 @@
       ]
     ]
   },
+  "Mitternachts Waltz": {
+    "name": "Mitternachts Waltz",
+    "desc": "A bow painted the color of transgression and nights of illusion.",
+    "weaponType": "Bow",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "Physical DMG Bonus",
+        "init": 0.11259999871253967,
+        "curve": "C2"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Nachtblind.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Nachtblind_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ],
+        "cost": {
+          "mora": 5000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Tile of Decarabian's Tower"
+            },
+            {
+              "count": 3,
+              "name": "Heavy Horn"
+            },
+            {
+              "count": 2,
+              "name": "Treasure Hoarder Insignia"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ],
+        "cost": {
+          "mora": 15000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Debris of Decarabian's City"
+            },
+            {
+              "count": 12,
+              "name": "Heavy Horn"
+            },
+            {
+              "count": 8,
+              "name": "Treasure Hoarder Insignia"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Debris of Decarabian's City"
+            },
+            {
+              "count": 6,
+              "name": "Black Bronze Horn"
+            },
+            {
+              "count": 6,
+              "name": "Silver Raven Insignia"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Fragment of Decarabian's Epic"
+            },
+            {
+              "count": 12,
+              "name": "Black Bronze Horn"
+            },
+            {
+              "count": 9,
+              "name": "Silver Raven Insignia"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 35000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Fragment of Decarabian's Epic"
+            },
+            {
+              "count": 9,
+              "name": "Black Crystal Horn"
+            },
+            {
+              "count": 6,
+              "name": "Golden Raven Insignia"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 4,
+              "name": "Scattered Piece of Decarabian's Dream"
+            },
+            {
+              "count": 18,
+              "name": "Black Crystal Horn"
+            },
+            {
+              "count": 12,
+              "name": "Golden Raven Insignia"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "...\n\"Mein Fräulein, not one tear of yours was shed in vain during your pilgrimage.\"\nThus spoke Ozvaldo Hrafnavins when the Prinzessin when her journey in the land of ever-silence came to a close.\n\nIn their long journey across space and time, the Prinzessin der Verurteilung and her Night-Severing Raven bore witness to countless stories and their endings, each a raindrop that flows at the journey's end into a bitter sea. Every young man's rage at injustice must turn to calm. Every passion must be ground into dust by the march of time, before being turned to wild paranoia upon that inverted, ancient tree. Even the branch of the tree of time upon which the great and glorious Reman Republic nested would be cut off in the end, such that the nation founded by the other twin child of the wolves might rule.\nEverything in this world must pass through the doorway of their destruction unto the future kingdom of the Prinzessin. In the silence of her pitch-dark Nachtgarten would they find a place to slumber.\nEven so, when Droctfult fell at the hands of the Beast of the World, having fought for the dreams of a young man and the rain that had yet to fall, and was torn to shred by its claws, the Prinzessin still began to tear up.\n\n\"Hearken well, Ozvaldo Hrafnavins. The Sovereign of the Immernachtreich weepeth not.\"\nShe went on, \"Who among those born into this world are not burdened with sin? When the clock sounds for the time of judgment once more, the skirt of night shall descend once more. Then, the writhing struggles of man and beast trapped within will be naught but a midnight waltz.\"\n\n\"It is as you say, mein Fräulein.\"\n\"Hmph. As well you should know.\"\n\"Well then, mein Fräulein, I wonder if you still recall this tale...\"\n\nTwo of the three bright moons that caused the perfumed sea of the primordial universe to shine and stirred up the beasts of the Arianrhod Realm were shredded by a sword that tore the horizon asunder, left in smithereens too small even for the mystical sight of the Prinzessin.\nOr perhaps this was what happened: the bright moons that once illuminated a universe, brought dreams and song to the sweet sleepers of three worlds, and awakened a deep longing in the beast-herds that wandered betwixt dawn and dusk — they were at last rendered dust. But even so, they too wished to remain within the eternal, shining gaze of the Prinzessin, bringing their subtle light unto more lands still.\n\nIndeed. A Prinzessin does not shed tears.\nThat was merely a natural secretion from her royal eyes, affronted as they were by the untimely intrusion of those impudent grains of sand.\n\n—Volume End—",
+    "refinement": [
+      [
+        {
+          "name": "Evernight Duet",
+          "desc": "Normal Attack hits on opponents increase Elemental Skill DMG by **20%** for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by **20%** for 5s."
+        },
+        {
+          "name": "Evernight Duet",
+          "desc": "Normal Attack hits on opponents increase Elemental Skill DMG by **25%** for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by **25%** for 5s."
+        },
+        {
+          "name": "Evernight Duet",
+          "desc": "Normal Attack hits on opponents increase Elemental Skill DMG by **30%** for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by **30%** for 5s."
+        },
+        {
+          "name": "Evernight Duet",
+          "desc": "Normal Attack hits on opponents increase Elemental Skill DMG by **35%** for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by **35%** for 5s."
+        },
+        {
+          "name": "Evernight Duet",
+          "desc": "Normal Attack hits on opponents increase Elemental Skill DMG by **40%** for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by **40%** for 5s."
+        }
+      ]
+    ]
+  },
   "Aquila Favonia": {
     "name": "Aquila Favonia",
     "desc": "The soul of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil — just like the last heroine who wielded it.",
@@ -18901,6 +19335,223 @@
         {
           "name": "Protector's Virtue",
           "desc": "HP increased by **40%**. Additionally, provides an ATK Bonus based on **2.4%** of the wielder's Max HP."
+        }
+      ]
+    ]
+  },
+  "Freedom-Sworn": {
+    "name": "Freedom-Sworn",
+    "desc": "A straight sword, azure as antediluvian song, and as keen as the oaths of freedom taken in the Land of Wind.",
+    "weaponType": "Sword",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 45.9364013671875,
+        "curve": "ATK 3.1"
+      },
+      {
+        "stat": "Elemental Mastery",
+        "init": 43.20000076293945,
+        "curve": "C3"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Widsith.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Widsith_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ],
+        "cost": {
+          "mora": 10000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Fetters of the Dandelion Gladiator"
+            },
+            {
+              "count": 5,
+              "name": "Chaos Device"
+            },
+            {
+              "count": 3,
+              "name": "Divining Scroll"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Chains of the Dandelion Gladiator"
+            },
+            {
+              "count": 18,
+              "name": "Chaos Device"
+            },
+            {
+              "count": 12,
+              "name": "Divining Scroll"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 9,
+              "name": "Chains of the Dandelion Gladiator"
+            },
+            {
+              "count": 9,
+              "name": "Chaos Circuit"
+            },
+            {
+              "count": 9,
+              "name": "Sealed Scroll"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Shackles of the Dandelion Gladiator"
+            },
+            {
+              "count": 18,
+              "name": "Chaos Circuit"
+            },
+            {
+              "count": 14,
+              "name": "Sealed Scroll"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 55000,
+          "items": [
+            {
+              "count": 9,
+              "name": "Shackles of the Dandelion Gladiator"
+            },
+            {
+              "count": 14,
+              "name": "Chaos Core"
+            },
+            {
+              "count": 9,
+              "name": "Forbidden Curse Scroll"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 65000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Dream of the Dandelion Gladiator"
+            },
+            {
+              "count": 27,
+              "name": "Chaos Core"
+            },
+            {
+              "count": 18,
+              "name": "Forbidden Curse Scroll"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "People would once raise a toast to a traveler's song that was thusly sung:\n\"If someone plucks out your tongue, you can still sing with your eyes.\"\n\"If someone blinds you in both eyes, you can still see with your ears.\"\n\"If someone conspires to destroy tomorrow, then raise them a glass,\"\n\"For even if tomorrow dies, this song shall live on.\"\n\nThey say that a region's character follows that of its archon, and that this holds true both for the people and the land itself.\nBut was it the unfettered archon who bestowed a love of freedom and wine upon the land and people amidst conflict?\nOr was it the people who nurtured the Anemo Archon's love of freedom as they pined for it amid the howling wind and frost?\nThis is a question that can no longer be answered.\n\nBut that song is often sung in dark times.\nWhether in the days when Decarabian reigned from his gale-crowned tower,\nOr when the corrupt nobility overturned the archon's likeness,\nIn cloistered cellars, in dark alleys, and in decrepit taverns,\nThe song seeped through the gale and the iron fist of tyranny, and became an anthem for resisting heroes.\n\nIn the distant past, in a silent city ringed in from all sides,\nCheers erupted to the sound of a lyre and at last pierced the prison of raging winds.\nA certain group, comprised of a youth, a spirit, an archer, a knight and a wandering flame-haired warrior,\nCame and stood before the tower that loomed like a sky-piercing lance,\nThat cast a shadow like that of a titan,\nAnd they swore to be free, and vowed to shatter the rule of the tower's lone tyrant.\n\nThe weak and infirm who could not scale the tower instead sang the song that, till now, had only ever been whispered in corners where the wind did not reach,\nAnd that drinking song rose up with force enough to shake the city walls, spurring the heroes on as they climbed...\n\"If someone plucks out your tongue, you can still sing with your eyes.\"\n\"If someone blinds you in both eyes, you can still see with your ears.\"\n\"But if anyone dares to steal your song, the freedom you yearn for,\"\n\"— That alone, that alone shall never do!\"",
+    "refinement": [
+      [
+        {
+          "name": "Revolutionary Chorale",
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by **10%**. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by **16%** and increases ATK by **20%**. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
+        },
+        {
+          "name": "Revolutionary Chorale",
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by **12.5%**. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by **20%** and increases ATK by **25%**. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
+        },
+        {
+          "name": "Revolutionary Chorale",
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by **15%**. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by **24%** and increases ATK by **30%**. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
+        },
+        {
+          "name": "Revolutionary Chorale",
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by **17.5%**. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by **28%** and increases ATK by **35%**. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
+        },
+        {
+          "name": "Revolutionary Chorale",
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by **20%**. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by **32%** and increases ATK by **40%**. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
         }
       ]
     ]

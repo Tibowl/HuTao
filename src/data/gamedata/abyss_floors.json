@@ -91,7 +91,7 @@
   },
   "3": {
     "teams": 1,
-    "leyline": "Increases Swirl reaction DMG by 300%, and its AoE by 100%.\nAnemo DMG dealt by all party members increased by 75%.",
+    "leyline": "Increases Swirl DMG by 300% and its AoE by 100%.\nAnemo DMG dealt by all party members increased by 75%.",
     "chambers": [
       {
         "chamber": 1,
@@ -1067,6 +1067,242 @@
             "Fatui Pyro Agent",
             "Fatui Electro Cicin Mage",
             "Fatui Cryo Cicin Mage"
+          ]
+        ]
+      }
+    ]
+  },
+  "20": {
+    "teams": 2,
+    "leyline": "Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.\nOpponents will attack the Ruin Braziers, preventing them from diminishing the effects of Sheer Cold in the area. Deactivated Ruin Braziers will restart after a while.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 71,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Ice Shieldwall Mitachurl",
+            "Ice Shield Hilichurl Guard",
+            "Cryo Whopperflower"
+          ],
+          [
+            "Cryo Abyss Mage",
+            "Ice Shieldwall Mitachurl",
+            "Cryo Samachurl",
+            "Cryo Hilichurl Shooter",
+            "Electro Hilichurl Shooter"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 73,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Ice Shieldwall Mitachurl",
+            "Ice Shield Hilichurl Guard",
+            "Cryo Hilichurl Grenadier",
+            "Cryo Whopperflower"
+          ],
+          [
+            "Fatui Skirmisher - Cryogunner Legionnaire",
+            "Fatui Skirmisher - Hydrogunner Legionnaire",
+            "Fatui Skirmisher - Geochanter Bracer",
+            "Fatui Skirmisher - Anemoboxer Vanguard"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 75,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Frostarm Lawachurl",
+            "Cryo Samachurl",
+            "Cryo Hilichurl Shooter",
+            "Electro Hilichurl Shooter"
+          ],
+          [
+            "Cryo Abyss Mage",
+            "Hydro Abyss Mage",
+            "Ice Shieldwall Mitachurl"
+          ]
+        ]
+      }
+    ]
+  },
+  "21": {
+    "teams": 2,
+    "leyline": "Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.\nWarming Seelie appear on the field, and will continually alleviate nearby characters' Sheer Cold.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 79,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Hydro Abyss Mage",
+            "Cryo Whopperflower",
+            "Cryo Hilichurl Grenadier",
+            "Large Cryo Slime",
+            "Large Hydro Slime"
+          ],
+          [
+            "Abyss Herald: Wicked Torrents",
+            "Cryo Abyss Mage"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 81,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Ice Shieldwall Mitachurl",
+            "Ice Shield Hilichurl Guard",
+            "Cryo Hilichurl Grenadier",
+            "Anemo Samachurl",
+            "Hydro Samachurl"
+          ],
+          [
+            "Abyss Lector: Violet Lightning",
+            "Cryo Abyss Mage"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 84,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Cryo Hypostasis"
+          ],
+          [
+            "Frostarm Lawachurl",
+            "Hydro Abyss Mage"
+          ]
+        ]
+      }
+    ]
+  },
+  "22": {
+    "teams": 2,
+    "leyline": "Increases Swirl DMG by 300% and its AoE by 100%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 87,
+        "conds": "More than 20/40/60% HP left",
+        "monsters": [
+          [
+            "Blazing Axe Mitachurl",
+            "Wooden Shieldwall Mitachurl",
+            "Hilichurl Berserker",
+            "Wooden Shield Hilichurl Guard",
+            "Pyro Hilichurl Shooter",
+            "Cryo Hilichurl Shooter",
+            "Electro Hilichurl Shooter"
+          ],
+          [
+            "Stonehide Lawachurl",
+            "Rock Shield Hilichurl Guard",
+            "Cryo Hilichurl Grenadier",
+            "Hilichurl Grenadier"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 89,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Fatui Skirmisher - Pyroslinger Bracer",
+            "Fatui Skirmisher - Electrohammer Vanguard",
+            "Fatui Skirmisher - Anemoboxer Vanguard"
+          ],
+          [
+            "Fatui Skirmisher - Cryogunner Legionnaire",
+            "Fatui Skirmisher - Hydrogunner Legionnaire",
+            "Fatui Skirmisher - Geochanter Bracer"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 91,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Ruin Hunter",
+            "Ruin Guard"
+          ],
+          [
+            "Abyss Lector: Violet Lightning",
+            "Abyss Herald: Wicked Torrents"
+          ]
+        ]
+      }
+    ]
+  },
+  "23": {
+    "teams": 2,
+    "leyline": "For this floor only, the ley line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 94,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Geovishap"
+          ],
+          [
+            "Geovishap"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 97,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Fatui Cryo Cicin Mage",
+            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders: Gravedigger",
+            "Treasure Hoarders - Pugilist",
+            "Treasure Hoarders - Crusher",
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders: Hydro Potioneer",
+            "Treasure Hoarders: Electro Potioneer",
+            "Treasure Hoarders: Cryo Potioneer"
+          ],
+          [
+            "Stonehide Lawachurl",
+            "Geovishap Hatchling"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 99,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Abyss Lector: Violet Lightning",
+            "Pyro Abyss Mage",
+            "Hydro Abyss Mage"
+          ],
+          [
+            "Abyss Herald: Wicked Torrents",
+            "Pyro Abyss Mage",
+            "Cryo Abyss Mage"
           ]
         ]
       }

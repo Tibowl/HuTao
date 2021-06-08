@@ -34927,7 +34927,7 @@
           "charges": 1,
           "talentTable": [
             {
-              "name": "Normal Attack/Charged Attack/Plunging Attack DMG Bonus",
+              "name": "Normal/Charged/Plunging Attack DMG Bonus",
               "values": [
                 "58.5%",
                 "61.9%",
@@ -37956,61 +37956,61 @@
               {
                 "name": "1-Hit DMG",
                 "values": [
-                  "58.34%",
-                  "62.72%",
-                  "67.09%",
-                  "72.93%",
-                  "77.30%",
-                  "81.68%",
-                  "87.51%",
-                  "93.35%",
-                  "99.18%",
-                  "105.01%",
-                  "110.85%",
-                  "116.68%",
-                  "123.98%",
-                  "131.27%",
-                  "138.56%"
+                  "58.3%",
+                  "62.7%",
+                  "67.1%",
+                  "72.9%",
+                  "77.3%",
+                  "81.7%",
+                  "87.5%",
+                  "93.3%",
+                  "99.2%",
+                  "105.0%",
+                  "110.8%",
+                  "116.7%",
+                  "124.0%",
+                  "131.3%",
+                  "138.6%"
                 ]
               },
               {
                 "name": "2-Hit DMG",
                 "values": [
-                  "52.13%",
-                  "56.04%",
-                  "59.94%",
-                  "65.16%",
-                  "69.07%",
-                  "72.98%",
-                  "78.19%",
-                  "83.40%",
-                  "88.61%",
-                  "93.83%",
-                  "99.04%",
-                  "104.25%",
-                  "110.77%",
-                  "117.28%",
-                  "123.80%"
+                  "52.1%",
+                  "56.0%",
+                  "59.9%",
+                  "65.2%",
+                  "69.1%",
+                  "73.0%",
+                  "78.2%",
+                  "83.4%",
+                  "88.6%",
+                  "93.8%",
+                  "99.0%",
+                  "104.3%",
+                  "110.8%",
+                  "117.3%",
+                  "123.8%"
                 ]
               },
               {
                 "name": "3-Hit DMG",
                 "values": [
-                  "76.01%",
-                  "81.71%",
-                  "87.41%",
-                  "95.02%",
-                  "100.72%",
-                  "106.42%",
-                  "114.02%",
-                  "121.62%",
-                  "129.22%",
-                  "136.82%",
-                  "144.42%",
-                  "152.03%",
-                  "161.53%",
-                  "171.03%",
-                  "180.53%"
+                  "76.0%",
+                  "81.7%",
+                  "87.4%",
+                  "95.0%",
+                  "100.7%",
+                  "106.4%",
+                  "114.0%",
+                  "121.6%",
+                  "129.2%",
+                  "136.8%",
+                  "144.4%",
+                  "152.0%",
+                  "161.5%",
+                  "171.0%",
+                  "180.5%"
                 ]
               },
               {
@@ -39069,7 +39069,8 @@
     "weaponType": "Claymore",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Eula.png",
     "imgs": [
-      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Eula@2x.png"
+      "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/Character_Eula_Card.png/revision/latest?cb=20210511110453",
+      "https://static.wikia.nocookie.net/gensin-impact/images/3/3b/Character_Eula_Portrait.png/revision/latest?cb=20210518105701"
     ],
     "hpBase": 1029.5855712890625,
     "attackBase": 26.62660026550293,
@@ -40108,12 +40109,12 @@
           {
             "name": "Tidal Illusion",
             "desc": "Every time **Icetide Vortex**'s Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Eula_01.png"
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Eula_02.png"
           },
           {
             "name": "Lady of Seafoam",
             "desc": "Decreases the CD of **Icetide Vortex**'s Holding Mode, rendering it identical to Press CD.",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Eula_02.png"
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Eula_01.png"
           },
           {
             "name": "Lawrence Pedigree",
@@ -40415,6 +40416,1205 @@
           {
             "stat": "CRIT DMG",
             "value": 0.3840000033378601
+          }
+        ]
+      }
+    ]
+  },
+  "Kaedehara Kazuha": {
+    "name": "Kaedehara Kazuha",
+    "desc": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.",
+    "releasedOn": "2021-06-29 18:00:00",
+    "star": 5,
+    "weaponType": "Sword",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kazuha.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Character_Kazuha_Card.png/revision/latest?cb=20210607100841"
+    ],
+    "hpBase": 1039.1187744140625,
+    "attackBase": 23.08880043029785,
+    "defenseBase": 62.82149887084961,
+    "criticalBase": 0.05000000074505806,
+    "criticalHurtBase": 0.5,
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 10,
+      "birthDay": 29,
+      "association": "Inazuma",
+      "title": "Scarlet Leaves Pursue Wild Waves",
+      "detail": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.",
+      "affiliation": "Crux Fleet",
+      "element": "Anemo",
+      "constellation": "Acer Palmatum",
+      "cvChinese": "斑马",
+      "cvJapanese": "島﨑信長",
+      "cvEnglish": "Mark Whitten",
+      "cvKorean": "김신우"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Garyuu Bladework",
+            "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact. If this Plunging Attack is triggered by Chihayaburu, it will be converted to Plunging Attack: Midare Ranzan.\n\n**Plunging Attack: Midare Ranzan**\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to **Anemo DMG** and will create a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "45.0%",
+                  "48.6%",
+                  "52.3%",
+                  "57.5%",
+                  "61.2%",
+                  "65.4%",
+                  "71.1%",
+                  "76.9%",
+                  "82.6%",
+                  "88.9%",
+                  "96.1%",
+                  "104.6%",
+                  "113.0%",
+                  "121.5%",
+                  "130.7%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "45.2%",
+                  "48.9%",
+                  "52.6%",
+                  "57.9%",
+                  "61.5%",
+                  "65.8%",
+                  "71.5%",
+                  "77.3%",
+                  "83.1%",
+                  "89.4%",
+                  "96.7%",
+                  "105.2%",
+                  "113.7%",
+                  "122.2%",
+                  "131.4%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "25.8%+31.0%",
+                  "27.9%+33.5%",
+                  "30.0%+36.0%",
+                  "33.0%+39.6%",
+                  "35.1%+42.1%",
+                  "37.5%+45.0%",
+                  "40.8%+49.0%",
+                  "44.1%+52.9%",
+                  "47.4%+56.9%",
+                  "51.0%+61.2%",
+                  "55.1%+66.1%",
+                  "60.0%+72.0%",
+                  "64.8%+77.8%",
+                  "69.7%+83.6%",
+                  "75.0%+90.0%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "60.7%",
+                  "65.7%",
+                  "70.6%",
+                  "77.7%",
+                  "82.6%",
+                  "88.2%",
+                  "96.0%",
+                  "103.8%",
+                  "111.5%",
+                  "120.0%",
+                  "129.7%",
+                  "141.1%",
+                  "152.6%",
+                  "164.0%",
+                  "176.4%"
+                ]
+              },
+              {
+                "name": "5-Hit DMG",
+                "values": [
+                  "25.4%×3",
+                  "27.4%×3",
+                  "29.5%×3",
+                  "32.4%×3",
+                  "34.5%×3",
+                  "36.9%×3",
+                  "40.1%×3",
+                  "43.4%×3",
+                  "46.6%×3",
+                  "50.2%×3",
+                  "54.2%×3",
+                  "59.0%×3",
+                  "63.7%×3",
+                  "68.5%×3",
+                  "73.7%×3"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "43.0%+74.6%",
+                  "46.5%+80.7%",
+                  "50.0%+86.8%",
+                  "55.0%+95.5%",
+                  "58.5%+101.6%",
+                  "62.5%+108.5%",
+                  "68.0%+118.0%",
+                  "73.5%+127.6%",
+                  "79.0%+137.1%",
+                  "85.0%+147.6%",
+                  "91.9%+159.5%",
+                  "100.0%+173.5%",
+                  "108.0%+187.6%",
+                  "116.1%+201.6%",
+                  "125.0%+216.9%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "values": [
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0"
+                ]
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "81.8%",
+                  "88.5%",
+                  "95.2%",
+                  "104.7%",
+                  "111.3%",
+                  "118.9%",
+                  "129.4%",
+                  "139.9%",
+                  "150.3%",
+                  "161.8%",
+                  "173.2%",
+                  "184.6%",
+                  "196.0%",
+                  "207.4%",
+                  "218.9%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "163.63%/204.39%",
+                  "176.95%/221.02%",
+                  "190.27%/237.66%",
+                  "209.30%/261.42%",
+                  "222.62%/278.06%",
+                  "237.84%/297.07%",
+                  "258.77%/323.21%",
+                  "279.70%/349.36%",
+                  "300.63%/375.50%",
+                  "323.46%/404.02%",
+                  "346.29%/432.54%",
+                  "369.12%/461.06%",
+                  "391.96%/489.57%",
+                  "414.79%/518.09%",
+                  "437.62%/546.61%"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Diligence"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Treasure Hoarder Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Diligence"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Diligence"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Diligence"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Diligence"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Diligence"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Gilded Scale"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Diligence"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Gilded Scale"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Diligence"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Gilded Scale"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Diligence"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Gilded Scale"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Chihayaburu",
+            "desc": "Unleashes a secret technique as fierce as the rushing wind that pulls objects and opponents towards Kazuha's current position before launching opponents within the AoE, dealing **Anemo DMG** and lifting Kazuha into the air on a rushing gust of wind.\nWithin 10s of remaining airborne after casting Chihayaburu, Kazuha can unleash a powerful Plunging Attack known as Midare Ranzan.\n\n**Press**\nCan be used in mid-air.\n\n**Hold**\nCharges up before unleashing greater **Anemo DMG** over a larger AoE than Press Mode.\n\n**Plunging Attack: Midare Ranzan**\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to **Anemo DMG**. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.\nMidare Ranzan's DMG is considered Plunging Attack DMG.\n\n**\"Wind in branches grieves\nBygone ages, gods of old\nWithered autumn leaves\"**",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "Press Skill DMG",
+                "values": [
+                  "192.00%",
+                  "206.40%",
+                  "220.80%",
+                  "240.00%",
+                  "254.40%",
+                  "268.80%",
+                  "288.00%",
+                  "307.20%",
+                  "326.40%",
+                  "345.60%",
+                  "364.80%",
+                  "384.00%",
+                  "408.00%",
+                  "432.00%",
+                  "456.00%"
+                ]
+              },
+              {
+                "name": "Press CD",
+                "values": [
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s"
+                ]
+              },
+              {
+                "name": "Hold Skill DMG",
+                "values": [
+                  "260.80%",
+                  "280.36%",
+                  "299.92%",
+                  "326.00%",
+                  "345.56%",
+                  "365.12%",
+                  "391.20%",
+                  "417.28%",
+                  "443.36%",
+                  "469.44%",
+                  "495.52%",
+                  "521.60%",
+                  "554.20%",
+                  "586.80%",
+                  "619.40%"
+                ]
+              },
+              {
+                "name": "CD (hold)",
+                "values": [
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s",
+                  "9.0s"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Diligence"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Treasure Hoarder Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Diligence"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Diligence"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Diligence"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Diligence"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Diligence"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Gilded Scale"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Diligence"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Gilded Scale"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Diligence"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Gilded Scale"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Diligence"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Gilded Scale"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ult": {
+          "name": "Kazuha Slash",
+          "desc": "The signature technique of Kazuha's self-styled bladework — a single slash that strikes with the force of the first winds of autumn, dealing **AoE Anemo DMG**.\nThe blade's passage will leave behind a field named \"Autumn Whirlwind\" that periodically deals **AoE Anemo DMG** to opponents within its range.\n\n**Elemental Absorption**\nIf Autumn Whirlwind comes into contact with **Hydro**/**Pyro**/**Cryo**/**Electro**, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n**\"I see eternity go by in an instant, the autumns of many years from a single leaf. Thus I shall slice this maple in a flash, and ask a question of the ages.\"**",
+          "charges": 1,
+          "talentTable": [
+            {
+              "name": "Slashing DMG",
+              "values": [
+                "262.40%",
+                "282.08%",
+                "301.76%",
+                "328.00%",
+                "347.68%",
+                "367.36%",
+                "393.60%",
+                "419.84%",
+                "446.08%",
+                "472.32%",
+                "498.56%",
+                "524.80%",
+                "557.60%",
+                "590.40%",
+                "623.20%"
+              ]
+            },
+            {
+              "name": "DoT",
+              "values": [
+                "120.00%",
+                "129.00%",
+                "138.00%",
+                "150.00%",
+                "159.00%",
+                "168.00%",
+                "180.00%",
+                "192.00%",
+                "204.00%",
+                "216.00%",
+                "228.00%",
+                "240.00%",
+                "255.00%",
+                "270.00%",
+                "285.00%"
+              ]
+            },
+            {
+              "name": "Additional Elemental DMG",
+              "values": [
+                "36.00%",
+                "38.70%",
+                "41.40%",
+                "45.00%",
+                "47.70%",
+                "50.40%",
+                "54.00%",
+                "57.60%",
+                "61.20%",
+                "64.80%",
+                "68.40%",
+                "72.00%",
+                "76.50%",
+                "81.00%",
+                "85.50%"
+              ]
+            },
+            {
+              "name": "Duration",
+              "values": [
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s"
+              ]
+            },
+            {
+              "name": "CD",
+              "values": [
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s"
+              ]
+            },
+            {
+              "name": "Energy Cost",
+              "values": [
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60"
+              ]
+            }
+          ],
+          "costs": [
+            {
+              "mora": 12500,
+              "items": [
+                {
+                  "count": 3,
+                  "name": "Teachings of Diligence"
+                },
+                {
+                  "count": 6,
+                  "name": "Treasure Hoarder Insignia"
+                }
+              ]
+            },
+            {
+              "mora": 17500,
+              "items": [
+                {
+                  "count": 2,
+                  "name": "Guide to Diligence"
+                },
+                {
+                  "count": 3,
+                  "name": "Silver Raven Insignia"
+                }
+              ]
+            },
+            {
+              "mora": 25000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Guide to Diligence"
+                },
+                {
+                  "count": 4,
+                  "name": "Silver Raven Insignia"
+                }
+              ]
+            },
+            {
+              "mora": 30000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Guide to Diligence"
+                },
+                {
+                  "count": 6,
+                  "name": "Silver Raven Insignia"
+                }
+              ]
+            },
+            {
+              "mora": 37500,
+              "items": [
+                {
+                  "count": 9,
+                  "name": "Guide to Diligence"
+                },
+                {
+                  "count": 9,
+                  "name": "Silver Raven Insignia"
+                }
+              ]
+            },
+            {
+              "mora": 120000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Philosophies of Diligence"
+                },
+                {
+                  "count": 4,
+                  "name": "Golden Raven Insignia"
+                },
+                {
+                  "count": 1,
+                  "name": "Gilded Scale"
+                }
+              ]
+            },
+            {
+              "mora": 260000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Philosophies of Diligence"
+                },
+                {
+                  "count": 6,
+                  "name": "Golden Raven Insignia"
+                },
+                {
+                  "count": 1,
+                  "name": "Gilded Scale"
+                }
+              ]
+            },
+            {
+              "mora": 450000,
+              "items": [
+                {
+                  "count": 12,
+                  "name": "Philosophies of Diligence"
+                },
+                {
+                  "count": 9,
+                  "name": "Golden Raven Insignia"
+                },
+                {
+                  "count": 2,
+                  "name": "Gilded Scale"
+                }
+              ]
+            },
+            {
+              "mora": 700000,
+              "items": [
+                {
+                  "count": 16,
+                  "name": "Philosophies of Diligence"
+                },
+                {
+                  "count": 12,
+                  "name": "Golden Raven Insignia"
+                },
+                {
+                  "count": 2,
+                  "name": "Gilded Scale"
+                },
+                {
+                  "count": 1,
+                  "name": "Crown of Insight"
+                }
+              ]
+            }
+          ],
+          "type": "Wind"
+        },
+        "passive": [
+          {
+            "name": "Cloud Strider",
+            "desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+            "minAscension": 0
+          },
+          {
+            "name": "Soumon Swordsmanship",
+            "desc": "If **Chihayaburu** comes into contact with **Hydro**/**Pyro**/**Cryo**/**Electro** when cast, **Chihayaburu** will absorb that element and if Plunging Attack: Midare Ranzan is used before the effect expires, it will deal an additional 200% ATK of the absorbed elemental type as DMG. This will be considered Plunging Attack DMG.\nElemental Absorption may only occur once per use of **Chihayaburu**.",
+            "minAscension": 1
+          },
+          {
+            "name": "Poetics of Fuubutsu",
+            "desc": "Upon triggering a Swirl reaction, Kaedehara Kazuha will grant teammates a 0.04% Elemental DMG Bonus to their corresponding Element for every point of Elemental Mastery he has for 8s. Bonuses for different elements obtained through this method can co-exist.",
+            "minAscension": 4
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Scarlet Hills",
+            "desc": "Decreases **Chihayaburu**'s CD by 10%.\nUsing **Kazuha Slash** resets the CD of **Chihayaburu**.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kazuha_01.png"
+          },
+          {
+            "name": "Yamaarashi Tailwind",
+            "desc": "The Autumn Whirlwind field created by **Kazuha Slash** has the following effects:\n· Increases Kaedehara Kazuha's own Elemental Mastery by 200.\n· Increases the Elemental Mastery of characters within the field by 200.\n\nThe Elemental Mastery-increasing effects of this Constellation do not stack.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kazuha_02.png"
+          },
+          {
+            "name": "Maple Monogatari",
+            "desc": "Increases the Level of **Chihayaburu** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Kazuha_01.png"
+          },
+          {
+            "name": "Oozora Genpou",
+            "desc": "When Kaedehara Kazuha's Energy is lower than 45, he obtains the following effects:\n·Pressing or Holding **Chihayaburu** regenerates 3 or 4 Energy for Kaedehara Kazuha, respectively.\n·When gliding, Kaedehara Kazuha regenerates 2 Energy per second.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kazuha_03.png"
+          },
+          {
+            "name": "Wisdom of Bansei",
+            "desc": "Increases the Level of **Kazuha Slash** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Kazuha_02.png"
+          },
+          {
+            "name": "Crimson Momiji",
+            "desc": "After using **Chihayaburu** or **Kazuha Slash**, Kaedehara Kazuha gains an **Anemo Infusion** for 5s. Additionally, each point of Elemental Mastery will increase the DMG dealt by Kaedehara Kazuha's Normal, Charged, and Plunging Attack by 0.2%.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kazuha_04.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "cost": {
+          "items": []
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "Elemental Mastery",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 1,
+              "name": "Vayuda Turquoise Sliver"
+            },
+            {
+              "count": 3,
+              "name": "Sea Ganoderma"
+            },
+            {
+              "count": 3,
+              "name": "Treasure Hoarder Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 890.950439453125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 53.8650016784668
+          },
+          {
+            "stat": "Base ATK",
+            "value": 19.79511260986328
+          },
+          {
+            "stat": "Elemental Mastery",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "cost": {
+          "mora": 40000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Vayuda Turquoise Fragment"
+            },
+            {
+              "count": 2,
+              "name": "Marionette Core"
+            },
+            {
+              "count": 10,
+              "name": "Sea Ganoderma"
+            },
+            {
+              "count": 15,
+              "name": "Treasure Hoarder Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1523.994140625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 92.13749694824219
+          },
+          {
+            "stat": "Base ATK",
+            "value": 33.86006164550781
+          },
+          {
+            "stat": "Elemental Mastery",
+            "value": 28.799999237060547
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "cost": {
+          "mora": 60000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Vayuda Turquoise Fragment"
+            },
+            {
+              "count": 4,
+              "name": "Marionette Core"
+            },
+            {
+              "count": 20,
+              "name": "Sea Ganoderma"
+            },
+            {
+              "count": 12,
+              "name": "Silver Raven Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2368.052490234375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 143.16749572753906
+          },
+          {
+            "stat": "Base ATK",
+            "value": 52.61332321166992
+          },
+          {
+            "stat": "Elemental Mastery",
+            "value": 57.599998474121094
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "cost": {
+          "mora": 80000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Vayuda Turquoise Chunk"
+            },
+            {
+              "count": 8,
+              "name": "Marionette Core"
+            },
+            {
+              "count": 30,
+              "name": "Sea Ganoderma"
+            },
+            {
+              "count": 18,
+              "name": "Silver Raven Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3001.09619140625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 181.44000244140625
+          },
+          {
+            "stat": "Base ATK",
+            "value": 66.67826843261719
+          },
+          {
+            "stat": "Elemental Mastery",
+            "value": 57.599998474121094
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "cost": {
+          "mora": 100000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Vayuda Turquoise Chunk"
+            },
+            {
+              "count": 12,
+              "name": "Marionette Core"
+            },
+            {
+              "count": 45,
+              "name": "Sea Ganoderma"
+            },
+            {
+              "count": 12,
+              "name": "Golden Raven Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3634.139892578125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 219.71249389648438
+          },
+          {
+            "stat": "Base ATK",
+            "value": 80.74321746826172
+          },
+          {
+            "stat": "Elemental Mastery",
+            "value": 86.4000015258789
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "cost": {
+          "mora": 120000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Vayuda Turquoise Gemstone"
+            },
+            {
+              "count": 20,
+              "name": "Marionette Core"
+            },
+            {
+              "count": 60,
+              "name": "Sea Ganoderma"
+            },
+            {
+              "count": 24,
+              "name": "Golden Raven Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 4267.18359375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 257.9849853515625
+          },
+          {
+            "stat": "Base ATK",
+            "value": 94.80816650390625
+          },
+          {
+            "stat": "Elemental Mastery",
+            "value": 115.19999694824219
           }
         ]
       }

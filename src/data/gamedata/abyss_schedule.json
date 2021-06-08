@@ -372,5 +372,71 @@
       18,
       19
     ]
+  },
+  "18": {
+    "start": "2021-06-16 04:00:00",
+    "end": "2021-07-01 03:59:59",
+    "buff": "Whirlpool Moon",
+    "buffDesc": "When an active character triggers a Swirl reaction on a nearby opponent, they will trigger a shockwave at that opponent's position that deals AoE DMG. A shockwave can be triggered in this manner once every 3.5s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "19": {
+    "start": "2021-07-01 04:00:00",
+    "end": "2021-07-16 03:59:59",
+    "buff": "Breezecall Moon",
+    "buffDesc": "When an active character triggers a Swirl reaction on a nearby opponent, they will regenerate 4 Energy for all characters in the party. This effect can be triggered once every 3.5s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "20": {
+    "start": "2021-07-16 04:00:00",
+    "end": "2021-08-01 03:59:59",
+    "buff": "Brumous Moon",
+    "buffDesc": "When an active character triggers a Swirl reaction on a nearby opponent, a Brumous Aura that lasts 8s will be left at the location where the reaction took place. The Aura will inflict one count of DMG to opponents within it once every 2s. A Brumous Aura can be generated once every 9s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      20,
+      21,
+      22,
+      23
+    ]
   }
 }
