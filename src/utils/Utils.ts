@@ -475,6 +475,9 @@ export function getDeleteButton(): MessageActionRow {
 }
 
 export async function sendMessage(message: Message, content: string | MessageEmbed): Promise<Message | Message[]> {
+    if (message.channel.type !== "text")
+        return message.channel.send(content)
+
     if (typeof content == "string")
         return message.channel.send(content, {
             components: [getDeleteButton()],
