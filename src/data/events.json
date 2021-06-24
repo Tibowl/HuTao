@@ -279,6 +279,15 @@
         "reminder": "end"
     },
     {
+        "name": "\"Distant Voyage\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/genshin/article/478339",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/24/1015537/6408c1321066672cdeff31e1ef87daa3_7042191874848375618.jpg",
+        "start": "2021-06-24 00:00:00",
+        "end": "2021-07-03 23:59:59",
+        "reminder": "end"
+    },
+    {
         "name": "Next Special Program [CN]",
         "type": "Stream",
         "prediction": true,
