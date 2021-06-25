@@ -288,6 +288,16 @@
         "reminder": "end"
     },
     {
+        "name": "\"A Thousand Questions With Paimon\" Quiz Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/genshin/article/483165",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/25/1015537/7737ee0cf2b2a0988f6f4758aeaf23fa_1459343022654549496.png",
+        "start": "2021-06-25 13:00:00",
+        "end": "2021-06-27 23:59:59",
+        "reminder": "daily",
+        "remindtime": "00:00:00"
+    },
+    {
         "name": "Next Special Program [CN]",
         "type": "Stream",
         "prediction": true,
