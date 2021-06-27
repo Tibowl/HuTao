@@ -228,18 +228,27 @@
     {
         "name": "Event Wish \"Leaves in the Wind\"",
         "type": "Banner",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/genshin/article/490968",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/25/1015537/c10e1b2bf369543924d7574cbe89ed2d_7365316316733556345.png",
         "start": "2021-06-29 18:00:00",
-        "end": "2021-07-21 14:59:00",
+        "end": "2021-07-20 14:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/genshin/article/490969",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/25/1015537/d7302254da531cc4cc65d3319b52de3e_4081312558684178448.png",
         "start": "2021-06-29 18:00:00",
-        "end": "2021-07-21 14:59:00",
+        "end": "2021-07-20 14:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "Chapter II: Prologue - Autumn Winds, Scarlet Leaves",
+        "type": "Unlock",
+        "link": "https://www.hoyolab.com/genshin/article/490986",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/25/1015537/fce1e5e403468f7c4ab8fa87f9d8b47a_6346691022974181918.jpg",
+        "start": "2021-06-29 04:00:00"
     },
     {
         "name": "\"Midsummer Island Adventure\" Event",
@@ -262,11 +271,17 @@
     {
         "name": "\"Kaboomball Kombat\" Event",
         "type": "In-game",
+        "img": "https://i.imgur.com/amZvk4f.png",
+        "start": "2021-07-02 10:00:00",
+        "end": "2021-07-12 03:59:00",
         "reminder": "end"
     },
     {
         "name": "\"Never-Ending Battle\" Event",
         "type": "In-game",
+        "img": "https://i.imgur.com/CPT2hro.png",
+        "start": "2021-07-09 10:00:00",
+        "end": "2021-07-19 03:59:00",
         "reminder": "end"
     },
     {
