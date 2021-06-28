@@ -47,7 +47,7 @@ async function handleCommand(message: Message, cmdInfo: ParsedCommand): Promise<
     const { args, command, cmd } = cmdInfo
     try {
         const msg = cmd.run(message, args, command)
-        if (!msg || message.channel.type !== "text") return true
+        if (!msg || message.channel.type == "dm") return true
         const reply = await msg
         if (!reply) return true
 
@@ -66,11 +66,10 @@ async function handleCommand(message: Message, cmdInfo: ParsedCommand): Promise<
 
 function handleResponse(message: Message, reply: Message) {
     try {
-        reply.awaitMessageComponentInteractions(
-            (interaction) => (interaction.user.id == message.author.id || config.admins.includes(interaction.user.id)),
-            { max: 1, time: 60000, errors: ["time", "messageDelete", "channelDelete", "guildDelete"] }
-        ).then(async (collected) => {
-            const first = collected.first()
+        reply.awaitMessageComponentInteraction({
+            filter: (interaction) => (interaction.user.id == message.author.id || config.admins.includes(interaction.user.id)),
+            time: 60000
+        }).then(async (first) => {
             if (first && reply.deletable && first.customID == "delete") {
                 await reply.delete()
                 client.recentMessages = client.recentMessages.filter(k => k != reply)

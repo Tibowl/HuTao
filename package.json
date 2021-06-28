@@ -19,9 +19,9 @@
     },
     "homepage": "https://github.com/Tibowl/HuTao#readme",
     "dependencies": {
-        "better-sqlite3": "^7.1.4",
-        "discord.js": "^13.0.0-dev.dec191aa1e4f22690285ca06c6eee7e6086b2930",
-        "enmap": "^5.8.4",
+        "better-sqlite3": "^7.4.1",
+        "discord.js": "^13.0.0-dev.e37ef3af2151e556527ccd8e98ec531bdcc0ed70",
+        "enmap": "^5.8.5",
         "fs-extra": "^9.1.0",
         "log4js": "^6.3.0",
         "memoizee": "^0.4.15",
@@ -29,18 +29,18 @@
         "twit": "^2.2.11"
     },
     "devDependencies": {
-        "@types/better-sqlite3": "^5.4.1",
-        "@types/fs-extra": "^9.0.9",
+        "@types/better-sqlite3": "^5.4.2",
+        "@types/fs-extra": "^9.0.11",
         "@types/memoizee": "^0.4.5",
-        "@types/node": "^14.14.37",
-        "@types/node-fetch": "^2.5.8",
-        "@types/twit": "^2.2.28",
-        "@types/ws": "^7.4.0",
-        "@typescript-eslint/eslint-plugin": "^4.20.0",
-        "@typescript-eslint/parser": "^4.20.0",
-        "eslint": "^7.23.0",
+        "@types/node": "^14.17.4",
+        "@types/node-fetch": "^2.5.10",
+        "@types/twit": "^2.2.29",
+        "@types/ws": "^7.4.5",
+        "@typescript-eslint/eslint-plugin": "^4.28.1",
+        "@typescript-eslint/parser": "^4.28.1",
+        "eslint": "^7.29.0",
         "nodemon": "^2.0.7",
         "ts-node": "^9.1.1",
-        "typescript": "^4.2.3"
+        "typescript": "^4.3.4"
     }
 }

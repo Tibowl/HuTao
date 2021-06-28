@@ -159,7 +159,7 @@ export default class TimerManager {
                             .setTimestamp(reminder.timestamp)
 
                         const user = await client.users.fetch(reminder.user)
-                        await user.send(embed)
+                        await user.send({ embeds: [embed] })
                     } catch (error) {
                         Logger.error("Error occured while sending late reminder", error)
                     }
@@ -181,7 +181,7 @@ export default class TimerManager {
                 const result = client.reminderManager.deleteReminder(reminder.user, reminder.id, reminder.timestamp)
                 if (result.changes > 0) {
                     const user = await client.users.fetch(reminder.user)
-                    await user.send(embed)
+                    await user.send({ embeds: [embed] })
                 }
             } catch (error) {
                 Logger.error("Error occured while sending reminder", error)

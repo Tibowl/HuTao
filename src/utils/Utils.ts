@@ -26,9 +26,9 @@ export async function sendToChannels(channels: Snowflake[] | undefined, content?
                 continue
 
             if (embed && content && content.length > 0)
-                messages.push(chanObj.send(content, embed))
+                messages.push(chanObj.send({ content, embeds: [embed] }))
             else if (embed)
-                messages.push(chanObj.send(embed))
+                messages.push(chanObj.send({ embeds: [embed] }))
             else if (content)
                 messages.push(chanObj.send(content))
         } catch (error) {
@@ -304,13 +304,10 @@ function clean(line: string) {
 // Pagination functions
 const emojis = ["⬅️", "➡️"]
 function paginatorLoop(message: Message, reply: Message, pageInfo: Bookmarkable[], currentPage = 0): void {
-    reply.awaitMessageComponentInteractions(
-        (interaction) => (interaction.user.id == message.author.id || config.admins.includes(interaction.user.id)),
-        { max: 1, time: 60000, errors: ["time", "messageDelete", "channelDelete", "guildDelete"] }
-    ).then(async (collected) => {
-        const r = collected.first()
-        if (r == undefined) return
-
+    reply.awaitMessageComponentInteraction( {
+        filter: (interaction) => (interaction.user.id == message.author.id || config.admins.includes(interaction.user.id)),
+        time: 60000
+    }).then(async (r) => {
         const name = r.customID
 
         if (name == "delete") {
@@ -389,7 +386,9 @@ export async function paginator(message: Message, pageInfo: Bookmarkable[], star
 
     const embed = getPageEmbed(currentPage, maxPages, pageInfo)
 
-    const reply = await message.channel.send({ embed, components: getButtons(pageInfo, currentPage, maxPages) })
+    if (!embed) return
+
+    const reply = await message.channel.send({ embeds: [embed], components: getButtons(pageInfo, currentPage, maxPages) })
 
     paginatorLoop(message, reply, pageInfo, currentPage)
 
@@ -475,20 +474,19 @@ export function getDeleteButton(): MessageActionRow {
 }
 
 export async function sendMessage(message: Message, content: string | MessageEmbed): Promise<Message | Message[]> {
-    if (message.channel.type !== "text")
-        return message.channel.send(content)
+    if (message.channel.type == "dm")
+        if (typeof content == "string")
+            return message.channel.send(content)
+        else
+            return message.channel.send({ embeds: [content] })
 
     if (typeof content == "string")
-        return message.channel.send(content, {
-            components: [getDeleteButton()],
-            split: {
-                append: "```",
-                prepend: "```",
-                maxLength: 1900
-            }
+        return message.channel.send({
+            content,
+            components: [getDeleteButton()]
         })
     else
-        return message.channel.send({ embed: content, components: [getDeleteButton()] })
+        return message.channel.send({ embeds: [content], components: [getDeleteButton()] })
 }
 
 export function addArg(args: string[], queries: string | string[], exec: () => void): void {

@@ -33,7 +33,7 @@ export default class Shutdown extends Command {
                 .map(async (reply) => {
                     try {
                         if (reply.components.length > 0)
-                            return reply.edit(reply.content, { components: [] })
+                            return reply.edit({ components: [] })
                     } catch (e) {
                         Logger.error(e)
                     }
