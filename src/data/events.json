@@ -271,7 +271,8 @@
     {
         "name": "\"Kaboomball Kombat\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/amZvk4f.png",
+        "link": "https://www.hoyolab.com/genshin/article/503383",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/25/1015537/287a7defeb81a8c56a051c43071f7609_9185573309361069558.png",
         "start": "2021-07-02 10:00:00",
         "end": "2021-07-12 03:59:00",
         "reminder": "end"
