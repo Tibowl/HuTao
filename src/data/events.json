@@ -304,6 +304,15 @@
         "reminder": "end"
     },
     {
+        "name": "\"Traveler's Picture Book\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/genshin/article/512380",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/03/1015537/bc03874c253e45a5fb666c8675bf88e7_4149798306930702341.jpg",
+        "start": "2021-07-03 11:00:00",
+        "end": "2021-07-13 03:59:59",
+        "reminder": "end"
+    },
+    {
         "name": "\"A Thousand Questions With Paimon\" Quiz Event",
         "type": "Web",
         "link": "https://www.hoyolab.com/genshin/article/483165",
