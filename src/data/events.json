@@ -325,15 +325,17 @@
     {
         "name": "Next Special Program [CN]",
         "type": "Stream",
-        "prediction": true,
+        "link": "https://live.bilibili.com/21987615",
+        "img": "https://upload-bbs.mihoyo.com/upload/2021/07/06/75276539/e5a9e54cf5f8b7fae4ef0ea9e5d82363_7560023690557957266.jpg",
         "start": "2021-07-09 20:00:00"
     },
     {
         "name": "Next Special Program [EN]",
         "type": "Stream",
-        "prediction": true,
-        "start": "2021-07-09 11:00:00",
-        "timezone": "-05:00"
+        "link": "https://www.twitch.tv/genshinimpactofficial",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/06/1015537/5305e5a56fd2b3f825d2619139c6db1f_3387379775768507935.jpg",
+        "start": "2021-07-09 08:00:00",
+        "timezone": "-04:00"
     },
     {
         "name": "Next maintenance",
@@ -341,5 +343,11 @@
         "prediction": true,
         "start": "2021-07-21 06:00:00",
         "end": "2021-07-21 11:00:00"
+    },
+    {
+        "name": "Next Special Program [CN]",
+        "type": "Stream",
+        "prediction": true,
+        "start": "2021-08-20 20:00:00"
     }
 ]
