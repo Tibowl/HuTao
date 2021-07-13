@@ -280,7 +280,8 @@
     {
         "name": "\"Never-Ending Battle\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/CPT2hro.png",
+        "link": "https://www.hoyolab.com/genshin/article/527807",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/07/1015537/8eb34af63e9f39c55d4ded7aab9b4f42_3164851103604437620.jpg",
         "start": "2021-07-09 10:00:00",
         "end": "2021-07-19 03:59:00",
         "reminder": "end"
@@ -301,6 +302,15 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/24/1015537/6408c1321066672cdeff31e1ef87daa3_7042191874848375618.jpg",
         "start": "2021-06-24 00:00:00",
         "end": "2021-07-03 23:59:59",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Mysterious Voyage\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/genshin/article/543290",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/13/1015537/cd1ebb423d96ae248cb253fabf5df831_4678685236436958500.jpeg",
+        "start": "2021-07-13 00:00:00",
+        "end": "2021-07-20 23:59:59",
         "reminder": "end"
     },
     {
