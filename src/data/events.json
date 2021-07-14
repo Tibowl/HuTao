@@ -333,14 +333,14 @@
         "remindtime": "00:00:00"
     },
     {
-        "name": "Next Special Program [CN]",
+        "name": "2.0 Special Program [CN]",
         "type": "Stream",
         "link": "https://live.bilibili.com/21987615",
         "img": "https://upload-bbs.mihoyo.com/upload/2021/07/06/75276539/e5a9e54cf5f8b7fae4ef0ea9e5d82363_7560023690557957266.jpg",
         "start": "2021-07-09 20:00:00"
     },
     {
-        "name": "Next Special Program [EN]",
+        "name": "2.0 Special Program [EN]",
         "type": "Stream",
         "link": "https://www.twitch.tv/genshinimpactofficial",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/06/1015537/5305e5a56fd2b3f825d2619139c6db1f_3387379775768507935.jpg",
@@ -348,11 +348,65 @@
         "timezone": "-04:00"
     },
     {
-        "name": "Next maintenance",
+        "name": "2.0 maintenance",
         "type": "Maintenance",
         "prediction": true,
         "start": "2021-07-21 06:00:00",
         "end": "2021-07-21 11:00:00"
+    },
+    {
+        "name": "Event Wish \"The Heron's Court\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2021-07-21 11:00:00",
+        "end": "2021-08-10 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2021-07-21 11:00:00",
+        "end": "2021-08-10 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Tapestry of Golden Flames\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2021-08-10 18:00:00",
+        "end": "2021-08-31 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Thunder Sojourn\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/5U8MYdj.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Theater Mechanicus: Stage of Wonders\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/uvQsjc4.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Phantom Flow\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/IWblJXG.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Lost Riches\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/Sa5Lwj1.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Ley Line Overflow\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/VmD9104.png",
+        "reminder": "end"
     },
     {
         "name": "Next Special Program [CN]",
