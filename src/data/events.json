@@ -350,14 +350,16 @@
     {
         "name": "2.0 maintenance",
         "type": "Maintenance",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/genshin/article/567649",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/15/1015537/9fae842036207ad083672429b6f92eb8_7994999926135510392.jpg",
         "start": "2021-07-21 06:00:00",
         "end": "2021-07-21 11:00:00"
     },
     {
         "name": "Event Wish \"The Heron's Court\"",
         "type": "Banner",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/genshin/article/568050",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/19/1015537/9c6070da0fe23081c6ad3389b8ee010d_8307924212594573588.jpg",
         "start": "2021-07-21 11:00:00",
         "end": "2021-08-10 17:59:00",
         "reminder": "end"
@@ -365,7 +367,8 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/genshin/article/568052",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/19/1015537/5412443a686ef1cf9471a4f462eabc52_2614061678267906223.jpg",
         "start": "2021-07-21 11:00:00",
         "end": "2021-08-10 17:59:00",
         "reminder": "end"
@@ -381,7 +384,9 @@
     {
         "name": "\"Thunder Sojourn\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/5U8MYdj.png",
+        "img": "https://i.imgur.com/Lneot04.png",
+        "start": "2021-07-22 10:00:00",
+        "end": "2021-08-09 03:59:00",
         "reminder": "end"
     },
     {
@@ -399,7 +404,9 @@
     {
         "name": "\"Lost Riches\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/Sa5Lwj1.png",
+        "img": "https://i.imgur.com/FQZbRHJ.png",
+        "start": "2021-08-06 10:00:00",
+        "end": "2021-08-16 03:59:00",
         "reminder": "end"
     },
     {
@@ -413,5 +420,12 @@
         "type": "Stream",
         "prediction": true,
         "start": "2021-08-20 20:00:00"
+    },
+    {
+        "name": "Next maintenance",
+        "type": "Maintenance",
+        "prediction": true,
+        "start": "2021-09-01 06:00:00",
+        "end": "2021-09-01 11:00:00"
     }
 ]
