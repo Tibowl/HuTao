@@ -8,6 +8,10 @@ import log4js from "log4js"
 
 const Logger = log4js.getLogger("GachaCalc")
 
+function pityRate(baseRate: number, pityStart: number): (pity: number) => number {
+    return (pity) => pity < pityStart ? baseRate : baseRate + baseRate * 10 * (pity - pityStart + 1)
+}
+
 const gachas: Record<string, Banner> = {
     char: {
         bannerName: "5* Banner character",
@@ -17,7 +21,7 @@ const gachas: Record<string, Banner> = {
         constFormat: "C",
         constName: "Constellations",
         maxPity: 90,
-        rate: (pity) => pity < 74 ? 0.6 : [6.6, 12.9, 18.6, 24.4, 31, 36.3, 41.7, 48.4, 54.6, 60, 65, 71, 76, 82, 88, 94, 100][pity - 74] ?? 100
+        rate: pityRate(0.6, 74)
     },
     "4*char": {
         bannerName: "Specific 4* banner character",
@@ -27,17 +31,18 @@ const gachas: Record<string, Banner> = {
         constFormat: "C",
         constName: "Constellations",
         maxPity: 10,
-        rate: (pity) => pity < 9 ? 6.2 : [57, 100][pity - 9] ?? 100
+        rate: pityRate(5.1, 9)
     },
     weapon: {
-        bannerName: "Specific banner weapon",
+        bannerName: "Specific 5* banner weapon",
         banner: 0.75,
-        guaranteed: 0.5,
+        guaranteed: 1/2,
+        guaranteedPity: 3,
         maxConst: 5,
         constFormat: "R",
         constName: "Refinements",
         maxPity: 80,
-        rate: (pity) => pity < 63 ? 0.7 : [7.96, 16, 22.3, 28.7, 37.1, 44, 49, 53, 61, 65.2, 70, 73, 78, 82, 86, 90, 95, 100][pity - 63] ?? 100
+        rate: pityRate(0.7, 63)
     }
 }
 
@@ -45,6 +50,7 @@ type Banner = {
     bannerName: string
     banner: number
     guaranteed: number
+    guaranteedPity?: number
     maxConst: number
     maxPity: number
     constFormat: string
@@ -55,7 +61,7 @@ type Banner = {
 type Sim = ReducedSim & {
     pity: number
     guaranteed: boolean
-
+    guaranteedPity: number
 }
 type ReducedSim = {
     const: number
@@ -71,11 +77,12 @@ export default class GachaCalc extends Command {
 
 Available banners: ${Object.keys(gachas).map(x => `\`${x}\``).join(", ")}
 
-NOTE: Rates with high pity might not be accurate, not a lot of data in this range (especially with weapon banner)...
-            
+NOTE: Updated to use rate data of <https://www.hoyolab.com/genshin/article/497840> and assumes weapon selected for "Epitomized Path" <https://www.hoyolab.com/genshin/article/533196>
+
 Example with just amount of pulls (assumes char banner, 50/50 limited, 0 pity): \`${config.prefix}gachacalc 70\`
 Example with 70 pulls and 10 pity: \`${config.prefix}gachacalc 70 10\`
 Example with 70 pulls, 10 pity and guaranteed: \`${config.prefix}gachacalc 70 10 y\`
+Example with 70 pulls, 10 pity and guaranteed for 5 star weapon banner: \`${config.prefix}gachacalc weapon 70 10 y\`
 `,
             usage: "gachacalc [gacha] <pulls> [pity] [guaranteed]",
             aliases: ["gc", "gachasim", "gcalc", "gsim", "gs"]
@@ -135,9 +142,16 @@ ${createTable(
                 rate: 1
             }]
 
+        if (banner.guaranteedPity && banner.guaranteedPity >= 1 && pulls + pity >= banner.maxPity * (banner.maxConst * banner.guaranteedPity * 2 - (guaranteed ? 1 : 0)))
+            return [{
+                const: banner.maxConst,
+                rate: 1
+            }]
+
         return this.calcSimsInt({
             pity,
             guaranteed,
+            guaranteedPity: 0,
             const: -1,
             rate: 1
         }, pulls, banner)
@@ -199,6 +213,7 @@ ${createTable(
                     addOrMerge({
                         pity: currentPity,
                         guaranteed: sim.guaranteed,
+                        guaranteedPity: sim.guaranteedPity,
                         const: sim.const,
                         rate: sim.rate * (1 - rate)
                     })
@@ -207,24 +222,37 @@ ${createTable(
                 addOrMerge({
                     pity: 0,
                     guaranteed: false,
+                    guaranteedPity: 0,
                     const: sim.const + 1,
                     rate: sim.rate * rate * bannerRate * banner.guaranteed
                 })
 
-                // Got banner item but not wanted
+                // Got banner item but not wanted (eg. wrong rate up 4* char/5* char)
                 if (banner.guaranteed < 1)
-                    addOrMerge({
-                        pity: 0,
-                        guaranteed: false,
-                        const: sim.const,
-                        rate: sim.rate * rate * bannerRate * (1-banner.guaranteed)
-                    })
+                    if (banner.guaranteedPity && sim.guaranteedPity >= banner.guaranteedPity)
+                        // https://www.hoyolab.com/genshin/article/533196
+                        addOrMerge({
+                            pity: 0,
+                            guaranteed: false,
+                            guaranteedPity: 0,
+                            const: sim.const + 1,
+                            rate: sim.rate * rate * bannerRate * (1-banner.guaranteed)
+                        })
+                    else
+                        addOrMerge({
+                            pity: 0,
+                            guaranteed: false,
+                            guaranteedPity: sim.guaranteedPity + 1,
+                            const: sim.const,
+                            rate: sim.rate * rate * bannerRate * (1-banner.guaranteed)
+                        })
 
-                // Failed banner item
+                // Failed banner items (eg. 4* char rate ups vs regular 4*)
                 if (bannerRate < 1)
                     addOrMerge({
                         pity: 0,
                         guaranteed: true,
+                        guaranteedPity: sim.guaranteedPity + 1,
                         const: sim.const,
                         rate: sim.rate * rate * (1 - bannerRate)
                     })
