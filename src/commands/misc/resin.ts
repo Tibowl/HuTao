@@ -2,7 +2,7 @@ import { Message } from "discord.js"
 import client from "../../main"
 
 import Command from "../../utils/Command"
-import { sendMessage, timeLeft } from "../../utils/Utils"
+import { displayTimestamp, sendMessage, timeLeft } from "../../utils/Utils"
 import config from "../../data/config.json"
 
 const values = [20, 40, 60, client.data.max_resin]
@@ -51,9 +51,10 @@ Example with time until next resin: \`${config.prefix}resin 77 7:15\``,
             return sendMessage(message, `Already at max resin (${currentResin}/${max_resin})`)
 
         const correction = mm * 60 + ss
+        const getDelta = (target: number) => ((target - currentResin - 1) * minutes_per_resin * 60 + correction) * 1000
 
         return sendMessage(message, `Starting from ${currentResin}/${max_resin}:
 
-${values.filter(target => target > currentResin).map(target => `**${target}**/${max_resin} resin in **${timeLeft(((target - currentResin - 1) * minutes_per_resin * 60 + correction) * 1000)}**`).join("\n")}`)
+${values.filter(target => target > currentResin).map(target => `**${target}**/${max_resin} resin in **${timeLeft(getDelta(target))}** (${displayTimestamp(new Date(Date.now() + getDelta(target)), "f")})`).join("\n")}`)
     }
 }

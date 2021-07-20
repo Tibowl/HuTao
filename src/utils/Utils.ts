@@ -274,14 +274,22 @@ export function parseNewsContent(content: string): Content[] {
     return target
 }
 
+function relativeTimestampFromString(timestamp: string, timezone = "+08:00"): string {
+    return displayTimestamp(getDate(timestamp, timezone), "R")
+}
+
+export function displayTimestamp(time: Date, display = "R"): string {
+    return `<t:${Math.floor(time.getTime() / 1000)}:${display}>`
+}
+
 export function getEventEmbed(event: Event): MessageEmbed {
     const embed = new MessageEmbed()
 
     embed.setTitle(event.name)
     if (event.img) embed.setImage(event.img)
     if (event.link) embed.setURL(event.link)
-    embed.addField(event.type == EventType.Unlock ? "Unlock Time" : "Start Time", event.start ? `${event.prediction ? "(prediction) " : ""}${event.start}${event.timezone?` (GMT${event.timezone})`:""}` : "Unknown", true)
-    if (event.end) embed.addField("End Time", `${event.end}${event.timezone?` (GMT${event.timezone})`:""}`, true)
+    embed.addField(event.type == EventType.Unlock ? "Unlock Time" : "Start Time", event.start ? `${event.prediction ? "(prediction) " : ""}${event.start}${event.timezone?` (GMT${event.timezone})`:""}\n${relativeTimestampFromString(event.start, event.timezone)}` : "Unknown", true)
+    if (event.end) embed.addField("End Time", `${event.end}${event.timezone?` (GMT${event.timezone})`:""}\n${relativeTimestampFromString(event.end, event.timezone)}`, true)
     if (event.type && event.type !== EventType.Unlock) embed.addField("Type", event.type, true)
 
     return embed

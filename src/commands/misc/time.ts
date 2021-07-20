@@ -1,7 +1,7 @@
 import { Message } from "discord.js"
 
 import Command from "../../utils/Command"
-import { getServerTimeInfo, sendMessage, timeLeft } from "../../utils/Utils"
+import { displayTimestamp, getServerTimeInfo, sendMessage, timeLeft } from "../../utils/Utils"
 
 export default class Time extends Command {
     constructor(name: string) {
@@ -28,8 +28,8 @@ ${getServerTimeInfo().map(({ offset, server, time, nextDailyReset, nextWeeklyRes
         minute: "2-digit",
         second: "2-digit"
     })}*
-    Next daily reset in **${timeLeft(nextDailyReset.getTime() - time.getTime())}**
-    Next weekly reset in **${timeLeft(nextWeeklyReset.getTime() - time.getTime())}**
+    Next daily reset in **${timeLeft(nextDailyReset.getTime() - time.getTime())}** (your local timezone: ${displayTimestamp(new Date(Date.now() + nextDailyReset.getTime() - time.getTime()), "f")})
+    Next weekly reset in **${timeLeft(nextWeeklyReset.getTime() - time.getTime())}** (your local timezone: ${displayTimestamp(new Date(Date.now() + nextWeeklyReset.getTime() - time.getTime()), "f")})
 `).join("\n")}`)
     }
 }

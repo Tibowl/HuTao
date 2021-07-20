@@ -4,7 +4,7 @@ import child_process from "child_process"
 import Command from "../../utils/Command"
 import client from "../../main"
 import config from "../../data/config.json"
-import { sendMessage, timeLeft } from "../../utils/Utils"
+import { displayTimestamp, sendMessage } from "../../utils/Utils"
 
 export default class Status extends Command {
     constructor(name: string) {
@@ -55,7 +55,7 @@ Current uptime: ${formatTime(process.uptime())}
 Cache: in ${client.channels.cache.size} channels on ${client.guilds.cache.size} servers, for a total of ${client.users.cache.size} users.
 Total commands executed: ${totalCommands}
 ${args && args.length > 0 ? `
-News: ${new Date(client.newsManager.lastFetched).toISOString()} (${timeLeft(Date.now() - new Date(client.newsManager.lastFetched).getTime())} ago)
+News: ${new Date(client.newsManager.lastFetched).toISOString()} (${displayTimestamp(new Date(client.newsManager.lastFetched))})
 
 Artifact sets: ${Object.keys(client.data.artifacts).length}
 Weapons: ${Object.keys(client.data.weapons).length}

@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js"
 import client from "../../main"
 
 import Command from "../../utils/Command"
-import { sendMessage, simplePaginator, timeLeft } from "../../utils/Utils"
+import { displayTimestamp, sendMessage, simplePaginator } from "../../utils/Utils"
 import { Reminder } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -35,7 +35,7 @@ export default class Reminders extends Command {
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setDescription(reminders
                 .slice(relativePage * 10, (relativePage + 1) * 10)
-                .map(r => `\`#${r.id}\`: \`${r.subject}\` in **${timeLeft(r.timestamp - Date.now())}**`)
+                .map(r => `\`#${r.id}\`: \`${r.subject}\` **${displayTimestamp(new Date(r.timestamp))}**`)
                 .join("\n")
             )
 
