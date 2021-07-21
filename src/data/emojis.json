@@ -62,6 +62,7 @@
     "Teachings of Freedom": "<:Teachings_of_Freedom:827978062448033864>",
     "Guide to Freedom": "<:Guide_to_Freedom:827977620280573974>",
     "Philosophies of Freedom": "<:Philosophies_of_Freedom:827977624017174529>",
+
     "Teachings of Gold": "<:Teachings_of_Gold:827978063361867777>",
     "Guide to Gold": "<:Guide_to_Gold:827977620557398056>",
     "Philosophies of Gold": "<:Philosophies_of_Gold:827977624231608400>",
@@ -71,6 +72,16 @@
     "Teachings of Resistance": "<:Teachings_of_Resistance:827978064071229490>",
     "Guide to Resistance": "<:Guide_to_Resistance:827977621068578836>",
     "Philosophies of Resistance": "<:Philosophies_of_Resistance:827977623921360947>",
+    
+    "Teachings of Transience": "<:Teachings_of_Transience:867302394152878091>",
+    "Guide to Transience": "<:Guide_to_Transience:867302394933018654>",
+    "Philosophies of Transience": "<:Philosophies_of_Transience:867302395038269490>",
+    "Teachings of Elegance": "<:Teachings_of_Elegance:867302394492092426>",
+    "Guide to Elegance": "<:Guide_to_Elegance:867302394801946634>",
+    "Philosophies of Elegance": "<:Philosophies_of_Elegance:867302394786349066>",
+    "Teachings of Light": "<:Teachings_of_Light:867302394424197120>",
+    "Guide to Light": "<:Guide_to_Light:867302394651607051>",
+    "Philosophies of Light": "<:Philosophies_of_Light:867302394914930768>",
 
     "Dvalin's Claw": "<:Dvalins_Claw:827978602678845451>",
     "Dvalin's Plume": "<:Dvalins_Plume:827978602624188456>",
@@ -176,5 +187,24 @@
 
     "Enhancement Ore": "<:Enhancement_Ore:829510685670113321>",
     "Fine Enhancement Ore": "<:Fine_Enhancement_Ore:829510685842866226>",
-    "Mystic Enhancement Ore": "<:Mystic_Enhancement_Ore:829510686400053248>"
+    "Mystic Enhancement Ore": "<:Mystic_Enhancement_Ore:829510686400053248>",
+
+    
+    "Chaos Axis": "<:Chaos_Axis:867302393544048670>",
+    "Crystal Marrow": "<:Crystal_Marrow:867302393703170059>",
+    "Crystal Prism": "<:Crystal_Prism:867302393922453534>",
+    "Dismal Prism": "<:Dismal_Prism:867302393979994142>",
+    "Dragon Lords Crown": "<:Dragon_Lords_Crown:842062356787757136>",
+    "Famed Handguard": "<:Famed_Handguard:867302394932101150>",
+    "Kageuchi Handguard": "<:Kageuchi_Handguard:867302394685554688>",
+    "Marionette Core": "<:Marionette_Core:867302394085507082>",
+    "Naku Weed": "<:Naku_Weed:867302394101366826>",
+    "Narukami's Affection": "<:Narukamis_Affection:867302393845514241>",
+    "Narukami's Joy": "<:Narukamis_Joy:867302393419137055>",
+    "Narukami's Valor": "<:Narukamis_Valor:867302394404536330>",
+    "Narukami's Wisdom": "<:Narukamis_Wisdom:867302394089963591>",
+    "Old Handguard": "<:Old_Handguard:867302394446872596>",
+    "Sakura Bloom": "<:Sakura_Bloom:867302394526302239>",
+    "Sea Ganoderma": "<:Sea_Ganoderma:867302394995539968>"
+
 }

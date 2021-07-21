@@ -1307,5 +1307,250 @@
         ]
       }
     ]
+  },
+  "24": {
+    "teams": 2,
+    "leyline": "A Plasma Field will be generated at the edge of the challenge area once the challenge begins. While within the field, characters will be hit by a lightning strike once every 5s and take Electro DMG. The area covered by the field will gradually expand as the challenge proceeds.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 71,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Wooden Shieldwall Mitachurl",
+            "Dendro Samachurl",
+            "Hydro Samachurl",
+            "Electro Hilichurl Shooter",
+            "Cryo Hilichurl Shooter",
+            "Large Hydro Slime"
+          ],
+          [
+            "Hydro Abyss Mage",
+            "Electro Samachurl",
+            "Crackling Axe Mitachurl",
+            "Blazing Axe Mitachurl"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 73,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Fatui Skirmisher - Cryogunner Legionnaire",
+            "Fatui Skirmisher - Hydrogunner Legionnaire",
+            "Fatui Skirmisher - Electrohammer Vanguard",
+            "Fatui Skirmisher - Geochanter Bracer",
+            "Fatui Skirmisher - Anemoboxer Vanguard"
+          ],
+          [
+            "Treasure Hoarders: Handyman",
+            "Treasure Hoarders: Gravedigger",
+            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders - Pugilist",
+            "Treasure Hoarders - Crusher",
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders: Hydro Potioneer",
+            "Treasure Hoarders: Electro Potioneer",
+            "Treasure Hoarders: Cryo Potioneer",
+            "Treasure Hoarders - Marksman"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 75,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Frostarm Lawachurl",
+            "Stonehide Lawachurl"
+          ],
+          [
+            "Fatui Pyro Agent",
+            "Fatui Electro Cicin Mage"
+          ]
+        ]
+      }
+    ]
+  },
+  "25": {
+    "teams": 2,
+    "leyline": "There will be a Leader amongst the opponents present in each challenge on this floor. Its Attendants will also be present to provide it with enhancements and protection. Each Attendant will increase the Leader's Element RES and Physical RES by 10%. The Attendants will restore the Leader's HP every 12s, with each Attendant restoring 5% HP. When there are no Attendants, the Leader will not have any of the above enhancement and restoration effects.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 79,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Electro Abyss Mage",
+            "Dendro Samachurl",
+            "Anemo Samachurl",
+            "Hydro Samachurl",
+            "Blazing Axe Mitachurl",
+            "Pyro Hilichurl Shooter",
+            "Cryo Hilichurl Shooter",
+            "Electro Hilichurl Shooter"
+          ],
+          [
+            "Stonehide Lawachurl",
+            "Pyro Hilichurl Shooter",
+            "Cryo Hilichurl Shooter"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 81,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Fatui Pyro Agent",
+            "Fatui Skirmisher - Cryogunner Legionnaire",
+            "Fatui Skirmisher - Hydrogunner Legionnaire",
+            "Fatui Skirmisher - Anemoboxer Vanguard"
+          ],
+          [
+            "Fatui Electro Cicin Mage",
+            "Fatui Skirmisher - Pyroslinger Bracer",
+            "Fatui Skirmisher - Electrohammer Vanguard",
+            "Fatui Skirmisher - Geochanter Bracer"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 84,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Abyss Lector: Violet Lightning",
+            "Anemo Samachurl",
+            "Hydro Samachurl"
+          ],
+          [
+            "Abyss Herald: Wicked Torrents",
+            "Electro Samachurl"
+          ]
+        ]
+      }
+    ]
+  },
+  "26": {
+    "teams": 2,
+    "leyline": "Pyro DMG dealt by all party members increased by 60%.\nCryo DMG dealt by all party members increased by 60%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 87,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Crackling Axe Mitachurl",
+            "Blazing Axe Mitachurl",
+            "Electro Whopperflower",
+            "Large Electro Slime",
+            "Mutant Electro Slime",
+            "Large Hydro Slime"
+          ],
+          [
+            "Thunderhelm Lawachurl",
+            "Electro Abyss Mage"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 89,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Frostarm Lawachurl",
+            "Cryo Abyss Mage",
+            "Hydro Abyss Mage"
+          ],
+          [
+            "Abyss Lector: Violet Lightning",
+            "Electro Abyss Mage",
+            "Pyro Abyss Mage"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 91,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Cryo Hypostasis"
+          ],
+          [
+            "Pyro Hypostasis"
+          ]
+        ]
+      }
+    ]
+  },
+  "27": {
+    "teams": 2,
+    "leyline": "Energy Tides are present in this challenge. They will switch between Elemental High Tide and Elemental Low Tide in 10s cycles.\nDuring High Tide, a large amount of Elemental Particles will be generated when a character's attack hits opponents, restoring 10 Elemental Energy. This effect can occur once every 2.8s.\nDuring Low Tide, all characters in the party cannot gain Elemental Energy.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 94,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Kairagi: Dancing Thunder",
+            "Kairagi: Fiery Might",
+            "Nobushi: Jintouban",
+            "Nobushi: Hitsukeban",
+            "Nobushi: Kikouban"
+          ],
+          [
+            "Mirror Maiden",
+            "Fatui Pyro Agent",
+            "Fatui Electro Cicin Mage"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 97,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Hydro Abyss Mage",
+            "Thunderhelm Lawachurl",
+            "Crackling Axe Mitachurl",
+            "Blazing Axe Mitachurl"
+          ],
+          [
+            "Maguu Kenki"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 99,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Ruin Hunter",
+            "Ruin Cruiser",
+            "Ruin Defender",
+            "Ruin Scout"
+          ],
+          [
+            "Ruin Guard",
+            "Ruin Destroyer",
+            "Ruin Scout"
+          ]
+        ]
+      }
+    ]
   }
 }

@@ -4799,7 +4799,7 @@
         },
         {
           "name": "Energy Shower",
-          "desc": "Each Elemental Orb or Particle collected restores **1.25**% HP."
+          "desc": "Each Elemental Orb or Particle collected restores **1.25%** HP."
         },
         {
           "name": "Energy Shower",
@@ -5224,7 +5224,7 @@
         }
       }
     ],
-    "lore": "A jade piece which, despite its exquisite packaging, has been placed in one of the least prominent positions in the store.\nThe box comes with an official-looking certificate of premium quality, issued by an organization that no-one has ever heard of.\nTo the untrained eye, the luxurious packaging and accessories would probably be enough to lure one in.\nHowever, it is still reasonable value for money when compared with genuine top-quality jade pieces.",
+    "lore": "A jade piece which, despite its exquisite packaging, has been placed in one of the least prominent positions in the store.\nThe box comes with an official-looking certificate of premium quality, issued by an organization that no one has ever heard of.\nTo the untrained eye, the luxurious packaging and accessories would probably be enough to lure one in.\nHowever, it is still reasonable value for money when compared with genuine top-quality jade pieces.",
     "refinement": [
       [
         {
@@ -8484,7 +8484,7 @@
       [
         {
           "name": "Descension",
-          "desc": "Hitting opponents with Normal and Charged Attacks grants a **50%** chance to deal **200%** ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by **66**."
+          "desc": "Effective for players on \"PlayStation Network\" only.\nHitting opponents with Normal and Charged Attacks grants a **50%** chance to deal **200%** ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by **66**."
         }
       ]
     ]
@@ -8919,6 +8919,223 @@
         {
           "name": "Itinerant Hero",
           "desc": "Increases DMG dealt by the character equipping this weapon by **24%**. Taking DMG disables this effect for 5s."
+        }
+      ]
+    ]
+  },
+  "Amenoma Kageuchi": {
+    "name": "Amenoma Kageuchi",
+    "desc": "A blade custom made for a famed samurai who could strike down a tengu warrior, known for their incredible agility, in midair.",
+    "weaponType": "Sword",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 41.067100524902344,
+        "curve": "ATK 2.4"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.11999999731779099,
+        "curve": "C2"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Bakufu.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Bakufu_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ],
+        "cost": {
+          "mora": 5000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Coral Branch of a Distant Sea"
+            },
+            {
+              "count": 3,
+              "name": "Chaos Gear"
+            },
+            {
+              "count": 2,
+              "name": "Old Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ],
+        "cost": {
+          "mora": 15000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Jeweled Branch of a Distant Sea"
+            },
+            {
+              "count": 12,
+              "name": "Chaos Gear"
+            },
+            {
+              "count": 8,
+              "name": "Old Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Jeweled Branch of a Distant Sea"
+            },
+            {
+              "count": 6,
+              "name": "Chaos Axis"
+            },
+            {
+              "count": 6,
+              "name": "Kageuchi Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Jade Branch of a Distant Sea"
+            },
+            {
+              "count": 12,
+              "name": "Chaos Axis"
+            },
+            {
+              "count": 9,
+              "name": "Kageuchi Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 35000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Jade Branch of a Distant Sea"
+            },
+            {
+              "count": 9,
+              "name": "Chaos Oculus"
+            },
+            {
+              "count": 6,
+              "name": "Famed Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 4,
+              "name": "Golden Branch of a Distant Sea"
+            },
+            {
+              "count": 18,
+              "name": "Chaos Oculus"
+            },
+            {
+              "count": 12,
+              "name": "Famed Handguard"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "One of the \"kageuchi\" copies of the famed sword \"Hakuen Bankou Amenoma.\"\nIt was gifted to the Saimon Clan by Douin, the founding patriarch of the Iwakura Clan.\nThis gift was given in thanks for the care that he received from them when he was living in seclusion in Konda Village.\n\nIt is said that Iwakura's secret blade technique, Tengu Sweeper, can only be performed when there is not a single trace of confusion in one's heart.\nIn the past, the name \"Tengu Sweeper\" sounded the same as \"Tengu Victor,\" and it was a sword strike that could cut a Tengu soaring in the sky down.\nFor centuries, the swordsmen of Iwakura, they who inherited the name \"In,\" would use this secret blade to destroy countless evils throughout the Inazuman archipelago.\n\nLegend has it that the Tengu Sweeper was first created in the courtyard of a small shrine where incense no longer burned.\nThe technique was so powerful that it destroyed the building, and Iwakura Douin's sword was broken in two.\nAfter that, he founded the Iwakura Art with his swordsmanship skills and became the instructor of the Kujou Clan.\nHe would also have the Amenoma master of that time craft the sword that would be passed down through the \"In\" line — the \"Hakuen Bankou Amenoma.\"\n\nLegends abound concerning the deeds done using that blade. It is said that its edge was so sharp that it might even cut through mortal fate.\nAs for the overly lengthy name, it is said that Iwakura Douin specified to Amenoma that it be called as such.",
+    "refinement": [
+      [
+        {
+          "name": "Iwakura Succession",
+          "desc": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates **6** Energy for each seed consumed."
+        },
+        {
+          "name": "Iwakura Succession",
+          "desc": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates **7.5** Energy for each seed consumed."
+        },
+        {
+          "name": "Iwakura Succession",
+          "desc": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates **9** Energy for each seed consumed."
+        },
+        {
+          "name": "Iwakura Succession",
+          "desc": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates **10.5** Energy for each seed consumed."
+        },
+        {
+          "name": "Iwakura Succession",
+          "desc": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates **12** Energy for each seed consumed."
         }
       ]
     ]
@@ -9765,7 +9982,7 @@
         }
       }
     ],
-    "lore": "A greatsword used by a noble who ruled over Mondstadt. It was crafted with premium materials and master craftsmanship.\nFor that reason, even after being passed down for generations, it is still as good as new.\nCombat was once a responsibility of the nobles.\nThey protected their people from monsters threatening peace and stability.\nUnfortunately, they all but forgot their responsibilities, which turned them into the very monsters they once sought to destroy.\n\nResearch suggests that gladiatorial combat originated in a religious context during the rule of the Aristocracy.\nNow outlawed by the Knights of Favonius, it began as a sacrificial ceremony held jointly with prayers to the gods.\n\nThough the practice was later turned into a perverted sport for the Lawrence Clan's pleasure, and subsequently abolished by the Knights,\nSome texts of the original prayers still remain.\n\n\"Please look after Mondstadt's winds. Look after me, my friends, my countrymen, and my opponent. May the sound of clashing blades delight you, and may the offering of sweat and blood please you.\"\n\"To the wind that guides me. When I'm exhausted, bless me with the strength to keep going forward. When I'm uncertain, bless me with the wisdom to distinguish good from evil.\"",
+    "lore": "A greatsword once used by nobles who ruled over Mondstadt. It was made using premium materials and masterful craftsmanship.\nFor that reason, even after being passed down for generations, it is still as good as new.\nCombat was once a responsibility of the nobles.\nThey protected their people from monsters that threatened peace and stability.\nUnfortunately, they all but forgot their responsibilities, which turned them into the very monsters they once sought to destroy.\n\nResearch suggests that gladiatorial combat originated in a religious context during the rule of the Aristocracy.\nNow outlawed by the Knights of Favonius, it began as a sacrificial ceremony held jointly with prayers to the gods.\n\nThough the practice was later turned into a perverted sport for the Lawrence Clan's pleasure, and subsequently abolished by the Knights,\nSome texts of the original prayers still remain.\n\n\"O guardian winds of Mondstadt. Look after me, my friends, my countrymen, and my opponent. May the sound of clashing blades delight you, and may the offering of sweat and blood please you.\"\n\"O winds that guide my path. When I'm exhausted, bless me with the strength to keep going forward. When I'm uncertain, bless me with the wisdom to distinguish good from evil.\"",
     "refinement": [
       [
         {
@@ -10416,7 +10633,7 @@
         }
       }
     ],
-    "lore": "The whole world flocks to the commercial port of Liyue, much to the city's pride.\nWith the tides of people also come exotic treasures.\nThis greatsword is expertly made with the finest materials. It is unique in that the edge closest to the wielder has been left dull.\nThe dull edge is said to have been used as the hilt, enabling the wielder to switch forms by constantly shifting hand positions in combat.\n\nThough it is rarely acknowledged, this greatsword was in fact a foreign bladesmith's labor of love.\nThe bladesmith knew himself to be dull of wits, and was anxious that this blade should not follow suit. Hence, he worked painstakingly on sharpening and balancing his beloved blade.\nSparks flew as the bladesmith worked through many sleepless nights.\nThe sword was recast and re-tempered countless times.\nAll the while his mind was consumed with the hope of his lover's return, as well as his untold anxiety for her wellbeing.\n\n\"After the war is over...\"\nThe bladesmith would ponder briefly, each time he paused for breath.\n\"Will this blade still be of use to her?\"\n\"Will she even make it home safely?\"\nThese thoughts would linger in his mind for but a moment before he cast them aside and refocused his full attention on the blade.\nIndulging irresolvable anxieties was a futile endeavor — better to focus his faculties on creating the perfect welcome-home gift.\n\nFinally, the day came when the triumphant expeditionary force entered the city gates, their monstrous foes defeated at last.\nBut the bladesmith had not had time to carve his lover's name onto the blade's body.\nWith no time to lose, he grabbed the sword and rushed to meet his lover on the occasion of her return.\nUnfortunately, what would transpire next was to be an unbearable anticlimax.\n\nAs the warrior removed her helmet, long, soft hair flowed down. She was growing her hair out, and hence would never need to wield a blade again for the rest of her days.\nMeanwhile, she had brought her lover a gift, too: A shiny new hunting bow.\n\"Romance is dead! I wasted all these years making you this greatsword, and now you don't even need it!\"\nThe bladesmith was thoroughly miserable and would not stop complaining about the unfairness of it all. But his efforts had by no means been in vain — at least he had finally succeeded in making a blade of the very finest quality.",
+    "lore": "The whole world flocks to the commercial port of Liyue, much to the city's pride.\nWith the tides of people also come exotic treasures.\nThis greatsword is expertly made with the finest materials. It is unique in that the edge closest to the wielder has been left dull.\nThe dull edge is said to have been used as the hilt, enabling the wielder to switch forms by constantly shifting hand positions in combat.\n\nThough it is rarely acknowledged, this greatsword was in fact a foreign bladesmith's labor of love.\nThe bladesmith knew himself to be dull of wits, and was anxious that this blade should not follow suit. Hence, he worked painstakingly on sharpening and balancing his beloved blade.\nSparks flew as the bladesmith worked through many sleepless nights.\nThe sword was recast and re-tempered countless times.\nAll the while his mind was consumed with the hope of his lover's return, as well as his untold anxiety for her well-being.\n\n\"After the war is over...\"\nThe bladesmith would ponder briefly, each time he paused for breath.\n\"Will this blade still be of use to her?\"\n\"Will she even make it home safely?\"\nThese thoughts would linger in his mind for but a moment before he cast them aside and refocused his full attention on the blade.\nIndulging irresolvable anxieties was a futile endeavor — better to focus his faculties on creating the perfect welcome-home gift.\n\nFinally, the day came when the triumphant expeditionary force entered the city gates, their monstrous foes defeated at last.\nBut the bladesmith had not had time to carve his lover's name onto the blade's body.\nWith no time to lose, he grabbed the sword and rushed to meet his lover on the occasion of her return.\nUnfortunately, what would transpire next was to be an unbearable anticlimax.\n\nAs the warrior removed her helmet, long, soft hair flowed down. She was growing her hair out, and hence would never need to wield a blade again for the rest of her days.\nMeanwhile, she had brought her lover a gift, too: A shiny new hunting bow.\n\"Romance is dead! I wasted all these years making you this greatsword, and now you don't even need it!\"\nThe bladesmith was thoroughly miserable and would not stop complaining about the unfairness of it all. But his efforts had by no means been in vain — at least he had finally succeeded in making a blade of the very finest quality.",
     "refinement": [
       [
         {
@@ -11306,6 +11523,223 @@
         {
           "name": "Lithic Axiom: Unity",
           "desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a **11%** ATK increase and a **7%** CRIT Rate increase. This effect stacks up to 4 times."
+        }
+      ]
+    ]
+  },
+  "Katsuragikiri Nagamasa": {
+    "name": "Katsuragikiri Nagamasa",
+    "desc": "A blade that was once made in Tatarasuna. Heavy and tough.",
+    "weaponType": "Claymore",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "Energy Recharge",
+        "init": 0.10000000149011612,
+        "curve": "C2"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Bakufu.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Bakufu_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ],
+        "cost": {
+          "mora": 5000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Narukami's Wisdom"
+            },
+            {
+              "count": 3,
+              "name": "Chaos Gear"
+            },
+            {
+              "count": 2,
+              "name": "Old Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ],
+        "cost": {
+          "mora": 15000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Narukami's Joy"
+            },
+            {
+              "count": 12,
+              "name": "Chaos Gear"
+            },
+            {
+              "count": 8,
+              "name": "Old Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Narukami's Joy"
+            },
+            {
+              "count": 6,
+              "name": "Chaos Axis"
+            },
+            {
+              "count": 6,
+              "name": "Kageuchi Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Narukami's Affection"
+            },
+            {
+              "count": 12,
+              "name": "Chaos Axis"
+            },
+            {
+              "count": 9,
+              "name": "Kageuchi Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 35000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Narukami's Affection"
+            },
+            {
+              "count": 9,
+              "name": "Chaos Oculus"
+            },
+            {
+              "count": 6,
+              "name": "Famed Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 4,
+              "name": "Narukami's Valor"
+            },
+            {
+              "count": 18,
+              "name": "Chaos Oculus"
+            },
+            {
+              "count": 12,
+              "name": "Famed Handguard"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "A nagamaki sword designed by one of Tatarasuna's inspectors.\nIt is said that the diagram is as simple and upright as that inspector was.\n\nFor a long time, before the introduction of the outlander technology that helped build the Mikage Furnace,\nTatarasuna smelted iron using the traditional \"Tatara Metalworking Method.\"\nAfter Mikoshi Nagamasa became the inspector, he was for a time obsessed with the grim loveliness of steel.\nHe thus consulted the similarly-inclined Armory Officer Miyazaki for advice,\nWith the end result being this tough and simple sword, the Daitatara Nagamasa.\n\nAlthough he was only the foster son of the Mikoshi Clan, and although his fostered mother had stained the reputation of the Mikoshi,\nAnd even though Mikoshi's only legitimate heir, Doukei, abandoned him and disappeared,\nHis self-admitted stupidity and loyalty led him to cherish the Mikoshi name all the more.\nHe strove to enter the government and got rid of the family's bad reputation with his diligence and righteousness.\n\nWhen his yoriki Katsuragi was connected with but a single trace of misconduct, he had him executed without mercy.\nEver since then, the name of the sword and his title were changed forever.",
+    "refinement": [
+      [
+        {
+          "name": "Samurai Conduct",
+          "desc": "Increases Elemental Skill DMG by **6%**. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates **3** Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
+        },
+        {
+          "name": "Samurai Conduct",
+          "desc": "Increases Elemental Skill DMG by **7.5%**. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates **3.5** Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
+        },
+        {
+          "name": "Samurai Conduct",
+          "desc": "Increases Elemental Skill DMG by **9%**. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates **4** Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
+        },
+        {
+          "name": "Samurai Conduct",
+          "desc": "Increases Elemental Skill DMG by **10.5%**. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates **4.5** Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
+        },
+        {
+          "name": "Samurai Conduct",
+          "desc": "Increases Elemental Skill DMG by **12%**. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates **5** Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
         }
       ]
     ]
@@ -13259,6 +13693,223 @@
         {
           "name": "Lithic Axiom: Unity",
           "desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a **11%** ATK increase and a **7%** CRIT Rate increase. This effect stacks up to 4 times."
+        }
+      ]
+    ]
+  },
+  "Kitain Cross Spear": {
+    "name": "Kitain Cross Spear",
+    "desc": "A special lance that was once used by a famed warrior who guarded the Tatarigami on Yashiori Island.",
+    "weaponType": "Polearm",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.734901428222656,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "Elemental Mastery",
+        "init": 24,
+        "curve": "C2"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Bakufu.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Bakufu_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ],
+        "cost": {
+          "mora": 5000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Mask of the Wicked Lieutenant"
+            },
+            {
+              "count": 3,
+              "name": "Chaos Gear"
+            },
+            {
+              "count": 2,
+              "name": "Treasure Hoarder Insignia"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ],
+        "cost": {
+          "mora": 15000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Mask of the Tiger's Bite"
+            },
+            {
+              "count": 12,
+              "name": "Chaos Gear"
+            },
+            {
+              "count": 8,
+              "name": "Treasure Hoarder Insignia"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Mask of the Tiger's Bite"
+            },
+            {
+              "count": 6,
+              "name": "Chaos Axis"
+            },
+            {
+              "count": 6,
+              "name": "Silver Raven Insignia"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Mask of the One-Horned"
+            },
+            {
+              "count": 12,
+              "name": "Chaos Axis"
+            },
+            {
+              "count": 9,
+              "name": "Silver Raven Insignia"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 35000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Mask of the One-Horned"
+            },
+            {
+              "count": 9,
+              "name": "Chaos Oculus"
+            },
+            {
+              "count": 6,
+              "name": "Golden Raven Insignia"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 4,
+              "name": "Mask of the Kijin"
+            },
+            {
+              "count": 18,
+              "name": "Chaos Oculus"
+            },
+            {
+              "count": 12,
+              "name": "Golden Raven Insignia"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "A strangely-shaped spear made by Kitain Bunsou for his own unique style of spearmanship.\nIts massive weight makes it extremely unwieldy in untrained hands.\nBut in the hands of an expert, it is capable of unleashing great destructive power.\n\nIn the distant past, Kitain used to be a family that hunted the Tatarigami down.\nFor many generations, they held the post of \"The Yashiori Guardians.\"\n\nIn the past, there was a certain children's song that circulated widely within Inazuma:\n\"Arataki of the Front Gate, Iwakura the Successor, Kitain the Serpent, Takamine the Mistsplitter.\"\nThese phrases describe the dazzling warriors who once illuminated the earth like comets.\nThere used to be many other names in the list, but they have since been lost to history.\nAnd having been a demon hunter for so long, it is unavoidable that one might imbibe some of that miasmic, tainted blood.",
+    "refinement": [
+      [
+        {
+          "name": "Samurai Conduct",
+          "desc": "Increases Elemental Skill DMG by **6%**. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates **3** Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
+        },
+        {
+          "name": "Samurai Conduct",
+          "desc": "Increases Elemental Skill DMG by **7.5%**. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates **3.5** Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
+        },
+        {
+          "name": "Samurai Conduct",
+          "desc": "Increases Elemental Skill DMG by **9%**. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates **4** Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
+        },
+        {
+          "name": "Samurai Conduct",
+          "desc": "Increases Elemental Skill DMG by **10.5%**. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates **4.5** Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
+        },
+        {
+          "name": "Samurai Conduct",
+          "desc": "Increases Elemental Skill DMG by **12%**. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates **5** Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
         }
       ]
     ]
@@ -15867,6 +16518,223 @@
       ]
     ]
   },
+  "Hakushin Ring": {
+    "name": "Hakushin Ring",
+    "desc": "A catalyst that carries the memory of the Kitsune Saiguu of ancient times. However, this device is but an impoverished vessel for the full breadth of her thought.",
+    "weaponType": "Catalyst",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.734901428222656,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "Energy Recharge",
+        "init": 0.06666699796915054,
+        "curve": "C2"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Bakufu.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Bakufu_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ],
+        "cost": {
+          "mora": 5000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Coral Branch of a Distant Sea"
+            },
+            {
+              "count": 3,
+              "name": "Dismal Prism"
+            },
+            {
+              "count": 2,
+              "name": "Divining Scroll"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ],
+        "cost": {
+          "mora": 15000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Jeweled Branch of a Distant Sea"
+            },
+            {
+              "count": 12,
+              "name": "Dismal Prism"
+            },
+            {
+              "count": 8,
+              "name": "Divining Scroll"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Jeweled Branch of a Distant Sea"
+            },
+            {
+              "count": 6,
+              "name": "Crystal Prism"
+            },
+            {
+              "count": 6,
+              "name": "Sealed Scroll"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Jade Branch of a Distant Sea"
+            },
+            {
+              "count": 12,
+              "name": "Crystal Prism"
+            },
+            {
+              "count": 9,
+              "name": "Sealed Scroll"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 35000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Jade Branch of a Distant Sea"
+            },
+            {
+              "count": 9,
+              "name": "Polarizing Prism"
+            },
+            {
+              "count": 6,
+              "name": "Forbidden Curse Scroll"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 4,
+              "name": "Golden Branch of a Distant Sea"
+            },
+            {
+              "count": 18,
+              "name": "Polarizing Prism"
+            },
+            {
+              "count": 12,
+              "name": "Forbidden Curse Scroll"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "\"People come and go in such haste, like dreams that stay in the night and leave in the morning.\"\n\nThis simple and ordinary life...\nYes, I think I've lived it to the full.\n\nI was once the Hakushin Kitsune.\nWith my agile and loveable comrades,\nI dashed across the mountains and plains of Narukami.\n\nHopefully, when everything is over,\nThey can run happily once more...\n\nI once met an oni maiden with a face as lovely as the moon.\nTogether, we performed and played divine music before the throne,\nAnd I could not help but applaud her sword-dance.\nI hope her beauty, bravery, and bearing,\nShall be praised by people for thousands of years to come.\n\nAt the thought of her unrivaled beauty,\nI cannot help wanting to hide my current appearance with a mask...\n\nI once got into a race with the chieftain of the Yougou Tengu,\nAnd we sprinted through all the courses and paths of the spirit mountains, both within it and around it.\nIn this great contest of speed and strength,\n\nI, born of the Hakushin Clan, was the eventual victor.\nNow that I think about it, she must have let me off easy.\nThe very thought of it makes me feel a little unsatisfied...\n\nI once schemed against a bake-danuki who persistently challenge me,\nAnd I made him surrender to the Shogun completely.\nI also shamelessly schemed against the Shogun,\nAnd I made her put the great bake-danuki under her command.\n\nThat night, the moonlight swept the imperial garden, through branch and petal,\nShowering the courtyard with pearls from heaven.\nThat scene still glows brightly in my shallow heart...\n\nI hope she can remember the wordy motto I dared to put to her ere we parted.\n\"Do not be blinded. Do not waver. Keep walking on the path you believe in.\"\nI hope that my words will ward off at least some of the lies and evil she will face.\nI also hope that that mischievous yet innocent tanuki will not hate me for my final deception...\n\nNow, in this darkest of places,\nI will hold tightly to these scenes,\nAnd like the moon shining through the clouds,\nThey will light up my tiny, fragile heart.\n\nIn this life, I once took the form of a human,\nAnd I walked with these short-lived yet beautiful little creatures,\nAnd became friends with many people from all walks of life.\nWhether it was the shrine maiden who came to train in Narukami for the sake of her hometown shrine,\nOr the kid who got separated from the adults by the divine palanquin's entourage during the summer festival,\nOr the easygoing young man who finally went to Liyue to practice the adepti arts...\nWhether it's the Kanjou who worked hard to make the city prosperous,\nOr the craftsman who was obsessed with making extremely sharp swords,\nOr the clan who used ingenious techniques to make man-made meteors bloom in the skies...\nAll of them are friends whom I did not expect to make.\n\nI hope the barrier that guards them will not be eroded by any darkness...\n\nEverything, all of this — they are all things that I yearn for.\n\n\"So then, the dark will that gnaws at me...\"\n\"Now that I've lost all my strength,\"\n\"My Hakushin blood is yours to do with as you will.\"\n\"However, despite being greatly humbled as I am,\"\n\"I still pray that you will listen to my pleas...\"\n\n\"If you can see everything that I treasure,\"\n\"Then I beg pardon on behalf of those beings.\"\n\"If you would permit me to make but one wish,\"\n\"Please return my ever-bright memory,\"\n\"To this land that I love deeply.\"\n\"That way, that even after your rampage,\"\n\"I may still hold out hope for beautiful things to endure...\"",
+    "refinement": [
+      [
+        {
+          "name": "Sakura Saiguu",
+          "desc": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a **10%** Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked."
+        },
+        {
+          "name": "Sakura Saiguu",
+          "desc": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a **12.5%** Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked."
+        },
+        {
+          "name": "Sakura Saiguu",
+          "desc": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a **15%** Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked."
+        },
+        {
+          "name": "Sakura Saiguu",
+          "desc": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a **17.5%** Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked."
+        },
+        {
+          "name": "Sakura Saiguu",
+          "desc": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a **20%** Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked."
+        }
+      ]
+    ]
+  },
   "Favonius Warbow": {
     "name": "Favonius Warbow",
     "desc": "A standard-issue recurve bow of the Knights of Favonius. Only the best archers can unleash its full potential.",
@@ -18445,7 +19313,7 @@
         }
       }
     ],
-    "lore": "...\n\"Mein Fräulein, not one tear of yours was shed in vain during your pilgrimage.\"\nThus spoke Ozvaldo Hrafnavins when the Prinzessin when her journey in the land of ever-silence came to a close.\n\nIn their long journey across space and time, the Prinzessin der Verurteilung and her Night-Severing Raven bore witness to countless stories and their endings, each a raindrop that flows at the journey's end into a bitter sea. Every young man's rage at injustice must turn to calm. Every passion must be ground into dust by the march of time, before being turned to wild paranoia upon that inverted, ancient tree. Even the branch of the tree of time upon which the great and glorious Reman Republic nested would be cut off in the end, such that the nation founded by the other twin child of the wolves might rule.\nEverything in this world must pass through the doorway of their destruction unto the future kingdom of the Prinzessin. In the silence of her pitch-dark Nachtgarten would they find a place to slumber.\nEven so, when Droctfult fell at the hands of the Beast of the World, having fought for the dreams of a young man and the rain that had yet to fall, and was torn to shred by its claws, the Prinzessin still began to tear up.\n\n\"Hearken well, Ozvaldo Hrafnavins. The Sovereign of the Immernachtreich weepeth not.\"\nShe went on, \"Who among those born into this world are not burdened with sin? When the clock sounds for the time of judgment once more, the skirt of night shall descend once more. Then, the writhing struggles of man and beast trapped within will be naught but a midnight waltz.\"\n\n\"It is as you say, mein Fräulein.\"\n\"Hmph. As well you should know.\"\n\"Well then, mein Fräulein, I wonder if you still recall this tale...\"\n\nTwo of the three bright moons that caused the perfumed sea of the primordial universe to shine and stirred up the beasts of the Arianrhod Realm were shredded by a sword that tore the horizon asunder, left in smithereens too small even for the mystical sight of the Prinzessin.\nOr perhaps this was what happened: the bright moons that once illuminated a universe, brought dreams and song to the sweet sleepers of three worlds, and awakened a deep longing in the beast-herds that wandered betwixt dawn and dusk — they were at last rendered dust. But even so, they too wished to remain within the eternal, shining gaze of the Prinzessin, bringing their subtle light unto more lands still.\n\nIndeed. A Prinzessin does not shed tears.\nThat was merely a natural secretion from her royal eyes, affronted as they were by the untimely intrusion of those impudent grains of sand.\n\n—Volume End—",
+    "lore": "...\n\"Mein Fräulein, not one tear of yours was shed in vain during your pilgrimage.\"\nThus spoke Ozvaldo Hrafnavins when the Prinzessin's journey in the land of ever-silence came to a close.\n\nIn their long journey across space and time, the Prinzessin der Verurteilung and her Night-Severing Raven bore witness to countless stories and their endings, each a raindrop that flows at the journey's end into a bitter sea. Every young man's rage at injustice must turn to calm. Every passion must be ground into dust by the march of time, before being turned to wild paranoia upon that inverted, ancient tree. Even the branch of the tree of time upon which the great and glorious Reman Republic nested would be cut off in the end, such that the nation founded by the other twin child of the wolves might rule.\nEverything in this world must pass through the doorway of their destruction unto the future kingdom of the Prinzessin. In the silence of her pitch-dark Nachtgarten would they find a place to slumber.\nEven so, when Droctfult fell at the hands of the Beast of the World, having fought for the dreams of a young man and the rain that had yet to fall, and was torn to shred by its claws, the Prinzessin still began to tear up.\n\n\"Hearken well, Ozvaldo Hrafnavins. The Sovereign of the Immernachtreich weepeth not.\"\nShe went on, \"Who among those born into this world are not burdened with sin? When the clock sounds for the time of judgment once more, the skirt of night shall descend once more. Then, the writhing struggles of man and beast trapped within will be naught but a midnight waltz.\"\n\n\"It is as you say, mein Fräulein.\"\n\"Hmph. As well you should know.\"\n\"Well then, mein Fräulein, I wonder if you still recall this tale...\"\n\nTwo of the three bright moons that caused the perfumed sea of the primordial universe to shine and stirred up the beasts of the Arianrhod Realm were shredded by a sword that tore the horizon asunder, left in smithereens too small even for the mystical sight of the Prinzessin.\nOr perhaps this was what happened: the bright moons that once illuminated a universe, brought dreams and song to the sweet sleepers of three worlds, and awakened a deep longing in the beast-herds that wandered betwixt dawn and dusk — they were at last rendered dust. But even so, they too wished to remain within the eternal, shining gaze of the Prinzessin, bringing their subtle light unto more lands still.\n\nIndeed. A Prinzessin does not shed tears.\nThat was merely a natural secretion from her royal eyes, affronted as they were by the untimely intrusion of those impudent grains of sand.\n\n—Volume End—",
     "refinement": [
       [
         {
@@ -18467,6 +19335,223 @@
         {
           "name": "Evernight Duet",
           "desc": "Normal Attack hits on opponents increase Elemental Skill DMG by **40%** for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by **40%** for 5s."
+        }
+      ]
+    ]
+  },
+  "Hamayumi": {
+    "name": "Hamayumi",
+    "desc": "A certain shrine maiden once owned this warbow. It was made with surpassing skill, and is both intricate and sturdy.",
+    "weaponType": "Bow",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 41.067100524902344,
+        "curve": "ATK 2.4"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.11999999731779099,
+        "curve": "C2"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Bakufu.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Bakufu_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ],
+        "cost": {
+          "mora": 5000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Narukami's Wisdom"
+            },
+            {
+              "count": 3,
+              "name": "Dismal Prism"
+            },
+            {
+              "count": 2,
+              "name": "Firm Arrowhead"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ],
+        "cost": {
+          "mora": 15000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Narukami's Joy"
+            },
+            {
+              "count": 12,
+              "name": "Dismal Prism"
+            },
+            {
+              "count": 8,
+              "name": "Firm Arrowhead"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Narukami's Joy"
+            },
+            {
+              "count": 6,
+              "name": "Crystal Prism"
+            },
+            {
+              "count": 6,
+              "name": "Sharp Arrowhead"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Narukami's Affection"
+            },
+            {
+              "count": 12,
+              "name": "Crystal Prism"
+            },
+            {
+              "count": 9,
+              "name": "Sharp Arrowhead"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 35000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Narukami's Affection"
+            },
+            {
+              "count": 9,
+              "name": "Polarizing Prism"
+            },
+            {
+              "count": 6,
+              "name": "Weathered Arrowhead"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 4,
+              "name": "Narukami's Valor"
+            },
+            {
+              "count": 18,
+              "name": "Polarizing Prism"
+            },
+            {
+              "count": 12,
+              "name": "Weathered Arrowhead"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "\"Get off the ship. Women are a hindrance here!\"\nThe thief they called Ako Domeki turned and left.\nBut hearing this, the shrine maiden could not help by smile faintly.\nIf the person who had taught me archery had not gone forth to campaign alongside the Shogun,\nThen our son would been the same age as Zaemon now.\nAnd perhaps I would have come to be a Takamine, or he, an Asase...\n\nZaemon's tone, and the way he intentionally turns his back on me,\nIs the spitting image of how he once did it, sword in hand.\nThis time, I will not let this person die.\nEven if it means fighting against the Electro Mitsudomoe banner...\n\n\"Our fishing spears and swords have been sharpened. It is time to set sail.\"\n\"Well then, let's show those Shogunate lackeys Seirai's strength!\"\n\nHearing the sea shanties greeting their departure, the shrine maiden set down her warbow.\nShe once secretly learned true \"magic\" on Mt. Yougou,\nAnd though she felt sorry for her Master, the Tengu, she would use it here.\nShe would undo the great barrier that had held for a thousand years,\nAnd she would set the resentment of the moribund violet glede free,\nAllowing it to ravage the ships that flew the Electro Archon's banner.\nShe could only hope that that old cat wouldn't come charging into the storm...",
+    "refinement": [
+      [
+        {
+          "name": "Full Draw",
+          "desc": "Increases Normal Attack DMG by **16%** and Charged Attack DMG by **12%**. When the equipping character's Energy reaches 100%, this effect is increased by 100%."
+        },
+        {
+          "name": "Full Draw",
+          "desc": "Increases Normal Attack DMG by **20%** and Charged Attack DMG by **15%**. When the equipping character's Energy reaches 100%, this effect is increased by 100%."
+        },
+        {
+          "name": "Full Draw",
+          "desc": "Increases Normal Attack DMG by **24%** and Charged Attack DMG by **18%**. When the equipping character's Energy reaches 100%, this effect is increased by 100%."
+        },
+        {
+          "name": "Full Draw",
+          "desc": "Increases Normal Attack DMG by **28%** and Charged Attack DMG by **21%**. When the equipping character's Energy reaches 100%, this effect is increased by 100%."
+        },
+        {
+          "name": "Full Draw",
+          "desc": "Increases Normal Attack DMG by **32%** and Charged Attack DMG by **24%**. When the equipping character's Energy reaches 100%, this effect is increased by 100%."
         }
       ]
     ]
@@ -19552,6 +20637,223 @@
         {
           "name": "Revolutionary Chorale",
           "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by **20%**. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by **32%** and increases ATK by **40%**. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
+        }
+      ]
+    ]
+  },
+  "Mistsplitter Reforged": {
+    "name": "Mistsplitter Reforged",
+    "desc": "A sword that blazes with a fierce violet light. The name \"Reforged\" comes from it having been broken once before.",
+    "weaponType": "Sword",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 47.5369987487793,
+        "curve": "ATK 3.2"
+      },
+      {
+        "stat": "CRIT DMG",
+        "init": 0.09600000083446503,
+        "curve": "C3"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Narukami.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Narukami_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ],
+        "cost": {
+          "mora": 10000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Coral Branch of a Distant Sea"
+            },
+            {
+              "count": 5,
+              "name": "Chaos Gear"
+            },
+            {
+              "count": 3,
+              "name": "Old Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Jeweled Branch of a Distant Sea"
+            },
+            {
+              "count": 18,
+              "name": "Chaos Gear"
+            },
+            {
+              "count": 12,
+              "name": "Old Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 9,
+              "name": "Jeweled Branch of a Distant Sea"
+            },
+            {
+              "count": 9,
+              "name": "Chaos Axis"
+            },
+            {
+              "count": 9,
+              "name": "Kageuchi Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Jade Branch of a Distant Sea"
+            },
+            {
+              "count": 18,
+              "name": "Chaos Axis"
+            },
+            {
+              "count": 14,
+              "name": "Kageuchi Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 55000,
+          "items": [
+            {
+              "count": 9,
+              "name": "Jade Branch of a Distant Sea"
+            },
+            {
+              "count": 14,
+              "name": "Chaos Oculus"
+            },
+            {
+              "count": 9,
+              "name": "Famed Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 65000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Golden Branch of a Distant Sea"
+            },
+            {
+              "count": 27,
+              "name": "Chaos Oculus"
+            },
+            {
+              "count": 18,
+              "name": "Famed Handguard"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "One of the swords that the Shogun bestowed upon her Hatamoto. It is said that it can call upon the power of lightning itself to slice through the mountain mist and night fog.\nIt was once shattered into a thousand pieces. After being reforged, a hamon resembling flowing clouds was left on the blade.\n\nAs the folk song goes: \"Arataki of the Front Gate, Iwakura the Successor, Kitain the Serpent, Takamine the Mistsplitter.\"\nThus do children who love martial arts list famous historical martial artists, and \"Takamine the Mistsplitter\" was the very same user of this sword.\nThis man once accompanied a member of the clergy, using the Mistsplitter to countless demons and Tatarigami.\nHe also learned archery from the Yougou Tengu, and passed that knowledge on to a person he loved.\nHowever, Mistsplitter would have no successors, and now only exists within storybooks, artworks, and fairytales.\n\nAt the end of his life, he assumed the position of one of the Shogun's yoriki and fought against a dark army.\n\nIf he hadn't left his beloved bow to her as part of their wager, maybe things would've been different.\nBut real gamblers never regret, never care about \"what ifs,\" and never feel remorse over \"if onlys.\"\nThe foe flooded over like mist — and so he would just keep slashing away with that secret blade that could disperse the brumous night.\nAs long as his strikes were swift enough, he would pierce the dark night, and day would come again—\n\n\"Asase, our promise... No, say rather our great bet. I will not lose it, not for the world!\"\n\"I shall return, and together with the bow that I'd wagered... I'll claim the future as my prize!\"\n\nLike a never-ending chain of lightning, he and Mistsplitter slew countless demons together.\nYet at the last, the sword was not as tenacious as the swordsman, and it gradually broke down.\nAnd he became submerged in that thick dark mist...\nIn the end, only some of the blade's fragments were retrieved for reforging, such that it might inherit the Mistsplitter name.\n\nAs though holding onto a spider's thread hanging down in the dark, the samurai held the handle of his broken sword tightly.\nAmidst the dark mist, he kept stubbornly reminding himself:\nThe result of our wager is still undecided. I must return to Asase's side...",
+    "refinement": [
+      [
+        {
+          "name": "Mistsplitter's Edge",
+          "desc": "Gain a **12%** Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a **8/16/28%** Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+        },
+        {
+          "name": "Mistsplitter's Edge",
+          "desc": "Gain a **15%** Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a **10/20/35%** Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+        },
+        {
+          "name": "Mistsplitter's Edge",
+          "desc": "Gain a **18%** Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a **12/24/42%** Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+        },
+        {
+          "name": "Mistsplitter's Edge",
+          "desc": "Gain a **21%** Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a **14/28/49%** Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+        },
+        {
+          "name": "Mistsplitter's Edge",
+          "desc": "Gain a **24%** Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a **16/32/56%** Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of the Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
         }
       ]
     ]
@@ -22590,6 +23892,223 @@
         {
           "name": "The Parting Refrain",
           "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by **120**. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by **200** and increases ATK by **40%**. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
+        }
+      ]
+    ]
+  },
+  "Thundering Pulse": {
+    "name": "Thundering Pulse",
+    "desc": "A longbow that was a gift from the Shogun. Eternal lightning crackles all around it.",
+    "weaponType": "Bow",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 45.9364013671875,
+        "curve": "ATK 3.1"
+      },
+      {
+        "stat": "CRIT DMG",
+        "init": 0.14399999380111694,
+        "curve": "C3"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Narukami.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Narukami_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ],
+        "cost": {
+          "mora": 10000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Narukami's Wisdom"
+            },
+            {
+              "count": 5,
+              "name": "Dismal Prism"
+            },
+            {
+              "count": 3,
+              "name": "Firm Arrowhead"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Narukami's Joy"
+            },
+            {
+              "count": 18,
+              "name": "Dismal Prism"
+            },
+            {
+              "count": 12,
+              "name": "Firm Arrowhead"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 9,
+              "name": "Narukami's Joy"
+            },
+            {
+              "count": 9,
+              "name": "Crystal Prism"
+            },
+            {
+              "count": 9,
+              "name": "Sharp Arrowhead"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Narukami's Affection"
+            },
+            {
+              "count": 18,
+              "name": "Crystal Prism"
+            },
+            {
+              "count": 14,
+              "name": "Sharp Arrowhead"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 55000,
+          "items": [
+            {
+              "count": 9,
+              "name": "Narukami's Affection"
+            },
+            {
+              "count": 14,
+              "name": "Polarizing Prism"
+            },
+            {
+              "count": 9,
+              "name": "Weathered Arrowhead"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 65000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Narukami's Valor"
+            },
+            {
+              "count": 27,
+              "name": "Polarizing Prism"
+            },
+            {
+              "count": 18,
+              "name": "Weathered Arrowhead"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "This bow, crackling with thunder, retains its luster despite having been soaked in thick darkness.\nWhen disaster came from a distant sea, it was once the favorite weapon of a great swordsman.\n\nIn his youth, he wandered the mountains, and he made a wager with a great Tengu he came across.\nHe gambled his young, strong body as a bet against a bow given by the Shogun.\n\nAs for the gamble itself, he could only sometimes recall it, when he was drunk.\nBut by the time dawn came, he had three wins and three losses — his contest with the Tengu was a draw.\nSo in the bad news, he was taken as a servant by the Tengu. But in the good news, he won that unmatched bow.\n\n\"Behold, Konbumaru, this is Tengu archery. Watch and learn!\"\nHe was given this rather ridiculous nickname, but ultimately, he witnessed the Tengu's form.\nSoaring through the cloud unfettered, unleashing thunderbolts with every bowstring's pulse...\nIt was a true, unreserved dance of death. Fierce and unpredictable, elegant and beautiful.\n\nMany years later, he was no longer a servant boy, and he had grasped both some archery and swordsmanship.\nHe was referred to the Shogunate through a recommendation letter from his impatient master.\nIn the years under the Shogun, his martial skills improved greatly, and he made many friends and enemies.\nStill, his hobby of unrestrained wanderlust had not changed. On the contrary, with the Tengu's great bow, he became yet more fearless.\n\n\"Let's make a wager this time, shall we? Hmm. Right, then. This bow shall be my wager.\"\n\"I bet on the mightiest bow in the world that I will return here alive.\"\n\"I'll leave it here with you for now. If I, Takamine, lose our bet, you can keep the bow.\"\n\"After all, you've inherited the essence of my archery techniques. You'll be able to make good use of it.\"\n\"But if I win...\"\n\nWhen disaster swept in from across the distant sea, the samurai and the obstinate shrine maiden had a mutual wager.\nThey bet on his safe return from the abyss against the inscribed bow bestowed by the Shogun.\n\nWhen the dark venom sank deep into the earth and peace returned, the swordsman did not come back.\nThe Shogun's bestowed bow was given to the shrine maiden as her prize for winning their great wager.\nLater, in the forest where the Kitsune Saiguu would no longer appear, in the promised meeting place,\nThe lone returnee who came stumbling back from the abyss finally met the shrine maiden again, though by now she could no longer be called young.\nDull eyes stained with dried blood and tears regained their radiance, but were pierced through by a barbed arrow glowing with power.",
+    "refinement": [
+      [
+        {
+          "name": "Rule by Thunder",
+          "desc": "Increases ATK by **20%** and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by **12/24/40%**. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+        },
+        {
+          "name": "Rule by Thunder",
+          "desc": "Increases ATK by **25%** and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by **15/30/50%**. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+        },
+        {
+          "name": "Rule by Thunder",
+          "desc": "Increases ATK by **30%** and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by **18/36/60%**. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+        },
+        {
+          "name": "Rule by Thunder",
+          "desc": "Increases ATK by **35%** and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by **21/42/70%**. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+        },
+        {
+          "name": "Rule by Thunder",
+          "desc": "Increases ATK by **40%** and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by **24/48/80%**. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
         }
       ]
     ]

@@ -961,7 +961,7 @@
       {
         "type": "Flower",
         "name": "Gladiator's Nostalgia",
-        "desc": "No-one knows why the legendary gladiator wore this flower on his chest. It was the brutal warrior's only weakness.",
+        "desc": "No one knows why the legendary gladiator wore this flower on his chest. It was the brutal warrior's only weakness.",
         "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_4.png"
       },
       {
@@ -1537,6 +1537,106 @@
         "name": "Mocking Mask",
         "desc": "A mask that covers the face, hiding one's expression from others.",
         "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15018_3.png"
+      }
+    ]
+  },
+  "Shimenawa's Reminiscence": {
+    "name": "Shimenawa's Reminiscence",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15019_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "ATK +18%."
+      },
+      {
+        "count": 4,
+        "desc": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/ Plunging Attack DMG is increased by 50% for 10s."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Entangling Bloom",
+        "desc": "A lovely amulet made from twisted paper cord. It is said to hold the power to make wishes come true.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15019_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Shaft of Remembrance",
+        "desc": "A demon-slaying arrow of a rather ancient make. It seems to have been preserved with great care by someone, even until the present day.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15019_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Morning Dew's Moment",
+        "desc": "A bronze pocket watch adorned with twisted paper cord and a bell. Its hands are forever frozen at the dawn of a certain autumn day.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15019_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Hopeful Heart",
+        "desc": "A special fortune-telling cylindrical object. The mechanism at the bottom allows one to easily remove all unwanted wish sticks.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15019_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Capricious Visage",
+        "desc": "A well-preserved ceremonial fox mask. A small, enigmatic smile ever graces its lips.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15019_3.png"
+      }
+    ]
+  },
+  "Emblem of Severed Fate": {
+    "name": "Emblem of Severed Fate",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Energy Recharge +20%"
+      },
+      {
+        "count": 4,
+        "desc": "Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Magnificent Tsuba",
+        "desc": "Legends hold that this ornate hand guard was once fitted upon a sword gifted to the oni who betrayed the Shogun.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Sundered Feather",
+        "desc": "This was once the black feather of a certain tengu warrior, and was the treasured souvenir of an ancient swordsman.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Storm Cage",
+        "desc": "An exquisite seal cage patterned with pansies painted upon a black backdrop, decorated with shining inlaid seashells and intricate gold-work.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Scarlet Vessel",
+        "desc": "An intricately-designed wine vessel that a world-famous martial artist once drank from.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Ornate Kabuto",
+        "desc": "A sturdy and hard helmet worn as armor by a noble samurai.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_3.png"
       }
     ]
   }

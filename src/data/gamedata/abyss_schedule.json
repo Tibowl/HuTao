@@ -421,7 +421,7 @@
     "start": "2021-07-16 04:00:00",
     "end": "2021-08-01 03:59:59",
     "buff": "Brumous Moon",
-    "buffDesc": "When an active character triggers a Swirl reaction on a nearby opponent, a Brumous Aura that lasts 8s will be left at the location where the reaction took place. The Aura will inflict one count of DMG to opponents within it once every 2s. A Brumous Aura can be generated once every 9s.",
+    "buffDesc": "When an active character triggers a Swirl reaction on nearby enemies, a Brumous Aura that lasts 8s will be left at the location of the Swirl reaction. Deals damage to enemies inside the Aura every 2s. A Brumous Aura can only be generated once every 9s.",
     "regularFloors": [
       1,
       2,
@@ -437,6 +437,72 @@
       21,
       22,
       23
+    ]
+  },
+  "21": {
+    "start": "2021-08-01 04:00:00",
+    "end": "2021-08-16 03:59:59",
+    "buff": "Shattering Moon",
+    "buffDesc": "When an active character's Elemental Energy is fully charged, the DEF of opponents hit by the character's Normal, Charged or Plunging Attacks will be decreased by 7% for 10 seconds. Max 5 stacks. Each stack has an independent duration.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  "22": {
+    "start": "2021-08-16 04:00:00",
+    "end": "2021-09-01 03:59:59",
+    "buff": "Brimful Moon",
+    "buffDesc": "When an active character obtains an Elemental Orb or Elemental Particle, the character will unleash a shockwave that deals DMG to surrounding opponents. This kind of shockwave can be unleashed once every 4s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  "23": {
+    "start": "2021-09-01 04:00:00",
+    "end": "2021-09-16 03:59:59",
+    "buff": "Stalwart Moon",
+    "buffDesc": "After unleashing an Elemental Burst, the ATK of every character in the party will be increased by 20% for 10s. Max 3 stacks. Each stack has an independent duration.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      26,
+      27
     ]
   }
 }

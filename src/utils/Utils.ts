@@ -554,7 +554,7 @@ export function findFuzzy(target: string[], search: string): string | undefined 
     if (found)
         return found
 
-    let candidates = target.filter(t => t[0].toLowerCase() == search[0].toLowerCase())
+    let candidates = target.filter(t => caps(t).includes(search[0].toUpperCase()))
     if (candidates.length == 0) candidates = target
     // console.log(search, candidates)
 

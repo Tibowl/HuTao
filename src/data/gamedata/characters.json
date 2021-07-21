@@ -2937,6 +2937,913 @@
             "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerRock_04.png"
           }
         ]
+      },
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Foreign Thundershock",
+            "desc": "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "44.5%",
+                  "48.1%",
+                  "51.7%",
+                  "56.9%",
+                  "60.5%",
+                  "64.6%",
+                  "70.3%",
+                  "76.0%",
+                  "81.7%",
+                  "87.9%",
+                  "94.1%",
+                  "100.3%",
+                  "106.5%",
+                  "112.7%",
+                  "118.9%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "43.4%",
+                  "47.0%",
+                  "50.5%",
+                  "55.5%",
+                  "59.1%",
+                  "63.1%",
+                  "68.7%",
+                  "74.2%",
+                  "79.8%",
+                  "85.9%",
+                  "91.9%",
+                  "98.0%",
+                  "104.0%",
+                  "110.1%",
+                  "116.1%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "53.0%",
+                  "57.3%",
+                  "61.6%",
+                  "67.8%",
+                  "72.1%",
+                  "77.0%",
+                  "83.8%",
+                  "90.6%",
+                  "97.3%",
+                  "104.7%",
+                  "112.1%",
+                  "119.5%",
+                  "126.9%",
+                  "134.3%",
+                  "141.7%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "58.3%",
+                  "63.1%",
+                  "67.8%",
+                  "74.6%",
+                  "79.3%",
+                  "84.8%",
+                  "92.2%",
+                  "99.7%",
+                  "107.1%",
+                  "115.3%",
+                  "123.4%",
+                  "131.5%",
+                  "139.7%",
+                  "147.8%",
+                  "155.9%"
+                ]
+              },
+              {
+                "name": "5-Hit DMG",
+                "values": [
+                  "70.8%",
+                  "76.5%",
+                  "82.3%",
+                  "90.5%",
+                  "96.3%",
+                  "102.9%",
+                  "111.9%",
+                  "121.0%",
+                  "130.0%",
+                  "139.9%",
+                  "149.8%",
+                  "159.7%",
+                  "169.5%",
+                  "179.4%",
+                  "189.3%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "55.9%+72.2%",
+                  "60.4%+78.1%",
+                  "65.0%+84.0%",
+                  "71.5%+92.4%",
+                  "76.1%+98.3%",
+                  "81.3%+105.0%",
+                  "88.4%+114.2%",
+                  "95.6%+123.5%",
+                  "102.7%+132.7%",
+                  "110.5%+142.8%",
+                  "118.3%+152.9%",
+                  "126.1%+163.0%",
+                  "133.9%+173.0%",
+                  "141.7%+183.1%",
+                  "149.5%+193.2%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "values": [
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0"
+                ]
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "63.9%",
+                  "69.1%",
+                  "74.3%",
+                  "81.8%",
+                  "87.0%",
+                  "92.9%",
+                  "101.1%",
+                  "109.3%",
+                  "117.5%",
+                  "126.4%",
+                  "135.3%",
+                  "144.2%",
+                  "153.1%",
+                  "162.1%",
+                  "171.0%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "127.84%/159.68%",
+                  "138.24%/172.67%",
+                  "148.65%/185.67%",
+                  "163.51%/204.24%",
+                  "173.92%/217.23%",
+                  "185.81%/232.09%",
+                  "202.16%/252.51%",
+                  "218.51%/272.93%",
+                  "234.86%/293.36%",
+                  "252.70%/315.64%",
+                  "270.54%/337.92%",
+                  "288.38%/360.20%",
+                  "306.22%/382.48%",
+                  "324.05%/404.76%",
+                  "341.89%/427.04%"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Old Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Kageuchi Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Kageuchi Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Kageuchi Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Kageuchi Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Famed Handguard"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Famed Handguard"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Famed Handguard"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Famed Handguard"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Dragon Lord's Crown"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Lightning Blade",
+            "desc": "Unleashes three swift thunder shadows that deal **Electro DMG** to opponents and leave an Abundance Amulet behind after hitting an opponent.\n2 Abundance Amulets can be created initially. Using this skill will reset any Abundance Amulets that were generated.\n\n**Abundance Amulets**\nWhen a character is near an Abundance Amulet, they will absorb it and obtain the following effects:\n·Restores Elemental Energy\n·Increases Energy Recharge during the Abundance Amulet's duration.\n\n**You and Paimon discuss the paths by which electricity might flow.**",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "Skill DMG",
+                "values": [
+                  "78.66%",
+                  "84.56%",
+                  "90.46%",
+                  "98.33%",
+                  "104.23%",
+                  "110.13%",
+                  "118.00%",
+                  "125.86%",
+                  "133.73%",
+                  "141.60%",
+                  "149.46%",
+                  "157.33%",
+                  "167.16%",
+                  "176.99%",
+                  "186.83%"
+                ]
+              },
+              {
+                "name": "Energy Regeneration",
+                "values": [
+                  "3.0",
+                  "3.0",
+                  "3.0",
+                  "3.5",
+                  "3.5",
+                  "3.5",
+                  "4.0",
+                  "4.0",
+                  "4.0",
+                  "4.0",
+                  "4.0",
+                  "4.0",
+                  "4.0",
+                  "4.0",
+                  "4.0"
+                ]
+              },
+              {
+                "name": "Energy Recharge Increase",
+                "values": [
+                  "20.00%",
+                  "20.00%",
+                  "20.00%",
+                  "20.00%",
+                  "20.00%",
+                  "20.00%",
+                  "20.00%",
+                  "20.00%",
+                  "20.00%",
+                  "20.00%",
+                  "20.00%",
+                  "20.00%",
+                  "20.00%",
+                  "20.00%",
+                  "20.00%"
+                ]
+              },
+              {
+                "name": "Duration",
+                "values": [
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s"
+                ]
+              },
+              {
+                "name": "Abundance Amulet Duration",
+                "values": [
+                  "15.0",
+                  "15.0",
+                  "15.0",
+                  "15.0",
+                  "15.0",
+                  "15.0",
+                  "15.0",
+                  "15.0",
+                  "15.0",
+                  "15.0",
+                  "15.0",
+                  "15.0",
+                  "15.0",
+                  "15.0",
+                  "15.0"
+                ]
+              },
+              {
+                "name": "CD",
+                "values": [
+                  "13.5s",
+                  "13.5s",
+                  "13.5s",
+                  "13.5s",
+                  "13.5s",
+                  "13.5s",
+                  "13.5s",
+                  "13.5s",
+                  "13.5s",
+                  "13.5s",
+                  "13.5s",
+                  "13.5s",
+                  "13.5s",
+                  "13.5s",
+                  "13.5s"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Old Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Kageuchi Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Kageuchi Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Kageuchi Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Kageuchi Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Famed Handguard"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Famed Handguard"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Famed Handguard"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Famed Handguard"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Dragon Lord's Crown"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ult": {
+          "name": "Bellowing Thunder",
+          "desc": "You call upon the protection of lightning, knocking nearby opponents back and dealing **Electro DMG** to them.\n\n**Lightning Shroud**\nWhen your active character's Normal or Charged Attacks hit opponents, they will call Falling Thunder forth, dealing **Electro DMG.**\nWhen Falling Thunder hits opponents, it will regenerate Energy for that character.\nOne instance of Falling Thunder can be generated every 0.5s.\n\n**You and Paimon studied the light that flashes through the clouds.**",
+          "charges": 1,
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "114.4%",
+                "123.0%",
+                "131.6%",
+                "143.0%",
+                "151.6%",
+                "160.2%",
+                "171.6%",
+                "183.0%",
+                "194.5%",
+                "205.9%",
+                "217.4%",
+                "228.8%",
+                "243.1%",
+                "257.4%",
+                "271.7%"
+              ]
+            },
+            {
+              "name": "Falling Thunder DMG",
+              "values": [
+                "32.8%",
+                "35.3%",
+                "37.7%",
+                "41.0%",
+                "43.5%",
+                "45.9%",
+                "49.2%",
+                "52.5%",
+                "55.8%",
+                "59.0%",
+                "62.3%",
+                "65.6%",
+                "69.7%",
+                "73.8%",
+                "77.9%"
+              ]
+            },
+            {
+              "name": "Energy Regeneration",
+              "values": [
+                "0.8",
+                "0.8",
+                "0.8",
+                "0.9",
+                "0.9",
+                "0.9",
+                "1.0",
+                "1.0",
+                "1.0",
+                "1.0",
+                "1.0",
+                "1.0",
+                "1.0",
+                "1.0",
+                "1.0"
+              ]
+            },
+            {
+              "name": "Duration",
+              "values": [
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s"
+              ]
+            },
+            {
+              "name": "CD",
+              "values": [
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s"
+              ]
+            },
+            {
+              "name": "Energy Cost",
+              "values": [
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80"
+              ]
+            }
+          ],
+          "costs": [
+            {
+              "mora": 12500,
+              "items": [
+                {
+                  "count": 3,
+                  "name": "Teachings of Transience"
+                },
+                {
+                  "count": 6,
+                  "name": "Old Handguard"
+                }
+              ]
+            },
+            {
+              "mora": 17500,
+              "items": [
+                {
+                  "count": 2,
+                  "name": "Guide to Elegance"
+                },
+                {
+                  "count": 3,
+                  "name": "Kageuchi Handguard"
+                }
+              ]
+            },
+            {
+              "mora": 25000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Guide to Light"
+                },
+                {
+                  "count": 4,
+                  "name": "Kageuchi Handguard"
+                }
+              ]
+            },
+            {
+              "mora": 30000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Guide to Transience"
+                },
+                {
+                  "count": 6,
+                  "name": "Kageuchi Handguard"
+                }
+              ]
+            },
+            {
+              "mora": 37500,
+              "items": [
+                {
+                  "count": 9,
+                  "name": "Guide to Elegance"
+                },
+                {
+                  "count": 9,
+                  "name": "Kageuchi Handguard"
+                }
+              ]
+            },
+            {
+              "mora": 120000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Philosophies of Light"
+                },
+                {
+                  "count": 4,
+                  "name": "Famed Handguard"
+                },
+                {
+                  "count": 1,
+                  "name": "Dragon Lord's Crown"
+                }
+              ]
+            },
+            {
+              "mora": 260000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Philosophies of Transience"
+                },
+                {
+                  "count": 6,
+                  "name": "Famed Handguard"
+                },
+                {
+                  "count": 1,
+                  "name": "Dragon Lord's Crown"
+                }
+              ]
+            },
+            {
+              "mora": 450000,
+              "items": [
+                {
+                  "count": 12,
+                  "name": "Philosophies of Elegance"
+                },
+                {
+                  "count": 9,
+                  "name": "Famed Handguard"
+                },
+                {
+                  "count": 2,
+                  "name": "Dragon Lord's Crown"
+                }
+              ]
+            },
+            {
+              "mora": 700000,
+              "items": [
+                {
+                  "count": 16,
+                  "name": "Philosophies of Light"
+                },
+                {
+                  "count": 12,
+                  "name": "Famed Handguard"
+                },
+                {
+                  "count": 2,
+                  "name": "Dragon Lord's Crown"
+                },
+                {
+                  "count": 1,
+                  "name": "Crown of Insight"
+                }
+              ]
+            }
+          ],
+          "type": "Electric"
+        },
+        "passive": [
+          {
+            "name": "Thunderflash",
+            "desc": "When another nearby character in the party obtains an Abundance Amulet created by **Lightning Blade**, **Lightning Blade's** CD is decreased by 1.5s.",
+            "minAscension": 1
+          },
+          {
+            "name": "Resounding Roar",
+            "desc": "Increases the Energy Recharge effect granted by **Lightning Blade**'s Abundance Amulet by 10% of the Traveler's Energy Recharge.",
+            "minAscension": 4
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Spring Thunder of Fertility",
+            "desc": "The number of Abundance Amulets that can be generated using **Lightning Blade** is increased to 3.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerElectric_01.png"
+          },
+          {
+            "name": "Violet Vehemence",
+            "desc": "When Falling Thunder created by **Bellowing Thunder** hits an opponent, it will decrease their **Electro RES** by 15% for 8s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerElectric_02.png"
+          },
+          {
+            "name": "Distant Crackling",
+            "desc": "Increases the Level of **Bellowing Thunder** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_PlayerElectric_01.png"
+          },
+          {
+            "name": "Fickle Cloudstrike",
+            "desc": "When a character obtains Abundance Amulets generated by **Lightning Blade**, if this character's Energy is less than 35%, the Energy restored by the Abundance Amulets is increased by 100%.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerElectric_03.png"
+          },
+          {
+            "name": "Clamor in the Wilds",
+            "desc": "Increases the Level of **Lightning Blade** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_PlayerElectric_02.png"
+          },
+          {
+            "name": "World-Shaker",
+            "desc": "Every 2 Falling Thunder attacks triggered by **Bellowing Thunder** will increase the DMG dealt by the next Falling Thunder by 100%, and will restore an additional 1 Energy to the current character.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerElectric_04.png"
+          }
+        ]
       }
     ],
     "ascensions": [
@@ -13663,7 +14570,7 @@
           },
           {
             "name": "Stunning Revenge",
-            "desc": "Within 10s of taking DMG, Beidou's Normal Attacks gain 20% additional **Electro DMG**.",
+            "desc": "Upon being attacked, Beidou's Normal Attacks gain an additional instance of 20% **Electro DMG** for 10s.",
             "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Beidou_03.png"
           },
           {
@@ -15851,7 +16758,7 @@
         "passive": [
           {
             "name": "Trove of Marvelous Treasures",
-            "desc": "Displays the location of nearby **ore veins** (Iron Ore, White Iron Ore, Crystal Ore, Magical Crystal Ore, and Starsilver) on the mini-map.",
+            "desc": "Displays the location of nearby **ore veins used in forging** on the mini-map.",
             "minAscension": 0
           },
           {
@@ -40429,7 +41336,8 @@
     "weaponType": "Sword",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kazuha.png",
     "imgs": [
-      "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Character_Kazuha_Card.png/revision/latest?cb=20210607100841"
+      "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Character_Kaedehara_Kazuha_Card.png/revision/latest?cb=20210607100841",
+      "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Character_Kaedehara_Kazuha_Portrait.png/revision/latest?cb=20210708092512"
     ],
     "hpBase": 1039.1187744140625,
     "attackBase": 23.08880043029785,
@@ -40456,7 +41364,7 @@
       "association": "Inazuma",
       "title": "Scarlet Leaves Pursue Wild Waves",
       "detail": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.",
-      "affiliation": "Crux Fleet",
+      "affiliation": "The Crux",
       "element": "Anemo",
       "constellation": "Acer Palmatum",
       "cvChinese": "斑马",
@@ -41300,7 +42208,7 @@
           },
           {
             "name": "Poetics of Fuubutsu",
-            "desc": "Upon triggering a Swirl reaction, Kaedehara Kazuha will grant teammates a 0.04% Elemental DMG Bonus to their corresponding Element for every point of Elemental Mastery he has for 8s. Bonuses for different elements obtained through this method can co-exist.",
+            "desc": "Upon triggering a Swirl reaction, Kaedehara Kazuha will grant all party members a 0.04% Elemental DMG Bonus to the element absorbed by Swirl for every point of Elemental Mastery he has for 8s. Bonuses for different elements obtained through this method can co-exist.",
             "minAscension": 4
           }
         ],
@@ -41615,6 +42523,3649 @@
           {
             "stat": "Elemental Mastery",
             "value": 115.19999694824219
+          }
+        ]
+      }
+    ]
+  },
+  "Kamisato Ayaka": {
+    "name": "Kamisato Ayaka",
+    "desc": "Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong.",
+    "releasedOn": "2021-07-21 00:00:00",
+    "star": 5,
+    "weaponType": "Sword",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayaka.png",
+    "imgs": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Ayaka@2x.png"
+    ],
+    "hpBase": 1000.9860229492188,
+    "attackBase": 26.62660026550293,
+    "defenseBase": 61.0265998840332,
+    "criticalBase": 0.05000000074505806,
+    "criticalHurtBase": 0.5,
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 9,
+      "birthDay": 28,
+      "association": "Inazuma",
+      "title": "Frostflake Heron",
+      "detail": "Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong.",
+      "affiliation": "Yashiro Commission",
+      "element": "Cryo",
+      "constellation": "Grus Nivis",
+      "cvChinese": "小N",
+      "cvJapanese": "早見沙織",
+      "cvEnglish": "Erica Mendez",
+      "cvKorean": "이유리"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Kamisato Art - Kabuki",
+            "desc": "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash a flurry of sword ki.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "45.7%",
+                  "49.4%",
+                  "53.2%",
+                  "58.5%",
+                  "62.2%",
+                  "66.5%",
+                  "72.3%",
+                  "78.2%",
+                  "84.0%",
+                  "90.4%",
+                  "96.8%",
+                  "103.1%",
+                  "109.5%",
+                  "115.9%",
+                  "122.3%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "48.7%",
+                  "52.6%",
+                  "56.6%",
+                  "62.3%",
+                  "66.2%",
+                  "70.8%",
+                  "77.0%",
+                  "83.2%",
+                  "89.4%",
+                  "96.2%",
+                  "103.0%",
+                  "109.8%",
+                  "116.6%",
+                  "123.4%",
+                  "130.2%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "62.6%",
+                  "67.7%",
+                  "72.8%",
+                  "80.1%",
+                  "85.2%",
+                  "91.0%",
+                  "99.0%",
+                  "107.0%",
+                  "115.0%",
+                  "123.8%",
+                  "132.5%",
+                  "141.3%",
+                  "150.0%",
+                  "158.7%",
+                  "167.5%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "22.6%×3",
+                  "24.5%×3",
+                  "26.3%×3",
+                  "29.0%×3",
+                  "30.8%×3",
+                  "32.9%×3",
+                  "35.8%×3",
+                  "38.7%×3",
+                  "41.6%×3",
+                  "44.8%×3",
+                  "47.9%×3",
+                  "51.1%×3",
+                  "54.2%×3",
+                  "57.4%×3",
+                  "60.6%×3"
+                ]
+              },
+              {
+                "name": "5-Hit DMG",
+                "values": [
+                  "78.2%",
+                  "84.5%",
+                  "90.9%",
+                  "100.0%",
+                  "106.4%",
+                  "113.6%",
+                  "123.6%",
+                  "133.6%",
+                  "143.6%",
+                  "154.5%",
+                  "165.5%",
+                  "176.4%",
+                  "187.3%",
+                  "198.2%",
+                  "209.1%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "55.1%×3",
+                  "59.6%×3",
+                  "64.1%×3",
+                  "70.5%×3",
+                  "75.0%×3",
+                  "80.1%×3",
+                  "87.2%×3",
+                  "94.2%×3",
+                  "101.3%×3",
+                  "109.0%×3",
+                  "116.7%×3",
+                  "124.4%×3",
+                  "132.0%×3",
+                  "139.7%×3",
+                  "147.4%×3"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "values": [
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0"
+                ]
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "63.93%",
+                  "69.14%",
+                  "74.34%",
+                  "81.77%",
+                  "86.98%",
+                  "92.93%",
+                  "101.10%",
+                  "109.28%",
+                  "117.46%",
+                  "126.38%",
+                  "135.30%",
+                  "144.22%",
+                  "153.14%",
+                  "162.06%",
+                  "170.98%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "127.84%/159.68%",
+                  "138.24%/172.67%",
+                  "148.65%/185.67%",
+                  "163.51%/204.24%",
+                  "173.92%/217.23%",
+                  "185.81%/232.09%",
+                  "202.16%/252.51%",
+                  "218.51%/272.93%",
+                  "234.86%/293.36%",
+                  "252.70%/315.64%",
+                  "270.54%/337.92%",
+                  "288.38%/360.20%",
+                  "306.22%/382.48%",
+                  "324.05%/404.76%",
+                  "341.89%/427.04%"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Elegance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Old Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Kageuchi Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Kageuchi Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Kageuchi Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Kageuchi Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Famed Handguard"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Bloodjade Branch"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Famed Handguard"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Bloodjade Branch"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Famed Handguard"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Bloodjade Branch"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Famed Handguard"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Bloodjade Branch"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Kamisato Art: Hyouka",
+            "desc": "Summons blooming ice to launch nearby opponents, dealing **AoE Cryo DMG**.\n\n**\"Clouds shroud the moonlit night. Longing descends like a fog, filling the one detained with wanderlust.\"**",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "Skill DMG",
+                "values": [
+                  "239.20%",
+                  "257.14%",
+                  "275.08%",
+                  "299.00%",
+                  "316.94%",
+                  "334.88%",
+                  "358.80%",
+                  "382.72%",
+                  "406.64%",
+                  "430.56%",
+                  "454.48%",
+                  "478.40%",
+                  "508.30%",
+                  "538.20%",
+                  "568.10%"
+                ]
+              },
+              {
+                "name": "CD",
+                "values": [
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Elegance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Old Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Kageuchi Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Kageuchi Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Kageuchi Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Kageuchi Handguard"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Famed Handguard"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Bloodjade Branch"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Famed Handguard"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Bloodjade Branch"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Famed Handguard"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Bloodjade Branch"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Famed Handguard"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Bloodjade Branch"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Kamisato Art: Senho",
+            "desc": "**Alternate Sprint**\nAyaka consumes Stamina and cloaks herself in a frozen fog that moves with her.\n\nIn Senho form, she moves swiftly upon water.\nWhen she reappears, the following effects occur:\n·Ayaka unleashes frigid energy to apply **Cryo** on nearby opponents.\n·Coldness condenses around Ayaka's blade, infusing her attacks with **Cryo** for a brief period.\n\n**\"Feathers fleeting wet / the white heron treads water / a sight without flaw\"**",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "Activation Stamina Consumption",
+                "values": [
+                  "10.0"
+                ]
+              },
+              {
+                "name": "Stamina Drain",
+                "values": [
+                  "15.0/s"
+                ]
+              },
+              {
+                "name": "Infusion Duration",
+                "values": [
+                  "5.0s"
+                ]
+              }
+            ],
+            "costs": []
+          }
+        ],
+        "ult": {
+          "name": "Kamisato Art: Soumetsu",
+          "desc": "Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously.\n\n**Frostflake Seki no To**\n·A storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing **Cryo DMG**.\n·The snowstorm explodes after its duration ends, dealing **AoE Cryo DMG**.\n\n**\"The blizzard veils the heron's thoughts, pity heavy in its heart.\"**",
+          "charges": 1,
+          "talentTable": [
+            {
+              "name": "Cutting DMG",
+              "values": [
+                "112.30%",
+                "120.72%",
+                "129.15%",
+                "140.37%",
+                "148.80%",
+                "157.22%",
+                "168.45%",
+                "179.68%",
+                "190.91%",
+                "202.14%",
+                "213.37%",
+                "224.60%",
+                "238.64%",
+                "252.68%",
+                "266.71%"
+              ]
+            },
+            {
+              "name": "Bloom DMG",
+              "values": [
+                "168.45%",
+                "181.08%",
+                "193.72%",
+                "210.56%",
+                "223.20%",
+                "235.83%",
+                "252.68%",
+                "269.52%",
+                "286.37%",
+                "303.21%",
+                "320.06%",
+                "336.90%",
+                "357.96%",
+                "379.01%",
+                "400.07%"
+              ]
+            },
+            {
+              "name": "Duration",
+              "values": [
+                "5.0s",
+                "5.0s",
+                "5.0s",
+                "5.0s",
+                "5.0s",
+                "5.0s",
+                "5.0s",
+                "5.0s",
+                "5.0s",
+                "5.0s",
+                "5.0s",
+                "5.0s",
+                "5.0s",
+                "5.0s",
+                "5.0s"
+              ]
+            },
+            {
+              "name": "CD",
+              "values": [
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s"
+              ]
+            },
+            {
+              "name": "Energy Cost",
+              "values": [
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80"
+              ]
+            }
+          ],
+          "costs": [
+            {
+              "mora": 12500,
+              "items": [
+                {
+                  "count": 3,
+                  "name": "Teachings of Elegance"
+                },
+                {
+                  "count": 6,
+                  "name": "Old Handguard"
+                }
+              ]
+            },
+            {
+              "mora": 17500,
+              "items": [
+                {
+                  "count": 2,
+                  "name": "Guide to Elegance"
+                },
+                {
+                  "count": 3,
+                  "name": "Kageuchi Handguard"
+                }
+              ]
+            },
+            {
+              "mora": 25000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Guide to Elegance"
+                },
+                {
+                  "count": 4,
+                  "name": "Kageuchi Handguard"
+                }
+              ]
+            },
+            {
+              "mora": 30000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Guide to Elegance"
+                },
+                {
+                  "count": 6,
+                  "name": "Kageuchi Handguard"
+                }
+              ]
+            },
+            {
+              "mora": 37500,
+              "items": [
+                {
+                  "count": 9,
+                  "name": "Guide to Elegance"
+                },
+                {
+                  "count": 9,
+                  "name": "Kageuchi Handguard"
+                }
+              ]
+            },
+            {
+              "mora": 120000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Philosophies of Elegance"
+                },
+                {
+                  "count": 4,
+                  "name": "Famed Handguard"
+                },
+                {
+                  "count": 1,
+                  "name": "Bloodjade Branch"
+                }
+              ]
+            },
+            {
+              "mora": 260000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Philosophies of Elegance"
+                },
+                {
+                  "count": 6,
+                  "name": "Famed Handguard"
+                },
+                {
+                  "count": 1,
+                  "name": "Bloodjade Branch"
+                }
+              ]
+            },
+            {
+              "mora": 450000,
+              "items": [
+                {
+                  "count": 12,
+                  "name": "Philosophies of Elegance"
+                },
+                {
+                  "count": 9,
+                  "name": "Famed Handguard"
+                },
+                {
+                  "count": 2,
+                  "name": "Bloodjade Branch"
+                }
+              ]
+            },
+            {
+              "mora": 700000,
+              "items": [
+                {
+                  "count": 16,
+                  "name": "Philosophies of Elegance"
+                },
+                {
+                  "count": 12,
+                  "name": "Famed Handguard"
+                },
+                {
+                  "count": 2,
+                  "name": "Bloodjade Branch"
+                },
+                {
+                  "count": 1,
+                  "name": "Crown of Insight"
+                }
+              ]
+            }
+          ],
+          "type": "Ice"
+        },
+        "passive": [
+          {
+            "name": "Fruits of Shinsa",
+            "desc": "When Ayaka crafts Weapon Ascension Materials, she has a 10% chance to receive double the product.",
+            "minAscension": 0
+          },
+          {
+            "name": "Amatsumi Kunitsumi Sanctification",
+            "desc": "After using **Kamisato Art: Hyouka**, Kamisato Ayaka's Normal and Charged Attacks deal 30% increased DMG for 6s.",
+            "minAscension": 1
+          },
+          {
+            "name": "Kanten Senmyou Blessing",
+            "desc": "When the Cryo application at the end of **Kamisato Art: Senho** hits an opponent, Kamisato Ayaka gains the following effects:\n·Restores 10 Stamina\n·Gains 18% **Cryo DMG Bonus** for 10s.",
+            "minAscension": 4
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Snowswept Sakura",
+            "desc": "When Kamisato Ayaka's Normal or Charged Attacks deal **Cryo DMG** to opponents, it has a 50% chance of decreasing the CD of **Kamisato Art: Hyouka** by 0.3s. This effect can occur once every 0.1s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayaka_01.png"
+          },
+          {
+            "name": "Blizzard Blade Seki no To",
+            "desc": "When casting **Kamisato Art: Soumetsu**, unleashes 2 smaller additional Frostflake Seki no To, each dealing 20% of the original storm's DMG.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayaka_02.png"
+          },
+          {
+            "name": "Frostbloom Kamifubuki",
+            "desc": "Increases the Level of **Kamisato Art: Soumetsu** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ayaka_02.png"
+          },
+          {
+            "name": "Ebb and Flow",
+            "desc": "Opponents damaged by **Kamisato Art: Soumetsu**'s Frostflake Seki no To will have their DEF decreased by 30% for 6s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayaka_03.png"
+          },
+          {
+            "name": "Blossom Cloud Irutsuki",
+            "desc": "Increases the Level of **Kamisato Art: Hyouka** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ayaka_01.png"
+          },
+          {
+            "name": "Dance of Suigetsu",
+            "desc": "Kamisato Ayaka gains Usurahi Butou every 10s, increasing her Charged Attack DMG by 298%. This buff will be cleared 0.5s after Ayaka's Charged ATK hits an opponent, after which the timer for this ability will restart.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayaka_04.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "cost": {
+          "items": []
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 1,
+              "name": "Shivada Jade Sliver"
+            },
+            {
+              "count": 3,
+              "name": "Sakura Bloom"
+            },
+            {
+              "count": 3,
+              "name": "Old Handguard"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 858.2550048828125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 52.32600021362305
+          },
+          {
+            "stat": "Base ATK",
+            "value": 22.82823371887207
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "cost": {
+          "mora": 40000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Shivada Jade Fragment"
+            },
+            {
+              "count": 2,
+              "name": "Perpetual Heart"
+            },
+            {
+              "count": 10,
+              "name": "Sakura Bloom"
+            },
+            {
+              "count": 15,
+              "name": "Old Handguard"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1468.0677490234375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 89.50499725341797
+          },
+          {
+            "stat": "Base ATK",
+            "value": 39.04829406738281
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.09600000083446503
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "cost": {
+          "mora": 60000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Shivada Jade Fragment"
+            },
+            {
+              "count": 4,
+              "name": "Perpetual Heart"
+            },
+            {
+              "count": 20,
+              "name": "Sakura Bloom"
+            },
+            {
+              "count": 12,
+              "name": "Kageuchi Handguard"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2281.1513671875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 139.07699584960938
+          },
+          {
+            "stat": "Base ATK",
+            "value": 60.67504119873047
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.19200000166893005
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "cost": {
+          "mora": 80000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Shivada Jade Chunk"
+            },
+            {
+              "count": 8,
+              "name": "Perpetual Heart"
+            },
+            {
+              "count": 30,
+              "name": "Sakura Bloom"
+            },
+            {
+              "count": 18,
+              "name": "Kageuchi Handguard"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2890.964111328125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 176.25599670410156
+          },
+          {
+            "stat": "Base ATK",
+            "value": 76.89510345458984
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.19200000166893005
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "cost": {
+          "mora": 100000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Shivada Jade Chunk"
+            },
+            {
+              "count": 12,
+              "name": "Perpetual Heart"
+            },
+            {
+              "count": 45,
+              "name": "Sakura Bloom"
+            },
+            {
+              "count": 12,
+              "name": "Famed Handguard"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3500.77685546875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 213.43499755859375
+          },
+          {
+            "stat": "Base ATK",
+            "value": 93.11516571044922
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.2879999876022339
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "cost": {
+          "mora": 120000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Shivada Jade Gemstone"
+            },
+            {
+              "count": 20,
+              "name": "Perpetual Heart"
+            },
+            {
+              "count": 60,
+              "name": "Sakura Bloom"
+            },
+            {
+              "count": 24,
+              "name": "Famed Handguard"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 4110.58984375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 250.61399841308594
+          },
+          {
+            "stat": "Base ATK",
+            "value": 109.3352279663086
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.3840000033378601
+          }
+        ]
+      }
+    ]
+  },
+  "Yoimiya": {
+    "name": "Yoimiya",
+    "desc": "Owner of Naganohara Fireworks. Known as \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+    "releasedOn": "2021-08-10 18:00:00",
+    "star": 5,
+    "weaponType": "Bow",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yoimiya.png",
+    "imgs": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Yoimiya@2x.png"
+    ],
+    "hpBase": 791.255615234375,
+    "attackBase": 25.136999130249023,
+    "defenseBase": 47.86399841308594,
+    "criticalBase": 0.05000000074505806,
+    "criticalHurtBase": 0.5,
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 6,
+      "birthDay": 21,
+      "association": "Inazuma",
+      "title": "Frolicking Flames",
+      "detail": "Owner of Naganohara Fireworks. Known as the \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+      "affiliation": "Naganohara Fireworks",
+      "element": "Pyro",
+      "constellation": "Carassius Auratus",
+      "cvChinese": "金娜",
+      "cvJapanese": "植田佳奈",
+      "cvEnglish": "Jenny Yokobori",
+      "cvKorean": "박신희"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Firework Flare-Up",
+            "desc": "**Normal Attack**\nPerforms up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerforms a more precise **Aimed Shot** with increased DMG.\nWhile aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off a flaming arrow that deals **Pyro DMG**.\n·Charge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing **Pyro DMG** on hit.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "35.6%×2",
+                  "38.1%×2",
+                  "40.5%×2",
+                  "43.7%×2",
+                  "46.2%×2",
+                  "49.0%×2",
+                  "52.6%×2",
+                  "56.3%×2",
+                  "59.9%×2",
+                  "63.6%×2",
+                  "67.2%×2",
+                  "70.9%×2",
+                  "74.5%×2",
+                  "78.2%×2",
+                  "81.8%×2"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "68.4%",
+                  "73.0%",
+                  "77.7%",
+                  "83.9%",
+                  "88.6%",
+                  "94.0%",
+                  "101.0%",
+                  "108.0%",
+                  "115.0%",
+                  "122.0%",
+                  "129.0%",
+                  "136.0%",
+                  "143.0%",
+                  "150.0%",
+                  "157.0%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "88.9%",
+                  "94.9%",
+                  "101.0%",
+                  "109.1%",
+                  "115.2%",
+                  "122.2%",
+                  "131.3%",
+                  "140.4%",
+                  "149.5%",
+                  "158.6%",
+                  "167.7%",
+                  "176.8%",
+                  "185.9%",
+                  "194.9%",
+                  "204.0%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "46.4%×2",
+                  "49.6%×2",
+                  "52.7%×2",
+                  "57.0%×2",
+                  "60.1%×2",
+                  "63.8%×2",
+                  "68.6%×2",
+                  "73.3%×2",
+                  "78.1%×2",
+                  "82.8%×2",
+                  "87.6%×2",
+                  "92.3%×2",
+                  "97.1%×2",
+                  "101.8%×2",
+                  "106.6%×2"
+                ]
+              },
+              {
+                "name": "5-Hit DMG",
+                "values": [
+                  "105.9%",
+                  "113.1%",
+                  "120.3%",
+                  "129.9%",
+                  "137.1%",
+                  "145.6%",
+                  "156.4%",
+                  "167.2%",
+                  "178.0%",
+                  "188.9%",
+                  "199.7%",
+                  "210.5%",
+                  "221.4%",
+                  "232.2%",
+                  "243.0%"
+                ]
+              },
+              {
+                "name": "Aimed Shot",
+                "values": [
+                  "43.9%",
+                  "47.4%",
+                  "51.0%",
+                  "56.1%",
+                  "59.7%",
+                  "63.7%",
+                  "69.4%",
+                  "75.0%",
+                  "80.6%",
+                  "86.7%",
+                  "92.8%",
+                  "98.9%",
+                  "105.1%",
+                  "111.2%",
+                  "117.3%"
+                ]
+              },
+              {
+                "name": "Fully-Charged Aimed Shot",
+                "values": [
+                  "124.00%",
+                  "133.30%",
+                  "142.60%",
+                  "155.00%",
+                  "164.30%",
+                  "173.60%",
+                  "186.00%",
+                  "198.40%",
+                  "210.80%",
+                  "223.20%",
+                  "235.60%",
+                  "248.00%",
+                  "263.50%",
+                  "279.00%",
+                  "294.50%"
+                ]
+              },
+              {
+                "name": "Kindling Arrow DMG",
+                "values": [
+                  "16.40%",
+                  "17.63%",
+                  "18.86%",
+                  "20.50%",
+                  "21.73%",
+                  "22.96%",
+                  "24.60%",
+                  "26.24%",
+                  "27.88%",
+                  "29.52%",
+                  "31.16%",
+                  "32.80%",
+                  "34.85%",
+                  "36.90%",
+                  "38.95%"
+                ]
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "56.8%",
+                  "61.5%",
+                  "66.1%",
+                  "72.7%",
+                  "77.3%",
+                  "82.6%",
+                  "89.9%",
+                  "97.1%",
+                  "104.4%",
+                  "112.3%",
+                  "120.3%",
+                  "128.2%",
+                  "136.1%",
+                  "144.1%",
+                  "152.0%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "113.63%/141.93%",
+                  "122.88%/153.49%",
+                  "132.13%/165.04%",
+                  "145.35%/181.54%",
+                  "154.59%/193.10%",
+                  "165.16%/206.30%",
+                  "179.70%/224.45%",
+                  "194.23%/242.61%",
+                  "208.77%/260.76%",
+                  "224.62%/280.57%",
+                  "240.48%/300.37%",
+                  "256.34%/320.18%",
+                  "272.19%/339.98%",
+                  "288.05%/359.79%",
+                  "303.90%/379.59%"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Divining Scroll"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Sealed Scroll"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Sealed Scroll"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Sealed Scroll"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Sealed Scroll"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Forbidden Curse Scroll"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Forbidden Curse Scroll"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Forbidden Curse Scroll"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Forbidden Curse Scroll"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Dragon Lord's Crown"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Niwabi Fire-Dance",
+            "desc": "Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.\n\n**Niwabi Enshou**\nDuring this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and converted to **Pyro DMG**. During this time, Normal Attack: Firework Flare-Up will not generate Kindling Arrows at Charge Level 2.\n\nThis effect will deactivate when Yoimiya leaves the field.\n\n**\"Niwabi\" is a form of incense firework created by Yoimiya herself. Its ability to be lit without any prior training or preparation has made it a real hit. After many fire-related incidents, the Tenryou Commission ordered the use of \"Niwabi\" banned, but small, bright sparks can often still be seen springing up at night. If seen from above, they look almost like little twinkling stars.**",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "Blazing Arrow DMG",
+                "values": [
+                  "137.9% Normal Attack DMG",
+                  "140.2% Normal Attack DMG",
+                  "142.4% Normal Attack DMG",
+                  "145.4% Normal Attack DMG",
+                  "147.7% Normal Attack DMG",
+                  "149.9% Normal Attack DMG",
+                  "152.9% Normal Attack DMG",
+                  "155.8% Normal Attack DMG",
+                  "158.8% Normal Attack DMG",
+                  "161.7% Normal Attack DMG",
+                  "164.7% Normal Attack DMG",
+                  "167.6% Normal Attack DMG",
+                  "170.6% Normal Attack DMG",
+                  "173.5% Normal Attack DMG",
+                  "176.5% Normal Attack DMG"
+                ]
+              },
+              {
+                "name": "Duration",
+                "values": [
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s"
+                ]
+              },
+              {
+                "name": "CD",
+                "values": [
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s",
+                  "18.0s"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Divining Scroll"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Sealed Scroll"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Sealed Scroll"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Sealed Scroll"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Sealed Scroll"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Forbidden Curse Scroll"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Forbidden Curse Scroll"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Forbidden Curse Scroll"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Dragon Lord's Crown"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Forbidden Curse Scroll"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Dragon Lord's Crown"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ult": {
+          "name": "Ryuukin Saxifrage",
+          "desc": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage,\" and fires forth blazing rockets bursting with surprises that deal **AoE Pyro DMG** and mark one of the hit opponents with Aurous Blaze.\n\n**Aurous Blaze**\nAll Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing **AoE Pyro DMG**.\nWhen an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.\n\nOne Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated.\n\n**Fireworks are man-made starlight, comets fired into the sky. Though they last for but an instant, the memory of their brilliance shall surely live on.**",
+          "charges": 1,
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "127.20%",
+                "136.74%",
+                "146.28%",
+                "159.00%",
+                "168.54%",
+                "178.08%",
+                "190.80%",
+                "203.52%",
+                "216.24%",
+                "228.96%",
+                "241.68%",
+                "254.40%",
+                "270.30%",
+                "286.20%",
+                "302.10%"
+              ]
+            },
+            {
+              "name": "Aurous Blaze Explosion DMG",
+              "values": [
+                "122.00%",
+                "131.15%",
+                "140.30%",
+                "152.50%",
+                "161.65%",
+                "170.80%",
+                "183.00%",
+                "195.20%",
+                "207.40%",
+                "219.60%",
+                "231.80%",
+                "244.00%",
+                "259.25%",
+                "274.50%",
+                "289.75%"
+              ]
+            },
+            {
+              "name": "Duration",
+              "values": [
+                "10.0s",
+                "10.0s",
+                "10.0s",
+                "10.0s",
+                "10.0s",
+                "10.0s",
+                "10.0s",
+                "10.0s",
+                "10.0s",
+                "10.0s",
+                "10.0s",
+                "10.0s",
+                "10.0s",
+                "10.0s",
+                "10.0s"
+              ]
+            },
+            {
+              "name": "CD",
+              "values": [
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s"
+              ]
+            },
+            {
+              "name": "Energy Cost",
+              "values": [
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60",
+                "60"
+              ]
+            }
+          ],
+          "costs": [
+            {
+              "mora": 12500,
+              "items": [
+                {
+                  "count": 3,
+                  "name": "Teachings of Transience"
+                },
+                {
+                  "count": 6,
+                  "name": "Divining Scroll"
+                }
+              ]
+            },
+            {
+              "mora": 17500,
+              "items": [
+                {
+                  "count": 2,
+                  "name": "Guide to Transience"
+                },
+                {
+                  "count": 3,
+                  "name": "Sealed Scroll"
+                }
+              ]
+            },
+            {
+              "mora": 25000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Guide to Transience"
+                },
+                {
+                  "count": 4,
+                  "name": "Sealed Scroll"
+                }
+              ]
+            },
+            {
+              "mora": 30000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Guide to Transience"
+                },
+                {
+                  "count": 6,
+                  "name": "Sealed Scroll"
+                }
+              ]
+            },
+            {
+              "mora": 37500,
+              "items": [
+                {
+                  "count": 9,
+                  "name": "Guide to Transience"
+                },
+                {
+                  "count": 9,
+                  "name": "Sealed Scroll"
+                }
+              ]
+            },
+            {
+              "mora": 120000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Philosophies of Transience"
+                },
+                {
+                  "count": 4,
+                  "name": "Forbidden Curse Scroll"
+                },
+                {
+                  "count": 1,
+                  "name": "Dragon Lord's Crown"
+                }
+              ]
+            },
+            {
+              "mora": 260000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Philosophies of Transience"
+                },
+                {
+                  "count": 6,
+                  "name": "Forbidden Curse Scroll"
+                },
+                {
+                  "count": 1,
+                  "name": "Dragon Lord's Crown"
+                }
+              ]
+            },
+            {
+              "mora": 450000,
+              "items": [
+                {
+                  "count": 12,
+                  "name": "Philosophies of Transience"
+                },
+                {
+                  "count": 9,
+                  "name": "Forbidden Curse Scroll"
+                },
+                {
+                  "count": 2,
+                  "name": "Dragon Lord's Crown"
+                }
+              ]
+            },
+            {
+              "mora": 700000,
+              "items": [
+                {
+                  "count": 16,
+                  "name": "Philosophies of Transience"
+                },
+                {
+                  "count": 12,
+                  "name": "Forbidden Curse Scroll"
+                },
+                {
+                  "count": 2,
+                  "name": "Dragon Lord's Crown"
+                },
+                {
+                  "count": 1,
+                  "name": "Crown of Insight"
+                }
+              ]
+            }
+          ],
+          "type": "Fire"
+        },
+        "passive": [
+          {
+            "name": "Blazing Match",
+            "desc": "When Yoimiya crafts Decoration, Ornament, and Landscape-type Furnishings, she has a 100% chance to refund a portion of the materials used.",
+            "minAscension": 0
+          },
+          {
+            "name": "Tricks of the Trouble-Maker",
+            "desc": "During **Niwabi Fire-Dance**, shots from Yoimiya's Normal Attack will increase her **Pyro DMG Bonus** by 2% on hit. This effect lasts for 3s and can have a maximum of 10 stacks.",
+            "minAscension": 1
+          },
+          {
+            "name": "Summer Night's Dawn",
+            "desc": "Using **Ryuukin Saxifrage** causes nearby party members (not including Yoimiya) to gain a 10% ATK increase for 15s. Additionally, a further ATK Bonus will be added on based on the number of \"Tricks of the Trouble-Maker\" stacks Yoimiya possesses when using **Ryuukin Saxifrage**. Each stack increases this ATK Bonus by 1%.",
+            "minAscension": 4
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Agate Ryuukin",
+            "desc": "The Aurous Blaze created by **Ryuukin Saxifrage** lasts for an extra 4s.\nAdditionally, when an opponent affected by Aurous Blaze is defeated within its duration, Yoimiya's ATK is increased by 20% for 20s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yoimiya_01.png"
+          },
+          {
+            "name": "A Procession of Bonfires",
+            "desc": "When Yoimiya's **Pyro DMG** scores a CRIT Hit, Yoimiya will gain a 25% **Pyro DMG Bonus** for 6s.\nThis effect can be triggered even when Yoimiya is not the active character.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yoimiya_02.png"
+          },
+          {
+            "name": "Trickster's Flare",
+            "desc": "Increases the Level of **Niwabi Fire-Dance** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yoimiya_01.png"
+          },
+          {
+            "name": "Pyrotechnic Professional",
+            "desc": "When Yoimiya's own Aurous Blaze triggers an explosion, **Niwabi Fire-Dance**'s CD is decreased by 1.2s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yoimiya_03.png"
+          },
+          {
+            "name": "A Summer Festival's Eve",
+            "desc": "Increases the Level of **Ryuukin Saxifrage** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yoimiya_02.png"
+          },
+          {
+            "name": "Naganohara Meteor Swarm",
+            "desc": "During **Niwabi Fire-Dance**, Yoimiya's Normal Attacks have a 50% chance of firing an extra Kindling Arrow that deals 60% of its original DMG. This DMG is considered Normal Attack DMG.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yoimiya_04.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "cost": {
+          "items": []
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 1,
+              "name": "Agnidus Agate Sliver"
+            },
+            {
+              "count": 3,
+              "name": "Naku Weed"
+            },
+            {
+              "count": 3,
+              "name": "Divining Scroll"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 678.4301147460938
+          },
+          {
+            "stat": "Base DEF",
+            "value": 41.040000915527344
+          },
+          {
+            "stat": "Base ATK",
+            "value": 21.551130294799805
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "cost": {
+          "mora": 40000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Agnidus Agate Fragment"
+            },
+            {
+              "count": 2,
+              "name": "Smoldering Pearl"
+            },
+            {
+              "count": 10,
+              "name": "Naku Weed"
+            },
+            {
+              "count": 15,
+              "name": "Divining Scroll"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1160.4725341796875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 70.19999694824219
+          },
+          {
+            "stat": "Base ATK",
+            "value": 36.863773345947266
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.04800000041723251
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "cost": {
+          "mora": 60000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Agnidus Agate Fragment"
+            },
+            {
+              "count": 4,
+              "name": "Smoldering Pearl"
+            },
+            {
+              "count": 20,
+              "name": "Naku Weed"
+            },
+            {
+              "count": 12,
+              "name": "Sealed Scroll"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1803.1959228515625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 109.08000183105469
+          },
+          {
+            "stat": "Base ATK",
+            "value": 57.280635833740234
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.09600000083446503
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "cost": {
+          "mora": 80000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Agnidus Agate Chunk"
+            },
+            {
+              "count": 8,
+              "name": "Smoldering Pearl"
+            },
+            {
+              "count": 30,
+              "name": "Naku Weed"
+            },
+            {
+              "count": 18,
+              "name": "Sealed Scroll"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2285.23828125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 138.24000549316406
+          },
+          {
+            "stat": "Base ATK",
+            "value": 72.59327697753906
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.09600000083446503
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "cost": {
+          "mora": 100000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Agnidus Agate Chunk"
+            },
+            {
+              "count": 12,
+              "name": "Smoldering Pearl"
+            },
+            {
+              "count": 45,
+              "name": "Naku Weed"
+            },
+            {
+              "count": 12,
+              "name": "Forbidden Curse Scroll"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2767.28076171875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 167.39999389648438
+          },
+          {
+            "stat": "Base ATK",
+            "value": 87.90592193603516
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.14399999380111694
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "cost": {
+          "mora": 120000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Agnidus Agate Gemstone"
+            },
+            {
+              "count": 20,
+              "name": "Smoldering Pearl"
+            },
+            {
+              "count": 60,
+              "name": "Naku Weed"
+            },
+            {
+              "count": 24,
+              "name": "Forbidden Curse Scroll"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3249.3232421875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 196.55999755859375
+          },
+          {
+            "stat": "Base ATK",
+            "value": 103.21856689453125
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.19200000166893005
+          }
+        ]
+      }
+    ]
+  },
+  "Sayu": {
+    "name": "Sayu",
+    "desc": "A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived.",
+    "releasedOn": "2021-08-10 18:00:00",
+    "star": 4,
+    "weaponType": "Claymore",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sayu.png",
+    "imgs": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Sayu@2x.png"
+    ],
+    "hpBase": 993.8521728515625,
+    "attackBase": 20.47920036315918,
+    "defenseBase": 62.43247604370117,
+    "criticalBase": 0.05000000074505806,
+    "criticalHurtBase": 0.5,
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 4*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 4*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 4*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 10,
+      "birthDay": 19,
+      "association": "Inazuma",
+      "title": "Mujina Ninja",
+      "detail": "A pint-sized ninja attached to the Shuumatsuban, who always seems to be lacking sleep.",
+      "affiliation": "Shuumatsuban",
+      "element": "Anemo",
+      "constellation": "Nyctereutes Minor",
+      "cvChinese": "Sakula小舞",
+      "cvJapanese": "洲崎綾",
+      "cvEnglish": "Lilypichu (Lily Ki)",
+      "cvKorean": "이지현"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Shuumatsuban Ninja Blade",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "72.2%",
+                  "78.1%",
+                  "84.0%",
+                  "92.4%",
+                  "98.3%",
+                  "105.0%",
+                  "114.2%",
+                  "123.5%",
+                  "132.7%",
+                  "142.8%",
+                  "154.3%",
+                  "167.9%",
+                  "181.5%",
+                  "195.1%",
+                  "209.9%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "71.4%",
+                  "77.2%",
+                  "83.0%",
+                  "91.3%",
+                  "97.1%",
+                  "103.8%",
+                  "112.9%",
+                  "122.0%",
+                  "131.1%",
+                  "141.1%",
+                  "152.5%",
+                  "165.9%",
+                  "179.4%",
+                  "192.8%",
+                  "207.4%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "43.4%+43.4%",
+                  "47.0%+47.0%",
+                  "50.5%+50.5%",
+                  "55.5%+55.5%",
+                  "59.1%+59.1%",
+                  "63.1%+63.1%",
+                  "68.7%+68.7%",
+                  "74.2%+74.2%",
+                  "79.8%+79.8%",
+                  "85.9%+85.9%",
+                  "92.8%+92.8%",
+                  "101.0%+101.0%",
+                  "109.1%+109.1%",
+                  "117.3%+117.3%",
+                  "126.2%+126.2%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "98.1%",
+                  "106.1%",
+                  "114.1%",
+                  "125.5%",
+                  "133.5%",
+                  "142.6%",
+                  "155.2%",
+                  "167.7%",
+                  "180.3%",
+                  "194.0%",
+                  "209.7%",
+                  "228.1%",
+                  "246.6%",
+                  "265.0%",
+                  "285.1%"
+                ]
+              },
+              {
+                "name": "Charged Attack Spinning DMG",
+                "values": [
+                  "62.5%",
+                  "67.6%",
+                  "72.7%",
+                  "80.0%",
+                  "85.1%",
+                  "90.9%",
+                  "98.9%",
+                  "106.9%",
+                  "114.9%",
+                  "123.6%",
+                  "133.6%",
+                  "145.4%",
+                  "157.2%",
+                  "168.9%",
+                  "181.7%"
+                ]
+              },
+              {
+                "name": "Charged Attack Final DMG",
+                "values": [
+                  "113.09%",
+                  "122.29%",
+                  "131.50%",
+                  "144.65%",
+                  "153.86%",
+                  "164.37%",
+                  "178.84%",
+                  "193.31%",
+                  "207.77%",
+                  "223.55%",
+                  "241.63%",
+                  "262.89%",
+                  "284.16%",
+                  "305.42%",
+                  "328.62%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "values": [
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s",
+                  "40.0/s"
+                ]
+              },
+              {
+                "name": "Max Duration",
+                "values": [
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s",
+                  "5.0s"
+                ]
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "74.6%",
+                  "80.7%",
+                  "86.7%",
+                  "95.4%",
+                  "101.5%",
+                  "108.4%",
+                  "118.0%",
+                  "127.5%",
+                  "137.0%",
+                  "147.4%",
+                  "157.8%",
+                  "168.3%",
+                  "178.7%",
+                  "189.1%",
+                  "199.5%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "149.14%/186.29%",
+                  "161.28%/201.45%",
+                  "173.42%/216.62%",
+                  "190.77%/238.28%",
+                  "202.91%/253.44%",
+                  "216.78%/270.77%",
+                  "235.86%/294.60%",
+                  "254.93%/318.42%",
+                  "274.01%/342.25%",
+                  "294.82%/368.25%",
+                  "315.63%/394.24%",
+                  "336.44%/420.23%",
+                  "357.25%/446.23%",
+                  "378.06%/472.22%",
+                  "398.87%/498.21%"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Light"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Whopperflower Nectar"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Shimmering Nectar"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Shimmering Nectar"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Shimmering Nectar"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Shimmering Nectar"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Energy Nectar"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Gilded Scale"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Energy Nectar"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Gilded Scale"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Energy Nectar"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Gilded Scale"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Energy Nectar"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Gilded Scale"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Yoohoo Art: Fuuin Dash",
+            "desc": "The special technique of the Yoohoo Ninja Arts!\nSayu curls up into a rolling Fuufuu Windwheel and smashes into opponents at high speed, dealing **Anemo DMG**. When the duration ends, she unleashes a Fuufuu Whirlwind Kick, dealing **AoE Anemo DMG**.\n\n**Press**\nEnters the Fuufuu Windwheel state, rolling forward a short distance before using the Fuufuu Whirlwind Kick.\n\n**Hold**\nRolls about continuously in the Fuufuu Windwheel state, increasing Sayu's resistance to interruption while within that state.\nDuring this time, Sayu can control the direction of her roll, and can use the skill again to end her Windwheel state early and unleash a stronger version of the Fuufuu Whirlwind Kick.\nThe Hold version of this skill can trigger Elemental Absorption.\n\nThis skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her Windwheel state, the longer the CD.\n\n**Elemental Absorption**\nIf Sayu comes into contact with **Hydro**/**Pyro**/**Cryo**/**Electro** while in her Windwheel state, she will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use of this skill.\n\n**Sayu can pull this skill off with her eyes closed. This technique was originally created for escaping, but now that she's got a Vision, might as well make her foes eat dirt while she's at it.**",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "Fuufuu Windwheel DMG",
+                "values": [
+                  "36.0%",
+                  "38.7%",
+                  "41.4%",
+                  "45.0%",
+                  "47.7%",
+                  "50.4%",
+                  "54.0%",
+                  "57.6%",
+                  "61.2%",
+                  "64.8%",
+                  "68.4%",
+                  "72.0%",
+                  "76.5%",
+                  "81.0%",
+                  "85.5%"
+                ]
+              },
+              {
+                "name": "Fuufuu Whirlwind Kick Press DMG",
+                "values": [
+                  "158.4%",
+                  "170.3%",
+                  "182.2%",
+                  "198.0%",
+                  "209.9%",
+                  "221.8%",
+                  "237.6%",
+                  "253.4%",
+                  "269.3%",
+                  "285.1%",
+                  "301.0%",
+                  "316.8%",
+                  "336.6%",
+                  "356.4%",
+                  "376.2%"
+                ]
+              },
+              {
+                "name": "Fuufuu Whirlwind Kick Hold DMG",
+                "values": [
+                  "217.6%",
+                  "233.9%",
+                  "250.2%",
+                  "272.0%",
+                  "288.3%",
+                  "304.6%",
+                  "326.4%",
+                  "348.2%",
+                  "369.9%",
+                  "391.7%",
+                  "413.4%",
+                  "435.2%",
+                  "462.4%",
+                  "489.6%",
+                  "516.8%"
+                ]
+              },
+              {
+                "name": "Fuufuu Windwheel Elemental DMG",
+                "values": [
+                  "16.8%",
+                  "18.1%",
+                  "19.3%",
+                  "21.0%",
+                  "22.3%",
+                  "23.5%",
+                  "25.2%",
+                  "26.9%",
+                  "28.6%",
+                  "30.2%",
+                  "31.9%",
+                  "33.6%",
+                  "35.7%",
+                  "37.8%",
+                  "39.9%"
+                ]
+              },
+              {
+                "name": "Fuufuu Whirlwind Kick Elemental DMG",
+                "values": [
+                  "76.2%",
+                  "81.9%",
+                  "87.6%",
+                  "95.2%",
+                  "100.9%",
+                  "106.6%",
+                  "114.2%",
+                  "121.9%",
+                  "129.5%",
+                  "137.1%",
+                  "144.7%",
+                  "152.3%",
+                  "161.8%",
+                  "171.4%",
+                  "180.9%"
+                ]
+              },
+              {
+                "name": "Max Duration (Hold)",
+                "values": [
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s"
+                ]
+              },
+              {
+                "name": "CD",
+                "values": [
+                  "6.0 to 11.0s",
+                  "6.0 to 11.0s",
+                  "6.0 to 11.0s",
+                  "6.0 to 11.0s",
+                  "6.0 to 11.0s",
+                  "6.0 to 11.0s",
+                  "6.0 to 11.0s",
+                  "6.0 to 11.0s",
+                  "6.0 to 11.0s",
+                  "6.0 to 11.0s",
+                  "6.0 to 11.0s",
+                  "6.0 to 11.0s",
+                  "6.0 to 11.0s",
+                  "6.0 to 11.0s",
+                  "6.0 to 11.0s"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Light"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Whopperflower Nectar"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Shimmering Nectar"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Shimmering Nectar"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Shimmering Nectar"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Shimmering Nectar"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Energy Nectar"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Gilded Scale"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Energy Nectar"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Gilded Scale"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Energy Nectar"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Gilded Scale"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Energy Nectar"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Gilded Scale"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ult": {
+          "name": "Yoohoo Art: Mujina Flurry",
+          "desc": "The other super special technique of the Yoohoo Ninja Arts! It summons a pair of helping hands for Sayu.\nDeals **Anemo DMG** to nearby opponents and heals all nearby party members. The amount of HP restored is based on Sayu's ATK. This skill then summons a Muji-Muji Daruma.\n\n**Muji-Muji Daruma**\nAt specific intervals, the Daruma will take one of several actions based on the situation around it:\n·If the HP of nearby characters is above 70%, it will attack a nearby opponent, dealing **Anemo DMG**.\n·If there are active characters with 70% or less HP nearby, it will heal the active character with the lowest percentage HP left. If there are no opponents nearby, it will heal active characters nearby even if they have 70% HP or more.\n\n**People who don't know the first thing about ninjutsu love to watch Sayu show off this skill, and some have tried to learn it from her. But Sayu just wants to sleep and not be disturbed.**",
+          "charges": 1,
+          "talentTable": [
+            {
+              "name": "Skill Activation DMG",
+              "values": [
+                "116.80%",
+                "125.56%",
+                "134.32%",
+                "146.00%",
+                "154.76%",
+                "163.52%",
+                "175.20%",
+                "186.88%",
+                "198.56%",
+                "210.24%",
+                "221.92%",
+                "233.60%",
+                "248.20%",
+                "262.80%",
+                "277.40%"
+              ]
+            },
+            {
+              "name": "Skill Activation Healing",
+              "values": [
+                "92.2% ATK+577",
+                "99.1% ATK+635",
+                "106.0% ATK+698",
+                "115.2% ATK+765",
+                "122.1% ATK+837",
+                "129.0% ATK+914",
+                "138.2% ATK+996",
+                "147.5% ATK+1083",
+                "156.7% ATK+1174",
+                "165.9% ATK+1270",
+                "175.1% ATK+1371",
+                "184.3% ATK+1477",
+                "195.8% ATK+1588",
+                "207.4% ATK+1703",
+                "218.9% ATK+1824"
+              ]
+            },
+            {
+              "name": "Muji-Muji Daruma DMG",
+              "values": [
+                "52.00%",
+                "55.90%",
+                "59.80%",
+                "65.00%",
+                "68.90%",
+                "72.80%",
+                "78.00%",
+                "83.20%",
+                "88.40%",
+                "93.60%",
+                "98.80%",
+                "104.00%",
+                "110.50%",
+                "117.00%",
+                "123.50%"
+              ]
+            },
+            {
+              "name": "Muji-Muji Daruma Healing",
+              "values": [
+                "79.9% ATK+500",
+                "85.9% ATK+550",
+                "91.9% ATK+605",
+                "99.8% ATK+663",
+                "105.8% ATK+726",
+                "111.8% ATK+792",
+                "119.8% ATK+863",
+                "127.8% ATK+938",
+                "135.8% ATK+1017",
+                "143.8% ATK+1101",
+                "151.8% ATK+1188",
+                "159.7% ATK+1280",
+                "169.7% ATK+1376",
+                "179.7% ATK+1476",
+                "189.7% ATK+1580"
+              ]
+            },
+            {
+              "name": "Duration",
+              "values": [
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s",
+                "12.0s"
+              ]
+            },
+            {
+              "name": "CD",
+              "values": [
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s"
+              ]
+            },
+            {
+              "name": "Energy Cost",
+              "values": [
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80"
+              ]
+            }
+          ],
+          "costs": [
+            {
+              "mora": 12500,
+              "items": [
+                {
+                  "count": 3,
+                  "name": "Teachings of Light"
+                },
+                {
+                  "count": 6,
+                  "name": "Whopperflower Nectar"
+                }
+              ]
+            },
+            {
+              "mora": 17500,
+              "items": [
+                {
+                  "count": 2,
+                  "name": "Guide to Light"
+                },
+                {
+                  "count": 3,
+                  "name": "Shimmering Nectar"
+                }
+              ]
+            },
+            {
+              "mora": 25000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Guide to Light"
+                },
+                {
+                  "count": 4,
+                  "name": "Shimmering Nectar"
+                }
+              ]
+            },
+            {
+              "mora": 30000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Guide to Light"
+                },
+                {
+                  "count": 6,
+                  "name": "Shimmering Nectar"
+                }
+              ]
+            },
+            {
+              "mora": 37500,
+              "items": [
+                {
+                  "count": 9,
+                  "name": "Guide to Light"
+                },
+                {
+                  "count": 9,
+                  "name": "Shimmering Nectar"
+                }
+              ]
+            },
+            {
+              "mora": 120000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Philosophies of Light"
+                },
+                {
+                  "count": 4,
+                  "name": "Energy Nectar"
+                },
+                {
+                  "count": 1,
+                  "name": "Gilded Scale"
+                }
+              ]
+            },
+            {
+              "mora": 260000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Philosophies of Light"
+                },
+                {
+                  "count": 6,
+                  "name": "Energy Nectar"
+                },
+                {
+                  "count": 1,
+                  "name": "Gilded Scale"
+                }
+              ]
+            },
+            {
+              "mora": 450000,
+              "items": [
+                {
+                  "count": 12,
+                  "name": "Philosophies of Light"
+                },
+                {
+                  "count": 9,
+                  "name": "Energy Nectar"
+                },
+                {
+                  "count": 2,
+                  "name": "Gilded Scale"
+                }
+              ]
+            },
+            {
+              "mora": 700000,
+              "items": [
+                {
+                  "count": 16,
+                  "name": "Philosophies of Light"
+                },
+                {
+                  "count": 12,
+                  "name": "Energy Nectar"
+                },
+                {
+                  "count": 2,
+                  "name": "Gilded Scale"
+                },
+                {
+                  "count": 1,
+                  "name": "Crown of Insight"
+                }
+              ]
+            }
+          ],
+          "type": "Wind"
+        },
+        "passive": [
+          {
+            "name": "Yoohoo Art: Silencer's Secret",
+            "desc": "When Sayu is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on.",
+            "minAscension": 0
+          },
+          {
+            "name": "Someone More Capable",
+            "desc": "When Sayu triggers a Swirl reaction while active, she heals all your characters and nearby allies for 300 HP. She will also heal an additional 1.2 HP for every point of Elemental Mastery she has.\nThis effect can be triggered once every 2s.",
+            "minAscension": 1
+          },
+          {
+            "name": "No Work Today!",
+            "desc": "The Muji-Muji Daruma created by **Yoohoo Art: Mujina Flurry** gains the following effects:\n·When healing a character, it will also heal characters near that healed character for 20% the amount of HP.\n·Increases the AoE of its attack against opponents.",
+            "minAscension": 4
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Multi-Task no Jutsu",
+            "desc": "The Muji-Muji Daruma created by **Yoohoo Art: Mujina Flurry** will ignore HP limits and can simultaneously attack nearby opponents and heal characters.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sayu_01.png"
+          },
+          {
+            "name": "Egress Prep",
+            "desc": "**Yoohoo Art: Fuuin Dash** gains the following effects:\n·DMG of Fuufuu Whirlwind Kick in Press Mode increased by 3.3%.\n·Every 0.5s in the Fuufuu Windwheel state will increase the DMG of this Fuufuu Whirlwind Kick by 3.3%. The maximum DMG increase possible through this method is 66%.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sayu_02.png"
+          },
+          {
+            "name": "Eh, the Bunshin Can Handle It",
+            "desc": "Increases the Level of **Yoohoo Art: Mujina Flurry** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Sayu_02.png"
+          },
+          {
+            "name": "Skiving: New and Improved",
+            "desc": "Sayu recovers 1.2 Energy when she triggers a Swirl reaction.\nThis effect occurs once every 2s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sayu_03.png"
+          },
+          {
+            "name": "Speed Comes First",
+            "desc": "Increases the Level of **Yoohoo Art: Fuuin Dash** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Sayu_01.png"
+          },
+          {
+            "name": "Sleep O'Clock",
+            "desc": "The Muji-Muji Daruma created by Sayu's **Yoohoo Art: Mujina Flurry** will now also benefit from her Elemental Mastery. Each point of Sayu's Elemental Mastery will produce the following effects:\n·Increases the damage dealt by the Muji-Muji Daruma's attacks by 0.2% ATK. A maximum of 400% ATK can be gained via this method.\n·Increases the HP restored by the Muji-Muji Daruma by 3. A maximum of 6,000 additional HP can be restored in this manner.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sayu_04.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "cost": {
+          "items": []
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "Elemental Mastery",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 1,
+              "name": "Vayuda Turquoise Sliver"
+            },
+            {
+              "count": 3,
+              "name": "Crystal Marrow"
+            },
+            {
+              "count": 3,
+              "name": "Whopperflower Nectar"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 742.45849609375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 46.64025115966797
+          },
+          {
+            "stat": "Base ATK",
+            "value": 15.299369812011719
+          },
+          {
+            "stat": "Elemental Mastery",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "cost": {
+          "mora": 40000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Vayuda Turquoise Fragment"
+            },
+            {
+              "count": 2,
+              "name": "Marionette Core"
+            },
+            {
+              "count": 10,
+              "name": "Crystal Marrow"
+            },
+            {
+              "count": 15,
+              "name": "Whopperflower Nectar"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1269.9947509765625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 79.77937316894531
+          },
+          {
+            "stat": "Base ATK",
+            "value": 26.16997528076172
+          },
+          {
+            "stat": "Elemental Mastery",
+            "value": 24
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "cost": {
+          "mora": 60000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Vayuda Turquoise Fragment"
+            },
+            {
+              "count": 4,
+              "name": "Marionette Core"
+            },
+            {
+              "count": 20,
+              "name": "Crystal Marrow"
+            },
+            {
+              "count": 12,
+              "name": "Shimmering Nectar"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1973.37646484375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 123.96487426757812
+          },
+          {
+            "stat": "Base ATK",
+            "value": 40.66411590576172
+          },
+          {
+            "stat": "Elemental Mastery",
+            "value": 48
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "cost": {
+          "mora": 80000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Vayuda Turquoise Chunk"
+            },
+            {
+              "count": 8,
+              "name": "Marionette Core"
+            },
+            {
+              "count": 30,
+              "name": "Crystal Marrow"
+            },
+            {
+              "count": 18,
+              "name": "Shimmering Nectar"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2500.912841796875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 157.10400390625
+          },
+          {
+            "stat": "Base ATK",
+            "value": 51.53472137451172
+          },
+          {
+            "stat": "Elemental Mastery",
+            "value": 48
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "cost": {
+          "mora": 100000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Vayuda Turquoise Chunk"
+            },
+            {
+              "count": 12,
+              "name": "Marionette Core"
+            },
+            {
+              "count": 45,
+              "name": "Crystal Marrow"
+            },
+            {
+              "count": 12,
+              "name": "Energy Nectar"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3028.448974609375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 190.2431182861328
+          },
+          {
+            "stat": "Base ATK",
+            "value": 62.40532684326172
+          },
+          {
+            "stat": "Elemental Mastery",
+            "value": 72
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "cost": {
+          "mora": 120000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Vayuda Turquoise Gemstone"
+            },
+            {
+              "count": 20,
+              "name": "Marionette Core"
+            },
+            {
+              "count": 60,
+              "name": "Crystal Marrow"
+            },
+            {
+              "count": 24,
+              "name": "Energy Nectar"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3555.9853515625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 223.3822479248047
+          },
+          {
+            "stat": "Base ATK",
+            "value": 73.27593231201172
+          },
+          {
+            "stat": "Elemental Mastery",
+            "value": 96
           }
         ]
       }

@@ -19,9 +19,9 @@ export default class Books extends Command {
         const { data } = client
 
         const books = {
-            "Monday & Thursday": ["Freedom", "Prosperity"],
-            "Tuesday & Friday": ["Resistance", "Diligence"],
-            "Wednesday & Saturday": ["Ballad", "Gold"],
+            "Monday & Thursday": ["Freedom", "Prosperity", "Transience"],
+            "Tuesday & Friday": ["Resistance", "Diligence", "Elegance"],
+            "Wednesday & Saturday": ["Ballad", "Gold", "Light"],
         }
 
         return sendMessage(message, `**Talent Books**:
