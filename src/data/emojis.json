@@ -50,6 +50,9 @@
     "Cleansing Heart": "<:Cleansing_Heart:827978602297294868>",
     "Everflame Seed": "<:Everflame_Seed:827978602506616834>",
     "Juvenile Jade": "<:Juvenile_Jade:827977621618163712>",
+    "Marionette Core": "<:Marionette_Core:867302394085507082>",
+    "Perpetual Heart": "<:Perpetual_Heart:871123347935752243>",
+    "Smoldering Pearl": "<:Smoldering_Pearl:871123347747004478>",
 
     "Crown of Insight": "<:Crown_of_Insight:827978602674520114>",
 
@@ -72,7 +75,7 @@
     "Teachings of Resistance": "<:Teachings_of_Resistance:827978064071229490>",
     "Guide to Resistance": "<:Guide_to_Resistance:827977621068578836>",
     "Philosophies of Resistance": "<:Philosophies_of_Resistance:827977623921360947>",
-    
+
     "Teachings of Transience": "<:Teachings_of_Transience:867302394152878091>",
     "Guide to Transience": "<:Guide_to_Transience:867302394933018654>",
     "Philosophies of Transience": "<:Philosophies_of_Transience:867302395038269490>",
@@ -114,6 +117,13 @@
     "Starconch": "<:Starconch:827978062993686548>",
     "Violetgrass": "<:Violetgrass:827978063131836486>",
 
+    "Crystal Marrow": "<:Crystal_Marrow:867302393703170059>",
+    "Dendrobium":  "<:Dendrobium:871127279781154876>",
+    "Naku Weed": "<:Naku_Weed:867302394101366826>",
+    "Onikabuto": "<:Onikabuto:871127279374327878>",
+    "Sakura Bloom": "<:Sakura_Bloom:867302394526302239>",
+    "Sea Ganoderma": "<:Sea_Ganoderma:867302394995539968>",
+
     "Tile of Decarabian's Tower": "<:Tile_of_Decarabians_Tower:827978064104259706>",
     "Debris of Decarabian's City": "<:Debris_of_Decarabians_City:827978602146168943>",
     "Fragment of Decarabian's Epic": "<:Fragment_of_Decarabians_Epic:827978602532175903>",
@@ -138,6 +148,18 @@
     "Piece of Aerosiderite": "<:Piece_of_Aerosiderite:827977623111335977>",
     "Bit of Aerosiderite": "<:Bit_of_Aerosiderite:827978599377141791>",
     "Chunk of Aerosiderite": "<:Chunk_of_Aerosiderite:827978602620256286>",
+    "Coral Branch of a Distant Sea": "<:Coral_Branch_of_a_Distant_Sea:871123347260461100>",
+    "Jeweled Branch of a Distant Sea": "<:Jeweled_Branch_of_a_Distant_Sea:871123347432407070>",
+    "Jade Branch of a Distant Sea": "<:Jade_Branch_of_a_Distant_Sea:871123348321615902>",
+    "Golden Branch of a Distant Sea": "<:Golden_Branch_of_a_Distant_Sea:871123347705065473>",
+    "Narukami's Wisdom": "<:Narukamis_Wisdom:867302394089963591>",
+    "Narukami's Joy": "<:Narukamis_Joy:867302393419137055>",
+    "Narukami's Affection": "<:Narukamis_Affection:867302393845514241>",
+    "Narukami's Valor": "<:Narukamis_Valor:867302394404536330>",
+    "Mask of the Wicked Lieutenant": "<:Mask_of_the_Wicked_Lieutenant:871123347126239254>",
+    "Mask of the Tiger's Bite": "<:Mask_of_the_Tigers_Bite:871123347474374716>",
+    "Mask of the One-Horned": "<:Mask_of_the_OneHorned:871123348002865152>",
+    "Mask of the Kijin": "<:Mask_of_the_Kijin:871123347625353277>",
 
     "Slime Condensate": "<:Slime_Condensate:827978061273235467>",
     "Slime Secretions": "<:Slime_Secretions:827978061369704520>",
@@ -178,6 +200,15 @@
     "Mist Grass Pollen": "<:Mist_Grass_Pollen:827977620376649769>",
     "Mist Grass": "<:Mist_Grass:827977621030568026>",
     "Mist Grass Wick": "<:Mist_Grass_Wick:827977620834222090>",
+    "Old Handguard": "<:Old_Handguard:867302394446872596>",
+    "Kageuchi Handguard": "<:Kageuchi_Handguard:867302394685554688>",
+    "Famed Handguard": "<:Famed_Handguard:867302394932101150>",
+    "Chaos Gear": "<:Chaos_Gear:871123346899730472>",
+    "Chaos Axis": "<:Chaos_Axis:867302393544048670>",
+    "Chaos Oculus": "<:Chaos_Oculus:871123347776340038>",
+    "Dismal Prism": "<:Dismal_Prism:867302393979994142>",
+    "Crystal Prism": "<:Crystal_Prism:867302393922453534>",
+    "Polarizing Prism": "<:Polarizing_Prism:871123347432423425>",
 
     "Mora": "<:Mora:827985024745603111>",
 
@@ -187,24 +218,5 @@
 
     "Enhancement Ore": "<:Enhancement_Ore:829510685670113321>",
     "Fine Enhancement Ore": "<:Fine_Enhancement_Ore:829510685842866226>",
-    "Mystic Enhancement Ore": "<:Mystic_Enhancement_Ore:829510686400053248>",
-
-    
-    "Chaos Axis": "<:Chaos_Axis:867302393544048670>",
-    "Crystal Marrow": "<:Crystal_Marrow:867302393703170059>",
-    "Crystal Prism": "<:Crystal_Prism:867302393922453534>",
-    "Dismal Prism": "<:Dismal_Prism:867302393979994142>",
-    "Dragon Lords Crown": "<:Dragon_Lords_Crown:842062356787757136>",
-    "Famed Handguard": "<:Famed_Handguard:867302394932101150>",
-    "Kageuchi Handguard": "<:Kageuchi_Handguard:867302394685554688>",
-    "Marionette Core": "<:Marionette_Core:867302394085507082>",
-    "Naku Weed": "<:Naku_Weed:867302394101366826>",
-    "Narukami's Affection": "<:Narukamis_Affection:867302393845514241>",
-    "Narukami's Joy": "<:Narukamis_Joy:867302393419137055>",
-    "Narukami's Valor": "<:Narukamis_Valor:867302394404536330>",
-    "Narukami's Wisdom": "<:Narukamis_Wisdom:867302394089963591>",
-    "Old Handguard": "<:Old_Handguard:867302394446872596>",
-    "Sakura Bloom": "<:Sakura_Bloom:867302394526302239>",
-    "Sea Ganoderma": "<:Sea_Ganoderma:867302394995539968>"
-
+    "Mystic Enhancement Ore": "<:Mystic_Enhancement_Ore:829510686400053248>"
 }
