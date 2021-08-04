@@ -47,7 +47,7 @@ async function handleCommand(message: Message, cmdInfo: ParsedCommand): Promise<
     const { args, command, cmd } = cmdInfo
     try {
         const msg = cmd.run(message, args, command)
-        if (!msg || message.channel.type == "dm") return true
+        if (!msg || message.channel.type == "DM") return true
         const reply = await msg
         if (!reply) return true
 
@@ -66,11 +66,11 @@ async function handleCommand(message: Message, cmdInfo: ParsedCommand): Promise<
 
 function handleResponse(message: Message, reply: Message) {
     try {
-        reply.awaitMessageComponentInteraction({
+        reply.awaitMessageComponent({
             filter: (interaction) => (interaction.user.id == message.author.id || config.admins.includes(interaction.user.id)),
             time: 60000
         }).then(async (first) => {
-            if (first && reply.deletable && first.customID == "delete") {
+            if (first && reply.deletable && first.customId == "delete") {
                 await reply.delete()
                 client.recentMessages = client.recentMessages.filter(k => k != reply)
             }
@@ -100,7 +100,7 @@ export async function handle(message: Message): Promise<void> {
 
         addStats(message, cmdInfo)
         await handleCommand(message, cmdInfo)
-    } else if (message.channel.type === "dm") {
+    } else if (message.channel.type === "DM") {
         Logger.info(`${message.author.id} (${message.author.tag}) sends message ${message.type} in dm: ${message.content}`)
     }
 }

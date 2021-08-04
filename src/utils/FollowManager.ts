@@ -117,7 +117,7 @@ export default class FollowManager {
         const messages = (await sendToChannels(channels, content, embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
 
         for (const message of messages)
-            if (message instanceof Message && message.channel.type === "news")
+            if (message instanceof Message && message.channel.type === "GUILD_NEWS")
                 try {
                     await message.crosspost()
                 } catch (error) {

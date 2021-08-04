@@ -1,4 +1,4 @@
-import {  Message, TextChannel, MessageEmbed, MessageAttachment, Snowflake, MessageActionRow, MessageButton } from "discord.js"
+import {  Message, TextChannel, MessageEmbed, MessageAttachment, Snowflake, MessageActionRow, MessageButton, ColorResolvable } from "discord.js"
 
 import client from "./../main"
 import config from "./../data/config.json"
@@ -190,7 +190,7 @@ export function getNewsEmbed(post: StoredNews, relativePage = -1, currentPage?: 
         .setAuthor(post.nickname)
         .setTimestamp(post.created_at * 1000)
         .setURL(post.lang == "bbs-zh-cn" ? `https://bbs.mihoyo.com/ys/article/${post.post_id}` : `https://www.hoyolab.com/genshin/article/${post.post_id}`)
-        .setColor([Colors.AQUA, Colors.GREEN, "#EA6907"][post.type - 1] ?? "#C1C1C1")
+        .setColor(([Colors.AQUA, Colors.GREEN, "#EA6907"][post.type - 1] ?? "#C1C1C1") as ColorResolvable)
 
     const parsed = parseNewsContent(post.content)
 
@@ -312,11 +312,11 @@ function clean(line: string) {
 // Pagination functions
 const emojis = ["⬅️", "➡️"]
 function paginatorLoop(message: Message, reply: Message, pageInfo: Bookmarkable[], currentPage = 0): void {
-    reply.awaitMessageComponentInteraction( {
+    reply.awaitMessageComponent( {
         filter: (interaction) => (interaction.user.id == message.author.id || config.admins.includes(interaction.user.id)),
         time: 60000
     }).then(async (r) => {
-        const name = r.customID
+        const name = r.customId
 
         if (name == "delete") {
             client.recentMessages = client.recentMessages.filter(k => k != reply)
@@ -428,7 +428,7 @@ function getButtons(pageInfo: Bookmarkable[], currentPage: number, maxPages: num
 
             currentRow.addComponents(
                 new MessageButton()
-                    .setCustomID(pi.bookmarkName)
+                    .setCustomId(pi.bookmarkName)
                     .setLabel(pi.bookmarkName)
                     .setStyle("SECONDARY")
                     .setDisabled(newPage == currentPage)
@@ -446,21 +446,21 @@ function getButtons(pageInfo: Bookmarkable[], currentPage: number, maxPages: num
 
     currentRow.addComponents(
         new MessageButton()
-            .setCustomID("prev")
+            .setCustomId("prev")
             .setLabel("Previous")
             .setStyle("PRIMARY")
             .setDisabled(currentPage == 0)
             .setEmoji(emojis[0]),
 
         new MessageButton()
-            .setCustomID("next")
+            .setCustomId("next")
             .setLabel("Next")
             .setStyle("PRIMARY")
             .setDisabled(currentPage >= maxPages - 1)
             .setEmoji(emojis[1]),
 
         new MessageButton()
-            .setCustomID("delete")
+            .setCustomId("delete")
             .setLabel("Delete")
             .setStyle("DANGER")
             .setEmoji("✖️"),
@@ -473,7 +473,7 @@ export function getDeleteButton(): MessageActionRow {
 
     row.addComponents(
         new MessageButton()
-            .setCustomID("delete")
+            .setCustomId("delete")
             .setLabel("Delete")
             .setStyle("DANGER")
             .setEmoji("✖️"),
@@ -482,7 +482,7 @@ export function getDeleteButton(): MessageActionRow {
 }
 
 export async function sendMessage(message: Message, content: string | MessageEmbed): Promise<Message | Message[]> {
-    if (message.channel.type == "dm")
+    if (message.channel.type == "DM")
         if (typeof content == "string")
             return message.channel.send(content)
         else
@@ -571,7 +571,7 @@ export function findFuzzy(target: string[], search: string): string | undefined 
     return candidates[dists.indexOf(min)]
 }
 
-export const Colors: Record<string, string> = {
+export const Colors: Record<string, ColorResolvable> = {
     GREEN: "#00EA69",
     DARK_GREEN: "#2EF41F",
 
