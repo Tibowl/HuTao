@@ -405,7 +405,8 @@
     {
         "name": "\"Lost Riches\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/FQZbRHJ.png",
+        "link": "https://www.hoyolab.com/genshin/article/635057",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/04/1015537/9d4147a2d42b56b1d6eae399b0b29bc7_640276928333819462.jpg",
         "start": "2021-08-06 10:00:00",
         "end": "2021-08-16 03:59:00",
         "reminder": "end"
