@@ -64,7 +64,7 @@ export default class NewsManager {
         this.getNewsByIdStatement = this.sql.prepare("SELECT * FROM news WHERE post_id = @post_id")
         this.getNewsStatement = this.sql.prepare("SELECT * FROM news WHERE lang = @lang ORDER BY created_at DESC, post_id DESC LIMIT 20")
 
-        this.fetchNews().catch(Logger.error)
+        this.fetchNews().catch(e => Logger.error(e))
     }
 
     lastFetched = 0
@@ -75,7 +75,7 @@ export default class NewsManager {
             nextScanTime.setUTCMinutes(nextScanTime.getUTCMinutes() + 5)
 
         setTimeout(() => {
-            this.fetchNews().catch(Logger.error)
+            this.fetchNews().catch(e => Logger.error(e))
         }, Math.max(0, nextScanTime.getTime() - Date.now()) + 5000)
 
         if (this.lastFetched > Date.now() - 30 * 1000) return

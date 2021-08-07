@@ -81,9 +81,6 @@ ${Object.entries(categorized)
         if (command == null)
             return sendMessage(message, "Command does not exist")
 
-        if (command.help == false)
-            return sendMessage(message, `${command.commandName}`)
-
         return sendMessage(message, `${command.commandName} - ${command.help}
 
 Usage: \`${config.prefix}${command.usage}\`${command.aliases ? `

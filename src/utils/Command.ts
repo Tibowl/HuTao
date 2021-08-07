@@ -5,7 +5,7 @@ import { sendMessage } from "./Utils"
 export type CommandCategory = "Character" | "Weapons" | "Artifact" | "News" | "Misc" | "Meta" | "Admin" | "Hidden"
 export interface CommandOptions {
     name: string
-    help: false | string
+    help: string
     usage: false | string
     category: CommandCategory
     aliases?: string[]
@@ -15,7 +15,7 @@ export default abstract class Command {
     public readonly commandName: string
     public readonly aliases: string[]
     public readonly usage: string | false
-    public readonly help: string | false
+    public readonly help: string
     public readonly category: CommandCategory
 
     protected constructor(options: CommandOptions) {

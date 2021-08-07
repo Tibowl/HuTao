@@ -1,5 +1,6 @@
 import client from "../main"
 import log4js from "log4js"
+// import { ApplicationCommandData } from "discord.js"
 
 const Logger = log4js.getLogger("ready")
 
@@ -13,6 +14,18 @@ export async function handle(): Promise<void> {
     client.timerManager.init()
     client.tweetManager.init()
 
-    if (client.user == null) return
-    await client.user.setStatus("online")
+    await client.user?.setStatus("online")
+
+    /*
+    if (!client.application?.owner) await client.application?.fetch()
+    const cmds: ApplicationCommandData[] = client.commands.array().map(cmd => {
+        return {
+            name: cmd.commandName,
+            description: cmd.help.substring(0, 80) // TODO: check which commands
+        }
+    })
+
+    await client.application?.commands.set(cmds)
+    Logger.info("Commands registered")
+    */
 }

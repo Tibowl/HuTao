@@ -418,6 +418,24 @@
         "reminder": "end"
     },
     {
+        "name": "\"The Heron's Invitation\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/genshin/article/603145",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/26/1015537/8e84e5deec1cfeb1fe02bbbdf8a8c523_5471059433168154997.jpg",
+        "start": "2021-07-26 11:00:00",
+        "end": "2021-08-02 23:59:59",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Summer Night Mementos\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/genshin/article/640969",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/05/1015537/78fb66f873d27eaebd73d520c3a9ab46_8257183562949418588.jpg",
+        "start": "2021-08-05 11:00:00",
+        "end": "2021-08-11 23:59:59",
+        "reminder": "end"
+    },
+    {
         "name": "Next Special Program [CN]",
         "type": "Stream",
         "prediction": true,
