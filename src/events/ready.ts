@@ -13,6 +13,8 @@ export async function handle(): Promise<void> {
 
     client.timerManager.init()
     client.tweetManager.init()
+    client.newsManager.fetchNews().catch(e => Logger.error(e))
+
 
     await client.user?.setStatus("online")
 

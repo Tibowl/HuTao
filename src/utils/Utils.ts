@@ -1,4 +1,4 @@
-import {  Message, TextChannel, MessageEmbed, MessageAttachment, Snowflake, MessageActionRow, MessageButton, ColorResolvable } from "discord.js"
+import {  Message, MessageEmbed, MessageAttachment, Snowflake, MessageActionRow, MessageButton, ColorResolvable } from "discord.js"
 
 import client from "./../main"
 import config from "./../data/config.json"
@@ -22,9 +22,8 @@ export async function sendToChannels(channels: Snowflake[] | undefined, content?
     for (const channel of channels) {
         try {
             const chanObj = await client.channels.fetch(channel)
-            if (!(chanObj && chanObj instanceof TextChannel))
+            if (!(chanObj && chanObj.isText()))
                 continue
-
             if (embed && content && content.length > 0)
                 messages.push(chanObj.send({ content, embeds: [embed] }))
             else if (embed)
@@ -345,6 +344,8 @@ function paginatorLoop(message: Message, reply: Message, pageInfo: Bookmarkable[
         const user = client.user
         if (user == undefined || reply.deleted) return
         await reply.edit({ components: [] })
+    }).catch(error => {
+        Logger.error(error)
     })
 }
 

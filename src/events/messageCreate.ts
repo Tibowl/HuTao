@@ -80,6 +80,8 @@ function handleResponse(message: Message, reply: Message) {
             const user = client.user
             if (user == undefined || reply.deleted) return
             await reply.edit({ components: [] })
+        }).catch(error => {
+            Logger.error(error)
         })
         client.recentMessages.push(reply)
     } catch (error) {

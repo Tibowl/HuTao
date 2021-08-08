@@ -63,8 +63,6 @@ export default class NewsManager {
         this.addNewsStatement = this.sql.prepare("INSERT OR REPLACE INTO news VALUES (@post_id, @lang, @type, @subject, @created_at, @nickname, @image_url, @content)")
         this.getNewsByIdStatement = this.sql.prepare("SELECT * FROM news WHERE post_id = @post_id")
         this.getNewsStatement = this.sql.prepare("SELECT * FROM news WHERE lang = @lang ORDER BY created_at DESC, post_id DESC LIMIT 20")
-
-        this.fetchNews().catch(e => Logger.error(e))
     }
 
     lastFetched = 0
@@ -111,7 +109,7 @@ export default class NewsManager {
                     if (!data?.data?.list) continue
 
                     const articles: News[] = data.data.list
-                    for (const article of articles) {
+                    for (const article of articles.reverse()) {
                         const post_id = article.post.post_id
                         if (this.getNewsById(post_id)) continue
 
