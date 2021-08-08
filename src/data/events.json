@@ -376,7 +376,17 @@
     {
         "name": "Event Wish \"Tapestry of Golden Flames\"",
         "type": "Banner",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/genshin/article/661064",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/08/1015537/b5113fb18f049e960cfbf28abda6b1bb_737439119089822446.jpg",
+        "start": "2021-08-10 18:00:00",
+        "end": "2021-08-31 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/genshin/article/661045",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/08/1015537/9006a61d3e72673b00584224818ce670_3846069850882130301.jpg",
         "start": "2021-08-10 18:00:00",
         "end": "2021-08-31 14:59:00",
         "reminder": "end"
@@ -393,13 +403,17 @@
     {
         "name": "\"Theater Mechanicus: Stage of Wonders\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/uvQsjc4.png",
+        "img": "https://i.imgur.com/9esn4zx.png",
+        "start": "2021-08-12 10:00:00",
+        "end": "2021-08-26 03:59:00",
         "reminder": "end"
     },
     {
         "name": "\"Phantom Flow\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/IWblJXG.png",
+        "img": "https://i.imgur.com/gVvyYvW.png",
+        "start": "2021-08-20 10:00:00",
+        "end": "2021-08-30 03:59:00",
         "reminder": "end"
     },
     {
@@ -414,7 +428,9 @@
     {
         "name": "\"Ley Line Overflow\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/VmD9104.png",
+        "img": "https://i.imgur.com/ECwLIQz.png",
+        "start": "2021-08-23 04:00:00",
+        "end": "2021-08-30 03:59:00",
         "reminder": "end"
     },
     {
