@@ -403,7 +403,8 @@
     {
         "name": "\"Theater Mechanicus: Stage of Wonders\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/9esn4zx.png",
+        "link": "https://www.hoyolab.com/genshin/article/675441",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/10/1015537/7a155d93715d2a828f35fa3e1e3cca2c_3865020977362949801.jpg",
         "start": "2021-08-12 10:00:00",
         "end": "2021-08-26 03:59:00",
         "reminder": "end"
