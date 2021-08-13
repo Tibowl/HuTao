@@ -27,6 +27,7 @@ export default class Tweetmanager {
         this.stream.on("tweet", async (tweet: Tweet) => this.handleTweet(tweet).catch(Logger.error))
         this.stream.on("limit", l => Logger.debug("Twitter limit", l))
         this.stream.on("warning", w => Logger.debug("Twitter warning", w))
+        this.stream.on("error", e => Logger.error("Twitter error", e))
 
         Logger.info(`Following ${follow.length} twitter account(s)!`)
     }
