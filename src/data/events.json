@@ -471,11 +471,83 @@
         "timezone": "-04:00"
     },
     {
-        "name": "Next maintenance",
+        "name": "2.1 Maintenance",
         "type": "Maintenance",
         "prediction": true,
         "start": "2021-09-01 06:00:00",
         "end": "2021-09-01 11:00:00"
+    },
+    {
+        "name": "Event Wish \"Reign of Serenity\"",
+        "type": "Banner",
+        "prediction": true,
+        "img": "https://i.imgur.com/2jEApz1.png",
+        "start": "2021-09-01 11:00:00",
+        "end": "2021-09-21 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2021-09-01 11:00:00",
+        "end": "2021-09-21 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Drifting Luminescence\"",
+        "type": "Banner",
+        "prediction": true,
+        "img": "https://i.imgur.com/bURqigK.png",
+        "start": "2021-09-21 18:00:00",
+        "end": "2021-10-12 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Next maintenance",
+        "type": "Maintenance",
+        "prediction": true,
+        "start": "2021-10-13 06:00:00",
+        "end": "2021-10-13 11:00:00"
+    },
+    {
+        "name": "\"Moonlight Merriment\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/wELAwKe.jpeg",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Passage of Clouds and Stars\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/hzshyWE.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Lunar Realm\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/L9rpRlF.jpeg",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Hyakunin Ikki\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/w92Tjro.jpeg",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Spectral Secrets\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/6dDiR7d.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Engraved Wishes\" Web Event",
+        "type": "Web",
+        "img": "https://i.imgur.com/DbiNnyj.png",
+        "start": "2021-09-06 22:00:00",
+        "end": "2021-09-27 15:59:00",
+        "timezone": "-04:00",
+        "reminder": "end"
     },
     {
         "name": "Next Special Program",
