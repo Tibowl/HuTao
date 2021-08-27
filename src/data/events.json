@@ -455,6 +455,16 @@
         "reminder": "end"
     },
     {
+        "name": "\"A Thousand Questions With Paimon\" Quiz Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/genshin/article/766048",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/27/1015537/3cf6ef0726d942d61d2825f88fd16820_953882758451226433.jpg",
+        "start": "2021-08-27 13:00:00",
+        "end": "2021-08-29 23:59:59",
+        "reminder": "daily",
+        "remindtime": "04:00:00"
+    },
+    {
         "name": "2.1 Special Program [Twitch]",
         "type": "Stream",
         "link": "https://www.twitch.tv/genshinimpactofficial",
