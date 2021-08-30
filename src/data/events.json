@@ -483,15 +483,15 @@
     {
         "name": "2.1 Maintenance",
         "type": "Maintenance",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/genshin/article/780532",
         "start": "2021-09-01 06:00:00",
         "end": "2021-09-01 11:00:00"
     },
     {
         "name": "Event Wish \"Reign of Serenity\"",
         "type": "Banner",
-        "prediction": true,
-        "img": "https://i.imgur.com/2jEApz1.png",
+        "link": "https://www.hoyolab.com/genshin/article/780998",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/28/1015537/8ba1f5c1d60e1476372aa2c4f27b382c_2286871364869273866.jpg",
         "start": "2021-09-01 11:00:00",
         "end": "2021-09-21 17:59:00",
         "reminder": "end"
@@ -499,7 +499,8 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/genshin/article/780981",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/28/1015537/1fc8403a31b02883763d0598c4425a38_2004836154187283192.jpg",
         "start": "2021-09-01 11:00:00",
         "end": "2021-09-21 17:59:00",
         "reminder": "end"
@@ -523,32 +524,47 @@
     {
         "name": "\"Moonlight Merriment\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/wELAwKe.jpeg",
+        "link": "https://www.hoyolab.com/genshin/article/780930",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/28/1015537/cc6788a804f7b48d979042a0092d969c_8377237629975240833.jpg",
+        "start": "2021-09-27 10:00:00",
+        "end": "2021-10-11 03:59:59",
         "reminder": "end"
     },
     {
         "name": "\"Passage of Clouds and Stars\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/hzshyWE.png",
+        "link": "https://www.hoyolab.com/genshin/article/780929",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/28/1015537/371947e912aa66b33d4ba28bcb7ef215_4546119603042115014.jpg",
+        "start": "2021-09-28 04:00:00",
+        "end": "2021-10-13 05:59:59",
         "reminder": "end"
     },
     {
         "name": "\"Lunar Realm\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/L9rpRlF.jpeg",
+        "link": "https://www.hoyolab.com/genshin/article/780932",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/28/1015537/625051f355d5819fa25a4ecac1f82946_2832166884936502260.jpg",
+        "start": "2021-09-10 10:00:00",
+        "end": "2021-09-20 03:59:59",
         "reminder": "end"
     },
     {
         "name": "\"Hyakunin Ikki\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/w92Tjro.jpeg",
+        "link": "https://www.hoyolab.com/genshin/article/780931",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/28/1015537/d3f7a8c13e8699a6d11c66d029ac77fd_3362667234171755625.jpg",
+        "start": "2021-09-02 10:00:00",
+        "end": "2021-09-13 03:59:59",
         "reminder": "end"
     },
     {
         "name": "\"Spectral Secrets\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/6dDiR7d.png",
-        "reminder": "end"
+        "link": "https://www.hoyolab.com/genshin/article/780934",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/28/1015537/a5d062cd986dc6fed4d234a4c438dc92_4844265372389324240.jpg",
+        "start": "2021-09-19 10:00:00",
+        "end": "2021-09-26 03:59:59",
+        "reminder": "daily"
     },
     {
         "name": "\"Engraved Wishes\" Web Event",
@@ -565,5 +581,12 @@
         "prediction": true,
         "start": "2021-10-01 09:00:00",
         "timezone": "-04:00"
+    },
+    {
+        "name": "2.2 Maintenance",
+        "type": "Maintenance",
+        "prediction": true,
+        "start": "2021-10-13 06:00:00",
+        "end": "2021-10-13 11:00:00"
     }
 ]
