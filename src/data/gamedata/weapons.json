@@ -8484,7 +8484,7 @@
       [
         {
           "name": "Descension",
-          "desc": "Effective for players on \"PlayStation Network\" only.\nHitting opponents with Normal and Charged Attacks grants a **50%** chance to deal **200%** ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by **66**."
+          "desc": "**Effective only on the following platform: **\n**\"PlayStation Network\"**\nHitting opponents with Normal and Charged Attacks grants a **50%** chance to deal **200%** ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by **66**."
         }
       ]
     ]
@@ -11744,6 +11744,223 @@
       ]
     ]
   },
+  "Luxurious Sea-Lord": {
+    "name": "Luxurious Sea-Lord",
+    "desc": "The great king of the ocean. Having been air-dried, it makes for a fine weapon as well as emergency sustenance.",
+    "weaponType": "Claymore",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 41.067100524902344,
+        "curve": "ATK 2.4"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.11999999731779099,
+        "curve": "C2"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_MillenniaTuna.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_MillenniaTuna_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ],
+        "cost": {
+          "mora": 5000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Grain of Aerosiderite"
+            },
+            {
+              "count": 3,
+              "name": "Fragile Bone Shard"
+            },
+            {
+              "count": 2,
+              "name": "Slime Condensate"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ],
+        "cost": {
+          "mora": 15000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Piece of Aerosiderite"
+            },
+            {
+              "count": 12,
+              "name": "Fragile Bone Shard"
+            },
+            {
+              "count": 8,
+              "name": "Slime Condensate"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Piece of Aerosiderite"
+            },
+            {
+              "count": 6,
+              "name": "Sturdy Bone Shard"
+            },
+            {
+              "count": 6,
+              "name": "Slime Secretions"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Bit of Aerosiderite"
+            },
+            {
+              "count": 12,
+              "name": "Sturdy Bone Shard"
+            },
+            {
+              "count": 9,
+              "name": "Slime Secretions"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 35000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Bit of Aerosiderite"
+            },
+            {
+              "count": 9,
+              "name": "Fossilized Bone Shard"
+            },
+            {
+              "count": 6,
+              "name": "Slime Concentrate"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 4,
+              "name": "Chunk of Aerosiderite"
+            },
+            {
+              "count": 18,
+              "name": "Fossilized Bone Shard"
+            },
+            {
+              "count": 12,
+              "name": "Slime Concentrate"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "As the nights deepen, the pulsing of its gills translate as such:\n\n\"Well now, I was undoubtedly dead when I left the sea.\"\n\"My heart ceased to beat, the whites of my eyes showed, I gave off a rank stench—\"\n\"I mean, for a fish, this had to be death, right?\"\n\n\"Now, these old bones were the strongest among all mackerel.\"\n\"I was also once the strongest being in all the shallow seas,\"\n\"And even sea beasts, whales, and sharks were no match for my might.\"\n\"And yet, even I would meet my match!\"\n\"It was that kurage, or perhaps you might call them the jellyfish.\"\n\"Why, they just float along with the tide,\"\n\"And yet, they can deflect any and all impacts.\"\n\n\"So then did I forsake the path of strength,\"\n\"Taking up the path of the jellyfish.\"\n\"After a long, long life,\"\n\"I became able to control every organ in my body.\"\n\"So I stopped my own heart,\"\n\"And was not mistaken for fresh fish and sliced open.\"\n\"You may think that I am naught but a salted fish, 'tis true,\"\n\"But allow me to become your strength.\"\n\n\"Now then, you who wield this old one.\"\n\"Hmm...\"\n\"When all the waters flow into the sea,\"\n\"When the final stars go out,\"\n\"When everything returns to the primordial ocean whence they came,\"\n\"Would you try yourself against me?\"",
+    "refinement": [
+      [
+        {
+          "name": "Oceanic Victory",
+          "desc": "Increases Elemental Burst DMG by **12%**. When Elemental Burst hits opponents, there is a 100% chance of summoning a titanic tuna that charges and deals **100%** ATK as AoE DMG. This effect can occur once every 15s."
+        },
+        {
+          "name": "Oceanic Victory",
+          "desc": "Increases Elemental Burst DMG by **15%**. When Elemental Burst hits opponents, there is a 100% chance of summoning a titanic tuna that charges and deals **125%** ATK as AoE DMG. This effect can occur once every 15s."
+        },
+        {
+          "name": "Oceanic Victory",
+          "desc": "Increases Elemental Burst DMG by **18%**. When Elemental Burst hits opponents, there is a 100% chance of summoning a titanic tuna that charges and deals **150%** ATK as AoE DMG. This effect can occur once every 15s."
+        },
+        {
+          "name": "Oceanic Victory",
+          "desc": "Increases Elemental Burst DMG by **21%**. When Elemental Burst hits opponents, there is a 100% chance of summoning a titanic tuna that charges and deals **175%** ATK as AoE DMG. This effect can occur once every 15s."
+        },
+        {
+          "name": "Oceanic Victory",
+          "desc": "Increases Elemental Burst DMG by **24%**. When Elemental Burst hits opponents, there is a 100% chance of summoning a titanic tuna that charges and deals **200%** ATK as AoE DMG. This effect can occur once every 15s."
+        }
+      ]
+    ]
+  },
   "Dragon's Bane": {
     "name": "Dragon's Bane",
     "desc": "A polearm decorated with an entwining golden dragon. Light and sharp, this weapon may very well kill dragons with ease.",
@@ -13910,6 +14127,223 @@
         {
           "name": "Samurai Conduct",
           "desc": "Increases Elemental Skill DMG by **12%**. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates **5** Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
+        }
+      ]
+    ]
+  },
+  "\"The Catch\"": {
+    "name": "\"The Catch\"",
+    "desc": "In the distant past, this was the beloved spear of a famed Inazuman bandit.",
+    "weaponType": "Polearm",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "Energy Recharge",
+        "init": 0.10000000149011612,
+        "curve": "C2"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Mori.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Mori_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ],
+        "cost": {
+          "mora": 5000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Mask of the Wicked Lieutenant"
+            },
+            {
+              "count": 3,
+              "name": "Chaos Gear"
+            },
+            {
+              "count": 2,
+              "name": "Spectral Husk"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ],
+        "cost": {
+          "mora": 15000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Mask of the Tiger's Bite"
+            },
+            {
+              "count": 12,
+              "name": "Chaos Gear"
+            },
+            {
+              "count": 8,
+              "name": "Spectral Husk"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Mask of the Tiger's Bite"
+            },
+            {
+              "count": 6,
+              "name": "Chaos Axis"
+            },
+            {
+              "count": 6,
+              "name": "Spectral Heart"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Mask of the One-Horned"
+            },
+            {
+              "count": 12,
+              "name": "Chaos Axis"
+            },
+            {
+              "count": 9,
+              "name": "Spectral Heart"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 35000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Mask of the One-Horned"
+            },
+            {
+              "count": 9,
+              "name": "Chaos Oculus"
+            },
+            {
+              "count": 6,
+              "name": "Spectral Nucleus"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 4,
+              "name": "Mask of the Kijin"
+            },
+            {
+              "count": 18,
+              "name": "Chaos Oculus"
+            },
+            {
+              "count": 12,
+              "name": "Spectral Nucleus"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "The favored barbed spear of a famous Inazuman bandit.\nIt was originally a harpoon used to catch fish, but it was also very handy in battle.\nThey say that he even pierced the enchanted, sword-armed puppet before carrying it off.\n\n\"Haha! Once, I was the master of this ship, the 'Seiraimaru.'\"\n\"I commanded over ten ships, and they called me the Deathless Oni of Seirai.\"\n\"Now, I am but a leaf floating upon the waves.\"\n\"If not for Janome and the people marooned on those islands,\"\n\"Forget raising our sails again — I doubt I would have managed to make it back to my home shores.\"\n\"And yet Seirai now looks like this.\"\n\"There is no longer any place for me in the Inazuman Islands.\"\n\"Even that naggy, fretful old shrine maiden is gone...\"\n\nThe bandit named Ako Domeki's voice was thick with emotion. Then he said...\n\"Hey, Janome! I'm now the freest man in the whole wide world!\"\n\"Aunt Shrine Maiden! Didn't you see that you wanted to go see the world?\"\n\"You know, go some place else, like that Kannagara guy or that Konbumaru you always talk about?\"\n\"You know what? Let me, Ako Domeki Zaemon, go in your stead!\"\n\"Let me go see what the edge of the world really looks like!\"\n\n\"We'll meet again where all ship routes end!\"\n\"And when we do, it'll be my turn to tell you all about these distant lands!\"",
+    "refinement": [
+      [
+        {
+          "name": "Shanty",
+          "desc": "Increases Elemental Burst DMG by **16%** and Elemental Burst CRIT Rate by **6%**."
+        },
+        {
+          "name": "Shanty",
+          "desc": "Increases Elemental Burst DMG by **20%** and Elemental Burst CRIT Rate by **7.5%**."
+        },
+        {
+          "name": "Shanty",
+          "desc": "Increases Elemental Burst DMG by **24%** and Elemental Burst CRIT Rate by **9%**."
+        },
+        {
+          "name": "Shanty",
+          "desc": "Increases Elemental Burst DMG by **28%** and Elemental Burst CRIT Rate by **10.5%**."
+        },
+        {
+          "name": "Shanty",
+          "desc": "Increases Elemental Burst DMG by **32%** and Elemental Burst CRIT Rate by **12%**."
         }
       ]
     ]
@@ -19556,6 +19990,207 @@
       ]
     ]
   },
+  "Predator": {
+    "name": "Predator",
+    "desc": "A uniquely-designed bow. This should not belong in this world.",
+    "weaponType": "Bow",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.09000000357627869,
+        "curve": "C2"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Predator.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Predator_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ],
+        "cost": {
+          "mora": 5000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Narukami's Wisdom"
+            },
+            {
+              "count": 3,
+              "name": "Dismal Prism"
+            },
+            {
+              "count": 2,
+              "name": "Firm Arrowhead"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ],
+        "cost": {
+          "mora": 15000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Narukami's Joy"
+            },
+            {
+              "count": 12,
+              "name": "Dismal Prism"
+            },
+            {
+              "count": 8,
+              "name": "Firm Arrowhead"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Narukami's Joy"
+            },
+            {
+              "count": 6,
+              "name": "Crystal Prism"
+            },
+            {
+              "count": 6,
+              "name": "Sharp Arrowhead"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Narukami's Affection"
+            },
+            {
+              "count": 12,
+              "name": "Crystal Prism"
+            },
+            {
+              "count": 9,
+              "name": "Sharp Arrowhead"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 35000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Narukami's Affection"
+            },
+            {
+              "count": 9,
+              "name": "Polarizing Prism"
+            },
+            {
+              "count": 6,
+              "name": "Weathered Arrowhead"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 4,
+              "name": "Narukami's Valor"
+            },
+            {
+              "count": 18,
+              "name": "Polarizing Prism"
+            },
+            {
+              "count": 12,
+              "name": "Weathered Arrowhead"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "The blacksmith who accepted the commission asked why this order had to be made this way and why it had to be named like this.\nThe answer was rather complicated: something about machine beasts that roamed all over the world, and something about polearms not having override codes.\n\nThe blacksmith understood quickly enough, though. So this bow was some powerful weapon used to hunt and kill these mighty machine creatures, and so it was the apex predator of that world.\n\nBut the strange girl corrected him.\nShe was just going to use this to hunt wild boars next, since it appeared that in this world, using bows and arrows to hunt would actually allow one to harvest Raw Meat.",
+    "refinement": [
+      [
+        {
+          "name": "Strong Strike",
+          "desc": "**Effective only on the following platform: **\n**\"PlayStation Network\"**\nDealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66."
+        }
+      ]
+    ]
+  },
   "Aquila Favonia": {
     "name": "Aquila Favonia",
     "desc": "The soul of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil — just like the last heroine who wielded it.",
@@ -22594,6 +23229,223 @@
       ]
     ]
   },
+  "Engulfing Lightning": {
+    "name": "Engulfing Lightning",
+    "desc": "A naginata used to \"cut grass.\" Any army that stands before this weapon will probably be likewise cut down...",
+    "weaponType": "Polearm",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 45.9364013671875,
+        "curve": "ATK 3.1"
+      },
+      {
+        "stat": "Energy Recharge",
+        "init": 0.11999999731779099,
+        "curve": "C3"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Narukami.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Narukami_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ],
+        "cost": {
+          "mora": 10000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Mask of the Wicked Lieutenant"
+            },
+            {
+              "count": 5,
+              "name": "Chaos Gear"
+            },
+            {
+              "count": 3,
+              "name": "Old Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Mask of the Tiger's Bite"
+            },
+            {
+              "count": 18,
+              "name": "Chaos Gear"
+            },
+            {
+              "count": 12,
+              "name": "Old Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 9,
+              "name": "Mask of the Tiger's Bite"
+            },
+            {
+              "count": 9,
+              "name": "Chaos Axis"
+            },
+            {
+              "count": 9,
+              "name": "Kageuchi Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Mask of the One-Horned"
+            },
+            {
+              "count": 18,
+              "name": "Chaos Axis"
+            },
+            {
+              "count": 14,
+              "name": "Kageuchi Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 55000,
+          "items": [
+            {
+              "count": 9,
+              "name": "Mask of the One-Horned"
+            },
+            {
+              "count": 14,
+              "name": "Chaos Oculus"
+            },
+            {
+              "count": 9,
+              "name": "Famed Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 65000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Mask of the Kijin"
+            },
+            {
+              "count": 27,
+              "name": "Chaos Oculus"
+            },
+            {
+              "count": 18,
+              "name": "Famed Handguard"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "The naginata was a lethal weapon by which scattered dross might be cut away.\nAnd the one who wielded that naginata was one who guarded the path to eternity.\n\nWhen the one who stood high above the storm clouds looked upon the mortal world, which she so loved,\nSeeing their shallow disputes and transient obsessions...\nSuch contentions stemmed from needless attachments and unchecked desire — both enemies of eternity.\nThe wild weeds that disturbed the unchanging world would be swept away by the lightning.\n\n\"Well then — what sort of Eternity would ███'s eyes reflect?\"\nSo asked the clergyperson who sloshed and drank wine with her under the sakura tree in that still-clear memory.\n\nWhat a pointless question.\nThough the answer she gave them was lost to the alcohol,\nShe had gained the answer countless times in those memories.\nOne must thin fruits to improve their quality, and plants used in dyes must have their flowers pruned.\nNot a single speck of dross could be permitted in an eternal paradise.\n\n\"Ah, but even so...\"\n\"Using that great blade of light to uproot all obsession and to eliminate the possibility for dreams to take root and wither by themselves...\"\n\"A tranquil world that brooks no dispute, no gain, or no loss... It shall be an amnesiac world, lost to itself.\"\nIn the heart of eternity, that old friend is still so clear, the scent of the sakura so fresh, as if it were in the present.\n\nBut I will never forget you, just as I will not forget the things that were lost across the years.\nAfter all...\n\nHaving witnessed the pitch-dark annihilation consume those precious to her,\nHow could she not see the absurd nature of life and death, yes, incomprehensible destiny itself, as her mortal foe?\nBut since no one can overturn the impermanence of the world, and the barren nature of this game,\nThen let the eternal euthymia within her heart carry forth into the nation she loves.",
+    "refinement": [
+      [
+        {
+          "name": "Timeless Dream: Eternal Stove",
+          "desc": "ATK increased by **28%** of Energy Recharge over the base 100%. You can gain a maximum bonus of **80%** ATK. Gain **30%** Energy Recharge for 12s after using an Elemental Burst."
+        },
+        {
+          "name": "Timeless Dream: Eternal Stove",
+          "desc": "ATK increased by **35%** of Energy Recharge over the base 100%. You can gain a maximum bonus of **90%** ATK. Gain **35%** Energy Recharge for 12s after using an Elemental Burst."
+        },
+        {
+          "name": "Timeless Dream: Eternal Stove",
+          "desc": "ATK increased by **42%** of Energy Recharge over the base 100%. You can gain a maximum bonus of **100%** ATK. Gain **40%** Energy Recharge for 12s after using an Elemental Burst."
+        },
+        {
+          "name": "Timeless Dream: Eternal Stove",
+          "desc": "ATK increased by **49%** of Energy Recharge over the base 100%. You can gain a maximum bonus of **110%** ATK. Gain **45%** Energy Recharge for 12s after using an Elemental Burst."
+        },
+        {
+          "name": "Timeless Dream: Eternal Stove",
+          "desc": "ATK increased by **56%** of Energy Recharge over the base 100%. You can gain a maximum bonus of **120%** ATK. Gain **50%** Energy Recharge for 12s after using an Elemental Burst."
+        }
+      ]
+    ]
+  },
   "Skyward Atlas": {
     "name": "Skyward Atlas",
     "desc": "A cloud atlas symbolizing Dvalin and his former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind.",
@@ -23241,6 +24093,223 @@
         {
           "name": "Golden Majesty",
           "desc": "Increases Shield Strength by **40%**. Scoring hits on opponents increases ATK by **8%** for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
+        }
+      ]
+    ]
+  },
+  "Everlasting Moonglow": {
+    "name": "Everlasting Moonglow",
+    "desc": "A string of lovely jasper from the deep sea. It shines with a pure radiance like that of the moon, and just as ever-distant.",
+    "weaponType": "Catalyst",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 45.9364013671875,
+        "curve": "ATK 3.1"
+      },
+      {
+        "stat": "HP%",
+        "init": 0.1080000028014183,
+        "curve": "C3"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Kaleido.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Kaleido_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ],
+        "cost": {
+          "mora": 10000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Coral Branch of a Distant Sea"
+            },
+            {
+              "count": 5,
+              "name": "Dismal Prism"
+            },
+            {
+              "count": 3,
+              "name": "Spectral Husk"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Jeweled Branch of a Distant Sea"
+            },
+            {
+              "count": 18,
+              "name": "Dismal Prism"
+            },
+            {
+              "count": 12,
+              "name": "Spectral Husk"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 9,
+              "name": "Jeweled Branch of a Distant Sea"
+            },
+            {
+              "count": 9,
+              "name": "Crystal Prism"
+            },
+            {
+              "count": 9,
+              "name": "Spectral Heart"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Jade Branch of a Distant Sea"
+            },
+            {
+              "count": 18,
+              "name": "Crystal Prism"
+            },
+            {
+              "count": 14,
+              "name": "Spectral Heart"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 55000,
+          "items": [
+            {
+              "count": 9,
+              "name": "Jade Branch of a Distant Sea"
+            },
+            {
+              "count": 14,
+              "name": "Polarizing Prism"
+            },
+            {
+              "count": 9,
+              "name": "Spectral Nucleus"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 65000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Golden Branch of a Distant Sea"
+            },
+            {
+              "count": 27,
+              "name": "Polarizing Prism"
+            },
+            {
+              "count": 18,
+              "name": "Spectral Nucleus"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "The \"pearl and waves\" emblem of the Sangonomiya is said to represent the waves that embrace Watatsumi,\nAnd the bright pearls that can be found there. But some also say that it shows the jeweled wheel of Watatsumi Omikami keeping eternal vigil over the land of coral like the moon.\n\nIn the dreams of the deep sea where sponges and coral dwell, in the depths where flowing clouds and ocean sands dance as one,\nUndying hope would pass from generation to generation of those descended from their god — they who dreamed the same dreams as Watatsumi.\nThe colors of the skies are ever-changing, and the lights and shadows cast deep beneath the waves are of forms ill-defined...\nThus did the brilliant compassion that the dark ocean could not conceal diffuse in tranquil bliss.\n\nIn those days, the first Divine Priestess once led her brethren with wisdom as precious as pearls,\nAnd she selected clergy from amongst the people newly introduced to the sun, who aided the offspring of their god in comforting those for whom the light of day brought terror.\nIn latter days, the \"Umigozen\" who made the navies of Narukami tremble would sing whale-songs alongside them,\nAnd it was this symbol that they drew as they danced with the airborne kurage.\n\nSome years later, a single bolt of lightning would reject the dream of the Watatsumi people.\nInto the storm slithered the serpent, the lightning's ruthless glow to surely face...\nBut the children of the god and the shrine maidens, who had hearts of pearl, would not forget.\nCountless tales, gratitude unnumbered, and that ring of ocean gems would forever be passed down,\nAnd they would shine ever brighter and more beautifully for it.\n\nWhether it be the histories of the jeweled branches being torn or the birth of precious pearls,\nOr the defeat of wicked creatures in the depths to bring sunlight to the pale nation beneath the waves,\nOr how the young man who dreamed of standing atop Mt. Yougou came to have the name of an \"evil king,\" and had his great duel against the tengu...\nAll these would light up the hearts of the children of Watatsumi, like pearls from the heavens, like waves under the moon's glow.\nThey will carry the pain of loss away into the churning, salty waters, storing them within radiant pearls.\nMay the stories and sacrifices of the age of gods forever be handed down, along with this emblem of \"pearl and waves.\"\n\nEven if the storm clouds should gather, and even if the violet lightning's ferocity be perilous and unpredictable,\nThe silver moon of Watatsumi shall still pierce through the clouds and scatter forth its light.",
+    "refinement": [
+      [
+        {
+          "name": "Byakuya Kougetsu",
+          "desc": "Healing Bonus increased by **10%**, Normal Attack DMG is increased by **1%** of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s."
+        },
+        {
+          "name": "Byakuya Kougetsu",
+          "desc": "Healing Bonus increased by **12.5%**, Normal Attack DMG is increased by **1.5%** of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s."
+        },
+        {
+          "name": "Byakuya Kougetsu",
+          "desc": "Healing Bonus increased by **15%**, Normal Attack DMG is increased by **2%** of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s."
+        },
+        {
+          "name": "Byakuya Kougetsu",
+          "desc": "Healing Bonus increased by **17.5%**, Normal Attack DMG is increased by **2.5%** of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s."
+        },
+        {
+          "name": "Byakuya Kougetsu",
+          "desc": "Healing Bonus increased by **20%**, Normal Attack DMG is increased by **3%** of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s."
         }
       ]
     ]

@@ -1552,5 +1552,122 @@
         ]
       }
     ]
+  },
+  "28": {
+    "teams": 2,
+    "leyline": "When opponents are defeated, all party members will be affected by the \"Corrosion\" status.\nCharacters being Corroded will lose a fraction of their HP every second. Active characters can be brought down by Corrosion. When a non-active character's HP is less than 15%, they will no longer lose HP due to Corrosion.\nCorrosion lasts 10s and can stack. The duration of each stack is counted independently.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 87,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Blazing Axe Mitachurl",
+            "Electro Hilichurl Grenadier",
+            "Hilichurl Berserker"
+          ],
+          [
+            "Pyro Abyss Mage",
+            "Dendro Samachurl",
+            "Pyro Hilichurl Shooter",
+            "Hilichurl Grenadier"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 89,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Fatui Skirmisher - Pyroslinger Bracer",
+            "Treasure Hoarders: Gravedigger",
+            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders - Scout"
+          ],
+          [
+            "Kairagi: Fiery Might",
+            "Treasure Hoarders - Pugilist",
+            "Treasure Hoarders - Crusher",
+            "Treasure Hoarders: Electro Potioneer",
+            "Treasure Hoarders: Cryo Potioneer"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 91,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Fatui Pyro Agent",
+            "Fatui Cryo Cicin Mage",
+            "Fatui Electro Cicin Mage"
+          ],
+          [
+            "Geovishap",
+            "Large Pyro Slime"
+          ]
+        ]
+      }
+    ]
+  },
+  "29": {
+    "teams": 2,
+    "leyline": "For this floor only, the ley line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 94,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Nobushi: Hitsukeban",
+            "Nobushi: Kikouban",
+            "Treasure Hoarders: Gravedigger",
+            "Treasure Hoarders: Handyman",
+            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders: Hydro Potioneer",
+            "Treasure Hoarders: Electro Potioneer",
+            "Treasure Hoarders: Cryo Potioneer"
+          ],
+          [
+            "Stonehide Lawachurl",
+            "Eye of the Storm",
+            "Anemo Specter",
+            "Geo Specter"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 97,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Maguu Kenki"
+          ],
+          [
+            "Mirror Maiden",
+            "Fatui Cryo Cicin Mage"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 99,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Ruin Guard"
+          ],
+          [
+            "Perpetual Mechanical Array"
+          ]
+        ]
+      }
+    ]
   }
 }
