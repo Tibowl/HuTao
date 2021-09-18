@@ -514,9 +514,9 @@ export function addArg(args: string[], queries: string | string[], exec: () => v
     }
 }
 
-export function levenshtein(a: string, b: string): number {
-    if (a.length == 0) return b.length
-    if (b.length == 0) return a.length
+export function fuzzySearchScore(a: string, b: string): number {
+    if (a.length == 0) return 0
+    if (b.length == 0) return 0
 
     // swap to save some memory O(min(a,b)) instead of O(a)
     if (a.length > b.length) [a, b] = [b, a]
@@ -538,7 +538,7 @@ export function levenshtein(a: string, b: string): number {
         row[a.length] = prev
     }
 
-    return row[a.length]
+    return b.length - row[a.length]
 }
 
 function searchClean(str: string): string {
@@ -555,21 +555,23 @@ export function findFuzzy(target: string[], search: string): string | undefined 
     if (found)
         return found
 
-    let candidates = target.filter(t => caps(t).includes(search[0].toUpperCase()))
-    if (candidates.length == 0) candidates = target
-    // console.log(search, candidates)
+    const dists = target.map(e => fuzzySearchScore(searchClean(e), cleaned) + fuzzySearchScore(caps(e), caps(search)))
+    const max = Math.max(...dists)
+
+    let candidates = target.filter((_, index) => dists[index] == max)
 
     let filteredCandidates = candidates.filter(t => searchClean(t).startsWith(cleaned.substring(0, 3)) || searchClean(t).endsWith(cleaned.substring(cleaned.length - 3)))
     if (filteredCandidates.length != 0) candidates = filteredCandidates
-    // console.log(search, filteredCandidates)
+
+    filteredCandidates = candidates.filter(t => caps(t).includes(search[0].toUpperCase()))
+    if (filteredCandidates.length != 0) candidates = filteredCandidates
 
     filteredCandidates = candidates.filter(t => caps(t) == caps(search))
     if (filteredCandidates.length != 0) candidates = filteredCandidates
-    // console.log(search, filteredCandidates)
 
-    const dists = candidates.map(e => levenshtein(searchClean(e), cleaned))
-    const min = Math.min(...dists)
-    return candidates[dists.indexOf(min)]
+    const lengths = candidates.map(t => t.length)
+    const min = Math.min(...lengths)
+    return candidates[lengths.indexOf(min)]
 }
 
 export const Colors: Record<string, ColorResolvable> = {
