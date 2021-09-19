@@ -508,8 +508,17 @@
     {
         "name": "Event Wish \"Drifting Luminescence\"",
         "type": "Banner",
-        "prediction": true,
-        "img": "https://i.imgur.com/bURqigK.png",
+        "link": "https://www.hoyolab.com/article/946811",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/09/18/1015537/9c34ffa1ad170bae73c59144aaaeac06_4508621269558321908.jpg",
+        "start": "2021-09-21 18:00:00",
+        "end": "2021-10-12 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/946812",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/09/18/1015537/74877b21f4149daadc3d4b6fbbf937a4_7006120278838842665.jpg",
         "start": "2021-09-21 18:00:00",
         "end": "2021-10-12 14:59:00",
         "reminder": "end"
