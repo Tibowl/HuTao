@@ -48763,7 +48763,7 @@
     "name": "Aloy",
     "desc": "Formerly an outcast, now a hunter of unparalleled aptitude. Ready to do the right thing with her bow at any given time.",
     "releasedOn": "2021-09-01 00:00:00",
-    "star": -1,
+    "star": 5,
     "weaponType": "Bow",
     "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Aloy.png",
     "imgs": [
