@@ -578,10 +578,37 @@
         "reminder": "end"
     },
     {
-        "name": "Next Special Program",
+        "name": "\"An Unforgettable Journey\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/1051978",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/09/28/1015537/fc0a4a2e7b9348a01832e471b2e2fd0d_4751974272589048280.jpg",
+        "start": "2021-09-28 12:00:00",
+        "end": "2021-10-12 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"A Message in Time\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/1070897",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/09/26/1015537/22bb0a413625aa403c1dbb1f00737591_2235159002192172784.jpeg",
+        "start": "2021-09-29 12:00:00",
+        "end": "2021-10-07 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "2.2 Special Program [Twitch]",
         "type": "Stream",
-        "prediction": true,
-        "start": "2021-10-01 09:00:00",
+        "link": "https://www.twitch.tv/genshinimpactofficial",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/09/29/1015537/ac69eb65408dccdc1f4e856d0fc5381d_720797544381503641.jpg",
+        "start": "2021-10-03 08:00:00",
+        "timezone": "-04:00"
+    },
+    {
+        "name": "2.2 Special Program [YouTube]",
+        "type": "Stream",
+        "link": "https://www.youtube.com/c/GenshinImpact",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/09/29/1015537/ac69eb65408dccdc1f4e856d0fc5381d_720797544381503641.jpg",
+        "start": "2021-10-03 12:00:00",
         "timezone": "-04:00"
     },
     {
@@ -590,5 +617,43 @@
         "prediction": true,
         "start": "2021-10-13 06:00:00",
         "end": "2021-10-13 11:00:00"
+    },
+    {
+        "name": "Event Wish \"???\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2021-10-13 11:00:00",
+        "end": "2021-11-02 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2021-10-13 11:00:00",
+        "end": "2021-11-02 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"???\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2021-11-02 18:00:00",
+        "end": "2021-11-23 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Next Special Program",
+        "type": "Stream",
+        "prediction": true,
+        "start": "2021-11-12 09:00:00",
+        "timezone": "-04:00"
+    },
+    {
+        "name": "Next Maintenance",
+        "type": "Maintenance",
+        "prediction": true,
+        "start": "2021-11-24 06:00:00",
+        "end": "2021-11-24 11:00:00"
     }
 ]
