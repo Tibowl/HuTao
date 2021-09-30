@@ -117,7 +117,7 @@ export default class Events extends Command {
         while (curr.length > 0) {
             const newCurr = curr.shift()
             if (newCurr == undefined) break
-            if (currLine.length + newCurr.length > 800 && currLine.length > 0) {
+            if (currLine.length + newCurr.length > 950 && currLine.length > 0) {
                 currentEmbed.addField("Current Events", currLine + "***See next page for more***")
                 pages.push(currentEmbed)
                 currentEmbed = new MessageEmbed()
@@ -133,7 +133,7 @@ export default class Events extends Command {
         while (next.length > 0) {
             const newNext = next.shift()
             if (newNext == undefined) break
-            if (nextLine.length + newNext.length > 800 && nextLine.length > 0) {
+            if (nextLine.length + newNext.length > 950 && nextLine.length > 0) {
                 currentEmbed.addField("Upcoming Events", nextLine + "***See next page for more***")
                 pages.push(currentEmbed)
                 currentEmbed = new MessageEmbed()
