@@ -619,8 +619,9 @@
         "end": "2021-10-13 11:00:00"
     },
     {
-        "name": "Event Wish \"???\"",
+        "name": "Event Wish \"Farewell of Snezhnaya\"",
         "type": "Banner",
+        "img": "https://i.imgur.com/KnrtUSn.png",
         "prediction": true,
         "start": "2021-10-13 11:00:00",
         "end": "2021-11-02 17:59:00",
@@ -635,11 +636,42 @@
         "reminder": "end"
     },
     {
-        "name": "Event Wish \"???\"",
+        "name": "Event Wish \"Moment of Bloom\"",
         "type": "Banner",
+        "img": "https://i.imgur.com/KnrtUSn.png",
         "prediction": true,
         "start": "2021-11-02 18:00:00",
         "end": "2021-11-23 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Labyrinth Warriors\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/ZMXHnRp.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Shadow of the Ancients\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/kWQOlzV.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Tuned to the World's Sounds\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/9epYKi6.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Dreams of Bloom\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/QptaP2o.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Ley Line Overflow\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/20/1015537/f9e121e07195ac8d874c5cb0fda1da08_900528074523851922.jpg",
         "reminder": "end"
     },
     {
