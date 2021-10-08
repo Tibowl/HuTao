@@ -34,7 +34,7 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
 
             const stored = newsManager
                 .getNews(lang)
-                .map(art => `[\`${art.post_id}\`](${art.lang == "bbs-zh-cn" ? `https://bbs.mihoyo.com/ys/article/${art.post_id}` : `https://www.hoyolab.com/genshin/article/${art.post_id}`}): ${art.subject}`)
+                .map(art => `[\`${art.post_id}\`](${art.lang == "bbs-zh-cn" ? `https://bbs.mihoyo.com/ys/article/${art.post_id}` : `https://www.hoyolab.com/article/${art.post_id}`}): ${art.subject}`)
 
             while (stored.join("\n").length > 1500) stored.pop()
 
@@ -49,7 +49,7 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
 
         const post = newsManager.getNewsById(args[0])
         if (!post)
-            return sendMessage(message, `Couldn't find article in cache. Try to see if it exists on the forum: <https://www.hoyolab.com/genshin/article/${args[0]}>`)
+            return sendMessage(message, `Couldn't find article in cache. Try to see if it exists on the forum: <https://www.hoyolab.com/article/${args[0]}>`)
 
         await simplePaginator(message, (relativePage, currentPage, maxPages) => getNewsEmbed(post, relativePage, currentPage, maxPages), parseNewsContent(post.content).length)
 

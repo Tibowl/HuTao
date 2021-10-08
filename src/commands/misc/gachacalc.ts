@@ -77,7 +77,7 @@ export default class GachaCalc extends Command {
 
 Available banners: ${Object.keys(gachas).map(x => `\`${x}\``).join(", ")}
 
-NOTE: Updated to use rate data of <https://www.hoyolab.com/genshin/article/497840> and assumes weapon selected for "Epitomized Path" <https://www.hoyolab.com/genshin/article/533196>
+NOTE: Updated to use rate data of <https://www.hoyolab.com/article/497840> and assumes weapon selected for "Epitomized Path" <https://www.hoyolab.com/article/533196>
 
 Example with just amount of pulls (assumes char banner, 50/50 limited, 0 pity): \`${config.prefix}gachacalc 70\`
 Example with 70 pulls and 10 pity: \`${config.prefix}gachacalc 70 10\`
@@ -230,7 +230,7 @@ ${createTable(
                 // Got banner item but not wanted (eg. wrong rate up 4* char/5* char)
                 if (banner.guaranteed < 1)
                     if (banner.guaranteedPity && sim.guaranteedPity >= banner.guaranteedPity)
-                        // https://www.hoyolab.com/genshin/article/533196
+                        // https://www.hoyolab.com/article/533196
                         addOrMerge({
                             pity: 0,
                             guaranteed: false,

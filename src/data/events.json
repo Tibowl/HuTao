@@ -11,7 +11,7 @@
     {
         "name": "\"Contending Tides\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/275307",
+        "link": "https://www.hoyolab.com/article/275307",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/03/30/1015537/d14b2234ba4801ed47fc16c1f3867371_3652552730141970188.jpg",
         "start": "2021-04-02 10:00:00",
         "end": "2021-04-12 03:59:59",
@@ -20,7 +20,7 @@
     {
         "name": "\"A Thousand Questions With Paimon\" Quiz Event",
         "type": "Web",
-        "link": "https://www.hoyolab.com/genshin/article/283665",
+        "link": "https://www.hoyolab.com/article/283665",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/04/02/1015537/7d8d1ce3d75fd164173f9a5fad1fce11_1945247609127083405.png",
         "start": "2021-04-06 13:00:00",
         "end": "2021-04-08 23:59:59",
@@ -30,7 +30,7 @@
     {
         "name": "\"Wishful Drops\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/286280",
+        "link": "https://www.hoyolab.com/article/286280",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/04/06/1015537/eac9814d4ec73b679b1eb953e1f35d73_246861676731252783.jpg",
         "start": "2021-04-09 10:00:00",
         "end": "2021-04-16 03:59:59",
@@ -39,7 +39,7 @@
     {
         "name": "Event Wish \"Farewell of Snezhnaya\"",
         "type": "Banner",
-        "link": "https://www.hoyolab.com/genshin/article/279471",
+        "link": "https://www.hoyolab.com/article/279471",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/04/02/1015537/b23dda81b6b9b0bb8a46b9adcd0e2a70_1479948151736832476.jpg",
         "start": "2021-04-06 18:00:00",
         "end": "2021-04-27 14:59:00",
@@ -48,7 +48,7 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "link": "https://www.hoyolab.com/genshin/article/279497",
+        "link": "https://www.hoyolab.com/article/279497",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/04/02/1015537/2990bea9a81bbfa9aa348dbddaf0aad5_8867096048015043654.jpg",
         "start": "2021-04-06 18:00:00",
         "end": "2021-04-27 14:59:00",
@@ -57,14 +57,14 @@
     {
         "name": "Chapter I: Act IV - We Will Be Reunited",
         "type": "Unlock",
-        "link": "https://www.hoyolab.com/genshin/article/291210",
+        "link": "https://www.hoyolab.com/article/291210",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/04/09/1015537/318b6b6ba2d74bb0b1f2b7c936cf4b82_1354714686106606084.jpg",
         "start": "2021-04-12 04:00:00"
     },
     {
         "name": "\"Marvelous Merchandise\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/295568",
+        "link": "https://www.hoyolab.com/article/295568",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/04/13/1015537/fe1810442ec95239e9d7ac54c0a59718_2993306706317240501.jpg",
         "start": "2021-04-16 10:00:00",
         "end": "2021-04-23 03:59:59",
@@ -81,7 +81,7 @@
     {
         "name": "1.5 Special Program [EN]",
         "type": "Stream",
-        "link": "https://www.hoyolab.com/genshin/article/298552",
+        "link": "https://www.hoyolab.com/article/298552",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/04/15/1015613/df1f9390716004a20bcdf3c6e6650f39_1573465847055286685.jpg",
         "start": "2021-04-16 11:00:00",
         "timezone": "-05:00"
@@ -89,7 +89,7 @@
     {
         "name": "1.5 Maintenance",
         "type": "Maintenance",
-        "link": "https://www.hoyolab.com/genshin/article/321317",
+        "link": "https://www.hoyolab.com/article/321317",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/04/16/1015554/2dcbcdacd4910d901c19a65361fdb32a_5192697560737504354.jpg",
         "start": "2021-04-28 06:00:00",
         "end": "2021-04-28 11:00:00"
@@ -97,7 +97,7 @@
     {
         "name": "\"Hilidream Camp\" Web Event",
         "type": "Web",
-        "link": "https://www.hoyolab.com/genshin/article/308081",
+        "link": "https://www.hoyolab.com/article/308081",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/04/20/1015537/eb582b2190bbdb699d2f978743010c68_8842069374889234813.png",
         "start": "2021-04-21 13:00:00",
         "end": "2021-04-27 23:59:59",
@@ -107,7 +107,7 @@
     {
         "name": "Event Wish \"Gentry of Hermitage\"",
         "type": "Banner",
-        "link": "https://www.hoyolab.com/genshin/article/324025",
+        "link": "https://www.hoyolab.com/article/324025",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/04/25/1015537/5800bc8cae272566c0c70b2a3a4c452d_8480392818056458896.jpg",
         "start": "2021-04-28 11:00:00",
         "end": "2021-05-18 17:59:00",
@@ -116,7 +116,7 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "link": "https://www.hoyolab.com/genshin/article/324040",
+        "link": "https://www.hoyolab.com/article/324040",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/04/25/1015537/1df2bb7513a56f26bd87a4aa86ff8a93_8076639008885797857.jpg",
         "start": "2021-04-28 11:00:00",
         "end": "2021-05-18 17:59:00",
@@ -125,7 +125,7 @@
     {
         "name": "Event Wish \"Born of Ocean Swell\"",
         "type": "Banner",
-        "link": "https://www.hoyolab.com/genshin/article/371049",
+        "link": "https://www.hoyolab.com/article/371049",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/05/14/1015537/d0603bf9d9cba8a1b25dfed02ac11124_19421007593763451.jpg",
         "start": "2021-05-18 18:00:00",
         "end": "2021-06-08 14:59:00",
@@ -134,7 +134,7 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "link": "https://www.hoyolab.com/genshin/article/371062",
+        "link": "https://www.hoyolab.com/article/371062",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/05/14/1015537/ebaf3dea32f20414c122a7fdeab56d3e_3752873402510354162.jpg",
         "start": "2021-05-18 18:00:00",
         "end": "2021-06-08 14:59:00",
@@ -143,7 +143,7 @@
     {
         "name": "\"Energy Amplifier Initiation\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/329821",
+        "link": "https://www.hoyolab.com/article/329821",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/04/27/1015537/ee803fbd9c0adaa0d5fcf01a8cb99ec7_1496446477474169776.jpg",
         "start": "2021-04-30 10:00:00",
         "end": "2021-05-17 03:59:00",
@@ -152,7 +152,7 @@
     {
         "name": "\"Battlefront: Misty Dungeon\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/377249",
+        "link": "https://www.hoyolab.com/article/377249",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/05/19/1015537/5381c8b8a20cc0f0a7dea1187b7ca13f_6298756376554815453.jpg",
         "start": "2021-05-21 10:00:00",
         "end": "2021-05-31 03:59:59",
@@ -161,7 +161,7 @@
     {
         "name": "\"Windtrace\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/362368",
+        "link": "https://www.hoyolab.com/article/362368",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/05/10/1015537/b4311427869c20aa96685456c9760c49_3700746690392602081.jpg",
         "start": "2021-05-14 10:00:00",
         "end": "2021-05-24 03:59:59",
@@ -170,7 +170,7 @@
     {
         "name": "\"Mini Tomo\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/387817",
+        "link": "https://www.hoyolab.com/article/387817",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/05/25/1015537/4bb0f0cb43d95e5b8e5f5387d7bc3dd4_2655040330902033319.jpg",
         "start": "2021-05-27 10:00:00",
         "end": "2021-06-06 03:59:00",
@@ -179,7 +179,7 @@
     {
         "name": "\"Overflowing Mastery\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/394841",
+        "link": "https://www.hoyolab.com/article/394841",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/05/25/1015537/8a304c186f5a725d6ca5fad6c953ef83_3536921475780913159.jpg",
         "start": "2021-05-31 04:00:00",
         "end": "2021-06-07 03:59:00",
@@ -195,7 +195,7 @@
     {
         "name": "1.6 Special Program [EN]",
         "type": "Stream",
-        "link": "https://www.hoyolab.com/genshin/article/389908",
+        "link": "https://www.hoyolab.com/article/389908",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/05/25/1015537/ee96b5407ce883d359b62266c0467154_3458905455498066406.png",
         "start": "2021-05-28 11:00:00",
         "timezone": "-05:00"
@@ -203,14 +203,14 @@
     {
         "name": "1.6 Maintenance",
         "type": "Maintenance",
-        "link": "https://www.hoyolab.com/genshin/article/415463",
+        "link": "https://www.hoyolab.com/article/415463",
         "start": "2021-06-09 06:00:00",
         "end": "2021-06-09 11:00:00"
     },
     {
         "name": "Event Wish \"Sparkling Steps\"",
         "type": "Banner",
-        "link": "https://www.hoyolab.com/genshin/article/415711",
+        "link": "https://www.hoyolab.com/article/415711",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/07/1015537/bf8645444de96287d9d66a813d9f0aa4_2451975548209649534.png",
         "start": "2021-06-09 11:00:00",
         "end": "2021-06-29 17:59:00",
@@ -219,7 +219,7 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "link": "https://www.hoyolab.com/genshin/article/415712",
+        "link": "https://www.hoyolab.com/article/415712",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/07/1015537/26a86231e87f5d39a87306a77487b387_5687829416457810134.png",
         "start": "2021-06-09 11:00:00",
         "end": "2021-06-29 17:59:00",
@@ -228,7 +228,7 @@
     {
         "name": "Event Wish \"Leaves in the Wind\"",
         "type": "Banner",
-        "link": "https://www.hoyolab.com/genshin/article/490968",
+        "link": "https://www.hoyolab.com/article/490968",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/25/1015537/c10e1b2bf369543924d7574cbe89ed2d_7365316316733556345.png",
         "start": "2021-06-29 18:00:00",
         "end": "2021-07-20 14:59:00",
@@ -237,7 +237,7 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "link": "https://www.hoyolab.com/genshin/article/490969",
+        "link": "https://www.hoyolab.com/article/490969",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/25/1015537/d7302254da531cc4cc65d3319b52de3e_4081312558684178448.png",
         "start": "2021-06-29 18:00:00",
         "end": "2021-07-20 14:59:00",
@@ -246,14 +246,14 @@
     {
         "name": "Chapter II: Prologue - Autumn Winds, Scarlet Leaves",
         "type": "Unlock",
-        "link": "https://www.hoyolab.com/genshin/article/490986",
+        "link": "https://www.hoyolab.com/article/490986",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/25/1015537/fce1e5e403468f7c4ab8fa87f9d8b47a_6346691022974181918.jpg",
         "start": "2021-06-29 04:00:00"
     },
     {
         "name": "\"Midsummer Island Adventure\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/415687",
+        "link": "https://www.hoyolab.com/article/415687",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/07/1015537/271b4d0b0e2f3c848bccd1c4625fa6ca_1951559009485518734.png",
         "start": "2021-06-09 11:00:00",
         "end": "2021-06-28 03:59:59",
@@ -262,7 +262,7 @@
     {
         "name": "\"Echoing Tales\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/415684",
+        "link": "https://www.hoyolab.com/article/415684",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/07/1015537/528eba2c062fec3768f66e3a24f2f23b_1431588138158128250.png",
         "start": "2021-06-09 11:00:00",
         "end": "2021-07-21 05:59:59",
@@ -271,7 +271,7 @@
     {
         "name": "\"Kaboomball Kombat\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/503383",
+        "link": "https://www.hoyolab.com/article/503383",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/25/1015537/287a7defeb81a8c56a051c43071f7609_9185573309361069558.png",
         "start": "2021-07-02 10:00:00",
         "end": "2021-07-12 03:59:00",
@@ -280,7 +280,7 @@
     {
         "name": "\"Never-Ending Battle\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/527807",
+        "link": "https://www.hoyolab.com/article/527807",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/07/1015537/8eb34af63e9f39c55d4ded7aab9b4f42_3164851103604437620.jpg",
         "start": "2021-07-09 10:00:00",
         "end": "2021-07-19 03:59:00",
@@ -290,7 +290,7 @@
         "name": "\"Legend of the Vagabond Sword\" Event",
         "type": "In-game",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/23/1015537/7bb69e2afe9a72ddbad1f272260dfe4e_5410198065752982263.png",
-        "link": "https://www.hoyolab.com/genshin/article/475605",
+        "link": "https://www.hoyolab.com/article/475605",
         "start": "2021-06-25 10:00:00",
         "end": "2021-07-08 03:59:00",
         "reminder": "end"
@@ -298,7 +298,7 @@
     {
         "name": "\"Distant Voyage\" Web Event",
         "type": "Web",
-        "link": "https://www.hoyolab.com/genshin/article/478339",
+        "link": "https://www.hoyolab.com/article/478339",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/24/1015537/6408c1321066672cdeff31e1ef87daa3_7042191874848375618.jpg",
         "start": "2021-06-24 00:00:00",
         "end": "2021-07-03 23:59:59",
@@ -307,7 +307,7 @@
     {
         "name": "\"Mysterious Voyage\" Web Event",
         "type": "Web",
-        "link": "https://www.hoyolab.com/genshin/article/543290",
+        "link": "https://www.hoyolab.com/article/543290",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/13/1015537/cd1ebb423d96ae248cb253fabf5df831_4678685236436958500.jpeg",
         "start": "2021-07-13 00:00:00",
         "end": "2021-07-20 23:59:59",
@@ -316,7 +316,7 @@
     {
         "name": "\"Traveler's Picture Book\" Web Event",
         "type": "Web",
-        "link": "https://www.hoyolab.com/genshin/article/512380",
+        "link": "https://www.hoyolab.com/article/512380",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/03/1015537/bc03874c253e45a5fb666c8675bf88e7_4149798306930702341.jpg",
         "start": "2021-07-03 11:00:00",
         "end": "2021-07-13 03:59:59",
@@ -325,7 +325,7 @@
     {
         "name": "\"A Thousand Questions With Paimon\" Quiz Event",
         "type": "Web",
-        "link": "https://www.hoyolab.com/genshin/article/483165",
+        "link": "https://www.hoyolab.com/article/483165",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/25/1015537/7737ee0cf2b2a0988f6f4758aeaf23fa_1459343022654549496.png",
         "start": "2021-06-25 13:00:00",
         "end": "2021-06-27 23:59:59",
@@ -350,7 +350,7 @@
     {
         "name": "2.0 Maintenance",
         "type": "Maintenance",
-        "link": "https://www.hoyolab.com/genshin/article/567649",
+        "link": "https://www.hoyolab.com/article/567649",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/15/1015537/9fae842036207ad083672429b6f92eb8_7994999926135510392.jpg",
         "start": "2021-07-21 06:00:00",
         "end": "2021-07-21 11:00:00"
@@ -358,7 +358,7 @@
     {
         "name": "Event Wish \"The Heron's Court\"",
         "type": "Banner",
-        "link": "https://www.hoyolab.com/genshin/article/568050",
+        "link": "https://www.hoyolab.com/article/568050",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/19/1015537/9c6070da0fe23081c6ad3389b8ee010d_8307924212594573588.jpg",
         "start": "2021-07-21 11:00:00",
         "end": "2021-08-10 17:59:00",
@@ -367,7 +367,7 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "link": "https://www.hoyolab.com/genshin/article/568052",
+        "link": "https://www.hoyolab.com/article/568052",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/19/1015537/5412443a686ef1cf9471a4f462eabc52_2614061678267906223.jpg",
         "start": "2021-07-21 11:00:00",
         "end": "2021-08-10 17:59:00",
@@ -376,7 +376,7 @@
     {
         "name": "Event Wish \"Tapestry of Golden Flames\"",
         "type": "Banner",
-        "link": "https://www.hoyolab.com/genshin/article/661064",
+        "link": "https://www.hoyolab.com/article/661064",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/08/1015537/b5113fb18f049e960cfbf28abda6b1bb_737439119089822446.jpg",
         "start": "2021-08-10 18:00:00",
         "end": "2021-08-31 14:59:00",
@@ -385,7 +385,7 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "link": "https://www.hoyolab.com/genshin/article/661045",
+        "link": "https://www.hoyolab.com/article/661045",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/08/1015537/9006a61d3e72673b00584224818ce670_3846069850882130301.jpg",
         "start": "2021-08-10 18:00:00",
         "end": "2021-08-31 14:59:00",
@@ -394,7 +394,7 @@
     {
         "name": "\"Thunder Sojourn\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/573692",
+        "link": "https://www.hoyolab.com/article/573692",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/19/1015537/b49bd2a3108137d7deae75e68c2a6134_2645584507422203550.jpg",
         "start": "2021-07-22 10:00:00",
         "end": "2021-08-09 03:59:00",
@@ -403,7 +403,7 @@
     {
         "name": "\"Theater Mechanicus: Stage of Wonders\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/675441",
+        "link": "https://www.hoyolab.com/article/675441",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/10/1015537/7a155d93715d2a828f35fa3e1e3cca2c_3865020977362949801.jpg",
         "start": "2021-08-12 10:00:00",
         "end": "2021-08-26 03:59:00",
@@ -412,7 +412,7 @@
     {
         "name": "\"Phantom Flow\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/720087",
+        "link": "https://www.hoyolab.com/article/720087",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/18/1015537/cc3496c7e0eb7ffa02fe2338da836065_3348962675511343440.jpg",
         "start": "2021-08-20 10:00:00",
         "end": "2021-08-30 03:59:00",
@@ -421,7 +421,7 @@
     {
         "name": "\"Lost Riches\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/635057",
+        "link": "https://www.hoyolab.com/article/635057",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/04/1015537/9d4147a2d42b56b1d6eae399b0b29bc7_640276928333819462.jpg",
         "start": "2021-08-06 10:00:00",
         "end": "2021-08-16 03:59:00",
@@ -430,7 +430,7 @@
     {
         "name": "\"Ley Line Overflow\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/736132",
+        "link": "https://www.hoyolab.com/article/736132",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/20/1015537/f9e121e07195ac8d874c5cb0fda1da08_900528074523851922.jpg",
         "start": "2021-08-23 04:00:00",
         "end": "2021-08-30 03:59:00",
@@ -439,7 +439,7 @@
     {
         "name": "\"The Heron's Invitation\" Web Event",
         "type": "Web",
-        "link": "https://www.hoyolab.com/genshin/article/603145",
+        "link": "https://www.hoyolab.com/article/603145",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/26/1015537/8e84e5deec1cfeb1fe02bbbdf8a8c523_5471059433168154997.jpg",
         "start": "2021-07-26 11:00:00",
         "end": "2021-08-02 23:59:59",
@@ -448,7 +448,7 @@
     {
         "name": "\"Summer Night Mementos\" Web Event",
         "type": "Web",
-        "link": "https://www.hoyolab.com/genshin/article/640969",
+        "link": "https://www.hoyolab.com/article/640969",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/05/1015537/78fb66f873d27eaebd73d520c3a9ab46_8257183562949418588.jpg",
         "start": "2021-08-05 11:00:00",
         "end": "2021-08-11 23:59:59",
@@ -457,7 +457,7 @@
     {
         "name": "\"A Thousand Questions With Paimon\" Quiz Event",
         "type": "Web",
-        "link": "https://www.hoyolab.com/genshin/article/766048",
+        "link": "https://www.hoyolab.com/article/766048",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/27/1015537/3cf6ef0726d942d61d2825f88fd16820_953882758451226433.jpg",
         "start": "2021-08-27 13:00:00",
         "end": "2021-08-29 23:59:59",
@@ -483,14 +483,14 @@
     {
         "name": "2.1 Maintenance",
         "type": "Maintenance",
-        "link": "https://www.hoyolab.com/genshin/article/780532",
+        "link": "https://www.hoyolab.com/article/780532",
         "start": "2021-09-01 06:00:00",
         "end": "2021-09-01 11:00:00"
     },
     {
         "name": "Event Wish \"Reign of Serenity\"",
         "type": "Banner",
-        "link": "https://www.hoyolab.com/genshin/article/780998",
+        "link": "https://www.hoyolab.com/article/780998",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/28/1015537/8ba1f5c1d60e1476372aa2c4f27b382c_2286871364869273866.jpg",
         "start": "2021-09-01 11:00:00",
         "end": "2021-09-21 17:59:00",
@@ -499,7 +499,7 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "link": "https://www.hoyolab.com/genshin/article/780981",
+        "link": "https://www.hoyolab.com/article/780981",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/28/1015537/1fc8403a31b02883763d0598c4425a38_2004836154187283192.jpg",
         "start": "2021-09-01 11:00:00",
         "end": "2021-09-21 17:59:00",
@@ -526,7 +526,7 @@
     {
         "name": "\"Moonlight Merriment\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/780930",
+        "link": "https://www.hoyolab.com/article/780930",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/28/1015537/cc6788a804f7b48d979042a0092d969c_8377237629975240833.jpg",
         "start": "2021-09-27 10:00:00",
         "end": "2021-10-11 03:59:59",
@@ -535,7 +535,7 @@
     {
         "name": "\"Passage of Clouds and Stars\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/780929",
+        "link": "https://www.hoyolab.com/article/780929",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/28/1015537/371947e912aa66b33d4ba28bcb7ef215_4546119603042115014.jpg",
         "start": "2021-09-28 04:00:00",
         "end": "2021-10-13 05:59:59",
@@ -544,7 +544,7 @@
     {
         "name": "\"Lunar Realm\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/780932",
+        "link": "https://www.hoyolab.com/article/780932",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/28/1015537/625051f355d5819fa25a4ecac1f82946_2832166884936502260.jpg",
         "start": "2021-09-10 10:00:00",
         "end": "2021-09-20 03:59:59",
@@ -553,7 +553,7 @@
     {
         "name": "\"Hyakunin Ikki\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/780931",
+        "link": "https://www.hoyolab.com/article/780931",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/28/1015537/d3f7a8c13e8699a6d11c66d029ac77fd_3362667234171755625.jpg",
         "start": "2021-09-02 10:00:00",
         "end": "2021-09-13 03:59:59",
@@ -562,7 +562,7 @@
     {
         "name": "\"Spectral Secrets\" Event",
         "type": "In-game",
-        "link": "https://www.hoyolab.com/genshin/article/780934",
+        "link": "https://www.hoyolab.com/article/780934",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/28/1015537/a5d062cd986dc6fed4d234a4c438dc92_4844265372389324240.jpg",
         "start": "2021-09-19 10:00:00",
         "end": "2021-09-26 03:59:59",

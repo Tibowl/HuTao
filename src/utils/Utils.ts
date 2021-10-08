@@ -188,7 +188,7 @@ export function getNewsEmbed(post: StoredNews, relativePage = -1, currentPage?: 
         .setTitle(post.subject)
         .setAuthor(post.nickname)
         .setTimestamp(post.created_at * 1000)
-        .setURL(post.lang == "bbs-zh-cn" ? `https://bbs.mihoyo.com/ys/article/${post.post_id}` : `https://www.hoyolab.com/genshin/article/${post.post_id}`)
+        .setURL(post.lang == "bbs-zh-cn" ? `https://bbs.mihoyo.com/ys/article/${post.post_id}` : `https://www.hoyolab.com/article/${post.post_id}`)
         .setColor(([Colors.AQUA, Colors.GREEN, "#EA6907"][post.type - 1] ?? "#C1C1C1") as ColorResolvable)
 
     const parsed = parseNewsContent(post.content)
@@ -231,6 +231,8 @@ export function parseNewsContent(content: string): Content[] {
         middle = middle
             .replace(/<\/?br.*?>/g, "\n")
             .replace(/&gt;/g, ">")
+            .replace(/&nbsp;/g, " ")
+            .replace(/&amp;/g, "&")
             .replace(/&lt;/g, "<")
             .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(n))
             .replace(/<\/?span.*?>/g, "")
