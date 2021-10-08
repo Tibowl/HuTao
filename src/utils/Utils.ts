@@ -222,11 +222,11 @@ export function parseNewsContent(content: string): Content[] {
     const target: Content[] = []
     let currentLine = ""
 
-    const matches = content.match(/<(p|div).*?>(.*?)<\/(p|div)>/g)
+    const matches = content.match(/<(p|div|h\d).*?>(.*?)<\/(p|div|h\d)>/g)
     if (!matches) return target
 
     for (const paragraph of matches) {
-        let middle = paragraph.match(/<(p|div).*?>(.*?)<\/(p|div)>/)?.[2]
+        let middle = paragraph.match(/<(p|div|h\d).*?>(.*?)<\/(p|div|h\d)>/)?.[2]
         if (!middle) continue
         middle = middle
             .replace(/<\/?br.*?>/g, "\n")
@@ -239,6 +239,7 @@ export function parseNewsContent(content: string): Content[] {
             // .replace(/<\/?i.*?>/g, "*")
             // .replace(/<\/?em.*?>/g, "*")
             .replace(/<a.*?href="(.*?)".*?>(.*?)<\/a>/g, (_, link, title) => `[${title}](${link})`)
+            .replace(/<iframe.*?src="(.*?)"><\/iframe>/g, (_, link) => `[Link](${link})`)
 
         const imgFinder = middle.match(/<img.*?src="(.*?)".*?>/)
 
