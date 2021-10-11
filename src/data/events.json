@@ -614,15 +614,14 @@
     {
         "name": "2.2 Maintenance",
         "type": "Maintenance",
-        "prediction": true,
         "start": "2021-10-13 06:00:00",
         "end": "2021-10-13 11:00:00"
     },
     {
         "name": "Event Wish \"Farewell of Snezhnaya\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/KnrtUSn.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/1189984",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/10/11/1015537/86594246247263e30a0422d361a28bfb_7557166207046229842.jpg?x-oss-process=image/resize,s_740/quality,q_80/auto-orient,0/interlace,1/format,jpg",
         "start": "2021-10-13 11:00:00",
         "end": "2021-11-02 17:59:00",
         "reminder": "end"
@@ -630,7 +629,8 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/1189985",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/10/11/1015537/0428b5c5613ac8bf5ee646dffa4808b8_8619510908833644737.jpg?x-oss-process=image/resize,s_740/quality,q_80/auto-orient,0/interlace,1/format,jpg",
         "start": "2021-10-13 11:00:00",
         "end": "2021-11-02 17:59:00",
         "reminder": "end"
@@ -647,7 +647,9 @@
     {
         "name": "\"Labyrinth Warriors\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/ZMXHnRp.png",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/10/09/1015537/649a657c46e5f09818d46c2fbbd7439d_5344548439684258817.jpg?x-oss-process=image/resize,s_740/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "start": "2021-10-21 10:00:00",
+        "end": "2021-11-08 03:59:00",
         "reminder": "end"
     },
     {
@@ -659,7 +661,9 @@
     {
         "name": "\"Tuned to the World's Sounds\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/9epYKi6.png",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/10/09/1015537/2aacd4ff7241c5792573208702dff71a_3643347720206434782.jpg?x-oss-process=image/resize,s_740/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "start": "2021-10-15 10:00:00",
+        "end": "2021-10-25 03:59:00",
         "reminder": "end"
     },
     {
