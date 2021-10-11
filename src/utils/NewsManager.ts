@@ -61,7 +61,7 @@ export default class NewsManager {
         this.sql.exec("CREATE INDEX IF NOT EXISTS news_created_at ON news (created_at)")
 
         this.addNewsStatement = this.sql.prepare("INSERT OR REPLACE INTO news VALUES (@post_id, @lang, @type, @subject, @created_at, @nickname, @image_url, @content)")
-        this.getNewsByIdStatement = this.sql.prepare("SELECT * FROM news WHERE post_id = @post_id")
+        this.getNewsByIdLangStatement = this.sql.prepare("SELECT * FROM news WHERE post_id = @post_id AND lang = @lang")
         this.getNewsStatement = this.sql.prepare("SELECT * FROM news WHERE lang = @lang ORDER BY created_at DESC, post_id DESC LIMIT 20")
     }
 
@@ -111,14 +111,14 @@ export default class NewsManager {
                     const articles: News[] = data.data.list
                     for (const article of articles.reverse()) {
                         const post_id = article.post.post_id
-                        if (this.getNewsById(post_id)) continue
+                        if (this.getNewsByIdLang(post_id, langid)) continue
 
                         Logger.info(`Fetching new post: ${language} ${post_id} - ${article.post.subject}`)
                         let fetched
                         if (langid == "bbs-zh-cn")
-                            fetched = await fetch(`https://bbs-api.mihoyo.com/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { Referer: "https://bbs.mihoyo.com/" }, timeout: 29000 })
+                            fetched = await fetch(`https://bbs-api.mihoyo.com/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, timeout: 29000 })
                         else
-                            fetched = await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { Referer: "https://www.hoyolab.com/" }, timeout: 29000 })
+                            fetched = await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, timeout: 29000 })
 
                         const postdata = await fetched.json()
                         this.lastFetched = Date.now()
@@ -167,10 +167,11 @@ export default class NewsManager {
         })
     }
 
-    private getNewsByIdStatement: SQLite.Statement
-    getNewsById(post_id: string): StoredNews {
-        return this.getNewsByIdStatement.get({
-            post_id
+    private getNewsByIdLangStatement: SQLite.Statement
+    getNewsByIdLang(post_id: string, lang: NewsLang): StoredNews {
+        return this.getNewsByIdLangStatement.get({
+            post_id,
+            lang
         })
     }
 

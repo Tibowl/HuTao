@@ -4,14 +4,15 @@ import Command from "../../utils/Command"
 import client from "../../main"
 import { Colors, findFuzzy, getNewsEmbed, parseNewsContent, sendMessage, simplePaginator } from "../../utils/Utils"
 import config from "../../data/config.json"
+import { NewsLang } from "../../utils/Types"
 
 export default class News extends Command {
     constructor(name: string) {
         super({
             name,
             category: "News",
-            usage: "news [language or id]",
-            help: `Check up on latest news. You can follow the English ones with \`${config.prefix}follow add news_en-us\`
+            usage: "news [language] [id]",
+            help: `Check up on latest news. You can follow the English ones with \`${config.prefix}follow add news_en-us\` (see \`${config.prefix}help follow\` for the others)
 Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).join(", ")}`,
             aliases: ["new", "n"]
         })
@@ -20,18 +21,18 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
     async run(message: Message, args: string[]): Promise<Message | Message[] | undefined> {
         const { newsManager } = client
 
-        if (args.length == 0 || !args[0].match(/^\d+/)) {
-            let lang = findFuzzy([
-                ...newsManager.getLanguages(),
-                ...newsManager.getLanguages().map(l => newsManager.getLanguageName(l))
-            ], args[0] ?? "en-us") ?? "en-us"
+        let idMatch = args[0], langMatch = "en-us"
+        if (args[0]?.match(/^\d+/)) {
+            idMatch = args[0]
+            langMatch = args[1]
+        } else {
+            idMatch = args[1]
+            langMatch = args[0]
+        }
 
-            for (const l of newsManager.getLanguages())
-                if (lang == newsManager.getLanguageName(l)) {
-                    lang = l
-                    break
-                }
+        const lang = this.getFuzzyLang(langMatch)
 
+        if (!idMatch) {
             const stored = newsManager
                 .getNews(lang)
                 .map(art => `[\`${art.post_id}\`](${art.lang == "bbs-zh-cn" ? `https://bbs.mihoyo.com/ys/article/${art.post_id}` : `https://www.hoyolab.com/article/${art.post_id}`}): ${art.subject}`)
@@ -47,12 +48,29 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
             return sendMessage(message, embed)
         }
 
-        const post = newsManager.getNewsById(args[0])
+        const post = newsManager.getNewsByIdLang(idMatch, lang)
         if (!post)
             return sendMessage(message, `Couldn't find article in cache. Try to see if it exists on the forum: <https://www.hoyolab.com/article/${args[0]}>`)
 
         await simplePaginator(message, (relativePage, currentPage, maxPages) => getNewsEmbed(post, relativePage, currentPage, maxPages), parseNewsContent(post.content).length)
 
         return undefined
+    }
+
+    getFuzzyLang(search: string): NewsLang {
+        const { newsManager } = client
+
+        let lang = findFuzzy([
+            ...newsManager.getLanguages(),
+            ...newsManager.getLanguages().map(l => newsManager.getLanguageName(l))
+        ], search ?? "en-us") ?? "en-us"
+
+        for (const l of newsManager.getLanguages())
+            if (lang == newsManager.getLanguageName(l)) {
+                lang = l
+                break
+            }
+            
+        return lang as NewsLang
     }
 }
