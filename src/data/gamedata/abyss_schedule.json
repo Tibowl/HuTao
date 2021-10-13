@@ -548,5 +548,71 @@
       28,
       29
     ]
+  },
+  "26": {
+    "start": "2021-10-16 04:00:00",
+    "end": "2021-11-01 03:59:59",
+    "buff": "Vanguard Moon",
+    "buffDesc": "After the challenge begins, when a character's Elemental Energy is greater than or equal to 50%, they will gain a 6.5% ATK Bonus every second. Max 10 stacks. When a character's Elemental Energy is less than 30%, the ATK Bonus gained this way will be cleared.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      30,
+      31
+    ]
+  },
+  "27": {
+    "start": "2021-11-01 04:00:00",
+    "end": "2021-11-16 03:59:59",
+    "buff": "Chiliastic Moon",
+    "buffDesc": "After the challenge begins, when a character's Elemental Energy is 100%, they will gain 1 stack of Auspice every second. Max 10 stacks. When this character unleashes their Elemental Burst, all Auspice stacks will be cleared, and the DMG dealt by this character will be increased by 5% for each stack cleared for the next 10s. While the character is enjoying the DMG Bonus gained via this method, they cannot gain any more stacks.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      30,
+      31
+    ]
+  },
+  "28": {
+    "start": "2021-11-16 04:00:00",
+    "end": "2021-12-01 03:59:59",
+    "buff": "Splendiferous Moon",
+    "buffDesc": "After the challenge begins, when the active character's Elemental Energy is greater than or equal to 50%, they will continuously release shockwaves that deal DMG to opponents. When their Elemental Energy reaches 100%, these shockwaves will deal even greater DMG.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      30,
+      31
+    ]
   }
 }

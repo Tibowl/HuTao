@@ -1669,5 +1669,123 @@
         ]
       }
     ]
+  },
+  "30": {
+    "teams": 2,
+    "leyline": "Pyro DMG dealt by party members increased by 60%.\nHydro DMG dealt by party members increased by 60%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 87,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Electro Abyss Mage",
+            "Hydro Abyss Mage",
+            "Electro Whopperflower",
+            "Large Hydro Slime"
+          ],
+          [
+            "Pyro Abyss Mage",
+            "Crackling Axe Mitachurl",
+            "Pyro Whopperflower",
+            "Large Pyro Slime"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 89,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Fatui Electro Cicin Mage",
+            "Fatui Cryo Cicin Mage",
+            "Fatui Skirmisher - Cryogunner Legionnaire",
+            "Fatui Skirmisher - Anemoboxer Vanguard"
+          ],
+          [
+            "Kairagi: Dancing Thunder",
+            "Kairagi: Fiery Might",
+            "Nobushi: Hitsukeban",
+            "Nobushi: Kikouban"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 91,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Hydro Hypostasis"
+          ],
+          [
+            "Pyro Hypostasis"
+          ]
+        ]
+      }
+    ]
+  },
+  "31": {
+    "teams": 2,
+    "leyline": "For this floor only, the ley line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 94,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Fatui Pyro Agent",
+            "Nobushi: Jintouban",
+            "Nobushi: Hitsukeban",
+            "Nobushi: Kikouban"
+          ],
+          [
+            "Geovishap",
+            "Hydro Mimic Boar",
+            "Hydro Mimic Ferret"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 97,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Maguu Kenki"
+          ],
+          [
+            "Mirror Maiden",
+            "Fatui Cryo Cicin Mage",
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders: Hydro Potioneer",
+            "Treasure Hoarders: Electro Potioneer",
+            "Treasure Hoarders: Cryo Potioneer"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 99,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Ruin Guard",
+            "Ruin Hunter",
+            "Ruin Cruiser",
+            "Ruin Destroyer"
+          ],
+          [
+            "Ruin Guard",
+            "Ruin Grader",
+            "Ruin Cruiser",
+            "Ruin Defender"
+          ]
+        ]
+      }
+    ]
   }
 }

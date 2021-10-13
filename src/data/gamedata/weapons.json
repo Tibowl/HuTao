@@ -9793,7 +9793,7 @@
   },
   "Royal Greatsword": {
     "name": "Royal Greatsword",
-    "desc": "An old greatsword that belonged to the erstwhile rulers of Mondstadt. It is made from the finest-quality materials and has stood the test of time. A weapon for use by royals only.",
+    "desc": "An old greatsword that belonged to the erstwhile rulers of Mondstadt. It is made from the finest-quality materials and has stood the test of time. A weapon for use by the nobility only.",
     "weaponType": "Claymore",
     "stars": 4,
     "weaponCurve": [
@@ -11940,23 +11940,240 @@
       [
         {
           "name": "Oceanic Victory",
-          "desc": "Increases Elemental Burst DMG by **12%**. When Elemental Burst hits opponents, there is a 100% chance of summoning a titanic tuna that charges and deals **100%** ATK as AoE DMG. This effect can occur once every 15s."
+          "desc": "Increases Elemental Burst DMG by **12%**. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals **100%** ATK as AoE DMG. This effect can occur once every 15s."
         },
         {
           "name": "Oceanic Victory",
-          "desc": "Increases Elemental Burst DMG by **15%**. When Elemental Burst hits opponents, there is a 100% chance of summoning a titanic tuna that charges and deals **125%** ATK as AoE DMG. This effect can occur once every 15s."
+          "desc": "Increases Elemental Burst DMG by **15%**. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals **125%** ATK as AoE DMG. This effect can occur once every 15s."
         },
         {
           "name": "Oceanic Victory",
-          "desc": "Increases Elemental Burst DMG by **18%**. When Elemental Burst hits opponents, there is a 100% chance of summoning a titanic tuna that charges and deals **150%** ATK as AoE DMG. This effect can occur once every 15s."
+          "desc": "Increases Elemental Burst DMG by **18%**. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals **150%** ATK as AoE DMG. This effect can occur once every 15s."
         },
         {
           "name": "Oceanic Victory",
-          "desc": "Increases Elemental Burst DMG by **21%**. When Elemental Burst hits opponents, there is a 100% chance of summoning a titanic tuna that charges and deals **175%** ATK as AoE DMG. This effect can occur once every 15s."
+          "desc": "Increases Elemental Burst DMG by **21%**. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals **175%** ATK as AoE DMG. This effect can occur once every 15s."
         },
         {
           "name": "Oceanic Victory",
-          "desc": "Increases Elemental Burst DMG by **24%**. When Elemental Burst hits opponents, there is a 100% chance of summoning a titanic tuna that charges and deals **200%** ATK as AoE DMG. This effect can occur once every 15s."
+          "desc": "Increases Elemental Burst DMG by **24%**. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals **200%** ATK as AoE DMG. This effect can occur once every 15s."
+        }
+      ]
+    ]
+  },
+  "Akuoumaru": {
+    "name": "Akuoumaru",
+    "desc": "The beloved sword of the legendary \"Akuou.\" The blade is huge and majestic, but is surprisingly easy to wield.",
+    "weaponType": "Claymore",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.09000000357627869,
+        "curve": "C2"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Maria.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Maria_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ],
+        "cost": {
+          "mora": 5000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Coral Branch of a Distant Sea"
+            },
+            {
+              "count": 3,
+              "name": "Concealed Claw"
+            },
+            {
+              "count": 2,
+              "name": "Old Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ],
+        "cost": {
+          "mora": 15000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Jeweled Branch of a Distant Sea"
+            },
+            {
+              "count": 12,
+              "name": "Concealed Claw"
+            },
+            {
+              "count": 8,
+              "name": "Old Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Jeweled Branch of a Distant Sea"
+            },
+            {
+              "count": 6,
+              "name": "Concealed Unguis"
+            },
+            {
+              "count": 6,
+              "name": "Kageuchi Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Jade Branch of a Distant Sea"
+            },
+            {
+              "count": 12,
+              "name": "Concealed Unguis"
+            },
+            {
+              "count": 9,
+              "name": "Kageuchi Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 35000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Jade Branch of a Distant Sea"
+            },
+            {
+              "count": 9,
+              "name": "Concealed Talon"
+            },
+            {
+              "count": 6,
+              "name": "Famed Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 4,
+              "name": "Golden Branch of a Distant Sea"
+            },
+            {
+              "count": 18,
+              "name": "Concealed Talon"
+            },
+            {
+              "count": 12,
+              "name": "Famed Handguard"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "This blade was once used by a mighty general of Watatsumi.\nIt is said that he only knew as much of swordsmanship as the \"Getsumouun\" and \"Yuushio\" styles he taught himself,\nAnd yet by their grace was he never vanquished by any mortal in a duel or on the field of battle.\n\nIt is often said that snakes and fish are both cold-blooded. But cold-blooded creatures ever seek the promised land of warmth.\nTo see his people's dreams fulfilled, Omikami challenged the gathering storm clouds to war.\nAmongst the people of Watatsumi bent upon conquest, a young man stood out from the rest.\nHis fearless valor won him great love in Watatsumi, and they named him Touzannou.\nBut after many years passed, his kingly name was forgotten, only to be replaced by the epithet by which his foes knew him:\n\"Akuou,\" the wicked fangs and claws of the Great Serpent, the savage, demonic invader of Yashiori Island...\n\nThe slaughter had hardened the young man into a warrior. But to him,\nOnly the wish he made before departing, a wish made upon the moon reflected in the waters beside the shrine, was eternal.\n\n\"One day, I shall set myself above Mt. Yougou, overlooking the palace of the Lord of Thunder.\"\n\"I will have a joyful showdown against the legendary Great Tengu of Yougou upon the roof of Tenshukaku.\"\n\"...And then I'll bring that tengu's mask back to Ayame and Mouun as a souvenir!\"\n\nAt last, the tides washed all their dreams away like towers in the sand.\nThe tengu's mask, shining like a crimson star, was shattered like seashore gravel amidst the chaotic battle,\nNor would the shrine maiden who shone like moonlight into the young man's soul ever return again,\nWhile the Akuou himself would face the blinding ray of lightning alongside the Great Serpent.",
+    "refinement": [
+      [
+        {
+          "name": "Watatsumi Wavewalker",
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.12%**. A maximum of **40%** increased Elemental Burst DMG can be achieved this way."
+        },
+        {
+          "name": "Watatsumi Wavewalker",
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.15%**. A maximum of **50%** increased Elemental Burst DMG can be achieved this way."
+        },
+        {
+          "name": "Watatsumi Wavewalker",
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.18%**. A maximum of **60%** increased Elemental Burst DMG can be achieved this way."
+        },
+        {
+          "name": "Watatsumi Wavewalker",
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.21%**. A maximum of **70%** increased Elemental Burst DMG can be achieved this way."
+        },
+        {
+          "name": "Watatsumi Wavewalker",
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.24%**. A maximum of **80%** increased Elemental Burst DMG can be achieved this way."
         }
       ]
     ]
@@ -12180,7 +12397,7 @@
   },
   "Prototype Starglitter": {
     "name": "Prototype Starglitter",
-    "desc": "A grudge discovered in the Blackcliff Forge. The glimmers along the sharp edge are like stars in the night.",
+    "desc": "A hooked spear discovered hidden away in the Blackcliff Forge. The glimmers along the sharp edge are like stars in the night.",
     "weaponType": "Polearm",
     "stars": 4,
     "weaponCurve": [
@@ -14322,7 +14539,7 @@
         }
       }
     ],
-    "lore": "The favored barbed spear of a famous Inazuman bandit.\nIt was originally a harpoon used to catch fish, but it was also very handy in battle.\nThey say that he even pierced the enchanted, sword-armed puppet before carrying it off.\n\n\"Haha! Once, I was the master of this ship, the 'Seiraimaru.'\"\n\"I commanded over ten ships, and they called me the Deathless Oni of Seirai.\"\n\"Now, I am but a leaf floating upon the waves.\"\n\"If not for Janome and the people marooned on those islands,\"\n\"Forget raising our sails again — I doubt I would have managed to make it back to my home shores.\"\n\"And yet Seirai now looks like this.\"\n\"There is no longer any place for me in the Inazuman Islands.\"\n\"Even that naggy, fretful old shrine maiden is gone...\"\n\nThe bandit named Ako Domeki's voice was thick with emotion. Then he said...\n\"Hey, Janome! I'm now the freest man in the whole wide world!\"\n\"Aunt Shrine Maiden! Didn't you see that you wanted to go see the world?\"\n\"You know, go some place else, like that Kannagara guy or that Konbumaru you always talk about?\"\n\"You know what? Let me, Ako Domeki Zaemon, go in your stead!\"\n\"Let me go see what the edge of the world really looks like!\"\n\n\"We'll meet again where all ship routes end!\"\n\"And when we do, it'll be my turn to tell you all about these distant lands!\"",
+    "lore": "The favored barbed spear of a famous Inazuman bandit.\nIt was originally a harpoon used to catch fish, but it was also very handy in battle.\nThey say that he even pierced the enchanted, sword-armed puppet before carrying it off.\n\n\"Haha! Once, I was the master of this ship, the 'Seiraimaru.'\"\n\"I commanded over ten ships, and they called me the Deathless Oni of Seirai.\"\n\"Now, I am but a leaf floating upon the waves.\"\n\"If not for Janome and the people marooned on those islands,\"\n\"Forget raising our sails again — I doubt I would have managed to make it back to my home shores.\"\n\"And yet Seirai now looks like this.\"\n\"There is no longer any place for me in the Inazuman Islands.\"\n\"Even that naggy, fretful old shrine maiden is gone...\"\n\nThe bandit named Ako Domeki's voice was thick with emotion. Then he said...\n\"Hey, Janome! I'm now the freest man in the whole wide world!\"\n\"Aunt Shrine Maiden! Didn't you see that you wanted to go see the world?\"\n\"You know, go some place else, like that Kamuna guy or that Konbumaru you always talk about?\"\n\"You know what? Let me, Ako Domeki Zaemon, go in your stead!\"\n\"Let me go see what the edge of the world really looks like!\"\n\n\"We'll meet again where all ship routes end!\"\n\"And when we do, it'll be my turn to tell you all about these distant lands!\"",
     "refinement": [
       [
         {
@@ -15001,7 +15218,7 @@
   },
   "Royal Grimoire": {
     "name": "Royal Grimoire",
-    "desc": "A book that once belonged to a royal mage of Mondstadt. It contains faithful and comprehensive historical accounts as well as magic spells.",
+    "desc": "A book that once belonged to a court mage of Mondstadt who served the nobility. It contains faithful and comprehensive historical accounts as well as magic spells.",
     "weaponType": "Catalyst",
     "stars": 4,
     "weaponCurve": [
@@ -17822,7 +18039,7 @@
   },
   "Royal Bow": {
     "name": "Royal Bow",
-    "desc": "An old royal longbow that belonged to the erstwhile rulers of Mondstadt. Countless generations later, the bowstring is still tight and can still fire arrows with great force.",
+    "desc": "An old longbow that belonged to the erstwhile aristocratic rulers of Mondstadt. Countless generations later, the bowstring is still tight and can still fire arrows with great force.",
     "weaponType": "Bow",
     "stars": 4,
     "weaponCurve": [
@@ -21472,23 +21689,23 @@
       [
         {
           "name": "Mistsplitter's Edge",
-          "desc": "Gain a **12%** Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a **8/16/28%** Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+          "desc": "Gain a **12%** Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a **8/16/28%** Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
         },
         {
           "name": "Mistsplitter's Edge",
-          "desc": "Gain a **15%** Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a **10/20/35%** Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+          "desc": "Gain a **15%** Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a **10/20/35%** Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
         },
         {
           "name": "Mistsplitter's Edge",
-          "desc": "Gain a **18%** Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a **12/24/42%** Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+          "desc": "Gain a **18%** Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a **12/24/42%** Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
         },
         {
           "name": "Mistsplitter's Edge",
-          "desc": "Gain a **21%** Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a **14/28/49%** Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+          "desc": "Gain a **21%** Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a **14/28/49%** Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
         },
         {
           "name": "Mistsplitter's Edge",
-          "desc": "Gain a **24%** Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a **16/32/56%** Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of the Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+          "desc": "Gain a **24%** Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a **16/32/56%** Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of the Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
         }
       ]
     ]
@@ -25178,6 +25395,223 @@
         {
           "name": "Rule by Thunder",
           "desc": "Increases ATK by **40%** and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by **24/48/80%**. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+        }
+      ]
+    ]
+  },
+  "Polar Star": {
+    "name": "Polar Star",
+    "desc": "A pristine bow that is as sharp as the glaciers of the far north.",
+    "weaponType": "Bow",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 45.9364013671875,
+        "curve": "ATK 3.1"
+      },
+      {
+        "stat": "CRIT Rate",
+        "init": 0.07199999690055847,
+        "curve": "C3"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Worldbane.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Worldbane_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ],
+        "cost": {
+          "mora": 10000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Mask of the Wicked Lieutenant"
+            },
+            {
+              "count": 5,
+              "name": "Concealed Claw"
+            },
+            {
+              "count": 3,
+              "name": "Spectral Husk"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Mask of the Tiger's Bite"
+            },
+            {
+              "count": 18,
+              "name": "Concealed Claw"
+            },
+            {
+              "count": 12,
+              "name": "Spectral Husk"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 9,
+              "name": "Mask of the Tiger's Bite"
+            },
+            {
+              "count": 9,
+              "name": "Concealed Unguis"
+            },
+            {
+              "count": 9,
+              "name": "Spectral Heart"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 5,
+              "name": "Mask of the One-Horned"
+            },
+            {
+              "count": 18,
+              "name": "Concealed Unguis"
+            },
+            {
+              "count": 14,
+              "name": "Spectral Heart"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 55000,
+          "items": [
+            {
+              "count": 9,
+              "name": "Mask of the One-Horned"
+            },
+            {
+              "count": 14,
+              "name": "Concealed Talon"
+            },
+            {
+              "count": 9,
+              "name": "Spectral Nucleus"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 65000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Mask of the Kijin"
+            },
+            {
+              "count": 27,
+              "name": "Concealed Talon"
+            },
+            {
+              "count": 18,
+              "name": "Spectral Nucleus"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "\"I was once a wounded wolf, betrayed by the whole world,\"\n\"But we shall create a new world, one in which no one shall ever be forsaken.\"\n\n\"Dressed in flawless garments as radiant as the midday,\"\n\"We came to the land of silver snow,\"\n\"And sounded the clarion of Her Majesty's greatness.\"\n\n\"Oft have we walked in the moonless night.\"\n\"Oft have we trudged through the gilded sands.\"\n\"Oft have we felt piercing enmity in the dark,\"\n\"And oft have we dreamed of lovers in distant hometowns.\"\n\"But the pale flame yet burns in our breasts.\"\n\"O Harbingers, scintillating as polar stars,\"\n\"Guide us ever onward, tireless.\"\n\n\"If you should dare to tear your eyes off those charlatans who call themselves gods,\"\n\"If you end each day discontent, if you burn with fury against false promises,\"\n\"Lift up your eyes to the white, glimmering stars, for that is our banner.\"\n\"Join our ranks! Let our marching boots shake the earth like thunder!\"\n\"You who will march with us towards the polestar of the white night, come! We shall never abandon you.\"\n\"You who will walk with us into the land of darkness, come! We shall create a new world together.\"\n\n\"Know that the destruction of all precedes the birth of a new order.\"\n\"At devastation's end, we will greet a stainless dawn.\"",
+    "refinement": [
+      [
+        {
+          "name": "Daylight's Augury",
+          "desc": "Elemental Skill and Elemental Burst DMG increased by **12%**. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by **10/20/30/48%**. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others."
+        },
+        {
+          "name": "Daylight's Augury",
+          "desc": "Elemental Skill and Elemental Burst DMG increased by **15%**. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by **12.5/25/37.5/60%**. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others."
+        },
+        {
+          "name": "Daylight's Augury",
+          "desc": "Elemental Skill and Elemental Burst DMG increased by **18%**. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by **15/30/45/72%**. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others."
+        },
+        {
+          "name": "Daylight's Augury",
+          "desc": "Elemental Skill and Elemental Burst DMG increased by **21%**. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by **17.5/35/52.5/84%**. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others."
+        },
+        {
+          "name": "Daylight's Augury",
+          "desc": "Elemental Skill and Elemental Burst DMG increased by **24%**. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by **20/40/60/96%**. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others."
         }
       ]
     ]
