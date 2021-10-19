@@ -647,7 +647,8 @@
     {
         "name": "\"Labyrinth Warriors\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/10/09/1015537/649a657c46e5f09818d46c2fbbd7439d_5344548439684258817.jpg",
+        "link": "https://www.hoyolab.com/article/1253384",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/10/19/1015537/67bddf03d5a77c3717156ea3049d5004_700587580942875777.jpg",
         "start": "2021-10-21 10:00:00",
         "end": "2021-11-08 03:59:00",
         "reminder": "end"
