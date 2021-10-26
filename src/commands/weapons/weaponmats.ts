@@ -19,9 +19,9 @@ export default class WeaponMats extends Command {
         const { data } = client
 
         const mats = {
-            "Monday & Thursday": ["Debris of Decarabian's City", "Lustrous Stone from Guyun"],
-            "Tuesday & Friday": ["Boreal Wolf's Cracked Tooth", "Mist Veiled Mercury Elixir"],
-            "Wednesday & Saturday": ["Chains of the Dandelion Gladiator", "Piece of Aerosiderite"],
+            "Monday & Thursday": ["Debris of Decarabian's City", "Lustrous Stone from Guyun", "Jeweled Branch of a Distant Sea"],
+            "Tuesday & Friday": ["Boreal Wolf's Cracked Tooth", "Mist Veiled Mercury Elixir", "Narukami's Joy"],
+            "Wednesday & Saturday": ["Chains of the Dandelion Gladiator", "Piece of Aerosiderite", "Mask of the Tiger's Bite"],
         }
 
         return sendMessage(message, `**Weapon Ascension Materials**:

@@ -70,7 +70,7 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
                 lang = l
                 break
             }
-            
+
         return lang as NewsLang
     }
 }

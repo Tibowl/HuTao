@@ -57,17 +57,17 @@ See `ht!help weapon` for more information.
 
 ### News
 - `ht!news [lang]`: Displays [most recently posted news articles on the forum](https://i.imgur.com/PFAuOJQ.png)
-- `ht!news <id>`: Displays [a news article](https://i.imgur.com/mEqXMyg.png), these most likely [have multiple pages](https://i.imgur.com/fxO8LZv.png).
+- `ht!news <id> [lang]`: Displays [a news article](https://i.imgur.com/mEqXMyg.png), these most likely [have multiple pages](https://i.imgur.com/fxO8LZv.png).
 - `ht!follow <list|add|remove> [type]`: [Add](https://i.imgur.com/PIXyiT5.png) or remove a certain events from the following list in the current channel (official forum posts and the twitter accounts, please refer to `ht!help follow` for an up to date list of supported languages). Or a [list](https://i.imgur.com/OhvclGx.png) of what the bot is following in your server.
     - Example of [forum news feed](https://i.imgur.com/0VfS4xp.png), [twitter feed](https://i.imgur.com/HnmV65Y.png) and [events](https://i.imgur.com/IYdeSsT.png).
 - `ht!events`: Check up on current and upcoming events. Examples: [list](https://i.imgur.com/or1L70I.png), going to the left shows [current ones](https://i.imgur.com/vGljfsK.png) while to the right are [future ones](https://i.imgur.com/ylCSvUA.png). Start/end/reminders for these can be followed with `ht!follow add events`.
 
 ### Misc
 - `ht!gachacalc <pulls> [pity] [guaranteed]`: Calculate chance to get a certain amount of constellations of a banner character in a certain amount of pulls. [Example](https://i.imgur.com/mmsAm8i.png).
-    - NOTE: Per pull rates (at high pity) might have had to be guessed/approximated due to low sample data.
+    - Initially used rates from wish databases, updated to fit current theory. For more information about the rates used, see [Statistical model for Genshin Impact's droprates](https://www.hoyolab.com/article/497840)
 - `ht!reminders`: List your current reminders. [Example of list](https://i.imgur.com/ROCPehX.png) - [Example of a reminder](https://i.imgur.com/i0AgETk.png)
 - `ht!addreminder <name> in <duration>`: [Adds a reminder](https://i.imgur.com/y6OOADd.png)
-    - Sometimes, the duration can be derrived from the name. For example, running `ht!ar Parametric` will create a reminder about the Parametric Transformer in 6 days and 22 hours (reset time for that gadget). `ht!ar Ores` will create one in 3 days and `ht!ar Liyue Specialties` creates one for in 2 days.
+    - Sometimes, the duration can be derived from the name. For example, running `ht!ar Parametric` will create a reminder about the Parametric Transformer in 6 days and 22 hours (reset time for that gadget). `ht!ar Ores` will create one in 3 days and `ht!ar Liyue Specialties` creates one for in 2 days.
     - `<duration>` needs to be something like `<amount> <unit>`, joined by pretty much anything spaces/commas/"and"/etc. Units can be abbreviated (`m` works for minutes, `d` for days, etc). Also supports `resin` as a unit of time. For example: `ht!ar Elite Boss in 36 resin`
 - `ht!delreminder <id>`: [Deletes a reminder](https://i.imgur.com/1JYj86z.png)
 - `ht!time`: Check [current server times](https://i.imgur.com/CKSe9XT.png) as well as time until next daily/weekly reset.
