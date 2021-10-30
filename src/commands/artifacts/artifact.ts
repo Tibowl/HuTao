@@ -21,19 +21,19 @@ Note: this command supports fuzzy search.`,
 
     getArtiSetsPages(): string[] {
         const { data } = client
-        const arti = Object.entries(data.artifacts)
+        const artis = Object.entries(data.artifacts)
             .sort(([an, a],  [bn, b]) => Math.max(...b.levels) - Math.max(...a.levels) || Math.min(...a.levels) - Math.min(...b.levels) || an.localeCompare(bn))
             .map(([name, info]) => `**${name}**: ${Math.min(...info.levels)}★ ~ ${Math.max(...info.levels)}★`)
 
         const pages: string[] = []
         let paging = "", c = 0
-        for (const art of arti) {
+        for (const arti of artis) {
             if (paging.length + arti.length > 1800 || ++c > 15) {
                 pages.push(paging.trim())
-                paging = art
+                paging = arti
                 c = 1
             } else
-                paging += "\n" + art
+                paging += "\n" + arti
         }
         if (paging.trim().length > 0) pages.push(paging)
         return pages

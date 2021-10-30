@@ -218,7 +218,7 @@ interface Content {
     img?: string
 }
 
-export function parseNewsContent(content: string): Content[] {
+export function parseNewsContent(content: string, maxLength = 1000): Content[] {
     const target: Content[] = []
     let currentLine = ""
 
@@ -248,7 +248,7 @@ export function parseNewsContent(content: string): Content[] {
         if (imgFinder && currentLine.trim().length > 0) {
             target.push({ text: clean(currentLine) })
             currentLine = ""
-        } else if (currentLine.length >= 1000) {
+        } else if (currentLine.length >= maxLength) {
             let splitted: string[] = [];
             ({ splitted, currentLine } = split(splitted, currentLine, /\n\s*\n/g))
 

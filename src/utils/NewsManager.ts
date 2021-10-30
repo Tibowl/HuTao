@@ -6,6 +6,7 @@ import fetch from "node-fetch"
 import { FollowCategory, News, NewsLang, StoredNews } from "./Types"
 import client from "../main"
 import { getNewsEmbed } from "./Utils"
+import BannersCommand from "../commands/misc/banners"
 
 const Logger = log4js.getLogger("NewsManager")
 ensureDirSync("data/")
@@ -63,6 +64,7 @@ export default class NewsManager {
         this.addNewsStatement = this.sql.prepare("INSERT OR REPLACE INTO news VALUES (@post_id, @lang, @type, @subject, @created_at, @nickname, @image_url, @content)")
         this.getNewsByIdLangStatement = this.sql.prepare("SELECT * FROM news WHERE post_id = @post_id AND lang = @lang")
         this.getNewsStatement = this.sql.prepare("SELECT * FROM news WHERE lang = @lang ORDER BY created_at DESC, post_id DESC LIMIT 20")
+        this.getEventWishesStatement = this.sql.prepare("SELECT * FROM news WHERE lang = 'en-us' AND subject LIKE 'Event Wish%' ORDER BY created_at ASC, post_id ASC")
     }
 
     lastFetched = 0
@@ -129,6 +131,9 @@ export default class NewsManager {
 
                         const stored = this.addNews(article, langid, type)
                         this.post(language, stored).catch(Logger.error)
+                        const bc = client.commands.get("banners")
+                        if (bc)
+                            (bc as BannersCommand).parse(stored)
                     }
                 } catch (error) {
                     Logger.error("An error occurred while fetching news", error)
@@ -173,6 +178,11 @@ export default class NewsManager {
             post_id,
             lang
         })
+    }
+
+    private getEventWishesStatement: SQLite.Statement
+    getEventWishes(): StoredNews[] {
+        return this.getEventWishesStatement.all({})
     }
 
     getLanguages(): string[] {

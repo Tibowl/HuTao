@@ -65,6 +65,10 @@ See `ht!help weapon` for more information.
 ### Misc
 - `ht!gachacalc <pulls> [pity] [guaranteed]`: Calculate chance to get a certain amount of constellations of a banner character in a certain amount of pulls. [Example](https://i.imgur.com/mmsAm8i.png).
     - Initially used rates from wish databases, updated to fit current theory. For more information about the rates used, see [Statistical model for Genshin Impact's droprates](https://www.hoyolab.com/article/497840)
+- `ht!banners`: View current/past event wishes
+    - `ht!banners banners list [weapon|char]`: Quickly list all [weapon](https://i.imgur.com/3VIBr3S.png), [character](https://i.imgur.com/EhAUqPG.png) or [both](https://i.imgur.com/jTu8Ogr.png) event wishes
+    - `ht!banners search <character or weapon name>`: Search for event wishes containing a specific [weapon](https://i.imgur.com/toCVPs8.png)/[character](https://i.imgur.com/7BYSQSG.png)
+    - `ht!banners browse [id / page]`: View [more information about a specific or browse through them](https://i.imgur.com/yHvkhsC.png)
 - `ht!reminders`: List your current reminders. [Example of list](https://i.imgur.com/ROCPehX.png) - [Example of a reminder](https://i.imgur.com/i0AgETk.png)
 - `ht!addreminder <name> in <duration>`: [Adds a reminder](https://i.imgur.com/y6OOADd.png)
     - Sometimes, the duration can be derived from the name. For example, running `ht!ar Parametric` will create a reminder about the Parametric Transformer in 6 days and 22 hours (reset time for that gadget). `ht!ar Ores` will create one in 3 days and `ht!ar Liyue Specialties` creates one for in 2 days.

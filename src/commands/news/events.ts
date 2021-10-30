@@ -63,7 +63,7 @@ export default class Events extends Command {
             pages: (rp, cp, mp) => this.getUpcomingEvent(upcoming, rp, cp, mp)
         }]
 
-        await paginator(message,  pages, "Summary")
+        await paginator(message, pages, "Summary")
         return undefined
     }
 
