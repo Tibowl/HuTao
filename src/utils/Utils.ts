@@ -1,4 +1,4 @@
-import {  Message, MessageEmbed, MessageAttachment, Snowflake, MessageActionRow, MessageButton, ColorResolvable, InteractionCollector } from "discord.js"
+import {  Message, MessageEmbed, MessageAttachment, Snowflake, MessageActionRow, MessageButton, ColorResolvable } from "discord.js"
 
 import client from "./../main"
 import config from "./../data/config.json"
