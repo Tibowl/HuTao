@@ -1,4 +1,4 @@
-import {  Message, MessageEmbed, MessageAttachment, Snowflake, MessageActionRow, MessageButton, ColorResolvable } from "discord.js"
+import {  Message, MessageEmbed, MessageAttachment, Snowflake, MessageActionRow, MessageButton, ColorResolvable, InteractionCollector } from "discord.js"
 
 import client from "./../main"
 import config from "./../data/config.json"
@@ -342,13 +342,17 @@ function paginatorLoop(message: Message, reply: Message, pageInfo: Bookmarkable[
         }
 
         paginatorLoop(message, reply, pageInfo, currentPage)
-    }).catch(async () => {
-        client.recentMessages = client.recentMessages.filter(k => k != reply)
-        const user = client.user
-        if (user == undefined || reply.deleted) return
-        await reply.edit({ components: [] })
+    }).catch(async (error) => {
+        if (error.name == "Error [INTERACTION_COLLECTOR_ERROR]") {
+            client.recentMessages = client.recentMessages.filter(k => k != reply)
+            const user = client.user
+            if (user == undefined || reply.deleted) return
+            await reply.edit({ components: [] })
+        } else {
+            Logger.error("Error during pagination", error)
+        }
     }).catch(error => {
-        Logger.error(error)
+        Logger.error("Error during pagination", error)
     })
 }
 
