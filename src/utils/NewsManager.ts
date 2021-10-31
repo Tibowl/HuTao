@@ -1,12 +1,12 @@
-import log4js from "log4js"
 import SQLite from "better-sqlite3"
 import { ensureDirSync } from "fs-extra"
+import log4js from "log4js"
 import fetch from "node-fetch"
-
-import { FollowCategory, News, NewsLang, StoredNews } from "./Types"
+import { parseEventWishNews } from "../commands/misc/banners"
 import client from "../main"
+import { FollowCategory, News, NewsLang, StoredNews } from "./Types"
 import { getNewsEmbed } from "./Utils"
-import BannersCommand from "../commands/misc/banners"
+
 
 const Logger = log4js.getLogger("NewsManager")
 ensureDirSync("data/")
@@ -131,9 +131,8 @@ export default class NewsManager {
 
                         const stored = this.addNews(article, langid, type)
                         this.post(language, stored).catch(Logger.error)
-                        const bc = client.commands.get("banners")
-                        if (bc)
-                            (bc as BannersCommand).parse(stored)
+                        if (stored.subject.includes("Event Wish"))
+                            parseEventWishNews(stored)
                     }
                 } catch (error) {
                     Logger.error("An error occurred while fetching news", error)

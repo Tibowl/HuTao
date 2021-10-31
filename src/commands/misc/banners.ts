@@ -17,151 +17,150 @@ type Wish = {
     duration: string
     roughDate: number
 }
+// Hardcoded ones are due to missing in news database
+let eventWishes: Wish[] = [
+    // Pre-hoyolab era
+    {
+        title: "Event Wish \"Ballad in Goblets\" - Boosted Drop Rate for \"Windborne Bard\" Venti (Anemo)!",
+        roughDate: 1601244000,
+        img: "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Wish_Ballad_in_Goblets_2020-09-28.jpg/revision/latest?cb=20201006234432",
+        duration: "2020/09/28 12:00:00 – 2020/10/18 12:00:00",
+        main: ["Venti"],
+        other: ["Barbara", "Fischl", "Xiangling"]
+    },
+    {
+        title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rate for Aquila Favonia (Sword) and Amos' Bow (Bow)!",
+        roughDate: 1601244000,
+        img: "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Wish_Epitome_Invocation_2020-09-28.jpg/revision/latest?cb=20200929014948",
+        duration: "2020/09/28 12:00:00 – 2020/10/18 12:00:00",
+        main: ["Aquila Favonia", "Amos' Bow"],
+        other: ["The Flute", "The Bell", "The Widsith", "The Stringless", "Favonius Lance" ]
+    },
+    {
+        title: "Event Wish \"Sparkling Steps\" - Boosted Drop Rate for \"Fleeing Sunlight\" Klee (Pyro)!",
+        roughDate: 1603209600,
+        img: "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Wish_Sparkling_Steps_2020-10-20.jpg/revision/latest?cb=20201018122142",
+        duration: "2020/10/20 18:00:00 – 2020/11/10 14:59:59",
+        main: ["Klee"],
+        other: ["Xingqiu", "Noelle", "Sucrose"]
+    },
+    {
+        title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rate for Lost Prayer to the Sacred Winds (Catalyst) and Wolf's Gravestone (Claymore)!",
+        roughDate: 1603209600,
+        img: "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Wish_Epitome_Invocation_2020-10-20.jpg/revision/latest?cb=20201018052455",
+        duration: "2020/10/20 18:00:00 – 2020/11/10 14:59:59",
+        main: ["Lost Prayer to the Sacred Winds", "Wolf's Gravestone"],
+        other: ["Sacrificial Sword", "Sacrificial Bow", "Sacrificial Greatsword", "Sacrificial Fragments", "Dragon's Bane"]
+    },
+    {
+        title: "Event Wish \"Farewell of Snezhnaya\" - Boosted Drop Rate for \"Childe\" Tartaglia (Hydro)!",
+        roughDate: 1605085200,
+        img: "https://upload-os-bbs.hoyolab.com/upload/2020/11/09/1015613/e951a355455532b442519b268085772d_3755913022779822697.jpg",
+        duration: "After the Version 1.1 update – 2020/12/01 15:59:59",
+        main: ["Tartaglia"],
+        other: ["Diona", "Beidou", "Ningguang"]
+    },
+    {
+        title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rates for Skyward Harp (Bow) and Memory of Dust (Catalyst)!",
+        roughDate: 1605085200,
+        img: "https://upload-os-bbs.hoyolab.com/upload/2020/11/09/1015613/a325dc0f41c012bfea82f9f00f92bf01_7894912188130132646.jpg",
+        duration: "After the Version 1.1 update – 2020/12/01 15:59:59",
+        main: ["Memory of Dust", "Skyward Harp"],
+        other: ["The Flute", "Rainslasher", "Eye of Perception", "Rust", "Favonius Lance"]
+    },
+    {
+        title: "Event Wish \"Gentry of Hermitage\" - Boosted Drop Rate for Zhongli!",
+        roughDate: 1606842000,
+        img: "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Wish_Gentry_of_Hermitage_2020-12-01.png/revision/latest?cb=20201129051143",
+        duration: "2020-12-01 18:00:00 – 2020-12-22 14:59:59",
+        main: ["Zhongli"],
+        other: ["Xinyan", "Razor", "Chongyun"]
+    },
+    {
+        title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rates for Vortex Vanquisher (Polearm) and The Unforged (Claymore)!",
+        roughDate: 1606842000,
+        img: "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Wish_Epitome_Invocation_2020-12-01.jpg/revision/latest?cb=20201129051133",
+        duration: "2020-12-01 18:00:00 – 2020-12-22 14:59:59",
+        main: ["Vortex Vanquisher", "The Unforged"],
+        other: ["Lion's Roar", "The Bell", "Favonius Codex", "Favonius Warbow", "Dragon's Bane"]
+    },
+    {
+        title: "Event Wish \"Secretum Secretorum\" - Boosted Drop Rate for Albedo!",
+        roughDate: 1608714000,
+        img: "https://uploadstatic-sea.mihoyo.com/contentweb/20201218/2020121817530732640.jpg",
+        duration: "After Version 1.2 update – 2021/01/12 15:59:59",
+        main: ["Albedo"],
+        other: ["Fischl", "Sucrose", "Bennett"]
+    },
+    {
+        title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rates for Summit Shaper (Sword) and Skyward Atlas (Catalyst)!",
+        roughDate: 1608714000,
+        img: "https://uploadstatic-sea.mihoyo.com/contentweb/20201218/2020121818032328243.jpg",
+        duration: "After Version 1.2 update – 2021/01/12 15:59:59",
+        main: ["Summit Shaper", "Skyward Atlas"],
+        other: ["Favonius Sword", "Favonius Greatsword", "Favonius Lance", "Sacrificial Fragments", "The Stringless"]
+    },
+    {
+        title: "Event Wish \"Adrift in the Harbor\" - Boosted Drop Rate for Ganyu!",
+        roughDate: 1610470800,
+        img: "https://upload-os-bbs.mihoyo.com/upload/2021/01/10/1015537/a4a8e792d76b342c43a3e7f4eb284890_7429454184524275542.jpg",
+        duration: "2021/01/12 18:00:00 – 2021/02/02 14:59:59",
+        main: ["Ganyu"],
+        other: ["Xiangling", "Xingqiu", "Noelle"]
+    },
+    {
+        title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rates for Amos' Bow (Bow) and Skyward Pride (Claymore)!",
+        roughDate: 1610470800,
+        img: "https://upload-os-bbs.mihoyo.com/upload/2021/01/10/1015537/d39eefd21d5b792dad92111ffce8100e_223120952396802540.jpg",
+        duration: "2021/01/12 18:00:00 – 2021/02/02 14:59:59",
+        main: ["Amos' Bow", "Skyward Pride"],
+        other: ["Sacrificial Sword", "The Bell", "Dragon's Bane", "Eye of Perception", "Favonius Warbow"]
+    },
+    {
+        title: "Event Wish \"Invitation to Mundane Life\" - Boosted Drop Rate for Xiao!",
+        roughDate: 1612342140,
+        img: "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Wish_Invitation_to_Mundane_Life_2021-02-03.jpg/revision/latest?cb=20210201040314",
+        duration: "After Version 1.3 update – 2021/02/17 15:59:59",
+        main: ["Xiao"],
+        other: ["Diona", "Beidou", "Xinyan"]
+    },
+    {
+        title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rates for Primordial Jade Cutter (Sword) and Primordial Jade Winged-Spear (Polearm)!",
+        roughDate: 1612342140,
+        img: "https://static.wikia.nocookie.net/gensin-impact/images/6/62/Wish_Epitome_Invocation_2021-02-03.jpg/revision/latest?cb=20210201040313",
+        duration: "After Version 1.3 update – 2021/02/23 15:59:59",
+        main: ["Primordial Jade Cutter", "Primordial Jade Winged-Spear"],
+        other: ["Rust", "Eye of Perception", "Favonius Lance", "Sacrificial Greatsword", "The Flute"]
+    },
 
+    // Official post is missing "Hu Tao"
+    {
+        title: "Event Wish \"Moment of Bloom\" - Boosted Drop Rate for \"Fragrance in Thaw\" Hu Tao (Pyro)!",
+        roughDate: 1614484802,
+        img: "https://upload-os-bbs.hoyolab.com/upload/2021/02/26/1015537/69f3f8de572f61e72199df941a0576d1_4005495037262847383.jpg",
+        duration: "2021/03/02 18:00:00 – 2021/03/16 14:59:59 ",
+        main: ["Hu Tao"],
+        other: ["Xingqiu", "Xiangling", "Chongyun"]
+    },
+
+    // Official post has date in image
+    {
+        title: "Event Wish \"Farewell of Snezhnaya\" - Boosted Drop Rate for \"Childe\" Tartaglia (Hydro)!",
+        roughDate: 1617422401,
+        img: "https://upload-os-bbs.hoyolab.com/upload/2021/04/02/1015537/b23dda81b6b9b0bb8a46b9adcd0e2a70_1479948151736832476.jpg",
+        duration: "2021/04/06 18:00:00 – 2021/04/27 14:59:59",
+        main: ["Tartaglia"],
+        other: ["Rosaria", "Barbara", "Fischl"]
+    }, {
+        title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rates for Skyward Harp (Bow) and Lost Prayer to the Sacred Winds (Catalyst)!",
+        roughDate: 1617422402,
+        img: "https://upload-os-bbs.hoyolab.com/upload/2021/04/02/1015537/2990bea9a81bbfa9aa348dbddaf0aad5_8867096048015043654.jpg",
+        duration: "2021/04/06 18:00:00 – 2021/04/27 14:59:59",
+        main: ["Skyward Harp", "Lost Prayer to the Sacred Winds"],
+        other: ["Alley Hunter", "Favonius Sword", "Sacrificial Greatsword", "Favonius Codex", "Favonius Lance"]
+    }
+]
 export default class BannersCommand extends Command {
-    // Hardcoded ones are due to missing in news database
-    wishes: Wish[] = [
-        // Pre-hoyolab era
-        {
-            title: "Event Wish \"Ballad in Goblets\" - Boosted Drop Rate for \"Windborne Bard\" Venti (Anemo)!",
-            roughDate: 1601244000,
-            img: "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Wish_Ballad_in_Goblets_2020-09-28.jpg/revision/latest?cb=20201006234432",
-            duration: "2020/09/28 12:00:00 – 2020/10/18 12:00:00",
-            main: ["Venti"],
-            other: ["Barbara", "Fischl", "Xiangling"]
-        },
-        {
-            title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rate for Aquila Favonia (Sword) and Amos' Bow (Bow)!",
-            roughDate: 1601244000,
-            img: "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Wish_Epitome_Invocation_2020-09-28.jpg/revision/latest?cb=20200929014948",
-            duration: "2020/09/28 12:00:00 – 2020/10/18 12:00:00",
-            main: ["Aquila Favonia", "Amos' Bow"],
-            other: ["The Flute", "The Bell", "The Widsith", "The Stringless", "Favonius Lance" ]
-        },
-        {
-            title: "Event Wish \"Sparkling Steps\" - Boosted Drop Rate for \"Fleeing Sunlight\" Klee (Pyro)!",
-            roughDate: 1603209600,
-            img: "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Wish_Sparkling_Steps_2020-10-20.jpg/revision/latest?cb=20201018122142",
-            duration: "2020/10/20 18:00:00 – 2020/11/10 14:59:59",
-            main: ["Klee"],
-            other: ["Xingqiu", "Noelle", "Sucrose"]
-        },
-        {
-            title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rate for Lost Prayer to the Sacred Winds (Catalyst) and Wolf's Gravestone (Claymore)!",
-            roughDate: 1603209600,
-            img: "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Wish_Epitome_Invocation_2020-10-20.jpg/revision/latest?cb=20201018052455",
-            duration: "2020/10/20 18:00:00 – 2020/11/10 14:59:59",
-            main: ["Lost Prayer to the Sacred Winds", "Wolf's Gravestone"],
-            other: ["Sacrificial Sword", "Sacrificial Bow", "Sacrificial Greatsword", "Sacrificial Fragments", "Dragon's Bane"]
-        },
-        {
-            title: "Event Wish \"Farewell of Snezhnaya\" - Boosted Drop Rate for \"Childe\" Tartaglia (Hydro)!",
-            roughDate: 1605085200,
-            img: "https://upload-os-bbs.hoyolab.com/upload/2020/11/09/1015613/e951a355455532b442519b268085772d_3755913022779822697.jpg",
-            duration: "After the Version 1.1 update – 2020/12/01 15:59:59",
-            main: ["Tartaglia"],
-            other: ["Diona", "Beidou", "Ningguang"]
-        },
-        {
-            title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rates for Skyward Harp (Bow) and Memory of Dust (Catalyst)!",
-            roughDate: 1605085200,
-            img: "https://upload-os-bbs.hoyolab.com/upload/2020/11/09/1015613/a325dc0f41c012bfea82f9f00f92bf01_7894912188130132646.jpg",
-            duration: "After the Version 1.1 update – 2020/12/01 15:59:59",
-            main: ["Memory of Dust", "Skyward Harp"],
-            other: ["The Flute", "Rainslasher", "Eye of Perception", "Rust", "Favonius Lance"]
-        },
-        {
-            title: "Event Wish \"Gentry of Hermitage\" - Boosted Drop Rate for Zhongli!",
-            roughDate: 1606842000,
-            img: "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Wish_Gentry_of_Hermitage_2020-12-01.png/revision/latest?cb=20201129051143",
-            duration: "2020-12-01 18:00:00 – 2020-12-22 14:59:59",
-            main: ["Zhongli"],
-            other: ["Xinyan", "Razor", "Chongyun"]
-        },
-        {
-            title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rates for Vortex Vanquisher (Polearm) and The Unforged (Claymore)!",
-            roughDate: 1606842000,
-            img: "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Wish_Epitome_Invocation_2020-12-01.jpg/revision/latest?cb=20201129051133",
-            duration: "2020-12-01 18:00:00 – 2020-12-22 14:59:59",
-            main: ["Vortex Vanquisher", "The Unforged"],
-            other: ["Lion's Roar", "The Bell", "Favonius Codex", "Favonius Warbow", "Dragon's Bane"]
-        },
-        {
-            title: "Event Wish \"Secretum Secretorum\" - Boosted Drop Rate for Albedo!",
-            roughDate: 1608714000,
-            img: "https://uploadstatic-sea.mihoyo.com/contentweb/20201218/2020121817530732640.jpg",
-            duration: "After Version 1.2 update – 2021/01/12 15:59:59",
-            main: ["Albedo"],
-            other: ["Fischl", "Sucrose", "Bennett"]
-        },
-        {
-            title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rates for Summit Shaper (Sword) and Skyward Atlas (Catalyst)!",
-            roughDate: 1608714000,
-            img: "https://uploadstatic-sea.mihoyo.com/contentweb/20201218/2020121818032328243.jpg",
-            duration: "After Version 1.2 update – 2021/01/12 15:59:59",
-            main: ["Summit Shaper", "Skyward Atlas"],
-            other: ["Favonius Sword", "Favonius Greatsword", "Favonius Lance", "Sacrificial Fragments", "The Stringless"]
-        },
-        {
-            title: "Event Wish \"Adrift in the Harbor\" - Boosted Drop Rate for Ganyu!",
-            roughDate: 1610470800,
-            img: "https://upload-os-bbs.mihoyo.com/upload/2021/01/10/1015537/a4a8e792d76b342c43a3e7f4eb284890_7429454184524275542.jpg",
-            duration: "2021/01/12 18:00:00 – 2021/02/02 14:59:59",
-            main: ["Ganyu"],
-            other: ["Xiangling", "Xingqiu", "Noelle"]
-        },
-        {
-            title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rates for Amos' Bow (Bow) and Skyward Pride (Claymore)!",
-            roughDate: 1610470800,
-            img: "https://upload-os-bbs.mihoyo.com/upload/2021/01/10/1015537/d39eefd21d5b792dad92111ffce8100e_223120952396802540.jpg",
-            duration: "2021/01/12 18:00:00 – 2021/02/02 14:59:59",
-            main: ["Amos' Bow", "Skyward Pride"],
-            other: ["Sacrificial Sword", "The Bell", "Dragon's Bane", "Eye of Perception", "Favonius Warbow"]
-        },
-        {
-            title: "Event Wish \"Invitation to Mundane Life\" - Boosted Drop Rate for Xiao!",
-            roughDate: 1612342140,
-            img: "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Wish_Invitation_to_Mundane_Life_2021-02-03.jpg/revision/latest?cb=20210201040314",
-            duration: "After Version 1.3 update – 2021/02/17 15:59:59",
-            main: ["Xiao"],
-            other: ["Diona", "Beidou", "Xinyan"]
-        },
-        {
-            title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rates for Primordial Jade Cutter (Sword) and Primordial Jade Winged-Spear (Polearm)!",
-            roughDate: 1612342140,
-            img: "https://static.wikia.nocookie.net/gensin-impact/images/6/62/Wish_Epitome_Invocation_2021-02-03.jpg/revision/latest?cb=20210201040313",
-            duration: "After Version 1.3 update – 2021/02/23 15:59:59",
-            main: ["Primordial Jade Cutter", "Primordial Jade Winged-Spear"],
-            other: ["Rust", "Eye of Perception", "Favonius Lance", "Sacrificial Greatsword", "The Flute"]
-        },
-
-        // Official post is missing "Hu Tao"
-        {
-            title: "Event Wish \"Moment of Bloom\" - Boosted Drop Rate for \"Fragrance in Thaw\" Hu Tao (Pyro)!",
-            roughDate: 1614484802,
-            img: "https://upload-os-bbs.hoyolab.com/upload/2021/02/26/1015537/69f3f8de572f61e72199df941a0576d1_4005495037262847383.jpg",
-            duration: "2021/03/02 18:00:00 – 2021/03/16 14:59:59 ",
-            main: ["Hu Tao"],
-            other: ["Xingqiu", "Xiangling", "Chongyun"]
-        },
-
-        // Official post has date in image
-        {
-            title: "Event Wish \"Farewell of Snezhnaya\" - Boosted Drop Rate for \"Childe\" Tartaglia (Hydro)!",
-            roughDate: 1617422401,
-            img: "https://upload-os-bbs.hoyolab.com/upload/2021/04/02/1015537/b23dda81b6b9b0bb8a46b9adcd0e2a70_1479948151736832476.jpg",
-            duration: "2021/04/06 18:00:00 – 2021/04/27 14:59:59",
-            main: ["Tartaglia"],
-            other: ["Rosaria", "Barbara", "Fischl"]
-        }, {
-            title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rates for Skyward Harp (Bow) and Lost Prayer to the Sacred Winds (Catalyst)!",
-            roughDate: 1617422402,
-            img: "https://upload-os-bbs.hoyolab.com/upload/2021/04/02/1015537/2990bea9a81bbfa9aa348dbddaf0aad5_8867096048015043654.jpg",
-            duration: "2021/04/06 18:00:00 – 2021/04/27 14:59:59",
-            main: ["Skyward Harp", "Lost Prayer to the Sacred Winds"],
-            other: ["Alley Hunter", "Favonius Sword", "Sacrificial Greatsword", "Favonius Codex", "Favonius Lance"]
-        }
-    ]
 
     constructor(name: string) {
         super({
@@ -183,8 +182,8 @@ Note: this command supports fuzzy search.`,
             aliases: ["banner", "eventwish", "eventwishes", "ew"]
         })
 
-        client.newsManager.getEventWishes().forEach((news) => this.parse(news, false))
-        // Logger.info(this.wishes)
+        client.newsManager.getEventWishes().forEach((news) => parseEventWishNews(news, false))
+        // Logger.info(wishies)
     }
 
     async run(message: Message, args: string[]): Promise<Message | Message[] | undefined> {
@@ -192,7 +191,7 @@ Note: this command supports fuzzy search.`,
         args.shift()
         const otherArgs = args.join(" ")
 
-        const wishes = this.wishes.map((w, index) => {
+        const wishes = eventWishes.map((w, index) => {
             return { ...w, index: index + 1 }
         })
 
@@ -286,76 +285,79 @@ Note: this command supports fuzzy search.`,
         return embed
     }
 
-    parse(news: StoredNews, recent = true): void {
-        const { data } = client
-        const wish: {
-            title: string
-            img?: string
-            main?: string[]
-            other?: string[]
-            duration?: string
-            roughDate: number
-        } = {
-            title: news.subject,
-            roughDate: news.created_at
-        }
 
-        function split(str: string): string[] {
-            str = str.replace(/·/g, " ")
-            const names = data.getCharacters().map(x => x.name).concat(Object.keys(data.weapons)).sort((a, b) => a.length - b.length)
-            const found: string[] = []
+}
 
-            outer: for (const m of str.matchAll(/([A-Z].*?) \([A-Za-z]+?\)/g)) {
-                for (const name of names)
-                    if (m[1].trim().endsWith(name)) {
-                        found.push(name)
-                        continue outer
-                    }
-                Logger.error("Not found", m[1], "in", str)
-                found.push(m[1])
-            }
-
-            return found
-        }
-
-        const parsed = parseNewsContent(news.content, 1e6)
-        for (const page of parsed) {
-            if (wish.img == undefined && page.img)
-                wish.img = page.img
-
-            if (!page.text) continue
-
-            const lines = page.text.split("\n")
-            for (const i in lines) {
-                const line = lines[i].trim()
-                if (line.includes("Event Wish Duration"))
-                    wish.duration = lines[+i + 1].trim()
-
-                const mainMatch = line.match(/.*?5-star.*?(?:weapons?|characters?) (.*?) will (?:receive|get|recieve) a huge/)
-                if (mainMatch)
-                    wish.main = split(mainMatch[1])
-
-                const subMatch = line.match(/.*?4-star.*?(?:weapons?|characters?) (.*?) will (?:receive|get|recieve) a huge/)
-                if (subMatch)
-                    wish.other = split(subMatch[1])
-            }
-        }
-
-        if (wish.img && wish.main && wish.other && wish.duration) {
-            this.wishes.forEach(otherWish => {
-                if (otherWish.title == wish.title && otherWish.duration == wish.duration)
-                    this.wishes.splice(this.wishes.indexOf(otherWish))
-            })
-
-            this.wishes.push(wish as Wish)
-
-            this.wishes = this.wishes.sort((a, b) => {
-                if (Math.abs(a.roughDate - b.roughDate) < 3600)
-                    return a.title.includes("Epitome") ? 1 : -1
-                else
-                    return a.roughDate - b.roughDate
-            })
-        } else if (recent)
-            Logger.error(wish)
+export function parseEventWishNews(news: StoredNews, recent = true): void {
+    const { data } = client
+    const wish: {
+        title: string
+        img?: string
+        main?: string[]
+        other?: string[]
+        duration?: string
+        roughDate: number
+    } = {
+        title: news.subject,
+        roughDate: news.created_at
     }
+
+    function split(str: string): string[] {
+        str = str.replace(/·/g, " ")
+        const names = data.getCharacters().map(x => x.name).concat(Object.keys(data.weapons)).sort((a, b) => a.length - b.length)
+        const found: string[] = []
+
+        outer: for (const m of str.matchAll(/([A-Z][^"]*?) \([A-Za-z]+?\)/g)) {
+            for (const name of names)
+                if (m[1].trim().endsWith(name)) {
+                    found.push(name)
+                    continue outer
+                }
+            Logger.error("Not found", m[1], "in", str)
+            found.push(m[1])
+        }
+
+        return found
+    }
+
+    const parsed = parseNewsContent(news.content, 1e6)
+    for (const page of parsed) {
+        if (wish.img == undefined && page.img)
+            wish.img = page.img
+
+        if (!page.text) continue
+
+        const lines = page.text.split("\n")
+        for (const i in lines) {
+            const line = lines[i].trim()
+            if (line.includes("Event Wish Duration"))
+                wish.duration = lines[+i + 1].trim()
+
+            const mainMatch = line.match(/.*?5-star.*?(?:weapons?|characters?) (.*?) will (?:receive|get|recieve) a huge/)
+            if (mainMatch)
+                wish.main = split(mainMatch[1])
+
+            const subMatch = line.match(/.*?4-star.*?(?:weapons?|characters?) (.*?) will (?:receive|get|recieve) a huge/)
+            if (subMatch)
+                wish.other = split(subMatch[1])
+        }
+    }
+
+    if (wish.img && wish.main && wish.other && wish.duration) {
+        eventWishes.forEach(otherWish => {
+            if (otherWish.title == wish.title && otherWish.duration == wish.duration)
+                eventWishes.splice(eventWishes.indexOf(otherWish))
+        })
+
+        eventWishes.push(wish as Wish)
+        // Logger.info("Added", wish)
+
+        eventWishes = eventWishes.sort((a, b) => {
+            if (Math.abs(a.roughDate - b.roughDate) < 3600)
+                return a.title.includes("Epitome") ? 1 : -1
+            else
+                return a.roughDate - b.roughDate
+        })
+    } else if (recent)
+        Logger.error(wish)
 }
