@@ -349,10 +349,11 @@ function paginatorLoop(message: Message, reply: Message, pageInfo: Bookmarkable[
             if (user == undefined || reply.deleted) return
             await reply.edit({ components: [] })
         } else {
-            Logger.error("Error during pagination", error)
+            Logger.error("Error during pagination: ", error)
+            paginatorLoop(message, reply, pageInfo, currentPage)
         }
     }).catch(error => {
-        Logger.error("Error during pagination", error)
+        Logger.error("Error during pagination error handling: ", error)
     })
 }
 
