@@ -190,7 +190,7 @@ export default class DataManager {
 
     stat(name: string, value: number): string {
         // TODO base on name instead of value
-        return value < 2 ? ((value * 100).toFixed(0) + "%") : value.toFixed(0)
+        return value < 2 ? ((value * 100).toFixed(1) + "%") : value.toFixed(0)
     }
 
     statName(name: string): string {

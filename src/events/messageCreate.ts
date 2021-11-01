@@ -13,6 +13,7 @@ interface ParsedCommand {
 }
 
 function getCommand(message: Message): ParsedCommand | false {
+    if (!message.content.toLowerCase().startsWith(config.prefix)) return false
     const args = message.content.slice(config.prefix.length).trim().split(/ +/g)
     const command = args.shift()?.toLowerCase()
     if (!command) return false
@@ -27,7 +28,6 @@ function getCommand(message: Message): ParsedCommand | false {
         if (!cmd)
             return false
     }
-    if (!message.content.toLowerCase().startsWith(config.prefix)) return false
     return { args, command, cmd }
 }
 
