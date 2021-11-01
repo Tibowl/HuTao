@@ -639,7 +639,7 @@
         "name": "Event Wish \"Moment of Bloom\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/1321413",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/10/29/1015537/bab9cab398042cd549386100510d414f_1175730454692837461.jpg?x-oss-process=image/resize,s_740/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/10/29/1015537/bab9cab398042cd549386100510d414f_1175730454692837461.jpg",
         "start": "2021-11-02 18:00:00",
         "end": "2021-11-23 14:59:00",
         "reminder": "end"
@@ -648,7 +648,7 @@
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/1321405",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/10/29/1015537/f7040392ccb4a4c651e40eacfd4cfa89_8326757093621040168.jpg?x-oss-process=image/resize,s_740/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/10/29/1015537/f7040392ccb4a4c651e40eacfd4cfa89_8326757093621040168.jpg",
         "start": "2021-11-02 18:00:00",
         "end": "2021-11-23 14:59:00",
         "reminder": "end"
@@ -702,6 +702,15 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/10/12/1015537/79f9694f66d8552b43a10f9e0e602d9b_6627542800768168502.jpg",
         "start": "2021-10-13 12:00:00",
         "end": "2021-10-27 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Yummy! Barbecue Under the Stars\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/1327554",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/01/1015537/152cab65544a5e51721a6199055c694d_6050244755638616272.jpg",
+        "start": "2021-11-01 12:00:00",
+        "end": "2021-11-07 23:59:00",
         "reminder": "end"
     },
     {
