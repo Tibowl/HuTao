@@ -327,14 +327,14 @@ function paginatorLoop(message: Message, reply: Message, pageInfo: Bookmarkable[
         }
 
         if (name == "prev") {
-            currentPage = await updatePage(r, currentPage, currentPage - 1, pageInfo)
+            currentPage = await updatePage(r, reply, currentPage, currentPage - 1, pageInfo)
         } else if (name == "next") {
-            currentPage = await updatePage(r, currentPage, currentPage + 1, pageInfo)
+            currentPage = await updatePage(r, reply, currentPage, currentPage + 1, pageInfo)
         } else if (name) {
             let newPage = 0
             for (const pi of pageInfo) {
                 if (pi.bookmarkName == name) {
-                    currentPage = await updatePage(r, currentPage, newPage, pageInfo)
+                    currentPage = await updatePage(r, reply, currentPage, newPage, pageInfo)
                     break
                 }
                 newPage += pi.maxPages
@@ -366,13 +366,18 @@ function getPageEmbed(newPage: number, maxPages: number, pageInfo: Bookmarkable[
     }
     return bookmark.pages(newPage - currentPage, newPage + 1, maxPages)
 }
-async function updatePage(interaction: MessageComponentInteraction, oldPage: number, newPage: number, pageInfo: Bookmarkable[]): Promise<number> {
+async function updatePage(interaction: MessageComponentInteraction, reply: Message, oldPage: number, newPage: number, pageInfo: Bookmarkable[]): Promise<number> {
     const maxPages = pageInfo.reduce((p, c) => p + c.maxPages, 0)
 
     const embed = getPageEmbed(newPage, maxPages, pageInfo)
     if (!embed) return oldPage
 
-    await interaction.update({ embeds: [embed], components: getButtons(pageInfo, newPage, maxPages) })
+    const content = { embeds: [embed], components: getButtons(pageInfo, newPage, maxPages) }
+    try {
+        await interaction.update(content)
+    } catch (error) {
+        await reply.edit(content)
+    }
     return newPage
 }
 
