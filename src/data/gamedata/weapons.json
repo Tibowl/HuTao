@@ -14565,6 +14565,223 @@
       ]
     ]
   },
+  "Wavebreaker's Fin": {
+    "name": "Wavebreaker's Fin",
+    "desc": "A naginata forged from luminescent material deep in the ocean depths. It was once the possession of the tengu race.",
+    "weaponType": "Polearm",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 45.06869888305664,
+        "curve": "ATK 2.3"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.029999999329447746,
+        "curve": "C2"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Maria.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Maria_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ],
+        "cost": {
+          "mora": 5000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Mask of the Wicked Lieutenant"
+            },
+            {
+              "count": 3,
+              "name": "Concealed Claw"
+            },
+            {
+              "count": 2,
+              "name": "Old Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ],
+        "cost": {
+          "mora": 15000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Mask of the Tiger's Bite"
+            },
+            {
+              "count": 12,
+              "name": "Concealed Claw"
+            },
+            {
+              "count": 8,
+              "name": "Old Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Mask of the Tiger's Bite"
+            },
+            {
+              "count": 6,
+              "name": "Concealed Unguis"
+            },
+            {
+              "count": 6,
+              "name": "Kageuchi Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Mask of the One-Horned"
+            },
+            {
+              "count": 12,
+              "name": "Concealed Unguis"
+            },
+            {
+              "count": 9,
+              "name": "Kageuchi Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 35000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Mask of the One-Horned"
+            },
+            {
+              "count": 9,
+              "name": "Concealed Talon"
+            },
+            {
+              "count": 6,
+              "name": "Famed Handguard"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 4,
+              "name": "Mask of the Kijin"
+            },
+            {
+              "count": 18,
+              "name": "Concealed Talon"
+            },
+            {
+              "count": 12,
+              "name": "Famed Handguard"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "The naginata of \"Umigozen,\" the mighty warrior of Watatsumi. Its edge flows with the phosphorescence of the depths.\nThe way this person once made the navies of Narukami quail are well-recorded in the island's music.\n\nThe whalesong that the twin Watatsumi shrine maidens once sang followed the tide's flow into the dreams of the island's people.\nAll of Watatsumi's warriors pinned their hopes and will to fight upon their shoulders.\nAnd they brandished their nagamaki like a white, flowing wave, and with a loud shout advanced upon the other islands.\nYet the glory of Omikami and that of his warriors were dimmed by the lightning's glow...\nMouun was consumed by a dark storm of crow feathers, and the great whale who sang with the sisters sank to the bottom of the sea.\nThe vassal ruler, determined as a child, the vanguard of their forces, vanished into a rift rent into the very earth itself.\n\n\"Umigozen\" was lost to the waves, becoming a myth to the archipelago at large.\nSome say that she dove alone into the press of tengu warriors to reclaim the bodies of her comrades, and was lost after a valiant last stand.\nOthers say that she hid thenceforth, steering her flagship into the Dark Sea at the borders of the world...\nThe only proof that she once sought to change the tides of the world is this still-sharp naginata.\n\nAs long as the seas are yet disturbed by the waves, so too might the memory of her song live on.\nLegend even has it that the song yet echoes within seashells and the bellies of mighty whales at the bottom of the sea.",
+    "refinement": [
+      [
+        {
+          "name": "Watatsumi Wavewalker",
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.12%**. A maximum of **40%** increased Elemental Burst DMG can be achieved this way."
+        },
+        {
+          "name": "Watatsumi Wavewalker",
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.15%**. A maximum of **50%** increased Elemental Burst DMG can be achieved this way."
+        },
+        {
+          "name": "Watatsumi Wavewalker",
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.18%**. A maximum of **60%** increased Elemental Burst DMG can be achieved this way."
+        },
+        {
+          "name": "Watatsumi Wavewalker",
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.21%**. A maximum of **70%** increased Elemental Burst DMG can be achieved this way."
+        },
+        {
+          "name": "Watatsumi Wavewalker",
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.24%**. A maximum of **80%** increased Elemental Burst DMG can be achieved this way."
+        }
+      ]
+    ]
+  },
   "Favonius Codex": {
     "name": "Favonius Codex",
     "desc": "A secret tome that belonged to the scholars of the Knights of Favonius. It describes the logic and power of elements and matter.",
@@ -20404,6 +20621,223 @@
         {
           "name": "Strong Strike",
           "desc": "**Effective only on the following platform: **\n**\"PlayStation Network\"**\nDealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66."
+        }
+      ]
+    ]
+  },
+  "Mouun's Moon": {
+    "name": "Mouun's Moon",
+    "desc": "A lovely warbow made from seashells and coral. A mournful brilliance flows along its moonlight-colored arms.",
+    "weaponType": "Bow",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.734901428222656,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.05999999865889549,
+        "curve": "C2"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Maria.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Maria_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ],
+        "cost": {
+          "mora": 5000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Narukami's Wisdom"
+            },
+            {
+              "count": 3,
+              "name": "Dismal Prism"
+            },
+            {
+              "count": 2,
+              "name": "Spectral Husk"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ],
+        "cost": {
+          "mora": 15000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Narukami's Joy"
+            },
+            {
+              "count": 12,
+              "name": "Dismal Prism"
+            },
+            {
+              "count": 8,
+              "name": "Spectral Husk"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Narukami's Joy"
+            },
+            {
+              "count": 6,
+              "name": "Crystal Prism"
+            },
+            {
+              "count": 6,
+              "name": "Spectral Heart"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Narukami's Affection"
+            },
+            {
+              "count": 12,
+              "name": "Crystal Prism"
+            },
+            {
+              "count": 9,
+              "name": "Spectral Heart"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 35000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Narukami's Affection"
+            },
+            {
+              "count": 9,
+              "name": "Polarizing Prism"
+            },
+            {
+              "count": 6,
+              "name": "Spectral Nucleus"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 4,
+              "name": "Narukami's Valor"
+            },
+            {
+              "count": 18,
+              "name": "Polarizing Prism"
+            },
+            {
+              "count": 12,
+              "name": "Spectral Nucleus"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "The longbow once used by the Watatsumi shrine maiden Mouun,\nIt shines as pure white as the seafoam at the tip of a moonlit wave.\n\nThe shrine maiden was friends with the monsters of distant seas, and together they did battle against the thundering clouds for the sake of Watatsumi's transient dream.\nThe bosom companions rode the waves as one, looming ever in the spray created by the bows of ships...\nOn and on they went, pursuing the path of no return that Watatsumi was now on until they went together to the land of their tragic obliteration.\n\n\"Perhaps it is true that Lord Watatsumi Omikami's war was doomed from the start.\"\n\"But as long as we leave these memories behind, as long as we sow the seeds of sacrifice, this might all be worth it.\"\n\nThe songs of the past eulogize the tacit bond she shared with \"Umigozen\" as twins born of Watatsumi,\nAnd depict them, bow drawn and spear raised, bathing in the wave-spray of a ship's bow...\nThese distant songs recount how she rode with Touzannou upon the back of a sea creature in the night,\nThe broken tomorrows she whispered of, gently and mournfully, into the hero's ear...\n\nIn yet peaceful days, the twins once sang in chorus with the great whale of the deep sea,\nTelling of dismal days spent in the depths and the dark ever-night, and of Omikami and the radiant jade branches.\nShe once frolicked with that reckless young man, whose only strength was his strength...\n\n\"Once I bring that legendary Great Tengu's mask back, you have to keep our promise and finish that business.\"\n\n\"Sure, and if you're still so full of crap then, I'll get a whale to raise a wave large enough to wash that potty mouth of yours clean.\"",
+    "refinement": [
+      [
+        {
+          "name": "Watatsumi Wavewalker",
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.12%**. A maximum of **40%** increased Elemental Burst DMG can be achieved this way."
+        },
+        {
+          "name": "Watatsumi Wavewalker",
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.15%**. A maximum of **50%** increased Elemental Burst DMG can be achieved this way."
+        },
+        {
+          "name": "Watatsumi Wavewalker",
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.18%**. A maximum of **60%** increased Elemental Burst DMG can be achieved this way."
+        },
+        {
+          "name": "Watatsumi Wavewalker",
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.21%**. A maximum of **70%** increased Elemental Burst DMG can be achieved this way."
+        },
+        {
+          "name": "Watatsumi Wavewalker",
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.24%**. A maximum of **80%** increased Elemental Burst DMG can be achieved this way."
         }
       ]
     ]

@@ -51163,5 +51163,1225 @@
         ]
       }
     ]
+  },
+  "Thoma": {
+    "name": "Thoma",
+    "desc": "The Kamisato Clan's housekeeper. A well-known \"fixer\" in Inazuma.",
+    "releasedOn": "2021-11-02 18:00:00",
+    "star": 4,
+    "weaponType": "Polearm",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tohma.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Character_Thoma_Card.jpg/revision/latest?cb=20210830125722",
+      "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Character_Thoma_Game.png/revision/latest?cb=20211014130835"
+    ],
+    "hpBase": 866.2014770507812,
+    "attackBase": 16.917600631713867,
+    "defenseBase": 62.9474983215332,
+    "criticalBase": 0.05000000074505806,
+    "criticalHurtBase": 0.5,
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 4*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 4*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 4*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 1,
+      "birthDay": 9,
+      "association": "Inazuma",
+      "title": "Protector From Afar",
+      "detail": "The Kamisato Clan's housekeeper. A well-known \"fixer\" in Inazuma.",
+      "affiliation": "Yashiro Commission",
+      "element": "Pyro",
+      "constellation": "Rubeum Scutum",
+      "cvChinese": "张沛",
+      "cvJapanese": "森田成一",
+      "cvEnglish": "Christian Banas",
+      "cvKorean": "류승곤"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Swiftshatter Spear",
+            "desc": "**Normal Attack**\nPerforms up to four consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "44.4%",
+                  "48.0%",
+                  "51.6%",
+                  "56.8%",
+                  "60.4%",
+                  "64.5%",
+                  "70.2%",
+                  "75.9%",
+                  "81.6%",
+                  "87.8%",
+                  "93.9%",
+                  "100.1%",
+                  "106.3%",
+                  "112.5%",
+                  "118.7%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "43.6%",
+                  "47.2%",
+                  "50.7%",
+                  "55.8%",
+                  "59.4%",
+                  "63.4%",
+                  "69.0%",
+                  "74.6%",
+                  "80.2%",
+                  "86.2%",
+                  "92.3%",
+                  "98.4%",
+                  "104.5%",
+                  "110.6%",
+                  "116.7%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "26.8%×2",
+                  "29.0%×2",
+                  "31.2%×2",
+                  "34.3%×2",
+                  "36.4%×2",
+                  "38.9%×2",
+                  "42.4%×2",
+                  "45.8%×2",
+                  "49.2%×2",
+                  "53.0%×2",
+                  "56.7%×2",
+                  "60.4%×2",
+                  "64.2%×2",
+                  "67.9%×2",
+                  "71.6%×2"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "67.4%",
+                  "72.8%",
+                  "78.3%",
+                  "86.2%",
+                  "91.6%",
+                  "97.9%",
+                  "106.5%",
+                  "115.1%",
+                  "123.7%",
+                  "133.1%",
+                  "142.5%",
+                  "151.9%",
+                  "161.3%",
+                  "170.7%",
+                  "180.1%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "112.75%",
+                  "121.92%",
+                  "131.10%",
+                  "144.21%",
+                  "153.39%",
+                  "163.87%",
+                  "178.30%",
+                  "192.72%",
+                  "207.14%",
+                  "222.87%",
+                  "238.60%",
+                  "254.33%",
+                  "270.07%",
+                  "285.80%",
+                  "301.53%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "values": [
+                  "25.0",
+                  "25.0",
+                  "25.0",
+                  "25.0",
+                  "25.0",
+                  "25.0",
+                  "25.0",
+                  "25.0",
+                  "25.0",
+                  "25.0",
+                  "25.0",
+                  "25.0",
+                  "25.0",
+                  "25.0",
+                  "25.0"
+                ]
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "63.9%",
+                  "69.1%",
+                  "74.3%",
+                  "81.8%",
+                  "87.0%",
+                  "92.9%",
+                  "101.1%",
+                  "109.3%",
+                  "117.5%",
+                  "126.4%",
+                  "135.3%",
+                  "144.2%",
+                  "153.1%",
+                  "162.1%",
+                  "171.0%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "127.84%/159.68%",
+                  "138.24%/172.67%",
+                  "148.65%/185.67%",
+                  "163.51%/204.24%",
+                  "173.92%/217.23%",
+                  "185.81%/232.09%",
+                  "202.16%/252.51%",
+                  "218.51%/272.93%",
+                  "234.86%/293.36%",
+                  "252.70%/315.64%",
+                  "270.54%/337.92%",
+                  "288.38%/360.20%",
+                  "306.22%/382.48%",
+                  "324.05%/404.76%",
+                  "341.89%/427.04%"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Treasure Hoarder Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Hellfire Butterfly"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Hellfire Butterfly"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Hellfire Butterfly"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Hellfire Butterfly"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Blazing Blessing",
+            "desc": "Thoma vaults forward with his polearm and delivers a flame-filled flying kick that deals **AoE Pyro DMG**, while also summoning a defensive Blazing Barrier. At the moment of casting, Thoma's Elemental Skill applies **Pyro** to himself.\nThe DMG Absorption of the Blazing Barrier scales off Thoma's Max HP.\nThe Blazing Barrier has the following traits:\n·Absorbs **Pyro DMG** 250% more effectively.\n·When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\n\nThe maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.\n\n**As a guest from afar, only the most burning passion would allow one to master the pure and precise spear arts of Inazuma. Thoma's mastery, indeed, is not limited to being the \"swiftest-studying student\" or \"a master of the spear,\" but he has imbued his will to protect others and fend off foes into his art as well.**",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "Skill DMG",
+                "values": [
+                  "146.40%",
+                  "157.38%",
+                  "168.36%",
+                  "183.00%",
+                  "193.98%",
+                  "204.96%",
+                  "219.60%",
+                  "234.24%",
+                  "248.88%",
+                  "263.52%",
+                  "278.16%",
+                  "292.80%",
+                  "311.10%",
+                  "329.40%",
+                  "347.70%"
+                ]
+              },
+              {
+                "name": "Shield DMG Absorption",
+                "values": [
+                  "7.2% Max HP+693",
+                  "7.7% Max HP+763",
+                  "8.3% Max HP+838",
+                  "9.0% Max HP+919",
+                  "9.5% Max HP+1005",
+                  "10.1% Max HP+1098",
+                  "10.8% Max HP+1196",
+                  "11.5% Max HP+1300",
+                  "12.2% Max HP+1410",
+                  "13.0% Max HP+1525",
+                  "13.7% Max HP+1647",
+                  "14.4% Max HP+1774",
+                  "15.3% Max HP+1907",
+                  "16.2% Max HP+2046",
+                  "17.1% Max HP+2190"
+                ]
+              },
+              {
+                "name": "Shield Duration",
+                "values": [
+                  "8.0s",
+                  "8.0s",
+                  "8.0s",
+                  "8.0s",
+                  "8.0s",
+                  "8.0s",
+                  "8.0s",
+                  "8.0s",
+                  "8.0s",
+                  "8.0s",
+                  "8.0s",
+                  "8.0s",
+                  "8.0s",
+                  "8.0s",
+                  "8.0s"
+                ]
+              },
+              {
+                "name": "Max Shield DMG Absorption",
+                "values": [
+                  "19.6% Max HP+1887",
+                  "21.1% Max HP+2076",
+                  "22.5% Max HP+2281",
+                  "24.5% Max HP+2501",
+                  "26.0% Max HP+2737",
+                  "27.4% Max HP+2989",
+                  "29.4% Max HP+3256",
+                  "31.4% Max HP+3539",
+                  "33.3% Max HP+3838",
+                  "35.3% Max HP+4153",
+                  "37.2% Max HP+4483",
+                  "39.2% Max HP+4829",
+                  "41.7% Max HP+5191",
+                  "44.1% Max HP+5568",
+                  "46.5% Max HP+5962"
+                ]
+              },
+              {
+                "name": "CD",
+                "values": [
+                  "15.0s",
+                  "15.0s",
+                  "15.0s",
+                  "15.0s",
+                  "15.0s",
+                  "15.0s",
+                  "15.0s",
+                  "15.0s",
+                  "15.0s",
+                  "15.0s",
+                  "15.0s",
+                  "15.0s",
+                  "15.0s",
+                  "15.0s",
+                  "15.0s"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Treasure Hoarder Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Transience"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Silver Raven Insignia"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Hellfire Butterfly"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Hellfire Butterfly"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Hellfire Butterfly"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Transience"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Golden Raven Insignia"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Hellfire Butterfly"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ult": {
+          "name": "Crimson Ooyoroi",
+          "desc": "Thoma spins his polearm, slicing at his foes with roaring flames that deal **AoE Pyro DMG** and weave themselves into a Scorching Ooyoroi.\n\n**Scorching Ooyoroi**\nWhile Scorching Ooyoroi is in effect, the active character's Normal Attacks will trigger Fiery Collapse, dealing **AoE Pyro DMG** and summoning a Blazing Barrier.\nFiery Collapse can be triggered once every 1s.\n\nExcept for the amount of DMG they can absorb, the Blazing Barriers created in this way are identical to those created by Thoma's Elemental Skill, Blazing Blessing:\n·Absorbs **Pyro DMG** 250% more effectively.\n·When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\n\nThe maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.\n\nIf Thoma falls, the effects of Scorching Ooyoroi will be cleared.\n\n**\"I will not forget my initial promise. Let this burning flame protect those I cherish, and may it never be extinguished.\"**",
+          "charges": 1,
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "88.00%",
+                "94.60%",
+                "101.20%",
+                "110.00%",
+                "116.60%",
+                "123.20%",
+                "132.00%",
+                "140.80%",
+                "149.60%",
+                "158.40%",
+                "167.20%",
+                "176.00%",
+                "187.00%",
+                "198.00%",
+                "209.00%"
+              ]
+            },
+            {
+              "name": "Fiery Collapse DMG",
+              "values": [
+                "58.00%",
+                "62.35%",
+                "66.70%",
+                "72.50%",
+                "76.85%",
+                "81.20%",
+                "87.00%",
+                "92.80%",
+                "98.60%",
+                "104.40%",
+                "110.20%",
+                "116.00%",
+                "123.25%",
+                "130.50%",
+                "137.75%"
+              ]
+            },
+            {
+              "name": "Shield DMG Absorption",
+              "values": [
+                "1.1% Max HP+110",
+                "1.2% Max HP+121",
+                "1.3% Max HP+133",
+                "1.4% Max HP+146",
+                "1.5% Max HP+160",
+                "1.6% Max HP+174",
+                "1.7% Max HP+190",
+                "1.8% Max HP+206",
+                "1.9% Max HP+224",
+                "2.1% Max HP+242",
+                "2.2% Max HP+261",
+                "2.3% Max HP+282",
+                "2.4% Max HP+303",
+                "2.6% Max HP+325",
+                "2.7% Max HP+348"
+              ]
+            },
+            {
+              "name": "Shield Duration",
+              "values": [
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s",
+                "8.0s"
+              ]
+            },
+            {
+              "name": "Scorching Ooyoroi Duration",
+              "values": [
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s",
+                "15.0s"
+              ]
+            },
+            {
+              "name": "CD",
+              "values": [
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s"
+              ]
+            },
+            {
+              "name": "Energy Cost",
+              "values": [
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80"
+              ]
+            }
+          ],
+          "costs": [
+            {
+              "mora": 12500,
+              "items": [
+                {
+                  "count": 3,
+                  "name": "Teachings of Transience"
+                },
+                {
+                  "count": 6,
+                  "name": "Treasure Hoarder Insignia"
+                }
+              ]
+            },
+            {
+              "mora": 17500,
+              "items": [
+                {
+                  "count": 2,
+                  "name": "Guide to Transience"
+                },
+                {
+                  "count": 3,
+                  "name": "Silver Raven Insignia"
+                }
+              ]
+            },
+            {
+              "mora": 25000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Guide to Transience"
+                },
+                {
+                  "count": 4,
+                  "name": "Silver Raven Insignia"
+                }
+              ]
+            },
+            {
+              "mora": 30000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Guide to Transience"
+                },
+                {
+                  "count": 6,
+                  "name": "Silver Raven Insignia"
+                }
+              ]
+            },
+            {
+              "mora": 37500,
+              "items": [
+                {
+                  "count": 9,
+                  "name": "Guide to Transience"
+                },
+                {
+                  "count": 9,
+                  "name": "Silver Raven Insignia"
+                }
+              ]
+            },
+            {
+              "mora": 120000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Philosophies of Transience"
+                },
+                {
+                  "count": 4,
+                  "name": "Golden Raven Insignia"
+                },
+                {
+                  "count": 1,
+                  "name": "Hellfire Butterfly"
+                }
+              ]
+            },
+            {
+              "mora": 260000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Philosophies of Transience"
+                },
+                {
+                  "count": 6,
+                  "name": "Golden Raven Insignia"
+                },
+                {
+                  "count": 1,
+                  "name": "Hellfire Butterfly"
+                }
+              ]
+            },
+            {
+              "mora": 450000,
+              "items": [
+                {
+                  "count": 12,
+                  "name": "Philosophies of Transience"
+                },
+                {
+                  "count": 9,
+                  "name": "Golden Raven Insignia"
+                },
+                {
+                  "count": 2,
+                  "name": "Hellfire Butterfly"
+                }
+              ]
+            },
+            {
+              "mora": 700000,
+              "items": [
+                {
+                  "count": 16,
+                  "name": "Philosophies of Transience"
+                },
+                {
+                  "count": 12,
+                  "name": "Golden Raven Insignia"
+                },
+                {
+                  "count": 2,
+                  "name": "Hellfire Butterfly"
+                },
+                {
+                  "count": 1,
+                  "name": "Crown of Insight"
+                }
+              ]
+            }
+          ],
+          "type": "Fire"
+        },
+        "passive": [
+          {
+            "name": "Snap and Swing",
+            "desc": "When you **fish** successfully in Inazuma, Thoma's help grants a 20% chance of scoring a double catch.",
+            "minAscension": 0
+          },
+          {
+            "name": "Imbricated Armor",
+            "desc": "When your current active character obtains or refreshes a **Blazing Barrier**, this character's Shield Strength will increase by 5% for 6s.\nThis effect can be triggered once every 0.3s seconds. Max 5 stacks.",
+            "minAscension": 1
+          },
+          {
+            "name": "Flaming Assault",
+            "desc": "DMG dealt by **Crimson Ooyoroi**'s Fiery Collapse is increased by 2.2% of Thoma's Max HP.",
+            "minAscension": 4
+          }
+        ],
+        "constellations": [
+          {
+            "name": "A Comrade's Duty",
+            "desc": "When a character protected by Thoma's own **Blazing Barrier** (Thoma excluded) is attacked, Thoma's own **Blazing Blessing** CD is decreased by 3s, while his own **Crimson Ooyoroi**'s CD is decreased by 3s.\nThis effect can be triggered once every 20s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tohma_01.png"
+          },
+          {
+            "name": "A Subordinate's Skills",
+            "desc": "**Crimson Ooyoroi**'s duration is increased by 3s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tohma_02.png"
+          },
+          {
+            "name": "Fortified Resolve",
+            "desc": "Increases the Level of **Blazing Blessing** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Tohma_01.png"
+          },
+          {
+            "name": "Long-Term Planning",
+            "desc": "After using **Crimson Ooyoroi**, 15 Energy will be restored to Thoma.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tohma_03.png"
+          },
+          {
+            "name": "Raging Wildfire",
+            "desc": "Increases the Level of **Crimson Ooyoroi** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Tohma_02.png"
+          },
+          {
+            "name": "Burning Heart",
+            "desc": "When a **Blazing Barrier** is obtained or refreshed, the DMG dealt by all party members' Normal, Charged, and Plunging Attacks is increased by 15% for 6s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tohma_04.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "cost": {
+          "items": []
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "ATK%",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 1,
+              "name": "Agnidus Agate Sliver"
+            },
+            {
+              "count": 3,
+              "name": "Fluorescent Fungus"
+            },
+            {
+              "count": 3,
+              "name": "Treasure Hoarder Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 647.0968017578125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 47.025001525878906
+          },
+          {
+            "stat": "Base ATK",
+            "value": 12.638609886169434
+          },
+          {
+            "stat": "ATK%",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "cost": {
+          "mora": 40000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Agnidus Agate Fragment"
+            },
+            {
+              "count": 2,
+              "name": "Smoldering Pearl"
+            },
+            {
+              "count": 10,
+              "name": "Fluorescent Fungus"
+            },
+            {
+              "count": 15,
+              "name": "Treasure Hoarder Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1106.876220703125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 80.4375
+          },
+          {
+            "stat": "Base ATK",
+            "value": 21.618675231933594
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.05999999865889549
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "cost": {
+          "mora": 60000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Agnidus Agate Fragment"
+            },
+            {
+              "count": 4,
+              "name": "Smoldering Pearl"
+            },
+            {
+              "count": 20,
+              "name": "Fluorescent Fungus"
+            },
+            {
+              "count": 12,
+              "name": "Silver Raven Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1719.915283203125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 124.98750305175781
+          },
+          {
+            "stat": "Base ATK",
+            "value": 33.59209442138672
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "cost": {
+          "mora": 80000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Agnidus Agate Chunk"
+            },
+            {
+              "count": 8,
+              "name": "Smoldering Pearl"
+            },
+            {
+              "count": 30,
+              "name": "Fluorescent Fungus"
+            },
+            {
+              "count": 18,
+              "name": "Silver Raven Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2179.694580078125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 158.39999389648438
+          },
+          {
+            "stat": "Base ATK",
+            "value": 42.57215881347656
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "cost": {
+          "mora": 100000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Agnidus Agate Chunk"
+            },
+            {
+              "count": 12,
+              "name": "Smoldering Pearl"
+            },
+            {
+              "count": 45,
+              "name": "Fluorescent Fungus"
+            },
+            {
+              "count": 12,
+              "name": "Golden Raven Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2639.473876953125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 191.8125
+          },
+          {
+            "stat": "Base ATK",
+            "value": 51.552223205566406
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.18000000715255737
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "cost": {
+          "mora": 120000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Agnidus Agate Gemstone"
+            },
+            {
+              "count": 20,
+              "name": "Smoldering Pearl"
+            },
+            {
+              "count": 60,
+              "name": "Fluorescent Fungus"
+            },
+            {
+              "count": 24,
+              "name": "Golden Raven Insignia"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3099.253173828125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 225.22500610351562
+          },
+          {
+            "stat": "Base ATK",
+            "value": 60.532291412353516
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.23999999463558197
+          }
+        ]
+      }
+    ]
   }
 }
