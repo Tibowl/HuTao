@@ -665,7 +665,8 @@
     {
         "name": "\"Shadow of the Ancients\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/mUn6zm2.png",
+        "link": "https://www.hoyolab.com/article/1347382",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/03/1015537/616c10629869c58be9264e23b6922a9d_2245869766536648892.png",
         "start": "2021-11-05 10:00:00",
         "end": "2021-11-15 03:59:00",
         "reminder": "end"
