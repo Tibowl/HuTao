@@ -683,7 +683,8 @@
     {
         "name": "\"Dreams of Bloom\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/CmZGtPL.png",
+        "link": "https://www.hoyolab.com/article/1381133",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/10/1015537/61220d96f9cd9a639930adae66845830_1842959291222726901.jpg",
         "start": "2021-11-12 10:00:00",
         "end": "2021-11-18 03:59:00",
         "reminder": "end"
