@@ -2,7 +2,7 @@ Hu Tao
 =======
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A81MOVN)
 
-Hu Tao is a Genshin Impact discord bot. An invite link for this bot can be found [here](https://discord.com/api/oauth2/authorize?client_id=826550363355086918&scope=bot&permissions=319552). You can find the support Discord [here](https://discord.gg/BM3Srp8j8G).
+Hu Tao is a Genshin Impact discord bot. An invite link for this bot can be found [here](https://discord.com/oauth2/authorize?client_id=826550363355086918&scope=bot+applications.commands&permissions=313344). You can find the support Discord [here](https://discord.gg/BM3Srp8j8G).
 
 ## Required Permissions
 Please make sure the bot has these permissions inside the channels you want to use the bot. 
