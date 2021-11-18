@@ -513,11 +513,11 @@ export async function sendMessage(source: CommandSource, response: string | Mess
 
     try {
         if (source instanceof Message)
-            return source.channel.send({ content, embeds, components })
+            return await source.channel.send({ content, embeds, components })
         else
-            return source.reply({ content, embeds, components, fetchReply: true, ephemeral })
+            return await source.reply({ content, embeds, components, fetchReply: true, ephemeral })
     } catch (error) {
-        Logger.error(error)
+        Logger.error("sendMessage", error)
     }
 }
 

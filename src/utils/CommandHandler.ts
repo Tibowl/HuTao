@@ -77,7 +77,7 @@ async function handleStuff(id: string, msg: CommandResponse): Promise<void> {
     try {
         reply = await msg
     } catch (error) {
-        Logger.error(error)
+        Logger.error("handleStuff", error)
     }
     if (!reply) return
 
