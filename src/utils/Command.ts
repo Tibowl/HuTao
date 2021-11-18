@@ -37,7 +37,7 @@ export default abstract class Command {
     abstract runInteraction(source: CommandInteraction, command: string): CommandResponse
     abstract runMessage(source: Message, args: string[], command: string): CommandResponse
 
-    async sendHelp(source: CommandSource): Promise<SendMessage> {
+    async sendHelp(source: CommandSource): Promise<SendMessage | undefined> {
         return sendMessage(source, `Usage: \`${this.usage}\`
 See \`${config.prefix}help ${this.commandName}\` for more info`, undefined, true)
     }

@@ -499,7 +499,7 @@ export function getDeleteButton(): MessageActionRow {
     return row
 }
 
-export async function sendMessage(source: CommandSource, response: string | MessageEmbed, components?: (MessageActionRow)[], ephemeral?: boolean): Promise<SendMessage> {
+export async function sendMessage(source: CommandSource, response: string | MessageEmbed, components?: (MessageActionRow)[], ephemeral?: boolean): Promise<SendMessage | undefined> {
     let embeds: (MessageEmbed)[] | undefined
     let content: string | undefined
 
@@ -511,13 +511,17 @@ export async function sendMessage(source: CommandSource, response: string | Mess
     if (!components && !(ephemeral && !(source instanceof Message)) && source.channel?.type != "DM")
         components = [getDeleteButton()]
 
-    if (source instanceof Message)
-        return source.channel.send({ content, embeds, components })
-    else
-        return source.reply({ content, embeds, components, fetchReply: true, ephemeral })
+    try {
+        if (source instanceof Message)
+            return source.channel.send({ content, embeds, components })
+        else
+            return source.reply({ content, embeds, components, fetchReply: true, ephemeral })
+    } catch (error) {
+        Logger.error(error)
+    }
 }
 
-export function isMessage(msg: SendMessage | CommandSource): msg is Message {
+export function isMessage(msg: SendMessage | CommandSource | undefined): msg is Message {
     return msg instanceof Message
 }
 
