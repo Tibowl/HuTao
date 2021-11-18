@@ -41,7 +41,14 @@ export default class HuTaoClient extends Discord.Client {
     constructor() {
         super({
             intents,
-            partials: ["CHANNEL"]
+            partials: ["CHANNEL"],
+            presence: {
+                status: "idle",
+                activities: [{
+                    name: "Loading...",
+                    type: "PLAYING"
+                }]
+            }
         })
     }
 

@@ -1,9 +1,10 @@
-import { Message } from "discord.js"
+import { CommandInteraction, Message } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
 import config from "../../data/config.json"
 import { sendMessage } from "../../utils/Utils"
+import { CommandSource, SendMessage } from "../../utils/Types"
 
 export default class WeaponLevelCommand extends Command {
     constructor(name: string) {
@@ -17,17 +18,43 @@ Example from just a level: \`${config.prefix}wl 5* 60\`
 Example with target level: \`${config.prefix}wl 5* 60 70\`
 Example with experience: \`${config.prefix}wl 5* 60 1577 70\`
 If no target level provided, assuming max for current ascension. If no current level experience provided, assuming 0.`,
-            aliases: ["weapon-level", "wlevel", "wl"]
+            aliases: ["weapon-level", "wlevel", "wl"],
+            options: [{
+                name: "stars",
+                description: "Current level",
+                type: "NUMBER",
+                required: true,
+            }, {
+                name: "current-level",
+                description: "Current level",
+                type: "NUMBER",
+                required: true,
+            }, {
+                name: "target-level",
+                description: "Target level (default: max level and next ascension)",
+                type: "NUMBER"
+            }, {
+                name: "current-experience",
+                description: "Current experience over current level (default: 0)",
+                type: "NUMBER"
+            }]
         })
     }
 
-    async run(message: Message, args: string[]): Promise<Message | Message[]> {
-        const { data } = client
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        const { options } = source
 
+        const stars = options.getNumber("stars", true)
+        const currentLevel = options.getNumber("current-level", true)
+        const targetLevel = options.getNumber("target-level") ?? -1
+        const currentExperience = options.getNumber("current-experience") ?? 0
+
+        return this.run(source, stars, currentLevel, targetLevel, currentExperience)
+    }
+
+    async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
         if (args.length < 2 || args.length > 4)
-            return this.sendHelp(message)
-
-        const maxLevel = data.weaponLevels.length
+            return this.sendHelp(source)
 
         let stars = -1, currentLevel = -1, currentExperience = 0, targetLevel = -1
 
@@ -40,24 +67,31 @@ If no target level provided, assuming max for current ascension. If no current l
         if (args.length > 0)
             currentExperience = parseInt(args.pop()?.split("/")?.[0] ?? "")
 
+        return this.run(source, stars, currentLevel, targetLevel, currentExperience)
+    }
+
+    async run(source: CommandSource, stars: number, currentLevel: number, targetLevel: number, currentExperience: number): Promise<SendMessage | undefined> {
+        const { data } = client
+        const maxLevel = data.weaponLevels.length
+
         if (isNaN(targetLevel) || isNaN(currentLevel) || isNaN(currentExperience)
             || targetLevel > maxLevel || targetLevel < -1
             || currentLevel > maxLevel || currentLevel < 0
             || (targetLevel <= currentLevel && targetLevel !== -1)
             || stars <= 0 || stars > 5)
-            return this.sendHelp(message)
+            return this.sendHelp(source)
 
         if (targetLevel == -1) {
             const ascensions = Object.values(data.weapons).sort((a, b) => b.ascensions.length - a.ascensions.length)[0].ascensions
             const nextAscension = ascensions.sort((a, b) => a.level - b.level).find(a => currentLevel < a.maxLevel)?.maxLevel
 
             if (nextAscension == undefined || nextAscension == maxLevel)
-                return sendMessage(message, this.getWeaponLevelStuff(stars, currentLevel, currentExperience, maxLevel))
+                return sendMessage(source, this.getWeaponLevelStuff(stars, currentLevel, currentExperience, maxLevel))
             else
-                return sendMessage(message, this.getWeaponLevelStuff(stars, currentLevel, currentExperience, nextAscension) + "\n\n" + this.getWeaponLevelStuff(stars, currentLevel, currentExperience, maxLevel))
+                return sendMessage(source, this.getWeaponLevelStuff(stars, currentLevel, currentExperience, nextAscension) + "\n\n" + this.getWeaponLevelStuff(stars, currentLevel, currentExperience, maxLevel))
         }
 
-        return sendMessage(message, this.getWeaponLevelStuff(stars, currentLevel, currentExperience, targetLevel))
+        return sendMessage(source, this.getWeaponLevelStuff(stars, currentLevel, currentExperience, targetLevel))
     }
 
 

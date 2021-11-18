@@ -1,9 +1,10 @@
 import Command from "../../utils/Command"
-import Discord, { TextChannel, PermissionResolvable } from "discord.js"
+import { TextChannel, PermissionResolvable, CommandInteraction, Message } from "discord.js"
 import client from "../../main"
 import { CommandCategory } from "../../utils/Command"
 import config from "../../data/config.json"
-import { sendMessage } from "../../utils/Utils"
+import { getUserID, sendMessage } from "../../utils/Utils"
+import { CommandSource, SendMessage } from "../../utils/Types"
 
 const requiredPermissions: PermissionResolvable[] = [
     "ATTACH_FILES",
@@ -18,56 +19,36 @@ export default class Help extends Command {
             category: "Hidden",
             help: "Get some help.",
             usage: "help [command]",
-            aliases: ["command", "commands", "h"]
+            aliases: ["command", "commands", "h"],
+            options: [{
+                name: "name",
+                description: "Name of the command",
+                type: "STRING",
+            }]
         })
     }
 
-    async run(message: Discord.Message, args: string[]): Promise<Discord.Message | Discord.Message[]> {
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        const { options } = source
+
+        const command = options.getString("name")
+
+        return this.run(source, command)
+    }
+
+    async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
+        const command = args.length > 0 ? args.join(" ") : undefined
+
+        return this.run(source, command)
+    }
+
+    async run(source: CommandSource, name?: string | null): Promise<SendMessage | undefined> {
         const { commands } = client
-        if (!args || args.length < 1) {
-            const categorized: { [a in CommandCategory]: string[] } = {
-                Character: [],
-                Weapons: [],
-                Artifact: [],
-                News: [],
-                Misc: [],
-                Meta: [],
-                Admin: [],
-                Hidden: [],
-            }
-            commands.forEach(cmd => {
-                const category = cmd?.category ?? "Meta"
-                categorized[category].push(cmd.commandName)
-            })
-
-            const missingPerms: PermissionResolvable[] = []
-            if (message.channel instanceof TextChannel) {
-                const userPerms = await message.channel.permissionsFor(client.user ?? "")
-
-                for (const permission of requiredPermissions)
-                    if (userPerms && !userPerms.has(permission)) {
-                        missingPerms.push(permission)
-                    }
-            }
-
-            return sendMessage(message, `**Commands**: 
-
-${Object.entries(categorized)
-        .filter(([category]) =>
-            !(category.toLowerCase() == "hidden" ||
-                (!config.admins.includes(message.author.id) && category.toLowerCase() == "admin"))
-        ).map(([category, items]) => `**${category}**
-    ${items.sort((a, b) => a.localeCompare(b)).map(cmd => `${config.prefix}${cmd}`).join(", ")}`)
-        .join("\n")}
-
-*Make sure to check out \`${config.prefix}help <command name>\` for more information about a specific command, you might find some useful shortcuts/tips (like command aliases/how most search commands support fuzzy search).*
-*Any problems/suggestions? Check out \`${config.prefix}about\`.*${missingPerms.length > 0 ? `
-
-**NOTE**: This bot is missing some permissions required for optimal usage, please add ${missingPerms.join(", ")}`: ""}`)
+        if (!name) {
+            return this.sendCommands(source)
         }
 
-        let commandName = args[0]
-
+        let commandName = name
         let command = client.commands.get(commandName)
         // Check aliases
         if (command == null)
@@ -79,11 +60,55 @@ ${Object.entries(categorized)
             command = commands.find(k => k.commandName === commandName.replace(config.prefix, "") || (k.aliases||[]).includes(commandName.replace(config.prefix, "")))
 
         if (command == null)
-            return sendMessage(message, "Command does not exist")
+            return sendMessage(source, "Command does not exist")
 
-        return sendMessage(message, `${command.commandName} - ${command.help}
+        return sendMessage(source, `${command.commandName} - ${command.help}
 
 Usage: \`${config.prefix}${command.usage}\`${command.aliases ? `
 Aliases: ${command.aliases.map(k => `\`${k}\``).join(", ")}` : "None"}`)
+    }
+
+    async sendCommands(source: CommandSource): Promise<SendMessage | undefined> {
+        const { commands } = client
+
+        const categorized: { [a in CommandCategory]: string[] } = {
+            Character: [],
+            Weapons: [],
+            Artifact: [],
+            News: [],
+            Misc: [],
+            Meta: [],
+            Admin: [],
+            Hidden: [],
+        }
+        commands.forEach(cmd => {
+            const category = cmd?.category ?? "Meta"
+            categorized[category].push(cmd.commandName)
+        })
+
+        const missingPerms: PermissionResolvable[] = []
+        if (source.channel instanceof TextChannel) {
+            const userPerms = await source.channel.permissionsFor(client.user ?? "")
+
+            for (const permission of requiredPermissions)
+                if (userPerms && !userPerms.has(permission)) {
+                    missingPerms.push(permission)
+                }
+        }
+
+        return sendMessage(source, `**Commands**: 
+
+${Object.entries(categorized)
+        .filter(([category]) =>
+            !(category.toLowerCase() == "hidden" ||
+            (!config.admins.includes(getUserID(source)) && category.toLowerCase() == "admin"))
+        ).map(([category, items]) => `**${category}**
+    ${items.sort((a, b) => a.localeCompare(b)).map(cmd => `${config.prefix}${cmd}`).join(", ")}`)
+        .join("\n")}
+
+*Make sure to check out \`${config.prefix}help <command name>\` for more information about a specific command, you might find some useful shortcuts/tips (like command aliases/how most search commands support fuzzy search).*
+*Any problems/suggestions? Check out \`${config.prefix}about\`.*${missingPerms.length > 0 ? `
+
+**NOTE**: This bot is missing some permissions required for optimal usage, please add ${missingPerms.join(", ")}`: ""}`)
     }
 }

@@ -1,9 +1,9 @@
-import { Message, MessageEmbed } from "discord.js"
+import { CommandInteraction, Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
 import { addArg, Bookmarkable, Colors, createTable, PAD_END, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
-import { BotEmoji, Character, Skill } from "../../utils/Types"
+import { BotEmoji, Character, CommandSource, SendMessage, Skill } from "../../utils/Types"
 import config from "../../data/config.json"
 
 const elementTypes = client.data.getCharacters()
@@ -50,9 +50,86 @@ The list of characters can be filtered by using \`${config.prefix}c -[${possible
 Characters listed will be from any of the searched stars AND from any of the listed elements AND from any of the listed weapon types.
 
 Note: this command supports fuzzy search.`,
-            aliases: ["characters", "cstats", "cmeta", "c", "cascension", "char"]
+            aliases: ["characters", "cstats", "cmeta", "c", "cascension", "char"],
+            options: [{
+                name: "name",
+                description: "Character name",
+                type: "STRING",
+                required: false
+            }]
         })
     }
+
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        return this.run(source, (source.options.getString("name") ?? "").split(/ +/g))
+
+    }
+    async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
+        return this.run(source, args)
+    }
+
+    async run(source: CommandSource, args: string[]): Promise<SendMessage | undefined> {
+        const { data } = client
+
+        const elementFilter: string[] = []
+        for (const element of elementTypes)
+            addArg(args, [`-${element}`], () => elementFilter.push(element))
+
+        const weaponTypeFilter: string[] = []
+        for (const weaponType of weaponTypes)
+            addArg(args, [`-${weaponType}`], () => weaponTypeFilter.push(weaponType))
+
+        const starFilter: number[] = []
+        for (const star of possibleStars)
+            addArg(args, [`-${star}`, `-${star}*`], () => starFilter.push(star))
+
+        let talentMode: TalentMode = "LITTLE"
+        let defaultPage: string | number = 0
+
+        addArg(args, ["-low", "-l"], () => {
+            talentMode = "LOW"
+            defaultPage = 4
+        })
+        addArg(args, ["-high", "-h"], () => {
+            talentMode = "HIGH"
+            defaultPage = 4
+        })
+        addArg(args, ["-info", "-i"], () => defaultPage = 1)
+        addArg(args, ["-art", "-a"], () => defaultPage = "Art")
+        addArg(args, ["-stats", "-asc", "-ascensions", "-ascend"], () => defaultPage = 2)
+        addArg(args, ["-books", "-talentupgrade"], () => defaultPage = 3)
+        addArg(args, ["-skill", "-skills", "-talents", "-s", "-t"], () => defaultPage = 4)
+        addArg(args, ["-passive", "-passives", "-p"], () => defaultPage = "Passives")
+        addArg(args, ["-const", "-constellation", "-constellations", "-c"], () => defaultPage = "Constellations")
+
+        // for MC
+        if (elementFilter.includes("Anemo")) defaultPage = "Anemo"
+        if (elementFilter.includes("Geo")) defaultPage = "Geo"
+        if (elementFilter.includes("Electro")) defaultPage = "Electro"
+        if (elementFilter.includes("Pyro")) defaultPage = "Pyro"
+        if (elementFilter.includes("Dendro")) defaultPage = "Dendro"
+        if (elementFilter.includes("Cryo")) defaultPage = "Cryo"
+        if (elementFilter.includes("Hydro")) defaultPage = "Hydro"
+
+        const name = args.join(" ")
+        if (name.length == 0) {
+            const pages = this.getCharactersPages(elementFilter, weaponTypeFilter, starFilter)
+            if (pages.length == 0) return sendMessage(source, "No character data loaded")
+
+            await simplePaginator(source, (relativePage, currentPage, maxPages) => this.getCharacterPage(pages, relativePage, currentPage, maxPages), pages.length)
+            return undefined
+        }
+
+        const char = data.getCharacterByName(name)
+        if (char == undefined)
+            return sendMessage(source, "Unable to find character")
+
+        const charpages = this.getCharPages(char, talentMode)
+
+        await paginator(source, charpages, defaultPage)
+        return undefined
+    }
+
 
     getCharactersPages(elementFilter: string[], weaponTypeFilter: string[], starFilter: number[]): string[] {
         const { data } = client
@@ -94,67 +171,6 @@ Note: this command supports fuzzy search.`,
         const { data } = client
 
         return info.skills.map(skill => data.emoji(skill.ult.type)).join(", ")
-    }
-
-    async run(message: Message, args: string[]): Promise<Message | Message[] | undefined> {
-        const { data } = client
-
-        const elementFilter: string[] = []
-        for (const element of elementTypes)
-            addArg(args, [`-${element}`], () => elementFilter.push(element))
-
-        const weaponTypeFilter: string[] = []
-        for (const weaponType of weaponTypes)
-            addArg(args, [`-${weaponType}`], () => weaponTypeFilter.push(weaponType))
-
-        const starFilter: number[] = []
-        for (const star of possibleStars)
-            addArg(args, [`-${star}`, `-${star}*`], () => starFilter.push(star))
-
-        if (args.length == 0) {
-            const pages = this.getCharactersPages(elementFilter, weaponTypeFilter, starFilter)
-            if (pages.length == 0) return sendMessage(message, "No character data loaded")
-
-            await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getCharacterPage(pages, relativePage, currentPage, maxPages), pages.length)
-            return undefined
-        }
-
-        let talentMode: TalentMode = "LITTLE"
-        let defaultPage: string | number = 0
-
-        addArg(args, ["-low", "-l"], () => {
-            talentMode = "LOW"
-            defaultPage = 3
-        })
-        addArg(args, ["-high", "-h"], () => {
-            talentMode = "HIGH"
-            defaultPage = 3
-        })
-        addArg(args, ["-info", "-i"], () => defaultPage = 1)
-        addArg(args, ["-art", "-a"], () => defaultPage = "Art")
-        addArg(args, ["-stats", "-asc", "-ascensions", "-ascend"], () => defaultPage = 2)
-        addArg(args, ["-books", "-talentupgrade"], () => defaultPage = 3)
-        addArg(args, ["-skill", "-skills", "-talents", "-s", "-t"], () => defaultPage = 4)
-        addArg(args, ["-passive", "-passives", "-p"], () => defaultPage = "Passives")
-        addArg(args, ["-const", "-constellation", "-constellations", "-c"], () => defaultPage = "Constellations")
-
-        // for MC
-        if (elementFilter.includes("Anemo")) defaultPage = "Anemo"
-        if (elementFilter.includes("Geo")) defaultPage = "Geo"
-        if (elementFilter.includes("Electro")) defaultPage = "Electro"
-        if (elementFilter.includes("Pyro")) defaultPage = "Pyro"
-        if (elementFilter.includes("Dendro")) defaultPage = "Dendro"
-        if (elementFilter.includes("Cryo")) defaultPage = "Cryo"
-        if (elementFilter.includes("Hydro")) defaultPage = "Hydro"
-
-        const char = data.getCharacterByName(args.join(" "))
-        if (char == undefined)
-            return sendMessage(message, "Unable to find character")
-
-        const charpages = this.getCharPages(char, talentMode)
-
-        await paginator(message, charpages, defaultPage)
-        return undefined
     }
 
     getMainPage(char: Character, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {

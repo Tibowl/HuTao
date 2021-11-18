@@ -1,9 +1,10 @@
-import { Message, MessageEmbed } from "discord.js"
+import { CommandInteraction, Message, MessageEmbed } from "discord.js"
 import client from "../../main"
 
 import Command from "../../utils/Command"
-import { Colors, sendMessage, timeLeft } from "../../utils/Utils"
+import { Colors, getUserID, sendMessage, timeLeft } from "../../utils/Utils"
 import config from "../../data/config.json"
+import { CommandSource, SendMessage } from "../../utils/Types"
 
 export default class ReminderAdd extends Command {
     constructor(name: string) {
@@ -22,24 +23,41 @@ Example: \`${config.prefix}ar Specialties in 47h, 59m\`
 Example: \`${config.prefix}ar Parametric in 6 days and 22h\`
 Example: \`${config.prefix}ar Weekly boss in 36 resin\``,
             usage: "reminderadd <name> in <duration>",
-            aliases: ["remindme", "addreminder", "remind", "ar", "ra"]
+            aliases: ["remindme", "addreminder", "remind", "ar", "ra"],
+            options: [{
+                name: "args",
+                description: "Name (and time). Example: 'Ores' or 'Weekly Boss in 16 resin'",
+                type: "STRING",
+                required: true
+            }]
         })
     }
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        const { options } = source
 
-    async run(message: Message, args: string[]): Promise<Message | Message[] | undefined> {
-        const { reminderManager, timerManager } = client
-        const userid = message.author.id
+        const args = options.getString("args", true)
 
-        const reminders = reminderManager.getReminders(userid)
-        if (reminders.length >= 25) return sendMessage(message, `You can only have up to 25 reminders, see \`${config.prefix}reminders\` for which you have`)
+        return this.runMessage(source, args.split(/ +/g))
+    }
 
-        if (args.length < 1) return this.sendHelp(message)
+    async runMessage(source: Message|CommandInteraction, args: string[]): Promise<SendMessage | undefined> {
+        if (args.length < 1) return this.sendHelp(source)
 
         const words = args.map(l => l.toLowerCase())
-        let time = words.includes("in") ? args.splice(words.lastIndexOf("in")).slice(1).join(" ") : ""
+        const time = words.includes("in") ? args.splice(words.lastIndexOf("in")).slice(1).join(" ") : ""
         const name = args.join(" ") || "Unnamed reminder"
 
-        if (name.length > 128) return sendMessage(message, "Reminder name too long")
+        return this.run(source, name, time)
+    }
+
+    async run(source: CommandSource, name: string, time: string): Promise<SendMessage | undefined> {
+        const { reminderManager, timerManager } = client
+        const userid = getUserID(source)
+
+        const reminders = reminderManager.getReminders(userid)
+        if (reminders.length >= 25) return sendMessage(source, `You can only have up to 25 reminders, see \`${config.prefix}reminders\` for which you have`)
+
+        if (name.length > 128) return sendMessage(source, "Reminder name too long")
         if (time.length == 0) {
             if (name.match(/^Para(metric)?s?( Trans(former)?s?)?$/i)) time = "6 days and 22 hours"
             else if (name.match(/^(Ores?|Minerals?|(Blue )?Crystals?( Chunks?)?)$/i)) time = "3 days"
@@ -47,7 +65,7 @@ Example: \`${config.prefix}ar Weekly boss in 36 resin\``,
             else if (name.match(/Art(i|e)facts?( run)?$/i)) time = "1 day"
             else if (name.match(/^Daily/i)) time = "1 day"
             else if (name.match(/^Weekly/i)) time = "7 days"
-            else return this.sendHelp(message)
+            else return this.sendHelp(source)
         }
 
         let duration = 0
@@ -64,14 +82,14 @@ Example: \`${config.prefix}ar Weekly boss in 36 resin\``,
             else if (name.startsWith("r"))  duration += amount * client.data.minutes_per_resin * 60 * 1000
         }
 
-        if (duration == 0) return this.sendHelp(message)
+        if (duration == 0) return this.sendHelp(source)
 
         let id = 1
         while (reminders.some(r => r.id == id) || reminderManager.getReminderById(userid, id))
             id++
 
         const timestamp = Date.now() + duration
-        const reply = sendMessage(message,
+        const reply = sendMessage(source,
                                   new MessageEmbed()
                                       .setTitle(`Created reminder #${id}`)
                                       .setColor(Colors.GREEN)

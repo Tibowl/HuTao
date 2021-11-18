@@ -1,9 +1,10 @@
-import { Message, MessageEmbed } from "discord.js"
+import { CommandInteraction, Message, MessageEmbed } from "discord.js"
 import client from "../../main"
 
 import Command from "../../utils/Command"
-import { Colors, sendMessage, timeLeft } from "../../utils/Utils"
+import { Colors, getUserID, sendMessage, timeLeft } from "../../utils/Utils"
 import config from "../../data/config.json"
+import { CommandSource, SendMessage } from "../../utils/Types"
 
 export default class ReminderRemove extends Command {
     constructor(name: string) {
@@ -13,25 +14,45 @@ export default class ReminderRemove extends Command {
             help: `Delete a reminder
 
 Example: \`${config.prefix}dr 1\``,
-            usage: "reminderremove <name> in <duration>",
-            aliases: ["delreminder", "reminderdel", "reminderdelete", "deletereminder", "dr", "rr", "rreminder", "dreminder"]
+            usage: "reminderremove <id>",
+            aliases: ["delreminder", "reminderdel", "reminderdelete", "deletereminder", "dr", "rr", "rreminder", "dreminder"],
+            options: [{
+                name: "id",
+                description: "Current amount of resin",
+                type: "NUMBER",
+                required: true
+            }]
         })
     }
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        const { options } = source
 
-    async run(message: Message, args: string[]): Promise<Message | Message[] | undefined> {
+        const id = options.getNumber("id", true)
+
+        return this.run(source, id)
+    }
+
+    async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
+        if (args.length <= 0) return this.sendHelp(source)
+
+        if (args.length != 1) return this.sendHelp(source)
+
+        const id = +(args[0].replace("#", ""))
+        if (isNaN(id)) return this.sendHelp(source)
+
+        return this.run(source, id)
+    }
+
+    async run(source: CommandSource, id: number): Promise<SendMessage | undefined> {
         const { reminderManager } = client
-        const userid = message.author.id
+        const userid = getUserID(source)
 
         const reminders = reminderManager.getReminders(userid)
 
-        if (args.length != 1) return this.sendHelp(message)
-
-        const id = +(args[0].replace("#", ""))
-        if (isNaN(id)) return this.sendHelp(message)
 
         const reminder = reminders.find(r => r.id == id)
 
-        if (!reminder) return sendMessage(message, `Could not find reminder with ID #${id}`)
+        if (!reminder) return sendMessage(source, `Could not find reminder with ID #${id}`)
 
         const embed = new MessageEmbed()
             .setTitle(`Deleted reminder #${reminder.id}`)
@@ -42,7 +63,7 @@ You can re-start this reminder with \`${config.prefix}ar ${reminder.subject} in 
             .setFooter("In your local timezone")
             .setTimestamp(reminder.timestamp)
 
-        const reply = sendMessage(message, embed)
+        const reply = sendMessage(source, embed)
 
         reminderManager.deleteReminder(userid, id, reminder.timestamp)
 

@@ -57,6 +57,7 @@ export default class NewsManager {
         process.on("SIGTERM", () => process.exit(128 + 15))
 
         this.sql.exec("CREATE TABLE IF NOT EXISTS news (post_id TEXT, lang TEXT, type INT, subject TEXT, created_at INT, nickname TEXT, image_url TEXT, content TEXT, PRIMARY KEY (post_id, lang))")
+        this.sql.exec("CREATE INDEX IF NOT EXISTS news_post_id_lang ON news (post_id, lang)")
         this.sql.exec("CREATE INDEX IF NOT EXISTS news_post_id ON news (post_id)")
         this.sql.exec("CREATE INDEX IF NOT EXISTS news_lang ON news (lang)")
         this.sql.exec("CREATE INDEX IF NOT EXISTS news_created_at ON news (created_at)")

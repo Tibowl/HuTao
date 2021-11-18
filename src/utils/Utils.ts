@@ -1,10 +1,8 @@
-import {  Message, MessageEmbed, MessageAttachment, Snowflake, MessageActionRow, MessageButton, ColorResolvable } from "discord.js"
-
-import client from "./../main"
-import config from "./../data/config.json"
-import { Cover, Event, EventType, NameTable, Padding, Server, StoredNews } from "./Types"
+import { ColorResolvable, Message, MessageActionRow, MessageAttachment, MessageButton, MessageComponentInteraction, MessageEmbed, Snowflake } from "discord.js"
 import log4js from "log4js"
-import { MessageComponentInteraction } from "discord.js"
+import config from "./../data/config.json"
+import client from "./../main"
+import { CommandSource, Cover, Event, EventType, NameTable, Padding, SendMessage, Server, StoredNews } from "./Types"
 
 const Logger = log4js.getLogger("Utils")
 
@@ -313,9 +311,9 @@ function clean(line: string) {
 
 // Pagination functions
 const emojis = ["⬅️", "➡️"]
-function paginatorLoop(message: Message, reply: Message, pageInfo: Bookmarkable[], currentPage = 0): void {
+function paginatorLoop(id: string, reply: Message, pageInfo: Bookmarkable[], currentPage = 0): void {
     reply.awaitMessageComponent( {
-        filter: (interaction) => (interaction.user.id == message.author.id || config.admins.includes(interaction.user.id)),
+        filter: (interaction) => (interaction.user.id == id || config.admins.includes(interaction.user.id)),
         time: 60000
     }).then(async (r) => {
         const name = r.customId
@@ -341,7 +339,7 @@ function paginatorLoop(message: Message, reply: Message, pageInfo: Bookmarkable[
             }
         }
 
-        paginatorLoop(message, reply, pageInfo, currentPage)
+        paginatorLoop(id, reply, pageInfo, currentPage)
     }).catch(async (error) => {
         if (error.name == "Error [INTERACTION_COLLECTOR_ERROR]") {
             client.recentMessages = client.recentMessages.filter(k => k != reply)
@@ -350,7 +348,7 @@ function paginatorLoop(message: Message, reply: Message, pageInfo: Bookmarkable[
             await reply.edit({ components: [] })
         } else {
             Logger.error("Error during pagination: ", error)
-            paginatorLoop(message, reply, pageInfo, currentPage)
+            paginatorLoop(id, reply, pageInfo, currentPage)
         }
     }).catch(error => {
         Logger.error("Error during pagination error handling: ", error)
@@ -366,6 +364,7 @@ function getPageEmbed(newPage: number, maxPages: number, pageInfo: Bookmarkable[
     }
     return bookmark.pages(newPage - currentPage, newPage + 1, maxPages)
 }
+
 async function updatePage(interaction: MessageComponentInteraction, reply: Message, oldPage: number, newPage: number, pageInfo: Bookmarkable[]): Promise<number> {
     const maxPages = pageInfo.reduce((p, c) => p + c.maxPages, 0)
 
@@ -389,7 +388,8 @@ export type Bookmarkable = {
     maxPages: number
     invisible?: boolean
 }
-export async function paginator(message: Message, pageInfo: Bookmarkable[], startPage: number | string = 0): Promise<void> {
+
+export async function paginator(source: CommandSource, pageInfo: Bookmarkable[], startPage: number | string = 0): Promise<void> {
     const maxPages = pageInfo.reduce((p, c) => p + c.maxPages, 0)
 
     let currentPage = 0
@@ -410,14 +410,18 @@ export async function paginator(message: Message, pageInfo: Bookmarkable[], star
 
     if (!embed) return
 
-    const reply = await message.channel.send({ embeds: [embed], components: getButtons(pageInfo, currentPage, maxPages) })
+    const reply = await sendMessage(source, embed, getButtons(pageInfo, currentPage, maxPages))
+    if (!isMessage(reply)) {
+        Logger.info("Invalid reply in paginator")
+        return
+    }
 
-    paginatorLoop(message, reply, pageInfo, currentPage)
+    paginatorLoop(getUserID(source), reply, pageInfo, currentPage)
 
     client.recentMessages.push(reply)
 }
 
-export async function simplePaginator(message: Message, pager: PageFunction, maxPages: number, startPage = 0): Promise<void> {
+export async function simplePaginator(message: CommandSource, pager: PageFunction, maxPages: number, startPage = 0): Promise<void> {
     return paginator(message, [{
         bookmarkEmoji: "⏮️",
         bookmarkName: "Default",
@@ -495,20 +499,33 @@ export function getDeleteButton(): MessageActionRow {
     return row
 }
 
-export async function sendMessage(message: Message, content: string | MessageEmbed): Promise<Message | Message[]> {
-    if (message.channel.type == "DM")
-        if (typeof content == "string")
-            return message.channel.send(content)
-        else
-            return message.channel.send({ embeds: [content] })
+export async function sendMessage(source: CommandSource, response: string | MessageEmbed, components?: (MessageActionRow)[], ephemeral?: boolean): Promise<SendMessage> {
+    let embeds: (MessageEmbed)[] | undefined
+    let content: string | undefined
 
-    if (typeof content == "string")
-        return message.channel.send({
-            content,
-            components: [getDeleteButton()]
-        })
+    if (typeof response == "string")
+        content = response
     else
-        return message.channel.send({ embeds: [content], components: [getDeleteButton()] })
+        embeds = [response]
+
+    if (!components && !(ephemeral && !(source instanceof Message)) && source.channel?.type != "DM")
+        components = [getDeleteButton()]
+
+    if (source instanceof Message)
+        return source.channel.send({ content, embeds, components })
+    else
+        return source.reply({ content, embeds, components, fetchReply: true, ephemeral })
+}
+
+export function isMessage(msg: SendMessage | CommandSource): msg is Message {
+    return msg instanceof Message
+}
+
+export function getUserID(source: CommandSource): string {
+    if (isMessage(source))
+        return source.author.id
+    else
+        return source.user.id
 }
 
 export function addArg(args: string[], queries: string | string[], exec: () => void): void {

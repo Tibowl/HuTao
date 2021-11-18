@@ -1,9 +1,9 @@
-import { Message, TextChannel } from "discord.js"
+import { CommandInteraction, Message, TextChannel } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { FollowCategory } from "../../utils/Types"
-import { createTable, sendMessage } from "../../utils/Utils"
+import { CommandSource, FollowCategory, SendMessage } from "../../utils/Types"
+import { createTable, getUserID, sendMessage } from "../../utils/Utils"
 import config from "../../data/config.json"
 
 const descriptions: { [x in FollowCategory]: string } = {
@@ -44,73 +44,170 @@ export default class Follow extends Command {
 ${Object.entries(descriptions).map(([k, v]) => `  ${k}: *${v}*`).join("\n")}
 
 Example of adding news: \`${config.prefix}follow add news\``,
-            aliases: ["following", "notifications", "subscribe"]
+            aliases: ["following", "notifications", "subscribe"],
+            options: [{
+                name: "list",
+                description: "List the currently following events",
+                type: "SUB_COMMAND",
+                options: [{
+                    name: "category",
+                    description: "Category of the event",
+                    type: "STRING",
+                    required: false,
+                    choices: Object.keys(descriptions).map(d => {
+                        return {
+                            name: d,
+                            value: d
+                        }
+                    })
+                }]
+            }, {
+                name: "add",
+                description: "Add an category to follow in this channel",
+                type: "SUB_COMMAND",
+                options: [{
+                    name: "category",
+                    description: "Category of the event",
+                    type: "STRING",
+                    required: true,
+                    choices: Object.keys(descriptions).map(d => {
+                        return {
+                            name: d,
+                            value: d
+                        }
+                    })
+                }]
+            }, {
+                name: "remove",
+                description: "Remove an category to follow in this channel",
+                type: "SUB_COMMAND",
+                options: [{
+                    name: "category",
+                    description: "Category of the event",
+                    type: "STRING",
+                    required: true,
+                    choices: Object.keys(descriptions).map(d => {
+                        return {
+                            name: d,
+                            value: d
+                        }
+                    })
+                }]
+            }]
         })
     }
 
-    async run(message: Message, args: string[]): Promise<Message | Message[]> {
-        if (!(message.channel instanceof TextChannel) || message.guild == null)
-            return sendMessage(message, "This command can only be executed in guild channels. You can invite this bot in your own server via `.invite`")
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        if (!(source.channel instanceof TextChannel) || source.guild == null)
+            return sendMessage(source, "This command can only be executed in guild channels. You can invite this bot in your own server via `.invite`", undefined, true)
 
-        if (!message.member?.permissions.has("ADMINISTRATOR") && !config.admins.includes(message.author.id))
-            return sendMessage(message, "You do not have administrator rights in this server, and thus can't edit follows. If you still want to use this feature, add this bot in your own server via `.invite`")
+        if (typeof source.member?.permissions == "string")
+            return sendMessage(source, "Unable to check permissions", undefined, true)
+
+        if (!source.member?.permissions.has("ADMINISTRATOR") && !config.admins.includes(getUserID(source)))
+            return sendMessage(source, "You do not have administrator rights in this server, and thus can't edit follows. If you still want to use this feature, add this bot in your own server via `.invite`", undefined, true)
+
+        const { options } = source
+        const sub = options.getSubcommand()
+
+        if (sub == "list") {
+            return this.runList(source, options.getString("category") as (FollowCategory | null))
+        } else if (sub == "add") {
+            return this.runFollow(source, options.getString("category", true) as FollowCategory)
+        } else if (sub == "remove") {
+            return this.runUnfollow(source, options.getString("category", true) as FollowCategory)
+        }
+    }
+
+    async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
+        if (!(source.channel instanceof TextChannel) || source.guild == null)
+            return sendMessage(source, "This command can only be executed in guild channels. You can invite this bot in your own server via `.invite`", undefined, true)
+
+        if (!source.member?.permissions.has("ADMINISTRATOR") && !config.admins.includes(getUserID(source)))
+            return sendMessage(source, "You do not have administrator rights in this server, and thus can't edit follows. If you still want to use this feature, add this bot in your own server via `.invite`", undefined, true)
+
+        const sub = args[0]?.toLowerCase() ?? "help"
+        args.shift()
+        const otherArgs = args[0]
+
+        const category: FollowCategory | undefined = otherArgs ? Object.keys(descriptions).find(r => r.toLowerCase() == otherArgs.toLowerCase()) as (FollowCategory | undefined) : undefined
+        if (!category)
+            if (["list", "l"].includes(sub))
+                return this.runList(source)
+            else
+                return sendMessage(source, `Unknown event \`${otherArgs}\`, valid events: ${Object.keys(descriptions).map(k => `\`${k}\``).join(", ")}`, undefined, true)
+
+        if (["list", "l"].includes(sub)) {
+            return this.runList(source, category)
+        } else if (["add", "a", "follow", "enable", "on"].includes(args[0].toLowerCase())) {
+            return this.runFollow(source, category)
+        } else if (["remove", "delete", "d", "r", "disable", "off", "unfollow"].includes(sub)) {
+            return this.runUnfollow(source, category)
+        }
+    }
+
+    async runList(source: CommandSource, category?: FollowCategory | null): Promise<SendMessage | undefined> {
+        if (!(source.channel instanceof TextChannel) || source.guild == null)
+            return sendMessage(source, "Unable to check channel", undefined, true)
 
         const { followManager } = client
+        if (!category) {
+            const following = followManager.following(source.guild)
 
-        if (args.length < 2)
-            if (args.length > 0 && ["list"].includes(args[0].toLowerCase())) {
-                const following = followManager.following(message.guild)
+            const channels: {category: string, channelname: string}[] = []
+            for (const follow of following)
+                try {
+                    const channel = await client.channels.fetch(follow.channelID)
+                    if (channel instanceof TextChannel)
+                        channels.push({
+                            channelname: channel.name,
+                            category: follow.category
+                        })
+                } catch (error) {
+                    followManager.dropChannel(follow.channelID)
+                }
+            if (channels.length == 0) return sendMessage(source, "Following nothing", undefined, true)
 
-                const channels: {category: string, channelname: string}[] = []
-                for (const follow of following)
-                    try {
-                        const channel = await client.channels.fetch(follow.channelID)
-                        if (channel instanceof TextChannel)
-                            channels.push({
-                                channelname: channel.name,
-                                category: follow.category
-                            })
-                    } catch (error) {
-                        followManager.dropChannel(follow.channelID)
-                    }
-                if (channels.length == 0) return sendMessage(message, "Following nothing")
-
-                return sendMessage(message, `Following per event: \`\`\`
+            return sendMessage(source, `Following per event: \`\`\`
 ${createTable(
         ["Event", "|", "Channel"],
         channels.map(
             k => [k.category, "|", k.channelname]
-        ))}\`\`\``)
-            } else
-                return this.sendHelp(message)
+        ))}\`\`\``, undefined, true)
+        }
 
-        const category: FollowCategory | undefined = Object.keys(descriptions).find(r => r.toLowerCase() == args[1].toLowerCase()) as (FollowCategory | undefined)
-        if (!category)
-            return sendMessage(message, `Unknown event \`${args[1]}\`, valid events: ${Object.keys(descriptions).map(k => `\`${k}\``).join(", ")}`)
+        const follows = followManager.getFollows(source.channel, category)
+        if (follows.length == 0) return sendMessage(source, `Not following ${category}`, undefined, true)
+        return sendMessage(source, follows.map(k => `Following ${category} since ${new Date(k.addedOn).toLocaleString("en-UK", {
+            timeZone: "GMT",
+            hour12: false,
+            year: "numeric",
+            month: "numeric",
+            day: "numeric",
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit"
+        })} by ${k.addedBy}`).join("\n"), undefined, true)
+    }
 
-        if (["list", "l"].includes(args[0].toLowerCase())) {
-            const follows = followManager.getFollows(message.channel, category)
-            if (follows.length == 0) return sendMessage(message, `Not following ${category}`)
-            return sendMessage(message, follows.map(k => `Following ${category} since ${new Date(k.addedOn).toLocaleString("en-UK", {
-                timeZone: "GMT",
-                hour12: false,
-                year: "numeric",
-                month: "numeric",
-                day: "numeric",
-                hour: "2-digit",
-                minute: "2-digit",
-                second: "2-digit"
-            })} by ${k.addedBy}`).join("\n"))
+    async runUnfollow(source: CommandSource, category: FollowCategory): Promise<SendMessage | undefined> {
+        if (!(source.channel instanceof TextChannel) || source.guild == null)
+            return sendMessage(source, "Unable to check channel", undefined, true)
 
-        } else if (["remove", "delete", "d", "r", "disable", "off", "follow"].includes(args[0].toLowerCase())) {
-            followManager.unfollow(message.channel, category)
+        const { followManager } = client
 
-            return sendMessage(message, `Unfollowed ${category} in <#${message.channel.id}>`)
-        } else if (["add", "a", "follow", "enable", "on", "unfollow"].includes(args[0].toLowerCase())) {
-            followManager.addFollow(message.guild, message.channel, category, message.author)
+        followManager.unfollow(source.channel, category)
 
-            return sendMessage(message, `Now following ${category} in <#${message.channel.id}>`)
-        } else
-            return this.sendHelp(message)
+        return sendMessage(source, `Unfollowed ${category} in <#${source.channel.id}>`, undefined, true)
+    }
+    async runFollow(source: CommandSource, category: FollowCategory): Promise<SendMessage | undefined> {
+        if (!(source.channel instanceof TextChannel) || source.guild == null)
+            return sendMessage(source, "Unable to check channel", undefined, true)
+
+        const { followManager } = client
+
+        followManager.addFollow(source.guild, source.channel, category, getUserID(source))
+
+        return sendMessage(source, `Now following ${category} in <#${source.channel.id}>`, undefined, true)
     }
 }

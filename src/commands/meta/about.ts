@@ -1,8 +1,9 @@
-import { Message } from "discord.js"
+import { CommandInteraction, Message } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
 import { sendMessage } from "../../utils/Utils"
+import { CommandSource, SendMessage } from "../../utils/Types"
 
 export default class About extends Command {
     constructor(name: string) {
@@ -11,13 +12,22 @@ export default class About extends Command {
             category: "Meta",
             help: "Bot credits",
             usage: "credits",
-            aliases: ["credits", "invite", "support"]
+            aliases: ["credits", "invite", "support"],
+            options: []
         })
     }
 
-    async run(message: Message): Promise<Message | Message[]> {
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        return this.run(source)
+
+    }
+    async runMessage(source: Message): Promise<SendMessage | undefined> {
+        return this.run(source)
+    }
+
+    async run(source: CommandSource): Promise<SendMessage | undefined> {
         const me = (await client.users.fetch("127393188729192448")).tag
-        return sendMessage(message, `This is an open-source bot created by @${me}. The source-code is available on GitHub: <https://github.com/Tibowl/HuTao>.
+        return sendMessage(source, `This is an open-source bot created by @${me}. The source-code is available on GitHub: <https://github.com/Tibowl/HuTao>.
 Data is compiled from a variety of sources (including but not limited to official forum posts/e-mails/videos/posts elsewhere and Genshin Impact Wiki <https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki>).
 © All rights reserved by miHoYo. Other properties belong to their respective owners.
 

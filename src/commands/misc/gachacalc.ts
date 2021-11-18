@@ -1,10 +1,11 @@
-import { Message } from "discord.js"
+import { CommandInteraction, Message } from "discord.js"
 import memoize from "memoizee"
 
 import Command from "../../utils/Command"
 import config from "../../data/config.json"
 import { createTable, sendMessage } from "../../utils/Utils"
 import log4js from "log4js"
+import { CommandSource, SendMessage } from "../../utils/Types"
 
 const Logger = log4js.getLogger("GachaCalc")
 
@@ -85,24 +86,61 @@ Example with 70 pulls, 10 pity and guaranteed: \`${config.prefix}gachacalc 70 10
 Example with 70 pulls, 10 pity and guaranteed for 5 star weapon banner: \`${config.prefix}gachacalc weapon 70 10 y\`
 `,
             usage: "gachacalc [gacha] <pulls> [pity] [guaranteed]",
-            aliases: ["gc", "gachasim", "gcalc", "gsim", "gs"]
+            aliases: ["gc", "gachasim", "gcalc", "gsim", "gs"],
+            options: [{
+                name: "pulls",
+                description: "Amount of pulls to simulate",
+                type: "NUMBER",
+                required: true
+            }, {
+                name: "gacha",
+                description: "Start with guaranteed rate up",
+                type: "STRING",
+                choices: [{
+                    name: "Character banner (5*)",
+                    value: "char"
+                }, {
+                    name: "Specific rate-up 4* on character banner",
+                    value: "4*char"
+                }, {
+                    name: "Weapon banner (specific rate-up 5*)",
+                    value: "weapon"
+                }],
+                required: false
+            }, {
+                name: "pity",
+                description: "Amount of pity to start at",
+                type: "NUMBER",
+                required: false
+            }, {
+                name: "guaranteed",
+                description: "Start with guaranteed rate up",
+                type: "BOOLEAN",
+                required: false
+            }]
         })
     }
 
-    async run(message: Message, args: string[]): Promise<Message | Message[]> {
-        if (args.length <= 0) return this.sendHelp(message)
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        const { options } = source
+
+        const gacha = options.getString("gacha") ?? "char"
+        const pulls = options.getNumber("pulls", true)
+        const pity = options.getNumber("pity") ?? 0
+        const guaranteed = options.getBoolean("guaranteed") ?? false
+
+        return this.run(source, gacha, pulls, pity, guaranteed)
+    }
+
+    async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
+        if (args.length <= 0) return this.sendHelp(source)
 
         let gacha = "char"
         if (Object.keys(gachas).includes(args[0].toLowerCase()))
             gacha = args.shift()?.toLowerCase() ?? "char"
 
         const pulls = parseInt(args[0] ?? "75")
-        if (isNaN(pulls) || pulls <= 0 || pulls > 9999)
-            return sendMessage(message, "Invalid pulls amount, should be a number greater than 1")
-
         const pity = parseInt(args[1] ?? "0")
-        if (isNaN(pity) || pity < 0 || pity >= 90) // TODO check banner
-            return sendMessage(message, "Invalid pity amount, should be a number between 0 (inclusive) and 90 (exclusive)")
 
         let guaranteed = false
         if (args[2]?.match(/y(es)?|t(rue)?|g(uaranteed)?/))
@@ -110,16 +148,24 @@ Example with 70 pulls, 10 pity and guaranteed for 5 star weapon banner: \`${conf
         else if (args[2]?.match(/no?|f(alse)?|50\/50|75\/25/))
             guaranteed = false
         else if (args[2])
-            return sendMessage(message, "Invalid 50/50, should be y(es)/g(uaranteed) or n(o)/50/50")
+            return sendMessage(source, "Invalid 50/50, should be y(es)/g(uaranteed) or n(o)/50/50")
+        return this.run(source, gacha, pulls, pity, guaranteed)
+    }
 
+    async run(source: CommandSource, gacha: string, pulls: number, pity: number, guaranteed: boolean): Promise<SendMessage | undefined> {
         const banner = gachas[gacha]
+
+        if (isNaN(pulls) || pulls <= 0 || pulls > 9999)
+            return sendMessage(source, "Invalid pulls amount, should be a number greater than 1")
+        if (isNaN(pity) || pity <= 0 || pity > banner.maxPity)
+            return sendMessage(source, `Invalid pity amount, should be a number between 1 and ${banner.maxPity}`)
 
         const start = Date.now()
         const sims = this.calcSims(pity, pulls, guaranteed, gacha)
         const time = Date.now() - start
         Logger.info(`Calculation done in ${time}ms`)
 
-        return sendMessage(message, `**${banner.bannerName}** in **${pulls}** pulls, starting from **${pity}** pity and **${guaranteed ? "guaranteed" : `${banner.banner * 100}/${(1 - banner.banner) * 100}`}** banner:
+        return sendMessage(source, `**${banner.bannerName}** in **${pulls}** pulls, starting from **${pity}** pity and **${guaranteed ? "guaranteed" : `${banner.banner * 100}/${(1 - banner.banner) * 100}`}** banner:
 \`\`\`
 ${createTable(
         [banner.constName, "Rate"],
@@ -205,7 +251,9 @@ ${createTable(
                     continue
                 }
                 const currentPity = sim.pity + 1
-                const rate = banner.rate(currentPity) / 100
+                let rate = banner.rate(currentPity) / 100
+                if (rate > 1) rate = 1
+                else if (rate < 0) rate = 0
                 const bannerRate = sim.guaranteed ? 1 : banner.banner
 
                 // Failed

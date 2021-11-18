@@ -1,9 +1,9 @@
-import { Message, MessageEmbed } from "discord.js"
+import { CommandInteraction, Message, MessageEmbed } from "discord.js"
 import client from "../../main"
 
 import Command from "../../utils/Command"
-import { displayTimestamp, sendMessage, simplePaginator } from "../../utils/Utils"
-import { Reminder } from "../../utils/Types"
+import { displayTimestamp, getUserID, sendMessage, simplePaginator } from "../../utils/Utils"
+import { CommandSource, Reminder, SendMessage } from "../../utils/Types"
 import config from "../../data/config.json"
 
 export default class Reminders extends Command {
@@ -11,21 +11,30 @@ export default class Reminders extends Command {
         super({
             name,
             category: "Misc",
+            shortHelp: "List of current reminders, see reminderadd and reminderremove for more info.",
             help: `List current reminders, see \`${config.prefix}help reminderadd\` on how to add a reminder, see \`${config.prefix}help reminderremove\` on how to delete reminders`,
             usage: "reminders",
-            aliases: ["listreminders", "r", "lr", "rs"]
+            aliases: ["listreminders", "r", "lr", "rs"],
+            options: []
         })
     }
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        return this.run(source)
+    }
 
-    async run(message: Message): Promise<Message | Message[] | undefined> {
+    async runMessage(source: Message): Promise<SendMessage | undefined> {
+        return this.run(source)
+    }
+
+    async run(source: CommandSource): Promise<SendMessage | undefined> {
         const { reminderManager } = client
-        const reminders = reminderManager.getReminders(message.author.id)
-        if (reminders.length == 0) return sendMessage(message, `You don't have any reminders saved, see \`${config.prefix}help reminderadd\` on how to add a reminder`)
+        const reminders = reminderManager.getReminders(getUserID(source))
+        if (reminders.length == 0) return sendMessage(source, `You don't have any reminders saved, see \`${config.prefix}help reminderadd\` on how to add a reminder`)
 
         const maxPages = Math.ceil(reminders.length / 10)
-        if (reminders.length <= 10) return sendMessage(message, this.getReminders(reminders, 0, 1, 1))
+        if (reminders.length <= 10) return sendMessage(source, this.getReminders(reminders, 0, 1, 1))
 
-        await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getReminders(reminders, relativePage, currentPage, maxPages), maxPages)
+        await simplePaginator(source, (relativePage, currentPage, maxPages) => this.getReminders(reminders, relativePage, currentPage, maxPages), maxPages)
         return undefined
     }
 
