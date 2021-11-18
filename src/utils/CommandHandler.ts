@@ -73,7 +73,12 @@ export async function handleLegacyCommand(cmdInfo: ParsedCommand, message: Messa
 
 async function handleStuff(id: string, msg: CommandResponse): Promise<void> {
     if (!msg) return
-    const reply = await msg
+    let reply
+    try {
+        reply = await msg
+    } catch (error) {
+        Logger.error(error)
+    }
     if (!reply) return
 
     if (!(reply instanceof Message) && !(Array.isArray(reply))) {
