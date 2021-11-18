@@ -44,10 +44,10 @@ export async function handleCommand(cmdInfo: ParsedCommand, interaction: Command
     try {
         const startTime = Date.now()
         const msg = cmd.runInteraction(interaction, command)
-        if (!msg || interaction.channel?.type == "DM") return
         const id = interaction.user.id
         const midTime = Date.now()
-        await handleStuff(id, msg)
+        if (msg && interaction.channel?.type !== "DM")
+            await handleStuff(id, msg)
         const endTime = Date.now()
         Logger.debug(`${cmdInfo.command} took ${midTime - startTime}ms, sending took ${endTime - midTime}ms, message->start took ${startTime - interaction.createdTimestamp}ms`)
     } catch (error) {
