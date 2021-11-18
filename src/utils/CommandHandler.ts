@@ -42,10 +42,14 @@ export function addStats(cmdInfo: ParsedCommand): void {
 export async function handleCommand(cmdInfo: ParsedCommand, interaction: CommandInteraction): Promise<void> {
     const { command, cmd } = cmdInfo
     try {
+        const startTime = Date.now()
         const msg = cmd.runInteraction(interaction, command)
         if (!msg || interaction.channel?.type == "DM") return
         const id = interaction.user.id
+        const midTime = Date.now()
         await handleStuff(id, msg)
+        const endTime = Date.now()
+        Logger.debug(`${cmdInfo.command} took ${midTime - startTime}ms, sending took ${endTime - midTime}ms, message->start took ${startTime - interaction.createdTimestamp}ms`)
     } catch (error) {
         Logger.error(error)
     }
@@ -55,9 +59,13 @@ export async function handleCommand(cmdInfo: ParsedCommand, interaction: Command
 export async function handleLegacyCommand(cmdInfo: ParsedCommand, message: Message, args: string[]): Promise<void> {
     const { command, cmd } = cmdInfo
     try {
+        const startTime = Date.now()
         const msg = cmd.runMessage(message, args, command)
         const id = message.author.id
+        const midTime = Date.now()
         await handleStuff(id, msg)
+        const endTime = Date.now()
+        Logger.debug(`${cmdInfo.command} took ${midTime - startTime}ms, sending took ${endTime - midTime}ms, message->start took ${startTime - message.createdTimestamp}ms`)
     } catch (error) {
         Logger.error(error)
     }

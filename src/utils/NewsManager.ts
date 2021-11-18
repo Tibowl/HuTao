@@ -82,6 +82,7 @@ export default class NewsManager {
         if (this.lastFetched > Date.now() - 30 * 1000) return
         this.lastFetched = Date.now()
 
+        Logger.debug("Checking for new news posts...")
         for (const language of Object.keys(languages) as FollowCategory[])
             for (const type of [1, 2, 3]) {
                 try {
@@ -114,7 +115,8 @@ export default class NewsManager {
                     const articles: News[] = data.data.list
                     for (const article of articles.reverse()) {
                         const post_id = article.post.post_id
-                        if (this.getNewsByIdLang(post_id, langid)) continue
+                        if (this.hasNewsByIdLangCached(post_id, langid)) continue
+                        this.invalidateHasNewsByIdLangCache()
 
                         Logger.info(`Fetching new post: ${language} ${post_id} - ${article.post.subject}`)
                         let fetched
@@ -178,6 +180,22 @@ export default class NewsManager {
             post_id,
             lang
         })
+    }
+
+    private hasNewsCache: Map<string, boolean> = new Map()
+    hasNewsByIdLangCached(post_id: string, lang: NewsLang): boolean {
+        const key = post_id + lang
+        const value = this.hasNewsCache.get(key)
+        if (value == undefined) {
+            const newValue = !!this.getNewsByIdLang(post_id, lang)
+            this.hasNewsCache.set(key, newValue)
+            return newValue
+        }
+        return value
+    }
+
+    invalidateHasNewsByIdLangCache(): void {
+        this.hasNewsCache = new Map()
     }
 
     private getEventWishesStatement: SQLite.Statement
