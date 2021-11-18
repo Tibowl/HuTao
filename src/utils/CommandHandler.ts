@@ -49,7 +49,7 @@ export async function handleCommand(cmdInfo: ParsedCommand, interaction: Command
         const midTime = Date.now()
         await handleStuff(id, msg)
         const endTime = Date.now()
-        Logger.debug(`${cmdInfo.command} took ${midTime - startTime}ms, sending took ${endTime - midTime}ms, message->start took ${startTime - interaction.createdTimestamp}ms`)
+        Logger.info(`[DEBUG] ${cmdInfo.command} took ${midTime - startTime}ms, sending took ${endTime - midTime}ms, message->start took ${startTime - interaction.createdTimestamp}ms`)
     } catch (error) {
         Logger.error(error)
     }
@@ -65,7 +65,7 @@ export async function handleLegacyCommand(cmdInfo: ParsedCommand, message: Messa
         const midTime = Date.now()
         await handleStuff(id, msg)
         const endTime = Date.now()
-        Logger.debug(`${cmdInfo.command} took ${midTime - startTime}ms, sending took ${endTime - midTime}ms, message->start took ${startTime - message.createdTimestamp}ms`)
+        Logger.info(`[DEBUG] ${cmdInfo.command} took ${midTime - startTime}ms, sending took ${endTime - midTime}ms, message->start took ${startTime - message.createdTimestamp}ms`)
     } catch (error) {
         Logger.error(error)
     }

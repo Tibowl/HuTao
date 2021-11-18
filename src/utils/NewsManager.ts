@@ -82,7 +82,7 @@ export default class NewsManager {
         if (this.lastFetched > Date.now() - 30 * 1000) return
         this.lastFetched = Date.now()
 
-        Logger.debug("Checking for new news posts...")
+        Logger.info("[DEBUG] Checking for new news posts...")
         for (const language of Object.keys(languages) as FollowCategory[])
             for (const type of [1, 2, 3]) {
                 try {

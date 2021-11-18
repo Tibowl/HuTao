@@ -25,8 +25,8 @@ export default class Tweetmanager {
         const follow = Object.values(this.tweeters).map(k => k ?? "")
         this.stream = T.stream("statuses/filter", { follow })
         this.stream.on("tweet", async (tweet: Tweet) => this.handleTweet(tweet).catch(Logger.error))
-        this.stream.on("limit", l => Logger.debug("Twitter limit", l))
-        this.stream.on("warning", w => Logger.debug("Twitter warning", w))
+        this.stream.on("limit", l => Logger.info("[DEBUG] Twitter limit", l))
+        this.stream.on("warning", w => Logger.info("[DEBUG] Twitter warning", w))
         this.stream.on("error", e => Logger.error("Twitter error", e))
 
         Logger.info(`Following ${follow.length} twitter account(s)!`)
@@ -37,9 +37,9 @@ export default class Tweetmanager {
         const tweetLink = `https://twitter.com/${tweet.user.screen_name}/status/${tweet.id_str}`
 
         if (tweet.retweeted_status && Object.values(this.tweeters).includes(tweet.retweeted_status.user.id_str))
-            return Logger.debug(`Skipping RT ${tweetLink}`)
+            return Logger.info(`[DEBUG] Skipping RT ${tweetLink}`)
         if (tweet.in_reply_to_user_id_str && !Object.values(this.tweeters).includes(tweet.in_reply_to_user_id_str))
-            return Logger.debug(`Skipping random reply ${tweetLink}`)
+            return Logger.info(`[DEBUG] Skipping random reply ${tweetLink}`)
 
         let text = (tweet.extended_tweet?.full_text ?? tweet.text).replace(/&gt;/g, ">").replace(/&lt;/g, "<")
 
