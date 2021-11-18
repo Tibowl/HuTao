@@ -157,8 +157,8 @@ Example with 70 pulls, 10 pity and guaranteed for 5 star weapon banner: \`${conf
 
         if (isNaN(pulls) || pulls <= 0 || pulls > 9999)
             return sendMessage(source, "Invalid pulls amount, should be a number greater than 1")
-        if (isNaN(pity) || pity <= 0 || pity > banner.maxPity)
-            return sendMessage(source, `Invalid pity amount, should be a number between 1 and ${banner.maxPity}`)
+        if (isNaN(pity) || pity < 0 || pity > banner.maxPity)
+            return sendMessage(source, `Invalid pity amount, should be a number between 0 and ${banner.maxPity}`)
 
         const start = Date.now()
         const sims = this.calcSims(pity, pulls, guaranteed, gacha)
