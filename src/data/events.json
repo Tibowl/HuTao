@@ -716,6 +716,16 @@
         "reminder": "end"
     },
     {
+        "name": "\"A Thousand Questions With Paimon\" Quiz Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/1419212",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/16/1015537/870f1a8b2a817620fc1d5f05fa46178f_5388840515738343619.jpg",
+        "start": "2021-11-19 13:00:00",
+        "end": "2021-11-21 23:59:59",
+        "reminder": "daily",
+        "remindtime": "04:00:00"
+    },
+    {
         "name": "2.3 Special Program",
         "type": "Stream",
         "link": "https://www.hoyolab.com/article/1377013",
