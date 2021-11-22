@@ -736,15 +736,25 @@
     {
         "name": "2.3 Maintenance",
         "type": "Maintenance",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/1432402",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/22/1015537/16e082ef2173a4baced7e2e2394139bb_1630389562323895439.jpg",
         "start": "2021-11-24 06:00:00",
         "end": "2021-11-24 11:00:00"
     },
     {
-        "name": "Event Wishes \"Secretum Secretorum\" and \"Born of Ocean Swell\"",
+        "name": "Event Wishes \"Secretum Secretorum\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/vAdX5aD.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/1432611",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/19/1015537/21312fbcddc4c542a6db2a45870d1e1c_1739550797452216548.jpg",
+        "start": "2021-11-24 11:00:00",
+        "end": "2021-12-14 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wishes \"Born of Ocean Swell\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/1432612",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/19/1015537/e6f83945ea2410bbeb2ad05ae88c0148_1358919906986922846.jpg",
         "start": "2021-11-24 11:00:00",
         "end": "2021-12-14 17:59:00",
         "reminder": "end"
@@ -752,7 +762,8 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/1432613e",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/19/1015537/c33c252a39318a29509e30d90c3ce183_1666493581406037042.jpg",
         "start": "2021-11-24 11:00:00",
         "end": "2021-12-14 17:59:00",
         "reminder": "end"
@@ -778,13 +789,17 @@
     {
         "name": "\"Shadows Amidst Snowstorms\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/AyHKu9o.png",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/19/1015537/b3a6de1ebdd461f5bcf8c51bbfdbbd9e_7589301927653114877.jpeg",
+        "start": "2021-11-25 10:00:00",
+        "end": "2022-12-13 03:59:00",
         "reminder": "end"
     },
     {
         "name": "\"Bantan Sango Case Files: The Warrior Dog\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/KtdFMBG.png",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/19/1015537/e4a6f8d819aa18f92d3432b13cab3ba6_5893306215123068773.jpeg",
+        "start": "2021-12-07 10:00:00",
+        "end": "2022-12-20 03:59:00",
         "reminder": "end"
     },
     {
