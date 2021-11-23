@@ -736,8 +736,8 @@
     {
         "name": "2.3 Maintenance",
         "type": "Maintenance",
-        "link": "https://www.hoyolab.com/article/1432402",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/22/1015537/16e082ef2173a4baced7e2e2394139bb_1630389562323895439.jpg",
+        "link": "https://www.hoyolab.com/article/1444727",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/23/1015537/584703ceda1ba910595cfe396acff62a_5517132867233226511.jpg",
         "start": "2021-11-24 06:00:00",
         "end": "2021-11-24 11:00:00"
     },
@@ -789,7 +789,8 @@
     {
         "name": "\"Shadows Amidst Snowstorms\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/19/1015537/b3a6de1ebdd461f5bcf8c51bbfdbbd9e_7589301927653114877.jpeg",
+        "link": "https://www.hoyolab.com/article/1444728",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/23/1015537/b4ebf1dcdb6ecb755d86a4bc5c6f7d7e_8607022947506152936.jpg",
         "start": "2021-11-25 10:00:00",
         "end": "2021-12-13 03:59:00",
         "reminder": "end"
