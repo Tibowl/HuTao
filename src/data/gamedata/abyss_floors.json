@@ -1787,5 +1787,139 @@
         ]
       }
     ]
+  },
+  "32": {
+    "teams": 2,
+    "leyline": "Geo DMG dealt by all party members increased by 60%.\nPhysical DMG dealt by all party members' increased by 60%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 87,
+        "conds": "More than 20/40/60% HP left",
+        "monsters": [
+          [
+            "Rock Shieldwall Mitachurl",
+            "Electro Samachurl",
+            "Hydro Samachurl",
+            "Hilichurl Berserker",
+            "Rock Shieldwall Mitachurl",
+            "Rock Shield Hilichurl Guard",
+            "Hilichurl Fighter",
+            "Electro Hilichurl Grenadier",
+            "Hilichurl Grenadier",
+            "Cryo Hilichurl Shooter",
+            "Pyro Hilichurl Shooter"
+          ],
+          [
+            "Nobushi: Jintouban",
+            "Nobushi: Hitsukeban",
+            "Nobushi: Kikouban",
+            "Treasure Hoarders: Gravedigger",
+            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders - Crusher",
+            "Treasure Hoarders - Marksman",
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders: Hydro Potioneer",
+            "Treasure Hoarders: Electro Potioneer",
+            "Treasure Hoarders: Cryo Potioneer"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 89,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Frostarm Lawachurl",
+            "Large Pyro Slime",
+            "Large Cryo Slime",
+            "Large Hydro Slime"
+          ],
+          [
+            "Kairagi: Dancing Thunder",
+            "Kairagi: Fiery Might",
+            "Nobushi: Jintouban",
+            "Nobushi: Hitsukeban",
+            "Nobushi: Kikouban"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 91,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Hydro Mimic Frog",
+            "Hydro Mimic Finch",
+            "Hydro Mimic Boar",
+            "Hydro Mimic Ferret",
+            "Hydro Mimic Crab",
+            "Hydro Mimic Crane",
+            "Hydro Specter",
+            "Anemo Specter"
+          ],
+          [
+            "Ruin Cruiser",
+            "Ruin Defender",
+            "Ruin Scout"
+          ]
+        ]
+      }
+    ]
+  },
+  "33": {
+    "teams": 2,
+    "leyline": "For this floor only, the ley line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 94,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Thundercraven Rifthound",
+            "Thundercraven Rifthound Whelp"
+          ],
+          [
+            "Rockfond Rifthound",
+            "Rockfond Rifthound Whelp"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 97,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Geovishap"
+          ],
+          [
+            "Maguu Kenki: Lone Gale",
+            "Maguu Kenki: Galloping Frost",
+            "Maguu Kenki: Mask of Terror"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 99,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Thundercraven Rifthound",
+            "Ruin Cruiser",
+            "Ruin Defender"
+          ],
+          [
+            "Rockfond Rifthound",
+            "Rockfond Rifthound Whelp",
+            "Ruin Guard"
+          ]
+        ]
+      }
+    ]
   }
 }
