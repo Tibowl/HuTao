@@ -19,9 +19,12 @@ export default class TimerManager {
                 return
             }
 
+            const start = Date.now()
             this.activityTimer = setTimeout(updateActivity, 30000)
 
             this.queueTimers()
+            const end = Date.now()
+            Logger.debug(`Checking for timers took ${end - start}ms`)
 
             await client.user.setActivity(config.activity, {
                 type: "LISTENING"

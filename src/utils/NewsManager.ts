@@ -97,13 +97,13 @@ export default class NewsManager {
                         try {
                             this.lastFetched = Date.now()
                             if (langid == "bbs-zh-cn")
-                                data = await (await fetch(`https://bbs-api.mihoyo.com/post/wapi/getNewsList?gids=2&page_size=20&type=${type}`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, timeout: 29000 })).json()
+                                data = await (await fetch(`https://bbs-api.mihoyo.com/post/wapi/getNewsList?gids=2&page_size=20&type=${type}`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, timeout: 15000 })).json()
                             else
                                 data = await (await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getNewsList?gids=2&page_size=20&type=${type}`, { headers: { "x-rpc-language": langid, Referer: "https://www.hoyolab.com/" }, timeout: 29000 })).json()
                             break
                         } catch (error) {
                             Logger.error(`Failed to fetch ${language} - ${type}, attempt #${attempt}.`)
-                            if (attempt == 5) throw error
+                            if (attempt == 8) throw error
                         }
                     }
                     if (!data) continue
@@ -120,12 +120,22 @@ export default class NewsManager {
 
                         Logger.info(`Fetching new post: ${language} ${post_id} - ${article.post.subject}`)
                         let fetched
-                        if (langid == "bbs-zh-cn")
-                            fetched = await fetch(`https://bbs-api.mihoyo.com/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, timeout: 29000 })
-                        else
-                            fetched = await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, timeout: 29000 })
+                        for (let attempt = 1; attempt <= 5; attempt++)
+                            try {
+                                this.lastFetched = Date.now()
+                                if (langid == "bbs-zh-cn")
+                                    fetched = await fetch(`https://bbs-api.mihoyo.com/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, timeout: 15000 })
+                                else
+                                    fetched = await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, timeout: 29000 })
+                                break
+                            } catch (error) {
+                                Logger.error(`Failed to fetch ${language} - ${type}, attempt #${attempt}.`)
+                                if (attempt == 8) throw error
+                            }
 
+                        if (!fetched) continue
                         const postdata = await fetched.json()
+
                         this.lastFetched = Date.now()
                         if (!postdata?.data?.post) continue
 
