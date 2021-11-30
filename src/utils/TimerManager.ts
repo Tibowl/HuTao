@@ -11,6 +11,7 @@ const Logger = log4js.getLogger("TimerManager")
 export default class TimerManager {
     activityTimer: NodeJS.Timeout | undefined = undefined
     queuedUntil = Date.now() - 20000
+    lastActivity = 0
 
     init(): void {
         const updateActivity = async (): Promise<void> => {
@@ -26,9 +27,13 @@ export default class TimerManager {
             const end = Date.now()
             Logger.debug(`Checking for timers took ${end - start}ms`)
 
-            await client.user.setActivity(config.activity, {
-                type: "LISTENING"
-            })
+            if (Date.now() - this.lastActivity > 300 * 1000) {
+                this.lastActivity = Date.now()
+                await client.user.setActivity(config.activity, {
+                    type: "LISTENING"
+                })
+                Logger.debug(`Updating activity took ${Date.now() - end}ms`)
+            }
         }
 
         if (this.activityTimer == undefined)
