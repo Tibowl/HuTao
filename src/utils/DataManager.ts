@@ -11,10 +11,12 @@ import artifactsMainLevels from "../data/gamedata/artifact_main_levels.json"
 import characterData from "../data/gamedata/characters.json"
 import characterCurves from "../data/gamedata/character_curves.json"
 import characterLevels from "../data/gamedata/character_levels.json"
+import booksData from "../data/gamedata/books.json"
 
 import weaponData from "../data/gamedata/weapons.json"
 import weaponCurves from "../data/gamedata/weapon_curves.json"
 import weaponLevels from "../data/gamedata/weapon_levels.json"
+import weaponMats from "../data/gamedata/weapon_mats.json"
 
 import abyssFloors from "../data/gamedata/abyss_floors.json"
 import abyssSchedule from "../data/gamedata/abyss_schedule.json"
@@ -52,6 +54,9 @@ export default class DataManager {
 
     readonly events: Event[] = eventData as Event[]
     readonly emojis: Record<BotEmoji, string> = emojiData
+
+    readonly books: Record<string, string[]> = booksData
+    readonly weaponMats: Record<string, string[]> = weaponMats
 
     constructor() {
         try {

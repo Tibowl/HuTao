@@ -27,12 +27,7 @@ export default class Books extends Command {
 
     async run(source: CommandSource): Promise<SendMessage | undefined> {
         const { data } = client
-
-        const books = {
-            "Monday & Thursday": ["Freedom", "Prosperity", "Transience"],
-            "Tuesday & Friday": ["Resistance", "Diligence", "Elegance"],
-            "Wednesday & Saturday": ["Ballad", "Gold", "Light"],
-        }
+        const { books } = data
 
         return sendMessage(source, `**Talent Books**:
 ${Object.entries(books).map(([day, books]) => `**${day}**: ${books.map(book => `${data.emoji(`Guide to ${book}`)} ${book}`).join(" / ")}`).join("\n")}

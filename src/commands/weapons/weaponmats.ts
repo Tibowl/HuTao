@@ -27,15 +27,10 @@ export default class WeaponMats extends Command {
 
     async run(source: CommandSource): Promise<SendMessage | undefined> {
         const { data } = client
-
-        const mats = {
-            "Monday & Thursday": ["Debris of Decarabian's City", "Lustrous Stone from Guyun", "Jeweled Branch of a Distant Sea"],
-            "Tuesday & Friday": ["Boreal Wolf's Cracked Tooth", "Mist Veiled Mercury Elixir", "Narukami's Joy"],
-            "Wednesday & Saturday": ["Chains of the Dandelion Gladiator", "Piece of Aerosiderite", "Mask of the Tiger's Bite"],
-        }
+        const { weaponMats } = data
 
         return sendMessage(source, `**Weapon Ascension Materials**:
-${Object.entries(mats).map(([day, mats]) => `**${day}**: ${mats.map(mat => data.emoji(mat, true)).join(" / ")}`).join("\n")}
+${Object.entries(weaponMats).map(([day, mats]) => `**${day}**: ${mats.map(mat => data.emoji(mat, true)).join(" / ")}`).join("\n")}
 **Sunday**: All materials are available`)
     }
 }
