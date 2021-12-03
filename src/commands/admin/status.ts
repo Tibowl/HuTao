@@ -1,10 +1,11 @@
-import { Message, Snowflake } from "discord.js"
+import { CommandInteraction, Message, Snowflake } from "discord.js"
 import child_process from "child_process"
 
 import Command from "../../utils/Command"
 import client from "../../main"
 import config from "../../data/config.json"
 import { displayTimestamp, sendMessage } from "../../utils/Utils"
+import { CommandSource, SendMessage } from "../../utils/Types"
 
 export default class Status extends Command {
     constructor(name: string) {
@@ -14,11 +15,25 @@ export default class Status extends Command {
             help: "Get bot status. Admins only.",
             usage: "status [more]",
             aliases: ["version"],
+            options: [{
+                name: "expanded",
+                description: "Show more information",
+                type: "BOOLEAN",
+                required: false
+            }]
         })
     }
 
-    async run(message: Message, args: string[]): Promise<Message | Message[]> {
-        if (!config.admins.includes(message.author.id)) return sendMessage(message, "Admins only")
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        return this.run(source, source.user.id, source.options.getBoolean("expanded") ?? false)
+
+    }
+    async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
+        return this.run(source, source.author.id, args && args.length > 0)
+    }
+
+    async run(source: CommandSource, id: string, moreInfo: boolean): Promise<SendMessage | undefined> {
+        if (!config.admins.includes(id)) return sendMessage(source, "Admins only")
         const { data } = client
 
         const formatTime = (sec: number): string => {
@@ -44,17 +59,17 @@ export default class Status extends Command {
         }
 
         const stats = data.store.stats
-        if (stats == undefined) return sendMessage(message, "Stats are unavailable, try again later")
+        if (stats == undefined) return sendMessage(source, "Stats are unavailable, try again later")
 
         const abyss = client.data.getAbyssSchedules()
 
         const totalCommands = Object.keys(stats).map(k => Object.values(stats[k]).reduce((a, b) => a+b, 0)).reduce((a, b) => a+b, 0)
-        return sendMessage(message, `Running on commit <${getVersion()}>
+        return sendMessage(source, `Running on commit <${getVersion()}>
 Memory heap usage: ${getMemoryUsage()}
 Current uptime: ${formatTime(process.uptime())}
 Cache: in ${client.channels.cache.size} channels on ${client.guilds.cache.size} servers, for a total of ${client.users.cache.size} users.
 Total commands executed: ${totalCommands}
-${args && args.length > 0 ? `
+${moreInfo ? `
 News: ${new Date(client.newsManager.lastFetched).toISOString()} (${displayTimestamp(new Date(client.newsManager.lastFetched))})
 
 Artifact sets: ${Object.keys(client.data.artifacts).length}
@@ -66,6 +81,6 @@ Emojis: ${Object.keys(client.data.emojis).length}
 Resin: ${client.data.minutes_per_resin} m/resin; capped at ${client.data.max_resin}
 
 Admins: ${await getAdmins()}
-`:""}`)
+`:""}`, undefined, true)
     }
 }

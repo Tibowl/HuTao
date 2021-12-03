@@ -614,5 +614,71 @@
       30,
       31
     ]
+  },
+  "29": {
+    "start": "2021-12-01 04:00:00",
+    "end": "2021-12-16 03:59:59",
+    "buff": "Exacting Moon",
+    "buffDesc": "You will obtain 1 Extract stack after obtaining a shard created through the Crystallize reaction, which will increase the DMG dealt by your active character by 8% for 10s. Max 3 stacks. When characters possessing 3 stacks obtain more Crystallize reaction-created shards, they will unleash a shockwave that deals True DMG to opponents. Shockwaves created this way can occur every 3s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      32,
+      33
+    ]
+  },
+  "30": {
+    "start": "2021-12-16 04:00:00",
+    "end": "2022-01-01 03:59:59",
+    "buff": "Stonesoul Moon",
+    "buffDesc": "When there is a Geo construct near your active character, your Charged Attacks deal 30% more DMG and the Stamina they consumed is decreased by 50%.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      32,
+      33
+    ]
+  },
+  "31": {
+    "start": "2022-01-01 04:00:00",
+    "end": "2022-01-16 03:59:59",
+    "buff": "Pureshade Moon",
+    "buffDesc": "When a character deals Elemental DMG to opponents with a Normal ATK, Charged ATK, Plunging ATK, Elemental Skill, or Elemental Burst, all party members gain 10% Bonus DMG for that element, and will gain 10% more Bonus DMG every 3s until they obtain 100% Bonus Elemental DMG through this Blessing of the Abyssal Moon. When a character deals a different type of Elemental DMG to an opponent this way, the previous Elemental DMG Bonus gained will reset.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      32,
+      33
+    ]
   }
 }

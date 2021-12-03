@@ -1,9 +1,9 @@
-import { Message, MessageEmbed } from "discord.js"
+import { CommandInteraction, Message, MessageEmbed } from "discord.js"
 import log4js from "log4js"
 import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
-import { StoredNews } from "../../utils/Types"
+import { CommandSource, SendMessage, StoredNews } from "../../utils/Types"
 import { Colors, findFuzzy, parseNewsContent, sendMessage, simplePaginator } from "../../utils/Utils"
 
 
@@ -179,35 +179,73 @@ You can find more information about a specific banner or just browse through all
 For example: \`${config.prefix}ew v 17\`
 
 Note: this command supports fuzzy search.`,
-            aliases: ["banner", "eventwish", "eventwishes", "ew"]
+            aliases: ["banner", "eventwish", "eventwishes", "ew"],
+            options: [{
+                name: "search",
+                description: "Search for banners that contain a certain character/weapon",
+                type: "SUB_COMMAND",
+                options: [{
+                    name: "query",
+                    description: "Name of the character or weapon",
+                    type: "STRING",
+                    required: true
+                }]
+            }, {
+                name: "list",
+                description: "Search for banners that contain a certain character/weapon",
+                type: "SUB_COMMAND",
+                options: [{
+                    name: "filter",
+                    description: "Name of the character or weapon",
+                    type: "STRING",
+                    choices: [{
+                        name: "Both",
+                        value: "both"
+                    }, {
+                        name: "Weapons",
+                        value: "weapons"
+                    }, {
+                        name: "Characters",
+                        value: "char"
+                    }]
+                }]
+            }, {
+                name: "view",
+                description: "Browse through the current and past banners or view a specific one",
+                type: "SUB_COMMAND",
+                options: [{
+                    name: "start_page",
+                    description: "Directly skip to this page",
+                    type: "NUMBER"
+                }]
+            }]
         })
 
         client.newsManager.getEventWishes().forEach((news) => parseEventWishNews(news, false))
-        // Logger.info(wishies)
     }
 
-    async run(message: Message, args: string[]): Promise<Message | Message[] | undefined> {
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        const { options } = source
+        const command = options.getSubcommand()
+        if (command == "search")
+            return this.runSearch(source, options.getString("query", true))
+        else if (command == "list")
+            return this.runList(source, options.getString("filter") ?? "both")
+        else if (command == "view")
+            return this.runBrowse(source, options.getNumber("start_page"))
+    }
+
+    async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
         const sub = args[0]?.toLowerCase() ?? "help"
         args.shift()
         const otherArgs = args.join(" ")
 
-        const wishes = eventWishes.map((w, index) => {
-            return { ...w, index: index + 1 }
-        })
-
         // Search for a weapon/char
         if (["search", "s", "find", "f", "bychar", "byweapon", "by", "with", "includes", "has"].includes(sub)) {
-            const namesToSearch = wishes.flatMap(w => [...w.other, ...w.main])
-            const name = findFuzzy(namesToSearch, otherArgs)
-            if (name == undefined) return sendMessage(message, "No banner data loaded/found")
-            const toShow = wishes.filter(w => w.main.includes(name) || w.other.includes(name))
+            if (otherArgs.length == 0)
+                return this.sendHelp(source)
 
-            const pages = this.getWishesPages(toShow)
-            if (pages.length == 0) return sendMessage(message, "No banner data loaded/found")
-
-            await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getWishes(pages, relativePage, currentPage, maxPages, name), pages.length)
-            return undefined
-
+            return this.runSearch(source, otherArgs)
         // List all char/weapon banners
         } else if (["list", "l", "summary", "char", "chars", "characters", "character", "weapon", "weapons"].includes(sub)) {
             let filter: "both" | "weapons" | "char" = "both"
@@ -216,24 +254,58 @@ Note: this command supports fuzzy search.`,
             if (["weapon", "weapons"].includes(sub) || ["weapon", "weapons"].includes(otherArgs?.toLowerCase()))
                 filter = "weapons"
 
-            const toShow = wishes.filter(w => filter == "both" || (filter == "weapons" && w.title.includes("Epitome Invocation")) || (filter == "char" && !w.title.includes("Epitome Invocation")))
-
-            const pages = this.getWishesPages(toShow)
-            if (pages.length == 0) return sendMessage(message, "No banner data loaded")
-
-            await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getWishes(pages, relativePage, currentPage, maxPages, filter), pages.length)
-            return undefined
-
+            return this.runList(source, filter)
         // View a specific banner
         } else if (["browse", "b", "view", "v"].includes(sub)) {
-            const defaultPage = parseInt(otherArgs?.match(/\d+/)?.[0] ?? (wishes.length - 1).toString()) - 1
-            await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getWish(wishes, relativePage, currentPage, maxPages), wishes.length, defaultPage)
-            return undefined
-
+            const parsed = otherArgs?.match(/\d+/)
+            if (parsed)
+                return this.runBrowse(source, parseInt(parsed[0]))
+            return this.runBrowse(source)
         // Help menu
         } else {
-            return this.sendHelp(message)
+            return this.sendHelp(source)
         }
+    }
+
+    async runSearch(source: CommandSource, query: string): Promise<SendMessage | undefined> {
+        const wishes = eventWishes.map((w, index) => {
+            return { ...w, index: index + 1 }
+        })
+
+        const namesToSearch = wishes.flatMap(w => [...w.other, ...w.main])
+        const name = findFuzzy(namesToSearch, query)
+        if (name == undefined) return sendMessage(source, "No banner data loaded/found")
+        const toShow = wishes.filter(w => w.main.includes(name) || w.other.includes(name))
+
+        const pages = this.getWishesPages(toShow)
+        if (pages.length == 0) return sendMessage(source, "No banner data loaded/found")
+
+        await simplePaginator(source, (relativePage, currentPage, maxPages) => this.getWishes(pages, relativePage, currentPage, maxPages, name), pages.length)
+        return undefined
+    }
+
+    async runList(source: CommandSource, filter: string): Promise<SendMessage | undefined> {
+        const wishes = eventWishes.map((w, index) => {
+            return { ...w, index: index + 1 }
+        })
+
+        const toShow = wishes.filter(w => filter == "both" || (filter == "weapons" && w.title.includes("Epitome Invocation")) || (filter == "char" && !w.title.includes("Epitome Invocation")))
+
+        const pages = this.getWishesPages(toShow)
+        if (pages.length == 0) return sendMessage(source, "No banner data loaded")
+
+        await simplePaginator(source, (relativePage, currentPage, maxPages) => this.getWishes(pages, relativePage, currentPage, maxPages, filter), pages.length)
+        return undefined
+    }
+
+    async runBrowse(source: CommandSource, startPage?: number | null): Promise<SendMessage | undefined> {
+        const wishes = eventWishes.map((w, index) => {
+            return { ...w, index: index + 1 }
+        })
+
+        const defaultPage = (startPage ?? (wishes.length - 1)) - 1
+        await simplePaginator(source, (relativePage, currentPage, maxPages) => this.getWish(wishes, relativePage, currentPage, maxPages), wishes.length, defaultPage)
+        return undefined
     }
 
     getWishesPages(toShow: (Wish & {index: number})[]): string[] {
@@ -284,8 +356,6 @@ Note: this command supports fuzzy search.`,
 
         return embed
     }
-
-
 }
 
 export function parseEventWishNews(news: StoredNews, recent = true): void {

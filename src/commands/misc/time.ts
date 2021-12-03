@@ -1,6 +1,7 @@
-import { Message } from "discord.js"
+import { CommandInteraction, Message } from "discord.js"
 
 import Command from "../../utils/Command"
+import { CommandSource, SendMessage } from "../../utils/Types"
 import { displayTimestamp, getServerTimeInfo, sendMessage, timeLeft } from "../../utils/Utils"
 
 export default class Time extends Command {
@@ -11,11 +12,19 @@ export default class Time extends Command {
             help: "Get the current time in the server timezones. Also displays time until next daily and weekly reset.",
             usage: "time",
             aliases: ["times", "currenttime", "daily"],
+            options: []
         })
     }
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        return this.run(source)
+    }
 
-    async run(message: Message): Promise<Message | Message[]> {
-        return sendMessage(message, `**Current server times:**
+    async runMessage(source: Message): Promise<SendMessage | undefined> {
+        return this.run(source)
+    }
+
+    async run(source: CommandSource): Promise<SendMessage | undefined> {
+        return sendMessage(source, `**Current server times:**
 
 ${getServerTimeInfo().map(({ offset, server, time, nextDailyReset, nextWeeklyReset }) => `**${server}** (UTC${offset}): *${time.toLocaleString("en-UK", {
         timeZone: "UTC",

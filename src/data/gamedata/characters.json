@@ -12823,7 +12823,7 @@
           },
           {
             "name": "Guoba Attack",
-            "desc": "Summons Guoba the Panda. Guoba continuously breathes fire at opponents, dealing **AoE Pyro DMG**.\n\n**Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.**",
+            "desc": "Summons Guoba, who will continuously breathe fire at opponents, dealing **AoE Pyro DMG**.\n\n**Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.**",
             "charges": 1,
             "talentTable": [
               {

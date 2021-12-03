@@ -1639,5 +1639,105 @@
         "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15020_3.png"
       }
     ]
+  },
+  "Husk of Opulent Dreams": {
+    "name": "Husk of Opulent Dreams",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15021_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "DEF +30%"
+      },
+      {
+        "count": 4,
+        "desc": "A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions: When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s. When off the field, the character gains 1 stack every 3s. Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus. When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Bloom Times",
+        "desc": "A small golden ornament with six petals that shall never wilt. It symbolizes the transience of mortal glories.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15021_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Plume of Luxury",
+        "desc": "A feather-shaped token that was brought forth from a secluded hall. The compassion of its creator led to it being left within that mansion along with a certain slumbering form.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15021_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Song of Life",
+        "desc": "As far as Inazuma is concerned, this is some small object from overseas. The heart of this mechanism has been removed, and its hands no longer turn.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15021_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Calabash of Awakening",
+        "desc": "A gourd that has been adorned with powdered gold and black paint. Its original color can no longer be discerned, but its main use seems to be as a performance prop.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15021_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Skeletal Hat",
+        "desc": "A hat that once shielded a wanderer from sun and rain. It eventually became a convenient tool with which faces might be hidden and expressions obscured.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15021_3.png"
+      }
+    ]
+  },
+  "Ocean-Hued Clam": {
+    "name": "Ocean-Hued Clam",
+    "levels": [
+      4,
+      5
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15022_4.png",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Healing Bonus +15%."
+      },
+      {
+        "count": 4,
+        "desc": "When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing). At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing. (This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses). Only one Sea-Dyed Foam can be produced every 3.5 seconds. Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing). There can be no more than one Sea-Dyed Foam active at any given time. This effect can still be triggered even when the character who is using this artifact set is not on the field."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Sea-Dyed Blossom",
+        "desc": "A soft flower that has taken on the many shades of the capricious ocean. It shines with wondrous colors under the moon's silver light.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15022_4.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Deep Palace's Plume",
+        "desc": "A down feather with the same hue as coral, said to come from a shrine maiden's ceremonial garment.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15022_2.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Cowry of Parting",
+        "desc": "A clean, flawless seashell that comes from the bottomless ocean.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15022_5.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Pearl Cage",
+        "desc": "The shining pearls that the shrine maidens of Watatsumi Island offer up shine eternally and never dim.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15022_1.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Crown of Watatsumi",
+        "desc": "An ancient, intricate crown that was once used by a forgotten clergy member. Today, this relic has been enshrined with great ceremony by the people of Watatsumi.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15022_3.png"
+      }
+    ]
   }
 }

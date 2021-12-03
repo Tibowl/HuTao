@@ -1,10 +1,10 @@
-import { Message, MessageEmbed } from "discord.js"
+import { CommandInteraction, Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
 import { Colors, findFuzzy, getNewsEmbed, parseNewsContent, sendMessage, simplePaginator } from "../../utils/Utils"
 import config from "../../data/config.json"
-import { NewsLang } from "../../utils/Types"
+import { CommandSource, NewsLang, SendMessage } from "../../utils/Types"
 
 export default class News extends Command {
     constructor(name: string) {
@@ -12,15 +12,32 @@ export default class News extends Command {
             name,
             category: "News",
             usage: "news [language] [id]",
+            shortHelp: "Check up on latest news. You can follow them using the follow command",
             help: `Check up on latest news. You can follow the English ones with \`${config.prefix}follow add news_en-us\` (see \`${config.prefix}help follow\` for the others)
 Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).join(", ")}`,
-            aliases: ["new", "n"]
+            aliases: ["new", "n"],
+            options: [{
+                name: "id",
+                description: "ID of the article",
+                type: "NUMBER",
+            }, {
+                name: "lang",
+                description: "Language of the article (default: en-us)",
+                type: "STRING",
+            }]
         })
     }
 
-    async run(message: Message, args: string[]): Promise<Message | Message[] | undefined> {
-        const { newsManager } = client
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        const { options } = source
 
+        const id = options.getNumber("id")
+        const lang = options.getString("lang")
+
+        return this.run(source, id?.toString(), lang)
+    }
+
+    async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
         let idMatch = args[0], langMatch = "en-us"
         if (args[0]?.match(/^\d+/)) {
             idMatch = args[0]
@@ -30,9 +47,15 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
             langMatch = args[0]
         }
 
-        const lang = this.getFuzzyLang(langMatch)
+        return this.run(source, idMatch, langMatch)
+    }
 
-        if (!idMatch) {
+    async run(source: CommandSource, id?: string | null, langMatch?: string | null): Promise<SendMessage | undefined> {
+        const { newsManager } = client
+
+        const lang = this.getFuzzyLang(langMatch ?? "en-us")
+
+        if (!id) {
             const stored = newsManager
                 .getNews(lang)
                 .map(art => `[\`${art.post_id}\`](${art.lang == "bbs-zh-cn" ? `https://bbs.mihoyo.com/ys/article/${art.post_id}` : `https://www.hoyolab.com/article/${art.post_id}`}): ${art.subject}`)
@@ -45,14 +68,14 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
                 .setFooter(`You can use open the links or use \`${config.prefix}news <post id>\` to view more details about a post`)
                 .setDescription(stored.join("\n"))
 
-            return sendMessage(message, embed)
+            return sendMessage(source, embed)
         }
 
-        const post = newsManager.getNewsByIdLang(idMatch, lang)
+        const post = newsManager.getNewsByIdLang(id, lang)
         if (!post)
-            return sendMessage(message, `Couldn't find article in cache. Try to see if it exists on the forum: <https://www.hoyolab.com/article/${args[0]}>`)
+            return sendMessage(source, `Couldn't find article in cache. Try to see if it exists on the forum: <https://www.hoyolab.com/article/${id}>`)
 
-        await simplePaginator(message, (relativePage, currentPage, maxPages) => getNewsEmbed(post, relativePage, currentPage, maxPages), parseNewsContent(post.content).length)
+        await simplePaginator(source, (relativePage, currentPage, maxPages) => getNewsEmbed(post, relativePage, currentPage, maxPages), parseNewsContent(post.content).length)
 
         return undefined
     }

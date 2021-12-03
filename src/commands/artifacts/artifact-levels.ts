@@ -1,45 +1,77 @@
-import { Message } from "discord.js"
+import { CommandInteraction, Message } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
 import { createTable, findFuzzy, PAD_START, sendMessage } from "../../utils/Utils"
+import { CommandSource, SendMessage } from "../../utils/Types"
 
 export default class ArtifactLevelsCommand extends Command {
     constructor(name: string) {
+        const { data } = client
+        const keys = Object.keys(data.artifactMainLevels)
+
         super({
             name,
             category: "Artifact",
             usage: "artifact-levels <main stat> [stars = 5]",
             help: `See artifact main stat level scaling.
-
+**List of main stats:**
+    ${keys.join("\n")}
 Note: this command supports fuzzy search.`,
-            aliases: ["artifactlevels", "artifact_levels", "arti-levels", "arti_levels", "main", "mainstat", "artimain", "artimainstat", "al", "am"]
+            aliases: ["artifactlevels", "artifact_levels", "arti-levels", "arti_levels", "main", "mainstat", "artimain", "artimainstat", "al", "am"],
+            options: [{
+                name: "mainstat",
+                description: "Main stat of artifact",
+                type: "STRING",
+                required: true,
+                choices: keys.map(k => {
+                    return {
+                        name: k,
+                        value: k
+                    }
+                })
+            }, {
+                name: "stars",
+                description: "Rarity of the artifact (default: 5)",
+                type: "NUMBER"
+            }]
         })
     }
 
-    async run(message: Message, args: string[]): Promise<Message | Message[]> {
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        const { options } = source
+
+        const mainStat = options.getString("mainstat", true)
+        const stars = options.getNumber("stars") ?? 5
+
+        return this.run(source, mainStat, stars)
+    }
+
+    async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
         const { data } = client
-
         const keys = Object.keys(data.artifactMainLevels)
+
         if (args.length == 0) {
-            if (!keys) return sendMessage(message, "No artifact level data loaded")
+            if (!keys) return sendMessage(source, "No artifact level data loaded", undefined, true)
 
-            return await sendMessage(message, `Usage: ${this.usage}
-
-**List of main stats:**
-${keys.join("\n")}`)
+            return await this.sendHelp(source)
         }
 
-        let level = 5
-        if (!isNaN(parseInt(args[args.length - 1]))) {
-            level = parseInt(args.pop() ?? "5")
-        }
+        let stars = 5
+        if (!isNaN(parseInt(args[args.length - 1])))
+            stars = parseInt(args.pop() ?? "5")
 
         const mainStat = findFuzzy(keys, args.join(" "))
         if (mainStat == undefined)
-            return sendMessage(message, "Unable to find main stat")
+            return sendMessage(source, "Unable to find main stat", undefined, true)
 
-        const levelData = data.artifactMainLevels[mainStat][level]
+        return this.run(source, mainStat, stars)
+    }
+
+    async run(source: CommandSource, mainStat: string, stars: number): Promise<SendMessage | undefined> {
+        const { data } = client
+
+        const levelData = data.artifactMainLevels[mainStat][stars]
         const entries = Object.entries(levelData)
 
         const table = []
@@ -53,7 +85,7 @@ ${keys.join("\n")}`)
         }
         table.push(currentLine)
 
-        return await sendMessage(message, `**${mainStat}** main stat table for a **${level}**★ artifact:
+        return await sendMessage(source, `**${mainStat}** main stat table for a **${stars}**★ artifact:
 \`\`\`
 ${createTable(
         ["Lvl", "Stat", "|", "Lvl", "Stat", "|", "Lvl", "Stat", "|", "Lvl", "Stat"],

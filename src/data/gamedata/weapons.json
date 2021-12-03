@@ -4139,7 +4139,7 @@
         }
       }
     ],
-    "lore": "One night, a Millelith officer drank with a poet, and brought his signature white-tasseled halberd with him.\nThe poet's ink was spilled.\nAnd the halberd's white tassel was dyed black.\n\"'Tis but a tale of polearm wielder and poet.\"\n\"Unrelated to mine own black-tasseled polearm.\"\nThe old smith smacked his apprentice.\nHe demanded he dye black the tassel for the newly made polearm.",
+    "lore": "One night, a Millelith officer drank with a poet, and brought his signature white-tasseled halberd with him.\nThe poet's ink was spilled.\nAnd the halberd's white tassel was dyed black.\n\"'Tis but a tale of polearm wielder and poet.\"\n\"Unrelated to mine own black-tasseled polearm.\"\nThe old smith smacked his apprentice.\nHe demanded that he dye the newly made polearm's tassel black.",
     "refinement": [
       [
         {
@@ -9114,7 +9114,7 @@
         }
       }
     ],
-    "lore": "One of the \"kageuchi\" copies of the famed sword \"Hakuen Bankou Amenoma.\"\nIt was gifted to the Saimon Clan by Douin, the founding patriarch of the Iwakura Clan.\nThis gift was given in thanks for the care that he received from them when he was living in seclusion in Konda Village.\n\nIt is said that Iwakura's secret blade technique, Tengu Sweeper, can only be performed when there is not a single trace of confusion in one's heart.\nIn the past, the name \"Tengu Sweeper\" sounded the same as \"Tengu Victor,\" and it was a sword strike that could cut a Tengu soaring in the sky down.\nFor centuries, the swordsmen of Iwakura, they who inherited the name \"In,\" would use this secret blade to destroy countless evils throughout the Inazuman archipelago.\n\nLegend has it that the Tengu Sweeper was first created in the courtyard of a small shrine where incense no longer burned.\nThe technique was so powerful that it destroyed the building, and Iwakura Douin's sword was broken in two.\nAfter that, he founded the Iwakura Art with his swordsmanship skills and became the instructor of the Kujou Clan.\nHe would also have the Amenoma master of that time craft the sword that would be passed down through the \"In\" line — the \"Hakuen Bankou Amenoma.\"\n\nLegends abound concerning the deeds done using that blade. It is said that its edge was so sharp that it might even cut through mortal fate.\nAs for the overly lengthy name, it is said that Iwakura Douin specified to Amenoma that it be called as such.",
+    "lore": "One of the \"kageuchi\" copies of the famed sword \"Hakuen Michimitsu Amenoma.\"\nIt was gifted to the Saimon Clan by Douin, the founding patriarch of the Iwakura Clan.\nThis gift was given in thanks for the care that he received from them when he was living in seclusion in Konda Village.\n\nIt is said that Iwakura's secret blade technique, Tengu Sweeper, can only be performed when there is not a single trace of confusion in one's heart.\nIn the past, the name \"Tengu Sweeper\" sounded the same as \"Tengu Victor,\" and it was a sword strike that could cut a Tengu soaring in the sky down.\nFor centuries, the swordsmen of Iwakura, they who inherited the name \"In,\" would use this secret blade to destroy countless evils throughout the Inazuman archipelago.\n\nLegend has it that the Tengu Sweeper was first created in the courtyard of a small shrine where incense no longer burned.\nThe technique was so powerful that it destroyed the building, and Iwakura Douin's sword was broken in two.\nAfter that, he founded the Iwakura Art with his swordsmanship skills and became the instructor of the Kujou Clan.\nHe would also have the Amenoma master of that time craft the sword that would be passed down through the \"In\" line — the \"Hakuen Michimitsu Amenoma.\"\n\nLegends abound concerning the deeds done using that blade. It is said that its edge was so sharp that it might even cut through mortal fate.\nAs for the overly lengthy name, it is said that Iwakura Douin specified to Amenoma that it be called as such.",
     "refinement": [
       [
         {
@@ -9136,6 +9136,223 @@
         {
           "name": "Iwakura Succession",
           "desc": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates **12** Energy for each seed consumed."
+        }
+      ]
+    ]
+  },
+  "Cinnabar Spindle": {
+    "name": "Cinnabar Spindle",
+    "desc": "A sword made from materials that do not belong in this world. The power within might even be able to withstand the corruption of a venom that could corrode a mighty dragon.",
+    "weaponType": "Sword",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 41.067100524902344,
+        "curve": "ATK 2.4"
+      },
+      {
+        "stat": "DEF%",
+        "init": 0.15013299882411957,
+        "curve": "C2"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Opus.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Opus_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [],
+        "cost": {
+          "items": []
+        }
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ],
+        "cost": {
+          "mora": 5000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Tile of Decarabian's Tower"
+            },
+            {
+              "count": 3,
+              "name": "Chaos Device"
+            },
+            {
+              "count": 2,
+              "name": "Damaged Mask"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ],
+        "cost": {
+          "mora": 15000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Debris of Decarabian's City"
+            },
+            {
+              "count": 12,
+              "name": "Chaos Device"
+            },
+            {
+              "count": 8,
+              "name": "Damaged Mask"
+            }
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ],
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Debris of Decarabian's City"
+            },
+            {
+              "count": 6,
+              "name": "Chaos Circuit"
+            },
+            {
+              "count": 6,
+              "name": "Stained Mask"
+            }
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ],
+        "cost": {
+          "mora": 30000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Fragment of Decarabian's Epic"
+            },
+            {
+              "count": 12,
+              "name": "Chaos Circuit"
+            },
+            {
+              "count": 9,
+              "name": "Stained Mask"
+            }
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ],
+        "cost": {
+          "mora": 35000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Fragment of Decarabian's Epic"
+            },
+            {
+              "count": 9,
+              "name": "Chaos Core"
+            },
+            {
+              "count": 6,
+              "name": "Ominous Mask"
+            }
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ],
+        "cost": {
+          "mora": 45000,
+          "items": [
+            {
+              "count": 4,
+              "name": "Scattered Piece of Decarabian's Dream"
+            },
+            {
+              "count": 18,
+              "name": "Chaos Core"
+            },
+            {
+              "count": 12,
+              "name": "Ominous Mask"
+            }
+          ]
+        }
+      }
+    ],
+    "lore": "Separate the dust in the flames with joy, and extract the exquisite from the crude.\nFor all in the universe comes from a single source, and all things may be derived from a single thought.\nYou must pursue that which your elder brother, the one-horned white horse, could not accomplish.\nReach the far side of philosophy, and create a new destiny for myself and your brothers...",
+    "refinement": [
+      [
+        {
+          "name": "Spotless Heart",
+          "desc": "Elemental Skill DMG is increased by **40%** of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG."
+        },
+        {
+          "name": "Spotless Heart",
+          "desc": "Elemental Skill DMG is increased by **50%** of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG."
+        },
+        {
+          "name": "Spotless Heart",
+          "desc": "Elemental Skill DMG is increased by **60%** of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG."
+        },
+        {
+          "name": "Spotless Heart",
+          "desc": "Elemental Skill DMG is increased by **70%** of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG."
+        },
+        {
+          "name": "Spotless Heart",
+          "desc": "Elemental Skill DMG is increased by **80%** of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG."
         }
       ]
     ]
@@ -9548,7 +9765,7 @@
         }
       }
     ],
-    "lore": "A strange greatsword decorated with an exquisite clock.\nThe distinctive sound of clockwork served as a combat rhythm for the wielder and their friends.\nAfter the Wanderer's Troupe disbanded, the greatsword was soaked in acid. The gears have rusted because of this.\nEven so, it still makes a lethal weapon.\n\nOne by the name of Kreuzlied traveled with the Wanderer's Troupe. Once a member of the ruling Lawrence Clan, now a traitor and outcast.\nIn that time, scholars and bards paid no heed to history. For the Aristocracy preferred to remain willfully ignorant of their own moral degeneracy than face history's judgment.\nBut the aristocrats trembled in fear at the sound of this blade as it flew through the air, for it was the toll of the bell of judgment.\n\nIt was not made public what punishment Kreuzlied met with after the failed uprising. This in itself is a testament to his privileged origins.\nLegend says that after being dismissed from office, his desire to continue the legacy of his fellow rebels led him to establish a secret society aimed at bringing down the Aristocracy.\nIt is also said that he gave his full assistance to the enslaved gladiator when she revolted.\n\nFurther in the past, the popular rumor was that Kreuzlied's secret society was working constantly in the background,\nHelping the Knights of Favonius keep Mondstadt safe through deeds that no knight should ever be party to.\nIt was even said that the Wolf Pup Rostam ran this organization in secret, behind the Grand Master's back.",
+    "lore": "A strange greatsword decorated with an exquisite clock.\nThe distinctive sound of clockwork served as a combat rhythm for the wielder and their friends.\nAfter the Wanderer's Troupe disbanded, the greatsword was soaked in acid. The gears have rusted because of this.\nEven so, it still makes a lethal weapon.\n\nOne by the name of Kreuzlied traveled with the Wanderer's Troupe. Once a member of the ruling Lawrence Clan, now a traitor and outcast.\nIn that time, scholars and bards paid no heed to history. For the Aristocracy preferred to remain willfully ignorant of their own moral degeneracy than face history's judgment.\nBut the aristocrats trembled in fear at the sound of this blade as it flew through the air, for it was the toll of the bell of judgment.\n\nIt was not made public what punishment Kreuzlied met with after the failed uprising. This in itself is a testament to his privileged origins.\nLegend says that after being dismissed from office, his desire to continue the legacy of his fellow rebels led him to establish a secret society aimed at bringing down the Aristocracy.\nIt is also said that he gave his full assistance to the enslaved gladiator when she revolted.\n\nIn the past, a popular rumor was that Kreuzlied's secret society was working constantly in the background,\nHelping the Knights of Favonius keep Mondstadt safe through deeds that no knight should ever be party to.\nIt was even said that the Wolf Pup Rostam ran this organization in secret, behind the Grand Master's back.",
     "refinement": [
       [
         {
@@ -10199,7 +10416,7 @@
         }
       }
     ],
-    "lore": "A dimly fluorescent greatsword with no sharp edge.\nYears ago it was known as the \"Beacon of the Nether\" by the mountain bandits.\nSeeing it meant there was no way back.\nThe only way was forward, towards the end of one's life.\n\n\"Formless, like the rain that cuts through rain. Weightless, like the light that pierces light.\"\n\"Untouchable, moving like a snake. Inescapable, as sword's stare and polearm's glance.\"\n\nThe Rainslasher was named out of reverence for its master. Originally it had no name.\nThe blade's first and final master was a martial nomad who went by the name of Guhua.\n\nIt is said he was an adeptus. While Guhua lived, bandits dared not act and the wilderness knew a peace like that of the city.\nAllegedly, at the end of his journey he ascended in a purple haze and became a star.\n\nOne to whom Guhua had shown kindness founded what is now known as the Guhua School in his honor. But no school is destined to last forever.",
+    "lore": "A dimly fluorescent greatsword with no sharp edge.\nYears ago it was known as the \"Beacon of the Nether\" by the mountain bandits.\nSeeing it meant there was no way back.\nThe only way was forward, towards the end of one's life.\n\n\"Formless, like the rain that cuts through rain. Weightless, like the light that pierces light.\"\n\"Untouchable, moving like a snake. Inescapable, as sword's stare and polearm's glance.\"\n\nThe Rainslasher was named out of reverence for its master. Originally it had no name.\nThe blade's first and final master was a martial nomad who went by the name of Guhua.\n\nIt is said that he was an adeptus. While Guhua lived, bandits dared not act and the wilderness knew a peace like that of the city.\nAllegedly, at the end of his journey he ascended in a purple haze and became a star.\n\nOne to whom Guhua had shown kindness founded what is now known as the Guhua School in his honor. But no school is destined to last forever.",
     "refinement": [
       [
         {
@@ -10850,7 +11067,7 @@
         }
       }
     ],
-    "lore": "A broadsword wrought from rare blackcliff. Weighty as a boulder, it has enough brute force to carve its way through a mountain.\nThe blade is forged from a combination of blackcliff crystal and a crimson ore. It is pitch black like a pool of ink, with red flames leaping from within.\n\nBlackcliff weaponry has its roots in the ancient \"prototype\" series. Blackcliff blades possess three distinguishing features: hard as bedrock, shimmer like ice, fierce as the blood that gives us life.\nThough the Slasher is a broadsword, it has a uniquely sharp blade, barely thicker than a thread of silk.\nThe join between the red and black crystals is seamless, and each blade segment interlocks perfectly with the next to form a single cohesive body.\nWith the Pyro motif and red jade stones that adorn the hilt, the sword has a dark and foreboding presence when viewed from afar, like bright-red blood oozing from a bottomless pit of black ink.\n\nMaster craftsman Han Wu once embarked on a quest to find the finest ore with which to cast a blackcliff blade. He searched everywhere, until he became involved in a mining accident.\nWhile trapped in the cave, his eyes perceived nothing but an all-engulfing and profoundly disorienting darkness. His ears rang with the thunderous crashing of rocks, as if the foundations of the world itself were caving in.\nIn the aftermath of this ordeal, the craftsman's furnace lay unused. Where flames once burned bright, frigid dust now gathered as the forgotten fantasies of the forge dwindled and died.\nHan Wu's son, Han Ce, read that the earth's core had been sealed off due to a monster infestation, and rushed to inform his father.\nHan Wu was racked with guilt upon hearing the news. He was certain that it was his trip into the mine that had disturbed the dragon from underground and the meteorite from the heavens. He forced himself up from his sickbed, lit the fires of the furnace once more and forged a mighty broadsword.\nWhen it was ready, Han Ce took the sword into the mine shaft. There, on instructions from his father, he erected a shrine as tall as himself and placed the sword inside to ward off evil and rebuke the dragon.\n\nHan Wu died peacefully in his sleep several years later.\nAt the moment of Han Wu's death, a traveler passing by the mine shaft at Mt. Tianheng saw a crimson light shining out from somewhere within the rocks. As the traveler watched on, a hidden shrine appeared and slowly opened.\nThe broadsword inside the shrine shone faintly, as if weeping with bereavement.\nHan Ce went into the mountains that very night to retrieve the blade.\nThe Tianshu of that age personally engraved an inscription upon the blade:\n\"Carves open mountains and tears through the seas, shreds apart clouds and splits the moon.\"",
+    "lore": "A broadsword wrought from rare blackcliff. Weighty as a boulder, it has enough brute force to carve its way through a mountain.\nThe blade is forged from a combination of blackcliff crystal and a crimson ore. It is pitch black like a pool of ink, with red flames leaping from within.\n\nBlackcliff weaponry has its roots in the ancient \"prototype\" series. Blackcliff blades possess three distinguishing features: hard as bedrock, shimmer like ice, fierce as the blood that gives us life.\nThough the Slasher is a broadsword, it has a uniquely sharp blade, barely thicker than a thread of silk.\nThe join between the red and black crystals is seamless, and each blade segment interlocks perfectly with the next to form a single cohesive body.\nWith the flame motif and red jade stones that adorn the hilt, the sword has a dark and foreboding presence when viewed from afar, like bright-red blood oozing from a bottomless pit of black ink.\n\nMaster craftsman Han Wu once embarked on a quest to find the finest ore with which to cast a blackcliff blade. He searched everywhere, until he became involved in a mining accident.\nWhile trapped in the cave, his eyes perceived nothing but an all-engulfing and profoundly disorienting darkness. His ears rang with the thunderous crashing of rocks, as if the foundations of the world itself were caving in.\nIn the aftermath of this ordeal, the craftsman's furnace lay unused. Where flames once burned bright, frigid dust now gathered as the forgotten fantasies of the forge dwindled and died.\nHan Wu's son, Han Ce, read that the earth's core had been sealed off due to a monster infestation, and rushed to inform his father.\nHan Wu was racked with guilt upon hearing the news. He was certain that it was his trip into the mine that had disturbed the dragon from underground and the meteorite from the heavens. He forced himself up from his sickbed, lit the fires of the furnace once more and forged a mighty broadsword.\nWhen it was ready, Han Ce took the sword into the mine shaft. There, on instructions from his father, he erected a shrine as tall as himself and placed the sword inside to ward off evil and rebuke the dragon.\n\nHan Wu died peacefully in his sleep several years later.\nAt the moment of Han Wu's death, a traveler passing by the mine shaft at Mt. Tianheng saw a crimson light shining out from somewhere within the rocks. As the traveler watched on, a hidden shrine appeared and slowly opened.\nThe broadsword inside the shrine shone faintly, as if weeping with bereavement.\nHan Ce went into the mountains that very night to retrieve the blade.\nThe Tianshu of that age personally engraved an inscription upon the blade:\n\"Carves open mountains and tears through the seas, shreds apart clouds and splits the moon.\"",
     "refinement": [
       [
         {
@@ -11718,7 +11935,7 @@
         }
       }
     ],
-    "lore": "A nagamaki sword designed by one of Tatarasuna's inspectors.\nIt is said that the diagram is as simple and upright as that inspector was.\n\nFor a long time, before the introduction of the outlander technology that helped build the Mikage Furnace,\nTatarasuna smelted iron using the traditional \"Tatara Metalworking Method.\"\nAfter Mikoshi Nagamasa became the inspector, he was for a time obsessed with the grim loveliness of steel.\nHe thus consulted the similarly-inclined Armory Officer Miyazaki for advice,\nWith the end result being this tough and simple sword, the Daitatara Nagamasa.\n\nAlthough he was only the foster son of the Mikoshi Clan, and although his fostered mother had stained the reputation of the Mikoshi,\nAnd even though Mikoshi's only legitimate heir, Doukei, abandoned him and disappeared,\nHis self-admitted stupidity and loyalty led him to cherish the Mikoshi name all the more.\nHe strove to enter the government and got rid of the family's bad reputation with his diligence and righteousness.\n\nWhen his yoriki Katsuragi was connected with but a single trace of misconduct, he had him executed without mercy.\nEver since then, the name of the sword and his title were changed forever.",
+    "lore": "A nagamaki sword designed by one of Tatarasuna's inspectors.\nIt is said that the diagram is as simple and upright as that inspector was.\n\nFor a long time, before the introduction of the outlander technology that helped build the Mikage Furnace,\nTatarasuna smelted iron using the traditional \"Tatara Metalworking Method.\"\nAfter Mikoshi Nagamasa became the inspector, he was for a time obsessed with the grim loveliness of steel.\nHe thus consulted the similarly-inclined Armory Officer Miyazaki for advice,\nWith the end result being this tough and simple sword, the Daitatara Nagamasa.\n\nAlthough he was only the foster son of the Mikoshi Clan, and although his foster mother had stained the reputation of the Mikoshi,\nAnd even though Mikoshi's only legitimate heir, Doukei, abandoned him and disappeared,\nHis self-admitted stupidity and loyalty led him to cherish the Mikoshi name all the more.\nHe strove to enter the government and got rid of the family's bad reputation with his diligence and righteousness.\n\nWhen his yoriki Katsuragi was connected with but a single trace of misconduct, he had him executed without mercy.\nEver since then, the name of the sword and his title were changed forever.",
     "refinement": [
       [
         {
@@ -11935,7 +12152,7 @@
         }
       }
     ],
-    "lore": "As the nights deepen, the pulsing of its gills translate as such:\n\n\"Well now, I was undoubtedly dead when I left the sea.\"\n\"My heart ceased to beat, the whites of my eyes showed, I gave off a rank stench—\"\n\"I mean, for a fish, this had to be death, right?\"\n\n\"Now, these old bones were the strongest among all mackerel.\"\n\"I was also once the strongest being in all the shallow seas,\"\n\"And even sea beasts, whales, and sharks were no match for my might.\"\n\"And yet, even I would meet my match!\"\n\"It was that kurage, or perhaps you might call them the jellyfish.\"\n\"Why, they just float along with the tide,\"\n\"And yet, they can deflect any and all impacts.\"\n\n\"So then did I forsake the path of strength,\"\n\"Taking up the path of the jellyfish.\"\n\"After a long, long life,\"\n\"I became able to control every organ in my body.\"\n\"So I stopped my own heart,\"\n\"And was not mistaken for fresh fish and sliced open.\"\n\"You may think that I am naught but a salted fish, 'tis true,\"\n\"But allow me to become your strength.\"\n\n\"Now then, you who wield this old one.\"\n\"Hmm...\"\n\"When all the waters flow into the sea,\"\n\"When the final stars go out,\"\n\"When everything returns to the primordial ocean whence they came,\"\n\"Would you try yourself against me?\"",
+    "lore": "As the nights deepen, the pulsing of its gills translates as such:\n\n\"Well now, I was undoubtedly dead when I left the sea.\"\n\"My heart ceased to beat, the whites of my eyes showed, I gave off a rank stench—\"\n\"I mean, for a fish, this had to be death, right?\"\n\n\"Now, these old bones were the strongest among all mackerel.\"\n\"I was also once the strongest being in all the shallow seas,\"\n\"And even sea beasts, whales, and sharks were no match for my might.\"\n\"And yet, even I would meet my match!\"\n\"It was that kurage, or perhaps you might call them the jellyfish.\"\n\"Why, they just float along with the tide,\"\n\"And yet, they can deflect any and all impacts.\"\n\n\"So then did I forsake the path of strength,\"\n\"Taking up the path of the jellyfish.\"\n\"After a long, long life,\"\n\"I became able to control every organ in my body.\"\n\"So I stopped my own heart,\"\n\"And was not mistaken for fresh fish and sliced open.\"\n\"You may think that I am naught but a salted fish, 'tis true,\"\n\"But allow me to become your strength.\"\n\n\"Now then, you who wield this old one.\"\n\"Hmm...\"\n\"When all the waters flow into the sea,\"\n\"When the final stars go out,\"\n\"When everything returns to the primordial ocean whence they came,\"\n\"Would you try yourself against me?\"",
     "refinement": [
       [
         {
@@ -12369,7 +12586,7 @@
         }
       }
     ],
-    "lore": "Rumored to be a legendary polearm of Liyue.\nThe polearm features a dragon motif that runs from handle to tip.\nIt used to have a dragon-shaped wooden sheath,\nbut now it no longer needs to contain its might.\nIt shall pierce through anything that stands in its way.\n\nIt is said that when Kunwu forged this Pole, he used a dragon's spine for the haft and a dragon's claw for the tip.\nHence the weapon's body is unbreakable, while its tip is sharp beyond compare — and gleams with a dragon's malice.\n\nThere once was a dragon slayer of unimaginable strength and courage, who defied the ocean's wrath and fought fiercely against the monstrosities it harbored within.\nMany years after the dragon slayer had disappeared without a trace, the hopeless sound of a dragon's cry could be still be heard resounding throughout the ocean.\n\nThe dragon slayer became an urban legend. In the end, both the legend and the dragon-slaying Pole were lost.\nFreed at last from the shackles of its past, it displayed the full force of its ferocity once and for all, as if to mark the dragon's return to the ocean where it belonged.",
+    "lore": "Rumored to be a legendary polearm of Liyue.\nThe polearm features a dragon motif that runs from handle to tip.\nIt used to have a dragon-shaped wooden sheath,\nbut now it no longer needs to contain its might.\nIt shall pierce through anything that stands in its way.\n\nIt is said that when Kunwu forged this Pole, he used a dragon's spine for the haft and a dragon's claw for the tip.\nHence the weapon's body is unbreakable, while its tip is sharp beyond compare — and gleams with a dragon's malice.\n\nThere once was a dragon slayer of unimaginable strength and courage, who defied the ocean's wrath and fought fiercely against the monstrosities it harbored within.\nMany years after the dragon slayer had disappeared without a trace, the hopeless sound of a dragon's cry could be still be heard resounding throughout the ocean.\n\nThe dragon slayer became an urban legend. In the end, both the legend and the dragon-slaying polearm were lost.\nFreed at last from the shackles of its past, it displayed the full force of its ferocity once and for all, as if to mark the dragon's return to the ocean where it belonged.",
     "refinement": [
       [
         {
@@ -14322,7 +14539,7 @@
         }
       }
     ],
-    "lore": "A strangely-shaped spear made by Kitain Bunsou for his own unique style of spearmanship.\nIts massive weight makes it extremely unwieldy in untrained hands.\nBut in the hands of an expert, it is capable of unleashing great destructive power.\n\nIn the distant past, Kitain used to be a family that hunted the Tatarigami down.\nFor many generations, they held the post of \"The Yashiori Guardians.\"\n\nIn the past, there was a certain children's song that circulated widely within Inazuma:\n\"Arataki of the Front Gate, Iwakura the Successor, Kitain the Serpent, Takamine the Mistsplitter.\"\nThese phrases describe the dazzling warriors who once illuminated the earth like comets.\nThere used to be many other names in the list, but they have since been lost to history.\nAnd having been a demon hunter for so long, it is unavoidable that one might imbibe some of that miasmic, tainted blood.",
+    "lore": "A strangely-shaped spear made by Kitain Bunsou for his own unique style of spearmanship.\nIts massive weight makes it extremely unwieldy in untrained hands.\nBut in the hands of an expert, it is capable of unleashing great destructive power.\n\nIn the distant past, Kitain used to be a family that hunted the Tatarigami down.\nFor many generations, they shouldered the responsibility of serving as the Prefects of Yashiori.\n\nIn the past, there was a certain children's song that circulated widely within Inazuma:\n\"Arataki of the Front Gate, Iwakura the Successor, Kitain the Serpent, Takamine the Mistsplitter.\"\nThese phrases describe the dazzling warriors who once illuminated the earth like comets.\nThere used to be many other names on the list, but they have since been lost to history.\nAnd having been a demon hunter for so long, it is unavoidable that one might imbibe some of that miasmic, tainted blood.",
     "refinement": [
       [
         {
@@ -14539,7 +14756,7 @@
         }
       }
     ],
-    "lore": "The favored barbed spear of a famous Inazuman bandit.\nIt was originally a harpoon used to catch fish, but it was also very handy in battle.\nThey say that he even pierced the enchanted, sword-armed puppet before carrying it off.\n\n\"Haha! Once, I was the master of this ship, the 'Seiraimaru.'\"\n\"I commanded over ten ships, and they called me the Deathless Oni of Seirai.\"\n\"Now, I am but a leaf floating upon the waves.\"\n\"If not for Janome and the people marooned on those islands,\"\n\"Forget raising our sails again — I doubt I would have managed to make it back to my home shores.\"\n\"And yet Seirai now looks like this.\"\n\"There is no longer any place for me in the Inazuman Islands.\"\n\"Even that naggy, fretful old shrine maiden is gone...\"\n\nThe bandit named Ako Domeki's voice was thick with emotion. Then he said...\n\"Hey, Janome! I'm now the freest man in the whole wide world!\"\n\"Aunt Shrine Maiden! Didn't you see that you wanted to go see the world?\"\n\"You know, go some place else, like that Kamuna guy or that Konbumaru you always talk about?\"\n\"You know what? Let me, Ako Domeki Zaemon, go in your stead!\"\n\"Let me go see what the edge of the world really looks like!\"\n\n\"We'll meet again where all ship routes end!\"\n\"And when we do, it'll be my turn to tell you all about these distant lands!\"",
+    "lore": "The favored barbed spear of a famous Inazuman bandit.\nIt was originally a harpoon used to catch fish, but it was also very handy in battle.\nThey say that he even pierced the enchanted, sword-armed puppet before carrying it off.\n\n\"Haha! Once, I was the master of this ship, the 'Seiraimaru.'\"\n\"I commanded over ten ships, and they called me the Deathless Oni of Seirai.\"\n\"Now, I am but a leaf floating upon the waves.\"\n\"If not for Janome and the people marooned on those islands,\"\n\"Forget raising our sails again — I doubt I would have managed to make it back to my home shores.\"\n\"And yet Seirai now looks like this.\"\n\"There is no longer any place for me in the Inazuman Islands.\"\n\"Even that naggy, fretful old shrine maiden is gone...\"\n\nThe bandit named Ako Domeki's voice was thick with emotion. Then he said...\n\"Hey, Janome! I'm now the freest man in the whole wide world!\"\n\"Aunt Shrine Maiden! Didn't you say that you wanted to go see the world?\"\n\"You know, go someplace else, like that Kamuna guy or that Konbumaru you always talk about?\"\n\"You know what? Let me, Ako Domeki Zaemon, go in your stead!\"\n\"Let me go see what the edge of the world really looks like!\"\n\n\"We'll meet again where all ship routes end!\"\n\"And when we do, it'll be my turn to tell you all about these distant lands!\"",
     "refinement": [
       [
         {
@@ -17577,7 +17794,7 @@
         }
       }
     ],
-    "lore": "\"People come and go in such haste, like dreams that stay in the night and leave in the morning.\"\n\nThis simple and ordinary life...\nYes, I think I've lived it to the full.\n\nI was once the Hakushin Kitsune.\nWith my agile and loveable comrades,\nI dashed across the mountains and plains of Narukami.\n\nHopefully, when everything is over,\nThey can run happily once more...\n\nI once met an oni maiden with a face as lovely as the moon.\nTogether, we performed and played divine music before the throne,\nAnd I could not help but applaud her sword-dance.\nI hope her beauty, bravery, and bearing,\nShall be praised by people for thousands of years to come.\n\nAt the thought of her unrivaled beauty,\nI cannot help wanting to hide my current appearance with a mask...\n\nI once got into a race with the chieftain of the Yougou Tengu,\nAnd we sprinted through all the courses and paths of the spirit mountains, both within it and around it.\nIn this great contest of speed and strength,\n\nI, born of the Hakushin Clan, was the eventual victor.\nNow that I think about it, she must have let me off easy.\nThe very thought of it makes me feel a little unsatisfied...\n\nI once schemed against a bake-danuki who persistently challenge me,\nAnd I made him surrender to the Shogun completely.\nI also shamelessly schemed against the Shogun,\nAnd I made her put the great bake-danuki under her command.\n\nThat night, the moonlight swept the imperial garden, through branch and petal,\nShowering the courtyard with pearls from heaven.\nThat scene still glows brightly in my shallow heart...\n\nI hope she can remember the wordy motto I dared to put to her ere we parted.\n\"Do not be blinded. Do not waver. Keep walking on the path you believe in.\"\nI hope that my words will ward off at least some of the lies and evil she will face.\nI also hope that that mischievous yet innocent tanuki will not hate me for my final deception...\n\nNow, in this darkest of places,\nI will hold tightly to these scenes,\nAnd like the moon shining through the clouds,\nThey will light up my tiny, fragile heart.\n\nIn this life, I once took the form of a human,\nAnd I walked with these short-lived yet beautiful little creatures,\nAnd became friends with many people from all walks of life.\nWhether it was the shrine maiden who came to train in Narukami for the sake of her hometown shrine,\nOr the kid who got separated from the adults by the divine palanquin's entourage during the summer festival,\nOr the easygoing young man who finally went to Liyue to practice the adepti arts...\nWhether it's the Kanjou who worked hard to make the city prosperous,\nOr the craftsman who was obsessed with making extremely sharp swords,\nOr the clan who used ingenious techniques to make man-made meteors bloom in the skies...\nAll of them are friends whom I did not expect to make.\n\nI hope the barrier that guards them will not be eroded by any darkness...\n\nEverything, all of this — they are all things that I yearn for.\n\n\"So then, the dark will that gnaws at me...\"\n\"Now that I've lost all my strength,\"\n\"My Hakushin blood is yours to do with as you will.\"\n\"However, despite being greatly humbled as I am,\"\n\"I still pray that you will listen to my pleas...\"\n\n\"If you can see everything that I treasure,\"\n\"Then I beg pardon on behalf of those beings.\"\n\"If you would permit me to make but one wish,\"\n\"Please return my ever-bright memory,\"\n\"To this land that I love deeply.\"\n\"That way, that even after your rampage,\"\n\"I may still hold out hope for beautiful things to endure...\"",
+    "lore": "\"People come and go in such haste, like dreams that stay in the night and leave in the morning.\"\n\nThis simple and ordinary life...\nYes, I think I've lived it to the full.\n\nI was once the Hakushin Kitsune.\nWith my agile and loveable comrades,\nI dashed across the mountains and plains of Narukami.\n\nHopefully, when everything is over,\nThey can run happily once more...\n\nI once met an oni maiden with a face as lovely as the moon.\nTogether, we performed and played divine music before the throne,\nAnd I could not help but applaud her sword dance.\nI hope her beauty, bravery, and bearing,\nShall be praised by people for thousands of years to come.\n\nAt the thought of her unrivaled beauty,\nI cannot help wanting to hide my current appearance with a mask...\n\nI once got into a race with the chieftain of the Yougou Tengu,\nAnd we sprinted through all the courses and paths of the spirit mountains, both within it and around it.\nIn this great contest of speed and strength,\n\nI, born of the Hakushin Clan, was the eventual victor.\nNow that I think about it, she must have let me off easy.\nThe very thought of it makes me feel a little unsatisfied...\n\nI once schemed against a bake-danuki who persistently challenged me,\nAnd I made him surrender to the Shogun completely.\nI also shamelessly schemed against the Shogun,\nAnd I made her put the great bake-danuki under her command.\n\nThat night, the moonlight swept the imperial garden, through branch and petal,\nShowering the courtyard with pearls from heaven.\nThat scene still glows brightly in my shallow heart...\n\nI hope she can remember the wordy motto I dared to put to her ere we parted.\n\"Do not be blinded. Do not waver. Keep walking on the path you believe in.\"\nI hope that my words will ward off at least some of the lies and evil she will face.\nI also hope that that mischievous yet innocent tanuki will not hate me for my final deception...\n\nNow, in this darkest of places,\nI will hold tightly to these scenes,\nAnd like the moon shining through the clouds,\nThey will light up my tiny, fragile heart.\n\nIn this life, I once took the form of a human,\nAnd I walked with these short-lived yet beautiful little creatures,\nAnd became friends with many people from all walks of life.\nWhether it was the shrine maiden who came to train in Narukami for the sake of her hometown shrine,\nOr the kid who got separated from the adults by the divine palanquin's entourage during the summer festival,\nOr the easygoing young man who finally went to Liyue to practice the adepti arts...\nWhether it's the Kanjou who worked hard to make the city prosperous,\nOr the craftsman who was obsessed with making extremely sharp swords,\nOr the clan who used ingenious techniques to make man-made meteors bloom in the skies...\nAll of them are friends whom I did not expect to make.\n\nI hope the barrier that guards them will not be eroded by any darkness...\n\nEverything, all of this — they are all things that I yearn for.\n\n\"So then, the dark will that gnaws at me...\"\n\"Now that I've lost all my strength,\"\n\"My Hakushin blood is yours to do with as you will.\"\n\"However, despite being greatly humbled as I am,\"\n\"I still pray that you will listen to my pleas...\"\n\n\"If you can see everything that I treasure,\"\n\"Then I beg pardon on behalf of those beings.\"\n\"If you would permit me to make but one wish,\"\n\"Please return my ever-bright memory,\"\n\"To this land that I love deeply.\"\n\"That way, that even after your rampage,\"\n\"I may still hold out hope for beautiful things to endure...\"",
     "refinement": [
       [
         {
@@ -19964,7 +20181,7 @@
         }
       }
     ],
-    "lore": "In the childhood dreams of Mondstadt, there was a certain breed of floaty flower,\nThat would grow lushly even amidst the mighty winds, terrible winters and wild whipping ice.\n\nIt was unlike those normal plants, which would blow away, roots and all, by the powerful gales.\nIndeed, this \"Windblume\"'s roots would grow stronger even as the wind grew wilder.\nToday, the rebellion of ordinary mortals against tyranny has long been consigned to festive jests,\nAnd the shape of that flower has grown faint, melding into the lilting lyre-tunes of histories long gone by.\n\n\"Let me give you this nameless flower, and may the spring-times you never saw mean nothing to you.\"\n\"Pray repay me with hope and a smile, and stand with me to welcome the day when the storms blow no longer.\"\n\nIn the days when a tyrant gazed down upon the common folk from his tower, those who nursed freedom in their breasts would greet each other thusly.\nThose who sought courage and dreamed of walking upright wove the unknown, using this as their secret sign.\nIn those days, a lonely and fragile flower would come into bloom with the wind before slowly blossoming all across the wild mountain ranges.\nSo too did rootless and indifferent subjects content to go with the flow become proud, fearless heroes.\nThe frowning lord in the tower grew ever lesser in stature, and could no longer disperse the swelling, raging tide.\n\n\"Let me give you this nameless flower, and may she crown us champions, defenders of spring and sky.\"\n\"May the dawn be our spirit and follow us into the winds of true freedom.\"\n\nAtop the ruins of the ancient tower, amidst the cheers, songs, and tears of those who had newly won their freedom.\nA red-haired warrior turned his back on the newborn god, hidden like a single raindrop in a tidal wave of humanity.\nHe was first among those who passed the secret sign of Windblume, the one who wove threads of dawn throughout the long night.\nHis name has since been lost to time, but his deeds are still remembered in song.\nA thousand years later, another red-haired knight would follow in his footsteps, and bring light to the then-benighted history of the nobility.\nJust as the fate of the Windblume is to bloom under great pressure when the need to arise is most desperate,\nThe fate of this clan will likely never change: they shall ever live in the darkness and bring forth the flame of dawn.\n\nThe shape of the Windblume has been lost amidst the flowing winds of time.\nIn times of peace, its name has become synonymous with love and gladness.\nBut surely, this must have been the desire of those who walked stalwartly through the darkness...\n\n\"The flowers in bloom should represent love, and stand for the coming of spring.\"\n\"No more should they signal for rebellion, nor be the sign for banners to be raised...\"",
+    "lore": "In the childhood dreams of Mondstadt, there was a certain breed of floaty flower,\nThat would grow lushly even amidst the mighty winds, terrible winters and wild whipping ice.\n\nIt was unlike ordinary plants, which would be blown away, roots and all, when struck by the powerful gales.\nIndeed, this \"Windblume\"'s roots would grow stronger even as the wind grew wilder.\nToday, the rebellion of ordinary mortals against tyranny has long been consigned to festive jests,\nAnd the shape of that flower has grown faint, melding into the lilting lyre-tunes of histories long gone by.\n\n\"Let me give you this nameless flower, and may the spring-times you never saw mean nothing to you.\"\n\"Pray repay me with hope and a smile, and stand with me to welcome the day when the storms blow no longer.\"\n\nIn the days when a tyrant gazed down upon the common folk from his tower, those who nursed freedom in their breasts would greet each other thusly.\nThose who sought courage and dreamed of walking upright wove the unknown, using this as their secret sign.\nIn those days, a lonely and fragile flower would come into bloom with the wind before slowly blossoming all across the wild mountain ranges.\nSo too did rootless and indifferent subjects content to go with the flow become proud, fearless heroes.\nThe frowning lord in the tower grew ever lesser in stature, and could no longer disperse the swelling, raging tide.\n\n\"Let me give you this nameless flower, and may she crown us champions, defenders of spring and sky.\"\n\"May the dawn be our spirit and follow us into the winds of true freedom.\"\n\nAtop the ruins of the ancient tower, amidst the cheers, songs, and tears of those who had newly won their freedom.\nA red-haired warrior turned his back on the newborn god, hidden like a single raindrop in a tidal wave of humanity.\nHe was first among those who passed the secret sign of the Windblume amongst themselves, the one who wove threads of dawn throughout the long night.\nHis name has since been lost to time, but his deeds are still remembered in song.\nA thousand years later, another red-haired knight would follow in his footsteps, and bring light to the then-benighted history of the nobility.\nJust as the fate of the Windblume is to bloom under great pressure when the need to arise is most desperate,\nThe fate of this clan will likely never change: they shall ever live in the darkness and bring forth the flame of dawn.\n\nThe shape of the Windblume has been lost amidst the flowing winds of time.\nIn times of peace, its name has become synonymous with love and gladness.\nBut surely, this must have been the desire of those who walked stalwartly through the darkness...\n\n\"The flowers in bloom should represent love, and stand for the coming of spring.\"\n\"No more should they signal for rebellion, nor be the sign for banners to be raised...\"",
     "refinement": [
       [
         {
@@ -22118,7 +22335,7 @@
         }
       }
     ],
-    "lore": "One of the swords that the Shogun bestowed upon her Hatamoto. It is said that it can call upon the power of lightning itself to slice through the mountain mist and night fog.\nIt was once shattered into a thousand pieces. After being reforged, a hamon resembling flowing clouds was left on the blade.\n\nAs the folk song goes: \"Arataki of the Front Gate, Iwakura the Successor, Kitain the Serpent, Takamine the Mistsplitter.\"\nThus do children who love martial arts list famous historical martial artists, and \"Takamine the Mistsplitter\" was the very same user of this sword.\nThis man once accompanied a member of the clergy, using the Mistsplitter to countless demons and Tatarigami.\nHe also learned archery from the Yougou Tengu, and passed that knowledge on to a person he loved.\nHowever, Mistsplitter would have no successors, and now only exists within storybooks, artworks, and fairytales.\n\nAt the end of his life, he assumed the position of one of the Shogun's yoriki and fought against a dark army.\n\nIf he hadn't left his beloved bow to her as part of their wager, maybe things would've been different.\nBut real gamblers never regret, never care about \"what ifs,\" and never feel remorse over \"if onlys.\"\nThe foe flooded over like mist — and so he would just keep slashing away with that secret blade that could disperse the brumous night.\nAs long as his strikes were swift enough, he would pierce the dark night, and day would come again—\n\n\"Asase, our promise... No, say rather our great bet. I will not lose it, not for the world!\"\n\"I shall return, and together with the bow that I'd wagered... I'll claim the future as my prize!\"\n\nLike a never-ending chain of lightning, he and Mistsplitter slew countless demons together.\nYet at the last, the sword was not as tenacious as the swordsman, and it gradually broke down.\nAnd he became submerged in that thick dark mist...\nIn the end, only some of the blade's fragments were retrieved for reforging, such that it might inherit the Mistsplitter name.\n\nAs though holding onto a spider's thread hanging down in the dark, the samurai held the handle of his broken sword tightly.\nAmidst the dark mist, he kept stubbornly reminding himself:\nThe result of our wager is still undecided. I must return to Asase's side...",
+    "lore": "One of the swords that the Shogun bestowed upon her Hatamoto. It is said that it can call upon the power of lightning itself to slice through the mountain mist and night fog.\nIt was once shattered into a thousand pieces. After being reforged, a hamon resembling flowing clouds was left on the blade.\n\nAs the folk song goes: \"Arataki of the Front Gate, Iwakura the Successor, Kitain the Serpent, Takamine the Mistsplitter.\"\nThus do children who love martial arts list famous historical martial artists, and \"Takamine the Mistsplitter\" was the very same user of this sword.\nThis man once accompanied a member of the clergy, using the Mistsplitter to slay countless demons and Tatarigami.\nHe also learned archery from the Yougou Tengu, and passed that knowledge on to a person he loved.\nHowever, Mistsplitter would have no successors, and now only exists within storybooks, artworks, and fairytales.\n\nAt the end of his life, he assumed the position of one of the Shogun's yoriki and fought against a dark army.\n\nIf he hadn't left his beloved bow to her as part of their wager, maybe things would've been different.\nBut real gamblers never regret, never care about \"what ifs,\" and never feel remorse over \"if onlys.\"\nThe foe flooded over like mist — and so he would just keep slashing away with that secret blade that could disperse the brumous night.\nAs long as his strikes were swift enough, he would pierce the dark night, and day would come again—\n\n\"Asase, our promise... No, say rather our great bet. I will not lose it, not for the world!\"\n\"I shall return, and together with the bow that I'd wagered... I'll claim the future as my prize!\"\n\nLike a never-ending chain of lightning, he and Mistsplitter slew countless demons together.\nYet at the last, the sword was not as tenacious as the swordsman, and it gradually broke down.\nAnd he became submerged in that thick dark mist...\nIn the end, only some of the blade's fragments were retrieved for reforging, such that the resultant weapon might inherit the Mistsplitter name.\n\nAs though holding onto a spider's thread hanging down in the dark, the samurai held the handle of his broken sword tightly.\nAmidst the dark mist, he kept stubbornly reminding himself:\nThe result of our wager is still undecided. I must return to Asase's side...",
     "refinement": [
       [
         {
@@ -24071,7 +24288,7 @@
         }
       }
     ],
-    "lore": "The naginata was a lethal weapon by which scattered dross might be cut away.\nAnd the one who wielded that naginata was one who guarded the path to eternity.\n\nWhen the one who stood high above the storm clouds looked upon the mortal world, which she so loved,\nSeeing their shallow disputes and transient obsessions...\nSuch contentions stemmed from needless attachments and unchecked desire — both enemies of eternity.\nThe wild weeds that disturbed the unchanging world would be swept away by the lightning.\n\n\"Well then — what sort of Eternity would ███'s eyes reflect?\"\nSo asked the clergyperson who sloshed and drank wine with her under the sakura tree in that still-clear memory.\n\nWhat a pointless question.\nThough the answer she gave them was lost to the alcohol,\nShe had gained the answer countless times in those memories.\nOne must thin fruits to improve their quality, and plants used in dyes must have their flowers pruned.\nNot a single speck of dross could be permitted in an eternal paradise.\n\n\"Ah, but even so...\"\n\"Using that great blade of light to uproot all obsession and to eliminate the possibility for dreams to take root and wither by themselves...\"\n\"A tranquil world that brooks no dispute, no gain, or no loss... It shall be an amnesiac world, lost to itself.\"\nIn the heart of eternity, that old friend is still so clear, the scent of the sakura so fresh, as if it were in the present.\n\nBut I will never forget you, just as I will not forget the things that were lost across the years.\nAfter all...\n\nHaving witnessed the pitch-dark annihilation consume those precious to her,\nHow could she not see the absurd nature of life and death, yes, incomprehensible destiny itself, as her mortal foe?\nBut since no one can overturn the impermanence of the world, and the barren nature of this game,\nThen let the eternal euthymia within her heart carry forth into the nation she loves.",
+    "lore": "The naginata was a lethal weapon by which scattered dross might be cut away.\nAnd the one who wielded that naginata was one who guarded the path to eternity.\n\nWhen the one who stood high above the storm clouds looked upon the mortal world, which she so loved,\nSeeing their shallow disputes and transient obsessions...\nSuch contentions stemmed from needless attachments and unchecked desire — both enemies of eternity.\nThe wild weeds that disturbed the unchanging world would be swept away by the lightning.\n\n\"Well then — what sort of Eternity would ███'s eyes reflect?\"\nSo asked the clergyperson who sloshed and drank wine with her under the sakura tree in that still-clear memory.\n\nWhat a pointless question.\nThough the answer she gave them was lost to the alcohol,\nShe had gained the answer countless times in those memories.\nOne must thin fruits to improve their quality, and plants used in dyes must have their flowers pruned.\nNot a single speck of dross could be permitted in an eternal paradise.\n\n\"Ah, but even so...\"\n\"Using that great blade of light to uproot all obsession and to eliminate the possibility for dreams to take root and wither by themselves...\"\n\"A tranquil world that brooks no dispute, no gain, or no loss... It shall be an amnesiac world, lost to itself.\"\nIn the heart of eternity, those old friends still appear so clear and the scent of the sakura remains so fresh.\n\nBut I will never forget you, just as I will not forget the things that were lost across the years.\nAfter all...\n\nHaving witnessed the pitch-dark annihilation consume those precious to her,\nHow could she not see the absurd nature of life and death, yes, incomprehensible destiny itself, as her mortal foe?\nBut since no one can overturn the impermanence of the world, and the barren nature of this game,\nThen let the eternal euthymia within her heart carry forth into the nation she loves.",
     "refinement": [
       [
         {
@@ -25807,7 +26024,7 @@
         }
       }
     ],
-    "lore": "This bow, crackling with thunder, retains its luster despite having been soaked in thick darkness.\nWhen disaster came from a distant sea, it was once the favorite weapon of a great swordsman.\n\nIn his youth, he wandered the mountains, and he made a wager with a great Tengu he came across.\nHe gambled his young, strong body as a bet against a bow given by the Shogun.\n\nAs for the gamble itself, he could only sometimes recall it, when he was drunk.\nBut by the time dawn came, he had three wins and three losses — his contest with the Tengu was a draw.\nSo in the bad news, he was taken as a servant by the Tengu. But in the good news, he won that unmatched bow.\n\n\"Behold, Konbumaru, this is Tengu archery. Watch and learn!\"\nHe was given this rather ridiculous nickname, but ultimately, he witnessed the Tengu's form.\nSoaring through the cloud unfettered, unleashing thunderbolts with every bowstring's pulse...\nIt was a true, unreserved dance of death. Fierce and unpredictable, elegant and beautiful.\n\nMany years later, he was no longer a servant boy, and he had grasped both some archery and swordsmanship.\nHe was referred to the Shogunate through a recommendation letter from his impatient master.\nIn the years under the Shogun, his martial skills improved greatly, and he made many friends and enemies.\nStill, his hobby of unrestrained wanderlust had not changed. On the contrary, with the Tengu's great bow, he became yet more fearless.\n\n\"Let's make a wager this time, shall we? Hmm. Right, then. This bow shall be my wager.\"\n\"I bet on the mightiest bow in the world that I will return here alive.\"\n\"I'll leave it here with you for now. If I, Takamine, lose our bet, you can keep the bow.\"\n\"After all, you've inherited the essence of my archery techniques. You'll be able to make good use of it.\"\n\"But if I win...\"\n\nWhen disaster swept in from across the distant sea, the samurai and the obstinate shrine maiden had a mutual wager.\nThey bet on his safe return from the abyss against the inscribed bow bestowed by the Shogun.\n\nWhen the dark venom sank deep into the earth and peace returned, the swordsman did not come back.\nThe Shogun's bestowed bow was given to the shrine maiden as her prize for winning their great wager.\nLater, in the forest where the Kitsune Saiguu would no longer appear, in the promised meeting place,\nThe lone returnee who came stumbling back from the abyss finally met the shrine maiden again, though by now she could no longer be called young.\nDull eyes stained with dried blood and tears regained their radiance, but were pierced through by a barbed arrow glowing with power.",
+    "lore": "This bow, crackling with thunder, retains its luster despite having been soaked in thick darkness.\nWhen disaster came from a distant sea, it was once the favorite weapon of a great swordsman.\n\nIn his youth, he wandered the mountains, and he made a wager with a great Tengu he came across.\nHe gambled his young, strong body as a bet against a bow given by the Shogun.\n\nAs for the gamble itself, he could only sometimes recall it, when he was drunk.\nBut by the time dawn came, he had three wins and three losses — his contest with the Tengu was a draw.\nSo in the bad news, he was taken as a servant by the Tengu. But in the good news, he won that unmatched bow.\n\n\"Behold, Konbumaru, this is Tengu archery. Watch and learn!\"\nHe was given this rather ridiculous nickname, but ultimately, he witnessed the Tengu's form.\nSoaring through the clouds unfettered, unleashing thunderbolts with every bowstring's pulse...\nIt was a true, unreserved dance of death. Fierce and unpredictable, elegant and beautiful.\n\nMany years later, he was no longer a servant boy, and he had grasped both some archery and swordsmanship.\nHe was referred to the Shogunate through a recommendation letter from his impatient master.\nIn the years under the Shogun, his martial skills improved greatly, and he made many friends and enemies.\nStill, his hobby of unrestrained wanderlust had not changed. On the contrary, with the Tengu's great bow, he became yet more fearless.\n\n\"Let's make a wager this time, shall we? Hmm. Right, then. This bow shall be my wager.\"\n\"I bet on the mightiest bow in the world that I will return here alive.\"\n\"I'll leave it here with you for now. If I, Takamine, lose our bet, you can keep the bow.\"\n\"After all, you've inherited the essence of my archery techniques. You'll be able to make good use of it.\"\n\"But if I win...\"\n\nWhen disaster swept in from across the distant sea, the samurai and the obstinate shrine maiden had a mutual wager.\nThey bet on his safe return from the abyss against the inscribed bow bestowed by the Shogun.\n\nWhen the dark venom sank deep into the earth and peace returned, the swordsman did not come back.\nThe Shogun's bestowed bow was given to the shrine maiden as her prize for winning their great wager.\nLater, in the forest where the Kitsune Saiguu would no longer appear, in the promised meeting place,\nThe lone returnee who came stumbling back from the abyss finally met the shrine maiden again, though by now she could no longer be called young.\nDull eyes stained with dried blood and tears regained their radiance, but were pierced through by a barbed arrow glowing with power.",
     "refinement": [
       [
         {
@@ -26024,7 +26241,7 @@
         }
       }
     ],
-    "lore": "\"I was once a wounded wolf, betrayed by the whole world,\"\n\"But we shall create a new world, one in which no one shall ever be forsaken.\"\n\n\"Dressed in flawless garments as radiant as the midday,\"\n\"We came to the land of silver snow,\"\n\"And sounded the clarion of Her Majesty's greatness.\"\n\n\"Oft have we walked in the moonless night.\"\n\"Oft have we trudged through the gilded sands.\"\n\"Oft have we felt piercing enmity in the dark,\"\n\"And oft have we dreamed of lovers in distant hometowns.\"\n\"But the pale flame yet burns in our breasts.\"\n\"O Harbingers, scintillating as polar stars,\"\n\"Guide us ever onward, tireless.\"\n\n\"If you should dare to tear your eyes off those charlatans who call themselves gods,\"\n\"If you end each day discontent, if you burn with fury against false promises,\"\n\"Lift up your eyes to the white, glimmering stars, for that is our banner.\"\n\"Join our ranks! Let our marching boots shake the earth like thunder!\"\n\"You who will march with us towards the polestar of the white night, come! We shall never abandon you.\"\n\"You who will walk with us into the land of darkness, come! We shall create a new world together.\"\n\n\"Know that the destruction of all precedes the birth of a new order.\"\n\"At devastation's end, we will greet a stainless dawn.\"",
+    "lore": "\"I was once a wounded wolf, betrayed by the whole world,\"\n\"But we shall create a new world, one in which no one shall ever be forsaken.\"\n\n\"Dressed in flawless garments as radiant as the midday,\"\n\"We came to the land of silver snow,\"\n\"And sounded the clarion of Her Majesty's greatness.\"\n\n\"Oft have we walked in the moonless night.\"\n\"Oft have we trudged through the gilded sands.\"\n\"Oft have we felt piercing enmity in the dark,\"\n\"And oft have we dreamed of lovers in distant hometowns.\"\n\"But the pale flame yet burns in our breasts.\"\n\"O Harbingers, scintillating as polar stars,\"\n\"Guide us ever onward, tireless.\"\n\n\"If your dreams find no acceptance, if you nurse wounds that will not fade,\"\n\"If you end each day discontent, if you burn with fury against false promises,\"\n\"Lift up your eyes to the white, glimmering stars, for that is our banner.\"\n\"Join our ranks! Let our marching boots shake the earth like thunder!\"\n\"You who will march with us towards the polestar of the white night, come! We shall never abandon you.\"\n\"You who will walk with us into the land of darkness, come! We shall create a new world together.\"\n\n\"Know that the destruction of all precedes the birth of a new order.\"\n\"At devastation's end, we will greet a stainless dawn.\"",
     "refinement": [
       [
         {

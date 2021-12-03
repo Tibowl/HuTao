@@ -1,9 +1,9 @@
-import { Message } from "discord.js"
+import { CommandInteraction, Message } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
 import { createTable,  PAD_START, sendMessage } from "../../utils/Utils"
-import { Character } from "../../utils/Types"
+import { Character, CommandSource, SendMessage } from "../../utils/Types"
 import config from "../../data/config.json"
 
 export default class CharacterStatsCommand extends Command {
@@ -20,15 +20,38 @@ Example for a specific level and ascension: \`${config.prefix}cs Hu Tao 80 A6\`
 If no level or ascension is provided, the levels around all the ascensions will be shown.
 
 Note: this command supports fuzzy search.`,
-            aliases: ["character-stats", "cstat", "cs"]
+            aliases: ["character-stats", "cstat", "cs"],
+            options: [{
+                name: "name",
+                description: "Name of the character",
+                type: "STRING",
+                required: true,
+                // TODO: autocomplete: true
+            }, {
+                name: "level",
+                description: "Level to show stats at (shows a handful of levels by default)",
+                type: "NUMBER"
+            }, {
+                name: "ascension",
+                description: "Ascension to show stats at (shows all applicable ascensions by default)",
+                type: "NUMBER"
+            }]
         })
     }
 
-    async run(message: Message, args: string[]): Promise<Message | Message[]> {
-        const { data } = client
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        const { options } = source
 
+        const name = options.getString("name", true)
+        const level = options.getNumber("level") ?? -1
+        const ascension = options.getNumber("ascension") ?? -1
+
+        return this.run(source, name, level, ascension)
+    }
+
+    async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
         if (args.length < 1)
-            return this.sendHelp(message)
+            return this.sendHelp(source)
 
         let level = -1, ascension = -1
 
@@ -39,11 +62,18 @@ Note: this command supports fuzzy search.`,
                 ascension = parseInt(args.pop()?.replace(/a/i, "") ?? "-1")
             else break
 
-        const char = data.getCharacterByName(args.join(" "))
-        if (char == undefined)
-            return sendMessage(message, "Unable to find character")
+        const name = args.join(" ")
+        return this.run(source, name, level, ascension)
+    }
 
-        return sendMessage(message, this.getCharStats(char, level, ascension))
+    async run(source: CommandSource, name: string, level: number, ascension: number): Promise<SendMessage | undefined> {
+        const { data } = client
+
+        const char = data.getCharacterByName(name)
+        if (char == undefined)
+            return sendMessage(source, "Unable to find character")
+
+        return sendMessage(source, this.getCharStats(char, level, ascension))
     }
 
 

@@ -1,9 +1,9 @@
-import { Message, MessageEmbed } from "discord.js"
+import { CommandInteraction, Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
 import { addArg, Bookmarkable, Colors, createTable, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
-import { Weapon } from "../../utils/Types"
+import { CommandSource, SendMessage, Weapon } from "../../utils/Types"
 import config from "../../data/config.json"
 
 const weaponTypes = Object.values(client.data.weapons)
@@ -30,46 +30,25 @@ The list of weapons can be filtered by using \`${config.prefix}w -[${possibleSta
 Weapons listed will be from any of the searched stars AND from any of the listed weapon types.
 
 Note: this command supports fuzzy search.`,
-            aliases: ["weapons", "w", "weap"]
+            aliases: ["weapons", "w", "weap"],
+            options: [{
+                name: "name",
+                description: "Character name",
+                type: "STRING",
+                required: false
+            }]
         })
     }
 
-    getWeaponsPages(weaponFilter: string[], starFilter: number[]): string[] {
-        const { data } = client
-        const weapons = Object.entries(data.weapons)
-            .filter(([_, info]) => weaponFilter.length == 0 || weaponFilter.includes(info.weaponType))
-            .filter(([_, info]) => starFilter.length == 0 || starFilter.includes(info.stars))
-            .sort(([an, a],  [bn, b]) => b.stars - a.stars || a.weaponType.localeCompare(b.weaponType) || an.localeCompare(bn))
-            .map(([name, info]) => `${info.stars}★ ${data.emoji(info.weaponType, true)}: **${name}**`)
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        return this.run(source, (source.options.getString("name") ?? "").split(/ +/g))
 
-        const pages: string[] = []
-        let paging = "", c = 0
-        for (const weapon of weapons) {
-            if (paging.length + weapon.length > 1800 || ++c > 15) {
-                pages.push(paging.trim())
-                paging = weapon
-                c = 1
-            } else
-                paging += "\n" + weapon
-        }
-        if (paging.trim().length > 0) pages.push(paging)
-        return pages
+    }
+    async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
+        return this.run(source, args)
     }
 
-    getWeaponsPage(pages: string[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
-        if (relativePage >= pages.length)
-            return undefined
-
-        const embed = new MessageEmbed()
-            .setTitle("Weapons")
-            .setDescription(pages[relativePage])
-            .setFooter(`Page ${currentPage} / ${maxPages} - See '${config.prefix}help weapon' for more info about what you can do`)
-            .setColor(Colors.GREEN)
-
-        return embed
-    }
-
-    async run(message: Message, args: string[]): Promise<Message | Message[] | undefined> {
+    async run(source: CommandSource, args: string[]): Promise<SendMessage | undefined> {
         const { data } = client
 
         const weaponFilter: string[] = []
@@ -80,13 +59,6 @@ Note: this command supports fuzzy search.`,
         for (const star of possibleStars)
             addArg(args, [`-${star}`, `-${star}*`], () => starFilter.push(star))
 
-        if (args.length == 0) {
-            const pages = this.getWeaponsPages(weaponFilter, starFilter)
-            if (pages.length == 0) return sendMessage(message, "No character data loaded")
-
-            await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getWeaponsPage(pages, relativePage, currentPage, maxPages), pages.length)
-            return undefined
-        }
 
         let defaultPage: number | string = 0
         addArg(args, ["-basic", "-b"], () => defaultPage = "General")
@@ -96,9 +68,18 @@ Note: this command supports fuzzy search.`,
         addArg(args, ["-base", "-art"], () => defaultPage = "Art")
         addArg(args, ["-2nd", "-2"], () => defaultPage = "Art 2")
 
-        const weapon = data.getWeaponByName(args.join(" "))
+        const name = args.join(" ")
+        if (name.length == 0) {
+            const pages = this.getWeaponsPages(weaponFilter, starFilter)
+            if (pages.length == 0) return sendMessage(source, "No character data loaded")
+
+            await simplePaginator(source, (relativePage, currentPage, maxPages) => this.getWeaponsPage(pages, relativePage, currentPage, maxPages), pages.length)
+            return undefined
+        }
+
+        const weapon = data.getWeaponByName(name)
         if (weapon == undefined)
-            return sendMessage(message, "Unable to find weapon")
+            return sendMessage(source, "Unable to find weapon")
 
         const hasRefinements = weapon.refinement.length > 0 && weapon.refinement[0].length > 0
 
@@ -140,8 +121,44 @@ Note: this command supports fuzzy search.`,
             invisible: true
         })
 
-        await paginator(message, pages, defaultPage)
+        await paginator(source, pages, defaultPage)
         return undefined
+    }
+
+
+    getWeaponsPages(weaponFilter: string[], starFilter: number[]): string[] {
+        const { data } = client
+        const weapons = Object.entries(data.weapons)
+            .filter(([_, info]) => weaponFilter.length == 0 || weaponFilter.includes(info.weaponType))
+            .filter(([_, info]) => starFilter.length == 0 || starFilter.includes(info.stars))
+            .sort(([an, a],  [bn, b]) => b.stars - a.stars || a.weaponType.localeCompare(b.weaponType) || an.localeCompare(bn))
+            .map(([name, info]) => `${info.stars}★ ${data.emoji(info.weaponType, true)}: **${name}**`)
+
+        const pages: string[] = []
+        let paging = "", c = 0
+        for (const weapon of weapons) {
+            if (paging.length + weapon.length > 1800 || ++c > 15) {
+                pages.push(paging.trim())
+                paging = weapon
+                c = 1
+            } else
+                paging += "\n" + weapon
+        }
+        if (paging.trim().length > 0) pages.push(paging)
+        return pages
+    }
+
+    getWeaponsPage(pages: string[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        if (relativePage >= pages.length)
+            return undefined
+
+        const embed = new MessageEmbed()
+            .setTitle("Weapons")
+            .setDescription(pages[relativePage])
+            .setFooter(`Page ${currentPage} / ${maxPages} - See '${config.prefix}help weapon' for more info about what you can do`)
+            .setColor(Colors.GREEN)
+
+        return embed
     }
 
     getMainWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {

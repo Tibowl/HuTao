@@ -1,9 +1,9 @@
-import { Message, MessageEmbed } from "discord.js"
+import { CommandInteraction, Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
 import { Bookmarkable, Colors, getDate, getEventEmbed, paginator } from "../../utils/Utils"
-import { Event } from "../../utils/Types"
+import { CommandSource, Event, SendMessage } from "../../utils/Types"
 
 export default class Events extends Command {
     constructor(name: string) {
@@ -12,11 +12,20 @@ export default class Events extends Command {
             category: "News",
             usage: "events",
             help: "List upcoming and ongoing events",
-            aliases: ["e"]
+            aliases: ["e"],
+            options: []
         })
     }
 
-    async run(message: Message): Promise<Message | Message[] | undefined> {
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        return this.run(source)
+
+    }
+    async runMessage(source: Message): Promise<SendMessage | undefined> {
+        return this.run(source)
+    }
+
+    async run(source: CommandSource): Promise<SendMessage | undefined> {
         const now = Date.now()
         const { events } = client.data
 
@@ -63,7 +72,7 @@ export default class Events extends Command {
             pages: (rp, cp, mp) => this.getUpcomingEvent(upcoming, rp, cp, mp)
         }]
 
-        await paginator(message, pages, "Summary")
+        await paginator(source, pages, "Summary")
         return undefined
     }
 

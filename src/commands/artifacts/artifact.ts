@@ -1,9 +1,9 @@
-import { Message, MessageEmbed } from "discord.js"
+import { CommandInteraction, Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
 import { Colors, createTable,  sendMessage,  simplePaginator } from "../../utils/Utils"
-import { Artifact } from "../../utils/Types"
+import { Artifact, CommandSource, SendMessage } from "../../utils/Types"
 import config from "../../data/config.json"
 
 export default class ArtifactCommand extends Command {
@@ -12,11 +12,50 @@ export default class ArtifactCommand extends Command {
             name,
             category: "Artifact",
             usage: "artifact [name]",
+            shortHelp: "Displays artifact set information. If no name is provided, a list of all sets will be displayed.",
             help: `Displays artifact set information. If no name is provided, a list of all artifact sets will be displayed.
 
 Note: this command supports fuzzy search.`,
-            aliases: ["artifactset", "arti", "artiset", "artefact", "arte", "arteset", "a"]
+            aliases: ["artifactset", "arti", "artiset", "artefact", "arte", "arteset", "a"],
+            options: [{
+                name: "name",
+                description: "Name of the artifact set",
+                type: "STRING",
+            }]
         })
+    }
+
+    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+        const { options } = source
+
+        const set = options.getString("name")
+
+        return this.run(source, set)
+    }
+
+    async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
+        const set = args.length > 0 ? args.join(" ") : undefined
+
+        return this.run(source, set)
+    }
+
+    async run(source: CommandSource, set?: string | null): Promise<SendMessage | undefined> {
+        const { data } = client
+
+        if (!set) {
+            const pages = this.getArtiSetsPages()
+            if (pages.length == 0) return sendMessage(source, "No artifact data loaded")
+
+            await simplePaginator(source, (relativePage, currentPage, maxPages) => this.getArtiSets(pages, relativePage, currentPage, maxPages), pages.length)
+            return undefined
+        }
+
+        const arti = data.getArtifactByName(set)
+        if (arti == undefined)
+            return sendMessage(source, "Unable to find artifact")
+
+        await simplePaginator(source, (relativePage, currentPage, maxPages) => this.getArti(arti, relativePage, currentPage, maxPages), 1 + arti.artis.length)
+        return undefined
     }
 
     getArtiSetsPages(): string[] {
@@ -50,25 +89,6 @@ Note: this command supports fuzzy search.`,
             .setColor(Colors.GREEN)
 
         return embed
-    }
-
-    async run(message: Message, args: string[]): Promise<Message | Message[] | undefined> {
-        const { data } = client
-
-        if (args.length == 0) {
-            const pages = this.getArtiSetsPages()
-            if (pages.length == 0) return sendMessage(message, "No artifact data loaded")
-
-            await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getArtiSets(pages, relativePage, currentPage, maxPages), pages.length)
-            return undefined
-        }
-
-        const arti = data.getArtifactByName(args.join(" "))
-        if (arti == undefined)
-            return sendMessage(message, "Unable to find artifact")
-
-        await simplePaginator(message, (relativePage, currentPage, maxPages) => this.getArti(arti, relativePage, currentPage, maxPages), 1 + arti.artis.length)
-        return undefined
     }
 
     getArti(set: Artifact, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
