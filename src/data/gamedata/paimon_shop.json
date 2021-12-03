@@ -1,0 +1,26 @@
+[
+    {
+        "weapon": "Blackcliff",
+        "char": ["Fischl", "Xiangling"]
+    },
+    {
+        "weapon": "Royal",
+        "char": ["Beidou", "Noelle"]
+    },
+    {
+        "weapon": "Blackcliff",
+        "char": ["Ningguang", "Xingqiu"]
+    },
+    {
+        "weapon": "Royal",
+        "char": ["Razor", "Amber"]
+    },
+    {
+        "weapon": "Blackcliff",
+        "char": ["Bennett", "Lisa"]
+    },
+    {
+        "weapon": "Royal",
+        "char": ["Barbara", "Kaeya"]
+    }
+]

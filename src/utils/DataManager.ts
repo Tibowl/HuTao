@@ -2,7 +2,7 @@ import log4js from "log4js"
 import { exists, unlink, move, writeFile, existsSync, readFileSync } from "fs-extra"
 import { join } from "path"
 
-import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event } from "./Types"
+import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop } from "./Types"
 
 import artifactsData from "../data/gamedata/artifacts.json"
 import artifactsMainStats from "../data/gamedata/artifact_main_stats.json"
@@ -17,6 +17,8 @@ import weaponData from "../data/gamedata/weapons.json"
 import weaponCurves from "../data/gamedata/weapon_curves.json"
 import weaponLevels from "../data/gamedata/weapon_levels.json"
 import weaponMats from "../data/gamedata/weapon_mats.json"
+
+import paimonShop from "../data/gamedata/paimon_shop.json"
 
 import abyssFloors from "../data/gamedata/abyss_floors.json"
 import abyssSchedule from "../data/gamedata/abyss_schedule.json"
@@ -52,11 +54,13 @@ export default class DataManager {
     private readonly abyssSchedule: Record<number, AbyssSchedule> = abyssSchedule
     readonly abyssFloors: Record<number, AbyssFloor> = abyssFloors
 
-    readonly events: Event[] = eventData as Event[]
-    readonly emojis: Record<BotEmoji, string> = emojiData
-
     readonly books: Record<string, string[]> = booksData
     readonly weaponMats: Record<string, string[]> = weaponMats
+
+    readonly paimonsBargains: PaimonShop[] = paimonShop
+
+    readonly events: Event[] = eventData as Event[]
+    readonly emojis: Record<BotEmoji, string> = emojiData
 
     constructor() {
         try {

@@ -523,3 +523,9 @@ export enum EventReminderType {
 export type BotEmoji =
     "Electric" | "Fire" | "Grass" | "Ice" | "Rock" | "Water" | "Wind" |
     "Bow" | "Catalyst" | "Claymore" | "Polearm" | "Sword"
+
+// Paimon Shop
+export interface PaimonShop {
+    weapon: string
+    char: string[]
+}
