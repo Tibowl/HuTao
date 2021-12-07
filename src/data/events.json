@@ -798,7 +798,8 @@
     {
         "name": "\"Bantan Sango Case Files: The Warrior Dog\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/19/1015537/e4a6f8d819aa18f92d3432b13cab3ba6_5893306215123068773.jpeg",
+        "link": "https://www.hoyolab.com/article/1562876",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/12/03/1015537/5437d16bd12c7361581b921dcb5815d7_1028402369935486460.jpg",
         "start": "2021-12-07 10:00:00",
         "end": "2021-12-20 03:59:00",
         "reminder": "end"
