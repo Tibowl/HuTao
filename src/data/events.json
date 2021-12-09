@@ -832,6 +832,15 @@
         "reminder": "end"
     },
     {
+        "name": "\"Let the Arataki Gang Show Begin!\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/1586790",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/12/09/1015537/5c791f0678275a99e79bdd32cfbc46d9_1903143942367653445.png",
+        "start": "2021-12-09 12:00:00",
+        "end": "2021-12-13 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "Next Special Program",
         "type": "Stream",
         "prediction": true,
