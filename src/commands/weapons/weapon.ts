@@ -1,8 +1,8 @@
-import { CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { addArg, Bookmarkable, Colors, createTable, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
+import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
 import { CommandSource, SendMessage, Weapon } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -33,11 +33,45 @@ Note: this command supports fuzzy search.`,
             aliases: ["weapons", "w", "weap"],
             options: [{
                 name: "name",
-                description: "Character name",
+                description: "Weapon name",
                 type: "STRING",
+                autocomplete: true,
                 required: false
             }]
         })
+    }
+
+    async autocomplete(source: AutocompleteInteraction): Promise<void> {
+        const targetNames = Object.keys(client.data.weapons)
+        const search = source.options.getFocused().toString()
+
+        if (search == "") {
+            return await source.respond([
+                { name: "List all weapons", value: "" },
+                ...targetNames.filter((_, i) => i < 19).map(value => {
+                    return { name: value, value }
+                })
+            ])
+        }
+
+        const args = search.split(/ +/g)
+        const lastWord = args.pop()
+        if (lastWord?.startsWith("-")) {
+            const foundChar = args.filter(x => !x.startsWith("-")).join("")
+
+            let targets = ["-basic", "-stats", "-refinements", "-lore", "-base", "-2nd"]
+            if (foundChar == "")
+                targets = [...weaponTypes, ...possibleStars.map(n => `${n}*`)].map(x => `-${x.toLowerCase()}`)
+
+            return await source.respond(findFuzzyBestCandidates(targets, lastWord, 20).map(value => {
+                value = `${args.join(" ")} ${value}`
+                return { name: value, value }
+            }))
+        }
+
+        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+            return { name: value, value }
+        }))
     }
 
     async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {

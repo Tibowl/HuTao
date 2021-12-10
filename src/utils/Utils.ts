@@ -608,6 +608,27 @@ export function findFuzzy(target: string[], search: string): string | undefined 
     return candidates[lengths.indexOf(min)]
 }
 
+export function findFuzzyBestCandidates(target: string[], search: string, amount: number): string[] {
+    const cleaned = searchClean(search)
+    const found = target.find(t => searchClean(t) == search)
+    if (found)
+        return [found]
+
+    const dists = target.map(e => fuzzySearchScore(searchClean(e), cleaned) + fuzzySearchScore(caps(e), caps(search)) - e.length / 100 + 1)
+    const max = Math.max(...dists)
+
+    return target
+        .map((t, i) => {
+            return {
+                t,
+                d: dists[i]
+            }
+        })
+        .sort((a, b) => b.d - a.d)
+        .filter((e, i) => i < amount && e.d > max * 0.65)
+        .map(e => e.t)
+}
+
 export const Colors: Record<string, ColorResolvable> = {
     GREEN: "#00EA69",
     DARK_GREEN: "#2EF41F",

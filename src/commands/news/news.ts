@@ -1,8 +1,8 @@
-import { CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { Colors, findFuzzy, getNewsEmbed, parseNewsContent, sendMessage, simplePaginator } from "../../utils/Utils"
+import { Colors, findFuzzy, findFuzzyBestCandidates, getNewsEmbed, parseNewsContent, sendMessage, simplePaginator } from "../../utils/Utils"
 import config from "../../data/config.json"
 import { CommandSource, NewsLang, SendMessage } from "../../utils/Types"
 
@@ -24,8 +24,29 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
                 name: "lang",
                 description: "Language of the article (default: en-us)",
                 type: "STRING",
+                autocomplete: true
             }]
         })
+    }
+
+    async autocomplete(source: AutocompleteInteraction): Promise<void> {
+        const targetNames = [
+            ...client.newsManager.getLanguages(),
+            ...client.newsManager.getLanguages().map(l => client.newsManager.getLanguageName(l))
+        ]
+        const search = source.options.getFocused().toString()
+
+        if (search == "") {
+            return await source.respond([
+                ...targetNames.filter((_, i) => i < 20).map(value => {
+                    return { name: value, value }
+                })
+            ])
+        }
+
+        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+            return { name: value, value }
+        }))
     }
 
     async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {

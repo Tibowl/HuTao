@@ -1,5 +1,5 @@
 import log4js from "log4js"
-import { CommandInteraction, Message } from "discord.js"
+import { AutocompleteInteraction, CommandInteraction, Message } from "discord.js"
 
 import Command from "../utils/Command"
 import client from "../main"
@@ -39,6 +39,18 @@ export function addStats(cmdInfo: ParsedCommand): void {
     client.data.saveStore()
 }
 
+export function addACStats(cmdInfo: ParsedCommand): void {
+    const { command, cmd } = cmdInfo
+    const stats = client.data.store.stats || {}
+    const cmdStats = stats[cmd.commandName.toLowerCase() + "_autocomplete"] || {}
+
+    cmdStats[command] = cmdStats[command] + 1 || 1
+
+    stats[cmd.commandName.toLowerCase() + "_autocomplete"] = cmdStats
+    client.data.store.stats = stats
+    client.data.saveStore()
+}
+
 export async function handleCommand(cmdInfo: ParsedCommand, interaction: CommandInteraction): Promise<void> {
     const { command, cmd } = cmdInfo
     try {
@@ -53,7 +65,6 @@ export async function handleCommand(cmdInfo: ParsedCommand, interaction: Command
     } catch (error) {
         Logger.error(error)
     }
-    true
 }
 
 export async function handleLegacyCommand(cmdInfo: ParsedCommand, message: Message, args: string[]): Promise<void> {
@@ -66,6 +77,21 @@ export async function handleLegacyCommand(cmdInfo: ParsedCommand, message: Messa
         await handleStuff(id, msg)
         const endTime = Date.now()
         Logger.debug(`${cmdInfo.command} took ${midTime - startTime}ms, sending took ${endTime - midTime}ms, message->start took ${startTime - message.createdTimestamp}ms`)
+    } catch (error) {
+        Logger.error(error)
+    }
+}
+
+export async function handleAutoComplete(cmdInfo: ParsedCommand, interaction: AutocompleteInteraction): Promise<void> {
+    const { command, cmd } = cmdInfo
+    try {
+        const startTime = Date.now()
+        const response = cmd.autocomplete(interaction, command)
+        const midTime = Date.now()
+        if (response)
+            await response
+        const endTime = Date.now()
+        Logger.debug(`Autocomplete ${cmdInfo.command} took ${midTime - startTime}ms, sending took ${endTime - midTime}ms, message->start took ${startTime - interaction.createdTimestamp}ms`)
     } catch (error) {
         Logger.error(error)
     }

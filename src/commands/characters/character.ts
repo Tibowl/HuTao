@@ -1,8 +1,8 @@
-import { CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { addArg, Bookmarkable, Colors, createTable, PAD_END, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
+import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, PAD_END, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
 import { BotEmoji, Character, CommandSource, SendMessage, Skill } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -55,9 +55,46 @@ Note: this command supports fuzzy search.`,
                 name: "name",
                 description: "Character name",
                 type: "STRING",
+                autocomplete: true,
                 required: false
             }]
         })
+    }
+
+    async autocomplete(source: AutocompleteInteraction): Promise<void> {
+        const targetNames = client.data.getCharacters().map(c => c.name)
+        const search = source.options.getFocused().toString()
+
+        if (search == "") {
+            return await source.respond([
+                { name: "List all characters", value: "" },
+                ...targetNames.filter((_, i) => i < 19).map(value => {
+                    return { name: value, value }
+                })
+            ])
+        }
+
+        const args = search.split(/ +/g)
+        const lastWord = args.pop()
+        if (lastWord?.startsWith("-")) {
+            const foundChar = args.filter(x => !x.startsWith("-")).join("")
+
+            let targets = ["-low", "-high", "-info", "-art", "-stats", "-books", "-skill", "-passive", "-const"]
+            if (foundChar == "")
+                targets = [...elementTypes, ...weaponTypes, ...possibleStars.map(n => `${n}*`)].map(x => `-${x.toLowerCase()}`)
+            else if (foundChar == "Traveler")
+                // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+                targets = [...elementTypes.filter(elem => this.getElementIcons(client.data.getCharacterByName("Traveler")!).includes(elem)).map(x => `-${x.toLowerCase()}`), ...targets]
+
+            return await source.respond(findFuzzyBestCandidates(targets, lastWord, 20).map(value => {
+                value = `${args.join(" ")} ${value}`
+                return { name: value, value }
+            }))
+        }
+
+        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+            return { name: value, value }
+        }))
     }
 
     async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {

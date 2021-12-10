@@ -1,4 +1,4 @@
-import { ApplicationCommandOptionData, CommandInteraction, Message } from "discord.js"
+import { ApplicationCommandOptionData, AutocompleteInteraction, CommandInteraction, Message } from "discord.js"
 
 import config from "../data/config.json"
 import { CommandResponse, CommandSource, SendMessage } from "./Types"
@@ -36,6 +36,12 @@ export default abstract class Command {
 
     abstract runInteraction(source: CommandInteraction, command: string): CommandResponse
     abstract runMessage(source: Message, args: string[], command: string): CommandResponse
+    async autocomplete(source: AutocompleteInteraction, _command: string): Promise<void> {
+        await source.respond([{
+            name: source.options.getFocused().toString() || "Empty",
+            value: source.options.getFocused()
+        }])
+    }
 
     async sendHelp(source: CommandSource): Promise<SendMessage | undefined> {
         return sendMessage(source, `Usage: \`${this.usage}\`

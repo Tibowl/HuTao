@@ -1,8 +1,8 @@
-import { CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { Colors, createTable,  sendMessage,  simplePaginator } from "../../utils/Utils"
+import { Colors, createTable,  findFuzzyBestCandidates,  sendMessage,  simplePaginator } from "../../utils/Utils"
 import { Artifact, CommandSource, SendMessage } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -21,8 +21,27 @@ Note: this command supports fuzzy search.`,
                 name: "name",
                 description: "Name of the artifact set",
                 type: "STRING",
+                autocomplete: true
             }]
         })
+    }
+
+    async autocomplete(source: AutocompleteInteraction): Promise<void> {
+        const targetNames = Object.keys(client.data.artifacts)
+        const search = source.options.getFocused().toString()
+
+        if (search == "") {
+            return await source.respond([
+                { name: "List all artifacts", value: "" },
+                ...targetNames.filter((_, i) => i < 19).map(value => {
+                    return { name: value, value }
+                })
+            ])
+        }
+
+        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+            return { name: value, value }
+        }))
     }
 
     async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {

@@ -1,8 +1,8 @@
-import { CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { Colors, sendMessage, simplePaginator } from "../../utils/Utils"
+import { Colors, findFuzzyBestCandidates, sendMessage, simplePaginator } from "../../utils/Utils"
 import { AbyssSchedule, CommandSource, SendMessage } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -32,9 +32,19 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
                 name: "cycle",
                 description: "Specify a historical time (format: 'yyyy-mm-1' or 'yyyy-mm-2'. Example: 2020-12-2)",
                 type: "STRING",
-                required: false
+                required: false,
+                autocomplete: true
             }]
         })
+    }
+
+    async autocomplete(source: AutocompleteInteraction): Promise<void> {
+        const targetNames = client.data.getAbyssSchedules().map(s => s.start.substring(0, 7)).flatMap((s, i, arr) => `${s}-${i - arr.indexOf(s) + 1}`).reverse()
+        const search = source.options.getFocused().toString()
+
+        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+            return { name: value, value }
+        }))
     }
 
     async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {

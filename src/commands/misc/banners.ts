@@ -1,10 +1,10 @@
-import { CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } from "discord.js"
 import log4js from "log4js"
 import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { CommandSource, SendMessage, StoredNews } from "../../utils/Types"
-import { Colors, findFuzzy, parseNewsContent, sendMessage, simplePaginator } from "../../utils/Utils"
+import { Colors, findFuzzy, findFuzzyBestCandidates, parseNewsContent, sendMessage, simplePaginator } from "../../utils/Utils"
 
 
 const Logger = log4js.getLogger("main")
@@ -188,7 +188,8 @@ Note: this command supports fuzzy search.`,
                     name: "query",
                     description: "Name of the character or weapon",
                     type: "STRING",
-                    required: true
+                    required: true,
+                    autocomplete: true
                 }]
             }, {
                 name: "list",
@@ -222,6 +223,15 @@ Note: this command supports fuzzy search.`,
         })
 
         client.newsManager.getEventWishes().forEach((news) => parseEventWishNews(news, false))
+    }
+
+    async autocomplete(source: AutocompleteInteraction): Promise<void> {
+        const targetNames = eventWishes.flatMap(w => [...w.other, ...w.main]).filter((v, i, arr) => arr.indexOf(v) == i)
+        const search = source.options.getFocused().toString()
+
+        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+            return { name: value, value }
+        }))
     }
 
     async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {

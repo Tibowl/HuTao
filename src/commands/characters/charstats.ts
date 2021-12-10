@@ -1,8 +1,8 @@
-import { CommandInteraction, Message } from "discord.js"
+import { AutocompleteInteraction, CommandInteraction, Message } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { createTable,  PAD_START, sendMessage } from "../../utils/Utils"
+import { createTable,  findFuzzyBestCandidates,  PAD_START, sendMessage } from "../../utils/Utils"
 import { Character, CommandSource, SendMessage } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -26,7 +26,7 @@ Note: this command supports fuzzy search.`,
                 description: "Name of the character",
                 type: "STRING",
                 required: true,
-                // TODO: autocomplete: true
+                autocomplete: true
             }, {
                 name: "level",
                 description: "Level to show stats at (shows a handful of levels by default)",
@@ -37,6 +37,15 @@ Note: this command supports fuzzy search.`,
                 type: "NUMBER"
             }]
         })
+    }
+
+    async autocomplete(source: AutocompleteInteraction): Promise<void> {
+        const targetNames = client.data.getCharacters().map(c => c.name)
+        const search = source.options.getFocused().toString()
+
+        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+            return { name: value, value }
+        }))
     }
 
     async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {

@@ -1,9 +1,9 @@
 import Command from "../../utils/Command"
-import { TextChannel, PermissionResolvable, CommandInteraction, Message } from "discord.js"
+import { TextChannel, PermissionResolvable, CommandInteraction, Message, AutocompleteInteraction } from "discord.js"
 import client from "../../main"
 import { CommandCategory } from "../../utils/Command"
 import config from "../../data/config.json"
-import { getUserID, sendMessage } from "../../utils/Utils"
+import { findFuzzyBestCandidates, getUserID, sendMessage } from "../../utils/Utils"
 import { CommandSource, SendMessage } from "../../utils/Types"
 
 const requiredPermissions: PermissionResolvable[] = [
@@ -24,8 +24,27 @@ export default class Help extends Command {
                 name: "name",
                 description: "Name of the command",
                 type: "STRING",
+                autocomplete: true
             }]
         })
+    }
+
+    async autocomplete(source: AutocompleteInteraction): Promise<void> {
+        const targetNames = client.commands.keyArray()
+        const search = source.options.getFocused().toString()
+
+        if (search == "") {
+            return await source.respond([
+                { name: "List all commands", value: "" },
+                ...targetNames.filter((_, i) => i < 19).map(value => {
+                    return { name: value, value }
+                })
+            ])
+        }
+
+        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+            return { name: value, value }
+        }))
     }
 
     async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
