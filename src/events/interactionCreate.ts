@@ -15,7 +15,7 @@ export async function handle(interaction: Interaction): Promise<void> {
             addStats(cmdInfo)
             await handleCommand(cmdInfo, interaction)
         } else if (interaction.isAutocomplete()) {
-            Logger.info(`${interaction.user.id} (${interaction.user.tag}) executes slash command in ${interaction.channel instanceof TextChannel ? interaction.channel.name : interaction.channel?.type} (guild ${interaction.guild ? interaction.guild.id : "NaN"}): ${interaction.commandName} ${interaction.options.data.map(x => `${x.name}->${x.value??"/"}`)}`)
+            Logger.info(`${interaction.user.id} (${interaction.user.tag}) autocompletes in ${interaction.channel instanceof TextChannel ? interaction.channel.name : interaction.channel?.type} (guild ${interaction.guild ? interaction.guild.id : "NaN"}): ${interaction.commandName} ${interaction.options.data.map(x => `${x.name}->${x.value??"/"}`)}`)
             addACStats(cmdInfo)
             await handleAutoComplete(cmdInfo, interaction)
         }
