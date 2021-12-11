@@ -771,8 +771,8 @@
     {
         "name": "Event Wish \"Oni's Royale\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/phG1okd.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/1608406",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/12/10/1015537/1c20c2b4e753fd83cb56c952cdb20475_116889619004661743.jpg",
         "start": "2021-12-14 18:00:00",
         "end": "2022-01-04 14:59:00",
         "reminder": "end"
@@ -780,8 +780,8 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/LzE4wXw.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/1608407",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/12/10/1015537/0dd397a8d31670f374279b56390a5057_6400322801389919479.jpg",
         "start": "2021-12-14 18:00:00",
         "end": "2022-01-04 14:59:00",
         "reminder": "end"
@@ -805,21 +805,27 @@
         "reminder": "end"
     },
     {
-        "name": "\"Energy Amplifier Fruition\" Event",
+        "name": "\"Misty Dungeon: Realm of Light\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/QsRE3g8.png",
+        "img": "https://i.imgur.com/lwOJxSC.png",
+        "start": "2021-12-17 10:00:00",
+        "end": "2021-12-27 03:59:00",
         "reminder": "end"
     },
     {
-        "name": "\"Misty Dungeon: Realm of Light\" Event",
+        "name": "\"Energy Amplifier Fruition\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/6D01uc2.png",
+        "img": "https://i.imgur.com/wnmvkB2.png",
+        "start": "2021-12-24 10:00:00",
+        "end": "2022-01-03 03:59:00",
         "reminder": "end"
     },
     {
         "name": "\"Marvelous Merchandise\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/MGfuA72.png",
+        "img": "https://i.imgur.com/T6cb9Nx.png",
+        "start": "2021-12-27 10:00:00",
+        "end": "2022-01-03 03:59:00",
         "reminder": "end"
     },
     {
