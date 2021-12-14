@@ -52383,5 +52383,2404 @@
         ]
       }
     ]
+  },
+  "Gorou": {
+    "name": "Gorou",
+    "desc": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",
+    "releasedOn": "2021-12-14 18:00:00",
+    "star": 4,
+    "weaponType": "Bow",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gorou.png",
+    "imgs": [
+      "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Character_Gorou_Card.jpg/revision/latest?cb=20211012051503",
+      "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Character_Gorou_Game.png/revision/latest?cb=20211127053326"
+    ],
+    "hpBase": 802.3760986328125,
+    "attackBase": 15.31488037109375,
+    "defenseBase": 54.36375045776367,
+    "criticalBase": 0.05000000074505806,
+    "criticalHurtBase": 0.5,
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 4*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 4*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 4*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 5,
+      "birthDay": 18,
+      "association": "Inazuma",
+      "title": "Canine Warrior",
+      "detail": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",
+      "affiliation": "Watatsumi Island",
+      "element": "Geo",
+      "constellation": "Canis Bellatoris",
+      "cvChinese": "杨昕燃",
+      "cvJapanese": "畠中祐",
+      "cvEnglish": "Cory Yee",
+      "cvKorean": "이새벽"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Ripping Fang Fletching",
+            "desc": "**Normal Attack**\nPerform up to 4 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal **Geo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "37.8%",
+                  "40.8%",
+                  "43.9%",
+                  "48.3%",
+                  "51.4%",
+                  "54.9%",
+                  "59.7%",
+                  "64.5%",
+                  "69.4%",
+                  "74.6%",
+                  "79.9%",
+                  "85.2%",
+                  "90.4%",
+                  "95.7%",
+                  "101.0%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "37.2%",
+                  "40.2%",
+                  "43.2%",
+                  "47.5%",
+                  "50.5%",
+                  "54.0%",
+                  "58.8%",
+                  "63.5%",
+                  "68.3%",
+                  "73.4%",
+                  "78.6%",
+                  "83.8%",
+                  "89.0%",
+                  "94.2%",
+                  "99.4%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "49.5%",
+                  "53.5%",
+                  "57.5%",
+                  "63.2%",
+                  "67.3%",
+                  "71.9%",
+                  "78.2%",
+                  "84.5%",
+                  "90.9%",
+                  "97.8%",
+                  "104.6%",
+                  "111.5%",
+                  "118.4%",
+                  "125.3%",
+                  "132.2%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "59.0%",
+                  "63.8%",
+                  "68.6%",
+                  "75.5%",
+                  "80.3%",
+                  "85.8%",
+                  "93.3%",
+                  "100.8%",
+                  "108.4%",
+                  "116.6%",
+                  "124.9%",
+                  "133.1%",
+                  "141.3%",
+                  "149.5%",
+                  "157.8%"
+                ]
+              },
+              {
+                "name": "Aimed Shot",
+                "values": [
+                  "43.9%",
+                  "47.4%",
+                  "51.0%",
+                  "56.1%",
+                  "59.7%",
+                  "63.7%",
+                  "69.4%",
+                  "75.0%",
+                  "80.6%",
+                  "86.7%",
+                  "92.8%",
+                  "98.9%",
+                  "105.1%",
+                  "111.2%",
+                  "117.3%"
+                ]
+              },
+              {
+                "name": "Fully-Charged Aimed Shot",
+                "values": [
+                  "124.00%",
+                  "133.30%",
+                  "142.60%",
+                  "155.00%",
+                  "164.30%",
+                  "173.60%",
+                  "186.00%",
+                  "198.40%",
+                  "210.80%",
+                  "223.20%",
+                  "235.60%",
+                  "248.00%",
+                  "263.50%",
+                  "279.00%",
+                  "294.50%"
+                ]
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "56.8%",
+                  "61.5%",
+                  "66.1%",
+                  "72.7%",
+                  "77.3%",
+                  "82.6%",
+                  "89.9%",
+                  "97.1%",
+                  "104.4%",
+                  "112.3%",
+                  "120.3%",
+                  "128.2%",
+                  "136.1%",
+                  "144.1%",
+                  "152.0%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "113.63%/141.93%",
+                  "122.88%/153.49%",
+                  "132.13%/165.04%",
+                  "145.35%/181.54%",
+                  "154.59%/193.10%",
+                  "165.16%/206.30%",
+                  "179.70%/224.45%",
+                  "194.23%/242.61%",
+                  "208.77%/260.76%",
+                  "224.62%/280.57%",
+                  "240.48%/300.37%",
+                  "256.34%/320.18%",
+                  "272.19%/339.98%",
+                  "288.05%/359.79%",
+                  "303.90%/379.59%"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Light"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Spectral Husk"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Spectral Heart"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Spectral Heart"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Spectral Heart"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Spectral Heart"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Spectral Nucleus"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Molten Moment"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Spectral Nucleus"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Molten Moment"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Spectral Nucleus"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Molten Moment"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Spectral Nucleus"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Molten Moment"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Inuzaka All-Round Defense",
+            "desc": "Deals **AoE Geo DMG** and sets up a General's War Banner.\n\n**General's War Banner**\nProvides up to 3 buffs to active characters within the skill's AoE based on the number of **Geo** characters in the party at the time of casting:\n· 1 Geo character: Adds \"Standing Firm\" - DEF Bonus.\n· 2 Geo characters: Adds \"Impregnable\" - Increased resistance to interruption.\n· 3 Geo characters: Adds \"Crunch\" - **Geo DMG Bonus**.\n\nGorou can deploy only 1 General's War Banner on the field at any one time. Characters can only benefit from 1 General's War Banner at a time. When a party member leaves the field, the active buff will last for 2s.\n\n**Hold**\nAdjust the location of the skill.\n\n**\"Take up this formation and we'll be safe — I guarantee it!\" As a general and a leader of troops, the last thing Gorou wants is to see is those who follow him getting hurt.**",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "Skill DMG",
+                "values": [
+                  "107.2%",
+                  "115.2%",
+                  "123.3%",
+                  "134.0%",
+                  "142.0%",
+                  "150.1%",
+                  "160.8%",
+                  "171.5%",
+                  "182.2%",
+                  "193.0%",
+                  "203.7%",
+                  "214.4%",
+                  "227.8%",
+                  "241.2%",
+                  "254.6%"
+                ]
+              },
+              {
+                "name": "DEF Increase",
+                "values": [
+                  "206",
+                  "222",
+                  "237",
+                  "258",
+                  "273",
+                  "289",
+                  "309",
+                  "330",
+                  "350",
+                  "371",
+                  "392",
+                  "412",
+                  "438",
+                  "464",
+                  "490"
+                ]
+              },
+              {
+                "name": "Geo DMG Bonus",
+                "values": [
+                  "15.00%",
+                  "15.00%",
+                  "15.00%",
+                  "15.00%",
+                  "15.00%",
+                  "15.00%",
+                  "15.00%",
+                  "15.00%",
+                  "15.00%",
+                  "15.00%",
+                  "15.00%",
+                  "15.00%",
+                  "15.00%",
+                  "15.00%",
+                  "15.00%"
+                ]
+              },
+              {
+                "name": "Duration",
+                "values": [
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s"
+                ]
+              },
+              {
+                "name": "CD",
+                "values": [
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Light"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Spectral Husk"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Spectral Heart"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Spectral Heart"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Spectral Heart"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Light"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Spectral Heart"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Spectral Nucleus"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Molten Moment"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Spectral Nucleus"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Molten Moment"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Spectral Nucleus"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Molten Moment"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Light"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Spectral Nucleus"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Molten Moment"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ult": {
+          "name": "Juuga: Forward Unto Victory",
+          "desc": "Displaying his valor as a general, Gorou deals **AoE Geo DMG** and creates a field known as General's Glory to embolden his comrades.\n\n**General's Glory**\nThis field has the following properties:\n· Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of **Geo** characters in the party. Also moves together with your active character.\n· Generates 1 Crystal Collapse every 1.5s that deals **AoE Geo DMG** to 1 opponent within the skill's AoE.\n· Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).\n\nIf a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.\n If Gorou falls, the effects of General's Glory will be cleared.\n\n**\"We have the high ground!\" Gorou can ever so slightly change the terrain of the battlefield to help win victory. This technique has seen him through many battles against seemingly superior opposition.**",
+          "charges": 1,
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "98.22% DEF",
+                "105.58% DEF",
+                "112.95% DEF",
+                "122.77% DEF",
+                "130.14% DEF",
+                "137.50% DEF",
+                "147.32% DEF",
+                "157.15% DEF",
+                "166.97% DEF",
+                "176.79% DEF",
+                "186.61% DEF",
+                "196.43% DEF",
+                "208.71% DEF",
+                "220.99% DEF",
+                "233.26% DEF"
+              ]
+            },
+            {
+              "name": "Crystal Collapse DMG",
+              "values": [
+                "61.30% DEF",
+                "65.90% DEF",
+                "70.49% DEF",
+                "76.63% DEF",
+                "81.22% DEF",
+                "85.82% DEF",
+                "91.95% DEF",
+                "98.08% DEF",
+                "104.21% DEF",
+                "110.34% DEF",
+                "116.47% DEF",
+                "122.60% DEF",
+                "130.26% DEF",
+                "137.93% DEF",
+                "145.59% DEF"
+              ]
+            },
+            {
+              "name": "Duration",
+              "values": [
+                "9.0s",
+                "9.0s",
+                "9.0s",
+                "9.0s",
+                "9.0s",
+                "9.0s",
+                "9.0s",
+                "9.0s",
+                "9.0s",
+                "9.0s",
+                "9.0s",
+                "9.0s",
+                "9.0s",
+                "9.0s",
+                "9.0s"
+              ]
+            },
+            {
+              "name": "CD",
+              "values": [
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s",
+                "20.0s"
+              ]
+            },
+            {
+              "name": "Energy Cost",
+              "values": [
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80",
+                "80"
+              ]
+            }
+          ],
+          "costs": [
+            {
+              "mora": 12500,
+              "items": [
+                {
+                  "count": 3,
+                  "name": "Teachings of Light"
+                },
+                {
+                  "count": 6,
+                  "name": "Spectral Husk"
+                }
+              ]
+            },
+            {
+              "mora": 17500,
+              "items": [
+                {
+                  "count": 2,
+                  "name": "Guide to Light"
+                },
+                {
+                  "count": 3,
+                  "name": "Spectral Heart"
+                }
+              ]
+            },
+            {
+              "mora": 25000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Guide to Light"
+                },
+                {
+                  "count": 4,
+                  "name": "Spectral Heart"
+                }
+              ]
+            },
+            {
+              "mora": 30000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Guide to Light"
+                },
+                {
+                  "count": 6,
+                  "name": "Spectral Heart"
+                }
+              ]
+            },
+            {
+              "mora": 37500,
+              "items": [
+                {
+                  "count": 9,
+                  "name": "Guide to Light"
+                },
+                {
+                  "count": 9,
+                  "name": "Spectral Heart"
+                }
+              ]
+            },
+            {
+              "mora": 120000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Philosophies of Light"
+                },
+                {
+                  "count": 4,
+                  "name": "Spectral Nucleus"
+                },
+                {
+                  "count": 1,
+                  "name": "Molten Moment"
+                }
+              ]
+            },
+            {
+              "mora": 260000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Philosophies of Light"
+                },
+                {
+                  "count": 6,
+                  "name": "Spectral Nucleus"
+                },
+                {
+                  "count": 1,
+                  "name": "Molten Moment"
+                }
+              ]
+            },
+            {
+              "mora": 450000,
+              "items": [
+                {
+                  "count": 12,
+                  "name": "Philosophies of Light"
+                },
+                {
+                  "count": 9,
+                  "name": "Spectral Nucleus"
+                },
+                {
+                  "count": 2,
+                  "name": "Molten Moment"
+                }
+              ]
+            },
+            {
+              "mora": 700000,
+              "items": [
+                {
+                  "count": 16,
+                  "name": "Philosophies of Light"
+                },
+                {
+                  "count": 12,
+                  "name": "Spectral Nucleus"
+                },
+                {
+                  "count": 2,
+                  "name": "Molten Moment"
+                },
+                {
+                  "count": 1,
+                  "name": "Crown of Insight"
+                }
+              ]
+            }
+          ],
+          "type": "Rock"
+        },
+        "passive": [
+          {
+            "name": "Seeker of Shinies",
+            "desc": "Displays the location of nearby **resources unique to Inazuma** on the mini-map.",
+            "minAscension": 0
+          },
+          {
+            "name": "Heedless of the Wind and Weather",
+            "desc": "After using **Juuga: Forward Unto Victory**, all nearby party members' DEF is increased by 25% for 12s.",
+            "minAscension": 1
+          },
+          {
+            "name": "A Favor Repaid",
+            "desc": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:\n· **Inuzaka All-Round Defense**: Skill DMG increased by 156% of DEF\n· **Juuga: Forward Unto Victory**: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF",
+            "minAscension": 4
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Rushing Hound: Swift as the Wind",
+            "desc": "When characters (other than Gorou) within the AoE of Gorou's **General's War Banner** or **General's Glory** deal Geo DMG to opponents, the CD of Gorou's **Inuzaka All-Round Defense** is decreased by 2s.\nThis effect can occur once every 10s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Gorou_01.png"
+          },
+          {
+            "name": "Sitting Hound: Steady as a Clock",
+            "desc": "While **General's Glory** is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction. \nThis effect can occur once every 0.1s. Max extension is 3s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Gorou_02.png"
+          },
+          {
+            "name": "Mauling Hound: Fierce as Fire",
+            "desc": "Increases the Level of **Inuzaka All-Round Defense** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Gorou_01.png"
+          },
+          {
+            "name": "Lapping Hound: Warm as Water",
+            "desc": "When **General's Glory** is in the \"Impregnable\" or \"Crunch\" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Gorou_03.png"
+          },
+          {
+            "name": "Striking Hound: Thunderous Force",
+            "desc": "Increases the Level of **Juuga: Forward Unto Victory** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Gorou_02.png"
+          },
+          {
+            "name": "Valiant Hound: Mountainous Fealty",
+            "desc": "For 12s after using **Inuzaka All-Round Defense** or **Juuga: Forward Unto Victory**, increases the CRIT DMG of all nearby party members' **Geo DMG** based on the buff level of the skill's field at the time of use:\n· \"Standing Firm\": +10%\n· \"Impregnable\": +20%\n· \"Crunch\": +40%\n\nThis effect cannot stack and will take reference from the last instance of the effect that is triggered.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Gorou_04.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "cost": {
+          "items": []
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "Geo DMG Bonus",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 1,
+              "name": "Prithiva Topaz Sliver"
+            },
+            {
+              "count": 3,
+              "name": "Sango Pearl"
+            },
+            {
+              "count": 3,
+              "name": "Spectral Husk"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 599.416015625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 40.61249923706055
+          },
+          {
+            "stat": "Base ATK",
+            "value": 11.441267967224121
+          },
+          {
+            "stat": "Geo DMG Bonus",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "cost": {
+          "mora": 40000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Prithiva Topaz Fragment"
+            },
+            {
+              "count": 2,
+              "name": "Perpetual Heart"
+            },
+            {
+              "count": 10,
+              "name": "Sango Pearl"
+            },
+            {
+              "count": 15,
+              "name": "Spectral Husk"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1025.31689453125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 69.46875
+          },
+          {
+            "stat": "Base ATK",
+            "value": 19.570589065551758
+          },
+          {
+            "stat": "Geo DMG Bonus",
+            "value": 0.05999999865889549
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "cost": {
+          "mora": 60000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Prithiva Topaz Fragment"
+            },
+            {
+              "count": 4,
+              "name": "Perpetual Heart"
+            },
+            {
+              "count": 20,
+              "name": "Sango Pearl"
+            },
+            {
+              "count": 12,
+              "name": "Spectral Heart"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1593.1846923828125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 107.9437484741211
+          },
+          {
+            "stat": "Base ATK",
+            "value": 30.409685134887695
+          },
+          {
+            "stat": "Geo DMG Bonus",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "cost": {
+          "mora": 80000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Prithiva Topaz Chunk"
+            },
+            {
+              "count": 8,
+              "name": "Perpetual Heart"
+            },
+            {
+              "count": 30,
+              "name": "Sango Pearl"
+            },
+            {
+              "count": 18,
+              "name": "Spectral Heart"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2019.0855712890625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 136.8000030517578
+          },
+          {
+            "stat": "Base ATK",
+            "value": 38.53900909423828
+          },
+          {
+            "stat": "Geo DMG Bonus",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "cost": {
+          "mora": 100000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Prithiva Topaz Chunk"
+            },
+            {
+              "count": 12,
+              "name": "Perpetual Heart"
+            },
+            {
+              "count": 45,
+              "name": "Sango Pearl"
+            },
+            {
+              "count": 12,
+              "name": "Spectral Nucleus"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2444.986328125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 165.65625
+          },
+          {
+            "stat": "Base ATK",
+            "value": 46.668331146240234
+          },
+          {
+            "stat": "Geo DMG Bonus",
+            "value": 0.18000000715255737
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "cost": {
+          "mora": 120000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Prithiva Topaz Gemstone"
+            },
+            {
+              "count": 20,
+              "name": "Perpetual Heart"
+            },
+            {
+              "count": 60,
+              "name": "Sango Pearl"
+            },
+            {
+              "count": 24,
+              "name": "Spectral Nucleus"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2870.88720703125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 194.5124969482422
+          },
+          {
+            "stat": "Base ATK",
+            "value": 54.79765319824219
+          },
+          {
+            "stat": "Geo DMG Bonus",
+            "value": 0.23999999463558197
+          }
+        ]
+      }
+    ]
+  },
+  "Arataki Itto": {
+    "name": "Arataki Itto",
+    "desc": "The first and greatest head of the Arataki Gang, famed throughout Inazuma City's Hanamizaka... Wait, what? You've never heard of them? Are you trying to be funny here?",
+    "releasedOn": "2021-12-14 18:00:00",
+    "star": 5,
+    "weaponType": "Claymore",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Itto.png",
+    "imgs": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Itto@2x.png"
+    ],
+    "hpBase": 1000.9860229492188,
+    "attackBase": 17.68899917602539,
+    "defenseBase": 74.66783905029297,
+    "criticalBase": 0.05000000074505806,
+    "criticalHurtBase": 0.5,
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 6,
+      "birthDay": 1,
+      "association": "Inazuma",
+      "title": "Hanamizaka Heroics",
+      "detail": "The first and greatest head of the Arataki Gang, famed throughout Inazuma City's Hanamizaka... Wait, what? You've never heard of them? Are you trying to be funny here?",
+      "affiliation": "Arataki Gang",
+      "element": "Geo",
+      "constellation": "Taurus Iracundus",
+      "cvChinese": "刘照坤",
+      "cvJapanese": "西川貴教",
+      "cvEnglish": "Max Mittelman",
+      "cvKorean": "송준석"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Fight Club Legend",
+            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\nWhen the 2nd and 4th strikes hit opponents, Itto will gain 1 or 2 stacks of Superlative Superstrength, respectively.\nMax 5 stacks. Triggering this effect will refresh the current duration of any existing stacks.\n\nAdditionally, Itto's Normal Attack combo does not immediately reset after sprinting or using his Elemental Skill, \"Masatsu Zetsugi: Akaushi Burst!\"\n\n**Charged Attack**\nWhen holding to perform a Charged Attack, Itto unleashes a series of Arataki Kesagiri slashes without consuming Stamina. Instead, each Arataki Kesagiri slash consumes 1 stack of Superlative Superstrength. When the final stack is consumed, Itto delivers a powerful final slash.\nIf no stacks of Superlative Superstrength are available, Itto will perform a single Saichimonji Slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "79.2%",
+                  "85.7%",
+                  "92.1%",
+                  "101.3%",
+                  "107.8%",
+                  "115.2%",
+                  "125.3%",
+                  "135.4%",
+                  "145.6%",
+                  "156.6%",
+                  "169.3%",
+                  "184.2%",
+                  "199.1%",
+                  "214.0%",
+                  "230.2%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "76.4%",
+                  "82.6%",
+                  "88.8%",
+                  "97.7%",
+                  "103.9%",
+                  "111.0%",
+                  "120.8%",
+                  "130.5%",
+                  "140.3%",
+                  "151.0%",
+                  "163.2%",
+                  "177.5%",
+                  "191.9%",
+                  "206.2%",
+                  "221.9%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "91.6%",
+                  "99.1%",
+                  "106.6%",
+                  "117.2%",
+                  "124.7%",
+                  "133.2%",
+                  "144.9%",
+                  "156.6%",
+                  "168.4%",
+                  "181.2%",
+                  "195.8%",
+                  "213.0%",
+                  "230.3%",
+                  "247.5%",
+                  "266.3%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "117.2%",
+                  "126.8%",
+                  "136.3%",
+                  "149.9%",
+                  "159.5%",
+                  "170.4%",
+                  "185.4%",
+                  "200.4%",
+                  "215.4%",
+                  "231.7%",
+                  "250.5%",
+                  "272.5%",
+                  "294.5%",
+                  "316.6%",
+                  "340.6%"
+                ]
+              },
+              {
+                "name": "Arataki Kesagiri Combo Slash DMG",
+                "values": [
+                  "91.2%",
+                  "98.6%",
+                  "106.0%",
+                  "116.6%",
+                  "124.0%",
+                  "132.5%",
+                  "144.2%",
+                  "155.8%",
+                  "167.5%",
+                  "180.2%",
+                  "194.8%",
+                  "211.9%",
+                  "229.1%",
+                  "246.2%",
+                  "264.9%"
+                ]
+              },
+              {
+                "name": "Arataki Kesagiri Final Slash DMG",
+                "values": [
+                  "190.9%",
+                  "206.5%",
+                  "222.0%",
+                  "244.2%",
+                  "259.7%",
+                  "277.5%",
+                  "301.9%",
+                  "326.3%",
+                  "350.8%",
+                  "377.4%",
+                  "407.9%",
+                  "443.8%",
+                  "479.7%",
+                  "515.6%",
+                  "554.8%"
+                ]
+              },
+              {
+                "name": "Superlative Superstrength Duration",
+                "values": [
+                  "60.0s",
+                  "60.0s",
+                  "60.0s",
+                  "60.0s",
+                  "60.0s",
+                  "60.0s",
+                  "60.0s",
+                  "60.0s",
+                  "60.0s",
+                  "60.0s",
+                  "60.0s",
+                  "60.0s",
+                  "60.0s",
+                  "60.0s",
+                  "60.0s"
+                ]
+              },
+              {
+                "name": "Saichimonji Slash DMG",
+                "values": [
+                  "90.5%",
+                  "97.8%",
+                  "105.2%",
+                  "115.7%",
+                  "123.1%",
+                  "131.5%",
+                  "143.1%",
+                  "154.6%",
+                  "166.2%",
+                  "178.8%",
+                  "193.3%",
+                  "210.3%",
+                  "227.3%",
+                  "244.3%",
+                  "262.9%"
+                ]
+              },
+              {
+                "name": "Saichimonji Slash Stamina Cost",
+                "values": [
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0",
+                  "20.0"
+                ]
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "81.8%",
+                  "88.5%",
+                  "95.2%",
+                  "104.7%",
+                  "111.3%",
+                  "118.9%",
+                  "129.4%",
+                  "139.9%",
+                  "150.3%",
+                  "161.8%",
+                  "173.2%",
+                  "184.6%",
+                  "196.0%",
+                  "207.4%",
+                  "218.9%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "163.63%/204.39%",
+                  "176.95%/221.02%",
+                  "190.27%/237.66%",
+                  "209.30%/261.42%",
+                  "222.62%/278.06%",
+                  "237.84%/297.07%",
+                  "258.77%/323.21%",
+                  "279.70%/349.36%",
+                  "300.63%/375.50%",
+                  "323.46%/404.02%",
+                  "346.29%/432.54%",
+                  "369.12%/461.06%",
+                  "391.96%/489.57%",
+                  "414.79%/518.09%",
+                  "437.62%/546.61%"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Elegance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Slime Condensate"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Slime Secretions"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Slime Secretions"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Slime Secretions"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Slime Secretions"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Slime Concentrate"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Ashen Heart"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Slime Concentrate"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Ashen Heart"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Slime Concentrate"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Ashen Heart"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Slime Concentrate"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Ashen Heart"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Masatsu Zetsugi: Akaushi Burst!",
+            "desc": "Hurls Ushi, the young akaushi bull and auxiliary member of the Arataki Gang, dealing **Geo DMG** to opponents on hit. When Ushi hits opponents, Arataki Itto gains 1 stack of Superlative Superstrength.\n\nUshi will remain on the field and provide support in the following ways:\n· Taunts surrounding opponents and draws their attacks.\n· Inherits HP based on a percentage of Arataki Itto's Max HP.\n· When Ushi takes DMG, Arataki Itto gains 1 stack of Superlative Superstrength. Only 1 stack can be gained in this way every 2s.\n· Ushi will flee when its HP reaches 0 or its duration ends. It will grant Arataki Itto 1 stack of Superlative Superstrength when it leaves.\n\n**Hold**\nAdjust throwing angle.\n\nUshi is considered a **Geo construct**. Arataki Itto can only deploy 1 Ushi on the field at any one time.\n\n**The name of this technique is derived from Onibudou (a light novel series written by Junkichi). However, calling it \"Onisatsu Zetsugi\" probably constitutes copyright infringement — not to mention how Itto himself is an oni and all...**",
+            "charges": 1,
+            "talentTable": [
+              {
+                "name": "Skill DMG",
+                "values": [
+                  "307.20%",
+                  "330.24%",
+                  "353.28%",
+                  "384.00%",
+                  "407.04%",
+                  "430.08%",
+                  "460.80%",
+                  "491.52%",
+                  "522.24%",
+                  "552.96%",
+                  "583.68%",
+                  "614.40%",
+                  "652.80%",
+                  "691.20%",
+                  "729.60%"
+                ]
+              },
+              {
+                "name": "Inherited HP",
+                "values": [
+                  "100.00%",
+                  "100.00%",
+                  "100.00%",
+                  "100.00%",
+                  "100.00%",
+                  "100.00%",
+                  "100.00%",
+                  "100.00%",
+                  "100.00%",
+                  "100.00%",
+                  "100.00%",
+                  "100.00%",
+                  "100.00%",
+                  "100.00%",
+                  "100.00%"
+                ]
+              },
+              {
+                "name": "Duration",
+                "values": [
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s",
+                  "6.0s"
+                ]
+              },
+              {
+                "name": "CD",
+                "values": [
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s",
+                  "10.0s"
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "mora": 12500,
+                "items": [
+                  {
+                    "count": 3,
+                    "name": "Teachings of Elegance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Slime Condensate"
+                  }
+                ]
+              },
+              {
+                "mora": 17500,
+                "items": [
+                  {
+                    "count": 2,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 3,
+                    "name": "Slime Secretions"
+                  }
+                ]
+              },
+              {
+                "mora": 25000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Slime Secretions"
+                  }
+                ]
+              },
+              {
+                "mora": 30000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Slime Secretions"
+                  }
+                ]
+              },
+              {
+                "mora": 37500,
+                "items": [
+                  {
+                    "count": 9,
+                    "name": "Guide to Elegance"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Slime Secretions"
+                  }
+                ]
+              },
+              {
+                "mora": 120000,
+                "items": [
+                  {
+                    "count": 4,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 4,
+                    "name": "Slime Concentrate"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Ashen Heart"
+                  }
+                ]
+              },
+              {
+                "mora": 260000,
+                "items": [
+                  {
+                    "count": 6,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 6,
+                    "name": "Slime Concentrate"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Ashen Heart"
+                  }
+                ]
+              },
+              {
+                "mora": 450000,
+                "items": [
+                  {
+                    "count": 12,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 9,
+                    "name": "Slime Concentrate"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Ashen Heart"
+                  }
+                ]
+              },
+              {
+                "mora": 700000,
+                "items": [
+                  {
+                    "count": 16,
+                    "name": "Philosophies of Elegance"
+                  },
+                  {
+                    "count": 12,
+                    "name": "Slime Concentrate"
+                  },
+                  {
+                    "count": 2,
+                    "name": "Ashen Heart"
+                  },
+                  {
+                    "count": 1,
+                    "name": "Crown of Insight"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ult": {
+          "name": "Royal Descent: Behold, Itto the Evil!",
+          "desc": "Time to show 'em the might of the Arataki Gang! For a time, Itto lets out his inner Raging Oni King, wielding his Oni King's Kanabou in battle.\nThis state has the following special properties:\n· Converts Itto's Normal, Charged, and Plunging Attacks to **Geo DMG**. This cannot be overridden.\n· Increases Itto's Normal Attack SPD. Also increases his ATK based on his DEF.\n· On hit, the 1st and 3rd strikes of his attack combo will each grant Arataki Itto 1 stack of Superlative Superstrength.\n· Decreases Itto's Elemental and Physical RES by 20%.\n\nThe Raging Oni King state will be cleared when Itto leaves the field.\n\n**This is the pinnacle technique of the ultimate fighting style (according to Itto). It would be pointless for Arataki Itto to reference any other fighting styles to improve his own, for he, and no other, is the strongest, most terrible oni in the land.**\n**Shouta thinks it looks really cool.**",
+          "charges": 1,
+          "talentTable": [
+            {
+              "name": "ATK Bonus",
+              "values": [
+                "57.6% DEF",
+                "61.9% DEF",
+                "66.2% DEF",
+                "72.0% DEF",
+                "76.3% DEF",
+                "80.6% DEF",
+                "86.4% DEF",
+                "92.2% DEF",
+                "97.9% DEF",
+                "103.7% DEF",
+                "109.4% DEF",
+                "115.2% DEF",
+                "122.4% DEF",
+                "129.6% DEF",
+                "136.8% DEF"
+              ]
+            },
+            {
+              "name": "ATK SPD Bonus",
+              "values": [
+                "10.00%",
+                "10.00%",
+                "10.00%",
+                "10.00%",
+                "10.00%",
+                "10.00%",
+                "10.00%",
+                "10.00%",
+                "10.00%",
+                "10.00%",
+                "10.00%",
+                "10.00%",
+                "10.00%",
+                "10.00%",
+                "10.00%"
+              ]
+            },
+            {
+              "name": "Duration",
+              "values": [
+                "11.0s",
+                "11.0s",
+                "11.0s",
+                "11.0s",
+                "11.0s",
+                "11.0s",
+                "11.0s",
+                "11.0s",
+                "11.0s",
+                "11.0s",
+                "11.0s",
+                "11.0s",
+                "11.0s",
+                "11.0s",
+                "11.0s"
+              ]
+            },
+            {
+              "name": "CD",
+              "values": [
+                "18.0s",
+                "18.0s",
+                "18.0s",
+                "18.0s",
+                "18.0s",
+                "18.0s",
+                "18.0s",
+                "18.0s",
+                "18.0s",
+                "18.0s",
+                "18.0s",
+                "18.0s",
+                "18.0s",
+                "18.0s",
+                "18.0s"
+              ]
+            },
+            {
+              "name": "Energy Cost",
+              "values": [
+                "70",
+                "70",
+                "70",
+                "70",
+                "70",
+                "70",
+                "70",
+                "70",
+                "70",
+                "70",
+                "70",
+                "70",
+                "70",
+                "70",
+                "70"
+              ]
+            }
+          ],
+          "costs": [
+            {
+              "mora": 12500,
+              "items": [
+                {
+                  "count": 3,
+                  "name": "Teachings of Elegance"
+                },
+                {
+                  "count": 6,
+                  "name": "Slime Condensate"
+                }
+              ]
+            },
+            {
+              "mora": 17500,
+              "items": [
+                {
+                  "count": 2,
+                  "name": "Guide to Elegance"
+                },
+                {
+                  "count": 3,
+                  "name": "Slime Secretions"
+                }
+              ]
+            },
+            {
+              "mora": 25000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Guide to Elegance"
+                },
+                {
+                  "count": 4,
+                  "name": "Slime Secretions"
+                }
+              ]
+            },
+            {
+              "mora": 30000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Guide to Elegance"
+                },
+                {
+                  "count": 6,
+                  "name": "Slime Secretions"
+                }
+              ]
+            },
+            {
+              "mora": 37500,
+              "items": [
+                {
+                  "count": 9,
+                  "name": "Guide to Elegance"
+                },
+                {
+                  "count": 9,
+                  "name": "Slime Secretions"
+                }
+              ]
+            },
+            {
+              "mora": 120000,
+              "items": [
+                {
+                  "count": 4,
+                  "name": "Philosophies of Elegance"
+                },
+                {
+                  "count": 4,
+                  "name": "Slime Concentrate"
+                },
+                {
+                  "count": 1,
+                  "name": "Ashen Heart"
+                }
+              ]
+            },
+            {
+              "mora": 260000,
+              "items": [
+                {
+                  "count": 6,
+                  "name": "Philosophies of Elegance"
+                },
+                {
+                  "count": 6,
+                  "name": "Slime Concentrate"
+                },
+                {
+                  "count": 1,
+                  "name": "Ashen Heart"
+                }
+              ]
+            },
+            {
+              "mora": 450000,
+              "items": [
+                {
+                  "count": 12,
+                  "name": "Philosophies of Elegance"
+                },
+                {
+                  "count": 9,
+                  "name": "Slime Concentrate"
+                },
+                {
+                  "count": 2,
+                  "name": "Ashen Heart"
+                }
+              ]
+            },
+            {
+              "mora": 700000,
+              "items": [
+                {
+                  "count": 16,
+                  "name": "Philosophies of Elegance"
+                },
+                {
+                  "count": 12,
+                  "name": "Slime Concentrate"
+                },
+                {
+                  "count": 2,
+                  "name": "Ashen Heart"
+                },
+                {
+                  "count": 1,
+                  "name": "Crown of Insight"
+                }
+              ]
+            }
+          ],
+          "type": "Rock"
+        },
+        "passive": [
+          {
+            "name": "Woodchuck Chucked",
+            "desc": "When a party member uses attacks to obtain wood from a tree, they have a 25% chance to get an additional log of wood.",
+            "minAscension": 0
+          },
+          {
+            "name": "Arataki Ichiban",
+            "desc": "When Arataki Itto uses consecutive Arataki Kesagiri, he obtains the following effects:\n· Each slash increases the ATK SPD of the next slash by 10%. Max ATK SPD increase is 30%.\n· Increases his resistance to interruption.\n\nThese effects will be cleared once he stops performing consecutive slashes.",
+            "minAscension": 1
+          },
+          {
+            "name": "Bloodline of the Crimson Oni",
+            "desc": "Arataki Kesagiri DMG is increased by 35% of Arataki Itto's DEF.",
+            "minAscension": 4
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Stay a While and Listen Up",
+            "desc": "After using **Royal Descent: Behold, Itto the Evil!**, Arataki Itto gains 2 stacks of Superlative Superstrength. After 1s, Itto will gain 1 stack of Superlative Superstrength every 0.5s for 1.5s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Itto_01.png"
+          },
+          {
+            "name": "Gather 'Round, It's a Brawl!",
+            "desc": "After using **Royal Descent: Behold, Itto the Evil!**, each party member whose Element is **Geo** will decrease that skill's CD by 1.5s and restore 6 Energy to Arataki Itto.\nCD can be decreased by up to 4.5s in this manner. Max 18 Energy can be restored in this manner.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Itto_02.png"
+          },
+          {
+            "name": "Horns Lowered, Coming Through",
+            "desc": "Increases the Level of **Masatsu Zetsugi: Akaushi Burst!** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Itto_01.png"
+          },
+          {
+            "name": "Jailhouse Bread and Butter",
+            "desc": "When the Raging Oni King state caused by **Royal Descent: Behold, Itto the Evil!** ends, all nearby party members gain 20% DEF and 20% ATK for 10s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Itto_03.png"
+          },
+          {
+            "name": "10 Years of Hanamizaka Fame",
+            "desc": "Increases the Level of **Royal Descent: Behold, Itto the Evil!** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Itto_02.png"
+          },
+          {
+            "name": "Arataki Itto, Present!",
+            "desc": "Arataki Itto's Charged Attacks deal +70% Crit DMG. Additionally, when he uses Arataki Kesagiri, he has a 50% chance to not consume stacks of Superlative Superstrength.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Itto_04.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "cost": {
+          "items": []
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "cost": {
+          "mora": 20000,
+          "items": [
+            {
+              "count": 1,
+              "name": "Prithiva Topaz Sliver"
+            },
+            {
+              "count": 3,
+              "name": "Onikabuto"
+            },
+            {
+              "count": 3,
+              "name": "Slime Condensate"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 858.2550048828125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 64.02239990234375
+          },
+          {
+            "stat": "Base ATK",
+            "value": 15.165610313415527
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "cost": {
+          "mora": 40000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Prithiva Topaz Fragment"
+            },
+            {
+              "count": 2,
+              "name": "Riftborn Regalia"
+            },
+            {
+              "count": 10,
+              "name": "Onikabuto"
+            },
+            {
+              "count": 15,
+              "name": "Slime Condensate"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1468.0677490234375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 109.51200103759766
+          },
+          {
+            "stat": "Base ATK",
+            "value": 25.94117546081543
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.04800000041723251
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "cost": {
+          "mora": 60000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Prithiva Topaz Fragment"
+            },
+            {
+              "count": 4,
+              "name": "Riftborn Regalia"
+            },
+            {
+              "count": 20,
+              "name": "Onikabuto"
+            },
+            {
+              "count": 12,
+              "name": "Slime Secretions"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2281.1513671875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 170.164794921875
+          },
+          {
+            "stat": "Base ATK",
+            "value": 40.30859375
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.09600000083446503
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "cost": {
+          "mora": 80000,
+          "items": [
+            {
+              "count": 3,
+              "name": "Prithiva Topaz Chunk"
+            },
+            {
+              "count": 8,
+              "name": "Riftborn Regalia"
+            },
+            {
+              "count": 30,
+              "name": "Onikabuto"
+            },
+            {
+              "count": 18,
+              "name": "Slime Secretions"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2890.964111328125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 215.65440368652344
+          },
+          {
+            "stat": "Base ATK",
+            "value": 51.08415985107422
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.09600000083446503
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "cost": {
+          "mora": 100000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Prithiva Topaz Chunk"
+            },
+            {
+              "count": 12,
+              "name": "Riftborn Regalia"
+            },
+            {
+              "count": 45,
+              "name": "Onikabuto"
+            },
+            {
+              "count": 12,
+              "name": "Slime Concentrate"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3500.77685546875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 261.1440124511719
+          },
+          {
+            "stat": "Base ATK",
+            "value": 61.85972595214844
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.14399999380111694
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "cost": {
+          "mora": 120000,
+          "items": [
+            {
+              "count": 6,
+              "name": "Prithiva Topaz Gemstone"
+            },
+            {
+              "count": 20,
+              "name": "Riftborn Regalia"
+            },
+            {
+              "count": 60,
+              "name": "Onikabuto"
+            },
+            {
+              "count": 24,
+              "name": "Slime Concentrate"
+            }
+          ]
+        },
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 4110.58984375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 306.63360595703125
+          },
+          {
+            "stat": "Base ATK",
+            "value": 72.63529205322266
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.19200000166893005
+          }
+        ]
+      }
+    ]
   }
 }
