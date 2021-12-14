@@ -1,4 +1,26 @@
 {
+  "0": {
+    "start": "2020-09-16 04:00:00",
+    "end": "2020-10-01 03:59:59",
+    "buff": "Burgeoning Moon",
+    "buffDesc": "During the battle, Auras will occasionally appear which regenerate your characters' Energy.\nWhenever you sprint, an unstable blob of energy will drop that explodes after 1s. Can occur once every 10s. Store up to 3 at one time.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
   "1": {
     "start": "2020-10-01 04:00:00",
     "end": "2020-10-16 03:59:59",
