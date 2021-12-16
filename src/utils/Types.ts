@@ -404,7 +404,7 @@ export interface Skill {
     name:        string
     desc:        string
     charges:     number
-    talentTable: TalentTable[]
+    talentTable: (TalentTable | TalentValue)[]
     costs:       Cost[]
     type?:       string
 }
@@ -412,6 +412,10 @@ export interface Skill {
 export interface TalentTable {
     name:   string
     values: string[]
+}
+export interface TalentValue {
+    name:   string
+    value:  string
 }
 
 export enum WeaponType {

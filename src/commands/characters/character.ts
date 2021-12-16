@@ -3,7 +3,7 @@ import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } fr
 import Command from "../../utils/Command"
 import client from "../../main"
 import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, PAD_END, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
-import { BotEmoji, Character, CommandSource, SendMessage, Skill } from "../../utils/Types"
+import { BotEmoji, Character, CommandSource, SendMessage, Skill, TalentTable, TalentValue } from "../../utils/Types"
 import config from "../../data/config.json"
 
 const elementTypes = client.data.getCharacters()
@@ -362,6 +362,10 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
             .setThumbnail(char.icon)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
+        function isValueTable(talent: TalentTable | TalentValue): talent is TalentTable {
+            return (talent as TalentTable).values != undefined
+        }
+
         function showTalent(skill: Skill): void {
             embed.setTitle(`${char.name}: ${skill.name}`)
                 .setDescription(skill.desc)
@@ -370,9 +374,14 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
                 embed.addField("Charges", skill.charges.toString())
 
             let hasLevels = false
-            for (const { name, values } of skill.talentTable) {
-                if (values.filter(k => k != values[0]).length > 0) {
-                    hasLevels= true
+            for (const talent of skill.talentTable) {
+                const { name } = talent
+
+                if (isValueTable(talent)) {
+                    const values = talent.values
+                    hasLevels = true
+
+                    const maxLevel = values.length
                     embed.addField(name, "```\n"+ createTable(
                         undefined,
                         Object.entries(values)
@@ -380,18 +389,18 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
                             .filter(([lv]) => {
                                 switch (talentMode) {
                                     case "HIGH":
-                                        return lv >= 6 && lv <= 13
+                                        return lv >= 6
                                     case "LOW":
                                         return lv <= 6
                                     case "LITTLE":
                                     default:
-                                        return [6, 9, 12].includes(+lv)
+                                        return [6, 9, maxLevel - 1].includes(+lv)
                                 }
                             }),
                         [PAD_START, PAD_END]
                     ) + "\n```", true)
                 } else
-                    embed.addField(name, values[0], true)
+                    embed.addField(name, talent.value, true)
             }
             if (hasLevels && talentMode == "HIGH")
                 embed.setFooter(`${embed.footer?.text} - Use '${config.prefix}c ${char.name} -low' to display lower levels`)
