@@ -20,20 +20,23 @@ export async function handle(): Promise<void> {
     await client.user?.setStatus("online")
 
     if (!client.application?.owner) await client.application?.fetch()
-    const cmds: ApplicationCommandData[] = client.commands.array().map(cmd => {
-        const help = (cmd.shortHelp ?? cmd.help).split("\n")[0]
-        const name = cmd.commandName
+    const cmds: ApplicationCommandData[] = client.commands
+        .array()
+        .filter(cmd => cmd.category !== "Admin")
+        .map(cmd => {
+            const help = (cmd.shortHelp ?? cmd.help).split("\n")[0]
+            const name = cmd.commandName
 
-        if (help.length > 99)
-            Logger.error(`${name}'s description is too long'`)
+            if (help.length > 99)
+                Logger.error(`${name}'s description is too long'`)
 
-        return {
-            name,
-            options: cmd.options,
-            description: help.substring(0, 100),
+            return {
+                name,
+                options: cmd.options,
+                description: help.substring(0, 100),
             // TODO default permissions?
-        }
-    })
+            }
+        })
 
     if (config.production)
         await client.application?.commands.set(cmds)
