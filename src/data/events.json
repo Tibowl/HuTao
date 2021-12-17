@@ -807,7 +807,8 @@
     {
         "name": "\"Misty Dungeon: Realm of Light\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/lwOJxSC.png",
+        "link": "https://www.hoyolab.com/article/1653437",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/12/15/1015537/f87b5094d05f279a5b4fa4eb33594dd1_7737160064447667927.jpg",
         "start": "2021-12-17 10:00:00",
         "end": "2021-12-27 03:59:00",
         "reminder": "end"
