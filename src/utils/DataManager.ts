@@ -2,7 +2,7 @@ import log4js from "log4js"
 import { exists, unlink, move, writeFile, existsSync, readFileSync } from "fs-extra"
 import { join } from "path"
 
-import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop } from "./Types"
+import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop, Guide } from "./Types"
 
 import artifactsData from "../data/gamedata/artifacts.json"
 import artifactsMainStats from "../data/gamedata/artifact_main_stats.json"
@@ -25,6 +25,7 @@ import abyssSchedule from "../data/gamedata/abyss_schedule.json"
 
 import emojiData from "../data/emojis.json"
 import eventData from "../data/events.json" // Not in gamedata since it also contains webevents
+import guideData from "../data/guides.json"
 
 import { findFuzzy, getDate } from "./Utils"
 
@@ -61,6 +62,7 @@ export default class DataManager {
 
     readonly events: Event[] = eventData as Event[]
     readonly emojis: Record<BotEmoji, string> = emojiData
+    readonly guides: Guide[] = guideData as Guide[]
 
     constructor() {
         try {

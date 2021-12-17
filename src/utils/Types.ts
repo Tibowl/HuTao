@@ -531,5 +531,17 @@ export type BotEmoji =
 // Paimon Shop
 export interface PaimonShop {
     weapon: string
-    char: string[]
+    char:   string[]
+}
+
+// Guides
+export interface Guide {
+    name:  string
+    pages: GuidePage[]
+}
+export interface GuidePage {
+    name:  string
+    img?:  string
+    desc?: string
+    url?:  string
 }

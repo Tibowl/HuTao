@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Local Specialties (Inazuma)",
+    "pages": [
+      {
+        "name": "Onikabuto",
+        "desc": "**Onikabuto ${Onikabuto}** can be found in the wilderness of Inazuma.\n\n>>> A strange beetle that inhabits areas rich with Electro energy. Its docile and sedentary temperament could not be more different from the fierce, demonic visage displayed on its armored shell.",
+        "img": "https://i.imgur.com/V3gpYvh.png"
+      },
+      {
+        "name": "Naku Weed",
+        "desc": "**Naku Weeds ${Naku Weed}** can be found in the wilderness of Inazuma and are being sold by [**Aoi**](https://cdn.discordapp.com/attachments/921171356484263996/921401724185477190/unknown.png) (up to 5 per 3 days).\n\n>>> Even on windless days, this plant will tremble lightly amid the cries of thunder. The part of it that resembles petals are in fact extensions of the leaves meant to protect the fragile flower.",
+        "img": "https://cdn.discordapp.com/attachments/921171356484263996/921399115974344795/waytoodank.png"
+      },
+      {
+        "name": "Sango Pearl",
+        "desc": "**Sango Pearls ${Sango Pearl}** can be found in the wilderness of Watatsumi Island.\n\n>>> A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of a moonlight.",
+        "img": "https://cdn.discordapp.com/attachments/921188291842277476/921188358250709102/unknown.png"
+      }
+    ]
+  },
+  {
+    "name": "Miscellaneous Enemies",
+    "pages": [
+      {
+        "name": "Specter (Spectral Husk, Heart and Nucleus)",
+        "desc": "**Specters** are Easy Enemies found in Inazuma. They are Elemental Lifeforms and drop **Spectral Husk ${Spectral Husk}**, **Spectral Heart ${Spectral Heart}** and **Spectral Nucleus ${Spectral Nucleus}**.",
+        "img": "https://cdn.discordapp.com/attachments/921231704545447994/921401178565275678/floating_balls_of_death_route.png"
+      }
+    ]
+  }
+]

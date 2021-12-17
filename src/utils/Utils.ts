@@ -626,6 +626,17 @@ export function findFuzzyBestCandidates(target: string[], search: string, amount
         })
         .sort((a, b) => b.d - a.d)
         .filter((e, i) => i < amount && e.d > max * 0.65)
+        .map(({ t, d }) => {
+            if (searchClean(t).startsWith(cleaned.substring(0, 3)) || searchClean(t).endsWith(cleaned.substring(cleaned.length - 3)))
+                d += 1
+            if (caps(t).includes(search[0]?.toUpperCase()))
+                d += 1.5
+            if (caps(t) == caps(search))
+                d += 0.5
+
+            return { t, d }
+        })
+        .sort((a, b) => b.d - a.d)
         .map(e => e.t)
 }
 
