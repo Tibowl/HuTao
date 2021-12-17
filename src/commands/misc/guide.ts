@@ -133,6 +133,8 @@ export function getGuidePage(guide: Guide, relativePage: number, currentPage: nu
 
     if (maxPages > 1)
         embed.setFooter(`Page ${currentPage} / ${maxPages} - ${guide.name}`)
+    else if (guide.name !== page.name)
+        embed.setFooter(guide.name)
 
     if (page.desc)
         embed.setDescription(page.desc.replace(/\${(.*?)}/g, (_, name) => data.emoji(name)))
