@@ -18,7 +18,7 @@ You can view a list of guides with \`${config.prefix}guide\`.
 To view a specific guide you can use \`${config.prefix}guide <name>\`.
 
 Note: this command supports fuzzy search.`,
-            aliases: ["g"],
+            aliases: ["g", "route", "guides"],
             options: [{
                 name: "guide",
                 description: "Name of the guide",

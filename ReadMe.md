@@ -64,6 +64,7 @@ See `ht!help weapon` for more information.
 - `ht!events`: Check up on current and upcoming events. Examples: [list](https://i.imgur.com/or1L70I.png), going to the left shows [current ones](https://i.imgur.com/vGljfsK.png) while to the right are [future ones](https://i.imgur.com/ylCSvUA.png). Start/end/reminders for these can be followed with `ht!follow add events`.
 
 ### Misc
+- `ht!guide [name]`: View some guides/routes. Use it without any name to get a [list of available guides](https://i.imgur.com/IJhMuku.png) or [search for a particular guide](https://i.imgur.com/OCIce0p.png). Also supports [autocomplete](https://i.imgur.com/p41r2ia.png) when using the slash command.
 - `ht!gachacalc <pulls> [pity] [guaranteed]`: Calculate chance to get a certain amount of constellations of a banner character in a certain amount of pulls. [Example](https://i.imgur.com/mmsAm8i.png).
     - Initially used rates from wish databases, updated to fit current theory. For more information about the rates used, see [Statistical model for Genshin Impact's droprates](https://www.hoyolab.com/article/497840)
 - `ht!banners`: View current/past event wishes
