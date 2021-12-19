@@ -1,11 +1,36 @@
 [
   {
+    "name": "Local Specialties (Mondstadt)",
+    "pages": [
+      {
+        "name": "Valberry",
+        "desc": "**Valberries ${Valberry}** can be found in the wilderness of Stormbearer Mountains and are being sold by [**Chloris**](https://cdn.discordapp.com/attachments/921999711358054430/922149813477318656/Chloris.png) (up to 5 per 3 days).\n\n>>> A plump and translucent berry that has a fragrant smell and a sweet, refreshing taste. In the past, the storm watchers' only solace was the sweetness of this fruit and hope for the city's peace.",
+        "img": "https://cdn.discordapp.com/attachments/921999711358054430/921999863565148190/unknown.png"
+      },
+      {
+        "name": "Cecilia",
+        "desc": "**Cecilias ${Cecilia}** can be found in the wilderness of Starsnatch Cliff and are being sold by [**Flora**](https://cdn.discordapp.com/attachments/922011009428910160/922151480461525046/Flora.png) (up to 5 per 3 days).\n\n>>> A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
+        "img": "https://cdn.discordapp.com/attachments/922011009428910160/922011816727556136/unknown.png"
+      }
+    ]
+  },
+  {
     "name": "Local Specialties (Inazuma)",
     "pages": [
       {
         "name": "Onikabuto",
         "desc": "**Onikabuto ${Onikabuto}** can be found in the wilderness of Inazuma.\n\n>>> A strange beetle that inhabits areas rich with Electro energy. Its docile and sedentary temperament could not be more different from the fierce, demonic visage displayed on its armored shell.",
         "img": "https://i.imgur.com/V3gpYvh.png"
+      },
+      {
+        "name": "Crystal Marrow",
+        "desc": "**Crystal Marrow ${Crystal Marrow}** can be found in the wilderness of Inazuma.\n\n>>> A crystal that contains a sliver of Tatarigami power. Adding this material during smelting will greatly increase the strength and toughness of metals.",
+        "img": "https://cdn.discordapp.com/attachments/921888154267566120/922146919839592448/Crystal_Marrow.png"
+      },
+      {
+        "name": "Dendrobium",
+        "desc": "**Dendrobiums ${Dendrobium}** can be found in the wilderness of Inazuma.\n\n>>> A vibrant plant that has also been named the \"lycoris\" by the poets. It was once thought extinct in the Inazuman archipelago, only to re-emerge now upon the battlefields. It is said that it blooms most enchantingly where much blood was spilled.",
+        "img": "https://cdn.discordapp.com/attachments/921888052476006430/922146556369567774/Dendrobium.png"
       },
       {
         "name": "Naku Weed",
@@ -16,6 +41,11 @@
         "name": "Sango Pearl",
         "desc": "**Sango Pearls ${Sango Pearl}** can be found in the wilderness of Watatsumi Island.\n\n>>> A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of a moonlight.",
         "img": "https://cdn.discordapp.com/attachments/921188291842277476/921188358250709102/unknown.png"
+      },
+      {
+        "name": "Fluorescent Fungus",
+        "desc": "**Fluorescent Fungi ${Fluorescent Fungus}** can be found in the wilderness of Tsurumi Island.\n\n>>> A mushroom that glows like a night-light. Some curious power lies hidden within it.",
+        "img": "https://cdn.discordapp.com/attachments/921888264808452096/922147275579465768/Fluorescent_Fungi.png"
       }
     ]
   },
@@ -23,8 +53,13 @@
     "name": "Miscellaneous Enemies",
     "pages": [
       {
+        "name": "Whopperflower (Whopperflower, Shimmering and Energy Nectar): Inazuma",
+        "desc": "**Whopperflower** are Common Enemies found wandering in the wild or disguised as plants such as Mints and Sweet Flowers. They are Mystical Beasts and drop **Whopperflower Nectar ${Whopperflower Nectar}**, **Shimmering Nectar ${Shimmering Nectar}** and **Energy Nectar ${Energy Nectar}**.",
+        "img": "https://cdn.discordapp.com/attachments/921485115002060831/921485224892846110/WhooperInazuma.png"
+      },
+      {
         "name": "Specter (Spectral Husk, Heart and Nucleus)",
-        "desc": "**Specters** are Easy Enemies found in Inazuma. They are Elemental Lifeforms and drop **Spectral Husk ${Spectral Husk}**, **Spectral Heart ${Spectral Heart}** and **Spectral Nucleus ${Spectral Nucleus}**.",
+        "desc": "**Specters** are Common Enemies found in Inazuma. They are Elemental Lifeforms and drop **Spectral Husk ${Spectral Husk}**, **Spectral Heart ${Spectral Heart}** and **Spectral Nucleus ${Spectral Nucleus}**.",
         "img": "https://cdn.discordapp.com/attachments/921231704545447994/921401178565275678/floating_balls_of_death_route.png"
       }
     ]
