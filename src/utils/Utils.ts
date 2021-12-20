@@ -653,25 +653,12 @@ export const Colors: Record<string, ColorResolvable> = {
     PURPLE: "#6B68B1",
 
     "Anemo": "#32D39F",
-    "Wind": "#32D39F",
-
     "Cryo": "#79E8EB",
-    "Ice": "#79E8EB",
-
     "Electro": "#CA7FFF",
-    "Electric": "#CA7FFF",
-
     "Geo": "#FEE263",
-    "Rock": "#FEE263",
-
     "Hydro": "#06E5FE",
-    "Water": "#06E5FE",
-
     "Pyro": "#FFAA6E",
-    "Fire": "#FFAA6E",
-
     "Dendro": "#B2EB28",
-    "Grass": "#B2EB28",
 
     "None": "#545353",
 }

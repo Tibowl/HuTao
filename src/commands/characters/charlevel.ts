@@ -73,7 +73,7 @@ If no target level provided, assuming max for current ascension. If no current l
             return this.sendHelp(source)
 
         if (targetLevel == -1) {
-            const ascensions = data.getCharacters().sort((a, b) => b.ascensions.length - a.ascensions.length)[0].ascensions
+            const ascensions = data.getReleasedCharacters().sort((a, b) => b.ascensions.length - a.ascensions.length)[0].ascensions
             const nextAscension = ascensions.sort((a, b) => a.level - b.level).find(a => currentLevel < a.maxLevel)?.maxLevel
 
             if (nextAscension == undefined || nextAscension == maxLevel)
@@ -92,7 +92,7 @@ If no target level provided, assuming max for current ascension. If no current l
 
         if (currentLevel == 0) currentLevel = 1
 
-        const ascensions = data.getCharacters().sort((a, b) => b.ascensions.length - a.ascensions.length)[0].ascensions
+        const ascensions = data.getReleasedCharacters().sort((a, b) => b.ascensions.length - a.ascensions.length)[0].ascensions
 
         let level = currentLevel, curLevelXP = currentExperience, xp = 0, purple = 0, red = 0, white = 0, leftover = 0
 

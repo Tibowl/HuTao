@@ -2,7 +2,7 @@ import log4js from "log4js"
 import { exists, unlink, move, writeFile, existsSync, readFileSync } from "fs-extra"
 import { join } from "path"
 
-import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop, Guide } from "./Types"
+import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop, Guide, CharacterFull } from "./Types"
 
 import artifactsData from "../data/gamedata/artifacts.json"
 import artifactsMainStats from "../data/gamedata/artifact_main_stats.json"
@@ -120,9 +120,17 @@ export default class DataManager {
     }
 
     getCharacters(): Character[] {
+        return Object.values(this.characters)
+    }
+
+    getReleasedCharacters(): CharacterFull[] {
         return Object.values(this.characters).filter(char =>
-            Date.now() >= getDate(char.releasedOn).getTime()
-        )
+            this.isFullCharacter(char)
+        ) as CharacterFull[]
+    }
+
+    isFullCharacter(char: Character): char is CharacterFull {
+        return typeof (char as CharacterFull).releasedOn == "string"
     }
 
     getAbyssSchedules(): AbyssSchedule[] {
@@ -151,6 +159,16 @@ export default class DataManager {
         return undefined
     }
 
+    getReleasedCharacterByName(name: string): CharacterFull | undefined {
+        const targetNames = this.getReleasedCharacters().map(c => c.name)
+        const target = findFuzzy(targetNames, name)
+
+        if (target)
+            return this.characters[target] as CharacterFull
+
+        return undefined
+    }
+
     getWeaponByName(name: string): Weapon | undefined {
         const targetNames = Object.keys(this.weapons)
         const target = findFuzzy(targetNames, name)
@@ -161,13 +179,13 @@ export default class DataManager {
         return undefined
     }
 
-    getCharStatsAt(char: Character, level: number, ascension: number): Record<string, number> {
+    getCharStatsAt(char: CharacterFull, level: number, ascension: number): Record<string, number> {
         const stats: Record<string, number> = {
-            "Base HP": char.hpBase,
-            "Base ATK": char.attackBase,
-            "Base DEF": char.defenseBase,
-            "CRIT Rate": char.criticalBase,
-            "CRIT DMG": char.criticalHurtBase,
+            "Base HP": char.baseStats.hpBase,
+            "Base ATK": char.baseStats.attackBase,
+            "Base DEF": char.baseStats.defenseBase,
+            "CRIT Rate": char.baseStats.criticalBase,
+            "CRIT DMG": char.baseStats.criticalDmgBase,
         }
 
         for (const curve of char.curves) {

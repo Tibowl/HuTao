@@ -285,23 +285,37 @@ export interface MainStatInfo {
     weight: number
 }
 
-export interface Character {
-    name:             string
-    desc:             string
-    releasedOn:       string
-    star:             number
-    weaponType:       WeaponType
-    icon:             string
-    imgs:             string[]
-    hpBase:           number
-    attackBase:       number
-    defenseBase:      number
-    criticalBase:     number
-    criticalHurtBase: number
-    curves:           CurveElement[]
-    meta:             Meta
-    skills:           Skills[]
-    ascensions:       CharacterAscension[]
+export type Character = CharacterFull | CharacterPlaceholder
+export interface CharacterPlaceholder {
+    name:        string
+    desc:        string
+    star?:       number
+    weaponType?: WeaponType
+    icon?:       string
+    imgs:        string[]
+    meta:        Meta
+}
+export interface CharacterFull {
+    name:       string
+    desc:       string
+    releasedOn: string
+    star:       number
+    weaponType: WeaponType
+    icon:       string
+    imgs:       string[]
+    baseStats:  CharacterBaseStats
+    curves:     CurveElement[]
+    meta:       Meta
+    skills:     Skills[]
+    ascensions: CharacterAscension[]
+}
+
+export interface CharacterBaseStats {
+    hpBase:          number
+    attackBase:      number
+    defenseBase:     number
+    criticalBase:    number
+    criticalDmgBase: number
 }
 
 export interface CharacterAscension {
@@ -362,16 +376,16 @@ export enum CurveEnum {
 export interface Meta {
     birthMonth?:   number
     birthDay?:     number
-    association:   Association
+    association?:  Association
     title:         string
     detail:        string
-    affiliation:   string
+    affiliation?:  string
     element:       string
     constellation: string
-    cvChinese:     string
-    cvJapanese:    string
-    cvEnglish:     string
-    cvKorean:      string
+    cvChinese?:    string
+    cvJapanese?:   string
+    cvEnglish?:    string
+    cvKorean?:     string
 }
 
 export enum Association {
@@ -525,7 +539,7 @@ export enum EventReminderType {
 
 // Emojis
 export type BotEmoji =
-    "Electric" | "Fire" | "Grass" | "Ice" | "Rock" | "Water" | "Wind" |
+    "Anemo" | "Cryo" | "Dendro" | "Electro" | "Geo" | "Hydro" | "Pyro" |
     "Bow" | "Catalyst" | "Claymore" | "Polearm" | "Sword"
 
 // Paimon Shop

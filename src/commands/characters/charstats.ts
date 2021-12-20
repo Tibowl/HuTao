@@ -3,7 +3,7 @@ import { AutocompleteInteraction, CommandInteraction, Message } from "discord.js
 import Command from "../../utils/Command"
 import client from "../../main"
 import { createTable,  findFuzzyBestCandidates,  PAD_START, sendMessage } from "../../utils/Utils"
-import { Character, CommandSource, SendMessage } from "../../utils/Types"
+import { CharacterFull, CommandSource, SendMessage } from "../../utils/Types"
 import config from "../../data/config.json"
 
 export default class CharacterStatsCommand extends Command {
@@ -40,7 +40,7 @@ Note: this command supports fuzzy search.`,
     }
 
     async autocomplete(source: AutocompleteInteraction): Promise<void> {
-        const targetNames = client.data.getCharacters().map(c => c.name)
+        const targetNames = client.data.getReleasedCharacters().map(c => c.name)
         const search = source.options.getFocused().toString()
 
         await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
@@ -78,7 +78,7 @@ Note: this command supports fuzzy search.`,
     async run(source: CommandSource, name: string, level: number, ascension: number): Promise<SendMessage | undefined> {
         const { data } = client
 
-        const char = data.getCharacterByName(name)
+        const char = data.getReleasedCharacterByName(name)
         if (char == undefined)
             return sendMessage(source, "Unable to find character")
 
@@ -86,12 +86,12 @@ Note: this command supports fuzzy search.`,
     }
 
 
-    getCharStats(char: Character, searchLevel: number, searchAscension: number): string {
+    getCharStats(char: CharacterFull, searchLevel: number, searchAscension: number): string {
         const { data } = client
         const columns: string[] = []
         const rows: string[][] = []
 
-        const addRow = (char: Character, level: number, ascension: number) => {
+        const addRow = (char: CharacterFull, level: number, ascension: number) => {
             const stats = data.getCharStatsAt(char, level, ascension)
             for (const key of Object.keys(stats))
                 if (!columns.includes(key))

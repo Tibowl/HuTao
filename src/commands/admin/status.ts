@@ -74,6 +74,7 @@ News: ${new Date(client.newsManager.lastFetched).toISOString()} (${displayTimest
 
 Artifact sets: ${Object.keys(client.data.artifacts).length}
 Weapons: ${Object.keys(client.data.weapons).length}
+Released Characters: ${Object.keys(client.data.getReleasedCharacters()).length}
 Characters: ${Object.keys(client.data.getCharacters()).length}
 Abyss floors: ${Object.keys(client.data.abyssFloors).length}
 Abyss buffs: ${abyss.length} (until ${abyss[abyss.length - 1]?.end})

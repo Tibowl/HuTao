@@ -3,7 +3,7 @@ import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } fr
 import Command from "../../utils/Command"
 import client from "../../main"
 import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, PAD_END, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
-import { BotEmoji, Character, CommandSource, SendMessage, Skill, TalentTable, TalentValue } from "../../utils/Types"
+import { BotEmoji, Character, CharacterFull, CommandSource, SendMessage, Skill, TalentTable, TalentValue } from "../../utils/Types"
 import config from "../../data/config.json"
 
 const elementTypes = client.data.getCharacters()
@@ -11,25 +11,15 @@ const elementTypes = client.data.getCharacters()
     .filter((v, i, arr) => arr.indexOf(v) == i && v !== "None")
     .sort()
 
-const weaponTypes = client.data.getCharacters()
+const weaponTypes = client.data.getReleasedCharacters()
     .map(c => c.weaponType)
     .filter((v, i, arr) => arr.indexOf(v) == i)
     .sort()
 
-const possibleStars = client.data.getCharacters()
+const possibleStars = client.data.getReleasedCharacters()
     .map(c => c.star)
     .filter((v, i, arr) => arr.indexOf(v) == i)
     .sort((a, b) => a-b)
-
-const elementMap: Record<string, string|undefined> = {
-    Wind: "Anemo",
-    Rock: "Geo",
-    Electric: "Electro",
-    Fire: "Pyro",
-    Grass: "Dendro",
-    Ice: "Cryo",
-    Water: "Hydro",
-}
 
 type TalentMode = "LITTLE" | "HIGH" | "LOW"
 
@@ -170,7 +160,7 @@ Note: this command supports fuzzy search.`,
 
     getCharactersPages(elementFilter: string[], weaponTypeFilter: string[], starFilter: number[]): string[] {
         const { data } = client
-        const chars = data.getCharacters()
+        const chars = data.getReleasedCharacters()
             .filter((char) => starFilter.length == 0 || starFilter.includes(char.star))
             .filter((char) => elementFilter.length == 0 || elementFilter.find(elem => this.getElementIcons(char).includes(elem)))
             .filter((char) => weaponTypeFilter.length == 0 || weaponTypeFilter.includes(char.weaponType))
@@ -204,77 +194,109 @@ Note: this command supports fuzzy search.`,
         return embed
     }
 
-    private getElementIcons(info: Character) {
+    private getElementIcons(char: Character) {
         const { data } = client
 
-        return info.skills.map(skill => data.emoji(skill.ult.type)).join(", ")
+        if (data.isFullCharacter(char))
+            return char.skills.map(skill => data.emoji(skill.ult.type)).join(", ")
+        else
+            return data.emoji(char.meta.element)
     }
 
     getMainPage(char: Character, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
         const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors[char.meta.element] ?? "")
-            .setThumbnail(char.icon)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
+        if (char.icon)
+            embed.setThumbnail(char.icon)
+
         if (relativePage == 0) {
-            const maxAscension = char.ascensions[char.ascensions.length - 1]
+            let basic = this.getElementIcons(char)
+            if (char.star)
+                basic += ` ${char.star}★`
+            if (char.weaponType)
+                basic += ` ${data.emoji(char.weaponType, true)} user`
+            else
+                basic += " character"
+
             embed.setTitle(`${char.name}: Description`)
-                .addField("Basics", `${this.getElementIcons(char)} ${char.star}★ ${data.emoji(char.weaponType, true)} user`)
                 .setDescription(char.desc)
-                .addField("Base stats", `${
+                .addField("Basics", basic)
+
+            if (data.isFullCharacter(char)) {
+                const maxAscension = char.ascensions[char.ascensions.length - 1]
+                embed.addField("Base stats", `${
                     Object.entries(data.getCharStatsAt(char, 1, 0))
                         .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
                         .join("\n")
                 }`, true)
-                .addField(`Lv. ${maxAscension.maxLevel} A${maxAscension.level} stats`, `${
-                    Object.entries(data.getCharStatsAt(char, maxAscension.maxLevel, maxAscension.level))
-                        .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
-                        .join("\n")
-                }`, true)
+                    .addField(`Lv. ${maxAscension.maxLevel} A${maxAscension.level} stats`, `${
+                        Object.entries(data.getCharStatsAt(char, maxAscension.maxLevel, maxAscension.level))
+                            .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
+                            .join("\n")
+                    }`, true)
+                // This is ugly, but is for Traveler/other multi-book characters, also enforces some order/grade of item
+                const talentCostLv2 = char.skills[0]?.ult.costs[2]?.items,
+                      talentCostLv3 = char.skills[0]?.ult.costs[3]?.items,
+                      talentCostLv4 = char.skills[0]?.ult.costs[4]?.items,
+                      talentCostLv5 = char.skills[0]?.ult.costs[5]?.items
 
-            // This is ugly, but is for Traveler/other multi-book characters, also enforces some order/grade of item
-            const talentCostLv2 = char.skills[0]?.ult.costs[2]?.items,
-                  talentCostLv3 = char.skills[0]?.ult.costs[3]?.items,
-                  talentCostLv4 = char.skills[0]?.ult.costs[4]?.items,
-                  talentCostLv5 = char.skills[0]?.ult.costs[5]?.items
-
-            let talentMat = [
-                talentCostLv4[0],
-                talentCostLv4[1],
-                ...talentCostLv5.slice(2),
-            ]
-
-            if (talentCostLv3[0].name !== talentCostLv4[0].name) {
-                talentMat = [
-                    talentCostLv3[0],
+                let talentMat = [
                     talentCostLv4[0],
-                    talentCostLv2[0],
                     talentCostLv4[1],
                     ...talentCostLv5.slice(2),
                 ]
+
+                if (talentCostLv3[0].name !== talentCostLv4[0].name) {
+                    talentMat = [
+                        talentCostLv3[0],
+                        talentCostLv4[0],
+                        talentCostLv2[0],
+                        talentCostLv4[1],
+                        ...talentCostLv5.slice(2),
+                    ]
+                }
+
+                embed.addField("Upgrade material", `Ascensions: ${char.ascensions[4]?.cost.items.map(i => data.emoji(i.name)).join("")}
+Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
             }
 
-            embed.addField("Upgrade material", `Ascensions: ${char.ascensions[4]?.cost.items.map(i => data.emoji(i.name)).join("")}
-Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
+
             return embed
         } else if (relativePage == 1) {
-            embed.setTitle(`${char.name}: Information`)
-                .setDescription(`${char.meta.birthDay != undefined && char.meta.birthMonth!= undefined ? `**Birthday**: ${
+            let metadata = ""
+            if (char.meta.birthDay != undefined && char.meta.birthMonth!= undefined)
+                metadata += `**Birthday**: ${
                     new Date(Date.UTC(2020, char.meta.birthMonth - 1, char.meta.birthDay))
                         .toLocaleString("en-UK", {
                             timeZone: "UTC",
                             month: "long",
                             day: "numeric",
                         })}
-` : ""}**Title**: ${char.meta.title || "-"}
-**Detail**: ${char.meta.detail}
+`
+            if (char.meta.detail)
+                metadata += `**Detail**: ${char.meta.detail}\n`
+            if (char.meta.title)
+                metadata += `**Title**: ${char.meta.title}\n`
 
-**Association**: ${char.meta.association}
-**Affiliation**: ${char.meta.affiliation}
-**Constellation**: ${char.meta.constellation}
-**Element**: ${char.meta.element}`)
-                .addField("Voice Actors", `**Chinese**: ${char.meta.cvChinese}
+            if (metadata.length > 0)
+                metadata += "\n"
+            if (char.meta.association)
+                metadata += `**Association**: ${char.meta.association}\n`
+            if (char.meta.affiliation)
+                metadata += `**Affiliation**: ${char.meta.affiliation}\n`
+            if (char.meta.constellation)
+                metadata += `**Constellation**: ${char.meta.constellation}\n`
+            if (char.meta.element)
+                metadata += `**Element**: ${char.meta.element}\n`
+
+            embed.setTitle(`${char.name}: Information`)
+                .setDescription(metadata.trim())
+
+            if (char.meta.cvChinese)
+                embed.addField("Voice Actors", `**Chinese**: ${char.meta.cvChinese}
 **Japanese**: ${char.meta.cvJapanese}
 **English**: ${char.meta.cvEnglish}
 **Korean**: ${char.meta.cvKorean}
@@ -285,7 +307,7 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
         return undefined
     }
 
-    getStatsPage(char: Character, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getStatsPage(char: CharacterFull, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
         const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors[char.meta.element] ?? "")
@@ -296,7 +318,7 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
             const columns: string[] = []
             const rows: string[][] = []
 
-            const addRow = (char: Character, level: number, ascension: number) => {
+            const addRow = (char: CharacterFull, level: number, ascension: number) => {
                 const stats = data.getCharStatsAt(char, level, ascension)
                 for (const key of Object.keys(stats))
                     if (!columns.includes(key))
@@ -341,8 +363,9 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
     getArtPage(char: Character, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
         const embed = new MessageEmbed()
             .setColor(Colors[char.meta.element] ?? "")
-            .setThumbnail(char.icon)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
+        if (char.icon)
+            embed.setThumbnail(char.icon)
 
         if (relativePage >= 0 && relativePage < char.imgs.length) {
             const img = char.imgs[relativePage]
@@ -356,7 +379,7 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
         return undefined
     }
 
-    getCharacter(char: Character, relativePage: number, currentPage: number, maxPages: number, talentMode: TalentMode): MessageEmbed | undefined {
+    getCharTalentPage(char: CharacterFull, relativePage: number, currentPage: number, maxPages: number, talentMode: TalentMode): MessageEmbed | undefined {
         const embed = new MessageEmbed()
             .setColor(Colors[char.meta.element] ?? "")
             .setThumbnail(char.icon)
@@ -459,49 +482,53 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
                 bookmarkName: "General",
                 maxPages: 2,
                 pages: (rp, cp, mp) => this.getMainPage(char, rp, cp, mp)
-            },
-            {
-                bookmarkEmoji: "🚀",
-                bookmarkName: "Stats",
-                maxPages: 2,
-                pages: (rp, cp, mp) => this.getStatsPage(char, rp, cp, mp)
             }
         ]
 
-        if (char.skills.length == 1) {
-            const skills = char.skills[0]
-            pages.push({
-                bookmarkEmoji: data.emojis[char.weaponType as BotEmoji] ?? "⚔️",
-                bookmarkName: "Talents",
-                maxPages: skills.talents.length + 1,
-                pages: (rp, cp, mp) => this.getCharacter(char, rp, cp, mp, talentMode)
-            }, {
-                bookmarkEmoji: "💤",
-                bookmarkName: "Passives",
-                maxPages: 1,
-                pages: (rp, cp, mp) => this.getCharacter(char, rp + skills.talents.length + 1, cp, mp, talentMode)
-            }, {
-                bookmarkEmoji: "🇨",
-                bookmarkName: "Constellations",
-                maxPages: 1,
-                pages: (rp, cp, mp) => this.getCharacter(char, rp + skills.talents.length + 2, cp, mp, talentMode)
-            })
-
-        } else {
-            let currentPage = 0
-            for (const skills of char.skills) {
-                const offset = currentPage
-
+        if (data.isFullCharacter(char)) {
+            pages.push(
+                {
+                    bookmarkEmoji: "🚀",
+                    bookmarkName: "Stats",
+                    maxPages: 2,
+                    pages: (rp, cp, mp) => this.getStatsPage(char, rp, cp, mp)
+                })
+            if (char.skills.length == 1) {
+                const skills = char.skills[0]
                 pages.push({
-                    bookmarkEmoji: data.emojis[skills.ult.type as BotEmoji] ?? "❔",
-                    bookmarkName: elementMap[skills.ult.type ?? "?"] ?? "Unknown",
-                    maxPages: skills.talents.length + 3,
-                    pages: (rp, cp, mp) => this.getCharacter(char, rp + offset, cp, mp, talentMode)
+                    bookmarkEmoji: data.emojis[char.weaponType as BotEmoji] ?? "⚔️",
+                    bookmarkName: "Talents",
+                    maxPages: skills.talents.length + 1,
+                    pages: (rp, cp, mp) => this.getCharTalentPage(char, rp, cp, mp, talentMode)
+                }, {
+                    bookmarkEmoji: "💤",
+                    bookmarkName: "Passives",
+                    maxPages: 1,
+                    pages: (rp, cp, mp) => this.getCharTalentPage(char, rp + skills.talents.length + 1, cp, mp, talentMode)
+                }, {
+                    bookmarkEmoji: "🇨",
+                    bookmarkName: "Constellations",
+                    maxPages: 1,
+                    pages: (rp, cp, mp) => this.getCharTalentPage(char, rp + skills.talents.length + 2, cp, mp, talentMode)
                 })
 
-                currentPage += skills.talents.length + 3
+            } else {
+                let currentPage = 0
+                for (const skills of char.skills) {
+                    const offset = currentPage
+
+                    pages.push({
+                        bookmarkEmoji: data.emojis[skills.ult.type as BotEmoji] ?? "❔",
+                        bookmarkName: skills.ult.type ?? "Unknown",
+                        maxPages: skills.talents.length + 3,
+                        pages: (rp, cp, mp) => this.getCharTalentPage(char, rp + offset, cp, mp, talentMode)
+                    })
+
+                    currentPage += skills.talents.length + 3
+                }
             }
         }
+
         pages.push({
             bookmarkEmoji: "🎨",
             bookmarkName: "Art",
