@@ -1,10 +1,10 @@
 import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } from "discord.js"
-
-import Command from "../../utils/Command"
-import client from "../../main"
-import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, PAD_END, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
-import { BotEmoji, Character, CharacterFull, CommandSource, SendMessage, Skill, TalentTable, TalentValue } from "../../utils/Types"
 import config from "../../data/config.json"
+import client from "../../main"
+import Command from "../../utils/Command"
+import { BotEmoji, Character, CharacterFull, CommandSource, SendMessage, Skill, TalentTable, TalentValue } from "../../utils/Types"
+import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, PAD_END, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
+
 
 const elementTypes = client.data.getCharacters()
     .map(c => c.meta.element)
@@ -160,12 +160,20 @@ Note: this command supports fuzzy search.`,
 
     getCharactersPages(elementFilter: string[], weaponTypeFilter: string[], starFilter: number[]): string[] {
         const { data } = client
-        const chars = data.getReleasedCharacters()
-            .filter((char) => starFilter.length == 0 || starFilter.includes(char.star))
+        const chars = data.getCharacters()
+            .filter((char) => starFilter.length == 0 || (char.star && starFilter.includes(char.star)))
             .filter((char) => elementFilter.length == 0 || elementFilter.find(elem => this.getElementIcons(char).includes(elem)))
-            .filter((char) => weaponTypeFilter.length == 0 || weaponTypeFilter.includes(char.weaponType))
-            .sort((a, b) => b.releasedOn.localeCompare(a.releasedOn) || b.star - a.star || a.name.localeCompare(b.name))
-            .map((char) => `**${char.name}**: ${this.getElementIcons(char)} ${char.star}★ ${data.emoji(char.weaponType, true)} user`)
+            .filter((char) => weaponTypeFilter.length == 0 || (char.weaponType && weaponTypeFilter.includes(char.weaponType)))
+            .sort((a, b) => {
+                if (data.isFullCharacter(a) && data.isFullCharacter(b))
+                    return b.releasedOn.localeCompare(a.releasedOn) || b.star - a.star || a.name.localeCompare(b.name)
+                else if (!data.isFullCharacter(b))
+                    return 1
+                else if (!data.isFullCharacter(a))
+                    return -1
+                else return a.name.localeCompare(b.name)
+            })
+            .map((char) => `**${char.name}**: ${this.getBasicInfo(char)}`)
 
         const pages: string[] = []
         let paging = "", c = 0
@@ -213,17 +221,9 @@ Note: this command supports fuzzy search.`,
             embed.setThumbnail(char.icon)
 
         if (relativePage == 0) {
-            let basic = this.getElementIcons(char)
-            if (char.star)
-                basic += ` ${char.star}★`
-            if (char.weaponType)
-                basic += ` ${data.emoji(char.weaponType, true)} user`
-            else
-                basic += " character"
-
             embed.setTitle(`${char.name}: Description`)
                 .setDescription(char.desc)
-                .addField("Basics", basic)
+                .addField("Basics", this.getBasicInfo(char))
 
             if (data.isFullCharacter(char)) {
                 const maxAscension = char.ascensions[char.ascensions.length - 1]
@@ -305,6 +305,20 @@ Talents: ${talentMat.map(i => data.emoji(i.name)).join("")}`)
         }
 
         return undefined
+    }
+
+    private getBasicInfo(char: Character) {
+        const { data } = client
+        let basic = this.getElementIcons(char)
+        if (char.star)
+            basic += ` ${char.star}★`
+
+        if (char.weaponType)
+            basic += ` ${data.emoji(char.weaponType, true)} user`
+        else
+            basic += " Character (unreleased)"
+
+        return basic
     }
 
     getStatsPage(char: CharacterFull, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
