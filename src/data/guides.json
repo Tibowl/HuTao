@@ -11,6 +11,11 @@
         "name": "Cecilia",
         "desc": "**Cecilias ${Cecilia}** can be found in the wilderness of Starsnatch Cliff and are being sold by [**Flora**](https://cdn.discordapp.com/attachments/922011009428910160/922151480461525046/Flora.png) (up to 5 per 3 days).\n\n>>> A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
         "img": "https://cdn.discordapp.com/attachments/922011009428910160/922011816727556136/unknown.png"
+      },
+      {
+        "name": "Windwheel Aster",
+        "desc": "**Windwheel Asters ${Windwheel Aster}** can be found in the wilderness of Mondstadt and are being sold by [**Flora**](https://cdn.discordapp.com/attachments/923194392959918090/923316038328778823/Flora.png) (up to 5 per 3 days).\n\n>>> A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\"",
+        "img": "https://cdn.discordapp.com/attachments/923194392959918090/923194540171604019/Windwheel_Asters.png"
       }
     ]
   },
@@ -21,6 +26,11 @@
         "name": "Onikabuto",
         "desc": "**Onikabuto ${Onikabuto}** can be found in the wilderness of Inazuma.\n\n>>> A strange beetle that inhabits areas rich with Electro energy. Its docile and sedentary temperament could not be more different from the fierce, demonic visage displayed on its armored shell.",
         "img": "https://i.imgur.com/V3gpYvh.png"
+      },
+      {
+        "name": "Sakura Bloom",
+        "desc": "**Sakura Blooms ${Sakura Bloom}** can be found in the wilderness of Inazuma.\n\n>>> Blossoms from the Sacred Sakura at the Grand Narukami Shrine, filled with a fondness for Inazuma.",
+        "img": "https://cdn.discordapp.com/attachments/923173940338245673/923320425998610492/Sakura_Bloom.png"
       },
       {
         "name": "Crystal Marrow",
@@ -43,6 +53,11 @@
         "img": "https://cdn.discordapp.com/attachments/921188291842277476/921188358250709102/unknown.png"
       },
       {
+        "name": "Amakumo Fruit",
+        "desc": "**Amakumo Fruits ${Amakumo Fruit}** can be found in the wilderness of Seirai Island.\n\n>>> The fruit of the Amakumo Grass, which grows on Seirai Island. You can hear it crackling with a tiny current if you hold it up to your ear.",
+        "img": "https://cdn.discordapp.com/attachments/923174006306267146/923320095764279356/Amakumo_Fruit.png"
+      },
+      {
         "name": "Fluorescent Fungus",
         "desc": "**Fluorescent Fungi ${Fluorescent Fungus}** can be found in the wilderness of Tsurumi Island.\n\n>>> A mushroom that glows like a night-light. Some curious power lies hidden within it.",
         "img": "https://cdn.discordapp.com/attachments/921888264808452096/922147275579465768/Fluorescent_Fungi.png"
@@ -50,17 +65,31 @@
     ]
   },
   {
-    "name": "Miscellaneous Enemies",
+    "name": "Common Enemies",
     "pages": [
       {
         "name": "Whopperflower (Whopperflower, Shimmering and Energy Nectar): Inazuma",
-        "desc": "**Whopperflower** are Common Enemies found wandering in the wild or disguised as plants such as Mints and Sweet Flowers. They are Mystical Beasts and drop **Whopperflower Nectar ${Whopperflower Nectar}**, **Shimmering Nectar ${Shimmering Nectar}** and **Energy Nectar ${Energy Nectar}**.",
+        "desc": "**Whopperflowers** are Common Enemies found wandering in the wild or disguised as plants such as Mints and Sweet Flowers. They are Mystical Beasts and drop **Whopperflower Nectar ${Whopperflower Nectar}**, **Shimmering Nectar ${Shimmering Nectar}** and **Energy Nectar ${Energy Nectar}**.\n\nThis route only contains Whopperflowers in **Inazuma**.",
         "img": "https://cdn.discordapp.com/attachments/921485115002060831/921485224892846110/WhooperInazuma.png"
+      },
+      {
+        "name": "Nobushi (Old, Kageuchi and Famed Handguard",
+        "desc": "**Nobushi** are Common Enemies found in Inazuma. They drop **Old Handguard ${Old Handguard}**, **Kageuchi Handguard ${Kageuchi Handguard}** and **Famed Handguard ${Famed Handguard}**.",
+        "img": "https://cdn.discordapp.com/attachments/922981096164044840/922981140795654184/unknown.png"
       },
       {
         "name": "Specter (Spectral Husk, Heart and Nucleus)",
         "desc": "**Specters** are Common Enemies found in Inazuma. They are Elemental Lifeforms and drop **Spectral Husk ${Spectral Husk}**, **Spectral Heart ${Spectral Heart}** and **Spectral Nucleus ${Spectral Nucleus}**.",
-        "img": "https://cdn.discordapp.com/attachments/921231704545447994/921401178565275678/floating_balls_of_death_route.png"
+        "img": "https://cdn.discordapp.com/attachments/922995664957350030/922997225880166440/Specters_Route_Inazuma.png"
+      }
+    ]
+  }, {
+    "name": "Elite Enemies",
+    "pages": [
+      {
+        "name": "Rifthound (Concealed Claw, Unguis and Talon)",
+        "desc": "**Rifthounds** are Elite Enemies found on Tsurumi Island. They belong to the Abyss and drop **Concealed Claw ${Concealed Claw}**, **Concealed Unguis ${Concealed Unguis}** and **Concealed Talon ${Concealed Talon}**.",
+        "img": "https://cdn.discordapp.com/attachments/923108653949665311/923108706353287178/unknown.png"
       }
     ]
   }
