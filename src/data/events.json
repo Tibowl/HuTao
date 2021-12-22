@@ -816,7 +816,8 @@
     {
         "name": "\"Energy Amplifier Fruition\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/wnmvkB2.png",
+        "link": "https://www.hoyolab.com/article/1732200",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/12/22/1015537/7bdb5920f74ec5c7e3d25fa7bdf314e9_1831237391548356707.jpg",
         "start": "2021-12-24 10:00:00",
         "end": "2022-01-03 03:59:00",
         "reminder": "end"
