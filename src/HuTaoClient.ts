@@ -22,7 +22,7 @@ intents.add(
     "DIRECT_MESSAGES",
     // For follow stuff, also required for guild messages for some reason?
     "GUILDS",
-    // For handling commands in guilds, reactions for X to delete
+    // For handling commands in guilds
     "GUILD_MESSAGES",
 )
 

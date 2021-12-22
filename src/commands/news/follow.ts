@@ -192,7 +192,7 @@ ${createTable(
 
     async runUnfollow(source: CommandSource, category: FollowCategory): Promise<SendMessage | undefined> {
         if (!(source.channel instanceof TextChannel) || source.guild == null)
-            return sendMessage(source, "Unable to check channel", undefined, true)
+            return sendMessage(source, "Unable to unfollow in this channel", undefined, true)
 
         const { followManager } = client
 
@@ -202,7 +202,7 @@ ${createTable(
     }
     async runFollow(source: CommandSource, category: FollowCategory): Promise<SendMessage | undefined> {
         if (!(source.channel instanceof TextChannel) || source.guild == null)
-            return sendMessage(source, "Unable to check channel", undefined, true)
+            return sendMessage(source, "Unable to follow in this channel", undefined, true)
 
         const { followManager } = client
 
