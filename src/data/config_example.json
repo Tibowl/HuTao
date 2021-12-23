@@ -3,6 +3,8 @@
     "prefix": "ht!",
     "production": false,
     "activity": "ht!help",
+    "errorLog": ["ADD ID HERE"],
+    "allowedArchive": ["ADD ID HERE"],
     "admins": ["YOUR USER ID HERE"],
     "twitter": {
         "consumer_key":        "CONSUMER KEY",
