@@ -849,17 +849,32 @@
         "reminder": "end"
     },
     {
+        "name": "2.4 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/1749662",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/12/22/1015537/b593c2c502b14a7215ef0a2a24548c0e_1191598823807887624.jpg",
+        "start": "2021-12-26 07:00:00",
+        "timezone": "-05:00"
+    },
+    {
+        "name": "2.4 Maintenance",
+        "type": "Maintenance",
+        "prediction": true,
+        "start": "2022-01-05 06:00:00",
+        "end": "2022-01-05 11:00:00"
+    },
+    {
         "name": "Next Special Program",
         "type": "Stream",
-        "_prediction": true,
-        "_start": "2021-12-24 07:00:00",
-        "_timezone": "-05:00"
+        "prediction": true,
+        "start": "2022-02-04 07:00:00",
+        "timezone": "-05:00"
     },
     {
         "name": "Next Maintenance",
         "type": "Maintenance",
         "prediction": true,
-        "start": "2022-01-05 06:00:00",
-        "end": "2022-01-05 11:00:00"
+        "start": "2022-02-16 06:00:00",
+        "end": "2022-02-16 11:00:00"
     }
 ]
