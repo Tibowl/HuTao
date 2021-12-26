@@ -34126,13 +34126,15 @@
         "talents": [
           {
             "name": "Spring Spirit Summoning",
-            "desc": "Will deal different ways of **Cryo DMG** depending on whenever this skill is being pressed or held. Either way, Shenhe will grant all nearby party members the **Icy Quill** effect. When the characters with the effect deal **Cryo DMG** using Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts, their DMG dealt will increase based on Shenhe's current ATK."
+            "desc": "Will deal different ways of **Cryo DMG** depending on whenever this skill is being pressed or held. Either way, Shenhe will grant all nearby party members the **Icy Quill** effect. When the characters with the effect deal **Cryo DMG** using Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts, their DMG dealt will increase based on Shenhe's current ATK.",
+            "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788591463387187/Shenhe_E.gif"
           }
         ],
         "ult": {
           "name": "Divine Maiden's Deliverance",
           "desc": "A Talisman Spirit will be summoned, dealing periodic **Cryo DMG** in the field. At the same time, it will also reduce the **Cryo** and **Physical RES** of opponents within its field.",
-          "type": "Cryo"
+          "type": "Cryo",
+          "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788592503578664/Shenhe_Q.gif"
         },
         "passive": [
           {
@@ -47312,13 +47314,15 @@
         "talents": [
           {
             "name": "Opening Flourish",
-            "desc": "When held, Yun Jin will take up the **Opening Flourish** stance and begin charging. When the skill button is released, Yun Jin will swing her polearm and unleash the charged energy as an attack. While charging and casting the skill, Yun Jin will also deploy a shield for herself. Based on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2."
+            "desc": "When held, Yun Jin will take up the **Opening Flourish** stance and begin charging. When the skill button is released, Yun Jin will swing her polearm and unleash the charged energy as an attack. While charging and casting the skill, Yun Jin will also deploy a shield for herself. Based on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.",
+            "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788593371795476/YunJin_E.gif"
           }
         ],
         "ult": {
           "name": "Cliffbreaker's Banner",
           "desc": "When activated, will deal **AoE Geo DMG** and provides all nearby teammates with the \"Flying Cloud Flag Formation\" effect. When characters with the \"Flying Cloud Flag Formation\" effect deal Normal Attack DMG to enemies they will deal Bonus DMG based on Yun Jin's current DEF.",
-          "type": "Geo"
+          "type": "Geo",
+          "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788594063859722/YunJin_Q.gif"
         },
         "passive": [
           {

@@ -422,6 +422,7 @@ export interface Skill {
     talentTable?: (TalentTable | TalentValue)[]
     costs?:       Cost[]
     type?:        string
+    video?:       string
 }
 
 export interface TalentTable {

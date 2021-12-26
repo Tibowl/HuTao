@@ -420,7 +420,7 @@ Talents: ${talentMat.map(i => (i && data.emoji(i.name)) ?? "???").join("")}`)
                     const values = talent.values
                     hasLevels = true
 
-                    const maxLevel = values.length
+                    const talents = skill.video ? [9] : [6, 9, values.length - 1]
                     embed.addField(name, "```\n"+ createTable(
                         undefined,
                         Object.entries(values)
@@ -433,7 +433,7 @@ Talents: ${talentMat.map(i => (i && data.emoji(i.name)) ?? "???").join("")}`)
                                         return lv <= 6
                                     case "LITTLE":
                                     default:
-                                        return [6, 9, maxLevel - 1].includes(+lv)
+                                        return talents.includes(+lv)
                                 }
                             }),
                         [PAD_START, PAD_END]
@@ -447,6 +447,11 @@ Talents: ${talentMat.map(i => (i && data.emoji(i.name)) ?? "???").join("")}`)
                 embed.setFooter(`${embed.footer?.text} - Use '${config.prefix}c ${char.name} -high' to display higher levels`)
             else if (hasLevels && talentMode == "LITTLE")
                 embed.setFooter(`${embed.footer?.text} - Use '${config.prefix}c ${char.name} -high' (or -low) to display higher (or lower) levels`)
+
+            if (skill.video) {
+                embed.setImage(skill.video)
+                    .setThumbnail("")
+            }
         }
 
         let page = 0
