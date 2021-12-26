@@ -3,6 +3,11 @@
     "name": "Local Specialties (Mondstadt)",
     "pages": [
       {
+        "name": "Wolfhook",
+        "desc": "**Wolfhooks ${Wolfhook}** can be found in the wilderness around Wolvendom and are being sold by [**Chloris**](https://cdn.discordapp.com/attachments/924280082212737044/924743743062569000/Chloris.png) (up to 5 per 3 days).\n\n>>> A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
+        "img": "https://cdn.discordapp.com/attachments/924280082212737044/924286334863028244/unknown.png"
+      },
+      {
         "name": "Valberry",
         "desc": "**Valberries ${Valberry}** can be found in the wilderness of Stormbearer Mountains and are being sold by [**Chloris**](https://cdn.discordapp.com/attachments/921999711358054430/922149813477318656/Chloris.png) (up to 5 per 3 days).\n\n>>> A plump and translucent berry that has a fragrant smell and a sweet, refreshing taste. In the past, the storm watchers' only solace was the sweetness of this fruit and hope for the city's peace.",
         "img": "https://cdn.discordapp.com/attachments/921999711358054430/921999863565148190/unknown.png"
@@ -91,6 +96,11 @@
   }, {
     "name": "Elite Enemies",
     "pages": [
+      {
+        "name": "Fatui Mirror Maiden (Dismal, Crystal and Polarizing Prism)",
+        "desc": "**Fatui Mirror Maidens** are Elite Enemies found in Inazuma. They are members of the Fatui and drop **Dismal Prism ${Dismal Prism}**, **Crystal Prism ${Crystal Prism}** and **Polarizing Prism ${Polarizing Prism}**.",
+        "img": "https://cdn.discordapp.com/attachments/924306487684243476/924306632693907487/Maiden.png"
+      },
       {
         "name": "Rifthound (Concealed Claw, Unguis and Talon)",
         "desc": "**Rifthounds** are Elite Enemies found on Tsurumi Island. They belong to the Abyss and drop **Concealed Claw ${Concealed Claw}**, **Concealed Unguis ${Concealed Unguis}** and **Concealed Talon ${Concealed Talon}**.",
