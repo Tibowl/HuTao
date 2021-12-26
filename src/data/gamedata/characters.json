@@ -51,7 +51,6 @@
           {
             "name": "Normal Attack: Favonius Bladework - Weiss",
             "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -329,7 +328,6 @@
           {
             "name": "Abiogenesis: Solar Isotoma",
             "desc": "Albedo creates a Solar Isotoma using alchemy, which deals **AoE Geo DMG** on appearance.\n\n**Solar Isotoma**\nhas the following properties:\n·When opponents within the Solar Isotoma field take DMG, the Solar Isotoma will generate Transient Blossoms which deal **AoE Geo DMG**. DMG dealt scales off Albedo's DEF. \n·Transient Blossoms can only be generated once every 2s.\n·When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.\n·Solar Isotoma is considered a **Geo construct**. Only one Solar Isotoma created by Albedo himself can exist at a time. \n\n**Hold** to designate the location of the skill.\n\n**This Geo bloom has an unusual property mirrored in the aim of alchemy. To rise from the earth, soar into the sky, and become the sun.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -520,7 +518,6 @@
         "ult": {
           "name": "Rite of Progeniture: Tectonic Tide",
           "desc": "Under Albedo's command, Geo crystals surge and burst forth, dealing **AoE Geo DMG** in front of him.\nIf a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing **AoE Geo DMG**.\n\nTectonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.\n\n**Under the Kreideprinz's command, the tectonic tide of creation seethes into life.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Elemental Burst DMG",
@@ -1093,7 +1090,6 @@
           {
             "name": "Normal Attack: Rapid Fire",
             "desc": "**Normal Attack**\nPerform up to 4 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal **Cryo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -1367,7 +1363,6 @@
           {
             "name": "Frozen Wilds",
             "desc": "Aloy throws a Freeze Bomb in the targeted direction that explodes on impact, dealing **Cryo DMG**. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing **Cryo DMG**.\nWhen a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.\nAloy can gain up to 1 Coil stack every 0.1s.\n\n**Coil**\n·Each stack increases Aloy's Normal Attack DMG.\n·When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to **Cryo DMG**.\n\nWhile in the Rushing Ice state, Aloy cannot obtain new Coil stacks.\nCoil effects will be cleared 30s after Aloy leaves the field.\n\n**You think that's cold? Guess you've never been to The Cut.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Freeze Bomb DMG",
@@ -1601,7 +1596,6 @@
         "ult": {
           "name": "Prophecies of Dawn",
           "desc": "Aloy throws a Power Cell filled with Cryo in the targeted direction, then detonates it with an arrow, dealing **AoE Cryo DMG**.\n\n**Whether \"Zero Dawn\" referred to hope or extinction no longer matters. Aloy has already saved her world, and the fate of this one is still being forged by its own heroes.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -2153,7 +2147,6 @@
           {
             "name": "Normal Attack: Sharpshooter",
             "desc": "**Normal Attack**\nPerform up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal **Pyro DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -2443,7 +2436,6 @@
           {
             "name": "Explosive Puppet",
             "desc": "The ever-reliable Baron Bunny takes the stage.\n\n**Baron Bunny**\n·Continuously taunts the enemy, drawing their fire.\n·Baron Bunny's HP scales with Amber's Max HP.\n·When destroyed or when its timer expires, Baron Bunny explodes, dealing **AoE Pyro DMG**.\n\n**Hold**\nAdjusts the throwing direction of Baron Bunny.\nThe longer the button is held, the further the throw.\n\n**Baron Bunny hails from a storied lineage, but Amber has stopped keeping count since Baron Bunny the 893rd.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Inherited HP",
@@ -2630,7 +2622,6 @@
         "ult": {
           "name": "Fiery Rain",
           "desc": "Fires off a shower of arrows, dealing continuous **AoE Pyro DMG**.\n\n**Amber's passion truly burns hot.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Fiery Rain DMG Per Wave",
@@ -3207,7 +3198,6 @@
           {
             "name": "Normal Attack: Fight Club Legend",
             "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\nWhen the 2nd and 4th strikes hit opponents, Itto will gain 1 or 2 stacks of Superlative Superstrength, respectively.\nMax 5 stacks. Triggering this effect will refresh the current duration of any existing stacks.\n\nAdditionally, Itto's Normal Attack combo does not immediately reset after sprinting or using his Elemental Skill, \"Masatsu Zetsugi: Akaushi Burst!\"\n\n**Charged Attack**\nWhen holding to perform a Charged Attack, Itto unleashes a series of Arataki Kesagiri slashes without consuming Stamina. Instead, each Arataki Kesagiri slash consumes 1 stack of Superlative Superstrength. When the final stack is consumed, Itto delivers a powerful final slash.\nIf no stacks of Superlative Superstrength are available, Itto will perform a single Saichimonji Slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -3505,7 +3495,6 @@
           {
             "name": "Masatsu Zetsugi: Akaushi Burst!",
             "desc": "Hurls Ushi, the young akaushi bull and auxiliary member of the Arataki Gang, dealing **Geo DMG** to opponents on hit. When Ushi hits opponents, Arataki Itto gains 1 stack of Superlative Superstrength.\n\nUshi will remain on the field and provide support in the following ways:\n· Taunts surrounding opponents and draws their attacks.\n· Inherits HP based on a percentage of Arataki Itto's Max HP.\n· When Ushi takes DMG, Arataki Itto gains 1 stack of Superlative Superstrength. Only 1 stack can be gained in this way every 2s.\n· Ushi will flee when its HP reaches 0 or its duration ends. It will grant Arataki Itto 1 stack of Superlative Superstrength when it leaves.\n\n**Hold**\nAdjust throwing angle.\n\nUshi is considered a **Geo construct**. Arataki Itto can only deploy 1 Ushi on the field at any one time.\n\n**The name of this technique is derived from Onibudou (a light novel series written by Junkichi). However, calling it \"Onisatsu Zetsugi\" probably constitutes copyright infringement — not to mention how Itto himself is an oni and all...**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -3682,7 +3671,6 @@
         "ult": {
           "name": "Royal Descent: Behold, Itto the Evil!",
           "desc": "Time to show 'em the might of the Arataki Gang! For a time, Itto lets out his inner Raging Oni King, wielding his Oni King's Kanabou in battle.\nThis state has the following special properties:\n· Converts Itto's Normal, Charged, and Plunging Attacks to **Geo DMG**. This cannot be overridden.\n· Increases Itto's Normal Attack SPD. Also increases his ATK based on his DEF.\n· On hit, the 1st and 3rd strikes of his attack combo will each grant Arataki Itto 1 stack of Superlative Superstrength.\n· Decreases Itto's Elemental and Physical RES by 20%.\n\nThe Raging Oni King state will be cleared when Itto leaves the field.\n\n**This is the pinnacle technique of the ultimate fighting style (according to Itto). It would be pointless for Arataki Itto to reference any other fighting styles to improve his own, for he, and no other, is the strongest, most terrible oni in the land.**\n**Shouta thinks it looks really cool.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "ATK Bonus",
@@ -4245,7 +4233,6 @@
           {
             "name": "Normal Attack: Whisper of Water",
             "desc": "**Normal Attack**\nPerform up to 4 water splash attacks that deal **Hydro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to deal **AoE Hydro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Hydro DMG** upon impact with the ground.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -4507,7 +4494,6 @@
           {
             "name": "Let the Show Begin♪",
             "desc": "Summons water droplets resembling musical notes that form a Melody Loop, dealing **Hydro DMG** to surrounding opponents and applying the **Wet** status to them.\n\n**Melody Loop**\n·On hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.\n·On hit, Barbara's Charged Attack generates 4 times the amount of healing.\n·Periodically regenerates your own active character's HP.\n·Applies the **Wet** status to the character and to opponents who come in contact with them.\n\n**Barbara's music is the magic that heals her companions.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "HP Regeneration Per Hit",
@@ -4716,7 +4702,6 @@
         "ult": {
           "name": "Shining Miracle♪",
           "desc": "Heals your own party members and nearby teammates for a large amount of HP that scales with Barbara's Max HP.\n\n**Barbara's desire to heal strengthens her will to fight and sing.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Regeneration",
@@ -5271,7 +5256,6 @@
           {
             "name": "Normal Attack: Oceanborne",
             "desc": "**Normal Attack**\nPerform up to 5 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -5569,7 +5553,6 @@
           {
             "name": "Tidecaller",
             "desc": "Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\n\n**Press**\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing **Electro DMG**.\n\n**Hold**\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing **Electro DMG**. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\nThe shield possesses the following properties:\n·Has 250% **Electro DMG** Absorption Efficiency.\n·Applies the **Electro element** to Beidou upon activation.\n\n**Conquer the high seas! Pursue the waves and chase the storm!**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Shield DMG Absorption",
@@ -5774,7 +5757,6 @@
         "ult": {
           "name": "Stormbreaker",
           "desc": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing **Electro DMG** to nearby opponents.\n\n**Thunderbeast's Targe**\n·When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing **Electro DMG**.\n·Increases the character's resistance to interruption, and decreases DMG taken.\n\nA maximum of 1 lightning discharge can be triggered per second.\n\n**With a peal of thunder, Haishan is slain.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -6369,7 +6351,6 @@
           {
             "name": "Normal Attack: Strike of Fortune",
             "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -6647,7 +6628,6 @@
           {
             "name": "Passion Overload",
             "desc": "Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\n\n**Press**\nA single, swift flame strike that deals **Pyro DMG**.\n\n**Hold (Short)**\nCharges up, resulting in different effects when unleashed based on the Charge Level.\n·Level 1: Strikes twice, dealing **Pyro DMG** and launching opponents.\n·Level 2: Unleashes 3 consecutive attacks that deal impressive **Pyro DMG**, but the last attack triggers an explosion that launches both Bennett and the enemy.\nBennett takes no damage from being launched.\n\n**An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Press DMG",
@@ -6870,7 +6850,6 @@
         "ult": {
           "name": "Fantastic Voyage",
           "desc": "Bennett performs a jumping attack that deals **Pyro DMG**, creating an Inspiration Field.\n\n**Inspiration Field**\n·If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.\n·If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\n·Imbues characters within the AoE with **Pyro**.\n\n**Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -7465,7 +7444,6 @@
           {
             "name": "Normal Attack: Demonbane",
             "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -7747,7 +7725,6 @@
           {
             "name": "Spirit Blade: Chonghua's Layered Frost",
             "desc": "Chongyun strikes the ground with his greatsword, causing a Cryo explosion in a circular AoE in front of him that deals **Cryo DMG**.\nAfter a short delay, the cold air created by the Cryo explosion will coalesce into a Chonghua Frost Field, within which all Sword, Claymore and Polearm-wielding characters' weapons will be infused with **Cryo**.\n\n**\"A crystal-clear ring, and all is silent. The rivers move not, and the clouds are heavy with frost. The altar gates open, and evil is banished.\"**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -7938,7 +7915,6 @@
         "ult": {
           "name": "Spirit Blade: Cloud-Parting Star",
           "desc": "Performing the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground.\nWhen the spirit blades explode, they will deal **AoE Cryo DMG** and launch opponents.\n\n**\"As ice doth give the biting frost birth, My transcendent blade shakes heaven and earth. Heed my summons and come hence!\"**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -8493,7 +8469,6 @@
           {
             "name": "Normal Attack: Tempered Sword",
             "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -8775,7 +8750,6 @@
           {
             "name": "Searing Onslaught",
             "desc": "Performs a forward slash that deals **Pyro DMG**.\n\nThis skill can be consecutively used 3 times. Enters CD if not cast again within a short period.\n\n**The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -8980,7 +8954,6 @@
         "ult": {
           "name": "Dawn",
           "desc": "Releases intense flames to knock back nearby opponents, dealing **Pyro DMG**. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive **Pyro DMG** to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of **AoE Pyro DMG**.\nThe searing flames that run down his blade cause it to be infused with **Pyro**.\n\n**The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Slashing DMG",
@@ -9575,7 +9548,6 @@
           {
             "name": "Normal Attack: Kätzlein Style",
             "desc": "**Normal Attack**\nPerform up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal **Cryo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -9865,7 +9837,6 @@
           {
             "name": "Icy Paws",
             "desc": "Fires an Icy Paw that deals **Cryo DMG** to opponents and forms a shield on hit.\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\n**Press**\nRapidly fires off 2 Icy Paws.\n\n**Hold**\nDashes back quickly before firing five Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\n\nThe shield has a 250% **Cryo DMG** Absorption Bonus, and will cause your active character to become affected by **Cryo** at the point of formation for a short duration.\n\n**When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Icy Paw DMG",
@@ -10074,7 +10045,6 @@
         "ult": {
           "name": "Signature Mix",
           "desc": "Tosses out a special cold brew that deals **AoE Cryo DMG** and creates a Drunken Mist in an AoE.\n\n**Drunken Mist**\n·Deals continuous **Cryo DMG** to opponents within the AoE.\n·Continuously regenerates the HP of characters within the AoE.\n\n**A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -10669,7 +10639,6 @@
           {
             "name": "Normal Attack: Favonius Bladework - Edel",
             "desc": "**Normal Attack**\nPerform up to 5 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -10967,7 +10936,6 @@
           {
             "name": "Icetide Vortex",
             "desc": "Sharp frost, swift blade.\n\n**Press**\nSlashes swiftly, dealing **Cryo DMG**.\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.\n\n**Grimheart**\nIncreases Eula's resistance to interruption and DEF.\n\n**Hold**\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing **AoE Cryo DMG** to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and **Cryo RES** decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals **Cryo DMG** to nearby opponents.\n\n**\"So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.\"**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Press DMG",
@@ -11224,7 +11192,6 @@
         "ult": {
           "name": "Glacial Illumination",
           "desc": "Brandishes her greatsword, dealing **Cryo DMG** to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will explode immediately.\n\n**It is easy to sink. But even so, she desires to freeze this oncoming tide.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -11819,7 +11786,6 @@
           {
             "name": "Normal Attack: Bolts of Downfall",
             "desc": "**Normal Attack**\nPerform up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachsüchtig Blitz shall deal immense **Electro DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -12109,7 +12075,6 @@
           {
             "name": "Nightrider",
             "desc": "Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing **Electro DMG** in a small AoE.\nFor the ability's duration, Oz will continuously attack nearby opponents with **Freikugel**.\n\nHold to adjust the location Oz will be summoned to.\nPress again any time during the ability's duration to once again summon him to Fischl's side.\n\n**\"My time is most precious, and I shall not waste it on the likes of you... Go, Oz, fall upon them, and bring down upon them your Rachsüchtig Blitz, that which tears open the long night.\"**\n**—Flowers for Princess Fischl (IV): Farewell Frau Welt**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Oz's ATK DMG",
@@ -12300,7 +12265,6 @@
         "ult": {
           "name": "Midnight Phantasmagoria",
           "desc": "Summons Oz to spread his twin wings of twilight and defend Fischl.\nHas the following properties during the ability's duration:\n·Fischl takes on Oz's form, greatly increasing her Movement Speed.\n·Strikes nearby opponents with lightning, dealing **Electro DMG** to opponents she comes into contact with. Each opponent can only be struck once.\n·Once this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence.\n\n**\"...In the hordes of beasts that follow the cursed blood, only Prince Nachtraben, who bore witness to the extinction of a thousand worlds, knows her true greatness. Thus the night wings he spreads are his eternal promise to protect Her Royal Highness.\"**\n**—Flowers for Princess Fischl (I): End Time Zersetzung**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Falling Thunder DMG",
@@ -12855,7 +12819,6 @@
           {
             "name": "Normal Attack: Liutian Archery",
             "desc": "**Normal Attack**\nPerform up to 6 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off an icy arrow that deals **Cryo DMG**.\n·Charge Level 2: Fires off a Frostflake Arrow that deals **Cryo DMG**. The Frostflake Arrow blooms after hitting its target, dealing **AoE Cryo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -13193,7 +13156,6 @@
           {
             "name": "Trail of the Qilin",
             "desc": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing **AoE Cryo DMG**.\n\n**Ice Lotus**\n·Continuously taunts surrounding opponents, attracting them to attack it.\n·Endurance scales based on Ganyu's Max HP.\n·Blooms profusely when destroyed or once its duration ends, dealing **AoE Cryo DMG**.\n\n**\"You saw me, you say? You must be mistaken. I was working overtime then.\"**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Inherited HP",
@@ -13384,7 +13346,6 @@
         "ult": {
           "name": "Celestial Shower",
           "desc": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.\nDuring its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing **Cryo DMG**.\n\n**Ganyu can bring down sweet rains as a matter of course. But against demons and heretics, they become bitter, freezing snow.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Ice Shard DMG",
@@ -13943,7 +13904,6 @@
           {
             "name": "Normal Attack: Ripping Fang Fletching",
             "desc": "**Normal Attack**\nPerform up to 4 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal **Geo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -14217,7 +14177,6 @@
           {
             "name": "Inuzaka All-Round Defense",
             "desc": "Deals **AoE Geo DMG** and sets up a General's War Banner.\n\n**General's War Banner**\nProvides up to 3 buffs to active characters within the skill's AoE based on the number of **Geo** characters in the party at the time of casting:\n· 1 Geo character: Adds \"Standing Firm\" - DEF Bonus.\n· 2 Geo characters: Adds \"Impregnable\" - Increased resistance to interruption.\n· 3 Geo characters: Adds \"Crunch\" - **Geo DMG Bonus**.\n\nGorou can deploy only 1 General's War Banner on the field at any one time. Characters can only benefit from 1 General's War Banner at a time. When a party member leaves the field, the active buff will last for 2s.\n\n**Hold**\nAdjust the location of the skill.\n\n**\"Take up this formation and we'll be safe — I guarantee it!\" As a general and a leader of troops, the last thing Gorou wants is to see is those who follow him getting hurt.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -14412,7 +14371,6 @@
         "ult": {
           "name": "Juuga: Forward Unto Victory",
           "desc": "Displaying his valor as a general, Gorou deals **AoE Geo DMG** and creates a field known as General's Glory to embolden his comrades.\n\n**General's Glory**\nThis field has the following properties:\n· Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of **Geo** characters in the party. Also moves together with your active character.\n· Generates 1 Crystal Collapse every 1.5s that deals **AoE Geo DMG** to 1 opponent within the skill's AoE.\n· Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).\n\nIf a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.\n If Gorou falls, the effects of General's Glory will be cleared.\n\n**\"We have the high ground!\" Gorou can ever so slightly change the terrain of the battlefield to help win victory. This technique has seen him through many battles against seemingly superior opposition.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -14989,7 +14947,6 @@
           {
             "name": "Normal Attack: Secret Spear of Wangsheng",
             "desc": "**Normal Attack**\nPerforms up to six consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -15283,7 +15240,6 @@
           {
             "name": "Guide to Afterlife",
             "desc": "Only an unwavering flame can cleanse the impurities of this world.\nHu Tao consumes a set portion of her HP to knock the surrounding enemies back and enter the Paramita Papilio state.\n\n**Paramita Papilio**\n·Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.\n·Converts attack DMG to **Pyro DMG**, which cannot be overridden by any other elemental infusion.\n·Charged Attacks apply the Blood Blossom effect to the enemies hit.\n·Increases Hu Tao's resistance to interruption.\n\n**Blood Blossom**\nEnemies affected by Blood Blossom will take **Pyro DMG** every 4s. This DMG is considered Elemental Skill DMG.\nEach enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.\n\n**Paramita Papilio** ends when its duration is over, or Hu Tao has left the battlefield or fallen.\n\n**Hu Tao's Secret Spear technique is based on several rules, the first of which is: \"The spear opens the path to the afterlife, and the butterflies bridge this world and the next.\"**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Activation Cost",
@@ -15482,7 +15438,6 @@
         "ult": {
           "name": "Spirit Soother",
           "desc": "Commands a blazing spirit to attack, dealing **Pyro DMG** in a large AoE.\nUpon striking the enemy, regenerates a percentage of Hu Tao's Max HP. This effect can be triggered up to 5 times, based on the number of enemies hit.\nIf Hu Tao's HP is below or equal to 50% when the enemy is hit, both the DMG and HP Regeneration are increased.\n\n**Supernatural activity by those who have already left this world is a source of great anxiety for the Wangsheng Funeral Parlor. In such cases, cremation always lets Hu Tao find peace of mind. The more anxious she feels, the stronger the flame.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -16091,7 +16046,6 @@
           {
             "name": "Normal Attack: Favonius Bladework",
             "desc": "**Normal Attack**\nPerforms up to 5 consecutive strikes.\n\n**Charged Attack**\nConsumes a certain amount of stamina to launch an opponent using the power of wind.\nLaunched opponents will slowly fall to the ground.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -16369,7 +16323,6 @@
           {
             "name": "Gale Blade",
             "desc": "Focusing the might of the formless wind around her blade, Jean releases a miniature storm, launching opponents in the direction she aims at, dealing massive **Anemo DMG**.\n\n**Hold**\nAt the cost of continued stamina consumption, Jean can command the whirlwind to pull surrounding opponents and objects towards her front.\nDirection can be adjusted.\nCharacter is immobile during skill duration.\n\n**That which follows Jean, the wholehearted defender, is a guardian wind that can banish danger from her comrades' presence.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -16546,7 +16499,6 @@
         "ult": {
           "name": "Dandelion Breeze",
           "desc": "Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding opponents and dealing **Anemo DMG**.\nAt the same time, she instantly regenerates a large amount of HP for all party members. The amount of HP restored scales off Jean's ATK.\n\n**Dandelion Field**\n·Continuously regenerates HP of characters within the AoE and continuously imbues them with **Anemo**.\n·Deals **Anemo DMG** to opponents entering or exiting the Dandelion Field.\n\n**Jean's magnanimity is as vast as the dandelion fields, and it is the root of her wish to protect others.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Elemental Burst DMG",
@@ -17155,7 +17107,6 @@
           {
             "name": "Normal Attack: Garyuu Bladework",
             "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact. If this Plunging Attack is triggered by Chihayaburu, it will be converted to Plunging Attack: Midare Ranzan.\n\n**Plunging Attack: Midare Ranzan**\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to **Anemo DMG** and will create a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -17433,7 +17384,6 @@
           {
             "name": "Chihayaburu",
             "desc": "Unleashes a secret technique as fierce as the rushing wind that pulls objects and opponents towards Kazuha's current position before launching opponents within the AoE, dealing **Anemo DMG** and lifting Kazuha into the air on a rushing gust of wind.\nWithin 10s of remaining airborne after casting Chihayaburu, Kazuha can unleash a powerful Plunging Attack known as Midare Ranzan.\n\n**Press**\nCan be used in mid-air.\n\n**Hold**\nCharges up before unleashing greater **Anemo DMG** over a larger AoE than Press Mode.\n\n**Plunging Attack: Midare Ranzan**\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to **Anemo DMG**. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.\nMidare Ranzan's DMG is considered Plunging Attack DMG.\n\n**\"Wind in branches grieves\nBygone ages, gods of old\nWithered autumn leaves\"**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Press Skill DMG",
@@ -17624,7 +17574,6 @@
         "ult": {
           "name": "Kazuha Slash",
           "desc": "The signature technique of Kazuha's self-styled bladework — a single slash that strikes with the force of the first winds of autumn, dealing **AoE Anemo DMG**.\nThe blade's passage will leave behind a field named \"Autumn Whirlwind\" that periodically deals **AoE Anemo DMG** to opponents within its range.\n\n**Elemental Absorption**\nIf Autumn Whirlwind comes into contact with **Hydro**/**Pyro**/**Cryo**/**Electro**, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n**\"I see eternity go by in an instant, the autumns of many years from a single leaf. Thus I shall slice this maple in a flash, and ask a question of the ages.\"**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Slashing DMG",
@@ -18219,7 +18168,6 @@
           {
             "name": "Normal Attack: Ceremonial Bladework",
             "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -18497,7 +18445,6 @@
           {
             "name": "Frostgnaw",
             "desc": "Unleashes a frigid blast, dealing **Cryo DMG** to opponents in front of Kaeya.\n\n**Kaeya seems affable, but his nature is that of unyielding ice.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -18666,7 +18613,6 @@
         "ult": {
           "name": "Glacial Waltz",
           "desc": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him.\nThese icicles will follow the character around and deal **Cryo DMG** to opponents in their path for the ability's duration.\n\n**A winsome smile, genial words, and the merciless hoarfrost that lies beneath... These are all Kaeya's weapons.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -19225,7 +19171,6 @@
           {
             "name": "Normal Attack: Kamisato Art - Kabuki",
             "desc": "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash a flurry of sword ki.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -19503,7 +19448,6 @@
           {
             "name": "Kamisato Art: Hyouka",
             "desc": "Summons blooming ice to launch nearby opponents, dealing **AoE Cryo DMG**.\n\n**\"Clouds shroud the moonlit night. Longing descends like a fog, filling the one detained with wanderlust.\"**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -19671,7 +19615,6 @@
           {
             "name": "Kamisato Art: Senho",
             "desc": "**Alternate Sprint**\nAyaka consumes Stamina and cloaks herself in a frozen fog that moves with her.\n\nIn Senho form, she moves swiftly upon water.\nWhen she reappears, the following effects occur:\n·Ayaka unleashes frigid energy to apply **Cryo** on nearby opponents.\n·Coldness condenses around Ayaka's blade, infusing her attacks with **Cryo** for a brief period.\n\n**\"Feathers fleeting wet / the white heron treads water / a sight without flaw\"**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Activation Stamina Consumption",
@@ -19692,7 +19635,6 @@
         "ult": {
           "name": "Kamisato Art: Soumetsu",
           "desc": "Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously.\n\n**Frostflake Seki no To**\n·A storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing **Cryo DMG**.\n·The snowstorm explodes after its duration ends, dealing **AoE Cryo DMG**.\n\n**\"The blizzard veils the heron's thoughts, pity heavy in its heart.\"**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Cutting DMG",
@@ -20269,7 +20211,6 @@
           {
             "name": "Normal Attack: Yunlai Swordsmanship",
             "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -20547,7 +20488,6 @@
           {
             "name": "Stellar Restoration",
             "desc": "Hurls a Lightning Stiletto that annihilates her opponents like the swift thunder.\nWhen the Stiletto hits its target, it deals **Electro DMG** to opponents in a small AoE, and places a Stiletto Mark on the spot hit.\n\n**Hold**\nHold to adjust the direction in which the Stiletto shall be thrown.\nStilettos thrown by the Hold attack mode can be suspended in mid-air, allowing Keqing to jump to them when using Stellar Restoration a second time.\n\n**Lightning Stiletto**\n If Keqing uses Stellar Restoration again or uses a Charged Attack while its duration lasts, it will clear the Stiletto Mark and produce different effects:\n·If she uses Stellar Restoration again, she will blink to the location of the Mark and unleash one slashing attack that deals **AoE Electro DMG**. When blinking to a Stiletto that was thrown from a Holding attack, Keqing can leap across obstructing terrain.\n·If Keqing uses a Charged Attack, she will ignite a series of thundering cuts at the Mark's location, dealing **AoE Electro DMG**.\n\n**\"Humans are like moths, endlessly chasing the flame we call gods and adepti. But this light that I have here is my own.\"**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Lightning Stiletto DMG",
@@ -20752,7 +20692,6 @@
         "ult": {
           "name": "Starward Sword",
           "desc": "Keqing unleashes the power of lightning, dealing **Electro DMG** in an AOE.\nShe then blends into the shadow of her blade, striking a series of thunderclap-blows to nearby opponents simultaneously that deal multiple instances of **Electro DMG**. The final attack deals massive **AoE Electro DMG**.\n\n**The swiftest technique in Keqing's personal arsenal is fast enough to bring stars crashing down.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -21343,7 +21282,6 @@
           {
             "name": "Normal Attack: Kaboom!",
             "desc": "**Normal Attack**\nThrows things that go boom when they hit things! Perform up to 3 explosive attacks, dealing **AoE Pyro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina and deals **AoE Pyro DMG** to opponents after a short casting time.\n\n**Plunging Attack**\nGathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Pyro DMG** upon impact with the ground.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -21780,7 +21718,6 @@
         "ult": {
           "name": "Sparks 'n' Splash",
           "desc": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby opponents, dealing **AoE Pyro DMG**.\n\n**The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs...**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Sparks 'n' Splash DMG",
@@ -22339,7 +22276,6 @@
           {
             "name": "Normal Attack: Tengu Bowmanship",
             "desc": "**Normal Attack**\nPerform up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, crackling lightning will accumulate on the arrowhead. An arrow fully charged with the storm's might will deal **Electro DMG**.\nWhen in the Crowfeather Cover state, a fully-charged arrow will leave a Crowfeather behind after it hits.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -22629,7 +22565,6 @@
           {
             "name": "Tengu Stormcall",
             "desc": "Retreats rapidly with the speed of a tengu, summoning the protection of the Crowfeather.\nGains Crowfeather Cover for 18s, and when Kujou Sara fires a fully-charged Aimed Shot, Crowfeather Cover will be consumed, and will leave a Crowfeather at the target location.\nCrowfeathers will trigger Tengu Juurai: Ambush after a short time, dealing **Electro DMG** and granting the active character within its AoE an ATK Bonus based on Kujou Sara's Base ATK.\n\nThe ATK Bonuses from different Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.\n\n**The tengu race have never lacked for exceptional talents who have received an Electro Vision. It's just that they often habitually chant praises to the Electro Archon while manipulating Electro. The chants go something like this**\n**\"Show forth your might, O praiseworthy Narukami, and grant this supplicant your thunderous might! Sowaka!\"**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Tengu Juurai: Ambush DMG",
@@ -22820,7 +22755,6 @@
         "ult": {
           "name": "Subjugation: Koukou Sendou",
           "desc": "Casts down Tengu Juurai: Titanbreaker, dealing **AoE Electro DMG**. Afterwards, Tengu Juurai: Titanbreaker spreads out into 4 consecutive bouts of Tengu Juurai: Stormcluster, dealing **AoE Electro DMG**.\nTengu Juurai: Titanbreaker and Tengu Juurai: Stormcluster can provide the active character within their AoE with the same ATK Bonus as given by the Elemental Skill, Tengu Stormcall.\n\nThe ATK Bonus provided by various kinds of Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.\n\n**Sara departed from her people, the tengu, and also temporarily lost her faith in the Tenryou Commission. But once the clouds over her heart cleared, she found her own lightning anew.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Tengu Juurai: Titanbreaker DMG",
@@ -23393,7 +23327,6 @@
           {
             "name": "Normal Attack: Lightning Touch",
             "desc": "**Normal Attack**\nPerform up to 4 lightning attacks that deal **Electro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to deal **AoE Electro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Electro DMG** upon impact with the ground.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -23655,7 +23588,6 @@
           {
             "name": "Violet Arc",
             "desc": "Channels the power of lightning to sweep bothersome matters away.\n\n**Press**\nReleases a homing Lightning Orb.\nOn hit, it deals **Electro DMG** and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE.\n\n**Hold**\nAfter an extended casting time, calls down lightning from the heavens, dealing massive **Electro DMG** to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.\n\n**Electro Purple is the raiment of the Witch of Purple Rose.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Press DMG",
@@ -23900,7 +23832,6 @@
         "ult": {
           "name": "Lightning Rose",
           "desc": "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing **Electro DMG**.\nThe Lightning Rose will continuously emit lightning to knock back opponents and deal **Electro DMG** throughout the ability's duration.\n\n**This rose is beautiful, but beware its mortal thorns.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Discharge DMG",
@@ -24459,7 +24390,6 @@
           {
             "name": "Normal Attack: Ripple of Fate",
             "desc": "**Normal Attack**\nPerform up to 4 water splash attacks that deal **Hydro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to deal **AoE Hydro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Hydro DMG** upon impact with the ground.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -24721,7 +24651,6 @@
           {
             "name": "Mirror Reflection of Doom",
             "desc": "Creates an illusory Phantom of Fate from coalesced waterspouts.\n\nThe **Phantom** has the following special properties:\n·Continuously taunts nearby opponents, attracting their fire.\n·Continuously deals **Hydro DMG** to nearby opponents.\n·When its duration expires, the Phantom explodes, dealing **AoE Hydro DMG**.\n\n**Hold**\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\n\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\n\n**Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "DoT",
@@ -24907,7 +24836,6 @@
           {
             "name": "Illusory Torrent",
             "desc": "**Alternate Sprint**\nMona cloaks herself within the water's flow, consuming Stamina to move rapidly.\n\nWhen under the effect of Illusory Torrent, Mona can move at high speed on water.\nApplies the **Wet** status to nearby opponents when she reappears.\n\n**This is something that Mona can do, but her teacher cannot. Well, but it's not as if her teacher would pursue any matter concerning Hydro Visions anyway...**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Activation Stamina Consumption",
@@ -24924,7 +24852,6 @@
         "ult": {
           "name": "Stellaris Phantasm",
           "desc": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE.\n\n**Illusory Bubble**\nTraps opponents inside a pocket of destiny and also makes them **Wet**. Renders weaker opponents immobile.\nWhen an opponent affected by Illusory Bubble sustains DMG, it has the following effects:\n·Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.\n·Removes the Illusory Bubble, dealing **Hydro** DMG in the process.\n\n**Omen**\nDuring its duration, increases DMG taken by opponents.\n\n**It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Illusory Bubble Duration",
@@ -25519,7 +25446,6 @@
           {
             "name": "Normal Attack: Sparkling Scatter",
             "desc": "**Normal Attack**\nShoots gems that deal **Geo DMG**.\nUpon hit, this grants Ningguang 1 Star Jade.\n\n**Charged Attack**\nConsumes a certain amount of stamina to fire off a giant gem that deals **Geo DMG**.\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n\n**Plunging Attack**\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Geo DMG** upon impact with the ground.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Normal Attack DMG",
@@ -25749,7 +25675,6 @@
           {
             "name": "Jade Screen",
             "desc": "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing **AoE Geo DMG**.\n\n**Jade Screen**\n·Blocks opponents' projectiles.\n·Endurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a **Geo Construct** and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\n\n**The canvas of stars is written upon this jade screen.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Inherited HP",
@@ -25936,7 +25861,6 @@
         "ult": {
           "name": "Starshatter",
           "desc": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive **Geo DMG**.\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.\n\n**Stars shatter. Silence falls.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "DMG Per Gem",
@@ -26491,7 +26415,6 @@
           {
             "name": "Normal Attack: Favonius Bladework - Maid",
             "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -26773,7 +26696,6 @@
           {
             "name": "Breastplate",
             "desc": "Summons protective stone armor, dealing **Geo DMG** to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.\nThe shield has the following properties:\n·When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\n·Possesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.\n\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF.\n\n**Noelle is both a dutiful maid and a valiant knight.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -27000,7 +26922,6 @@
         "ult": {
           "name": "Sweeping Time",
           "desc": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing **Geo DMG**.\nAfterwards, Noelle gains the following effects:\n·Larger attack AoE.\n·Converts attack DMG to **Geo DMG** that cannot be overridden by any other elemental infusion.\n·Increased ATK that scales based on her DEF.\n\n**Sometimes, it's not just dust that needs sweeping...**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Burst DMG",
@@ -27595,7 +27516,6 @@
           {
             "name": "Normal Attack: Ancient Sword Art",
             "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -27873,7 +27793,6 @@
           {
             "name": "Adeptus Art: Herald of Frost",
             "desc": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing **Cryo DMG** to surrounding opponents.\n\n**Herald of Frost**\n·On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\n·Periodically regenerates your active character's HP.\n·Follows the character around, dealing **Cryo DMG** to opponents in their path.\n\n**I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -28100,7 +28019,6 @@
         "ult": {
           "name": "Adeptus Art: Preserver of Fortune",
           "desc": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals **Cryo DMG**.\n\n**Fortune-Preserving Talisman**\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\n\n**\"I am the Fortune Preserver, the Maiden of Resurrection.\"**\n**— Qiqi does not remember these words.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -28677,7 +28595,6 @@
           {
             "name": "Normal Attack: Origin",
             "desc": "**Normal Attack**\nPerforms up to 5 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to perform an upward slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -28955,7 +28872,6 @@
           {
             "name": "Transcendence: Baleful Omen",
             "desc": "The Raiden Shogun unveils a shard of her Euthymia, dealing **Electro DMG** to nearby opponents, and granting nearby party members the Eye of Stormy Judgment.\n\n**Eye of Stormy Judgment**\n·When characters with this buff attack and deal DMG to opponents, the Eye will unleash a coordinated attack, dealing **AoE Electro DMG** at the opponent's position.\n·Characters who gain the Eye of Stormy Judgment will have their Elemental Burst DMG increased based on the Energy Cost of the Elemental Burst during the Eye's duration.\n\nThe Eye can initiate one coordinated attack every 0.9s per party.\nCoordinated attacks generated by characters not controlled by you deal 20% of the normal DMG.\n\n**Beings of great divinity might affect all that they survey, and the Electro Archon can manipulate the very inauspicious stars themselves to defend her retainers and bring a thundering sentence down on their foes.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -29164,7 +29080,6 @@
         "ult": {
           "name": "Secret Art: Musou Shinsetsu",
           "desc": "Gathering truths unnumbered and wishes uncounted, the Raiden Shogun unleashes the Musou no Hitotachi and deals **AoE Electro DMG**, using Musou Isshin in combat for a certain duration afterward. The DMG dealt by Musou no Hitotachi and Musou Isshin's attacks will be increased based on the number of Chakra Desiderata's Resolve stacks consumed when this skill is used.\n\n**Musou Isshin**\nWhile in this state, the Raiden Shogun will wield her tachi in battle, while her Normal, Charged, and Plunging Attacks will be infused with **Electro DMG**, which cannot be overridden. When such attacks hit opponents, she will regenerate Energy for all nearby party members. Energy can be restored this way once every 1s, and this effect can be triggered 5 times throughout this skill's duration.\nWhile in this state, the Raiden Shogun's resistance to interruption is increased, and she is immune to **Electro-Charged** reaction DMG.\nWhile Musou Isshin is active, the Raiden Shogun's Normal, Charged, and Plunging Attack DMG will be considered Elemental Burst DMG.\n\nThe effects of Musou Isshin will be cleared when the Raiden Shogun leaves the field.\n\n**Chakra Desiderata**\nWhen nearby party members (excluding the Raiden Shogun herself) use their Elemental Bursts, the Raiden Shogun will build up Resolve stacks based on the Energy Cost of these Elemental Bursts.\nThe maximum number of Resolve stacks is 60.\n\nThe Resolve gained by Chakra Desiderata will be cleared 300s after the Raiden Shogun leaves the field.\n\n**This is the Raiden Shogun's new secret technique. Abandoning the void-like \"Musou,\" she now shoulders a new \"Musou\" — the dreams and ambitions of all. Just as \"shinsetsu,\" \"the truth,\" also means \"the new,\" so too has Inazuma entered a new chapter.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Musou no Hitotachi Base DMG",
@@ -29930,7 +29845,6 @@
           {
             "name": "Normal Attack: Steel Fang",
             "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -30212,7 +30126,6 @@
           {
             "name": "Claw and Thunder",
             "desc": "Hunts his prey using the techniques taught to him by his master and his lupical.\n\n**Press**\nSwings the Thunder Wolf Claw, dealing **Electro DMG** to opponents in front of Razor.\nUpon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\n\n**Hold**\nGathers Electro energy to unleash a lightning storm over a small AoE, causing massive **Electro DMG**, and clears all of Razor's Electro Sigils.\nEach Electro Sigil cleared in this manner will be converted into Energy for Razor.\n\n**In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Press Skill DMG",
@@ -30415,7 +30328,6 @@
         "ult": {
           "name": "Lightning Fang",
           "desc": "Summons the Wolf Within, which deals **Electro DMG** to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into Elemental Energy for him.\nThe Wolf Within will fight alongside Razor for the skill's duration.\n\n**The Wolf Within**\n·Strikes alongside Razor's normal attacks, dealing **Electro DMG**.\n·Raises Razor's ATK SPD and **Electro RES**.\n·Causes Razor to be immune to DMG inflicted by the **Electro-Charged** status.\n·Disables Razor's Charged Attacks.\n·Increases Razor's resistance to interruption.\n\nThese effects end when Razor leaves the battlefield.\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.\n\n**The wolf has awoken. The hunt is on.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Elemental Burst DMG",
@@ -31014,7 +30926,6 @@
           {
             "name": "Normal Attack: Spear of the Church",
             "desc": "**Normal Attack**\nPerforms up to five consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -31292,7 +31203,6 @@
           {
             "name": "Ravaging Confession",
             "desc": "Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing **Cryo DMG**.\nThis ability cannot be used to travel behind opponents of a larger build.\n\n**Those who confess to Sister Rosaria will be granted no absolution. All sinners shall be met with the piercing cold of punishment proportionate to the weight of their sins.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -31461,7 +31371,6 @@
         "ult": {
           "name": "Rites of Termination",
           "desc": "Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal **Cryo DMG**.\nWhile active, the Ice Lance periodically releases a blast of cold air, dealing **Cryo DMG** to surrounding opponents.\n\n**Judgment is such a tedious ordeal — much easier to skip that phase and get straight to the last rites. Rosaria was never very devoted to the Anemo God anyway, which makes performing them all too easy.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -32038,7 +31947,6 @@
           {
             "name": "Normal Attack: The Shape of Water",
             "desc": "**Normal Attack**\nPerforms up to 3 consecutive attacks that take the form of swimming fish, dealing **Hydro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to deal **AoE Hydro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Hydro, Kokomi plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Hydro DMG** upon impact with the ground.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -32284,7 +32192,6 @@
           {
             "name": "Kurage's Oath",
             "desc": "Summons a \"Bake-Kurage\" created from water that can heal her allies.\nUsing this skill will apply the **Wet** status to Sangonomiya Kokomi.\n\n**Bake-Kurage**\nDeals **Hydro DMG** to surrounding opponents and heal nearby active characters at fixed intervals. This healing is based on Kokomi's Max HP.\n\n**Kokomi needs timely \"refreshment\" in order to maintain optimal work efficiency**.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Regeneration",
@@ -32475,7 +32382,6 @@
         "ult": {
           "name": "Nereid's Ascension",
           "desc": "Summons the might of Watatsumi, dealing **Hydro DMG** to surrounding opponents, before robing Kokomi in a Ceremonial Garment made from the flowing waters of Sangonomiya.\n\n**Ceremonial Garment**\n·Sangonomiya Kokomi's Normal Attack, Charged Attack and Bake-Kurage DMG are increased based on her Max HP.\n·When her Normal and Charged Attacks hit opponents, Kokomi will restore HP for all nearby party members, and the amount restored is based on her Max HP.\n·Increases Sangonomiya Kokomi's resistance to interruption and allows her to walk on the water's surface.\n\nThese effects will be cleared once Sangonomiya Kokomi leaves the field.\n\n**Clear light coalesces into robes around Her Excellency, Sangonomiya Kokomi, reflecting her magnificent form.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -33111,7 +33017,6 @@
           {
             "name": "Normal Attack: Shuumatsuban Ninja Blade",
             "desc": "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -33393,7 +33298,6 @@
           {
             "name": "Yoohoo Art: Fuuin Dash",
             "desc": "The special technique of the Yoohoo Ninja Arts!\nSayu curls up into a rolling Fuufuu Windwheel and smashes into opponents at high speed, dealing **Anemo DMG**. When the duration ends, she unleashes a Fuufuu Whirlwind Kick, dealing **AoE Anemo DMG**.\n\n**Press**\nEnters the Fuufuu Windwheel state, rolling forward a short distance before using the Fuufuu Whirlwind Kick.\n\n**Hold**\nRolls about continuously in the Fuufuu Windwheel state, increasing Sayu's resistance to interruption while within that state.\nDuring this time, Sayu can control the direction of her roll, and can use the skill again to end her Windwheel state early and unleash a stronger version of the Fuufuu Whirlwind Kick.\nThe Hold version of this skill can trigger Elemental Absorption.\n\nThis skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her Windwheel state, the longer the CD.\n\n**Elemental Absorption**\nIf Sayu comes into contact with **Hydro**/**Pyro**/**Cryo**/**Electro** while in her Windwheel state, she will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use of this skill.\n\n**Sayu can pull this skill off with her eyes closed. This technique was originally created for escaping, but now that she's got a Vision, might as well make her foes eat dirt while she's at it.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Fuufuu Windwheel DMG",
@@ -33638,7 +33542,6 @@
         "ult": {
           "name": "Yoohoo Art: Mujina Flurry",
           "desc": "The other super special technique of the Yoohoo Ninja Arts! It summons a pair of helping hands for Sayu.\nDeals **Anemo DMG** to nearby opponents and heals all nearby party members. The amount of HP restored is based on Sayu's ATK. This skill then summons a Muji-Muji Daruma.\n\n**Muji-Muji Daruma**\nAt specific intervals, the Daruma will take one of several actions based on the situation around it:\n·If the HP of nearby characters is above 70%, it will attack a nearby opponent, dealing **Anemo DMG**.\n·If there are active characters with 70% or less HP nearby, it will heal the active character with the lowest percentage HP left. If there are no opponents nearby, it will heal active characters nearby even if they have 70% HP or more.\n\n**People who don't know the first thing about ninjutsu love to watch Sayu show off this skill, and some have tried to learn it from her. But Sayu just wants to sleep and not be disturbed.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill Activation DMG",
@@ -34201,18 +34104,52 @@
   },
   "Shenhe": {
     "name": "Shenhe",
-    "desc": "Ethereal Soul Amidst the Mortal Realm",
+    "desc": "An adepti disciple with a most unusual air about her. having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
     "icon": "https://i.imgur.com/ccLge5X.png",
     "imgs": [
       "https://upload-os-bbs.hoyolab.com/upload/2021/11/22/1015537/0af2eb0049bc549292c4b7a8d40996ac_3215297796145849770.jpg",
       "https://upload-os-bbs.hoyolab.com/upload/2021/11/22/1015537/c6799448753391a5aaf5e23180e3bfbf_5457694239978850980.jpg"
     ],
     "meta": {
+      "association": "Liyue",
       "title": "Lonesome Transcendence",
-      "detail": "\"One has traversed many realms and taken a great many pupils. Among them, Shenhe bears the closest resemblance to oneself. Were she not a mortal, one would like to have her stay by my side.\" — Cloud Retainer",
+      "detail": "An adepti disciple with a most unusual air about her. having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
       "element": "Cryo",
-      "constellation": "Crista Doloris"
-    }
+      "constellation": "Crista Doloris",
+      "cvChinese": "秦紫翼",
+      "cvJapanese": "川澄綾子",
+      "cvEnglish": "Chelsea Kwoka",
+      "cvKorean": "이현진"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Spring Spirit Summoning",
+            "desc": "Will deal different ways of **Cryo DMG** depending on whenever this skill is being pressed or held. Either way, Shenhe will grant all nearby party members the **Icy Quill** effect. When the characters with the effect deal **Cryo DMG** using Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts, their DMG dealt will increase based on Shenhe's current ATK."
+          }
+        ],
+        "ult": {
+          "name": "Divine Maiden's Deliverance",
+          "desc": "A Talisman Spirit will be summoned, dealing periodic **Cryo DMG** in the field. At the same time, it will also reduce the **Cryo** and **Physical RES** of opponents within its field.",
+          "type": "Cryo"
+        },
+        "passive": [
+          {
+            "name": "Spirit Communion Seal",
+            "desc": "Will provide different effects based on how \"Spring Spirit Summoning\" is triggered.\nWhen tapped, the DMG dealt by nearby teammates' Elemental Skill and Elemental Burst will be increased.\nWhen held, Normal, Charged, and Plunging Attack DMG dealt by characters will be increased."
+          },
+          {
+            "name": "Deific Embrace",
+            "desc": "Active characters within the field of \"Divine Maiden's Deliverance\" will gain a **Cryo DMG** Bonus."
+          },
+          {
+            "name": "Precise Comings and Goings",
+            "desc": "Increases the rewards obtained when dispatched on a Liyue Expedition for 20 hours."
+          }
+        ]
+      }
+    ]
   },
   "Sucrose": {
     "name": "Sucrose",
@@ -34266,7 +34203,6 @@
           {
             "name": "Normal Attack: Wind Spirit Creation",
             "desc": "**Normal Attack**\nPerforms up to 4 attacks using Wind Spirits, dealing **Anemo DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina and deals **AoE Anemo DMG** after a short casting time.\n\n**Plunging Attack**\nCalling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Anemo DMG** upon impact with the ground.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -34528,7 +34464,6 @@
           {
             "name": "Astable Anemohypostasis Creation - 6308",
             "desc": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals **Anemo DMG**.\n\n**This is a little embarrassing, but though the elemental lifeforms birthed through this procedure dissipate very rapidly, they are incredibly useful when adventuring. Even failed experiments can have practical applications.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -34697,7 +34632,6 @@
         "ult": {
           "name": "Forbidden Creation - Isomer 75 / Type II",
           "desc": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.\nWhile it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal **Anemo DMG**.\n\n**Elemental Absorption**\nIf the Wind Spirit comes into contact with **Hydro**/**Pyro**/**Cryo**/**Electro** energy, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n**Sucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "DoT",
@@ -35274,7 +35208,6 @@
           {
             "name": "Normal Attack: Cutting Torrent",
             "desc": "**Normal Attack**\nPerform up to 6 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, the power of Hydro will accumulate on the arrowhead. A arrow fully charged with the torrent will deal **Hydro DMG** and apply the Riptide status.\n\n**Riptide**\nOpponents affected by Riptide will suffer from **AoE Hydro DMG** effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.\n·Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.\n·Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\nWhen Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -35616,7 +35549,6 @@
           {
             "name": "Foul Legacy: Raging Tide",
             "desc": "Unleashes a set of weaponry made of pure water, dealing **Hydro DMG** to surrounding opponents and entering Melee Stance.\nIn this Stance, Tartaglia's Normal and Charged Attacks are converted to **Hydro DMG** that cannot be overridden by any other elemental infusion and change as follows:\n\n**Normal Attack**\nPerform up to 6 consecutive **Hydro** strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash a cross slash, dealing **Hydro DMG**.\n\n**Riptide Slash**\nHitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals **AoE Hydro DMG**. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.\n\nAfter 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD.\nIf the return to a ranged stance occurs automatically after 30s, the CD is even longer.\n\n**He chose the bow as his weapon precisely to overcome his weakness with it. But a serious fight demands that he gets serious...**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Stance Change DMG",
@@ -35941,7 +35873,6 @@
         "ult": {
           "name": "Havoc: Obliteration",
           "desc": "Performs different attacks based on what stance Tartaglia is in when casting.\n\n**Ranged Stance: Flash of Havoc**\nSwiftly fires a Hydro-imbued magic arrow, dealing **AoE Hydro DMG** and applying the Riptide status.\nReturns a portion of its Energy Cost after use.\n\n**Melee Stance: Light of Obliteration**\nPerforms a slash with a large AoE, dealing massive **Hydro DMG** to all surrounding opponents, which triggers Riptide Blast.\n\n**Riptide Blast**\nWhen the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals **AoE Hydro DMG**.\nDMG dealt in this way is considered Elemental Burst DMG.\n\n**Rushing waters are rarely seen in his snowy homeland. Perhaps his ability to command water is due to his understanding of just how precious it is.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG: Melee",
@@ -36536,7 +36467,6 @@
           {
             "name": "Normal Attack: Swiftshatter Spear",
             "desc": "**Normal Attack**\nPerforms up to four consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -36798,7 +36728,6 @@
           {
             "name": "Blazing Blessing",
             "desc": "Thoma vaults forward with his polearm and delivers a flame-filled flying kick that deals **AoE Pyro DMG**, while also summoning a defensive Blazing Barrier. At the moment of casting, Thoma's Elemental Skill applies **Pyro** to himself.\nThe DMG Absorption of the Blazing Barrier scales off Thoma's Max HP.\nThe Blazing Barrier has the following traits:\n·Absorbs **Pyro DMG** 250% more effectively.\n·When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\n\nThe maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.\n\n**As a guest from afar, only the most burning passion would allow one to master the pure and precise spear arts of Inazuma. Thoma's mastery, indeed, is not limited to being the \"swiftest-studying student\" or \"a master of the spear,\" but he has imbued his will to protect others and fend off foes into his art as well.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -37007,7 +36936,6 @@
         "ult": {
           "name": "Crimson Ooyoroi",
           "desc": "Thoma spins his polearm, slicing at his foes with roaring flames that deal **AoE Pyro DMG** and weave themselves into a Scorching Ooyoroi.\n\n**Scorching Ooyoroi**\nWhile Scorching Ooyoroi is in effect, the active character's Normal Attacks will trigger Fiery Collapse, dealing **AoE Pyro DMG** and summoning a Blazing Barrier.\nFiery Collapse can be triggered once every 1s.\n\nExcept for the amount of DMG they can absorb, the Blazing Barriers created in this way are identical to those created by Thoma's Elemental Skill, Blazing Blessing:\n·Absorbs **Pyro DMG** 250% more effectively.\n·When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\n\nThe maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.\n\nIf Thoma falls, the effects of Scorching Ooyoroi will be cleared.\n\n**\"I will not forget my initial promise. Let this burning flame protect those I cherish, and may it never be extinguished.\"**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -37606,7 +37534,6 @@
           {
             "name": "Normal Attack: Foreign Ironwind",
             "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -37884,7 +37811,6 @@
           {
             "name": "Palm Vortex",
             "desc": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous **Anemo DMG** to opponents in front of you.\nThe vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.\n\n**Hold**\nDMG and AoE will gradually increase.\n\n**Elemental Absorption**\nIf the vortex comes into contact with **Hydro**/**Pyro**/**Cryo**/**Electro**, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n**You discussed the way to grasp the formless wind with Paimon.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Initial Cutting DMG",
@@ -38111,7 +38037,6 @@
         "ult": {
           "name": "Gust Surge",
           "desc": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous **Anemo DMG**.\n\n**Elemental Absorption**\nIf the tornado comes into contact with **Hydro**/**Pyro**/**Cryo**/**Electro**, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n**You and Paimon studied the flapping of a butterfly's wings.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Tornado DMG",
@@ -38353,7 +38278,6 @@
           {
             "name": "Normal Attack: Foreign Rockblade",
             "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -38631,7 +38555,6 @@
           {
             "name": "Starfell Sword",
             "desc": "You disgorge a meteorite from the depths of the earth, dealing **AoE Geo DMG**.\nThe meteorite is considered a **Geo Construct**, and can be climbed or used to block attacks.\n\n**Hold**\nThis skill's positioning may be adjusted.\n\n**You spoke with Paimon about the final destination of falling stars.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -38804,7 +38727,6 @@
         "ult": {
           "name": "Wake of Earth",
           "desc": "Energizing the Geo deep underground, you set off expanding shockwaves.\nLaunches surrounding opponents back and deals **AoE Geo DMG**.\nA stone wall is erected at the edges of the shockwave.\nThe stone wall is considered a **Geo Construct**, and may be used to block attacks.\n\n**You and Paimon studied the pulse of the mountains.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "DMG Per Shockwave",
@@ -39028,7 +38950,6 @@
           {
             "name": "Normal Attack: Foreign Thundershock",
             "desc": "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -39306,7 +39227,6 @@
           {
             "name": "Lightning Blade",
             "desc": "Unleashes three swift thunder shadows that deal **Electro DMG** to opponents and leave an Abundance Amulet behind after hitting an opponent.\n2 Abundance Amulets can be created initially. Using this skill will reset any Abundance Amulets that were generated.\n\n**Abundance Amulets**\nWhen a character is near an Abundance Amulet, they will absorb it and obtain the following effects:\n·Restores Elemental Energy\n·Increases Energy Recharge during the Abundance Amulet's duration.\n\n**You and Paimon discuss the paths by which electricity might flow.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -39505,7 +39425,6 @@
         "ult": {
           "name": "Bellowing Thunder",
           "desc": "You call upon the protection of lightning, knocking nearby opponents back and dealing **Electro DMG** to them.\n\n**Lightning Shroud**\nWhen your active character's Normal or Charged Attacks hit opponents, they will call Falling Thunder forth, dealing **Electro DMG.**\nWhen Falling Thunder hits opponents, it will regenerate Energy for that character.\nOne instance of Falling Thunder can be generated every 0.5s.\n\n**You and Paimon studied the light that flashes through the clouds.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -40075,7 +39994,6 @@
           {
             "name": "Normal Attack: Divine Marksmanship",
             "desc": "**Normal Attack**\nPerform up to 6 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal **Anemo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -40381,7 +40299,6 @@
           {
             "name": "Skyward Sonnet",
             "desc": "O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\n\n**Press**\nSummons a Wind Domain at the opponent's location, dealing **AoE Anemo DMG** and launching opponents into the air.\n\n**Hold**\nSummons an even larger Wind Domain with Venti as the epicenter, dealing **AoE Anemo DMG** and launching affected opponents into the air.\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\n\nOpponents hit by Skyward Sonnet will fall to the ground slowly.\n\n**In the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Press DMG",
@@ -40572,7 +40489,6 @@
         "ult": {
           "name": "Wind's Grand Ode",
           "desc": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in opponents and deals continuous **Anemo DMG**.\n\n**Elemental Absorption**\nIf the Stormeye comes into contact with **Hydro**/**Pyro**/**Cryo**/**Electro**, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n**Many hymns written in praise of the Anemo Archon have been lost to time. This one sings of his mastery over the wind.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "DoT",
@@ -41149,7 +41065,6 @@
           {
             "name": "Normal Attack: Dough-Fu",
             "desc": "**Normal Attack**\nPerforms up to five consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -41427,7 +41342,6 @@
           {
             "name": "Guoba Attack",
             "desc": "Summons Guoba, who will continuously breathe fire at opponents, dealing **AoE Pyro DMG**.\n\n**Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Flame DMG",
@@ -41596,7 +41510,6 @@
         "ult": {
           "name": "Pyronado",
           "desc": "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her.\nThe Pyronado will move with your character for the ability's duration, dealing **Pyro DMG** to all opponents in its path.\n\n**There will never be enough heat. Never.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "1-Hit Swing DMG",
@@ -42209,7 +42122,6 @@
           {
             "name": "Normal Attack: Whirlwind Thrust",
             "desc": "**Normal Attack**\nPerforms up to 6 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to perform an upward thrust.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\nXiao does not take DMG from performing Plunging Attacks.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -42672,7 +42584,6 @@
         "ult": {
           "name": "Bane of All Evil",
           "desc": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\n\n**Yaksha's Mask**\n·Greatly increases Xiao's jumping ability.\n·Increases his attack AoE and attack DMG.\n·Converts attack DMG into **Anemo DMG**, which cannot be overridden by any other elemental infusion.\n\nIn this state, Xiao will continuously lose HP.\nThe effects of this skill end when Xiao leaves the field.\n\n**Donning the Mask of the Yaksha, Xiao takes the terrifying, demon-conquering form of the Vigilant Yaksha. But this great power has also brought him great suffering. Some call him \"The Bane of All Evil.\"**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Normal/Charged/Plunging Attack DMG Bonus",
@@ -43249,7 +43160,6 @@
           {
             "name": "Normal Attack: Guhua Style",
             "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -43527,7 +43437,6 @@
           {
             "name": "Guhua Sword: Fatal Rainscreen",
             "desc": "Xingqiu performs twin strikes with his sword, dealing **Hydro DMG**. At the same time, this ability creates the maximum number of Rain Swords, which will orbit your active character.\nThe Rain Swords have the following properties:\n·When a character takes DMG, the Rain Sword will shatter, reducing the amount of DMG taken.\n·Increases the character's resistance to interruption.\n20% of Xingqiu's **Hydro DMG Bonus** will be converted to additional DMG Reduction for the Rain Swords.\n\nThe maximum amount of additional DMG Reduction that can be gained this way is 24%.\nThe initial maximum number of Rain Swords is 3.\nUsing this ability applies the **Wet** status onto the character.\n\n**\"Easier to slay a rain dragon than to sever the rain.\"**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -43718,7 +43627,6 @@
         "ult": {
           "name": "Guhua Sword: Raincutter",
           "desc": "Initiate Rainbow Bladework and fight using an illusory sword rain, while creating the maximum number of Rain Swords.\n\n**Rainbow Bladework**\n·Your active character's Normal Attacks will trigger consecutive sword rain attacks, dealing **Hydro DMG**.\n·Rain Swords will remain at the maximum number throughout the ability's duration.\n\n**The \"Way of the Rain Cutter\" is one of the esoteric secret techniques of the Guhua Sect.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Sword Rain DMG",
@@ -44277,7 +44185,6 @@
           {
             "name": "Normal Attack: Dance on Fire",
             "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -44559,7 +44466,6 @@
           {
             "name": "Sweeping Fervor",
             "desc": "Xinyan brandishes her instrument, dealing **Pyro DMG** on nearby opponents, forming a shield made out of her audience's passion.\nThe shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.\n·Hitting 0–1 opponents grants Shield Level 1: Ad Lib.\n·Hitting 2 opponents grants Shield Level 2: Lead-In.\n·Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent **Pyro DMG** to nearby opponents.\n\nThe shield has the following special properties:\n·When unleashed, it infuses Xinyan with **Pyro**.\n·It has 250% DMG Absorption effectiveness against **Pyro DMG**.\n\n**Xinyan insists that these pyrotechnics are the apex of performative art, and that they are physical phenomena that have nothing to do with her Vision.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Swing DMG",
@@ -44804,7 +44710,6 @@
         "ult": {
           "name": "Riff Revolution",
           "desc": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd.\nThe sheer intensity of the atmosphere will cause explosions that deal **Pyro DMG** to nearby opponents.\n\n**Xinyan used to end all her performances with this move. She didn't stop because it was dangerous, however, but because she didn't have a more epic finale in case someone shouted \"Encore!\"**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -45381,7 +45286,6 @@
           {
             "name": "Normal Attack: Seal of Approval",
             "desc": "**Normal Attack**\nShoots fireballs that deal up to three counts of **Pyro DMG**.\nWhen Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal. Yanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh.\nEach Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.\n\n**Charged Attack**\nConsumes Stamina and all Scarlet Seals before dealing **AoE Pyro DMG** to opponents after a short casting time.\nThis Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.\n\n**Plunging Attack**\nGathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Pyro DMG** upon impact with the ground.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -45635,7 +45539,6 @@
           {
             "name": "Signed Edict",
             "desc": "Summons blistering flames that deal **AoE Pyro DMG**.\nOpponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.\n\n**Apart from their legal uses, Yanfei's seals also come with her customized additional terms and conditions. Well, it's not as if the Ministry of Civil Affairs can change the laws of nature.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Skill DMG",
@@ -45804,7 +45707,6 @@
         "ult": {
           "name": "Done Deal",
           "desc": "Triggers a spray of intense flames that rush at nearby opponents, dealing **AoE Pyro DMG**, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\n\n**Brilliance**\nHas the following effects:\n·Grants Yanfei a Scarlet Seal at fixed intervals.\n·Increases the DMG dealt by her Charged Attacks.\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.\n\n**\"Here are the full terms for this matter of life and death — by which I mean my life and your death!\"**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -46385,7 +46287,6 @@
           {
             "name": "Normal Attack: Firework Flare-Up",
             "desc": "**Normal Attack**\nPerforms up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerforms a more precise **Aimed Shot** with increased DMG.\nWhile aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off a flaming arrow that deals **Pyro DMG**.\n·Charge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing **Pyro DMG** on hit.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -46691,7 +46592,6 @@
           {
             "name": "Niwabi Fire-Dance",
             "desc": "Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.\n\n**Niwabi Enshou**\nDuring this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and converted to **Pyro DMG**. During this time, Normal Attack: Firework Flare-Up will not generate Kindling Arrows at Charge Level 2.\n\nThis effect will deactivate when Yoimiya leaves the field.\n\n**\"Niwabi\" is a form of incense firework created by Yoimiya herself. Its ability to be lit without any prior training or preparation has made it a real hit. After many fire-related incidents, the Tenryou Commission ordered the use of \"Niwabi\" banned, but small, bright sparks can often still be seen springing up at night. If seen from above, they look almost like little twinkling stars.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Blazing Arrow DMG",
@@ -46864,7 +46764,6 @@
         "ult": {
           "name": "Ryuukin Saxifrage",
           "desc": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage,\" and fires forth blazing rockets bursting with surprises that deal **AoE Pyro DMG** and mark one of the hit opponents with Aurous Blaze.\n\n**Aurous Blaze**\nAll Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing **AoE Pyro DMG**.\nWhen an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.\n\nOne Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated.\n\n**Fireworks are man-made starlight, comets fired into the sky. Though they last for but an instant, the memory of their brilliance shall surely live on.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",
@@ -47391,18 +47290,52 @@
   },
   "Yun Jin": {
     "name": "Yun Jin",
-    "desc": "Current Director of Yun-Han Opera Troupe",
+    "desc": "A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",
     "icon": "https://i.imgur.com/BrcAmXj.png",
     "imgs": [
       "https://upload-os-bbs.hoyolab.com/upload/2021/11/22/1015537/d35ba124ac2d9af4772fa6e7925624bc_2825394445059469033.jpg",
       "https://upload-os-bbs.hoyolab.com/upload/2021/11/22/1015537/8fd08b431a58addf9d16451c8da93236_3542243023422706080.jpg"
     ],
     "meta": {
+      "association": "Liyue",
       "title": "Stage Lucida",
-      "detail": "\"One performance by Yun Jin at our tea house rakes in enough Mora that we won't have to open for a whole month!\" — Fan Er'ye of Heyu Tea House",
+      "detail": "A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",
       "element": "Geo",
-      "constellation": "Opera Grandis"
-    }
+      "constellation": "Opera Grandis",
+      "cvChinese": "贺文潇 & 杨扬",
+      "cvEnglish": "Judy Alice Lee & 杨扬",
+      "cvJapanese": "小岩井ことり & 杨扬",
+      "cvKorean": "사문영 & 杨扬"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Opening Flourish",
+            "desc": "When held, Yun Jin will take up the **Opening Flourish** stance and begin charging. When the skill button is released, Yun Jin will swing her polearm and unleash the charged energy as an attack. While charging and casting the skill, Yun Jin will also deploy a shield for herself. Based on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2."
+          }
+        ],
+        "ult": {
+          "name": "Cliffbreaker's Banner",
+          "desc": "When activated, will deal **AoE Geo DMG** and provides all nearby teammates with the \"Flying Cloud Flag Formation\" effect. When characters with the \"Flying Cloud Flag Formation\" effect deal Normal Attack DMG to enemies they will deal Bonus DMG based on Yun Jin's current DEF.",
+          "type": "Geo"
+        },
+        "passive": [
+          {
+            "name": "True to Oneself",
+            "desc": "If Yun Jin is attacked at the precise moment she casts her Elemental Skill, she will directly unleash its Level 2 Charged form."
+          },
+          {
+            "name": "Breaking Conventions",
+            "desc": "If the party contains characters of different Elemental Types, the Normal Attack DMG Bonus provided by \"Flying Cloud Flag Formation\" can be further increased."
+          },
+          {
+            "name": "???",
+            "desc": "When Yun Jin achieves Perfect Cooking on dishes with Adventure-related effects, she has a certain chance to obtain double the amount."
+          }
+        ]
+      }
+    ]
   },
   "Zhongli": {
     "name": "Zhongli",
@@ -47456,7 +47389,6 @@
           {
             "name": "Normal Attack: Rain of Stone",
             "desc": "**Normal Attack**\nPerforms up to 6 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "1-Hit DMG",
@@ -47750,7 +47682,6 @@
           {
             "name": "Dominus Lapidis",
             "desc": "Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.\n\n**Press**\nCommands the power of earth to create a Stone Stele.\n\n**Hold**\nCauses nearby Geo energy to explode, causing the following effects:\n·If their maximum number hasn't been reached, creates a Stone Stele.\n·Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP.\n·Deals **AoE Geo DMG**.\n·If there are nearby targets with the **Geo element**, it will drain a large amount of **Geo element** from a maximum of 2 such targets. This effect does not cause DMG.\n\n**Stone Stele**\nWhen created, deals **AoE Geo DMG**.\nAdditionally, it will intermittently resonate with other nearby **Geo constructs**, dealing **Geo DMG** to nearby opponents.\nThe Stone Stele is considered a **Geo construct** that can both be climbed and used to block attacks.\nOnly one Stele created by Zhongli himself may initially exist at any one time.\n\n**Jade Shield**\nPossesses 150% DMG Absorption against all Elemental and Physical DMG.\nCharacters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked.\n\n**A true master of stone may carve jade and shape gold.**",
-            "charges": 1,
             "talentTable": [
               {
                 "name": "Stone Stele/Resonance DMG",
@@ -47981,7 +47912,6 @@
         "ult": {
           "name": "Planet Befall",
           "desc": "Brings a falling meteor down to earth, dealing massive **Geo DMG** to opponents caught in its AoE and applying the **Petrification** status to them.\n\n**Petrification**\nOpponents affected by the **Petrification** status cannot move.\n\n**The falling meteor punishes the unjust.**",
-          "charges": 1,
           "talentTable": [
             {
               "name": "Skill DMG",

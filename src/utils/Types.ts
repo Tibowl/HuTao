@@ -294,6 +294,7 @@ export interface CharacterPlaceholder {
     icon?:       string
     imgs:        string[]
     meta:        Meta
+    skills?:     Skills[]
 }
 export interface CharacterFull {
     name:       string
@@ -396,10 +397,10 @@ export enum Association {
 }
 
 export interface Skills {
-    talents:        Skill[]
-    ult:            Skill
-    passive:        Passive[]
-    constellations: Constellation[]
+    talents?:        Skill[]
+    ult?:            Skill
+    passive?:        Passive[]
+    constellations?: Constellation[]
 }
 
 export interface Constellation {
@@ -409,18 +410,18 @@ export interface Constellation {
 }
 
 export interface Passive {
-    name:         string
-    desc:         string
-    minAscension: number
+    name:          string
+    desc:          string
+    minAscension?: number
 }
 
 export interface Skill {
-    name:        string
-    desc:        string
-    charges:     number
-    talentTable: (TalentTable | TalentValue)[]
-    costs:       Cost[]
-    type?:       string
+    name:         string
+    desc:         string
+    charges?:     number
+    talentTable?: (TalentTable | TalentValue)[]
+    costs?:       Cost[]
+    type?:        string
 }
 
 export interface TalentTable {
