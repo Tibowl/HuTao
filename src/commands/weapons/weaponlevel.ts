@@ -82,7 +82,8 @@ If no target level provided, assuming max for current ascension. If no current l
             return this.sendHelp(source)
 
         if (targetLevel == -1) {
-            const ascensions = Object.values(data.weapons).sort((a, b) => b.ascensions.length - a.ascensions.length)[0].ascensions
+            // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+            const ascensions = Object.values(data.weapons).filter(w => w.ascensions).sort((a, b) => b.ascensions?.length ?? 0 - (a.ascensions?.length ?? 0))[0].ascensions!
             const nextAscension = ascensions.sort((a, b) => a.level - b.level).find(a => currentLevel < a.maxLevel)?.maxLevel
 
             if (nextAscension == undefined || nextAscension == maxLevel)
@@ -101,7 +102,7 @@ If no target level provided, assuming max for current ascension. If no current l
 
         if (currentLevel == 0) currentLevel = 1
 
-        const ascensions = Object.values(data.weapons).sort((a, b) => b.ascensions.length - a.ascensions.length).find(w => w.stars == stars)?.ascensions
+        const ascensions = Object.values(data.weapons).filter(w => w.ascensions).sort((a, b) => b.ascensions?.length ?? 0 - (a.ascensions?.length ?? 0)).find(w => w.stars == stars)?.ascensions
 
         if (ascensions == undefined) return `Unable to find a ${stars}★ weapon to get ascensions from...`
 

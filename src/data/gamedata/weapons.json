@@ -25182,6 +25182,14 @@
       ]
     ]
   },
+  "Calamity Queller": {
+    "name": "Calamity Queller",
+    "desc": "A keenly honed weapon forged from some strange crystal. Its faint blue light seems to whisper of countless matters now past.",
+    "placeholder": true,
+    "weaponType": "Polearm",
+    "stars": 5,
+    "icon": "https://cdn.discordapp.com/attachments/827265303452975154/925053616488869929/Calamity_Queller.png"
+  },
   "White Iron Greatsword": {
     "name": "White Iron Greatsword",
     "desc": "A claymore made from white iron. Lightweight without compromising on power. Effective even when wielded by one of average strength, it is extremely deadly in the hands of a physically stronger wielder.",

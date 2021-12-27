@@ -115,20 +115,22 @@ Note: this command supports fuzzy search.`,
         if (weapon == undefined)
             return sendMessage(source, "Unable to find weapon")
 
-        const hasRefinements = weapon.refinement.length > 0 && weapon.refinement[0].length > 0
+        const hasRefinements = weapon.refinement && weapon.refinement.length > 0 && weapon.refinement[0].length > 0
 
         const pages: Bookmarkable[] = [{
             bookmarkEmoji: "📝",
             bookmarkName: "General",
             maxPages: 1,
             pages: (rp, cp, mp) => this.getMainWeaponPage(weapon, rp, cp, mp)
-        }, {
-            bookmarkEmoji: "-",
-            bookmarkName: "Stats",
-            maxPages: 1,
-            pages: (rp, cp, mp) => this.getStatsWeaponPage(weapon, rp, cp, mp),
-            invisible: true
         }]
+        if (weapon.weaponCurve)
+            pages.push({
+                bookmarkEmoji: "-",
+                bookmarkName: "Stats",
+                maxPages: 1,
+                pages: (rp, cp, mp) => this.getStatsWeaponPage(weapon, rp, cp, mp),
+                invisible: true
+            })
         if (hasRefinements)
             pages.push({
                 bookmarkEmoji: "🇷",
@@ -136,24 +138,28 @@ Note: this command supports fuzzy search.`,
                 maxPages: 1,
                 pages: (rp, cp, mp) => this.getRefinementWeaponPage(weapon, rp, cp, mp)
             })
+        if (weapon.lore)
+            pages.push({
+                bookmarkEmoji: "-",
+                bookmarkName: "Lore",
+                maxPages: 1,
+                pages: (rp, cp, mp) => this.getLoreWeaponPage(weapon, rp, cp, mp),
+                invisible: true
+            })
         pages.push({
-            bookmarkEmoji: "-",
-            bookmarkName: "Lore",
-            maxPages: 1,
-            pages: (rp, cp, mp) => this.getLoreWeaponPage(weapon, rp, cp, mp),
-            invisible: true
-        }, {
             bookmarkEmoji: "🎨",
             bookmarkName: "Art",
             maxPages: 1,
             pages: (rp, cp, mp) => this.getArtWeaponPage(weapon, rp, cp, mp)
-        }, {
-            bookmarkEmoji: "-",
-            bookmarkName: "Art 2",
-            maxPages: 1,
-            pages: (rp, cp, mp) => this.getSecondArtWeaponPage(weapon, rp, cp, mp),
-            invisible: true
         })
+        if (weapon.awakenIcon)
+            pages.push({
+                bookmarkEmoji: "-",
+                bookmarkName: "Art 2",
+                maxPages: 1,
+                pages: (rp, cp, mp) => this.getSecondArtWeaponPage(weapon, rp, cp, mp),
+                invisible: true
+            })
 
         await paginator(source, pages, defaultPage)
         return undefined
@@ -166,7 +172,7 @@ Note: this command supports fuzzy search.`,
             .filter(([_, info]) => weaponFilter.length == 0 || weaponFilter.includes(info.weaponType))
             .filter(([_, info]) => starFilter.length == 0 || starFilter.includes(info.stars))
             .sort(([an, a],  [bn, b]) => b.stars - a.stars || a.weaponType.localeCompare(b.weaponType) || an.localeCompare(bn))
-            .map(([name, info]) => `${info.stars}★ ${data.emoji(info.weaponType, true)}: **${name}**`)
+            .map(([name, info]) => `${info.stars}★ ${data.emoji(info.weaponType, true)}: **${name}**${info.placeholder ? " [Not yet available]" : ""}`)
 
         const pages: string[] = []
         let paging = "", c = 0
@@ -197,30 +203,33 @@ Note: this command supports fuzzy search.`,
 
     getMainWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
         const { data } = client
-        const hasRefinements = weapon.refinement.length > 0 && weapon.refinement[0].length > 0
+        const hasRefinements = weapon.refinement && weapon.refinement.length > 0 && weapon.refinement[0].length > 0
         const embed = new MessageEmbed()
+            .setTitle(`${weapon.name}: Basic info`)
             .setColor(Colors.AQUA)
             .setThumbnail(weapon.icon)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
-
-        const maxAscension = weapon.ascensions[weapon.ascensions.length - 1]
-        embed.setTitle(`${weapon.name}: Basic info`)
-            .setDescription(weapon.desc)
+            .setDescription(weapon.desc + (weapon.placeholder ? "\n\n*This weapon is currently not yet available.*" : ""))
             .addField("Basics", `${weapon.stars}★ ${data.emoji(weapon.weaponType)}`)
-            .addField("Base stats", `${
-                Object.entries(data.getWeaponStatsAt(weapon, 1, 0))
-                    .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
-                    .join("\n")
-            }`, true)
-            .addField(`Lv. ${maxAscension.maxLevel} A${maxAscension.level} stats`, `${
-                Object.entries(data.getWeaponStatsAt(weapon, maxAscension.maxLevel, maxAscension.level))
-                    .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
-                    .join("\n")
-            }`, true)
 
-        if (hasRefinements)
+        const maxAscension = weapon.ascensions?.[weapon.ascensions.length - 1]
+        if (weapon.weaponCurve && maxAscension)
+            embed
+                .addField("Base stats", `${
+                    Object.entries(data.getWeaponStatsAt(weapon, 1, 0))
+                        .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
+                        .join("\n")
+                }`, true)
+                .addField(`Lv. ${maxAscension.maxLevel} A${maxAscension.level} stats`, `${
+                    Object.entries(data.getWeaponStatsAt(weapon, maxAscension.maxLevel, maxAscension.level))
+                        .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
+                        .join("\n")
+                }`, true)
+
+        if (weapon.refinement && hasRefinements)
             embed.addField(`${weapon.refinement[0][0].name} (at R1)`, weapon.refinement[0][0].desc)
-        embed.addField("Upgrade material", `Ascensions: ${weapon.ascensions[2]?.cost.items.map(i => data.emoji(i.name)).join("")}`)
+        if (weapon.ascensions)
+            embed.addField("Upgrade material", `Ascensions: ${weapon.ascensions[2]?.cost.items.map(i => data.emoji(i.name)).join("")}`)
         return embed
     }
 
@@ -244,7 +253,7 @@ Note: this command supports fuzzy search.`,
         }
 
         let previousMax = 1
-        for (const asc of weapon.ascensions) {
+        for (const asc of weapon.ascensions ?? []) {
             addRow(weapon, previousMax, asc.level)
             previousMax = asc.maxLevel
             addRow(weapon, previousMax, asc.level)
@@ -270,7 +279,7 @@ Note: this command supports fuzzy search.`,
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
         embed.setTitle(`${weapon.name}: Refinements`)
-        for (const ref of weapon.refinement)
+        for (const ref of weapon.refinement ?? [])
             for (const [refinement, info] of Object.entries(ref))
                 embed.addField(`${info.name} ${+refinement+1}`, info.desc)
 
@@ -283,7 +292,7 @@ Note: this command supports fuzzy search.`,
             .setThumbnail(weapon.icon)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setTitle(`${weapon.name}: Lore`)
-            .setDescription(weapon.lore)
+            .setDescription(weapon.lore ?? "Unavailable")
         return embed
     }
 
@@ -306,7 +315,7 @@ Note: this command supports fuzzy search.`,
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setTitle(`${weapon.name}: 2nd Ascension`)
             .setDescription(`[Open image in browser](${weapon.awakenIcon})`)
-            .setImage(weapon.awakenIcon)
+            .setImage(weapon.awakenIcon ?? "")
         embed.thumbnail = null
         return embed
     }

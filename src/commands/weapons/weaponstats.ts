@@ -105,7 +105,7 @@ Note: this command supports fuzzy search.`,
 
 
         let previousMax = 1
-        for (const asc of weapon.ascensions) {
+        for (const asc of weapon.ascensions ?? []) {
             if (searchLevel == -1 && searchAscension == -1) {
                 addRow(weapon, previousMax, asc.level)
                 previousMax = asc.maxLevel

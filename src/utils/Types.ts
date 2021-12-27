@@ -443,16 +443,17 @@ export enum WeaponType {
 }
 
 export interface Weapon {
-    name:        string
-    desc:        string
-    weaponType:  WeaponType
-    stars:       number
-    weaponCurve: WeaponCurve[]
-    icon:        string
-    awakenIcon:  string
-    ascensions:  WeaponAscension[]
-    lore:        string
-    refinement:  Array<Refinement[]>
+    name:         string
+    desc:         string
+    placeholder?: false
+    weaponType:   WeaponType
+    stars:        number
+    weaponCurve?: WeaponCurve[]
+    icon:         string
+    awakenIcon?:  string
+    ascensions?:  WeaponAscension[]
+    lore?:        string
+    refinement?:  Array<Refinement[]>
 }
 
 export interface WeaponAscension {
