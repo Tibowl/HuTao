@@ -90,10 +90,11 @@ Note: this command supports fuzzy search.`,
             .map((guide) => `**${guide.name}**:
 ${guide.pages.map(p => `- ${p.name}`).join("\n")}`)
 
-        const pages: string[] = []
+        const pages: string[] = [`**List of categories:**
+${client.data.guides.map((guide) => `- *${guide.name}*: ${guide.pages.length} ${guide.pages.length == 1 ? "guide" : "guides"}`).join("\n")}`]
         let paging = "", c = 0
         for (const guide of guides) {
-            if (paging.length + guide.length > 1800 || c > 15) {
+            if (paging.length + guide.length > 1900 || c > 20) {
                 pages.push(paging.trim())
                 paging = guide
                 c = paging.split("\n").length
