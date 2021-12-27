@@ -30,6 +30,16 @@
     ]
   },
   {
+    "name": "Local Specialties (Liyue)",
+    "pages": [
+      {
+        "name": "Jueyun Chili",
+        "desc": "**Jueyun Chilis ${Jueyun Chili}** can be found in the wilderness of Liyue and are being sold by [**Chef Mao**](https://cdn.discordapp.com/attachments/925096309763997747/925125045855076392/Chef_Mao.png) (up to 5 per 3 days).\n\n>> A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
+        "img": "https://cdn.discordapp.com/attachments/925096309763997747/925096336947286026/unknown.png"
+      }
+    ]
+  },
+  {
     "name": "Local Specialties (Inazuma)",
     "pages": [
       {
@@ -75,6 +85,16 @@
     ]
   },
   {
+    "name": "Materials",
+    "pages": [
+      {
+        "name": "Frog",
+        "desc": "**Frogs** are found in the wilderness near bodies of fresh water. They are used in crafting.\n\n>> Common frog found in moist environments. Full of energy, they secrete a substance that will keep you full of vitality.",
+        "img": "https://cdn.discordapp.com/attachments/924811279246454874/924811791706497054/FrogRoute404.png"
+      }
+    ]
+  },
+  {
     "name": "Common Enemies",
     "pages": [
       {
@@ -83,7 +103,7 @@
         "img": "https://cdn.discordapp.com/attachments/921485115002060831/921485224892846110/WhooperInazuma.png"
       },
       {
-        "name": "Nobushi (Old, Kageuchi and Famed Handguard",
+        "name": "Nobushi (Old, Kageuchi and Famed Handguard)",
         "desc": "**Nobushi** are Common Enemies found in Inazuma. They drop **Old Handguard ${Old Handguard}**, **Kageuchi Handguard ${Kageuchi Handguard}** and **Famed Handguard ${Famed Handguard}**.",
         "img": "https://cdn.discordapp.com/attachments/922981096164044840/922981140795654184/unknown.png"
       },
