@@ -557,8 +557,9 @@ export interface Guide {
     pages: GuidePage[]
 }
 export interface GuidePage {
-    name:  string
-    img?:  string
-    desc?: string
-    url?:  string
+    name:    string
+    img?:    string
+    desc?:   string
+    url?:    string
+    credits: string
 }

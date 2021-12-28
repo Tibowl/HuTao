@@ -1,17 +1,11 @@
 Hu Tao
 =======
 
-Hu Tao is a Genshin Impact discord bot. An invite link for this bot can be found [here](https://discord.com/oauth2/authorize?client_id=826550363355086918&scope=bot+applications.commands&permissions=313344). You can find the support Discord [here](https://discord.gg/BM3Srp8j8G).
+Hu Tao is a Discord bot for Genshin Impact offering [guide/routes](https://i.imgur.com/fD46Uf6.png), [character](https://i.imgur.com/WhUhYMl.png) and [weapon](https://i.imgur.com/f6e7wIG.png) info, [news updates](https://i.imgur.com/9N9s1hd.png) and [event reminders](https://i.imgur.com/B21ye84.png) that you can follow, [reminders](https://i.imgur.com/tfsMjEE.png), [gacha rate calculator](https://i.imgur.com/GXP3IDz.png) and more.
+
+An invite link for this bot can be found [here](https://discord.com/oauth2/authorize?client_id=826550363355086918&scope=bot+applications.commands&permissions=313344). You can find the support Discord [here](https://discord.gg/BM3Srp8j8G).
 
 ![Showcase](https://i.imgur.com/ZQhZZtW.gif)
-
-## Required Permissions
-Please make sure the bot has these permissions inside the channels you want to use the bot. 
-- **Send/Receive Messages**: Needed to actually receive and respond to commands.
-- **Attach Files** / **Embed Links**: Used to send embeds, as well as display forum posts.
-- **Use External Emoji**: Used in character/weapon menu to indicate mora/items/element/weapon type/...
-
-**TIP**: You can check if these permissions are given with `ht!help`. In case one is missing, it'll be shown in a bold **NOTE** at the end of the message.
 
 ## Commands
 The bot command prefix is `ht!`. Help for a specific command can be retrieved via `ht!help <command>`. The bot also supports slash-commands. Syntax for these commands might be slightly different due to limitations of Discord, you can see the usage for those commands by typing `/` in a chat with the bot. For example typing `/char` will show the commands that start with `char` like [this](https://i.imgur.com/vEf0IGD.png).
@@ -64,7 +58,7 @@ See `ht!help weapon` for more information.
 - `ht!events`: Check up on current and upcoming events. Examples: [list](https://i.imgur.com/or1L70I.png), going to the left shows [current ones](https://i.imgur.com/vGljfsK.png) while to the right are [future ones](https://i.imgur.com/ylCSvUA.png). Start/end/reminders for these can be followed with `ht!follow add events`.
 
 ### Misc
-- `ht!guide [name]`: View some guides/routes. Use it without any name to get a [list of available guides](https://i.imgur.com/IJhMuku.png) or [search for a particular guide](https://i.imgur.com/OCIce0p.png). Also supports [autocomplete](https://i.imgur.com/p41r2ia.png) when using the slash command.
+- `ht!guide [name]`: View some guides/routes. Use it without any name to get a [list of available categories](https://i.imgur.com/frSJKPX.png) and [guides](https://i.imgur.com/ovXTXBY.png) or [search for a particular guide](https://i.imgur.com/fD46Uf6.png). Also supports [autocomplete](https://i.imgur.com/PeecLQm.png) when using the slash command.
 - `ht!gachacalc <pulls> [pity] [guaranteed]`: Calculate chance to get a certain amount of constellations of a banner character in a certain amount of pulls. [Example](https://i.imgur.com/mmsAm8i.png).
     - Initially used rates from wish databases, updated to fit current theory. For more information about the rates used, see [Statistical model for Genshin Impact's droprates](https://www.hoyolab.com/article/497840)
 - `ht!banners`: View current/past event wishes
@@ -83,3 +77,14 @@ See `ht!help weapon` for more information.
 - `ht!abyss [cycle: yyyy-mm-1/yyyy-mm-2] [floor]`: Displays current [abyss buff](https://i.imgur.com/9EQSPB3.png) and [floors](https://i.imgur.com/VeXEvSr.png).
     - When a floor is provided, the embed will either just list that floor (for Corridor floors) or skip to it in the embed (for Moon Spire floors).
     - Old floors/buffs can be accessed by providing the cycle, like: `ht!abyss 2020-11-2`
+
+## Required Permissions
+Please make sure the bot has these permissions inside the channels you want to use the bot. 
+- **Send/Receive Messages**: Needed to actually receive and respond to commands.
+- **Attach Files** / **Embed Links**: Used to send embeds, as well as display forum posts.
+- **Use External Emoji**: Used in character/weapon menu to indicate mora/items/element/weapon type/...
+
+**TIP**: You can check if these permissions are given with `ht!help`. In case one is missing, it'll be shown in a bold **NOTE** at the end of the message.
+
+## Credits
+- Thank you to Soul, Yukie and Maple for providing the guides!

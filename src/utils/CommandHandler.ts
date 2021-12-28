@@ -136,7 +136,7 @@ export function handleResponse(id: string, reply: Message): void {
             client.recentMessages = client.recentMessages.filter(k => k != reply)
 
             const user = client.user
-            if (user == undefined || reply.deleted || !reply.editable || reply.components.length == 0) return
+            if (user == undefined || !reply.editable || reply.components.length == 0) return
             await reply.edit({ components: [] })
         }).catch(error => {
             Logger.error(error)
