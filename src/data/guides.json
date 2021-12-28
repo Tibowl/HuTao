@@ -34,7 +34,7 @@
     "pages": [
       {
         "name": "Jueyun Chili",
-        "desc": "**Jueyun Chilis ${Jueyun Chili}** can be found in the wilderness of Liyue and are being sold by [**Chef Mao**](https://cdn.discordapp.com/attachments/925096309763997747/925125045855076392/Chef_Mao.png) (up to 5 per 3 days).\n\n>> A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
+        "desc": "**Jueyun Chilis ${Jueyun Chili}** can be found in the wilderness of Liyue and are being sold by [**Chef Mao**](https://cdn.discordapp.com/attachments/925096309763997747/925125045855076392/Chef_Mao.png) (up to 5 per 3 days).\n\n>>> A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
         "img": "https://cdn.discordapp.com/attachments/925096309763997747/925096336947286026/unknown.png"
       }
     ]
@@ -89,7 +89,7 @@
     "pages": [
       {
         "name": "Frog",
-        "desc": "**Frogs** are found in the wilderness near bodies of fresh water. They are used in crafting.\n\n>> Common frog found in moist environments. Full of energy, they secrete a substance that will keep you full of vitality.",
+        "desc": "**Frogs** are found in the wilderness near bodies of fresh water. They are used in crafting.\n\n>>> Common frog found in moist environments. Full of energy, they secrete a substance that will keep you full of vitality.",
         "img": "https://cdn.discordapp.com/attachments/924811279246454874/924811791706497054/FrogRoute404.png"
       }
     ]

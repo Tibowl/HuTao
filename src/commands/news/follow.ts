@@ -128,21 +128,25 @@ Example of adding news: \`${config.prefix}follow add news\``,
 
         const sub = args[0]?.toLowerCase() ?? "help"
         args.shift()
-        const otherArgs = args[0]
+        const otherArgs = args[0]?.toLowerCase()
 
-        const category: FollowCategory | undefined = otherArgs ? Object.keys(descriptions).find(r => r.toLowerCase() == otherArgs.toLowerCase()) as (FollowCategory | undefined) : undefined
+        const category: FollowCategory | undefined = otherArgs ? Object.keys(descriptions).find(r => r.toLowerCase() == otherArgs) as (FollowCategory | undefined) : undefined
         if (!category)
             if (["list", "l"].includes(sub))
                 return this.runList(source)
-            else
+            else if (otherArgs)
                 return sendMessage(source, `Unknown event \`${otherArgs}\`, valid events: ${Object.keys(descriptions).map(k => `\`${k}\``).join(", ")}`, undefined, true)
+            else
+                return sendMessage(source, `Need to provide an event, valid events: ${Object.keys(descriptions).map(k => `\`${k}\``).join(", ")}`, undefined, true)
 
         if (["list", "l"].includes(sub)) {
             return this.runList(source, category)
-        } else if (["add", "a", "follow", "enable", "on"].includes(args[0].toLowerCase())) {
+        } else if (["add", "a", "follow", "enable", "on"].includes(sub)) {
             return this.runFollow(source, category)
         } else if (["remove", "delete", "d", "r", "disable", "off", "unfollow"].includes(sub)) {
             return this.runUnfollow(source, category)
+        } else {
+            return sendMessage(source, `Unknown subcommand \`${sub}\``)
         }
     }
 

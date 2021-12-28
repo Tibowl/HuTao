@@ -1,4 +1,4 @@
-import { ColorResolvable, Message, MessageActionRow, MessageAttachment, MessageButton, MessageComponentInteraction, MessageEmbed, Snowflake } from "discord.js"
+import { ColorResolvable, Message, MessageActionRow, MessageButton, MessageComponentInteraction, MessageEmbed, Snowflake } from "discord.js"
 import log4js from "log4js"
 import config from "./../data/config.json"
 import client from "./../main"
@@ -13,7 +13,7 @@ const Logger = log4js.getLogger("Utils")
  * @param embed Possible embed/attachment to send
  * @returns All the messages send
  */
-export async function sendToChannels(channels: Snowflake[] | undefined, content?: string, embed?: MessageEmbed | MessageAttachment): Promise<PromiseSettledResult<Message | Message[]>[]> {
+export async function sendToChannels(channels: Snowflake[] | undefined, content?: string, embed?: MessageEmbed): Promise<PromiseSettledResult<Message | Message[]>[]> {
     const messages = []
     if (!channels) return Promise.all([])
 
@@ -42,7 +42,7 @@ export async function sendToChannels(channels: Snowflake[] | undefined, content?
  * @param embed Possible embed/attachment to send
  * @returns List of messages
  */
-export async function sendError(content: string, embed?: MessageEmbed | MessageAttachment): Promise<Message[]> {
+export async function sendError(content: string, embed?: MessageEmbed): Promise<Message[]> {
     Logger.error(content)
     return (await sendToChannels(config.errorLog as Snowflake[], content, embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
 }
