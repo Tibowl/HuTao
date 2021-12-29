@@ -50,7 +50,11 @@ export default class Tweetmanager {
             tweet = tweet.retweeted_status
 
         const embed = new MessageEmbed()
-            .setAuthor(tweet.user.name, tweet.user.profile_image_url_https, `https://twitter.com/${tweet.user.screen_name}`)
+            .setAuthor({
+                name: tweet.user.name,
+                iconURL: tweet.user.profile_image_url_https,
+                url: `https://twitter.com/${tweet.user.screen_name}`
+            })
             .setColor(`#${tweet.user.profile_background_color}`)
 
         // Tweet has media, don't embed it

@@ -941,9 +941,10 @@
     {
         "name": "\"Enchanting Journey of Snow and Stars\" Web Event",
         "type": "Web",
-        "img": "https://i.imgur.com/7qxmuMa.png",
-        "start": "2021-12-28 22:00:00",
-        "timezone": "-05:00",
+        "link": "https://www.hoyolab.com/article/1807353",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/12/29/1015537/131afdd28437679999611dc18f69d101_14479871194717569.jpg",
+        "start": "2021-12-28 11:00:00",
+        "end": "2022-01-09 23:59:00",
         "reminder": "end"
     },
     {
