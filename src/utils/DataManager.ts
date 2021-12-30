@@ -2,11 +2,13 @@ import log4js from "log4js"
 import { exists, unlink, move, writeFile, existsSync, readFileSync } from "fs-extra"
 import { join } from "path"
 
-import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop, Guide, CharacterFull } from "./Types"
+import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop, Guide, CharacterFull, CostTemplate } from "./Types"
 
 import artifactsData from "../data/gamedata/artifacts.json"
 import artifactsMainStats from "../data/gamedata/artifact_main_stats.json"
 import artifactsMainLevels from "../data/gamedata/artifact_main_levels.json"
+
+import costTemplates from "../data/gamedata/cost_templates.json"
 
 import characterData from "../data/gamedata/characters.json"
 import characterCurves from "../data/gamedata/character_curves.json"
@@ -59,6 +61,7 @@ export default class DataManager {
     readonly weaponMats: Record<string, string[]> = weaponMats
 
     readonly paimonsBargains: PaimonShop[] = paimonShop
+    private readonly costTemplates: Record<string, Cost[]> = costTemplates
 
     readonly events: Event[] = eventData as Event[]
     readonly emojis: Record<BotEmoji, string> = emojiData
@@ -255,6 +258,17 @@ export default class DataManager {
         return name.replace("Base ", "").replace("CRIT ", "C")
     }
 
+    getCostsFromTemplate(costTemplate: CostTemplate): Cost[] {
+        const template = this.costTemplates[costTemplate.template]
+
+        return template.map(c => ({
+            mora: c.mora,
+            items: c.items.map(i => ({
+                count: i.count,
+                name:  i.name.replace(/<(.*?)>/g, (_, x) => costTemplate.mapping[x])
+            }))
+        }))
+    }
     getCosts(cost: Cost): string {
         let items = cost.items
         if (cost.mora)

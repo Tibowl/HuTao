@@ -238,30 +238,38 @@ Note: this command supports fuzzy search.`,
                             .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
                             .join("\n")
                     }`, true)
-                // This is ugly, but is for Traveler/other multi-book characters, also enforces some order/grade of item
-                const talentCostLv2 = char?.skills?.[0].ult?.costs?.[2]?.items,
-                      talentCostLv3 = char?.skills?.[0].ult?.costs?.[3]?.items,
-                      talentCostLv4 = char?.skills?.[0].ult?.costs?.[4]?.items,
-                      talentCostLv5 = char?.skills?.[0].ult?.costs?.[5]?.items
 
-                let talentMat = [
-                    talentCostLv4?.[0],
-                    talentCostLv4?.[1],
-                    ...talentCostLv5?.slice(2) ?? [],
-                ]
+                const ascensionCosts = [
+                    char.ascensionCosts.mapping.Gem4,
+                    char.ascensionCosts.mapping.BossMat,
+                    char.ascensionCosts.mapping.Specialty,
+                    char.ascensionCosts.mapping.EnemyDropTier3,
+                ].filter(x => x)
 
-                if (talentCostLv3?.[0].name !== talentCostLv4?.[0].name) {
-                    talentMat = [
-                        talentCostLv3?.[0],
-                        talentCostLv4?.[0],
-                        talentCostLv2?.[0],
-                        talentCostLv4?.[1],
-                        ...talentCostLv5?.slice(2) ?? [],
-                    ]
-                }
+                const talents = char.skills
+                    .flatMap(s => [...(s.talents ?? []), s.ult ])
+                    .filter(x => x)
 
-                embed.addField("Upgrade material", `Ascensions: ${char.ascensions[4]?.cost.items.map(i => data.emoji(i.name)).join("")}
-Talents: ${talentMat.map(i => (i && data.emoji(i.name)) ?? "???").join("")}`)
+                const books = talents
+                    .flatMap(s => [
+                        s?.costs?.mapping.Book,
+                        s?.costs?.mapping.Book1,
+                        s?.costs?.mapping.Book2,
+                        s?.costs?.mapping.Book3,
+                    ])
+                    .filter((x, i, a) => x && a.indexOf(x) == i)
+                    .map(x => `Guide to ${x}`)
+
+                const mats = talents
+                    .map(s => s?.costs?.mapping.BossMat)
+                    .filter((x, i, a) => x && a.indexOf(x) == i)
+
+                const drops = talents
+                    .map(s => s?.costs?.mapping.EnemyDropTier3)
+                    .filter((x, i, a) => x && a.indexOf(x) == i)
+
+                embed.addField("Upgrade material", `Ascensions: ${ascensionCosts.map(i => data.emoji(i)).join("")}
+Talents: ${[...books, ...mats, ...drops].map(i => data.emoji(i)).join("")}`)
             }
 
 
@@ -343,13 +351,15 @@ Talents: ${talentMat.map(i => (i && data.emoji(i.name)) ?? "???").join("")}`)
             }
 
             let previousMax = 1
+            const costs = data.getCostsFromTemplate(char.ascensionCosts)
             for (const asc of char.ascensions) {
                 addRow(char, previousMax, asc.level)
                 previousMax = asc.maxLevel
                 addRow(char, previousMax, asc.level)
 
-                if (asc.cost.mora || asc.cost.items.length > 0)
-                    embed.addField(`Ascension ${asc.level} costs`, data.getCosts(asc.cost), true)
+                const cost = costs[asc.level]
+                if (cost.mora || cost.items.length > 0)
+                    embed.addField(`Ascension ${asc.level} costs`, data.getCosts(cost), true)
             }
 
             embed.setTitle(`${char.name}: Ascensions + stats`)
@@ -361,14 +371,19 @@ Talents: ${talentMat.map(i => (i && data.emoji(i.name)) ?? "???").join("")}`)
                 .setFooter(`${embed.footer?.text} - Use '${config.prefix}charstats ${char.name} [level] [A<ascension>]' for a specific level`)
 
             return embed
-        } else if (relativePage == 1) {
+        } else if (relativePage >= 1) {
+            const skills = char.skills[relativePage - 1]
+            const template = skills.ult?.costs
+            if (!template) return embed
+
             let i = 1
-            for (const cost of char.skills[0].ult?.costs ?? []) {
+            for (const cost of data.getCostsFromTemplate(template)) {
                 if (cost.mora || cost.items.length > 0)
                     embed.addField(`Talent lv ${++i} costs`, data.getCosts(cost), true)
             }
 
             embed.setTitle(`${char.name}: Talent upgrade costs`)
+                .setColor(Colors[skills.ult?.type ?? "None"])
             return embed
         }
 
@@ -514,7 +529,7 @@ Talents: ${talentMat.map(i => (i && data.emoji(i.name)) ?? "???").join("")}`)
                 {
                     bookmarkEmoji: "🚀",
                     bookmarkName: "Stats",
-                    maxPages: 2,
+                    maxPages: 1 + char.skills.length,
                     pages: (rp, cp, mp) => this.getStatsPage(char, rp, cp, mp)
                 })
 

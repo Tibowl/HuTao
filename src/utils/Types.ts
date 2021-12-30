@@ -297,18 +297,19 @@ export interface CharacterPlaceholder {
     skills?:     Skills[]
 }
 export interface CharacterFull {
-    name:       string
-    desc:       string
-    releasedOn: string
-    star:       number
-    weaponType: WeaponType
-    icon:       string
-    imgs:       string[]
-    baseStats:  CharacterBaseStats
-    curves:     CurveElement[]
-    meta:       Meta
-    skills:     Skills[]
-    ascensions: CharacterAscension[]
+    name:           string
+    desc:           string
+    releasedOn:     string
+    star:           number
+    weaponType:     WeaponType
+    icon:           string
+    imgs:           string[]
+    baseStats:      CharacterBaseStats
+    curves:         CurveElement[]
+    meta:           Meta
+    skills:         Skills[]
+    ascensions:     CharacterAscension[]
+    ascensionCosts: CostTemplate
 }
 
 export interface CharacterBaseStats {
@@ -322,13 +323,17 @@ export interface CharacterBaseStats {
 export interface CharacterAscension {
     level:    number
     maxLevel: number
-    cost:     Cost
     statsUp:  StatsUp[]
 }
 
 export interface Cost {
     items: Item[]
     mora?: number
+}
+
+export interface CostTemplate {
+    template: string
+    mapping: Record<string, string>
 }
 
 export interface Item {
@@ -420,7 +425,7 @@ export interface Skill {
     desc:         string
     charges?:     number
     talentTable?: (TalentTable | TalentValue)[]
-    costs?:       Cost[]
+    costs?:       CostTemplate
     type?:        string
     video?:       string
 }
@@ -443,24 +448,24 @@ export enum WeaponType {
 }
 
 export interface Weapon {
-    name:         string
-    desc:         string
-    placeholder?: false
-    weaponType:   WeaponType
-    stars:        number
-    weaponCurve?: WeaponCurve[]
-    icon:         string
-    awakenIcon?:  string
-    ascensions?:  WeaponAscension[]
-    lore?:        string
-    refinement?:  Array<Refinement[]>
+    name:            string
+    desc:            string
+    placeholder?:    false
+    weaponType:      WeaponType
+    stars:           number
+    weaponCurve?:    WeaponCurve[]
+    icon:            string
+    awakenIcon?:     string
+    ascensions?:     WeaponAscension[]
+    ascensionCosts?: CostTemplate
+    lore?:           string
+    refinement?:     Array<Refinement[]>
 }
 
 export interface WeaponAscension {
     level:    number
     maxLevel: number
     statsUp:  StatsUp[]
-    cost:     Cost
 }
 
 export interface Refinement {

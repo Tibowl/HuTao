@@ -344,7 +344,7 @@ function paginatorLoop(id: string, reply: Message, pageInfo: Bookmarkable[], cur
         if (error.name == "Error [INTERACTION_COLLECTOR_ERROR]") {
             client.recentMessages = client.recentMessages.filter(k => k != reply)
             const user = client.user
-            if (user == undefined || reply.deleted) return
+            if (user == undefined || !reply.editable) return
             await reply.edit({ components: [] })
         } else {
             Logger.error("Error during pagination: ", error)

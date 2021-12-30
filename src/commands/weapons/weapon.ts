@@ -228,8 +228,12 @@ Note: this command supports fuzzy search.`,
 
         if (weapon.refinement && hasRefinements)
             embed.addField(`${weapon.refinement[0][0].name} (at R1)`, weapon.refinement[0][0].desc)
-        if (weapon.ascensions)
-            embed.addField("Upgrade material", `Ascensions: ${weapon.ascensions[2]?.cost.items.map(i => data.emoji(i.name)).join("")}`)
+        if (weapon.ascensionCosts)
+            embed.addField("Upgrade material", `Ascensions: ${[
+                weapon.ascensionCosts.mapping.WeaponAsc2,
+                weapon.ascensionCosts.mapping.EnemyDropTierA1,
+                weapon.ascensionCosts.mapping.EnemyDropTierB1,
+            ].map(i => data.emoji(i)).join("")}`)
         return embed
     }
 
@@ -253,13 +257,18 @@ Note: this command supports fuzzy search.`,
         }
 
         let previousMax = 1
-        for (const asc of weapon.ascensions ?? []) {
-            addRow(weapon, previousMax, asc.level)
-            previousMax = asc.maxLevel
-            addRow(weapon, previousMax, asc.level)
+        if (weapon.ascensionCosts) {
+            const costs = data.getCostsFromTemplate(weapon.ascensionCosts)
 
-            if (asc.cost.mora || asc.cost.items.length > 0)
-                embed.addField(`Ascension ${asc.level} costs`, data.getCosts(asc.cost), true)
+            for (const asc of weapon.ascensions ?? []) {
+                addRow(weapon, previousMax, asc.level)
+                previousMax = asc.maxLevel
+                addRow(weapon, previousMax, asc.level)
+
+                const cost = costs[asc.level]
+                if (cost.mora || cost.items.length > 0)
+                    embed.addField(`Ascension ${asc.level} costs`, data.getCosts(cost), true)
+            }
         }
 
         embed.setTitle(`${weapon.name}: Ascensions + stats`)

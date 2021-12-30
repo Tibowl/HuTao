@@ -1,0 +1,988 @@
+{
+  "talentCosts": [
+    {
+      "mora": 12500,
+      "items": [
+        {
+          "count": 3,
+          "name": "Teachings of <Book>"
+        },
+        {
+          "count": 6,
+          "name": "<EnemyDropTier1>"
+        }
+      ]
+    },
+    {
+      "mora": 17500,
+      "items": [
+        {
+          "count": 2,
+          "name": "Guide to <Book>"
+        },
+        {
+          "count": 3,
+          "name": "<EnemyDropTier2>"
+        }
+      ]
+    },
+    {
+      "mora": 25000,
+      "items": [
+        {
+          "count": 4,
+          "name": "Guide to <Book>"
+        },
+        {
+          "count": 4,
+          "name": "<EnemyDropTier2>"
+        }
+      ]
+    },
+    {
+      "mora": 30000,
+      "items": [
+        {
+          "count": 6,
+          "name": "Guide to <Book>"
+        },
+        {
+          "count": 6,
+          "name": "<EnemyDropTier2>"
+        }
+      ]
+    },
+    {
+      "mora": 37500,
+      "items": [
+        {
+          "count": 9,
+          "name": "Guide to <Book>"
+        },
+        {
+          "count": 9,
+          "name": "<EnemyDropTier2>"
+        }
+      ]
+    },
+    {
+      "mora": 120000,
+      "items": [
+        {
+          "count": 4,
+          "name": "Philosophies of <Book>"
+        },
+        {
+          "count": 4,
+          "name": "<EnemyDropTier3>"
+        },
+        {
+          "count": 1,
+          "name": "<BossMat>"
+        }
+      ]
+    },
+    {
+      "mora": 260000,
+      "items": [
+        {
+          "count": 6,
+          "name": "Philosophies of <Book>"
+        },
+        {
+          "count": 6,
+          "name": "<EnemyDropTier3>"
+        },
+        {
+          "count": 1,
+          "name": "<BossMat>"
+        }
+      ]
+    },
+    {
+      "mora": 450000,
+      "items": [
+        {
+          "count": 12,
+          "name": "Philosophies of <Book>"
+        },
+        {
+          "count": 9,
+          "name": "<EnemyDropTier3>"
+        },
+        {
+          "count": 2,
+          "name": "<BossMat>"
+        }
+      ]
+    },
+    {
+      "mora": 700000,
+      "items": [
+        {
+          "count": 16,
+          "name": "Philosophies of <Book>"
+        },
+        {
+          "count": 12,
+          "name": "<EnemyDropTier3>"
+        },
+        {
+          "count": 2,
+          "name": "<BossMat>"
+        },
+        {
+          "count": 1,
+          "name": "Crown of Insight"
+        }
+      ]
+    }
+  ],
+  "charAscensionsCosts": [
+    {
+      "mora": 0,
+      "items": []
+    },
+    {
+      "mora": 20000,
+      "items": [
+        {
+          "count": 1,
+          "name": "<Gem1>"
+        },
+        {
+          "count": 3,
+          "name": "<Specialty>"
+        },
+        {
+          "count": 3,
+          "name": "<EnemyDropTier1>"
+        }
+      ]
+    },
+    {
+      "mora": 40000,
+      "items": [
+        {
+          "count": 3,
+          "name": "<Gem2>"
+        },
+        {
+          "count": 2,
+          "name": "<BossMat>"
+        },
+        {
+          "count": 10,
+          "name": "<Specialty>"
+        },
+        {
+          "count": 15,
+          "name": "<EnemyDropTier1>"
+        }
+      ]
+    },
+    {
+      "mora": 60000,
+      "items": [
+        {
+          "count": 6,
+          "name": "<Gem2>"
+        },
+        {
+          "count": 4,
+          "name": "<BossMat>"
+        },
+        {
+          "count": 20,
+          "name": "<Specialty>"
+        },
+        {
+          "count": 12,
+          "name": "<EnemyDropTier2>"
+        }
+      ]
+    },
+    {
+      "mora": 80000,
+      "items": [
+        {
+          "count": 3,
+          "name": "<Gem3>"
+        },
+        {
+          "count": 8,
+          "name": "<BossMat>"
+        },
+        {
+          "count": 30,
+          "name": "<Specialty>"
+        },
+        {
+          "count": 18,
+          "name": "<EnemyDropTier2>"
+        }
+      ]
+    },
+    {
+      "mora": 100000,
+      "items": [
+        {
+          "count": 6,
+          "name": "<Gem3>"
+        },
+        {
+          "count": 12,
+          "name": "<BossMat>"
+        },
+        {
+          "count": 45,
+          "name": "<Specialty>"
+        },
+        {
+          "count": 12,
+          "name": "<EnemyDropTier3>"
+        }
+      ]
+    },
+    {
+      "mora": 120000,
+      "items": [
+        {
+          "count": 6,
+          "name": "<Gem4>"
+        },
+        {
+          "count": 20,
+          "name": "<BossMat>"
+        },
+        {
+          "count": 60,
+          "name": "<Specialty>"
+        },
+        {
+          "count": 24,
+          "name": "<EnemyDropTier3>"
+        }
+      ]
+    }
+  ],
+  "travelerTalentCosts": [
+    {
+      "mora": 12500,
+      "items": [
+        {
+          "count": 3,
+          "name": "Teachings of <Book1>"
+        },
+        {
+          "count": 6,
+          "name": "<EnemyDropTier1>"
+        }
+      ]
+    },
+    {
+      "mora": 17500,
+      "items": [
+        {
+          "count": 2,
+          "name": "Guide to <Book2>"
+        },
+        {
+          "count": 3,
+          "name": "<EnemyDropTier2>"
+        }
+      ]
+    },
+    {
+      "mora": 25000,
+      "items": [
+        {
+          "count": 4,
+          "name": "Guide to <Book3>"
+        },
+        {
+          "count": 4,
+          "name": "<EnemyDropTier2>"
+        }
+      ]
+    },
+    {
+      "mora": 30000,
+      "items": [
+        {
+          "count": 6,
+          "name": "Guide to <Book1>"
+        },
+        {
+          "count": 6,
+          "name": "<EnemyDropTier2>"
+        }
+      ]
+    },
+    {
+      "mora": 37500,
+      "items": [
+        {
+          "count": 9,
+          "name": "Guide to <Book2>"
+        },
+        {
+          "count": 9,
+          "name": "<EnemyDropTier2>"
+        }
+      ]
+    },
+    {
+      "mora": 120000,
+      "items": [
+        {
+          "count": 4,
+          "name": "Philosophies of <Book3>"
+        },
+        {
+          "count": 4,
+          "name": "<EnemyDropTier3>"
+        },
+        {
+          "count": 1,
+          "name": "<BossMat>"
+        }
+      ]
+    },
+    {
+      "mora": 260000,
+      "items": [
+        {
+          "count": 6,
+          "name": "Philosophies of <Book1>"
+        },
+        {
+          "count": 6,
+          "name": "<EnemyDropTier3>"
+        },
+        {
+          "count": 1,
+          "name": "<BossMat>"
+        }
+      ]
+    },
+    {
+      "mora": 450000,
+      "items": [
+        {
+          "count": 12,
+          "name": "Philosophies of <Book2>"
+        },
+        {
+          "count": 9,
+          "name": "<EnemyDropTier3>"
+        },
+        {
+          "count": 2,
+          "name": "<BossMat>"
+        }
+      ]
+    },
+    {
+      "mora": 700000,
+      "items": [
+        {
+          "count": 16,
+          "name": "Philosophies of <Book3>"
+        },
+        {
+          "count": 12,
+          "name": "<EnemyDropTier3>"
+        },
+        {
+          "count": 2,
+          "name": "<BossMat>"
+        },
+        {
+          "count": 1,
+          "name": "Crown of Insight"
+        }
+      ]
+    }
+  ],
+  "travelerAscensionsCosts": [
+    {
+      "mora": 0,
+      "items": []
+    },
+    {
+      "mora": 20000,
+      "items": [
+        {
+          "count": 1,
+          "name": "<Gem1>"
+        },
+        {
+          "count": 3,
+          "name": "<Specialty>"
+        },
+        {
+          "count": 3,
+          "name": "<EnemyDropTier1>"
+        }
+      ]
+    },
+    {
+      "mora": 40000,
+      "items": [
+        {
+          "count": 3,
+          "name": "<Gem2>"
+        },
+        {
+          "count": 10,
+          "name": "<Specialty>"
+        },
+        {
+          "count": 15,
+          "name": "<EnemyDropTier1>"
+        }
+      ]
+    },
+    {
+      "mora": 60000,
+      "items": [
+        {
+          "count": 6,
+          "name": "<Gem2>"
+        },
+        {
+          "count": 20,
+          "name": "<Specialty>"
+        },
+        {
+          "count": 12,
+          "name": "<EnemyDropTier2>"
+        }
+      ]
+    },
+    {
+      "mora": 80000,
+      "items": [
+        {
+          "count": 3,
+          "name": "<Gem3>"
+        },
+        {
+          "count": 30,
+          "name": "<Specialty>"
+        },
+        {
+          "count": 18,
+          "name": "<EnemyDropTier2>"
+        }
+      ]
+    },
+    {
+      "mora": 100000,
+      "items": [
+        {
+          "count": 6,
+          "name": "<Gem3>"
+        },
+        {
+          "count": 45,
+          "name": "<Specialty>"
+        },
+        {
+          "count": 12,
+          "name": "<EnemyDropTier3>"
+        }
+      ]
+    },
+    {
+      "mora": 120000,
+      "items": [
+        {
+          "count": 6,
+          "name": "<Gem4>"
+        },
+        {
+          "count": 60,
+          "name": "<Specialty>"
+        },
+        {
+          "count": 24,
+          "name": "<EnemyDropTier3>"
+        }
+      ]
+    }
+  ],
+  "weaponAscensionsCosts1": [
+    {
+      "mora": 0,
+      "items": []
+    },
+    {
+      "mora": 0,
+      "items": [
+        {
+          "count": 1,
+          "name": "<WeaponAsc1>"
+        },
+        {
+          "count": 1,
+          "name": "<EnemyDropTierA1>"
+        },
+        {
+          "count": 1,
+          "name": "<EnemyDropTierB1>"
+        }
+      ]
+    },
+    {
+      "mora": 5000,
+      "items": [
+        {
+          "count": 1,
+          "name": "<WeaponAsc2>"
+        },
+        {
+          "count": 4,
+          "name": "<EnemyDropTierA1>"
+        },
+        {
+          "count": 2,
+          "name": "<EnemyDropTierB1>"
+        }
+      ]
+    },
+    {
+      "mora": 5000,
+      "items": [
+        {
+          "count": 2,
+          "name": "<WeaponAsc2>"
+        },
+        {
+          "count": 2,
+          "name": "<EnemyDropTierA2>"
+        },
+        {
+          "count": 2,
+          "name": "<EnemyDropTierB2>"
+        }
+      ]
+    },
+    {
+      "mora": 10000,
+      "items": [
+        {
+          "count": 1,
+          "name": "<WeaponAsc3>"
+        },
+        {
+          "count": 4,
+          "name": "<EnemyDropTierA2>"
+        },
+        {
+          "count": 3,
+          "name": "<EnemyDropTierB2>"
+        }
+      ]
+    }
+  ],
+  "weaponAscensionsCosts2": [
+    {
+      "mora": 0,
+      "items": []
+    },
+    {
+      "mora": 5000,
+      "items": [
+        {
+          "count": 1,
+          "name": "<WeaponAsc1>"
+        },
+        {
+          "count": 1,
+          "name": "<EnemyDropTierA1>"
+        },
+        {
+          "count": 1,
+          "name": "<EnemyDropTierB1>"
+        }
+      ]
+    },
+    {
+      "mora": 5000,
+      "items": [
+        {
+          "count": 1,
+          "name": "<WeaponAsc2>"
+        },
+        {
+          "count": 5,
+          "name": "<EnemyDropTierA1>"
+        },
+        {
+          "count": 4,
+          "name": "<EnemyDropTierB1>"
+        }
+      ]
+    },
+    {
+      "mora": 10000,
+      "items": [
+        {
+          "count": 3,
+          "name": "<WeaponAsc2>"
+        },
+        {
+          "count": 3,
+          "name": "<EnemyDropTierA2>"
+        },
+        {
+          "count": 3,
+          "name": "<EnemyDropTierB2>"
+        }
+      ]
+    },
+    {
+      "mora": 15000,
+      "items": [
+        {
+          "count": 1,
+          "name": "<WeaponAsc3>"
+        },
+        {
+          "count": 5,
+          "name": "<EnemyDropTierA2>"
+        },
+        {
+          "count": 4,
+          "name": "<EnemyDropTierB2>"
+        }
+      ]
+    }
+  ],
+  "weaponAscensionsCosts3": [
+    {
+      "mora": 0,
+      "items": []
+    },
+    {
+      "mora": 5000,
+      "items": [
+        {
+          "count": 2,
+          "name": "<WeaponAsc1>"
+        },
+        {
+          "count": 2,
+          "name": "<EnemyDropTierA1>"
+        },
+        {
+          "count": 1,
+          "name": "<EnemyDropTierB1>"
+        }
+      ]
+    },
+    {
+      "mora": 10000,
+      "items": [
+        {
+          "count": 2,
+          "name": "<WeaponAsc2>"
+        },
+        {
+          "count": 8,
+          "name": "<EnemyDropTierA1>"
+        },
+        {
+          "count": 5,
+          "name": "<EnemyDropTierB1>"
+        }
+      ]
+    },
+    {
+      "mora": 15000,
+      "items": [
+        {
+          "count": 4,
+          "name": "<WeaponAsc2>"
+        },
+        {
+          "count": 4,
+          "name": "<EnemyDropTierA2>"
+        },
+        {
+          "count": 4,
+          "name": "<EnemyDropTierB2>"
+        }
+      ]
+    },
+    {
+      "mora": 20000,
+      "items": [
+        {
+          "count": 2,
+          "name": "<WeaponAsc3>"
+        },
+        {
+          "count": 8,
+          "name": "<EnemyDropTierA2>"
+        },
+        {
+          "count": 6,
+          "name": "<EnemyDropTierB2>"
+        }
+      ]
+    },
+    {
+      "mora": 25000,
+      "items": [
+        {
+          "count": 4,
+          "name": "<WeaponAsc3>"
+        },
+        {
+          "count": 6,
+          "name": "<EnemyDropTierA3>"
+        },
+        {
+          "count": 4,
+          "name": "<EnemyDropTierB3>"
+        }
+      ]
+    },
+    {
+      "mora": 30000,
+      "items": [
+        {
+          "count": 3,
+          "name": "<WeaponAsc4>"
+        },
+        {
+          "count": 12,
+          "name": "<EnemyDropTierA3>"
+        },
+        {
+          "count": 8,
+          "name": "<EnemyDropTierB3>"
+        }
+      ]
+    }
+  ],
+  "weaponAscensionsCosts4": [
+    {
+      "mora": 0,
+      "items": []
+    },
+    {
+      "mora": 5000,
+      "items": [
+        {
+          "count": 3,
+          "name": "<WeaponAsc1>"
+        },
+        {
+          "count": 3,
+          "name": "<EnemyDropTierA1>"
+        },
+        {
+          "count": 2,
+          "name": "<EnemyDropTierB1>"
+        }
+      ]
+    },
+    {
+      "mora": 15000,
+      "items": [
+        {
+          "count": 3,
+          "name": "<WeaponAsc2>"
+        },
+        {
+          "count": 12,
+          "name": "<EnemyDropTierA1>"
+        },
+        {
+          "count": 8,
+          "name": "<EnemyDropTierB1>"
+        }
+      ]
+    },
+    {
+      "mora": 20000,
+      "items": [
+        {
+          "count": 6,
+          "name": "<WeaponAsc2>"
+        },
+        {
+          "count": 6,
+          "name": "<EnemyDropTierA2>"
+        },
+        {
+          "count": 6,
+          "name": "<EnemyDropTierB2>"
+        }
+      ]
+    },
+    {
+      "mora": 30000,
+      "items": [
+        {
+          "count": 3,
+          "name": "<WeaponAsc3>"
+        },
+        {
+          "count": 12,
+          "name": "<EnemyDropTierA2>"
+        },
+        {
+          "count": 9,
+          "name": "<EnemyDropTierB2>"
+        }
+      ]
+    },
+    {
+      "mora": 35000,
+      "items": [
+        {
+          "count": 6,
+          "name": "<WeaponAsc3>"
+        },
+        {
+          "count": 9,
+          "name": "<EnemyDropTierA3>"
+        },
+        {
+          "count": 6,
+          "name": "<EnemyDropTierB3>"
+        }
+      ]
+    },
+    {
+      "mora": 45000,
+      "items": [
+        {
+          "count": 4,
+          "name": "<WeaponAsc4>"
+        },
+        {
+          "count": 18,
+          "name": "<EnemyDropTierA3>"
+        },
+        {
+          "count": 12,
+          "name": "<EnemyDropTierB3>"
+        }
+      ]
+    }
+  ],
+  "weaponAscensionsCosts5": [
+    {
+      "mora": 0,
+      "items": []
+    },
+    {
+      "mora": 10000,
+      "items": [
+        {
+          "count": 5,
+          "name": "<WeaponAsc1>"
+        },
+        {
+          "count": 5,
+          "name": "<EnemyDropTierA1>"
+        },
+        {
+          "count": 3,
+          "name": "<EnemyDropTierB1>"
+        }
+      ]
+    },
+    {
+      "mora": 20000,
+      "items": [
+        {
+          "count": 5,
+          "name": "<WeaponAsc2>"
+        },
+        {
+          "count": 18,
+          "name": "<EnemyDropTierA1>"
+        },
+        {
+          "count": 12,
+          "name": "<EnemyDropTierB1>"
+        }
+      ]
+    },
+    {
+      "mora": 30000,
+      "items": [
+        {
+          "count": 9,
+          "name": "<WeaponAsc2>"
+        },
+        {
+          "count": 9,
+          "name": "<EnemyDropTierA2>"
+        },
+        {
+          "count": 9,
+          "name": "<EnemyDropTierB2>"
+        }
+      ]
+    },
+    {
+      "mora": 45000,
+      "items": [
+        {
+          "count": 5,
+          "name": "<WeaponAsc3>"
+        },
+        {
+          "count": 18,
+          "name": "<EnemyDropTierA2>"
+        },
+        {
+          "count": 14,
+          "name": "<EnemyDropTierB2>"
+        }
+      ]
+    },
+    {
+      "mora": 55000,
+      "items": [
+        {
+          "count": 9,
+          "name": "<WeaponAsc3>"
+        },
+        {
+          "count": 14,
+          "name": "<EnemyDropTierA3>"
+        },
+        {
+          "count": 9,
+          "name": "<EnemyDropTierB3>"
+        }
+      ]
+    },
+    {
+      "mora": 65000,
+      "items": [
+        {
+          "count": 6,
+          "name": "<WeaponAsc4>"
+        },
+        {
+          "count": 27,
+          "name": "<EnemyDropTierA3>"
+        },
+        {
+          "count": 18,
+          "name": "<EnemyDropTierB3>"
+        }
+      ]
+    }
+  ]
+}
