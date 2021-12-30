@@ -34105,12 +34105,16 @@
   "Shenhe": {
     "name": "Shenhe",
     "desc": "An adepti disciple with a most unusual air about her. having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
+    "star": 5,
+    "weaponType": "Polearm",
     "icon": "https://i.imgur.com/ccLge5X.png",
     "imgs": [
       "https://upload-os-bbs.hoyolab.com/upload/2021/11/22/1015537/0af2eb0049bc549292c4b7a8d40996ac_3215297796145849770.jpg",
       "https://upload-os-bbs.hoyolab.com/upload/2021/11/22/1015537/c6799448753391a5aaf5e23180e3bfbf_5457694239978850980.jpg"
     ],
     "meta": {
+      "birthMonth": 3,
+      "birthDay": 10,
       "association": "Liyue",
       "title": "Lonesome Transcendence",
       "detail": "An adepti disciple with a most unusual air about her. having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
@@ -34125,14 +34129,18 @@
       {
         "talents": [
           {
+            "name": "Normal Attack: Dawnstar Piercer",
+            "desc": "**Normal Attack**\nPerforms up to 5 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way."
+          },
+          {
             "name": "Spring Spirit Summoning",
-            "desc": "Will deal different ways of **Cryo DMG** depending on whenever this skill is being pressed or held. Either way, Shenhe will grant all nearby party members the **Icy Quill** effect. When the characters with the effect deal **Cryo DMG** using Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts, their DMG dealt will increase based on Shenhe's current ATK.",
+            "desc": "*The frosted dew, silvery and dense, shall exorcise all demons.*\nGrants all nearby party members the Icy Quill effect and deals **Cryo DMG** in different ways based on whether it is pressed or held.\n\n**Press**\nRushes forward together with a Talisman Spirit, dealing **Cryo DMG** to opponents along the path.\n\n**Hold**\nCommands the Talisman Spirit to deal **AoE Cryo DMG**.\n\n**Icy Quill**\nWhen Normal, Charged and Plunging Attacks, Elemental Skills and Elemental Bursts deal **Cryo DMG** to opponents, the DMG dealt si increased based on Shenhe's current ATK.\nThe Icy Quill's effects will be cleared once its duration ends or after being triggered a certain number of times. When held rather than pressed, the Icy Quill's effect lasts longer and can be triggered more times.\nWhen one **Cryo DMG** instance strikes multiple opponents, the effect is triggered multiple times based on the number of opponents hit. The number of times the effect is triggered is calculated independently for each party member with the Icy Quill.",
             "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788591463387187/Shenhe_E.gif"
           }
         ],
         "ult": {
           "name": "Divine Maiden's Deliverance",
-          "desc": "A Talisman Spirit will be summoned, dealing periodic **Cryo DMG** in the field. At the same time, it will also reduce the **Cryo** and **Physical RES** of opponents within its field.",
+          "desc": "Unleashes the power of the Talisman Spirit, allowing it to roam free in this plane, dealing **AoE Cryo DMG**.\nThe Talisman Spirit then creates a field that decreases the Cryo RES and Physical RES of opponents within it. It also deals periodic **Cryo DMG** to opponents within the field.",
           "type": "Cryo",
           "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788592503578664/Shenhe_Q.gif"
         },
