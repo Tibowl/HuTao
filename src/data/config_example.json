@@ -6,6 +6,8 @@
     "errorLog": ["ADD ID HERE"],
     "allowedArchive": ["ADD ID HERE"],
     "admins": ["YOUR USER ID HERE"],
+    "web": "RANDOM STRING SHARED WITH WEBSITE HERE",
+    "webPort": 0,
     "twitter": {
         "consumer_key":        "CONSUMER KEY",
         "consumer_secret":     "CONSUMER SECRET",

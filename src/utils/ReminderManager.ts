@@ -27,7 +27,7 @@ export default class ReminderManager {
         this.addReminderStatement = this.sql.prepare("INSERT OR REPLACE INTO reminders (id, user, subject, timestamp, duration) VALUES (@id, @user, @subject, @timestamp, @duration)")
         this.getReminderByIdStatement = this.sql.prepare("SELECT * FROM reminders WHERE id = @id AND user = @user")
         this.deleteReminderByIdStatement = this.sql.prepare("DELETE FROM reminders WHERE id = @id AND user = @user AND timestamp = @timestamp")
-        this.getUserReminders = this.sql.prepare("SELECT * FROM reminders WHERE user = @user")
+        this.getUserReminders = this.sql.prepare("SELECT id, user, subject, timestamp, duration FROM reminders WHERE user = @user")
         this.getUpcomingRemindersStatement = this.sql.prepare("SELECT * FROM reminders WHERE timestamp < @end")
     }
 

@@ -14,6 +14,7 @@ import Command from "./utils/Command"
 import FollowManager from "./utils/FollowManager"
 import NewsManager from "./utils/NewsManager"
 import ReminderManager from "./utils/ReminderManager"
+import WebManager from "./utils/WebManager"
 
 const Logger = log4js.getLogger("main")
 const intents = new Intents()
@@ -34,6 +35,7 @@ export default class HuTaoClient extends Discord.Client {
 
     tweetManager: TweetManager = new TweetManager()
     newsManager: NewsManager = new NewsManager()
+    webManager: WebManager = new WebManager()
 
     commands: Enmap<string, Command> = new Enmap()
     recentMessages: Discord.Message[] = []

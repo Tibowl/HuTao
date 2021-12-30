@@ -4,31 +4,31 @@
     "pages": [
       {
         "name": "Wolfhook",
-        "desc": "**Wolfhooks ${Wolfhook}** can be found in the wilderness around Wolvendom and are being sold by [**Chloris**](https://cdn.discordapp.com/attachments/924280082212737044/924743743062569000/Chloris.png) (up to 5 per 3 days).\n\n>>> A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
+        "desc": "**Wolfhooks ${Wolfhook}** can be found in the wilderness around Wolvendom and are being sold by [**Chloris**](https://cdn.discordapp.com/attachments/924280082212737044/924743743062569000/Chloris.png) (up to 5 per 3 days).\n\n> A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
         "img": "https://cdn.discordapp.com/attachments/924280082212737044/924286334863028244/unknown.png",
         "credits": "Maple"
       },
       {
         "name": "Valberry",
-        "desc": "**Valberries ${Valberry}** can be found in the wilderness of Stormbearer Mountains and are being sold by [**Chloris**](https://cdn.discordapp.com/attachments/921999711358054430/922149813477318656/Chloris.png) (up to 5 per 3 days).\n\n>>> A plump and translucent berry that has a fragrant smell and a sweet, refreshing taste. In the past, the storm watchers' only solace was the sweetness of this fruit and hope for the city's peace.",
+        "desc": "**Valberries ${Valberry}** can be found in the wilderness of Stormbearer Mountains and are being sold by [**Chloris**](https://cdn.discordapp.com/attachments/921999711358054430/922149813477318656/Chloris.png) (up to 5 per 3 days).\n\n> A plump and translucent berry that has a fragrant smell and a sweet, refreshing taste. In the past, the storm watchers' only solace was the sweetness of this fruit and hope for the city's peace.",
         "img": "https://cdn.discordapp.com/attachments/921999711358054430/921999863565148190/unknown.png",
         "credits": "Maple"
       },
       {
         "name": "Cecilia",
-        "desc": "**Cecilias ${Cecilia}** can be found in the wilderness of Starsnatch Cliff and are being sold by [**Flora**](https://cdn.discordapp.com/attachments/922011009428910160/922151480461525046/Flora.png) (up to 5 per 3 days).\n\n>>> A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
+        "desc": "**Cecilias ${Cecilia}** can be found in the wilderness of Starsnatch Cliff and are being sold by [**Flora**](https://cdn.discordapp.com/attachments/922011009428910160/922151480461525046/Flora.png) (up to 5 per 3 days).\n\n> A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
         "img": "https://cdn.discordapp.com/attachments/922011009428910160/922011816727556136/unknown.png",
         "credits": "Maple"
       },
       {
         "name": "Windwheel Aster",
-        "desc": "**Windwheel Asters ${Windwheel Aster}** can be found in the wilderness of Mondstadt and are being sold by [**Flora**](https://cdn.discordapp.com/attachments/923194392959918090/923316038328778823/Flora.png) (up to 5 per 3 days).\n\n>>> A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\"",
+        "desc": "**Windwheel Asters ${Windwheel Aster}** can be found in the wilderness of Mondstadt and are being sold by [**Flora**](https://cdn.discordapp.com/attachments/923194392959918090/923316038328778823/Flora.png) (up to 5 per 3 days).\n\n> A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\"",
         "img": "https://cdn.discordapp.com/attachments/923194392959918090/925716459391434772/Windwheel_Asters.png",
         "credits": "Yukie"
       },
       {
         "name": "Philanemo Mushroom",
-        "desc": "**Philanemo Mushrooms ${Philanemo Mushroom}** can be found in under the eaves of houses in Mondstadt and are being sold by [**Chloris**](https://cdn.discordapp.com/attachments/923461709358850059/923724200026451998/unknown.png) (up to 5 per 3 days).\n\n>>> A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
+        "desc": "**Philanemo Mushrooms ${Philanemo Mushroom}** can be found in under the eaves of houses in Mondstadt and are being sold by [**Chloris**](https://cdn.discordapp.com/attachments/923461709358850059/923724200026451998/unknown.png) (up to 5 per 3 days).\n\n> A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
         "img": "https://cdn.discordapp.com/attachments/923461709358850059/923723763030298674/unknown.png",
         "credits": "Soul"
       }
@@ -39,7 +39,7 @@
     "pages": [
       {
         "name": "Jueyun Chili",
-        "desc": "**Jueyun Chilis ${Jueyun Chili}** can be found in the wilderness of Liyue and are being sold by [**Chef Mao**](https://cdn.discordapp.com/attachments/925096309763997747/925125045855076392/Chef_Mao.png) (up to 5 per 3 days).\n\n>>> A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
+        "desc": "**Jueyun Chilis ${Jueyun Chili}** can be found in the wilderness of Liyue and are being sold by [**Chef Mao**](https://cdn.discordapp.com/attachments/925096309763997747/925125045855076392/Chef_Mao.png) (up to 5 per 3 days).\n\n> A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
         "img": "https://cdn.discordapp.com/attachments/925096309763997747/925096336947286026/unknown.png",
         "credits": "Soul"
       }
@@ -50,49 +50,49 @@
     "pages": [
       {
         "name": "Onikabuto",
-        "desc": "**Onikabuto ${Onikabuto}** can be found in the wilderness of Inazuma.\n\n>>> A strange beetle that inhabits areas rich with Electro energy. Its docile and sedentary temperament could not be more different from the fierce, demonic visage displayed on its armored shell.",
+        "desc": "**Onikabuto ${Onikabuto}** can be found in the wilderness of Inazuma.\n\n> A strange beetle that inhabits areas rich with Electro energy. Its docile and sedentary temperament could not be more different from the fierce, demonic visage displayed on its armored shell.",
         "img": "https://i.imgur.com/V3gpYvh.png",
         "credits": "Soul"
       },
       {
         "name": "Sakura Bloom",
-        "desc": "**Sakura Blooms ${Sakura Bloom}** can be found in the wilderness of Inazuma.\n\n>>> Blossoms from the Sacred Sakura at the Grand Narukami Shrine, filled with a fondness for Inazuma.",
+        "desc": "**Sakura Blooms ${Sakura Bloom}** can be found in the wilderness of Inazuma.\n\n> Blossoms from the Sacred Sakura at the Grand Narukami Shrine, filled with a fondness for Inazuma.",
         "img": "https://cdn.discordapp.com/attachments/923173940338245673/923320425998610492/Sakura_Bloom.png",
         "credits": "Soul"
       },
       {
         "name": "Crystal Marrow",
-        "desc": "**Crystal Marrow ${Crystal Marrow}** can be found in the wilderness of Inazuma.\n\n>>> A crystal that contains a sliver of Tatarigami power. Adding this material during smelting will greatly increase the strength and toughness of metals.",
+        "desc": "**Crystal Marrow ${Crystal Marrow}** can be found in the wilderness of Inazuma.\n\n> A crystal that contains a sliver of Tatarigami power. Adding this material during smelting will greatly increase the strength and toughness of metals.",
         "img": "https://cdn.discordapp.com/attachments/921888154267566120/922146919839592448/Crystal_Marrow.png",
         "credits": "Soul"
       },
       {
         "name": "Dendrobium",
-        "desc": "**Dendrobiums ${Dendrobium}** can be found in the wilderness of Inazuma.\n\n>>> A vibrant plant that has also been named the \"lycoris\" by the poets. It was once thought extinct in the Inazuman archipelago, only to re-emerge now upon the battlefields. It is said that it blooms most enchantingly where much blood was spilled.",
+        "desc": "**Dendrobiums ${Dendrobium}** can be found in the wilderness of Inazuma.\n\n> A vibrant plant that has also been named the \"lycoris\" by the poets. It was once thought extinct in the Inazuman archipelago, only to re-emerge now upon the battlefields. It is said that it blooms most enchantingly where much blood was spilled.",
         "img": "https://cdn.discordapp.com/attachments/921888052476006430/922146556369567774/Dendrobium.png",
         "credits": "Soul"
       },
       {
         "name": "Naku Weed",
-        "desc": "**Naku Weeds ${Naku Weed}** can be found in the wilderness of Inazuma and are being sold by [**Aoi**](https://cdn.discordapp.com/attachments/921171356484263996/921401724185477190/unknown.png) (up to 5 per 3 days).\n\n>>> Even on windless days, this plant will tremble lightly amid the cries of thunder. The part of it that resembles petals are in fact extensions of the leaves meant to protect the fragile flower.",
+        "desc": "**Naku Weeds ${Naku Weed}** can be found in the wilderness of Inazuma and are being sold by [**Aoi**](https://cdn.discordapp.com/attachments/921171356484263996/921401724185477190/unknown.png) (up to 5 per 3 days).\n\n> Even on windless days, this plant will tremble lightly amid the cries of thunder. The part of it that resembles petals are in fact extensions of the leaves meant to protect the fragile flower.",
         "img": "https://cdn.discordapp.com/attachments/921171356484263996/921399115974344795/waytoodank.png",
         "credits": "Soul"
       },
       {
         "name": "Sango Pearl",
-        "desc": "**Sango Pearls ${Sango Pearl}** can be found in the wilderness of Watatsumi Island.\n\n>>> A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of a moonlight.",
+        "desc": "**Sango Pearls ${Sango Pearl}** can be found in the wilderness of Watatsumi Island.\n\n> A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of a moonlight.",
         "img": "https://cdn.discordapp.com/attachments/921188291842277476/921188358250709102/unknown.png",
         "credits": "Soul"
       },
       {
         "name": "Amakumo Fruit",
-        "desc": "**Amakumo Fruits ${Amakumo Fruit}** can be found in the wilderness of Seirai Island.\n\n>>> The fruit of the Amakumo Grass, which grows on Seirai Island. You can hear it crackling with a tiny current if you hold it up to your ear.",
+        "desc": "**Amakumo Fruits ${Amakumo Fruit}** can be found in the wilderness of Seirai Island.\n\n> The fruit of the Amakumo Grass, which grows on Seirai Island. You can hear it crackling with a tiny current if you hold it up to your ear.",
         "img": "https://cdn.discordapp.com/attachments/923174006306267146/923320095764279356/Amakumo_Fruit.png",
         "credits": "Soul"
       },
       {
         "name": "Fluorescent Fungus",
-        "desc": "**Fluorescent Fungi ${Fluorescent Fungus}** can be found in the wilderness of Tsurumi Island.\n\n>>> A mushroom that glows like a night-light. Some curious power lies hidden within it.",
+        "desc": "**Fluorescent Fungi ${Fluorescent Fungus}** can be found in the wilderness of Tsurumi Island.\n\n> A mushroom that glows like a night-light. Some curious power lies hidden within it.",
         "img": "https://cdn.discordapp.com/attachments/921888264808452096/922147275579465768/Fluorescent_Fungi.png",
         "credits": "Soul"
       }
@@ -103,7 +103,7 @@
     "pages": [
       {
         "name": "Frog",
-        "desc": "**Frogs** are found in the wilderness near bodies of fresh water. They are used in crafting.\n\n>>> Common frog found in moist environments. Full of energy, they secrete a substance that will keep you full of vitality.",
+        "desc": "**Frogs** are found in the wilderness near bodies of fresh water. They are used in crafting.\n\n> Common frog found in moist environments. Full of energy, they secrete a substance that will keep you full of vitality.",
         "img": "https://cdn.discordapp.com/attachments/924811279246454874/924811791706497054/FrogRoute404.png",
         "credits": "Soul"
       }
