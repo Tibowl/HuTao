@@ -238,14 +238,20 @@ Note: this command supports fuzzy search.`,
                             .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
                             .join("\n")
                     }`, true)
+            }
 
+            const upgradeLines: string[] = []
+            if (char.ascensionCosts ) {
                 const ascensionCosts = [
                     char.ascensionCosts.mapping.Gem4,
                     char.ascensionCosts.mapping.BossMat,
                     char.ascensionCosts.mapping.Specialty,
                     char.ascensionCosts.mapping.EnemyDropTier3,
                 ].filter(x => x)
+                upgradeLines.push(`Ascensions: ${ascensionCosts.map(i => data.emoji(i)).join("")}`)
+            }
 
+            if (char.skills) {
                 const talents = char.skills
                     .flatMap(s => [...(s.talents ?? []), s.ult ])
                     .filter(x => x)
@@ -268,10 +274,13 @@ Note: this command supports fuzzy search.`,
                     .map(s => s?.costs?.mapping.EnemyDropTier3)
                     .filter((x, i, a) => x && a.indexOf(x) == i)
 
-                embed.addField("Upgrade material", `Ascensions: ${ascensionCosts.map(i => data.emoji(i)).join("")}
-Talents: ${[...books, ...mats, ...drops].map(i => data.emoji(i)).join("")}`)
+                const all = [...books, ...mats, ...drops]
+                if (all.length > 0)
+                    upgradeLines.push(`Talents: ${all.map(i => data.emoji(i)).join("")}`)
             }
 
+            if (upgradeLines.length > 0)
+                embed.addField("Upgrade material", upgradeLines.join("\n"))
 
             return embed
         } else if (relativePage == 1) {

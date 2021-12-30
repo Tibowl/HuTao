@@ -18206,6 +18206,16 @@
           "name": "Divine Maiden's Deliverance",
           "desc": "Unleashes the power of the Talisman Spirit, allowing it to roam free in this plane, dealing **AoE Cryo DMG**.\nThe Talisman Spirit then creates a field that decreases the Cryo RES and Physical RES of opponents within it. It also deals periodic **Cryo DMG** to opponents within the field.",
           "type": "Cryo",
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Prosperity",
+              "BossMat": "Hellfire Butterfly",
+              "EnemyDropTier1": "Whopperflower Nectar",
+              "EnemyDropTier2": "Shimmering Nectar",
+              "EnemyDropTier3": "Energy Nectar"
+            }
+          },
           "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788592503578664/Shenhe_Q.gif"
         },
         "passive": [
@@ -18223,7 +18233,21 @@
           }
         ]
       }
-    ]
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Unknown",
+        "EnemyDropTier1": "Whopperflower Nectar",
+        "EnemyDropTier2": "Shimmering Nectar",
+        "EnemyDropTier3": "Energy Nectar",
+        "Gem1": "Shivada Jade Sliver",
+        "Gem2": "Shivada Jade Fragment",
+        "Gem3": "Shivada Jade Chunk",
+        "Gem4": "Shivada Jade Gemstone",
+        "Specialty": "Qingxin"
+      }
+    }
   },
   "Sucrose": {
     "name": "Sucrose",

@@ -287,14 +287,15 @@ export interface MainStatInfo {
 
 export type Character = CharacterFull | CharacterPlaceholder
 export interface CharacterPlaceholder {
-    name:        string
-    desc:        string
-    star?:       number
-    weaponType?: WeaponType
-    icon?:       string
-    imgs:        string[]
-    meta:        Meta
-    skills?:     Skills[]
+    name:            string
+    desc:            string
+    star?:           number
+    weaponType?:     WeaponType
+    icon?:           string
+    imgs:            string[]
+    meta:            Meta
+    skills?:         Skills[]
+    ascensionCosts?: CostTemplate
 }
 export interface CharacterFull {
     name:           string
