@@ -497,9 +497,9 @@ export enum WeaponCurveName {
 }
 
 export interface AbyssFloor {
-    teams:    number
-    leyline:  string
-    chambers: AbyssChamber[]
+    teams:     number
+    leyline:   string
+    chambers?: AbyssChamber[]
 }
 
 export interface AbyssChamber {

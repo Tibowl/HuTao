@@ -3,6 +3,7 @@ import { exists, unlink, move, writeFile, existsSync, readFileSync } from "fs-ex
 import { join } from "path"
 
 import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop, Guide, CharacterFull, CostTemplate } from "./Types"
+import { findFuzzy } from "./Utils"
 
 import artifactsData from "../data/gamedata/artifacts.json"
 import artifactsMainStats from "../data/gamedata/artifact_main_stats.json"
@@ -28,8 +29,6 @@ import abyssSchedule from "../data/gamedata/abyss_schedule.json"
 import emojiData from "../data/emojis.json"
 import eventData from "../data/events.json" // Not in gamedata since it also contains webevents
 import guideData from "../data/guides.json"
-
-import { findFuzzy, getDate } from "./Utils"
 
 const Logger = log4js.getLogger("DataManager")
 const existsP = async (path: string): Promise<boolean> => new Promise((resolve) => exists(path, resolve))
@@ -137,9 +136,7 @@ export default class DataManager {
     }
 
     getAbyssSchedules(): AbyssSchedule[] {
-        return Object.values(this.abyssSchedule).filter(schedule =>
-            Date.now() >= getDate(schedule.start).getTime()
-        )
+        return Object.values(this.abyssSchedule)
     }
 
     getArtifactByName(name: string): Artifact | undefined {

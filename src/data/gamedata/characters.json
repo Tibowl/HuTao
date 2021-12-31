@@ -18168,7 +18168,7 @@
   },
   "Shenhe": {
     "name": "Shenhe",
-    "desc": "An adepti disciple with a most unusual air about her. having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
+    "desc": "An adepti disciple with a most unusual air about her. Having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
     "star": 5,
     "weaponType": "Polearm",
     "icon": "https://i.imgur.com/ccLge5X.png",
@@ -18181,7 +18181,8 @@
       "birthDay": 10,
       "association": "Liyue",
       "title": "Lonesome Transcendence",
-      "detail": "An adepti disciple with a most unusual air about her. having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
+      "detail": "An adepti disciple with a most unusual air about her. Having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
+      "affiliation": "Liyue Harbor",
       "element": "Cryo",
       "constellation": "Crista Doloris",
       "cvChinese": "秦紫翼",
@@ -25175,6 +25176,8 @@
     "name": "Yun Jin",
     "desc": "A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",
     "icon": "https://i.imgur.com/BrcAmXj.png",
+    "star": 4,
+    "weaponType": "Polearm",
     "imgs": [
       "https://upload-os-bbs.hoyolab.com/upload/2021/11/22/1015537/d35ba124ac2d9af4772fa6e7925624bc_2825394445059469033.jpg",
       "https://upload-os-bbs.hoyolab.com/upload/2021/11/22/1015537/8fd08b431a58addf9d16451c8da93236_3542243023422706080.jpg"
@@ -25183,12 +25186,13 @@
       "association": "Liyue",
       "title": "Stage Lucida",
       "detail": "A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",
+      "affiliation": "Yun-Han Opera Troupe",
       "element": "Geo",
       "constellation": "Opera Grandis",
-      "cvChinese": "贺文潇 & 杨扬",
+      "cvChinese": "贺文潇&杨扬",
+      "cvJapanese": "小岩井ことり&杨扬",
       "cvEnglish": "Judy Alice Lee & 杨扬",
-      "cvJapanese": "小岩井ことり & 杨扬",
-      "cvKorean": "사문영 & 杨扬"
+      "cvKorean": "사문영&Yang Yang"
     },
     "skills": [
       {

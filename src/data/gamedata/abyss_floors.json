@@ -1921,5 +1921,13 @@
         ]
       }
     ]
+  },
+  "34": {
+    "teams": 2,
+    "leyline": "All party members' Normal Attack DMG increased by 50%."
+  },
+  "35": {
+    "teams": 2,
+    "leyline": "Certain opponents in this challenge possess the Honed Spirit effect, which grants them 10% Physical and All Elemental RES. When opponents with Honed Spirit take hits from attacks that are considered Normal Attack DMG, they will lose 3% Physical and All Elemental RES. A maximum of 30% of each may be lost this way. The RES lost this way will be reset every 20s."
   }
 }

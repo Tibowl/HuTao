@@ -2,7 +2,7 @@ import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } fr
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { Colors, findFuzzyBestCandidates, sendMessage, simplePaginator } from "../../utils/Utils"
+import { Colors, findFuzzyBestCandidates, getDate, sendMessage, simplePaginator } from "../../utils/Utils"
 import { AbyssSchedule, CommandSource, SendMessage } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -26,7 +26,7 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
             options: [{
                 name: "floor",
                 description: "Directly skip to a certain floor",
-                type: "NUMBER",
+                type: "INTEGER",
                 required: false
             }, {
                 name: "cycle",
@@ -49,7 +49,7 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
 
     async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
-        return this.run(source, options.getNumber("floor") ?? -1, options.getString("cycle"))
+        return this.run(source, options.getInteger("floor") ?? -1, options.getString("cycle"))
 
     }
     async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
@@ -72,7 +72,10 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
     async run(source: CommandSource, floor: number, abyssSchedule?: string | null): Promise<SendMessage | undefined> {
         const { data } = client
         const schedule = data.getAbyssSchedules()
-        let abyss = schedule[schedule.length - 1]
+        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+        let abyss = schedule.filter(schedule =>
+            Date.now() >= getDate(schedule.start).getTime()
+        ).pop()!
 
         if (abyssSchedule) {
             const matchedDate = abyssSchedule.match(/^(\d\d\d\d)-(\d\d?)-(\d)$/)
@@ -84,9 +87,10 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
             if (!abyss)
                 return sendMessage(source, `Couldn't find abyss \`${line}\``)
         }
-        if (floor > 0 && floor <= abyss.regularFloors.length) {
+        if (!abyss)
+            return sendMessage(source, "Couldn't find last abyss")
+        if (floor > 0 && floor <= abyss.regularFloors.length)
             return sendMessage(source, this.getSpiralFloor(abyss.regularFloors[floor - 1], floor))
-        }
 
         const defaultPage = floor > 0 ? floor - abyss.regularFloors.length : 0
 
@@ -124,13 +128,15 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
             .setTitle(`Floor ${num}`)
             .setDescription(floor.leyline)
 
-        const lastChamber = floor.chambers[floor.chambers.length - 1]
-        for (const chamber of floor.chambers) {
-            embed.addField(`Chamber ${chamber.chamber}: Conditions`, chamber.conds)
+        if (floor.chambers) {
+            const lastChamber = floor.chambers[floor.chambers.length - 1]
+            for (const chamber of floor.chambers) {
+                embed.addField(`Chamber ${chamber.chamber}: Conditions`, chamber.conds)
 
-            for (const [ind, monsters] of Object.entries(chamber.monsters)) {
-                const status = `${+ind+1}/${chamber.monsters.length}`
-                embed.addField(`${names[status] ?? status}: (Lv. ${chamber.level})`, `${monsters.join("\n")}${chamber == lastChamber ? "" : "\n\u200B"}`, true)
+                for (const [ind, monsters] of Object.entries(chamber.monsters)) {
+                    const status = `${+ind+1}/${chamber.monsters.length}`
+                    embed.addField(`${names[status] ?? status}: (Lv. ${chamber.level})`, `${monsters.join("\n")}${chamber == lastChamber ? "" : "\n\u200B"}`, true)
+                }
             }
         }
 
