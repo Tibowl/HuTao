@@ -115,7 +115,7 @@ Note: this command supports fuzzy search.`,
         if (weapon == undefined)
             return sendMessage(source, "Unable to find weapon")
 
-        const hasRefinements = weapon.refinement && weapon.refinement.length > 0 && weapon.refinement[0].length > 0
+        const hasRefinements = weapon.refinements && weapon.refinements.length > 0
 
         const pages: Bookmarkable[] = [{
             bookmarkEmoji: "📝",
@@ -203,14 +203,14 @@ Note: this command supports fuzzy search.`,
 
     getMainWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
         const { data } = client
-        const hasRefinements = weapon.refinement && weapon.refinement.length > 0 && weapon.refinement[0].length > 0
+        const hasRefinements = weapon.refinements && weapon.refinements.length > 0
         const embed = new MessageEmbed()
             .setTitle(`${weapon.name}: Basic info`)
             .setColor(Colors.AQUA)
             .setThumbnail(weapon.icon)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setDescription(weapon.desc + (weapon.placeholder ? "\n\n*This weapon is currently not yet available.*" : ""))
-            .addField("Basics", `${weapon.stars}★ ${data.emoji(weapon.weaponType)}`)
+            .addField("Basics", `${weapon.stars}★ ${data.emoji(weapon.weaponType)}`, (weapon.placeholderStats && !weapon.weaponCurve) ? true : false)
 
         const maxAscension = weapon.ascensions?.[weapon.ascensions.length - 1]
         if (weapon.weaponCurve && maxAscension)
@@ -225,9 +225,15 @@ Note: this command supports fuzzy search.`,
                         .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
                         .join("\n")
                 }`, true)
-
-        if (weapon.refinement && hasRefinements)
-            embed.addField(`${weapon.refinement[0][0].name} (at R1)`, weapon.refinement[0][0].desc)
+        else if (weapon.placeholderStats) {
+            embed.addField(`Lv. ${weapon.placeholderStats.level} stats`, `${
+                Object.entries(weapon.placeholderStats.stats)
+                    .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
+                    .join("\n")
+            }`, true)
+        }
+        if (weapon.refinements && hasRefinements)
+            embed.addField(`${weapon.refinements[0].name} (at R1)`, weapon.refinements[0].desc)
         if (weapon.ascensionCosts)
             embed.addField("Upgrade material", `Ascensions: ${[
                 weapon.ascensionCosts.mapping.WeaponAsc2,
@@ -288,9 +294,8 @@ Note: this command supports fuzzy search.`,
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
         embed.setTitle(`${weapon.name}: Refinements`)
-        for (const ref of weapon.refinement ?? [])
-            for (const [refinement, info] of Object.entries(ref))
-                embed.addField(`${info.name} ${+refinement+1}`, info.desc)
+        for (const [refinement, info] of Object.entries(weapon.refinements ?? []))
+            embed.addField(`${info.name} R${+refinement+1}`, info.desc)
 
         return embed
     }

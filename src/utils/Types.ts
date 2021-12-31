@@ -449,18 +449,19 @@ export enum WeaponType {
 }
 
 export interface Weapon {
-    name:            string
-    desc:            string
-    placeholder?:    false
-    weaponType:      WeaponType
-    stars:           number
-    weaponCurve?:    WeaponCurve[]
-    icon:            string
-    awakenIcon?:     string
-    ascensions?:     WeaponAscension[]
-    ascensionCosts?: CostTemplate
-    lore?:           string
-    refinement?:     Array<Refinement[]>
+    name:              string
+    desc:              string
+    placeholder?:      false
+    placeholderStats?: PlaceHolderStats
+    weaponType:        WeaponType
+    stars:             number
+    weaponCurve?:      WeaponCurve[]
+    icon:              string
+    awakenIcon?:       string
+    ascensions?:       WeaponAscension[]
+    ascensionCosts?:   CostTemplate
+    lore?:             string
+    refinements?:      Refinement[]
 }
 
 export interface WeaponAscension {
@@ -494,6 +495,12 @@ export enum WeaponCurveName {
     C1 = "C1",
     C2 = "C2",
     C3 = "C3",
+}
+
+
+export interface PlaceHolderStats {
+    level: number
+    stats: Partial<Record<StatsName, number>>
 }
 
 export interface AbyssFloor {
