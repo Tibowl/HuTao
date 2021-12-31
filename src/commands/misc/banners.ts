@@ -433,9 +433,12 @@ export function parseEventWishNews(news: StoredNews, recent = true): void {
         // Logger.info("Added", wish)
 
         eventWishes = eventWishes.sort((a, b) => {
-            if (Math.abs(a.roughDate - b.roughDate) < 3600)
-                return a.title.includes("Epitome") ? 1 : -1
-            else
+            if (Math.abs(a.roughDate - b.roughDate) < 3600) {
+                if (a.duration == b.duration)
+                    return a.title.includes("Epitome") ? 1 : -1
+
+                return b.duration.localeCompare(a.duration)
+            } else
                 return a.roughDate - b.roughDate
         })
     } else if (recent)
