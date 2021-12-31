@@ -381,18 +381,18 @@ export enum CurveEnum {
 }
 
 export interface Meta {
-    birthMonth?:   number
-    birthDay?:     number
-    association?:  Association
-    title:         string
-    detail:        string
-    affiliation?:  string
-    element:       string
-    constellation: string
-    cvChinese?:    string
-    cvJapanese?:   string
-    cvEnglish?:    string
-    cvKorean?:     string
+    birthMonth?:    number
+    birthDay?:      number
+    association?:   Association
+    title:          string
+    detail:         string
+    affiliation?:   string
+    element:        string
+    constellation?: string
+    cvChinese?:     string
+    cvJapanese?:    string
+    cvEnglish?:     string
+    cvKorean?:      string
 }
 
 export enum Association {

@@ -24114,6 +24114,26 @@
       }
     }
   },
+  "Yae Miko": {
+    "name": "Yae Miko",
+    "desc": "The Grand Narukami Shrine's head shrine maiden and a descendant of Kitsune lineage, Eternity's servant and friend... and the intimidating editor-in-chief of Yae Publishing House, a publisher of light novels.",
+    "icon": "https://i.imgur.com/ikv6D0A.png",
+    "imgs": [
+      "https://upload-os-bbs.hoyolab.com/upload/2021/12/31/1015537/cc2e06e86028de75b1faba0e746c1369_1206165041119697161.jpg",
+      "https://upload-os-bbs.hoyolab.com/upload/2021/12/31/1015537/1d48c7e22b492120e00cb258ffaf3971_1019909919516725003.jpg"
+    ],
+    "meta": {
+      "association": "Inazuma",
+      "title": "Astute Amusement",
+      "detail": "The Grand Narukami Shrine's head shrine maiden and a descendant of Kitsune lineage, Eternity's servant and friend... and the intimidating editor-in-chief of Yae Publishing House, a publisher of light novels.",
+      "affiliation": "Grand Narukami Shrine",
+      "constellation": "Divina Vulpes",
+      "element": "Electro",
+      "cvChinese": "杜冥鸦",
+      "cvJapanese": "佐倉綾音",
+      "cvKorean": "문유정"
+    }
+  },
   "Yanfei": {
     "name": "Yanfei",
     "desc": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",

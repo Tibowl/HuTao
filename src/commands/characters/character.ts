@@ -313,12 +313,19 @@ Note: this command supports fuzzy search.`,
             embed.setTitle(`${char.name}: Information`)
                 .setDescription(metadata.trim())
 
+            const va: string[] = []
+
             if (char.meta.cvChinese)
-                embed.addField("Voice Actors", `**Chinese**: ${char.meta.cvChinese}
-**Japanese**: ${char.meta.cvJapanese}
-**English**: ${char.meta.cvEnglish}
-**Korean**: ${char.meta.cvKorean}
-`)
+                va.push(`**Chinese**: ${char.meta.cvChinese}`)
+            if (char.meta.cvJapanese)
+                va.push(`**Japanese**: ${char.meta.cvJapanese}`)
+            if (char.meta.cvEnglish)
+                va.push(`**English**: ${char.meta.cvEnglish}`)
+            if (char.meta.cvKorean)
+                va.push(`**Korean**: ${char.meta.cvKorean}`)
+
+            if (va.length>0)
+                embed.addField("Voice Actors", va.join("\n"))
             return embed
         }
 
