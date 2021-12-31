@@ -88,10 +88,11 @@ Note: this command supports fuzzy search.`,
     getGuides(): string[] {
         const guides = client.data.guides
             .map((guide) => `**${guide.name}**:
-${guide.pages.map(p => `- ${p.name}`).join("\n")}`)
+${guide.pages.map(p => `- ${p.url ? `[${p.name}](${p.url})` : p.name}`).join("\n")}`)
 
         const pages: string[] = [`**List of categories:**
 ${client.data.guides.map((guide) => `- *${guide.name}*: ${guide.pages.length} ${guide.pages.length == 1 ? "guide" : "guides"}`).join("\n")}`]
+
         let paging = "", c = 0
         for (const guide of guides) {
             if (paging.length + guide.length > 1900 || c > 20) {

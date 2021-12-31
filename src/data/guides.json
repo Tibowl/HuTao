@@ -42,6 +42,12 @@
         "desc": "**Jueyun Chilis ${Jueyun Chili}** can be found in the wilderness of Liyue and are being sold by [**Chef Mao**](https://cdn.discordapp.com/attachments/925096309763997747/925125045855076392/Chef_Mao.png) (up to 5 per 3 days).\n\n> A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
         "img": "https://cdn.discordapp.com/attachments/925096309763997747/925096336947286026/unknown.png",
         "credits": "Soul"
+      },
+      {
+        "name": "Qingxin",
+        "desc": "**Qingxins ${Qingxin}** can be found in the heights of stone forests in Liyue and are being sold by [**Herbalist Gui**](https://cdn.discordapp.com/attachments/926215001088352276/926586479600341032/Herbalist_Gui.png) (up to 10 per 3 days).\n\n> A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
+        "img": "https://cdn.discordapp.com/attachments/926215001088352276/926215049285107792/ganyunom.png",
+        "credits": "Soul"
       }
     ]
   },
@@ -128,6 +134,7 @@
         "name": "Specter (Spectral Husk, Heart and Nucleus)",
         "desc": "**Specters** are Common Enemies found in Inazuma. They are Elemental Lifeforms and drop **Spectral Husk ${Spectral Husk}**, **Spectral Heart ${Spectral Heart}** and **Spectral Nucleus ${Spectral Nucleus}**.",
         "img": "https://cdn.discordapp.com/attachments/922995664957350030/922997225880166440/Specters_Route_Inazuma.png",
+        "url": "https://youtu.be/5Kb79QIzwn0",
         "credits": "Yukie"
       }
     ]
@@ -149,7 +156,7 @@
       {
         "name": "Rifthound (Concealed Claw, Unguis and Talon)",
         "desc": "**Rifthounds** are Elite Enemies found on Tsurumi Island. They belong to the Abyss and drop **Concealed Claw ${Concealed Claw}**, **Concealed Unguis ${Concealed Unguis}** and **Concealed Talon ${Concealed Talon}**.",
-        "img": "https://cdn.discordapp.com/attachments/923108653949665311/923108706353287178/unknown.png",
+        "img": "https://cdn.discordapp.com/attachments/923108653949665311/926581516992143390/RiftHoundNew.png",
         "credits": "Soul"
       }
     ]
