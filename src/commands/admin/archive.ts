@@ -44,7 +44,10 @@ export default class Archive extends Command {
         await channel.setArchived(true)
 
         const starter = await channel.fetchStarterMessage()
-        if (starter)
+        if (starter) {
             await starter.react("✅")
+            if (starter.pinned)
+                await starter.unpin()
+        }
     }
 }

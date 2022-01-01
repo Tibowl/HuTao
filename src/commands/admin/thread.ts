@@ -46,5 +46,7 @@ export default class ThreadCommand extends Command {
             name,
             autoArchiveDuration: "MAX"
         })
+        if (source.pinnable)
+            await source.pin()
     }
 }
