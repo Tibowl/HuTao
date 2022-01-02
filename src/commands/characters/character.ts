@@ -226,6 +226,13 @@ Note: this command supports fuzzy search.`,
                 .setDescription(char.desc)
                 .addField("Basics", this.getBasicInfo(char))
 
+            if (char.media.videos)
+                embed.setDescription(`${char.desc}\n${
+                    Object.entries(char.media.videos)
+                        .map(([title, url]) => `[${title.split(" - ")[0].replace(/^New/i, "").trim()}](${url})`)
+                        .join(" / ")
+                }`)
+
             if (data.isFullCharacter(char)) {
                 const maxAscension = char.ascensions[char.ascensions.length - 1]
                 embed.addField("Base stats", `${
@@ -326,6 +333,7 @@ Note: this command supports fuzzy search.`,
 
             if (va.length>0)
                 embed.addField("Voice Actors", va.join("\n"))
+
             return embed
         }
 
@@ -406,23 +414,31 @@ Note: this command supports fuzzy search.`,
         return undefined
     }
 
-    getArtPage(char: Character, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getMediaPage(char: Character, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
         const embed = new MessageEmbed()
             .setColor(Colors[char.meta.element] ?? "")
             .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setTitle(`${char.name}`)
         if (char.icon)
             embed.setThumbnail(char.icon)
 
-        if (relativePage >= 0 && relativePage < char.imgs.length) {
-            const img = char.imgs[relativePage]
-            embed.setTitle(`${char.name}`)
-                .setDescription(`[Open image in browser](${img})`)
+        const videos = char.media.videos ? (`**Promotional Videos**
+${          Object
+                .entries(char.media.videos)
+                .map(([title, url]) => `[${title}](${url})`)
+                .join("\n")
+            }\n\n`) : ""
+
+        if (char.media.imgs && relativePage >= 0 && relativePage < char.media.imgs.length) {
+            const img = char.media.imgs[relativePage]
+            embed.setDescription(`${videos}[Open image in browser](${img})`)
                 .setImage(img)
             embed.thumbnail = null
             return embed
+        } else {
+            embed.setDescription(videos)
+            return embed
         }
-
-        return undefined
     }
 
     getCharTalentPage(char: Character, relativePage: number, currentPage: number, maxPages: number, talentMode: TalentMode): MessageEmbed | undefined {
@@ -606,9 +622,9 @@ Note: this command supports fuzzy search.`,
 
         pages.push({
             bookmarkEmoji: "🎨",
-            bookmarkName: "Art",
-            maxPages: char.imgs.length,
-            pages: (rp, cp, mp) => this.getArtPage(char, rp, cp, mp)
+            bookmarkName: "Media",
+            maxPages: (char.media.imgs?.length ?? (char.media.videos ? 1 : 0)),
+            pages: (rp, cp, mp) => this.getMediaPage(char, rp, cp, mp)
         })
 
         return pages

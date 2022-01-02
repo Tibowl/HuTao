@@ -292,25 +292,22 @@ export interface CharacterPlaceholder {
     star?:           number
     weaponType?:     WeaponType
     icon?:           string
-    imgs:            string[]
+    media:           Media
     meta:            Meta
     skills?:         Skills[]
     ascensionCosts?: CostTemplate
 }
-export interface CharacterFull {
-    name:           string
-    desc:           string
+export type CharacterFull = Required<CharacterPlaceholder> & {
     releasedOn:     string
-    star:           number
-    weaponType:     WeaponType
     icon:           string
-    imgs:           string[]
     baseStats:      CharacterBaseStats
     curves:         CurveElement[]
-    meta:           Meta
-    skills:         Skills[]
     ascensions:     CharacterAscension[]
-    ascensionCosts: CostTemplate
+}
+
+export interface Media {
+    videos?: Record<string, string>
+    imgs?:   string[]
 }
 
 export interface CharacterBaseStats {
