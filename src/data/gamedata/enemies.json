@@ -1,0 +1,2591 @@
+{
+  "Pyro Slime": {
+    "name": "Pyro Slime",
+    "desc": "A small monster created by the sedimentation of Pyro dispersed throughout nature.\nIts intelligence is very basic, but its uses are just as broad — well, for hilichurls, that is.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Pyro_Slime.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "Immune",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Large Pyro Slime": {
+    "name": "Large Pyro Slime",
+    "desc": "A monster created by the sedimentation of Pyro dispersed throughout nature.\nThough its intelligence has not increased with its size, it is very hot. During dry seasons, it can cause wildfires. It will spit forth blazing fireballs when angered, and will turn dark when it is feeling down. A most expressive slime, indeed.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Large_Pyro_Slime.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "Immune",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Hydro Slime": {
+    "name": "Hydro Slime",
+    "desc": "A small monster created by the sedimentation of Hydro dispersed throughout nature.\nLegend has it that some people would use Hydro Slimes as an emergency water source, packing them in preparation for travels through dry regions or deep domains. But due to the high concentration of Hydro within these slimes, direct ingestion is, in fact, harmful to the human body.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hydro_Slime.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "Immune",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Large Hydro Slime": {
+    "name": "Large Hydro Slime",
+    "desc": "A monster created by the sedimentation of Hydro dispersed throughout nature.\nA larger and more powerful Hydro Slime that can create bubbles to entrap its enemies. It is said that they can grow to truly staggering sizes if given an energy-rich environment. Eyewitnesses have supposedly seen Hydro Slimes as large as a small mound in Wolvendom.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Large_Hydro_Slime.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "Immune",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Anemo Slime": {
+    "name": "Anemo Slime",
+    "desc": "A small monster created by the coalescing of Anemo dispersed throughout nature.\nIt is able to float in the air to a certain degree due to the power of Anemo.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Anemo_Slime.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "Immune",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Large Anemo Slime": {
+    "name": "Large Anemo Slime",
+    "desc": "A monster created by the coalescing of Anemo dispersed throughout nature.\nOwing to being comprised of a greater concentration of Anemo, their flotation abilities are stronger than that of Anemo Slimes. The hilichurls living out in the wilds have made use of this special characteristic, creating special vehicles that use Large Anemo Slimes as a form of locomotion to transport goods from unknown sources.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Large_Anemo_Slime.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "Immune",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Electro Slime": {
+    "name": "Electro Slime",
+    "desc": "A small monster created by the coalescing of Electro dispersed throughout nature.\nAccording to analyses, the jumping of Electro Slimes reflects the electric potential difference in the ground. In areas brimming over with Electro, their unusual movements can be observed and used to avoid danger.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Electro_Slime.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "Immune",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Large Electro Slime": {
+    "name": "Large Electro Slime",
+    "desc": "A monster created by the coalescing of Electro dispersed throughout nature.\nDue to the abundant Electro within its form, it will deliver an electric shock to its surroundings from time to time. At present, some have attempted to harness this energy to aid in production activities. Perhaps some new science will be born from this...?",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Large_Electro_Slime.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "Immune",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Mutant Electro Slime": {
+    "name": "Mutant Electro Slime",
+    "desc": "A monster created by the coalescing of Electro dispersed throughout nature.\nElectro Slimes can undergo mutations to become bright yellow. Due to the abundant Electro within its form, it will deliver an electric shock to its surroundings from time to time, and it can even cause nearby Electro Slimes to release electric arcs. This arc lightning will not bounce between purple Electro Slimes, which shows that Electro Slimes have two different polarities.\nOne wonders if some great new science could emerge from the study of such phenomena...",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Mutant_Electro_Slime.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "Immune",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Dendro Slime": {
+    "name": "Dendro Slime",
+    "desc": "A slime that has undergone ecological changes due to abundant Dendro in its environment.\nIt has also taken on the weaknesses of the Dendro element, and will burn intensely the moment it meets a bright flame.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Dendro_Slime.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Large Dendro Slime": {
+    "name": "Large Dendro Slime",
+    "desc": "A slime that has undergone ecological changes due to abundant Dendro in its environment.\nThere are some who see it as something similar to the Whopperflowers, hiding its true form to trick and hunt its prey, and some regard it as a slime that has been parasitized by some special plant. From this point of view, might some cultures also see these slimes as having some special medicinal value?",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Large_Dendro_Slime.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Cryo Slime": {
+    "name": "Cryo Slime",
+    "desc": "A small monster created through the coagulation of Cryo in the natural environment.\nCompetitors once spread malicious rumors that the Dawn Winery used Cryo Slimes to control the temperature of their wine cellar and preserve the quality of their alcohol.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Cryo_Slime.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "Immune",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Large Cryo Slime": {
+    "name": "Large Cryo Slime",
+    "desc": "A monster created through the coagulation of Cryo in the natural environment.\nThese slimes can use the abundant Cryo energies within themselves to freeze the moisture in the atmosphere and form a protective shell around themselves. They can also utilize a similar principle to freeze the water around them. On some level, this can be considered to be the freest species of slime, as it can cross oceans and seas with ease.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Large_Cryo_Slime.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "Immune",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Geo Slime": {
+    "name": "Geo Slime",
+    "desc": "Small monsters created through the buildup of Geo within the earth.\nGenerally speaking, the crust of the earth is filled with Geo energy. Geo Slimes that are formed this way have a similarly \"down-to-earth\" sort of feeling.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Geo_Slime.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "Immune",
+        "10%"
+      ]
+    ]
+  },
+  "Large Geo Slime": {
+    "name": "Large Geo Slime",
+    "desc": "Monsters created through the buildup of Geo within the earth.\nThey can harden the energy within their bodies into a carapace of stone that protects them and prevents damage. The legend of a \"Golden Geo Slime King\" once circulated among the Treasure Hoarders. They believed that since gemstones and ores have Geo energy in them, Geo Slimes, which also contain Geo energy, may also be a type of gemstone or ore.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Large_Geo_Slime.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "Immune",
+        "10%"
+      ]
+    ]
+  },
+  "Eye of the Storm": {
+    "name": "Eye of the Storm",
+    "desc": "The corporeal form of extremely high-quality Anemo energies.\nThe formation of an Eye of the Storm indicates that the elemental ley lines of a region are blocked, which has led to siltation. Its reckless, heedless wielding of storms that all but sweeps people off their feet may be due to its nature as a symbol of the world stricken by malaise.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Eye_of_the_Storm.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "Immune",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Pyro Hypostasis": {
+    "name": "Pyro Hypostasis",
+    "desc": "Code Name: Ayin. A high-purity Pyro entity.\nAccording to researchers, Elemental Hypostases are related to anomalies in local Elemental veins. But whether it is the existence of Elemental Hypostases that have affected Elemental veins or the mutated Elemental Energy that created Elemental Hypostases remains to be confirmed.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Pyro_Hypostasis.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Normal Boss",
+    "resistance": [
+      [
+        "Immune",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Hydro Hypostasis": {
+    "name": "Hydro Hypostasis",
+    "desc": "Code Name: He. A high-purity Hydro entity.\nHypostases have strong rejection properties, and will mercilessly expel any that test them.\nIts rejection behavior even extends to natural elements.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hydro_Hypostasis.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Normal Boss",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "Immune",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Anemo Hypostasis": {
+    "name": "Anemo Hypostasis",
+    "desc": "Code name: Beth. A high-purity Anemo entity.\nElemental hypostases are life forms which have completely abandoned their former appearance and biological structure, making them able to reach the highest level of elemental purity.\nResearch into hypostases is mainly led by scholars of Sumeru Academia, but due to the level of danger that they pose, little of substance is known about hypostases beyond their scientific name and code name.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Anemo_Hypostasis.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Normal Boss",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "Immune",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Electro Hypostasis": {
+    "name": "Electro Hypostasis",
+    "desc": "Code name: Aleph. A high-purity Electro entity.\nElemental hypostases are the highest forms of elemental structures, usually formed either at a location bursting with elemental energy or at a clogged ley line.\nElemental hypostases have developed various attacks based on their elemental attributes.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Electro_Hypostasis.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Normal Boss",
+    "resistance": [
+      [
+        "10%",
+        "Immune",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Cryo Hypostasis": {
+    "name": "Cryo Hypostasis",
+    "desc": "Code name: Daleth. A high-purity Cryo entity.\nResearch suggests that there are subtle differences between elemental hypostases and other elemental life forms in terms of their physical composition. Perhaps these differences can account for their high level of homeostasis and their almost mechanical movements.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Cryo_Hypostasis.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Normal Boss",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "Immune",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Geo Hypostasis": {
+    "name": "Geo Hypostasis",
+    "desc": "Code name: Gimel. A high-purity Geo entity.\nElemental hypostases are ultra-compact structures with a high mass.\nConcentrated elemental energy forms a solid shell around the core of the hypostasis, leaving only the core reactive to elemental stimuli.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Geo_Hypostasis.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Normal Boss",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "Immune",
+        "10%"
+      ]
+    ]
+  },
+  "Oceanid": {
+    "name": "Oceanid",
+    "desc": "A life-form created from condensed Hydro elements of incredible purity. Often attached to bodies of water.\nIt is said that as water bodies become purer, the Hydro elements within grow more abundant, causing the Oceanids to grow more powerful. It is also said by some that Oceanids were once sea creatures from a home far away who carried the fragments of a long-dead god to the many corners of this world. Perhaps they did this so that the love their god held for this world could be spread through the waters to all the land...",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Oceanid.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Normal Boss",
+    "resistance": [
+      [
+        "Immune",
+        "Immune",
+        "Immune",
+        "Immune",
+        "Immune",
+        "Immune",
+        "Immune"
+      ]
+    ]
+  },
+  "Thunder Manifestation": {
+    "name": "Thunder Manifestation",
+    "desc": "An abnormal Electro elemental life form. Although it might appear similar to an Oceanid, it does not possess her intelligence or memories.\nThat which drives the Thunder Manifestation is a much more primal fury.\nIt is said that these life forms will only descend like lightning upon places that play host to great lingering resentment, such as the fragmented Amakumo Peak, where the storm clouds ever roil. As long as the grudges of the land do not fade, so will the roaring thunder persist.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Thunder_Manifestation.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Normal Boss",
+    "resistance": [
+      [
+        "10%",
+        "Immune",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Hydro Specter": {
+    "name": "Hydro Specter",
+    "desc": "A monster birthed from a high concentration of Hydro that can float in the air.\nOn moonlit nights, Hydro Specters will give off a ghostly glow as they float by the riverbank. Their furtive forms are often mistaken by passers-by for wandering spirits, which has made them mainstays in quite a few folktales.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hydro_Specter.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "Immune",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Anemo Specter": {
+    "name": "Anemo Specter",
+    "desc": "A monster birthed from a high concentration of Anemo that can float in the air.\nAs reason might dictate, monsters made from coalesced Anemo already come equipped with the ability to float. As such, their petal-like wings are most likely to be a mimetic organ first and foremost.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Anemo_Specter.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "Immune",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Geo Specter": {
+    "name": "Geo Specter",
+    "desc": "A monster birthed from a high concentration of Geo that can float in the air.\nGeo Specters mimic the fruit of certain plants when their wings are closed together. As such, they are held by some ancient tales to be the fruit of a giant tree in the sky, and are regarded as having mysterious medical value.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Geo_Specter.png",
+    "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "Immune",
+        "10%"
+      ]
+    ]
+  },
+  "Hilichurl": {
+    "name": "Hilichurl",
+    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nThey look very similar to humanity but seem to have lost both their intellect and spirituality. Their presence on the continent has been recorded for over a thousand years, and yet they have neither history nor civilization.\nSince the pitch-black calamity from five hundred years ago, they have begun to spread in large numbers across the land. They are not very strong, and they lack organization, but they nonetheless bring sizable trouble to humans every once in a while.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hilichurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Hilichurl Fighter": {
+    "name": "Hilichurl Fighter",
+    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nIll-tempered warriors for their tribes, they are simple-minded believers in the power of brute force. If their muscles grow strong enough and their strength great enough, then one day they too shall raise up a great shield and become a mitachurl... Or will they?",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hilichurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Hilichurl Berserker": {
+    "name": "Hilichurl Berserker",
+    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nThese hilichurls wield flaming clubs and charge with reckless abandon to chase intruding adventurers off. Most wildfires in the grasslands or forests are not actually caused by a certain special Knight, but due to the actions of these hilichurls.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Pyro Hilichurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Wooden Shield Hilichurl Guard": {
+    "name": "Wooden Shield Hilichurl Guard",
+    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nHilichurl warriors who have wooden shields. These shields are not only sturdy defensive tools but also treasured items within the tribe. According to many reports, hilichurls will often charge at travelers making camp to cook and will snatch their pot lids after chasing them away.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hilichurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Ice Shield Hilichurl Guard": {
+    "name": "Ice Shield Hilichurl Guard",
+    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nHilichurls display a strong sense of adaptability to their surroundings. In icy environments, they come up with ways and means to fashion this hard ice into shields to protect themselves.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hilichurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Rock Shield Hilichurl Guard": {
+    "name": "Rock Shield Hilichurl Guard",
+    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nHardy hilichurls who have congregated in a region where Geo energies are abundant. Their impregnable shields have layers of rocky growths on them.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hilichurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Hilichurl Shooter": {
+    "name": "Hilichurl Shooter",
+    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nHilichurl archers who wield simple crossbows. Hilichurls do not, in truth, possess the craftsmanship needed to build crossbows. As such, it is commonly believed that there is an organization that controls the hilichurls from behind the scenes and furnishes them with equipment and material supplies. The Abyss Mages that often accompany these hilichurls are especially suspicious.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hilichurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Pyro Hilichurl Shooter": {
+    "name": "Pyro Hilichurl Shooter",
+    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nThese archers wield simple crossbows, and their arrowheads are coated with a thin layer of flammable material that can set their targets on fire. El Musk of the previous generation believed that this is an innovation by brighter hilichurls who wished to cook their game after hunting it.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Pyro Hilichurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Electro Hilichurl Shooter": {
+    "name": "Electro Hilichurl Shooter",
+    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nThese archers wield simple crossbows, and their arrowheads are crafted from carved Electro Crystals that will deliver an electric shock upon impact. They say that hilichurl archers of exceptional skill can fire five crossbow bolts at once — a most impressive feat indeed.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Electro Hilichurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Cryo Hilichurl Shooter": {
+    "name": "Cryo Hilichurl Shooter",
+    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nThese archers wield simple crossbows, and unmelting ice shrouds their arrowheads. It is said that wounds caused by these arrowheads heal very slowly, as the cold will slow the circulation of blood.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Cryo Hilichurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Hilichurl Grenadier": {
+    "name": "Hilichurl Grenadier",
+    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nThese sneaky fellows are skilled in the use of Pyro Slimes, using them as weapons to attack intruders. Skilled grenadiers may be able to destroy four wooden dummies in a single throw.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Pyro Hilichurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Electro Hilichurl Grenadier": {
+    "name": "Electro Hilichurl Grenadier",
+    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nElectro Slimes don't seem to have as many applications as Pyro Slimes or Anemo Slimes in the benighted lives of the Hilichurls. Perhaps one day they may discover the flow of Elements between Electro Slime and Mutant Electro Slime and make some great progress... ?",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Electro Hilichurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Cryo Hilichurl Grenadier": {
+    "name": "Cryo Hilichurl Grenadier",
+    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nHilichurls have discovered the use of Cryo Slimes in effectively keeping food fresh. Hilichurls have surprising amounts of wisdom in the practical use of Slimes, whether it be the use of Pyro and Cryo Slimes to make Exploding Barrels, or the use of Anemo Slimes in vehicles... Perhaps this is their way of adapting to their hard lot in life.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Cryo Hilichurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Unusual Hilichurl": {
+    "name": "Unusual Hilichurl",
+    "desc": "\"Homu, homu, mimi domu!\"",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Unusual_Hilichurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Wooden Shieldwall Mitachurl": {
+    "name": "Wooden Shieldwall Mitachurl",
+    "desc": "A muscular hilichurl who has been forged in countless fights.\nThey know how to use Dendro Slimes to create tough shields which they wield in combat.\nWith their powerful muscles, glossy fur, and sturdy, reliable silhouettes, they help the hilichurls withstand the pitiless assaults of adventurers, and they hold a rather exalted rank amongst the tribes.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Mitachurl.png",
+    "type": "Hilichurls",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "30%"
+      ]
+    ]
+  },
+  "Rock Shieldwall Mitachurl": {
+    "name": "Rock Shieldwall Mitachurl",
+    "desc": "A muscular hilichurl that uses a rock as a shield.\nFighting and eating meat are the two most important things to hilichurls, because those are what make them grow stronger.\nAll young hilichurls dream of growing up to become a big and strong mitachurl, because that way they can eat more meat, fight more battles, and wield those (almost) impregnable giant rock shields.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Mitachurl.png",
+    "type": "Hilichurls",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "30%"
+      ]
+    ]
+  },
+  "Ice Shieldwall Mitachurl": {
+    "name": "Ice Shieldwall Mitachurl",
+    "desc": "A muscular hilichurl that uses solid ice as a shield, wielding it in battle.\nReason normally dictates that large creatures that see a lot of action should burn through a great number of calories to sustain themselves. As such, the present-day El Musk has proposed the \"Mitachurl Index.\" This index correlates the percentage of mitachurls within the hilichurl population to the stability and success of hilichurl foraging activity.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Mitachurl.png",
+    "type": "Hilichurls",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "30%"
+      ]
+    ]
+  },
+  "Blazing Axe Mitachurl": {
+    "name": "Blazing Axe Mitachurl",
+    "desc": "Muscular hilichurls who wield large two-handed axes.\nAttacks with large strikes, and will use Pyro Slimes to infuse their axes with Pyro. They are very lethal.\nUsually, repeatedly quenching a weapon the way a Blazing Axe Mitachurl does will decrease the hardness of the metal and cause the axe-head's edge to chip more easily. But such is the strength of the mitachurls that even should the edge disappear altogether, they can still use their axes as hammers.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Mitachurl.png",
+    "type": "Hilichurls",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "30%"
+      ]
+    ]
+  },
+  "Crackling Axe Mitachurl": {
+    "name": "Crackling Axe Mitachurl",
+    "desc": "Muscular hilichurls who wield large, two-handed axes.\nAttacks with large strikes and uses Electro Slimes to infuse their axes with Electro. Their blows are very lethal.\nAxes forged from steel are highly conductive material. The image of those tall and strong Crackling Axe Mitachurls holding their axes up to summon lightning is quite majestic to the hilichurls.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Mitachurl.png",
+    "type": "Hilichurls",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "30%"
+      ]
+    ]
+  },
+  "Thunderhelm Lawachurl": {
+    "name": "Thunderhelm Lawachurl",
+    "desc": "A mysterious \"lord\" of hilichurls that strides through the thunderstorm.\nThis huge hilichurl is referred to as \"Lawa\" by its brethren. Its giant body is so saturated with Electro energy that Elemental Energy seeps through the cracks in its body in the form of Electro Crystal growths.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Thunderhelm_Lawachurl.png",
+    "type": "Hilichurls",
+    "kind": "Elite Enemy",
+    "notes": "Enters \"enraged\" state when shielded, where attacks are increased.",
+    "resistance": [
+      [
+        "10%",
+        "70%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "50%"
+      ]
+    ]
+  },
+  "Frostarm Lawachurl": {
+    "name": "Frostarm Lawachurl",
+    "desc": "A mysterious \"lord\" of hilichurls that stalks the snow and fog.\nThis huge hilichurl is referred to as a \"lawa\" by its brethren. Its body, honed to the very limit, almost seems to blend into its Cryo-filled environment, and its stoic nobility is like that of the frozen northland rivers.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Frostarm_Lawachurl.png",
+    "type": "Hilichurls",
+    "kind": "Elite Enemy",
+    "notes": "Enters \"enraged\" state when shielded, ignoring 80% Physical and Elemental Bonus DMG.",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "70%",
+        "10%",
+        "10%",
+        "10%",
+        "50%"
+      ]
+    ]
+  },
+  "Stonehide Lawachurl": {
+    "name": "Stonehide Lawachurl",
+    "desc": "A mysterious \"lord\" of hilichurls that walks between a thousand peaks.\nThis huge hilichurl is referred to as a \"lawa\" by its brethren. The abundant Geo energies in the environment have become part of their flesh, blood, and skin, which look as if they were chiseled out of mountain rock.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Stonehide_Lawachurl.png",
+    "type": "Hilichurls",
+    "kind": "Elite Enemy",
+    "notes": "Enters \"enraged\" state when shielded, where attacks are increased.",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "70%",
+        "50%"
+      ]
+    ]
+  },
+  "Hydro Samachurl": {
+    "name": "Hydro Samachurl",
+    "desc": "A wizened, mumbling hilichurl, one that chants of the power of Hydro.\nHilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. What sort of life would lead to such simple creatures being able to summon water and rains?",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hydro_Samachurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "50%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Anemo Samachurl": {
+    "name": "Anemo Samachurl",
+    "desc": "A wizened, mumbling hilichurl, one that spreads the message of Anemo.\nHilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. Their ability to command the flowing winds stems from dark, forgotten memories.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Anemo_Samachurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "50%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Electro Samachurl": {
+    "name": "Electro Samachurl",
+    "desc": "A wizened, mumbling Hilichurl, one that prays to Electro.\nHilichurls especially gifted in commanding elements who often reach the zenith of their skill in their twilight years. Since they possess such advanced skill in creating electricity and summoning thunder, you may as well use the crackling sound to compose an elegy.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Electro_Samachurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "50%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Dendro Samachurl": {
+    "name": "Dendro Samachurl",
+    "desc": "A wizened, mumbling hilichurl, one that awakens the might of Dendro.\nHilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. A grudge stirs beneath that mask, and poison ivy sprouts as hateful whispers issue forth from it.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Dendro_Samachurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Cryo Samachurl": {
+    "name": "Cryo Samachurl",
+    "desc": "A wizened, mumbling hilichurl, one that calls upon the bite of Cryo.\nHilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. These shamans remember the frosty chants and are even more skilled in the art of using them to entrap their foes.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Cryo_Samachurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "50%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Geo Samachurl": {
+    "name": "Geo Samachurl",
+    "desc": "A wizened, mumbling hilichurl, one that listens to the strength of Geo.\nHilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. To the persevering mountains, these old hilichurls are but children, but their memories and experiences have guided them towards gaining power over rock and stone.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Geo_Samachurl.png",
+    "type": "Hilichurls",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "50%",
+        "10%"
+      ]
+    ]
+  },
+  "Pyro Abyss Mage": {
+    "name": "Pyro Abyss Mage",
+    "desc": "Abyss creatures who command the power of Pyro in battle.\nFor unknown reasons, Abyss Mages are able to communicate with the hilichurls, thus enabling them to manipulate their minds easily. They say that Abyss Mages utter a long-forgotten language from which they draw magical power.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Pyro_Abyss_Mage.png",
+    "type": "The Abyss",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Hydro Abyss Mage": {
+    "name": "Hydro Abyss Mage",
+    "desc": "Abyss creatures that utilize Hydro energy in battle.\nStories circulate among adventurers that Abyss Mages are at the lowest rung of the Abyss Order's hierarchy and that they roam the various lands to scheme fell deeds of destruction. Though they also often make fun of these Abyss Mages, saying that the most harm they can do is to cause rheumatism or a common cold, their power is not to be underestimated.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hydro_Abyss_Mage.png",
+    "type": "The Abyss",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Electro Abyss Mage": {
+    "name": "Electro Abyss Mage",
+    "desc": "Abyss creatures that utilize Electro in battles.\nWhile studying at the Academia, researcher Alva Nikola once conducted a systematic study of the methods by which Electro Abyss Mages manipulate Electro and came up with a theoretical weapon known as the Nikola Coil. However, it has yet to be put into practice. Some say that his research materials were eaten during a fungal infestation.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Electro_Abyss_Mage.png",
+    "type": "The Abyss",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Cryo Abyss Mage": {
+    "name": "Cryo Abyss Mage",
+    "desc": "Abyss creatures that call upon Cryo in battle.\nThough they dabble with great power and can even create icicles by condensing and freezing water vapor in the atmosphere, their bodies are very vulnerable in and of themselves. Once their protective barrier has been broken, they are at your mercy.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Cryo_Abyss_Mage.png",
+    "type": "The Abyss",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Abyss Herald: Wicked Torrents": {
+    "name": "Abyss Herald: Wicked Torrents",
+    "desc": "Servants of the Abyss Order that use Hydro in combat.\nThese silent figures are the vanguard of the Abyss, brandishing Tidal Blades that can engulf everything in an instant, crumpling armor and obliterating heretics. They shall bring preordained damnation upon the foolish masses.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Abyss_Herald_Wicked_Torrents.png",
+    "type": "The Abyss",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Abyss Lector: Violet Lightning": {
+    "name": "Abyss Lector: Violet Lightning",
+    "desc": "A monster who serves the Abyss Order and commands lightning while singing the praises of the darkness.\nThese are the evangelists and the scholars of the Abyss. Their violent lightning strikes the hearts of unbelievers with dark wisdom, warped by the shadowy depths of an eternal night, its violet glow proclaiming the existence of a great power that corrodes human intellect.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Abyss_Lector_Violet_Lightning.png",
+    "type": "The Abyss",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Rockfond Rifthound Whelp": {
+    "name": "Rockfond Rifthound Whelp",
+    "desc": "A beast with monstrous blood that is capable of eroding the boundaries of the world. \"Gold\" classified them as \"Alfisol.\"\nThey follow the encroaching abyss to devour the elements. Fortunately, there are few of them left now in this world.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Rockfond_Rifthound_Whelp.png",
+    "type": "The Abyss",
+    "kind": "Elite Enemy",
+    "notes": "Enters \"Devour\" phase when rage meter is filled (triggered by attacking with Geo).",
+    "resistance": [
+      [
+        "20%",
+        "20%",
+        "20%",
+        "20%",
+        "20%",
+        "20%",
+        "20%",
+        "Normal"
+      ],
+      [
+        "20%",
+        "20%",
+        "20%",
+        "20%",
+        "20%",
+        "-10%",
+        "20%",
+        "Devour"
+      ]
+    ]
+  },
+  "Thundercraven Rifthound Whelp": {
+    "name": "Thundercraven Rifthound Whelp",
+    "desc": "A beast with monstrous blood that is capable of eroding the boundaries of the world. \"Gold\" classified them as \"Alfisol.\"\nThe previous eras, when giant monstrous beasts descended, large swarms of these hounds would go before them to deliquesce the borders of the world and open the way.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Thundercraven_Rifthound_Whelp.png",
+    "type": "The Abyss",
+    "kind": "Elite Enemy",
+    "notes": "Enters \"Devour\" phase when rage meter is filled (triggered by attacking with Electro).",
+    "resistance": [
+      [
+        "20%",
+        "20%",
+        "20%",
+        "20%",
+        "20%",
+        "20%",
+        "20%",
+        "Normal"
+      ],
+      [
+        "20%",
+        "-10%",
+        "20%",
+        "20%",
+        "20%",
+        "20%",
+        "20%",
+        "Devour"
+      ]
+    ]
+  },
+  "Rockfond Rifthound": {
+    "name": "Rockfond Rifthound",
+    "desc": "A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by \"Gold.\"\nThey do display certain biological behaviors similar to those of real wolves. Perhaps they feel jealousy towards these their \"next of kin,\" and dream of replacing them someday.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Rockfond_Rifthound.png",
+    "type": "The Abyss",
+    "kind": "Elite Enemy",
+    "notes": "Enters \"Devour\" phase when rage meter is filled (triggered by attacking with Geo).",
+    "resistance": [
+      [
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "Normal"
+      ],
+      [
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "-40%",
+        "25%",
+        "Devour"
+      ]
+    ]
+  },
+  "Thundercraven Rifthound": {
+    "name": "Thundercraven Rifthound",
+    "desc": "A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by \"Gold.\"\nOnce upon a time, they ran riot across the continent, but they went extinct for a time due to resistance and mass hunts. Recently, however, they have re-emerged. The pack of black wolves that now threaten Springvale and Wolvendom are such creatures.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Thundercraven_Rifthound.png",
+    "type": "The Abyss",
+    "kind": "Elite Enemy",
+    "notes": "Enters \"Devour\" phase when rage meter is filled (triggered by attacking with Electro).",
+    "resistance": [
+      [
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "Normal"
+      ],
+      [
+        "25%",
+        "-40%",
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "Devour"
+      ]
+    ]
+  },
+  "Golden Wolflord": {
+    "name": "Golden Wolflord",
+    "desc": "Hailing from a dark world, this ruler of the black wolves has the power to call upon its followers, its hidden claws, to dissolve space itself and forge a rift through which it may enter.\nThe Wolflord has no name, for it was but one of \"Gold\"'s unintentional creations, and that is precisely why it is obsessed with invading worlds that do not belong to it and making a name for itself.\nThat said, the wolf pack is far from unintelligent. After suffering a defeat in its previous invasion, a deserted island where no humans or protectors dwell has been selected for them to prepare for their lord's descent.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Golden_Wolflord.png",
+    "type": "The Abyss",
+    "kind": "Normal Boss",
+    "resistance": [
+      [
+        "225%",
+        "225%",
+        "225%",
+        "225%",
+        "225%",
+        "225%",
+        "225%",
+        "Start"
+      ],
+      [
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "Normal"
+      ],
+      [
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "-20%",
+        "25%",
+        "Fallen"
+      ]
+    ]
+  },
+  "Fatui Skirmisher - Pyroslinger Bracer": {
+    "name": "Fatui Skirmisher - Pyroslinger Bracer",
+    "desc": "A Fatui soldier who wields a flaming gun.\nSkirmisher weapons can control the elements to a certain extent, and their combat tactics utilize elemental reactions.\nTheir ordnance and knowledge of squad-based combat thus constitute no small threat in battle.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Fatui_Skirmisher_Pyroslinger_Bracer.png",
+    "type": "Fatui",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%",
+        "Normal"
+      ],
+      [
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "80%",
+        "Shielded"
+      ]
+    ]
+  },
+  "Fatui Skirmisher - Hydrogunner Legionnaire": {
+    "name": "Fatui Skirmisher - Hydrogunner Legionnaire",
+    "desc": "A soldier encased within a Fatui war machine.\nArmed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of water.\nThese skirmishers do not question if they shall live or die as they advance into nations far from home to complete advance missions and lay the groundwork for operations to come.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Fatui_Skirmisher_Hydrogunner_Legionnaire.png",
+    "type": "Fatui",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%",
+        "Normal"
+      ],
+      [
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "80%",
+        "Shielded"
+      ]
+    ]
+  },
+  "Fatui Skirmisher - Anemoboxer Vanguard": {
+    "name": "Fatui Skirmisher - Anemoboxer Vanguard",
+    "desc": "A skirmisher armed with the ability to manipulate Anemo and heal their comrades.\nThey departed from their motherland and did so for its sake. They left their family, yet gained allies to stick through thick and thin with.\n—Perhaps such thoughts are what get them through the unscrupulous work that their missions entail.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Fatui_Skirmisher_Anemoboxer_Vanguard.png",
+    "type": "Fatui",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%",
+        "Normal"
+      ],
+      [
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "80%",
+        "Shielded"
+      ]
+    ]
+  },
+  "Fatui Skirmisher - Electrohammer Vanguard": {
+    "name": "Fatui Skirmisher - Electrohammer Vanguard",
+    "desc": "A sturdily-built skirmisher armed with an Electro-powered war-hammer.\nAs a Fatui soldier, one has access to munificent resources: salaries, armaments, and supplies.\nBut at the same time, it also means much time away from home and family and putting one's life in the hands of comrades one has never met.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Fatui_Skirmisher_Electrohammer_Vanguard.png",
+    "type": "Fatui",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%",
+        "Normal"
+      ],
+      [
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "80%",
+        "Shielded"
+      ]
+    ]
+  },
+  "Fatui Skirmisher - Cryogunner Legionnaire": {
+    "name": "Fatui Skirmisher - Cryogunner Legionnaire",
+    "desc": "A soldier encased within a Fatui war machine.\nArmed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of frost.\nThough this may confer elemental power beyond the ken of ordinary humans, that power may yet come at a price...",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Fatui_Skirmisher_Cryogunner_Legionnaire.png",
+    "type": "Fatui",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%",
+        "Normal"
+      ],
+      [
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "80%",
+        "Shielded"
+      ]
+    ]
+  },
+  "Fatui Skirmisher - Geochanter Bracer": {
+    "name": "Fatui Skirmisher - Geochanter Bracer",
+    "desc": "A skirmisher with the ability to generate a Geo Shield and defend their allies.\nUnlike the elite Mages and Agents, Fatui Skirmishers are soldiers of lesser individual might.\nTo complete their tasks and reduce losses in men and materiel, their tactics are thus more reliant on teamwork.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Fatui_Skirmisher_Geochanter_Bracer.png",
+    "type": "Fatui",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%",
+        "Normal"
+      ],
+      [
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "80%",
+        "Shielded"
+      ]
+    ]
+  },
+  "Fatui Pyro Agent": {
+    "name": "Fatui Pyro Agent",
+    "desc": "A Fatui secret agent.\nThe duty of a Fatui agent is to settle debts — but not only those of a monetary or goods-in-kind nature.\nThey also ensure dues are paid when it comes to the principle of \"an eye for an eye.\" If there is one thing the Fatui are not known for, it is leniency, and whoever dares to oppose them will invoke the full force of their wrath.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Fatui_Pyro_Agent.png",
+    "type": "Fatui",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "50%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Fatui Electro Cicin Mage": {
+    "name": "Fatui Electro Cicin Mage",
+    "desc": "A Fatui mage who can command Electro Cicins in battle. Their origins and what they look like under that mask are both mysteries.\nSimilarly to the way that Electro Cicins go crazy for Mist Grass, Cicin Mages take great pleasure in toying with their prey.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Fatui_Electro_Cicin_Mage.png",
+    "type": "Fatui",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "50%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Fatui Cryo Cicin Mage": {
+    "name": "Fatui Cryo Cicin Mage",
+    "desc": "A Fatui mage who can command Cryo Cicins in battle. Their origins and what they look like under that mask are both mysteries.\nReason dictates that those who lack Visions should not be able to control the elements as these mages do. However, in addition to using Mist Grass to control the Cryo Cicins, they also boldly wield the might of frost. Seeing them as they wander the land in their seemingly aimless way, one can't help but wonder about the duty that must compel them...",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Fatui_Cryo_Cicin_Mage.png",
+    "type": "Fatui",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "50%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Mirror Maiden": {
+    "name": "Mirror Maiden",
+    "desc": "A Fatui mage who can command a Hydro Mirror in battle. Her posture is highly dignified, as if she is one who worships a god.\nThe Hydro Mirror she manipulates lures those enchanted by her to willingly fall for her illusion. Nothing seems to escape her ears. No one knows what those covered eyes have seen, nor what kind of obsession might be reflected in them...",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Mirror_Maiden.png",
+    "type": "Fatui",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "50%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Ruin Guard": {
+    "name": "Ruin Guard",
+    "desc": "An ancient humanoid war machine.\nLegend has it that these machines were combat automatons created by a long-destroyed nation. They now wander ruins and ancient detritus, attacking offending travelers. Research indicates that the Ruin Guards and the ruins they operate in do not originate from the same source, suggesting that there may be a difference of as much as several thousand years between them on the timeline. So why then do the Ruin Guards continue staying among these ruins, using their \"explosive firepower\" to protect the crumbling walls and broken tiles?",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Ruin_Guard.png",
+    "type": "Automatons",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "70%"
+      ]
+    ]
+  },
+  "Ruin Hunter": {
+    "name": "Ruin Hunter",
+    "desc": "A giant alien-looking war machine.\nThey are said to be remnants from a lost ancient nation. It seems that the creators opted to forgo the low-performing humanoid-design in pursuit of improved combat effectiveness. They are extremely dangerous both in melee and ranged combat.\nConsidering these mere relics possess such extraordinary power, one cannot help but wonder what the civilization that produced them must have looked like at its height.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Ruin_Hunter.png",
+    "type": "Automatons",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "50%"
+      ]
+    ]
+  },
+  "Ruin Grader": {
+    "name": "Ruin Grader",
+    "desc": "An ancient humanoid war machine.\nTheir form is similar to that of Ruin Guards, but is more distorted and more powerful. Energy cores have been installed in both its legs, as though to power its overly heavy form.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Ruin_Grader.png",
+    "type": "Automatons",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "70%"
+      ]
+    ]
+  },
+  "Ruin Cruiser": {
+    "name": "Ruin Cruiser",
+    "desc": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.\nLegend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their forms have greater value in the study of biomimesis. The inspiration for its decentralized design and combat modes seem to have come from honeybee colonies, rendering it able to change forms and to attack from different directions.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Ruin_Cruiser.png",
+    "type": "Automatons",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "30%"
+      ]
+    ]
+  },
+  "Ruin Destroyer": {
+    "name": "Ruin Destroyer",
+    "desc": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.\nLegend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. The giant crown, composed of several parts, looks like some sort of frightening plant. One wonders what one has to go through in order to design such scary machine.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Ruin_Destroyer.png",
+    "type": "Automatons",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "30%"
+      ]
+    ]
+  },
+  "Ruin Defender": {
+    "name": "Ruin Defender",
+    "desc": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.\nLegend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. The insect-like limbs are more agile than those of humanoid machines. The shield formed by its various components can resist any frontal attack.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Ruin_Defender.png",
+    "type": "Automatons",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "50%"
+      ]
+    ]
+  },
+  "Ruin Scout": {
+    "name": "Ruin Scout",
+    "desc": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.\nLegend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. Exactly why the form and movements of certain deep-sea lifeforms are being imitated is not known. But either way, tangling with them is hardly the best idea.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Ruin_Scout.png",
+    "type": "Automatons",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "50%"
+      ]
+    ]
+  },
+  "Perpetual Mechanical Array": {
+    "name": "Perpetual Mechanical Array",
+    "desc": "A strange, alien machine.\nThey say that it is a war machine left behind by a nation that has already been destroyed. Composed of several different parts, it can adapt to its combat environment and employ a variety of attacks.\nThis machine, comprised of cubic shapes, is on some level very much like the elemental hypostases.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Perpetual_Mechanical_Array.png",
+    "type": "Automatons",
+    "kind": "Normal Boss",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "70%",
+        "Normal"
+      ],
+      [
+        "-40%",
+        "-40%",
+        "-40%",
+        "-40%",
+        "-40%",
+        "-40%",
+        "20%",
+        "Stunned"
+      ]
+    ]
+  },
+  "Maguu Kenki": {
+    "name": "Maguu Kenki",
+    "desc": "An disciplined mechanical swordsman.\nDoesn't seem to have the ability nor will to speak, but instead only seeks to communicate with crossed swords.\nIt is said that this machine was made using the memories of the first-generation master of a certain sword school. However, it malfunctioned, lost control, and was ultimately discarded.\nSome sing that the machine's spirit still lingers in the place where its fate was ended. They also say that the vicious mask that serves as its guard was inspired by a famous oni from that era.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Maguu_Kenki.png",
+    "type": "Automatons",
+    "kind": "Normal Boss",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Treasure Hoarders - Scout": {
+    "name": "Treasure Hoarders - Scout",
+    "desc": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nTheirs is the legwork and the tailing of targets. They usually wind up in criminal circles due to poverty or lack of education, but they don't seem to have gotten any richer after choosing a life of crime...",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Treasure_Hoarders_Scout.png",
+    "type": "Other Human Factions",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Treasure Hoarders: Pyro Potioneer": {
+    "name": "Treasure Hoarders: Pyro Potioneer",
+    "desc": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nRisk-takers who utilize their knowledge of chemistry to mix volatile and flammable brews that aid in their comrades' dastardly deeds.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Treasure_Hoarders_Pyro_Potioneer.png",
+    "type": "Other Human Factions",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Treasure Hoarders: Hydro Potioneer": {
+    "name": "Treasure Hoarders: Hydro Potioneer",
+    "desc": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nThey say that some Treasure Hoarder Potioneers used to be charlatans who would wander villages, towns, and cities, hawking their special blends of elixirs, holy waters, and the like. These cure-alls certainly seem to serve better in combat than they ever did in chicanery.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Treasure_Hoarders_Hydro_Potioneer.png",
+    "type": "Other Human Factions",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Treasure Hoarders: Electro Potioneer": {
+    "name": "Treasure Hoarders: Electro Potioneer",
+    "desc": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\n\"Potioneer\" is the nickname given to members of the Treasure Hoarder organization who know how to brew up dangerous chemicals.\n**\"What? Did you think this treasure has 'Adventurers' Guild' written all over it or something?\"**\n—A certain Treasure Hoarder Potioneer during a confrontation with adventurers",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Treasure_Hoarders_Electro_Potioneer.png",
+    "type": "Other Human Factions",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Treasure Hoarders: Cryo Potioneer": {
+    "name": "Treasure Hoarders: Cryo Potioneer",
+    "desc": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nCryo Potioneers are quite the welcome sight amongst the Treasure Hoarders due to their elixirs having the ability to rapidly cool things down. Even out in the wild where there are no Mist Flowers to be found, they can have some cold liquor to make merry with.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Treasure_Hoarders_Cryo_Potioneer.png",
+    "type": "Other Human Factions",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Treasure Hoarders: Handyman": {
+    "name": "Treasure Hoarders: Handyman",
+    "desc": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nThese members do physical work and are lower on the pecking order. They are often laughed at for their physique — but when the gang comes under attack, they get a chance to show their unexpectedly high strength and agility.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Treasure_Hoarders_Handyman.png",
+    "type": "Other Human Factions",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Treasure Hoarders - Marksman": {
+    "name": "Treasure Hoarders - Marksman",
+    "desc": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nThough they are called \"marksmen,\" this name has an undercurrent of mockery to it, as they use crossbows instead of bows, which require a long period of training to use. It must be said that even hilichurls know how to operate a crossbow. Just point the wider end at the enemy, pull the trigger, and bam — that's all there is to it.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Treasure_Hoarders_Marksman.png",
+    "type": "Other Human Factions",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Treasure Hoarders: Gravedigger": {
+    "name": "Treasure Hoarders: Gravedigger",
+    "desc": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\n**\"They say that we stand on the shoulders of giants. That means digging up the accumulated wealth of our forebears, taking them with us, and... uh, returning them to the economic cycle! What a noble endeavor, am I right?\"**\n—A certain Treasure Hoarder Gravedigger, while delving deep into a ruin.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Treasure_Hoarders_Gravedigger.png",
+    "type": "Other Human Factions",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Treasure Hoarders - Seaman": {
+    "name": "Treasure Hoarders - Seaman",
+    "desc": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\n**\"Stealing? What do you mean, stealing? It's re-discovery, I tell you — the return of treasure to those who appreciate it! Makes everyone happy, to boot! How great is that, eh?\"**\n—A certain Treasure Hoarder Seaman, in response to a question posed by a doubtful recruit",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Treasure_Hoarders_Seaman.png",
+    "type": "Other Human Factions",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Treasure Hoarders - Pugilist": {
+    "name": "Treasure Hoarders - Pugilist",
+    "desc": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nPassionate about battle and muscles, they are quite picky about food and will often boast of the benefits of having a fine musculature, leading to some dissatisfaction from their fellow Treasure Hoarders.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Treasure_Hoarders_Pugilist.png",
+    "type": "Other Human Factions",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Treasure Hoarders - Crusher": {
+    "name": "Treasure Hoarders - Crusher",
+    "desc": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nThis person was originally a miner — one who, even with the allowance they were provided with after the closure of the Chasm, ended up with the Treasure Hoarders for various reasons.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Treasure_Hoarders_Crusher.png",
+    "type": "Other Human Factions",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Nobushi: Jintouban": {
+    "name": "Nobushi: Jintouban",
+    "desc": "Samurai who have fallen into banditry. Though they are called the Nobushi, they do not have a centralized organization.\nHaving pursued the path of a martial artist for a long time, they possess highly advanced sword skills but no longer use them for good.\nSometimes, they even collude with the Treasure Hoarders or Fatui out of a greed for wealth — or simply to survive.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Nobushi_Jintouban.png",
+    "type": "Other Human Factions",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Nobushi: Hitsukeban": {
+    "name": "Nobushi: Hitsukeban",
+    "desc": "Samurai who have fallen into banditry. Though they are called the Nobushi, they do not have a centralized organization.\nThey not only possess highly advanced sword skills, but can also carry out flame powder attacks using the elements. Objectively speaking, perhaps this method of winning goes against the path of a martial artist.\nSometimes they even collude with the Treasure Hoarders or Fatui out of a greed for wealth — or simply to survive.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Nobushi_Hitsukeban.png",
+    "type": "Other Human Factions",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Nobushi: Kikouban": {
+    "name": "Nobushi: Kikouban",
+    "desc": "Samurai who have fallen into banditry. Though they are called the Nobushi, they do not have a centralized organization.\nThey possess highly-advanced sword skills and also use crossbows to ambush opponents, using any means to win. Those who have abandoned the title of a martial artist often abandon their dignity as well.\nSometimes they even collude with the Treasure Hoarders or Fatui out of a greed for wealth — or simply to survive.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Nobushi_Kikouban.png",
+    "type": "Other Human Factions",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Kairagi: Fiery Might": {
+    "name": "Kairagi: Fiery Might",
+    "desc": "Samurai who have fallen into banditry.\nThey practiced martial arts since they were young, but lost the opportunity to serve the people due to certain reasons and turned from the righteous path. Their blade's edges are not cold like ordinary steel, but instead burn with a bitter flame. They seem to have used paper seals, created from a lost Kamuna art, to set their blades afire.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Kairagi_Fiery_Might.png",
+    "type": "Other Human Factions",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "60%",
+        "60%",
+        "60%",
+        "60%",
+        "60%",
+        "60%",
+        "30%",
+        "Start"
+      ],
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%",
+        "Normal"
+      ]
+    ]
+  },
+  "Kairagi: Dancing Thunder": {
+    "name": "Kairagi: Dancing Thunder",
+    "desc": "Samurai who have fallen into banditry.\nThey possess highly advanced martial art skills but found no use for them for various reasons. Out of desperation, they have fallen onto the path of evil. They use paper seals, created from a Kamuna art that has been lost for centuries, to infuse their blades with the power of lightning.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Kairagi_Dancing_Thunder.png",
+    "type": "Other Human Factions",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "60%",
+        "60%",
+        "60%",
+        "60%",
+        "60%",
+        "60%",
+        "30%",
+        "Start"
+      ],
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%",
+        "Normal"
+      ]
+    ]
+  },
+  "Pyro Whopperflower": {
+    "name": "Pyro Whopperflower",
+    "desc": "A mimetic plant monster that attacks without warning and uses Pyro to hunt its prey.\nThe world of Teyvat plays host to plants infused with the elements. Having gained a measure of intellect, their \"nutritional needs\" have also greatly increased...",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Pyro_Whopperflower.png",
+    "type": "Mystical Beasts",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "75%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "Normal"
+      ],
+      [
+        "50%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "Stunned"
+      ]
+    ]
+  },
+  "Electro Whopperflower": {
+    "name": "Electro Whopperflower",
+    "desc": "Energetic mimetic Plant monsters that use Electro to attack their prey.\nWhen fully-charged with Electro energy, they can unleash a strong electric current from their crowns. As such, some researchers have tried to apply them in other areas...",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Electro_Whopperflower.png",
+    "type": "Mystical Beasts",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "35%",
+        "75%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "Normal"
+      ],
+      [
+        "10%",
+        "50%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "Stunned"
+      ]
+    ]
+  },
+  "Cryo Whopperflower": {
+    "name": "Cryo Whopperflower",
+    "desc": "A mimetic plant monster that appears out of nowhere and uses Cryo in combat.\nThese plants lurk under the surface and ambush unsuspecting prey. With the passage of years, sufficient nutrition, and the right environment, it could even take root somewhere and grow into a giant Cryo Regisvine...",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Cryo_Whopperflower.png",
+    "type": "Mystical Beasts",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "35%",
+        "35%",
+        "75%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "Normal"
+      ],
+      [
+        "10%",
+        "10%",
+        "50%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "Stunned"
+      ]
+    ]
+  },
+  "Pyro Regisvine": {
+    "name": "Pyro Regisvine",
+    "desc": "A giant vine that has absorbed the ancient flame that rages within the ley lines.\nIt is restless as if filled with endless fury.\nPoets, bards, and even some academics believe that elements also contain emotions and hopes. If this is true, then one can only wonder what emotions cause the Pyro Regisvine to burn eternally, writhing like one longing to be free of the confines of the earth...",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Pyro_Regisvine.png",
+    "type": "Mystical Beasts",
+    "kind": "Normal Boss",
+    "resistance": [
+      [
+        "170%",
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "110%",
+        "130%",
+        "Shield up"
+      ],
+      [
+        "70%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "30%",
+        "Shield down"
+      ]
+    ]
+  },
+  "Cryo Regisvine": {
+    "name": "Cryo Regisvine",
+    "desc": "A monster formed from a vine that was imbued with the essence of biting frost within the ley lines.\nSome studies suggest that plants are like the organs of the world, harmonizing the turbulent elemental energies of the ley lines. Concrete examples of this phenomena are Mist Flowers, Whopperflowers, and the like, which brim over with elemental energy.\nIn certain circumstances, certain plants will turn into creatures of monstrous size and intent — such as the Cryo Regisvines — in the course of many years.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Cryo_Regisvine.png",
+    "type": "Mystical Beasts",
+    "kind": "Normal Boss",
+    "resistance": [
+      [
+        "110%",
+        "110%",
+        "170%",
+        "110%",
+        "110%",
+        "110%",
+        "130%",
+        "Shield up"
+      ],
+      [
+        "10%",
+        "10%",
+        "70%",
+        "10%",
+        "10%",
+        "10%",
+        "30%",
+        "Shield down"
+      ]
+    ]
+  },
+  "Geovishap Hatchling": {
+    "name": "Geovishap Hatchling",
+    "desc": "A young vishap with a hard Geo exoskeleton.\nVishaps are exceptionally agile creatures that one would be wise not to underestimate in battle. Experts from Sumeru Academia believe that they become dragons when fully grown. By avoiding predators and natural disasters, perhaps they can even live long enough to become formidable beasts that reign over entire mountains.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Geovishap_Hatchling.png",
+    "type": "Mystical Beasts",
+    "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "50%",
+        "30%"
+      ]
+    ]
+  },
+  "Geovishap": {
+    "name": "Geovishap",
+    "desc": "A mature Geovishap.\nIt is said that after many years have passed, Geovishap Hatchlings will shed the armor that originally protected them and become Geovishaps. However, these two and the older, greater Primo Geovishaps have spent many years hibernating under the mountains, and have only emerged and become active in recent times. As such, none can personally attest to having witnessed or recorded such a thing in person.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Geovishap.png",
+    "type": "Mystical Beasts",
+    "kind": "Elite Enemy",
+    "notes": "Increases Elemental RES by +20% of infused element when infused.",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "50%",
+        "30%"
+      ]
+    ]
+  },
+  "Primo Geovishap": {
+    "name": "Primo Geovishap",
+    "desc": "After many years, the awesomely powerful Primo Geovishaps grow accustomed to changes in their elemental environment.\nFolktales hold that after the great \"draconic calamity\" that led to the ruination of Tianqiu Valley, the overlord of the Geovishaps and Primo Geovishaps was imprisoned deep beneath the earth, and so too did they burrow into deep and unseen places, awaiting their chance to rise once more...",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Primo_Geovishap.png",
+    "type": "Mystical Beasts",
+    "kind": "Normal Boss",
+    "notes": "Increases Elemental RES by +20% of infused element when infused.\nAll RES decreased by 50% for 5 seconds after reflecting Primordial Shower skill.",
+    "resistance": [
+      [
+        "210%",
+        "210%",
+        "210%",
+        "210%",
+        "210%",
+        "250%",
+        "230%",
+        "Start"
+      ],
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "50%",
+        "30%",
+        "Normal"
+      ]
+    ]
+  },
+  "Hydro Cicin": {
+    "name": "Hydro Cicin",
+    "desc": "Little creatures that can ever so slightly manipulate Hydro.\nThey and other such creatures are known collectively as Cicins, and they truly adore the rare and wonderful Mist Grass plant. It is by exploiting this relationship that the Fatui Mages have sought to commandeer Cicins in battle.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hydro_Cicin.png",
+    "type": "Mystical Beasts",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "50%",
+        "10%",
+        "10%",
+        "-50%"
+      ]
+    ]
+  },
+  "Electro Cicin": {
+    "name": "Electro Cicin",
+    "desc": "Little creatures that can ever so slightly manipulate Electro.\nThey and other such creatures are known collectively as Cicins, and though they are individually weak, they can cause significant damage under the right circumstances.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Electro_Cicin.png",
+    "type": "Mystical Beasts",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "50%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-50%"
+      ]
+    ]
+  },
+  "Cryo Cicin": {
+    "name": "Cryo Cicin",
+    "desc": "Little creatures that can ever so slightly manipulate Cryo.\nThey and other such creatures are known collectively as Cicins. They are individually very weak, but it is precisely because they are weak that they have evolved unique methods of movement that allow them to avoid predators.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Cryo_Cicin.png",
+    "type": "Mystical Beasts",
+    "kind": "Common Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "50%",
+        "10%",
+        "10%",
+        "10%",
+        "-50%"
+      ]
+    ]
+  },
+  "Stormterror": {
+    "name": "Stormterror",
+    "desc": "One of The Four Winds of Mondstadt: Dvalin, the Dragon of the East.\nWith the passage of long years and amid boundless darkness, even the purest gem will become dulled by dust, and even the noble dragon might be corrupted and cankered by hatred.\nBut never forget that dust can be wiped away, and the power of doubt and poison can be shattered.\n\n**\"Fly freely in the sky.**\n**\"Just like you did in those days when we met, when I walked upon this land and sang the songs of the wind,**\n**\"And you soared on high, looking down on the world from above.**\n**\"Today, the sky is no longer swept by wind and snow. The green grass grows all over the earth, and it is beautiful.**\n**\"If you too could walk the earth and listen to the songs of shepherds and the scattered sound of wind chimes in the distance, if you could have tasted wine as sweet as honey, you would understand.**\n**\"How wonderful it would have been if you were as I, witnessing your noble, beautiful form as you soared through the blue sky.**\n**\"Then you would know that this sky and this earth are both things worth fighting for.\"**",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Stormterror.png",
+    "type": "Enemies of Note",
+    "kind": "Weekly Boss",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Lupus Boreas, Dominator of Wolves": {
+    "name": "Lupus Boreas, Dominator of Wolves",
+    "desc": "The noblest and greatest of souls, who watches over the lupical of Wolvendom.\nWhen the wolfpack is imperiled, it will emerge in the form of a wolf and show forth its fangs and claws.\n\nThe wolves of Wolvendom are frightening phantoms to the people of Mondstadt:\nA blurred shape flashing through the forest, a chilling howl in the indeterminate distance, the creeping sense of eyes constantly nailed to their backs...\nHumans rarely have the opportunity to lock their eyes with a wolf, for this is the law Lupus Boreas laid down for its race.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Lupus_Boreas_Dominator_of_Wolves.png",
+    "type": "Enemies of Note",
+    "kind": "Weekly Boss",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "Immune",
+        "10%",
+        "Immune",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Childe": {
+    "name": "Childe",
+    "desc": "\"Childe\" Tartaglia, Eleventh of the Fatui Harbingers.\nHe draws power from the ominous Delusion he possesses and fights using martial arts that he learned in a land of darkness.\n\nHe is a pure warrior with an insatiable lust for battle.\nEach bloody conflict, each life-and-death struggle is a delightful trial to him.\nPeople say that the young Childe is famed throughout the land for his battle prowess.\nBut he has never taken big talk of this kind to heart.\n\nAfter all...\n**\"You shall ever be the eye of the storm,**\n**\"And the clashing of steel shall ever accompany you.**\n**\"The pitch-black memory of stepping into uttermost darkness,**\n**\"Shall, at last, become the strength by which you will overturn this world.\"**",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Childe.png",
+    "type": "Enemies of Note",
+    "kind": "Weekly Boss",
+    "resistance": [
+      [
+        "0%",
+        "0%",
+        "0%",
+        "50%",
+        "0%",
+        "0%",
+        "0%",
+        "Phase 1"
+      ],
+      [
+        "-30%",
+        "-30%",
+        "-30%",
+        "20%",
+        "-30%",
+        "-30%",
+        "-30%",
+        "Phase 1 stunned"
+      ],
+      [
+        "0%",
+        "50%",
+        "0%",
+        "0%",
+        "0%",
+        "0%",
+        "0%",
+        "Phase 2"
+      ],
+      [
+        "-50%",
+        "0%",
+        "-50%",
+        "-50%",
+        "-50%",
+        "-50%",
+        "-50%",
+        "Phase 2 stunned"
+      ],
+      [
+        "0%",
+        "70%",
+        "0%",
+        "70%",
+        "0%",
+        "0%",
+        "0%",
+        "Phase 3"
+      ]
+    ]
+  },
+  "Azhdaha": {
+    "name": "Azhdaha",
+    "desc": "An enormous dragon as ancient as the mountains themselves.\nIn an age that has all but faded from memory, he stood shoulder to shoulder with one who ruled over a harbor of stone. But in the end, the two came into conflict, and the dragon was banished to a dark place deep underground. Over the long years of his imprisonment, his power has slowly dissipated. He has also become disfigured from the various kinds of erosion he has been subjected to.\nThe faint rattling of this dragon lord's shackles and his deep, angry growl echo through the bowels of the mountains like memories of a bygone era.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Azhdaha.png",
+    "type": "Enemies of Note",
+    "kind": "Weekly Boss",
+    "notes": "Increases Elemental RES by +60% of first infused element when infused.\nIncreases Elemental RES by +50% of second infused element when infused.",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "70%",
+        "40%"
+      ]
+    ]
+  },
+  "La Signora": {
+    "name": "La Signora",
+    "desc": "Signora, the Eighth of the Fatui Harbingers.\nUnlike other Fatui who use the authority granted by Delusions, her Delusion is meant to shackle a flame that will devour everything. As opposed to a weapon used to kill, it might be more fitting to consider this a tool of imprisonment.\nAnd it was the embers of that flame, which had accumulated over many long years, that would break through the frosty seal of the Delusion and apply a warped rouge upon her.\n\nThe crimson dawn was reflected in her pupils, and at last, she unfolded her flaming wings and flew towards the light.\n**\"But that light is not the dawn, dear Rosalyne. That is a sea of flame that will consume everything.\"**\nA voice spoke to her amidst the light.\n\nYet it mattered not, for she knew in her heart that the flames had devoured her long ago.",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/La_Signora.png",
+    "type": "Enemies of Note",
+    "kind": "Weekly Boss",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "50%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "Phase 1"
+      ],
+      [
+        "70%",
+        "10%",
+        "50%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "Phase 2"
+      ]
+    ]
+  },
+  "Hydro Mimic Boar": {
+    "name": "Hydro Mimic Boar",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hydro_Mimic.png",
+    "kind": "Unique Enemy",
+    "resistance": [
+      [
+        "-40%",
+        "15%",
+        "15%",
+        "Immune",
+        "15%",
+        "15%",
+        "15%"
+      ]
+    ]
+  },
+  "Hydro Mimic Crane": {
+    "name": "Hydro Mimic Crane",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hydro_Mimic.png",
+    "kind": "Unique Enemy",
+    "resistance": [
+      [
+        "15%",
+        "-40%",
+        "15%",
+        "Immune",
+        "15%",
+        "15%",
+        "15%"
+      ]
+    ]
+  },
+  "Hydro Mimic Crab": {
+    "name": "Hydro Mimic Crab",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hydro_Mimic.png",
+    "kind": "Unique Enemy",
+    "resistance": [
+      [
+        "15%",
+        "15%",
+        "-40%",
+        "Immune",
+        "15%",
+        "15%",
+        "15%"
+      ]
+    ]
+  },
+  "Hydro Mimic Finch": {
+    "name": "Hydro Mimic Finch",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hydro_Mimic.png",
+    "kind": "Unique Enemy",
+    "resistance": [
+      [
+        "15%",
+        "15%",
+        "15%",
+        "Immune",
+        "15%",
+        "-40%",
+        "15%"
+      ]
+    ]
+  },
+  "Hydro Mimic Mallard": {
+    "name": "Hydro Mimic Mallard",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hydro_Mimic.png",
+    "kind": "Unique Enemy",
+    "resistance": [
+      [
+        "15%",
+        "15%",
+        "-40%",
+        "Immune",
+        "15%",
+        "15%",
+        "15%"
+      ]
+    ]
+  },
+  "Hydro Mimic Ferret": {
+    "name": "Hydro Mimic Ferret",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hydro_Mimic.png",
+    "kind": "Unique Enemy",
+    "resistance": [
+      [
+        "-40%",
+        "15%",
+        "15%",
+        "Immune",
+        "15%",
+        "15%",
+        "15%"
+      ]
+    ]
+  },
+  "Hydro Mimic Frog": {
+    "name": "Hydro Mimic Frog",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hydro_Mimic.png",
+    "kind": "Unique Enemy",
+    "resistance": [
+      [
+        "15%",
+        "15%",
+        "15%",
+        "Immune",
+        "15%",
+        "-40%",
+        "15%"
+      ]
+    ]
+  },
+  "Hydro Mimic Raptor": {
+    "name": "Hydro Mimic Raptor",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Hydro_Mimic.png",
+    "kind": "Unique Enemy",
+    "resistance": [
+      [
+        "15%",
+        "-40%",
+        "15%",
+        "Immune",
+        "15%",
+        "15%",
+        "15%"
+      ]
+    ]
+  },
+  "Maguu Kenki: Lone Gale": {
+    "name": "Maguu Kenki: Lone Gale",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Maguu_Kenki_Lone_Gale.png",
+    "kind": "Unique Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "30%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Maguu Kenki: Galloping Frost": {
+    "name": "Maguu Kenki: Galloping Frost",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Maguu_Kenki_Galloping_Frost.png",
+    "kind": "Unique Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "30%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Maguu Kenki: Mask of Terror": {
+    "name": "Maguu Kenki: Mask of Terror",
+    "icon": "https://genshin.flatisjustice.moe/img/enemy/Maguu_Kenki_Mask_of_Terror.png",
+    "kind": "Unique Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "The Rock": {
+    "name": "The Rock",
+    "kind": "Igneous Pebblus",
+    "icon": "https://cdn.discordapp.com/attachments/927630354209198154/927667867099480104/TheRock.png",
+    "desc": "The Rock (Igneous Pebblus) is a federally endangered species which is currently known to live in various regions of Mondstadt. The range of the Rock historically included the northern part of Dragonspine and various clusters in Cape Oath. Exploitative research and tree farming have driven this species to near extinction. It is unknown if there are surviving habitats of Rocks in other parts of Teyvat.",
+    "resistance": [
+      [
+        "0%",
+        "0%",
+        "0%",
+        "0%",
+        "0%",
+        "0%",
+        "0%"
+      ]
+    ]
+  }
+}

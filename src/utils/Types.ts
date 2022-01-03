@@ -500,6 +500,17 @@ export interface PlaceHolderStats {
     stats: Partial<Record<StatsName, number>>
 }
 
+export interface Enemy {
+    name:         string
+    placeholder?: true
+    icon?:        string
+    type?:        string
+    kind?:        string
+    desc?:        string
+    notes?:       string
+    resistance?:  string[][]
+}
+
 export interface AbyssFloor {
     teams:     number
     leyline:   string

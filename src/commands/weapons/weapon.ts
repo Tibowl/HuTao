@@ -105,7 +105,7 @@ Note: this command supports fuzzy search.`,
         const name = args.join(" ")
         if (name.length == 0) {
             const pages = this.getWeaponsPages(weaponFilter, starFilter)
-            if (pages.length == 0) return sendMessage(source, "No character data loaded")
+            if (pages.length == 0) return sendMessage(source, "No weapon data loaded")
 
             await simplePaginator(source, (relativePage, currentPage, maxPages) => this.getWeaponsPage(pages, relativePage, currentPage, maxPages), pages.length)
             return undefined
