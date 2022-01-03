@@ -121,6 +121,7 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
     }
 
     getSpiralFloor(floorId: number, num: number): MessageEmbed {
+        const { data } = client
         const floor = client.data.abyssFloors[floorId]
 
         const embed = new MessageEmbed()
@@ -135,7 +136,7 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
 
                 for (const [ind, monsters] of Object.entries(chamber.monsters)) {
                     const status = `${+ind+1}/${chamber.monsters.length}`
-                    embed.addField(`${names[status] ?? status}: (Lv. ${chamber.level})`, `${monsters.join("\n")}${chamber == lastChamber ? "" : "\n\u200B"}`, true)
+                    embed.addField(`${names[status] ?? status}: (Lv. ${chamber.level})`, `${monsters.map(m => data.emoji(m, true)).join("\n")}${chamber == lastChamber ? "" : "\n\u200B"}`, true)
                 }
             }
         }
