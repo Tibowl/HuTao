@@ -120,19 +120,19 @@
     "pages": [
       {
         "name": "Whopperflower (Whopperflower, Shimmering and Energy Nectar): Inazuma",
-        "desc": "**Whopperflowers** are Common Enemies found wandering in the wild or disguised as plants such as Mints and Sweet Flowers. They are Mystical Beasts and drop **Whopperflower Nectar ${Whopperflower Nectar}**, **Shimmering Nectar ${Shimmering Nectar}** and **Energy Nectar ${Energy Nectar}**.\n\nThis route only contains Whopperflowers in **Inazuma**.",
+        "desc": "**Whopperflowers ${Pyro Whopperflower}${Electro Whopperflower}${Cryo Whopperflower}** are Common Enemies found wandering in the wild or disguised as plants such as Mints and Sweet Flowers. They are Mystical Beasts and drop **Whopperflower Nectar ${Whopperflower Nectar}**, **Shimmering Nectar ${Shimmering Nectar}** and **Energy Nectar ${Energy Nectar}**.\n\nThis route only contains Whopperflowers in **Inazuma**.",
         "img": "https://cdn.discordapp.com/attachments/921485115002060831/921485224892846110/WhooperInazuma.png",
         "credits": "Yukie"
       },
       {
         "name": "Nobushi (Old, Kageuchi and Famed Handguard)",
-        "desc": "**Nobushi** are Common Enemies found in Inazuma. They drop **Old Handguard ${Old Handguard}**, **Kageuchi Handguard ${Kageuchi Handguard}** and **Famed Handguard ${Famed Handguard}**.",
+        "desc": "**Nobushi ${Nobushi: Jintouban}${Nobushi: Hitsukeban}${Nobushi: Kikouban}** are Common Enemies found in Inazuma. They drop **Old Handguard ${Old Handguard}**, **Kageuchi Handguard ${Kageuchi Handguard}** and **Famed Handguard ${Famed Handguard}**.",
         "img": "https://cdn.discordapp.com/attachments/922981096164044840/922981140795654184/unknown.png",
         "credits": "Soul"
       },
       {
         "name": "Specter (Spectral Husk, Heart and Nucleus)",
-        "desc": "**Specters** are Common Enemies found in Inazuma. They are Elemental Lifeforms and drop **Spectral Husk ${Spectral Husk}**, **Spectral Heart ${Spectral Heart}** and **Spectral Nucleus ${Spectral Nucleus}**.",
+        "desc": "**Specters ${Hydro Specter}${Anemo Specter}${Geo Specter}** are Common Enemies found in Inazuma. They are Elemental Lifeforms and drop **Spectral Husk ${Spectral Husk}**, **Spectral Heart ${Spectral Heart}** and **Spectral Nucleus ${Spectral Nucleus}**.",
         "img": "https://cdn.discordapp.com/attachments/922995664957350030/922997225880166440/Specters_Route_Inazuma.png",
         "url": "https://youtu.be/5Kb79QIzwn0",
         "credits": "Yukie"
@@ -143,19 +143,31 @@
     "pages": [
       {
         "name": "Fatui Pyro Agent (Insignia and Knives)",
-        "desc": "**Fatui Pyro Agents** are Elite Enemies found in Liyue and Inazuma. They are members of the Fatui and drop **Hunter's Sacrificial Knife ${Hunter's Sacrificial Knife}**, **Agent's Sacrificial Knife ${Agent's Sacrificial Knife}**, **Inspector's Sacrificial Knife ${Inspector's Sacrificial Knife}**, **Recruit's Insignia ${Recruit's Insignia}**, **Sergeant's Insignia ${Sergeant's Insignia}** and **Lieutenant's Insignia ${Lieutenant's Insignia}**.",
-        "img": "https://cdn.discordapp.com/attachments/924306487684243476/924306632693907487/Maiden.png",
+        "desc": "**Fatui Pyro Agents ${Fatui Pyro Agent}** are Elite Enemies found in Liyue and Inazuma. They are members of the Fatui and drop **Hunter's Sacrificial Knife ${Hunter's Sacrificial Knife}**, **Agent's Sacrificial Knife ${Agent's Sacrificial Knife}**, **Inspector's Sacrificial Knife ${Inspector's Sacrificial Knife}**, **Recruit's Insignia ${Recruit's Insignia}**, **Sergeant's Insignia ${Sergeant's Insignia}** and **Lieutenant's Insignia ${Lieutenant's Insignia}**.",
+        "img": "https://cdn.discordapp.com/attachments/925462737876828190/925462814653579284/Agents.png",
+        "credits": "Soul"
+      },
+      {
+        "name": "Fatui Cicin Mages (Mist Grass Pollen, Mist Grass and Mist Grass Wick)",
+        "desc": "**Fatui Cicin Mages ${Fatui Electro Cicin Mage}${Fatui Cryo Cicin Mage}** are Elite Enemies found wandering by themselves. They are members of the Fatui and drop **Mist Grass Pollen ${Mist Grass Pollen}**, **Mist Grass ${Mist Grass}**, **Mist Grass Wick ${Mist Grass Wick}**, **Recruit's Insignia ${Recruit's Insignia}**, **Sergeant's Insignia ${Sergeant's Insignia}** and **Lieutenant's Insignia ${Lieutenant's Insignia}**.",
+        "img": "https://cdn.discordapp.com/attachments/927679751987028018/927679779409363055/unknown.png",
         "credits": "Soul"
       },
       {
         "name": "Fatui Mirror Maiden (Dismal, Crystal and Polarizing Prism)",
-        "desc": "**Fatui Mirror Maidens** are Elite Enemies found in Inazuma. They are members of the Fatui and drop **Dismal Prism ${Dismal Prism}**, **Crystal Prism ${Crystal Prism}** and **Polarizing Prism ${Polarizing Prism}**.",
+        "desc": "**Fatui Mirror Maidens ${Mirror Maiden}** are Elite Enemies found in Inazuma. They are members of the Fatui and drop **Dismal Prism ${Dismal Prism}**, **Crystal Prism ${Crystal Prism}** and **Polarizing Prism ${Polarizing Prism}**.",
         "img": "https://cdn.discordapp.com/attachments/924306487684243476/924306632693907487/Maiden.png",
         "credits": "Soul"
       },
       {
+        "name": "Geovishap (Fragile, Sturdy and Fossilized Bone Shard)",
+        "desc": "**Geovishaps ${Geovishap}** are Elite Enemies found in Liyue. They belong to the Vishaps and drop **Fragile Bone Shard ${Fragile Bone Shard}**, **Sturdy Bone Shard ${Sturdy Bone Shard}** and **Fossilized Bone Shard ${Fossilized Bone Shard}**.",
+        "img": "https://cdn.discordapp.com/attachments/927702270995476481/927702300011671593/unknown.png",
+        "credits": "Soul"
+      },
+      {
         "name": "Rifthound (Concealed Claw, Unguis and Talon)",
-        "desc": "**Rifthounds** are Elite Enemies found on Tsurumi Island. They belong to the Abyss and drop **Concealed Claw ${Concealed Claw}**, **Concealed Unguis ${Concealed Unguis}** and **Concealed Talon ${Concealed Talon}**.",
+        "desc": "**Rifthounds ${Rockfond Rifthound Whelp}${Thundercraven Rifthound Whelp}${Rockfond Rifthound}${Thundercraven Rifthound}** are Elite Enemies found on Tsurumi Island. They belong to the Abyss and drop **Concealed Claw ${Concealed Claw}**, **Concealed Unguis ${Concealed Unguis}** and **Concealed Talon ${Concealed Talon}**.",
         "img": "https://cdn.discordapp.com/attachments/923108653949665311/926581516992143390/RiftHoundNew.png",
         "credits": "Soul"
       }
