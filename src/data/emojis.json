@@ -56,6 +56,7 @@
     "Storm Beads": "<:Storm_Beads:883318845387968582>",
     "Dew of Repudiation": "<:Dew_of_Repudiation:883318845119537214>",
     "Riftborn Regalia": "<:Riftborn_Regalia:920302392417845279>",
+    "Dragonheir's False Fin": "<:Dragonheirs_False_Fin:928217174458388510>",
 
     "Crown of Insight": "<:Crown_of_Insight:827978602674520114>",
 
@@ -249,8 +250,11 @@
     "Geo Hypostasis": "<:Geo_Hypostasis:927627062028693564>",
     "Oceanid": "<:Oceanid:927630041867755590>",
     "Thunder Manifestation": "<:Thunder_Manifestation:927630534484590622>",
+    "Pyro Specter": "<:Pyro_Specter:928205887993151498>",
     "Hydro Specter": "<:Hydro_Specter:927630040508825701>",
     "Anemo Specter": "<:Anemo_Specter:927627059705049129>",
+    "Electro Specter": "<:Electro_Specter:928205887670198312>",
+    "Cryo Specter": "<:Cryo_Specter:928205887527612448>",
     "Geo Specter": "<:Geo_Specter:927630031184871454>",
 
     "Hilichurl": "<:Hilichurl:927630039258918972>",
@@ -287,6 +291,7 @@
     "Electro Abyss Mage": "<:Electro_Abyss_Mage:927627057637261383>",
     "Cryo Abyss Mage": "<:Cryo_Abyss_Mage:927627057511424030>",
     "Abyss Herald: Wicked Torrents": "<:Abyss_Herald_Wicked_Torrents:927627059533086773>",
+    "Abyss Lector: Fathomless Flames": "<:Abyss_Lector_Fathomless_Flames:928205699392110673>",
     "Abyss Lector: Violet Lightning": "<:Abyss_Lector_Violet_Lightning:927627060929785897>",
     "Rockfond Rifthound Whelp": "<:Rockfond_Rifthound_Whelp:927630041947439184>",
     "Thundercraven Rifthound Whelp": "<:Thundercraven_Rifthound_Whelp:927630534081925140>",
@@ -340,6 +345,9 @@
     "Geovishap Hatchling": "<:Geovishap_Hatchling:927630031201656843>",
     "Geovishap": "<:Geovishap:927630031801430076>",
     "Primo Geovishap": "<:Primo_Geovishap:927630042241044540>",
+    "Primordial Bathysmal Vishap": "<:Primordial_Bathysmal_Vishap:928205888098041876>",
+    "Rimebiter Bathysmal Vishap": "<:Rimebiter_Bathysmal_Vishap:928205887930249236>",
+    "Bolteater Bathysmal Vishap": "<:Bolteater_Bathysmal_Vishap:928205699752804473>",
     "Hydro Cicin": "<:Hydro_Cicin:927630040303284254>",
     "Electro Cicin": "<:Electro_Cicin:927627057775644782>",
     "Cryo Cicin": "<:Cryo_Cicin:927627059864408125>",

@@ -572,7 +572,8 @@
         "WeaponAsc3": "Fragment of Decarabian's Epic"
       }
     },
-    "lore": "With words, this book records learning, experiments, and incantations.\nWith the spaces between words, it records a student's striving."
+    "lore": "With words, this book records learning, experiments, and incantations.\nWith the spaces between words, it records a student's striving.",
+    "refinements": []
   },
   "Aquila Favonia": {
     "name": "Aquila Favonia",
@@ -772,7 +773,8 @@
         "WeaponAsc3": "Shackles of the Dandelion Gladiator"
       }
     },
-    "lore": "In old Mondstadt, spear arts were forbidden by the nobility.\nOstensibly, they claimed that only the sword was worthy of noble stock,\nBut they say that in reality, it was because the length of polearms could bridge the gaps in training,\nWhich might grant the unarmed and unschooled commoners a weapon with which to resist."
+    "lore": "In old Mondstadt, spear arts were forbidden by the nobility.\nOstensibly, they claimed that only the sword was worthy of noble stock,\nBut they say that in reality, it was because the length of polearms could bridge the gaps in training,\nWhich might grant the unarmed and unschooled commoners a weapon with which to resist.",
+    "refinements": []
   },
   "Black Tassel": {
     "name": "Black Tassel",
@@ -1652,17 +1654,89 @@
   "Calamity Queller": {
     "name": "Calamity Queller",
     "desc": "A keenly honed weapon forged from some strange crystal. Its faint blue light seems to whisper of countless matters now past.",
-    "placeholder": true,
-    "placeholderStats": {
-      "level": 90,
-      "stats": {
-        "ATK%": 0.165,
-        "Base ATK": 741
-      }
-    },
     "weaponType": "Polearm",
     "stars": 5,
-    "icon": "https://cdn.discordapp.com/attachments/827265303452975154/925053616488869929/Calamity_Queller.png",
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 49.137699127197266,
+        "curve": "ATK 3.3"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.035999998450279236,
+        "curve": "C3"
+      }
+    ],
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Santika.png",
+    "awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Santika_Awaken.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ]
+      }
+    ],
     "ascensionCosts": {
       "template": "weaponAscensionsCosts5",
       "mapping": {
@@ -1678,10 +1752,27 @@
         "WeaponAsc4": "Mist Veiled Primo Elixir"
       }
     },
+    "lore": "They say that this long polearm was forged using materials that are not from this world.\nThe weapon has passed through the hands of many loyal yet unfortunate souls.\nIt has seen many a slaughter begin and end, and tasted many a foul beast's flesh and blood.\n\nIt is said that a person whose job was to exorcise evil once came to the great chasm of crystal sands.\nThere, they retrieved an ominous, aqua-colored crystal from its depths.\nThen, they hired someone to forge it into a weapon, naming it \"Calamity Queller.\"\n\n\"If disaster should befall, this shall surely be used to calm it.\"\nThe tribespeople who made their living in the craggy mountains were not partial to either boasts or critique.\nBut since there was no contract signed, and such words were of no cost, they accepted them all the same.\n\nLater, the time came when the monstrous tides scaled the bedrock, turning the cinnabar-colored earth black.\nThe shield-wall of the Millelith and the dark forces clashed, and any stragglers were all slain.\nLike a cold star amidst the gloom, Calamity Queller flashed this way and that at the heart of the maelstrom...\n\nWhen, at last, the light of the setting sun split the mournful clouds, the dark sludge sunk back into the depths of the chasm.\nThe Calamity Queller was also lost, together with the Yaksha who wielded it — both returned to silence.\nIn times thereafter, those who wielded this spear would largely meet similar fates.\nBut there were people who would fight without requiring orders or protect people without taking any oaths.\nFor them, such a fate was hardly one to be lamented...\n\nIt is also said that this spear was once borrowed from someone.\nAnd in a deserted, water-eroded cave, it would bear witness to a clash between intimate friends.",
     "refinements": [
       {
         "name": "Extinguishing Precept",
-        "desc": "Gain **12%** All Elemental DMG Bonus. OBtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by **3.2%** per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled."
+        "desc": "Gain **12%** All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by **3.2%** per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled."
+      },
+      {
+        "name": "Extinguishing Precept",
+        "desc": "Gain **15%** All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by **4%** per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled."
+      },
+      {
+        "name": "Extinguishing Precept",
+        "desc": "Gain **18%** All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by **4.8%** per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled."
+      },
+      {
+        "name": "Extinguishing Precept",
+        "desc": "Gain **21%** All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by **5.6%** per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled."
+      },
+      {
+        "name": "Extinguishing Precept",
+        "desc": "Gain **24%** All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by **6.4%** per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled."
       }
     ]
   },
@@ -2437,7 +2528,7 @@
   },
   "Dodoco Tales": {
     "name": "Dodoco Tales",
-    "desc": "A children's book filled with childish short stories at which one cannot help but laugh.\\nEven those readers who have long reached adulthood cannot help but be absorbed by the innocent, naive little adventures portrayed within.",
+    "desc": "A children's book filled with childish short stories at which one cannot help but laugh.\nEven those readers who have long reached adulthood cannot help but be absorbed by the innocent, naive little adventures portrayed within.",
     "weaponType": "Catalyst",
     "stars": 4,
     "weaponCurve": [
@@ -2883,7 +2974,8 @@
         "WeaponAsc3": "Fragment of Decarabian's Epic"
       }
     },
-    "lore": "Travels are full of meetings and partings.\nPerhaps the only trusty and inseparable companions of a Traveler,\nAre the sword in their hand and the dream in their heart."
+    "lore": "Travels are full of meetings and partings.\nPerhaps the only trusty and inseparable companions of a Traveler,\nAre the sword in their hand and the dream in their heart.",
+    "refinements": []
   },
   "Elegy for the End": {
     "name": "Elegy for the End",
@@ -5333,7 +5425,8 @@
         "WeaponAsc3": "Boreal Wolf's Broken Fang"
       }
     },
-    "lore": "Legend has it that Mondstadt once played host to one who made music on bowstrings—\nOr perhaps it might be more fitting to say that this wandering musician used an instrument's strings to fire arrows.\nBut this is naught but an old folk legend."
+    "lore": "Legend has it that Mondstadt once played host to one who made music on bowstrings—\nOr perhaps it might be more fitting to say that this wandering musician used an instrument's strings to fire arrows.\nBut this is naught but an old folk legend.",
+    "refinements": []
   },
   "Iron Point": {
     "name": "Iron Point",
@@ -5408,7 +5501,8 @@
         "WeaponAsc3": "Shackles of the Dandelion Gladiator"
       }
     },
-    "lore": "A simple weapon that exudes a certain austerity.\nFor those who defend that which they must protect,\nOr a traveler with naught to their name but themselves,\nEven the most mundane of weapons might be ten times as powerful as it seems."
+    "lore": "A simple weapon that exudes a certain austerity.\nFor those who defend that which they must protect,\nOr a traveler with naught to their name but themselves,\nEven the most mundane of weapons might be ten times as powerful as it seems.",
+    "refinements": []
   },
   "Iron Sting": {
     "name": "Iron Sting",
@@ -7358,7 +7452,8 @@
         "WeaponAsc3": "Boreal Wolf's Broken Fang"
       }
     },
-    "lore": "He would often mention the experiences that he had in his youth as an adventurer.\nThey were always the same old long-winded, annoying tall tales.\nBut this old greatsword seems to silently say,\n\"Well, it is a bit over the top, yes. But I was there too, you know.\""
+    "lore": "He would often mention the experiences that he had in his youth as an adventurer.\nThey were always the same old long-winded, annoying tall tales.\nBut this old greatsword seems to silently say,\n\"Well, it is a bit over the top, yes. But I was there too, you know.\"",
+    "refinements": []
   },
   "Otherworldly Story": {
     "name": "Otherworldly Story",
@@ -7558,7 +7653,8 @@
         "WeaponAsc3": "Fragment of Decarabian's Epic"
       }
     },
-    "lore": "A manual on magic that is popular amongst students, it is portable enough to fit into one's pocket.\nIt has been stripped of the lengthy descriptions of principles and voluminous exercises. All that is left now is exam content.\nCurrently obsolete due to the revisions made in the 12th edition of the Magic Guide."
+    "lore": "A manual on magic that is popular amongst students, it is portable enough to fit into one's pocket.\nIt has been stripped of the lengthy descriptions of principles and voluminous exercises. All that is left now is exam content.\nCurrently obsolete due to the revisions made in the 12th edition of the Magic Guide.",
+    "refinements": []
   },
   "Polar Star": {
     "name": "Polar Star",
@@ -10492,7 +10588,8 @@
         "WeaponAsc3": "Boreal Wolf's Broken Fang"
       }
     },
-    "lore": "A hunter must always be downwind, and must never walk upright on a mountain's ridge.\nIt matters not if their target is beast, monster or the wicked — this method remains the same."
+    "lore": "A hunter must always be downwind, and must never walk upright on a mountain's ridge.\nIt matters not if their target is beast, monster or the wicked — this method remains the same.",
+    "refinements": []
   },
   "Serpent Spine": {
     "name": "Serpent Spine",
@@ -10817,7 +10914,8 @@
         "WeaponAsc3": "Fragment of Decarabian's Epic"
       }
     },
-    "lore": "Despite how the folk belief would have it, silver does not actually have any special ability to exorcise.\nIt is the pure heart of the wandering exorcist that is the true bane of evil."
+    "lore": "Despite how the folk belief would have it, silver does not actually have any special ability to exorcise.\nIt is the pure heart of the wandering exorcist that is the true bane of evil.",
+    "refinements": []
   },
   "Skyrider Greatsword": {
     "name": "Skyrider Greatsword",
@@ -14376,7 +14474,8 @@
         "WeaponAsc3": "Boreal Wolf's Broken Fang"
       }
     },
-    "lore": "The one who uses this heavy, edgeless two-handed greatsword knows this well:\nIt matters not what the weapon is, for it is the wielder's might that counts."
+    "lore": "The one who uses this heavy, edgeless two-handed greatsword knows this well:\nIt matters not what the weapon is, for it is the wielder's might that counts.",
+    "refinements": []
   },
   "Wavebreaker's Fin": {
     "name": "Wavebreaker's Fin",

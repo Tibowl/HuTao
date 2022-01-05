@@ -7233,7 +7233,7 @@
         "constellations": [
           {
             "name": "Dew-Drinker",
-            "desc": "Taking DMG from a Charge Level 2 Frostflake Arrow or Frostflake Arrow Bloom decreases opponents' **Cryo RES** by 15% for 6s.\nA hit regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hit the target.",
+            "desc": "Charge Level 2 Frostflake Arrows or Frostflake Arrow Blooms decrease opponents' **Cryo RES** by 15% for 6s upon hit.\nA hit also regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hits the target.",
             "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ganyu_01.png"
           },
           {
@@ -18328,9 +18328,10 @@
   "Shenhe": {
     "name": "Shenhe",
     "desc": "An adepti disciple with a most unusual air about her. Having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
+    "releasedOn": "2022-01-05 00:00:00",
     "star": 5,
     "weaponType": "Polearm",
-    "icon": "https://i.imgur.com/ccLge5X.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shenhe.png",
     "media": {
       "videos": {
         "Character Teaser - \"Shenhe: Lonesome Dream\"": "https://youtu.be/jvGnekdMOhI",
@@ -18342,6 +18343,27 @@
         "https://upload-os-bbs.hoyolab.com/upload/2021/11/22/1015537/c6799448753391a5aaf5e23180e3bfbf_5457694239978850980.jpg"
       ]
     },
+    "baseStats": {
+      "hpBase": 1011.4725341796875,
+      "attackBase": 23.64739990234375,
+      "defenseBase": 64.61640167236328,
+      "criticalBase": 0.05000000074505806,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
     "meta": {
       "birthMonth": 3,
       "birthDay": 10,
@@ -18361,18 +18383,311 @@
         "talents": [
           {
             "name": "Normal Attack: Dawnstar Piercer",
-            "desc": "**Normal Attack**\nPerforms up to 5 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way."
+            "desc": "**Normal Attack**\nPerforms up to five consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "43.3%",
+                  "46.8%",
+                  "50.3%",
+                  "55.3%",
+                  "58.9%",
+                  "62.9%",
+                  "68.4%",
+                  "73.9%",
+                  "79.5%",
+                  "85.5%",
+                  "91.5%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "40.2%",
+                  "43.5%",
+                  "46.8%",
+                  "51.5%",
+                  "54.8%",
+                  "58.5%",
+                  "63.6%",
+                  "68.8%",
+                  "73.9%",
+                  "79.6%",
+                  "85.2%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "53.3%",
+                  "57.7%",
+                  "62.0%",
+                  "68.2%",
+                  "72.5%",
+                  "77.5%",
+                  "84.3%",
+                  "91.1%",
+                  "98.0%",
+                  "105.4%",
+                  "112.8%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "26.3%+26.3%",
+                  "28.5%+28.5%",
+                  "30.6%+30.6%",
+                  "33.7%+33.7%",
+                  "35.8%+35.8%",
+                  "38.2%+38.2%",
+                  "41.6%+41.6%",
+                  "45.0%+45.0%",
+                  "48.3%+48.3%",
+                  "52.0%+52.0%",
+                  "55.7%+55.7%"
+                ]
+              },
+              {
+                "name": "5-Hit DMG",
+                "values": [
+                  "65.6%",
+                  "71.0%",
+                  "76.3%",
+                  "83.9%",
+                  "89.3%",
+                  "95.4%",
+                  "103.8%",
+                  "112.2%",
+                  "120.6%",
+                  "129.7%",
+                  "138.9%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "110.7%",
+                  "119.7%",
+                  "128.7%",
+                  "141.6%",
+                  "150.6%",
+                  "160.9%",
+                  "175.0%",
+                  "189.2%",
+                  "203.3%",
+                  "218.8%",
+                  "234.2%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "25.0"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "63.9%",
+                  "69.1%",
+                  "74.3%",
+                  "81.8%",
+                  "87.0%",
+                  "92.9%",
+                  "101.1%",
+                  "109.3%",
+                  "117.5%",
+                  "126.4%",
+                  "135.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "128%/160%",
+                  "138%/173%",
+                  "149%/186%",
+                  "164%/204%",
+                  "174%/217%",
+                  "186%/232%",
+                  "202%/253%",
+                  "219%/273%",
+                  "235%/293%",
+                  "253%/316%",
+                  "271%/338%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Prosperity",
+                "BossMat": "Hellfire Butterfly",
+                "EnemyDropTier1": "Whopperflower Nectar",
+                "EnemyDropTier2": "Shimmering Nectar",
+                "EnemyDropTier3": "Energy Nectar"
+              }
+            }
           },
           {
             "name": "Spring Spirit Summoning",
-            "desc": "*The frosted dew, silvery and dense, shall exorcise all demons.*\nGrants all nearby party members the Icy Quill effect and deals **Cryo DMG** in different ways based on whether it is pressed or held.\n\n**Press**\nRushes forward together with a Talisman Spirit, dealing **Cryo DMG** to opponents along the path.\n\n**Hold**\nCommands the Talisman Spirit to deal **AoE Cryo DMG**.\n\n**Icy Quill**\nWhen Normal, Charged, and Plunging Attacks, Elemental Skills and Elemental Bursts deal **Cryo DMG** to opponents, the DMG dealt is increased based on Shenhe's current ATK.\nThe Icy Quill's effects will be cleared once its duration ends or after being triggered a certain number of times. When held rather than pressed, the Icy Quill's effect lasts longer and can be triggered more times.\nWhen one **Cryo DMG** instance strikes multiple opponents, the effect is triggered multiple times based on the number of opponents hit. The number of times the effect is triggered is calculated independently for each party member with the Icy Quill.",
+            "desc": "The frosted dew, silvery and dense, shall exorcise all demons.\nGrants all nearby party members the Icy Quill effect and deals **Cryo DMG** in different ways based on whether it is pressed or held.\n\n**Press**\nRushes forward together with a Talisman Spirit, dealing **Cryo DMG** to opponents along the path.\n\n**Hold**\nCommands the Talisman Spirit to deal **AoE Cryo DMG**.\n\n**Icy Quill**\nWhen Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts deal **Cryo DMG** to opponents, the DMG dealt is increased based on Shenhe's current ATK.\n\nThe Icy Quill's effects will be cleared once its duration ends or after being triggered a certain number of times. When held rather than pressed, the Icy Quill's effect lasts longer and can be triggered more times.\nWhen one **Cryo DMG** instance strikes multiple opponents, the effect is triggered multiple times based on the number of opponents hit. The number of times the effect is triggered is calculated independently for each party member with the Icy Quill.\n\n**The power of the spirits is no falsehood. Burdened with her orders, the divine maiden hurries on!**",
+            "talentTable": [
+              {
+                "name": "Press Skill DMG",
+                "values": [
+                  "139%",
+                  "150%",
+                  "160%",
+                  "174%",
+                  "184%",
+                  "195%",
+                  "209%",
+                  "223%",
+                  "237%",
+                  "251%",
+                  "264%",
+                  "278%",
+                  "296%"
+                ]
+              },
+              {
+                "name": "Hold Skill DMG",
+                "values": [
+                  "188.8%",
+                  "203.0%",
+                  "217.1%",
+                  "236.0%",
+                  "250.2%",
+                  "264.3%",
+                  "283.2%",
+                  "302.1%",
+                  "321.0%",
+                  "339.8%",
+                  "358.7%",
+                  "377.6%",
+                  "401.2%"
+                ]
+              },
+              {
+                "name": "DMG Bonus",
+                "values": [
+                  "45.7% ATK",
+                  "49.1% ATK",
+                  "52.5% ATK",
+                  "57.1% ATK",
+                  "60.5% ATK",
+                  "63.9% ATK",
+                  "68.5% ATK",
+                  "73.0% ATK",
+                  "77.6% ATK",
+                  "82.2% ATK",
+                  "86.7% ATK",
+                  "91.3% ATK",
+                  "97.0% ATK"
+                ]
+              },
+              {
+                "name": "Press/Hold Duration",
+                "value": "10.0s/15.0s"
+              },
+              {
+                "name": "Press/Hold Trigger Quota",
+                "value": "5/7"
+              },
+              {
+                "name": "Click CD",
+                "value": "10.0s"
+              },
+              {
+                "name": "Hold CD",
+                "value": "15.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Prosperity",
+                "BossMat": "Hellfire Butterfly",
+                "EnemyDropTier1": "Whopperflower Nectar",
+                "EnemyDropTier2": "Shimmering Nectar",
+                "EnemyDropTier3": "Energy Nectar"
+              }
+            },
             "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788591463387187/Shenhe_E.gif"
           }
         ],
         "ult": {
           "name": "Divine Maiden's Deliverance",
-          "desc": "Unleashes the power of the Talisman Spirit, allowing it to roam free in this plane, dealing **AoE Cryo DMG**.\nThe Talisman Spirit then creates a field that decreases the Cryo RES and Physical RES of opponents within it. It also deals periodic **Cryo DMG** to opponents within the field.",
-          "type": "Cryo",
+          "desc": "Unleashes the power of the Talisman Spirit, allowing it to roam free in this plane, dealing **AoE Cryo DMG**.\nThe Talisman Spirit then creates a field that decreases the **Cryo RES** and Physical RES of opponents within it. It also deals periodic **Cryo DMG** to opponents within the field.\n\n**The way of the adepti is not defined only by the mysterious and fantastical. Only by observing the changes in the heavens and the earth, and understanding the laws of cause and effect in this realm, may its essence be understood.**",
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "101%",
+                "108%",
+                "116%",
+                "126%",
+                "134%",
+                "141%",
+                "151%",
+                "161%",
+                "171%",
+                "181%",
+                "192%",
+                "202%",
+                "214%"
+              ]
+            },
+            {
+              "name": "RES Decrease",
+              "values": [
+                "6.0%",
+                "7.0%",
+                "8.0%",
+                "9.0%",
+                "10.0%",
+                "11.0%",
+                "12.0%",
+                "13.0%",
+                "14.0%",
+                "15.0%",
+                "15.0%",
+                "15.0%",
+                "15.0%"
+              ]
+            },
+            {
+              "name": "DoT",
+              "values": [
+                "33.1%",
+                "35.6%",
+                "38.1%",
+                "41.4%",
+                "43.9%",
+                "46.4%",
+                "49.7%",
+                "53.0%",
+                "56.3%",
+                "59.6%",
+                "62.9%",
+                "66.2%",
+                "70.4%"
+              ]
+            },
+            {
+              "name": "Duration",
+              "value": "12.0s"
+            },
+            {
+              "name": "CD",
+              "value": "20.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "80"
+            }
+          ],
           "costs": {
             "template": "talentCosts",
             "mapping": {
@@ -18383,20 +18698,212 @@
               "EnemyDropTier3": "Energy Nectar"
             }
           },
+          "type": "Cryo",
           "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788592503578664/Shenhe_Q.gif"
         },
         "passive": [
           {
-            "name": "Spirit Communion Seal",
-            "desc": "Will provide different effects based on how \"Spring Spirit Summoning\" is triggered.\nWhen tapped, the DMG dealt by nearby teammates' Elemental Skill and Elemental Burst will be increased.\nWhen held, Normal, Charged, and Plunging Attack DMG dealt by characters will be increased."
+            "name": "Deific Embrace",
+            "desc": "An active character within the field created by **Divine Maiden's Deliverance** gains 15% **Cryo DMG Bonus**.",
+            "minAscension": 1
           },
           {
-            "name": "Deific Embrace",
-            "desc": "Active characters within the field of \"Divine Maiden's Deliverance\" will gain a **Cryo DMG** Bonus."
+            "name": "Spirit Communion Seal",
+            "desc": "After Shenhe uses **Spring Spirit Summoning**, she will grant all nearby party members the following effects:\n· Press: Elemental Skill and Elemental Burst DMG increased by 15% for 10s.\n· Hold: Normal, Charged, and Plunging Attack DMG increased by 15% for 15s.",
+            "minAscension": 4
           },
           {
             "name": "Precise Comings and Goings",
-            "desc": "Increases the rewards obtained when dispatched on a Liyue Expedition for 20 hours."
+            "desc": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours.",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Clarity of Heart",
+            "desc": "**Spring Spirit Summoning** can be used 1 more time.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shenhe_02.png"
+          },
+          {
+            "name": "Centered Spirit",
+            "desc": "**Divine Maiden's Deliverance** lasts for 6 seconds longer. Active characters within the skill's field deals 15% increased **Cryo** CRIT DMG.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shenhe_01.png"
+          },
+          {
+            "name": "Seclusion",
+            "desc": "Increases the Level of **Spring Spirit Summoning** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Shenhe_01.png"
+          },
+          {
+            "name": "Insight",
+            "desc": "When characters under the effect of **Icy Quill** applied by Shenhe trigger its DMG Bonus effects, Shenhe will gain a Skyfrost Mantra stack:\n· When Shenhe uses **Spring Spirit Summoning**, she will consume all stacks of Skyfrost Mantra, increasing the DMG of that Spring Spirit Summoning by 5% for each stack consumed.\n· Max 50 stacks. Stacks last for 60s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shenhe_03.png"
+          },
+          {
+            "name": "Divine Attainment",
+            "desc": "Increases the Level of **Divine Maiden's Deliverance** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Shenhe_02.png"
+          },
+          {
+            "name": "Mystical Abandon",
+            "desc": "When characters trigger **Icy Quill**'s effects using Normal and Charged Attack DMG, it does not count toward the Trigger Quota.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shenhe_04.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "ATK%",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 867.2462158203125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 55.40399932861328
+          },
+          {
+            "stat": "Base ATK",
+            "value": 20.27402687072754
+          },
+          {
+            "stat": "ATK%",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1483.447509765625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 94.7699966430664
+          },
+          {
+            "stat": "Base ATK",
+            "value": 34.679256439208984
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.07199999690055847
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2305.049072265625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 147.25799560546875
+          },
+          {
+            "stat": "Base ATK",
+            "value": 53.886226654052734
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.14399999380111694
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2921.25048828125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 186.62399291992188
+          },
+          {
+            "stat": "Base ATK",
+            "value": 68.29145812988281
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.14399999380111694
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3537.45166015625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 225.99000549316406
+          },
+          {
+            "stat": "Base ATK",
+            "value": 82.69668579101562
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.2160000056028366
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 4153.65283203125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 265.3559875488281
+          },
+          {
+            "stat": "Base ATK",
+            "value": 97.10191345214844
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.2879999876022339
           }
         ]
       }
@@ -18404,7 +18911,7 @@
     "ascensionCosts": {
       "template": "charAscensionsCosts",
       "mapping": {
-        "BossMat": "Unknown",
+        "BossMat": "Dragonheir's False Fin",
         "EnemyDropTier1": "Whopperflower Nectar",
         "EnemyDropTier2": "Shimmering Nectar",
         "EnemyDropTier3": "Energy Nectar",
@@ -25418,9 +25925,10 @@
   "Yun Jin": {
     "name": "Yun Jin",
     "desc": "A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",
-    "icon": "https://i.imgur.com/BrcAmXj.png",
+    "releasedOn": "2022-01-05 00:00:00",
     "star": 4,
     "weaponType": "Polearm",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yunjin.png",
     "media": {
       "videos": {
         "Character Demo - \"Yun Jin: The True Meaning of Opera\"": "https://youtu.be/YxIa114Od84"
@@ -25430,6 +25938,27 @@
         "https://upload-os-bbs.hoyolab.com/upload/2021/11/22/1015537/8fd08b431a58addf9d16451c8da93236_3542243023422706080.jpg"
       ]
     },
+    "baseStats": {
+      "hpBase": 893.55517578125,
+      "attackBase": 16.02720069885254,
+      "defenseBase": 61.574100494384766,
+      "criticalBase": 0.05000000074505806,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 4*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 4*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 4*"
+      }
+    ],
     "meta": {
       "birthMonth": 5,
       "birthDay": 21,
@@ -25441,7 +25970,7 @@
       "constellation": "Opera Grandis",
       "cvChinese": "贺文潇&杨扬",
       "cvJapanese": "小岩井ことり&杨扬",
-      "cvEnglish": "Judy Alice Lee & Yang Yang",
+      "cvEnglish": "Judy Alice Lee & 杨扬",
       "cvKorean": "사문영&Yang Yang"
     },
     "skills": [
@@ -25449,18 +25978,303 @@
         "talents": [
           {
             "name": "Normal Attack: Cloud-Grazing Strike",
-            "desc": "**Normal Attack**\nPerforms up to 5 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way."
+            "desc": "**Normal Attack**\nPerforms up to five consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "40.5%",
+                  "43.8%",
+                  "47.1%",
+                  "51.8%",
+                  "55.1%",
+                  "58.9%",
+                  "64.1%",
+                  "69.2%",
+                  "74.4%",
+                  "80.1%",
+                  "85.7%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "40.2%",
+                  "43.5%",
+                  "46.8%",
+                  "51.5%",
+                  "54.8%",
+                  "58.5%",
+                  "63.6%",
+                  "68.8%",
+                  "73.9%",
+                  "79.6%",
+                  "85.2%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "23.0%+27.5%",
+                  "24.8%+29.8%",
+                  "26.7%+32.0%",
+                  "29.4%+35.2%",
+                  "31.2%+37.4%",
+                  "33.4%+40.0%",
+                  "36.3%+43.5%",
+                  "39.2%+47.0%",
+                  "42.2%+50.6%",
+                  "45.4%+54.4%",
+                  "48.6%+58.2%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "24.0%+28.8%",
+                  "25.9%+31.2%",
+                  "27.9%+33.5%",
+                  "30.7%+36.8%",
+                  "32.6%+39.2%",
+                  "34.9%+41.9%",
+                  "37.9%+45.6%",
+                  "41.0%+49.2%",
+                  "44.1%+52.9%",
+                  "47.4%+57.0%",
+                  "50.8%+61.0%"
+                ]
+              },
+              {
+                "name": "5-Hit DMG",
+                "values": [
+                  "67.3%",
+                  "72.8%",
+                  "78.3%",
+                  "86.1%",
+                  "91.6%",
+                  "97.9%",
+                  "106.5%",
+                  "115.1%",
+                  "123.7%",
+                  "133.1%",
+                  "142.5%"
+                ]
+              },
+              {
+                "name": "Charged Attack",
+                "values": [
+                  "121.7%",
+                  "131.6%",
+                  "141.5%",
+                  "155.6%",
+                  "165.6%",
+                  "176.9%",
+                  "192.4%",
+                  "208.0%",
+                  "223.6%",
+                  "240.5%",
+                  "260.0%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "25.0"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "63.9%",
+                  "69.1%",
+                  "74.3%",
+                  "81.8%",
+                  "87.0%",
+                  "92.9%",
+                  "101.1%",
+                  "109.3%",
+                  "117.5%",
+                  "126.4%",
+                  "135.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "128%/160%",
+                  "138%/173%",
+                  "149%/186%",
+                  "164%/204%",
+                  "174%/217%",
+                  "186%/232%",
+                  "202%/253%",
+                  "219%/273%",
+                  "235%/293%",
+                  "253%/316%",
+                  "271%/338%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Diligence",
+                "BossMat": "Ashen Heart",
+                "EnemyDropTier1": "Damaged Mask",
+                "EnemyDropTier2": "Stained Mask",
+                "EnemyDropTier3": "Ominous Mask"
+              }
+            }
           },
           {
             "name": "Opening Flourish",
-            "desc": "*Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.*\n\n**Press**\nFlourishes her polearm in a cloud-grasping stance, dealing **Geo DMG**.\n\n**Hold**\nTakes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.\nWhen the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing **Geo DMG**.\nBased on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.",
+            "desc": "Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.\n\n**Press**\nFlourishes her polearm in a cloud-grasping stance, dealing **Geo DMG**.\n\n**Hold**\nTakes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.\nWhen the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing **Geo DMG**.\nBased on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.\n\n**One glorious moment on-stage, a decade of preparation behind it.**",
+            "talentTable": [
+              {
+                "name": "Press DMG",
+                "values": [
+                  "149.1% DEF",
+                  "160.3% DEF",
+                  "171.5% DEF",
+                  "186.4% DEF",
+                  "197.6% DEF",
+                  "208.8% DEF",
+                  "223.7% DEF",
+                  "238.6% DEF",
+                  "253.5% DEF",
+                  "268.4% DEF",
+                  "283.3% DEF",
+                  "298.2% DEF",
+                  "316.9% DEF"
+                ]
+              },
+              {
+                "name": "Charge Level 1 DMG",
+                "values": [
+                  "261.0% DEF",
+                  "280.5% DEF",
+                  "300.1% DEF",
+                  "326.2% DEF",
+                  "345.8% DEF",
+                  "365.3% DEF",
+                  "391.4% DEF",
+                  "417.5% DEF",
+                  "443.6% DEF",
+                  "469.7% DEF",
+                  "495.8% DEF",
+                  "521.9% DEF",
+                  "554.5% DEF"
+                ]
+              },
+              {
+                "name": "Charge Level 2 DMG",
+                "values": [
+                  "372.8% DEF",
+                  "400.8% DEF",
+                  "428.7% DEF",
+                  "466.0% DEF",
+                  "494.0% DEF",
+                  "521.9% DEF",
+                  "559.2% DEF",
+                  "596.5% DEF",
+                  "633.8% DEF",
+                  "671.0% DEF",
+                  "708.3% DEF",
+                  "745.6% DEF",
+                  "792.2% DEF"
+                ]
+              },
+              {
+                "name": "Shield DMG Absorption",
+                "values": [
+                  "12% Max HP+1155",
+                  "13% Max HP+1271",
+                  "14% Max HP+1396",
+                  "15% Max HP+1531",
+                  "16% Max HP+1675",
+                  "17% Max HP+1830",
+                  "18% Max HP+1993",
+                  "19% Max HP+2167",
+                  "20% Max HP+2350",
+                  "22% Max HP+2542",
+                  "23% Max HP+2744",
+                  "24% Max HP+2956",
+                  "25% Max HP+3178"
+                ]
+              },
+              {
+                "name": "CD",
+                "value": "9.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Diligence",
+                "BossMat": "Ashen Heart",
+                "EnemyDropTier1": "Damaged Mask",
+                "EnemyDropTier2": "Stained Mask",
+                "EnemyDropTier3": "Ominous Mask"
+              }
+            },
             "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788593371795476/YunJin_E.gif"
           }
         ],
         "ult": {
           "name": "Cliffbreaker's Banner",
-          "desc": "Deals **AoE Geo DMG** and grants all nearby party members a Flying Cloud Flag Formation.\n\n**Flying Cloud Flag Formation**\nWhen Normal Attack DMG is dealt to opponents, Bonus DMG will be dealt based on Yun Jin's current DEF.\nThe effects of Flying Cloud Flag Formation will be cleared after a set duration or after being triggered a specific number of times. When one Normal Attack hits multiple opponents, the effect is triggered multiple times according to the number of opponents hit. The number of times that the effect is triggered is counted independently for each member of the party with Flying Cloud Flag Formation.",
-          "type": "Geo",
+          "desc": "Deals **AoE Geo DMG** and grants all nearby party members a Flying Cloud Flag Formation.\n\n**Flying Cloud Flag Formation**\nWhen Normal Attack DMG is dealt to opponents, Bonus DMG will be dealt based on Yun Jin's current DEF.\n\nThe effects of this skill will be cleared after a set duration or after being triggered a specific number of times.\nWhen one Normal Attack hits multiple opponents, the effect is triggered multiple times according to the number of opponents hit. The number of times that the effect is triggered is counted independently for each member of the party with Flying Cloud Flag Formation.\n\n**As the drums resound, as swords and halberds weave and clash, the doyenne is transformed into a mighty general.**\n**As the instruments on stage strum in unison, lo, see how she vanquishes these demons!**",
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "244%",
+                "262%",
+                "281%",
+                "305%",
+                "323%",
+                "342%",
+                "366%",
+                "390%",
+                "415%",
+                "439%",
+                "464%",
+                "488%",
+                "518%"
+              ]
+            },
+            {
+              "name": "DMG Increase",
+              "values": [
+                "32% DEF",
+                "35% DEF",
+                "37% DEF",
+                "40% DEF",
+                "43% DEF",
+                "45% DEF",
+                "48% DEF",
+                "51% DEF",
+                "55% DEF",
+                "58% DEF",
+                "61% DEF",
+                "64% DEF",
+                "68% DEF"
+              ]
+            },
+            {
+              "name": "Duration",
+              "value": "12.0s"
+            },
+            {
+              "name": "Trigger Quota",
+              "value": "30"
+            },
+            {
+              "name": "CD",
+              "value": "15.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "60"
+            }
+          ],
           "costs": {
             "template": "talentCosts",
             "mapping": {
@@ -25471,20 +26285,212 @@
               "EnemyDropTier3": "Ominous Mask"
             }
           },
+          "type": "Geo",
           "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788594063859722/YunJin_Q.gif"
         },
         "passive": [
           {
             "name": "True to Oneself",
-            "desc": "If Yun Jin is attacked at the precise moment she casts her Elemental Skill, she will directly unleash its Level 2 Charged form."
+            "desc": "Using **Opening Flourish** at the precise moment when Yun Jin is attacked will unleash its Level 2 Charged (Hold) form.",
+            "minAscension": 1
           },
           {
             "name": "Breaking Conventions",
-            "desc": "If the party contains characters of different Elemental Types, the Normal Attack DMG Bonus provided by \"Flying Cloud Flag Formation\" can be further increased."
+            "desc": "The Normal Attack DMG Bonus granted by **Flying Cloud Flag Formation** is further increased by 2.5%/5%/7.5%/11.5% of Yun Jin's DEF when the party contains characters of 1/2/3/4 Elemental Types, respectively.",
+            "minAscension": 4
           },
           {
-            "name": "???",
-            "desc": "When Yun Jin achieves Perfect Cooking on dishes with Adventure-related effects, she has a certain chance to obtain double the amount."
+            "name": "Light Nourishment",
+            "desc": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product.",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Thespian Gallop",
+            "desc": "**Opening Flourish's** CD is decreased by 18%.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yunjin_01.png"
+          },
+          {
+            "name": "Myriad Mise-En-Scène",
+            "desc": "After **Cliffbreaker's Banner** is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yunjin_02.png"
+          },
+          {
+            "name": "Seafaring General",
+            "desc": "Increases the Level of **Cliffbreaker's Banner** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yunjin_01.png"
+          },
+          {
+            "name": "Flower and a Fighter",
+            "desc": "When Yun Jin triggers the Crystallize Reaction, her DEF is increased by 20% for 12s.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yunjin_03.png"
+          },
+          {
+            "name": "Famed Throughout the Land",
+            "desc": "Increases the Level of **Opening Flourish** by 3.\nMaximum upgrade level is 15.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yunjin_02.png"
+          },
+          {
+            "name": "Decorous Harmony",
+            "desc": "Characters under the effects of the **Flying Cloud Flag Formation** have their Normal ATK SPD increased by 12%.",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yunjin_04.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "Energy Recharge",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 667.531494140625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 45.999000549316406
+          },
+          {
+            "stat": "Base ATK",
+            "value": 11.973420143127441
+          },
+          {
+            "stat": "Energy Recharge",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1141.8302001953125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 78.68250274658203
+          },
+          {
+            "stat": "Base ATK",
+            "value": 20.480850219726562
+          },
+          {
+            "stat": "Energy Recharge",
+            "value": 0.06669999659061432
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1774.2283935546875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 122.260498046875
+          },
+          {
+            "stat": "Base ATK",
+            "value": 31.82408905029297
+          },
+          {
+            "stat": "Energy Recharge",
+            "value": 0.13330000638961792
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2248.527099609375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 154.94400024414062
+          },
+          {
+            "stat": "Base ATK",
+            "value": 40.331520080566406
+          },
+          {
+            "stat": "Energy Recharge",
+            "value": 0.13330000638961792
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2722.82568359375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 187.62750244140625
+          },
+          {
+            "stat": "Base ATK",
+            "value": 48.838951110839844
+          },
+          {
+            "stat": "Energy Recharge",
+            "value": 0.20000000298023224
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3197.12451171875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 220.31100463867188
+          },
+          {
+            "stat": "Base ATK",
+            "value": 57.346378326416016
+          },
+          {
+            "stat": "Energy Recharge",
+            "value": 0.26669999957084656
           }
         ]
       }
