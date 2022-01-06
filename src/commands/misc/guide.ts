@@ -49,8 +49,10 @@ Note: this command supports fuzzy search.`,
     async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
         const query = options.getString("guide") ?? ""
+
         if (query == "")
             return this.runList(source)
+
         return this.runSearch(source, query)
     }
 

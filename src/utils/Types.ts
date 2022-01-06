@@ -350,7 +350,7 @@ export enum StatsName {
     BaseATK = "Base ATK",
     BaseDEF = "Base DEF",
     BaseHP = "Base HP",
-    CRITRate = "CRIT Rate",
+    CritRate = "CRIT Rate",
     CritDmg = "CRIT DMG",
     CryoDMGBonus = "Cryo DMG Bonus",
     Def = "DEF%",
@@ -537,7 +537,7 @@ export interface AbyssSchedule {
 export interface Event {
     name:        string
     type:        EventType
-    prediction?:  boolean
+    prediction?: boolean
     link?:       string
     img?:        string
     start?:      string

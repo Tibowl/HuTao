@@ -131,10 +131,16 @@
         "credits": "Soul"
       },
       {
-        "name": "Specter (Spectral Husk, Heart and Nucleus)",
-        "desc": "**Specters ${Hydro Specter}${Anemo Specter}${Geo Specter}** are Common Enemies found in Inazuma. They are Elemental Lifeforms and drop **Spectral Husk ${Spectral Husk}**, **Spectral Heart ${Spectral Heart}** and **Spectral Nucleus ${Spectral Nucleus}**.",
+        "name": "Specter (Spectral Husk, Heart and Nucleus): Inazuma",
+        "desc": "**Specters ${Hydro Specter}${Anemo Specter}${Geo Specter}${Electro Specter}${Cryo Specter}** are Common Enemies found in Inazuma. They are Elemental Lifeforms and drop **Spectral Husk ${Spectral Husk}**, **Spectral Heart ${Spectral Heart}** and **Spectral Nucleus ${Spectral Nucleus}**.",
         "img": "https://cdn.discordapp.com/attachments/922995664957350030/922997225880166440/Specters_Route_Inazuma.png",
         "url": "https://youtu.be/5Kb79QIzwn0",
+        "credits": "Yukie"
+      },
+      {
+        "name": "Specter (Spectral Husk, Heart and Nucleus): Enkanomiya",
+        "desc": "**Specters ${Hydro Specter}${Anemo Specter}${Geo Specter}${Electro Specter}${Cryo Specter}** are Common Enemies found in Inazuma. They are Elemental Lifeforms and drop **Spectral Husk ${Spectral Husk}**, **Spectral Heart ${Spectral Heart}** and **Spectral Nucleus ${Spectral Nucleus}**.",
+        "img": "https://cdn.discordapp.com/attachments/928691743719837706/928691820395900998/Enka_Specters.png",
         "credits": "Yukie"
       }
     ]
