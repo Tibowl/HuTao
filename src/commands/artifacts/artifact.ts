@@ -111,10 +111,10 @@ Note: this command supports fuzzy search.`,
     }
 
     getArti(set: Artifact, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
-        const { data } = client
+        const { data, baseURL } = client
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setThumbnail(set.icon)
+            .setThumbnail(`${baseURL}${set.artis.find(x => x.icon)?.icon ?? "img/unknown.png"}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
         if (relativePage == 0) {
@@ -143,7 +143,7 @@ ${createTable(
 \`\`\`
 
 *See \`${config.prefix}artifact-levels <main stat> [stars = 5]\` for more info about artifact main stats*`)
-                .setThumbnail(arti.icon)
+                .setThumbnail(`${baseURL}${arti.icon}`)
 
             return embed
         }

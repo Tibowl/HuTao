@@ -127,7 +127,7 @@ Note: this command supports fuzzy search.`,
             .setDescription(`**Type**: ${enemy.type ?? "Unknown"}${enemy.kind ? ` (${enemy.kind})` : ""}${enemy.notes ? `\n\n${enemy.notes}` : ""}`)
 
         if (enemy.icon)
-            embed.setThumbnail(enemy.icon)
+            embed.setThumbnail(`${client.baseURL}${enemy.icon}`)
 
         if (enemy.resistance)
             embed.addField("Resistances", `\`\`\`\n${createTable(["Pyro", "Elec", "Cryo", "Hydro", "Anemo", "Geo", "Phys", "Notes"], enemy.resistance, [PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_END])}\n\`\`\``)
@@ -142,7 +142,8 @@ Note: this command supports fuzzy search.`,
             .setTitle(`${enemy.name}: Description`)
             .setDescription(enemy.desc ?? "Unavailable")
 
-        if (enemy.icon) embed.setThumbnail(enemy.icon)
+        if (enemy.icon)
+            embed.setThumbnail(`${client.baseURL}${enemy.icon}`)
 
         return embed
     }

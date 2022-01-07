@@ -202,12 +202,12 @@ Note: this command supports fuzzy search.`,
     }
 
     getMainWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
-        const { data } = client
+        const { data, baseURL } = client
         const hasRefinements = weapon.refinements && weapon.refinements.length > 0
         const embed = new MessageEmbed()
             .setTitle(`${weapon.name}: Basic info`)
             .setColor(Colors.AQUA)
-            .setThumbnail(weapon.icon)
+            .setThumbnail(`${baseURL}${weapon.icon}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setDescription(weapon.desc + (weapon.placeholder ? "\n\n*This weapon is currently not yet available.*" : ""))
             .addField("Basics", `${weapon.stars}★ ${data.emoji(weapon.weaponType)}`, (weapon.placeholderStats && !weapon.weaponCurve) ? true : false)
@@ -244,10 +244,10 @@ Note: this command supports fuzzy search.`,
     }
 
     getStatsWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
-        const { data } = client
+        const { data, baseURL } = client
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setThumbnail(weapon.icon)
+            .setThumbnail(`${baseURL}${weapon.icon}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
         const columns: string[] = []
@@ -290,7 +290,7 @@ Note: this command supports fuzzy search.`,
     getRefinementWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setThumbnail(weapon.icon)
+            .setThumbnail(`${client.baseURL}${weapon.icon}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
         embed.setTitle(`${weapon.name}: Refinements`)
@@ -303,7 +303,7 @@ Note: this command supports fuzzy search.`,
     getLoreWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setThumbnail(weapon.icon)
+            .setThumbnail(`${client.baseURL}${weapon.icon}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setTitle(`${weapon.name}: Lore`)
             .setDescription(weapon.lore ?? "Unavailable")
@@ -313,11 +313,11 @@ Note: this command supports fuzzy search.`,
     getArtWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setThumbnail(weapon.icon)
+            .setThumbnail(`${client.baseURL}${weapon.icon}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setTitle(`${weapon.name}: Base`)
-            .setDescription(`[Open image in browser](${weapon.icon})`)
-            .setImage(weapon.icon)
+            .setDescription(`[Open image in browser](${client.baseURL}${weapon.icon})`)
+            .setImage(client.baseURL + weapon.icon)
         embed.thumbnail = null
         return embed
     }
@@ -325,11 +325,11 @@ Note: this command supports fuzzy search.`,
     getSecondArtWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setThumbnail(weapon.icon)
+            .setThumbnail(`${client.baseURL}${weapon.awakenIcon}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setTitle(`${weapon.name}: 2nd Ascension`)
-            .setDescription(`[Open image in browser](${weapon.awakenIcon})`)
-            .setImage(weapon.awakenIcon ?? "")
+            .setDescription(`[Open image in browser](${client.baseURL}${weapon.awakenIcon})`)
+            .setImage(client.baseURL + weapon.awakenIcon)
         embed.thumbnail = null
         return embed
     }

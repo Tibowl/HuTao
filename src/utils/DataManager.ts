@@ -280,6 +280,7 @@ export default class DataManager {
             }))
         }))
     }
+
     getCosts(cost: Cost): string {
         let items = cost.items
         if (cost.mora)

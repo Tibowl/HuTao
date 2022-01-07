@@ -213,13 +213,13 @@ Note: this command supports fuzzy search.`,
     }
 
     getMainPage(char: Character, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
-        const { data } = client
+        const { data, baseURL } = client
         const embed = new MessageEmbed()
             .setColor(Colors[char.meta.element] ?? "")
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
         if (char.icon)
-            embed.setThumbnail(char.icon)
+            embed.setThumbnail(`${baseURL}${char.icon}`)
 
         if (relativePage == 0) {
             embed.setTitle(`${char.name}: Description`)
@@ -355,10 +355,10 @@ Note: this command supports fuzzy search.`,
     }
 
     getStatsPage(char: CharacterFull, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
-        const { data } = client
+        const { data, baseURL } = client
         const embed = new MessageEmbed()
             .setColor(Colors[char.meta.element] ?? "")
-            .setThumbnail(char.icon)
+            .setThumbnail(`${baseURL}${char.icon}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
         if (relativePage == 0) {
@@ -420,7 +420,7 @@ Note: this command supports fuzzy search.`,
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setTitle(`${char.name}`)
         if (char.icon)
-            embed.setThumbnail(char.icon)
+            embed.setThumbnail(`${client.baseURL}${char.icon}`)
 
         const videos = char.media.videos ? (`**Promotional Videos**
 ${          Object
@@ -446,7 +446,8 @@ ${          Object
             .setColor(Colors[char.meta.element] ?? "")
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
-        if (char.icon) embed.setThumbnail(char.icon)
+        if (char.icon)
+            embed.setThumbnail(`${client.baseURL}${char.icon}`)
 
         function isValueTable(talent: TalentTable | TalentValue): talent is TalentTable {
             return (talent as TalentTable).values != undefined
@@ -532,7 +533,7 @@ ${          Object
 
             if (skills.constellations && page++ == relativePage) {
                 embed.setTitle(`${char.name}: Constellations`)
-                    .setThumbnail(skills.constellations[0]?.icon)
+                    .setThumbnail(`${client.baseURL}${skills.constellations[0]?.icon}`)
                 let c = 0
                 for (const constellation of skills.constellations)
                     embed.addField(`C${++c}: ${constellation.name}`, constellation.desc)

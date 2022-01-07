@@ -255,7 +255,6 @@ interface User {
 export interface Artifact {
     name:    string
     levels:  number[]
-    icon:    string
     bonuses: Bonus[]
     artis:   Arti[]
 }
