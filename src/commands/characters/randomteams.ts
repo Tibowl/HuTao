@@ -12,7 +12,7 @@ export default class RandomTeams extends Command {
             category: "Character",
             help: "Generate random teams.",
             usage: "randomteam",
-            aliases: ["randomteam", "rt", "rts", "ra", "randomabyss", "rng"],
+            aliases: ["randomteam", "rt", "rts", "rab", "randomabyss", "rng"],
             options: []
         })
     }
