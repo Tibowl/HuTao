@@ -37,11 +37,11 @@ Replacement characters in case you're missing any: ${chars.slice(8, 14).map(x =>
     }
 
     shuffle(input: string[]): string[] {
-        for (let i = input.length; 0 !== i; i--) {
-            const rand = Math.floor(Math.random() * (i+1))
+        for (let i = input.length; i > 0; i--) {
+            const rand = Math.floor(Math.random() * i)
 
-            const tmp = input[i]
-            input[i] = input[rand]
+            const tmp = input[i - 1]
+            input[i - 1] = input[rand]
             input[rand] = tmp
         }
 
