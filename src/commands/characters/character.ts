@@ -173,7 +173,7 @@ Note: this command supports fuzzy search.`,
                     return -1
                 else return a.name.localeCompare(b.name)
             })
-            .map((char) => `**${char.name}**: ${this.getBasicInfo(char)}`)
+            .map((char) => `**${data.emoji(char.name, true)}**: ${this.getBasicInfo(char)}`)
 
         const pages: string[] = []
         let paging = "", c = 0
