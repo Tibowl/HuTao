@@ -2,7 +2,7 @@ import log4js from "log4js"
 import { exists, unlink, move, writeFile, existsSync, readFileSync } from "fs-extra"
 import { join } from "path"
 
-import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop, Guide, CharacterFull, CostTemplate, Enemy } from "./Types"
+import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop, Guide, CharacterFull, CostTemplate, Enemy, GuidePage } from "./Types"
 import { findFuzzy } from "./Utils"
 
 import artifactsData from "../data/gamedata/artifacts.json"
@@ -45,6 +45,7 @@ export default class DataManager {
 
     readonly max_resin = 160
     readonly minutes_per_resin = 8
+    readonly baseURL = "https://genshin.flatisjustice.moe/"
 
     readonly artifacts: Record<string, Artifact> = artifactsData as Record<string, Artifact>
     readonly artifactMainStats: Record<ArtifactType, MainStatInfo[]> = artifactsMainStats as Record<ArtifactType, MainStatInfo[]>
@@ -191,6 +192,16 @@ export default class DataManager {
             return this.enemies[target]
 
         return undefined
+    }
+
+    getGuides(type: "enemy" | "character" | "material", name: string): { guide: Guide, page: GuidePage }[] {
+        return this.guides
+            .flatMap(guide => guide.pages
+                .filter(page => page.links?.[type]?.includes(name))
+                .map(page => ({
+                    guide, page
+                }))
+            )
     }
 
     getCharStatsAt(char: CharacterFull, level: number, ascension: number): Record<string, number> {

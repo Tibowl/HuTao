@@ -582,4 +582,9 @@ export interface GuidePage {
     desc?:   string
     url?:    string
     credits: string
+    links?:  {
+        material?:  string[]
+        enemy?:     string[]
+        character?: string[]
+    }
 }

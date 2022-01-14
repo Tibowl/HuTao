@@ -39,7 +39,6 @@ export default class HuTaoClient extends Discord.Client {
 
     commands: Enmap<string, Command> = new Enmap()
     recentMessages: Discord.Message[] = []
-    baseURL = "https://genshin.flatisjustice.moe/"
 
     constructor() {
         super({

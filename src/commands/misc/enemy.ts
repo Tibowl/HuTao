@@ -3,7 +3,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { CommandSource, Enemy, SendMessage } from "../../utils/Types"
-import { Bookmarkable, Colors, createTable, findFuzzyBestCandidates, PAD_END, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
+import { Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLinkToGuide, PAD_END, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
 
 export default class EnemyCommand extends Command {
     constructor(name: string) {
@@ -120,14 +120,18 @@ Note: this command supports fuzzy search.`,
     }
 
     getMainEnemyPage(enemy: Enemy, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const guides = client.data.getGuides("enemy", enemy.name).map(({ guide, page }) => getLinkToGuide(guide, page)).join("\n")
         const embed = new MessageEmbed()
             .setTitle(`${enemy.name}: Basic info`)
             .setColor(Colors.AQUA)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setDescription(`**Type**: ${enemy.type ?? "Unknown"}${enemy.kind ? ` (${enemy.kind})` : ""}${enemy.notes ? `\n\n${enemy.notes}` : ""}`)
 
+        if (guides)
+            embed.addField("Guides", guides)
+
         if (enemy.icon)
-            embed.setThumbnail(`${client.baseURL}${enemy.icon}`)
+            embed.setThumbnail(`${client.data.baseURL}${enemy.icon}`)
 
         if (enemy.resistance)
             embed.addField("Resistances", `\`\`\`\n${createTable(["Pyro", "Elec", "Cryo", "Hydro", "Anemo", "Geo", "Phys", "Notes"], enemy.resistance, [PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_END])}\n\`\`\``)
@@ -143,7 +147,7 @@ Note: this command supports fuzzy search.`,
             .setDescription(enemy.desc ?? "Unavailable")
 
         if (enemy.icon)
-            embed.setThumbnail(`${client.baseURL}${enemy.icon}`)
+            embed.setThumbnail(`${client.data.baseURL}${enemy.icon}`)
 
         return embed
     }

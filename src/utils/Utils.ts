@@ -2,7 +2,7 @@ import { ColorResolvable, Message, MessageActionRow, MessageButton, MessageCompo
 import log4js from "log4js"
 import config from "./../data/config.json"
 import client from "./../main"
-import { CommandSource, Cover, Event, EventType, NameTable, Padding, SendMessage, Server, StoredNews } from "./Types"
+import { CommandSource, Cover, Event, EventType, Guide, GuidePage, NameTable, Padding, SendMessage, Server, StoredNews } from "./Types"
 
 const Logger = log4js.getLogger("Utils")
 
@@ -530,6 +530,21 @@ export function getUserID(source: CommandSource): string {
         return source.author.id
     else
         return source.user.id
+}
+
+
+export function getLinkToGuide(guide: Guide, page: GuidePage): string {
+    return `[${page.name}](${client.data.baseURL}guides/${urlify(guide.name, false)}/${urlify(page.name, true)})`
+}
+
+export function urlify(input: string, shouldRemoveBrackets: boolean): string {
+    if (shouldRemoveBrackets)
+        input = removeBrackets(input)
+    return input.toLowerCase().replace(/\(|\)|:/g, "").trim().replace(/ +/g, "-")
+}
+
+export function removeBrackets(input: string) {
+    return input.replace(/\(.*\)/g, "").replace(/ +:/, ":")
 }
 
 export function addArg(args: string[], queries: string | string[], exec: () => void): void {
