@@ -46,6 +46,15 @@
         "links": {
           "material": ["Philanemo Mushroom"]
         }
+      },
+      {
+        "name": "Dandelion Seed",
+        "desc": "**Dandelion Seeds ${Dandelion Seed}** can be found in the wilderness of Mondstadt and at Mondstadt gates. They are also being sold by **Karpillia** for way too much mora (up to 5 per 3 days).\n\n> A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
+        "img": "https://cdn.discordapp.com/attachments/929392674480463933/929477294202949712/unknown.png",
+        "credits": "Maple",
+        "links": {
+          "material": ["Dandelion Seed"]
+        }
       }
     ]
   },
@@ -255,7 +264,7 @@
       {
         "name": "Rifthound (Concealed Claw, Unguis and Talon)",
         "desc": "**Rifthounds ${Rockfond Rifthound Whelp}${Thundercraven Rifthound Whelp}${Rockfond Rifthound}${Thundercraven Rifthound}** are Elite Enemies found on Tsurumi Island. They belong to the Abyss and drop **Concealed Claw ${Concealed Claw}**, **Concealed Unguis ${Concealed Unguis}** and **Concealed Talon ${Concealed Talon}**.",
-        "img": "https://cdn.discordapp.com/attachments/923108653949665311/926581516992143390/RiftHoundNew.png",
+        "img": "https://cdn.discordapp.com/attachments/923108653949665311/931992280523489280/unknown.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Rockfond Rifthound Whelp", "Thundercraven Rifthound Whelp", "Rockfond Rifthound", "Thundercraven Rifthound"],
