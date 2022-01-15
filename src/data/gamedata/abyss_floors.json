@@ -1924,10 +1924,113 @@
   },
   "34": {
     "teams": 2,
-    "leyline": "All party members' Normal Attack DMG increased by 50%."
+    "leyline": "All party members' Normal Attack DMG increased by 50%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 87,
+        "conds": "More than 20/40/60% HP left",
+        "monsters": [
+          [
+            "Ruin Cruiser",
+            "Ruin Destroyer"
+          ],
+          [
+            "Electro Abyss Mage",
+            "Thunderhelm Lawachurl",
+            "Electro Hilichurl Grenadier",
+            "Hilichurl Grenadier",
+            "Pyro Hilichurl Shooter"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 89,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Large Pyro Slime",
+            "Large Electro Slime",
+            "Pyro Specter",
+            "Electro Specter"
+          ],
+          [
+            "Hydro Mimic Boar",
+            "Hydro Mimic Crane",
+            "Hydro Mimic Crab",
+            "Hydro Mimic Finch",
+            "Hydro Mimic Mallard",
+            "Hydro Mimic Ferret",
+            "Hydro Mimic Frog",
+            "Hydro Mimic Raptor"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 91,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Mirror Maiden",
+            "Kairagi: Dancing Thunder",
+            "Kairagi: Fiery Might"
+          ],
+          [
+            "Thunder Manifestation"
+          ]
+        ]
+      }
+    ]
   },
   "35": {
     "teams": 2,
-    "leyline": "Certain opponents in this challenge possess the Honed Spirit effect, which grants them 10% Physical and All Elemental RES. When opponents with Honed Spirit take hits from attacks that are considered Normal Attack DMG, they will lose 3% Physical and All Elemental RES. A maximum of 30% of each may be lost this way. The RES lost this way will be reset every 20s."
+    "leyline": "Certain opponents in this challenge possess the Honed Spirit effect, which grants them 10% Physical and All Elemental RES. When opponents with Honed Spirit take hits from attacks that are considered Normal Attack DMG, they will lose 3% Physical and All Elemental RES. A maximum of 30% of each may be lost this way. The RES lost this way will be reset every 20s.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 94,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Perpetual Mechanical Array"
+          ],
+          [
+            "Abyss Lector: Fathomless Flames",
+            "Dendro Samachurl",
+            "Pyro Abyss Mage",
+            "Rockfond Rifthound Whelp"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 97,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Primo Geovishap"
+          ],
+          [
+            "Abyss Herald: Wicked Torrents"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 99,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Ruin Guard",
+            "Ruin Grader"
+          ],
+          [
+            "Maguu Kenki"
+          ]
+        ]
+      }
+    ]
   }
 }
