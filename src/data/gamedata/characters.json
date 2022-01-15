@@ -8289,7 +8289,9 @@
                 "EnemyDropTier2": "Shimmering Nectar",
                 "EnemyDropTier3": "Energy Nectar"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/931991245310537759/931991352412106762/HuTao_NA.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/931991245310537759/931991345583779860/HuTao_NA_scaled.mp4"
           },
           {
             "name": "Guide to Afterlife",
@@ -8358,7 +8360,9 @@
                 "EnemyDropTier2": "Shimmering Nectar",
                 "EnemyDropTier3": "Energy Nectar"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/931991245310537759/931991353183838269/HuTao_E.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/931991245310537759/931991345327902780/HuTao_E_scaled.mp4"
           }
         ],
         "ult": {
@@ -8457,7 +8461,9 @@
               "EnemyDropTier3": "Energy Nectar"
             }
           },
-          "type": "Pyro"
+          "type": "Pyro",
+          "video": "https://cdn.discordapp.com/attachments/931991245310537759/931991353984954468/HuTao_Q.gif",
+          "videomp4": "https://cdn.discordapp.com/attachments/931991245310537759/931991345063673956/HuTao_Q_scaled.mp4"
         },
         "passive": [
           {
