@@ -18806,7 +18806,8 @@
                 "EnemyDropTier3": "Energy Nectar"
               }
             },
-            "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788591463387187/Shenhe_E.gif"
+            "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788591463387187/Shenhe_E.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/924788298810032269/931988912111485008/Shenhe_E_scaled.mp4"
           }
         ],
         "ult": {
@@ -18892,7 +18893,8 @@
             }
           },
           "type": "Cryo",
-          "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788592503578664/Shenhe_Q.gif"
+          "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788592503578664/Shenhe_Q.gif",
+          "videomp4": "https://cdn.discordapp.com/attachments/924788298810032269/931988912572874832/Shenhe_Q_scaled.mp4"
         },
         "passive": [
           {
@@ -26489,7 +26491,8 @@
                 "EnemyDropTier3": "Ominous Mask"
               }
             },
-            "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788593371795476/YunJin_E.gif"
+            "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788593371795476/YunJin_E.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/924788298810032269/931988911729807390/YunJin_E_scaled.mp4"
           }
         ],
         "ult": {
@@ -26561,7 +26564,8 @@
             }
           },
           "type": "Geo",
-          "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788594063859722/YunJin_Q.gif"
+          "video": "https://cdn.discordapp.com/attachments/924788298810032269/924788594063859722/YunJin_Q.gif",
+          "videomp4": "https://cdn.discordapp.com/attachments/924788298810032269/931988911356543038/YunJin_Q_scaled.mp4"
         },
         "passive": [
           {
