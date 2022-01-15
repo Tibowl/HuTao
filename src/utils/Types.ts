@@ -415,6 +415,7 @@ export interface Passive {
     name:          string
     desc:          string
     minAscension?: number
+    icon?:         string
 }
 
 export interface Skill {
@@ -425,6 +426,7 @@ export interface Skill {
     costs?:       CostTemplate
     type?:        string
     video?:       string
+    icon?:        string
 }
 
 export interface TalentTable {
