@@ -512,6 +512,17 @@ export interface Enemy {
     resistance?:  string[][]
 }
 
+export interface Material {
+    name:      string
+    desc:      string
+    longDesc?: string
+    stars?:    number
+    type:      string
+    category:  string
+    icon:      string
+    sources?:  string[]
+}
+
 export interface AbyssFloor {
     teams:     number
     leyline:   string

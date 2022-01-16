@@ -2,7 +2,7 @@ import log4js from "log4js"
 import { exists, unlink, move, writeFile, existsSync, readFileSync } from "fs-extra"
 import { join } from "path"
 
-import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop, Guide, CharacterFull, CostTemplate, Enemy, GuidePage } from "./Types"
+import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop, Guide, CharacterFull, CostTemplate, Enemy, GuidePage, Material } from "./Types"
 import { findFuzzy } from "./Utils"
 
 import artifactsData from "../data/gamedata/artifacts.json"
@@ -27,6 +27,8 @@ import abyssFloors from "../data/gamedata/abyss_floors.json"
 import abyssSchedule from "../data/gamedata/abyss_schedule.json"
 
 import enemyData from "../data/gamedata/enemies.json"
+
+import materialData from "../data/gamedata/materials.json"
 
 import emojiData from "../data/emojis.json"
 import eventData from "../data/events.json" // Not in gamedata since it also contains webevents
@@ -66,6 +68,8 @@ export default class DataManager {
     private readonly costTemplates: Record<string, Cost[]> = costTemplates
 
     readonly enemies: Record<string, Enemy> = enemyData
+
+    readonly materials: Record<string, Material> = materialData
 
     readonly events: Event[] = eventData as Event[]
     readonly emojis: Record<BotEmoji, string> = emojiData
@@ -190,6 +194,16 @@ export default class DataManager {
 
         if (target)
             return this.enemies[target]
+
+        return undefined
+    }
+
+    getMaterialByName(name: string): Material | undefined {
+        const targetNames = Object.keys(this.materials)
+        const target = findFuzzy(targetNames, name)
+
+        if (target)
+            return this.materials[target]
 
         return undefined
     }
