@@ -540,7 +540,7 @@ export function getLinkToGuide(guide: Guide, page: GuidePage): string {
 export function urlify(input: string, shouldRemoveBrackets: boolean): string {
     if (shouldRemoveBrackets)
         input = removeBrackets(input)
-    return input.toLowerCase().replace(/\(|\)|:/g, "").trim().replace(/ +/g, "-")
+    return input.toLowerCase().replace(/[():"']/g, "").trim().replace(/ +/g, "-")
 }
 
 export function removeBrackets(input: string) {
