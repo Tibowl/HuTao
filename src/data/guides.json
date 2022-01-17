@@ -273,5 +273,19 @@
         }
       }
     ]
+  },
+  {
+    "name": "Trees",
+    "pages": [
+      {
+        "name": "Otogi Wood",
+        "desc": "**Otogoi Wood** can be obtained from the Otogi Tree and can be used to create furnishings.\n\n> It has just the right amount of moisture and oil, and as such has a great many uses.",
+        "img": "https://cdn.discordapp.com/attachments/932438480376717353/932725498759512084/Otogi_Wood_Guide.png",
+        "credits": "Jnight",
+        "links": {
+          "material": ["Otogi Wood"]
+        }
+      }
+    ]
   }
 ]
