@@ -47,8 +47,8 @@ export default class HuTaoClient extends Discord.Client {
             presence: {
                 status: "idle",
                 activities: [{
-                    name: "Loading...",
-                    type: "PLAYING"
+                    name: config.activity,
+                    type: "LISTENING"
                 }]
             }
         })

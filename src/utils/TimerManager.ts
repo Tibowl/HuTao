@@ -11,7 +11,7 @@ const Logger = log4js.getLogger("TimerManager")
 export default class TimerManager {
     activityTimer: NodeJS.Timeout | undefined = undefined
     queuedUntil = Date.now() - 20000
-    lastActivityUpdate = 0
+    lastActivityUpdate = Date.now()
 
     init(): void {
         const updateActivity = async (): Promise<void> => {
