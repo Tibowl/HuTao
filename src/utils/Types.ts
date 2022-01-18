@@ -353,6 +353,7 @@ export enum StatsName {
     CritDmg = "CRIT DMG",
     CryoDMGBonus = "Cryo DMG Bonus",
     Def = "DEF%",
+    DendroDMGBonus = "Dendro DMG Bonus",
     ElectroDMGBonus = "Electro DMG Bonus",
     ElementalMastery = "Elemental Mastery",
     EnergyRecharge = "Energy Recharge",
@@ -379,7 +380,7 @@ export enum CurveEnum {
 export interface Meta {
     birthMonth?:    number
     birthDay?:      number
-    association?:   Association
+    association?:   string
     title:          string
     detail:         string
     affiliation?:   string
@@ -389,13 +390,6 @@ export interface Meta {
     cvJapanese?:    string
     cvEnglish?:     string
     cvKorean?:      string
-}
-
-export enum Association {
-    Fatui = "Fatui",
-    Liyue = "Liyue",
-    Mc = "MC",
-    Mondstadt = "Mondstadt",
 }
 
 export interface Skills {
