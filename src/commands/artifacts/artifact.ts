@@ -2,7 +2,7 @@ import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } fr
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { Colors, createTable,  findFuzzyBestCandidates,  sendMessage,  simplePaginator } from "../../utils/Utils"
+import { Colors, createTable,  findFuzzyBestCandidates,  getLinkToGuide,  sendMessage,  simplePaginator } from "../../utils/Utils"
 import { Artifact, CommandSource, SendMessage } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -124,6 +124,12 @@ Note: this command supports fuzzy search.`,
             embed.setTitle(`${set.name}: Set info`)
                 .addField("Possible levels", set.levels.map(k => k + "★").join(", "))
                 .setDescription(`This set contains ${set.artis.length} artifacts`)
+
+
+            const guides = client.data.getGuides("artifact", set.name).map(({ guide, page }) => getLinkToGuide(guide, page)).join("\n")
+
+            if (guides)
+                embed.addField("Guides", guides)
 
             return embed
         }

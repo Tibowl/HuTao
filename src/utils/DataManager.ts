@@ -2,7 +2,7 @@ import log4js from "log4js"
 import { exists, unlink, move, writeFile, existsSync, readFileSync } from "fs-extra"
 import { join } from "path"
 
-import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop, Guide, CharacterFull, CostTemplate, Enemy, GuidePage, Material } from "./Types"
+import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop, Guide, CharacterFull, CostTemplate, Enemy, GuidePage, Material, GuideLinks } from "./Types"
 import { findFuzzy } from "./Utils"
 
 import artifactsData from "../data/gamedata/artifacts.json"
@@ -208,7 +208,7 @@ export default class DataManager {
         return undefined
     }
 
-    getGuides(type: "enemy" | "character" | "material", name: string): { guide: Guide, page: GuidePage }[] {
+    getGuides(type: keyof GuideLinks, name: string): { guide: Guide, page: GuidePage }[] {
         return this.guides
             .flatMap(guide => guide.pages
                 .filter(page => page.links?.[type]?.includes(name))

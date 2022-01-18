@@ -2,7 +2,7 @@ import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } fr
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
+import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLinkToGuide, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
 import { CommandSource, SendMessage, Weapon } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -240,6 +240,13 @@ Note: this command supports fuzzy search.`,
                 weapon.ascensionCosts.mapping.EnemyDropTierA1,
                 weapon.ascensionCosts.mapping.EnemyDropTierB1,
             ].map(i => data.emoji(i)).join("")}`)
+
+
+        const guides = client.data.getGuides("weapon", weapon.name).map(({ guide, page }) => getLinkToGuide(guide, page)).join("\n")
+
+        if (guides)
+            embed.addField("Guides", guides)
+
         return embed
     }
 
