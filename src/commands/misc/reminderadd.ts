@@ -2,7 +2,7 @@ import { CommandInteraction, Message, MessageEmbed } from "discord.js"
 import client from "../../main"
 
 import Command from "../../utils/Command"
-import { Colors, getUserID, sendMessage, timeLeft } from "../../utils/Utils"
+import { Colors, getUserID, parseDuration, sendMessage, timeLeft } from "../../utils/Utils"
 import config from "../../data/config.json"
 import { CommandSource, SendMessage } from "../../utils/Types"
 
@@ -68,19 +68,7 @@ Example: \`${config.prefix}ar Weekly boss in 36 resin\``,
             else return this.sendHelp(source)
         }
 
-        let duration = 0
-        const times = [...time.matchAll(/((\d+) ?(months?|mo|weeks?|w|days?|d|hours?|h|minutes?|min|m|seconds?|sec|s|resins?|r))/gi)]
-
-        for (const time of times) {
-            const name = time[3].toLowerCase(), amount = parseInt(time[2])
-            if      (name.startsWith("mo")) duration += amount * 30 * 24 * 60 * 60 * 1000
-            else if (name.startsWith("w"))  duration += amount *  7 * 24 * 60 * 60 * 1000
-            else if (name.startsWith("d"))  duration += amount * 24 * 60 * 60 * 1000
-            else if (name.startsWith("h"))  duration += amount * 60 * 60 * 1000
-            else if (name.startsWith("m"))  duration += amount * 60 * 1000
-            else if (name.startsWith("s"))  duration += amount * 1000
-            else if (name.startsWith("r"))  duration += amount * client.data.minutes_per_resin * 60 * 1000
-        }
+        const duration = parseDuration(time)
 
         if (duration == 0) return this.sendHelp(source)
 

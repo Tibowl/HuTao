@@ -3,6 +3,7 @@ import express, { Express, NextFunction, Request, Response } from "express"
 import log4js from "log4js"
 import config from "../data/config.json"
 import client from "../main"
+import { parseDuration } from "./Utils"
 
 const Logger = log4js.getLogger("WebManager")
 
@@ -19,10 +20,10 @@ export default class WebManager {
         this.app.use(bodyParser.json())
         this.app.use((req: Req<unknown>, res: Res, next: NextFunction) => {
             if (req.headers.authorization === config.web) {
-                Logger.info("Wrong authorization used!")
                 next()
                 return
             }
+            Logger.error("Wrong authorization used!")
 
             res.sendStatus(403)
         })
@@ -30,35 +31,45 @@ export default class WebManager {
         this.app.get("/reminders/:user/get", this.getReminder)
         this.app.post("/reminders/:user/create", this.addReminder)
         this.app.post("/reminders/:user/delete", this.deleteReminder)
+        this.app.post("/testmessage/:user", this.testMessage)
 
         this.app.listen(config.webPort)
     }
 
     getReminder(req: Req<{ user: string }>, res: Res): void {
+        const userid = req.params.user
+
+        Logger.info(`Getting reminders for ${userid} from remote`)
         res.send(client.reminderManager.getReminders(req.params.user))
     }
 
-    addReminder(req: Req<{ user: string }, { subject?: string, duration?: number, timestamp?: number}>, res: Res): void {
+    addReminder(req: Req<{ user: string }, { name?: string, duration?: string}>, res: Res): void {
         const { reminderManager } = client
         const userid = req.params.user
-        const subject = req.body.subject
-        const duration = req.body.duration
-        const timestamp = req.body.timestamp
+        const name = req.body.name
+        const time = req.body.duration
 
-        if (subject == undefined || duration == undefined || timestamp == undefined) {
+        if (name == undefined || time == undefined || name.length > 128) {
             res.sendStatus(400)
             return
         }
 
-        Logger.info(`Adding reminder for ${userid} from remote`)
         const reminders = reminderManager.getReminders(userid)
+        const duration = parseDuration(time)
 
         let id = 1
         while (reminders.some(r => r.id == id) || reminderManager.getReminderById(userid, id))
             id++
 
-        reminderManager.addReminder(id, subject, userid, duration, timestamp)
-        res.sendStatus(200)
+        if (id > 25 || duration <= 0) {
+            res.sendStatus(400)
+            return
+        }
+
+        Logger.info(`Adding reminder for ${userid} from remote`)
+
+        const r = reminderManager.addReminder(id, name, userid, duration, Date.now() + duration)
+        res.send(r)
     }
 
     deleteReminder(req: Req<{ user: string }, { id?: number, timestamp?: number }>, res: Res): void {
@@ -79,9 +90,17 @@ export default class WebManager {
             res.sendStatus(404)
             return
         }
+
         Logger.info(`Deleting reminder for ${userid} from remote`)
 
         reminderManager.deleteReminder(userid, id, timestamp)
+        res.sendStatus(200)
+    }
+
+    async testMessage(req: Req<{ user: string }>, res: Res): Promise<void> {
+        const userid = req.params.user
+        const user = await client.users.fetch(userid)
+        await user.send("This is a test")
         res.sendStatus(200)
     }
 }

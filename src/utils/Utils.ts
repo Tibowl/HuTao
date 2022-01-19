@@ -533,6 +533,25 @@ export function getUserID(source: CommandSource): string {
 }
 
 
+export function parseDuration(time: string): number {
+    let duration = 0
+    const times = [...time.matchAll(/((\d+) ?(months?|mo|weeks?|w|days?|d|hours?|h|minutes?|min|m|seconds?|sec|s|resins?|r))/gi)]
+
+    for (const time of times) {
+        const name = time[3].toLowerCase(), amount = parseInt(time[2])
+        if      (name.startsWith("mo")) duration += amount * 30 * 24 * 60 * 60 * 1000
+        else if (name.startsWith("w"))  duration += amount *  7 * 24 * 60 * 60 * 1000
+        else if (name.startsWith("d"))  duration += amount * 24 * 60 * 60 * 1000
+        else if (name.startsWith("h"))  duration += amount * 60 * 60 * 1000
+        else if (name.startsWith("m"))  duration += amount * 60 * 1000
+        else if (name.startsWith("s"))  duration += amount * 1000
+        else if (name.startsWith("r"))  duration += amount * client.data.minutes_per_resin * 60 * 1000
+    }
+
+    return duration
+}
+
+
 export function getLinkToGuide(guide: Guide, page: GuidePage): string {
     return `[${page.name}](${client.data.baseURL}guides/${urlify(guide.name, false)}/${urlify(page.name, true)})`
 }
