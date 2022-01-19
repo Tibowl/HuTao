@@ -8,6 +8,7 @@ import config from "../../data/config.json"
 
 const descriptions: { [x in FollowCategory]: string } = {
     "events": "Get event reminders",
+    "events_no_daily": "Get event reminders (without dailies)",
 
     "news_en-us": "English forum news articles",
     "news_es-es": "Español forum news articles",

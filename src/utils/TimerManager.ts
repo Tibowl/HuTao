@@ -136,7 +136,8 @@ export default class TimerManager {
                         getEventEmbed(event)
                             .setDescription("This is your daily reminder for this event")
                             .setColor(Colors.ORANGE),
-                        target
+                        target,
+                        true
                     )
                 }
             }
@@ -199,9 +200,11 @@ export default class TimerManager {
         return time.getTime() > this.queuedUntil && time.getTime() <= until
     }
 
-    queueTimer(embed: MessageEmbed, targetTime: Date): void {
+    queueTimer(embed: MessageEmbed, targetTime: Date, daily = false): void {
         const { followManager } = client
         setTimeout(() => {
+            if (!daily)
+                followManager.send("events_no_daily", undefined, embed).catch(Logger.error)
             followManager.send("events", undefined, embed).catch(Logger.error)
         }, targetTime.getTime() - Date.now() + 500)
     }

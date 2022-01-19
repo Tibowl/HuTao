@@ -23,7 +23,7 @@ export type Server = "America" | "Europe" | "Asia" | "TW, HK, MO"
 
 // Following stuff
 export type FollowCategory =
-    "events" |
+    "events" | "events_no_daily" |
     "twitter_en" | /* "twitter_es" | "twitter_fr" | */"twitter_jp" |// "twitter_ko" |
     "news_en-us" | "news_es-es" | "news_fr-fr" | "news_ja-jp" | "news_ko-kr" | "news_zh-cn" | "news_bbs-zh-cn" | "news_zh-tw" | "news_de-de" |  "news_id-id" | "news_pt-pt" | "news_ru-ru" | "news_th-th" | "news_vi-vn"
 
