@@ -2276,6 +2276,130 @@
       }
     ]
   },
+  "Dark Iron Sword": {
+    "name": "Dark Iron Sword",
+    "desc": "A perfectly ordinary iron sword, just slightly darker than most.",
+    "weaponType": "Sword",
+    "stars": 3,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 38.74129867553711,
+        "curve": "ATK 1.1"
+      },
+      {
+        "stat": "Elemental Mastery",
+        "init": 30.600000381469727,
+        "curve": "C1"
+      }
+    ],
+    "icon": "img/weapon/Dark_Iron_Sword.png",
+    "awakenIcon": "img/weapon_woke/Dark_Iron_Sword.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 19.5
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 38.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 58.400001525878906
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 97.30000305175781
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 116.69999694824219
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts3",
+      "mapping": {
+        "EnemyDropTierA1": "Hunter's Sacrificial Knife",
+        "EnemyDropTierA2": "Agent's Sacrificial Knife",
+        "EnemyDropTierA3": "Inspector's Sacrificial Knife",
+        "EnemyDropTierB1": "Damaged Mask",
+        "EnemyDropTierB2": "Stained Mask",
+        "EnemyDropTierB3": "Ominous Mask",
+        "WeaponAsc1": "Luminous Sands from Guyun",
+        "WeaponAsc2": "Lustrous Stone from Guyun",
+        "WeaponAsc3": "Relic from Guyun",
+        "WeaponAsc4": "Divine Body from Guyun"
+      }
+    },
+    "refinements": [
+      {
+        "name": "Overloaded",
+        "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by **20%** for 12s."
+      },
+      {
+        "name": "Overloaded",
+        "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by **25%** for 12s."
+      },
+      {
+        "name": "Overloaded",
+        "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by **??%** for 12s."
+      },
+      {
+        "name": "Overloaded",
+        "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by **??%** for 12s."
+      },
+      {
+        "name": "Overloaded",
+        "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by **??%** for 12s."
+      }
+    ]
+  },
   "Deathmatch": {
     "name": "Deathmatch",
     "desc": "A sharp crimson polearm that was once a gladiator's priceless treasure. Its awl has been stained by the blood of countless beasts and men.",
