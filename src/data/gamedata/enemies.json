@@ -436,6 +436,7 @@
     "desc": "A monster born from highly-concentrated Pyro elements that can float in the air.\nThere was once an Academia student who conducted research into their behavior. He believed that Specters were a form of Crystalfly; since they both had powers of flight and both were birthed in areas saturated with elemental energy. He has not graduated yet.",
     "icon": "img/enemy/Pyro_Specter.png",
     "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
     "resistance": [
       [
         "Immune",
@@ -489,6 +490,7 @@
     "desc": "A monster born from highly-concentrated Electro elements that can float in the air.\nA certain researcher once studied these creatures. He believed that they must be Hypostases of some kind. After all, they both had elemental peculiarities and were birthed from areas saturated with elemental energy, right? By the way, he was later investigated for academic corruption.",
     "icon": "img/enemy/Electro_Specter.png",
     "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
     "resistance": [
       [
         "10%",
@@ -506,6 +508,7 @@
     "desc": "A monster born from highly-concentrated Cryo elements that can float in the air.\nA certain alchemist once studied these beings, speculating that they might be a kind of Slime or the Traveler, as none of the above needed a Vision to use the elements. He was reprimanded by his teacher.",
     "icon": "img/enemy/Cryo_Specter.png",
     "type": "Elemental Lifeforms",
+    "kind": "Common Enemy",
     "resistance": [
       [
         "10%",
@@ -1120,6 +1123,7 @@
     "desc": "Servants of the Abyss Order that use Hydro in combat.\nThese silent figures are the vanguard of the Abyss, brandishing Tidal Blades that can engulf everything in an instant, crumpling armor and obliterating heretics. They shall bring preordained damnation upon the foolish masses.",
     "icon": "img/enemy/Abyss_Herald_Wicked_Torrents.png",
     "type": "The Abyss",
+    "kind": "Elite Enemy",
     "resistance": [
       [
         "10%",
@@ -1137,6 +1141,7 @@
     "desc": "Wielders of abyssal fire who pursue the meaning behind texts and scriptures. Is a member of the Abyss Order.\nThe surface people have a slightly distorted understanding of what their name means, calling them \"Lectors,\" when their name can also mean \"exegete.\" Reading the word of grace grants them great power.",
     "icon": "img/enemy/Abyss_Lector_Fathomless_Flames.png",
     "type": "The Abyss",
+    "kind": "Elite Enemy",
     "resistance": [
       [
         "10%",
@@ -1154,6 +1159,7 @@
     "desc": "A monster who serves the Abyss Order and commands lightning while singing the praises of the darkness.\nThese are the evangelists and the scholars of the Abyss. Their violent lightning strikes the hearts of unbelievers with dark wisdom, warped by the shadowy depths of an eternal night, its violet glow proclaiming the existence of a great power that corrodes human intellect.",
     "icon": "img/enemy/Abyss_Lector_Violet_Lightning.png",
     "type": "The Abyss",
+    "kind": "Elite Enemy",
     "resistance": [
       [
         "10%",
@@ -2271,6 +2277,7 @@
     "desc": "A vishap that dwells deep beneath the oceans.\nThey were once the dominant race in the depths — and indeed, dragons were the overlords of the whole world in an even earlier age. But their former Seven Sovereigns were defeated by a power from the heavens, withering one by one.",
     "icon": "img/enemy/Primordial_Bathysmal_Vishap.png",
     "type": "Mystical Beasts",
+    "kind": "Elite Enemy",
     "resistance": [
       [
         "10%",
@@ -2288,6 +2295,7 @@
     "desc": "A vishap that dwells deep beneath the oceans. Due to certain social adaptations, it has manifested a form aligned with the Cryo element.\nThe coming of humans sparked a conflict and a resultant evolution within the Bathysmal Vishaps, just as ants might divide up labor and biological characteristics, thus appearing in different forms. These vishaps are stronger than their ordinary kin.",
     "icon": "img/enemy/Rimebiter_Bathysmal_Vishap.png",
     "type": "Mystical Beasts",
+    "kind": "Elite Enemy",
     "resistance": [
       [
         "10%",
@@ -2305,6 +2313,7 @@
     "desc": "A vishap that dwells deep beneath the oceans. Due to certain social adaptations, it has manifested a form aligned with the Electro element.\nFollowing the fading of the Seven Sovereigns' power, a new generation of Sovereigns is presently being born. But now that the Bathysmal Vishaps have evolved in this manner, they have lost their purity. As such, the Dragon of Water will no longer be born from among their ranks. Prophecy holds that the new Dragon of Water will definitely descend in the form of a human.",
     "icon": "img/enemy/Bolteater_Bathysmal_Vishap.png",
     "type": "Mystical Beasts",
+    "kind": "Elite Enemy",
     "resistance": [
       [
         "10%",
@@ -2517,6 +2526,7 @@
   "Hydro Mimic Boar": {
     "name": "Hydro Mimic Boar",
     "icon": "img/enemy/Hydro_Mimic.png",
+    "type": "Elemental Lifeforms",
     "kind": "Unique Enemy",
     "resistance": [
       [
@@ -2533,6 +2543,7 @@
   "Hydro Mimic Crane": {
     "name": "Hydro Mimic Crane",
     "icon": "img/enemy/Hydro_Mimic.png",
+    "type": "Elemental Lifeforms",
     "kind": "Unique Enemy",
     "resistance": [
       [
@@ -2549,6 +2560,7 @@
   "Hydro Mimic Crab": {
     "name": "Hydro Mimic Crab",
     "icon": "img/enemy/Hydro_Mimic.png",
+    "type": "Elemental Lifeforms",
     "kind": "Unique Enemy",
     "resistance": [
       [
@@ -2565,6 +2577,7 @@
   "Hydro Mimic Finch": {
     "name": "Hydro Mimic Finch",
     "icon": "img/enemy/Hydro_Mimic.png",
+    "type": "Elemental Lifeforms",
     "kind": "Unique Enemy",
     "resistance": [
       [
@@ -2581,6 +2594,7 @@
   "Hydro Mimic Mallard": {
     "name": "Hydro Mimic Mallard",
     "icon": "img/enemy/Hydro_Mimic.png",
+    "type": "Elemental Lifeforms",
     "kind": "Unique Enemy",
     "resistance": [
       [
@@ -2597,6 +2611,7 @@
   "Hydro Mimic Ferret": {
     "name": "Hydro Mimic Ferret",
     "icon": "img/enemy/Hydro_Mimic.png",
+    "type": "Elemental Lifeforms",
     "kind": "Unique Enemy",
     "resistance": [
       [
@@ -2613,6 +2628,7 @@
   "Hydro Mimic Frog": {
     "name": "Hydro Mimic Frog",
     "icon": "img/enemy/Hydro_Mimic.png",
+    "type": "Elemental Lifeforms",
     "kind": "Unique Enemy",
     "resistance": [
       [
@@ -2629,6 +2645,7 @@
   "Hydro Mimic Raptor": {
     "name": "Hydro Mimic Raptor",
     "icon": "img/enemy/Hydro_Mimic.png",
+    "type": "Elemental Lifeforms",
     "kind": "Unique Enemy",
     "resistance": [
       [
@@ -2645,6 +2662,7 @@
   "Maguu Kenki: Lone Gale": {
     "name": "Maguu Kenki: Lone Gale",
     "icon": "img/enemy/Maguu_Kenki_Lone_Gale.png",
+    "type": "Automatons",
     "kind": "Unique Enemy",
     "resistance": [
       [
@@ -2661,6 +2679,7 @@
   "Maguu Kenki: Galloping Frost": {
     "name": "Maguu Kenki: Galloping Frost",
     "icon": "img/enemy/Maguu_Kenki_Galloping_Frost.png",
+    "type": "Automatons",
     "kind": "Unique Enemy",
     "resistance": [
       [
@@ -2677,6 +2696,7 @@
   "Maguu Kenki: Mask of Terror": {
     "name": "Maguu Kenki: Mask of Terror",
     "icon": "img/enemy/Maguu_Kenki_Mask_of_Terror.png",
+    "type": "Automatons",
     "kind": "Unique Enemy",
     "resistance": [
       [
@@ -2692,8 +2712,9 @@
   },
   "The Rock": {
     "name": "The Rock",
+    "type": "Elemental Lifeforms",
     "kind": "Igneous Pebblus",
-    "icon": "https://cdn.discordapp.com/attachments/927630354209198154/927667867099480104/TheRock.png",
+    "icon": "img/enemy/The_Rock.png",
     "desc": "The Rock (Igneous Pebblus) is a federally endangered species which is currently known to live in various regions of Mondstadt. The range of the Rock historically included the northern part of Dragonspine and various clusters in Cape Oath. Exploitative research and tree farming have driven this species to near extinction. It is unknown if there are surviving habitats of Rocks in other parts of Teyvat.",
     "resistance": [
       [
