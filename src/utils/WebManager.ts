@@ -99,8 +99,12 @@ export default class WebManager {
 
     async testMessage(req: Req<{ user: string }>, res: Res): Promise<void> {
         const userid = req.params.user
-        const user = await client.users.fetch(userid)
-        await user.send("This is a test")
-        res.sendStatus(200)
+        try {
+            const user = await client.users.fetch(userid)
+            await user.send("This is a test message")
+            res.sendStatus(200)
+        } catch (error) {
+            res.status(400).send("Could not message")
+        }
     }
 }
