@@ -279,11 +279,20 @@
     "pages": [
       {
         "name": "Otogi Wood",
-        "desc": "**Otogoi Wood** can be obtained from the Otogi Tree and can be used to create furnishings.\n\n> It has just the right amount of moisture and oil, and as such has a great many uses.",
+        "desc": "**Otogi Wood** can be obtained from the Otogi Tree and can be used to create furnishings.\n\n> It has just the right amount of moisture and oil, and as such has a great many uses.",
         "img": "https://cdn.discordapp.com/attachments/932438480376717353/932725498759512084/Otogi_Wood_Guide.png",
         "credits": "Jnight",
         "links": {
           "material": ["Otogi Wood"]
+        }
+      },
+      {
+        "name": "Yumemiru Wood",
+        "desc": "**Yumemiru Wood** can be obtained from Sakura Trees and can be used to create furnishings.\n\n> Exquisite in quality and full of moisture, people say that it can lull people into dreams as sweet as the warm spring.",
+        "img": "https://cdn.discordapp.com/attachments/933728939711529001/933754674589360178/Yumemiru_Wood_Guide.png",
+        "credits": "Jnight",
+        "links": {
+          "material": ["Yumemiru Wood"]
         }
       }
     ]
