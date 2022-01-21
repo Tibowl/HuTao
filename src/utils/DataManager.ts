@@ -47,7 +47,7 @@ export default class DataManager {
 
     readonly max_resin = 160
     readonly minutes_per_resin = 8
-    readonly baseURL = "https://genshin.flatisjustice.moe/"
+    readonly baseURL = "https://hutaobot.moe/"
 
     readonly artifacts: Record<string, Artifact> = artifactsData as Record<string, Artifact>
     readonly artifactMainStats: Record<ArtifactType, MainStatInfo[]> = artifactsMainStats as Record<ArtifactType, MainStatInfo[]>
