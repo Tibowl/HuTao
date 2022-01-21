@@ -18,6 +18,7 @@ const gachas: Record<string, Banner> = {
         bannerName: "5* Banner character",
         banner: 0.5,
         guaranteed: 1,
+        minConst: -1,
         maxConst: 6,
         constFormat: "C",
         constName: "Constellations",
@@ -28,6 +29,7 @@ const gachas: Record<string, Banner> = {
         bannerName: "Specific 4* banner character",
         banner: 0.5,
         guaranteed: 1/3,
+        minConst: -1,
         maxConst: 6,
         constFormat: "C",
         constName: "Constellations",
@@ -39,6 +41,7 @@ const gachas: Record<string, Banner> = {
         banner: 0.75,
         guaranteed: 1/2,
         guaranteedPity: 3,
+        minConst: 0,
         maxConst: 5,
         constFormat: "R",
         constName: "Refinements",
@@ -52,6 +55,7 @@ type Banner = {
     banner: number
     guaranteed: number
     guaranteedPity?: number
+    minConst: number
     maxConst: number
     maxPity: number
     constFormat: string
@@ -90,7 +94,7 @@ Example with 70 pulls, 10 pity and guaranteed for 5 star weapon banner: \`${conf
             options: [{
                 name: "pulls",
                 description: "Amount of pulls to simulate",
-                type: "NUMBER",
+                type: "INTEGER",
                 required: true
             }, {
                 name: "gacha",
@@ -110,12 +114,22 @@ Example with 70 pulls, 10 pity and guaranteed for 5 star weapon banner: \`${conf
             }, {
                 name: "pity",
                 description: "Amount of pity to start at",
-                type: "NUMBER",
+                type: "INTEGER",
                 required: false
             }, {
                 name: "guaranteed",
                 description: "Start with guaranteed rate up",
                 type: "BOOLEAN",
+                required: false
+            }, {
+                name: "current",
+                description: "Current amount of copies to start with (default: none)",
+                type: "INTEGER",
+                required: false
+            }, {
+                name: "guaranteed_pity",
+                description: "Amount of Epitomized Path to start with (for Weapon banner)",
+                type: "INTEGER",
                 required: false
             }]
         })
@@ -125,11 +139,13 @@ Example with 70 pulls, 10 pity and guaranteed for 5 star weapon banner: \`${conf
         const { options } = source
 
         const gacha = options.getString("gacha") ?? "char"
-        const pulls = options.getNumber("pulls", true)
-        const pity = options.getNumber("pity") ?? 0
+        const pulls = options.getInteger("pulls", true)
+        const pity = options.getInteger("pity") ?? 0
+        const current = options.getInteger("current") ?? 0
+        const guaranteedPity = options.getInteger("guaranteedPity") ?? 0
         const guaranteed = options.getBoolean("guaranteed") ?? false
 
-        return this.run(source, gacha, pulls, pity, guaranteed)
+        return this.run(source, gacha, current, pulls, pity, guaranteed, guaranteedPity)
     }
 
     async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
@@ -141,6 +157,8 @@ Example with 70 pulls, 10 pity and guaranteed for 5 star weapon banner: \`${conf
 
         const pulls = parseInt(args[0] ?? "75")
         const pity = parseInt(args[1] ?? "0")
+        const current = parseInt(args[2] ?? "-1")
+        const guaranteedPity = parseInt(args[1] ?? "0")
 
         let guaranteed = false
         if (args[2]?.match(/y(es)?|t(rue)?|g(uaranteed)?/))
@@ -149,19 +167,25 @@ Example with 70 pulls, 10 pity and guaranteed for 5 star weapon banner: \`${conf
             guaranteed = false
         else if (args[2])
             return sendMessage(source, "Invalid 50/50, should be y(es)/g(uaranteed) or n(o)/50/50")
-        return this.run(source, gacha, pulls, pity, guaranteed)
+        return this.run(source, gacha, current, pulls, pity, guaranteed, guaranteedPity)
     }
 
-    async run(source: CommandSource, gacha: string, pulls: number, pity: number, guaranteed: boolean): Promise<SendMessage | undefined> {
+    async run(source: CommandSource, gacha: string, current: number, pulls: number, pity: number, guaranteed: boolean, guaranteedPity: number): Promise<SendMessage | undefined> {
         const banner = gachas[gacha]
 
         if (isNaN(pulls) || pulls <= 0 || pulls > 9999)
             return sendMessage(source, "Invalid pulls amount, should be a number greater than 1")
         if (isNaN(pity) || pity < 0 || pity > banner.maxPity)
             return sendMessage(source, `Invalid pity amount, should be a number between 0 and ${banner.maxPity}`)
+        if (isNaN(current) || current > banner.maxConst)
+            return sendMessage(source, `Invalid currently owned, should be a number between -1 (not owned) and ${banner.maxConst}`)
+        if (isNaN(guaranteedPity) || guaranteedPity < 0 || guaranteedPity > (banner.guaranteedPity ?? 0))
+            return sendMessage(source, `Invalid guaranteed pity/Epitomized Path, should be a number between 0 and ${banner.guaranteedPity ?? 0}`)
+
+        if (current < banner.minConst) current = banner.minConst
 
         const start = Date.now()
-        const sims = this.calcSims(pity, pulls, guaranteed, gacha)
+        const sims = this.calcSims(current, pity, pulls, guaranteed, guaranteedPity, banner)
         const time = Date.now() - start
         Logger.info(`Calculation done in ${time}ms`)
 
@@ -171,16 +195,14 @@ ${createTable(
         [banner.constName, "Rate"],
         sims
             .sort((a, b) => a.const - b.const)
-            .map(k => [k.const < 0 ? "/" : `${banner.constFormat}${k.const}`, `${(k.rate * 100).toFixed(2)}%`])
+            .map(k => [k.const == banner.minConst ? "/" : `${banner.constFormat}${k.const}`, `${(k.rate * 100).toFixed(2)}%`])
     )}
 \`\`\``)
     }
 
     calcSims = memoize(this.calcSimsRegular, { max: 50 })
 
-    private calcSimsRegular(pity: number, pulls: number, guaranteed: boolean, bannerName: string): ReducedSim[] {
-        const banner = gachas[bannerName]
-
+    private calcSimsRegular(current: number, pity: number, pulls: number, guaranteed: boolean, guaranteedPity: number, banner: Banner): ReducedSim[] {
         // Max pity / const
         if (banner.guaranteed >= 1 && pulls + pity >= banner.maxPity * (banner.maxConst * 2 - (guaranteed ? 1 : 0)))
             return [{
@@ -197,11 +219,12 @@ ${createTable(
         return this.calcSimsInt({
             pity,
             guaranteed,
-            guaranteedPity: 0,
-            const: -1,
+            guaranteedPity,
+            const: current,
             rate: 1
         }, pulls, banner)
     }
+
 
     private calcSimsInt(starterSim: Sim, pulls: number, banner: Banner): ReducedSim[] {
         const sims: Sim[] = this.calcSimsExact([starterSim], pulls, banner)
@@ -232,7 +255,7 @@ ${createTable(
             const addOrMerge = (sim: Sim) => {
                 if (sim.rate <= 0) return
 
-                const v = ((+sim.guaranteed) * (banner.maxConst + 2) + (sim.const + 1)) * (banner.maxPity + 5) + sim.pity
+                const v = (((sim.const + 1) * (banner.maxPity + 5) + sim.pity) * 2 + (+sim.guaranteed)) * (banner.guaranteedPity ?? 1) + sim.guaranteedPity
                 const other = newSims[v]
 
                 if (other) {
@@ -254,7 +277,10 @@ ${createTable(
                 let rate = banner.rate(currentPity) / 100
                 if (rate > 1) rate = 1
                 else if (rate < 0) rate = 0
-                const bannerRate = sim.guaranteed ? 1 : banner.banner
+                const bannerRate = (
+                    sim.guaranteed ||
+                (banner.guaranteedPity && sim.guaranteedPity >= banner.guaranteedPity - 1)
+                ) ? 1 : banner.banner
 
                 // Failed
                 if (rate < 1)
@@ -277,14 +303,14 @@ ${createTable(
 
                 // Got banner item but not wanted (eg. wrong rate up 4* char/5* char)
                 if (banner.guaranteed < 1)
-                    if (banner.guaranteedPity && sim.guaranteedPity >= banner.guaranteedPity)
-                        // https://www.hoyolab.com/article/533196
+                    if (banner.guaranteedPity && sim.guaranteedPity >= banner.guaranteedPity - 1)
+                    // https://www.hoyolab.com/article/533196
                         addOrMerge({
                             pity: 0,
                             guaranteed: false,
                             guaranteedPity: 0,
                             const: sim.const + 1,
-                            rate: sim.rate * rate * bannerRate * (1-banner.guaranteed)
+                            rate: sim.rate * rate * bannerRate * (1 - banner.guaranteed)
                         })
                     else
                         addOrMerge({
@@ -292,7 +318,7 @@ ${createTable(
                             guaranteed: false,
                             guaranteedPity: sim.guaranteedPity + 1,
                             const: sim.const,
-                            rate: sim.rate * rate * bannerRate * (1-banner.guaranteed)
+                            rate: sim.rate * rate * bannerRate * (1 - banner.guaranteed)
                         })
 
                 // Failed banner items (eg. 4* char rate ups vs regular 4*)
