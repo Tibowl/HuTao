@@ -3,7 +3,7 @@ import memoize from "memoizee"
 
 import Command from "../../utils/Command"
 import config from "../../data/config.json"
-import { createTable, sendMessage } from "../../utils/Utils"
+import { createTable, PAD_END, PAD_START, sendMessage } from "../../utils/Utils"
 import log4js from "log4js"
 import { CommandSource, SendMessage } from "../../utils/Types"
 
@@ -192,10 +192,15 @@ Example with 70 pulls, 10 pity and guaranteed for 5 star weapon banner: \`${conf
         return sendMessage(source, `**${banner.bannerName}** in **${pulls}** pulls, starting from **${pity}** pity and **${guaranteed ? "guaranteed" : `${banner.banner * 100}/${(1 - banner.banner) * 100}`}** banner:
 \`\`\`
 ${createTable(
-        [banner.constName, "Rate"],
+        [banner.constName, "Rate", "Cumulative Rate"],
         sims
             .sort((a, b) => a.const - b.const)
-            .map(k => [k.const == banner.minConst ? "/" : `${banner.constFormat}${k.const}`, `${(k.rate * 100).toFixed(2)}%`])
+            .map((k, i, a) => [
+                k.const == banner.minConst ? "/" : `${banner.constFormat}${k.const}`,
+                `${(k.rate * 100).toFixed(2)}%`,
+                `${(a.slice(i, a.length).reduce((p, c) => p + c.rate, 0) * 100).toFixed(2)}%`
+            ]),
+        [PAD_END, PAD_START, PAD_START]
     )}
 \`\`\``)
     }
