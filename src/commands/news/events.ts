@@ -2,7 +2,7 @@ import { CommandInteraction, Message, MessageEmbed } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { Bookmarkable, Colors, getDate, getEventEmbed, paginator } from "../../utils/Utils"
+import { Bookmarkable, Colors, getDate, getEndTime, getEventEmbed, getStartTime, paginator,  } from "../../utils/Utils"
 import { CommandSource, Event, SendMessage } from "../../utils/Types"
 
 export default class Events extends Command {
@@ -29,28 +29,43 @@ export default class Events extends Command {
         const now = Date.now()
         const { events } = client.data
 
+        const startTimezone = "+08:00"
+        const endTimezone = "-05:00"
+
         const ongoing = events
-            .filter(e =>
-                e.start &&
-                getDate(e.start, e.timezone).getTime() <= now &&
-                (
-                    (e.end && getDate(e.end, e.timezone).getTime() >= now) ||
-                    (!e.end && e.reminder == "daily")
-                )
-            ).sort((a, b) => {
-                if (!a.end) return 1
-                if (!b.end) return -1
-                return getDate(a.end, a.timezone).getTime() - getDate(b.end, b.timezone).getTime()
+            .filter(e => {
+                const start = getStartTime(e, startTimezone)
+                const end = getEndTime(e, endTimezone)
+
+                return start && start.getTime() <= now &&
+          (
+              (end && end.getTime() >= now) ||
+            (!end && e.reminder == "daily")
+          )
+            }).sort((a, b) => {
+                const endA = getEndTime(a, endTimezone)
+                const endB = getEndTime(b, endTimezone)
+
+                if (!endA) return 1
+                if (!endB) return -1
+
+                return endA.getTime() - endB.getTime()
             })
 
         const upcoming = events
-            .filter(e => e.start == undefined || getDate(e.start, e.timezone).getTime() > now)
-            .sort((a, b) => {
-                if (!a.start) return 1
-                if (!b.start) return -1
-                return getDate(a.start, a.timezone).getTime() - getDate(b.start, b.timezone).getTime()
+            .filter(e => {
+                const start = getStartTime(e, startTimezone)
+                return start == false || start.getTime() > now
             })
+            .sort((a, b) => {
+                const startA = getStartTime(a, startTimezone)
+                const startB = getStartTime(b, startTimezone)
 
+                if (!startA) return 1
+                if (!startB) return -1
+
+                return startA.getTime() - startB.getTime()
+            })
         const summaryPages = this.getSummaryPages(ongoing, upcoming)
         const pages: Bookmarkable[] = [{
             bookmarkEmoji: "",

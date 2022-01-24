@@ -102,10 +102,9 @@ export function truncate(text: string, maxLength = 50): string {
 
 // Get time information
 const offsets: {[server in Server]: number} = {
+    Asia:    +8,
+    Europe:  +1,
     America: -5,
-    Europe: 1,
-    Asia: +8,
-    "TW, HK, MO": +8,
 }
 const servers = Object.keys(offsets) as Server[]
 
@@ -179,6 +178,19 @@ export function getDate(timestamp: string, timezone = "+08:00"): Date {
     return new Date(`${timestamp}${timezone}`)
 }
 
+export function isServerTimeStart(event: Event) {
+    return event.start_server ?? (event.type == EventType.Banner || event.type == EventType.InGame || event.type == EventType.Unlock)
+}
+export function getStartTime(event: Event, serverTimezone: string) {
+    return event.start != undefined && getDate(event.start, event.timezone ?? isServerTimeStart(event) ? serverTimezone : undefined)
+}
+
+export function isServerTimeEnd(event: Event) {
+    return event.end_server ?? (event.type == EventType.Banner || event.type == EventType.InGame || event.type == EventType.Web)
+}
+export function getEndTime(event: Event, serverTimezone: string) {
+    return event.end != undefined && getDate(event.end, event.timezone ?? isServerTimeEnd(event) ? serverTimezone : undefined)
+}
 
 // Format news
 export function getNewsEmbed(post: StoredNews, relativePage = -1, currentPage?: number, maxPages?: number): MessageEmbed | undefined {
@@ -288,11 +300,29 @@ export function getEventEmbed(event: Event): MessageEmbed {
     embed.setTitle(event.name)
     if (event.img) embed.setImage(event.img)
     if (event.link) embed.setURL(event.link)
-    embed.addField(event.type == EventType.Unlock ? "Unlock Time" : "Start Time", event.start ? `${event.prediction ? "(prediction) " : ""}${event.start}${event.timezone?` (GMT${event.timezone})`:""}\n${relativeTimestampFromString(event.start, event.timezone)}` : "Unknown", true)
-    if (event.end) embed.addField("End Time", `${event.end}${event.timezone?` (GMT${event.timezone})`:""}\n${relativeTimestampFromString(event.end, event.timezone)}`, true)
+    embed.addField(event.type == EventType.Unlock ? "Unlock Time" : "Start Time", event.start ? `${event.prediction ? "(prediction) " : ""}${event.start}${event.timezone?` (GMT${event.timezone})`:""}\n${startTimes(event)}` : "Unknown", true)
+    if (event.end) embed.addField("End Time", `${event.end}${event.timezone?` (GMT${event.timezone})`:""}\n${endTimes(event)}`, true)
     if (event.type && event.type !== EventType.Unlock) embed.addField("Type", event.type, true)
 
     return embed
+}
+function startTimes(e: Event) {
+    if (!e.start) return ""
+
+    if (!isServerTimeStart(e))
+        return `Global: ${relativeTimestampFromString(e.start, e.timezone)}`
+
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+    return getServerTimeInfo().map(st => `${st.server}: ${relativeTimestampFromString(e.start!, `${st.offset.split("").join("0")}:00`)}`).join("\n")
+}
+function endTimes(e: Event) {
+    if (!e.end) return ""
+
+    if (!isServerTimeEnd(e))
+        return relativeTimestampFromString(e.end, e.timezone)
+
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+    return getServerTimeInfo().map(st => `${st.server}: ${relativeTimestampFromString(e.end!, `${st.offset.split("").join("0")}:00`)}`).join("\n")
 }
 
 function split(splitted: string[], currentLine: string, toSplit: string | RegExp) {

@@ -110,6 +110,7 @@
         "link": "https://www.hoyolab.com/article/324025",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/04/25/1015537/5800bc8cae272566c0c70b2a3a4c452d_8480392818056458896.jpg",
         "start": "2021-04-28 11:00:00",
+        "start_server": false,
         "end": "2021-05-18 17:59:00",
         "reminder": "end"
     },
@@ -119,6 +120,7 @@
         "link": "https://www.hoyolab.com/article/324040",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/04/25/1015537/1df2bb7513a56f26bd87a4aa86ff8a93_8076639008885797857.jpg",
         "start": "2021-04-28 11:00:00",
+        "start_server": false,
         "end": "2021-05-18 17:59:00",
         "reminder": "end"
     },
@@ -213,6 +215,7 @@
         "link": "https://www.hoyolab.com/article/415711",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/07/1015537/bf8645444de96287d9d66a813d9f0aa4_2451975548209649534.png",
         "start": "2021-06-09 11:00:00",
+        "start_server": false,
         "end": "2021-06-29 17:59:00",
         "reminder": "end"
     },
@@ -222,6 +225,7 @@
         "link": "https://www.hoyolab.com/article/415712",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/07/1015537/26a86231e87f5d39a87306a77487b387_5687829416457810134.png",
         "start": "2021-06-09 11:00:00",
+        "start_server": false,
         "end": "2021-06-29 17:59:00",
         "reminder": "end"
     },
@@ -256,6 +260,7 @@
         "link": "https://www.hoyolab.com/article/415687",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/07/1015537/271b4d0b0e2f3c848bccd1c4625fa6ca_1951559009485518734.png",
         "start": "2021-06-09 11:00:00",
+        "start_server": false,
         "end": "2021-06-28 03:59:59",
         "reminder": "end"
     },
@@ -265,7 +270,9 @@
         "link": "https://www.hoyolab.com/article/415684",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/07/1015537/528eba2c062fec3768f66e3a24f2f23b_1431588138158128250.png",
         "start": "2021-06-09 11:00:00",
+        "start_server": false,
         "end": "2021-07-21 05:59:59",
+        "end_server": false,
         "reminder": "end"
     },
     {
@@ -361,6 +368,7 @@
         "link": "https://www.hoyolab.com/article/568050",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/19/1015537/9c6070da0fe23081c6ad3389b8ee010d_8307924212594573588.jpg",
         "start": "2021-07-21 11:00:00",
+        "start_server": false,
         "end": "2021-08-10 17:59:00",
         "reminder": "end"
     },
@@ -370,6 +378,7 @@
         "link": "https://www.hoyolab.com/article/568052",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/07/19/1015537/5412443a686ef1cf9471a4f462eabc52_2614061678267906223.jpg",
         "start": "2021-07-21 11:00:00",
+        "start_server": false,
         "end": "2021-08-10 17:59:00",
         "reminder": "end"
     },
@@ -493,6 +502,7 @@
         "link": "https://www.hoyolab.com/article/780998",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/28/1015537/8ba1f5c1d60e1476372aa2c4f27b382c_2286871364869273866.jpg",
         "start": "2021-09-01 11:00:00",
+        "start_server": false,
         "end": "2021-09-21 17:59:00",
         "reminder": "end"
     },
@@ -502,6 +512,7 @@
         "link": "https://www.hoyolab.com/article/780981",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/28/1015537/1fc8403a31b02883763d0598c4425a38_2004836154187283192.jpg",
         "start": "2021-09-01 11:00:00",
+        "start_server": false,
         "end": "2021-09-21 17:59:00",
         "reminder": "end"
     },
@@ -623,6 +634,7 @@
         "link": "https://www.hoyolab.com/article/1189984",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/10/11/1015537/86594246247263e30a0422d361a28bfb_7557166207046229842.jpg",
         "start": "2021-10-13 11:00:00",
+        "start_server": false,
         "end": "2021-11-02 17:59:00",
         "reminder": "end"
     },
@@ -632,6 +644,7 @@
         "link": "https://www.hoyolab.com/article/1189985",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/10/11/1015537/0428b5c5613ac8bf5ee646dffa4808b8_8619510908833644737.jpg",
         "start": "2021-10-13 11:00:00",
+        "start_server": false,
         "end": "2021-11-02 17:59:00",
         "reminder": "end"
     },
@@ -747,6 +760,7 @@
         "link": "https://www.hoyolab.com/article/1432611",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/19/1015537/21312fbcddc4c542a6db2a45870d1e1c_1739550797452216548.jpg",
         "start": "2021-11-24 11:00:00",
+        "start_server": false,
         "end": "2021-12-14 17:59:00",
         "reminder": "end"
     },
@@ -756,6 +770,7 @@
         "link": "https://www.hoyolab.com/article/1432612",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/19/1015537/e6f83945ea2410bbeb2ad05ae88c0148_1358919906986922846.jpg",
         "start": "2021-11-24 11:00:00",
+        "start_server": false,
         "end": "2021-12-14 17:59:00",
         "reminder": "end"
     },
@@ -765,6 +780,7 @@
         "link": "https://www.hoyolab.com/article/1432613e",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/19/1015537/c33c252a39318a29509e30d90c3ce183_1666493581406037042.jpg",
         "start": "2021-11-24 11:00:00",
+        "start_server": false,
         "end": "2021-12-14 17:59:00",
         "reminder": "end"
     },
@@ -872,6 +888,7 @@
         "link": "https://www.hoyolab.com/article/1823224",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/12/29/1015537/ce08eefda22a1a4600a5ca3e850ef982_6338416199084824666.jpg",
         "start": "2022-01-05 11:00:00",
+        "start_server": false,
         "end": "2022-01-25 17:59:00",
         "reminder": "end"
     },
@@ -881,6 +898,7 @@
         "link": "https://www.hoyolab.com/article/1823212",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/12/29/1015537/a843e23224ad57d6beea24f0a1865c30_5955783831679103604.jpg",
         "start": "2022-01-05 11:00:00",
+        "start_server": false,
         "end": "2022-01-25 17:59:00",
         "reminder": "end"
     },
@@ -890,6 +908,7 @@
         "link": "https://www.hoyolab.com/article/1823187",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/12/29/1015537/5443c79b66ed862ecffbbd9dfbee241d_1610682672805067671.jpg",
         "start": "2022-01-05 11:00:00",
+        "start_server": false,
         "end": "2022-01-25 17:59:00",
         "reminder": "end"
     },

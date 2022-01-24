@@ -19,7 +19,7 @@ export interface CommandStats {
 }
 
 // Genshin stuff
-export type Server = "America" | "Europe" | "Asia" | "TW, HK, MO"
+export type Server = "Asia" | "Europe" | "America"
 
 // Following stuff
 export type FollowCategory =
@@ -541,16 +541,18 @@ export interface AbyssSchedule {
 
 // Events
 export interface Event {
-    name:        string
-    type:        EventType
-    prediction?: boolean
-    link?:       string
-    img?:        string
-    start?:      string
-    timezone?:   string
-    reminder?:   EventReminderType
-    remindtime?: string
-    end?:        string
+    name:          string
+    type:          EventType
+    prediction?:   boolean
+    link?:         string
+    img?:          string
+    start?:        string
+    start_server?: boolean
+    end?:          string
+    end_server?:   boolean
+    timezone?:     string
+    reminder?:     EventReminderType
+    remindtime?:   string
 }
 
 export enum EventType {
