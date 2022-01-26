@@ -122,6 +122,7 @@ export default class Events extends Command {
     getSummary(pages: MessageEmbed[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
         return pages[relativePage]
             .setTitle("Events")
+            .setURL(`${client.data.baseURL}events`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setColor(Colors.DARK_GREEN)
     }
