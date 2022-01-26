@@ -2,8 +2,8 @@ import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } fr
 import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
-import { CommandSource, Material, SendMessage } from "../../utils/Types"
-import { Bookmarkable, Colors, findFuzzyBestCandidates, getLinkToGuide, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
+import { Character, CommandSource, Material, SendMessage, Weapon } from "../../utils/Types"
+import { Bookmarkable, Colors, findFuzzyBestCandidates, getLinkToGuide, joinMulti, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 
 export default class MaterialCommand extends Command {
     constructor(name: string) {
@@ -141,6 +141,55 @@ Note: this command supports fuzzy search.`,
 
         if (material.sources)
             embed.addField("Sources", material.sources.join("\n"))
+
+        const charAscension: Character[] = []
+        const charTalents: Character[] = []
+
+        for (const c of data.getCharacters()) {
+            if (c.ascensionCosts && data.isInCosts(c.ascensionCosts, material.name))
+                charAscension.push(c)
+
+            if (c.skills) {
+                const talents = c.skills.flatMap(s => [...(s.talents ?? []), s.ult])
+
+                if (talents.some(x => x?.costs && data.isInCosts(x.costs, material.name)))
+                    charTalents.push(c)
+            }
+        }
+
+        const weaponAscension: Weapon[] = []
+        for (const w of Object.values(data.weapons)) {
+            if (w.ascensionCosts && data.isInCosts(w.ascensionCosts, material.name))
+                weaponAscension.push(w)
+        }
+
+        const usedByDesc = []
+
+        const overlap = charTalents.filter(x => charAscension.some(y => x.name == y.name))
+        const uniqueTalents = charTalents.filter(x => !charAscension.some(y => x.name == y.name))
+        const uniqueAscension = charAscension.filter(x => !charTalents.some(y => x.name == y.name))
+
+        if (overlap.length > 0)
+            usedByDesc.push(`Used by ${joinMulti(overlap.map(x => data.emoji(x.name)).filter((v, i, a) => a.indexOf(v) == i))} character talents and ascensions.`)
+
+        if (uniqueTalents.length > 0)
+            usedByDesc.push(`Used by ${joinMulti(uniqueTalents.map(x => data.emoji(x.name)))} character talents.`)
+
+        if (uniqueAscension.length > 0)
+            usedByDesc.push(`Used by ${joinMulti(uniqueAscension.map(x => data.emoji(x.name)))} character ascensions.`)
+
+        const sortedWeapon = weaponAscension
+            .sort((a, b) => (a.stars && b.stars && b.stars - a.stars) || (a.weaponType && b.weaponType && a.weaponType.localeCompare(b.weaponType)) || a.name.localeCompare(b.name))
+        if (sortedWeapon.length > 0 && sortedWeapon.length < 7)
+            usedByDesc.push(`Used by ${joinMulti(sortedWeapon.map(x => data.emoji(x.name)))} weapon ascensions.`)
+        else if (sortedWeapon.length > 0 && sortedWeapon.filter(x => x.stars >= 4).length < 7)
+            usedByDesc.push(`Used by ${joinMulti([...sortedWeapon.filter(x => x.stars >= 4).map(x => data.emoji(x.name)), "more low star"])} weapon ascensions.`)
+        else if (sortedWeapon.length > 0)
+            usedByDesc.push(`Used by ${joinMulti([...sortedWeapon.slice(0, 7).map(x => data.emoji(x.name)), "more"])} weapon ascensions.`)
+
+
+        if (usedByDesc.length > 0)
+            embed.addField("Used by", usedByDesc.join("\n"))
 
         if (material.icon)
             embed.setThumbnail(`${data.baseURL}${material.icon}`)

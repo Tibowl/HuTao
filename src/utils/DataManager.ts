@@ -311,4 +311,14 @@ export default class DataManager {
 
         return items.map(i => `**${i.count}**x *${this.emoji(i.name, true)}*`).join("\n")
     }
+
+    isInCosts(template: CostTemplate | Cost[], name: string): boolean {
+        const costs = Array.isArray(template) ? template : this.getCostsFromTemplate(template)
+
+        for (const c of costs)
+            if (c.items.some(i => i.name == name))
+                return true
+
+        return false
+    }
 }

@@ -100,6 +100,14 @@ export function truncate(text: string, maxLength = 50): string {
     return `${words.slice(0, end).join(" ")}${end < words.length ? "..." : ""}`
 }
 
+export function joinMulti(input: string[]): string {
+    if (input.length <= 1) return input[0]
+
+    const last = input[input.length - 1]
+    return `${input.slice(0, -1).join(", ")} and ${last}`
+}
+
+
 // Get time information
 const offsets: {[server in Server]: number} = {
     Asia:    +8,
