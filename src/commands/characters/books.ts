@@ -27,10 +27,22 @@ export default class Books extends Command {
 
     async run(source: CommandSource): Promise<SendMessage | undefined> {
         const { data } = client
-        const { books } = data
+        const { materials } = data
+
+        const allBooks = Object.values(materials)
+            .filter(x => x.type == "Talent Level-Up Material" && x.stars == 3)
+
+        const days = [
+            ["Monday & Thursday", "Monday/Thursday/Sunday"],
+            ["Tuesday & Friday", "Tuesday/Friday/Sunday"],
+            ["Wednesday & Saturday", "Wednesday/Saturday/Sunday"]
+        ].map(([days, source]) => {
+            const books = allBooks.filter(b => b.sources?.some(s => s.endsWith(`(${source})`))).map(b => b.name)
+            return { days, books }
+        })
 
         return sendMessage(source, `**Talent Books**:
-${Object.entries(books).map(([day, books]) => `**${day}**: ${books.map(book => `${data.emoji(`Guide to ${book}`)} ${book}`).join(" / ")}`).join("\n")}
+${days.map(({ days, books }) => `**${days}**: ${books.map(book => `${data.emoji(book)} ${book.split(" ").pop()}`).join(" / ")}`).join("\n")}
 **Sunday**: All books are available`)
     }
 }

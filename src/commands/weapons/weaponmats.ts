@@ -27,10 +27,22 @@ export default class WeaponMats extends Command {
 
     async run(source: CommandSource): Promise<SendMessage | undefined> {
         const { data } = client
-        const { weaponMats } = data
+        const { materials } = data
+
+        const allWeaponMats = Object.values(materials)
+            .filter(x => x.type == "Weapon Ascension Material" && x.stars == 3)
+
+        const days = [
+            ["Monday & Thursday", "Monday/Thursday/Sunday"],
+            ["Tuesday & Friday", "Tuesday/Friday/Sunday"],
+            ["Wednesday & Saturday", "Wednesday/Saturday/Sunday"]
+        ].map(([days, source]) => {
+            const weaponMats = allWeaponMats.filter(wm => wm.sources?.some(s => s.endsWith(`(${source})`))).map(wm => wm.name)
+            return { days, weaponMats }
+        })
 
         return sendMessage(source, `**Weapon Ascension Materials**:
-${Object.entries(weaponMats).map(([day, mats]) => `**${day}**: ${mats.map(mat => data.emoji(mat, true)).join(" / ")}`).join("\n")}
+${days.map(({ days, weaponMats }) => `**${days}**: ${weaponMats.map(weaponMat => `${data.emoji(weaponMat)} ${weaponMat}`).join(" / ")}`).join("\n")}
 **Sunday**: All materials are available`)
     }
 }

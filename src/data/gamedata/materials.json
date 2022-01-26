@@ -3489,7 +3489,8 @@
     "category": "Trophies",
     "icon": "img/material/Tile_of_Decarabians_Tower.png",
     "sources": [
-      "Purchase from the Souvenir Shop in Mondstadt"
+      "Purchase from the Souvenir Shop in Mondstadt",
+      "Domain of Forgery: City of Reflections (Monday/Thursday/Sunday)"
     ]
   },
   "Debris of Decarabian's City": {
@@ -3500,7 +3501,8 @@
     "category": "Trophies",
     "icon": "img/material/Debris_of_Decarabians_City.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: City of Reflections (Monday/Thursday/Sunday)"
     ]
   },
   "Fragment of Decarabian's Epic": {
@@ -3511,7 +3513,8 @@
     "category": "Trophies",
     "icon": "img/material/Fragment_of_Decarabians_Epic.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: City of Reflections (Monday/Thursday/Sunday)"
     ]
   },
   "Scattered Piece of Decarabian's Dream": {
@@ -3522,7 +3525,8 @@
     "category": "Trophies",
     "icon": "img/material/Scattered_Piece_of_Decarabians_Dream.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: City of Reflections (Monday/Thursday/Sunday)"
     ]
   },
   "Boreal Wolf's Milk Tooth": {
@@ -3533,7 +3537,8 @@
     "category": "Trophies",
     "icon": "img/material/Boreal_Wolfs_Milk_Tooth.png",
     "sources": [
-      "Purchase from the Souvenir Shop in Mondstadt"
+      "Purchase from the Souvenir Shop in Mondstadt",
+      "Domain of Forgery: Submerged Valley (Tuesday/Friday/Sunday)"
     ]
   },
   "Boreal Wolf's Cracked Tooth": {
@@ -3544,7 +3549,8 @@
     "category": "Trophies",
     "icon": "img/material/Boreal_Wolfs_Cracked_Tooth.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Submerged Valley (Tuesday/Friday/Sunday)"
     ]
   },
   "Boreal Wolf's Broken Fang": {
@@ -3555,7 +3561,8 @@
     "category": "Trophies",
     "icon": "img/material/Boreal_Wolfs_Broken_Fang.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Submerged Valley (Tuesday/Friday/Sunday)"
     ]
   },
   "Boreal Wolf's Nostalgia": {
@@ -3566,7 +3573,8 @@
     "category": "Trophies",
     "icon": "img/material/Boreal_Wolfs_Nostalgia.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Submerged Valley (Tuesday/Friday/Sunday)"
     ]
   },
   "Fetters of the Dandelion Gladiator": {
@@ -3577,7 +3585,8 @@
     "category": "Trophies",
     "icon": "img/material/Fetters_of_the_Dandelion_Gladiator.png",
     "sources": [
-      "Purchase from the Souvenir Shop in Mondstadt"
+      "Purchase from the Souvenir Shop in Mondstadt",
+      "Domain of Forgery: Ruins of Thirsting Capital (Wednesday/Saturday/Sunday)"
     ]
   },
   "Chains of the Dandelion Gladiator": {
@@ -3588,7 +3597,8 @@
     "category": "Trophies",
     "icon": "img/material/Chains_of_the_Dandelion_Gladiator.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Ruins of Thirsting Capital (Wednesday/Saturday/Sunday)"
     ]
   },
   "Shackles of the Dandelion Gladiator": {
@@ -3599,7 +3609,8 @@
     "category": "Trophies",
     "icon": "img/material/Shackles_of_the_Dandelion_Gladiator.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Ruins of Thirsting Capital (Wednesday/Saturday/Sunday)"
     ]
   },
   "Dream of the Dandelion Gladiator": {
@@ -3610,7 +3621,8 @@
     "category": "Trophies",
     "icon": "img/material/Dream_of_the_Dandelion_Gladiator.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Ruins of Thirsting Capital (Wednesday/Saturday/Sunday)"
     ]
   },
   "Luminous Sands from Guyun": {
@@ -3621,7 +3633,8 @@
     "category": "Trophies",
     "icon": "img/material/Luminous_Sands_from_Guyun.png",
     "sources": [
-      "Purchase from the Souvenir Shop in Liyue"
+      "Purchase from the Souvenir Shop in Liyue",
+      "Domain of Forgery: Thundercloud Altar (Monday/Thursday/Sunday)"
     ]
   },
   "Lustrous Stone from Guyun": {
@@ -3632,7 +3645,8 @@
     "category": "Trophies",
     "icon": "img/material/Lustrous_Stone_from_Guyun.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Thundercloud Altar (Monday/Thursday/Sunday)"
     ]
   },
   "Relic from Guyun": {
@@ -3643,7 +3657,8 @@
     "category": "Trophies",
     "icon": "img/material/Relic_from_Guyun.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Thundercloud Altar (Monday/Thursday/Sunday)"
     ]
   },
   "Divine Body from Guyun": {
@@ -3654,7 +3669,8 @@
     "category": "Trophies",
     "icon": "img/material/Divine_Body_from_Guyun.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Thundercloud Altar (Monday/Thursday/Sunday)"
     ]
   },
   "Mist Veiled Lead Elixir": {
@@ -3665,7 +3681,8 @@
     "category": "Trophies",
     "icon": "img/material/Mist_Veiled_Lead_Elixir.png",
     "sources": [
-      "Purchase from the Souvenir Shop in Liyue"
+      "Purchase from the Souvenir Shop in Liyue",
+      "Domain of Forgery: Thundering Ruins (Tuesday/Friday/Sunday)"
     ]
   },
   "Mist Veiled Mercury Elixir": {
@@ -3676,7 +3693,8 @@
     "category": "Trophies",
     "icon": "img/material/Mist_Veiled_Mercury_Elixir.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Thundering Ruins (Tuesday/Friday/Sunday)"
     ]
   },
   "Mist Veiled Gold Elixir": {
@@ -3687,7 +3705,8 @@
     "category": "Trophies",
     "icon": "img/material/Mist_Veiled_Gold_Elixir.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Thundering Ruins (Tuesday/Friday/Sunday)"
     ]
   },
   "Mist Veiled Primo Elixir": {
@@ -3698,7 +3717,8 @@
     "category": "Trophies",
     "icon": "img/material/Mist_Veiled_Primo_Elixir.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Thundering Ruins (Tuesday/Friday/Sunday)"
     ]
   },
   "Grain of Aerosiderite": {
@@ -3709,7 +3729,8 @@
     "category": "Trophies",
     "icon": "img/material/Grain_of_Aerosiderite.png",
     "sources": [
-      "Purchase from the Souvenir Shop in Liyue"
+      "Purchase from the Souvenir Shop in Liyue",
+      "Domain of Forgery: Trial Grounds of Thunder (Wednesday/Saturday/Sunday)"
     ]
   },
   "Piece of Aerosiderite": {
@@ -3720,7 +3741,8 @@
     "category": "Trophies",
     "icon": "img/material/Piece_of_Aerosiderite.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Trial Grounds of Thunder (Wednesday/Saturday/Sunday)"
     ]
   },
   "Bit of Aerosiderite": {
@@ -3731,7 +3753,8 @@
     "category": "Trophies",
     "icon": "img/material/Bit_of_Aerosiderite.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Trial Grounds of Thunder (Wednesday/Saturday/Sunday)"
     ]
   },
   "Chunk of Aerosiderite": {
@@ -3742,7 +3765,8 @@
     "category": "Trophies",
     "icon": "img/material/Chunk_of_Aerosiderite.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Trial Grounds of Thunder (Wednesday/Saturday/Sunday)"
     ]
   },
   "Coral Branch of a Distant Sea": {
@@ -3751,7 +3775,10 @@
     "stars": 2,
     "type": "Weapon Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Coral_Branch_of_a_Distant_Sea.png"
+    "icon": "img/material/Coral_Branch_of_a_Distant_Sea.png",
+    "sources": [
+      "Domain of Forgery: Sunken Sands (Monday/Thursday/Sunday)"
+    ]
   },
   "Jeweled Branch of a Distant Sea": {
     "name": "Jeweled Branch of a Distant Sea",
@@ -3761,7 +3788,8 @@
     "category": "Trophies",
     "icon": "img/material/Jeweled_Branch_of_a_Distant_Sea.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Sunken Sands (Monday/Thursday/Sunday)"
     ]
   },
   "Jade Branch of a Distant Sea": {
@@ -3772,7 +3800,8 @@
     "category": "Trophies",
     "icon": "img/material/Jade_Branch_of_a_Distant_Sea.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Sunken Sands (Monday/Thursday/Sunday)"
     ]
   },
   "Golden Branch of a Distant Sea": {
@@ -3783,7 +3812,8 @@
     "category": "Trophies",
     "icon": "img/material/Golden_Branch_of_a_Distant_Sea.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Sunken Sands (Monday/Thursday/Sunday)"
     ]
   },
   "Narukami's Wisdom": {
@@ -3792,7 +3822,10 @@
     "stars": 2,
     "type": "Weapon Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Narukamis_Wisdom.png"
+    "icon": "img/material/Narukamis_Wisdom.png",
+    "sources": [
+      "Domain of Forgery: Altar of Sands (Tuesday/Friday/Sunday)"
+    ]
   },
   "Narukami's Joy": {
     "name": "Narukami's Joy",
@@ -3802,7 +3835,8 @@
     "category": "Trophies",
     "icon": "img/material/Narukamis_Joy.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Altar of Sands (Tuesday/Friday/Sunday)"
     ]
   },
   "Narukami's Affection": {
@@ -3813,7 +3847,8 @@
     "category": "Trophies",
     "icon": "img/material/Narukamis_Affection.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Altar of Sands (Tuesday/Friday/Sunday)"
     ]
   },
   "Narukami's Valor": {
@@ -3824,7 +3859,8 @@
     "category": "Trophies",
     "icon": "img/material/Narukamis_Valor.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Altar of Sands (Tuesday/Friday/Sunday)"
     ]
   },
   "Mask of the Wicked Lieutenant": {
@@ -3833,7 +3869,10 @@
     "stars": 2,
     "type": "Weapon Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Mask_of_the_Wicked_Lieutenant.png"
+    "icon": "img/material/Mask_of_the_Wicked_Lieutenant.png",
+    "sources": [
+      "Domain of Forgery: Sand Burial (Wednesday/Saturday/Sunday)"
+    ]
   },
   "Mask of the Tiger's Bite": {
     "name": "Mask of the Tiger's Bite",
@@ -3843,7 +3882,8 @@
     "category": "Trophies",
     "icon": "img/material/Mask_of_the_Tigers_Bite.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Sand Burial (Wednesday/Saturday/Sunday)"
     ]
   },
   "Mask of the One-Horned": {
@@ -3854,7 +3894,8 @@
     "category": "Trophies",
     "icon": "img/material/Mask_of_the_OneHorned.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Sand Burial (Wednesday/Saturday/Sunday)"
     ]
   },
   "Mask of the Kijin": {
@@ -3865,7 +3906,8 @@
     "category": "Trophies",
     "icon": "img/material/Mask_of_the_Kijin.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Forgery: Sand Burial (Wednesday/Saturday/Sunday)"
     ]
   },
   "Damaged Mask": {
@@ -4546,7 +4588,10 @@
     "stars": 2,
     "type": "Talent Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Teachings_of_Freedom.png"
+    "icon": "img/material/Teachings_of_Freedom.png",
+    "sources": [
+      "Domain of Mastery: Frosted Altar (Monday/Thursday/Sunday)"
+    ]
   },
   "Guide to Freedom": {
     "name": "Guide to Freedom",
@@ -4556,7 +4601,8 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Freedom.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Frosted Altar (Monday/Thursday/Sunday)"
     ]
   },
   "Philosophies of Freedom": {
@@ -4567,7 +4613,8 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Freedom.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Frosted Altar (Monday/Thursday/Sunday)"
     ]
   },
   "Teachings of Resistance": {
@@ -4576,7 +4623,10 @@
     "stars": 2,
     "type": "Talent Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Teachings_of_Resistance.png"
+    "icon": "img/material/Teachings_of_Resistance.png",
+    "sources": [
+      "Domain of Mastery: Frozen Abyss (Tuesday/Friday/Sunday)"
+    ]
   },
   "Guide to Resistance": {
     "name": "Guide to Resistance",
@@ -4586,7 +4636,8 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Resistance.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Frozen Abyss (Tuesday/Friday/Sunday)"
     ]
   },
   "Philosophies of Resistance": {
@@ -4597,7 +4648,8 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Resistance.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Frozen Abyss (Tuesday/Friday/Sunday)"
     ]
   },
   "Teachings of Ballad": {
@@ -4606,7 +4658,10 @@
     "stars": 2,
     "type": "Talent Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Teachings_of_Ballad.png"
+    "icon": "img/material/Teachings_of_Ballad.png",
+    "sources": [
+      "Domain of Mastery: Realm of Slumber (Wednesday/Saturday/Sunday)"
+    ]
   },
   "Guide to Ballad": {
     "name": "Guide to Ballad",
@@ -4616,7 +4671,8 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Ballad.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Realm of Slumber (Wednesday/Saturday/Sunday)"
     ]
   },
   "Philosophies of Ballad": {
@@ -4627,7 +4683,8 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Ballad.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Realm of Slumber (Wednesday/Saturday/Sunday)"
     ]
   },
   "Teachings of Prosperity": {
@@ -4636,7 +4693,10 @@
     "stars": 2,
     "type": "Talent Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Teachings_of_Prosperity.png"
+    "icon": "img/material/Teachings_of_Prosperity.png",
+    "sources": [
+      "Domain of Mastery: Altar of Flames (Monday/Thursday/Sunday)"
+    ]
   },
   "Guide to Prosperity": {
     "name": "Guide to Prosperity",
@@ -4646,7 +4706,8 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Prosperity.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Altar of Flames (Monday/Thursday/Sunday)"
     ]
   },
   "Philosophies of Prosperity": {
@@ -4657,7 +4718,8 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Prosperity.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Altar of Flames (Monday/Thursday/Sunday)"
     ]
   },
   "Teachings of Diligence": {
@@ -4666,7 +4728,10 @@
     "stars": 2,
     "type": "Talent Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Teachings_of_Diligence.png"
+    "icon": "img/material/Teachings_of_Diligence.png",
+    "sources": [
+      "Domain of Mastery: Heart of the Flames (Tuesday/Friday/Sunday)"
+    ]
   },
   "Guide to Diligence": {
     "name": "Guide to Diligence",
@@ -4676,7 +4741,8 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Diligence.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Heart of the Flames (Tuesday/Friday/Sunday)"
     ]
   },
   "Philosophies of Diligence": {
@@ -4687,7 +4753,8 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Diligence.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Heart of the Flames (Tuesday/Friday/Sunday)"
     ]
   },
   "Teachings of Gold": {
@@ -4696,7 +4763,10 @@
     "stars": 2,
     "type": "Talent Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Teachings_of_Gold.png"
+    "icon": "img/material/Teachings_of_Gold.png",
+    "sources": [
+      "Domain of Mastery: Circle of Embers (Wednesday/Saturday/Sunday)"
+    ]
   },
   "Guide to Gold": {
     "name": "Guide to Gold",
@@ -4706,7 +4776,8 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Gold.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Circle of Embers (Wednesday/Saturday/Sunday)"
     ]
   },
   "Philosophies of Gold": {
@@ -4717,7 +4788,8 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Gold.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Circle of Embers (Wednesday/Saturday/Sunday)"
     ]
   },
   "Teachings of Transience": {
@@ -4726,7 +4798,10 @@
     "stars": 2,
     "type": "Talent Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Teachings_of_Transience.png"
+    "icon": "img/material/Teachings_of_Transience.png",
+    "sources": [
+      "Domain of Mastery: Reign of Violet (Monday/Thursday/Sunday)"
+    ]
   },
   "Guide to Transience": {
     "name": "Guide to Transience",
@@ -4736,7 +4811,8 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Transience.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Reign of Violet (Monday/Thursday/Sunday)"
     ]
   },
   "Philosophies of Transience": {
@@ -4747,7 +4823,8 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Transience.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Reign of Violet (Monday/Thursday/Sunday)"
     ]
   },
   "Teachings of Elegance": {
@@ -4756,7 +4833,10 @@
     "stars": 2,
     "type": "Talent Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Teachings_of_Elegance.png"
+    "icon": "img/material/Teachings_of_Elegance.png",
+    "sources": [
+      "Domain of Mastery: Thundering Valley (Tuesday/Friday/Sunday)"
+    ]
   },
   "Guide to Elegance": {
     "name": "Guide to Elegance",
@@ -4766,7 +4846,8 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Elegance.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Thundering Valley (Tuesday/Friday/Sunday)"
     ]
   },
   "Philosophies of Elegance": {
@@ -4777,7 +4858,8 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Elegance.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Thundering Valley (Tuesday/Friday/Sunday)"
     ]
   },
   "Teachings of Light": {
@@ -4786,7 +4868,10 @@
     "stars": 2,
     "type": "Talent Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Teachings_of_Light.png"
+    "icon": "img/material/Teachings_of_Light.png",
+    "sources": [
+      "Domain of Mastery: Vine-Infested Ruins (Wednesday/Saturday/Sunday)"
+    ]
   },
   "Guide to Light": {
     "name": "Guide to Light",
@@ -4796,7 +4881,8 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Light.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Vine-Infested Ruins (Wednesday/Saturday/Sunday)"
     ]
   },
   "Philosophies of Light": {
@@ -4807,7 +4893,8 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Light.png",
     "sources": [
-      "Crafted"
+      "Crafted",
+      "Domain of Mastery: Vine-Infested Ruins (Wednesday/Saturday/Sunday)"
     ]
   },
   "Crown of Insight": {

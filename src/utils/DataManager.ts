@@ -14,12 +14,10 @@ import costTemplates from "../data/gamedata/cost_templates.json"
 import characterData from "../data/gamedata/characters.json"
 import characterCurves from "../data/gamedata/character_curves.json"
 import characterLevels from "../data/gamedata/character_levels.json"
-import booksData from "../data/gamedata/books.json"
 
 import weaponData from "../data/gamedata/weapons.json"
 import weaponCurves from "../data/gamedata/weapon_curves.json"
 import weaponLevels from "../data/gamedata/weapon_levels.json"
-import weaponMats from "../data/gamedata/weapon_mats.json"
 
 import paimonShop from "../data/gamedata/paimon_shop.json"
 
@@ -60,9 +58,6 @@ export default class DataManager {
 
     private readonly abyssSchedule: Record<number, AbyssSchedule> = abyssSchedule
     readonly abyssFloors: Record<number, AbyssFloor> = abyssFloors
-
-    readonly books: Record<string, string[]> = booksData
-    readonly weaponMats: Record<string, string[]> = weaponMats
 
     readonly paimonsBargains: PaimonShop[] = paimonShop
     private readonly costTemplates: Record<string, Cost[]> = costTemplates
