@@ -3,7 +3,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { CommandSource, Enemy, SendMessage } from "../../utils/Types"
-import { Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLinkToGuide, PAD_END, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
+import { Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLinkToGuide, PAD_END, PAD_START, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 
 export default class EnemyCommand extends Command {
     constructor(name: string) {
@@ -112,6 +112,7 @@ Note: this command supports fuzzy search.`,
 
         const embed = new MessageEmbed()
             .setTitle("Enemies")
+            .setURL(`${client.data.baseURL}enemies`)
             .setDescription(pages[relativePage])
             .setFooter(`Page ${currentPage} / ${maxPages} - See '${config.prefix}help enemy' for more info about what you can do`)
             .setColor(Colors.GREEN)
@@ -120,9 +121,11 @@ Note: this command supports fuzzy search.`,
     }
 
     getMainEnemyPage(enemy: Enemy, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
-        const guides = client.data.getGuides("enemy", enemy.name).map(({ guide, page }) => getLinkToGuide(guide, page)).join("\n")
+        const { data } = client
+        const guides = data.getGuides("enemy", enemy.name).map(({ guide, page }) => getLinkToGuide(guide, page)).join("\n")
         const embed = new MessageEmbed()
             .setTitle(`${enemy.name}: Basic info`)
+            .setURL(`${data.baseURL}enemies/${urlify(enemy.name, false)}`)
             .setColor(Colors.AQUA)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setDescription(`**Type**: ${enemy.type ?? "Unknown"}${enemy.kind ? ` (${enemy.kind})` : ""}${enemy.notes ? `\n\n${enemy.notes}` : ""}`)
@@ -131,7 +134,7 @@ Note: this command supports fuzzy search.`,
             embed.addField("Guides", guides)
 
         if (enemy.icon)
-            embed.setThumbnail(`${client.data.baseURL}${enemy.icon}`)
+            embed.setThumbnail(`${data.baseURL}${enemy.icon}`)
 
         if (enemy.resistance)
             embed.addField("Resistances", `\`\`\`\n${createTable(["Pyro", "Elec", "Cryo", "Hydro", "Anemo", "Geo", "Phys", "Notes"], enemy.resistance, [PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_END])}\n\`\`\``)
@@ -144,6 +147,7 @@ Note: this command supports fuzzy search.`,
             .setColor(Colors.AQUA)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setTitle(`${enemy.name}: Description`)
+            .setURL(`${client.data.baseURL}enemies/${urlify(enemy.name, false)}`)
             .setDescription(enemy.desc ?? "Unavailable")
 
         if (enemy.icon)

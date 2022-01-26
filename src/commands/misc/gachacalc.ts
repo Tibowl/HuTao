@@ -6,6 +6,7 @@ import config from "../../data/config.json"
 import { createTable, PAD_END, PAD_START, sendMessage } from "../../utils/Utils"
 import log4js from "log4js"
 import { CommandSource, SendMessage } from "../../utils/Types"
+import client from "../../main"
 
 const Logger = log4js.getLogger("GachaCalc")
 
@@ -79,6 +80,7 @@ export default class GachaCalc extends Command {
             name,
             category: "Misc",
             help: `Calculate chance to get banner character/weapon in a certain amount of pulls.
+Also available online at <${client.data.baseURL}tools/gachacalc>
 
 Available banners: ${Object.keys(gachas).map(x => `\`${x}\``).join(", ")}
 
@@ -202,7 +204,8 @@ ${createTable(
             ]),
         [PAD_END, PAD_START, PAD_START]
     )}
-\`\`\``)
+\`\`\`
+Web calculator (with graphs) is available on <${client.data.baseURL}tools/gachacalc>`)
     }
 
     calcSims = memoize(this.calcSimsRegular, { max: 50 })

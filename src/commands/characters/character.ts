@@ -3,7 +3,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { BotEmoji, Character, CharacterFull, CommandSource, SendMessage, Skill, TalentTable, TalentValue } from "../../utils/Types"
-import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLinkToGuide, PAD_END, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
+import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLinkToGuide, PAD_END, PAD_START, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 
 
 const elementTypes = client.data.getCharacters()
@@ -195,6 +195,7 @@ Note: this command supports fuzzy search.`,
 
         const embed = new MessageEmbed()
             .setTitle("Character list")
+            .setURL(`${client.data.baseURL}characters`)
             .setDescription(pages[relativePage])
             .setFooter(`Page ${currentPage} / ${maxPages} - See '${config.prefix}help char' for more info about what you can do`)
             .setColor(Colors.GREEN)
@@ -223,6 +224,7 @@ Note: this command supports fuzzy search.`,
 
         if (relativePage == 0) {
             embed.setTitle(`${char.name}: Description`)
+                .setURL(`${data.baseURL}characters/${urlify(char.name, false)}`)
                 .setDescription(char.desc)
                 .addField("Basics", this.getBasicInfo(char))
 
@@ -323,6 +325,7 @@ Note: this command supports fuzzy search.`,
                 metadata += `**Element**: ${char.meta.element}\n`
 
             embed.setTitle(`${char.name}: Information`)
+                .setURL(`${data.baseURL}characters/${urlify(char.name, false)}#meta`)
                 .setDescription(metadata.trim())
 
             const va: string[] = []
@@ -391,7 +394,8 @@ Note: this command supports fuzzy search.`,
                     embed.addField(`Ascension ${asc.level} costs`, data.getCosts(cost), true)
             }
 
-            embed.setTitle(`${char.name}: Ascensions + stats`)
+            embed.setTitle(`${char.name}: Stats + ascensions`)
+                .setURL(`${data.baseURL}characters/${urlify(char.name, false)}#stats`)
                 .setDescription("Character stats:\n```\n" + createTable(
                     ["Lvl", "Asc", ...columns.map(c => data.statName(c))],
                     rows,
@@ -412,6 +416,7 @@ Note: this command supports fuzzy search.`,
             }
 
             embed.setTitle(`${char.name}: Talent upgrade costs`)
+                .setURL(`${data.baseURL}characters/${urlify(char.name, false)}#talents`)
                 .setColor(Colors[skills.ult?.type ?? "None"])
             return embed
         }
@@ -420,12 +425,14 @@ Note: this command supports fuzzy search.`,
     }
 
     getMediaPage(char: Character, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors[char.meta.element] ?? "")
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setTitle(`${char.name}`)
+            .setURL(`${data.baseURL}characters/${urlify(char.name, false)}#videos`)
         if (char.icon)
-            embed.setThumbnail(`${client.data.baseURL}${char.icon}`)
+            embed.setThumbnail(`${data.baseURL}${char.icon}`)
 
         const videos = char.media.videos ? (`**Promotional Videos**
 ${          Object
@@ -447,12 +454,13 @@ ${          Object
     }
 
     getCharTalentPage(char: Character, relativePage: number, currentPage: number, maxPages: number, talentMode: TalentMode): MessageEmbed | undefined {
+        const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors[char.meta.element] ?? "")
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
         if (char.icon)
-            embed.setThumbnail(`${client.data.baseURL}${char.icon}`)
+            embed.setThumbnail(`${data.baseURL}${char.icon}`)
 
         function isValueTable(talent: TalentTable | TalentValue): talent is TalentTable {
             return (talent as TalentTable).values != undefined
@@ -460,6 +468,7 @@ ${          Object
 
         function showTalent(skill: Skill): void {
             embed.setTitle(`${char.name}: ${skill.name}`)
+                .setURL(`${data.baseURL}characters/${urlify(char.name, false)}#${urlify(skill.name, false)}`)
                 .setDescription(skill.desc)
 
             if (skill.charges)
@@ -525,6 +534,7 @@ ${          Object
 
             if (skills.passive && page++ == relativePage) {
                 embed.setTitle(`${char.name}: Passives`)
+                    .setURL(`${data.baseURL}characters/${urlify(char.name, false)}#${urlify(skills.passive[0].name, false)}`)
                 for (const passive of skills.passive) {
                     if (passive.minAscension)
                         embed.addField(passive.name, `${passive.desc}
@@ -538,6 +548,7 @@ ${          Object
 
             if (skills.constellations && page++ == relativePage) {
                 embed.setTitle(`${char.name}: Constellations`)
+                    .setURL(`${data.baseURL}characters/${urlify(char.name, false)}#${urlify(skills.constellations[0].name, false)}`)
                     .setThumbnail(`${client.data.baseURL}${skills.constellations[0]?.icon}`)
                 let c = 0
                 for (const constellation of skills.constellations)

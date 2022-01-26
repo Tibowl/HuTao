@@ -2,7 +2,7 @@ import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } fr
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLinkToGuide, PAD_START, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
+import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLinkToGuide, PAD_START, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 import { CommandSource, SendMessage, Weapon } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -194,6 +194,7 @@ Note: this command supports fuzzy search.`,
 
         const embed = new MessageEmbed()
             .setTitle("Weapons")
+            .setURL(`${client.data.baseURL}weapons`)
             .setDescription(pages[relativePage])
             .setFooter(`Page ${currentPage} / ${maxPages} - See '${config.prefix}help weapon' for more info about what you can do`)
             .setColor(Colors.GREEN)
@@ -206,6 +207,7 @@ Note: this command supports fuzzy search.`,
         const hasRefinements = weapon.refinements && weapon.refinements.length > 0
         const embed = new MessageEmbed()
             .setTitle(`${weapon.name}: Basic info`)
+            .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}`)
             .setColor(Colors.AQUA)
             .setThumbnail(`${data.baseURL}${weapon.icon}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
@@ -242,7 +244,7 @@ Note: this command supports fuzzy search.`,
             ].map(i => data.emoji(i)).join("")}`)
 
 
-        const guides = client.data.getGuides("weapon", weapon.name).map(({ guide, page }) => getLinkToGuide(guide, page)).join("\n")
+        const guides = data.getGuides("weapon", weapon.name).map(({ guide, page }) => getLinkToGuide(guide, page)).join("\n")
 
         if (guides)
             embed.addField("Guides", guides)
@@ -285,6 +287,7 @@ Note: this command supports fuzzy search.`,
         }
 
         embed.setTitle(`${weapon.name}: Ascensions + stats`)
+            .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}#stats`)
             .setDescription("Weapon stats:\n```\n" + createTable(
                 ["Lvl", "Asc", ...columns.map(c => data.statName(c))],
                 rows,
@@ -295,12 +298,14 @@ Note: this command supports fuzzy search.`,
     }
 
     getRefinementWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setThumbnail(`${client.data.baseURL}${weapon.icon}`)
+            .setThumbnail(`${data.baseURL}${weapon.icon}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
         embed.setTitle(`${weapon.name}: Refinements`)
+            .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}#refinements`)
         for (const [refinement, info] of Object.entries(weapon.refinements ?? []))
             embed.addField(`${info.name} R${+refinement+1}`, info.desc)
 
@@ -308,35 +313,39 @@ Note: this command supports fuzzy search.`,
     }
 
     getLoreWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setThumbnail(`${client.data.baseURL}${weapon.icon}`)
+            .setThumbnail(`${data.baseURL}${weapon.icon}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setTitle(`${weapon.name}: Lore`)
+            .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}#lore`)
             .setDescription(weapon.lore ?? "Unavailable")
         return embed
     }
 
     getArtWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setThumbnail(`${client.data.baseURL}${weapon.icon}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setTitle(`${weapon.name}: Base`)
-            .setDescription(`[Open image in browser](${client.data.baseURL}${weapon.icon})`)
-            .setImage(client.data.baseURL + weapon.icon)
+            .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}#media`)
+            .setDescription(`[Open image in browser](${data.baseURL}${weapon.icon})`)
+            .setImage(data.baseURL + weapon.icon)
         embed.thumbnail = null
         return embed
     }
 
     getSecondArtWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setThumbnail(`${client.data.baseURL}${weapon.awakenIcon}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setTitle(`${weapon.name}: 2nd Ascension`)
-            .setDescription(`[Open image in browser](${client.data.baseURL}${weapon.awakenIcon})`)
-            .setImage(client.data.baseURL + weapon.awakenIcon)
+            .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}#media`)
+            .setDescription(`[Open image in browser](${data.baseURL}${weapon.awakenIcon})`)
+            .setImage(data.baseURL + weapon.awakenIcon)
         embed.thumbnail = null
         return embed
     }

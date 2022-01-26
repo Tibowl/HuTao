@@ -3,7 +3,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { CommandSource, Material, SendMessage } from "../../utils/Types"
-import { Bookmarkable, Colors, findFuzzyBestCandidates, getLinkToGuide, paginator, sendMessage, simplePaginator } from "../../utils/Utils"
+import { Bookmarkable, Colors, findFuzzyBestCandidates, getLinkToGuide, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 
 export default class MaterialCommand extends Command {
     constructor(name: string) {
@@ -112,6 +112,7 @@ Note: this command supports fuzzy search.`,
 
         const embed = new MessageEmbed()
             .setTitle("Materials")
+            .setURL(`${client.data.baseURL}materials`)
             .setDescription(pages[relativePage])
             .setFooter(`Page ${currentPage} / ${maxPages} - See '${config.prefix}help material' for more info about what you can do`)
             .setColor(Colors.GREEN)
@@ -120,9 +121,11 @@ Note: this command supports fuzzy search.`,
     }
 
     getMainMaterialPage(material: Material, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
-        const guides = client.data.getGuides("material", material.name).map(({ guide, page }) => getLinkToGuide(guide, page)).join("\n")
+        const { data } = client
+        const guides = data.getGuides("material", material.name).map(({ guide, page }) => getLinkToGuide(guide, page)).join("\n")
         const embed = new MessageEmbed()
             .setTitle(`${material.name}: Basic info`)
+            .setURL(`${data.baseURL}materials/${urlify(material.name, false)}`)
             .setColor(Colors.AQUA)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setDescription(material.desc)
@@ -140,20 +143,22 @@ Note: this command supports fuzzy search.`,
             embed.addField("Sources", material.sources.join("\n"))
 
         if (material.icon)
-            embed.setThumbnail(`${client.data.baseURL}${material.icon}`)
+            embed.setThumbnail(`${data.baseURL}${material.icon}`)
 
         return embed
     }
 
     getLoreMaterialPage(material: Material, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+        const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setTitle(`${material.name}: Description`)
+            .setURL(`${data.baseURL}materials/${urlify(material.name, false)}#longdesc`)
             .setDescription(material.longDesc ?? "Unavailable")
 
         if (material.icon)
-            embed.setThumbnail(`${client.data.baseURL}${material.icon}`)
+            embed.setThumbnail(`${data.baseURL}${material.icon}`)
 
         return embed
     }

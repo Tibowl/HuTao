@@ -125,6 +125,7 @@ ${Object.entries(categorized)
     ${items.sort((a, b) => a.localeCompare(b)).map(cmd => `${config.prefix}${cmd}`).join(", ")}`)
         .join("\n")}
 
+*Some commands are also available on the website <${client.data.baseURL}>
 *Make sure to check out \`${config.prefix}help <command name>\` for more information about a specific command, you might find some useful shortcuts/tips (like command aliases/how most search commands support fuzzy search).*
 *Any problems/suggestions? Check out \`${config.prefix}about\`.*${missingPerms.length > 0 ? `
 

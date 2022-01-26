@@ -2,7 +2,7 @@ import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } fr
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { Colors, createTable,  findFuzzyBestCandidates,  getLinkToGuide,  sendMessage,  simplePaginator } from "../../utils/Utils"
+import { Colors, createTable,  findFuzzyBestCandidates,  getLinkToGuide,  sendMessage,  simplePaginator, urlify } from "../../utils/Utils"
 import { Artifact, CommandSource, SendMessage } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -103,6 +103,7 @@ Note: this command supports fuzzy search.`,
 
         const embed = new MessageEmbed()
             .setTitle("Artifact Sets")
+            .setURL(`${client.data.baseURL}artifacts`)
             .setDescription(pages[relativePage])
             .setFooter(`Page ${currentPage} / ${maxPages} - See '${config.prefix}help artifact' for more info about what you can do`)
             .setColor(Colors.GREEN)
@@ -115,6 +116,7 @@ Note: this command supports fuzzy search.`,
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
             .setThumbnail(`${data.baseURL}${set.artis.find(x => x.icon)?.icon ?? "img/unknown.png"}`)
+            .setURL(`${data.baseURL}artifacts/${urlify(set.name, false)}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
         if (relativePage == 0) {
@@ -140,6 +142,7 @@ Note: this command supports fuzzy search.`,
             const total = mainStats.map(m => m.weight).reduce((a, b) => a+b, 0)
 
             embed.setTitle(`${arti.name}`)
+                .setURL(`${data.baseURL}artifacts/${urlify(set.name, false)}#artis`)
                 .setDescription(arti.desc)
                 .addField("Possible main stats", `\`\`\`
 ${createTable(

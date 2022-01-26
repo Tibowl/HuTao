@@ -3,7 +3,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { CommandSource, Guide, SendMessage } from "../../utils/Types"
-import { Colors, findFuzzy, findFuzzyBestCandidates, sendMessage, simplePaginator } from "../../utils/Utils"
+import { Colors, findFuzzy, findFuzzyBestCandidates, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 
 
 export default class GuideCommand extends Command {
@@ -88,12 +88,13 @@ Note: this command supports fuzzy search.`,
     }
 
     getGuides(): string[] {
-        const guides = client.data.guides
-            .map((guide) => `**${guide.name}**:
+        const { data } = client
+        const guides = data.guides
+            .map((guide) => `[**${guide.name}**](${data.baseURL}guides/${urlify(guide.name, false)}):
 ${guide.pages.map(p => `- ${p.url ? `[${p.name}](${p.url})` : p.name}`).join("\n")}`)
 
         const pages: string[] = [`**List of categories:**
-${client.data.guides.map((guide) => `- *${guide.name}*: ${guide.pages.length} ${guide.pages.length == 1 ? "guide" : "guides"}`).join("\n")}`]
+${data.guides.map((guide) => `- *${guide.name}*: ${guide.pages.length} ${guide.pages.length == 1 ? "guide" : "guides"}`).join("\n")}`]
 
         let paging = "", c = 0
         for (const guide of guides) {
@@ -116,6 +117,7 @@ ${client.data.guides.map((guide) => `- *${guide.name}*: ${guide.pages.length} ${
 
         const embed = new MessageEmbed()
             .setTitle("Guides")
+            .setURL(`${client.data.baseURL}guides`)
             .setDescription(pages[relativePage])
             .setFooter(`Page ${currentPage} / ${maxPages} - Use '${config.prefix}guide <name>' to view a guide`)
             .setColor(Colors.GREEN)
@@ -133,6 +135,7 @@ export function getGuidePage(guide: Guide, relativePage: number, currentPage: nu
 
     const embed = new MessageEmbed()
         .setTitle(page.name)
+        .setURL(`${data.baseURL}guides/${urlify(guide.name, false)}/${urlify(page.name, true)}`)
         .setColor(Colors.GREEN)
 
     if (maxPages > 1)
@@ -141,13 +144,12 @@ export function getGuidePage(guide: Guide, relativePage: number, currentPage: nu
         embed.setFooter(guide.name)
 
     if (page.desc)
-        embed.setDescription(page.desc.replace(/\${(.*?)}/g, (_, name) => data.emoji(name)))
+        embed.setDescription(page.desc.replace(/\${(.*?)}/g, (_, name) => data.emoji(name)) +
+            (page.url ? `\n\n[View video](${page.url})` : "")
+        )
 
     if (page.img)
         embed.setImage(page.img)
-
-    if (page.url)
-        embed.setURL(page.url)
 
     return embed
 }
