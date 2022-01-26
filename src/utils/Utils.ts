@@ -182,14 +182,14 @@ export function isServerTimeStart(event: Event) {
     return event.start_server ?? (event.type == EventType.Banner || event.type == EventType.InGame || event.type == EventType.Unlock)
 }
 export function getStartTime(event: Event, serverTimezone: string) {
-    return event.start != undefined && getDate(event.start, event.timezone ?? isServerTimeStart(event) ? serverTimezone : undefined)
+    return event.start != undefined && getDate(event.start, event.timezone ?? (isServerTimeStart(event) ? serverTimezone : undefined))
 }
 
 export function isServerTimeEnd(event: Event) {
     return event.end_server ?? (event.type == EventType.Banner || event.type == EventType.InGame || event.type == EventType.Web)
 }
 export function getEndTime(event: Event, serverTimezone: string) {
-    return event.end != undefined && getDate(event.end, event.timezone ?? isServerTimeEnd(event) ? serverTimezone : undefined)
+    return event.end != undefined && getDate(event.end, event.timezone ?? (isServerTimeEnd(event) ? serverTimezone : undefined))
 }
 
 // Format news
