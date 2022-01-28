@@ -130,6 +130,15 @@
         }
       },
       {
+        "name": "Sea Ganoderma",
+        "desc": "**Sea Ganoderma ${Sea Ganoderma}** can be found in Inazuman seawater and are being sold by [**Obata**](https://cdn.discordapp.com/attachments/936714993754312724/936749485336453181/Obata.png) (up to 5 per 3 days).\n\n> A plant species that only grows in certain regions and islands of the ocean. Though it looks like a fungus of some sort, it actually comes from a substance secreted by certain soft-bodied organisms.",
+        "img": "https://cdn.discordapp.com/attachments/936714993754312724/936717519446741102/unknown.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Sea Ganoderma"]
+        }
+      },
+      {
         "name": "Sango Pearl",
         "desc": "**Sango Pearls ${Sango Pearl}** can be found in the wilderness of Watatsumi Island.\n\n> A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of a moonlight.",
         "img": "https://cdn.discordapp.com/attachments/921188291842277476/921188358250709102/unknown.png",
@@ -163,11 +172,52 @@
     "pages": [
       {
         "name": "Frog",
-        "desc": "**Frogs** are found in the wilderness near bodies of fresh water. They are used in crafting.\n\n> Common frog found in moist environments. Full of energy, they secrete a substance that will keep you full of vitality.",
+        "desc": "**Frogs** can be found in the wilderness near bodies of fresh water. They are used in crafting.\n\n> Common frog found in moist environments. Full of energy, they secrete a substance that will keep you full of vitality.",
         "img": "https://cdn.discordapp.com/attachments/924811279246454874/924811791706497054/FrogRoute404.png",
         "credits": "Soul",
         "links": {
           "material": ["Frog"]
+        }
+      },
+      {
+        "name": "Loach Pearl",
+        "desc": "**Loach Pearls** can be found in the wilderness near bodies of water.\n\n> A shiny pearl spat out by a loach that has mystical medicinal properties. Minerals and elemental particles ingested by the loach condense into these mildly magical beads. When threatened, the loach spits them out to confuse predators and escape with its life.",
+        "img": "https://cdn.discordapp.com/attachments/936705429415792700/936705447933648936/unknown.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Loach Pearl"]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Trees",
+    "pages": [
+      {
+        "name": "Maple Wood",
+        "desc": "**Maple Wood** can be obtained from the Amur Maple and can be used to create furnishings.\n\n> Excellent quality wood with a fine color and texture.",
+        "img": "https://cdn.discordapp.com/attachments/933121651468554270/933136609178693732/Maple_Wood_Guide.png",
+        "credits": "Jnight",
+        "links": {
+          "material": ["Maple Wood"]
+        }
+      },
+      {
+        "name": "Otogi Wood",
+        "desc": "**Otogi Wood** can be obtained from the Otogi Tree and can be used to create furnishings.\n\n> It has just the right amount of moisture and oil, and as such has a great many uses.",
+        "img": "https://cdn.discordapp.com/attachments/932438480376717353/932725498759512084/Otogi_Wood_Guide.png",
+        "credits": "Jnight",
+        "links": {
+          "material": ["Otogi Wood"]
+        }
+      },
+      {
+        "name": "Yumemiru Wood",
+        "desc": "**Yumemiru Wood** can be obtained from Sakura Trees and can be used to create furnishings.\n\n> Exquisite in quality and full of moisture, people say that it can lull people into dreams as sweet as the warm spring.",
+        "img": "https://cdn.discordapp.com/attachments/933728939711529001/933754674589360178/Yumemiru_Wood_Guide.png",
+        "credits": "Jnight",
+        "links": {
+          "material": ["Yumemiru Wood"]
         }
       }
     ]
@@ -270,29 +320,6 @@
         "links": {
           "enemy": ["Rockfond Rifthound Whelp", "Thundercraven Rifthound Whelp", "Rockfond Rifthound", "Thundercraven Rifthound"],
           "material": ["Concealed Claw", "Concealed Unguis", "Concealed Talon"]
-        }
-      }
-    ]
-  },
-  {
-    "name": "Trees",
-    "pages": [
-      {
-        "name": "Otogi Wood",
-        "desc": "**Otogi Wood** can be obtained from the Otogi Tree and can be used to create furnishings.\n\n> It has just the right amount of moisture and oil, and as such has a great many uses.",
-        "img": "https://cdn.discordapp.com/attachments/932438480376717353/932725498759512084/Otogi_Wood_Guide.png",
-        "credits": "Jnight",
-        "links": {
-          "material": ["Otogi Wood"]
-        }
-      },
-      {
-        "name": "Yumemiru Wood",
-        "desc": "**Yumemiru Wood** can be obtained from Sakura Trees and can be used to create furnishings.\n\n> Exquisite in quality and full of moisture, people say that it can lull people into dreams as sweet as the warm spring.",
-        "img": "https://cdn.discordapp.com/attachments/933728939711529001/933754674589360178/Yumemiru_Wood_Guide.png",
-        "credits": "Jnight",
-        "links": {
-          "material": ["Yumemiru Wood"]
         }
       }
     ]
