@@ -528,6 +528,240 @@
       "Recommendation: Found on Tsurumi Island"
     ]
   },
+  "Fir Wood": {
+    "name": "Fir Wood",
+    "desc": "Wood from the tree known as \"Faber's Fir.\" Widely used for its fine quality and attractive grain.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Fir_Wood.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Starfell Valley",
+      "Recommendation: Cut from Galesong Hill"
+    ]
+  },
+  "Yumemiru Wood": {
+    "name": "Yumemiru Wood",
+    "desc": "Timber obtained from Sakura Trees. Exquisite in quality and full of moisture, people say that it can lull people into dreams as sweet as the warm spring.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Yumemiru_Wood.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Narukami Island"
+    ]
+  },
+  "Maple Wood": {
+    "name": "Maple Wood",
+    "desc": "Timber from the Amur Maple. Excellent quality wood with a fine color and texture.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Maple_Wood.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Narukami Island"
+    ]
+  },
+  "Aralia Wood": {
+    "name": "Aralia Wood",
+    "desc": "Wood from the Inazuman Cedar. It is soft, has straight veins, and gives off a light fragrance.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Aralia_Wood.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Narukami Island"
+    ]
+  },
+  "Otogi Wood": {
+    "name": "Otogi Wood",
+    "desc": "Wood from the Otogi Tree. It has just the right amount of moisture and oil, and as such has a great many uses.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Otogi_Wood.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Yashiori Island"
+    ]
+  },
+  "Fragrant Cedar Wood": {
+    "name": "Fragrant Cedar Wood",
+    "desc": "Wood from the Cedar tree. Also known as the \"Fragrant Cedar\" for the aromatic oils it contains.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Fragrant_Cedar_Wood.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Starfell Valley"
+    ]
+  },
+  "Bamboo Segment": {
+    "name": "Bamboo Segment",
+    "desc": "Segments of bamboo that are light and far stronger than their humble appearance might suggest. It lets off a light fragrance.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Bamboo_Segment.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Bishui Plain"
+    ]
+  },
+  "Sandbearer Wood": {
+    "name": "Sandbearer Wood",
+    "desc": "Timber from the Sandbearer Tree. Said to be an exceptionally hardy plant resistant to wind and rain with a long lifespan.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Sandbearer_Wood.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Minlin",
+      "Recommendation: Cut from Lisha"
+    ]
+  },
+  "Pine Wood": {
+    "name": "Pine Wood",
+    "desc": "Timber obtained from pines. Its color and grain are nothing to write home about, but its unpretentious nature is elegant in its own right. The wood is very sturdy as well. In able hands, its products should be able to resist moth and rot alike.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Pine_Wood.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Dragonspine"
+    ]
+  },
+  "Cuihua Wood": {
+    "name": "Cuihua Wood",
+    "desc": "Timber obtained from Cuihua Trees. With its lovely color and unique make, it will surely be able to take on myriad uses upon undergoing suitable workmanship.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Cuihua_Wood.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Starfell Valley",
+      "Recommendation: Cut from Bishui Plain"
+    ]
+  },
+  "Birch Wood": {
+    "name": "Birch Wood",
+    "desc": "Timber obtained from birches. It is easy to work with and produces smooth cuts. Furniture made using such wood is both beautiful and durable.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Birch_Wood.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Windwail Highland"
+    ]
+  },
+  "Northlander Sword Billet": {
+    "name": "Northlander Sword Billet",
+    "desc": "Weapon forging material. Can be used to forge 4-star swords. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
+    "stars": 4,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Northlander_Sword_Billet.png",
+    "sources": [
+      "Dropped by bosses"
+    ]
+  },
+  "Northlander Bow Billet": {
+    "name": "Northlander Bow Billet",
+    "desc": "Weapon forging material. Can be used to forge 4-star bows. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
+    "stars": 4,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Northlander_Bow_Billet.png",
+    "sources": [
+      "Dropped by bosses"
+    ]
+  },
+  "Northlander Claymore Billet": {
+    "name": "Northlander Claymore Billet",
+    "desc": "Weapon forging material. Can be used to forge 4-star claymores. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
+    "stars": 4,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Northlander_Claymore_Billet.png",
+    "sources": [
+      "Dropped by bosses"
+    ]
+  },
+  "Northlander Catalyst Billet": {
+    "name": "Northlander Catalyst Billet",
+    "desc": "Weapon forging material. Can be used to forge 4-star catalysts. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
+    "stars": 4,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Northlander_Catalyst_Billet.png",
+    "sources": [
+      "Dropped by bosses"
+    ]
+  },
+  "Northlander Polearm Billet": {
+    "name": "Northlander Polearm Billet",
+    "desc": "Weapon forging material. Can be used to forge 4-star polearms. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
+    "stars": 4,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Northlander_Polearm_Billet.png",
+    "sources": [
+      "Dropped by bosses"
+    ]
+  },
+  "Fruit Paste Bait": {
+    "name": "Fruit Paste Bait",
+    "desc": "A very commonly-seen bait made from mashing, fermenting, and kneading Sunsettias and Wheat together. It atomizes very quickly upon hitting the water and exerts an incredible attraction on small fish. Due to the ease of its making, cheap price, and its excellent efficacy, it has also been jokingly called the \"Fisher's Trusty Treasure.\"\n\nSuitable for catching Medakas, Dawncatchers, and Crystalfish.",
+    "stars": 2,
+    "type": "Bait",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Fruit_Paste_Bait.png",
+    "sources": [
+      "Crafted"
+    ]
+  },
+  "Redrot Bait": {
+    "name": "Redrot Bait",
+    "desc": "Fish bait made from mixing Dendrobium and mashed meat. The unique rank sweetness of this bait spreads very quickly in the water, attracting fierce aquatic predators. Use with caution, however! Put too much of this bait down and you might hook in nastier customers than you bargained for!\n\nSuitable for catching Sticklebacks, Bettas, Venomspine Fish, Akai Maou, and Snowstriders.",
+    "stars": 2,
+    "type": "Bait",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Redrot_Bait.png",
+    "sources": [
+      "Crafted"
+    ]
+  },
+  "False Worm Bait": {
+    "name": "False Worm Bait",
+    "desc": "This imitation worm bait is made mostly out of condensate, and will twist its body according to the underwater currents, resulting in its fatal attraction to overly-curious fish. Professionals will even add some fruit to it to increase its fragrance and make it utterly irresistable.\n\nSuitable for catching Shirakodai and Angelfish.",
+    "stars": 2,
+    "type": "Bait",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/False_Worm_Bait.png",
+    "sources": [
+      "Crafted"
+    ]
+  },
+  "Fake Fly Bait": {
+    "name": "Fake Fly Bait",
+    "desc": "Mimetic fly bait made from vibrantly-colored materials. It has no scent, and is specialized to attract large fish with sharp vision. It is often well-suited to more advanced angling techniques. The fishing associations of various regions regard the skilled use of such bait as one of the conditions for its members' advancement in rank.\n\nSuitable for catching Koi, Pufferfish, and Rays.",
+    "stars": 2,
+    "type": "Bait",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Fake_Fly_Bait.png",
+    "sources": [
+      "Crafted"
+    ]
+  },
   "Mist Flower Corolla": {
     "name": "Mist Flower Corolla",
     "desc": "A flower bud encased in solid ice. Even after being picked, the flower continues to emit cold.",
