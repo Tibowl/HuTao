@@ -5206,5 +5206,13 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "img/material/Shiki_Koshou.png"
+  },
+  "Launch Tube": {
+    "name": "Launch Tube",
+    "desc": "A special device created by the artisan Pengyi. It comes with functions that allow for the creation and automated launch of fireworks. In the hands of someone creative, it will surely see great use in the creation of unique and radiant fireworks shows.",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Launch_Tube.png"
   }
 }
