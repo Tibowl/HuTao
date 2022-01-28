@@ -273,6 +273,16 @@
     "name": "Elite Enemies",
     "pages": [
       {
+        "name": "Ruin Guard route (Chaos Device, Circuit and Core)",
+        "desc": "**Ruin Guards ${Ruin Guard}** are Elite Enemies found across Teyvat. They are Automatons and drop **Chaos Device ${Chaos Device}**, **Chaos Circuit ${Chaos Circuit}** and **Chaos Core ${Chaos Core}**.",
+        "img": "https://cdn.discordapp.com/attachments/936758706459279390/936758743989882941/RG.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Ruin Guard"],
+          "material": ["Chaos Device", "Chaos Circuit", "Chaos Core"]
+        }
+      },
+      {
         "name": "Fatui Pyro Agent route (Knives and Insignia)",
         "desc": "**Fatui Pyro Agents ${Fatui Pyro Agent}** are Elite Enemies found in Liyue and Inazuma. They are members of the Fatui and drop **Hunter's Sacrificial Knife ${Hunter's Sacrificial Knife}**, **Agent's Sacrificial Knife ${Agent's Sacrificial Knife}**, **Inspector's Sacrificial Knife ${Inspector's Sacrificial Knife}**, **Recruit's Insignia ${Recruit's Insignia}**, **Sergeant's Insignia ${Sergeant's Insignia}** and **Lieutenant's Insignia ${Lieutenant's Insignia}**.",
         "img": "https://cdn.discordapp.com/attachments/925462737876828190/925462814653579284/Agents.png",
