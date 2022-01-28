@@ -3,7 +3,7 @@
     "name": "Local Specialties (Mondstadt)",
     "pages": [
       {
-        "name": "Wolfhook",
+        "name": "Wolfhook route",
         "desc": "**Wolfhooks ${Wolfhook}** can be found in the wilderness around Wolvendom and are being sold by [**Chloris**](https://cdn.discordapp.com/attachments/924280082212737044/924743743062569000/Chloris.png) (up to 5 per 3 days).\n\n> A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
         "img": "https://cdn.discordapp.com/attachments/924280082212737044/924286334863028244/unknown.png",
         "credits": "Maple",
@@ -12,7 +12,7 @@
         }
       },
       {
-        "name": "Valberry",
+        "name": "Valberry route",
         "desc": "**Valberries ${Valberry}** can be found in the wilderness of Stormbearer Mountains and are being sold by [**Chloris**](https://cdn.discordapp.com/attachments/921999711358054430/922149813477318656/Chloris.png) (up to 5 per 3 days).\n\n> A plump and translucent berry that has a fragrant smell and a sweet, refreshing taste. In the past, the storm watchers' only solace was the sweetness of this fruit and hope for the city's peace.",
         "img": "https://cdn.discordapp.com/attachments/921999711358054430/921999863565148190/unknown.png",
         "credits": "Maple",
@@ -21,7 +21,7 @@
         }
       },
       {
-        "name": "Cecilia",
+        "name": "Cecilia route",
         "desc": "**Cecilias ${Cecilia}** can be found in the wilderness of Starsnatch Cliff and are being sold by [**Flora**](https://cdn.discordapp.com/attachments/922011009428910160/922151480461525046/Flora.png) (up to 5 per 3 days).\n\n> A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
         "img": "https://cdn.discordapp.com/attachments/922011009428910160/922011816727556136/unknown.png",
         "credits": "Maple",
@@ -30,7 +30,7 @@
         }
       },
       {
-        "name": "Windwheel Aster",
+        "name": "Windwheel Aster route",
         "desc": "**Windwheel Asters ${Windwheel Aster}** can be found in the wilderness of Mondstadt and are being sold by [**Flora**](https://cdn.discordapp.com/attachments/923194392959918090/923316038328778823/Flora.png) (up to 5 per 3 days).\n\n> A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\"",
         "img": "https://cdn.discordapp.com/attachments/923194392959918090/925716459391434772/Windwheel_Asters.png",
         "credits": "Yukie",
@@ -39,7 +39,7 @@
         }
       },
       {
-        "name": "Philanemo Mushroom",
+        "name": "Philanemo Mushroom route",
         "desc": "**Philanemo Mushrooms ${Philanemo Mushroom}** can be found in under the eaves of houses in Mondstadt and are being sold by [**Chloris**](https://cdn.discordapp.com/attachments/923461709358850059/923724200026451998/unknown.png) (up to 5 per 3 days).\n\n> A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
         "img": "https://cdn.discordapp.com/attachments/923461709358850059/923723763030298674/unknown.png",
         "credits": "Soul",
@@ -48,7 +48,7 @@
         }
       },
       {
-        "name": "Dandelion Seed",
+        "name": "Dandelion Seed route",
         "desc": "**Dandelion Seeds ${Dandelion Seed}** can be found in the wilderness of Mondstadt and at Mondstadt gates. They are also being sold by **Karpillia** for way too much mora (up to 5 per 3 days).\n\n> A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
         "img": "https://cdn.discordapp.com/attachments/929392674480463933/929477294202949712/unknown.png",
         "credits": "Maple",
@@ -62,7 +62,7 @@
     "name": "Local Specialties (Liyue)",
     "pages": [
       {
-        "name": "Jueyun Chili",
+        "name": "Jueyun Chili route",
         "desc": "**Jueyun Chilis ${Jueyun Chili}** can be found in the wilderness of Liyue and are being sold by [**Chef Mao**](https://cdn.discordapp.com/attachments/925096309763997747/925125045855076392/Chef_Mao.png) (up to 5 per 3 days).\n\n> A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
         "img": "https://cdn.discordapp.com/attachments/925096309763997747/925096336947286026/unknown.png",
         "credits": "Soul",
@@ -71,7 +71,7 @@
         }
       },
       {
-        "name": "Qingxin",
+        "name": "Qingxin route",
         "desc": "**Qingxins ${Qingxin}** can be found in the heights of stone forests in Liyue and are being sold by [**Herbalist Gui**](https://cdn.discordapp.com/attachments/926215001088352276/926586479600341032/Herbalist_Gui.png) (up to 10 per 3 days).\n\n> A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
         "img": "https://cdn.discordapp.com/attachments/926215001088352276/926215049285107792/ganyunom.png",
         "credits": "Soul",
@@ -85,7 +85,7 @@
     "name": "Local Specialties (Inazuma)",
     "pages": [
       {
-        "name": "Onikabuto",
+        "name": "Onikabuto route",
         "desc": "**Onikabuto ${Onikabuto}** can be found in the wilderness of Inazuma.\n\n> A strange beetle that inhabits areas rich with Electro energy. Its docile and sedentary temperament could not be more different from the fierce, demonic visage displayed on its armored shell.",
         "img": "https://i.imgur.com/V3gpYvh.png",
         "credits": "Soul",
@@ -94,7 +94,7 @@
         }
       },
       {
-        "name": "Sakura Bloom",
+        "name": "Sakura Bloom route",
         "desc": "**Sakura Blooms ${Sakura Bloom}** can be found in the wilderness of Inazuma.\n\n> Blossoms from the Sacred Sakura at the Grand Narukami Shrine, filled with a fondness for Inazuma.",
         "img": "https://cdn.discordapp.com/attachments/923173940338245673/923320425998610492/Sakura_Bloom.png",
         "credits": "Soul",
@@ -103,7 +103,7 @@
         }
       },
       {
-        "name": "Crystal Marrow",
+        "name": "Crystal Marrow route",
         "desc": "**Crystal Marrow ${Crystal Marrow}** can be found in the wilderness of Inazuma.\n\n> A crystal that contains a sliver of Tatarigami power. Adding this material during smelting will greatly increase the strength and toughness of metals.",
         "img": "https://cdn.discordapp.com/attachments/921888154267566120/922146919839592448/Crystal_Marrow.png",
         "credits": "Soul",
@@ -112,7 +112,7 @@
         }
       },
       {
-        "name": "Dendrobium",
+        "name": "Dendrobium route",
         "desc": "**Dendrobiums ${Dendrobium}** can be found in the wilderness of Inazuma.\n\n> A vibrant plant that has also been named the \"lycoris\" by the poets. It was once thought extinct in the Inazuman archipelago, only to re-emerge now upon the battlefields. It is said that it blooms most enchantingly where much blood was spilled.",
         "img": "https://cdn.discordapp.com/attachments/921888052476006430/922146556369567774/Dendrobium.png",
         "credits": "Soul",
@@ -121,7 +121,7 @@
         }
       },
       {
-        "name": "Naku Weed",
+        "name": "Naku Weed route",
         "desc": "**Naku Weeds ${Naku Weed}** can be found in the wilderness of Inazuma and are being sold by [**Aoi**](https://cdn.discordapp.com/attachments/921171356484263996/921401724185477190/unknown.png) (up to 5 per 3 days).\n\n> Even on windless days, this plant will tremble lightly amid the cries of thunder. The part of it that resembles petals are in fact extensions of the leaves meant to protect the fragile flower.",
         "img": "https://cdn.discordapp.com/attachments/921171356484263996/921399115974344795/waytoodank.png",
         "credits": "Soul",
@@ -130,7 +130,7 @@
         }
       },
       {
-        "name": "Sea Ganoderma",
+        "name": "Sea Ganoderma route",
         "desc": "**Sea Ganoderma ${Sea Ganoderma}** can be found in Inazuman seawater and are being sold by [**Obata**](https://cdn.discordapp.com/attachments/936714993754312724/936749485336453181/Obata.png) (up to 5 per 3 days).\n\n> A plant species that only grows in certain regions and islands of the ocean. Though it looks like a fungus of some sort, it actually comes from a substance secreted by certain soft-bodied organisms.",
         "img": "https://cdn.discordapp.com/attachments/936714993754312724/936717519446741102/unknown.png",
         "credits": "Soul",
@@ -139,7 +139,7 @@
         }
       },
       {
-        "name": "Sango Pearl",
+        "name": "Sango Pearl route",
         "desc": "**Sango Pearls ${Sango Pearl}** can be found in the wilderness of Watatsumi Island.\n\n> A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of a moonlight.",
         "img": "https://cdn.discordapp.com/attachments/921188291842277476/921188358250709102/unknown.png",
         "credits": "Soul",
@@ -148,7 +148,7 @@
         }
       },
       {
-        "name": "Amakumo Fruit",
+        "name": "Amakumo Fruit route",
         "desc": "**Amakumo Fruits ${Amakumo Fruit}** can be found in the wilderness of Seirai Island.\n\n> The fruit of the Amakumo Grass, which grows on Seirai Island. You can hear it crackling with a tiny current if you hold it up to your ear.",
         "img": "https://cdn.discordapp.com/attachments/923174006306267146/923320095764279356/Amakumo_Fruit.png",
         "credits": "Soul",
@@ -157,7 +157,7 @@
         }
       },
       {
-        "name": "Fluorescent Fungus",
+        "name": "Fluorescent Fungus route",
         "desc": "**Fluorescent Fungi ${Fluorescent Fungus}** can be found in the wilderness of Tsurumi Island.\n\n> A mushroom that glows like a night-light. Some curious power lies hidden within it.",
         "img": "https://cdn.discordapp.com/attachments/921888264808452096/922147275579465768/Fluorescent_Fungi.png",
         "credits": "Soul",
@@ -171,7 +171,7 @@
     "name": "Materials",
     "pages": [
       {
-        "name": "Frog",
+        "name": "Frog route",
         "desc": "**Frogs** can be found in the wilderness near bodies of fresh water. They are used in crafting.\n\n> Common frog found in moist environments. Full of energy, they secrete a substance that will keep you full of vitality.",
         "img": "https://cdn.discordapp.com/attachments/924811279246454874/924811791706497054/FrogRoute404.png",
         "credits": "Soul",
@@ -180,7 +180,7 @@
         }
       },
       {
-        "name": "Loach Pearl",
+        "name": "Loach Pearl route",
         "desc": "**Loach Pearls** can be found in the wilderness near bodies of water.\n\n> A shiny pearl spat out by a loach that has mystical medicinal properties. Minerals and elemental particles ingested by the loach condense into these mildly magical beads. When threatened, the loach spits them out to confuse predators and escape with its life.",
         "img": "https://cdn.discordapp.com/attachments/936705429415792700/936705447933648936/unknown.png",
         "credits": "Soul",
@@ -194,7 +194,7 @@
     "name": "Trees",
     "pages": [
       {
-        "name": "Maple Wood",
+        "name": "Maple Wood route",
         "desc": "**Maple Wood** can be obtained from the Amur Maple and can be used to create furnishings.\n\n> Excellent quality wood with a fine color and texture.",
         "img": "https://cdn.discordapp.com/attachments/933121651468554270/933136609178693732/Maple_Wood_Guide.png",
         "credits": "Jnight",
@@ -203,7 +203,7 @@
         }
       },
       {
-        "name": "Otogi Wood",
+        "name": "Otogi Wood route",
         "desc": "**Otogi Wood** can be obtained from the Otogi Tree and can be used to create furnishings.\n\n> It has just the right amount of moisture and oil, and as such has a great many uses.",
         "img": "https://cdn.discordapp.com/attachments/932438480376717353/932725498759512084/Otogi_Wood_Guide.png",
         "credits": "Jnight",
@@ -212,7 +212,7 @@
         }
       },
       {
-        "name": "Yumemiru Wood",
+        "name": "Yumemiru Wood route",
         "desc": "**Yumemiru Wood** can be obtained from Sakura Trees and can be used to create furnishings.\n\n> Exquisite in quality and full of moisture, people say that it can lull people into dreams as sweet as the warm spring.",
         "img": "https://cdn.discordapp.com/attachments/933728939711529001/933754674589360178/Yumemiru_Wood_Guide.png",
         "credits": "Jnight",
@@ -226,7 +226,7 @@
     "name": "Common Enemies",
     "pages": [
       {
-        "name": "Whopperflower (Whopperflower, Shimmering and Energy Nectar): Inazuma",
+        "name": "Whopperflower route (Whopperflower, Shimmering and Energy Nectar): Inazuma",
         "desc": "**Whopperflowers ${Pyro Whopperflower}${Electro Whopperflower}${Cryo Whopperflower}** are Common Enemies found wandering in the wild or disguised as plants such as Mints and Sweet Flowers. They are Mystical Beasts and drop **Whopperflower Nectar ${Whopperflower Nectar}**, **Shimmering Nectar ${Shimmering Nectar}** and **Energy Nectar ${Energy Nectar}**.\n\nThis route only contains Whopperflowers in **Inazuma**.",
         "img": "https://cdn.discordapp.com/attachments/921485115002060831/921485224892846110/WhooperInazuma.png",
         "credits": "Yukie",
@@ -236,7 +236,7 @@
         }
       },
       {
-        "name": "Nobushi (Old, Kageuchi and Famed Handguard)",
+        "name": "Nobushi route (Old, Kageuchi and Famed Handguard)",
         "desc": "**Nobushi ${Nobushi: Jintouban}${Nobushi: Hitsukeban}${Nobushi: Kikouban}** are Common Enemies found in Inazuma. They drop **Old Handguard ${Old Handguard}**, **Kageuchi Handguard ${Kageuchi Handguard}** and **Famed Handguard ${Famed Handguard}**.",
         "img": "https://cdn.discordapp.com/attachments/922981096164044840/922981140795654184/unknown.png",
         "credits": "Soul",
@@ -246,7 +246,7 @@
         }
       },
       {
-        "name": "Specter (Spectral Husk, Heart and Nucleus): Inazuma",
+        "name": "Specter route (Spectral Husk, Heart and Nucleus): Inazuma",
         "desc": "**Specters ${Hydro Specter}${Anemo Specter}${Geo Specter}${Electro Specter}${Cryo Specter}** are Common Enemies found in Inazuma. They are Elemental Lifeforms and drop **Spectral Husk ${Spectral Husk}**, **Spectral Heart ${Spectral Heart}** and **Spectral Nucleus ${Spectral Nucleus}**.",
         "img": "https://cdn.discordapp.com/attachments/922995664957350030/922997225880166440/Specters_Route_Inazuma.png",
         "url": "https://youtu.be/5Kb79QIzwn0",
@@ -257,7 +257,7 @@
         }
       },
       {
-        "name": "Specter (Spectral Husk, Heart and Nucleus): Enkanomiya",
+        "name": "Specter route (Spectral Husk, Heart and Nucleus): Enkanomiya",
         "desc": "**Specters ${Hydro Specter}${Anemo Specter}${Geo Specter}${Electro Specter}${Cryo Specter}** are Common Enemies found in Inazuma. They are Elemental Lifeforms and drop **Spectral Husk ${Spectral Husk}**, **Spectral Heart ${Spectral Heart}** and **Spectral Nucleus ${Spectral Nucleus}**.",
         "img": "https://cdn.discordapp.com/attachments/928691743719837706/928691820395900998/Enka_Specters.png",
         "url": "https://youtu.be/uCOvNkOG1-c",
@@ -273,7 +273,7 @@
     "name": "Elite Enemies",
     "pages": [
       {
-        "name": "Fatui Pyro Agent (Knives and Insignia)",
+        "name": "Fatui Pyro Agent route (Knives and Insignia)",
         "desc": "**Fatui Pyro Agents ${Fatui Pyro Agent}** are Elite Enemies found in Liyue and Inazuma. They are members of the Fatui and drop **Hunter's Sacrificial Knife ${Hunter's Sacrificial Knife}**, **Agent's Sacrificial Knife ${Agent's Sacrificial Knife}**, **Inspector's Sacrificial Knife ${Inspector's Sacrificial Knife}**, **Recruit's Insignia ${Recruit's Insignia}**, **Sergeant's Insignia ${Sergeant's Insignia}** and **Lieutenant's Insignia ${Lieutenant's Insignia}**.",
         "img": "https://cdn.discordapp.com/attachments/925462737876828190/925462814653579284/Agents.png",
         "credits": "Soul",
@@ -283,7 +283,7 @@
         }
       },
       {
-        "name": "Fatui Cicin Mages (Mist Grass and Insignia)",
+        "name": "Fatui Cicin Mages route (Mist Grass and Insignia)",
         "desc": "**Fatui Cicin Mages ${Fatui Electro Cicin Mage}${Fatui Cryo Cicin Mage}** are Elite Enemies found wandering by themselves. They are members of the Fatui and drop **Mist Grass Pollen ${Mist Grass Pollen}**, **Mist Grass ${Mist Grass}**, **Mist Grass Wick ${Mist Grass Wick}**, **Recruit's Insignia ${Recruit's Insignia}**, **Sergeant's Insignia ${Sergeant's Insignia}** and **Lieutenant's Insignia ${Lieutenant's Insignia}**.",
         "img": "https://cdn.discordapp.com/attachments/927679751987028018/927679779409363055/unknown.png",
         "credits": "Soul",
@@ -293,7 +293,7 @@
         }
       },
       {
-        "name": "Fatui Mirror Maiden (Dismal, Crystal and Polarizing Prism)",
+        "name": "Fatui Mirror Maiden route (Dismal, Crystal and Polarizing Prism)",
         "desc": "**Fatui Mirror Maidens ${Mirror Maiden}** are Elite Enemies found in Inazuma. They are members of the Fatui and drop **Dismal Prism ${Dismal Prism}**, **Crystal Prism ${Crystal Prism}** and **Polarizing Prism ${Polarizing Prism}**.",
         "img": "https://cdn.discordapp.com/attachments/924306487684243476/924306632693907487/Maiden.png",
         "credits": "Soul",
@@ -303,7 +303,7 @@
         }
       },
       {
-        "name": "Geovishap (Fragile, Sturdy and Fossilized Bone Shard)",
+        "name": "Geovishap route (Fragile, Sturdy and Fossilized Bone Shard)",
         "desc": "**Geovishaps ${Geovishap}** are Elite Enemies found in Liyue. They belong to the Vishaps and drop **Fragile Bone Shard ${Fragile Bone Shard}**, **Sturdy Bone Shard ${Sturdy Bone Shard}** and **Fossilized Bone Shard ${Fossilized Bone Shard}**.",
         "img": "https://cdn.discordapp.com/attachments/927702270995476481/927702300011671593/unknown.png",
         "credits": "Soul",
@@ -313,7 +313,7 @@
         }
       },
       {
-        "name": "Rifthound (Concealed Claw, Unguis and Talon)",
+        "name": "Rifthound route (Concealed Claw, Unguis and Talon)",
         "desc": "**Rifthounds ${Rockfond Rifthound Whelp}${Thundercraven Rifthound Whelp}${Rockfond Rifthound}${Thundercraven Rifthound}** are Elite Enemies found on Tsurumi Island. They belong to the Abyss and drop **Concealed Claw ${Concealed Claw}**, **Concealed Unguis ${Concealed Unguis}** and **Concealed Talon ${Concealed Talon}**.",
         "img": "https://cdn.discordapp.com/attachments/923108653949665311/931992280523489280/unknown.png",
         "credits": "Soul",
