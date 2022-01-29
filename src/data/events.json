@@ -1021,6 +1021,15 @@
         "reminder": "end"
     },
     {
+        "name": "\"Festive Celebration of Flowing Hues\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/2073932",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/01/29/1015537/5ae2532adc7e428e46a4f38beaf3812a_5160510445878100250.jpg",
+        "start": "2022-01-29 11:00:00",
+        "end": "2022-02-07 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "Next Special Program",
         "type": "Stream",
         "prediction": true,
