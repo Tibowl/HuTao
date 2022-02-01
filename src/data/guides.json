@@ -48,6 +48,15 @@
         }
       },
       {
+        "name": "Small Lamp Grass route",
+        "desc": "**Small Lamp Grass ${Small Lamp Grass}** can be found all over Mondstadt and glows at night. It is also being sold by [**Flora**](https://cdn.discordapp.com/attachments/937120266990022656/938192271914975292/Flora.png) (up to 5 per 3 days).\n\n> A wild grass that emits light at night. Used in cooking to enhance other flavors.",
+        "img": "https://cdn.discordapp.com/attachments/937120266990022656/937160266636996648/unknown.png",
+        "credits": "Maple",
+        "links": {
+          "material": ["Small Lamp Grass"]
+        }
+      },
+      {
         "name": "Dandelion Seed route",
         "desc": "**Dandelion Seeds ${Dandelion Seed}** can be found in the wilderness of Mondstadt and at Mondstadt gates. They are also being sold by **Karpillia** for way too much mora (up to 5 per 3 days).\n\n> A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
         "img": "https://cdn.discordapp.com/attachments/929392674480463933/929477294202949712/unknown.png",
