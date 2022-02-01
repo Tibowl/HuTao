@@ -91,7 +91,7 @@ Example with 70 pulls and 10 pity: \`${config.prefix}gachacalc 70 10\`
 Example with 70 pulls, 10 pity and guaranteed: \`${config.prefix}gachacalc 70 10 y\`
 Example with 70 pulls, 10 pity and guaranteed for 5 star weapon banner: \`${config.prefix}gachacalc weapon 70 10 y\`
 `,
-            usage: "gachacalc [gacha] <pulls> [pity] [guaranteed]",
+            usage: "gachacalc [gacha] <pulls> [pity] [guaranteed] [current const/refinement] [Epitomized Path progress]",
             aliases: ["gc", "gachasim", "gcalc", "gsim", "gs"],
             options: [{
                 name: "pulls",
@@ -159,8 +159,8 @@ Example with 70 pulls, 10 pity and guaranteed for 5 star weapon banner: \`${conf
 
         const pulls = parseInt(args[0] ?? "75")
         const pity = parseInt(args[1] ?? "0")
-        const current = parseInt(args[2] ?? "-1")
-        const guaranteedPity = parseInt(args[1] ?? "0")
+        const current = parseInt(args[3] ?? "-1")
+        const guaranteedPity = parseInt(args[4] ?? "0")
 
         let guaranteed = false
         if (args[2]?.match(/y(es)?|t(rue)?|g(uaranteed)?/))
