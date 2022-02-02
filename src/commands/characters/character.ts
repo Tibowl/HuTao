@@ -291,6 +291,10 @@ Note: this command supports fuzzy search.`,
             if (upgradeLines.length > 0)
                 embed.addField("Upgrade material", upgradeLines.join("\n"))
 
+            const specialties = Object.values(data.materials).filter(x => x.specialty && x.specialty.char == char.name)
+            if (specialties.length > 0)
+                embed.addField("Specialty", specialties.map(x => `[**${x.name}**](${data.baseURL}materials/${urlify(x.name, false)}) can be obtained while cooking [**${x.specialty?.recipe}**](${data.baseURL}materials/${urlify(x.specialty?.recipe ?? "", false)})`).join("\n"))
+
             const guides = client.data.getGuides("character", char.name).map(({ guide, page }) => getLinkToGuide(guide, page)).join("\n")
 
             if (guides)
