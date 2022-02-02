@@ -161,7 +161,7 @@ Note: this command supports fuzzy search.`,
                 ...Object.entries(effect),
                 ...otherMaterial.filter(x => x.effect && typeof x.effect == "string").map(x => [`[${x.name}](${data.baseURL}materials/${urlify(x.name, false)})`, x.effect as string])
             ]
-            embed.addField("Effects", effects.map(([name, e]) => `**${name}**: ${e}`).join("\n"))
+            embed.addField("Effects", effects.map(([name, e]) => `**${name}**\n- ${e}`).join("\n"))
         }
 
         const charAscension: Character[] = []
