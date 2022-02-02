@@ -76,7 +76,8 @@
     "icon": "img/food/Apple.png",
     "sources": [
       "Found in the wild"
-    ]
+    ],
+    "effect": "Restores 300 HP"
   },
   "Sunsettia": {
     "name": "Sunsettia",
@@ -86,7 +87,8 @@
     "icon": "img/food/Sunsettia.png",
     "sources": [
       "Found in the wild"
-    ]
+    ],
+    "effect": "Restores 300 HP"
   },
   "Mushroom": {
     "name": "Mushroom",
@@ -895,7 +897,8 @@
     "specialty": {
       "char": "Amber",
       "recipe": "Steak"
-    }
+    },
+    "effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP."
   },
   "Fruity Skewers": {
     "name": "Fruity Skewers",
@@ -910,7 +913,8 @@
     "specialty": {
       "char": "Kaeya",
       "recipe": "Chicken-Mushroom Skewer"
-    }
+    },
+    "effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character."
   },
   "Mysterious Bolognese": {
     "name": "Mysterious Bolognese",
@@ -925,7 +929,8 @@
     "specialty": {
       "char": "Lisa",
       "recipe": "Flaming Red Bolognese"
-    }
+    },
+    "effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s."
   },
   "Spicy Stew": {
     "name": "Spicy Stew",
@@ -940,7 +945,8 @@
     "specialty": {
       "char": "Barbara",
       "recipe": "Cream Stew"
-    }
+    },
+    "effect": "Decreases all party members' sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Invigorating Pizza": {
     "name": "Invigorating Pizza",
@@ -955,7 +961,8 @@
     "specialty": {
       "char": "Jean",
       "recipe": "Mushroom Pizza"
-    }
+    },
+    "effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s."
   },
   "Puppy-Paw Hash Brown": {
     "name": "Puppy-Paw Hash Brown",
@@ -970,7 +977,8 @@
     "specialty": {
       "char": "Razor",
       "recipe": "Mondstadt Hash Brown"
-    }
+    },
+    "effect": "Restores 40% of Max HP and an additional 2,350 HP to the selected character."
   },
   "\"Once Upon a Time in Mondstadt\"": {
     "name": "\"Once Upon a Time in Mondstadt\"",
@@ -985,7 +993,8 @@
     "specialty": {
       "char": "Diluc",
       "recipe": "\"Pile 'Em Up\""
-    }
+    },
+    "effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)"
   },
   "Lighter-Than-Air Pancake": {
     "name": "Lighter-Than-Air Pancake",
@@ -1000,7 +1009,8 @@
     "specialty": {
       "char": "Noelle",
       "recipe": "Tea Break Pancake"
-    }
+    },
+    "effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP."
   },
   "A Buoyant Breeze": {
     "name": "A Buoyant Breeze",
@@ -1015,7 +1025,8 @@
     "specialty": {
       "char": "Venti",
       "recipe": "Barbatos Ratatouille"
-    }
+    },
+    "effect": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 1800s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Fish-Flavored Toast": {
     "name": "Fish-Flavored Toast",
@@ -1030,7 +1041,8 @@
     "specialty": {
       "char": "Klee",
       "recipe": "Fisherman's Toast"
-    }
+    },
+    "effect": "Increases all party members' DEF by 151 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Teyvat Charred Egg": {
     "name": "Teyvat Charred Egg",
@@ -1045,7 +1057,8 @@
     "specialty": {
       "char": "Bennett",
       "recipe": "Teyvat Fried Egg"
-    }
+    },
+    "effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP."
   },
   "Wanmin Restaurant's Boiled Fish": {
     "name": "Wanmin Restaurant's Boiled Fish",
@@ -1060,7 +1073,8 @@
     "specialty": {
       "char": "Xiangling",
       "recipe": "Black-Back Perch Stew"
-    }
+    },
+    "effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s."
   },
   "All-Delicacy Parcels": {
     "name": "All-Delicacy Parcels",
@@ -1075,7 +1089,8 @@
     "specialty": {
       "char": "Xingqiu",
       "recipe": "Crystal Shrimp"
-    }
+    },
+    "effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s."
   },
   "Cold Noodles with Mountain Delicacies": {
     "name": "Cold Noodles with Mountain Delicacies",
@@ -1090,7 +1105,8 @@
     "specialty": {
       "char": "Chongyun",
       "recipe": "Noodles with Mountain Delicacies"
-    }
+    },
+    "effect": "Restores 80 Stamina"
   },
   "Qiankun Mora Meat": {
     "name": "Qiankun Mora Meat",
@@ -1105,7 +1121,8 @@
     "specialty": {
       "char": "Ningguang",
       "recipe": "Mora Meat"
-    }
+    },
+    "effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP."
   },
   "Definitely Not Bar Food!": {
     "name": "Definitely Not Bar Food!",
@@ -1120,7 +1137,8 @@
     "specialty": {
       "char": "Diona",
       "recipe": "Mondstadt Grilled Fish"
-    }
+    },
+    "effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP."
   },
   "Der Weisheit Letzter Schluss (Life)": {
     "name": "Der Weisheit Letzter Schluss (Life)",
@@ -1135,7 +1153,8 @@
     "specialty": {
       "char": "Mona",
       "recipe": "Satisfying Salad"
-    }
+    },
+    "effect": "Increases all party members' CRIT Rate by 16% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Die Heilige Sinfonie": {
     "name": "Die Heilige Sinfonie",
@@ -1150,7 +1169,8 @@
     "specialty": {
       "char": "Fischl",
       "recipe": "Cold Cut Platter"
-    }
+    },
+    "effect": "Increases all party members' Physical DMG by 55% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "No Tomorrow": {
     "name": "No Tomorrow",
@@ -1165,7 +1185,8 @@
     "specialty": {
       "char": "Qiqi",
       "recipe": "Come and Get It"
-    }
+    },
+    "effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)"
   },
   "Flash-Fried Filet": {
     "name": "Flash-Fried Filet",
@@ -1180,7 +1201,8 @@
     "specialty": {
       "char": "Beidou",
       "recipe": "Stir-Fried Filet"
-    }
+    },
+    "effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP."
   },
   "Survival Grilled Fish": {
     "name": "Survival Grilled Fish",
@@ -1195,7 +1217,8 @@
     "specialty": {
       "char": "Keqing",
       "recipe": "Grilled Tiger Fish"
-    }
+    },
+    "effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character."
   },
   "Nutritious Meal (V.593)": {
     "name": "Nutritious Meal (V.593)",
@@ -1210,7 +1233,8 @@
     "specialty": {
       "char": "Sucrose",
       "recipe": "Crab, Ham & Veggie Bake"
-    }
+    },
+    "effect": "Revives the selected character and restores 20% of Max HP, then restores an additional 1500 HP."
   },
   "Slow-Cooked Bamboo Shoot Soup": {
     "name": "Slow-Cooked Bamboo Shoot Soup",
@@ -1225,7 +1249,8 @@
     "specialty": {
       "char": "Zhongli",
       "recipe": "Bamboo Shoot Soup"
-    }
+    },
+    "effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s."
   },
   "Rockin' Riffin' Chicken!": {
     "name": "Rockin' Riffin' Chicken!",
@@ -1240,7 +1265,8 @@
     "specialty": {
       "char": "Xinyan",
       "recipe": "Jueyun Chili Chicken"
-    }
+    },
+    "effect": "Increases all party members' CRIT Rate by 16% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "A Prize Catch": {
     "name": "A Prize Catch",
@@ -1255,7 +1281,8 @@
     "specialty": {
       "char": "Tartaglia",
       "recipe": "Calla Lily Seafood Soup"
-    }
+    },
+    "effect": "Increases all party members' DEF by 282 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Prosperous Peace": {
     "name": "Prosperous Peace",
@@ -1270,7 +1297,8 @@
     "specialty": {
       "char": "Ganyu",
       "recipe": "Universal Peace"
-    }
+    },
+    "effect": "Restores 40% of Max HP and an additional 2,350 HP to the selected character."
   },
   "Woodland Dream": {
     "name": "Woodland Dream",
@@ -1285,7 +1313,8 @@
     "specialty": {
       "char": "Albedo",
       "recipe": "Sunshine Sprat"
-    }
+    },
+    "effect": "Increases all party members' Shield Strength by 35% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "\"Sweet Dream\"": {
     "name": "\"Sweet Dream\"",
@@ -1300,7 +1329,8 @@
     "specialty": {
       "char": "Xiao",
       "recipe": "Almond Tofu"
-    }
+    },
+    "effect": "Increases all party members' ATK by 114 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Ghostly March": {
     "name": "Ghostly March",
@@ -1315,7 +1345,8 @@
     "specialty": {
       "char": "Hu Tao",
       "recipe": "Vegetarian Abalone"
-    }
+    },
+    "effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP."
   },
   "Dinner of Judgment": {
     "name": "Dinner of Judgment",
@@ -1330,7 +1361,8 @@
     "specialty": {
       "char": "Rosaria",
       "recipe": "Sweet Madame"
-    }
+    },
+    "effect": "Restores 30% of Max HP and an additional 1,750 HP to the selected character."
   },
   "\"My Way\"": {
     "name": "\"My Way\"",
@@ -1345,7 +1377,8 @@
     "specialty": {
       "char": "Yanfei",
       "recipe": "Crab Roe Tofu"
-    }
+    },
+    "effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP."
   },
   "Stormcrest Pie": {
     "name": "Stormcrest Pie",
@@ -1360,7 +1393,8 @@
     "specialty": {
       "char": "Eula",
       "recipe": "Moon Pie"
-    }
+    },
+    "effect": "Increases all party members' Shield Strength by 40% and DEF by 282 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "\"Snow on the Hearth\"": {
     "name": "\"Snow on the Hearth\"",
@@ -1375,7 +1409,8 @@
     "specialty": {
       "char": "Kamisato Ayaka",
       "recipe": "Sakura Mochi"
-    }
+    },
+    "effect": "Revives the selected character and restores 20% of Max HP, then restores an additional 1500 HP."
   },
   "All-Weather Beauty": {
     "name": "All-Weather Beauty",
@@ -1390,7 +1425,8 @@
     "specialty": {
       "char": "Kaedehara Kazuha",
       "recipe": "Dry-Braised Salted Fish"
-    }
+    },
+    "effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character."
   },
   "Summer Festival Fish": {
     "name": "Summer Festival Fish",
@@ -1405,7 +1441,8 @@
     "specialty": {
       "char": "Yoimiya",
       "recipe": "Tricolor Dango"
-    }
+    },
+    "effect": "Restores 40% of Max HP and an additional 2,350 HP to the selected character."
   },
   "Dizziness-Be-Gone no Jutsu Version 2.0": {
     "name": "Dizziness-Be-Gone no Jutsu Version 2.0",
@@ -1420,7 +1457,8 @@
     "specialty": {
       "char": "Sayu",
       "recipe": "Onigiri"
-    }
+    },
+    "effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s."
   },
   "Satiety Gel": {
     "name": "Satiety Gel",
@@ -1435,7 +1473,8 @@
     "specialty": {
       "char": "Aloy",
       "recipe": "Mint Jelly"
-    }
+    },
+    "effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character."
   },
   "A Stunning Stratagem": {
     "name": "A Stunning Stratagem",
@@ -1450,7 +1489,8 @@
     "specialty": {
       "char": "Sangonomiya Kokomi",
       "recipe": "Bird Egg Sushi"
-    }
+    },
+    "effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character."
   },
   "Faith Eternal": {
     "name": "Faith Eternal",
@@ -1465,7 +1505,8 @@
     "specialty": {
       "char": "Kujou Sara",
       "recipe": "Egg Roll"
-    }
+    },
+    "effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP."
   },
   "\"Warmth\"": {
     "name": "\"Warmth\"",
@@ -1480,7 +1521,8 @@
     "specialty": {
       "char": "Thoma",
       "recipe": "Miso Soup"
-    }
+    },
+    "effect": "Restores 14% of Max HP to the selected character and regenerates 350 HP every 5s for 30s."
   },
   "Way of the Strong": {
     "name": "Way of the Strong",
@@ -1495,7 +1537,8 @@
     "specialty": {
       "char": "Arataki Itto",
       "recipe": "Mixed Yakisoba"
-    }
+    },
+    "effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP."
   },
   "Victorious Legend": {
     "name": "Victorious Legend",
@@ -1510,7 +1553,8 @@
     "specialty": {
       "char": "Gorou",
       "recipe": "Tonkotsu Ramen"
-    }
+    },
+    "effect": "Restores 40% of Max HP and an additional 2,350 HP to the selected character."
   },
   "Heartstring Noodles": {
     "name": "Heartstring Noodles",
@@ -1525,7 +1569,8 @@
     "specialty": {
       "char": "Shenhe",
       "recipe": "Dragon Beard Noodles"
-    }
+    },
+    "effect": "Increases all party members' ATK by 274 for 300s. In Co-op Mode, this effect only applies to your own character(s)."
   },
   "Cloud-Shrouded Jade": {
     "name": "Cloud-Shrouded Jade",
@@ -1540,7 +1585,8 @@
     "specialty": {
       "char": "Yun Jin",
       "recipe": "Lotus Seed and Bird Egg Soup"
-    }
+    },
+    "effect": "Decreases all party members' sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
@@ -1569,7 +1615,12 @@
         "count": 1,
         "name": "Milk"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Fisherman's Toast": "Increases all party members' DEF by 88 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Fisherman's Toast": "Increases all party members' DEF by 107 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Fisherman's Toast": "Increases all party members' DEF by 126 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Teyvat Fried Egg": {
     "name": "Teyvat Fried Egg",
@@ -1586,7 +1637,12 @@
         "count": 1,
         "name": "Bird Egg"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Teyvat Fried Egg": "Revives a character and restores 50 HP.",
+      "Teyvat Fried Egg": "Revives a character and restores 100 HP.",
+      "Delicious Teyvat Fried Egg": "Revives a character and restores 150 HP."
+    }
   },
   "Steak": {
     "name": "Steak",
@@ -1603,7 +1659,12 @@
         "count": 2,
         "name": "Raw Meat"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Steak": "Revives a character and restores 50 HP.",
+      "Steak": "Revives a character and restores 100 HP.",
+      "Delicious Steak": "Revives a character and restores 150 HP."
+    }
   },
   "Chicken-Mushroom Skewer": {
     "name": "Chicken-Mushroom Skewer",
@@ -1624,7 +1685,12 @@
         "count": 1,
         "name": "Fowl"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Chicken-Mushroom Skewer": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
+      "Chicken-Mushroom Skewer": "Restores 9% of Max HP and an additional 1,000 HP to the selected character.",
+      "Delicious Chicken-Mushroom Skewer": "Restores 10% of Max HP and an additional 1,200 HP to the selected character."
+    }
   },
   "Flaming Red Bolognese": {
     "name": "Flaming Red Bolognese",
@@ -1649,7 +1715,12 @@
         "count": 1,
         "name": "Tomato"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Flaming Red Bolognese": "Restores 18% of Max HP to the selected character and regenerates 300 HP every 5s for 30s.",
+      "Flaming Red Bolognese": "Restores 20% of Max HP to the selected character and regenerates 390 HP every 5s for 30s.",
+      "Delicious Flaming Red Bolognese": "Restores 22% of Max HP to the selected character and regenerates 470 HP every 5s for 30s."
+    }
   },
   "Radish Veggie Soup": {
     "name": "Radish Veggie Soup",
@@ -1670,7 +1741,12 @@
         "count": 1,
         "name": "Mint"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Radish Veggie Soup": "Restores 8% of Max HP to the selected character and regenerates 210 HP every 5s for 30s.",
+      "Radish Veggie Soup": "Restores 9% of Max HP to the selected character and regenerates 260 HP every 5s for 30s.",
+      "Delicious Radish Veggie Soup": "Restores 10% of Max HP to the selected character and regenerates 300 HP every 5s for 30s."
+    }
   },
   "Tea Break Pancake": {
     "name": "Tea Break Pancake",
@@ -1695,7 +1771,12 @@
         "count": 1,
         "name": "Bird Egg"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Tea Break Pancake": "Revives a character and restores 250 HP.",
+      "Tea Break Pancake": "Revives a character and restores 400 HP.",
+      "Delicious Tea Break Pancake": "Revives a character and restores 550 HP."
+    }
   },
   "Fried Radish Balls": {
     "name": "Fried Radish Balls",
@@ -1720,7 +1801,12 @@
         "count": 1,
         "name": "Pepper"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Fried Radish Balls": "Increases all party members' ATK by 66 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Fried Radish Balls": "Increases all party members' ATK by 81 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Fried Radish Balls": "Increases all party members' ATK by 95 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Satisfying Salad": {
     "name": "Satisfying Salad",
@@ -1749,7 +1835,12 @@
         "count": 1,
         "name": "Potato"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Satisfying Salad": "Increases all party members' CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Satisfying Salad": "Increases all party members' CRIT Rate by 9% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Satisfying Salad": "Increases all party members' CRIT Rate by 12% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Sweet Madame": {
     "name": "Sweet Madame",
@@ -1770,7 +1861,12 @@
         "count": 2,
         "name": "Sweet Flower"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Sweet Madame": "Restores 20% of Max HP and an additional 900 HP to the selected character.",
+      "Sweet Madame": "Restores 22% of Max HP and an additional 1,200 HP to the selected character.",
+      "Delicious Sweet Madame": "Restores 24% of Max HP and an additional 1,500 HP to the selected character."
+    }
   },
   "Northern Smoked Chicken": {
     "name": "Northern Smoked Chicken",
@@ -1795,7 +1891,12 @@
         "count": 1,
         "name": "Cabbage"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Northern Smoked Chicken": "Restores 40 Stamina",
+      "Northern Smoked Chicken": "Restores 50 Stamina",
+      "Delicious Northern Smoked Chicken": "Restores 60 Stamina"
+    }
   },
   "Cream Stew": {
     "name": "Cream Stew",
@@ -1820,7 +1921,12 @@
         "count": 1,
         "name": "Snapdragon"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Cream Stew": "Decreases all party members' sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Cream Stew": "Decreases all party members' sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Cream Stew": "Decreases all party members' sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Mushroom Pizza": {
     "name": "Mushroom Pizza",
@@ -1849,7 +1955,12 @@
         "count": 1,
         "name": "Cheese"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Mushroom Pizza": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
+      "Mushroom Pizza": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
+      "Delicious Mushroom Pizza": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s."
+    }
   },
   "Mondstadt Hash Brown": {
     "name": "Mondstadt Hash Brown",
@@ -1874,7 +1985,12 @@
         "count": 1,
         "name": "Jam"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Mondstadt Hash Brown": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+      "Mondstadt Hash Brown": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
+      "Delicious Mondstadt Hash Brown": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
+    }
   },
   "Calla Lily Seafood Soup": {
     "name": "Calla Lily Seafood Soup",
@@ -1899,7 +2015,12 @@
         "count": 2,
         "name": "Mint"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Calla Lily Seafood Soup": "Increases all party members' DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Calla Lily Seafood Soup": "Increases all party members' DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Calla Lily Seafood Soup": "Increases all party members' DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Sautéed Matsutake": {
     "name": "Sautéed Matsutake",
@@ -1928,7 +2049,12 @@
         "count": 2,
         "name": "Butter"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Sautéed Matsutake": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Sautéed Matsutake": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Sautéed Matsutake": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "\"Pile 'Em Up\"": {
     "name": "\"Pile 'Em Up\"",
@@ -1957,7 +2083,12 @@
         "count": 1,
         "name": "Cheese"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious \"Pile 'Em Up\"": "Increases all party members' CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "\"Pile 'Em Up\"": "Increases all party members' CRIT Rate by 15% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious \"Pile 'Em Up\"": "Increases all party members' CRIT Rate by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Cold Cut Platter": {
     "name": "Cold Cut Platter",
@@ -1986,7 +2117,12 @@
         "count": 1,
         "name": "Mint"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Cold Cut Platter": "Increases all party members' Physical DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Cold Cut Platter": "Increases all party members' Physical DMG by 30% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Cold Cut Platter": "Increases all party members' Physical DMG by 40% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Sticky Honey Roast": {
     "name": "Sticky Honey Roast",
@@ -2011,7 +2147,12 @@
         "count": 2,
         "name": "Sugar"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Sticky Honey Roast": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Sticky Honey Roast": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Sticky Honey Roast": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Crab, Ham & Veggie Bake": {
     "name": "Crab, Ham & Veggie Bake",
@@ -2040,7 +2181,12 @@
         "count": 1,
         "name": "Cabbage"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Crab, Ham & Veggie Bake": "Revives a character and restores 900 HP.",
+      "Crab, Ham & Veggie Bake": "Revives a character and restores 1200 HP.",
+      "Delicious Crab, Ham & Veggie Bake": "Revives a character and restores 1500 HP."
+    }
   },
   "Jade Parcels": {
     "name": "Jade Parcels",
@@ -2069,7 +2215,12 @@
         "count": 1,
         "name": "Ham"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Jade Parcels": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Jade Parcels": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Jade Parcels": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Zhongyuan Chop Suey": {
     "name": "Zhongyuan Chop Suey",
@@ -2099,7 +2250,12 @@
         "count": 2,
         "name": "Salt"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Zhongyuan Chop Suey": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Zhongyuan Chop Suey": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Zhongyuan Chop Suey": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Black-Back Perch Stew": {
     "name": "Black-Back Perch Stew",
@@ -2128,7 +2284,12 @@
         "count": 1,
         "name": "Violetgrass"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Black-Back Perch Stew": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
+      "Black-Back Perch Stew": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
+      "Delicious Black-Back Perch Stew": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s."
+    }
   },
   "Squirrel Fish": {
     "name": "Squirrel Fish",
@@ -2157,7 +2318,12 @@
         "count": 1,
         "name": "Sugar"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Squirrel Fish": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+      "Squirrel Fish": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
+      "Delicious Squirrel Fish": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
+    }
   },
   "Almond Tofu": {
     "name": "Almond Tofu",
@@ -2182,7 +2348,12 @@
         "count": 1,
         "name": "Almond"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Almond Tofu": "Increases all party members' ATK by 66 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Almond Tofu": "Increases all party members' ATK by 81 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Almond Tofu": "Increases all party members' ATK by 95 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Jueyun Chili Chicken": {
     "name": "Jueyun Chili Chicken",
@@ -2207,7 +2378,12 @@
         "count": 1,
         "name": "Pepper"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Jueyun Chili Chicken": "Increases all party members' CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Jueyun Chili Chicken": "Increases all party members' CRIT Rate by 9% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Jueyun Chili Chicken": "Increases all party members' CRIT Rate by 12% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Jewelry Soup": {
     "name": "Jewelry Soup",
@@ -2232,7 +2408,12 @@
         "count": 1,
         "name": "Lotus Head"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Jewelry Soup": "Increases all party members' DEF by 88 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Jewelry Soup": "Increases all party members' DEF by 107 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Jewelry Soup": "Increases all party members' DEF by 126 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Matsutake Meat Rolls": {
     "name": "Matsutake Meat Rolls",
@@ -2253,7 +2434,12 @@
         "count": 2,
         "name": "Raw Meat"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Matsutake Meat Rolls": "Restores 20% of Max HP and an additional 900 HP to the selected character.",
+      "Matsutake Meat Rolls": "Restores 22% of Max HP and an additional 1,200 HP to the selected character.",
+      "Delicious Matsutake Meat Rolls": "Restores 24% of Max HP and an additional 1,500 HP to the selected character."
+    }
   },
   "Mora Meat": {
     "name": "Mora Meat",
@@ -2274,7 +2460,12 @@
         "count": 1,
         "name": "Flour"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Mora Meat": "Revives a character and restores 50 HP.",
+      "Mora Meat": "Revives a character and restores 100 HP.",
+      "Delicious Mora Meat": "Revives a character and restores 150 HP."
+    }
   },
   "Mondstadt Grilled Fish": {
     "name": "Mondstadt Grilled Fish",
@@ -2295,7 +2486,12 @@
         "count": 1,
         "name": "Pepper"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Mondstadt Grilled Fish": "Revives a character and restores 50 HP.",
+      "Mondstadt Grilled Fish": "Revives a character and restores 100 HP.",
+      "Delicious Mondstadt Grilled Fish": "Revives a character and restores 150 HP."
+    }
   },
   "Stir-Fried Filet": {
     "name": "Stir-Fried Filet",
@@ -2316,7 +2512,12 @@
         "count": 1,
         "name": "Jueyun Chili"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Stir-Fried Filet": "Revives a character and restores 50 HP.",
+      "Stir-Fried Filet": "Revives a character and restores 100 HP.",
+      "Delicious Stir-Fried Filet": "Revives a character and restores 150 HP."
+    }
   },
   "Golden Crab": {
     "name": "Golden Crab",
@@ -2345,7 +2546,12 @@
         "count": 2,
         "name": "Salt"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Golden Crab": "Increases all party members' DEF by 215 and healing effects by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Golden Crab": "Increases all party members' DEF by 261 and healing effects by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Golden Crab": "Increases all party members' DEF by 308 and healing effects by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Crystal Shrimp": {
     "name": "Crystal Shrimp",
@@ -2370,7 +2576,12 @@
         "count": 2,
         "name": "Carrot"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Crystal Shrimp": "Restores 18% of Max HP to the selected character and regenerates 300 HP every 5s for 30s.",
+      "Crystal Shrimp": "Restores 20% of Max HP to the selected character and regenerates 390 HP every 5s for 30s.",
+      "Delicious Crystal Shrimp": "Restores 22% of Max HP to the selected character and regenerates 470 HP every 5s for 30s."
+    }
   },
   "Grilled Tiger Fish": {
     "name": "Grilled Tiger Fish",
@@ -2392,7 +2603,12 @@
         "count": 1,
         "name": "Pepper"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Grilled Tiger Fish": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
+      "Grilled Tiger Fish": "Restores 9% of Max HP and an additional 1,000 HP to the selected character.",
+      "Delicious Grilled Tiger Fish": "Restores 10% of Max HP and an additional 1,200 HP to the selected character."
+    }
   },
   "Barbatos Ratatouille": {
     "name": "Barbatos Ratatouille",
@@ -2417,7 +2633,12 @@
         "count": 4,
         "name": "Onion"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Barbatos Ratatouille": "Decreases all party members' gliding and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Barbatos Ratatouille": "Decreases all party members' gliding and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Barbatos Ratatouille": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Lotus Seed and Bird Egg Soup": {
     "name": "Lotus Seed and Bird Egg Soup",
@@ -2442,7 +2663,12 @@
         "count": 1,
         "name": "Sugar"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Lotus Seed and Bird Egg Soup": "Decreases all party members' sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Lotus Seed and Bird Egg Soup": "Decreases all party members' sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Lotus Seed and Bird Egg Soup": "Decreases all party members' sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Adeptus' Temptation": {
     "name": "Adeptus' Temptation",
@@ -2471,7 +2697,12 @@
         "count": 3,
         "name": "Matsutake"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Adeptus' Temptation": "Increases all party members' ATK by 260 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Adeptus' Temptation": "Increases all party members' ATK by 316 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Adeptus' Temptation": "Increases all party members' ATK by 372 and CRIT Rate by 12% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Golden Shrimp Balls": {
     "name": "Golden Shrimp Balls",
@@ -2496,7 +2727,12 @@
         "count": 3,
         "name": "Flour"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Golden Shrimp Balls": "Revives a character and restores 900 HP.",
+      "Golden Shrimp Balls": "Revives a character and restores 1200 HP.",
+      "Delicious Golden Shrimp Balls": "Revives a character and restores 1500 HP."
+    }
   },
   "Qingce Stir Fry": {
     "name": "Qingce Stir Fry",
@@ -2525,7 +2761,12 @@
         "count": 1,
         "name": "Cabbage"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Qingce Stir Fry": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Qingce Stir Fry": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Qingce Stir Fry": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Come and Get It": {
     "name": "Come and Get It",
@@ -2554,7 +2795,12 @@
         "count": 1,
         "name": "Tofu"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Come and Get It": "Increases all party members' CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Come and Get It": "Increases all party members' CRIT Rate by 15% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Come and Get It": "Increases all party members' CRIT Rate by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Apple Cider": {
     "name": "Apple Cider",
@@ -2565,7 +2811,8 @@
     "icon": "img/food/Apple_Cider.png",
     "sources": [
       "Sold at shops"
-    ]
+    ],
+    "effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s."
   },
   "Noodles with Mountain Delicacies": {
     "name": "Noodles with Mountain Delicacies",
@@ -2590,7 +2837,12 @@
         "count": 2,
         "name": "Flour"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Noodles with Mountain Delicacies": "Restores 40 Stamina",
+      "Noodles with Mountain Delicacies": "Restores 50 Stamina",
+      "Delicious Noodles with Mountain Delicacies": "Restores 60 Stamina"
+    }
   },
   "Bamboo Shoot Soup": {
     "name": "Bamboo Shoot Soup",
@@ -2615,7 +2867,12 @@
         "count": 1,
         "name": "Bamboo Shoot"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Bamboo Shoot Soup": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
+      "Bamboo Shoot Soup": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
+      "Delicious Bamboo Shoot Soup": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s."
+    }
   },
   "Triple-Layered Consommé": {
     "name": "Triple-Layered Consommé",
@@ -2644,7 +2901,12 @@
         "count": 1,
         "name": "Mushroom"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Triple-Layered Consommé": "Increases all party members' Shield Strength by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Triple-Layered Consommé": "Increases all party members' Shield Strength by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Triple-Layered Consommé": "Increases all party members' Shield Strength by 30% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Tianshu Meat": {
     "name": "Tianshu Meat",
@@ -2673,7 +2935,12 @@
         "count": 1,
         "name": "Matsutake"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Tianshu Meat": "Increases all party members' Physical DMG by 25% and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Tianshu Meat": "Increases all party members' Physical DMG by 35% and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Tianshu Meat": "Increases all party members' Physical DMG by 45% and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Lotus Flower Crisp": {
     "name": "Lotus Flower Crisp",
@@ -2702,7 +2969,12 @@
         "count": 1,
         "name": "Sugar"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Lotus Flower Crisp": "Increases all party members' DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Lotus Flower Crisp": "Increases all party members' DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Lotus Flower Crisp": "Increases all party members' DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Moon Pie": {
     "name": "Moon Pie",
@@ -2731,7 +3003,12 @@
         "count": 2,
         "name": "Flour"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Moon Pie": "Increases all party members' Shield Strength by 25% and DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Moon Pie": "Increases all party members' Shield Strength by 30% and DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Moon Pie": "Increases all party members' Shield Strength by 35% and DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Adventurer's Breakfast Sandwich": {
     "name": "Adventurer's Breakfast Sandwich",
@@ -2756,7 +3033,12 @@
         "count": 1,
         "name": "Ham"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Adventurer's Breakfast Sandwich": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Adventurer's Breakfast Sandwich": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Adventurer's Breakfast Sandwich": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Northern Apple Stew": {
     "name": "Northern Apple Stew",
@@ -2785,7 +3067,12 @@
         "count": 1,
         "name": "Pepper"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Northern Apple Stew": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+      "Northern Apple Stew": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
+      "Delicious Northern Apple Stew": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
+    }
   },
   "Universal Peace": {
     "name": "Universal Peace",
@@ -2814,7 +3101,12 @@
         "count": 2,
         "name": "Berry"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Universal Peace": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+      "Universal Peace": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
+      "Delicious Universal Peace": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
+    }
   },
   "Goulash": {
     "name": "Goulash",
@@ -2839,7 +3131,12 @@
         "count": 1,
         "name": "Tomato"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Goulash": "Slightly decreases the rate of Sheer Cold accumulation for all party members for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Goulash": "Somewhat decreases the rate of Sheer Cold accumulation for all party members for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Goulash": "Decreases the rate of Sheer Cold accumulation for all party members for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Sunshine Sprat": {
     "name": "Sunshine Sprat",
@@ -2868,7 +3165,12 @@
         "count": 1,
         "name": "Small Lamp Grass"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Sunshine Sprat": "Increases all party members' Shield Strength by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Sunshine Sprat": "Increases all party members' Shield Strength by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Sunshine Sprat": "Increases all party members' Shield Strength by 30% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Jueyun Guoba": {
     "name": "Jueyun Guoba",
@@ -2897,7 +3199,12 @@
         "count": 1,
         "name": "Jueyun Chili"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Jueyun Guoba": "Increases all party members' Physical DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Jueyun Guoba": "Increases all party members' Physical DMG by 30% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Jueyun Guoba": "Increases all party members' Physical DMG by 40% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Fullmoon Egg": {
     "name": "Fullmoon Egg",
@@ -2926,7 +3233,12 @@
         "count": 1,
         "name": "Flour"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Fullmoon Egg": "Revives a character and restores 900 HP.",
+      "Fullmoon Egg": "Revives a character and restores 1,200 HP.",
+      "Delicious Fullmoon Egg": "Revives a character and restores 1500 HP."
+    }
   },
   "Vegetarian Abalone": {
     "name": "Vegetarian Abalone",
@@ -2947,7 +3259,12 @@
         "count": 2,
         "name": "Snapdragon"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Vegetarian Abalone": "Revives a character and restores 250 HP.",
+      "Vegetarian Abalone": "Revives a character and restores 400 HP.",
+      "Delicious Vegetarian Abalone": "Revives a character and restores 550 HP."
+    }
   },
   "Stone Harbor Delicacies": {
     "name": "Stone Harbor Delicacies",
@@ -2972,7 +3289,12 @@
         "count": 1,
         "name": "Matsutake"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Stone Harbor Delicacies": "Increases all party members' CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Stone Harbor Delicacies": "Increases all party members' CRIT Rate by 9% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Stone Harbor Delicacies": "Increases all party members' CRIT Rate by 12% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Crispy Potato Shrimp Platter": {
     "name": "Crispy Potato Shrimp Platter",
@@ -3001,7 +3323,12 @@
         "count": 2,
         "name": "Berry"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Crispy Potato Shrimp Platter": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
+      "Crispy Potato Shrimp Platter": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
+      "Delicious Crispy Potato Shrimp Platter": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s."
+    }
   },
   "Mint Jelly": {
     "name": "Mint Jelly",
@@ -3022,7 +3349,12 @@
         "count": 1,
         "name": "Sugar"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Mint Jelly": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
+      "Mint Jelly": "Restores 9% of Max HP and an additional 1,000 HP to the selected character.",
+      "Delicious Mint Jelly": "Restores 10% of Max HP and an additional 1,200 HP to the selected character."
+    }
   },
   "Mint Salad": {
     "name": "Mint Salad",
@@ -3043,7 +3375,12 @@
         "count": 1,
         "name": "Jueyun Chili"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Mint Salad": "Increases all party members' ATK by 66 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Mint Salad": "Increases all party members' ATK by 81 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Mint Salad": "Increases all party members' ATK by 95 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Minty Meat Rolls": {
     "name": "Minty Meat Rolls",
@@ -3068,7 +3405,12 @@
         "count": 1,
         "name": "Jueyun Chili"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Minty Meat Rolls": "Decreases all party members' gliding and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Minty Meat Rolls": "Decreases all party members' gliding and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Minty Meat Rolls": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Crab Roe Tofu": {
     "name": "Crab Roe Tofu",
@@ -3089,7 +3431,12 @@
         "count": 1,
         "name": "Tofu"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Crab Roe Tofu": "Revives a character and restores 250 HP.",
+      "Crab Roe Tofu": "Revives a character and restores 400 HP.",
+      "Delicious Crab Roe Tofu": "Revives a character and restores 550 HP."
+    }
   },
   "Cured Pork Dry Hotpot": {
     "name": "Cured Pork Dry Hotpot",
@@ -3118,7 +3465,12 @@
         "count": 1,
         "name": "Pepper"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Cured Pork Dry Hotpot": "Increases all party members' CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Cured Pork Dry Hotpot": "Increases all party members' CRIT Rate by 15% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Cured Pork Dry Hotpot": "Increases all party members' CRIT Rate by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Stir-Fried Fish Noodles": {
     "name": "Stir-Fried Fish Noodles",
@@ -3143,7 +3495,12 @@
         "count": 2,
         "name": "Snapdragon"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Stir-Fried Fish Noodles": "Restores 18% of Max HP to the selected character and regenerates 300 HP every 5s for 30s.",
+      "Stir-Fried Fish Noodles": "Restores 20% of Max HP to the selected character and regenerates 390 HP every 5s for 30s.",
+      "Delicious Stir-Fried Fish Noodles": "Restores 22% of Max HP to the selected character and regenerates 470 HP every 5s for 30s."
+    }
   },
   "Chicken Tofu Pudding": {
     "name": "Chicken Tofu Pudding",
@@ -3172,7 +3529,12 @@
         "count": 1,
         "name": "Snapdragon"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Chicken Tofu Pudding": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Chicken Tofu Pudding": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Chicken Tofu Pudding": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Stir-Fried Shrimp": {
     "name": "Stir-Fried Shrimp",
@@ -3197,7 +3559,12 @@
         "count": 3,
         "name": "Snapdragon"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Stir-Fried Shrimp": "Increases all party members' Shield Strength by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Stir-Fried Shrimp": "Increases all party members' Shield Strength by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Stir-Fried Shrimp": "Increases all party members' Shield Strength by 30% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Rice Buns": {
     "name": "Rice Buns",
@@ -3218,7 +3585,12 @@
         "count": 1,
         "name": "Horsetail"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Rice Buns": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
+      "Rice Buns": "Restores 9% of Max HP and an additional 1,000 HP to the selected character.",
+      "Delicious Rice Buns": "Restores 10% of Max HP and an additional 1,200 HP to the selected character."
+    }
   },
   "Tuna Sushi": {
     "name": "Tuna Sushi",
@@ -3239,7 +3611,12 @@
         "count": 3,
         "name": "Rice"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Tuna Sushi": "Restores 20% of Max HP and an additional 900 HP to the selected character.",
+      "Tuna Sushi": "Restores 22% of Max HP and an additional 1,200 HP to the selected character.",
+      "Delicious Tuna Sushi": "Restores 24% of Max HP and an additional 1,500 HP to the selected character."
+    }
   },
   "Tricolor Dango": {
     "name": "Tricolor Dango",
@@ -3268,7 +3645,12 @@
         "count": 1,
         "name": "Rice"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Tricolor Dango": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+      "Tricolor Dango": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
+      "Delicious Tricolor Dango": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
+    }
   },
   "Onigiri": {
     "name": "Onigiri",
@@ -3293,7 +3675,12 @@
         "count": 1,
         "name": "Rice"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Onigiri": "Restores 18% of Max HP to the selected character and regenerates 300 HP every 5s for 30s.",
+      "Onigiri": "Restores 20% of Max HP to the selected character and regenerates 390 HP every 5s for 30s.",
+      "Delicious Onigiri": "Restores 22% of Max HP to the selected character and regenerates 470 HP every 5s for 30s."
+    }
   },
   "Sashimi Platter": {
     "name": "Sashimi Platter",
@@ -3322,7 +3709,12 @@
         "count": 2,
         "name": "Radish"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Sashimi Platter": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Sashimi Platter": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Sashimi Platter": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Tonkotsu Ramen": {
     "name": "Tonkotsu Ramen",
@@ -3351,7 +3743,12 @@
         "count": 1,
         "name": "Bird Egg"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Tonkotsu Ramen": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+      "Tonkotsu Ramen": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
+      "Delicious Tonkotsu Ramen": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
+    }
   },
   "Egg Roll": {
     "name": "Egg Roll",
@@ -3372,7 +3769,12 @@
         "count": 1,
         "name": "Sugar"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Egg Roll": "Revives a character and restores 50 HP.",
+      "Egg Roll": "Revives a character and restores 100 HP.",
+      "Delicious Egg Roll": "Revives a character and restores 150 HP."
+    }
   },
   "Dry-Braised Salted Fish": {
     "name": "Dry-Braised Salted Fish",
@@ -3393,7 +3795,12 @@
         "count": 1,
         "name": "Salt"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Dry-Braised Salted Fish": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
+      "Dry-Braised Salted Fish": "Restores 9% of Max HP and an additional 1,000 HP to the selected character.",
+      "Delicious Dry-Braised Salted Fish": "Restores 10% of Max HP and an additional 1,200 HP to the selected character."
+    }
   },
   "Butter Crab": {
     "name": "Butter Crab",
@@ -3422,7 +3829,12 @@
         "count": 1,
         "name": "Matsutake"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Butter Crab": "Increases all party members' DEF by 215 and healing effects by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Butter Crab": "Increases all party members' DEF by 261 and healing effects by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Butter Crab": "Increases all party members' DEF by 308 and healing effects by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Tri-Flavored Skewer": {
     "name": "Tri-Flavored Skewer",
@@ -3451,7 +3863,12 @@
         "count": 1,
         "name": "Snapdragon"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Tri-Flavored Skewer": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Tri-Flavored Skewer": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Tri-Flavored Skewer": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Miso Soup": {
     "name": "Miso Soup",
@@ -3472,7 +3889,12 @@
         "count": 1,
         "name": "Seagrass"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Miso Soup": "Restores 8% of Max HP to the selected character and regenerates 210 HP every 5s for 30s.",
+      "Miso Soup": "Restores 9% of Max HP to the selected character and regenerates 260 HP every 5s for 30s.",
+      "Delicious Miso Soup": "Restores 10% of Max HP to the selected character and regenerates 300 HP every 5s for 30s."
+    }
   },
   "Imported Poultry": {
     "name": "Imported Poultry",
@@ -3501,7 +3923,12 @@
         "count": 2,
         "name": "Bird Egg"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Imported Poultry": "Increases all party members' CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Imported Poultry": "Increases all party members' CRIT Rate by 15% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Imported Poultry": "Increases all party members' CRIT Rate by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Sakura Mochi": {
     "name": "Sakura Mochi",
@@ -3526,7 +3953,12 @@
         "count": 1,
         "name": "Sakura Bloom"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Sakura Mochi": "Revives a character and restores 900 HP.",
+      "Sakura Mochi": "Revives a character and restores 1,200 HP.",
+      "Delicious Sakura Mochi": "Revives a character and restores 1,500 HP."
+    }
   },
   "Konda Cuisine": {
     "name": "Konda Cuisine",
@@ -3555,7 +3987,12 @@
         "count": 1,
         "name": "Mushroom"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Konda Cuisine": "Revives a character and restores 900 HP.",
+      "Konda Cuisine": "Revives a character and restores 1,200 HP.",
+      "Delicious Konda Cuisine": "Revives a character and restores 1,500 HP."
+    }
   },
   "Rice Cake Soup": {
     "name": "Rice Cake Soup",
@@ -3584,7 +4021,12 @@
         "count": 1,
         "name": "Lavender Melon"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Rice Cake Soup": "Increases all party members' DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Rice Cake Soup": "Increases all party members' DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Rice Cake Soup": "Increases all party members' DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Mixed Yakisoba": {
     "name": "Mixed Yakisoba",
@@ -3609,7 +4051,12 @@
         "count": 1,
         "name": "Raw Meat"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Mixed Yakisoba": "Revives a character and restores 250 HP.",
+      "Mixed Yakisoba": "Revives a character and restores 400 HP.",
+      "Delicious Mixed Yakisoba": "Revives a character and restores 550 HP."
+    }
   },
   "Crab Roe Kourayaki": {
     "name": "Crab Roe Kourayaki",
@@ -3630,7 +4077,12 @@
         "count": 1,
         "name": "Crab Roe"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Crab Roe Kourayaki": "Increases all party members' ATK by 66 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Crab Roe Kourayaki": "Increases all party members' ATK by 81 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Crab Roe Kourayaki": "Increases all party members' ATK by 95 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Sakura Tempura": {
     "name": "Sakura Tempura",
@@ -3659,7 +4111,12 @@
         "count": 1,
         "name": "Flour"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Sakura Tempura": "Increases all party members' Shield Strength by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Sakura Tempura": "Increases all party members' Shield Strength by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Sakura Tempura": "Increases all party members' Shield Strength by 30% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Invigorating Kitty Meal": {
     "name": "Invigorating Kitty Meal",
@@ -3688,7 +4145,12 @@
         "count": 1,
         "name": "Rice"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Invigorating Kitty Meal": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
+      "Invigorating Kitty Meal": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
+      "Delicious Invigorating Kitty Meal": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s."
+    }
   },
   "Sweet Shrimp Sushi": {
     "name": "Sweet Shrimp Sushi",
@@ -3709,7 +4171,12 @@
         "count": 1,
         "name": "Rice"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Sweet Shrimp Sushi": "Revives a character and restores 50 HP.",
+      "Sweet Shrimp Sushi": "Revives a character and restores 100 HP.",
+      "Delicious Sweet Shrimp Sushi": "Revives a character and restores 150 HP."
+    }
   },
   "Bird Egg Sushi": {
     "name": "Bird Egg Sushi",
@@ -3730,7 +4197,12 @@
         "count": 1,
         "name": "Rice"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Bird Egg Sushi": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
+      "Bird Egg Sushi": "Restores 9% of Max HP and an additional 1,000 HP to the selected character.",
+      "Delicious Bird Egg Sushi": "Restores 10% of Max HP and an additional 1,200 HP to the selected character."
+    }
   },
   "Omelette Rice": {
     "name": "Omelette Rice",
@@ -3759,7 +4231,12 @@
         "count": 1,
         "name": "Sugar"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Omelette Rice": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Omelette Rice": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Omelette Rice": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Taiyaki": {
     "name": "Taiyaki",
@@ -3788,7 +4265,12 @@
         "count": 2,
         "name": "Sugar"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Taiyaki": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
+      "Taiyaki": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
+      "Delicious Taiyaki": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s."
+    }
   },
   "More-and-More": {
     "name": "More-and-More",
@@ -3817,7 +4299,12 @@
         "count": 1,
         "name": "Flour"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious More-and-More": "Increases all party members' Physical DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "More-and-More": "Increases all party members' Physical DMG by 30% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious More-and-More": "Increases all party members' Physical DMG by 40% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Grilled Unagi Fillet": {
     "name": "Grilled Unagi Fillet",
@@ -3838,7 +4325,12 @@
         "count": 1,
         "name": "Sugar"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Grilled Unagi Fillet": "Restores 20% of Max HP and an additional 900 HP to the selected character.",
+      "Grilled Unagi Fillet": "Restores 22% of Max HP and an additional 1,200 HP to the selected character.",
+      "Delicious Grilled Unagi Fillet": "Restores 24% of Max HP and an additional 1,500 HP to the selected character."
+    }
   },
   "Radish and Fish Stew": {
     "name": "Radish and Fish Stew",
@@ -3863,7 +4355,12 @@
         "count": 1,
         "name": "Salt"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Radish and Fish Stew": "Increases all party members' CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Radish and Fish Stew": "Increases all party members' CRIT Rate by 9% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Radish and Fish Stew": "Increases all party members' CRIT Rate by 12% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Wakatakeni": {
     "name": "Wakatakeni",
@@ -3884,7 +4381,12 @@
         "count": 2,
         "name": "Seagrass"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Wakatakeni": "Increases all party members' DEF by 88 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Wakatakeni": "Increases all party members' DEF by 107 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Wakatakeni": "Increases all party members' DEF by 126 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Berry Mizu Manjuu": {
     "name": "Berry Mizu Manjuu",
@@ -3909,7 +4411,12 @@
         "count": 1,
         "name": "Sugar"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Berry Mizu Manjuu": "Restores 18% of Max HP to the selected character and regenerates 300 HP every 5s for 30s.",
+      "Berry Mizu Manjuu": "Restores 20% of Max HP to the selected character and regenerates 390 HP every 5s for 30s.",
+      "Delicious Berry Mizu Manjuu": "Restores 22% of Max HP to the selected character and regenerates 470 HP every 5s for 30s."
+    }
   },
   "Soba Noodles": {
     "name": "Soba Noodles",
@@ -3930,7 +4437,12 @@
         "count": 1,
         "name": "Seagrass"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Soba Noodles": "Restores 8% of Max HP to the selected character and regenerates 210 HP every 5s for 30s.",
+      "Soba Noodles": "Restores 9% of Max HP to the selected character and regenerates 260 HP every 5s for 30s.",
+      "Delicious Soba Noodles": "Restores 10% of Max HP to the selected character and regenerates 300 HP every 5s for 30s."
+    }
   },
   "Unagi Chazuke": {
     "name": "Unagi Chazuke",
@@ -3959,7 +4471,12 @@
         "count": 1,
         "name": "Salt"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Unagi Chazuke": "Increases all party members' Healing Bonus by 15% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Unagi Chazuke": "Increases all party members' Healing Bonus by 17% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Unagi Chazuke": "Increases all party members' Healing Bonus by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Five Pickled Treasures": {
     "name": "Five Pickled Treasures",
@@ -3988,7 +4505,12 @@
         "count": 2,
         "name": "Seagrass"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Five Pickled Treasures": "Restores 70 Stamina.",
+      "Five Pickled Treasures": "Restores 85 Stamina.",
+      "Delicious Five Pickled Treasures": "Restores 100 Stamina."
+    }
   },
   "Sakura Shrimp Crackers": {
     "name": "Sakura Shrimp Crackers",
@@ -4013,7 +4535,12 @@
         "count": 2,
         "name": "Sakura Bloom"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Sakura Shrimp Crackers": "Increases all party members' Max HP by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Sakura Shrimp Crackers": "Increases all party members' Max HP by 22% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Sakura Shrimp Crackers": "Increases all party members' Max HP by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Bountiful Year": {
     "name": "Bountiful Year",
@@ -4042,7 +4569,12 @@
         "count": 1,
         "name": "Violetgrass"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Bountiful Year": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Bountiful Year": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Bountiful Year": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Dragon Beard Noodles": {
     "name": "Dragon Beard Noodles",
@@ -4071,7 +4603,12 @@
         "count": 1,
         "name": "Ham"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Dragon Beard Noodles": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Dragon Beard Noodles": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Dragon Beard Noodles": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Rice Pudding": {
     "name": "Rice Pudding",
@@ -4100,7 +4637,12 @@
         "count": 2,
         "name": "Sugar"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Rice Pudding": "Restores 70 Stamina.",
+      "Rice Pudding": "Restores 85 Stamina.",
+      "Delicious Rice Pudding": "Restores 100 Stamina."
+    }
   },
   "Braised Meat": {
     "name": "Braised Meat",
@@ -4129,7 +4671,12 @@
         "count": 1,
         "name": "Onion"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Braised Meat": "Increases all party members' Physical DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Braised Meat": "Increases all party members' Physical DMG by 30% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Braised Meat": "Increases all party members' Physical DMG by 40% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Oncidium Tofu": {
     "name": "Oncidium Tofu",
@@ -4158,7 +4705,12 @@
         "count": 1,
         "name": "Fowl"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Oncidium Tofu": "Restores 70 Stamina.",
+      "Oncidium Tofu": "Restores 85 Stamina.",
+      "Delicious Oncidium Tofu": "Restores 100 Stamina."
+    }
   },
   "Chili-Mince Cornbread Buns": {
     "name": "Chili-Mince Cornbread Buns",
@@ -4187,7 +4739,12 @@
         "count": 2,
         "name": "Jueyun Chili"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Chili-Mince Cornbread Buns": "Increases all party members' Shield Strength by 25% and DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Chili-Mince Cornbread Buns": "Increases all party members' Shield Strength by 30% and DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Chili-Mince Cornbread Buns": "Increases all party members' Shield Strength by 35% and DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Golden Fried Chicken": {
     "name": "Golden Fried Chicken",
@@ -4216,7 +4773,12 @@
         "count": 3,
         "name": "Flour"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Golden Fried Chicken": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Golden Fried Chicken": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Golden Fried Chicken": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Golden Chicken Burger": {
     "name": "Golden Chicken Burger",
@@ -4245,7 +4807,12 @@
         "count": 2,
         "name": "Butter"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Golden Chicken Burger": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+      "Golden Chicken Burger": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
+      "Delicious Golden Chicken Burger": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
+    }
   },
   "Fragrant Mashed Potatoes": {
     "name": "Fragrant Mashed Potatoes",
@@ -4270,7 +4837,12 @@
         "count": 3,
         "name": "Pepper"
       }
-    ]
+    ],
+    "effect": {
+      "Suspicious Fragrant Mashed Potatoes": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Fragrant Mashed Potatoes": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Fragrant Mashed Potatoes": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
   },
   "Holy Water": {
     "name": "Holy Water",
@@ -4293,7 +4865,8 @@
     "icon": "img/food/Pops_Teas.png",
     "sources": [
       "Sold at shops"
-    ]
+    ],
+    "effect": "Restores 14% of Max HP to the selected character and regenerates 350 HP every 5s for 30s."
   },
   "Wolfhook Juice": {
     "name": "Wolfhook Juice",
@@ -4304,7 +4877,8 @@
     "icon": "img/food/Wolfhook_Juice.png",
     "sources": [
       "Sold at shops"
-    ]
+    ],
+    "effect": "Increases all party members' ATK by 114 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Berry & Mint Burst": {
     "name": "Berry & Mint Burst",
@@ -4315,7 +4889,8 @@
     "icon": "img/food/Berry_&_Mint_Burst.png",
     "sources": [
       "Sold at shops"
-    ]
+    ],
+    "effect": "Increases all party members' CRIT Rate by 16% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Special Mushroom Pizza": {
     "name": "Special Mushroom Pizza",
@@ -4326,7 +4901,8 @@
     "icon": "img/food/Special_Mushroom_Pizza.png",
     "sources": [
       "Sold at shops"
-    ]
+    ],
+    "effect": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s."
   },
   "Dango Milk": {
     "name": "Dango Milk",
@@ -4337,7 +4913,8 @@
     "icon": "img/food/Dango_Milk.png",
     "sources": [
       "Sold at shops"
-    ]
+    ],
+    "effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s."
   },
   "Wheat": {
     "name": "Wheat",
@@ -4648,7 +5225,8 @@
     "icon": "img/material/Heatshield_Potion.png",
     "sources": [
       "Crafted"
-    ]
+    ],
+    "effect": "Increases all party members' Pyro RES by 25% for 300s."
   },
   "Desiccant Potion": {
     "name": "Desiccant Potion",
@@ -4659,7 +5237,8 @@
     "icon": "img/material/Desiccant_Potion.png",
     "sources": [
       "Crafted"
-    ]
+    ],
+    "effect": "Increases all party members' Hydro RES by 25% for 300s."
   },
   "Frostshield Potion": {
     "name": "Frostshield Potion",
@@ -4670,7 +5249,8 @@
     "icon": "img/material/Frostshield_Potion.png",
     "sources": [
       "Crafted"
-    ]
+    ],
+    "effect": "Increases all party members' Cryo RES by 25% for 300s."
   },
   "Windbarrier Potion": {
     "name": "Windbarrier Potion",
@@ -4681,7 +5261,8 @@
     "icon": "img/material/Windbarrier_Potion.png",
     "sources": [
       "Crafted"
-    ]
+    ],
+    "effect": "Increases all party members' Anemo RES by 25% for 300s."
   },
   "Insulation Potion": {
     "name": "Insulation Potion",
@@ -4692,7 +5273,8 @@
     "icon": "img/material/Insulation_Potion.png",
     "sources": [
       "Crafted"
-    ]
+    ],
+    "effect": "Increases all party members' Electro RES by 25% for 300s."
   },
   "Dustproof Potion": {
     "name": "Dustproof Potion",
@@ -4703,7 +5285,8 @@
     "icon": "img/material/Dustproof_Potion.png",
     "sources": [
       "Crafted"
-    ]
+    ],
+    "effect": "Increases all party members' Geo RES by 25% for 300s."
   },
   "Flaming Essential Oil": {
     "name": "Flaming Essential Oil",
@@ -4714,7 +5297,8 @@
     "icon": "img/material/Flaming_Essential_Oil.png",
     "sources": [
       "Crafted"
-    ]
+    ],
+    "effect": "Increases all party members' Pyro DMG by 25% for 300s."
   },
   "Streaming Essential Oil": {
     "name": "Streaming Essential Oil",
@@ -4725,7 +5309,8 @@
     "icon": "img/material/Streaming_Essential_Oil.png",
     "sources": [
       "Crafted"
-    ]
+    ],
+    "effect": "Increases all party members' Hydro DMG by 25% for 300s."
   },
   "Frosting Essential Oil": {
     "name": "Frosting Essential Oil",
@@ -4736,7 +5321,8 @@
     "icon": "img/material/Frosting_Essential_Oil.png",
     "sources": [
       "Crafted"
-    ]
+    ],
+    "effect": "Increases all party members' Cryo DMG by 25% for 300s."
   },
   "Gushing Essential Oil": {
     "name": "Gushing Essential Oil",
@@ -4747,7 +5333,8 @@
     "icon": "img/material/Gushing_Essential_Oil.png",
     "sources": [
       "Crafted"
-    ]
+    ],
+    "effect": "Increases all party members' Anemo DMG by 25% for 300s."
   },
   "Shocking Essential Oil": {
     "name": "Shocking Essential Oil",
@@ -4758,7 +5345,8 @@
     "icon": "img/material/Shocking_Essential_Oil.png",
     "sources": [
       "Crafted"
-    ]
+    ],
+    "effect": "Increases all party members' Electro DMG by 25% for 300s."
   },
   "Unmoving Essential Oil": {
     "name": "Unmoving Essential Oil",
@@ -4769,7 +5357,8 @@
     "icon": "img/material/Unmoving_Essential_Oil.png",
     "sources": [
       "Crafted"
-    ]
+    ],
+    "effect": "Increases all party members' Geo DMG by 25% for 300s."
   },
   "Dvalin's Plume": {
     "name": "Dvalin's Plume",

@@ -153,6 +153,17 @@ Note: this command supports fuzzy search.`,
         if (recipe)
             embed.addField("Recipe", data.getItemCosts(recipe))
 
+        const effect = material.effect
+        if (effect && typeof effect == "string")
+            embed.addField("Effect", effect)
+        else if (effect && typeof effect == "object") {
+            const effects = [
+                ...Object.entries(effect),
+                ...otherMaterial.filter(x => x.effect && typeof x.effect == "string").map(x => [`[${x.name}](${data.baseURL}materials/${urlify(x.name, false)})`, x.effect as string])
+            ]
+            embed.addField("Effects", effects.map(([name, e]) => `**${name}**: ${e}`).join("\n"))
+        }
+
         const charAscension: Character[] = []
         const charTalents: Character[] = []
 
