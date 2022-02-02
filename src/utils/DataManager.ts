@@ -2,7 +2,7 @@ import log4js from "log4js"
 import { exists, unlink, move, writeFile, existsSync, readFileSync } from "fs-extra"
 import { join } from "path"
 
-import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop, Guide, CharacterFull, CostTemplate, Enemy, GuidePage, Material, GuideLinks } from "./Types"
+import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop, Guide, CharacterFull, CostTemplate, Enemy, GuidePage, Material, GuideLinks, Item } from "./Types"
 import { findFuzzy } from "./Utils"
 
 import artifactsData from "../data/gamedata/artifacts.json"
@@ -309,6 +309,10 @@ export default class DataManager {
                 count: cost.mora
             }, ...items]
 
+        return this.getItemCosts(items)
+    }
+
+    getItemCosts(items: Item[]): string {
         return items.map(i => `**${i.count}**x *${this.emoji(i.name, true)}*`).join("\n")
     }
 

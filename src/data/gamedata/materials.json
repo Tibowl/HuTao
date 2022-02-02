@@ -891,7 +891,11 @@
     "icon": "img/food/Outriders_Champion_Steak!.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Amber",
+      "recipe": "Steak"
+    }
   },
   "Fruity Skewers": {
     "name": "Fruity Skewers",
@@ -902,7 +906,11 @@
     "icon": "img/food/Fruity_Skewers.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Kaeya",
+      "recipe": "Chicken-Mushroom Skewer"
+    }
   },
   "Mysterious Bolognese": {
     "name": "Mysterious Bolognese",
@@ -913,7 +921,11 @@
     "icon": "img/food/Mysterious_Bolognese.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Lisa",
+      "recipe": "Flaming Red Bolognese"
+    }
   },
   "Spicy Stew": {
     "name": "Spicy Stew",
@@ -924,7 +936,11 @@
     "icon": "img/food/Spicy_Stew.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Barbara",
+      "recipe": "Cream Stew"
+    }
   },
   "Invigorating Pizza": {
     "name": "Invigorating Pizza",
@@ -935,7 +951,11 @@
     "icon": "img/food/Invigorating_Pizza.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Jean",
+      "recipe": "Mushroom Pizza"
+    }
   },
   "Puppy-Paw Hash Brown": {
     "name": "Puppy-Paw Hash Brown",
@@ -946,7 +966,11 @@
     "icon": "img/food/PuppyPaw_Hash_Brown.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Razor",
+      "recipe": "Mondstadt Hash Brown"
+    }
   },
   "\"Once Upon a Time in Mondstadt\"": {
     "name": "\"Once Upon a Time in Mondstadt\"",
@@ -957,7 +981,11 @@
     "icon": "img/food/Once_Upon_a_Time_in_Mondstadt.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Diluc",
+      "recipe": "\"Pile 'Em Up\""
+    }
   },
   "Lighter-Than-Air Pancake": {
     "name": "Lighter-Than-Air Pancake",
@@ -968,7 +996,11 @@
     "icon": "img/food/LighterThanAir_Pancake.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Noelle",
+      "recipe": "Tea Break Pancake"
+    }
   },
   "A Buoyant Breeze": {
     "name": "A Buoyant Breeze",
@@ -979,7 +1011,11 @@
     "icon": "img/food/A_Buoyant_Breeze.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Venti",
+      "recipe": "Barbatos Ratatouille"
+    }
   },
   "Fish-Flavored Toast": {
     "name": "Fish-Flavored Toast",
@@ -990,7 +1026,11 @@
     "icon": "img/food/FishFlavored_Toast.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Klee",
+      "recipe": "Fisherman's Toast"
+    }
   },
   "Teyvat Charred Egg": {
     "name": "Teyvat Charred Egg",
@@ -1001,7 +1041,11 @@
     "icon": "img/food/Teyvat_Charred_Egg.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Bennett",
+      "recipe": "Teyvat Fried Egg"
+    }
   },
   "Wanmin Restaurant's Boiled Fish": {
     "name": "Wanmin Restaurant's Boiled Fish",
@@ -1012,7 +1056,11 @@
     "icon": "img/food/Wanmin_Restaurants_Boiled_Fish.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Xiangling",
+      "recipe": "Black-Back Perch Stew"
+    }
   },
   "All-Delicacy Parcels": {
     "name": "All-Delicacy Parcels",
@@ -1023,7 +1071,11 @@
     "icon": "img/food/AllDelicacy_Parcels.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Xingqiu",
+      "recipe": "Crystal Shrimp"
+    }
   },
   "Cold Noodles with Mountain Delicacies": {
     "name": "Cold Noodles with Mountain Delicacies",
@@ -1034,7 +1086,11 @@
     "icon": "img/food/Cold_Noodles_with_Mountain_Delicacies.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Chongyun",
+      "recipe": "Noodles with Mountain Delicacies"
+    }
   },
   "Qiankun Mora Meat": {
     "name": "Qiankun Mora Meat",
@@ -1045,7 +1101,11 @@
     "icon": "img/food/Qiankun_Mora_Meat.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Ningguang",
+      "recipe": "Mora Meat"
+    }
   },
   "Definitely Not Bar Food!": {
     "name": "Definitely Not Bar Food!",
@@ -1056,7 +1116,11 @@
     "icon": "img/food/Definitely_Not_Bar_Food!.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Diona",
+      "recipe": "Mondstadt Grilled Fish"
+    }
   },
   "Der Weisheit Letzter Schluss (Life)": {
     "name": "Der Weisheit Letzter Schluss (Life)",
@@ -1067,7 +1131,11 @@
     "icon": "img/food/Der_Weisheit_Letzter_Schluss_(Life).png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Mona",
+      "recipe": "Satisfying Salad"
+    }
   },
   "Die Heilige Sinfonie": {
     "name": "Die Heilige Sinfonie",
@@ -1078,7 +1146,11 @@
     "icon": "img/food/Die_Heilige_Sinfonie.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Fischl",
+      "recipe": "Cold Cut Platter"
+    }
   },
   "No Tomorrow": {
     "name": "No Tomorrow",
@@ -1089,7 +1161,11 @@
     "icon": "img/food/No_Tomorrow.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Qiqi",
+      "recipe": "Come and Get It"
+    }
   },
   "Flash-Fried Filet": {
     "name": "Flash-Fried Filet",
@@ -1100,7 +1176,11 @@
     "icon": "img/food/FlashFried_Filet.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Beidou",
+      "recipe": "Stir-Fried Filet"
+    }
   },
   "Survival Grilled Fish": {
     "name": "Survival Grilled Fish",
@@ -1111,7 +1191,11 @@
     "icon": "img/food/Survival_Grilled_Fish.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Keqing",
+      "recipe": "Grilled Tiger Fish"
+    }
   },
   "Nutritious Meal (V.593)": {
     "name": "Nutritious Meal (V.593)",
@@ -1122,7 +1206,11 @@
     "icon": "img/food/Nutritious_Meal_(V.593).png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Sucrose",
+      "recipe": "Crab, Ham & Veggie Bake"
+    }
   },
   "Slow-Cooked Bamboo Shoot Soup": {
     "name": "Slow-Cooked Bamboo Shoot Soup",
@@ -1133,7 +1221,11 @@
     "icon": "img/food/SlowCooked_Bamboo_Shoot_Soup.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Zhongli",
+      "recipe": "Bamboo Shoot Soup"
+    }
   },
   "Rockin' Riffin' Chicken!": {
     "name": "Rockin' Riffin' Chicken!",
@@ -1144,7 +1236,11 @@
     "icon": "img/food/Rockin_Riffin_Chicken!.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Xinyan",
+      "recipe": "Jueyun Chili Chicken"
+    }
   },
   "A Prize Catch": {
     "name": "A Prize Catch",
@@ -1155,7 +1251,11 @@
     "icon": "img/food/A_Prize_Catch.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Tartaglia",
+      "recipe": "Calla Lily Seafood Soup"
+    }
   },
   "Prosperous Peace": {
     "name": "Prosperous Peace",
@@ -1166,7 +1266,11 @@
     "icon": "img/food/Prosperous_Peace.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Ganyu",
+      "recipe": "Universal Peace"
+    }
   },
   "Woodland Dream": {
     "name": "Woodland Dream",
@@ -1177,7 +1281,11 @@
     "icon": "img/food/Woodland_Dream.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Albedo",
+      "recipe": "Sunshine Sprat"
+    }
   },
   "\"Sweet Dream\"": {
     "name": "\"Sweet Dream\"",
@@ -1188,7 +1296,11 @@
     "icon": "img/food/Sweet_Dream.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Xiao",
+      "recipe": "Almond Tofu"
+    }
   },
   "Ghostly March": {
     "name": "Ghostly March",
@@ -1199,7 +1311,11 @@
     "icon": "img/food/Ghostly_March.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Hu Tao",
+      "recipe": "Vegetarian Abalone"
+    }
   },
   "Dinner of Judgment": {
     "name": "Dinner of Judgment",
@@ -1210,7 +1326,11 @@
     "icon": "img/food/Dinner_of_Judgment.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Rosaria",
+      "recipe": "Sweet Madame"
+    }
   },
   "\"My Way\"": {
     "name": "\"My Way\"",
@@ -1221,7 +1341,11 @@
     "icon": "img/food/My_Way.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Yanfei",
+      "recipe": "Crab Roe Tofu"
+    }
   },
   "Stormcrest Pie": {
     "name": "Stormcrest Pie",
@@ -1232,7 +1356,11 @@
     "icon": "img/food/Stormcrest_Pie.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Eula",
+      "recipe": "Moon Pie"
+    }
   },
   "\"Snow on the Hearth\"": {
     "name": "\"Snow on the Hearth\"",
@@ -1243,7 +1371,11 @@
     "icon": "img/food/Snow_on_the_Hearth.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Kamisato Ayaka",
+      "recipe": "Sakura Mochi"
+    }
   },
   "All-Weather Beauty": {
     "name": "All-Weather Beauty",
@@ -1254,7 +1386,11 @@
     "icon": "img/food/AllWeather_Beauty.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Kaedehara Kazuha",
+      "recipe": "Dry-Braised Salted Fish"
+    }
   },
   "Summer Festival Fish": {
     "name": "Summer Festival Fish",
@@ -1265,7 +1401,11 @@
     "icon": "img/food/Summer_Festival_Fish.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Yoimiya",
+      "recipe": "Tricolor Dango"
+    }
   },
   "Dizziness-Be-Gone no Jutsu Version 2.0": {
     "name": "Dizziness-Be-Gone no Jutsu Version 2.0",
@@ -1276,7 +1416,11 @@
     "icon": "img/food/DizzinessBeGone_no_Jutsu_Version_2.0.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Sayu",
+      "recipe": "Onigiri"
+    }
   },
   "Satiety Gel": {
     "name": "Satiety Gel",
@@ -1287,7 +1431,11 @@
     "icon": "img/food/Satiety_Gel.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Aloy",
+      "recipe": "Mint Jelly"
+    }
   },
   "A Stunning Stratagem": {
     "name": "A Stunning Stratagem",
@@ -1298,7 +1446,11 @@
     "icon": "img/food/A_Stunning_Stratagem.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Sangonomiya Kokomi",
+      "recipe": "Bird Egg Sushi"
+    }
   },
   "Faith Eternal": {
     "name": "Faith Eternal",
@@ -1309,7 +1461,11 @@
     "icon": "img/food/Faith_Eternal.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Kujou Sara",
+      "recipe": "Egg Roll"
+    }
   },
   "\"Warmth\"": {
     "name": "\"Warmth\"",
@@ -1320,7 +1476,11 @@
     "icon": "img/food/Warmth.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Thoma",
+      "recipe": "Miso Soup"
+    }
   },
   "Way of the Strong": {
     "name": "Way of the Strong",
@@ -1331,7 +1491,11 @@
     "icon": "img/food/Way_of_the_Strong.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Arataki Itto",
+      "recipe": "Mixed Yakisoba"
+    }
   },
   "Victorious Legend": {
     "name": "Victorious Legend",
@@ -1342,7 +1506,11 @@
     "icon": "img/food/Victorious_Legend.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Gorou",
+      "recipe": "Tonkotsu Ramen"
+    }
   },
   "Heartstring Noodles": {
     "name": "Heartstring Noodles",
@@ -1353,7 +1521,11 @@
     "icon": "img/food/Heartstring_Noodles.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Shenhe",
+      "recipe": "Dragon Beard Noodles"
+    }
   },
   "Cloud-Shrouded Jade": {
     "name": "Cloud-Shrouded Jade",
@@ -1364,7 +1536,11 @@
     "icon": "img/food/CloudShrouded_Jade.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Yun Jin",
+      "recipe": "Lotus Seed and Bird Egg Soup"
+    }
   },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
@@ -1375,6 +1551,24 @@
     "icon": "img/food/Fishermans_Toast.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Tomato"
+      },
+      {
+        "count": 1,
+        "name": "Onion"
+      },
+      {
+        "count": 1,
+        "name": "Milk"
+      }
     ]
   },
   "Teyvat Fried Egg": {
@@ -1386,6 +1580,12 @@
     "icon": "img/food/Teyvat_Fried_Egg.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Bird Egg"
+      }
     ]
   },
   "Steak": {
@@ -1397,6 +1597,12 @@
     "icon": "img/food/Steak.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      }
     ]
   },
   "Chicken-Mushroom Skewer": {
@@ -1408,6 +1614,16 @@
     "icon": "img/food/ChickenMushroom_Skewer.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Mushroom"
+      },
+      {
+        "count": 1,
+        "name": "Fowl"
+      }
     ]
   },
   "Flaming Red Bolognese": {
@@ -1419,6 +1635,20 @@
     "icon": "img/food/Flaming_Red_Bolognese.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 1,
+        "name": "Tomato"
+      }
     ]
   },
   "Radish Veggie Soup": {
@@ -1430,6 +1660,16 @@
     "icon": "img/food/Radish_Veggie_Soup.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Radish"
+      },
+      {
+        "count": 1,
+        "name": "Mint"
+      }
     ]
   },
   "Tea Break Pancake": {
@@ -1441,6 +1681,20 @@
     "icon": "img/food/Tea_Break_Pancake.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Berry"
+      },
+      {
+        "count": 2,
+        "name": "Flour"
+      },
+      {
+        "count": 1,
+        "name": "Bird Egg"
+      }
     ]
   },
   "Fried Radish Balls": {
@@ -1452,6 +1706,20 @@
     "icon": "img/food/Fried_Radish_Balls.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Radish"
+      },
+      {
+        "count": 1,
+        "name": "Pepper"
+      }
     ]
   },
   "Satisfying Salad": {
@@ -1463,6 +1731,24 @@
     "icon": "img/food/Satisfying_Salad.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Cabbage"
+      },
+      {
+        "count": 2,
+        "name": "Apple"
+      },
+      {
+        "count": 1,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 1,
+        "name": "Potato"
+      }
     ]
   },
   "Sweet Madame": {
@@ -1474,6 +1760,16 @@
     "icon": "img/food/Sweet_Madame.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Fowl"
+      },
+      {
+        "count": 2,
+        "name": "Sweet Flower"
+      }
     ]
   },
   "Northern Smoked Chicken": {
@@ -1485,6 +1781,20 @@
     "icon": "img/food/Northern_Smoked_Chicken.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Smoked Fowl"
+      },
+      {
+        "count": 1,
+        "name": "Onion"
+      },
+      {
+        "count": 1,
+        "name": "Cabbage"
+      }
     ]
   },
   "Cream Stew": {
@@ -1496,6 +1806,20 @@
     "icon": "img/food/Cream_Stew.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Cream"
+      },
+      {
+        "count": 1,
+        "name": "Snapdragon"
+      }
     ]
   },
   "Mushroom Pizza": {
@@ -1507,6 +1831,24 @@
     "icon": "img/food/Mushroom_Pizza.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Mushroom"
+      },
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Cabbage"
+      },
+      {
+        "count": 1,
+        "name": "Cheese"
+      }
     ]
   },
   "Mondstadt Hash Brown": {
@@ -1518,6 +1860,20 @@
     "icon": "img/food/Mondstadt_Hash_Brown.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Pinecone"
+      },
+      {
+        "count": 1,
+        "name": "Potato"
+      },
+      {
+        "count": 1,
+        "name": "Jam"
+      }
     ]
   },
   "Calla Lily Seafood Soup": {
@@ -1529,6 +1885,20 @@
     "icon": "img/food/Calla_Lily_Seafood_Soup.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Crab"
+      },
+      {
+        "count": 1,
+        "name": "Calla Lily"
+      },
+      {
+        "count": 2,
+        "name": "Mint"
+      }
     ]
   },
   "Sautéed Matsutake": {
@@ -1540,6 +1910,24 @@
     "icon": "img/food/Sautéed_Matsutake.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Matsutake"
+      },
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Pinecone"
+      },
+      {
+        "count": 2,
+        "name": "Butter"
+      }
     ]
   },
   "\"Pile 'Em Up\"": {
@@ -1551,6 +1939,24 @@
     "icon": "img/food/Pile_Em_Up.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 3,
+        "name": "Potato"
+      },
+      {
+        "count": 1,
+        "name": "Small Lamp Grass"
+      },
+      {
+        "count": 1,
+        "name": "Cheese"
+      }
     ]
   },
   "Cold Cut Platter": {
@@ -1562,6 +1968,24 @@
     "icon": "img/food/Cold_Cut_Platter.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Ham"
+      },
+      {
+        "count": 1,
+        "name": "Bacon"
+      },
+      {
+        "count": 1,
+        "name": "Sausage"
+      },
+      {
+        "count": 1,
+        "name": "Mint"
+      }
     ]
   },
   "Sticky Honey Roast": {
@@ -1573,6 +1997,20 @@
     "icon": "img/food/Sticky_Honey_Roast.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Carrot"
+      },
+      {
+        "count": 2,
+        "name": "Sugar"
+      }
     ]
   },
   "Crab, Ham & Veggie Bake": {
@@ -1584,6 +2022,24 @@
     "icon": "img/food/Crab_Ham_&_Veggie_Bake.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Crab Roe"
+      },
+      {
+        "count": 1,
+        "name": "Ham"
+      },
+      {
+        "count": 1,
+        "name": "Cream"
+      },
+      {
+        "count": 1,
+        "name": "Cabbage"
+      }
     ]
   },
   "Jade Parcels": {
@@ -1595,6 +2051,24 @@
     "icon": "img/food/Jade_Parcels.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Lotus Head"
+      },
+      {
+        "count": 2,
+        "name": "Jueyun Chili"
+      },
+      {
+        "count": 2,
+        "name": "Cabbage"
+      },
+      {
+        "count": 1,
+        "name": "Ham"
+      }
     ]
   },
   "Zhongyuan Chop Suey": {
@@ -1607,6 +2081,24 @@
     "icon": "img/food/Zhongyuan_Chop_Suey.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 3,
+        "name": "Fish"
+      },
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Salt"
+      }
     ]
   },
   "Black-Back Perch Stew": {
@@ -1618,6 +2110,24 @@
     "icon": "img/food/BlackBack_Perch_Stew.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Fish"
+      },
+      {
+        "count": 1,
+        "name": "Jueyun Chili"
+      },
+      {
+        "count": 1,
+        "name": "Salt"
+      },
+      {
+        "count": 1,
+        "name": "Violetgrass"
+      }
     ]
   },
   "Squirrel Fish": {
@@ -1629,6 +2139,24 @@
     "icon": "img/food/Squirrel_Fish.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Fish"
+      },
+      {
+        "count": 2,
+        "name": "Tomato"
+      },
+      {
+        "count": 2,
+        "name": "Flour"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
     ]
   },
   "Almond Tofu": {
@@ -1640,6 +2168,20 @@
     "icon": "img/food/Almond_Tofu.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Milk"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      },
+      {
+        "count": 1,
+        "name": "Almond"
+      }
     ]
   },
   "Jueyun Chili Chicken": {
@@ -1651,6 +2193,20 @@
     "icon": "img/food/Jueyun_Chili_Chicken.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Fowl"
+      },
+      {
+        "count": 1,
+        "name": "Jueyun Chili"
+      },
+      {
+        "count": 1,
+        "name": "Pepper"
+      }
     ]
   },
   "Jewelry Soup": {
@@ -1662,6 +2218,20 @@
     "icon": "img/food/Jewelry_Soup.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Snapdragon"
+      },
+      {
+        "count": 2,
+        "name": "Tofu"
+      },
+      {
+        "count": 1,
+        "name": "Lotus Head"
+      }
     ]
   },
   "Matsutake Meat Rolls": {
@@ -1673,6 +2243,16 @@
     "icon": "img/food/Matsutake_Meat_Rolls.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Matsutake"
+      },
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      }
     ]
   },
   "Mora Meat": {
@@ -1684,6 +2264,16 @@
     "icon": "img/food/Mora_Meat.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 1,
+        "name": "Flour"
+      }
     ]
   },
   "Mondstadt Grilled Fish": {
@@ -1695,6 +2285,16 @@
     "icon": "img/food/Mondstadt_Grilled_Fish.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Fish"
+      },
+      {
+        "count": 1,
+        "name": "Pepper"
+      }
     ]
   },
   "Stir-Fried Filet": {
@@ -1706,6 +2306,16 @@
     "icon": "img/food/StirFried_Filet.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 1,
+        "name": "Jueyun Chili"
+      }
     ]
   },
   "Golden Crab": {
@@ -1717,6 +2327,24 @@
     "icon": "img/food/Golden_Crab.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 5,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 5,
+        "name": "Flour"
+      },
+      {
+        "count": 4,
+        "name": "Crab"
+      },
+      {
+        "count": 2,
+        "name": "Salt"
+      }
     ]
   },
   "Crystal Shrimp": {
@@ -1728,6 +2356,20 @@
     "icon": "img/food/Crystal_Shrimp.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Rice"
+      },
+      {
+        "count": 3,
+        "name": "Shrimp Meat"
+      },
+      {
+        "count": 2,
+        "name": "Carrot"
+      }
     ]
   },
   "Grilled Tiger Fish": {
@@ -1740,6 +2382,16 @@
     "icon": "img/food/Grilled_Tiger_Fish.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Fish"
+      },
+      {
+        "count": 1,
+        "name": "Pepper"
+      }
     ]
   },
   "Barbatos Ratatouille": {
@@ -1751,6 +2403,20 @@
     "icon": "img/food/Barbatos_Ratatouille.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Carrot"
+      },
+      {
+        "count": 4,
+        "name": "Potato"
+      },
+      {
+        "count": 4,
+        "name": "Onion"
+      }
     ]
   },
   "Lotus Seed and Bird Egg Soup": {
@@ -1762,6 +2428,20 @@
     "icon": "img/food/Lotus_Seed_and_Bird_Egg_Soup.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Lotus Head"
+      },
+      {
+        "count": 1,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
     ]
   },
   "Adeptus' Temptation": {
@@ -1773,6 +2453,24 @@
     "icon": "img/food/Adeptus_Temptation.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Ham"
+      },
+      {
+        "count": 3,
+        "name": "Crab"
+      },
+      {
+        "count": 3,
+        "name": "Shrimp Meat"
+      },
+      {
+        "count": 3,
+        "name": "Matsutake"
+      }
     ]
   },
   "Golden Shrimp Balls": {
@@ -1784,6 +2482,20 @@
     "icon": "img/food/Golden_Shrimp_Balls.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 5,
+        "name": "Shrimp Meat"
+      },
+      {
+        "count": 4,
+        "name": "Potato"
+      },
+      {
+        "count": 3,
+        "name": "Flour"
+      }
     ]
   },
   "Qingce Stir Fry": {
@@ -1795,6 +2507,24 @@
     "icon": "img/food/Qingce_Stir_Fry.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Mushroom"
+      },
+      {
+        "count": 2,
+        "name": "Lotus Head"
+      },
+      {
+        "count": 1,
+        "name": "Jueyun Chili"
+      },
+      {
+        "count": 1,
+        "name": "Cabbage"
+      }
     ]
   },
   "Come and Get It": {
@@ -1806,6 +2536,24 @@
     "icon": "img/food/Come_and_Get_It.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 3,
+        "name": "Fish"
+      },
+      {
+        "count": 3,
+        "name": "Rice"
+      },
+      {
+        "count": 1,
+        "name": "Tofu"
+      }
     ]
   },
   "Apple Cider": {
@@ -1828,6 +2576,20 @@
     "icon": "img/food/Noodles_with_Mountain_Delicacies.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Mushroom"
+      },
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Flour"
+      }
     ]
   },
   "Bamboo Shoot Soup": {
@@ -1839,6 +2601,20 @@
     "icon": "img/food/Bamboo_Shoot_Soup.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Ham"
+      },
+      {
+        "count": 1,
+        "name": "Bamboo Shoot"
+      }
     ]
   },
   "Triple-Layered Consommé": {
@@ -1850,6 +2626,24 @@
     "icon": "img/food/TripleLayered_Consommé.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Ham"
+      },
+      {
+        "count": 2,
+        "name": "Fowl"
+      },
+      {
+        "count": 1,
+        "name": "Bamboo Shoot"
+      },
+      {
+        "count": 1,
+        "name": "Mushroom"
+      }
     ]
   },
   "Tianshu Meat": {
@@ -1861,6 +2655,24 @@
     "icon": "img/food/Tianshu_Meat.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Sugar"
+      },
+      {
+        "count": 1,
+        "name": "Qingxin"
+      },
+      {
+        "count": 1,
+        "name": "Matsutake"
+      }
     ]
   },
   "Lotus Flower Crisp": {
@@ -1872,6 +2684,24 @@
     "icon": "img/food/Lotus_Flower_Crisp.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Almond"
+      },
+      {
+        "count": 2,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Butter"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
     ]
   },
   "Moon Pie": {
@@ -1883,6 +2713,24 @@
     "icon": "img/food/Moon_Pie.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 4,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 3,
+        "name": "Butter"
+      },
+      {
+        "count": 2,
+        "name": "Flour"
+      }
     ]
   },
   "Adventurer's Breakfast Sandwich": {
@@ -1894,6 +2742,20 @@
     "icon": "img/food/Adventurers_Breakfast_Sandwich.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 1,
+        "name": "Ham"
+      }
     ]
   },
   "Northern Apple Stew": {
@@ -1905,6 +2767,24 @@
     "icon": "img/food/Northern_Apple_Stew.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 3,
+        "name": "Apple"
+      },
+      {
+        "count": 1,
+        "name": "Butter"
+      },
+      {
+        "count": 1,
+        "name": "Pepper"
+      }
     ]
   },
   "Universal Peace": {
@@ -1916,6 +2796,24 @@
     "icon": "img/food/Universal_Peace.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Rice"
+      },
+      {
+        "count": 2,
+        "name": "Lotus Head"
+      },
+      {
+        "count": 2,
+        "name": "Carrot"
+      },
+      {
+        "count": 2,
+        "name": "Berry"
+      }
     ]
   },
   "Goulash": {
@@ -1927,6 +2825,20 @@
     "icon": "img/food/Goulash.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Chilled Meat"
+      },
+      {
+        "count": 2,
+        "name": "Carrot"
+      },
+      {
+        "count": 1,
+        "name": "Tomato"
+      }
     ]
   },
   "Sunshine Sprat": {
@@ -1938,6 +2850,24 @@
     "icon": "img/food/Sunshine_Sprat.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Butter"
+      },
+      {
+        "count": 3,
+        "name": "Fish"
+      },
+      {
+        "count": 1,
+        "name": "Salt"
+      },
+      {
+        "count": 1,
+        "name": "Small Lamp Grass"
+      }
     ]
   },
   "Jueyun Guoba": {
@@ -1949,6 +2879,24 @@
     "icon": "img/food/Jueyun_Guoba.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Horsetail"
+      },
+      {
+        "count": 2,
+        "name": "Rice"
+      },
+      {
+        "count": 1,
+        "name": "Ham"
+      },
+      {
+        "count": 1,
+        "name": "Jueyun Chili"
+      }
     ]
   },
   "Fullmoon Egg": {
@@ -1960,6 +2908,24 @@
     "icon": "img/food/Fullmoon_Egg.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Fish"
+      },
+      {
+        "count": 2,
+        "name": "Shrimp Meat"
+      },
+      {
+        "count": 2,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 1,
+        "name": "Flour"
+      }
     ]
   },
   "Vegetarian Abalone": {
@@ -1971,6 +2937,16 @@
     "icon": "img/food/Vegetarian_Abalone.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Matsutake"
+      },
+      {
+        "count": 2,
+        "name": "Snapdragon"
+      }
     ]
   },
   "Stone Harbor Delicacies": {
@@ -1982,6 +2958,20 @@
     "icon": "img/food/Stone_Harbor_Delicacies.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Potato"
+      },
+      {
+        "count": 1,
+        "name": "Violetgrass"
+      },
+      {
+        "count": 1,
+        "name": "Matsutake"
+      }
     ]
   },
   "Crispy Potato Shrimp Platter": {
@@ -1993,6 +2983,24 @@
     "icon": "img/food/Crispy_Potato_Shrimp_Platter.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Mint"
+      },
+      {
+        "count": 4,
+        "name": "Shrimp Meat"
+      },
+      {
+        "count": 3,
+        "name": "Potato"
+      },
+      {
+        "count": 2,
+        "name": "Berry"
+      }
     ]
   },
   "Mint Jelly": {
@@ -2004,6 +3012,16 @@
     "icon": "img/food/Mint_Jelly.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Mint"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
     ]
   },
   "Mint Salad": {
@@ -2015,6 +3033,16 @@
     "icon": "img/food/Mint_Salad.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Mint"
+      },
+      {
+        "count": 1,
+        "name": "Jueyun Chili"
+      }
     ]
   },
   "Minty Meat Rolls": {
@@ -2026,6 +3054,20 @@
     "icon": "img/food/Minty_Meat_Rolls.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Mint"
+      },
+      {
+        "count": 3,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 1,
+        "name": "Jueyun Chili"
+      }
     ]
   },
   "Crab Roe Tofu": {
@@ -2037,6 +3079,16 @@
     "icon": "img/food/Crab_Roe_Tofu.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Crab Roe"
+      },
+      {
+        "count": 1,
+        "name": "Tofu"
+      }
     ]
   },
   "Cured Pork Dry Hotpot": {
@@ -2048,6 +3100,24 @@
     "icon": "img/food/Cured_Pork_Dry_Hotpot.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Ham"
+      },
+      {
+        "count": 2,
+        "name": "Matsutake"
+      },
+      {
+        "count": 1,
+        "name": "Snapdragon"
+      },
+      {
+        "count": 1,
+        "name": "Pepper"
+      }
     ]
   },
   "Stir-Fried Fish Noodles": {
@@ -2059,6 +3129,20 @@
     "icon": "img/food/StirFried_Fish_Noodles.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Fish"
+      },
+      {
+        "count": 2,
+        "name": "Rice"
+      },
+      {
+        "count": 2,
+        "name": "Snapdragon"
+      }
     ]
   },
   "Chicken Tofu Pudding": {
@@ -2070,6 +3154,24 @@
     "icon": "img/food/Chicken_Tofu_Pudding.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Fowl"
+      },
+      {
+        "count": 2,
+        "name": "Ham"
+      },
+      {
+        "count": 2,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 1,
+        "name": "Snapdragon"
+      }
     ]
   },
   "Stir-Fried Shrimp": {
@@ -2081,6 +3183,20 @@
     "icon": "img/food/StirFried_Shrimp.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Shrimp Meat"
+      },
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 3,
+        "name": "Snapdragon"
+      }
     ]
   },
   "Rice Buns": {
@@ -2092,6 +3208,16 @@
     "icon": "img/food/Rice_Buns.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Rice"
+      },
+      {
+        "count": 1,
+        "name": "Horsetail"
+      }
     ]
   },
   "Tuna Sushi": {
@@ -2103,6 +3229,16 @@
     "icon": "img/food/Tuna_Sushi.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Fish"
+      },
+      {
+        "count": 3,
+        "name": "Rice"
+      }
     ]
   },
   "Tricolor Dango": {
@@ -2114,6 +3250,24 @@
     "icon": "img/food/Tricolor_Dango.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Milk"
+      },
+      {
+        "count": 2,
+        "name": "Snapdragon"
+      },
+      {
+        "count": 2,
+        "name": "Sakura Bloom"
+      },
+      {
+        "count": 1,
+        "name": "Rice"
+      }
     ]
   },
   "Onigiri": {
@@ -2125,6 +3279,20 @@
     "icon": "img/food/Onigiri.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Fish"
+      },
+      {
+        "count": 2,
+        "name": "Seagrass"
+      },
+      {
+        "count": 1,
+        "name": "Rice"
+      }
     ]
   },
   "Sashimi Platter": {
@@ -2136,6 +3304,24 @@
     "icon": "img/food/Sashimi_Platter.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Fish"
+      },
+      {
+        "count": 4,
+        "name": "Shrimp Meat"
+      },
+      {
+        "count": 4,
+        "name": "Crab"
+      },
+      {
+        "count": 2,
+        "name": "Radish"
+      }
     ]
   },
   "Tonkotsu Ramen": {
@@ -2147,6 +3333,24 @@
     "icon": "img/food/Tonkotsu_Ramen.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Bamboo Shoot"
+      },
+      {
+        "count": 1,
+        "name": "Bird Egg"
+      }
     ]
   },
   "Egg Roll": {
@@ -2158,6 +3362,16 @@
     "icon": "img/food/Egg_Roll.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
     ]
   },
   "Dry-Braised Salted Fish": {
@@ -2169,6 +3383,16 @@
     "icon": "img/food/DryBraised_Salted_Fish.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Fish"
+      },
+      {
+        "count": 1,
+        "name": "Salt"
+      }
     ]
   },
   "Butter Crab": {
@@ -2180,6 +3404,24 @@
     "icon": "img/food/Butter_Crab.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Butter"
+      },
+      {
+        "count": 4,
+        "name": "Crab"
+      },
+      {
+        "count": 2,
+        "name": "Seagrass"
+      },
+      {
+        "count": 1,
+        "name": "Matsutake"
+      }
     ]
   },
   "Tri-Flavored Skewer": {
@@ -2191,6 +3433,24 @@
     "icon": "img/food/TriFlavored_Skewer.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 2,
+        "name": "Flour"
+      },
+      {
+        "count": 1,
+        "name": "Snapdragon"
+      }
     ]
   },
   "Miso Soup": {
@@ -2202,6 +3462,16 @@
     "icon": "img/food/Miso_Soup.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Tofu"
+      },
+      {
+        "count": 1,
+        "name": "Seagrass"
+      }
     ]
   },
   "Imported Poultry": {
@@ -2213,6 +3483,24 @@
     "icon": "img/food/Imported_Poultry.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Fowl"
+      },
+      {
+        "count": 3,
+        "name": "Lavender Melon"
+      },
+      {
+        "count": 2,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Bird Egg"
+      }
     ]
   },
   "Sakura Mochi": {
@@ -2224,6 +3512,20 @@
     "icon": "img/food/Sakura_Mochi.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Rice"
+      },
+      {
+        "count": 2,
+        "name": "Sugar"
+      },
+      {
+        "count": 1,
+        "name": "Sakura Bloom"
+      }
     ]
   },
   "Konda Cuisine": {
@@ -2235,6 +3537,24 @@
     "icon": "img/food/Konda_Cuisine.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Fowl"
+      },
+      {
+        "count": 2,
+        "name": "Snapdragon"
+      },
+      {
+        "count": 2,
+        "name": "Lavender Melon"
+      },
+      {
+        "count": 1,
+        "name": "Mushroom"
+      }
     ]
   },
   "Rice Cake Soup": {
@@ -2246,6 +3566,24 @@
     "icon": "img/food/Rice_Cake_Soup.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Sausage"
+      },
+      {
+        "count": 1,
+        "name": "Tofu"
+      },
+      {
+        "count": 1,
+        "name": "Fish"
+      },
+      {
+        "count": 1,
+        "name": "Lavender Melon"
+      }
     ]
   },
   "Mixed Yakisoba": {
@@ -2257,6 +3595,20 @@
     "icon": "img/food/Mixed_Yakisoba.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Cabbage"
+      },
+      {
+        "count": 1,
+        "name": "Raw Meat"
+      }
     ]
   },
   "Crab Roe Kourayaki": {
@@ -2268,6 +3620,16 @@
     "icon": "img/food/Crab_Roe_Kourayaki.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Crab"
+      },
+      {
+        "count": 1,
+        "name": "Crab Roe"
+      }
     ]
   },
   "Sakura Tempura": {
@@ -2279,6 +3641,24 @@
     "icon": "img/food/Sakura_Tempura.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Shrimp Meat"
+      },
+      {
+        "count": 2,
+        "name": "Lavender Melon"
+      },
+      {
+        "count": 2,
+        "name": "Sakura Bloom"
+      },
+      {
+        "count": 1,
+        "name": "Flour"
+      }
     ]
   },
   "Invigorating Kitty Meal": {
@@ -2290,6 +3670,24 @@
     "icon": "img/food/Invigorating_Kitty_Meal.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Fish"
+      },
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Seagrass"
+      },
+      {
+        "count": 1,
+        "name": "Rice"
+      }
     ]
   },
   "Sweet Shrimp Sushi": {
@@ -2301,6 +3699,16 @@
     "icon": "img/food/Sweet_Shrimp_Sushi.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Shrimp Meat"
+      },
+      {
+        "count": 1,
+        "name": "Rice"
+      }
     ]
   },
   "Bird Egg Sushi": {
@@ -2312,6 +3720,16 @@
     "icon": "img/food/Bird_Egg_Sushi.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 1,
+        "name": "Rice"
+      }
     ]
   },
   "Omelette Rice": {
@@ -2323,6 +3741,24 @@
     "icon": "img/food/Omelette_Rice.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 3,
+        "name": "Rice"
+      },
+      {
+        "count": 2,
+        "name": "Tomato"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
     ]
   },
   "Taiyaki": {
@@ -2334,6 +3770,24 @@
     "icon": "img/food/Taiyaki.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Sunsettia"
+      },
+      {
+        "count": 3,
+        "name": "Milk"
+      },
+      {
+        "count": 2,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Sugar"
+      }
     ]
   },
   "More-and-More": {
@@ -2345,6 +3799,24 @@
     "icon": "img/food/MoreandMore.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Fish"
+      },
+      {
+        "count": 2,
+        "name": "Bacon"
+      },
+      {
+        "count": 1,
+        "name": "Lavender Melon"
+      },
+      {
+        "count": 1,
+        "name": "Flour"
+      }
     ]
   },
   "Grilled Unagi Fillet": {
@@ -2356,6 +3828,16 @@
     "icon": "img/food/Grilled_Unagi_Fillet.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Unagi Meat"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
     ]
   },
   "Radish and Fish Stew": {
@@ -2367,6 +3849,20 @@
     "icon": "img/food/Radish_and_Fish_Stew.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Fish"
+      },
+      {
+        "count": 2,
+        "name": "Radish"
+      },
+      {
+        "count": 1,
+        "name": "Salt"
+      }
     ]
   },
   "Wakatakeni": {
@@ -2378,6 +3874,16 @@
     "icon": "img/food/Wakatakeni.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Bamboo Shoot"
+      },
+      {
+        "count": 2,
+        "name": "Seagrass"
+      }
     ]
   },
   "Berry Mizu Manjuu": {
@@ -2389,6 +3895,20 @@
     "icon": "img/food/Berry_Mizu_Manjuu.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Rice"
+      },
+      {
+        "count": 2,
+        "name": "Berry"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
     ]
   },
   "Soba Noodles": {
@@ -2400,6 +3920,16 @@
     "icon": "img/food/Soba_Noodles.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Flour"
+      },
+      {
+        "count": 1,
+        "name": "Seagrass"
+      }
     ]
   },
   "Unagi Chazuke": {
@@ -2411,6 +3941,24 @@
     "icon": "img/food/Unagi_Chazuke.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Unagi Meat"
+      },
+      {
+        "count": 3,
+        "name": "Rice"
+      },
+      {
+        "count": 3,
+        "name": "Seagrass"
+      },
+      {
+        "count": 1,
+        "name": "Salt"
+      }
     ]
   },
   "Five Pickled Treasures": {
@@ -2422,6 +3970,24 @@
     "icon": "img/food/Five_Pickled_Treasures.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Radish"
+      },
+      {
+        "count": 2,
+        "name": "Carrot"
+      },
+      {
+        "count": 2,
+        "name": "Lavender Melon"
+      },
+      {
+        "count": 2,
+        "name": "Seagrass"
+      }
     ]
   },
   "Sakura Shrimp Crackers": {
@@ -2433,6 +3999,20 @@
     "icon": "img/food/Sakura_Shrimp_Crackers.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Shrimp Meat"
+      },
+      {
+        "count": 3,
+        "name": "Potato"
+      },
+      {
+        "count": 2,
+        "name": "Sakura Bloom"
+      }
     ]
   },
   "Bountiful Year": {
@@ -2444,6 +4024,24 @@
     "icon": "img/food/Bountiful_Year.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Fish"
+      },
+      {
+        "count": 4,
+        "name": "Carrot"
+      },
+      {
+        "count": 2,
+        "name": "Onion"
+      },
+      {
+        "count": 1,
+        "name": "Violetgrass"
+      }
     ]
   },
   "Dragon Beard Noodles": {
@@ -2455,6 +4053,24 @@
     "icon": "img/food/Dragon_Beard_Noodles.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Fowl"
+      },
+      {
+        "count": 2,
+        "name": "Mushroom"
+      },
+      {
+        "count": 1,
+        "name": "Ham"
+      }
     ]
   },
   "Rice Pudding": {
@@ -2466,6 +4082,24 @@
     "icon": "img/food/Rice_Pudding.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 2,
+        "name": "Rice"
+      },
+      {
+        "count": 2,
+        "name": "Milk"
+      },
+      {
+        "count": 2,
+        "name": "Sugar"
+      }
     ]
   },
   "Braised Meat": {
@@ -2477,6 +4111,24 @@
     "icon": "img/food/Braised_Meat.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Carrot"
+      },
+      {
+        "count": 2,
+        "name": "Potato"
+      },
+      {
+        "count": 1,
+        "name": "Onion"
+      }
     ]
   },
   "Oncidium Tofu": {
@@ -2488,6 +4140,24 @@
     "icon": "img/food/Oncidium_Tofu.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Tofu"
+      },
+      {
+        "count": 2,
+        "name": "Bamboo Shoot"
+      },
+      {
+        "count": 1,
+        "name": "Ham"
+      },
+      {
+        "count": 1,
+        "name": "Fowl"
+      }
     ]
   },
   "Chili-Mince Cornbread Buns": {
@@ -2499,6 +4169,24 @@
     "icon": "img/food/ChiliMince_Cornbread_Buns.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Cabbage"
+      },
+      {
+        "count": 2,
+        "name": "Jueyun Chili"
+      }
     ]
   },
   "Golden Fried Chicken": {
@@ -2510,6 +4198,24 @@
     "icon": "img/food/Golden_Fried_Chicken.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Fowl"
+      },
+      {
+        "count": 4,
+        "name": "Butter"
+      },
+      {
+        "count": 3,
+        "name": "Pepper"
+      },
+      {
+        "count": 3,
+        "name": "Flour"
+      }
     ]
   },
   "Golden Chicken Burger": {
@@ -2521,6 +4227,24 @@
     "icon": "img/food/Golden_Chicken_Burger.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Fowl"
+      },
+      {
+        "count": 2,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Cabbage"
+      },
+      {
+        "count": 2,
+        "name": "Butter"
+      }
     ]
   },
   "Fragrant Mashed Potatoes": {
@@ -2532,6 +4256,20 @@
     "icon": "img/food/Fragrant_Mashed_Potatoes.png",
     "sources": [
       "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 6,
+        "name": "Potato"
+      },
+      {
+        "count": 4,
+        "name": "Cream"
+      },
+      {
+        "count": 3,
+        "name": "Pepper"
+      }
     ]
   },
   "Holy Water": {

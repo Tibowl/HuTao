@@ -32,7 +32,7 @@ export default class TestGuideCommand extends Command {
 
         let a = ""
         for (const entry of  [...entries].sort((a, b) => a[0].localeCompare(b[0]))) {
-            const line = `"${entry[1].name}": "<:${entry[1].name}:${entry[0]}>",\n`
+            const line = `"${entry[1].name?.replace(/_/g, " ")}": "<:${entry[1].name}:${entry[0]}>",\n`
             if (a.length + line.length > 1900) {
                 await sendMessage(source, "```\n" + a + "```")
                 a = ""

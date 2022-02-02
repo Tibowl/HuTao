@@ -14,7 +14,7 @@ export default class MaterialCommand extends Command {
             help: `Displays material information. If no name is provided, a list of all materials will be displayed.
 
 Note: this command supports fuzzy search.`,
-            aliases: ["mat"],
+            aliases: ["mat", "food", "recipe"],
             options: [{
                 name: "name",
                 description: "Material name",
@@ -141,6 +141,17 @@ Note: this command supports fuzzy search.`,
 
         if (material.sources)
             embed.addField("Sources", material.sources.join("\n"))
+
+        if (material.specialty)
+            embed.addField("Food specialty", `Can be obtained by using [**${data.emoji(material.specialty.char, true)}**](${data.baseURL}characters/${urlify(material.specialty.char, false)}) while making [**${material.specialty.recipe}**](${data.baseURL}materials/${urlify(material.specialty.recipe, false)})`)
+
+        const otherMaterial = Object.values(data.materials).filter(x => x.specialty && x.specialty.recipe == material.name)
+        if (otherMaterial.length > 0)
+            embed.addField("Specialty", otherMaterial.map(x => `[**${x.name}**](${data.baseURL}materials/${urlify(x.name, false)}) be obtained by using [**${data.emoji(x.specialty?.char, true)}**](${data.baseURL}characters/${urlify(x.specialty?.char ?? "", false)})`).join("\n"))
+
+        const recipe = material.recipe ?? (material.specialty ? data.materials[material.specialty.recipe]?.recipe : undefined)
+        if (recipe)
+            embed.addField("Recipe", data.getItemCosts(recipe))
 
         const charAscension: Character[] = []
         const charTalents: Character[] = []
