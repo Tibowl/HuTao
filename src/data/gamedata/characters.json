@@ -10912,6 +10912,25 @@
       }
     }
   },
+  "Kamisato Ayato": {
+    "name": "Kamisato Ayato",
+    "desc": "As the head of the Yashiro Commission, Kamisato Ayato is committed to maintaining the prosperity and stability of the region.",
+    "icon": "https://i.imgur.com/mXjJsP9.png",
+    "media": {
+      "imgs": [
+        "https://upload-os-bbs.hoyolab.com/upload/2022/02/04/1015537/5ba1121b927b778d66765ee43dbdaa41_5065913653005366720.jpg",
+        "https://upload-os-bbs.hoyolab.com/upload/2022/02/04/1015537/d5a3efddb1735de9921626396a47cebc_6306395664639823316.jpg"
+      ]
+    },
+    "meta": {
+      "association": "Inazuma",
+      "title": "Pillar of Fortitude",
+      "detail": "As the head of the Yashiro Commission, Kamisato Ayato is committed to maintaining the prosperity and stability of the region.",
+      "affiliation": "Yashiro Commission",
+      "element": "Hydro",
+      "constellation": "Cypressus Custos"
+    }
+  },
   "Keqing": {
     "name": "Keqing",
     "desc": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis's unilateral approach to policymaking in Liyue — but in truth, gods admire skeptics such as her quite a lot.",
