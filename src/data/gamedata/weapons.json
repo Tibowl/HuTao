@@ -5753,6 +5753,13 @@
       }
     ]
   },
+  "Kagura's Verity": {
+    "name": "Kagura's Verity",
+    "weaponType": "Catalyst",
+    "stars": 5,
+    "placeholder": true,
+    "icon": "https://i.imgur.com/9FcOwp3.png"
+  },
   "Katsuragikiri Nagamasa": {
     "name": "Katsuragikiri Nagamasa",
     "desc": "A blade that was once made in Tatarasuna. Heavy and tough.",
@@ -7502,6 +7509,13 @@
         "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.24%**. A maximum of **80%** increased Elemental Burst DMG can be achieved this way."
       }
     ]
+  },
+  "Oathsworn Eye": {
+    "name": "Oathsworn Eye",
+    "weaponType": "Catalyst",
+    "stars": 4,
+    "placeholder": true,
+    "icon": "https://i.imgur.com/bNFISYW.png"
   },
   "Old Merc's Pal": {
     "name": "Old Merc's Pal",

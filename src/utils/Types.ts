@@ -443,7 +443,7 @@ export enum WeaponType {
 export interface Weapon {
     name:              string
     desc:              string
-    placeholder?:      false
+    placeholder?:      true
     placeholderStats?: PlaceHolderStats
     weaponType:        WeaponType
     stars:             number
