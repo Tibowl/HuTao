@@ -1045,14 +1045,81 @@
         "end": "2022-02-16 11:00:00"
     },
     {
-        "name": "Next Special Program",
+        "name": "Event Wish \"Everbloom Violet\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/BGEEu87.png",
+        "prediction": true,
+        "start": "2022-02-16 11:00:00",
+        "start_server": false,
+        "end": "2022-03-08 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/4H7PSP9.png",
+        "prediction": true,
+        "start": "2022-02-16 11:00:00",
+        "start_server": false,
+        "end": "2022-03-08 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Reign of Serenity\" & \"Drifting Luminescence\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/BGEEu87.png",
+        "prediction": true,
+        "start": "2022-03-08 18:00:00",
+        "end": "2022-03-29 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2022-03-08 18:00:00",
+        "end": "2022-03-29 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Hyakunin Ikki\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/zpGl9Dm.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Of Drink A-Dreaming\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/pBCjPuE.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Divine Ingenuity\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/Am5nycj.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Three Realms Gateway Offering\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/bf5G7bJ.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Overflowing Mastery\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.mihoyo.com/upload/2021/05/25/1015537/8a304c186f5a725d6ca5fad6c953ef83_3536921475780913159.jpg",
+        "reminder": "daily"
+    },
+    {
+        "name": "2.6 Special Program",
         "type": "Stream",
         "prediction": true,
         "start": "2022-03-18 07:00:00",
         "timezone": "-05:00"
     },
     {
-        "name": "Next Maintenance",
+        "name": "2.6 Maintenance",
         "type": "Maintenance",
         "prediction": true,
         "start": "2022-03-30 06:00:00",
