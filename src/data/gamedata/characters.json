@@ -25147,17 +25147,23 @@
           {
             "name": "Normal Attack: Spiritfox Sin-Eater",
             "desc": "**Normal Attack**\nPerforms up to ? attacks dealing **Electro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina and deals **AoE Electro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Electro, Yae Miko plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Electro DMG** upon impact with the ground.",
-            "icon": "img/skill/Common_Catalyst.png"
+            "icon": "img/skill/Common_Catalyst.png",
+            "video": "https://cdn.discordapp.com/attachments/939255952555774062/939256277173944360/Yae_NA.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939255952555774062/939256277891182592/Yae_NA_scaled.mp4"
           },
           {
             "name": "Yakan Evocation: Sesshou Sakura",
-            "desc": "Using this skill causes Yae Miko to move swiftly and leave behind \"Sesshou Sakura\". These fox-shaped branches can periodically cause lightning to strike nearby."
+            "desc": "Using this skill causes Yae Miko to move swiftly and leave behind \"Sesshou Sakura\". These fox-shaped branches can periodically cause lightning to strike nearby.",
+            "video": "https://cdn.discordapp.com/attachments/939255952555774062/939256305753927680/Yae_E.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939255952555774062/939256305414176778/Yae_E_scaled.mp4"
           }
         ],
         "ult": {
           "name": "Great Secret Art: Tenko Kenshin",
           "desc": "When Yae Miko unleashes her Elemental Burst, she will unseal nearby \"Sesshou Sakura\", destroying their outer forms and transforming them into \"Tenko Thunderbolts\" that decent from the skies.",
-          "type": "Electro"
+          "type": "Electro",
+          "video": "https://cdn.discordapp.com/attachments/939255952555774062/939256338989608980/Yae_Q.gif",
+          "videomp4": "https://cdn.discordapp.com/attachments/939255952555774062/939256338050068481/Yae_Q_scaled.mp4"
         },
         "passive": [
           {
