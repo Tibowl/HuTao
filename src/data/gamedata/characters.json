@@ -10928,7 +10928,9 @@
       "detail": "As the head of the Yashiro Commission, Kamisato Ayato is committed to maintaining the prosperity and stability of the region.",
       "affiliation": "Yashiro Commission",
       "element": "Hydro",
-      "constellation": "Cypressus Custos"
+      "constellation": "Cypressus Custos",
+      "cvChinese": "赵路",
+      "cvJapanese": "石田 彰"
     }
   },
   "Keqing": {
@@ -25118,6 +25120,8 @@
   "Yae Miko": {
     "name": "Yae Miko",
     "desc": "The Grand Narukami Shrine's head shrine maiden and a descendant of Kitsune lineage, Eternity's servant and friend... and the intimidating editor-in-chief of Yae Publishing House, a publisher of light novels.",
+    "star": 5,
+    "weaponType": "Catalyst",
     "icon": "https://i.imgur.com/ikv6D0A.png",
     "media": {
       "imgs": [
@@ -25134,8 +25138,41 @@
       "element": "Electro",
       "cvChinese": "杜冥鸦",
       "cvJapanese": "佐倉綾音",
+      "cvEnglish": "Ratana",
       "cvKorean": "문유정"
-    }
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Spiritfox Sin-Eater"
+          },
+          {
+            "name": "Yakan Evocation: Sesshou Sakura",
+            "desc": "Using this skill causes Yae Miko to move swiftly and leave behind \"Sesshou Sakura\". These fox-shaped branches can periodically cause lightning to strike nearby."
+          }
+        ],
+        "ult": {
+          "name": "Great Secret Art: Tenko Kenshin",
+          "desc": "When Yae Miko unleashes her Elemental Burst, she will unseal nearby \"Sesshou Sakura\", destroying their outer forms and transforming them into \"Tenko Thunderbolts\" that decent from the skies.",
+          "type": "Electro"
+        },
+        "passive": [
+          {
+            "name": "The Shrine's Sacred Shade",
+            "desc": "When Yae Miko uses her Elemental Burst, each \"Sesshou Sakura\" destroyed resets the cooldown for one charge of her Elemental Skill."
+          },
+          {
+            "name": "Enlightened Blessing",
+            "desc": "Yae Miko's Elemental Mastery will increase the damage dealt by the \"Sesshou Sakura\"."
+          },
+          {
+            "name": "Meditations of a Yako",
+            "desc": "When Yae Miko crafts Character Talent Materials, she has a set chance to create an extra Talent Material from the same region of a random type. The rarity of this material will be the same as the materials consumed during crafting."
+          }
+        ]
+      }
+    ]
   },
   "Yanfei": {
     "name": "Yanfei",
