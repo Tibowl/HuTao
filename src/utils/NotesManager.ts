@@ -24,6 +24,7 @@ export default class NotesManager {
         this.getNoteByCategoryStatement = this.sql.prepare("SELECT * FROM notes WHERE guild_id = @guild_id AND category_id = @category_id")
         this.getNoteByIdStatement = this.sql.prepare("SELECT * FROM notes WHERE guild_id = @guild_id AND category_id = @category_id AND id = @id")
         this.deleteNoteStatement = this.sql.prepare("DELETE FROM notes WHERE guild_id = @guild_id AND category_id = @category_id AND id = @id")
+        this.editNoteStatement = this.sql.prepare("UPDATE notes SET subject = @subject WHERE guild_id = @guild_id AND category_id = @category_id AND id = @id")
     }
 
     private addNotesStatement: SQLite.Statement
@@ -67,5 +68,16 @@ export default class NotesManager {
             id
         })
         Logger.info(`Deleted note by ${userId} in ${guildId} / ${categoryId} #${id}`)
+    }
+
+    private editNoteStatement: SQLite.Statement
+    editNote(guildId: string, categoryId: string, id: number, newSubject: string, userId: string): void {
+        this.editNoteStatement.run({
+            guild_id: guildId,
+            category_id: categoryId,
+            id,
+            subject: newSubject
+        })
+        Logger.info(`Edited note by ${userId} in ${guildId} / ${categoryId} #${id}: ${newSubject}`)
     }
 }

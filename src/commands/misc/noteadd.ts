@@ -11,9 +11,11 @@ export default class NoteAdd extends Command {
         super({
             name,
             category: "Misc",
-            help: `Create a new note, notes are per category or user.
+            help: `Create a new note.
 
-Requires "Manage Messages" permissions to add, but anyone can see.`,
+Notes are either per category (when used in a guild) or per user (when used in DM's).
+
+Requires "Manage Messages" permissions to add/remove/edit, but anyone can see.`,
             usage: "noteadd <name>",
             aliases: ["na", "createnote", "addnote", "newnote", "an"],
             options: [{

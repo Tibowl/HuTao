@@ -11,7 +11,9 @@ export default class Notes extends Command {
         super({
             name,
             category: "Misc",
-            help: `View notes, notes are per category or user.
+            help: `List of notes.
+
+Notes are either per category (when used in a guild) or per user (when used in DM's).
 
 Requires "Manage Messages" permissions to add, but anyone can see.`,
             usage: "notes",
