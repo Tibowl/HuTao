@@ -749,7 +749,9 @@
                 "EnemyDropTier2": "Spectral Heart",
                 "EnemyDropTier3": "Spectral Nucleus"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/939589691483766834/939619963063377970/Aloy_NA.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939619962417451018/Aloy_NA_scaled.mp4"
           },
           {
             "name": "Frozen Wilds",
@@ -853,7 +855,9 @@
                 "EnemyDropTier2": "Spectral Heart",
                 "EnemyDropTier3": "Spectral Nucleus"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/939589691483766834/939619982705324132/Aloy_E.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939619982290075740/Aloy_E_scaled.mp4"
           }
         ],
         "ult": {
@@ -895,7 +899,9 @@
               "EnemyDropTier3": "Spectral Nucleus"
             }
           },
-          "type": "Cryo"
+          "type": "Cryo",
+          "video": "https://cdn.discordapp.com/attachments/939589691483766834/939620003953643541/Aloy_Q.gif",
+          "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939620003580379166/Aloy_Q_scaled.mp4"
         },
         "passive": [
           {
@@ -1953,7 +1959,9 @@
                 "EnemyDropTier2": "Slime Secretions",
                 "EnemyDropTier3": "Slime Concentrate"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/939589691483766834/939593327785963540/AratakiItto_E.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939593327299428444/AratakiItto_E_scaled.mp4"
           }
         ],
         "ult": {
@@ -2006,7 +2014,9 @@
               "EnemyDropTier3": "Slime Concentrate"
             }
           },
-          "type": "Geo"
+          "type": "Geo",
+          "video": "https://cdn.discordapp.com/attachments/939589691483766834/939593350552621136/AratakiItto_Q.gif",
+          "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939593350212907018/AratakiItto_Q_scaled.mp4"
         },
         "passive": [
           {
@@ -7711,7 +7721,9 @@
                 "EnemyDropTier2": "Spectral Heart",
                 "EnemyDropTier3": "Spectral Nucleus"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/939589691483766834/939597086201090118/Gorou_NA.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939597085865566308/Gorou_NA_scaled.mp4"
           },
           {
             "name": "Inuzaka All-Round Defense",
@@ -7776,7 +7788,9 @@
                 "EnemyDropTier2": "Spectral Heart",
                 "EnemyDropTier3": "Spectral Nucleus"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/939589691483766834/939594503394852964/Gorou_E.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939594503025741874/Gorou_E_scaled.mp4"
           }
         ],
         "ult": {
@@ -7843,7 +7857,9 @@
               "EnemyDropTier3": "Spectral Nucleus"
             }
           },
-          "type": "Geo"
+          "type": "Geo",
+          "video": "https://cdn.discordapp.com/attachments/939589691483766834/939594528501940254/Gorou_Q.gif",
+          "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939594527927312455/Gorou_Q_scaled.mp4"
         },
         "passive": [
           {
@@ -12241,7 +12257,9 @@
                 "EnemyDropTier2": "Stained Mask",
                 "EnemyDropTier3": "Ominous Mask"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/939589691483766834/939630522961895424/KujouSara_NA.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939630523691716678/KujouSara_NA_scaled.mp4"
           },
           {
             "name": "Tengu Stormcall",
@@ -12302,7 +12320,9 @@
                 "EnemyDropTier2": "Stained Mask",
                 "EnemyDropTier3": "Ominous Mask"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/939589691483766834/939630543564328991/KujouSara_E.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939630544457711667/KujouSara_E_scaled.mp4"
           }
         ],
         "ult": {
@@ -12365,7 +12385,9 @@
               "EnemyDropTier3": "Ominous Mask"
             }
           },
-          "type": "Electro"
+          "type": "Electro",
+          "video": "https://cdn.discordapp.com/attachments/939589691483766834/939630562661007411/KujouSara_Q.gif",
+          "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939630562036027422/KujouSara_Q_scaled.mp4"
         },
         "passive": [
           {
@@ -17476,7 +17498,9 @@
                 "EnemyDropTier2": "Spectral Heart",
                 "EnemyDropTier3": "Spectral Nucleus"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/939589691483766834/939616390887907378/SanganomiyaKokomi_NA.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939616390481076224/SanganomiyaKokomi_NA_scaled.mp4"
           },
           {
             "name": "Kurage's Oath",
@@ -17537,7 +17561,9 @@
                 "EnemyDropTier2": "Spectral Heart",
                 "EnemyDropTier3": "Spectral Nucleus"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/939589691483766834/939616409720352848/SanganomiyaKokomi_E.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939616409133137961/SanganomiyaKokomi_E_scaled.mp4"
           }
         ],
         "ult": {
@@ -17658,7 +17684,9 @@
               "EnemyDropTier3": "Spectral Nucleus"
             }
           },
-          "type": "Hydro"
+          "type": "Hydro",
+          "video": "https://cdn.discordapp.com/attachments/939589691483766834/939616431228739595/SanganomiyaKokomi_Q.gif",
+          "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939616432327622676/SanganomiyaKokomi_Q_scaled.mp4"
         },
         "passive": [
           {
@@ -18097,7 +18125,9 @@
                 "EnemyDropTier2": "Shimmering Nectar",
                 "EnemyDropTier3": "Energy Nectar"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/939589691483766834/939639449422274570/Sayu_NA.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939639448382103552/Sayu_NA_scaled.mp4"
           },
           {
             "name": "Yoohoo Art: Fuuin Dash",
@@ -18212,7 +18242,9 @@
                 "EnemyDropTier2": "Shimmering Nectar",
                 "EnemyDropTier3": "Energy Nectar"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/939589691483766834/939639462349144124/Sayu_E.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939639461812260874/Sayu_E_scaled.mp4"
           }
         ],
         "ult": {
@@ -18315,7 +18347,9 @@
               "EnemyDropTier3": "Energy Nectar"
             }
           },
-          "type": "Anemo"
+          "type": "Anemo",
+          "video": "https://cdn.discordapp.com/attachments/939589691483766834/939639478262317116/Sayu_Q.gif",
+          "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939639477670924329/Sayu_Q_scaled.mp4"
         },
         "passive": [
           {
@@ -20702,7 +20736,9 @@
                 "EnemyDropTier2": "Silver Raven Insignia",
                 "EnemyDropTier3": "Golden Raven Insignia"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/939589691483766834/939609328082645042/Thoma_E.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939609327398948925/Thoma_E_scaled.mp4"
           }
         ],
         "ult": {
@@ -20791,7 +20827,9 @@
               "EnemyDropTier3": "Golden Raven Insignia"
             }
           },
-          "type": "Pyro"
+          "type": "Pyro",
+          "video": "https://cdn.discordapp.com/attachments/939589691483766834/939609331610034236/Thoma_Q.gif",
+          "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939609331320643664/Thoma_Q_scaled.mp4"
         },
         "passive": [
           {
@@ -25928,7 +25966,9 @@
                 "EnemyDropTier2": "Sealed Scroll",
                 "EnemyDropTier3": "Forbidden Curse Scroll"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/939589691483766834/939635020824461352/Yoimiya_NA.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939635020325331004/Yoimiya_NA_scaled.mp4"
           },
           {
             "name": "Niwabi Fire-Dance",
@@ -25971,7 +26011,9 @@
                 "EnemyDropTier2": "Sealed Scroll",
                 "EnemyDropTier3": "Forbidden Curse Scroll"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/939589691483766834/939635038876758056/Yoimiya_E.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939635039891755018/Yoimiya_E_scaled.mp4"
           }
         ],
         "ult": {
@@ -26038,7 +26080,9 @@
               "EnemyDropTier3": "Forbidden Curse Scroll"
             }
           },
-          "type": "Pyro"
+          "type": "Pyro",
+          "video": "https://cdn.discordapp.com/attachments/939589691483766834/939635050755010580/Yoimiya_Q.gif",
+          "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939635051379957881/Yoimiya_Q_scaled.mp4"
         },
         "passive": [
           {
@@ -26467,7 +26511,9 @@
                 "EnemyDropTier2": "Stained Mask",
                 "EnemyDropTier3": "Ominous Mask"
               }
-            }
+            },
+            "video": "https://cdn.discordapp.com/attachments/939589691483766834/939589978231570502/YunJin_NA.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/939589691483766834/939589977677914222/YunJin_NA_scaled.mp4"
           },
           {
             "name": "Opening Flourish",
