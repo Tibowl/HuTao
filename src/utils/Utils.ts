@@ -1,4 +1,4 @@
-import { ColorResolvable, Message, MessageActionRow, MessageButton, MessageComponentInteraction, MessageEmbed, Snowflake } from "discord.js"
+import { CategoryChannel, ColorResolvable, Message, MessageActionRow, MessageButton, MessageComponentInteraction, MessageEmbed, Snowflake, User } from "discord.js"
 import log4js from "log4js"
 import config from "./../data/config.json"
 import client from "./../main"
@@ -564,10 +564,31 @@ export function isMessage(msg: SendMessage | CommandSource | undefined): msg is 
 }
 
 export function getUserID(source: CommandSource): string {
+    return getUser(source).id
+}
+
+export function getUser(source: CommandSource): User {
     if (isMessage(source))
-        return source.author.id
+        return source.author
     else
-        return source.user.id
+        return source.user
+}
+
+export function getCategory(source: CommandSource): CategoryChannel | null {
+    if (!source.inGuild()) return null
+    const channel = source.channel
+
+    if (!channel) return null
+
+    if (channel.isThread()) {
+        const parent = channel.parent
+        if (parent)
+            return parent.parent
+
+        return null
+    }
+
+    return channel.parent
 }
 
 

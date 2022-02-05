@@ -18,6 +18,7 @@ export default class Reminders extends Command {
             options: []
         })
     }
+
     async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
         return this.run(source)
     }

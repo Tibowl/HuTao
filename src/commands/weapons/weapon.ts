@@ -211,7 +211,7 @@ Note: this command supports fuzzy search.`,
             .setColor(Colors.AQUA)
             .setThumbnail(`${data.baseURL}${weapon.icon}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
-            .setDescription(weapon.desc + (weapon.placeholder ? "\n\n*This weapon is currently not yet available.*" : ""))
+            .setDescription((weapon.desc ? weapon.desc : "") + ((weapon.placeholder || !weapon.desc) ? "\n\n*This weapon is currently not yet available.*" : ""))
             .addField("Basics", `${weapon.stars}★ ${data.emoji(weapon.weaponType)}`, (weapon.placeholderStats && !weapon.weaponCurve) ? true : false)
 
         const maxAscension = weapon.ascensions?.[weapon.ascensions.length - 1]

@@ -43,6 +43,16 @@ export interface Reminder {
     duration: number
 }
 
+// Notes
+export interface Note {
+    guild_id:    string
+    category_id: string
+    id:          number
+    user:        string
+    subject:     string
+    timestamp:   number
+}
+
 // News posts
 export interface News {
     post:               Post
@@ -442,7 +452,7 @@ export enum WeaponType {
 
 export interface Weapon {
     name:              string
-    desc:              string
+    desc?:             string
     placeholder?:      true
     placeholderStats?: PlaceHolderStats
     weaponType:        WeaponType
