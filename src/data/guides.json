@@ -57,6 +57,15 @@
         }
       },
       {
+        "name": "Calla Lily route",
+        "desc": "**Calla Lilies ${Calla Lily}** can be found near lakes in Mondstadt and are being sold by [**Flora**](https://cdn.discordapp.com/attachments/938544643849719820/939658413405786193/Flora.png) (up to 5 per 3 days).\n\n> A flower that grows near water sources. When cooked, the petals have a chunky texture, yet are sweet and a little bitter.",
+        "img": "https://cdn.discordapp.com/attachments/938544643849719820/938550213298249788/unknown.png",
+        "credits": "Maple",
+        "links": {
+          "material": ["Calla Lily"]
+        }
+      },
+      {
         "name": "Dandelion Seed route",
         "desc": "**Dandelion Seeds ${Dandelion Seed}** can be found in the wilderness of Mondstadt and at Mondstadt gates. They are also being sold by **Karpillia** for way too much mora (up to 5 per 3 days).\n\n> A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
         "img": "https://cdn.discordapp.com/attachments/929392674480463933/929477294202949712/unknown.png",
