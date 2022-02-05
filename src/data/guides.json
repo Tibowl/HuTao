@@ -301,6 +301,26 @@
         }
       },
       {
+        "name": "Ruin Sentinel route (Chaos Gear, Axis and Oculus): Inazuma",
+        "desc": "**Ruin Sentinels ${Ruin Cruiser}${Ruin Destroyer}${Ruin Defender}${Ruin Scout}** are Elite Enemies found in Inazuma. They are Automatons and drop **Chaos Gear ${Chaos Gear}**, **Chaos Axis ${Chaos Axis}** and **Chaos Oculus ${Chaos Oculus}**.",
+        "img": "https://cdn.discordapp.com/attachments/939624503821103195/939628452192084028/Inazuma-RevisedSentinel.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Ruin Cruiser", "Ruin Destroyer", "Ruin Defender", "Ruin Scout"],
+          "material": ["Chaos Gear", "Chaos Axis", "Chaos Oculus"]
+        }
+      },
+      {
+        "name": "Ruin Sentinel route (Chaos Gear, Axis and Oculus): Inazuma",
+        "desc": "**Ruin Sentinels ${Ruin Cruiser}${Ruin Destroyer}${Ruin Defender}${Ruin Scout}** are Elite Enemies found in Inazuma. They are Automatons and drop **Chaos Gear ${Chaos Gear}**, **Chaos Axis ${Chaos Axis}** and **Chaos Oculus ${Chaos Oculus}**.",
+        "img": "https://cdn.discordapp.com/attachments/939624503821103195/939650116841795615/EnkaSentinel.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Ruin Cruiser", "Ruin Destroyer", "Ruin Defender", "Ruin Scout"],
+          "material": ["Chaos Gear", "Chaos Axis", "Chaos Oculus"]
+        }
+      },
+      {
         "name": "Fatui Pyro Agent route (Knives and Insignia)",
         "desc": "**Fatui Pyro Agents ${Fatui Pyro Agent}** are Elite Enemies found in Liyue and Inazuma. They are members of the Fatui and drop **Hunter's Sacrificial Knife ${Hunter's Sacrificial Knife}**, **Agent's Sacrificial Knife ${Agent's Sacrificial Knife}**, **Inspector's Sacrificial Knife ${Inspector's Sacrificial Knife}**, **Recruit's Insignia ${Recruit's Insignia}**, **Sergeant's Insignia ${Sergeant's Insignia}** and **Lieutenant's Insignia ${Lieutenant's Insignia}**.",
         "img": "https://cdn.discordapp.com/attachments/925462737876828190/925462814653579284/Agents.png",
@@ -338,6 +358,36 @@
         "links": {
           "enemy": ["Geovishap", "Geovishap Hatchling"],
           "material": ["Fragile Bone Shard", "Sturdy Bone Shard", "Fossilized Bone Shard"]
+        }
+      },
+      {
+        "name": "Abyss Mage route (Dead Ley Line Branch, Leaves and Sprout): Mondstadt and Liyue",
+        "desc": "**Abyss Mages ${Pyro Abyss Mage}${Hydro Abyss Mage}${Cryo Abyss Mage}** are Elite Enemies found around Teyvat. They belong to the Abyss and drop **Dead Ley Line Branch ${Dead Ley Line Branch}**, **Dead Ley Line Leaves ${Dead Ley Line Leaves}** and **Ley Line Sprout ${Ley Line Sprout}**.",
+        "img": "https://cdn.discordapp.com/attachments/939285463464833165/939294037528150096/MLAbyss.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Pyro Abyss Mage", "Hydro Abyss Mage", "Cryo Abyss Mage"],
+          "material": ["Dead Ley Line Branch", "Dead Ley Line Leaves", "Ley Line Sprout"]
+        }
+      },
+      {
+        "name": "Abyss Mage route (Dead Ley Line Branch, Leaves and Sprout): Inazuma",
+        "desc": "**Abyss Mages ${Pyro Abyss Mage}${Hydro Abyss Mage}${Electro Abyss Mage}${Cryo Abyss Mage}** are Elite Enemies found around Teyvat. They belong to the Abyss and drop **Dead Ley Line Branch ${Dead Ley Line Branch}**, **Dead Ley Line Leaves ${Dead Ley Line Leaves}** and **Ley Line Sprout ${Ley Line Sprout}**.",
+        "img": "https://cdn.discordapp.com/attachments/939285463464833165/939301007614177330/InAbyss.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Pyro Abyss Mage", "Hydro Abyss Mage", "Electro Abyss Mage", "Cryo Abyss Mage"],
+          "material": ["Dead Ley Line Branch", "Dead Ley Line Leaves", "Ley Line Sprout"]
+        }
+      },
+      {
+        "name": "Abyss Mage, Herald and Lector route (Dead Ley Line Branch, Leaves and Sprout): Enkanomiya",
+        "desc": "**Abyss Mages ${Pyro Abyss Mage}${Hydro Abyss Mage}${Electro Abyss Mage}${Cryo Abyss Mage}**, **Abyss Herald ${Abyss Herald: Wicked Torrents}** and **Abyss Lector ${Abyss Lector: Violet Lightning}** are Elite Enemies found around Teyvat. They belong to the Abyss and drop **Dead Ley Line Branch ${Dead Ley Line Branch}**, **Dead Ley Line Leaves ${Dead Ley Line Leaves}** and **Ley Line Sprout ${Ley Line Sprout}**.",
+        "img": "https://cdn.discordapp.com/attachments/939285463464833165/939285525293064212/EnkAbyss.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Pyro Abyss Mage", "Hydro Abyss Mage", "Electro Abyss Mage", "Cryo Abyss Mage", "Abyss Herald: Wicked Torrents", "Abyss Lector: Violet Lightning"],
+          "material": ["Dead Ley Line Branch", "Dead Ley Line Leaves", "Ley Line Sprout"]
         }
       },
       {
