@@ -15,7 +15,7 @@ export default class NoteEdit extends Command {
 Notes are either per category (when used in a guild) or per user (when used in DM's).
 
 Requires "Manage Messages" permissions to add/remove/edit, but anyone can see.`,
-            usage: "noteedit <id>",
+            usage: "noteedit <id> <new name>",
             aliases: ["editn", "editnote", "enote"],
             options: [{
                 name: "id",
