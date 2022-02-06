@@ -19,7 +19,7 @@
     },
     {
         "name": "\"A Thousand Questions With Paimon\" Quiz Event",
-        "type": "Web",
+        "type": "Quiz",
         "link": "https://www.hoyolab.com/article/283665",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/04/02/1015537/7d8d1ce3d75fd164173f9a5fad1fce11_1945247609127083405.png",
         "start": "2021-04-06 13:00:00",
@@ -331,7 +331,7 @@
     },
     {
         "name": "\"A Thousand Questions With Paimon\" Quiz Event",
-        "type": "Web",
+        "type": "Quiz",
         "link": "https://www.hoyolab.com/article/483165",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/06/25/1015537/7737ee0cf2b2a0988f6f4758aeaf23fa_1459343022654549496.png",
         "start": "2021-06-25 13:00:00",
@@ -465,7 +465,7 @@
     },
     {
         "name": "\"A Thousand Questions With Paimon\" Quiz Event",
-        "type": "Web",
+        "type": "Quiz",
         "link": "https://www.hoyolab.com/article/766048",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/27/1015537/3cf6ef0726d942d61d2825f88fd16820_953882758451226433.jpg",
         "start": "2021-08-27 13:00:00",
@@ -730,7 +730,7 @@
     },
     {
         "name": "\"A Thousand Questions With Paimon\" Quiz Event",
-        "type": "Web",
+        "type": "Quiz",
         "link": "https://www.hoyolab.com/article/1419212",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/11/16/1015537/870f1a8b2a817620fc1d5f05fa46178f_5388840515738343619.jpg",
         "start": "2021-11-19 13:00:00",

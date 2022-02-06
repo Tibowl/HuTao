@@ -570,6 +570,7 @@ export interface Event {
 
 export enum EventType {
     Web = "Web",
+    Quiz = "Quiz",
     InGame = "In-game",
     Maintenance = "Maintenance",
     Stream = "Stream",

@@ -194,7 +194,7 @@ export function getStartTime(event: Event, serverTimezone: string) {
 }
 
 export function isServerTimeEnd(event: Event) {
-    return event.end_server ?? (event.type == EventType.Banner || event.type == EventType.InGame || event.type == EventType.Web)
+    return event.end_server ?? (event.type == EventType.Banner || event.type == EventType.InGame || event.type == EventType.Quiz)
 }
 export function getEndTime(event: Event, serverTimezone: string) {
     return event.end != undefined && getDate(event.end, event.timezone ?? (isServerTimeEnd(event) ? serverTimezone : undefined))
