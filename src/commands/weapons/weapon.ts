@@ -2,7 +2,7 @@ import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } fr
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLinkToGuide, PAD_START, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
+import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLink, getLinkToGuide, PAD_START, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 import { CommandSource, SendMessage, Weapon } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -209,7 +209,7 @@ Note: this command supports fuzzy search.`,
             .setTitle(`${weapon.name}: Basic info`)
             .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}`)
             .setColor(Colors.AQUA)
-            .setThumbnail(`${data.baseURL}${weapon.icon}`)
+            .setThumbnail(getLink(weapon.icon))
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setDescription((weapon.desc ? weapon.desc : "") + ((weapon.placeholder || !weapon.desc) ? "\n\n*This weapon is currently not yet available.*" : ""))
             .addField("Basics", `${weapon.stars}★ ${data.emoji(weapon.weaponType)}`, (weapon.placeholderStats && !weapon.weaponCurve) ? true : false)
@@ -256,7 +256,7 @@ Note: this command supports fuzzy search.`,
         const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setThumbnail(`${data.baseURL}${weapon.icon}`)
+            .setThumbnail(getLink(weapon.icon))
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
         const columns: string[] = []
@@ -301,7 +301,7 @@ Note: this command supports fuzzy search.`,
         const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setThumbnail(`${data.baseURL}${weapon.icon}`)
+            .setThumbnail(getLink(weapon.icon))
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
         embed.setTitle(`${weapon.name}: Refinements`)
@@ -316,7 +316,7 @@ Note: this command supports fuzzy search.`,
         const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setThumbnail(`${data.baseURL}${weapon.icon}`)
+            .setThumbnail(getLink(weapon.icon))
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setTitle(`${weapon.name}: Lore`)
             .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}#lore`)

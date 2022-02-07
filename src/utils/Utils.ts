@@ -610,6 +610,11 @@ export function parseDuration(time: string): number {
     return duration
 }
 
+export function getLink(url: string): string {
+    if (url.match(/^https?:\/\//))
+        return url
+    return `${client.data.baseURL}${url}`
+}
 
 export function getLinkToGuide(guide: Guide, page: GuidePage): string {
     return `[${page.name}](${client.data.baseURL}guides/${urlify(guide.name, false)}/${urlify(page.name, true)})`

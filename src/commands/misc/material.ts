@@ -3,7 +3,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { Character, CommandSource, Material, SendMessage, Weapon } from "../../utils/Types"
-import { Bookmarkable, Colors, findFuzzyBestCandidates, getLinkToGuide, joinMulti, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
+import { Bookmarkable, Colors, findFuzzyBestCandidates, getLink, getLinkToGuide, joinMulti, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 
 export default class MaterialCommand extends Command {
     constructor(name: string) {
@@ -214,7 +214,7 @@ Note: this command supports fuzzy search.`,
             embed.addField("Used by", usedByDesc.join("\n"))
 
         if (material.icon)
-            embed.setThumbnail(`${data.baseURL}${material.icon}`)
+            embed.setThumbnail(getLink(material.icon))
 
         return embed
     }
@@ -229,7 +229,7 @@ Note: this command supports fuzzy search.`,
             .setDescription(material.longDesc ?? "Unavailable")
 
         if (material.icon)
-            embed.setThumbnail(`${data.baseURL}${material.icon}`)
+            embed.setThumbnail(getLink(material.icon))
 
         return embed
     }

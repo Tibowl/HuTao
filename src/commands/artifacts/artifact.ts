@@ -2,7 +2,7 @@ import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } fr
 
 import Command from "../../utils/Command"
 import client from "../../main"
-import { Colors, createTable,  findFuzzyBestCandidates,  getLinkToGuide,  sendMessage,  simplePaginator, urlify } from "../../utils/Utils"
+import { Colors, createTable,  findFuzzyBestCandidates,  getLink,  getLinkToGuide,  sendMessage,  simplePaginator, urlify } from "../../utils/Utils"
 import { Artifact, CommandSource, SendMessage } from "../../utils/Types"
 import config from "../../data/config.json"
 
@@ -115,7 +115,7 @@ Note: this command supports fuzzy search.`,
         const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setThumbnail(`${data.baseURL}${set.artis.find(x => x.icon)?.icon ?? "img/unknown.png"}`)
+            .setThumbnail(getLink(set.artis.find(x => x.icon)?.icon ?? "img/unknown.png"))
             .setURL(`${data.baseURL}artifacts/${urlify(set.name, false)}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
@@ -152,7 +152,7 @@ ${createTable(
 \`\`\`
 
 *See \`${config.prefix}artifact-levels <main stat> [stars = 5]\` for more info about artifact main stats*`)
-                .setThumbnail(`${data.baseURL}${arti.icon}`)
+                .setThumbnail(getLink(arti.icon))
 
             return embed
         }

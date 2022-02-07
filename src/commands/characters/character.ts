@@ -3,7 +3,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { BotEmoji, Character, CharacterFull, CommandSource, SendMessage, Skill, TalentTable, TalentValue } from "../../utils/Types"
-import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLinkToGuide, PAD_END, PAD_START, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
+import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLink, getLinkToGuide, PAD_END, PAD_START, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 
 
 const elementTypes = client.data.getCharacters()
@@ -220,7 +220,7 @@ Note: this command supports fuzzy search.`,
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
         if (char.icon)
-            embed.setThumbnail(`${data.baseURL}${char.icon}`)
+            embed.setThumbnail(getLink(char.icon))
 
         if (relativePage == 0) {
             embed.setTitle(`${char.name}: Description`)
@@ -370,7 +370,7 @@ Note: this command supports fuzzy search.`,
         const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors[char.meta.element] ?? "")
-            .setThumbnail(`${data.baseURL}${char.icon}`)
+            .setThumbnail(getLink(char.icon))
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
         if (relativePage == 0) {
@@ -436,7 +436,7 @@ Note: this command supports fuzzy search.`,
             .setTitle(`${char.name}`)
             .setURL(`${data.baseURL}characters/${urlify(char.name, false)}#videos`)
         if (char.icon)
-            embed.setThumbnail(`${data.baseURL}${char.icon}`)
+            embed.setThumbnail(getLink(char.icon))
 
         const videos = char.media.videos ? (`**Promotional Videos**
 ${          Object
@@ -464,7 +464,7 @@ ${          Object
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
         if (char.icon)
-            embed.setThumbnail(`${data.baseURL}${char.icon}`)
+            embed.setThumbnail(getLink(char.icon))
 
         function isValueTable(talent: TalentTable | TalentValue): talent is TalentTable {
             return (talent as TalentTable).values != undefined
@@ -514,7 +514,7 @@ ${          Object
             else if (hasLevels && talentMode == "LITTLE")
                 embed.setFooter(`${embed.footer?.text} - Use '${config.prefix}c ${char.name} -high' (or -low) to display higher (or lower) levels`)
 
-            if (skill.video) {
+            if (skill.video && talentMode == "LITTLE") {
                 embed.setImage(skill.video)
                     .setThumbnail("")
             }
@@ -553,7 +553,7 @@ ${          Object
             if (skills.constellations && page++ == relativePage) {
                 embed.setTitle(`${char.name}: Constellations`)
                     .setURL(`${data.baseURL}characters/${urlify(char.name, false)}#${urlify(skills.constellations[0].name, false)}`)
-                    .setThumbnail(`${client.data.baseURL}${skills.constellations[0]?.icon}`)
+                    .setThumbnail(getLink(skills.constellations[0]?.icon))
                 let c = 0
                 for (const constellation of skills.constellations)
                     embed.addField(`C${++c}: ${constellation.name}`, constellation.desc)

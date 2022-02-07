@@ -3,7 +3,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { CommandSource, Enemy, SendMessage } from "../../utils/Types"
-import { Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLinkToGuide, PAD_END, PAD_START, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
+import { Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLink, getLinkToGuide, PAD_END, PAD_START, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 
 export default class EnemyCommand extends Command {
     constructor(name: string) {
@@ -134,7 +134,7 @@ Note: this command supports fuzzy search.`,
             embed.addField("Guides", guides)
 
         if (enemy.icon)
-            embed.setThumbnail(`${data.baseURL}${enemy.icon}`)
+            embed.setThumbnail(getLink(enemy.icon))
 
         if (enemy.resistance)
             embed.addField("Resistances", `\`\`\`\n${createTable(["Pyro", "Elec", "Cryo", "Hydro", "Anemo", "Geo", "Phys", "Notes"], enemy.resistance, [PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_END])}\n\`\`\``)
@@ -151,7 +151,7 @@ Note: this command supports fuzzy search.`,
             .setDescription(enemy.desc ?? "Unavailable")
 
         if (enemy.icon)
-            embed.setThumbnail(`${client.data.baseURL}${enemy.icon}`)
+            embed.setThumbnail(getLink(enemy.icon))
 
         return embed
     }
