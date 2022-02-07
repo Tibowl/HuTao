@@ -5755,10 +5755,11 @@
   },
   "Kagura's Verity": {
     "name": "Kagura's Verity",
+    "desc": "The bells used when performing the Kagura Dance, blessed by the Guuji herself. The scent of the Sacred Sakura tree lingers on it.",
     "weaponType": "Catalyst",
     "stars": 5,
     "placeholder": true,
-    "icon": "https://i.imgur.com/9FcOwp3.png"
+    "icon": "https://i.imgur.com/nmGc9tk.png"
   },
   "Katsuragikiri Nagamasa": {
     "name": "Katsuragikiri Nagamasa",
@@ -7512,10 +7513,11 @@
   },
   "Oathsworn Eye": {
     "name": "Oathsworn Eye",
+    "desc": "A national treasure of Byakuyakoku stored in the Dainichi Mikoshi. With the coming of the Serpent God, this item was used to notarize great oaths and wishes.",
     "weaponType": "Catalyst",
     "stars": 4,
     "placeholder": true,
-    "icon": "https://i.imgur.com/bNFISYW.png"
+    "icon": "https://i.imgur.com/xTtc1F8.png"
   },
   "Old Merc's Pal": {
     "name": "Old Merc's Pal",
