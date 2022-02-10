@@ -25157,7 +25157,7 @@
   },
   "Yae Miko": {
     "name": "Yae Miko",
-    "desc": "The Grand Narukami Shrine's head shrine maiden and a descendant of Kitsune lineage, Eternity's servant and friend... and the intimidating editor-in-chief of Yae Publishing House, a publisher of light novels.",
+    "desc": "Lady Guuji of the Grand Narukami Shrine also serves as the editor-in-chief of Yae Publishing House. Unexpected intelligence and cunning are hidden under her beautiful appearance.",
     "star": 5,
     "weaponType": "Catalyst",
     "icon": "https://i.imgur.com/ikv6D0A.png",
@@ -25168,9 +25168,11 @@
       ]
     },
     "meta": {
+      "birthMonth": 6,
+      "birthDay": 27,
       "association": "Inazuma",
       "title": "Astute Amusement",
-      "detail": "The Grand Narukami Shrine's head shrine maiden and a descendant of Kitsune lineage, Eternity's servant and friend... and the intimidating editor-in-chief of Yae Publishing House, a publisher of light novels.",
+      "detail": "Lady Guuji of the Grand Narukami Shrine also serves as the editor-in-chief of Yae Publishing House. Unexpected intelligence and cunning are hidden under her beautiful appearance.",
       "affiliation": "Grand Narukami Shrine",
       "constellation": "Divina Vulpes",
       "element": "Electro",
@@ -25184,21 +25186,51 @@
         "talents": [
           {
             "name": "Normal Attack: Spiritfox Sin-Eater",
-            "desc": "**Normal Attack**\nPerforms up to ? attacks dealing **Electro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina and deals **AoE Electro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Electro, Yae Miko plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Electro DMG** upon impact with the ground.",
+            "desc": "**Normal Attack**\nSummons forth kitsune spirits, initiating a maximum of 3 attacks that deal **Electro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to deal **AoE Electro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Electro, Yae Miko plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Electro DMG** upon impact with the ground.",
             "icon": "img/skill/Common_Catalyst.png",
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Light",
+                "BossMat": "Unknown",
+                "EnemyDropTier1": "Old Handguard",
+                "EnemyDropTier2": "Kageuchi Handguard",
+                "EnemyDropTier3": "Famed Handguard"
+              }
+            },
             "video": "https://cdn.discordapp.com/attachments/939255952555774062/939256277173944360/Yae_NA.gif",
             "videomp4": "https://cdn.discordapp.com/attachments/939255952555774062/939256277891182592/Yae_NA_scaled.mp4"
           },
           {
             "name": "Yakan Evocation: Sesshou Sakura",
-            "desc": "Using this skill causes Yae Miko to move swiftly and leave behind \"Sesshou Sakura\". These fox-shaped branches can periodically cause lightning to strike nearby.",
+            "desc": "Moves swiftly, leaving a Sesshou Sakura behind.\n\n**Sesshou Sakura**\nhas the following properties:\n·Periodically strikes one nearby opponent with lightning, dealing **Electro DMG**.\n·When there are other Sesshou Sakura nearby, their level will increase, boosting the DMG dealt by these lightning strikes.\nThis skill has three charges.\nA maximum of 3 Sesshou Sakura can exist simultaneously. THe initial level of each Sesshou Sakura is 1, and the initial highest level each sakura can reach is 3. If a new Sesshou Sakura is created too close to an existing one, the existing one will be destroyed.",
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Light",
+                "BossMat": "Unknown",
+                "EnemyDropTier1": "Old Handguard",
+                "EnemyDropTier2": "Kageuchi Handguard",
+                "EnemyDropTier3": "Famed Handguard"
+              }
+            },
             "video": "https://cdn.discordapp.com/attachments/939255952555774062/939256305753927680/Yae_E.gif",
             "videomp4": "https://cdn.discordapp.com/attachments/939255952555774062/939256305414176778/Yae_E_scaled.mp4"
           }
         ],
         "ult": {
           "name": "Great Secret Art: Tenko Kenshin",
-          "desc": "When Yae Miko unleashes her Elemental Burst, she will unseal nearby \"Sesshou Sakura\", destroying their outer forms and transforming them into \"Tenko Thunderbolts\" that decent from the skies.",
+          "desc": "Summons a lightning strike, dealing **AoE Electro DMG**.\n\nWhen she uses this skill, Yae Miko will unseal nearby Sesshou Sakura, destroying their outer forms and transforming them into Tenko Thunderbolts that descend from the skies, dealing **AoE Electro DMG**. Each Sesshou Sakura destroyed in this way will create one Tenko Thunderbolt.",
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Light",
+              "BossMat": "Unknown",
+              "EnemyDropTier1": "Old Handguard",
+              "EnemyDropTier2": "Kageuchi Handguard",
+              "EnemyDropTier3": "Famed Handguard"
+            }
+          },
           "type": "Electro",
           "video": "https://cdn.discordapp.com/attachments/939255952555774062/939256338989608980/Yae_Q.gif",
           "videomp4": "https://cdn.discordapp.com/attachments/939255952555774062/939256338050068481/Yae_Q_scaled.mp4"
@@ -25218,7 +25250,21 @@
           }
         ]
       }
-    ]
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Dragonheir's False Fin",
+        "EnemyDropTier1": "Old Handguard",
+        "EnemyDropTier2": "Kageuchi Handguard",
+        "EnemyDropTier3": "Famed Handguard",
+        "Gem1": "Vajrada Amethyst Sliver",
+        "Gem2": "Vajrada Amethyst Fragment",
+        "Gem3": "Vajrada Amethyst Chunk",
+        "Gem4": "Vajrada Amethyst Gemstone",
+        "Specialty": "Sea Ganoderma"
+      }
+    }
   },
   "Yanfei": {
     "name": "Yanfei",

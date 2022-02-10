@@ -100,7 +100,6 @@ Requires "Manage Messages" permissions to create/edit/remove, but anyone can see
             if (isNaN(id)) return this.sendHelp(source)
 
             const name = args.slice(1).join(" ")
-
             return this.runEdit(source, id, name)
         } else {
             return sendMessage(source, `Unknown subcommand \`${sub}\``)
