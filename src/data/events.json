@@ -1112,6 +1112,15 @@
         "reminder": "daily"
     },
     {
+        "name": "\"Kitsune's Leisurely Stroll Around Hanamizaka\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/3312002",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/02/10/1015537/d34b4a2ba646920785f4645614dbdcde_5964832792408508864.jpg",
+        "start": "2022-02-11 12:00:00",
+        "end": "2022-02-15 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "2.6 Special Program",
         "type": "Stream",
         "prediction": true,
