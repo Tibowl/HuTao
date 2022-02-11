@@ -33,7 +33,7 @@ Note: this command supports fuzzy search.`,
             }, {
                 name: "stars",
                 description: "Rarity of the artifact (default: 5)",
-                type: "NUMBER"
+                type: "INTEGER"
             }]
         })
     }
@@ -42,24 +42,25 @@ Note: this command supports fuzzy search.`,
         const { options } = source
 
         const mainStat = options.getString("mainstat", true)
-        const stars = options.getNumber("stars") ?? 5
+        const stars = options.getInteger("stars") ?? 5
 
         return this.run(source, mainStat, stars)
     }
 
     async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
+        if (args.length == 0)
+            return await this.sendHelp(source)
+
         const { data } = client
         const keys = Object.keys(data.artifactMainLevels)
-
-        if (args.length == 0) {
-            if (!keys) return sendMessage(source, "No artifact level data loaded", undefined, true)
-
-            return await this.sendHelp(source)
-        }
+        if (!keys) return sendMessage(source, "No artifact level data loaded", undefined, true)
 
         let stars = 5
         if (!isNaN(parseInt(args[args.length - 1])))
             stars = parseInt(args.pop() ?? "5")
+
+        if (args.length == 0)
+            return await this.sendHelp(source)
 
         const mainStat = findFuzzy(keys, args.join(" "))
         if (mainStat == undefined)
@@ -72,6 +73,9 @@ Note: this command supports fuzzy search.`,
         const { data } = client
 
         const levelData = data.artifactMainLevels[mainStat][stars]
+        if (levelData == undefined)
+            return sendMessage(source, `Unable to find \`${stars}\`★ stats for \`${mainStat}\``, undefined, true)
+
         const entries = Object.entries(levelData)
 
         const table = []
