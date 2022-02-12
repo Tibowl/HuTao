@@ -60,7 +60,7 @@ export default class DataManager {
     readonly abyssFloors: Record<number, AbyssFloor> = abyssFloors
 
     readonly paimonsBargains: PaimonShop[] = paimonShop
-    private readonly costTemplates: Record<string, Cost[]> = costTemplates
+    readonly costTemplates: Record<string, Cost[]> = costTemplates
 
     readonly enemies: Record<string, Enemy> = enemyData
 
@@ -115,12 +115,13 @@ export default class DataManager {
         }
     }
 
-    emoji(type: string | undefined, includeName = false): string {
+    emoji(type: string | undefined, includeName?: boolean): string {
         if (!type)
             return type ?? "Unknown"
 
         const found = this.emojis[type as BotEmoji]
-        if (!found) return type
+        if (!found && includeName == undefined) return type
+        if (!found && includeName == false) return ""
         if (includeName) return `${found} ${type}`
         return found
     }
