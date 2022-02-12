@@ -89,6 +89,24 @@
         }
       },
       {
+        "name": "Silk Flower route",
+        "desc": "**Silk Flowers ${Silk Flower}** can be found in the near Yujing Terrace and Wangshu Inn. They are being sold by [**Ms. Bai**](https://cdn.discordapp.com/attachments/942081521181917184/942191358691667998/Ms._Bai.png) and [**Verr Goldet**](https://cdn.discordapp.com/attachments/942081521181917184/942193167195848784/Verr_Goldet.png) (up to 5 each per 3 days).\n\n> A crimson flower that blooms like the rainbow clouds in Liyue. It can be made into silky-smooth fabric.",
+        "img": "https://cdn.discordapp.com/attachments/942081521181917184/942084185252855818/unknown.png",
+        "credits": "Maple",
+        "links": {
+          "material": ["Silk Flower"]
+        }
+      },
+      {
+        "name": "Glaze Lily route",
+        "desc": "**Glaze Lilies ${Glaze Lily}** can be found in the wilderness of Liyue and are being sold by [**Ms. Bai**](https://cdn.discordapp.com/attachments/942110117283905626/942191944287805471/Ms._Bai.png) (up to 3 per week).\n\n> An extremely ancient flower that was said to be commonly seen in Liyue. It transforms the memories of the land into its fragrance during florescence.",
+        "img": "https://cdn.discordapp.com/attachments/942110117283905626/942117927648370759/unknown.png",
+        "credits": "Maple",
+        "links": {
+          "material": ["Glaze Lily"]
+        }
+      },
+      {
         "name": "Qingxin route",
         "desc": "**Qingxins ${Qingxin}** can be found in the heights of stone forests in Liyue and are being sold by [**Herbalist Gui**](https://cdn.discordapp.com/attachments/926215001088352276/926586479600341032/Herbalist_Gui.png) (up to 10 per 3 days).\n\n> A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
         "img": "https://cdn.discordapp.com/attachments/926215001088352276/926215049285107792/ganyunom.png",
