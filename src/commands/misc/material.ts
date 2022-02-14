@@ -128,10 +128,10 @@ Note: this command supports fuzzy search.`,
             .setURL(`${data.baseURL}materials/${urlify(material.name, false)}`)
             .setColor(Colors.AQUA)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
-            .setDescription(material.desc)
+            .setDescription(material.desc ?? "Upcoming material.")
 
         if (material.category || material.type)
-            embed.addField("Category", `**${material.category}**: ${material.type}`, true)
+            embed.addField("Category", `**${material.category ?? "Unknown"}**: ${material.type ?? "Unknown"}`, true)
 
         if (material.stars)
             embed.addField("Rarity", `${material.stars}★`, true)

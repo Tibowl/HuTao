@@ -2032,5 +2032,13 @@
         ]
       }
     ]
+  },
+  "36": {
+    "teams": 2,
+    "leyline": "All characters in the party gain a 60% Electro DMG Bonus.\nAll party members gain 30% Healing Bonus."
+  },
+  "37": {
+    "teams": 2,
+    "leyline": "For this floor only, the ley line flow will be normal."
   }
 }

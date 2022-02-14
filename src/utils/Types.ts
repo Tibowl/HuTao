@@ -518,12 +518,12 @@ export interface Enemy {
 
 export interface Material {
     name:       string
-    desc:       string
+    desc?:      string
     longDesc?:  string
     stars?:     number
-    type:       string
-    category:   string
-    icon:       string
+    type?:      string
+    category?:  string
+    icon?:      string
     sources?:   string[]
     specialty?: { char: string, recipe: string }
     recipe?:    Item[]

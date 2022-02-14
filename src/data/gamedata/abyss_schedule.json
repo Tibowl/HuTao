@@ -768,5 +768,49 @@
       34,
       35
     ]
+  },
+  "35": {
+    "start": "2022-03-01 04:00:00",
+    "end": "2022-03-16 03:59:59",
+    "buff": "Lightning Moon",
+    "buffDesc": "When opponents take Electro-Charged DMG, their Electro RES decreases by 10% for 10s. Max 4 stacks. Each stack's duration is independent. Each enemy can receive this effect once every 1.2s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      36,
+      37
+    ]
+  },
+  "36": {
+    "start": "2022-03-16 04:00:00",
+    "end": "2022-04-01 03:59:59",
+    "buff": "Godcall Moon",
+    "buffDesc": "When the active character's Normal Attacks, Charged Attacks, Plunging Attacks, Elemental Skills, and Elemental Bursts hit an opponent affected by Electro, a shockwave is created at that opponent's position, dealing True DMG. A shockwave may be produced in this manner every 2s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      36,
+      37
+    ]
   }
 }

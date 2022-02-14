@@ -4844,6 +4844,33 @@
       "Delicious Fragrant Mashed Potatoes": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   },
+  "Sangayaki": {
+    "name": "Sangayaki",
+    "desc": "Upcoming food.",
+    "type": "Food",
+    "category": "Food and Potions",
+    "sources": [
+      "Obtained by cooking"
+    ]
+  },
+  "Udon Noodles": {
+    "name": "Udon Noodles",
+    "desc": "Upcoming food.",
+    "type": "Food",
+    "category": "Food and Potions",
+    "sources": [
+      "Obtained by cooking"
+    ]
+  },
+  "Fukuuchi Udon": {
+    "name": "Fukuuchi Udon",
+    "desc": "Upcoming food.",
+    "type": "Food",
+    "category": "Food and Potions",
+    "sources": [
+      "Obtained by cooking"
+    ]
+  },
   "Holy Water": {
     "name": "Holy Water",
     "desc": "A bottle of clear, colorless, and contaminant-free liquid. Indistinguishable from ordinary spring water. May or may not be worth putting all of one's hopes into.",
