@@ -1588,6 +1588,22 @@
     },
     "effect": "Decreases all party members' sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
+  "Fukuuchi Udon": {
+    "name": "Fukuuchi Udon",
+    "desc": "Yae Miko's specialty. The Fried Tofu in here is specially made by the solemn Lady Kitsune. It is said that if you eat it all at one go with sincerity in your heart, you will have the protection of the Great Kitsune — misfortune shall flee and fortune abound!",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Fukuuchi_Udon.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Yae Miko",
+      "recipe": "Udon Noodles"
+    },
+    "effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP."
+  },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
     "desc": "Onion-covered toast. Exudes a wonderful aroma. Are the fish biting for the bait, or is it the toast they're after?",
@@ -4610,6 +4626,66 @@
       "Delicious Dragon Beard Noodles": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   },
+  "Sangayaki": {
+    "name": "Sangayaki",
+    "desc": "A simple, humble fisherman's side dish. Full of nutrition and flavor. The lightly charred, yellowed exterior wraps the tender insides — providing two pleasures at once! Fish paste was already quite delectable raw, and the charcoal grilling only makes it better.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Sangayaki.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Fish"
+      },
+      {
+        "count": 2,
+        "name": "Snapdragon"
+      },
+      {
+        "count": 1,
+        "name": "Salt"
+      }
+    ],
+    "effect": {
+      "Suspicious Sangayaki": "Decreases all party members' sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Sangayaki": "Decreases all party members' sprinting Stamina consumption by 20% for 900s. In Co-op Mode, this effect only applies to your own character(s).",
+      "Delicious Sangayaki": "Decreases all party members' sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Udon Noodles": {
+    "name": "Udon Noodles",
+    "desc": "Highly springy noodles. The snow-white, soft yet elastic udon, and the elegantly flavored soup combine to make a simple but comforting dish. The faintest scent of wheat may eventually travel down into your belly together with the sweet noodles, but the aftertaste of warmth will remain.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Udon_Noodles.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 1,
+        "name": "Seagrass"
+      },
+      {
+        "count": 1,
+        "name": "Fish"
+      }
+    ],
+    "effect": {
+      "Suspicious Udon Noodles": "Revives a character and restores 250 HP.",
+      "Udon Noodles": "Revives a character and restores 400 HP.",
+      "Delicious Udon Noodles": "Revives a character and restores 550 HP."
+    }
+  },
   "Rice Pudding": {
     "name": "Rice Pudding",
     "desc": "A dessert made from rice. The soft, sticky rice and the sweet milk have melded together perfectly, their tastes complementing each other. If you eat it hot, you can enjoy the dense rice grains, and if you leave it till it's cold, you can savor the gentle fragrance of milk — each possessing its own beauty. People who eat such a dish cannot help but wonder: how many experiments led up to this moment?",
@@ -4843,33 +4919,6 @@
       "Fragrant Mashed Potatoes": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
       "Delicious Fragrant Mashed Potatoes": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
-  },
-  "Sangayaki": {
-    "name": "Sangayaki",
-    "desc": "Upcoming food.",
-    "type": "Food",
-    "category": "Food and Potions",
-    "sources": [
-      "Obtained by cooking"
-    ]
-  },
-  "Udon Noodles": {
-    "name": "Udon Noodles",
-    "desc": "Upcoming food.",
-    "type": "Food",
-    "category": "Food and Potions",
-    "sources": [
-      "Obtained by cooking"
-    ]
-  },
-  "Fukuuchi Udon": {
-    "name": "Fukuuchi Udon",
-    "desc": "Upcoming food.",
-    "type": "Food",
-    "category": "Food and Potions",
-    "sources": [
-      "Obtained by cooking"
-    ]
   },
   "Holy Water": {
     "name": "Holy Water",
@@ -5552,6 +5601,39 @@
       "Lv. 70+ Signora Challenge Reward"
     ]
   },
+  "Mudra of the Malefic General": {
+    "name": "Mudra of the Malefic General",
+    "desc": "A puppet joint obtained from the Plane of Euthymia. The gesture here symbolizes the concept that \"one sees and one does.\"\nEven now that \"she\" has become a calamitous deity, she can still utilize such transcendent gestures, her sword flashing forth as swiftly as her eyes may see.\nAnd yet, as the countless disasters ground on for far too long, the fierce general's shell had to embrace a new spring.",
+    "stars": 5,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Mudra_of_the_Malefic_General.png",
+    "sources": [
+      "Lv. 70+ Guardian of Eternity Challenge Reward"
+    ]
+  },
+  "Tears of the Calamitous God": {
+    "name": "Tears of the Calamitous God",
+    "desc": "A puppet joint obtained from the Plane of Euthymia. The gesture here is in the shape of the baleful Eye of Stormy Judgment.\nSince they are able to bring down curse and catastrophe alike with a mere gaze, it might seem natural to blame life's misfortunes on calamitous deities. However, if you think about it a little harder, if your will is strong enough, and if your convictions are firm enough...\nThe catastrophes go on for too long. Even a baleful gaze must wash itself with tears.",
+    "stars": 5,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Tears_of_the_Calamitous_God.png",
+    "sources": [
+      "Lv. 70+ Guardian of Eternity Challenge Reward"
+    ]
+  },
+  "The Meaning of Aeons": {
+    "name": "The Meaning of Aeons",
+    "desc": "A small piece of headgear obtained once the dust settled in the Plane of Euthymia.\nOne thought may end all calamity, and there will always be thoughts that may transcend time.\nAmid all this, one wonders if Makoto's true meaning was successfully communicated or not.",
+    "stars": 5,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/The_Meaning_of_Aeons.png",
+    "sources": [
+      "Lv. 70+ Guardian of Eternity Challenge Reward"
+    ]
+  },
   "Hurricane Seed": {
     "name": "Hurricane Seed",
     "desc": "The imploded form of an Anemo Hypostasis upon its defeat.\nContains the essence of Anemo energy.\nIt is said that the power to create hurricanes resides within its seemingly fragile body. This butterfly of pure Anemo energy must surely be waiting for the day when it can conjure up storms once again.",
@@ -5714,7 +5796,7 @@
     "category": "Trophies",
     "icon": "img/material/Dragonheirs_False_Fin.png",
     "sources": [
-      "Dropped by Lv. 30+ Bathysmal Vishaps"
+      "Lv. 30+ Bathysmal Vishap Herd Challenge Reward"
     ]
   },
   "Brilliant Diamond Sliver": {

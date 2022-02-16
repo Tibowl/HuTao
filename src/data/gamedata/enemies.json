@@ -1331,6 +1331,21 @@
       ]
     ]
   },
+  "Shadowy Husk: Standard Bearer": {
+    "name": "Shadowy Husk: Standard Bearer",
+    "notes": "Upcoming enemy\nAn enigmatic warrior of darkness.",
+    "type": "The Abyss"
+  },
+  "Shadowy Husk: Line Breaker": {
+    "name": "Shadowy Husk: Line Breaker",
+    "notes": "Upcoming enemy\nAn enigmatic warrior of darkness.",
+    "type": "The Abyss"
+  },
+  "Shadowy Husk: Defender": {
+    "name": "Shadowy Husk: Defender",
+    "notes": "Upcoming enemy\nAn enigmatic warrior of darkness.",
+    "type": "The Abyss"
+  },
   "Fatui Skirmisher - Pyroslinger Bracer": {
     "name": "Fatui Skirmisher - Pyroslinger Bracer",
     "desc": "A Fatui soldier who wields a flaming gun.\nSkirmisher weapons can control the elements to a certain extent, and their combat tactics utilize elemental reactions.\nTheir ordnance and knowledge of squad-based combat thus constitute no small threat in battle.",
@@ -2525,19 +2540,9 @@
   },
   "Magatsu Mitake Narukami no Mikoto": {
     "name": "Magatsu Mitake Narukami no Mikoto",
-    "notes": "Upcoming enemy\nThis is the form that the puppet that inherited the Raiden Shogun's authority takes when she is opposing those who threaten Eternity."
-  },
-  "Shadowy Husk: Standard Bearer": {
-    "name": "Shadowy Husk: Standard Bearer",
-    "notes": "Upcoming enemy\nAn enigmatic warrior of darkness."
-  },
-  "Shadowy Husk: Line Breaker": {
-    "name": "Shadowy Husk: Line Breaker",
-    "notes": "Upcoming enemy\nAn enigmatic warrior of darkness."
-  },
-  "Shadowy Husk: Defender": {
-    "name": "Shadowy Husk: Defender",
-    "notes": "Upcoming enemy\nAn enigmatic warrior of darkness."
+    "desc": "This is the form that the puppet that inherited the Raiden Shogun's authority takes when she is opposing those who threaten Eternity.\nAs the Raiden Shogun's assistant in pursuing eternity, she has never doubted, never felt fear, never given anything less than her best, never been disturbed by idle thoughts.\nShe once heard about how Ei had shouldered a similar duty when Makoto was also present, suffering much agonizing loss in the process.\nWhen the two shadows overlapped once more, however, she could only see the countless fine fractures in what should have been \"her\" eternal will. Since fate is destined for cyclicality, she must fulfill her promise and declare war on \"her.\"\n\n**Mine is the most supreme and noble form. Power over the realm has been vested within me, and I am the essence of all that is the \"Raiden Shogun.\"**\n**\"Naturally, I have also inherited the pain of Ei's countless losses and her will to attain Eternity.**\n**\"Resolve, valor, love, hate... They will all twist in the river of time.**\n**\"But the 'rules' will never change.\"**",
+    "icon": "img/enemy/Magatsu_Mitake_Narukami_no_Mikoto.png",
+    "type": "Enemies of Note"
   },
   "Hydro Mimic Boar": {
     "name": "Hydro Mimic Boar",
