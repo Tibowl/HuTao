@@ -120,8 +120,8 @@ export default class DataManager {
             return type ?? "Unknown"
 
         const found = this.emojis[type as BotEmoji]
-        if (!found && includeName == undefined) return type
         if (!found && includeName == false) return ""
+        if (!found) return type
         if (includeName) return `${found} ${type}`
         return found
     }
