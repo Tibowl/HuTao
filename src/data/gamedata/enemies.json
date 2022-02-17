@@ -1333,18 +1333,54 @@
   },
   "Shadowy Husk: Standard Bearer": {
     "name": "Shadowy Husk: Standard Bearer",
-    "notes": "Upcoming enemy\nAn enigmatic warrior of darkness.",
-    "type": "The Abyss"
+    "desc": "An enigmatic warrior of darkness.\nFrom the moves, one can tell that it has long ago lost the things that might make it \"human.\" But if that was the case, then why does it lift that banner up so high...",
+    "icon": "img/enemy/Shadowy_Husk_Standard_Bearer.png",
+    "type": "The Abyss",
+    "resistance": [
+      [
+        "30%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "30%"
+      ]
+    ]
   },
   "Shadowy Husk: Line Breaker": {
     "name": "Shadowy Husk: Line Breaker",
-    "notes": "Upcoming enemy\nAn enigmatic warrior of darkness.",
-    "type": "The Abyss"
+    "desc": "An enigmatic warrior of darkness.\nFrom the way it moves, it seems that it may no longer have any \"human\" intelligence. However, the sight of it charging into battle does not strike one as the mad rush of some dull beast, but the valiant advance of a warrior prepared for death.",
+    "icon": "img/enemy/Shadowy_Husk_Line_Breaker.png",
+    "type": "The Abyss",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "30%",
+        "10%",
+        "10%",
+        "30%"
+      ]
+    ]
   },
   "Shadowy Husk: Defender": {
     "name": "Shadowy Husk: Defender",
-    "notes": "Upcoming enemy\nAn enigmatic warrior of darkness.",
-    "type": "The Abyss"
+    "desc": "An enigmatic warrior of darkness.\nJudging by appearances, it is nothing but an empty husk, but the weapon in its hand seems more like it was meant to protect rather than slaughter.",
+    "icon": "img/enemy/Shadowy_Husk_Defender.png",
+    "type": "The Abyss",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "30%",
+        "10%",
+        "10%",
+        "10%",
+        "30%"
+      ]
+    ]
   },
   "Fatui Skirmisher - Pyroslinger Bracer": {
     "name": "Fatui Skirmisher - Pyroslinger Bracer",
