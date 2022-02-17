@@ -327,7 +327,7 @@ function endTimes(e: Event) {
     if (!e.end) return ""
 
     if (!isServerTimeEnd(e))
-        return relativeTimestampFromString(e.end, e.timezone)
+        return `Global: ${relativeTimestampFromString(e.end, e.timezone)}`
 
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     return getServerTimeInfo().map(st => `${st.server}: ${relativeTimestampFromString(e.end!, `${st.offset.split("").join("0")}:00`)}`).join("\n")

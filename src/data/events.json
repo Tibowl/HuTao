@@ -1107,6 +1107,7 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2022/02/14/1015537/a7d417caff8800b39e73cfd2153441a8_3162259087659744231.jpg",
         "start": "2022-02-17 10:00:00",
         "end": "2022-03-30 06:00:00",
+        "end_server": false,
         "reminder": "end"
     },
     {
