@@ -3,12 +3,12 @@ Hu Tao
 
 Hu Tao is a Discord bot for Genshin Impact offering [guide/routes](https://i.imgur.com/fD46Uf6.png), [character](https://i.imgur.com/0BkDmKH.png) and [weapon](https://i.imgur.com/nlj91gB.png) info, [news updates](https://i.imgur.com/9N9s1hd.png) and [event reminders](https://i.imgur.com/B21ye84.png) that you can follow, [reminders](https://i.imgur.com/TIfS4ZT.png), [gacha rate calculator](https://i.imgur.com/GXP3IDz.png) and more. Some parts are also available on [hutaobot.moe](https://hutaobot.moe/).
 
-An invite link for this bot can be found [here](https://discord.com/oauth2/authorize?client_id=826550363355086918&scope=bot+applications.commands&permissions=313344). You can find the support Discord [here](https://discord.gg/BM3Srp8j8G).
+An invite link for this bot can be found [here](https://discord.com/oauth2/authorize?client_id=826550363355086918&scope=bot+applications.commands&permissions=313344). If you need help, you can find the support Discord [here](https://discord.gg/BM3Srp8j8G).
 
 ![Showcase](https://i.imgur.com/ZQhZZtW.gif)
 
 ## Commands
-The bot command prefix is `ht!`. Help for a specific command can be retrieved via `ht!help <command>`. The bot also supports slash-commands. Syntax for these commands might be slightly different due to limitations of Discord, you can see the usage for those commands by typing `/` in a chat with the bot. For example typing `/char` will show the commands that start with `char` like [this](https://i.imgur.com/vEf0IGD.png). Most commands support [autocomplete](https://i.imgur.com/PeecLQm.png) when using the slash command version.
+The bot command prefix is `ht!`, but also supports slash-commands. Help for a specific command can be retrieved via `ht!help <command>`. Syntax for these commands might be slightly different due to limitations of Discord, you can see the usage for those commands by typing `/` in a chat with the bot. For example typing `/char` will show the commands that start with `char` like [this](https://i.imgur.com/vEf0IGD.png). Most commands support [autocomplete](https://i.imgur.com/PeecLQm.png) when using the slash command version.
 
 Every reply to commands will include an ❌ delete button, users can click this button to remove the bot post. This allows users to clean up in case something wasn't relevant to the conversation/reduce spam.
 
@@ -105,3 +105,7 @@ Please make sure the bot has these permissions inside the channels you want to u
 
 ## Credits
 - Thank you to Soul, Yukie, Maple and Jnight for providing the guides!
+
+## Funding
+Help fund hosting of the site and bot.  
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A81MOVN)
