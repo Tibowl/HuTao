@@ -430,5 +430,35 @@
         }
       }
     ]
+  },
+  {
+    "name": "Three Realms Gateway Offering (Event)",
+    "pages": [
+      {
+        "name": "Damaged Stone Slate locations",
+        "desc": "Locations of the 7 Damaged Stone Slates that you need to find. Needed for The Bunkoku Enigma event quest. Solution for the tile puzzle is also available (see next page).",
+        "img": "https://cdn.discordapp.com/attachments/945055392638070794/945055816875114567/8slateA.png",
+        "credits": "Soul"
+      },
+      {
+        "name": "The Bunkoku Enigma Tile Puzzle solution",
+        "desc": "Solution for tile puzzle that is needed for The Bunkoku Enigma event quest. Locations of the 7 Stone Slates that are needed are also available (see previous page).",
+        "img": "https://cdn.discordapp.com/attachments/945055392638070794/945055933191557190/sbYX1rZ.png",
+        "url": "https://youtu.be/ng-WrSDGPjY",
+        "credits": "Soul"
+      },
+      {
+        "name": "Evernight Temple Electro Monument puzzle",
+        "desc": "Unlocking the Evernight Temple during the event requires the activation of 4 Electro monuments.",
+        "img": "https://cdn.discordapp.com/attachments/945055392638070794/945056132953686106/0sWzq7L.png",
+        "credits": "Soul"
+      },
+      {
+        "name": "South-west Island 3 Seelie locations",
+        "desc": "Locations of the 3 Seelies needed for a trial during the event.",
+        "img": "https://cdn.discordapp.com/attachments/945055392638070794/945056563599642664/kz7HavJ.png",
+        "credits": "Soul"
+      }
+    ]
   }
 ]
