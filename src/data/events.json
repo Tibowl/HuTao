@@ -1048,6 +1048,7 @@
     {
         "name": "Event Wish \"Everbloom Violet\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/article/3355975",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2022/02/14/1015537/b9b39661eebe0734e0e2bd24f13b7e7a_1049718118212453786.jpg",
         "start": "2022-02-16 11:00:00",
         "start_server": false,
@@ -1057,6 +1058,7 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/article/3355976",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2022/02/14/1015537/a5b1f9a03b2b494bb0795cb58c830351_7741506169538219128.jpeg",
         "start": "2022-02-16 11:00:00",
         "start_server": false,
