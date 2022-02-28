@@ -2035,10 +2035,112 @@
   },
   "36": {
     "teams": 2,
-    "leyline": "All characters in the party gain a 60% Electro DMG Bonus.\nAll party members gain 30% Healing Bonus."
+    "leyline": "All characters in the party gain a 60% Electro DMG Bonus.\nAll party members gain 30% Healing Bonus.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 87,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Abyss Herald: Wicked Torrents",
+            "Cryo Abyss Mage"
+          ],
+          [
+            "Geovishap",
+            "Pyro Whopperflower",
+            "Electro Whopperflower"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 89,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Hydro Abyss Mage",
+            "Hydro Specter",
+            "Cryo Specter",
+            "Large Cryo Slime",
+            "Large Hydro Slime"
+          ],
+          [
+            "Pyro Abyss Mage",
+            "Dendro Samachurl",
+            "Pyro Specter",
+            "Electro Specter",
+            "Large Electro Slime",
+            "Mutant Electro Slime",
+            "Large Pyro Slime"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 91,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Thundercraven Rifthound",
+            "Thundercraven Rifthound Whelp"
+          ],
+          [
+            "Abyss Lector: Fathomless Flames",
+            "Abyss Lector: Violet Lightning"
+          ]
+        ]
+      }
+    ]
   },
   "37": {
     "teams": 2,
-    "leyline": "For this floor only, the ley line flow will be normal."
+    "leyline": "For this floor only, the ley line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 94,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Thundercraven Rifthound",
+            "Thundercraven Rifthound Whelp"
+          ],
+          [
+            "Primordial Bathysmal Vishap",
+            "Primordial Bathysmal Vishap Hatchling",
+            "Rimebiter Bathysmal Vishap Hatchling"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 97,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Ruin Grader"
+          ],
+          [
+            "Golden Wolflord"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 99,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Ruin Destroyer",
+            "Ruin Scout"
+          ],
+          [
+            "Rimebiter Bathysmal Vishap",
+            "Bolteater Bathysmal Vishap"
+          ]
+        ]
+      }
+    ]
   }
 }
