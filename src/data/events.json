@@ -1097,7 +1097,8 @@
     {
         "name": "\"Divine Ingenuity\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/EwcacRc.png",
+        "link": "https://www.hoyolab.com/article/3611497",
+        "img": "https://uploadstatic-sea.mihoyo.com/announcement/2022/01/25/58f89da28337ce8655041a90e4393283_1069665147924074503.jpg",
         "start": "2022-03-02 10:00:00",
         "end": "2022-03-21 03:59:00",
         "reminder": "end"

@@ -1,2146 +1,2146 @@
 {
-  "1": {
-    "teams": 1,
-    "leyline": "Pyro DMG dealt by all party members increased by 75%.\nOverloaded DMG increased by 200%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 24,
-        "conds": "More than 90/150/210 seconds left",
-        "monsters": [
-          [
-            "Electro Slime",
-            "Large Electro Slime",
-            "Mutant Electro Slime"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 24,
-        "conds": "More than 90/150/210 seconds left",
-        "monsters": [
-          [
-            "Hilichurl Fighter",
-            "Wooden Shield Hilichurl Guard",
-            "Hilichurl Shooter",
-            "Hilichurl Grenadier",
-            "Wooden Shieldwall Mitachurl",
-            "Blazing Axe Mitachurl"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 24,
-        "conds": "More than 90/150/210 seconds left",
-        "monsters": [
-          [
-            "Hilichurl Shooter",
-            "Wooden Shieldwall Mitachurl",
-            "Large Electro Slime",
-            "Mutant Electro Slime",
-            "Fatui Electro Cicin Mage"
-          ]
-        ]
-      }
-    ]
-  },
-  "2": {
-    "teams": 1,
-    "leyline": "Cryo DMG dealt by all party members increased by 75%.\nThe duration of the Frozen status effect is greatly increased.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 39,
-        "conds": "More than 60/90/180 seconds left",
-        "monsters": [
-          [
-            "Electro Slime",
-            "Large Electro Slime",
-            "Mutant Electro Slime"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 39,
-        "conds": "More than 20/40/60% HP left",
-        "monsters": [
-          [
-            "Hydro Slime",
-            "Large Hydro Slime",
-            "Blazing Axe Mitachurl",
-            "Hydro Abyss Mage"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 39,
-        "conds": "More than 60/90/180 seconds left",
-        "monsters": [
-          [
-            "Hydro Samachurl",
-            "Blazing Axe Mitachurl",
-            "Hydro Abyss Mage"
-          ]
-        ]
-      }
-    ]
-  },
-  "3": {
-    "teams": 1,
-    "leyline": "Increases Swirl DMG by 300% and its AoE by 100%.\nAnemo DMG dealt by all party members increased by 75%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 44,
-        "conds": "More than 60/90/180 seconds left",
-        "monsters": [
-          [
-            "Cryo Slime",
-            "Pyro Slime",
-            "Pyro Hilichurl Shooter",
-            "Cryo Hilichurl Shooter",
-            "Wooden Shield Hilichurl Guard",
-            "Large Electro Slime",
-            "Large Cryo Slime",
-            "Large Pyro Slime"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 44,
-        "conds": "More than 60/90/180 seconds left",
-        "monsters": [
-          [
-            "Treasure Hoarders: Pyro Potioneer",
-            "Treasure Hoarders: Hydro Potioneer",
-            "Treasure Hoarders: Electro Potioneer",
-            "Treasure Hoarders: Cryo Potioneer",
-            "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Crusher"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 44,
-        "conds": "More than 60/90/120 seconds left",
-        "monsters": [
-          [
-            "Blazing Axe Mitachurl",
-            "Ruin Guard"
-          ]
-        ]
-      }
-    ]
-  },
-  "4": {
-    "teams": 1,
-    "leyline": "Electro DMG dealt by all party members increased by 75%.\nElectro-Charged DMG increased by 150%, and its AoE is increased by 100%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 49,
-        "conds": "More than 60/120/180 seconds left",
-        "monsters": [
-          [
-            "Hydro Slime",
-            "Large Hydro Slime",
-            "Hilichurl Fighter",
-            "Cryo Hilichurl Shooter",
-            "Hydro Abyss Mage"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 49,
-        "conds": "More than 20/40/60% HP left",
-        "monsters": [
-          [
-            "Hydro Slime",
-            "Hilichurl Fighter",
-            "Cryo Hilichurl Shooter",
-            "Hilichurl Berserker",
-            "Blazing Axe Mitachurl",
-            "Hydro Abyss Mage"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 49,
-        "conds": "More than 60/90/120 seconds left",
-        "monsters": [
-          [
-            "Cryo Hilichurl Shooter",
-            "Hilichurl Fighter",
-            "Hydro Samachurl",
-            "Blazing Axe Mitachurl",
-            "Hydro Abyss Mage"
-          ]
-        ]
-      }
-    ]
-  },
-  "5": {
-    "teams": 2,
-    "leyline": "When your character's HP is greater than 50%, ATK and DEF are increased by 25%.\nWhen HP is greater than 80%, Normal Attack SPD is increased by 20%.\nWhen HP is greater than 80%, Movement SPD is increased by 20%.\nWhen HP is greater than 95%, CRIT Rate is increased by 10% and CRIT DMG is increased by 20%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 54,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Large Cryo Slime",
-            "Electro Hilichurl Shooter",
-            "Cryo Slime"
-          ],
-          [
-            "Pyro Abyss Mage"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 54,
-        "conds": "More than 90/180/240 seconds left",
-        "monsters": [
-          [
-            "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Seaman",
-            "Treasure Hoarders: Handyman",
-            "Treasure Hoarders: Cryo Potioneer",
-            "Treasure Hoarders - Marksman"
-          ],
-          [
-            "Treasure Hoarders - Crusher",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Seaman",
-            "Treasure Hoarders: Pyro Potioneer",
-            "Treasure Hoarders - Scout"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 54,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Fatui Electro Cicin Mage",
-            "Treasure Hoarders: Handyman"
-          ],
-          [
-            "Fatui Pyro Agent",
-            "Treasure Hoarders: Electro Potioneer"
-          ]
-        ]
-      }
-    ]
-  },
-  "6": {
-    "teams": 2,
-    "leyline": "Using an Elemental Burst increases all party members' ATK and DEF by 6%. Max 10 stacks. At 5 stacks and above, increases character Normal Attack SPD and Movement SPD are by an additional 30%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 59,
-        "conds": "More than 30/60/120 seconds left",
-        "monsters": [
-          [
-            "Cryo Whopperflower",
-            "Large Cryo Slime",
-            "Electro Hilichurl Shooter",
-            "Hilichurl Fighter",
-            "Cryo Slime"
-          ],
-          [
-            "Pyro Whopperflower",
-            "Large Pyro Slime",
-            "Anemo Samachurl",
-            "Cryo Hilichurl Shooter",
-            "Hilichurl Fighter",
-            "Pyro Slime"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 59,
-        "conds": "More than 90/180/270 seconds left",
-        "monsters": [
-          [
-            "Cryo Abyss Mage",
-            "Rock Shieldwall Mitachurl",
-            "Blazing Axe Mitachurl",
-            "Wooden Shieldwall Mitachurl",
-            "Hydro Samachurl",
-            "Pyro Hilichurl Shooter",
-            "Cryo Hilichurl Shooter",
-            "Electro Hilichurl Shooter",
-            "Hilichurl Grenadier",
-            "Hilichurl Berserker",
-            "Rock Shield Hilichurl Guard",
-            "Wooden Shield Hilichurl Guard"
-          ],
-          [
-            "Dendro Samachurl",
-            "Anemo Samachurl",
-            "Large Pyro Slime",
-            "Pyro Hilichurl Shooter",
-            "Cryo Hilichurl Shooter",
-            "Electro Hilichurl Shooter",
-            "Pyro Slime"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 59,
-        "conds": "More than 120/240/330 seconds left",
-        "monsters": [
-          [
-            "Stonehide Lawachurl",
-            "Cryo Hilichurl Shooter",
-            "Electro Hilichurl Shooter",
-            "Geo Samachurl",
-            "Rock Shield Hilichurl Guard"
-          ],
-          [
-            "Pyro Abyss Mage",
-            "Large Pyro Slime"
-          ]
-        ]
-      }
-    ]
-  },
-  "7": {
-    "teams": 2,
-    "leyline": "CRIT hits will generate Elemental Particles and Orbs. Can only occur once every 15s.\nCRIT DMG dealt by all party members increased by 120%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 64,
-        "conds": "More than 120/300/420 seconds left",
-        "monsters": [
-          [
-            "Fatui Skirmisher - Cryogunner Legionnaire",
-            "Fatui Skirmisher - Hydrogunner Legionnaire",
-            "Fatui Skirmisher - Electrohammer Vanguard"
-          ],
-          [
-            "Fatui Skirmisher - Cryogunner Legionnaire",
-            "Fatui Skirmisher - Pyroslinger Bracer",
-            "Fatui Skirmisher - Anemoboxer Vanguard"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 64,
-        "conds": "More than 120/300/390 seconds left",
-        "monsters": [
-          [
-            "Fatui Skirmisher - Cryogunner Legionnaire",
-            "Fatui Skirmisher - Geochanter Bracer",
-            "Fatui Skirmisher - Electrohammer Vanguard"
-          ],
-          [
-            "Fatui Skirmisher - Geochanter Bracer",
-            "Fatui Skirmisher - Pyroslinger Bracer",
-            "Fatui Skirmisher - Anemoboxer Vanguard"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 64,
-        "conds": "More than 120/330/450 seconds left",
-        "monsters": [
-          [
-            "Fatui Skirmisher - Hydrogunner Legionnaire",
-            "Fatui Skirmisher - Electrohammer Vanguard",
-            "Fatui Skirmisher - Anemoboxer Vanguard"
-          ],
-          [
-            "Fatui Skirmisher - Pyroslinger Bracer",
-            "Fatui Skirmisher - Electrohammer Vanguard",
-            "Fatui Skirmisher - Anemoboxer Vanguard"
-          ]
-        ]
-      }
-    ]
-  },
-  "8": {
-    "teams": 2,
-    "leyline": "When HP is less than 60%, ATK is increased by 50% and DEF is increased by 50%.\nWhen HP is less than 45%, Normal Attack SPD is increased by 30%.\nWhen HP is less than 45%, Movement SPD is increased by 30%.\nWhen HP is less than 30%, CRIT Rate is increased by 20% and CRIT DMG is increased by 40%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 69,
-        "conds": "More than 180/330/420 seconds left",
-        "monsters": [
-          [
-            "Hydro Abyss Mage",
-            "Cryo Abyss Mage"
-          ],
-          [
-            "Pyro Abyss Mage"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 69,
-        "conds": "More than 180/300/360 seconds left",
-        "monsters": [
-          [
-            "Ruin Guard",
-            "Cryo Hilichurl Shooter",
-            "Hilichurl Shooter",
-            "Wooden Shield Hilichurl Guard",
-            "Hilichurl Fighter"
-          ],
-          [
-            "Ruin Guard",
-            "Pyro Hilichurl Shooter",
-            "Hilichurl Berserker",
-            "Hilichurl Grenadier"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 69,
-        "conds": "More than 60/120/180 seconds left",
-        "monsters": [
-          [
-            "Cryo Regisvine"
-          ],
-          [
-            "Pyro Regisvine"
-          ]
-        ]
-      }
-    ]
-  },
-  "9": {
-    "teams": 2,
-    "leyline": "Pyro DMG dealt by all party members increased by 75%.\nElectro DMG dealt by all party members increased by 75%.\nOverloaded DMG increased by 200%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 71,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Large Pyro Slime",
-            "Large Electro Slime",
-            "Mutant Electro Slime"
-          ],
-          [
-            "Large Electro Slime",
-            "Mutant Electro Slime",
-            "Large Pyro Slime"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 73,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Fatui Electro Cicin Mage",
-            "Treasure Hoarders - Seaman",
-            "Treasure Hoarders: Electro Potioneer",
-            "Treasure Hoarders: Pyro Potioneer",
-            "Treasure Hoarders: Cryo Potioneer",
-            "Treasure Hoarders - Scout"
-          ],
-          [
-            "Fatui Skirmisher - Cryogunner Legionnaire",
-            "Fatui Skirmisher - Electrohammer Vanguard",
-            "Fatui Skirmisher - Geochanter Bracer",
-            "Fatui Skirmisher - Anemoboxer Vanguard"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 75,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Geovishap Hatchling",
-            "Stonehide Lawachurl"
-          ],
-          [
-            "Ruin Guard"
-          ]
-        ]
-      }
-    ]
-  },
-  "10": {
-    "teams": 2,
-    "leyline": "Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed.\nIncoming healing bonus of all party members increased by 50%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 79,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Blazing Axe Mitachurl",
-            "Large Pyro Slime",
-            "Hilichurl Berserker"
-          ],
-          [
-            "Pyro Abyss Mage",
-            "Blazing Axe Mitachurl"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 81,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Blazing Axe Mitachurl",
-            "Pyro Whopperflower",
-            "Hilichurl Grenadier",
-            "Hilichurl Fighter"
-          ],
-          [
-            "Pyro Abyss Mage",
-            "Blazing Axe Mitachurl",
-            "Pyro Hilichurl Shooter"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 84,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Fatui Skirmisher - Anemoboxer Vanguard",
-            "Fatui Skirmisher - Pyroslinger Bracer"
-          ],
-          [
-            "Pyro Abyss Mage",
-            "Dendro Samachurl",
-            "Pyro Hilichurl Shooter",
-            "Pyro Whopperflower"
-          ]
-        ]
-      }
-    ]
-  },
-  "11": {
-    "teams": 2,
-    "leyline": "Electro DMG dealt by all party members increased by 75%.\nCryo DMG dealt by all party members increased by 75%.\nSuperconduct DMG increased by 300%, and decreases target's Physical RES by an additional 20%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 87,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Large Cryo Slime",
-            "Large Electro Slime",
-            "Mutant Electro Slime",
-            "Cryo Hilichurl Shooter",
-            "Wooden Shield Hilichurl Guard"
-          ],
-          [
-            "Fatui Electro Cicin Mage",
-            "Cryo Abyss Mage",
-            "Hydro Samachurl",
-            "Cryo Hilichurl Shooter",
-            "Electro Hilichurl Shooter"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 89,
-        "conds": "More than 20/40/60% HP left",
-        "monsters": [
-          [
-            "Blazing Axe Mitachurl",
-            "Rock Shieldwall Mitachurl",
-            "Hilichurl Grenadier",
-            "Rock Shield Hilichurl Guard"
-          ],
-          [
-            "Blazing Axe Mitachurl",
-            "Rock Shieldwall Mitachurl",
-            "Large Electro Slime",
-            "Mutant Electro Slime",
-            "Electro Hilichurl Shooter",
-            "Cryo Hilichurl Shooter"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 91,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Fatui Skirmisher - Cryogunner Legionnaire",
-            "Fatui Skirmisher - Geochanter Bracer",
-            "Fatui Skirmisher - Anemoboxer Vanguard"
-          ],
-          [
-            "Fatui Skirmisher - Electrohammer Vanguard",
-            "Fatui Skirmisher - Anemoboxer Vanguard",
-            "Fatui Skirmisher - Geochanter Bracer"
-          ]
-        ]
-      }
-    ]
-  },
-  "12": {
-    "teams": 2,
-    "leyline": "Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption and preventing its natural regeneration until the inflicted Cryo element is removed.\nPyro DMG dealt by all party members increased by 75%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 94,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Wooden Shieldwall Mitachurl",
-            "Large Cryo Slime",
-            "Cryo Whopperflower"
-          ],
-          [
-            "Cryo Abyss Mage",
-            "Large Cryo Slime",
-            "Cryo Hilichurl Shooter"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 97,
-        "conds": "More than 20/40/60% HP left",
-        "monsters": [
-          [
-            "Cryo Whopperflower",
-            "Pyro Hilichurl Shooter",
-            "Cryo Hilichurl Shooter"
-          ],
-          [
-            "Cryo Abyss Mage",
-            "Wooden Shieldwall Mitachurl",
-            "Large Cryo Slime",
-            "Cryo Hilichurl Shooter",
-            "Electro Hilichurl Shooter",
-            "Pyro Hilichurl Shooter"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 99,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Fatui Skirmisher - Cryogunner Legionnaire",
-            "Fatui Skirmisher - Electrohammer Vanguard",
-            "Fatui Skirmisher - Anemoboxer Vanguard"
-          ],
-          [
-            "Fatui Skirmisher - Cryogunner Legionnaire",
-            "Fatui Skirmisher - Electrohammer Vanguard",
-            "Fatui Skirmisher - Anemoboxer Vanguard",
-            "Fatui Skirmisher - Geochanter Bracer"
-          ]
-        ]
-      }
-    ]
-  },
-  "13": {
-    "teams": 2,
-    "leyline": "Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.\nOpponents will attack the Ruin Braziers, preventing them from diminishing the effects of Sheer Cold in the area. Deactivated Ruin Braziers will restart after a while.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 71,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Ice Shieldwall Mitachurl",
-            "Ice Shield Hilichurl Guard",
-            "Large Cryo Slime"
-          ],
-          [
-            "Cryo Abyss Mage",
-            "Ice Shieldwall Mitachurl",
-            "Cryo Samachurl",
-            "Cryo Hilichurl Shooter"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 73,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Ice Shieldwall Mitachurl",
-            "Ice Shield Hilichurl Guard",
-            "Cryo Hilichurl Grenadier",
-            "Large Cryo Slime"
-          ],
-          [
-            "Fatui Skirmisher - Cryogunner Legionnaire",
-            "Fatui Skirmisher - Electrohammer Vanguard",
-            "Fatui Skirmisher - Anemoboxer Vanguard"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 75,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Frostarm Lawachurl",
-            "Cryo Hilichurl Shooter"
-          ],
-          [
-            "Cryo Abyss Mage",
-            "Ice Shieldwall Mitachurl"
-          ]
-        ]
-      }
-    ]
-  },
-  "14": {
-    "teams": 2,
-    "leyline": "Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.\nWarming Seelie appear on the field, and will continually alleviate nearby characters' Sheer Cold.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 79,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Cryo Abyss Mage",
-            "Cryo Hilichurl Grenadier",
-            "Large Cryo Slime"
-          ],
-          [
-            "Fatui Electro Cicin Mage",
-            "Cryo Abyss Mage",
-            "Hydro Samachurl"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 81,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Ice Shieldwall Mitachurl",
-            "Ice Shield Hilichurl Guard",
-            "Cryo Hilichurl Grenadier"
-          ],
-          [
-            "Fatui Cryo Cicin Mage",
-            "Treasure Hoarders: Electro Potioneer",
-            "Treasure Hoarders: Cryo Potioneer"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 84,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Fatui Cryo Cicin Mage",
-            "Fatui Pyro Agent"
-          ],
-          [
-            "Frostarm Lawachurl"
-          ]
-        ]
-      }
-    ]
-  },
-  "15": {
-    "teams": 2,
-    "leyline": "Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed.\nCryo DMG dealt by all party members increased by 75%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 87,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Hydro Abyss Mage",
-            "Large Electro Slime",
-            "Mutant Electro Slime",
-            "Large Hydro Slime"
-          ],
-          [
-            "Rock Shieldwall Mitachurl",
-            "Blazing Axe Mitachurl"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 89,
-        "conds": "More than 20/40/60% HP left",
-        "monsters": [
-          [
-            "Wooden Shieldwall Mitachurl",
-            "Blazing Axe Mitachurl",
-            "Rock Shield Hilichurl Guard",
-            "Hilichurl Berserker",
-            "Electro Hilichurl Shooter",
-            "Pyro Hilichurl Shooter"
-          ],
-          [
-            "Fatui Electro Cicin Mage",
-            "Fatui Pyro Agent",
-            "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Crusher",
-            "Treasure Hoarders: Pyro Potioneer",
-            "Treasure Hoarders: Hydro Potioneer"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 91,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Fatui Skirmisher - Anemoboxer Vanguard",
-            "Fatui Skirmisher - Electrohammer Vanguard",
-            "Fatui Skirmisher - Geochanter Bracer",
-            "Fatui Skirmisher - Hydrogunner Legionnaire"
-          ],
-          [
-            "Fatui Pyro Agent",
-            "Fatui Electro Cicin Mage"
-          ]
-        ]
-      }
-    ]
-  },
-  "16": {
-    "teams": 2,
-    "leyline": "Geo DMG dealt by all party members increased by 75%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 94,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Rock Shieldwall Mitachurl",
-            "Blazing Axe Mitachurl",
-            "Rock Shield Hilichurl Guard"
-          ],
-          [
-            "Ruin Guard",
-            "Eye of the Storm"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 97,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Seaman",
-            "Treasure Hoarders: Handyman",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Crusher"
-          ],
-          [
-            "Fatui Pyro Agent"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 99,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Fatui Electro Cicin Mage",
-            "Rock Shieldwall Mitachurl",
-            "Treasure Hoarders: Pyro Potioneer",
-            "Treasure Hoarders: Cryo Potioneer"
-          ],
-          [
-            "Fatui Pyro Agent",
-            "Rock Shieldwall Mitachurl"
-          ]
-        ]
-      }
-    ]
-  },
-  "17": {
-    "teams": 2,
-    "leyline": "For this floor only, the ley line flow will be normal.\nNo Ley Line Disorder",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 94,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Geovishap"
-          ],
-          [
-            "Geovishap"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 97,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Fatui Electro Cicin Mage",
-            "Fatui Cryo Cicin Mage"
-          ],
-          [
-            "Fatui Pyro Agent",
-            "Treasure Hoarders: Gravedigger"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 99,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Ruin Guard"
-          ],
-          [
-            "Ruin Grader"
-          ]
-        ]
-      }
-    ]
-  },
-  "18": {
-    "teams": 2,
-    "leyline": "Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted Hydro element is removed.\nPhysical DMG dealt by all party members increased by 75%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 87,
-        "conds": "More than 20/40/60% HP left",
-        "monsters": [
-          [
-            "Treasure Hoarders - Crusher",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Marksman"
-          ],
-          [
-            "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Seaman",
-            "Treasure Hoarders: Handyman",
-            "Treasure Hoarders: Pyro Potioneer",
-            "Treasure Hoarders: Hydro Potioneer",
-            "Treasure Hoarders: Electro Potioneer",
-            "Treasure Hoarders: Cryo Potioneer"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 89,
-        "conds": "More than 120/240/360 seconds left",
-        "monsters": [
-          [
-            "Fatui Skirmisher - Electrohammer Vanguard",
-            "Fatui Skirmisher - Hydrogunner Legionnaire",
-            "Fatui Skirmisher - Anemoboxer Vanguard"
-          ],
-          [
-            "Fatui Skirmisher - Electrohammer Vanguard",
-            "Fatui Skirmisher - Hydrogunner Legionnaire",
-            "Fatui Skirmisher - Geochanter Bracer"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 91,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Fatui Electro Cicin Mage",
-            "Fatui Cryo Cicin Mage"
-          ],
-          [
-            "Abyss Herald: Wicked Torrents"
-          ]
-        ]
-      }
-    ]
-  },
-  "19": {
-    "teams": 2,
-    "leyline": "For this floor only, the ley line flow will be normal.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 94,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Geovishap",
-            "Pyro Whopperflower"
-          ],
-          [
-            "Geovishap",
-            "Cryo Whopperflower"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 97,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Seaman",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Crusher",
-            "Treasure Hoarders: Pyro Potioneer",
-            "Treasure Hoarders: Hydro Potioneer",
-            "Treasure Hoarders: Electro Potioneer",
-            "Electro Cicin",
-            "Hydro Cicin",
-            "Cryo Cicin"
-          ],
-          [
-            "Pyro Abyss Mage",
-            "Hydro Abyss Mage",
-            "Hydro Mimic Boar",
-            "Hydro Mimic Crane",
-            "Hydro Mimic Crab",
-            "Hydro Mimic Mallard",
-            "Hydro Mimic Ferret"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 99,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Abyss Lector: Violet Lightning"
-          ],
-          [
-            "Fatui Pyro Agent",
-            "Fatui Electro Cicin Mage",
-            "Fatui Cryo Cicin Mage"
-          ]
-        ]
-      }
-    ]
-  },
-  "20": {
-    "teams": 2,
-    "leyline": "Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.\nOpponents will attack the Ruin Braziers, preventing them from diminishing the effects of Sheer Cold in the area. Deactivated Ruin Braziers will restart after a while.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 71,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Ice Shieldwall Mitachurl",
-            "Ice Shield Hilichurl Guard",
-            "Cryo Whopperflower"
-          ],
-          [
-            "Cryo Abyss Mage",
-            "Ice Shieldwall Mitachurl",
-            "Cryo Samachurl",
-            "Cryo Hilichurl Shooter",
-            "Electro Hilichurl Shooter"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 73,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Ice Shieldwall Mitachurl",
-            "Ice Shield Hilichurl Guard",
-            "Cryo Hilichurl Grenadier",
-            "Cryo Whopperflower"
-          ],
-          [
-            "Fatui Skirmisher - Cryogunner Legionnaire",
-            "Fatui Skirmisher - Hydrogunner Legionnaire",
-            "Fatui Skirmisher - Geochanter Bracer",
-            "Fatui Skirmisher - Anemoboxer Vanguard"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 75,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Frostarm Lawachurl",
-            "Cryo Samachurl",
-            "Cryo Hilichurl Shooter",
-            "Electro Hilichurl Shooter"
-          ],
-          [
-            "Cryo Abyss Mage",
-            "Hydro Abyss Mage",
-            "Ice Shieldwall Mitachurl"
-          ]
-        ]
-      }
-    ]
-  },
-  "21": {
-    "teams": 2,
-    "leyline": "Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.\nWarming Seelie appear on the field, and will continually alleviate nearby characters' Sheer Cold.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 79,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Hydro Abyss Mage",
-            "Cryo Whopperflower",
-            "Cryo Hilichurl Grenadier",
-            "Large Cryo Slime",
-            "Large Hydro Slime"
-          ],
-          [
-            "Abyss Herald: Wicked Torrents",
-            "Cryo Abyss Mage"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 81,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Ice Shieldwall Mitachurl",
-            "Ice Shield Hilichurl Guard",
-            "Cryo Hilichurl Grenadier",
-            "Anemo Samachurl",
-            "Hydro Samachurl"
-          ],
-          [
-            "Abyss Lector: Violet Lightning",
-            "Cryo Abyss Mage"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 84,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Cryo Hypostasis"
-          ],
-          [
-            "Frostarm Lawachurl",
-            "Hydro Abyss Mage"
-          ]
-        ]
-      }
-    ]
-  },
-  "22": {
-    "teams": 2,
-    "leyline": "Increases Swirl DMG by 300% and its AoE by 100%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 87,
-        "conds": "More than 20/40/60% HP left",
-        "monsters": [
-          [
-            "Blazing Axe Mitachurl",
-            "Wooden Shieldwall Mitachurl",
-            "Hilichurl Berserker",
-            "Wooden Shield Hilichurl Guard",
-            "Pyro Hilichurl Shooter",
-            "Cryo Hilichurl Shooter",
-            "Electro Hilichurl Shooter"
-          ],
-          [
-            "Stonehide Lawachurl",
-            "Rock Shield Hilichurl Guard",
-            "Cryo Hilichurl Grenadier",
-            "Hilichurl Grenadier"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 89,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Fatui Skirmisher - Pyroslinger Bracer",
-            "Fatui Skirmisher - Electrohammer Vanguard",
-            "Fatui Skirmisher - Anemoboxer Vanguard"
-          ],
-          [
-            "Fatui Skirmisher - Cryogunner Legionnaire",
-            "Fatui Skirmisher - Hydrogunner Legionnaire",
-            "Fatui Skirmisher - Geochanter Bracer"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 91,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Ruin Hunter",
-            "Ruin Guard"
-          ],
-          [
-            "Abyss Lector: Violet Lightning",
-            "Abyss Herald: Wicked Torrents"
-          ]
-        ]
-      }
-    ]
-  },
-  "23": {
-    "teams": 2,
-    "leyline": "For this floor only, the ley line flow will be normal.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 94,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Geovishap"
-          ],
-          [
-            "Geovishap"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 97,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Fatui Cryo Cicin Mage",
-            "Treasure Hoarders - Seaman",
-            "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Crusher",
-            "Treasure Hoarders: Pyro Potioneer",
-            "Treasure Hoarders: Hydro Potioneer",
-            "Treasure Hoarders: Electro Potioneer",
-            "Treasure Hoarders: Cryo Potioneer"
-          ],
-          [
-            "Stonehide Lawachurl",
-            "Geovishap Hatchling"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 99,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Abyss Lector: Violet Lightning",
-            "Pyro Abyss Mage",
-            "Hydro Abyss Mage"
-          ],
-          [
-            "Abyss Herald: Wicked Torrents",
-            "Pyro Abyss Mage",
-            "Cryo Abyss Mage"
-          ]
-        ]
-      }
-    ]
-  },
-  "24": {
-    "teams": 2,
-    "leyline": "A Plasma Field will be generated at the edge of the challenge area once the challenge begins. While within the field, characters will be hit by a lightning strike once every 5s and take Electro DMG. The area covered by the field will gradually expand as the challenge proceeds.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 71,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Wooden Shieldwall Mitachurl",
-            "Anemo Samachurl",
-            "Hydro Samachurl",
-            "Electro Hilichurl Shooter",
-            "Cryo Hilichurl Shooter",
-            "Large Hydro Slime"
-          ],
-          [
-            "Hydro Abyss Mage",
-            "Electro Samachurl",
-            "Crackling Axe Mitachurl",
-            "Blazing Axe Mitachurl"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 73,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Fatui Skirmisher - Cryogunner Legionnaire",
-            "Fatui Skirmisher - Hydrogunner Legionnaire",
-            "Fatui Skirmisher - Electrohammer Vanguard",
-            "Fatui Skirmisher - Geochanter Bracer",
-            "Fatui Skirmisher - Anemoboxer Vanguard"
-          ],
-          [
-            "Treasure Hoarders: Handyman",
-            "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Seaman",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Crusher",
-            "Treasure Hoarders: Pyro Potioneer",
-            "Treasure Hoarders: Hydro Potioneer",
-            "Treasure Hoarders: Electro Potioneer",
-            "Treasure Hoarders: Cryo Potioneer",
-            "Treasure Hoarders - Marksman"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 75,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Frostarm Lawachurl",
-            "Stonehide Lawachurl"
-          ],
-          [
-            "Fatui Pyro Agent",
-            "Fatui Electro Cicin Mage"
-          ]
-        ]
-      }
-    ]
-  },
-  "25": {
-    "teams": 2,
-    "leyline": "There will be a Leader amongst the opponents present in each challenge on this floor. Its Attendants will also be present to provide it with enhancements and protection. Each Attendant will increase the Leader's Element RES and Physical RES by 10%. The Attendants will restore the Leader's HP every 12s, with each Attendant restoring 5% HP. When there are no Attendants, the Leader will not have any of the above enhancement and restoration effects.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 79,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Electro Abyss Mage",
-            "Dendro Samachurl",
-            "Anemo Samachurl",
-            "Hydro Samachurl",
-            "Blazing Axe Mitachurl",
-            "Pyro Hilichurl Shooter",
-            "Cryo Hilichurl Shooter",
-            "Electro Hilichurl Shooter"
-          ],
-          [
-            "Stonehide Lawachurl",
-            "Pyro Hilichurl Shooter",
-            "Cryo Hilichurl Shooter"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 81,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Fatui Pyro Agent",
-            "Fatui Skirmisher - Cryogunner Legionnaire",
-            "Fatui Skirmisher - Hydrogunner Legionnaire",
-            "Fatui Skirmisher - Anemoboxer Vanguard"
-          ],
-          [
-            "Fatui Electro Cicin Mage",
-            "Fatui Skirmisher - Pyroslinger Bracer",
-            "Fatui Skirmisher - Electrohammer Vanguard",
-            "Fatui Skirmisher - Geochanter Bracer"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 84,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Abyss Lector: Violet Lightning",
-            "Anemo Samachurl",
-            "Hydro Samachurl"
-          ],
-          [
-            "Abyss Herald: Wicked Torrents",
-            "Electro Samachurl"
-          ]
-        ]
-      }
-    ]
-  },
-  "26": {
-    "teams": 2,
-    "leyline": "Pyro DMG dealt by all party members increased by 60%.\nCryo DMG dealt by all party members increased by 60%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 87,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Crackling Axe Mitachurl",
-            "Blazing Axe Mitachurl",
-            "Electro Whopperflower",
-            "Large Electro Slime",
-            "Mutant Electro Slime",
-            "Large Hydro Slime"
-          ],
-          [
-            "Thunderhelm Lawachurl",
-            "Electro Abyss Mage"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 89,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Frostarm Lawachurl",
-            "Cryo Abyss Mage",
-            "Hydro Abyss Mage"
-          ],
-          [
-            "Abyss Lector: Violet Lightning",
-            "Electro Abyss Mage",
-            "Pyro Abyss Mage"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 91,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Cryo Hypostasis"
-          ],
-          [
-            "Pyro Hypostasis"
-          ]
-        ]
-      }
-    ]
-  },
-  "27": {
-    "teams": 2,
-    "leyline": "Energy Tides are present in this challenge. They will switch between Elemental High Tide and Elemental Low Tide in 10s cycles.\nDuring High Tide, a large amount of Elemental Particles will be generated when a character's attack hits opponents, restoring 10 Elemental Energy. This effect can occur once every 2.8s.\nDuring Low Tide, all characters in the party cannot gain Elemental Energy.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 94,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Kairagi: Dancing Thunder",
-            "Kairagi: Fiery Might",
-            "Nobushi: Jintouban",
-            "Nobushi: Hitsukeban",
-            "Nobushi: Kikouban"
-          ],
-          [
-            "Mirror Maiden",
-            "Fatui Pyro Agent",
-            "Fatui Electro Cicin Mage"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 97,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Hydro Abyss Mage",
-            "Thunderhelm Lawachurl",
-            "Crackling Axe Mitachurl",
-            "Blazing Axe Mitachurl"
-          ],
-          [
-            "Maguu Kenki"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 99,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Ruin Hunter",
-            "Ruin Cruiser",
-            "Ruin Defender",
-            "Ruin Scout"
-          ],
-          [
-            "Ruin Guard",
-            "Ruin Destroyer",
-            "Ruin Scout"
-          ]
-        ]
-      }
-    ]
-  },
-  "28": {
-    "teams": 2,
-    "leyline": "When opponents are defeated, all party members will be affected by the \"Corrosion\" status.\nCharacters being Corroded will lose a fraction of their HP every second. Active characters can be brought down by Corrosion. When a non-active character's HP is less than 15%, they will no longer lose HP due to Corrosion.\nCorrosion lasts 10s and can stack. The duration of each stack is counted independently.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 87,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Blazing Axe Mitachurl",
-            "Electro Hilichurl Grenadier",
-            "Hilichurl Berserker"
-          ],
-          [
-            "Pyro Abyss Mage",
-            "Dendro Samachurl",
-            "Pyro Hilichurl Shooter",
-            "Hilichurl Grenadier"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 89,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Fatui Skirmisher - Pyroslinger Bracer",
-            "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Seaman",
-            "Treasure Hoarders - Scout"
-          ],
-          [
-            "Kairagi: Fiery Might",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Crusher",
-            "Treasure Hoarders: Electro Potioneer",
-            "Treasure Hoarders: Cryo Potioneer"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 91,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Fatui Pyro Agent",
-            "Fatui Cryo Cicin Mage",
-            "Fatui Electro Cicin Mage"
-          ],
-          [
-            "Geovishap",
-            "Large Pyro Slime"
-          ]
-        ]
-      }
-    ]
-  },
-  "29": {
-    "teams": 2,
-    "leyline": "For this floor only, the ley line flow will be normal.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 94,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Nobushi: Hitsukeban",
-            "Nobushi: Kikouban",
-            "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders: Handyman",
-            "Treasure Hoarders - Seaman",
-            "Treasure Hoarders: Pyro Potioneer",
-            "Treasure Hoarders: Hydro Potioneer",
-            "Treasure Hoarders: Electro Potioneer",
-            "Treasure Hoarders: Cryo Potioneer"
-          ],
-          [
-            "Stonehide Lawachurl",
-            "Eye of the Storm",
-            "Anemo Specter",
-            "Geo Specter"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 97,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Maguu Kenki"
-          ],
-          [
-            "Mirror Maiden",
-            "Fatui Cryo Cicin Mage"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 99,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Ruin Guard"
-          ],
-          [
-            "Perpetual Mechanical Array"
-          ]
-        ]
-      }
-    ]
-  },
-  "30": {
-    "teams": 2,
-    "leyline": "Pyro DMG dealt by party members increased by 60%.\nHydro DMG dealt by party members increased by 60%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 87,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Electro Abyss Mage",
-            "Hydro Abyss Mage",
-            "Electro Whopperflower",
-            "Large Hydro Slime"
-          ],
-          [
-            "Pyro Abyss Mage",
-            "Crackling Axe Mitachurl",
-            "Pyro Whopperflower",
-            "Large Pyro Slime"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 89,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Fatui Electro Cicin Mage",
-            "Fatui Cryo Cicin Mage",
-            "Fatui Skirmisher - Cryogunner Legionnaire",
-            "Fatui Skirmisher - Anemoboxer Vanguard"
-          ],
-          [
-            "Kairagi: Dancing Thunder",
-            "Kairagi: Fiery Might",
-            "Nobushi: Hitsukeban",
-            "Nobushi: Kikouban"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 91,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Hydro Hypostasis"
-          ],
-          [
-            "Pyro Hypostasis"
-          ]
-        ]
-      }
-    ]
-  },
-  "31": {
-    "teams": 2,
-    "leyline": "For this floor only, the ley line flow will be normal.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 94,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Fatui Pyro Agent",
-            "Nobushi: Jintouban",
-            "Nobushi: Hitsukeban",
-            "Nobushi: Kikouban"
-          ],
-          [
-            "Geovishap",
-            "Hydro Mimic Boar",
-            "Hydro Mimic Ferret"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 97,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Maguu Kenki"
-          ],
-          [
-            "Mirror Maiden",
-            "Fatui Cryo Cicin Mage",
-            "Treasure Hoarders: Pyro Potioneer",
-            "Treasure Hoarders: Hydro Potioneer",
-            "Treasure Hoarders: Electro Potioneer",
-            "Treasure Hoarders: Cryo Potioneer"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 99,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Ruin Guard",
-            "Ruin Hunter",
-            "Ruin Cruiser",
-            "Ruin Destroyer"
-          ],
-          [
-            "Ruin Guard",
-            "Ruin Grader",
-            "Ruin Cruiser",
-            "Ruin Defender"
-          ]
-        ]
-      }
-    ]
-  },
-  "32": {
-    "teams": 2,
-    "leyline": "Geo DMG dealt by all party members increased by 60%.\nPhysical DMG dealt by all party members' increased by 60%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 87,
-        "conds": "More than 20/40/60% HP left",
-        "monsters": [
-          [
-            "Rock Shieldwall Mitachurl",
-            "Electro Samachurl",
-            "Hydro Samachurl",
-            "Hilichurl Berserker",
-            "Rock Shieldwall Mitachurl",
-            "Rock Shield Hilichurl Guard",
-            "Hilichurl Fighter",
-            "Electro Hilichurl Grenadier",
-            "Hilichurl Grenadier",
-            "Cryo Hilichurl Shooter",
-            "Pyro Hilichurl Shooter"
-          ],
-          [
-            "Nobushi: Jintouban",
-            "Nobushi: Hitsukeban",
-            "Nobushi: Kikouban",
-            "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Seaman",
-            "Treasure Hoarders - Crusher",
-            "Treasure Hoarders - Marksman",
-            "Treasure Hoarders: Pyro Potioneer",
-            "Treasure Hoarders: Hydro Potioneer",
-            "Treasure Hoarders: Electro Potioneer",
-            "Treasure Hoarders: Cryo Potioneer"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 89,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Frostarm Lawachurl",
-            "Large Pyro Slime",
-            "Large Cryo Slime",
-            "Large Hydro Slime"
-          ],
-          [
-            "Kairagi: Dancing Thunder",
-            "Kairagi: Fiery Might",
-            "Nobushi: Jintouban",
-            "Nobushi: Hitsukeban",
-            "Nobushi: Kikouban"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 91,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Hydro Mimic Frog",
-            "Hydro Mimic Finch",
-            "Hydro Mimic Boar",
-            "Hydro Mimic Ferret",
-            "Hydro Mimic Crab",
-            "Hydro Mimic Crane",
-            "Hydro Specter",
-            "Anemo Specter"
-          ],
-          [
-            "Ruin Cruiser",
-            "Ruin Defender",
-            "Ruin Scout"
-          ]
-        ]
-      }
-    ]
-  },
-  "33": {
-    "teams": 2,
-    "leyline": "For this floor only, the ley line flow will be normal.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 94,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Thundercraven Rifthound",
-            "Thundercraven Rifthound Whelp"
-          ],
-          [
-            "Rockfond Rifthound",
-            "Rockfond Rifthound Whelp"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 97,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Geovishap"
-          ],
-          [
-            "Maguu Kenki: Lone Gale",
-            "Maguu Kenki: Galloping Frost",
-            "Maguu Kenki: Mask of Terror"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 99,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Thundercraven Rifthound",
-            "Ruin Cruiser",
-            "Ruin Defender"
-          ],
-          [
-            "Rockfond Rifthound",
-            "Rockfond Rifthound Whelp",
-            "Ruin Guard"
-          ]
-        ]
-      }
-    ]
-  },
-  "34": {
-    "teams": 2,
-    "leyline": "All party members' Normal Attack DMG increased by 50%.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 87,
-        "conds": "More than 20/40/60% HP left",
-        "monsters": [
-          [
-            "Ruin Cruiser",
-            "Ruin Destroyer"
-          ],
-          [
-            "Electro Abyss Mage",
-            "Thunderhelm Lawachurl",
-            "Electro Hilichurl Grenadier",
-            "Hilichurl Grenadier",
-            "Pyro Hilichurl Shooter"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 89,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Large Pyro Slime",
-            "Large Electro Slime",
-            "Pyro Specter",
-            "Electro Specter"
-          ],
-          [
-            "Hydro Mimic Boar",
-            "Hydro Mimic Crane",
-            "Hydro Mimic Crab",
-            "Hydro Mimic Finch",
-            "Hydro Mimic Mallard",
-            "Hydro Mimic Ferret",
-            "Hydro Mimic Frog",
-            "Hydro Mimic Raptor"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 91,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Mirror Maiden",
-            "Kairagi: Dancing Thunder",
-            "Kairagi: Fiery Might"
-          ],
-          [
-            "Thunder Manifestation"
-          ]
-        ]
-      }
-    ]
-  },
-  "35": {
-    "teams": 2,
-    "leyline": "Certain opponents in this challenge possess the Honed Spirit effect, which grants them 10% Physical and All Elemental RES. When opponents with Honed Spirit take hits from attacks that are considered Normal Attack DMG, they will lose 3% Physical and All Elemental RES. A maximum of 30% of each may be lost this way. The RES lost this way will be reset every 20s.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 94,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Perpetual Mechanical Array"
-          ],
-          [
-            "Abyss Lector: Fathomless Flames",
-            "Dendro Samachurl",
-            "Pyro Abyss Mage",
-            "Rockfond Rifthound Whelp"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 97,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Primo Geovishap"
-          ],
-          [
-            "Abyss Herald: Wicked Torrents"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 99,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Ruin Guard",
-            "Ruin Grader"
-          ],
-          [
-            "Maguu Kenki"
-          ]
-        ]
-      }
-    ]
-  },
-  "36": {
-    "teams": 2,
-    "leyline": "All characters in the party gain a 60% Electro DMG Bonus.\nAll party members gain 30% Healing Bonus.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 87,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Abyss Herald: Wicked Torrents",
-            "Cryo Abyss Mage"
-          ],
-          [
-            "Geovishap",
-            "Pyro Whopperflower",
-            "Electro Whopperflower"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 89,
-        "conds": "More than 60/180/300 seconds left",
-        "monsters": [
-          [
-            "Hydro Abyss Mage",
-            "Hydro Specter",
-            "Cryo Specter",
-            "Large Cryo Slime",
-            "Large Hydro Slime"
-          ],
-          [
-            "Pyro Abyss Mage",
-            "Dendro Samachurl",
-            "Pyro Specter",
-            "Electro Specter",
-            "Large Electro Slime",
-            "Mutant Electro Slime",
-            "Large Pyro Slime"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 91,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Thundercraven Rifthound",
-            "Thundercraven Rifthound Whelp"
-          ],
-          [
-            "Abyss Lector: Fathomless Flames",
-            "Abyss Lector: Violet Lightning"
-          ]
-        ]
-      }
-    ]
-  },
-  "37": {
-    "teams": 2,
-    "leyline": "For this floor only, the ley line flow will be normal.",
-    "chambers": [
-      {
-        "chamber": 1,
-        "level": 94,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Thundercraven Rifthound",
-            "Thundercraven Rifthound Whelp"
-          ],
-          [
-            "Primordial Bathysmal Vishap",
-            "Primordial Bathysmal Vishap Hatchling",
-            "Rimebiter Bathysmal Vishap Hatchling"
-          ]
-        ]
-      },
-      {
-        "chamber": 2,
-        "level": 97,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Ruin Grader"
-          ],
-          [
-            "Golden Wolflord"
-          ]
-        ]
-      },
-      {
-        "chamber": 3,
-        "level": 99,
-        "conds": "More than 180/300/420 seconds left",
-        "monsters": [
-          [
-            "Ruin Destroyer",
-            "Ruin Scout"
-          ],
-          [
-            "Rimebiter Bathysmal Vishap",
-            "Bolteater Bathysmal Vishap"
-          ]
-        ]
-      }
-    ]
-  }
+    "1": {
+        "teams": 1,
+        "leyline": "Pyro DMG dealt by all party members increased by 75%.\nOverloaded DMG increased by 200%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 25,
+                "conds": "More than 90/150/210 seconds left",
+                "monsters": [
+                    [
+                        "Electro Slime",
+                        "Large Electro Slime",
+                        "Mutant Electro Slime"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 25,
+                "conds": "More than 90/150/210 seconds left",
+                "monsters": [
+                    [
+                        "Hilichurl Fighter",
+                        "Wooden Shield Hilichurl Guard",
+                        "Hilichurl Shooter",
+                        "Hilichurl Grenadier",
+                        "Wooden Shieldwall Mitachurl",
+                        "Blazing Axe Mitachurl"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 25,
+                "conds": "More than 90/150/210 seconds left",
+                "monsters": [
+                    [
+                        "Hilichurl Shooter",
+                        "Wooden Shieldwall Mitachurl",
+                        "Large Electro Slime",
+                        "Mutant Electro Slime",
+                        "Fatui Electro Cicin Mage"
+                    ]
+                ]
+            }
+        ]
+    },
+    "2": {
+        "teams": 1,
+        "leyline": "Cryo DMG dealt by all party members increased by 75%.\nThe duration of the Frozen status effect is greatly increased.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 40,
+                "conds": "More than 60/90/180 seconds left",
+                "monsters": [
+                    [
+                        "Electro Slime",
+                        "Large Electro Slime",
+                        "Mutant Electro Slime"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 40,
+                "conds": "More than 20/40/60% HP left",
+                "monsters": [
+                    [
+                        "Hydro Slime",
+                        "Large Hydro Slime",
+                        "Blazing Axe Mitachurl",
+                        "Hydro Abyss Mage"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 40,
+                "conds": "More than 60/90/180 seconds left",
+                "monsters": [
+                    [
+                        "Hydro Samachurl",
+                        "Blazing Axe Mitachurl",
+                        "Hydro Abyss Mage"
+                    ]
+                ]
+            }
+        ]
+    },
+    "3": {
+        "teams": 1,
+        "leyline": "Increases Swirl DMG by 300% and its AoE by 100%.\nAnemo DMG dealt by all party members increased by 75%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 45,
+                "conds": "More than 60/90/180 seconds left",
+                "monsters": [
+                    [
+                        "Cryo Slime",
+                        "Pyro Slime",
+                        "Pyro Hilichurl Shooter",
+                        "Cryo Hilichurl Shooter",
+                        "Wooden Shield Hilichurl Guard",
+                        "Large Electro Slime",
+                        "Large Cryo Slime",
+                        "Large Pyro Slime"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 45,
+                "conds": "More than 60/90/180 seconds left",
+                "monsters": [
+                    [
+                        "Treasure Hoarders: Pyro Potioneer",
+                        "Treasure Hoarders: Hydro Potioneer",
+                        "Treasure Hoarders: Electro Potioneer",
+                        "Treasure Hoarders: Cryo Potioneer",
+                        "Treasure Hoarders: Gravedigger",
+                        "Treasure Hoarders - Pugilist",
+                        "Treasure Hoarders - Crusher"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 45,
+                "conds": "More than 60/90/120 seconds left",
+                "monsters": [
+                    [
+                        "Blazing Axe Mitachurl",
+                        "Ruin Guard"
+                    ]
+                ]
+            }
+        ]
+    },
+    "4": {
+        "teams": 1,
+        "leyline": "Electro DMG dealt by all party members increased by 75%.\nElectro-Charged DMG increased by 150%, and its AoE is increased by 100%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 50,
+                "conds": "More than 60/120/180 seconds left",
+                "monsters": [
+                    [
+                        "Hydro Slime",
+                        "Large Hydro Slime",
+                        "Hilichurl Fighter",
+                        "Cryo Hilichurl Shooter",
+                        "Hydro Abyss Mage"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 50,
+                "conds": "More than 20/40/60% HP left",
+                "monsters": [
+                    [
+                        "Hydro Slime",
+                        "Hilichurl Fighter",
+                        "Cryo Hilichurl Shooter",
+                        "Hilichurl Berserker",
+                        "Blazing Axe Mitachurl",
+                        "Hydro Abyss Mage"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 50,
+                "conds": "More than 60/90/120 seconds left",
+                "monsters": [
+                    [
+                        "Cryo Hilichurl Shooter",
+                        "Hilichurl Fighter",
+                        "Hydro Samachurl",
+                        "Blazing Axe Mitachurl",
+                        "Hydro Abyss Mage"
+                    ]
+                ]
+            }
+        ]
+    },
+    "5": {
+        "teams": 2,
+        "leyline": "When your character's HP is greater than 50%, ATK and DEF are increased by 25%.\nWhen HP is greater than 80%, Normal Attack SPD is increased by 20%.\nWhen HP is greater than 80%, Movement SPD is increased by 20%.\nWhen HP is greater than 95%, CRIT Rate is increased by 10% and CRIT DMG is increased by 20%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 55,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Large Cryo Slime",
+                        "Electro Hilichurl Shooter",
+                        "Cryo Slime"
+                    ],
+                    [
+                        "Pyro Abyss Mage"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 55,
+                "conds": "More than 90/180/240 seconds left",
+                "monsters": [
+                    [
+                        "Treasure Hoarders: Gravedigger",
+                        "Treasure Hoarders - Seaman",
+                        "Treasure Hoarders: Handyman",
+                        "Treasure Hoarders: Cryo Potioneer",
+                        "Treasure Hoarders - Marksman"
+                    ],
+                    [
+                        "Treasure Hoarders - Crusher",
+                        "Treasure Hoarders - Pugilist",
+                        "Treasure Hoarders - Seaman",
+                        "Treasure Hoarders: Pyro Potioneer",
+                        "Treasure Hoarders - Scout"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 55,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Electro Cicin Mage",
+                        "Treasure Hoarders: Handyman"
+                    ],
+                    [
+                        "Fatui Pyro Agent",
+                        "Treasure Hoarders: Electro Potioneer"
+                    ]
+                ]
+            }
+        ]
+    },
+    "6": {
+        "teams": 2,
+        "leyline": "Using an Elemental Burst increases all party members' ATK and DEF by 6%. Max 10 stacks. At 5 stacks and above, increases character Normal Attack SPD and Movement SPD are by an additional 30%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 60,
+                "conds": "More than 30/60/120 seconds left",
+                "monsters": [
+                    [
+                        "Cryo Whopperflower",
+                        "Large Cryo Slime",
+                        "Electro Hilichurl Shooter",
+                        "Hilichurl Fighter",
+                        "Cryo Slime"
+                    ],
+                    [
+                        "Pyro Whopperflower",
+                        "Large Pyro Slime",
+                        "Anemo Samachurl",
+                        "Cryo Hilichurl Shooter",
+                        "Hilichurl Fighter",
+                        "Pyro Slime"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 60,
+                "conds": "More than 90/180/270 seconds left",
+                "monsters": [
+                    [
+                        "Cryo Abyss Mage",
+                        "Rock Shieldwall Mitachurl",
+                        "Blazing Axe Mitachurl",
+                        "Wooden Shieldwall Mitachurl",
+                        "Hydro Samachurl",
+                        "Pyro Hilichurl Shooter",
+                        "Cryo Hilichurl Shooter",
+                        "Electro Hilichurl Shooter",
+                        "Hilichurl Grenadier",
+                        "Hilichurl Berserker",
+                        "Rock Shield Hilichurl Guard",
+                        "Wooden Shield Hilichurl Guard"
+                    ],
+                    [
+                        "Dendro Samachurl",
+                        "Anemo Samachurl",
+                        "Large Pyro Slime",
+                        "Pyro Hilichurl Shooter",
+                        "Cryo Hilichurl Shooter",
+                        "Electro Hilichurl Shooter",
+                        "Pyro Slime"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 60,
+                "conds": "More than 120/240/330 seconds left",
+                "monsters": [
+                    [
+                        "Stonehide Lawachurl",
+                        "Cryo Hilichurl Shooter",
+                        "Electro Hilichurl Shooter",
+                        "Geo Samachurl",
+                        "Rock Shield Hilichurl Guard"
+                    ],
+                    [
+                        "Pyro Abyss Mage",
+                        "Large Pyro Slime"
+                    ]
+                ]
+            }
+        ]
+    },
+    "7": {
+        "teams": 2,
+        "leyline": "CRIT hits will generate Elemental Particles and Orbs. Can only occur once every 15s.\nCRIT DMG dealt by all party members increased by 120%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 65,
+                "conds": "More than 120/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Skirmisher - Cryogunner Legionnaire",
+                        "Fatui Skirmisher - Hydrogunner Legionnaire",
+                        "Fatui Skirmisher - Electrohammer Vanguard"
+                    ],
+                    [
+                        "Fatui Skirmisher - Cryogunner Legionnaire",
+                        "Fatui Skirmisher - Pyroslinger Bracer",
+                        "Fatui Skirmisher - Anemoboxer Vanguard"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 65,
+                "conds": "More than 120/300/390 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Skirmisher - Cryogunner Legionnaire",
+                        "Fatui Skirmisher - Geochanter Bracer",
+                        "Fatui Skirmisher - Electrohammer Vanguard"
+                    ],
+                    [
+                        "Fatui Skirmisher - Geochanter Bracer",
+                        "Fatui Skirmisher - Pyroslinger Bracer",
+                        "Fatui Skirmisher - Anemoboxer Vanguard"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 65,
+                "conds": "More than 120/330/450 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Skirmisher - Hydrogunner Legionnaire",
+                        "Fatui Skirmisher - Electrohammer Vanguard",
+                        "Fatui Skirmisher - Anemoboxer Vanguard"
+                    ],
+                    [
+                        "Fatui Skirmisher - Pyroslinger Bracer",
+                        "Fatui Skirmisher - Electrohammer Vanguard",
+                        "Fatui Skirmisher - Anemoboxer Vanguard"
+                    ]
+                ]
+            }
+        ]
+    },
+    "8": {
+        "teams": 2,
+        "leyline": "When HP is less than 60%, ATK is increased by 50% and DEF is increased by 50%.\nWhen HP is less than 45%, Normal Attack SPD is increased by 30%.\nWhen HP is less than 45%, Movement SPD is increased by 30%.\nWhen HP is less than 30%, CRIT Rate is increased by 20% and CRIT DMG is increased by 40%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 70,
+                "conds": "More than 180/330/420 seconds left",
+                "monsters": [
+                    [
+                        "Hydro Abyss Mage",
+                        "Cryo Abyss Mage"
+                    ],
+                    [
+                        "Pyro Abyss Mage"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 70,
+                "conds": "More than 180/300/360 seconds left",
+                "monsters": [
+                    [
+                        "Ruin Guard",
+                        "Cryo Hilichurl Shooter",
+                        "Hilichurl Shooter",
+                        "Wooden Shield Hilichurl Guard",
+                        "Hilichurl Fighter"
+                    ],
+                    [
+                        "Ruin Guard",
+                        "Pyro Hilichurl Shooter",
+                        "Hilichurl Berserker",
+                        "Hilichurl Grenadier"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 70,
+                "conds": "More than 60/120/180 seconds left",
+                "monsters": [
+                    [
+                        "Cryo Regisvine"
+                    ],
+                    [
+                        "Pyro Regisvine"
+                    ]
+                ]
+            }
+        ]
+    },
+    "9": {
+        "teams": 2,
+        "leyline": "Pyro DMG dealt by all party members increased by 75%.\nElectro DMG dealt by all party members increased by 75%.\nOverloaded DMG increased by 200%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 72,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Large Pyro Slime",
+                        "Large Electro Slime",
+                        "Mutant Electro Slime"
+                    ],
+                    [
+                        "Large Electro Slime",
+                        "Mutant Electro Slime",
+                        "Large Pyro Slime"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 74,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Electro Cicin Mage",
+                        "Treasure Hoarders - Seaman",
+                        "Treasure Hoarders: Electro Potioneer",
+                        "Treasure Hoarders: Pyro Potioneer",
+                        "Treasure Hoarders: Cryo Potioneer",
+                        "Treasure Hoarders - Scout"
+                    ],
+                    [
+                        "Fatui Skirmisher - Cryogunner Legionnaire",
+                        "Fatui Skirmisher - Electrohammer Vanguard",
+                        "Fatui Skirmisher - Geochanter Bracer",
+                        "Fatui Skirmisher - Anemoboxer Vanguard"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 76,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Geovishap Hatchling",
+                        "Stonehide Lawachurl"
+                    ],
+                    [
+                        "Ruin Guard"
+                    ]
+                ]
+            }
+        ]
+    },
+    "10": {
+        "teams": 2,
+        "leyline": "Your character will be periodically inflicted with Smoldering Flames, causing you to take Pyro DMG until the inflicted Pyro element is removed.\nIncoming healing bonus of all party members increased by 50%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 80,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Blazing Axe Mitachurl",
+                        "Large Pyro Slime",
+                        "Hilichurl Berserker"
+                    ],
+                    [
+                        "Pyro Abyss Mage",
+                        "Blazing Axe Mitachurl"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 82,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Blazing Axe Mitachurl",
+                        "Pyro Whopperflower",
+                        "Hilichurl Grenadier",
+                        "Hilichurl Fighter"
+                    ],
+                    [
+                        "Pyro Abyss Mage",
+                        "Blazing Axe Mitachurl",
+                        "Pyro Hilichurl Shooter"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 85,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Skirmisher - Anemoboxer Vanguard",
+                        "Fatui Skirmisher - Pyroslinger Bracer"
+                    ],
+                    [
+                        "Pyro Abyss Mage",
+                        "Dendro Samachurl",
+                        "Pyro Hilichurl Shooter",
+                        "Pyro Whopperflower"
+                    ]
+                ]
+            }
+        ]
+    },
+    "11": {
+        "teams": 2,
+        "leyline": "Electro DMG dealt by all party members increased by 75%.\nCryo DMG dealt by all party members increased by 75%.\nSuperconduct DMG increased by 300%, and decreases target's Physical RES by an additional 20%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 88,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Large Cryo Slime",
+                        "Large Electro Slime",
+                        "Mutant Electro Slime",
+                        "Cryo Hilichurl Shooter",
+                        "Wooden Shield Hilichurl Guard"
+                    ],
+                    [
+                        "Fatui Electro Cicin Mage",
+                        "Cryo Abyss Mage",
+                        "Hydro Samachurl",
+                        "Cryo Hilichurl Shooter",
+                        "Electro Hilichurl Shooter"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 90,
+                "conds": "More than 20/40/60% HP left",
+                "monsters": [
+                    [
+                        "Blazing Axe Mitachurl",
+                        "Rock Shieldwall Mitachurl",
+                        "Hilichurl Grenadier",
+                        "Rock Shield Hilichurl Guard"
+                    ],
+                    [
+                        "Blazing Axe Mitachurl",
+                        "Rock Shieldwall Mitachurl",
+                        "Large Electro Slime",
+                        "Mutant Electro Slime",
+                        "Electro Hilichurl Shooter",
+                        "Cryo Hilichurl Shooter"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 92,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Skirmisher - Cryogunner Legionnaire",
+                        "Fatui Skirmisher - Geochanter Bracer",
+                        "Fatui Skirmisher - Anemoboxer Vanguard"
+                    ],
+                    [
+                        "Fatui Skirmisher - Electrohammer Vanguard",
+                        "Fatui Skirmisher - Anemoboxer Vanguard",
+                        "Fatui Skirmisher - Geochanter Bracer"
+                    ]
+                ]
+            }
+        ]
+    },
+    "12": {
+        "teams": 2,
+        "leyline": "Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption and preventing its natural regeneration until the inflicted Cryo element is removed.\nPyro DMG dealt by all party members increased by 75%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 95,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Wooden Shieldwall Mitachurl",
+                        "Large Cryo Slime",
+                        "Cryo Whopperflower"
+                    ],
+                    [
+                        "Cryo Abyss Mage",
+                        "Large Cryo Slime",
+                        "Cryo Hilichurl Shooter"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 98,
+                "conds": "More than 20/40/60% HP left",
+                "monsters": [
+                    [
+                        "Cryo Whopperflower",
+                        "Pyro Hilichurl Shooter",
+                        "Cryo Hilichurl Shooter"
+                    ],
+                    [
+                        "Cryo Abyss Mage",
+                        "Wooden Shieldwall Mitachurl",
+                        "Large Cryo Slime",
+                        "Cryo Hilichurl Shooter",
+                        "Electro Hilichurl Shooter",
+                        "Pyro Hilichurl Shooter"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 100,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Skirmisher - Cryogunner Legionnaire",
+                        "Fatui Skirmisher - Electrohammer Vanguard",
+                        "Fatui Skirmisher - Anemoboxer Vanguard"
+                    ],
+                    [
+                        "Fatui Skirmisher - Cryogunner Legionnaire",
+                        "Fatui Skirmisher - Electrohammer Vanguard",
+                        "Fatui Skirmisher - Anemoboxer Vanguard",
+                        "Fatui Skirmisher - Geochanter Bracer"
+                    ]
+                ]
+            }
+        ]
+    },
+    "13": {
+        "teams": 2,
+        "leyline": "Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.\nOpponents will attack the Ruin Braziers, preventing them from diminishing the effects of Sheer Cold in the area. Deactivated Ruin Braziers will restart after a while.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 72,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Ice Shieldwall Mitachurl",
+                        "Ice Shield Hilichurl Guard",
+                        "Large Cryo Slime"
+                    ],
+                    [
+                        "Cryo Abyss Mage",
+                        "Ice Shieldwall Mitachurl",
+                        "Cryo Samachurl",
+                        "Cryo Hilichurl Shooter"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 74,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Ice Shieldwall Mitachurl",
+                        "Ice Shield Hilichurl Guard",
+                        "Cryo Hilichurl Grenadier",
+                        "Large Cryo Slime"
+                    ],
+                    [
+                        "Fatui Skirmisher - Cryogunner Legionnaire",
+                        "Fatui Skirmisher - Electrohammer Vanguard",
+                        "Fatui Skirmisher - Anemoboxer Vanguard"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 76,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Frostarm Lawachurl",
+                        "Cryo Hilichurl Shooter"
+                    ],
+                    [
+                        "Cryo Abyss Mage",
+                        "Ice Shieldwall Mitachurl"
+                    ]
+                ]
+            }
+        ]
+    },
+    "14": {
+        "teams": 2,
+        "leyline": "Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.\nWarming Seelie appear on the field, and will continually alleviate nearby characters' Sheer Cold.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 80,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Cryo Abyss Mage",
+                        "Cryo Hilichurl Grenadier",
+                        "Large Cryo Slime"
+                    ],
+                    [
+                        "Fatui Electro Cicin Mage",
+                        "Cryo Abyss Mage",
+                        "Hydro Samachurl"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 82,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Ice Shieldwall Mitachurl",
+                        "Ice Shield Hilichurl Guard",
+                        "Cryo Hilichurl Grenadier"
+                    ],
+                    [
+                        "Fatui Cryo Cicin Mage",
+                        "Treasure Hoarders: Electro Potioneer",
+                        "Treasure Hoarders: Cryo Potioneer"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 85,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Cryo Cicin Mage",
+                        "Fatui Pyro Agent"
+                    ],
+                    [
+                        "Frostarm Lawachurl"
+                    ]
+                ]
+            }
+        ]
+    },
+    "15": {
+        "teams": 2,
+        "leyline": "Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed.\nCryo DMG dealt by all party members increased by 75%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 88,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Hydro Abyss Mage",
+                        "Large Electro Slime",
+                        "Mutant Electro Slime",
+                        "Large Hydro Slime"
+                    ],
+                    [
+                        "Rock Shieldwall Mitachurl",
+                        "Blazing Axe Mitachurl"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 90,
+                "conds": "More than 20/40/60% HP left",
+                "monsters": [
+                    [
+                        "Wooden Shieldwall Mitachurl",
+                        "Blazing Axe Mitachurl",
+                        "Rock Shield Hilichurl Guard",
+                        "Hilichurl Berserker",
+                        "Electro Hilichurl Shooter",
+                        "Pyro Hilichurl Shooter"
+                    ],
+                    [
+                        "Fatui Electro Cicin Mage",
+                        "Fatui Pyro Agent",
+                        "Treasure Hoarders: Gravedigger",
+                        "Treasure Hoarders - Pugilist",
+                        "Treasure Hoarders - Crusher",
+                        "Treasure Hoarders: Pyro Potioneer",
+                        "Treasure Hoarders: Hydro Potioneer"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 92,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Skirmisher - Anemoboxer Vanguard",
+                        "Fatui Skirmisher - Electrohammer Vanguard",
+                        "Fatui Skirmisher - Geochanter Bracer",
+                        "Fatui Skirmisher - Hydrogunner Legionnaire"
+                    ],
+                    [
+                        "Fatui Pyro Agent",
+                        "Fatui Electro Cicin Mage"
+                    ]
+                ]
+            }
+        ]
+    },
+    "16": {
+        "teams": 2,
+        "leyline": "Geo DMG dealt by all party members increased by 75%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 95,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Rock Shieldwall Mitachurl",
+                        "Blazing Axe Mitachurl",
+                        "Rock Shield Hilichurl Guard"
+                    ],
+                    [
+                        "Ruin Guard",
+                        "Eye of the Storm"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 98,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Treasure Hoarders: Gravedigger",
+                        "Treasure Hoarders - Seaman",
+                        "Treasure Hoarders: Handyman",
+                        "Treasure Hoarders - Pugilist",
+                        "Treasure Hoarders - Crusher"
+                    ],
+                    [
+                        "Fatui Pyro Agent"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 100,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Electro Cicin Mage",
+                        "Rock Shieldwall Mitachurl",
+                        "Treasure Hoarders: Pyro Potioneer",
+                        "Treasure Hoarders: Cryo Potioneer"
+                    ],
+                    [
+                        "Fatui Pyro Agent",
+                        "Rock Shieldwall Mitachurl"
+                    ]
+                ]
+            }
+        ]
+    },
+    "17": {
+        "teams": 2,
+        "leyline": "For this floor only, the ley line flow will be normal.\nNo Ley Line Disorder",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 95,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Geovishap"
+                    ],
+                    [
+                        "Geovishap"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 98,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Electro Cicin Mage",
+                        "Fatui Cryo Cicin Mage"
+                    ],
+                    [
+                        "Fatui Pyro Agent",
+                        "Treasure Hoarders: Gravedigger"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 100,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Ruin Guard"
+                    ],
+                    [
+                        "Ruin Grader"
+                    ]
+                ]
+            }
+        ]
+    },
+    "18": {
+        "teams": 2,
+        "leyline": "Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted Hydro element is removed.\nPhysical DMG dealt by all party members increased by 75%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 88,
+                "conds": "More than 20/40/60% HP left",
+                "monsters": [
+                    [
+                        "Treasure Hoarders - Crusher",
+                        "Treasure Hoarders - Pugilist",
+                        "Treasure Hoarders - Marksman"
+                    ],
+                    [
+                        "Treasure Hoarders: Gravedigger",
+                        "Treasure Hoarders - Seaman",
+                        "Treasure Hoarders: Handyman",
+                        "Treasure Hoarders: Pyro Potioneer",
+                        "Treasure Hoarders: Hydro Potioneer",
+                        "Treasure Hoarders: Electro Potioneer",
+                        "Treasure Hoarders: Cryo Potioneer"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 90,
+                "conds": "More than 120/240/360 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Skirmisher - Electrohammer Vanguard",
+                        "Fatui Skirmisher - Hydrogunner Legionnaire",
+                        "Fatui Skirmisher - Anemoboxer Vanguard"
+                    ],
+                    [
+                        "Fatui Skirmisher - Electrohammer Vanguard",
+                        "Fatui Skirmisher - Hydrogunner Legionnaire",
+                        "Fatui Skirmisher - Geochanter Bracer"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 92,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Electro Cicin Mage",
+                        "Fatui Cryo Cicin Mage"
+                    ],
+                    [
+                        "Abyss Herald: Wicked Torrents"
+                    ]
+                ]
+            }
+        ]
+    },
+    "19": {
+        "teams": 2,
+        "leyline": "For this floor only, the ley line flow will be normal.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 95,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Geovishap",
+                        "Pyro Whopperflower"
+                    ],
+                    [
+                        "Geovishap",
+                        "Cryo Whopperflower"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 98,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Treasure Hoarders: Gravedigger",
+                        "Treasure Hoarders - Seaman",
+                        "Treasure Hoarders - Pugilist",
+                        "Treasure Hoarders - Crusher",
+                        "Treasure Hoarders: Pyro Potioneer",
+                        "Treasure Hoarders: Hydro Potioneer",
+                        "Treasure Hoarders: Electro Potioneer",
+                        "Electro Cicin",
+                        "Hydro Cicin",
+                        "Cryo Cicin"
+                    ],
+                    [
+                        "Pyro Abyss Mage",
+                        "Hydro Abyss Mage",
+                        "Hydro Mimic Boar",
+                        "Hydro Mimic Crane",
+                        "Hydro Mimic Crab",
+                        "Hydro Mimic Mallard",
+                        "Hydro Mimic Ferret"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 100,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Abyss Lector: Violet Lightning"
+                    ],
+                    [
+                        "Fatui Pyro Agent",
+                        "Fatui Electro Cicin Mage",
+                        "Fatui Cryo Cicin Mage"
+                    ]
+                ]
+            }
+        ]
+    },
+    "20": {
+        "teams": 2,
+        "leyline": "Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.\nOpponents will attack the Ruin Braziers, preventing them from diminishing the effects of Sheer Cold in the area. Deactivated Ruin Braziers will restart after a while.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 72,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Ice Shieldwall Mitachurl",
+                        "Ice Shield Hilichurl Guard",
+                        "Cryo Whopperflower"
+                    ],
+                    [
+                        "Cryo Abyss Mage",
+                        "Ice Shieldwall Mitachurl",
+                        "Cryo Samachurl",
+                        "Cryo Hilichurl Shooter",
+                        "Electro Hilichurl Shooter"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 74,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Ice Shieldwall Mitachurl",
+                        "Ice Shield Hilichurl Guard",
+                        "Cryo Hilichurl Grenadier",
+                        "Cryo Whopperflower"
+                    ],
+                    [
+                        "Fatui Skirmisher - Cryogunner Legionnaire",
+                        "Fatui Skirmisher - Hydrogunner Legionnaire",
+                        "Fatui Skirmisher - Geochanter Bracer",
+                        "Fatui Skirmisher - Anemoboxer Vanguard"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 76,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Frostarm Lawachurl",
+                        "Cryo Samachurl",
+                        "Cryo Hilichurl Shooter",
+                        "Electro Hilichurl Shooter"
+                    ],
+                    [
+                        "Cryo Abyss Mage",
+                        "Hydro Abyss Mage",
+                        "Ice Shieldwall Mitachurl"
+                    ]
+                ]
+            }
+        ]
+    },
+    "21": {
+        "teams": 2,
+        "leyline": "Characters on the field will continuously accumulate Sheer Cold, and will continually lose HP after Sheer Cold reaches its limit.\nWarming Seelie appear on the field, and will continually alleviate nearby characters' Sheer Cold.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 80,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Hydro Abyss Mage",
+                        "Cryo Whopperflower",
+                        "Cryo Hilichurl Grenadier",
+                        "Large Cryo Slime",
+                        "Large Hydro Slime"
+                    ],
+                    [
+                        "Abyss Herald: Wicked Torrents",
+                        "Cryo Abyss Mage"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 82,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Ice Shieldwall Mitachurl",
+                        "Ice Shield Hilichurl Guard",
+                        "Cryo Hilichurl Grenadier",
+                        "Anemo Samachurl",
+                        "Hydro Samachurl"
+                    ],
+                    [
+                        "Abyss Lector: Violet Lightning",
+                        "Cryo Abyss Mage"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 85,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Cryo Hypostasis"
+                    ],
+                    [
+                        "Frostarm Lawachurl",
+                        "Hydro Abyss Mage"
+                    ]
+                ]
+            }
+        ]
+    },
+    "22": {
+        "teams": 2,
+        "leyline": "Increases Swirl DMG by 300% and its AoE by 100%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 88,
+                "conds": "More than 20/40/60% HP left",
+                "monsters": [
+                    [
+                        "Blazing Axe Mitachurl",
+                        "Wooden Shieldwall Mitachurl",
+                        "Hilichurl Berserker",
+                        "Wooden Shield Hilichurl Guard",
+                        "Pyro Hilichurl Shooter",
+                        "Cryo Hilichurl Shooter",
+                        "Electro Hilichurl Shooter"
+                    ],
+                    [
+                        "Stonehide Lawachurl",
+                        "Rock Shield Hilichurl Guard",
+                        "Cryo Hilichurl Grenadier",
+                        "Hilichurl Grenadier"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 90,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Skirmisher - Pyroslinger Bracer",
+                        "Fatui Skirmisher - Electrohammer Vanguard",
+                        "Fatui Skirmisher - Anemoboxer Vanguard"
+                    ],
+                    [
+                        "Fatui Skirmisher - Cryogunner Legionnaire",
+                        "Fatui Skirmisher - Hydrogunner Legionnaire",
+                        "Fatui Skirmisher - Geochanter Bracer"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 92,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Ruin Hunter",
+                        "Ruin Guard"
+                    ],
+                    [
+                        "Abyss Lector: Violet Lightning",
+                        "Abyss Herald: Wicked Torrents"
+                    ]
+                ]
+            }
+        ]
+    },
+    "23": {
+        "teams": 2,
+        "leyline": "For this floor only, the ley line flow will be normal.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 95,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Geovishap"
+                    ],
+                    [
+                        "Geovishap"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 98,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Cryo Cicin Mage",
+                        "Treasure Hoarders - Seaman",
+                        "Treasure Hoarders: Gravedigger",
+                        "Treasure Hoarders - Pugilist",
+                        "Treasure Hoarders - Crusher",
+                        "Treasure Hoarders: Pyro Potioneer",
+                        "Treasure Hoarders: Hydro Potioneer",
+                        "Treasure Hoarders: Electro Potioneer",
+                        "Treasure Hoarders: Cryo Potioneer"
+                    ],
+                    [
+                        "Stonehide Lawachurl",
+                        "Geovishap Hatchling"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 100,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Abyss Lector: Violet Lightning",
+                        "Pyro Abyss Mage",
+                        "Hydro Abyss Mage"
+                    ],
+                    [
+                        "Abyss Herald: Wicked Torrents",
+                        "Pyro Abyss Mage",
+                        "Cryo Abyss Mage"
+                    ]
+                ]
+            }
+        ]
+    },
+    "24": {
+        "teams": 2,
+        "leyline": "A Plasma Field will be generated at the edge of the challenge area once the challenge begins. While within the field, characters will be hit by a lightning strike once every 5s and take Electro DMG. The area covered by the field will gradually expand as the challenge proceeds.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 72,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Wooden Shieldwall Mitachurl",
+                        "Anemo Samachurl",
+                        "Hydro Samachurl",
+                        "Electro Hilichurl Shooter",
+                        "Cryo Hilichurl Shooter",
+                        "Large Hydro Slime"
+                    ],
+                    [
+                        "Hydro Abyss Mage",
+                        "Electro Samachurl",
+                        "Crackling Axe Mitachurl",
+                        "Blazing Axe Mitachurl"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 74,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Skirmisher - Cryogunner Legionnaire",
+                        "Fatui Skirmisher - Hydrogunner Legionnaire",
+                        "Fatui Skirmisher - Electrohammer Vanguard",
+                        "Fatui Skirmisher - Geochanter Bracer",
+                        "Fatui Skirmisher - Anemoboxer Vanguard"
+                    ],
+                    [
+                        "Treasure Hoarders: Handyman",
+                        "Treasure Hoarders: Gravedigger",
+                        "Treasure Hoarders - Seaman",
+                        "Treasure Hoarders - Pugilist",
+                        "Treasure Hoarders - Crusher",
+                        "Treasure Hoarders: Pyro Potioneer",
+                        "Treasure Hoarders: Hydro Potioneer",
+                        "Treasure Hoarders: Electro Potioneer",
+                        "Treasure Hoarders: Cryo Potioneer",
+                        "Treasure Hoarders - Marksman"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 76,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Frostarm Lawachurl",
+                        "Stonehide Lawachurl"
+                    ],
+                    [
+                        "Fatui Pyro Agent",
+                        "Fatui Electro Cicin Mage"
+                    ]
+                ]
+            }
+        ]
+    },
+    "25": {
+        "teams": 2,
+        "leyline": "There will be a Leader amongst the opponents present in each challenge on this floor. Its Attendants will also be present to provide it with enhancements and protection. Each Attendant will increase the Leader's Element RES and Physical RES by 10%. The Attendants will restore the Leader's HP every 12s, with each Attendant restoring 5% HP. When there are no Attendants, the Leader will not have any of the above enhancement and restoration effects.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 80,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Electro Abyss Mage",
+                        "Dendro Samachurl",
+                        "Anemo Samachurl",
+                        "Hydro Samachurl",
+                        "Blazing Axe Mitachurl",
+                        "Pyro Hilichurl Shooter",
+                        "Cryo Hilichurl Shooter",
+                        "Electro Hilichurl Shooter"
+                    ],
+                    [
+                        "Stonehide Lawachurl",
+                        "Pyro Hilichurl Shooter",
+                        "Cryo Hilichurl Shooter"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 82,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Pyro Agent",
+                        "Fatui Skirmisher - Cryogunner Legionnaire",
+                        "Fatui Skirmisher - Hydrogunner Legionnaire",
+                        "Fatui Skirmisher - Anemoboxer Vanguard"
+                    ],
+                    [
+                        "Fatui Electro Cicin Mage",
+                        "Fatui Skirmisher - Pyroslinger Bracer",
+                        "Fatui Skirmisher - Electrohammer Vanguard",
+                        "Fatui Skirmisher - Geochanter Bracer"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 85,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Abyss Lector: Violet Lightning",
+                        "Anemo Samachurl",
+                        "Hydro Samachurl"
+                    ],
+                    [
+                        "Abyss Herald: Wicked Torrents",
+                        "Electro Samachurl"
+                    ]
+                ]
+            }
+        ]
+    },
+    "26": {
+        "teams": 2,
+        "leyline": "Pyro DMG dealt by all party members increased by 60%.\nCryo DMG dealt by all party members increased by 60%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 88,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Crackling Axe Mitachurl",
+                        "Blazing Axe Mitachurl",
+                        "Electro Whopperflower",
+                        "Large Electro Slime",
+                        "Mutant Electro Slime",
+                        "Large Hydro Slime"
+                    ],
+                    [
+                        "Thunderhelm Lawachurl",
+                        "Electro Abyss Mage"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 90,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Frostarm Lawachurl",
+                        "Cryo Abyss Mage",
+                        "Hydro Abyss Mage"
+                    ],
+                    [
+                        "Abyss Lector: Violet Lightning",
+                        "Electro Abyss Mage",
+                        "Pyro Abyss Mage"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 92,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Cryo Hypostasis"
+                    ],
+                    [
+                        "Pyro Hypostasis"
+                    ]
+                ]
+            }
+        ]
+    },
+    "27": {
+        "teams": 2,
+        "leyline": "Energy Tides are present in this challenge. They will switch between Elemental High Tide and Elemental Low Tide in 10s cycles.\nDuring High Tide, a large amount of Elemental Particles will be generated when a character's attack hits opponents, restoring 10 Elemental Energy. This effect can occur once every 2.8s.\nDuring Low Tide, all characters in the party cannot gain Elemental Energy.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 95,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Kairagi: Dancing Thunder",
+                        "Kairagi: Fiery Might",
+                        "Nobushi: Jintouban",
+                        "Nobushi: Hitsukeban",
+                        "Nobushi: Kikouban"
+                    ],
+                    [
+                        "Mirror Maiden",
+                        "Fatui Pyro Agent",
+                        "Fatui Electro Cicin Mage"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 98,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Hydro Abyss Mage",
+                        "Thunderhelm Lawachurl",
+                        "Crackling Axe Mitachurl",
+                        "Blazing Axe Mitachurl"
+                    ],
+                    [
+                        "Maguu Kenki"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 100,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Ruin Hunter",
+                        "Ruin Cruiser",
+                        "Ruin Defender",
+                        "Ruin Scout"
+                    ],
+                    [
+                        "Ruin Guard",
+                        "Ruin Destroyer",
+                        "Ruin Scout"
+                    ]
+                ]
+            }
+        ]
+    },
+    "28": {
+        "teams": 2,
+        "leyline": "When opponents are defeated, all party members will be affected by the \"Corrosion\" status.\nCharacters being Corroded will lose a fraction of their HP every second. Active characters can be brought down by Corrosion. When a non-active character's HP is less than 15%, they will no longer lose HP due to Corrosion.\nCorrosion lasts 10s and can stack. The duration of each stack is counted independently.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 88,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Blazing Axe Mitachurl",
+                        "Electro Hilichurl Grenadier",
+                        "Hilichurl Berserker"
+                    ],
+                    [
+                        "Pyro Abyss Mage",
+                        "Dendro Samachurl",
+                        "Pyro Hilichurl Shooter",
+                        "Hilichurl Grenadier"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 90,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Skirmisher - Pyroslinger Bracer",
+                        "Treasure Hoarders: Gravedigger",
+                        "Treasure Hoarders - Seaman",
+                        "Treasure Hoarders - Scout"
+                    ],
+                    [
+                        "Kairagi: Fiery Might",
+                        "Treasure Hoarders - Pugilist",
+                        "Treasure Hoarders - Crusher",
+                        "Treasure Hoarders: Electro Potioneer",
+                        "Treasure Hoarders: Cryo Potioneer"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 92,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Pyro Agent",
+                        "Fatui Cryo Cicin Mage",
+                        "Fatui Electro Cicin Mage"
+                    ],
+                    [
+                        "Geovishap",
+                        "Large Pyro Slime"
+                    ]
+                ]
+            }
+        ]
+    },
+    "29": {
+        "teams": 2,
+        "leyline": "For this floor only, the ley line flow will be normal.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 95,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Nobushi: Hitsukeban",
+                        "Nobushi: Kikouban",
+                        "Treasure Hoarders: Gravedigger",
+                        "Treasure Hoarders: Handyman",
+                        "Treasure Hoarders - Seaman",
+                        "Treasure Hoarders: Pyro Potioneer",
+                        "Treasure Hoarders: Hydro Potioneer",
+                        "Treasure Hoarders: Electro Potioneer",
+                        "Treasure Hoarders: Cryo Potioneer"
+                    ],
+                    [
+                        "Stonehide Lawachurl",
+                        "Eye of the Storm",
+                        "Anemo Specter",
+                        "Geo Specter"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 98,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Maguu Kenki"
+                    ],
+                    [
+                        "Mirror Maiden",
+                        "Fatui Cryo Cicin Mage"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 100,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Ruin Guard"
+                    ],
+                    [
+                        "Perpetual Mechanical Array"
+                    ]
+                ]
+            }
+        ]
+    },
+    "30": {
+        "teams": 2,
+        "leyline": "Pyro DMG dealt by party members increased by 60%.\nHydro DMG dealt by party members increased by 60%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 88,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Electro Abyss Mage",
+                        "Hydro Abyss Mage",
+                        "Electro Whopperflower",
+                        "Large Hydro Slime"
+                    ],
+                    [
+                        "Pyro Abyss Mage",
+                        "Crackling Axe Mitachurl",
+                        "Pyro Whopperflower",
+                        "Large Pyro Slime"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 90,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Electro Cicin Mage",
+                        "Fatui Cryo Cicin Mage",
+                        "Fatui Skirmisher - Cryogunner Legionnaire",
+                        "Fatui Skirmisher - Anemoboxer Vanguard"
+                    ],
+                    [
+                        "Kairagi: Dancing Thunder",
+                        "Kairagi: Fiery Might",
+                        "Nobushi: Hitsukeban",
+                        "Nobushi: Kikouban"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 92,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Hydro Hypostasis"
+                    ],
+                    [
+                        "Pyro Hypostasis"
+                    ]
+                ]
+            }
+        ]
+    },
+    "31": {
+        "teams": 2,
+        "leyline": "For this floor only, the ley line flow will be normal.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 95,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Pyro Agent",
+                        "Nobushi: Jintouban",
+                        "Nobushi: Hitsukeban",
+                        "Nobushi: Kikouban"
+                    ],
+                    [
+                        "Geovishap",
+                        "Hydro Mimic Boar",
+                        "Hydro Mimic Ferret"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 98,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Maguu Kenki"
+                    ],
+                    [
+                        "Mirror Maiden",
+                        "Fatui Cryo Cicin Mage",
+                        "Treasure Hoarders: Pyro Potioneer",
+                        "Treasure Hoarders: Hydro Potioneer",
+                        "Treasure Hoarders: Electro Potioneer",
+                        "Treasure Hoarders: Cryo Potioneer"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 100,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Ruin Guard",
+                        "Ruin Hunter",
+                        "Ruin Cruiser",
+                        "Ruin Destroyer"
+                    ],
+                    [
+                        "Ruin Guard",
+                        "Ruin Grader",
+                        "Ruin Cruiser",
+                        "Ruin Defender"
+                    ]
+                ]
+            }
+        ]
+    },
+    "32": {
+        "teams": 2,
+        "leyline": "Geo DMG dealt by all party members increased by 60%.\nPhysical DMG dealt by all party members' increased by 60%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 88,
+                "conds": "More than 20/40/60% HP left",
+                "monsters": [
+                    [
+                        "Rock Shieldwall Mitachurl",
+                        "Electro Samachurl",
+                        "Hydro Samachurl",
+                        "Hilichurl Berserker",
+                        "Rock Shieldwall Mitachurl",
+                        "Rock Shield Hilichurl Guard",
+                        "Hilichurl Fighter",
+                        "Electro Hilichurl Grenadier",
+                        "Hilichurl Grenadier",
+                        "Cryo Hilichurl Shooter",
+                        "Pyro Hilichurl Shooter"
+                    ],
+                    [
+                        "Nobushi: Jintouban",
+                        "Nobushi: Hitsukeban",
+                        "Nobushi: Kikouban",
+                        "Treasure Hoarders: Gravedigger",
+                        "Treasure Hoarders - Seaman",
+                        "Treasure Hoarders - Crusher",
+                        "Treasure Hoarders - Marksman",
+                        "Treasure Hoarders: Pyro Potioneer",
+                        "Treasure Hoarders: Hydro Potioneer",
+                        "Treasure Hoarders: Electro Potioneer",
+                        "Treasure Hoarders: Cryo Potioneer"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 90,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Frostarm Lawachurl",
+                        "Large Pyro Slime",
+                        "Large Cryo Slime",
+                        "Large Hydro Slime"
+                    ],
+                    [
+                        "Kairagi: Dancing Thunder",
+                        "Kairagi: Fiery Might",
+                        "Nobushi: Jintouban",
+                        "Nobushi: Hitsukeban",
+                        "Nobushi: Kikouban"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 92,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Hydro Mimic Frog",
+                        "Hydro Mimic Finch",
+                        "Hydro Mimic Boar",
+                        "Hydro Mimic Ferret",
+                        "Hydro Mimic Crab",
+                        "Hydro Mimic Crane",
+                        "Hydro Specter",
+                        "Anemo Specter"
+                    ],
+                    [
+                        "Ruin Cruiser",
+                        "Ruin Defender",
+                        "Ruin Scout"
+                    ]
+                ]
+            }
+        ]
+    },
+    "33": {
+        "teams": 2,
+        "leyline": "For this floor only, the ley line flow will be normal.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 95,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Thundercraven Rifthound",
+                        "Thundercraven Rifthound Whelp"
+                    ],
+                    [
+                        "Rockfond Rifthound",
+                        "Rockfond Rifthound Whelp"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 98,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Geovishap"
+                    ],
+                    [
+                        "Maguu Kenki: Lone Gale",
+                        "Maguu Kenki: Galloping Frost",
+                        "Maguu Kenki: Mask of Terror"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 100,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Thundercraven Rifthound",
+                        "Ruin Cruiser",
+                        "Ruin Defender"
+                    ],
+                    [
+                        "Rockfond Rifthound",
+                        "Rockfond Rifthound Whelp",
+                        "Ruin Guard"
+                    ]
+                ]
+            }
+        ]
+    },
+    "34": {
+        "teams": 2,
+        "leyline": "All party members' Normal Attack DMG increased by 50%.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 88,
+                "conds": "More than 20/40/60% HP left",
+                "monsters": [
+                    [
+                        "Ruin Cruiser",
+                        "Ruin Destroyer"
+                    ],
+                    [
+                        "Electro Abyss Mage",
+                        "Thunderhelm Lawachurl",
+                        "Electro Hilichurl Grenadier",
+                        "Hilichurl Grenadier",
+                        "Pyro Hilichurl Shooter"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 90,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Large Pyro Slime",
+                        "Large Electro Slime",
+                        "Pyro Specter",
+                        "Electro Specter"
+                    ],
+                    [
+                        "Hydro Mimic Boar",
+                        "Hydro Mimic Crane",
+                        "Hydro Mimic Crab",
+                        "Hydro Mimic Finch",
+                        "Hydro Mimic Mallard",
+                        "Hydro Mimic Ferret",
+                        "Hydro Mimic Frog",
+                        "Hydro Mimic Raptor"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 92,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Mirror Maiden",
+                        "Kairagi: Dancing Thunder",
+                        "Kairagi: Fiery Might"
+                    ],
+                    [
+                        "Thunder Manifestation"
+                    ]
+                ]
+            }
+        ]
+    },
+    "35": {
+        "teams": 2,
+        "leyline": "Certain opponents in this challenge possess the Honed Spirit effect, which grants them 10% Physical and All Elemental RES. When opponents with Honed Spirit take hits from attacks that are considered Normal Attack DMG, they will lose 3% Physical and All Elemental RES. A maximum of 30% of each may be lost this way. The RES lost this way will be reset every 20s.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 95,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Perpetual Mechanical Array"
+                    ],
+                    [
+                        "Abyss Lector: Fathomless Flames",
+                        "Dendro Samachurl",
+                        "Pyro Abyss Mage",
+                        "Rockfond Rifthound Whelp"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 98,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Primo Geovishap"
+                    ],
+                    [
+                        "Abyss Herald: Wicked Torrents"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 100,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Ruin Guard",
+                        "Ruin Grader"
+                    ],
+                    [
+                        "Maguu Kenki"
+                    ]
+                ]
+            }
+        ]
+    },
+    "36": {
+        "teams": 2,
+        "leyline": "All characters in the party gain a 60% Electro DMG Bonus.\nAll party members gain 30% Healing Bonus.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 88,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Abyss Herald: Wicked Torrents",
+                        "Cryo Abyss Mage"
+                    ],
+                    [
+                        "Geovishap",
+                        "Pyro Whopperflower",
+                        "Electro Whopperflower"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 90,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Hydro Abyss Mage",
+                        "Hydro Specter",
+                        "Cryo Specter",
+                        "Large Cryo Slime",
+                        "Large Hydro Slime"
+                    ],
+                    [
+                        "Pyro Abyss Mage",
+                        "Dendro Samachurl",
+                        "Pyro Specter",
+                        "Electro Specter",
+                        "Large Electro Slime",
+                        "Mutant Electro Slime",
+                        "Large Pyro Slime"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 92,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Thundercraven Rifthound",
+                        "Thundercraven Rifthound Whelp"
+                    ],
+                    [
+                        "Abyss Lector: Fathomless Flames",
+                        "Abyss Lector: Violet Lightning"
+                    ]
+                ]
+            }
+        ]
+    },
+    "37": {
+        "teams": 2,
+        "leyline": "For this floor only, the ley line flow will be normal.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 95,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Thundercraven Rifthound",
+                        "Thundercraven Rifthound Whelp"
+                    ],
+                    [
+                        "Primordial Bathysmal Vishap",
+                        "Primordial Bathysmal Vishap Hatchling",
+                        "Rimebiter Bathysmal Vishap Hatchling"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 98,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Ruin Grader"
+                    ],
+                    [
+                        "Golden Wolflord"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 100,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Ruin Destroyer",
+                        "Ruin Scout"
+                    ],
+                    [
+                        "Rimebiter Bathysmal Vishap",
+                        "Bolteater Bathysmal Vishap"
+                    ]
+                ]
+            }
+        ]
+    }
 }
