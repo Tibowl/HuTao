@@ -1066,10 +1066,19 @@
         "reminder": "end"
     },
     {
-        "name": "Event Wish \"Reign of Serenity\" & \"Drifting Luminescence\"",
+        "name": "Event Wish \"Reign of Serenity\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/BGEEu87.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/3643652",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/03/03/1015537/f38470922b66ef8e0378996685af316f_3809168229650453543.jpg",
+        "start": "2022-03-08 18:00:00",
+        "end": "2022-03-29 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Drifting Luminescence\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/3643654",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/03/03/1015537/d91599929759f8351f0949a0dc5b8c21_559055393744337059.jpg",
         "start": "2022-03-08 18:00:00",
         "end": "2022-03-29 14:59:00",
         "reminder": "end"
@@ -1077,7 +1086,8 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/3643657",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/03/03/1015537/d12bf0a27093dbb92436631c79adc128_1196419670983847268.jpg",
         "start": "2022-03-08 18:00:00",
         "end": "2022-03-29 14:59:00",
         "reminder": "end"
@@ -1085,13 +1095,17 @@
     {
         "name": "\"Hyakunin Ikki\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/zpGl9Dm.png",
+        "img": "https://i.imgur.com/Rz4e27G.png",
+        "start": "2022-03-18 10:00:00",
+        "end": "2022-03-28 03:59:00",
         "reminder": "end"
     },
     {
         "name": "\"Of Drink A-Dreaming\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/pBCjPuE.png",
+        "img": "https://i.imgur.com/QbGS5i6.png",
+        "start": "2022-03-10 10:00:00",
+        "end": "2022-03-21 03:59:00",
         "reminder": "end"
     },
     {
@@ -1117,6 +1131,8 @@
         "name": "\"Overflowing Mastery\" Event",
         "type": "In-game",
         "img": "https://upload-os-bbs.mihoyo.com/upload/2021/05/25/1015537/8a304c186f5a725d6ca5fad6c953ef83_3536921475780913159.jpg",
+        "start": "2022-03-21 04:00:00",
+        "end": "2022-03-28 03:59:00",
         "reminder": "daily"
     },
     {
