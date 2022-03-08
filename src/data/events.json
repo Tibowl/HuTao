@@ -1103,7 +1103,8 @@
     {
         "name": "\"Of Drink A-Dreaming\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/QbGS5i6.png",
+        "link": "https://www.hoyolab.com/article/3714058",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/03/08/1015537/6abde43c41c33d163d2c00e83056ba67_3441392402135868378.jpg",
         "start": "2022-03-10 10:00:00",
         "end": "2022-03-21 03:59:00",
         "reminder": "end"
