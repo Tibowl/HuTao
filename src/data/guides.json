@@ -234,6 +234,15 @@
         "links": {
           "material": ["Loach Pearl"]
         }
+      },
+      {
+        "name": "Unagi Meat route",
+        "desc": "**Unagi** can be found on Watatsumi Island.\n\n> The fresh meat of an Unagi. If handled properly, it can be used to make fresh, lovely food.",
+        "img": "https://cdn.discordapp.com/attachments/950425246995996742/950539712324587590/Genshin_-_Unagi_Guide.jpg",
+        "credits": "Jnight",
+        "links": {
+          "material": ["Unagi Meat"]
+        }
       }
     ]
   },
