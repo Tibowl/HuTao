@@ -144,7 +144,7 @@ Example with 70 pulls, 10 pity and guaranteed for 5 star weapon banner: \`${conf
         const pulls = options.getInteger("pulls", true)
         const pity = options.getInteger("pity") ?? 0
         const current = options.getInteger("current") ?? -1
-        const guaranteedPity = options.getInteger("guaranteedPity") ?? 0
+        const guaranteedPity = options.getInteger("guaranteed_pity") ?? 0
         const guaranteed = options.getBoolean("guaranteed") ?? false
 
         return this.run(source, gacha, current, pulls, pity, guaranteed, guaranteedPity)
