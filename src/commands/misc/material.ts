@@ -14,7 +14,7 @@ export default class MaterialCommand extends Command {
             help: `Displays material information. If no name is provided, a list of all materials will be displayed.
 
 Note: this command supports fuzzy search.`,
-            aliases: ["mat", "food", "recipe"],
+            aliases: ["m", "mat", "food", "recipe"],
             options: [{
                 name: "name",
                 description: "Material name",
