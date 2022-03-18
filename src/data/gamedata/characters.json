@@ -10930,7 +10930,9 @@
   },
   "Kamisato Ayato": {
     "name": "Kamisato Ayato",
-    "desc": "As the head of the Yashiro Commission, Kamisato Ayato is committed to maintaining the prosperity and stability of the region.",
+    "desc": "The young but highly accomplished head of the Yashiro Commission's Kamisato Clan. Cultured and polite, he is a man of many ways and means.",
+    "star": 5,
+    "weaponType": "Sword",
     "icon": "https://i.imgur.com/mXjJsP9.png",
     "media": {
       "imgs": [
@@ -10941,13 +10943,48 @@
     "meta": {
       "association": "Inazuma",
       "title": "Pillar of Fortitude",
-      "detail": "As the head of the Yashiro Commission, Kamisato Ayato is committed to maintaining the prosperity and stability of the region.",
+      "detail": "The young but highly accomplished head of the Yashiro Commission's Kamisato Clan. Cultured and polite, he is a man of many ways and means.",
       "affiliation": "Yashiro Commission",
       "element": "Hydro",
       "constellation": "Cypressus Custos",
       "cvChinese": "赵路",
-      "cvJapanese": "石田 彰"
-    }
+      "cvEnglish": "Chris Hackney",
+      "cvJapanese": "石田彰",
+      "cvKorean": "장민혁"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Kamisato Art - Marobashi",
+            "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash a charged attack.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "img/skill/Common_Sword.png"
+          },
+          {
+            "name": "Kamisato Art: Kyouka",
+            "desc": "After using **Kamisato Art: Kyouka**, Ayato shifts position to enter the **Takimeguri Kanka** state and leaves a watery illusion at his original location. The watery illusion can explode, dealing **AoE Hydro DMG**.\nWhile in the **Takimeguri Kanka** state, Ayato's normal attacks become **Shunsuiken**. These are quick watery blades capable of dealing **AoE Hydro DMG**. After a **Shunsuiken** attack hits an opponent, it will grant Ayato the **Namisen** effect, increasing the DMG dealt by **Shunsuiken** based on Ayato's Max HP. The **Takimeguri Kanka** state will be cleared when he leaves the field or when uses his Elemental Skill again."
+          }
+        ],
+        "ult": {
+          "name": "Kamisato Art: Suiyuu",
+          "desc": "Unveils a garden of purity in which Bloomwater Blades will rain down and attack opponents within it's AoE. This will increase the Normal Attack DMG for characters within that AoE."
+        },
+        "passive": [
+          {
+            "name": "Kamisato Art: Mine Wo Matoishi Kiyotaki",
+            "desc": "When Ayato uses his Elemental Skill and the water illusion explodes, he will gain a set amount of **Namisen** stacks."
+          },
+          {
+            "name": "Kamisato Art: Michiyuku Hagetsu",
+            "desc": "If Ayato is not on the field and his energy is low, he will regenerate a set amount of energy at regular intervals."
+          },
+          {
+            "name": "Kamisato Art: Daily Cooking",
+            "desc": "When Ayato cooks a dish perfectly, he has a 18% chance to receive an additional \"Suspicious\" dish of the same type."
+          }
+        ]
+      }
+    ]
   },
   "Keqing": {
     "name": "Keqing",
