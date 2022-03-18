@@ -10958,17 +10958,23 @@
           {
             "name": "Normal Attack: Kamisato Art - Marobashi",
             "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash a charged attack.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "icon": "img/skill/Common_Sword.png"
+            "icon": "img/skill/Common_Sword.png",
+            "video": "https://cdn.discordapp.com/attachments/954378078195417158/954379089819607070/Ayato_NA.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/954378078195417158/954379089232396288/Ayato_NA_scaled.mp4"
           },
           {
             "name": "Kamisato Art: Kyouka",
-            "desc": "After using **Kamisato Art: Kyouka**, Ayato shifts position to enter the **Takimeguri Kanka** state and leaves a watery illusion at his original location. The watery illusion can explode, dealing **AoE Hydro DMG**.\nWhile in the **Takimeguri Kanka** state, Ayato's normal attacks become **Shunsuiken**. These are quick watery blades capable of dealing **AoE Hydro DMG**. After a **Shunsuiken** attack hits an opponent, it will grant Ayato the **Namisen** effect, increasing the DMG dealt by **Shunsuiken** based on Ayato's Max HP. The **Takimeguri Kanka** state will be cleared when he leaves the field or when uses his Elemental Skill again."
+            "desc": "After using **Kamisato Art: Kyouka**, Ayato shifts position to enter the **Takimeguri Kanka** state and leaves a watery illusion at his original location. The watery illusion can explode, dealing **AoE Hydro DMG**.\nWhile in the **Takimeguri Kanka** state, Ayato's normal attacks become **Shunsuiken**. These are quick watery blades capable of dealing **AoE Hydro DMG**. After a **Shunsuiken** attack hits an opponent, it will grant Ayato the **Namisen** effect, increasing the DMG dealt by **Shunsuiken** based on Ayato's Max HP. The **Takimeguri Kanka** state will be cleared when he leaves the field or when uses his Elemental Skill again.",
+            "video": "https://cdn.discordapp.com/attachments/954378078195417158/954379375879540786/Ayato_E.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/954378078195417158/954379375204241438/Ayato_E_scaled.mp4"
           }
         ],
         "ult": {
           "name": "Kamisato Art: Suiyuu",
           "desc": "Unveils a garden of purity in which Bloomwater Blades will rain down and attack opponents within it's AoE. This will increase the Normal Attack DMG for characters within that AoE.",
-          "type": "Hydro"
+          "type": "Hydro",
+          "video": "https://cdn.discordapp.com/attachments/954378078195417158/954379125483790386/Ayato_Q.gif",
+          "videomp4": "https://cdn.discordapp.com/attachments/954378078195417158/954379125160804383/Ayato_Q_scaled.mp4"
         },
         "passive": [
           {
