@@ -90,7 +90,7 @@ Note: this command supports fuzzy search.`,
     getMaterialsPages(): string[] {
         const { data } = client
         const materials = Object.entries(data.materials)
-            .map(([name, material]) => `**${material.category}**: ${material.stars?`${material.stars}★ `:""}${data.emoji(name, true)}`)
+            .map(([name, material]) => `**${material.category ?? "Unknown"}**: ${material.stars?`${material.stars}★ `:""}${data.emoji(name, true)}`)
 
         const pages: string[] = []
         let paging = "", c = 0

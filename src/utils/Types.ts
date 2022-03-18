@@ -263,10 +263,11 @@ interface User {
 
 // Game data
 export interface Artifact {
-    name:    string
-    levels:  number[]
-    bonuses: Bonus[]
-    artis:   Arti[]
+    name:     string
+    note?:    string
+    levels?:  number[]
+    bonuses?: Bonus[]
+    artis?:   Arti[]
 }
 
 export interface Arti {

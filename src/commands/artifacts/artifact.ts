@@ -73,15 +73,15 @@ Note: this command supports fuzzy search.`,
         if (arti == undefined)
             return sendMessage(source, "Unable to find artifact")
 
-        await simplePaginator(source, (relativePage, currentPage, maxPages) => this.getArti(arti, relativePage, currentPage, maxPages), 1 + arti.artis.length)
+        await simplePaginator(source, (relativePage, currentPage, maxPages) => this.getArti(arti, relativePage, currentPage, maxPages), 1 + (arti.artis?.length ?? 0))
         return undefined
     }
 
     getArtiSetsPages(): string[] {
         const { data } = client
         const artis = Object.entries(data.artifacts)
-            .sort(([an, a],  [bn, b]) => Math.max(...b.levels) - Math.max(...a.levels) || Math.min(...a.levels) - Math.min(...b.levels) || an.localeCompare(bn))
-            .map(([name, info]) => `**${name}**: ${Math.min(...info.levels)}★ ~ ${Math.max(...info.levels)}★`)
+            .sort(([an, a],  [bn, b]) => !b.levels ? -1 : !a.levels ? 1 : Math.max(...b.levels) - Math.max(...a.levels) || Math.min(...a.levels) - Math.min(...b.levels) || an.localeCompare(bn))
+            .map(([name, info]) => `**${name}**${info.levels ? `: ${Math.min(...info.levels)}★ ~ ${Math.max(...info.levels)}★` : " (Not yet released)"}`)
 
         const pages: string[] = []
         let paging = "", c = 0
@@ -115,17 +115,21 @@ Note: this command supports fuzzy search.`,
         const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setThumbnail(getLink(set.artis.find(x => x.icon)?.icon ?? "img/unknown.png"))
+            .setThumbnail(getLink(set.artis?.find(x => x.icon)?.icon ?? "img/unknown.png"))
             .setURL(`${data.baseURL}artifacts/${urlify(set.name, false)}`)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
 
         if (relativePage == 0) {
-            for (const bonus of set.bonuses)
+            for (const bonus of set.bonuses ?? [])
                 embed.addField(`${bonus.count}-Set Bonus`, bonus.desc)
 
             embed.setTitle(`${set.name}: Set info`)
-                .addField("Possible levels", set.levels.map(k => k + "★").join(", "))
-                .setDescription(`This set contains ${set.artis.length} artifacts`)
+            if (set.levels)
+                embed.addField("Possible levels", set.levels.map(k => k + "★").join(", "))
+            if (set.artis)
+                embed.setDescription(`This set contains ${set.artis.length} artifacts`)
+            if (set.note)
+                embed.setDescription(set.note)
 
 
             const guides = client.data.getGuides("artifact", set.name).map(({ guide, page }) => getLinkToGuide(guide, page)).join("\n")
@@ -136,7 +140,7 @@ Note: this command supports fuzzy search.`,
             return embed
         }
 
-        if (relativePage <= set.artis.length) {
+        if (set.artis && relativePage <= set.artis.length) {
             const arti = set.artis[relativePage - 1]
             const mainStats = data.artifactMainStats[arti.type]
             const total = mainStats.map(m => m.weight).reduce((a, b) => a+b, 0)
