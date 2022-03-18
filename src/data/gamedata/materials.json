@@ -7884,5 +7884,29 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "img/material/Launch_Tube.png"
+  },
+  "Starshroom": {
+    "name": "Starshroom",
+    "desc": "*Upcoming material in 2.6*\nA fungus with a cap that resembles a five-pointed [...]",
+    "type": "Cooking Ingredient",
+    "category": "Teyvat's Resources",
+    "icon": "https://i.imgur.com/BdqjxJO.png"
+  },
+  "Glazed Sand Crystal": {
+    "name": "Glazed Sand Crystal",
+    "desc": "*Upcoming material in 2.6*"
+  },
+  "Lumenspar": {
+    "name": "Lumenspar",
+    "stars": 1,
+    "desc": "*Upcoming material in 2.6*"
+  },
+  "Lumenstone Adjuvant": {
+    "name": "Lumenstone Adjuvant",
+    "desc": "*Upcoming gadget in 2.6*\nWhen equipped in The Chasm's Underground Mines, this precious crystal can provide illumination.\n\nIt has many similarities to the Glazed Sand Crystal that may only be found within The Chasm, but it stores even greater power within.\nMay it be as a sun in your palm, lighting the way through the lightless tunnels and bringing comfort where all is dark.",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "https://i.imgur.com/0ft5iCr.png"
   }
 }
