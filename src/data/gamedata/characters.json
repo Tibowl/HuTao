@@ -10967,7 +10967,8 @@
         ],
         "ult": {
           "name": "Kamisato Art: Suiyuu",
-          "desc": "Unveils a garden of purity in which Bloomwater Blades will rain down and attack opponents within it's AoE. This will increase the Normal Attack DMG for characters within that AoE."
+          "desc": "Unveils a garden of purity in which Bloomwater Blades will rain down and attack opponents within it's AoE. This will increase the Normal Attack DMG for characters within that AoE.",
+          "type": "Hydro"
         },
         "passive": [
           {
