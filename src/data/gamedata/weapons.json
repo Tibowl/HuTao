@@ -5351,6 +5351,13 @@
       }
     ]
   },
+  "Haran Geppaku Futsu": {
+    "name": "Haran Geppaku Futsu",
+    "placeholder": true,
+    "weaponType": "Sword",
+    "stars": 5,
+    "icon": "https://i.imgur.com/SFpfOqn.png"
+  },
   "Harbinger of Dawn": {
     "name": "Harbinger of Dawn",
     "desc": "A sword that once shone like the sun. The wielder of this sword will be blessed with a \"feel-good\" buff. The reflective material on the blade has long worn off.",

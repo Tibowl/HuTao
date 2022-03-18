@@ -331,21 +331,30 @@ Note: this command supports fuzzy search.`,
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setTitle(`${weapon.name}: Base`)
             .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}#media`)
-            .setDescription(`[Open image in browser](${data.baseURL}${weapon.icon})`)
-            .setImage(data.baseURL + weapon.icon)
+            .setDescription(`[Open image in browser](${data.baseURL}${getLink(weapon.icon)})`)
+            .setImage(getLink(weapon.icon))
         embed.thumbnail = null
         return embed
     }
 
     getSecondArtWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
         const { data } = client
+
+        if (!weapon.awakenIcon)
+            return new MessageEmbed()
+                .setColor(Colors.RED)
+                .setTitle(`${weapon.name}: 2nd Ascension`)
+                .setFooter(`Page ${currentPage} / ${maxPages}`)
+                .setDescription("Unable to load")
+
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
             .setFooter(`Page ${currentPage} / ${maxPages}`)
             .setTitle(`${weapon.name}: 2nd Ascension`)
             .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}#media`)
-            .setDescription(`[Open image in browser](${data.baseURL}${weapon.awakenIcon})`)
-            .setImage(data.baseURL + weapon.awakenIcon)
+            .setDescription(`[Open image in browser](${data.baseURL}${getLink(weapon.awakenIcon)})`)
+            .setImage(getLink(weapon.awakenIcon))
+
         embed.thumbnail = null
         return embed
     }
