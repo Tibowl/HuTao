@@ -2817,5 +2817,36 @@
         "0%"
       ]
     ]
+  },
+  "Ruin Serpent": {
+    "name": "Ruin Serpent",
+    "type": "Automatons",
+    "desc": "An ancient, bizarrely-shaped autonomous machine.",
+    "icon": "https://i.imgur.com/hjzZqV4.png",
+    "placeholder": true
+  },
+  "Black Serpent Knight: Windcutter": {
+    "name": "Black Serpent Knight: Windcutter",
+    "desc": "A guard of some standing in the court.",
+    "icon": "https://i.imgur.com/fcIYgLs.png",
+    "placeholder": true
+  },
+  "Floating Hydro Fungus": {
+    "name": "Floating Hydro Fungus",
+    "desc": "A spore organism of some intelligence It possesses extreme adapability.",
+    "icon": "https://i.imgur.com/9gOXHTd.png",
+    "placeholder": true
+  },
+  "Bluethunder Weasel": {
+    "name": "Bluethunder Weasel",
+    "desc": "These intelligent weasels live underground within the mining tunnels and cavernous depths of The Chasm. Their fur has a unique blue sheen.",
+    "icon": "https://i.imgur.com/Dk1EfeU.png",
+    "placeholder": true
+  },
+  "Lucklight Fly": {
+    "name": "Lucklight Fly",
+    "desc": "These creatures dwell within The Chasm, absorbing the energies of the strange stones within and emitting a dim light. Because they give off light, they are loved by miners and considered a good omen, thus their term \"Luclight.\"",
+    "icon": "https://i.imgur.com/mhEFaW3.png",
+    "placeholder": true
   }
 }

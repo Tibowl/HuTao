@@ -7887,10 +7887,10 @@
   },
   "Starshroom": {
     "name": "Starshroom",
-    "desc": "*Upcoming material in 2.6*\nA fungus with a cap that resembles a five-pointed star. It is quite handy indeed [...]",
-    "type": "Cooking Ingredient",
+    "desc": "*Upcoming material in 2.6*\nA fungus with a cap that resembles a five-pointed star. It is quite hardy indeed. Once it matures, the center of the cap will split open.",
+    "type": "Food",
     "category": "Teyvat's Resources",
-    "icon": "https://i.imgur.com/BdqjxJO.png"
+    "icon": "https://i.imgur.com/WeNOdTH.png"
   },
   "Glazed Sand Crystal": {
     "name": "Glazed Sand Crystal",
