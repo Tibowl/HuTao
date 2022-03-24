@@ -10941,6 +10941,8 @@
       ]
     },
     "meta": {
+      "birthMonth": 3,
+      "birthDay": 26,
       "association": "Inazuma",
       "title": "Pillar of Fortitude",
       "detail": "The young but highly accomplished head of the Yashiro Commission's Kamisato Clan. Cultured and polite, he is a man of many ways and means.",
@@ -10957,24 +10959,54 @@
         "talents": [
           {
             "name": "Normal Attack: Kamisato Art - Marobashi",
-            "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash a charged attack.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to dash forward and perform an iai.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Sword.png",
             "video": "https://cdn.discordapp.com/attachments/954378078195417158/954379089819607070/Ayato_NA.gif",
-            "videomp4": "https://cdn.discordapp.com/attachments/954378078195417158/954379089232396288/Ayato_NA_scaled.mp4"
+            "videomp4": "https://cdn.discordapp.com/attachments/954378078195417158/954379089232396288/Ayato_NA_scaled.mp4",
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Elegance",
+                "BossMat": "Mudra of the Malefic General",
+                "EnemyDropTier1": "Old Handguard",
+                "EnemyDropTier2": "Kageuchi Handguard",
+                "EnemyDropTier3": "Famed Handguard"
+              }
+            }
           },
           {
             "name": "Kamisato Art: Kyouka",
-            "desc": "After using **Kamisato Art: Kyouka**, Ayato shifts position to enter the **Takimeguri Kanka** state and leaves a watery illusion at his original location. The watery illusion can explode, dealing **AoE Hydro DMG**.\nWhile in the **Takimeguri Kanka** state, Ayato's normal attacks become **Shunsuiken**. These are quick watery blades capable of dealing **AoE Hydro DMG**. After a **Shunsuiken** attack hits an opponent, it will grant Ayato the **Namisen** effect, increasing the DMG dealt by **Shunsuiken** based on Ayato's Max HP. The **Takimeguri Kanka** state will be cleared when he leaves the field or when uses his Elemental Skill again.",
+            "desc": "Kamisato Ayato shifts positions and enters the **Takimeguri Kanka** state. After this shift, he  will leave a watery illusion at his original location. After it is formed, the watery illusion will explode if opponents are nearby or after its duration ends, dealing **AoE Hydro DMG**.\n\n**Takimeguri Kanka**\nIn this state, Kamisato Ayato uses his Shunsuiken to engage in blindingly fast attacks, causing DMG from his Normal Attacks to be converted into AoE Hydro DMG. This cannot be overridden.\nIt also has the following properties:\n·After a **Shunsuiken** attack hits an opponent, it will grant Ayato the **Namisen** effect, increasing the DMG dealt by **Shunsuiken** based on Ayato's current Max HP. The initial maximum number of Namisen stacks is 4, and 1 stack can be gained through Shunsuiken every 0.1s. This effect will be dispelled when **Takimeguri Kanka** ends.\n·Kamisato Ayato's resistance to interruption is increased.\n·Unable to use Charged or Plunging Attacks.\n\n**Takimeguri Kanka** will be cleared when Ayato leaves the field. Using Kamisato Art: Kyouka again while in the **Takimeguri Kanka** state will reset and replace the pre-existing state.",
             "video": "https://cdn.discordapp.com/attachments/954378078195417158/954379375879540786/Ayato_E.gif",
-            "videomp4": "https://cdn.discordapp.com/attachments/954378078195417158/954379375204241438/Ayato_E_scaled.mp4"
+            "videomp4": "https://cdn.discordapp.com/attachments/954378078195417158/954379375204241438/Ayato_E_scaled.mp4",
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Elegance",
+                "BossMat": "Mudra of the Malefic General",
+                "EnemyDropTier1": "Old Handguard",
+                "EnemyDropTier2": "Kageuchi Handguard",
+                "EnemyDropTier3": "Famed Handguard"
+              }
+            }
           }
         ],
         "ult": {
           "name": "Kamisato Art: Suiyuu",
-          "desc": "Unveils a garden of purity in which Bloomwater Blades will rain down and attack opponents within it's AoE. This will increase the Normal Attack DMG for characters within that AoE.",
+          "desc": "Unveils a garden of purity that silences the cacophony within. While this space exists, Bloomwater Blades will constantly rain down and attack opponents within its AoE, dealing Hydro DMG and increasing Normal Attack DMG for characters within.",
           "type": "Hydro",
           "video": "https://cdn.discordapp.com/attachments/954378078195417158/954379125483790386/Ayato_Q.gif",
-          "videomp4": "https://cdn.discordapp.com/attachments/954378078195417158/954379125160804383/Ayato_Q_scaled.mp4"
+          "videomp4": "https://cdn.discordapp.com/attachments/954378078195417158/954379125160804383/Ayato_Q_scaled.mp4",
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Elegance",
+              "BossMat": "Mudra of the Malefic General",
+              "EnemyDropTier1": "Old Handguard",
+              "EnemyDropTier2": "Kageuchi Handguard",
+              "EnemyDropTier3": "Famed Handguard"
+            }
+          }
         },
         "passive": [
           {
@@ -10991,7 +11023,21 @@
           }
         ]
       }
-    ]
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Dew of Repudiation",
+        "EnemyDropTier1": "Old Handguard",
+        "EnemyDropTier2": "Kageuchi Handguard",
+        "EnemyDropTier3": "Famed Handguard",
+        "Gem1": "Varunada Lazurite Sliver",
+        "Gem2": "Varunada Lazurite Fragment",
+        "Gem3": "Varunada Lazurite Chunk",
+        "Gem4": "Varunada Lazurite Gemstone",
+        "Specialty": "Sakura Bloom"
+      }
+    }
   },
   "Keqing": {
     "name": "Keqing",
