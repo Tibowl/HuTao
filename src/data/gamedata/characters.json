@@ -10938,7 +10938,10 @@
       "imgs": [
         "https://upload-os-bbs.hoyolab.com/upload/2022/02/04/1015537/5ba1121b927b778d66765ee43dbdaa41_5065913653005366720.jpg",
         "https://upload-os-bbs.hoyolab.com/upload/2022/02/04/1015537/d5a3efddb1735de9921626396a47cebc_6306395664639823316.jpg"
-      ]
+      ],
+      "videos": {
+        "Character Teaser - \"Kamisato Ayato: Lanterns in the Night\"": "https://youtu.be/s3ok84NeMdU"
+      }
     },
     "meta": {
       "birthMonth": 3,
