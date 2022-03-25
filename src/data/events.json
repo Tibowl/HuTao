@@ -1156,6 +1156,16 @@
         "reminder": "end"
     },
     {
+        "name": "\"A Thousand Questions With Paimon\" Quiz Event",
+        "type": "Quiz",
+        "link": "https://webstatic-sea.hoyoverse.com/ys/event/answer-question/index.html?activity_no=2f151b0c13924d49&event_channel=1&sign_type=2&authkey_ver=1&auth_appid=e20201218answer&game_biz=hk4e_global&mhy_presentation_style=fullscreen&utm_source=ingame&utm_medium=notice",
+        "img": "https://uploadstatic-sea.mihoyo.com/announcement/2022/03/23/4e68828d83d2783bc6918186303a6b68_8577899917508307635.jpg",
+        "start": "2022-03-25 13:00:00",
+        "end": "2022-03-27 23:59:59",
+        "reminder": "daily",
+        "remindtime": "04:00:00"
+    },
+    {
         "name": "2.6 Special Program",
         "type": "Stream",
         "link": "https://www.hoyolab.com/article/3831609",
