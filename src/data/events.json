@@ -1147,6 +1147,15 @@
         "reminder": "end"
     },
     {
+        "name": "\"When Flowers Bloom\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/3949309",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/03/24/1015448/7f73bc630b6eeef39b6c8c3e2ebf82be_1890601966214988340.jpg",
+        "start": "2022-03-25 12:00:00",
+        "end": "2022-03-30 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "2.6 Special Program",
         "type": "Stream",
         "link": "https://www.hoyolab.com/article/3831609",
