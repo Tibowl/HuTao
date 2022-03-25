@@ -7887,10 +7887,10 @@
   },
   "Starshroom": {
     "name": "Starshroom",
-    "desc": "*Upcoming material in 2.6*\nA fungus with a cap that resembles a five-pointed star. It is quite handy indeed [...]",
-    "type": "Cooking Ingredient",
+    "desc": "*Upcoming material in 2.6*\nA fungus with a cap that resembles a five-pointed star. It is quite hardy indeed. Once it matures, the center of the cap will split open.",
+    "type": "Food",
     "category": "Teyvat's Resources",
-    "icon": "https://i.imgur.com/BdqjxJO.png"
+    "icon": "https://i.imgur.com/WeNOdTH.png"
   },
   "Glazed Sand Crystal": {
     "name": "Glazed Sand Crystal",
@@ -7899,7 +7899,18 @@
   "Lumenspar": {
     "name": "Lumenspar",
     "stars": 1,
-    "desc": "*Upcoming material in 2.6*"
+    "desc": "*Upcoming material in 2.6, used to enhance your Lumenstone Adjuvant*",
+    "type": "Adventure Item",
+    "category": "Trophies",
+    "icon": "https://i.imgur.com/u2cz82d.png"
+  },
+  "Lumenstone Ore": {
+    "name": "Lumenstone Ore",
+    "stars": 3,
+    "desc": "*Upcoming material in 2.6, used to enhance your Lumenstone Adjuvant*",
+    "type": "Adventure Item",
+    "category": "Trophies",
+    "icon": "https://i.imgur.com/BL3YmEL.png"
   },
   "Lumenstone Adjuvant": {
     "name": "Lumenstone Adjuvant",

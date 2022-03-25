@@ -151,6 +151,7 @@
         "name": "Sakura Bloom route",
         "desc": "**Sakura Blooms ${Sakura Bloom}** can be found in the wilderness of Inazuma.\n\n> Blossoms from the Sacred Sakura at the Grand Narukami Shrine, filled with a fondness for Inazuma.",
         "img": "https://cdn.discordapp.com/attachments/923173940338245673/923320425998610492/Sakura_Bloom.png",
+        "url": "https://youtu.be/V_zl_rckNvc",
         "credits": "Soul",
         "links": {
           "material": ["Sakura Bloom"]

@@ -62,7 +62,7 @@ export default class DataManager {
     readonly paimonsBargains: PaimonShop[] = paimonShop
     readonly costTemplates: Record<string, Cost[]> = costTemplates
 
-    readonly enemies: Record<string, Enemy> = enemyData
+    readonly enemies: Record<string, Enemy> = enemyData as Record<string, Enemy>
 
     readonly materials: Record<string, Material> = materialData
 
