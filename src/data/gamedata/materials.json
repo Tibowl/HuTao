@@ -7919,5 +7919,12 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "https://i.imgur.com/0ft5iCr.png"
+  },
+  "Gloomy Statuette": {
+    "name": "Gloomy Statuette",
+    "desc": "*Upcoming material in 2.6, used to upgrade Haran Geppaku Futsu*",
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "https://i.imgur.com/6kyEkI5.png"
   }
 }

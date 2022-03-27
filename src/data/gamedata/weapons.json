@@ -5357,7 +5357,35 @@
     "placeholder": true,
     "weaponType": "Sword",
     "stars": 5,
-    "icon": "https://i.imgur.com/MSdfmFq.png"
+    "icon": "https://i.imgur.com/MSdfmFq.png",
+    "placeholderStats": {
+      "level": 90,
+      "stats": {
+        "Base ATK": 608,
+        "CRIT Rate": 0.331
+      }
+    },
+    "refinements": [
+      {
+        "name": "Honed Flow",
+        "desc": "Obtain **12%** All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by **20%** for 8s."
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts3",
+      "mapping": {
+        "EnemyDropTierA1": "Gloomy Statuette",
+        "EnemyDropTierA2": "Unknown",
+        "EnemyDropTierA3": "Unknown",
+        "EnemyDropTierB1": "Old Handguard",
+        "EnemyDropTierB2": "Kageuchi Handguard",
+        "EnemyDropTierB3": "Famed Handguard",
+        "WeaponAsc1": "Narukami's Wisdom",
+        "WeaponAsc2": "Narukami's Joy",
+        "WeaponAsc3": "Narukami's Affection",
+        "WeaponAsc4": "Narukami's Valor"
+      }
+    }
   },
   "Harbinger of Dawn": {
     "name": "Harbinger of Dawn",
