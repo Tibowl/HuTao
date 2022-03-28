@@ -7926,5 +7926,35 @@
     "type": "Character Level-Up Material",
     "category": "Trophies",
     "icon": "https://i.imgur.com/6kyEkI5.png"
+  },
+  "Dark Statuette": {
+    "name": "Dark Statuette",
+    "desc": "*Upcoming material in 2.6, used to upgrade Haran Geppaku Futsu*",
+    "type": "Character Level-Up Material",
+    "category": "Trophies"
+  },
+  "Deathly Statuette": {
+    "name": "Deathly Statuette",
+    "desc": "*Upcoming material in 2.6, used to upgrade Haran Geppaku Futsu*",
+    "type": "Character Level-Up Material",
+    "category": "Trophies"
+  },
+  "Quiet Elegance": {
+    "name": "Quiet Elegance",
+    "desc": "*Upcoming food in 2.6*",
+    "type": "Food",
+    "category": "Food and Potions"
+  },
+  "Katsu Sandwich": {
+    "name": "Katsu Sandwich",
+    "desc": "*Upcoming food in 2.6*",
+    "type": "Food",
+    "category": "Food and Potions"
+  },
+  "Rainbow Aster": {
+    "name": "Rainbow Aster",
+    "desc": "*Upcoming food in 2.6*",
+    "type": "Food",
+    "category": "Food and Potions"
   }
 }

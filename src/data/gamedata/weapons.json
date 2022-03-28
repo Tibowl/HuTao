@@ -5375,8 +5375,8 @@
       "template": "weaponAscensionsCosts3",
       "mapping": {
         "EnemyDropTierA1": "Gloomy Statuette",
-        "EnemyDropTierA2": "Unknown",
-        "EnemyDropTierA3": "Unknown",
+        "EnemyDropTierA2": "Dark Statuette",
+        "EnemyDropTierA3": "Deathly Statuette",
         "EnemyDropTierB1": "Old Handguard",
         "EnemyDropTierB2": "Kageuchi Handguard",
         "EnemyDropTierB3": "Famed Handguard",
