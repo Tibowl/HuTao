@@ -1176,15 +1176,16 @@
     {
         "name": "2.6 Maintenance",
         "type": "Maintenance",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/3992100",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/03/18/1015373/9728c058e28914db977aaced99fea4c7_6399031903363909301.jpg",
         "start": "2022-03-30 06:00:00",
         "end": "2022-03-30 11:00:00"
     },
     {
         "name": "Event Wish \"Azure Excursion\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/OTUYdqg.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/3992944",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/03/25/1015448/1eac4b6a5111abe4d1726842a7191c2d_903723562714271981.jpg",
         "start": "2022-03-30 11:00:00",
         "start_server": false,
         "end": "2022-04-19 17:59:00",
@@ -1193,8 +1194,8 @@
     {
         "name": "Event Wish \"Ballad in Goblets\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/OTUYdqg.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/3992945",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/03/25/1015448/726d45d9eb3d7018a5d3afa60b872c19_3617472577269375986.jpg",
         "start": "2022-03-30 11:00:00",
         "start_server": false,
         "end": "2022-04-19 17:59:00",
@@ -1203,8 +1204,8 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/agK6zHA.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/3992947",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/03/25/1015448/ac329d1e062999de205dccb8829d9da2_8490623947419327441.jpg",
         "start": "2022-03-30 11:00:00",
         "start_server": false,
         "end": "2022-04-19 17:59:00",
@@ -1231,7 +1232,9 @@
     {
         "name": "\"Hues of the Violet Garden\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/M6O3ZUQ.png",
+        "img": "https://i.imgur.com/QuzY34N.png",
+        "start": "2022-04-07 10:00:00",
+        "end": "2022-04-25 03:59:00",
         "reminder": "end"
     },
     {
@@ -1249,7 +1252,9 @@
     {
         "name": "\"Outside the Canvas, Inside the Lens\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/xL0xN4l.png",
+        "img": "https://i.imgur.com/0RLLwJE.png",
+        "start": "2022-04-01 10:00:00",
+        "end": "2022-04-11 03:59:00",
         "reminder": "end"
     },
     {
