@@ -2142,5 +2142,13 @@
                 ]
             }
         ]
+    },
+    "38": {
+        "teams": 2,
+        "leyline": "All characters in the party gain a 75% Anemo DMG Bonus."
+    },
+    "39": {
+        "teams": 2,
+        "leyline": "For this floor only, the ley line flow will be normal."
     }
 }

@@ -812,5 +812,71 @@
       36,
       37
     ]
+  },
+  "37": {
+    "start": "2022-04-01 04:00:00",
+    "end": "2022-04-16 03:59:59",
+    "buff": "Sheet-Ice Moon",
+    "buffDesc": "After a character's Normal Attack hits an opponent, this opponent will be afflicted with a Mark of Ending. After 10s, this Mark of Ending will be removed, dealing True DMG to this opponent. When a character's Normal Attack hits an opponent with a Mark of Ending, the DMG dealt by the Mark of Ending's removal will be increased. This DMG can be increased 9 times.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      38,
+      39
+    ]
+  },
+  "38": {
+    "start": "2022-04-16 04:00:00",
+    "end": "2022-05-01 03:59:59",
+    "buff": "Snap-Rain Moon",
+    "buffDesc": "After a character's Normal Attacks hit opponents, the DMG dealt by this character's Normal Attacks will increase by 12% for 5s. This effect can stack up to 5 times. Each stack is calculated independently. This effect can be triggered once every 0.1s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      38,
+      39
+    ]
+  },
+  "39": {
+    "start": "2022-05-01 04:00:00",
+    "end": "2022-05-16 03:59:59",
+    "buff": "Iris Moon",
+    "buffDesc": "After a character's Normal Attack deals DMG to an opponent, the Physical/Elemental RES of this opponent will decrease by 6% for 5s, matching the type of DMG dealt. This can stack up to 7 times. RES decreases of different types can co-exist, and their stacks and timers will be independent of each other.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      38,
+      39
+    ]
   }
 }
