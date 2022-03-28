@@ -9856,6 +9856,25 @@
       }
     }
   },
+  "Kuki Shinobu": {
+    "name": "Kuki Shinobu",
+    "desc": "Deputy Leader of the Arataki Gang.",
+    "icon": "https://i.imgur.com/iKNCm2s.png",
+    "media": {
+      "imgs": [
+        "https://pbs.twimg.com/media/FO7TYvNVgAERTgQ.jpg",
+        "https://pbs.twimg.com/media/FO7Sz0zVkAAIpIo.jpg"
+      ]
+    },
+    "meta": {
+      "association": "Inazuma",
+      "title": "Mender of Tribulations",
+      "detail": "Deputy Leader of the Arataki Gang.",
+      "affiliation": "Arataki Gang",
+      "element": "Electro",
+      "constellation": "Tribulatio Demptio"
+    }
+  },
   "Kaeya": {
     "name": "Kaeya",
     "desc": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
@@ -26326,6 +26345,25 @@
         "Gem4": "Agnidus Agate Gemstone",
         "Specialty": "Noctilucous Jade"
       }
+    }
+  },
+  "Yelan": {
+    "name": "Yelan",
+    "desc": "A mysterious person who claims to work for the Ministry of Civil Affairs.",
+    "icon": "https://i.imgur.com/cOnpRV5.png",
+    "media": {
+      "imgs": [
+        "https://pbs.twimg.com/media/FO7WKkrVUAMDueN.jpg",
+        "https://pbs.twimg.com/media/FO6zXilUcAED7C2.jpg"
+      ]
+    },
+    "meta": {
+      "association": "Liyue",
+      "title": "Valley Orchid",
+      "detail": "A mysterious person who claims to work for the Ministry of Civil Affairs.",
+      "affiliation": "Ministry of Civil Affairs",
+      "element": "Hydro",
+      "constellation": "Umbrabilis Orchis"
     }
   },
   "Yoimiya": {
