@@ -1705,7 +1705,6 @@
   },
   "Vermillion Hereafter": {
     "name": "Vermillion Hereafter",
-    "note": "*Unreleased artifact set, coming in 2.6*",
     "levels": [
       4,
       5
@@ -1719,11 +1718,42 @@
         "count": 4,
         "desc": "After using an Elemental Burst, this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This further increase can occur this way a maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled."
       }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Flowering Life",
+        "desc": "An ancient memento. It still looks as alive as the being that preserved it several centuries ago.",
+        "icon": "img/arti/Flowering_Life.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Feather of Nascent Light",
+        "desc": "A dimly lustrous pinion steeped in strong memories.",
+        "icon": "img/arti/Feather_of_Nascent_Light.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Solar Relic",
+        "desc": "An ancient timepiece with a mighty solid look. Its luster is produced by sand crystal.",
+        "icon": "img/arti/Solar_Relic.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Moment of the Pact",
+        "desc": "An old cup made of sand crystal. Its luster is somehow undimmed by age.",
+        "icon": "img/arti/Moment_of_the_Pact.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Thundering Poise",
+        "desc": "This mask is said to have been made by the mountain people for a Yaksha. It is of simple make, but its surface still shines brightly nonetheless.",
+        "icon": "img/arti/Thundering_Poise.png"
+      }
     ]
   },
   "Echoes of an Offering": {
     "name": "Echoes of an Offering",
-    "note": "*Unreleased artifact set, coming in 2.6*",
     "levels": [
       4,
       5
@@ -1736,6 +1766,38 @@
       {
         "count": 4,
         "desc": "When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK. This effect will be dispelled 0.05s after a Normal Attack deals DMG. If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%. This trigger can occur once every 0.2s."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Soulscent Bloom",
+        "desc": "A jade carved into the shape of a flower. A phantom scent, here one instant and gone the next, swirls around it.",
+        "icon": "img/arti/Soulscent_Bloom.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Jade Leaf",
+        "desc": "A jade ornament shaped like a leaf. It seems to have once had deep meaning between specific friends.",
+        "icon": "img/arti/Jade_Leaf.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Symbol of Felicitation",
+        "desc": "A circular jade ornament. Legend has it that it was once used somewhere as a symbol for rituals to begin.",
+        "icon": "img/arti/Symbol_of_Felicitation.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Chalice of the Font",
+        "desc": "This teacup forever overflows with fresh water. Perhaps it was a gift from an adeptus, one of their relics, or just something they left behind.",
+        "icon": "img/arti/Chalice_of_the_Font.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Flowing Rings",
+        "desc": "A pair of earrings made from a single piece of jade. It has a most gentle texture.",
+        "icon": "img/arti/Flowing_Rings.png"
       }
     ]
   }
