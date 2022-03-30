@@ -213,6 +213,17 @@
       "Found in the wild in Inazuma"
     ]
   },
+  "Starshroom": {
+    "name": "Starshroom",
+    "desc": "A fungus with a cap that resembles a five-pointed star. It is quite hardy indeed. Once it matures, the center of the cap will split open.",
+    "type": "Food",
+    "category": "Teyvat's Resources",
+    "icon": "img/food/Starshroom.png",
+    "sources": [
+      "Found in the wild"
+    ],
+    "effect": "Restores 300 HP for the selected character."
+  },
   "Wolfhook": {
     "name": "Wolfhook",
     "desc": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
@@ -1603,6 +1614,22 @@
       "recipe": "Udon Noodles"
     },
     "effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP."
+  },
+  "Quiet Elegance": {
+    "name": "Quiet Elegance",
+    "desc": "Kamisato Ayato's specialty. The arrangement is exquisite and elegant, much like the manner in which Ayato handles all his affairs. Any more, and it would have been excessive. Any less, and it would have proved a sight squandered. As you sample the dish, you find that its flavor is identical to that of Uyuu Restaurant's — amazing. But as you reach your chopsticks for that crystalline camellia, Ayato stops you... \"That was something I made during sword practice. It's just a decoration.\"",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Quiet_Elegance.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Kamisato Ayato",
+      "recipe": "Sakura Tempura"
+    },
+    "effect": "Increases all party members' Shield Strength by 35% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
@@ -4686,6 +4713,70 @@
       "Delicious Udon Noodles": "Revives a character and restores 550 HP."
     }
   },
+  "Katsu Sandwich": {
+    "name": "Katsu Sandwich",
+    "desc": "A nutritionally-balanced meal. The fragrant and fluffy bread fills you right up, while the crispy, juicy katsu titillates the senses. One single bite is all it takes to fill you from tongue to gut with satisfaction. Now then, who was the one who first thought of this brilliant combination?",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Katsu_Sandwich.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 1,
+        "name": "Cabbage"
+      }
+    ],
+    "effect": {
+      "Suspicious Katsu Sandwich": "Increases all party members' ATK by 66 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Katsu Sandwich": "Increases all party members' ATK by 81 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Katsu Sandwich": "Increases all party members' ATK by 95 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Rainbow Aster": {
+    "name": "Rainbow Aster",
+    "desc": "A unique drink. Calla Lilies from Mondstadt and Lavender Melons from Inazuma meet from across mountains and seas before having their flavors blended together to perfection using smooth milk. Novel satisfaction guaranteed — indeed, it is utterly unsurprising that the ill Shogun in the tale was re-energized by the merits of this drink alone.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Rainbow_Aster.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Milk"
+      },
+      {
+        "count": 2,
+        "name": "Lavender Melon"
+      },
+      {
+        "count": 2,
+        "name": "Calla Lily"
+      },
+      {
+        "count": 1,
+        "name": "Mint"
+      }
+    ],
+    "effect": {
+      "Suspicious Rainbow Aster": "Decreases all party members' gliding and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Rainbow Aster": "Decreases all party members' gliding and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Rainbow Aster": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
   "Rice Pudding": {
     "name": "Rice Pudding",
     "desc": "A dessert made from rice. The soft, sticky rice and the sweet milk have melded together perfectly, their tastes complementing each other. If you eat it hot, you can enjoy the dense rice grains, and if you leave it till it's cold, you can savor the gentle fragrance of milk — each possessing its own beauty. People who eat such a dish cannot help but wonder: how many experiments led up to this moment?",
@@ -5603,7 +5694,7 @@
   },
   "Mudra of the Malefic General": {
     "name": "Mudra of the Malefic General",
-    "desc": "A puppet joint obtained from the Plane of Euthymia. The gesture here symbolizes the concept that \"one sees and one does.\"\nEven now that \"she\" has become a calamitous deity, she can still utilize such transcendent gestures, her sword flashing forth as swiftly as her eyes may see.\nAnd yet, as the countless disasters ground on for far too long, the fierce general's shell had to embrace a new spring.",
+    "desc": "A puppet joint obtained from the Plane of Euthymia. The gesture here symbolizes the concept that \"one sees and one does.\"\nEven now that \"she\" has become a calamitous deity, she can still utilize such transcendent gestures, her sword flashing forth as swiftly as her eyes may see.\nAnd yet, as the countless disasters ground on for far too long, the baleful general's shell had to embrace a new spring.",
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
@@ -5796,7 +5887,18 @@
     "category": "Trophies",
     "icon": "img/material/Dragonheirs_False_Fin.png",
     "sources": [
-      "Lv. 30+ Bathysmal Vishap Herd Challenge Reward"
+      "Dropped by Lv. 30+ Bathysmal Vishap Herds"
+    ]
+  },
+  "Runic Fang": {
+    "name": "Runic Fang",
+    "desc": "A \"fang\" with which the mysterious, snakelike machine of old dug into mountains' depths. There are many ominous runes carved on it.\nIt is said that giant serpents lurk in the dark fissures deep beneath the ground. Burning with eternal resentment and malice toward the world above, they throw themselves into digging great tunnels, yet none know what their malicious purposes are...",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Runic_Fang.png",
+    "sources": [
+      "Dropped by Lv. 30+ Ruin Serpents"
     ]
   },
   "Brilliant Diamond Sliver": {
@@ -6109,6 +6211,7 @@
     "sources": [
       "Dropped by Geo Hypostases",
       "Dropped by Golden Wolflords",
+      "Dropped by Ruin Serpents",
       "Purchase from the Souvenir Shop"
     ]
   },
@@ -6122,6 +6225,7 @@
     "sources": [
       "Dropped by Lv. 40+ Geo Hypostases",
       "Dropped by Lv. 40+ Golden Wolflords",
+      "Dropped by Lv. 40+ Ruin Serpents",
       "Crafted"
     ]
   },
@@ -6135,6 +6239,7 @@
     "sources": [
       "Dropped by Lv. 60+ Geo Hypostases",
       "Dropped by Lv. 60+ Golden Wolflords",
+      "Dropped by Lv. 60+ Ruin Serpents",
       "Crafted"
     ]
   },
@@ -6148,6 +6253,7 @@
     "sources": [
       "Dropped by Lv. 75+ Geo Hypostases",
       "Dropped by Lv. 75+ Golden Wolflords",
+      "Dropped by Lv. 75+ Ruin Serpents",
       "Crafted"
     ]
   },
@@ -6589,9 +6695,11 @@
     "icon": "img/material/Damaged_Mask.png",
     "sources": [
       "Dropped by hilichurls",
-      "Dropped by some ranged hilichurls",
-      "Dropped by some samachurls",
-      "Dropped by some large hilichurls"
+      "Dropped uncommonly by hilichurl archers",
+      "Dropped uncommonly by samachurls",
+      "Dropped uncommonly by mitachurls",
+      "Dropped uncommonly by lawachurls",
+      "Stardust Exchange"
     ]
   },
   "Stained Mask": {
@@ -6602,11 +6710,13 @@
     "category": "Trophies",
     "icon": "img/material/Stained_Mask.png",
     "sources": [
+      "Crafted",
       "Dropped by Lv. 40+ hilichurls",
-      "Dropped by some Lv. 40+ ranged hilichurls",
-      "Dropped by some Lv. 40+ samachurls",
-      "Dropped by some Lv. 40+ large hilichurls",
-      "Crafted"
+      "Dropped uncommonly by Lv. 40+ hilichurl archers",
+      "Dropped uncommonly by Lv. 40+ samachurls",
+      "Dropped uncommonly by Lv. 40+ mitachurls",
+      "Dropped uncommonly by Lv. 40+ lawachurls",
+      "Stardust Exchange"
     ]
   },
   "Ominous Mask": {
@@ -6617,11 +6727,12 @@
     "category": "Trophies",
     "icon": "img/material/Ominous_Mask.png",
     "sources": [
+      "Crafted",
       "Dropped by Lv. 60+ hilichurls",
-      "Dropped by some Lv. 60+ ranged hilichurls",
-      "Dropped by some Lv. 60+ samachurls",
-      "Dropped by some Lv. 60+ large hilichurls",
-      "Crafted"
+      "Dropped uncommonly by Lv. 60+ hilichurl archers",
+      "Dropped uncommonly by Lv. 60+ samachurls",
+      "Dropped uncommonly by Lv. 60+ mitachurls",
+      "Dropped uncommonly by Lv. 60+ lawachurls"
     ]
   },
   "Divining Scroll": {
@@ -6632,7 +6743,8 @@
     "category": "Trophies",
     "icon": "img/material/Divining_Scroll.png",
     "sources": [
-      "Dropped by samachurls"
+      "Dropped by samachurls",
+      "Stardust Exchange"
     ]
   },
   "Sealed Scroll": {
@@ -6643,8 +6755,9 @@
     "category": "Trophies",
     "icon": "img/material/Sealed_Scroll.png",
     "sources": [
+      "Crafted",
       "Dropped by Lv. 40+ samachurls",
-      "Crafted"
+      "Stardust Exchange"
     ]
   },
   "Forbidden Curse Scroll": {
@@ -6655,8 +6768,8 @@
     "category": "Trophies",
     "icon": "img/material/Forbidden_Curse_Scroll.png",
     "sources": [
-      "Dropped by Lv. 60+ samachurls",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 60+ samachurls"
     ]
   },
   "Firm Arrowhead": {
@@ -6667,7 +6780,8 @@
     "category": "Trophies",
     "icon": "img/material/Firm_Arrowhead.png",
     "sources": [
-      "Dropped by ranged hilichurls"
+      "Dropped by hilichurl archers",
+      "Stardust Exchange"
     ]
   },
   "Sharp Arrowhead": {
@@ -6678,8 +6792,9 @@
     "category": "Trophies",
     "icon": "img/material/Sharp_Arrowhead.png",
     "sources": [
-      "Dropped by Lv. 40+ ranged hilichurls",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 40+ hilichurl archers",
+      "Stardust Exchange"
     ]
   },
   "Weathered Arrowhead": {
@@ -6690,8 +6805,8 @@
     "category": "Trophies",
     "icon": "img/material/Weathered_Arrowhead.png",
     "sources": [
-      "Dropped by Lv. 60+ ranged hilichurls",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 60+ hilichurl archers"
     ]
   },
   "Heavy Horn": {
@@ -6702,7 +6817,9 @@
     "category": "Trophies",
     "icon": "img/material/Heavy_Horn.png",
     "sources": [
-      "Dropped by large hilichurls"
+      "Dropped by mitachurls",
+      "Dropped by lawachurls",
+      "Stardust Exchange"
     ]
   },
   "Black Bronze Horn": {
@@ -6713,8 +6830,10 @@
     "category": "Trophies",
     "icon": "img/material/Black_Bronze_Horn.png",
     "sources": [
-      "Dropped by Lv. 40+ large hilichurls",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 40+ mitachurls",
+      "Dropped by Lv. 40+ lawachurls",
+      "Stardust Exchange"
     ]
   },
   "Black Crystal Horn": {
@@ -6725,8 +6844,9 @@
     "category": "Trophies",
     "icon": "img/material/Black_Crystal_Horn.png",
     "sources": [
-      "Dropped by Lv. 60+ large hilichurls",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 60+ mitachurls",
+      "Dropped by Lv. 60+ lawachurls"
     ]
   },
   "Dead Ley Line Branch": {
@@ -6737,7 +6857,8 @@
     "category": "Trophies",
     "icon": "img/material/Dead_Ley_Line_Branch.png",
     "sources": [
-      "Dropped by Abyss Mages"
+      "Dropped by Abyss Mages",
+      "Stardust Exchange"
     ]
   },
   "Dead Ley Line Leaves": {
@@ -6748,8 +6869,9 @@
     "category": "Trophies",
     "icon": "img/material/Dead_Ley_Line_Leaves.png",
     "sources": [
+      "Crafted",
       "Dropped by Lv. 40+ Abyss Mages",
-      "Crafted"
+      "Stardust Exchange"
     ]
   },
   "Ley Line Sprout": {
@@ -6760,8 +6882,8 @@
     "category": "Trophies",
     "icon": "img/material/Ley_Line_Sprout.png",
     "sources": [
-      "Dropped by Lv. 60+ Abyss Mages",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 60+ Abyss Mages"
     ]
   },
   "Mist Grass Pollen": {
@@ -6772,7 +6894,8 @@
     "category": "Trophies",
     "icon": "img/material/Mist_Grass_Pollen.png",
     "sources": [
-      "Dropped by Fatui Cicin Mages"
+      "Dropped by Fatui Cicin Mages",
+      "Stardust Exchange"
     ]
   },
   "Mist Grass": {
@@ -6783,8 +6906,9 @@
     "category": "Trophies",
     "icon": "img/material/Mist_Grass.png",
     "sources": [
+      "Crafted",
       "Dropped by Lv. 40+ Fatui Cicin Mages",
-      "Crafted"
+      "Stardust Exchange"
     ]
   },
   "Mist Grass Wick": {
@@ -6795,8 +6919,8 @@
     "category": "Trophies",
     "icon": "img/material/Mist_Grass_Wick.png",
     "sources": [
-      "Dropped by Lv. 60+ Fatui Cicin Mages",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 60+ Fatui Cicin Mages"
     ]
   },
   "Hunter's Sacrificial Knife": {
@@ -6807,7 +6931,8 @@
     "category": "Trophies",
     "icon": "img/material/Hunters_Sacrificial_Knife.png",
     "sources": [
-      "Dropped by Agents"
+      "Dropped by Fatui Agents",
+      "Stardust Exchange"
     ]
   },
   "Agent's Sacrificial Knife": {
@@ -6818,8 +6943,9 @@
     "category": "Trophies",
     "icon": "img/material/Agents_Sacrificial_Knife.png",
     "sources": [
-      "Dropped by Lv. 40+ Agents",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 40+ Fatui Agents",
+      "Stardust Exchange"
     ]
   },
   "Inspector's Sacrificial Knife": {
@@ -6830,8 +6956,8 @@
     "category": "Trophies",
     "icon": "img/material/Inspectors_Sacrificial_Knife.png",
     "sources": [
-      "Dropped by Lv. 60+ Agents",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 60+ Fatui Agents"
     ]
   },
   "Recruit's Insignia": {
@@ -6842,9 +6968,10 @@
     "category": "Trophies",
     "icon": "img/material/Recruits_Insignia.png",
     "sources": [
-      "Dropped by Skirmishers",
-      "Dropped by some Agents",
-      "Dropped by some Electro Cicin Mages"
+      "Dropped by Fatui Skirmishers",
+      "Dropped by some Fatui Agents",
+      "Dropped uncommonly by Fatui Cicin Mages",
+      "Stardust Exchange"
     ]
   },
   "Sergeant's Insignia": {
@@ -6855,10 +6982,11 @@
     "category": "Trophies",
     "icon": "img/material/Sergeants_Insignia.png",
     "sources": [
-      "Dropped by Lv. 40+ Skirmishers",
-      "Dropped by some Lv. 40+ Agents",
-      "Dropped by some Lv. 40+ Electro Cicin Mages",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 40+ Fatui Skirmishers",
+      "Dropped uncommonly by Lv. 40+ Fatui Agents",
+      "Dropped uncommonly by Lv. 40+ Fatui Cicin Mages",
+      "Stardust Exchange"
     ]
   },
   "Lieutenant's Insignia": {
@@ -6869,10 +6997,10 @@
     "category": "Trophies",
     "icon": "img/material/Lieutenants_Insignia.png",
     "sources": [
-      "Dropped by Lv. 60+ Skirmishers",
-      "Dropped by some Lv. 60+ Agents",
-      "Dropped by some Lv. 60+ Electro Cicin Mages",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 60+ Fatui Skirmishers",
+      "Dropped uncommonly by Lv. 60+ Fatui Agents",
+      "Dropped uncommonly by Lv. 60+ Fatui Cicin Mages"
     ]
   },
   "Slime Condensate": {
@@ -6883,7 +7011,8 @@
     "category": "Trophies",
     "icon": "img/material/Slime_Condensate.png",
     "sources": [
-      "Dropped by slimes"
+      "Dropped by slimes",
+      "Stardust Exchange"
     ]
   },
   "Slime Secretions": {
@@ -6894,8 +7023,9 @@
     "category": "Trophies",
     "icon": "img/material/Slime_Secretions.png",
     "sources": [
+      "Crafted",
       "Dropped by Lv. 40+ slimes",
-      "Crafted"
+      "Stardust Exchange"
     ]
   },
   "Slime Concentrate": {
@@ -6906,8 +7036,8 @@
     "category": "Trophies",
     "icon": "img/material/Slime_Concentrate.png",
     "sources": [
-      "Dropped by Lv. 60+ slimes",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 60+ slimes"
     ]
   },
   "Whopperflower Nectar": {
@@ -6918,7 +7048,8 @@
     "category": "Trophies",
     "icon": "img/material/Whopperflower_Nectar.png",
     "sources": [
-      "Dropped by whopperflowers"
+      "Dropped by whopperflowers",
+      "Stardust Exchange"
     ]
   },
   "Shimmering Nectar": {
@@ -6929,8 +7060,9 @@
     "category": "Trophies",
     "icon": "img/material/Shimmering_Nectar.png",
     "sources": [
+      "Crafted",
       "Dropped by Lv. 40+ whopperflowers",
-      "Crafted"
+      "Stardust Exchange"
     ]
   },
   "Energy Nectar": {
@@ -6941,8 +7073,8 @@
     "category": "Trophies",
     "icon": "img/material/Energy_Nectar.png",
     "sources": [
-      "Dropped by Lv. 60+ whopperflowers",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 60+ whopperflowers"
     ]
   },
   "Fragile Bone Shard": {
@@ -6953,7 +7085,10 @@
     "category": "Trophies",
     "icon": "img/material/Fragile_Bone_Shard.png",
     "sources": [
-      "Dropped by vishaps"
+      "Dropped by geovishap hatchlings",
+      "Dropped by geovishaps",
+      "Dropped by Bathysmal Vishaps",
+      "Stardust Exchange"
     ]
   },
   "Sturdy Bone Shard": {
@@ -6964,8 +7099,11 @@
     "category": "Trophies",
     "icon": "img/material/Sturdy_Bone_Shard.png",
     "sources": [
-      "Dropped by Lv. 40+ vishaps",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 40+ geovishap hatchlings",
+      "Dropped by Lv. 40+ geovishaps",
+      "Dropped by Lv. 40+ Bathysmal Vishaps",
+      "Stardust Exchange"
     ]
   },
   "Fossilized Bone Shard": {
@@ -6976,8 +7114,10 @@
     "category": "Trophies",
     "icon": "img/material/Fossilized_Bone_Shard.png",
     "sources": [
-      "Dropped by Lv. 60+ vishaps",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 60+ geovishap hatchlings",
+      "Dropped by Lv. 60+ geovishaps",
+      "Dropped by Lv. 60+ Bathysmal Vishaps"
     ]
   },
   "Treasure Hoarder Insignia": {
@@ -6988,7 +7128,8 @@
     "category": "Trophies",
     "icon": "img/material/Treasure_Hoarder_Insignia.png",
     "sources": [
-      "Dropped by Treasure Hoarders"
+      "Dropped by Treasure Hoarders",
+      "Stardust Exchange"
     ]
   },
   "Silver Raven Insignia": {
@@ -6999,8 +7140,9 @@
     "category": "Trophies",
     "icon": "img/material/Silver_Raven_Insignia.png",
     "sources": [
+      "Crafted",
       "Dropped by Lv. 40+ Treasure Hoarders",
-      "Crafted"
+      "Stardust Exchange"
     ]
   },
   "Golden Raven Insignia": {
@@ -7011,8 +7153,8 @@
     "category": "Trophies",
     "icon": "img/material/Golden_Raven_Insignia.png",
     "sources": [
-      "Dropped by Lv. 60+ Treasure Hoarders",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 60+ Treasure Hoarders"
     ]
   },
   "Chaos Device": {
@@ -7024,7 +7166,8 @@
     "icon": "img/material/Chaos_Device.png",
     "sources": [
       "Dropped by Ruin Guards",
-      "Dropped by Ruin Hunters"
+      "Dropped by Ruin Hunters",
+      "Stardust Exchange"
     ]
   },
   "Chaos Circuit": {
@@ -7035,9 +7178,10 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Circuit.png",
     "sources": [
+      "Crafted",
       "Dropped by Lv. 40+ Ruin Guards",
       "Dropped by Lv. 40+ Ruin Hunters",
-      "Crafted"
+      "Stardust Exchange"
     ]
   },
   "Chaos Core": {
@@ -7048,9 +7192,9 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Core.png",
     "sources": [
+      "Crafted",
       "Dropped by Lv. 60+ Ruin Guards",
-      "Dropped by Lv. 60+ Ruin Hunters",
-      "Crafted"
+      "Dropped by Lv. 60+ Ruin Hunters"
     ]
   },
   "Old Handguard": {
@@ -7061,7 +7205,8 @@
     "category": "Trophies",
     "icon": "img/material/Old_Handguard.png",
     "sources": [
-      "Dropped by Nobushi"
+      "Dropped by Nobushi",
+      "Stardust Exchange"
     ]
   },
   "Kageuchi Handguard": {
@@ -7072,8 +7217,9 @@
     "category": "Trophies",
     "icon": "img/material/Kageuchi_Handguard.png",
     "sources": [
+      "Crafted",
       "Dropped by Lv. 40+ Nobushi",
-      "Crafted"
+      "Stardust Exchange"
     ]
   },
   "Famed Handguard": {
@@ -7084,8 +7230,8 @@
     "category": "Trophies",
     "icon": "img/material/Famed_Handguard.png",
     "sources": [
-      "Dropped by Lv. 60+ Nobushi",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 60+ Nobushi"
     ]
   },
   "Chaos Gear": {
@@ -7096,7 +7242,8 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Gear.png",
     "sources": [
-      "Dropped by Ruin Sentinels"
+      "Dropped by Ruin Sentinels",
+      "Stardust Exchange"
     ]
   },
   "Chaos Axis": {
@@ -7107,8 +7254,9 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Axis.png",
     "sources": [
+      "Crafted",
       "Dropped by Lv. 40+ Ruin Sentinels",
-      "Crafted"
+      "Stardust Exchange"
     ]
   },
   "Chaos Oculus": {
@@ -7119,8 +7267,8 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Oculus.png",
     "sources": [
-      "Dropped by Lv. 60+ Ruin Sentinels",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 60+ Ruin Sentinels"
     ]
   },
   "Dismal Prism": {
@@ -7131,7 +7279,8 @@
     "category": "Trophies",
     "icon": "img/material/Dismal_Prism.png",
     "sources": [
-      "Dropped by Mirror Maidens"
+      "Dropped by Mirror Maidens",
+      "Stardust Exchange"
     ]
   },
   "Crystal Prism": {
@@ -7142,8 +7291,9 @@
     "category": "Trophies",
     "icon": "img/material/Crystal_Prism.png",
     "sources": [
+      "Crafted",
       "Dropped by Lv. 40+ Mirror Maidens",
-      "Crafted"
+      "Stardust Exchange"
     ]
   },
   "Polarizing Prism": {
@@ -7154,8 +7304,8 @@
     "category": "Trophies",
     "icon": "img/material/Polarizing_Prism.png",
     "sources": [
-      "Dropped by Lv. 60+ Mirror Maidens",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 60+ Mirror Maidens"
     ]
   },
   "Spectral Husk": {
@@ -7166,7 +7316,8 @@
     "category": "Trophies",
     "icon": "img/material/Spectral_Husk.png",
     "sources": [
-      "Dropped by Specters"
+      "Dropped by Specters",
+      "Stardust Exchange"
     ]
   },
   "Spectral Heart": {
@@ -7177,8 +7328,9 @@
     "category": "Trophies",
     "icon": "img/material/Spectral_Heart.png",
     "sources": [
+      "Crafted",
       "Dropped by Lv. 40+ Specters",
-      "Crafted"
+      "Stardust Exchange"
     ]
   },
   "Spectral Nucleus": {
@@ -7189,8 +7341,8 @@
     "category": "Trophies",
     "icon": "img/material/Spectral_Nucleus.png",
     "sources": [
-      "Dropped by Lv. 60+ Specters",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 60+ Specters"
     ]
   },
   "Concealed Claw": {
@@ -7201,7 +7353,8 @@
     "category": "Trophies",
     "icon": "img/material/Concealed_Claw.png",
     "sources": [
-      "Dropped by Riftwolves"
+      "Dropped by Riftwolves",
+      "Stardust Exchange"
     ]
   },
   "Concealed Unguis": {
@@ -7212,8 +7365,9 @@
     "category": "Trophies",
     "icon": "img/material/Concealed_Unguis.png",
     "sources": [
+      "Crafted",
       "Dropped by Lv. 40+ Riftwolves",
-      "Crafted"
+      "Stardust Exchange"
     ]
   },
   "Concealed Talon": {
@@ -7224,8 +7378,80 @@
     "category": "Trophies",
     "icon": "img/material/Concealed_Talon.png",
     "sources": [
-      "Dropped by Lv. 60+ Riftwolves",
+      "Crafted",
+      "Dropped by Lv. 60+ Riftwolves"
+    ]
+  },
+  "Fungal Spores": {
+    "name": "Fungal Spores",
+    "desc": "A small amount of glittering spore powder left behind by Floating Fungi. Seems that a sneeze is all it takes for this powder to vanish without a trace.",
+    "stars": 1,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Fungal_Spores.png",
+    "sources": [
+      "Dropped by Floating Fungi"
+    ]
+  },
+  "Luminescent Pollen": {
+    "name": "Luminescent Pollen",
+    "desc": "A small parcel of luminescent Fungal Spore powder, a common medical ingredient in the land of rainforests. Merchants usually sell them in paper packets.",
+    "stars": 2,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Luminescent_Pollen.png",
+    "sources": [
+      "Dropped by Lv. 40+ Floating Fungi",
       "Crafted"
+    ]
+  },
+  "Crystalline Cyst Dust": {
+    "name": "Crystalline Cyst Dust",
+    "desc": "A huge lump of spore powder collected from a structurally complete spore cyst. Put it in an appropriate environment, and the area might be filled with a thriving aggregation of Floating Fungi later...",
+    "stars": 3,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Crystalline_Cyst_Dust.png",
+    "sources": [
+      "Dropped by Lv. 60+ Floating Fungi",
+      "Crafted"
+    ]
+  },
+  "Gloomy Statuette": {
+    "name": "Gloomy Statuette",
+    "desc": "An idol made in the likeness of some unknown person.\nEven though this carving has seen many years pass, it still has not been damaged in any way. It seems that its previous owner must have cherished it like some holy icon.",
+    "stars": 2,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Gloomy_Statuette.png",
+    "sources": [
+      "Dropped by the Black Serpents",
+      "Stardust Exchange"
+    ]
+  },
+  "Dark Statuette": {
+    "name": "Dark Statuette",
+    "desc": "An idol made in the likeness of some unknown, one-eyed person.\nYou can feel a strange warmth emanating from within as you hold onto it, like the shoulder of a dear friend. Perhaps this icon can indeed give people who understand its significance the courage to carry on.",
+    "stars": 3,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Dark_Statuette.png",
+    "sources": [
+      "Crafted",
+      "Dropped by Lv. 40+ Black Serpents",
+      "Stardust Exchange"
+    ]
+  },
+  "Deathly Statuette": {
+    "name": "Deathly Statuette",
+    "desc": "A one-eyed carving that emanates an ominous energy, with no indication of what it's made of.\nAs you gaze upon this idol, you can almost hear a strange, comforting whisper...\n\"See, my child. All that lies under the throne of heaven shall be destroyed by upheaval. The eternal peace of the pitch-dark void shall embrace us all.\"",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Deathly_Statuette.png",
+    "sources": [
+      "Crafted",
+      "Dropped by Lv. 60+ Black Serpents"
     ]
   },
   "Tainted Blood": {
@@ -7885,76 +8111,13 @@
     "category": "Utility Items",
     "icon": "img/material/Launch_Tube.png"
   },
-  "Starshroom": {
-    "name": "Starshroom",
-    "desc": "*Upcoming material in 2.6*\nA fungus with a cap that resembles a five-pointed star. It is quite hardy indeed. Once it matures, the center of the cap will split open.",
-    "type": "Food",
-    "category": "Teyvat's Resources",
-    "icon": "https://i.imgur.com/WeNOdTH.png"
-  },
-  "Glazed Sand Crystal": {
-    "name": "Glazed Sand Crystal",
-    "desc": "*Upcoming material in 2.6*"
-  },
-  "Lumenspar": {
-    "name": "Lumenspar",
-    "stars": 1,
-    "desc": "*Upcoming material in 2.6, used to enhance your Lumenstone Adjuvant*",
-    "type": "Adventure Item",
-    "category": "Trophies",
-    "icon": "https://i.imgur.com/u2cz82d.png"
-  },
-  "Lumenstone Ore": {
-    "name": "Lumenstone Ore",
-    "stars": 3,
-    "desc": "*Upcoming material in 2.6, used to enhance your Lumenstone Adjuvant*",
-    "type": "Adventure Item",
-    "category": "Trophies",
-    "icon": "https://i.imgur.com/BL3YmEL.png"
-  },
   "Lumenstone Adjuvant": {
     "name": "Lumenstone Adjuvant",
-    "desc": "*Upcoming gadget in 2.6*\nWhen equipped in The Chasm's Underground Mines, this precious crystal can provide illumination.\n\nIt has many similarities to the Glazed Sand Crystal that may only be found within The Chasm, but it stores even greater power within.\nMay it be as a sun in your palm, lighting the way through the lightless tunnels and bringing comfort where all is dark.",
+    "desc": "When equipped in The Chasm's Underground Mines, this precious crystal can provide illumination.\n\nIt has many similarities to the Glazed Sand Crystal that may only be found within The Chasm, but it stores even greater power within it.\nMay it be as a sun in your palm, lighting the way through the lightless tunnels and bringing comfort where all is dark.",
+    "longDesc": "A special ore from The Chasm that shines brightly in special environments.\nIt has many similarities to the Glazed Sand Crystal that may only be found within The Chasm.\nThat neither Lumenstone or Glaze Sand Crystal have never been found outside The Chasm may have an intimate relationship with the ley lines in that area.\nMay it be like a small sun in your palm, bringing light and comfort to your dark path.",
     "stars": 4,
     "type": "Gadget",
     "category": "Utility Items",
-    "icon": "https://i.imgur.com/0ft5iCr.png"
-  },
-  "Gloomy Statuette": {
-    "name": "Gloomy Statuette",
-    "desc": "*Upcoming material in 2.6, used to upgrade Haran Geppaku Futsu*",
-    "type": "Character Level-Up Material",
-    "category": "Trophies",
-    "icon": "https://i.imgur.com/6kyEkI5.png"
-  },
-  "Dark Statuette": {
-    "name": "Dark Statuette",
-    "desc": "*Upcoming material in 2.6, used to upgrade Haran Geppaku Futsu*",
-    "type": "Character Level-Up Material",
-    "category": "Trophies"
-  },
-  "Deathly Statuette": {
-    "name": "Deathly Statuette",
-    "desc": "*Upcoming material in 2.6, used to upgrade Haran Geppaku Futsu*",
-    "type": "Character Level-Up Material",
-    "category": "Trophies"
-  },
-  "Quiet Elegance": {
-    "name": "Quiet Elegance",
-    "desc": "*Upcoming food in 2.6*",
-    "type": "Food",
-    "category": "Food and Potions"
-  },
-  "Katsu Sandwich": {
-    "name": "Katsu Sandwich",
-    "desc": "*Upcoming food in 2.6*",
-    "type": "Food",
-    "category": "Food and Potions"
-  },
-  "Rainbow Aster": {
-    "name": "Rainbow Aster",
-    "desc": "*Upcoming food in 2.6*",
-    "type": "Food",
-    "category": "Food and Potions"
+    "icon": "img/material/Lumenstone_Adjuvant.png"
   }
 }
