@@ -2145,10 +2145,133 @@
     },
     "38": {
         "teams": 2,
-        "leyline": "All characters in the party gain a 75% Anemo DMG Bonus."
+        "leyline": "All characters in the party gain a 75% Anemo DMG Bonus.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 88,
+                "conds": "More than 20/40/60% HP left",
+                "monsters": [
+                    [
+                        "Blazing Axe Mitachurl",
+                        "Crackling Axe Mitachurl",
+                        "Hydro Samachurl",
+                        "Anemo Samachurl",
+                        "Hilichurl Fighter",
+                        "Hilichurl Berserker",
+                        "Hilichurl Grenadier",
+                        "Cryo Hilichurl Grenadier",
+                        "Pyro Hilichurl Shooter",
+                        "Electro Hilichurl Shooter"
+                    ],
+                    [
+                        "Treasure Hoarders - Seaman",
+                        "Treasure Hoarders: Gravedigger",
+                        "Treasure Hoarders - Pugilist",
+                        "Treasure Hoarders - Crusher",
+                        "Treasure Hoarders - Marksman",
+                        "Treasure Hoarders: Pyro Potioneer",
+                        "Treasure Hoarders: Hydro Potioneer",
+                        "Treasure Hoarders: Electro Potioneer",
+                        "Treasure Hoarders: Cryo Potioneer"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 90,
+                "conds": "More than 60/180/300 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Skirmisher - Pyroslinger Bracer",
+                        "Fatui Skirmisher - Cryogunner Legionnaire",
+                        "Pyro Abyss Mage",
+                        "Large Pyro Slime",
+                        "Large Electro Slime",
+                        "Mutant Electro Slime"
+                    ],
+                    [
+                        "Fatui Skirmisher - Electrohammer Vanguard",
+                        "Fatui Skirmisher - Hydrogunner Legionnaire",
+                        "Hydro Abyss Mage",
+                        "Large Hydro Slime",
+                        "Large Electro Slime",
+                        "Mutant Electro Slime"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 92,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Fatui Pyro Agent",
+                        "Thundercraven Rifthound Whelp"
+                    ],
+                    [
+                        "Mirror Maiden",
+                        "Fatui Electro Cicin Mage",
+                        "Rockfond Rifthound Whelp"
+                    ]
+                ]
+            }
+        ]
     },
     "39": {
         "teams": 2,
-        "leyline": "For this floor only, the ley line flow will be normal."
+        "leyline": "For this floor only, the ley line flow will be normal.",
+        "chambers": [
+            {
+                "chamber": 1,
+                "level": 95,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Kairagi: Dancing Thunder",
+                        "Kairagi: Fiery Might",
+                        "Nobushi: Jintouban",
+                        "Nobushi: Hitsukeban",
+                        "Nobushi: Kikouban",
+                        "Treasure Hoarders: Pyro Potioneer",
+                        "Treasure Hoarders: Hydro Potioneer",
+                        "Treasure Hoarders: Electro Potioneer",
+                        "Treasure Hoarders: Cryo Potioneer"
+                    ],
+                    [
+                        "Ruin Guard"
+                    ]
+                ]
+            },
+            {
+                "chamber": 2,
+                "level": 98,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Cryo Whopperflower",
+                        "Pyro Whopperflower"
+                    ],
+                    [
+                        "Abyss Lector: Fathomless Flames",
+                        "Abyss Lector: Violet Lightning",
+                        "Abyss Herald: Wicked Torrents"
+                    ]
+                ]
+            },
+            {
+                "chamber": 3,
+                "level": 100,
+                "conds": "More than 180/300/420 seconds left",
+                "monsters": [
+                    [
+                        "Abyss Lector: Fathomless Flames"
+                    ],
+                    [
+                        "Abyss Herald: Wicked Torrents"
+                    ]
+                ]
+            }
+        ]
     }
 }
