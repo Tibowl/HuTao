@@ -466,6 +466,16 @@
           "enemy": ["Rockfond Rifthound Whelp", "Thundercraven Rifthound Whelp", "Rockfond Rifthound", "Thundercraven Rifthound"],
           "material": ["Concealed Claw", "Concealed Unguis", "Concealed Talon"]
         }
+      },
+      {
+        "name": "Black Serpent Knight route (Gloomy, Dark and Deathly Statuette)",
+        "desc": "**Black Serpent Knights ${Shadowy Husk: Standard Bearer}${Shadowy Husk: Line Breaker}${Shadowy Husk: Defender}${Black Serpent Knight: Windcutter}** are Elite Enemies found in The Chasm. They belong to the Abyss and drop **Gloomy Statuette ${Gloomy Statuette}**, **Dark Statuette ${Dark Statuette}** and **Deathly Statuette ${Deathly Statuette}**.",
+        "img": "https://cdn.discordapp.com/attachments/959275124312383539/959275172236505159/FakeSerpents.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Shadowy Husk: Standard Bearer", "Shadowy Husk: Line Breaker", "Shadowy Husk: Defender", "Black Serpent Knight: Windcutter"],
+          "material": ["Gloomy Statuette", "Dark Statuette", "Deathly Statuette"]
+        }
       }
     ]
   },
