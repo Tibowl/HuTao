@@ -80,6 +80,15 @@
     "name": "Local Specialties (Liyue)",
     "pages": [
       {
+        "name": "Cor Lapis route",
+        "desc": "**Cor Lapis ${Cor Lapis}** can be found in the wilderness of Liyue and are being sold by **Changshun** (up to 5 per 3 days).\n\n> A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\"",
+        "img": "https://cdn.discordapp.com/attachments/957351134757019758/959933412435718204/unknown.png",
+        "credits": "Maple",
+        "links": {
+          "material": ["Cor Lapis"]
+        }
+      },
+      {
         "name": "Jueyun Chili route",
         "desc": "**Jueyun Chilis ${Jueyun Chili}** can be found in the wilderness of Liyue and are being sold by [**Chef Mao**](https://cdn.discordapp.com/attachments/925096309763997747/925125045855076392/Chef_Mao.png) (up to 5 per 3 days).\n\n> A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
         "img": "https://cdn.discordapp.com/attachments/925096309763997747/925096336947286026/unknown.png",
@@ -351,6 +360,16 @@
           "enemy": ["Hydro Specter", "Anemo Specter", "Geo Specter", "Electro Specter", "Cryo Specter"],
           "material": ["Spectral Husk", "Spectral Heart", "Spectral Nucleus"]
         }
+      },
+      {
+        "name": "Floating Fungus route (Fungal Spores, Luminescent Pollen and Crystalline Cyst Dust): Enkanomiya",
+        "desc": "**Floating Fungi ${Floating Hydro Fungus}** are Common Enemies found in The Chasm. They are Mystical Beasts and drop **Fungal Spores ${Fungal Spores}**, **Luminescent Pollen ${Luminescent Pollen}** and **Crystalline Cyst Dust ${Crystalline Cyst Dust}**.",
+        "img": "https://cdn.discordapp.com/attachments/959819940427358278/959876421491232778/FloatingFungus.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Floating Hydro Fungus"],
+          "material": ["Fungal Spores", "Luminescent Pollen", "Crystalline Cyst Dust"]
+        }
       }
     ]
   },
@@ -476,6 +495,17 @@
           "enemy": ["Shadowy Husk: Standard Bearer", "Shadowy Husk: Line Breaker", "Shadowy Husk: Defender", "Black Serpent Knight: Windcutter"],
           "material": ["Gloomy Statuette", "Dark Statuette", "Deathly Statuette"]
         }
+      }
+    ]
+  },
+  {
+    "name": "Miscellaneous",
+    "pages": [
+      {
+        "name": "Radiant Spincrystals",
+        "desc": "**Radiant Spincrystals** are used to unlock soundtracks in the Serenitea Pot. This guide includes the ones obtained from **Teyvat**, the other ones can be obtained from **Chubby**.",
+        "img": "https://cdn.discordapp.com/attachments/959592219982065664/959662319732932688/Genshin_-_Raidant_Spincrystal.jpg",
+        "credits": "Jnight"
       }
     ]
   },
