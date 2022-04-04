@@ -1232,7 +1232,8 @@
     {
         "name": "\"Hues of the Violet Garden\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/QuzY34N.png",
+        "link": "https://www.hoyolab.com/article/4101763",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/04/02/1015448/fbd2acdb7583796b5d0f2f95eea40504_645443377861510398.jpg",
         "start": "2022-04-07 10:00:00",
         "end": "2022-04-25 03:59:00",
         "reminder": "end"
