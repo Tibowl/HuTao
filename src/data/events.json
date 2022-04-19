@@ -1247,7 +1247,8 @@
     {
         "name": "\"Vibro-Crystal Research\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/EhWxjOG.png",
+        "link": "https://www.hoyolab.com/article/4327864",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/04/19/1015537/f5f50c1685256d8ab13eeb24b03a92c4_6437257030291193952.jpg",
         "start": "2022-04-21 10:00:00",
         "end": "2022-05-05 03:59:00",
         "reminder": "end"
