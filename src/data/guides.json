@@ -510,6 +510,53 @@
     ]
   },
   {
+    "name": "The Chasm",
+    "pages": [
+      {
+        "name": "Locked Gate with Lumenspar in Underground Mines",
+        "desc": "Lumenspar behind a locked gate that requires the use of map fragments.",
+        "img": "https://cdn.discordapp.com/attachments/964148007815741460/966720148465672252/LBLG.jpg",
+        "credits": "Soul"
+      },
+      {
+        "name": "Locked Gate near Tiangong Gorge",
+        "desc": "Unlocked from the bottom of the underground north of the main mining area.",
+        "img": "https://cdn.discordapp.com/attachments/964148007815741460/966720342510948392/LGTG.png",
+        "credits": "Soul"
+      },
+      {
+        "name": "\"Paleontological Investigation\" - Fossil Locations",
+        "desc": "Fossil locations for Khedive's \"Paleontological Investigation\" quest. Take pictures at the highlighted locations.",
+        "img": "https://cdn.discordapp.com/attachments/964148007815741460/966719739835588648/PIITC.jpg",
+        "credits": "Soul"
+      },
+      {
+        "name": "\"The Millenial Mountains\" - Item Locations",
+        "desc": "Locations of the different items for the \"The Millenial Mountains\" quest.",
+        "img": "https://cdn.discordapp.com/attachments/964148007815741460/966720080467591278/CTMM.jpg",
+        "credits": "Soul"
+      },
+      {
+        "name": "\"The Nine-Word Rumor\" - Text Locations",
+        "desc": "Locations of the secret messages for the \"The Nine-Word Rumor\" achievement. Unequip your Lumenstone so you can observere them.",
+        "img": "https://cdn.discordapp.com/attachments/964148007815741460/966719851513118811/T9WR.jpg",
+        "credits": "Soul"
+      },
+      {
+        "name": "\"If Not Us, Then Who?\" - Fatui Action Log Locations",
+        "desc": "Fatui Action Log locations for the \"If Not Us, Then Who?\" achievement.",
+        "img": "https://cdn.discordapp.com/attachments/964148007815741460/966720294066720828/INUTW.jpg",
+        "credits": "Soul"
+      },
+      {
+        "name": "\"The Chasm Mining Records\" - text fragment locations",
+        "desc": "Locations of the text fragments related to mining for the \"The Chasm Mining Records\" achievement.",
+        "img": "https://cdn.discordapp.com/attachments/964148007815741460/966720405253525535/TCMR.png",
+        "credits": "Soul"
+      }
+    ]
+  },
+  {
     "name": "Three Realms Gateway Offering (Event)",
     "pages": [
       {
