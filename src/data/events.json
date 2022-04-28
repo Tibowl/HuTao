@@ -1292,8 +1292,6 @@
     {
         "name": "Next Special Program",
         "type": "Stream",
-        "prediction": true,
-        "start": "2022-04-29 08:00:00",
         "timezone": "-04:00"
     },
     {
