@@ -1290,15 +1290,21 @@
         "reminder": "end"
     },
     {
+        "name": "\"New Adventure? Let's Go!\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/4457772",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/04/29/1015537/0b0ec049c17722a71d841f7a0d86bfd1_2380520650443851736.jpg",
+        "start": "2022-04-29 12:00:00",
+        "end": "2022-05-05 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "Next Special Program",
         "type": "Stream",
         "timezone": "-04:00"
     },
     {
         "name": "Next Maintenance",
-        "type": "Maintenance",
-        "prediction": true,
-        "start": "2022-05-11 06:00:00",
-        "end": "2022-05-11 11:00:00"
+        "type": "Maintenance"
     }
 ]
