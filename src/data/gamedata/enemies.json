@@ -1386,7 +1386,18 @@
     "name": "Black Serpent Knight: Windcutter",
     "desc": "A guard of some standing in the court, sundering the foes of the nation's rulers using a sword art known as \"Truthseeker.\"\nThe Twilight Sword was once one of their number. That realm's glory has been extinguished, never again to be reclaimed.",
     "icon": "img/enemy/Black_Serpent_Knight_Windcutter.png",
-    "type": "The Abyss"
+    "type": "The Abyss",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "50%",
+        "10%",
+        "30%"
+      ]
+    ]
   },
   "Fatui Skirmisher - Pyroslinger Bracer": {
     "name": "Fatui Skirmisher - Pyroslinger Bracer",
@@ -1692,7 +1703,18 @@
     "name": "Ruin Serpent",
     "desc": "An ancient, bizarrely-shaped autonomous machine.\nIt is said that this was heavy-duty engineering equipment left behind by a nation that has been destroyed. The gear system on its \"head\" can grind its way through even the hardest bedrock. If this was the case, then carving out tunnels with which the forces of this nation might access the whole continent would have been a thing of great ease.",
     "icon": "img/enemy/Ruin_Serpent.png",
-    "type": "Automatons"
+    "type": "Automatons",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "70%"
+      ]
+    ]
   },
   "Ruin Cruiser": {
     "name": "Ruin Cruiser",
@@ -2447,7 +2469,18 @@
     "name": "Floating Hydro Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\nIt is said that it tastes awful. However, such fungi have lots of moisture within them, and so can be used as an emergency water source...",
     "icon": "img/enemy/Floating_Hydro_Fungus.png",
-    "type": "Mystical Beasts"
+    "type": "Mystical Beasts",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "20%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
   },
   "Stormterror": {
     "name": "Stormterror",
