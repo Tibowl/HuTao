@@ -38,10 +38,10 @@ export default class Events extends Command {
                 const end = getEndTime(e, endTimezone)
 
                 return start && start.getTime() <= now &&
-          (
-              (end && end.getTime() >= now) ||
-            (!end && e.reminder == "daily")
-          )
+                    (
+                        (end && end.getTime() >= now) ||
+                        (!end && (e.type != "Unlock" && e.type != "Stream"))
+                    )
             }).sort((a, b) => {
                 const endA = getEndTime(a, endTimezone)
                 const endB = getEndTime(b, endTimezone)
