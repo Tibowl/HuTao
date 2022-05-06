@@ -82,7 +82,7 @@
     "pages": [
       {
         "name": "Cor Lapis route",
-        "desc": "**Cor Lapis ${Cor Lapis}** can be found in the wilderness of Liyue and are being sold by **Changshun** (up to 5 per 3 days).\n\n> A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\"",
+        "desc": "**Cor Lapis ${Cor Lapis}** can be found in the wilderness of Liyue and are being sold by [**Changshun**](https://cdn.discordapp.com/attachments/957351134757019758/972157255044702328/Changshun.png) (up to 5 per 3 days).\n\n> A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\"",
         "img": "https://cdn.discordapp.com/attachments/957351134757019758/971444403619135509/unknown.png",
         "credits": "Maple",
         "links": {
@@ -100,8 +100,8 @@
       },
       {
         "name": "Noctilucous Jade route",
-        "desc": "**Noctilucous Jades ${Noctilucous Jade}** can be found in caves in Liyue. They are being sold by **Shitou** (up to 5 per 3 days).\n\n> A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world.",
-        "img": "https://cdn.discordapp.com/attachments/942081521181917184/942084185252855818/unknown.png",
+        "desc": "**Noctilucous Jades ${Noctilucous Jade}** can be found in caves in Liyue. They are being sold by [**Shitou**](https://cdn.discordapp.com/attachments/949748021611073536/972156385708105788/Shitou.png) (up to 5 per 3 days).\n\n> A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world.",
+        "img": "https://cdn.discordapp.com/attachments/949748021611073536/971937496021741608/unknown.png",
         "credits": "Maple",
         "links": {
           "material": ["Noctilucous Jade"]
@@ -119,7 +119,7 @@
       {
         "name": "Glaze Lily route",
         "desc": "**Glaze Lilies ${Glaze Lily}** can be found in the wilderness of Liyue and are being sold by [**Ms. Bai**](https://cdn.discordapp.com/attachments/942110117283905626/942191944287805471/Ms._Bai.png) (up to 3 per week).\n\n> An extremely ancient flower that was said to be commonly seen in Liyue. It transforms the memories of the land into its fragrance during florescence.",
-        "img": "https://cdn.discordapp.com/attachments/942110117283905626/942117927648370759/unknown.png",
+        "img": "https://cdn.discordapp.com/attachments/942110117283905626/972153065903910912/unknown.png",
         "credits": "Maple",
         "links": {
           "material": ["Glaze Lily"]
@@ -136,7 +136,7 @@
       },
       {
         "name": "Starconch route",
-        "desc": "**Starconches ${Starconch}** can be found on the beaches of Liyue and are being sold by **Bolai** (up to 5 per 3 days).\n\n> Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.",
+        "desc": "**Starconches ${Starconch}** can be found on the beaches of Liyue and are being sold by [**Bolai**](https://cdn.discordapp.com/attachments/951160501361049670/972154982071664650/Bolai.png) (up to 5 per 3 days).\n\n> Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.",
         "img": "https://cdn.discordapp.com/attachments/926215001088352276/926215049285107792/ganyunom.png",
         "credits": "Maple",
         "links": {
@@ -206,7 +206,7 @@
       },
       {
         "name": "Sango Pearl route",
-        "desc": "**Sango Pearls ${Sango Pearl}** can be found in the wilderness of Watatsumi Island.\n\n> A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of a moonlight.",
+        "desc": "**Sango Pearls ${Sango Pearl}** can be found in the wilderness of Watatsumi Island and are being sold by [**Yamashiro Kenta**](https://cdn.discordapp.com/attachments/921188291842277476/972158194010968094/Yamashiro_Kenta.png) (up to 5 per 3 days).\n\n> A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of a moonlight.",
         "img": "https://cdn.discordapp.com/attachments/921188291842277476/950198796795658331/unknown.png",
         "url": "https://youtu.be/FYzudicm1gs",
         "credits": "Soul",
