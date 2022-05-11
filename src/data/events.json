@@ -1239,7 +1239,8 @@
     {
         "name": "\"Spices From the West\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/05/05/1015537/21e22984d8bb5fe3e8d19a32146010d5_8728649365451662435.jpg",
+        "link": "https://www.hoyolab.com/article/4695046",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/05/10/1015537/2490794c7fe998bf1da80df4fd234118_8353761452090841805.jpg",
         "start": "2022-05-14 10:00:00",
         "end": "2022-06-07 03:59:00",
         "reminder": "end"
