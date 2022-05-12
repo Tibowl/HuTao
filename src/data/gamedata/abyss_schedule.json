@@ -878,5 +878,27 @@
       38,
       39
     ]
+  },
+  "40": {
+    "start": "2022-05-16 04:00:00",
+    "end": "2022-06-01 03:59:59",
+    "buff": "Sheet-Ice Moon",
+    "buffDesc": "After a character's Normal Attack hits an opponent, this opponent will be afflicted with a Mark of Ending. After 10s, this Mark of Ending will be removed, dealing True DMG to this opponent. When a character's Normal Attack hits an opponent with a Mark of Ending, the DMG dealt by the Mark of Ending's removal will be increased. This DMG can be increased 9 times.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      38,
+      39
+    ]
   }
 }
