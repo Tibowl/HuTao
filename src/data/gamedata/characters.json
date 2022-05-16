@@ -19802,6 +19802,25 @@
       }
     }
   },
+  "Shikanoin Heizou": {
+    "name": "Shikanoin Heizou",
+    "desc": "A young detective from the Tenryou Commission. Free-spirited and unruly, but cheerful and lively.",
+    "icon": "https://i.imgur.com/15994nc.png",
+    "media": {
+      "imgs": [
+        "https://pbs.twimg.com/media/FS3whoLUAAIAfXu.jpg",
+        "https://pbs.twimg.com/media/FS3xTHZUAAASw66.jpg"
+      ]
+    },
+    "meta": {
+      "association": "Inazuma",
+      "title": "Analytical Harmony",
+      "detail": "A young detective from the Tenryou Commission. Free-spirited and unruly, but cheerful and lively.",
+      "affiliation": "Tenryou Commission",
+      "element": "Anemo",
+      "constellation": "Cervus Minor"
+    }
+  },
   "Sucrose": {
     "name": "Sucrose",
     "desc": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
