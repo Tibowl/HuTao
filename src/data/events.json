@@ -1217,6 +1217,7 @@
         "link": "https://www.hoyolab.com/article/4245293",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2022/04/13/1015448/f1b6ac2493a6a744c9ebf9833f6da1a6_4285297802992262150.jpg",
         "start": "2022-04-19 18:00:00",
+        "end": "2022-05-31 05:59:00",
         "reminder": "end"
     },
     {
@@ -1225,6 +1226,7 @@
         "link": "https://www.hoyolab.com/article/4245294",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2022/04/13/1015448/1b2cd6a179a813ae804a22975f200a6a_4262976236646813317.jpg",
         "start": "2022-04-19 18:00:00",
+        "end": "2022-05-31 05:59:00",
         "reminder": "end"
     },
     {
@@ -1309,12 +1311,29 @@
         "reminder": "end"
     },
     {
-        "name": "Next Special Program",
+        "name": "2.7 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/4850178",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/05/19/1015537/0271befc3641b5a3064b6c04aec0a9cc_5107640534358843718.jpg",
+        "start": "2022-05-20 08:00:00",
+        "timezone": "-04:00"
+    },
+    {
+        "name": "2.7 Maintenance",
+        "type": "Maintenance",
+        "link": "https://www.hoyolab.com/article/4849613",
+        "start": "2022-05-31 06:00:00",
+        "end": "2022-05-31 11:00:00"
+    },
+    {
+        "name": "2.8 Special Program",
         "type": "Stream",
         "timezone": "-04:00"
     },
     {
-        "name": "Next Maintenance",
-        "type": "Maintenance"
+        "name": "2.8 Maintenance",
+        "type": "Maintenance",
+        "start": "2022-07-13 06:00:00",
+        "end": "2022-07-13 11:00:00"
     }
 ]
