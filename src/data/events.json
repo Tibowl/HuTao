@@ -1326,6 +1326,89 @@
         "end": "2022-05-31 11:00:00"
     },
     {
+        "name": "Event Wish \"Discerner of Enigmas\"",
+        "type": "Banner",
+        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977180304232046602/unknown.png",
+        "prediction": true,
+        "start": "2022-05-31 11:00:00",
+        "start_server": false,
+        "end": "2022-06-20 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Invitation to Mundane Life\"",
+        "type": "Banner",
+        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977180304232046602/unknown.png",
+        "prediction": true,
+        "start": "2022-05-31 11:00:00",
+        "start_server": false,
+        "end": "2022-06-20 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977180443302567966/unknown.png",
+        "prediction": true,
+        "start": "2022-05-31 11:00:00",
+        "start_server": false,
+        "end": "2022-06-21 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Oni's Royale\"",
+        "type": "Banner",
+        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977180304232046602/unknown.png",
+        "prediction": true,
+        "start": "2022-06-21 18:00:00",
+        "end": "2022-07-12 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2022-06-21 18:00:00",
+        "end": "2022-07-12 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Perilous Trail\" Event",
+        "type": "In-game",
+        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977184253521592330/unknown.png",
+        "reminder": "end"
+    },
+    {
+        "name": "Archon Quest Interlude Chapter - \"Perilous Trail\"",
+        "type": "Unlock",
+        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977191120729698314/unknown.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"A Muddy Bizarre Adventure\" Event",
+        "type": "In-game",
+        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977191587249541140/unknown.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"A Muddy Bizarre Adventure\" Event",
+        "type": "In-game",
+        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977191587249541140/unknown.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"The Almighty Arataki Great and Glorious Drumalong Festival\" Event",
+        "type": "In-game",
+        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977191724520722432/unknown.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Core of the Apparatus\" Event",
+        "type": "In-game",
+        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977192165400789032/unknown.png",
+        "reminder": "end"
+    },
+    {
         "name": "2.8 Special Program",
         "type": "Stream",
         "timezone": "-04:00"
