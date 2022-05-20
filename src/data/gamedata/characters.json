@@ -26890,8 +26890,45 @@
       "detail": "A mysterious person who claims to work for the Ministry of Civil Affairs.",
       "affiliation": "Ministry of Civil Affairs",
       "element": "Hydro",
-      "constellation": "Umbrabilis Orchis"
-    }
+      "constellation": "Umbrabilis Orchis",
+      "cvEnglish": "Laura Post",
+      "cvJapanese": "遠藤綾",
+      "cvKorean": "민아"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Stealthy Bowshot",
+            "desc": "After a short time out of combat Yelan will enter a Breakthrough state, which will cause her next Charged Aim Shot to have decreased charge time, and once charged, she can fire a Breakthrough Barb that will deal AoE Hydro DMG."
+          },
+          {
+            "name": "Lingering Lifeline",
+            "desc": "Tapping or holding the Skill button allows her to move rapidly using her Lifeline, marking opponents along her path. When her rapid move ends, the lifeline will explode, dealing Hydro DMG to marked targets. Yelan also has a fixed chance to reset her Breakthrough state, based on the number of opponents marked. "
+          }
+        ],
+        "ult": {
+          "name": "Depth-Clarion Dice",
+          "desc": "Deals AoE Hydro DMG and creates Wonderous Dice which aid her in battle. The dice follow the character arround and will initiate a co-ordinated attack when your active character uses a Normal Attack, and each time Yelan's Lifeline explodes and hits opponents.",
+          "type": "Hydro"
+        },
+        "passive": [
+          {
+            "name": "Adapt With Ease",
+            "desc": "The active character's damage increases overtime whie the Wonderous Dice are active."
+          },
+          {
+            "name": "Turn Control",
+            "desc": "Increases Yelan's Max HP based on the number of Elemental Types that are present in the party."
+          },
+          {
+            "name": "???",
+            "desc": "Gains ??% more rewards when dispatched on a Liyue Expedition for 20 hours.",
+            "icon": "img/skill/Common_Expedition_Liyue.png"
+          }
+        ]
+      }
+    ]
   },
   "Yoimiya": {
     "name": "Yoimiya",
