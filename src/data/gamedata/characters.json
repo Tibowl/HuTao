@@ -13218,6 +13218,8 @@
   "Kuki Shinobu": {
     "name": "Kuki Shinobu",
     "desc": "Deputy Leader of the Arataki Gang.",
+    "star": 4,
+    "weaponType": "Sword",
     "icon": "https://i.imgur.com/iKNCm2s.png",
     "media": {
       "imgs": [
@@ -13232,7 +13234,36 @@
       "affiliation": "Arataki Gang",
       "element": "Electro",
       "constellation": "Tribulatio Demptio"
-    }
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Sanctifying Ring",
+            "desc": "Sacrifices a certain portion of her HP to create a Grass Ring of Santification that'll heal friendly characters within it, and deal continous Electro DMG to surrounding opponents."
+          }
+        ],
+        "ult": {
+          "name": "Gyoei Narukami Kariyama Rite",
+          "desc": "Creates a special field in front of her that deals Electro DMG to opponents within it. "
+        },
+        "passive": [
+          {
+            "name": "Hearth's Repose",
+            "desc": "Kuki's Elemental Skill's Healing and Damage will be boosted based on her Elemental Mastery."
+          },
+          {
+            "name": "Breaking Free",
+            "desc": "When Kuki's current HP is low, her Healing Bonus is increased."
+          },
+          {
+            "name": "Protracted Prayers",
+            "desc": "Gains ??% more rewards when dispatched on a Inazuma Expedition for 20 hours.",
+            "icon": "img/skill/Common_Expedition_Inazuma.png"
+          }
+        ]
+      }
+    ]
   },
   "Lisa": {
     "name": "Lisa",
@@ -26877,6 +26908,8 @@
   "Yelan": {
     "name": "Yelan",
     "desc": "A mysterious person who claims to work for the Ministry of Civil Affairs.",
+    "star": 5,
+    "weaponType": "Bow",
     "icon": "https://i.imgur.com/cOnpRV5.png",
     "media": {
       "imgs": [
