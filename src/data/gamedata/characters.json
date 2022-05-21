@@ -13239,13 +13239,23 @@
       {
         "talents": [
           {
+            "name": "Normal Attack",
+            "desc": "Unknown",
+            "video": "https://cdn.discordapp.com/attachments/977179265307144242/977491248149577758/Kuki_NA.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/977179265307144242/977491247843401728/Kuki_NA_scaled.mp4"
+          },
+          {
             "name": "Sanctifying Ring",
-            "desc": "Sacrifices a certain portion of her HP to create a Grass Ring of Santification that'll heal friendly characters within it, and deal continous Electro DMG to surrounding opponents."
+            "desc": "Sacrifices a certain portion of her HP to create a Grass Ring of Santification that'll heal friendly characters within it, and deal continous Electro DMG to surrounding opponents.",
+            "video": "https://cdn.discordapp.com/attachments/977179265307144242/977490813535793172/Kuki_E.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/977179265307144242/977490813229604884/Kuki_E_scaled.mp4"
           }
         ],
         "ult": {
           "name": "Gyoei Narukami Kariyama Rite",
-          "desc": "Creates a special field in front of her that deals Electro DMG to opponents within it. "
+          "desc": "Creates a special field in front of her that deals Electro DMG to opponents within it.",
+          "video": "https://cdn.discordapp.com/attachments/977179265307144242/977491268634570803/Kuki_Q.gif",
+          "videomp4": "https://cdn.discordapp.com/attachments/977179265307144242/977491268189962260/Kuki_Q_scaled.mp4"
         },
         "passive": [
           {
@@ -26933,17 +26943,23 @@
         "talents": [
           {
             "name": "Normal Attack: Stealthy Bowshot",
-            "desc": "After a short time out of combat Yelan will enter a Breakthrough state, which will cause her next Charged Aim Shot to have decreased charge time, and once charged, she can fire a Breakthrough Barb that will deal AoE Hydro DMG."
+            "desc": "After a short time out of combat Yelan will enter a Breakthrough state, which will cause her next Charged Aim Shot to have decreased charge time, and once charged, she can fire a Breakthrough Barb that will deal AoE Hydro DMG.",
+            "video": "https://cdn.discordapp.com/attachments/977179265307144242/977489573728878602/Yelan_NA.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/977179265307144242/977489573384953856/Yelan_NA_scaled.mp4"
           },
           {
             "name": "Lingering Lifeline",
-            "desc": "Tapping or holding the Skill button allows her to move rapidly using her Lifeline, marking opponents along her path. When her rapid move ends, the lifeline will explode, dealing Hydro DMG to marked targets. Yelan also has a fixed chance to reset her Breakthrough state, based on the number of opponents marked. "
+            "desc": "Tapping or holding the Skill button allows her to move rapidly using her Lifeline, marking opponents along her path. When her rapid move ends, the lifeline will explode, dealing Hydro DMG to marked targets. Yelan also has a fixed chance to reset her Breakthrough state, based on the number of opponents marked.",
+            "video": "https://cdn.discordapp.com/attachments/977179265307144242/977489031678033960/Yelan_E.gif",
+            "videomp4": "https://cdn.discordapp.com/attachments/977179265307144242/977489031355052042/Yelan_E_scaled.mp4"
           }
         ],
         "ult": {
           "name": "Depth-Clarion Dice",
           "desc": "Deals AoE Hydro DMG and creates Wonderous Dice which aid her in battle. The dice follow the character arround and will initiate a co-ordinated attack when your active character uses a Normal Attack, and each time Yelan's Lifeline explodes and hits opponents.",
-          "type": "Hydro"
+          "type": "Hydro",
+          "video": "https://cdn.discordapp.com/attachments/977179265307144242/977489689542025246/Yelan_Q.gif",
+          "videomp4": "https://cdn.discordapp.com/attachments/977179265307144242/977489689206468648/Yelan_Q_scaled.mp4"
         },
         "passive": [
           {
