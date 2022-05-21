@@ -575,6 +575,14 @@
     "lore": "With words, this book records learning, experiments, and incantations.\nWith the spaces between words, it records a student's striving.",
     "refinements": []
   },
+  "Aqua Simulacra": {
+    "name": "Aqua Simulacra",
+    "desc": "This longbow's color is unpredictable. Under the light, it takes on a lustrous, watery blue.",
+    "placeholder": true,
+    "weaponType": "Bow",
+    "stars": 5,
+    "icon": "https://cdn.discordapp.com/attachments/977179265307144242/977487457803178004/Aqua.png"
+  },
   "Aquila Favonia": {
     "name": "Aquila Favonia",
     "desc": "The soul of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil — just like the last heroine who wielded it.",
@@ -3726,6 +3734,14 @@
         "desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing **360%** ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every **8**s."
       }
     ]
+  },
+  "Fading Twilight": {
+    "name": "Fading Twilight",
+    "desc": "A precious bow made of platinum, inlaid with an orb that shimmers with the light of eventide.",
+    "placeholder": true,
+    "weaponType": "Bow",
+    "stars": 4,
+    "icon": "https://cdn.discordapp.com/attachments/977179265307144242/977487458138750996/Fading_Twilight.png"
   },
   "Favonius Codex": {
     "name": "Favonius Codex",
