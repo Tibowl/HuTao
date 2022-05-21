@@ -13217,7 +13217,7 @@
   },
   "Kuki Shinobu": {
     "name": "Kuki Shinobu",
-    "desc": "Deputy Leader of the Arataki Gang.",
+    "desc": "The capable and reliable deputy leader of the \"Arataki Gang\" - Please note: capable and reliable are not appellations for the \"Arataki Gang,\" but for their deputy leader in specific.",
     "star": 4,
     "weaponType": "Sword",
     "icon": "https://i.imgur.com/iKNCm2s.png",
@@ -13230,7 +13230,7 @@
     "meta": {
       "association": "Inazuma",
       "title": "Mender of Tribulations",
-      "detail": "Deputy Leader of the Arataki Gang.",
+      "detail": "The capable and reliable deputy leader of the \"Arataki Gang\" - Please note: capable and reliable are not appellations for the \"Arataki Gang,\" but for their deputy leader in specific.",
       "affiliation": "Arataki Gang",
       "element": "Electro",
       "constellation": "Tribulatio Demptio"
@@ -26907,7 +26907,7 @@
   },
   "Yelan": {
     "name": "Yelan",
-    "desc": "A mysterious person who claims to work for the Ministry of Civil Affairs.",
+    "desc": "A mysterious person who claims to work for the Ministry of Civil Affairs, but is a \"non-entity\" on the Ministry of Civil Affairs' list.",
     "star": 5,
     "weaponType": "Bow",
     "icon": "https://i.imgur.com/cOnpRV5.png",
@@ -26920,7 +26920,7 @@
     "meta": {
       "association": "Liyue",
       "title": "Valley Orchid",
-      "detail": "A mysterious person who claims to work for the Ministry of Civil Affairs.",
+      "detail": "A mysterious person who claims to work for the Ministry of Civil Affairs, but is a \"non-entity\" on the Ministry of Civil Affairs' list.",
       "affiliation": "Ministry of Civil Affairs",
       "element": "Hydro",
       "constellation": "Umbrabilis Orchis",
