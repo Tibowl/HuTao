@@ -13233,7 +13233,11 @@
       "detail": "The capable and reliable deputy leader of the \"Arataki Gang\" - Please note: capable and reliable are not appellations for the \"Arataki Gang,\" but for their deputy leader in specific.",
       "affiliation": "Arataki Gang",
       "element": "Electro",
-      "constellation": "Tribulatio Demptio"
+      "constellation": "Tribulatio Demptio",
+      "cvChinese": "杨凝",
+      "cvEnglish": "Kira Buckland",
+      "cvJapanese": "水橋かおり",
+      "cvKorean": "김율"
     },
     "skills": [
       {
@@ -13255,7 +13259,8 @@
           "name": "Gyoei Narukami Kariyama Rite",
           "desc": "Creates a special field in front of her that deals Electro DMG to opponents within it.",
           "video": "https://cdn.discordapp.com/attachments/977179265307144242/977491268634570803/Kuki_Q.gif",
-          "videomp4": "https://cdn.discordapp.com/attachments/977179265307144242/977491268189962260/Kuki_Q_scaled.mp4"
+          "videomp4": "https://cdn.discordapp.com/attachments/977179265307144242/977491268189962260/Kuki_Q_scaled.mp4",
+          "type": "Electro"
         },
         "passive": [
           {
@@ -26936,7 +26941,8 @@
       "constellation": "Umbrabilis Orchis",
       "cvEnglish": "Laura Post",
       "cvJapanese": "遠藤綾",
-      "cvKorean": "민아"
+      "cvKorean": "민아",
+      "cvChinese": "徐慧"
     },
     "skills": [
       {
