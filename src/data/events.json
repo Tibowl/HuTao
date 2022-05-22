@@ -1287,10 +1287,11 @@
     {
         "name": "\"Overflowing Mastery\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.mihoyo.com/upload/2021/05/25/1015537/8a304c186f5a725d6ca5fad6c953ef83_3536921475780913159.jpg",
+        "link": "https://www.hoyolab.com/article/4859673",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/05/20/1015537/c9b02763a29fe8f44b1b15bba97dbe64_1851936622699851326.jpg",
         "start": "2022-05-22 04:00:00",
         "end": "2022-05-29 03:59:00",
-        "reminder": "end"
+        "reminder": "daily"
     },
     {
         "name": "\"Journey With a Gentle Breeze\" Web Event",
