@@ -26936,7 +26936,7 @@
       "association": "Liyue",
       "title": "Valley Orchid",
       "detail": "A mysterious person who claims to work for the Ministry of Civil Affairs, but is a \"non-entity\" on the Ministry of Civil Affairs' list.",
-      "affiliation": "Ministry of Civil Affairs",
+      "affiliation": "Yangshang Teahouse",
       "element": "Hydro",
       "constellation": "Umbrabilis Orchis",
       "cvEnglish": "Laura Post",
@@ -26949,28 +26949,58 @@
         "talents": [
           {
             "name": "Normal Attack: Stealthy Bowshot",
-            "desc": "After a short time out of combat Yelan will enter a Breakthrough state, which will cause her next Charged Aim Shot to have decreased charge time, and once charged, she can fire a Breakthrough Barb that will deal AoE Hydro DMG.",
+            "desc": "**Normal Attack**\n\nPerforms up to 4 consecutive shots with a bow.\n\n**Charged Attack**\n\nPerform a more precise Aimed Shot with increased DMG. While aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal Hydro DMG.\n\n**Breakthrough**\n\nYelan will enter a \"Breakthrough\" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a \"Breakthrough Barb\" that will deal AoE Hydro DMG based on Yelan's Max HP.",
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Prosperity",
+                "BossMat": "Gilded Scale",
+                "EnemyDropTier1": "Recruit's Insignia",
+                "EnemyDropTier2": "Sergeant's Insignia",
+                "EnemyDropTier3": "Lieutenant's Insignia"
+              }
+            },
             "video": "https://cdn.discordapp.com/attachments/977179265307144242/977489573728878602/Yelan_NA.gif",
             "videomp4": "https://cdn.discordapp.com/attachments/977179265307144242/977489573384953856/Yelan_NA_scaled.mp4"
           },
           {
             "name": "Lingering Lifeline",
-            "desc": "Tapping or holding the Skill button allows her to move rapidly using her Lifeline, marking opponents along her path. When her rapid move ends, the lifeline will explode, dealing Hydro DMG to marked targets. Yelan also has a fixed chance to reset her Breakthrough state, based on the number of opponents marked.",
+            "desc": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path.\n\nWhen this rapid movement ends, the Lifeline will explode, dealing Hydro DMG to the marked opponents based on Yelan's Max HP.\n\n**Tap**\n\nMoves a certain distance forward swiftly.\n\n**Hold**\n\nEngages in continuous, swift movement, during which Yelan's resistance to interruption is increased.\n\nDuring this time, Yelan can control this rapid movement and end it by using this Skill again. Additionally, each opponent marked by the \"Lifeline\" when it explodes grants Yelan a 34% chance to reset her \"Breakthrough\" state.",
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Prosperity",
+                "BossMat": "Gilded Scale",
+                "EnemyDropTier1": "Recruit's Insignia",
+                "EnemyDropTier2": "Sergeant's Insignia",
+                "EnemyDropTier3": "Lieutenant's Insignia"
+              }
+            },
             "video": "https://cdn.discordapp.com/attachments/977179265307144242/977489031678033960/Yelan_E.gif",
             "videomp4": "https://cdn.discordapp.com/attachments/977179265307144242/977489031355052042/Yelan_E_scaled.mp4"
           }
         ],
         "ult": {
           "name": "Depth-Clarion Dice",
-          "desc": "Deals AoE Hydro DMG and creates Wonderous Dice which aid her in battle. The dice follow the character arround and will initiate a co-ordinated attack when your active character uses a Normal Attack, and each time Yelan's Lifeline explodes and hits opponents.",
+          "desc": "Deals AoE Hydro Damage and creates an \"Exquisite Throw\" which aids her in battle.\n**Exquisite Throw**\nThis follows the character around and will initiate a coordinated attack under the following circumstances, dealing Hydro DMG based on Yelan's Max HP:\n· This can occur once every second when your active character uses a Normal Attack.\n· It will initiate a coordinated attack each time Yelan's Lifeline explodes and hits opponents.",
           "type": "Hydro",
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Prosperity",
+              "BossMat": "Gilded Scale",
+              "EnemyDropTier1": "Recruit's Insignia",
+              "EnemyDropTier2": "Sergeant's Insignia",
+              "EnemyDropTier3": "Lieutenant's Insignia"
+            }
+          },
           "video": "https://cdn.discordapp.com/attachments/977179265307144242/977489689542025246/Yelan_Q.gif",
           "videomp4": "https://cdn.discordapp.com/attachments/977179265307144242/977489689206468648/Yelan_Q_scaled.mp4"
         },
         "passive": [
           {
             "name": "Adapt With Ease",
-            "desc": "The active character's damage increases overtime whie the Wonderous Dice are active."
+            "desc": "The active character's damage increases overtime whie the Exquisite Throw are active."
           },
           {
             "name": "Turn Control",
@@ -26983,7 +27013,21 @@
           }
         ]
       }
-    ]
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Runic Fang",
+        "EnemyDropTier1": "Recruit's Insignia",
+        "EnemyDropTier2": "Sergeant's Insignia",
+        "EnemyDropTier3": "Lieutenant's Insignia",
+        "Gem1": "Varunada Lazurite Sliver",
+        "Gem2": "Varunada Lazurite Fragment",
+        "Gem3": "Varunada Lazurite Chunk",
+        "Gem4": "Varunada Lazurite Gemstone",
+        "Specialty": "Starconch"
+      }
+    }
   },
   "Yoimiya": {
     "name": "Yoimiya",
