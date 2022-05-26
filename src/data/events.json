@@ -1404,6 +1404,15 @@
         "reminder": "end"
     },
     {
+        "name": "\"To Ensnare a Prey\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/4961221",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/05/26/1015537/06a9a02ea28fcb958478f98a40a72f1d_1443956448839871773.png",
+        "start": "2022-05-26 12:00:00",
+        "end": "2022-05-31 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "2.8 Special Program",
         "type": "Stream",
         "timezone": "-04:00"
