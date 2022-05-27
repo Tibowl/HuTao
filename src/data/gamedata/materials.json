@@ -1631,6 +1631,22 @@
     },
     "effect": "Increases all party members' Shield Strength by 35% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
+  "Omurice Waltz": {
+    "name": "Omurice Waltz",
+    "type": "Food",
+    "category": "Food and Potions",
+    "sources": [
+      "Obtained by cooking"
+    ]
+  },
+  "Dew-Dipped Shrimp": {
+    "name": "Dew-Dipped Shrimp",
+    "type": "Food",
+    "category": "Food and Potions",
+    "sources": [
+      "Obtained by cooking"
+    ]
+  },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
     "desc": "Onion-covered toast. Exudes a wonderful aroma. Are the fish biting for the bait, or is it the toast they're after?",
