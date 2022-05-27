@@ -2273,5 +2273,13 @@
         ]
       }
     ]
+  },
+  "40": {
+    "teams": 2,
+    "leyline": "DMG dealt by claymore-wielding characters increased by 75%."
+  },
+  "41": {
+    "teams": 2,
+    "leyline": "For this floor only, the ley line flow will be normal."
   }
 }

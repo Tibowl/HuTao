@@ -900,5 +900,71 @@
       38,
       39
     ]
+  },
+  "41": {
+    "start": "2022-06-01 04:00:00",
+    "end": "2022-06-16 03:59:59",
+    "buff": "Closing Moon",
+    "buffDesc": "After the active character uses an Elemental Skill, >Normal Attack DMG is increased by 16% for 8s. Max 3 stacks. Stacks are counted independently.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      40,
+      41
+    ]
+  },
+  "42": {
+    "start": "2022-06-16 04:00:00",
+    "end": "2022-07-01 03:59:59",
+    "buff": "Matched Moon",
+    "buffDesc": "After a character's Elemental Skill hits an opponent, that opponent's Physical and All Elemental RES will be decreased by 12% for 8s. Max 3 stacks. Stacks are counted independently.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      40,
+      41
+    ]
+  },
+  "43": {
+    "start": "2022-07-01 04:00:00",
+    "end": "2022-07-16 03:59:59",
+    "buff": "Steelsunder Moon",
+    "buffDesc": "After the active character uses an Elemental Skill, that character's next Normal Attack that hits an opponent will unleash a shockwave at that opponent's position, dealing DMG. This effect can occur once every 1.2s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      40,
+      41
+    ]
   }
 }
