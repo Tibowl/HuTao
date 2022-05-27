@@ -1377,12 +1377,8 @@
         "name": "\"Perilous Trail\" Event",
         "type": "In-game",
         "img": "https://cdn.discordapp.com/attachments/977179265307144242/977184253521592330/unknown.png",
-        "reminder": "end"
-    },
-    {
-        "name": "Archon Quest Interlude Chapter - \"Perilous Trail\"",
-        "type": "Unlock",
-        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977191120729698314/unknown.png",
+        "start": "2022-05-31 11:00:00",
+        "end": "2022-06-20 03:59:59",
         "reminder": "end"
     },
     {
