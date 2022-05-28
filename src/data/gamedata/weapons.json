@@ -581,7 +581,35 @@
     "placeholder": true,
     "weaponType": "Bow",
     "stars": 5,
-    "icon": "https://cdn.discordapp.com/attachments/977179265307144242/977487457803178004/Aqua.png"
+    "icon": "https://cdn.discordapp.com/attachments/977179265307144242/977487457803178004/Aqua.png",
+    "placeholderStats": {
+      "level": 90,
+      "stats": {
+        "Base ATK": 542,
+        "CRIT DMG": 0.882
+      }
+    },
+    "refinements": [
+      {
+        "name": "The Cleansing Form",
+        "desc": "HP is increased by **16%**. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by 20%. This will take effect whether the character is on-field or not."
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts3",
+      "mapping": {
+        "EnemyDropTierA1": "Gloomy Statuette",
+        "EnemyDropTierA2": "Dark Statuette",
+        "EnemyDropTierA3": "Deathly Statuette",
+        "EnemyDropTierB1": "Spectral Husk",
+        "EnemyDropTierB2": "Spectral Heart",
+        "EnemyDropTierB3": "Spectral Nucleus",
+        "WeaponAsc1": "Luminous Sands from Guyun",
+        "WeaponAsc2": "Lustrous Stone from Guyun",
+        "WeaponAsc3": "Relic from Guyun",
+        "WeaponAsc4": "Divine Body from Guyun"
+      }
+    }
   },
   "Aquila Favonia": {
     "name": "Aquila Favonia",
@@ -3741,7 +3769,35 @@
     "placeholder": true,
     "weaponType": "Bow",
     "stars": 4,
-    "icon": "https://cdn.discordapp.com/attachments/977179265307144242/977487458138750996/Fading_Twilight.png"
+    "icon": "https://cdn.discordapp.com/attachments/977179265307144242/977487458138750996/Fading_Twilight.png",
+    "placeholderStats": {
+      "level": 90,
+      "stats": {
+        "Base ATK": 565,
+        "Energy Recharge": 0.306
+      }
+    },
+    "refinements": [
+      {
+        "name": "Radiance of the Deeps",
+        "desc": "Has three states, Evengleam, Afterglow, and Dawnblaze, which increase DMG dealt by **6%/10%/14%** respectively. When attacks hit opponents, this weapon will switch to the next state. This weapon can change states once every 7s. The character equipping this weapon can still trigger the state switch while not on field."
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts3",
+      "mapping": {
+        "EnemyDropTierA1": "Hunter's Sacrificial Knife",
+        "EnemyDropTierA2": "Agent's Sacrificial Knife",
+        "EnemyDropTierA3": "Inspector's Sacrificial Knife",
+        "EnemyDropTierB1": "Divining Scroll",
+        "EnemyDropTierB2": "Sealed Scroll",
+        "EnemyDropTierB3": "Forbidden Curse Scroll",
+        "WeaponAsc1": "Grain of Aerosiderite",
+        "WeaponAsc2": "Piece of Aerosiderite",
+        "WeaponAsc3": "Bit of Aerosiderite",
+        "WeaponAsc4": "Chunk of Aerosiderite"
+      }
+    }
   },
   "Favonius Codex": {
     "name": "Favonius Codex",
