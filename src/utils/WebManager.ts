@@ -1,6 +1,7 @@
 import bodyParser from "body-parser"
 import express, { Express, NextFunction, Request, Response } from "express"
 import log4js from "log4js"
+import { getEventWishes } from "../commands/misc/banners"
 import config from "../data/config.json"
 import client from "../main"
 import { parseDuration } from "./Utils"
@@ -28,12 +29,23 @@ export default class WebManager {
             res.sendStatus(403)
         })
 
+        // List banners
+        this.app.get("/banners", this.getBanners)
+
+        // Reminders
         this.app.get("/reminders/:user/get", this.getReminder)
         this.app.post("/reminders/:user/create", this.addReminder)
         this.app.post("/reminders/:user/delete", this.deleteReminder)
+
+        // Test
         this.app.post("/testmessage/:user", this.testMessage)
 
         this.app.listen(config.webPort)
+    }
+
+    getBanners(req: Req<{ user: string }>, res: Res): void {
+        Logger.info("Getting banners from remote")
+        res.send(getEventWishes())
     }
 
     getReminder(req: Req<{ user: string }>, res: Res): void {

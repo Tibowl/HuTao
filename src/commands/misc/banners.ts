@@ -4,7 +4,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { CommandSource, SendMessage, StoredNews } from "../../utils/Types"
-import { Colors, findFuzzy, findFuzzyBestCandidates, parseNewsContent, sendMessage, simplePaginator } from "../../utils/Utils"
+import { Colors, findFuzzy, findFuzzyBestCandidates, getLink, parseNewsContent, sendMessage, simplePaginator } from "../../utils/Utils"
 
 
 const Logger = log4js.getLogger("main")
@@ -23,7 +23,7 @@ let eventWishes: Wish[] = [
     {
         title: "Event Wish \"Ballad in Goblets\" - Boosted Drop Rate for \"Windborne Bard\" Venti (Anemo)!",
         roughDate: 1601244000,
-        img: "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Wish_Ballad_in_Goblets_2020-09-28.jpg/revision/latest?cb=20201006234432",
+        img: "img/banners/1.0/char1.png",
         duration: "2020/09/28 12:00:00 – 2020/10/18 12:00:00",
         main: ["Venti"],
         other: ["Barbara", "Fischl", "Xiangling"]
@@ -31,7 +31,7 @@ let eventWishes: Wish[] = [
     {
         title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rate for Aquila Favonia (Sword) and Amos' Bow (Bow)!",
         roughDate: 1601244000,
-        img: "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Wish_Epitome_Invocation_2020-09-28.jpg/revision/latest?cb=20200929014948",
+        img: "img/banners/1.0/weapon1.png",
         duration: "2020/09/28 12:00:00 – 2020/10/18 12:00:00",
         main: ["Aquila Favonia", "Amos' Bow"],
         other: ["The Flute", "The Bell", "The Widsith", "The Stringless", "Favonius Lance" ]
@@ -39,7 +39,7 @@ let eventWishes: Wish[] = [
     {
         title: "Event Wish \"Sparkling Steps\" - Boosted Drop Rate for \"Fleeing Sunlight\" Klee (Pyro)!",
         roughDate: 1603209600,
-        img: "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Wish_Sparkling_Steps_2020-10-20.jpg/revision/latest?cb=20201018122142",
+        img: "img/banners/1.0/char2.png",
         duration: "2020/10/20 18:00:00 – 2020/11/10 14:59:59",
         main: ["Klee"],
         other: ["Xingqiu", "Noelle", "Sucrose"]
@@ -47,7 +47,7 @@ let eventWishes: Wish[] = [
     {
         title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rate for Lost Prayer to the Sacred Winds (Catalyst) and Wolf's Gravestone (Claymore)!",
         roughDate: 1603209600,
-        img: "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Wish_Epitome_Invocation_2020-10-20.jpg/revision/latest?cb=20201018052455",
+        img: "img/banners/1.0/weapon2.png",
         duration: "2020/10/20 18:00:00 – 2020/11/10 14:59:59",
         main: ["Lost Prayer to the Sacred Winds", "Wolf's Gravestone"],
         other: ["Sacrificial Sword", "Sacrificial Bow", "Sacrificial Greatsword", "Sacrificial Fragments", "Dragon's Bane"]
@@ -71,7 +71,7 @@ let eventWishes: Wish[] = [
     {
         title: "Event Wish \"Gentry of Hermitage\" - Boosted Drop Rate for Zhongli!",
         roughDate: 1606842000,
-        img: "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Wish_Gentry_of_Hermitage_2020-12-01.png/revision/latest?cb=20201129051143",
+        img: "img/banners/1.1/char2.png",
         duration: "2020-12-01 18:00:00 – 2020-12-22 14:59:59",
         main: ["Zhongli"],
         other: ["Xinyan", "Razor", "Chongyun"]
@@ -79,7 +79,7 @@ let eventWishes: Wish[] = [
     {
         title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rates for Vortex Vanquisher (Polearm) and The Unforged (Claymore)!",
         roughDate: 1606842000,
-        img: "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Wish_Epitome_Invocation_2020-12-01.jpg/revision/latest?cb=20201129051133",
+        img: "img/banners/1.1/weapon2.png",
         duration: "2020-12-01 18:00:00 – 2020-12-22 14:59:59",
         main: ["Vortex Vanquisher", "The Unforged"],
         other: ["Lion's Roar", "The Bell", "Favonius Codex", "Favonius Warbow", "Dragon's Bane"]
@@ -119,7 +119,7 @@ let eventWishes: Wish[] = [
     {
         title: "Event Wish \"Invitation to Mundane Life\" - Boosted Drop Rate for Xiao!",
         roughDate: 1612342140,
-        img: "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Wish_Invitation_to_Mundane_Life_2021-02-03.jpg/revision/latest?cb=20210201040314",
+        img: "img/banners/1.3/char1.png",
         duration: "After Version 1.3 update – 2021/02/17 15:59:59",
         main: ["Xiao"],
         other: ["Diona", "Beidou", "Xinyan"]
@@ -127,7 +127,7 @@ let eventWishes: Wish[] = [
     {
         title: "Event Wish \"Epitome Invocation\" - Boosted Drop Rates for Primordial Jade Cutter (Sword) and Primordial Jade Winged-Spear (Polearm)!",
         roughDate: 1612342140,
-        img: "https://static.wikia.nocookie.net/gensin-impact/images/6/62/Wish_Epitome_Invocation_2021-02-03.jpg/revision/latest?cb=20210201040313",
+        img: "img/banners/1.3/weapon1.png",
         duration: "After Version 1.3 update – 2021/02/23 15:59:59",
         main: ["Primordial Jade Cutter", "Primordial Jade Winged-Spear"],
         other: ["Rust", "Eye of Perception", "Favonius Lance", "Sacrificial Greatsword", "The Flute"]
@@ -357,7 +357,7 @@ Note: this command supports fuzzy search.`,
 
         const embed = new MessageEmbed()
             .setTitle(wish.title)
-            .setImage(wish.img)
+            .setImage(getLink(wish.img))
             .addField("Duration", wish.duration)
             .addField("Main", wish.main.join("\n"), true)
             .addField("Other", wish.other.join("\n"), true)
@@ -366,6 +366,10 @@ Note: this command supports fuzzy search.`,
 
         return embed
     }
+}
+
+export function getEventWishes() {
+    return eventWishes
 }
 
 export function parseEventWishNews(news: StoredNews, recent = true): void {
@@ -410,8 +414,10 @@ export function parseEventWishNews(news: StoredNews, recent = true): void {
         const lines = page.text.split("\n")
         for (const i in lines) {
             const line = lines[i].trim()
-            if (line.includes("Event Wish Duration"))
+            if (line.includes("Event Wish Duration")) {
                 wish.duration = lines[+i + 1].trim()
+                wish.duration += lines[+i + 2]?.trim() ?? ""
+            }
 
             const mainMatch = line.match(/.*?5-star.*?(?:weapons?|characters?) (.*?) will (?:receive|get|recieve) a huge/)
             if (mainMatch)
@@ -435,7 +441,7 @@ export function parseEventWishNews(news: StoredNews, recent = true): void {
         eventWishes = eventWishes.sort((a, b) => {
             if (Math.abs(a.roughDate - b.roughDate) < 3600) {
                 if (a.duration == b.duration)
-                    return a.title.includes("Epitome") ? 1 : -1
+                    return a.title.includes("Epitome") ? 1 : b.title.includes("Epitome") ? -1 : 0
 
                 return b.duration.localeCompare(a.duration)
             } else
