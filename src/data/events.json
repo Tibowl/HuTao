@@ -1329,8 +1329,8 @@
     {
         "name": "Event Wish \"Discerner of Enigmas\"",
         "type": "Banner",
-        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977180304232046602/unknown.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/4998733",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/05/28/1015537/8b986bca2c84ec70d1982ee3ffd2af50_4941937438722186212.jpg",
         "start": "2022-05-31 11:00:00",
         "start_server": false,
         "end": "2022-06-20 17:59:00",
@@ -1339,8 +1339,8 @@
     {
         "name": "Event Wish \"Invitation to Mundane Life\"",
         "type": "Banner",
-        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977180304232046602/unknown.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/4998734",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/05/28/1015537/11a53e952847a294dc27bba1e285c2ef_5391019816687823340.jpg",
         "start": "2022-05-31 11:00:00",
         "start_server": false,
         "end": "2022-06-20 17:59:00",
@@ -1349,8 +1349,8 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977180443302567966/unknown.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/4998735",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/05/28/1015537/8cc292287ba6acd0b9b5b0b4cc68cc61_2351181219414823517.jpg",
         "start": "2022-05-31 11:00:00",
         "start_server": false,
         "end": "2022-06-21 17:59:00",
@@ -1376,7 +1376,8 @@
     {
         "name": "\"Perilous Trail\" Event",
         "type": "In-game",
-        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977184253521592330/unknown.png",
+        "link": "https://www.hoyolab.com/article/4998732",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/05/28/1015537/bccfe598ce0c64587223fa6ab2bf24df_7331757132267577697.jpg",
         "start": "2022-05-31 11:00:00",
         "end": "2022-06-20 03:59:59",
         "reminder": "end"
@@ -1391,6 +1392,8 @@
         "name": "\"The Almighty Arataki Great and Glorious Drumalong Festival\" Event",
         "type": "In-game",
         "img": "https://cdn.discordapp.com/attachments/977179265307144242/977191724520722432/unknown.png",
+        "start": "2022-06-13 10:00:00",
+        "end": "2022-07-04 03:59:00",
         "reminder": "end"
     },
     {
