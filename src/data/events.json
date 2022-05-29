@@ -1218,6 +1218,7 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2022/04/13/1015448/f1b6ac2493a6a744c9ebf9833f6da1a6_4285297802992262150.jpg",
         "start": "2022-04-19 18:00:00",
         "end": "2022-05-31 05:59:00",
+        "end_server": false,
         "reminder": "end"
     },
     {
@@ -1227,6 +1228,7 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2022/04/13/1015448/1b2cd6a179a813ae804a22975f200a6a_4262976236646813317.jpg",
         "start": "2022-04-19 18:00:00",
         "end": "2022-05-31 05:59:00",
+        "end_server": false,
         "reminder": "end"
     },
     {
