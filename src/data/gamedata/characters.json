@@ -600,7 +600,7 @@
       "constellation": "Nora Fortis",
       "cvChinese": "沐霏",
       "cvJapanese": "高垣彩陽",
-      "cvEnglish": "——",
+      "cvEnglish": "—",
       "cvKorean": "Jo Hyeon-jung"
     },
     "skills": [
@@ -1747,7 +1747,7 @@
         "talents": [
           {
             "name": "Normal Attack: Fight Club Legend",
-            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\nWhen the 2nd and 4th strikes hit opponents, Itto will gain 1 or 2 stacks of Superlative Superstrength, respectively.\nMax 5 stacks. Triggering this effect will refresh the current duration of any existing stacks.\n\nAdditionally, Itto's Normal Attack combo does not immediately reset after sprinting or using his Elemental Skill, \"Masatsu Zetsugi: Akaushi Burst!\"\n\n**Charged Attack**\nWhen holding to perform a Charged Attack, Itto unleashes a series of Arataki Kesagiri slashes without consuming Stamina. Instead, each Arataki Kesagiri slash consumes 1 stack of Superlative Superstrength. When the final stack is consumed, Itto delivers a powerful final slash.\nIf no stacks of Superlative Superstrength are available, Itto will perform a single Saichimonji Slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\nWhen the 2nd and 4th strikes hit opponents, Itto will gain 1 and 2 stacks of Superlative Superstrength, respectively.\nMax 5 stacks. Triggering this effect will refresh the current duration of any existing stacks.\n\nAdditionally, Itto's Normal Attack combo does not immediately reset after sprinting or using his Elemental Skill, \"Masatsu Zetsugi: Akaushi Burst!\"\n\n**Charged Attack**\nWhen holding to perform a Charged Attack, Itto unleashes a series of Arataki Kesagiri slashes without consuming Stamina. Instead, each Arataki Kesagiri slash consumes 1 stack of Superlative Superstrength. When the final stack is consumed, Itto delivers a powerful final slash.\nIf no stacks of Superlative Superstrength are available, Itto will perform a single Saichimonji Slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Claymore.png",
             "talentTable": [
               {
@@ -3806,7 +3806,7 @@
             "icon": "img/const/Bennett_5.png"
           },
           {
-            "name": "Fire Ventures with Me",
+            "name": "Fire Ventures With Me",
             "desc": "Sword, Claymore, or Polearm-wielding characters inside **Fantastic Voyage**'s radius gain a 15% **Pyro DMG Bonus** and their weapons are infused with **Pyro**.",
             "icon": "img/const/Bennett_6.png"
           }
@@ -4327,7 +4327,7 @@
           },
           {
             "name": "Cloudburst",
-            "desc": "Increases the Level of **Spirit Blade: Cloud-parting Star** by 3.\nMaximum upgrade level is 15.",
+            "desc": "Increases the Level of **Spirit Blade: Cloud-Parting Star** by 3.\nMaximum upgrade level is 15.",
             "icon": "img/const/Chongyun_3.png"
           },
           {
@@ -4342,7 +4342,7 @@
           },
           {
             "name": "Rally of Four Blades",
-            "desc": "**Spirit Blade: Cloud-parting Star** deals 15% more DMG to opponents with a lower percentage of their Max HP remaining than Chongyun.\nThis skill will also summon 1 additional spirit blade.",
+            "desc": "**Spirit Blade: Cloud-Parting Star** deals 15% more DMG to opponents with a lower percentage of their Max HP remaining than Chongyun.\nThis skill will also summon 1 additional spirit blade.",
             "icon": "img/const/Chongyun_6.png"
           }
         ]
@@ -5532,7 +5532,7 @@
             "icon": "img/const/Diona_4.png"
           },
           {
-            "name": "Double Shot, On The Rocks",
+            "name": "Double Shot, on the Rocks",
             "desc": "Increases the Level of **Icy Paws** by 3.\nMaximum upgrade level is 15.",
             "icon": "img/const/Diona_5.png"
           },
@@ -6423,7 +6423,7 @@
       "affiliation": "Adventurers' Guild",
       "element": "Electro",
       "constellation": "Corvus",
-      "cvChinese": "Mace&赵悦程",
+      "cvChinese": "Mace & 赵悦程",
       "cvJapanese": "内田真礼 & 増谷康紀",
       "cvEnglish": "Brittany Cox & Ben Pronsky",
       "cvKorean": "Park Go-woon & Lee Hyeon"
@@ -7306,7 +7306,7 @@
             "minAscension": 1
           },
           {
-            "name": "Harmony between Heaven and Earth",
+            "name": "Harmony Between Heaven and Earth",
             "desc": "**Celestial Shower** grants a 20% **Cryo DMG Bonus** to active party members in the AoE.",
             "icon": "img/skill/Ganyu_4.png",
             "minAscension": 4
@@ -9531,7 +9531,7 @@
                 ]
               },
               {
-                "name": "CD (hold)",
+                "name": "Hold CD",
                 "value": "9.0s"
               }
             ],
@@ -9634,7 +9634,7 @@
         "passive": [
           {
             "name": "Soumon Swordsmanship",
-            "desc": "If **Chihayaburu** comes into contact with **Hydro**/**Pyro**/**Cryo**/**Electro** when cast, **Chihayaburu** will absorb that element and if Plunging Attack: Midare Ranzan is used before the effect expires, it will deal an additional 200% ATK of the absorbed elemental type as DMG. This will be considered Plunging Attack DMG.\nElemental Absorption may only occur once per use of **Chihayaburu**.",
+            "desc": "If **Chihayaburu** comes into contact with **Hydro**/**Pyro**/**Cryo**/**Electro** when cast, this **Chihayaburu** will absorb that element and if Plunging Attack: Midare Ranzan is used before the effect expires, it will deal an additional 200% ATK of the absorbed elemental type as DMG. This will be considered Plunging Attack DMG.\nElemental Absorption may only occur once per use of **Chihayaburu**.",
             "icon": "img/skill/Kaedehara_Kazuha_3.png",
             "minAscension": 1
           },
@@ -9659,7 +9659,7 @@
           },
           {
             "name": "Yamaarashi Tailwind",
-            "desc": "The Autumn Whirlwind field created by **Kazuha Slash** has the following effects:\n· Increases Kaedehara Kazuha's own Elemental Mastery by 200.\n· Increases the Elemental Mastery of characters within the field by 200.\n\nThe Elemental Mastery-increasing effects of this Constellation do not stack.",
+            "desc": "The Autumn Whirlwind field created by **Kazuha Slash** has the following effects:\n· Increases Kaedehara Kazuha's own Elemental Mastery by 200 for its duration.\n· Increases the Elemental Mastery of characters within the field by 200.\n\nThe Elemental Mastery-increasing effects of this Constellation do not stack.",
             "icon": "img/const/Kaedehara_Kazuha_2.png"
           },
           {
@@ -9679,7 +9679,7 @@
           },
           {
             "name": "Crimson Momiji",
-            "desc": "After using **Chihayaburu** or **Kazuha Slash**, Kaedehara Kazuha gains an **Anemo Infusion** for 5s. Additionally, each point of Elemental Mastery will increase the DMG dealt by Kaedehara Kazuha's Normal, Charged, and Plunging Attack by 0.2%.",
+            "desc": "After using **Chihayaburu** or **Kazuha Slash**, Kaedehara Kazuha gains an **Anemo Infusion** for 5s. Additionally, each point of Elemental Mastery will increase the DMG dealt by Kaedehara Kazuha's Normal, Charged, and Plunging Attacks by 0.2%.",
             "icon": "img/const/Kaedehara_Kazuha_6.png"
           }
         ]
@@ -13217,7 +13217,7 @@
   },
   "Kuki Shinobu": {
     "name": "Kuki Shinobu",
-    "desc": "The capable and reliable deputy leader of the \"Arataki Gang\" - Please note: capable and reliable are not appellations for the \"Arataki Gang,\" but for their deputy leader in specific.",
+    "desc": "The capable and reliable deputy leader of the \"Arataki Gang.\" Please note: capable and reliable are not appellations for the \"Arataki Gang,\" but for their deputy leader in specific.",
     "star": 4,
     "weaponType": "Sword",
     "icon": "https://i.imgur.com/iKNCm2s.png",
@@ -14710,7 +14710,7 @@
             "icon": "img/const/Ningguang_2.png"
           },
           {
-            "name": "Majesty be the Array of Stars",
+            "name": "Majesty Be the Array of Stars",
             "desc": "Increases the Level of **Starshatter** by 3.\nMaximum upgrade level is 15.",
             "icon": "img/const/Ningguang_3.png"
           },
@@ -14720,12 +14720,12 @@
             "icon": "img/const/Ningguang_4.png"
           },
           {
-            "name": "Invincible be the Jade Screen",
+            "name": "Invincible Be the Jade Screen",
             "desc": "Increases the Level of **Jade Screen** by 3.\nMaximum upgrade level is 15.",
             "icon": "img/const/Ningguang_5.png"
           },
           {
-            "name": "Grandeur be the Seven Stars",
+            "name": "Grandeur Be the Seven Stars",
             "desc": "When **Starshatter** is used, Ningguang gains 7 Star Jades.",
             "icon": "img/const/Ningguang_6.png"
           }
@@ -25617,7 +25617,7 @@
         },
         "passive": [
           {
-            "name": "\"The Show Goes On, Even Without An Audience...\"",
+            "name": "\"The Show Goes On, Even Without an Audience...\"",
             "desc": "Decreases the number of opponents **Sweeping Fervor** must hit to trigger each level of shielding.\n·Shield Level 2: Lead-In requirement reduced to 1 opponent hit.\n·Shield Level 3: Rave requirement reduced to 2 opponents hit or more.",
             "icon": "img/skill/Xinyan_3.png",
             "minAscension": 1
@@ -26923,33 +26923,204 @@
   "Yelan": {
     "name": "Yelan",
     "desc": "A mysterious person who claims to work for the Ministry of Civil Affairs, but is a \"non-entity\" on the Ministry of Civil Affairs' list.",
+    "releasedOn": "2022-05-31 00:00:00",
     "star": 5,
     "weaponType": "Bow",
-    "icon": "https://i.imgur.com/cOnpRV5.png",
+    "icon": "img/char/Yelan.png",
     "media": {
       "imgs": [
         "https://pbs.twimg.com/media/FO7WKkrVUAMDueN.jpg",
         "https://pbs.twimg.com/media/FO6zXilUcAED7C2.jpg"
       ]
     },
+    "baseStats": {
+      "hpBase": 1124.9176025390625,
+      "attackBase": 18.992399215698242,
+      "defenseBase": 42.658790588378906,
+      "criticalBase": 0.05000000074505806,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
     "meta": {
+      "birthMonth": 4,
+      "birthDay": 20,
       "association": "Liyue",
       "title": "Valley Orchid",
       "detail": "A mysterious person who claims to work for the Ministry of Civil Affairs, but is a \"non-entity\" on the Ministry of Civil Affairs' list.",
-      "affiliation": "Yangshang Teahouse",
+      "affiliation": "Yanshang Teahouse",
       "element": "Hydro",
       "constellation": "Umbrabilis Orchis",
-      "cvEnglish": "Laura Post",
+      "cvChinese": "徐慧",
       "cvJapanese": "遠藤綾",
-      "cvKorean": "민아",
-      "cvChinese": "徐慧"
+      "cvEnglish": "Laura Post",
+      "cvKorean": "Min Ah"
     },
     "skills": [
       {
         "talents": [
           {
             "name": "Normal Attack: Stealthy Bowshot",
-            "desc": "**Normal Attack**\n\nPerforms up to 4 consecutive shots with a bow.\n\n**Charged Attack**\n\nPerform a more precise Aimed Shot with increased DMG. While aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal Hydro DMG.\n\n**Breakthrough**\n\nYelan will enter a \"Breakthrough\" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a \"Breakthrough Barb\" that will deal AoE Hydro DMG based on Yelan's Max HP.",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal **Hydro DMG**.\n\n**Breakthrough**\nYelan will enter a \"Breakthrough\" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a \"Breakthrough Barb\" that will deal **AoE Hydro DMG** based on Yelan's Max HP.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "icon": "img/skill/Common_Bow.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "40.7%",
+                  "44.0%",
+                  "47.3%",
+                  "52.0%",
+                  "55.3%",
+                  "59.1%",
+                  "64.3%",
+                  "69.5%",
+                  "74.7%",
+                  "80.4%",
+                  "86.1%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "39.0%",
+                  "42.2%",
+                  "45.4%",
+                  "49.9%",
+                  "53.1%",
+                  "56.7%",
+                  "61.7%",
+                  "66.7%",
+                  "71.7%",
+                  "77.2%",
+                  "82.6%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "51.6%",
+                  "55.8%",
+                  "60.0%",
+                  "66.0%",
+                  "70.2%",
+                  "75.0%",
+                  "81.6%",
+                  "88.2%",
+                  "94.8%",
+                  "102.0%",
+                  "109.2%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "32.5%+32.5%",
+                  "35.2%+35.2%",
+                  "37.8%+37.8%",
+                  "41.6%+41.6%",
+                  "44.2%+44.2%",
+                  "47.2%+47.2%",
+                  "51.4%+51.4%",
+                  "55.6%+55.6%",
+                  "59.7%+59.7%",
+                  "64.3%+64.3%",
+                  "68.8%+68.8%"
+                ]
+              },
+              {
+                "name": "Aimed Shot",
+                "values": [
+                  "43.9%",
+                  "47.4%",
+                  "51.0%",
+                  "56.1%",
+                  "59.7%",
+                  "63.7%",
+                  "69.4%",
+                  "75.0%",
+                  "80.6%",
+                  "86.7%",
+                  "92.8%"
+                ]
+              },
+              {
+                "name": "Fully-Charged Aimed Shot",
+                "values": [
+                  "124%",
+                  "133%",
+                  "143%",
+                  "155%",
+                  "164%",
+                  "174%",
+                  "186%",
+                  "198%",
+                  "211%",
+                  "223%",
+                  "236%"
+                ]
+              },
+              {
+                "name": "Breakthrough Barb DMG",
+                "values": [
+                  "11.58% Max HP",
+                  "12.44% Max HP",
+                  "13.31% Max HP",
+                  "14.47% Max HP",
+                  "15.34% Max HP",
+                  "16.21% Max HP",
+                  "17.36% Max HP",
+                  "18.52% Max HP",
+                  "19.68% Max HP",
+                  "20.84% Max HP",
+                  "21.99% Max HP"
+                ]
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "56.8%",
+                  "61.5%",
+                  "66.1%",
+                  "72.7%",
+                  "77.3%",
+                  "82.6%",
+                  "89.9%",
+                  "97.1%",
+                  "104.4%",
+                  "112.3%",
+                  "120.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "114%/142%",
+                  "123%/153%",
+                  "132%/165%",
+                  "145%/182%",
+                  "155%/193%",
+                  "165%/206%",
+                  "180%/224%",
+                  "194%/243%",
+                  "209%/261%",
+                  "225%/281%",
+                  "240%/300%"
+                ]
+              }
+            ],
             "costs": {
               "template": "talentCosts",
               "mapping": {
@@ -26965,7 +27136,36 @@
           },
           {
             "name": "Lingering Lifeline",
-            "desc": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path.\n\nWhen this rapid movement ends, the Lifeline will explode, dealing Hydro DMG to the marked opponents based on Yelan's Max HP.\n\n**Tap**\n\nMoves a certain distance forward swiftly.\n\n**Hold**\n\nEngages in continuous, swift movement, during which Yelan's resistance to interruption is increased.\n\nDuring this time, Yelan can control this rapid movement and end it by using this Skill again. Additionally, each opponent marked by the \"Lifeline\" when it explodes grants Yelan a 34% chance to reset her \"Breakthrough\" state.",
+            "desc": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path.\nWhen this rapid movement ends, the Lifeline will explode, dealing **Hydro DMG** to the marked opponents based on Yelan's Max HP.\n\n**Tap**\nMoves a certain distance forward swiftly.\n\n**Hold**\nEngages in continuous, swift movement, during which Yelan's resistance to interruption is increased.\nDuring this time, Yelan can control this rapid movement and end it by using this Skill again.\n\nAdditionally, each opponent marked by the Lifeline when it explodes grants Yelan a 34% chance to reset her Breakthrough state.\n\n**Not until she begins to tug on the strings do evildoers, crooks, and scheming villains alike know that there is no escape.**",
+            "icon": "img/skill/Yelan_1.png",
+            "talentTable": [
+              {
+                "name": "Skill DMG",
+                "values": [
+                  "22.6% Max HP",
+                  "24.3% Max HP",
+                  "26.0% Max HP",
+                  "28.3% Max HP",
+                  "30.0% Max HP",
+                  "31.7% Max HP",
+                  "33.9% Max HP",
+                  "36.2% Max HP",
+                  "38.4% Max HP",
+                  "40.7% Max HP",
+                  "43.0% Max HP",
+                  "45.2% Max HP",
+                  "48.1% Max HP"
+                ]
+              },
+              {
+                "name": "Max Duration (Hold)",
+                "value": "3.0s"
+              },
+              {
+                "name": "CD",
+                "value": "10.0s"
+              }
+            ],
             "costs": {
               "template": "talentCosts",
               "mapping": {
@@ -26982,8 +27182,58 @@
         ],
         "ult": {
           "name": "Depth-Clarion Dice",
-          "desc": "Deals AoE Hydro Damage and creates an \"Exquisite Throw\" which aids her in battle.\n**Exquisite Throw**\nThis follows the character around and will initiate a coordinated attack under the following circumstances, dealing Hydro DMG based on Yelan's Max HP:\n· This can occur once every second when your active character uses a Normal Attack.\n· It will initiate a coordinated attack each time Yelan's Lifeline explodes and hits opponents.",
-          "type": "Hydro",
+          "desc": "Deals **AoE Hydro DMG** and creates an \"Exquisite Throw,\" which aids her in battle.\n\n**Exquisite Throw**\nFollows the character around and will initiate a coordinated attack under the following circumstances, dealing **Hydro DMG** based on Yelan's Max HP:\n·Can occur once every second when your active character uses a Normal Attack.\n·Will occur each time Yelan's Lifeline explodes and hits opponents.\n\n**\"A gambling addiction is going to do you no good. I mean, let me just do the math for you as the dealer. What do you think your odds of beating me are, when I have seven dice and you, only one?\"**",
+          "icon": "img/skill/Yelan_2.png",
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "7.31% Max HP",
+                "7.86% Max HP",
+                "8.40% Max HP",
+                "9.13% Max HP",
+                "9.68% Max HP",
+                "10.23% Max HP",
+                "10.96% Max HP",
+                "11.69% Max HP",
+                "12.42% Max HP",
+                "13.15% Max HP",
+                "13.89% Max HP",
+                "14.62% Max HP",
+                "15.53% Max HP"
+              ]
+            },
+            {
+              "name": "Exquisite Throw DMG",
+              "values": [
+                "4.87% Max HP ×3",
+                "5.24% Max HP ×3",
+                "5.60% Max HP ×3",
+                "6.09% Max HP ×3",
+                "6.46% Max HP ×3",
+                "6.82% Max HP ×3",
+                "7.31% Max HP ×3",
+                "7.80% Max HP ×3",
+                "8.28% Max HP ×3",
+                "8.77% Max HP ×3",
+                "9.26% Max HP ×3",
+                "9.74% Max HP ×3",
+                "10.35% Max HP ×3"
+              ]
+            },
+            {
+              "name": "Duration",
+              "value": "15.0s"
+            },
+            {
+              "name": "CD",
+              "value": "18.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "70"
+            }
+          ],
           "costs": {
             "template": "talentCosts",
             "mapping": {
@@ -26994,22 +27244,216 @@
               "EnemyDropTier3": "Lieutenant's Insignia"
             }
           },
+          "type": "Hydro",
           "video": "https://cdn.discordapp.com/attachments/977179265307144242/977489689542025246/Yelan_Q.gif",
           "videomp4": "https://cdn.discordapp.com/attachments/977179265307144242/977489689206468648/Yelan_Q_scaled.mp4"
         },
         "passive": [
           {
-            "name": "Adapt With Ease",
-            "desc": "The active character's damage increases overtime whie the Exquisite Throw are active."
-          },
-          {
             "name": "Turn Control",
-            "desc": "Increases Yelan's Max HP based on the number of Elemental Types that are present in the party."
+            "desc": "When the party has 1/2/3/4 Elemental Types, Yelan's Max HP is increased by 6%/12%/18%/30%.",
+            "icon": "img/skill/Yelan_3.png",
+            "minAscension": 1
           },
           {
-            "name": "???",
-            "desc": "Gains ??% more rewards when dispatched on a Liyue Expedition for 20 hours.",
-            "icon": "img/skill/Common_Expedition_Liyue.png"
+            "name": "Adapt With Ease",
+            "desc": "So long as an **Exquisite Throw** is in play, your own active character deals 1% more DMG. This increases by a further 3.5% DMG every second. The maximum increase to DMG dealt is 50%.\nThe pre-existing effect will be dispelled if Depth-Clarion Dice is recast during its duration.",
+            "icon": "img/skill/Yelan_4.png",
+            "minAscension": 4
+          },
+          {
+            "name": "Necessary Calculation",
+            "desc": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours.",
+            "icon": "img/skill/Common_Expedition_Liyue.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Enter the Plotters",
+            "desc": "**Lingering Lifeline** gains 1 additional charge.",
+            "icon": "img/const/Yelan_1.png"
+          },
+          {
+            "name": "Taking All Comers",
+            "desc": "When **Exquisite Throw** conducts a coordinated attack, it will fire an additional water arrow that will deal 14% of Yelan's Max HP as Hydro DMG.\nThis effect can trigger once every 1.8s.",
+            "icon": "img/const/Yelan_2.png"
+          },
+          {
+            "name": "Beware the Trickster's Dice",
+            "desc": "Increases the Level of **Depth-Clarion Dice** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Yelan_3.png"
+          },
+          {
+            "name": "Bait-and-Switch",
+            "desc": "Increases all party members' Max HP by 10% for 25s for every opponent marked by **Lifeline** when the Lifeline explodes. A maximum increase of 40% Max HP can be attained in this manner.",
+            "icon": "img/const/Yelan_4.png"
+          },
+          {
+            "name": "Dealer's Sleight",
+            "desc": "Increases the Level of **Lingering Lifeline** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Yelan_5.png"
+          },
+          {
+            "name": "Winner Takes All",
+            "desc": "After using **Depth-Clarion Dice**, Yelan will enter the Mastermind state.\nIn this state, all of Yelan's Normal Attacks will be special Breakthrough Barbs. These Breakthrough Barbs will have similar abilities to normal ones and the DMG dealt will be considered Charged Attack DMG, dealing 156% of a normal Breakthrough Barb's DMG.\n\nThe Mastermind state lasts 20s and will be cleared after Yelan fires 5 arrows.",
+            "icon": "img/const/Yelan_6.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 964.51513671875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 36.576900482177734
+          },
+          {
+            "stat": "Base ATK",
+            "value": 16.2830753326416
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1649.8284912109375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 62.56575012207031
+          },
+          {
+            "stat": "Base ATK",
+            "value": 27.852630615234375
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.04800000041723251
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2563.57958984375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 97.2175521850586
+          },
+          {
+            "stat": "Base ATK",
+            "value": 43.27870178222656
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.09600000083446503
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3248.89306640625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 123.2063980102539
+          },
+          {
+            "stat": "Base ATK",
+            "value": 54.8482551574707
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.09600000083446503
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3934.20654296875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 149.19525146484375
+          },
+          {
+            "stat": "Base ATK",
+            "value": 66.41780853271484
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.14399999380111694
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 4619.52001953125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 175.18409729003906
+          },
+          {
+            "stat": "Base ATK",
+            "value": 77.98736572265625
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.19200000166893005
           }
         ]
       }
@@ -27031,7 +27475,7 @@
   },
   "Yoimiya": {
     "name": "Yoimiya",
-    "desc": "Owner of Naganohara Fireworks. Known as \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+    "desc": "Owner of Naganohara Fireworks. Known as the \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
     "releasedOn": "2021-08-10 18:00:00",
     "star": 5,
     "weaponType": "Bow",
@@ -27426,7 +27870,7 @@
           },
           {
             "name": "Naganohara Meteor Swarm",
-            "desc": "During **Niwabi Fire-Dance**, Yoimiya's Normal Attacks have a 50% chance of firing an extra Kindling Arrow that deals 60% of its original DMG. This DMG is considered Normal Attack DMG.",
+            "desc": "During **Niwabi Fire-Dance**, Yoimiya's Normal Attacks have a 50% chance of firing an extra Blazing Arrow that deals 60% of its original DMG. This DMG is considered Normal Attack DMG.",
             "icon": "img/const/Yoimiya_6.png"
           }
         ]
