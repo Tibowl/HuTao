@@ -1204,7 +1204,7 @@
   },
   "Thundercraven Rifthound Whelp": {
     "name": "Thundercraven Rifthound Whelp",
-    "desc": "A beast with monstrous blood that is capable of eroding the boundaries of the world. \"Gold\" classified them as \"Alfisol.\"\nThe previous eras, when giant monstrous beasts descended, large swarms of these hounds would go before them to deliquesce the borders of the world and open the way.",
+    "desc": "A beast with monstrous blood that is capable of eroding the boundaries of the world. \"Gold\" classified them as \"Alfisol.\"\nIn times long gone, when giant monstrous beasts descended, large swarms of these hounds would go before them to deliquesce the borders of the world and open the way.",
     "icon": "img/enemy/Thundercraven_Rifthound_Whelp.png",
     "type": "The Abyss",
     "kind": "Elite Enemy",
@@ -1835,8 +1835,8 @@
       ]
     ]
   },
-  "Treasure Hoarders - Scout": {
-    "name": "Treasure Hoarders - Scout",
+  "Treasure Hoarders: Scout": {
+    "name": "Treasure Hoarders: Scout",
     "desc": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nTheirs is the legwork and the tailing of targets. They usually wind up in criminal circles due to poverty or lack of education, but they don't seem to have gotten any richer after choosing a life of crime...",
     "icon": "img/enemy/Treasure_Hoarders_Scout.png",
     "type": "Other Human Factions",
@@ -1943,8 +1943,8 @@
       ]
     ]
   },
-  "Treasure Hoarders - Marksman": {
-    "name": "Treasure Hoarders - Marksman",
+  "Treasure Hoarders: Marksman": {
+    "name": "Treasure Hoarders: Marksman",
     "desc": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nThough they are called \"marksmen,\" this name has an undercurrent of mockery to it, as they use crossbows instead of bows, which require a long period of training to use. It must be said that even hilichurls know how to operate a crossbow. Just point the wider end at the enemy, pull the trigger, and bam — that's all there is to it.",
     "icon": "img/enemy/Treasure_Hoarders_Marksman.png",
     "type": "Other Human Factions",
@@ -1979,8 +1979,8 @@
       ]
     ]
   },
-  "Treasure Hoarders - Seaman": {
-    "name": "Treasure Hoarders - Seaman",
+  "Treasure Hoarders: Seaman": {
+    "name": "Treasure Hoarders: Seaman",
     "desc": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\n**\"Stealing? What do you mean, stealing? It's re-discovery, I tell you — the return of treasure to those who appreciate it! Makes everyone happy, to boot! How great is that, eh?\"**\n—A certain Treasure Hoarder Seaman, in response to a question posed by a doubtful recruit",
     "icon": "img/enemy/Treasure_Hoarders_Seaman.png",
     "type": "Other Human Factions",
@@ -1997,8 +1997,8 @@
       ]
     ]
   },
-  "Treasure Hoarders - Pugilist": {
-    "name": "Treasure Hoarders - Pugilist",
+  "Treasure Hoarders: Pugilist": {
+    "name": "Treasure Hoarders: Pugilist",
     "desc": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nPassionate about battle and muscles, they are quite picky about food and will often boast of the benefits of having a fine musculature, leading to some dissatisfaction from their fellow Treasure Hoarders.",
     "icon": "img/enemy/Treasure_Hoarders_Pugilist.png",
     "type": "Other Human Factions",
@@ -2015,8 +2015,8 @@
       ]
     ]
   },
-  "Treasure Hoarders - Crusher": {
-    "name": "Treasure Hoarders - Crusher",
+  "Treasure Hoarders: Crusher": {
+    "name": "Treasure Hoarders: Crusher",
     "desc": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nThis person was originally a miner — one who, even with the allowance they were provided with after the closure of the Chasm, ended up with the Treasure Hoarders for various reasons.",
     "icon": "img/enemy/Treasure_Hoarders_Crusher.png",
     "type": "Other Human Factions",

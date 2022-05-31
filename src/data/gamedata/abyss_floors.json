@@ -121,8 +121,8 @@
             "Treasure Hoarders: Electro Potioneer",
             "Treasure Hoarders: Cryo Potioneer",
             "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Crusher"
+            "Treasure Hoarders: Pugilist",
+            "Treasure Hoarders: Crusher"
           ]
         ]
       },
@@ -214,17 +214,17 @@
         "monsters": [
           [
             "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders: Seaman",
             "Treasure Hoarders: Handyman",
             "Treasure Hoarders: Cryo Potioneer",
-            "Treasure Hoarders - Marksman"
+            "Treasure Hoarders: Marksman"
           ],
           [
-            "Treasure Hoarders - Crusher",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders: Crusher",
+            "Treasure Hoarders: Pugilist",
+            "Treasure Hoarders: Seaman",
             "Treasure Hoarders: Pyro Potioneer",
-            "Treasure Hoarders - Scout"
+            "Treasure Hoarders: Scout"
           ]
         ]
       },
@@ -459,11 +459,11 @@
         "monsters": [
           [
             "Fatui Electro Cicin Mage",
-            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders: Seaman",
             "Treasure Hoarders: Electro Potioneer",
             "Treasure Hoarders: Pyro Potioneer",
             "Treasure Hoarders: Cryo Potioneer",
-            "Treasure Hoarders - Scout"
+            "Treasure Hoarders: Scout"
           ],
           [
             "Fatui Skirmisher - Cryogunner Legionnaire",
@@ -821,8 +821,8 @@
             "Fatui Electro Cicin Mage",
             "Fatui Pyro Agent",
             "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Crusher",
+            "Treasure Hoarders: Pugilist",
+            "Treasure Hoarders: Crusher",
             "Treasure Hoarders: Pyro Potioneer",
             "Treasure Hoarders: Hydro Potioneer"
           ]
@@ -874,10 +874,10 @@
         "monsters": [
           [
             "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders: Seaman",
             "Treasure Hoarders: Handyman",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Crusher"
+            "Treasure Hoarders: Pugilist",
+            "Treasure Hoarders: Crusher"
           ],
           [
             "Fatui Pyro Agent"
@@ -960,13 +960,13 @@
         "conds": "More than 20/40/60% HP left",
         "monsters": [
           [
-            "Treasure Hoarders - Crusher",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Marksman"
+            "Treasure Hoarders: Crusher",
+            "Treasure Hoarders: Pugilist",
+            "Treasure Hoarders: Marksman"
           ],
           [
             "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders: Seaman",
             "Treasure Hoarders: Handyman",
             "Treasure Hoarders: Pyro Potioneer",
             "Treasure Hoarders: Hydro Potioneer",
@@ -1034,9 +1034,9 @@
         "monsters": [
           [
             "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Seaman",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Crusher",
+            "Treasure Hoarders: Seaman",
+            "Treasure Hoarders: Pugilist",
+            "Treasure Hoarders: Crusher",
             "Treasure Hoarders: Pyro Potioneer",
             "Treasure Hoarders: Hydro Potioneer",
             "Treasure Hoarders: Electro Potioneer",
@@ -1274,10 +1274,10 @@
         "monsters": [
           [
             "Fatui Cryo Cicin Mage",
-            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders: Seaman",
             "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Crusher",
+            "Treasure Hoarders: Pugilist",
+            "Treasure Hoarders: Crusher",
             "Treasure Hoarders: Pyro Potioneer",
             "Treasure Hoarders: Hydro Potioneer",
             "Treasure Hoarders: Electro Potioneer",
@@ -1348,14 +1348,14 @@
           [
             "Treasure Hoarders: Handyman",
             "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Seaman",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Crusher",
+            "Treasure Hoarders: Seaman",
+            "Treasure Hoarders: Pugilist",
+            "Treasure Hoarders: Crusher",
             "Treasure Hoarders: Pyro Potioneer",
             "Treasure Hoarders: Hydro Potioneer",
             "Treasure Hoarders: Electro Potioneer",
             "Treasure Hoarders: Cryo Potioneer",
-            "Treasure Hoarders - Marksman"
+            "Treasure Hoarders: Marksman"
           ]
         ]
       },
@@ -1583,13 +1583,13 @@
           [
             "Fatui Skirmisher - Pyroslinger Bracer",
             "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Seaman",
-            "Treasure Hoarders - Scout"
+            "Treasure Hoarders: Seaman",
+            "Treasure Hoarders: Scout"
           ],
           [
             "Kairagi: Fiery Might",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Crusher",
+            "Treasure Hoarders: Pugilist",
+            "Treasure Hoarders: Crusher",
             "Treasure Hoarders: Electro Potioneer",
             "Treasure Hoarders: Cryo Potioneer"
           ]
@@ -1627,7 +1627,7 @@
             "Nobushi: Kikouban",
             "Treasure Hoarders: Gravedigger",
             "Treasure Hoarders: Handyman",
-            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders: Seaman",
             "Treasure Hoarders: Pyro Potioneer",
             "Treasure Hoarders: Hydro Potioneer",
             "Treasure Hoarders: Electro Potioneer",
@@ -1815,9 +1815,9 @@
             "Nobushi: Hitsukeban",
             "Nobushi: Kikouban",
             "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Seaman",
-            "Treasure Hoarders - Crusher",
-            "Treasure Hoarders - Marksman",
+            "Treasure Hoarders: Seaman",
+            "Treasure Hoarders: Crusher",
+            "Treasure Hoarders: Marksman",
             "Treasure Hoarders: Pyro Potioneer",
             "Treasure Hoarders: Hydro Potioneer",
             "Treasure Hoarders: Electro Potioneer",
@@ -2165,11 +2165,11 @@
             "Electro Hilichurl Shooter"
           ],
           [
-            "Treasure Hoarders - Seaman",
+            "Treasure Hoarders: Seaman",
             "Treasure Hoarders: Gravedigger",
-            "Treasure Hoarders - Pugilist",
-            "Treasure Hoarders - Crusher",
-            "Treasure Hoarders - Marksman",
+            "Treasure Hoarders: Pugilist",
+            "Treasure Hoarders: Crusher",
+            "Treasure Hoarders: Marksman",
             "Treasure Hoarders: Pyro Potioneer",
             "Treasure Hoarders: Hydro Potioneer",
             "Treasure Hoarders: Electro Potioneer",
