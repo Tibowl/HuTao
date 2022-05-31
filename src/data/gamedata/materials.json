@@ -1553,7 +1553,7 @@
   },
   "Victorious Legend": {
     "name": "Victorious Legend",
-    "desc": "Gorou's specialty. The side dishes have been piled high to form a sight as moving as Gorou's own motivations. As you finish the noodles and soup all in one go and pat your stomach in satisfaction, you look up and see Gorou... smiling radiantly as his tail wags from side to side (the latter probably unbeknownst to him!)",
+    "desc": "Gorou's specialty. The side dishes have been piled high to form a sight as moving as Gorou's own motivations. As you finish the noodles and soup all in one go and pat your stomach in satisfaction, you look up and see Gorou... smiling radiantly as his tail wags from side to side (the latter probably unbeknownst to him!).",
     "stars": 3,
     "type": "Food",
     "category": "Food and Potions",
@@ -1641,11 +1641,19 @@
   },
   "Dew-Dipped Shrimp": {
     "name": "Dew-Dipped Shrimp",
+    "desc": "Yelan's specialty. Amongst the ingredients here is the new tea, Dipped Dew, delivered from Qiaoying Village right to the Teahouse, which was then quickly fried together with freshly-caught river shrimp. The look is sightly, the scent of distant tea, and the taste both tender and springy... Wait a moment. Why's she coming over with that plate of chilli?",
+    "stars": 3,
     "type": "Food",
     "category": "Food and Potions",
+    "icon": "img/food/DewDipped_Shrimp.png",
     "sources": [
       "Obtained by cooking"
-    ]
+    ],
+    "specialty": {
+      "char": "Yelan",
+      "recipe": "Stir-Fried Shrimp"
+    },
+    "effect": "Increases all party members' Shield Strength by 35% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
@@ -5897,7 +5905,7 @@
   },
   "Dragonheir's False Fin": {
     "name": "Dragonheir's False Fin",
-    "desc": "A piece of biological tissue that you found after defeating the Bathysmal Vishaps.\nAlthough it looks like a fin of some kind, it does not actually have any function at all.\nThe people of Byakuyakoku once investigated the Bathysmal Vishaps quite deeply. Their most distinctive feature was the ability to choose what traits it wished to pass on to its offspring. Because of their great hatred for humanity, these vishaps will lose any visual acuity by the time they reach maturity. At the same time, they have also evolved a certain degree of elemental polymorphism for combat purposes.",
+    "desc": "A piece of biological tissue that you found after defeating the Bathysmal Vishaps.\nAlthough it looks like a fin of some kind, it does not actually have any function at all.\nThe people of Byakuyakoku once investigated the Bathysmal Vishaps quite deeply. Their most distinctive feature was the ability to choose what traits it wished to pass on to its offspring. Because of their great hatred for man-made light sources, these vishaps will lose any visual acuity by the time they reach maturity. At the same time, they have also evolved a certain degree of elemental polymorphism for combat purposes.",
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
@@ -7881,7 +7889,7 @@
   },
   "Electro Treasure Compass": {
     "name": "Electro Treasure Compass",
-    "desc": "A handy tool used to locate nearby chests in Inazuma.\nThe land of the thundering archipelago has suffered a great many past hurts. The many treasure chests that dot the islands is a symbol of its revival from these wounds.",
+    "desc": "A handy tool used to locate nearby chests in Inazuma.\nThe land of the thundering archipelago has suffered a great many past hurts. The many treasure chests that dot the islands are a symbol of its revival from these wounds.",
     "longDesc": "A handy tool used to locate nearby chests. The land of the thundering archipelago has suffered a great many past hurts. The many treasure chests that dot the islands are a symbol of its revival from these wounds. Before the Sakoku Decree, countless travelers, merchants, adventurers and Treasure Hoarders walked this land. Now, the nation is under lockdown. Yet even the Sakoku's storms shall find it hard to stop those who desire treasure...",
     "stars": 4,
     "type": "Gadget",
