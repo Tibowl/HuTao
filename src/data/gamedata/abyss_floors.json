@@ -2276,10 +2276,117 @@
   },
   "40": {
     "teams": 2,
-    "leyline": "DMG dealt by claymore-wielding characters increased by 75%."
+    "leyline": "DMG dealt by claymore-wielding characters increased by 75%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 88,
+        "conds": "More than 20/40/60% HP left",
+        "monsters": [
+          [
+            "Stonehide Lawachurl",
+            "Rock Shieldwall Mitachurl",
+            "Rock Shield Hilichurl Guard"
+          ],
+          [
+            "Kairagi: Dancing Thunder",
+            "Nobushi: Jintouban",
+            "Nobushi: Hitsukeban",
+            "Nobushi: Kikouban",
+            "Treasure Hoarders: Crusher",
+            "Treasure Hoarders: Gravedigger",
+            "Treasure Hoarders: Seaman",
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders: Hydro Potioneer",
+            "Treasure Hoarders: Electro Potioneer"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 90,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Cryo Abyss Mage",
+            "Frostarm Lawachurl",
+            "Ice Shieldwall Mitachurl"
+          ],
+          [
+            "Mirror Maiden",
+            "Fatui Skirmisher - Electrohammer Vanguard",
+            "Fatui Skirmisher - Hydrogunner Legionnaire",
+            "Fatui Skirmisher - Pyroslinger Bracer",
+            "Fatui Skirmisher - Anemoboxer Vanguard"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 92,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Rockfond Rifthound",
+            "Rockfond Rifthound Whelp"
+          ],
+          [
+            "Thunderhelm Lawachurl",
+            "Rimebiter Bathysmal Vishap Hatchling",
+            "Bolteater Bathysmal Vishap Hatchling"
+          ]
+        ]
+      }
+    ]
   },
   "41": {
     "teams": 2,
-    "leyline": "For this floor only, the ley line flow will be normal."
+    "leyline": "For this floor only, the ley line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 95,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Geovishap",
+            "Cryo Whopperflower",
+            "Electro Whopperflower"
+          ],
+          [
+            "Ruin Grader",
+            "Ruin Guard"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 98,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Frostarm Lawachurl",
+            "Ice Shieldwall Mitachurl",
+            "Large Cryo Slime"
+          ],
+          [
+            "Maguu Kenki"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 100,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Primordial Bathysmal Vishap Hatchling"
+          ],
+          [
+            "Perpetual Mechanical Array"
+          ]
+        ]
+      }
+    ]
   }
 }
