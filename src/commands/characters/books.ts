@@ -131,7 +131,7 @@ Calculate how much you need with \`${config.prefix}b calc <current> <target>\` (
                 text: "Enemy Drop Tier 1"
             },
             "<EnemyDropTier2>": {
-                emoji: "Whopperflower Nectar",
+                emoji: "Shimmering Nectar",
                 text: "Enemy Drop Tier 2"
             },
             "<EnemyDropTier3>": {
