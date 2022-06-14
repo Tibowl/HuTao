@@ -26928,6 +26928,11 @@
     "weaponType": "Bow",
     "icon": "img/char/Yelan.png",
     "media": {
+      "videos": {
+        "Character Teaser - \"Yelan: Inevitable Justice\"": "https://youtu.be/nEX4Umn5Bx8",
+        "Character Demo - \"Yelan: Shadow in the Rain\"": "https://youtu.be/MDpYYzMvnHI",
+        "Collected Miscellany - \"Yelan: Traceless Stealth\"": "https://youtu.be/W6-BDI7y-lA"
+      },
       "imgs": [
         "https://pbs.twimg.com/media/FO7WKkrVUAMDueN.jpg",
         "https://pbs.twimg.com/media/FO6zXilUcAED7C2.jpg"
