@@ -1361,18 +1361,19 @@
     {
         "name": "Event Wish \"Oni's Royale\"",
         "type": "Banner",
-        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977180304232046602/unknown.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/5444430",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/06/16/1015537/43a9de79022c352b2cad871a215a59a5_9150498122530336983.jpg",
         "start": "2022-06-21 18:00:00",
-        "end": "2022-07-12 17:59:00",
+        "end": "2022-07-12 14:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/5444431",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/06/16/1015537/cde7fd423a5611c7f54f8e48f993a70a_3469187126384300076.jpg",
         "start": "2022-06-21 18:00:00",
-        "end": "2022-07-12 17:59:00",
+        "end": "2022-07-12 14:59:00",
         "reminder": "end"
     },
     {
@@ -1388,6 +1389,8 @@
         "name": "\"A Muddy Bizarre Adventure\" Event",
         "type": "In-game",
         "img": "https://cdn.discordapp.com/attachments/977179265307144242/977191587249541140/unknown.png",
+        "start": "2022-06-22 10:00:00", 
+        "end": "2022-07-04 03:59:00",
         "reminder": "end"
     },
     {
@@ -1403,6 +1406,16 @@
         "name": "\"Core of the Apparatus\" Event",
         "type": "In-game",
         "img": "https://cdn.discordapp.com/attachments/977179265307144242/977192165400789032/unknown.png",
+        "start": "2022-06-29 10:00:00", 
+        "end": "2022-07-11 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Ley Line Overflow\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/04/25/1015537/d76cdab75f5f952a213e564f6b0a5a51_2644919469586984121.jpg",
+        "start": "2022-07-04 04:00:00",
+        "end": "2022-07-11 03:59:00",
         "reminder": "end"
     },
     {
