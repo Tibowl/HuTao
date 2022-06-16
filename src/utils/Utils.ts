@@ -255,9 +255,9 @@ export function parseNewsContent(content: string, maxLength = 1000): Content[] {
             .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(n))
             .replace(/<\/?span.*?>/g, "")
             .replace(/<\/?strong.*?>/g, "**")
-            // .replace(/<\/?b.*?>/g, "**")
-            // .replace(/<\/?i.*?>/g, "*")
-            // .replace(/<\/?em.*?>/g, "*")
+            .replace(/<\/?b>/g, "**")
+            .replace(/<\/?i>/g, "*")
+            .replace(/<\/?em>/g, "*")
             .replace(/<a.*?href="(.*?)".*?>(.*?)<\/a>/g, (_, link, title) => `[${title}](${link})`)
             .replace(/<iframe.*?src="(.*?)".*?><\/iframe>/g, (_, link) => `[Link](${link})`)
 

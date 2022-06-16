@@ -22,8 +22,8 @@ export default class ThreadCommand extends Command {
 
     async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
         return sendMessage(source, "Slash command not supported")
-
     }
+
     async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
         const id = source.author.id
         let name = args.join(" ")

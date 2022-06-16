@@ -119,30 +119,10 @@ export default class NewsManager {
                         this.invalidateHasNewsByIdLangCache()
 
                         Logger.info(`Fetching new post: ${language} ${post_id} - ${article.post.subject}`)
-                        let fetched
-                        for (let attempt = 1; attempt <= 5; attempt++)
-                            try {
-                                this.lastFetched = Date.now()
-                                if (langid == "bbs-zh-cn")
-                                    fetched = await fetch(`https://bbs-api.mihoyo.com/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, timeout: 15000 })
-                                else
-                                    fetched = await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, timeout: 29000 })
-                                break
-                            } catch (error) {
-                                Logger.error(`Failed to fetch ${language} - ${type}, attempt #${attempt}.`)
-                                if (attempt == 8) throw error
-                            }
 
-                        if (!fetched) continue
-                        const postdata = await fetched.json()
+                        const stored = await this.fetchPost(article, langid, type)
+                        if (!stored) continue
 
-                        this.lastFetched = Date.now()
-                        if (!postdata?.data?.post) continue
-
-                        const post: News = postdata.data.post
-                        article.post = post.post
-
-                        const stored = this.addNews(article, langid, type)
                         this.post(language, stored).catch(Logger.error)
                         if (stored.subject.includes("Event Wish"))
                             parseEventWishNews(stored)
@@ -151,6 +131,34 @@ export default class NewsManager {
                     Logger.error("An error occurred while fetching news", error)
                 }
             }
+    }
+
+    async fetchPost(article: News, langid: NewsLang, type: number) {
+        const post_id = article.post.post_id
+        let fetched
+        for (let attempt = 1; attempt <= 5; attempt++)
+            try {
+                this.lastFetched = Date.now()
+                if (langid == "bbs-zh-cn")
+                    fetched = await fetch(`https://bbs-api.mihoyo.com/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, timeout: 15000 })
+                else
+                    fetched = await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, timeout: 29000 })
+                break
+            } catch (error) {
+                Logger.error(`Failed to fetch ${langid} - ${type}, attempt #${attempt}.`)
+                if (attempt == 8) throw error
+            }
+
+        if (!fetched) return
+        const postdata = await fetched.json()
+
+        this.lastFetched = Date.now()
+        if (!postdata?.data?.post) return
+
+        const post: News = postdata.data.post
+        article.post = post.post
+
+        return this.addNews(article, langid, type)
     }
 
     async post(lang: FollowCategory, post: StoredNews): Promise<void> {
