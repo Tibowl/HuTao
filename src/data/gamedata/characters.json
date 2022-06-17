@@ -13228,6 +13228,8 @@
       ]
     },
     "meta": {
+      "birthMonth": 7,
+      "birthDay": 27,
       "association": "Inazuma",
       "title": "Mender of Tribulations",
       "detail": "The capable and reliable deputy leader of the \"Arataki Gang\" - Please note: capable and reliable are not appellations for the \"Arataki Gang,\" but for their deputy leader in specific.",
@@ -13243,24 +13245,57 @@
       {
         "talents": [
           {
-            "name": "Normal Attack",
-            "desc": "Unknown",
+            "name": "Normal Attack: Shinobu's Shadowsword",
+            "desc": "**Normal Attack**\nPerform up to 4 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.",
+            "icon": "img/skill/Common_Sword.png",
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Elegance",
+                "BossMat": "Tears of the Calamitous God",
+                "EnemyDropTier1": "Spectral Husk",
+                "EnemyDropTier2": "Spectral Heart",
+                "EnemyDropTier3": "Spectral Nucleus"
+              }
+            },
             "video": "https://cdn.discordapp.com/attachments/977179265307144242/977491248149577758/Kuki_NA.gif",
             "videomp4": "https://cdn.discordapp.com/attachments/977179265307144242/977491247843401728/Kuki_NA_scaled.mp4"
           },
           {
             "name": "Sanctifying Ring",
-            "desc": "Sacrifices a certain portion of her HP to create a Grass Ring of Santification that'll heal friendly characters within it, and deal continous Electro DMG to surrounding opponents.",
+            "desc": "Creates a Grass Ring of Sanctification at the cost of part of her HP, dealing **Electro DMG** to nearby opponents.\n\n**Grass Ring of Sanctification**\nFollows your current active character around. Deals **Electro DMG** to nearby opponents every 1.5s and restores HP for active character(s) within the ring's AoE based on Kuki Shinobu's Max HP.\n\nThe HP consumption from using this skill can only bring her to 20% HP.",
+            "icon": "https://webstatic.hoyoverse.com/upload/op-public/2022/06/14/f70789453de74e41ee7320f51d49ede2_5748536017300484257.png",
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Elegance",
+                "BossMat": "Tears of the Calamitous God",
+                "EnemyDropTier1": "Spectral Husk",
+                "EnemyDropTier2": "Spectral Heart",
+                "EnemyDropTier3": "Spectral Nucleus"
+              }
+            },
             "video": "https://cdn.discordapp.com/attachments/977179265307144242/977490813535793172/Kuki_E.gif",
             "videomp4": "https://cdn.discordapp.com/attachments/977179265307144242/977490813229604884/Kuki_E_scaled.mp4"
           }
         ],
         "ult": {
           "name": "Gyoei Narukami Kariyama Rite",
-          "desc": "Creates a special field in front of her that deals Electro DMG to opponents within it.",
+          "desc": "Stabs an evil-excoriating blade into the ground, creating a field that cleanses the area of all that is foul, dealing continuous **Electro DMG** to opponents within its AoE based on Shinobu's Max HP.\nIf Shinobu's HP is less than or equal to 50% when this skill is used, the field will last longer.",
+          "icon": "https://webstatic.hoyoverse.com/upload/op-public/2022/06/14/2809639f497d85546f1966c0378a852d_386356565781705825.png",
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Elegance",
+              "BossMat": "Tears of the Calamitous God",
+              "EnemyDropTier1": "Spectral Husk",
+              "EnemyDropTier2": "Spectral Heart",
+              "EnemyDropTier3": "Spectral Nucleus"
+            }
+          },
+          "type": "Electro",
           "video": "https://cdn.discordapp.com/attachments/977179265307144242/977491268634570803/Kuki_Q.gif",
-          "videomp4": "https://cdn.discordapp.com/attachments/977179265307144242/977491268189962260/Kuki_Q_scaled.mp4",
-          "type": "Electro"
+          "videomp4": "https://cdn.discordapp.com/attachments/977179265307144242/977491268189962260/Kuki_Q_scaled.mp4"
         },
         "passive": [
           {
@@ -13278,7 +13313,21 @@
           }
         ]
       }
-    ]
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Runic Fang",
+        "EnemyDropTier1": "Spectral Husk",
+        "EnemyDropTier2": "Spectral Heart",
+        "EnemyDropTier3": "Spectral Nucleus",
+        "Gem1": "Vajrada Amethyst Sliver",
+        "Gem2": "Vajrada Amethyst Fragment",
+        "Gem3": "Vajrada Amethyst Chunk",
+        "Gem4": "Vajrada Amethyst Gemstone",
+        "Specialty": "Naku Weed"
+      }
+    }
   },
   "Lisa": {
     "name": "Lisa",
