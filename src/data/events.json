@@ -1388,7 +1388,8 @@
     {
         "name": "\"A Muddy Bizarre Adventure\" Event",
         "type": "In-game",
-        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977191587249541140/unknown.png",
+        "link": "https://www.hoyolab.com/article/5513175",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/06/20/1015537/3fb533e0ee759ab04cb62c893645accc_5029546794484142424.jpg",
         "start": "2022-06-22 10:00:00", 
         "end": "2022-07-04 03:59:00",
         "reminder": "end"
