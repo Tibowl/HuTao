@@ -13218,18 +13218,41 @@
   "Kuki Shinobu": {
     "name": "Kuki Shinobu",
     "desc": "The capable and reliable deputy leader of the \"Arataki Gang.\" Please note: capable and reliable are not appellations for the \"Arataki Gang,\" but for their deputy leader in specific.",
+    "releasedOn": "2022-06-21 18:00:00",
     "star": 4,
     "weaponType": "Sword",
-    "icon": "https://i.imgur.com/iKNCm2s.png",
+    "icon": "img/char/Kuki_Shinobu.png",
     "media": {
       "videos": {
-        "Character Demo - \"Kuki Shinobu: Jack of All Trades\"": "https://youtu.be/13fviLTc0Aw"
+        "Character Demo - \"Kuki Shinobu: Jack of All Trades\"": "https://youtu.be/13fviLTc0Aw",
+        "Collected Miscellany - \"Kuki Shinobu: Dispelling Disaster\"": "https://youtu.be/2sie0jcXi7k"
       },
       "imgs": [
         "https://pbs.twimg.com/media/FO7TYvNVgAERTgQ.jpg",
         "https://pbs.twimg.com/media/FO7Sz0zVkAAIpIo.jpg"
       ]
     },
+    "baseStats": {
+      "hpBase": 1030.3238525390625,
+      "attackBase": 17.808000564575195,
+      "defenseBase": 62.9474983215332,
+      "criticalBase": 0.05000000074505806,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 4*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 4*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 4*"
+      }
+    ],
     "meta": {
       "birthMonth": 7,
       "birthDay": 27,
@@ -13240,17 +13263,135 @@
       "element": "Electro",
       "constellation": "Tribulatio Demptio",
       "cvChinese": "杨凝",
-      "cvEnglish": "Kira Buckland",
       "cvJapanese": "水橋かおり",
-      "cvKorean": "김율"
+      "cvEnglish": "Kira Buckland",
+      "cvKorean": "Kim Yool"
     },
     "skills": [
       {
         "talents": [
           {
             "name": "Normal Attack: Shinobu's Shadowsword",
-            "desc": "**Normal Attack**\nPerform up to 4 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.",
+            "desc": "**Normal Attack**\nPerform up to 4 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Sword.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "48.8%",
+                  "52.7%",
+                  "56.7%",
+                  "62.4%",
+                  "66.3%",
+                  "70.9%",
+                  "77.1%",
+                  "83.3%",
+                  "89.6%",
+                  "96.4%",
+                  "103.2%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "44.5%",
+                  "48.2%",
+                  "51.8%",
+                  "57.0%",
+                  "60.6%",
+                  "64.7%",
+                  "70.4%",
+                  "76.1%",
+                  "81.8%",
+                  "88.1%",
+                  "94.3%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "59.3%",
+                  "64.2%",
+                  "69.0%",
+                  "75.9%",
+                  "80.7%",
+                  "86.3%",
+                  "93.8%",
+                  "101.4%",
+                  "109.0%",
+                  "117.3%",
+                  "125.6%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "76.1%",
+                  "82.3%",
+                  "88.5%",
+                  "97.4%",
+                  "103.5%",
+                  "110.6%",
+                  "120.4%",
+                  "130.1%",
+                  "139.8%",
+                  "150.5%",
+                  "161.1%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "55.6%+66.8%",
+                  "60.2%+72.2%",
+                  "64.7%+77.6%",
+                  "71.2%+85.4%",
+                  "75.7%+90.8%",
+                  "80.9%+97.0%",
+                  "88.0%+105.6%",
+                  "95.1%+114.1%",
+                  "102.2%+122.7%",
+                  "110.0%+132.0%",
+                  "117.7%+141.3%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "20.0"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "63.9%",
+                  "69.1%",
+                  "74.3%",
+                  "81.8%",
+                  "87.0%",
+                  "92.9%",
+                  "101.1%",
+                  "109.3%",
+                  "117.5%",
+                  "126.4%",
+                  "135.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "128%/160%",
+                  "138%/173%",
+                  "149%/186%",
+                  "164%/204%",
+                  "174%/217%",
+                  "186%/232%",
+                  "202%/253%",
+                  "219%/273%",
+                  "235%/293%",
+                  "253%/316%",
+                  "271%/338%"
+                ]
+              }
+            ],
             "costs": {
               "template": "talentCosts",
               "mapping": {
@@ -13266,8 +13407,76 @@
           },
           {
             "name": "Sanctifying Ring",
-            "desc": "Creates a Grass Ring of Sanctification at the cost of part of her HP, dealing **Electro DMG** to nearby opponents.\n\n**Grass Ring of Sanctification**\nFollows your current active character around. Deals **Electro DMG** to nearby opponents every 1.5s and restores HP for active character(s) within the ring's AoE based on Kuki Shinobu's Max HP.\n\nThe HP consumption from using this skill can only bring her to 20% HP.",
-            "icon": "https://webstatic.hoyoverse.com/upload/op-public/2022/06/14/f70789453de74e41ee7320f51d49ede2_5748536017300484257.png",
+            "desc": "Creates a Grass Ring of Sanctification at the cost of part of her HP, dealing **Electro DMG** to nearby opponents.\n\n**Grass Ring of Sanctification**\nFollows your current active character around. Deals **Electro DMG** to nearby opponents every 1.5s and restores HP for active character(s) within the ring's AoE based on Kuki Shinobu's Max HP.\n\nThe HP consumption from using this skill can only bring her to 20% HP.\n\n\"**Band the Naku Weed into a loop about your waist, and it shall exorcise evil.**\"",
+            "icon": "img/skill/Kuki_Shinobu_1.png",
+            "talentTable": [
+              {
+                "name": "Skill DMG",
+                "values": [
+                  "76%",
+                  "81%",
+                  "87%",
+                  "95%",
+                  "100%",
+                  "106%",
+                  "114%",
+                  "121%",
+                  "129%",
+                  "136%",
+                  "144%",
+                  "151%",
+                  "161%"
+                ]
+              },
+              {
+                "name": "Grass Ring of Sanctification Healing",
+                "values": [
+                  "3.0% Max HP+289",
+                  "3.2% Max HP+318",
+                  "3.4% Max HP+349",
+                  "3.8% Max HP+383",
+                  "4.0% Max HP+419",
+                  "4.2% Max HP+457",
+                  "4.5% Max HP+498",
+                  "4.8% Max HP+542",
+                  "5.1% Max HP+587",
+                  "5.4% Max HP+636",
+                  "5.7% Max HP+686",
+                  "6.0% Max HP+739",
+                  "6.4% Max HP+795"
+                ]
+              },
+              {
+                "name": "Grass Ring of Sanctification DMG",
+                "values": [
+                  "25.2%",
+                  "27.1%",
+                  "29.0%",
+                  "31.5%",
+                  "33.4%",
+                  "35.3%",
+                  "37.9%",
+                  "40.4%",
+                  "42.9%",
+                  "45.4%",
+                  "48.0%",
+                  "50.5%",
+                  "53.6%"
+                ]
+              },
+              {
+                "name": "Activation Cost",
+                "value": "30% Current HP"
+              },
+              {
+                "name": "Duration",
+                "value": "12.0s"
+              },
+              {
+                "name": "CD",
+                "value": "15.0s"
+              }
+            ],
             "costs": {
               "template": "talentCosts",
               "mapping": {
@@ -13284,8 +13493,58 @@
         ],
         "ult": {
           "name": "Gyoei Narukami Kariyama Rite",
-          "desc": "Stabs an evil-excoriating blade into the ground, creating a field that cleanses the area of all that is foul, dealing continuous **Electro DMG** to opponents within its AoE based on Shinobu's Max HP.\nIf Shinobu's HP is less than or equal to 50% when this skill is used, the field will last longer.",
-          "icon": "https://webstatic.hoyoverse.com/upload/op-public/2022/06/14/2809639f497d85546f1966c0378a852d_386356565781705825.png",
+          "desc": "Stabs an evil-excoriating blade into the ground, creating a field that cleanses the area of all that is foul, dealing continuous **Electro DMG** to opponents within its AoE based on Shinobu's Max HP.\nIf Shinobu's HP is less than or equal to 50% when this skill is used, the field will last longer.\n\n**This was originally a technique used in weeding and in ritual prayers for the yearly harvest, but Shinobu has not forgotten it, though her life as a shrine maiden may have ended.**",
+          "icon": "img/skill/Kuki_Shinobu_2.png",
+          "talentTable": [
+            {
+              "name": "Single Instance DMG",
+              "values": [
+                "3.6% Max HP",
+                "3.9% Max HP",
+                "4.1% Max HP",
+                "4.5% Max HP",
+                "4.8% Max HP",
+                "5.0% Max HP",
+                "5.4% Max HP",
+                "5.8% Max HP",
+                "6.1% Max HP",
+                "6.5% Max HP",
+                "6.8% Max HP",
+                "7.2% Max HP",
+                "7.7% Max HP"
+              ]
+            },
+            {
+              "name": "Total DMG",
+              "values": [
+                "25.2%/43.3% Max HP",
+                "27.1%/46.5% Max HP",
+                "29.0%/49.7% Max HP",
+                "31.5%/54.1% Max HP",
+                "33.4%/57.3% Max HP",
+                "35.3%/60.6% Max HP",
+                "37.9%/64.9% Max HP",
+                "40.4%/69.2% Max HP",
+                "42.9%/73.5% Max HP",
+                "45.4%/77.9% Max HP",
+                "47.9%/82.2% Max HP",
+                "50.5%/86.5% Max HP",
+                "53.6%/91.9% Max HP"
+              ]
+            },
+            {
+              "name": "Duration",
+              "value": "2.0s/3.5s"
+            },
+            {
+              "name": "CD",
+              "value": "15.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "60"
+            }
+          ],
           "costs": {
             "template": "talentCosts",
             "mapping": {
@@ -13302,17 +13561,210 @@
         },
         "passive": [
           {
-            "name": "Hearth's Repose",
-            "desc": "Kuki's Elemental Skill's Healing and Damage will be boosted based on her Elemental Mastery."
+            "name": "Breaking Free",
+            "desc": "When Shinobu's HP is not higher than 50%, her Healing Bonus is increased by 15%.",
+            "icon": "img/skill/Kuki_Shinobu_3.png",
+            "minAscension": 1
           },
           {
-            "name": "Breaking Free",
-            "desc": "When Kuki's current HP is low, her Healing Bonus is increased."
+            "name": "Heart's Repose",
+            "desc": "**Sanctifying Ring**'s abilities will be boosted based on Shinobu's Elemental Mastery:\n·Healing amount will be increased by 75% of Elemental Mastery.\n·DMG dealt is increased by 25% of Elemental Mastery.",
+            "icon": "img/skill/Kuki_Shinobu_4.png",
+            "minAscension": 4
           },
           {
             "name": "Protracted Prayers",
-            "desc": "Gains ??% more rewards when dispatched on a Inazuma Expedition for 20 hours.",
-            "icon": "img/skill/Common_Expedition_Inazuma.png"
+            "desc": "Gains 25% more rewards when dispatched on an Inazuma Expedition for 20 hours.",
+            "icon": "img/skill/Kuki_Shinobu_5.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "To Cloister Compassion",
+            "desc": "**Gyoei Narukami Kariyama Rite**'s AoE is increased by 50%.",
+            "icon": "img/const/Kuki_Shinobu_1.png"
+          },
+          {
+            "name": "To Forsake Fortune",
+            "desc": "**Grass Ring of Sanctification**'s duration is increased by 3s.",
+            "icon": "img/const/Kuki_Shinobu_2.png"
+          },
+          {
+            "name": "To Sequester Sorrow",
+            "desc": "Increases the Level of **Sanctifying Ring** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Kuki_Shinobu_3.png"
+          },
+          {
+            "name": "To Sever Sealing",
+            "desc": "When the Normal, Charged, or Plunging Attacks of the character affected by Shinobu's **Grass Ring of Sanctification** hit opponents, a Thundergrass Mark will land on the opponent's position and deal **AoE Electro DMG** based on 9.7% of Shinobu's Max HP.\nThis effect can occur once every 5s.",
+            "icon": "img/const/Kuki_Shinobu_4.png"
+          },
+          {
+            "name": "To Cease Courtesies",
+            "desc": "Increases the Level of **Gyoei Narukami Kariyama Rite** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Kuki_Shinobu_5.png"
+          },
+          {
+            "name": "To Ward Weakness",
+            "desc": "When Kuki Shinobu takes lethal DMG, this instance of DMG will not take her down. This effect will automatically trigger when her HP reaches 1 and will trigger once every 60s.\nWhen Shinobu's HP drops below 25%, she will gain 150 Elemental Mastery for 15s. This effect will trigger once every 60s.",
+            "icon": "img/const/Kuki_Shinobu_6.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "HP%",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 769.7046508789062
+          },
+          {
+            "stat": "Base DEF",
+            "value": 47.025001525878906
+          },
+          {
+            "stat": "Base ATK",
+            "value": 13.303799629211426
+          },
+          {
+            "stat": "HP%",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1316.60009765625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 80.4375
+          },
+          {
+            "stat": "Base ATK",
+            "value": 22.756500244140625
+          },
+          {
+            "stat": "HP%",
+            "value": 0.05999999865889549
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2045.7939453125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 124.98750305175781
+          },
+          {
+            "stat": "Base ATK",
+            "value": 35.36009979248047
+          },
+          {
+            "stat": "HP%",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2592.689453125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 158.39999389648438
+          },
+          {
+            "stat": "Base ATK",
+            "value": 44.812801361083984
+          },
+          {
+            "stat": "HP%",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3139.584716796875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 191.8125
+          },
+          {
+            "stat": "Base ATK",
+            "value": 54.265499114990234
+          },
+          {
+            "stat": "HP%",
+            "value": 0.18000000715255737
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3686.480224609375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 225.22500610351562
+          },
+          {
+            "stat": "Base ATK",
+            "value": 63.71820068359375
+          },
+          {
+            "stat": "HP%",
+            "value": 0.23999999463558197
           }
         ]
       }
