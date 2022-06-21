@@ -8071,6 +8071,14 @@
     "category": "Utility Items",
     "icon": "img/material/Floral_Zither.png"
   },
+  "Arataki's Great and Glorious Drum": {
+    "name": "Arataki's Great and Glorious Drum",
+    "desc": "A musical instrument that can be used in performances.\nA small drum that Itto gave you. He bought it from an outlander merchant, and while it does look quite normal, it is said to be a relic left behind by an ancient and powerful onmyouji who used it to drive out calamity and pray for blessings.\nIt would cost an ordinary person a large sum if they were to wish to possess this, but the price may be negotiated if one has some connection to the drum.\nAnd wouldn't you know it? An 8,000,000 Mora treasure was eventually purchased for 80,000. What a steal for Itto, eh?",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Aratakis_Great_and_Glorious_Drum.png"
+  },
   "Wind-Blessed Harpastum": {
     "name": "Wind-Blessed Harpastum",
     "desc": "A harpastum made from pure bird feathers and strong fabric. Perhaps it contains some strange power...",
