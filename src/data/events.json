@@ -1406,7 +1406,8 @@
     {
         "name": "\"Core of the Apparatus\" Event",
         "type": "In-game",
-        "img": "https://cdn.discordapp.com/attachments/977179265307144242/977192165400789032/unknown.png",
+        "link": "https://www.hoyolab.com/article/5659457",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/06/26/1015537/20cb154c6001f75a464ac314c92605a8_3117953456383471559.jpg",
         "start": "2022-06-29 10:00:00", 
         "end": "2022-07-11 03:59:00",
         "reminder": "end"
