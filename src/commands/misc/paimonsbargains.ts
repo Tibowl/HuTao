@@ -37,7 +37,7 @@ export default class PaimonsBargains extends Command {
         let bargains = "**Paimon's Bargains**:\n"
         for (let i = 0; i < paimonsBargains.length; i++) {
             const shop = paimonsBargains[i]
-            const shopStuff = `**${shop.weapon}** Series / ${shop.char.map(book => `**${book}**`).join(" / ")}`
+            const shopStuff = `**${data.emoji(shop.weapon, true)}** Series / ${shop.char.map(char => `**${data.emoji(char, true)}**`).join(" / ")}`
 
             if (currentMonths.some(mo => mo == i))
                 bargains += `**\`${this.months[i]}\`**\`${this.months[i + 6]}\`: ${shopStuff}\n`
