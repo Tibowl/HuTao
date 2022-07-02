@@ -1443,5 +1443,90 @@
         "type": "Maintenance",
         "start": "2022-07-13 06:00:00",
         "end": "2022-07-13 11:00:00"
+    },
+    {
+        "name": "Event Wish \"Leaves in the Wind\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/8VHahtt.png",
+        "prediction": true,
+        "start": "2022-07-13 11:00:00",
+        "start_server": false,
+        "end": "2022-08-02 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Sparkling Steps\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/8VHahtt.png",
+        "prediction": true,
+        "start": "2022-07-13 11:00:00",
+        "start_server": false,
+        "end": "2022-08-02 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/8VHahtt.png",
+        "prediction": true,
+        "start": "2022-07-13 11:00:00",
+        "start_server": false,
+        "end": "2022-08-02 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Tapestry of Golden Flames\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/8VHahtt.png",
+        "start": "2022-08-02 18:00:00",
+        "end": "2022-08-23 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/8VHahtt.png",
+        "start": "2022-08-02 18:00:00",
+        "end": "2022-08-23 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Summertime Odyssey",
+        "type": "In-game",
+        "img": "https://i.imgur.com/3VH6Nbi.png"
+    },
+    {
+        "name": "Reminiscent Regimen",
+        "type": "In-game",
+        "img": "https://i.imgur.com/ZIPDliq.png"
+    },
+    {
+        "name": "Resonating Visions",
+        "type": "In-game",
+        "img": "https://i.imgur.com/PoXC6xa.png"
+    },
+    {
+        "name": "Hidden Strife",
+        "type": "In-game",
+        "img": "https://i.imgur.com/d3yEzxX.png"
+    },
+    {
+        "name": "Evermotion Mechanical Painting",
+        "type": "In-game",
+        "img": "https://i.imgur.com/LqQmtWh.png"
+    },
+    {
+        "name": "Next Special Program",
+        "type": "Stream",
+        "prediction": true,
+        "start": "2022-08-12 08:00:00",
+        "timezone": "-04:00"
+    },
+    {
+        "name": "Next Maintenance",
+        "type": "Maintenance",
+        "prediction": true,
+        "start": "2022-08-24 06:00:00",
+        "end": "2022-08-24 11:00:00"
     }
 ]
