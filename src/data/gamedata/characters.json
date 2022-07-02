@@ -20354,7 +20354,9 @@
   },
   "Shikanoin Heizou": {
     "name": "Shikanoin Heizou",
-    "desc": "A young detective from the Tenryou Commission. Free-spirited and unruly, but cheerful and lively.",
+    "desc": "A young prodigy detective from the Tenryou Commission. His senses are sharp and his thoughts are clear.",
+    "star": 4,
+    "weaponType": "Catalyst",
     "icon": "https://i.imgur.com/15994nc.png",
     "media": {
       "imgs": [
@@ -20365,11 +20367,40 @@
     "meta": {
       "association": "Inazuma",
       "title": "Analytical Harmony",
-      "detail": "A young detective from the Tenryou Commission. Free-spirited and unruly, but cheerful and lively.",
+      "detail": "A young prodigy detective from the Tenryou Commission. His senses are sharp and his thoughts are clear.",
       "affiliation": "Tenryou Commission",
       "element": "Anemo",
-      "constellation": "Cervus Minor"
-    }
+      "constellation": "Cervus Minor",
+      "cvEnglish": "Kieran Reagan",
+      "cvJapanese": "井口祐一",
+      "cvKorean": "정의진"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Fudou Style Martial Arts",
+            "desc": "Performs fisticuffs empowered by a mighty wind.",
+            "icon": "img/skill/Common_Catalyst.png"
+          },
+          {
+            "name": "Heartstopper Strike",
+            "desc": "Press or hold the skill to charge energy to unleash a blow. Heizou will obtain the Declension effect while charging, which will increase the damage and AoE of the Elemental Skill."
+          }
+        ],
+        "ult": {
+          "name": "Windmuster Kick",
+          "desc": "Leaps into the air and uses the Fudou Style Vacuum Slugger and kicks his opponent. The Vacuum Slugger will explode upon impact dealing **AoE Anemo DMG** and creating a vacuum pulling in opponents. When the Vacuum hits opponents affected by Hydro/Cryo/Pyro/Electro, it causes an delayed follow-up explosion, dealing damage of the corresponding Elemental Type.",
+          "type": "Anemo"
+        },
+        "passive": [
+          {
+            "name": "Pre-Existing Guilt",
+            "desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+          }
+        ]
+      }
+    ]
   },
   "Sucrose": {
     "name": "Sucrose",
