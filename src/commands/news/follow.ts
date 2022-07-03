@@ -99,7 +99,8 @@ Example of adding news: \`${config.prefix}follow add news\``,
     }
 
     async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
-        if (!(source.channel instanceof TextChannel) || source.guild == null)
+        const channel = await source.channel?.fetch()
+        if (!(channel instanceof TextChannel) || source.guild == null)
             return sendMessage(source, "This command can only be executed in guild channels. You can invite this bot in your own server via `.invite`", undefined, true)
 
         if (typeof source.member?.permissions == "string")
@@ -121,7 +122,8 @@ Example of adding news: \`${config.prefix}follow add news\``,
     }
 
     async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
-        if (!(source.channel instanceof TextChannel) || source.guild == null)
+        const channel = await source.channel?.fetch()
+        if (!(channel instanceof TextChannel) || source.guild == null)
             return sendMessage(source, "This command can only be executed in guild channels. You can invite this bot in your own server via `.invite`", undefined, true)
 
         if (!source.member?.permissions.has("ADMINISTRATOR") && !config.admins.includes(getUserID(source)))
