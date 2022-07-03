@@ -51,7 +51,7 @@ export default class FollowManager {
 
     private getFollowsStatement: SQLite.Statement
     private getFollowsInChannelStatement: SQLite.Statement
-    getFollows(channel: Channel, category?: FollowCategory): Follower[] {
+    getFollows(channel: { id: string }, category?: FollowCategory): Follower[] {
         if (category == undefined) {
             return this.getFollowsInChannelStatement.all({ channelID: channel.id })
         }

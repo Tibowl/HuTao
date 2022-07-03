@@ -1,10 +1,10 @@
-import { CommandInteraction, Message, TextChannel } from "discord.js"
+import { CommandInteraction, Message } from "discord.js"
 
-import Command from "../../utils/Command"
-import client from "../../main"
-import { CommandSource, FollowCategory, SendMessage } from "../../utils/Types"
-import { createTable, getUserID, sendMessage } from "../../utils/Utils"
 import config from "../../data/config.json"
+import client from "../../main"
+import Command from "../../utils/Command"
+import { CommandSource, FollowCategory, SendMessage } from "../../utils/Types"
+import { createTable, getUserID, isNewsable, sendMessage } from "../../utils/Utils"
 
 const descriptions: { [x in FollowCategory]: string } = {
     "events": "Get event reminders",
@@ -100,7 +100,7 @@ Example of adding news: \`${config.prefix}follow add news\``,
 
     async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
         const channel = await source.channel?.fetch()
-        if (!(channel instanceof TextChannel) || source.guild == null)
+        if (!channel || !isNewsable(channel) || source.guild == null)
             return sendMessage(source, "This command can only be executed in guild channels. You can invite this bot in your own server via `.invite`", undefined, true)
 
         if (typeof source.member?.permissions == "string")
@@ -123,7 +123,7 @@ Example of adding news: \`${config.prefix}follow add news\``,
 
     async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
         const channel = await source.channel?.fetch()
-        if (!(channel instanceof TextChannel) || source.guild == null)
+        if (!channel || !isNewsable(channel) || source.guild == null)
             return sendMessage(source, "This command can only be executed in guild channels. You can invite this bot in your own server via `.invite`", undefined, true)
 
         if (!source.member?.permissions.has("ADMINISTRATOR") && !config.admins.includes(getUserID(source)))
@@ -154,7 +154,8 @@ Example of adding news: \`${config.prefix}follow add news\``,
     }
 
     async runList(source: CommandSource, category?: FollowCategory | null): Promise<SendMessage | undefined> {
-        if (!(source.channel instanceof TextChannel) || source.guild == null)
+        const channel = await source.channel?.fetch()
+        if (!channel || !isNewsable(channel) || source.guild == null)
             return sendMessage(source, "Unable to check channel", undefined, true)
 
         const { followManager } = client
@@ -165,7 +166,7 @@ Example of adding news: \`${config.prefix}follow add news\``,
             for (const follow of following)
                 try {
                     const channel = await client.channels.fetch(follow.channelID)
-                    if (channel instanceof TextChannel)
+                    if (isNewsable(channel))
                         channels.push({
                             channelname: channel.name,
                             category: follow.category
@@ -183,7 +184,7 @@ ${createTable(
         ))}\`\`\``, undefined, true)
         }
 
-        const follows = followManager.getFollows(source.channel, category)
+        const follows = followManager.getFollows(channel, category)
         if (follows.length == 0) return sendMessage(source, `Not following ${category}`, undefined, true)
         return sendMessage(source, follows.map(k => `Following ${category} since ${new Date(k.addedOn).toLocaleString("en-UK", {
             timeZone: "GMT",
@@ -198,23 +199,25 @@ ${createTable(
     }
 
     async runUnfollow(source: CommandSource, category: FollowCategory): Promise<SendMessage | undefined> {
-        if (!(source.channel instanceof TextChannel) || source.guild == null)
+        const channel = await source.channel?.fetch()
+        if (!channel || !isNewsable(channel) || source.guild == null)
             return sendMessage(source, "Unable to unfollow in this channel", undefined, true)
 
         const { followManager } = client
 
-        followManager.unfollow(source.channel, category)
+        followManager.unfollow(channel, category)
 
-        return sendMessage(source, `Unfollowed ${category} in <#${source.channel.id}>`, undefined, true)
+        return sendMessage(source, `Unfollowed ${category} in <#${channel.id}>`, undefined, true)
     }
     async runFollow(source: CommandSource, category: FollowCategory): Promise<SendMessage | undefined> {
-        if (!(source.channel instanceof TextChannel) || source.guild == null)
+        const channel = await source.channel?.fetch()
+        if (!channel || !isNewsable(channel) || source.guild == null)
             return sendMessage(source, "Unable to follow in this channel", undefined, true)
 
         const { followManager } = client
 
-        followManager.addFollow(source.guild, source.channel, category, getUserID(source))
+        followManager.addFollow(source.guild, channel, category, getUserID(source))
 
-        return sendMessage(source, `Now following ${category} in <#${source.channel.id}>`, undefined, true)
+        return sendMessage(source, `Now following ${category} in <#${channel.id}>`, undefined, true)
     }
 }

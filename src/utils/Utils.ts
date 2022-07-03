@@ -1,4 +1,4 @@
-import { CategoryChannel, ColorResolvable, Message, MessageActionRow, MessageButton, MessageComponentInteraction, MessageEmbed, Snowflake, User } from "discord.js"
+import { AnyChannel, CategoryChannel, ColorResolvable, GuildChannel, Message, MessageActionRow, MessageButton, MessageComponentInteraction, MessageEmbed, NewsChannel, Snowflake, TextBasedChannel, TextChannel, User } from "discord.js"
 import log4js from "log4js"
 import config from "./../data/config.json"
 import client from "./../main"
@@ -563,6 +563,12 @@ export async function sendMessage(source: CommandSource, response: string | Mess
 
 export function isMessage(msg: SendMessage | CommandSource | undefined): msg is Message {
     return msg instanceof Message
+}
+
+export type NewsableChannel = NewsChannel | TextChannel
+export function isNewsable(channel: AnyChannel | GuildChannel | TextBasedChannel | null): channel is NewsableChannel {
+    if (!channel) return false
+    return channel.type == "GUILD_TEXT" || channel.type == "GUILD_NEWS" || channel.type == "GUILD_NEWS_THREAD"
 }
 
 export function getUserID(source: CommandSource): string {
