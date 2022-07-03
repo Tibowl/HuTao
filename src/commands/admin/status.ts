@@ -67,7 +67,7 @@ export default class Status extends Command {
         return sendMessage(source, `Running on commit <${getVersion()}>
 Memory heap usage: ${getMemoryUsage()}
 Current uptime: ${formatTime(process.uptime())}
-Ping: ${client.ws.ping}ms
+Ping: ${client.ws.ping.toFixed(1)}ms
 Cache: in ${client.channels.cache.size} channels on ${client.guilds.cache.size} servers, for a total of ${client.users.cache.size} users.
 Total commands executed: ${totalCommands}
 ${moreInfo ? `
