@@ -50,8 +50,8 @@ export default class Status extends Command {
         const getVersion = (): string => `https://github.com/Tibowl/HuTao/commit/${child_process.execSync("git rev-parse HEAD").toString().trim()}`
         const getMemoryUsage = (): string => {
             const mem = (bytes: number): string => `${(bytes/10e6).toFixed(2)} MB`
-            const { heapTotal, heapUsed } = process.memoryUsage()
-            return `${mem(heapUsed)}/${mem(heapTotal)}`
+            const { heapTotal, heapUsed, rss } = process.memoryUsage()
+            return `${mem(heapUsed)}/${mem(heapTotal)} (${mem(rss)})`
         }
         const getAdmins = async (): Promise<string> => {
             const users = config.admins.map(async (id) => client.users.fetch(id as Snowflake))
@@ -67,6 +67,7 @@ export default class Status extends Command {
         return sendMessage(source, `Running on commit <${getVersion()}>
 Memory heap usage: ${getMemoryUsage()}
 Current uptime: ${formatTime(process.uptime())}
+Ping: ${client.ws.ping}ms
 Cache: in ${client.channels.cache.size} channels on ${client.guilds.cache.size} servers, for a total of ${client.users.cache.size} users.
 Total commands executed: ${totalCommands}
 ${moreInfo ? `

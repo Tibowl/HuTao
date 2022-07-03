@@ -196,7 +196,7 @@ Note: this command supports fuzzy search.`,
             .setTitle("Weapons")
             .setURL(`${client.data.baseURL}weapons`)
             .setDescription(pages[relativePage])
-            .setFooter(`Page ${currentPage} / ${maxPages} - See '${config.prefix}help weapon' for more info about what you can do`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages} - See '${config.prefix}help weapon' for more info about what you can do` })
             .setColor(Colors.GREEN)
 
         return embed
@@ -210,7 +210,7 @@ Note: this command supports fuzzy search.`,
             .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}`)
             .setColor(Colors.AQUA)
             .setThumbnail(getLink(weapon.icon))
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setDescription((weapon.desc ? weapon.desc : "") + ((weapon.placeholder || !weapon.desc) ? "\n\n*This weapon is currently not yet available.*" : ""))
             .addField("Basics", `${weapon.stars}★ ${data.emoji(weapon.weaponType)}`, (weapon.placeholderStats && !weapon.weaponCurve) ? true : false)
 
@@ -257,7 +257,7 @@ Note: this command supports fuzzy search.`,
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
             .setThumbnail(getLink(weapon.icon))
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
 
         const columns: string[] = []
         const rows: string[][] = []
@@ -293,7 +293,7 @@ Note: this command supports fuzzy search.`,
                 rows,
                 [PAD_START]
             ) + "\n```")
-            .setFooter(`${embed.footer?.text} - Use '${config.prefix}weaponstats ${weapon.name} [level] [A<ascension>]' for a specific level`)
+            .setFooter({ text: `${embed.footer?.text} - Use '${config.prefix}weaponstats ${weapon.name} [level] [A<ascension>]' for a specific level` })
         return embed
     }
 
@@ -302,7 +302,7 @@ Note: this command supports fuzzy search.`,
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
             .setThumbnail(getLink(weapon.icon))
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
 
         embed.setTitle(`${weapon.name}: Refinements`)
             .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}#refinements`)
@@ -317,7 +317,7 @@ Note: this command supports fuzzy search.`,
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
             .setThumbnail(getLink(weapon.icon))
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setTitle(`${weapon.name}: Lore`)
             .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}#lore`)
             .setDescription(weapon.lore ?? "Unavailable")
@@ -328,7 +328,7 @@ Note: this command supports fuzzy search.`,
         const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setTitle(`${weapon.name}: Base`)
             .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}#media`)
             .setDescription(`[Open image in browser](${data.baseURL}${getLink(weapon.icon)})`)
@@ -344,12 +344,12 @@ Note: this command supports fuzzy search.`,
             return new MessageEmbed()
                 .setColor(Colors.RED)
                 .setTitle(`${weapon.name}: 2nd Ascension`)
-                .setFooter(`Page ${currentPage} / ${maxPages}`)
+                .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
                 .setDescription("Unable to load")
 
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setTitle(`${weapon.name}: 2nd Ascension`)
             .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}#media`)
             .setDescription(`[Open image in browser](${data.baseURL}${getLink(weapon.awakenIcon)})`)

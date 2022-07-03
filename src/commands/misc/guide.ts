@@ -119,7 +119,7 @@ ${data.guides.map((guide) => `- *${guide.name}*: ${guide.pages.length} ${guide.p
             .setTitle("Guides")
             .setURL(`${client.data.baseURL}guides`)
             .setDescription(pages[relativePage])
-            .setFooter(`Page ${currentPage} / ${maxPages} - Use '${config.prefix}guide <name>' to view a guide`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages} - Use '${config.prefix}guide <name>' to view a guide` })
             .setColor(Colors.GREEN)
 
         return embed
@@ -139,9 +139,9 @@ export function getGuidePage(guide: Guide, relativePage: number, currentPage: nu
         .setColor(Colors.GREEN)
 
     if (maxPages > 1)
-        embed.setFooter(`Page ${currentPage} / ${maxPages} - ${guide.name}`)
+        embed.setFooter({ text: `Page ${currentPage} / ${maxPages} - ${guide.name}` })
     else if (guide.name !== page.name)
-        embed.setFooter(guide.name)
+        embed.setFooter({ text: guide.name })
 
     if (page.desc)
         embed.setDescription(page.desc.replace(/\${(.*?)}/g, (_, name) => data.emoji(name)) +

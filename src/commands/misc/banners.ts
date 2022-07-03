@@ -342,7 +342,7 @@ Note: this command supports fuzzy search.`,
         const embed = new MessageEmbed()
             .setTitle(`Event Wishes (${filter})`)
             .setDescription(pages[relativePage])
-            .setFooter(`Page ${currentPage} / ${maxPages} - See '${config.prefix}banners view <id>' for more info about a specific one`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages} - See '${config.prefix}banners view <id>' for more info about a specific one` })
             .setColor(Colors.GREEN)
 
         return embed
@@ -361,7 +361,7 @@ Note: this command supports fuzzy search.`,
             .addField("Duration", wish.duration)
             .addField("Main", wish.main.join("\n"), true)
             .addField("Other", wish.other.join("\n"), true)
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setColor(Colors.GREEN)
 
         return embed

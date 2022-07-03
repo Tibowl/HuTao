@@ -37,8 +37,6 @@ export default class Shutdown extends Command {
 
         const user = client.user
         if (user != undefined) {
-            await user.setStatus("dnd")
-
             toRemove = client.recentMessages
                 .map(async (reply) => {
                     try {

@@ -82,7 +82,7 @@ Example: \`${config.prefix}ar Weekly boss in 36 resin\``,
                                       .setTitle(`Created reminder #${id}`)
                                       .setColor(Colors.GREEN)
                                       .setDescription(`I'll remind you in DM's about \`${name}\` in **${timeLeft(duration, true, false)}**`)
-                                      .setFooter("In your local timezone")
+                                      .setFooter({ text: "In your local timezone" })
                                       .setTimestamp(timestamp)
         )
 

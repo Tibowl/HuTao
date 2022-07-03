@@ -114,7 +114,7 @@ Note: this command supports fuzzy search.`,
             .setTitle("Materials")
             .setURL(`${client.data.baseURL}materials`)
             .setDescription(pages[relativePage])
-            .setFooter(`Page ${currentPage} / ${maxPages} - See '${config.prefix}help material' for more info about what you can do`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages} - See '${config.prefix}help material' for more info about what you can do` })
             .setColor(Colors.GREEN)
 
         return embed
@@ -127,7 +127,7 @@ Note: this command supports fuzzy search.`,
             .setTitle(`${material.name}: Basic info`)
             .setURL(`${data.baseURL}materials/${urlify(material.name, false)}`)
             .setColor(Colors.AQUA)
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setDescription(material.desc ?? "Upcoming material.")
 
         if (material.category || material.type)
@@ -223,7 +223,7 @@ Note: this command supports fuzzy search.`,
         const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setTitle(`${material.name}: Description`)
             .setURL(`${data.baseURL}materials/${urlify(material.name, false)}#longdesc`)
             .setDescription(material.longDesc ?? "Unavailable")

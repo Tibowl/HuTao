@@ -114,7 +114,7 @@ Note: this command supports fuzzy search.`,
             .setTitle("Enemies")
             .setURL(`${client.data.baseURL}enemies`)
             .setDescription(pages[relativePage])
-            .setFooter(`Page ${currentPage} / ${maxPages} - See '${config.prefix}help enemy' for more info about what you can do`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages} - See '${config.prefix}help enemy' for more info about what you can do` })
             .setColor(Colors.GREEN)
 
         return embed
@@ -127,7 +127,7 @@ Note: this command supports fuzzy search.`,
             .setTitle(`${enemy.name}: Basic info`)
             .setURL(`${data.baseURL}enemies/${urlify(enemy.name, false)}`)
             .setColor(Colors.AQUA)
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setDescription(`**Type**: ${enemy.type ?? "Unknown"}${enemy.kind ? ` (${enemy.kind})` : ""}${enemy.notes ? `\n\n${enemy.notes}` : ""}`)
 
         if (guides)
@@ -145,7 +145,7 @@ Note: this command supports fuzzy search.`,
     getLoreEnemyPage(enemy: Enemy, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
         const embed = new MessageEmbed()
             .setColor(Colors.AQUA)
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setTitle(`${enemy.name}: Description`)
             .setURL(`${client.data.baseURL}enemies/${urlify(enemy.name, false)}`)
             .setDescription(enemy.desc ?? "Unavailable")

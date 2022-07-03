@@ -16,9 +16,6 @@ export async function handle(): Promise<void> {
     client.tweetManager.init()
     client.newsManager.fetchNews().catch(e => Logger.error(e))
 
-
-    await client.user?.setStatus("online")
-
     if (!client.application?.owner) await client.application?.fetch()
     const cmds: ApplicationCommandData[] = client.commands
         .array()

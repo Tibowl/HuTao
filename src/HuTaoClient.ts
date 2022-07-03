@@ -28,6 +28,11 @@ intents.add(
     "GUILD_MESSAGES",
 )
 
+const filterAll = {
+    filter: () => () => true,
+    interval: 5 * 60
+}
+
 export default class HuTaoClient extends Discord.Client {
     data: DataManager = new DataManager()
     timerManager: TimerManager = new TimerManager()
@@ -45,10 +50,17 @@ export default class HuTaoClient extends Discord.Client {
     constructor() {
         super({
             intents,
-            partials: ["CHANNEL"],
+            partials: ["CHANNEL", "MESSAGE", "USER", "GUILD_MEMBER"],
             shards: "auto",
+            sweepers: {
+                emojis: filterAll,
+                guildMembers: filterAll,
+                messages: filterAll,
+                stickers: filterAll,
+                users: filterAll
+            },
             presence: {
-                status: "idle",
+                status: "online",
                 activities: [{
                     name: config.activity,
                     type: "LISTENING"

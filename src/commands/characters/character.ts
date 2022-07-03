@@ -197,7 +197,7 @@ Note: this command supports fuzzy search.`,
             .setTitle("Character list")
             .setURL(`${client.data.baseURL}characters`)
             .setDescription(pages[relativePage])
-            .setFooter(`Page ${currentPage} / ${maxPages} - See '${config.prefix}help char' for more info about what you can do`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages} - See '${config.prefix}help char' for more info about what you can do` })
             .setColor(Colors.GREEN)
 
         return embed
@@ -217,7 +217,7 @@ Note: this command supports fuzzy search.`,
         const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors[char.meta.element] ?? "")
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
 
         if (char.icon)
             embed.setThumbnail(getLink(char.icon))
@@ -371,7 +371,7 @@ Note: this command supports fuzzy search.`,
         const embed = new MessageEmbed()
             .setColor(Colors[char.meta.element] ?? "")
             .setThumbnail(getLink(char.icon))
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
 
         if (relativePage == 0) {
             const columns: string[] = []
@@ -405,7 +405,7 @@ Note: this command supports fuzzy search.`,
                     rows,
                     [PAD_START]
                 ) + "\n```")
-                .setFooter(`${embed.footer?.text} - Use '${config.prefix}charstats ${char.name} [level] [A<ascension>]' for a specific level`)
+                .setFooter({ text: `${embed.footer?.text} - Use '${config.prefix}charstats ${char.name} [level] [A<ascension>]' for a specific level` })
 
             return embed
         } else if (relativePage >= 1) {
@@ -432,7 +432,7 @@ Note: this command supports fuzzy search.`,
         const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors[char.meta.element] ?? "")
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setTitle(`${char.name}`)
             .setURL(`${data.baseURL}characters/${urlify(char.name, false)}#videos`)
         if (char.icon)
@@ -461,7 +461,7 @@ ${          Object
         const { data } = client
         const embed = new MessageEmbed()
             .setColor(Colors[char.meta.element] ?? "")
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
 
         if (char.icon)
             embed.setThumbnail(getLink(char.icon))
@@ -508,11 +508,11 @@ ${          Object
                     embed.addField(name, talent.value, true)
             }
             if (hasLevels && talentMode == "HIGH")
-                embed.setFooter(`${embed.footer?.text} - Use '${config.prefix}c ${char.name} -low' to display lower levels`)
+                embed.setFooter({ text: `${embed.footer?.text} - Use '${config.prefix}c ${char.name} -low' to display lower levels` })
             else if (hasLevels && talentMode == "LOW")
-                embed.setFooter(`${embed.footer?.text} - Use '${config.prefix}c ${char.name} -high' to display higher levels`)
+                embed.setFooter({ text: `${embed.footer?.text} - Use '${config.prefix}c ${char.name} -high' to display higher levels` })
             else if (hasLevels && talentMode == "LITTLE")
-                embed.setFooter(`${embed.footer?.text} - Use '${config.prefix}c ${char.name} -high' (or -low) to display higher (or lower) levels`)
+                embed.setFooter({ text: `${embed.footer?.text} - Use '${config.prefix}c ${char.name} -high' (or -low) to display higher (or lower) levels` })
 
             if (skill.video && talentMode == "LITTLE") {
                 embed.setImage(skill.video)

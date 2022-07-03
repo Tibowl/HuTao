@@ -105,7 +105,7 @@ Note: this command supports fuzzy search.`,
             .setTitle("Artifact Sets")
             .setURL(`${client.data.baseURL}artifacts`)
             .setDescription(pages[relativePage])
-            .setFooter(`Page ${currentPage} / ${maxPages} - See '${config.prefix}help artifact' for more info about what you can do`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages} - See '${config.prefix}help artifact' for more info about what you can do` })
             .setColor(Colors.GREEN)
 
         return embed
@@ -117,7 +117,7 @@ Note: this command supports fuzzy search.`,
             .setColor(Colors.AQUA)
             .setThumbnail(getLink(set.artis?.find(x => x.icon)?.icon ?? "img/unknown.png"))
             .setURL(`${data.baseURL}artifacts/${urlify(set.name, false)}`)
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
 
         if (relativePage == 0) {
             for (const bonus of set.bonuses ?? [])

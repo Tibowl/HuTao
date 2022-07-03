@@ -86,7 +86,7 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
             const embed = new MessageEmbed()
                 .setColor(Colors.GREEN)
                 .setTitle(`Most recent ${newsManager.getLanguageName(lang)} news articles:`)
-                .setFooter(`You can use open the links or use \`${config.prefix}news <post id>\` to view more details about a post`)
+                .setFooter({ text: `You can use open the links or use \`${config.prefix}news <post id>\` to view more details about a post` })
                 .setDescription(stored.join("\n"))
 
             return sendMessage(source, embed)

@@ -102,7 +102,7 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
         const footer = `Page ${currentPage} / ${maxPages}`
         const embed = new MessageEmbed()
             .setColor(Colors.PURPLE)
-            .setFooter(footer)
+            .setFooter({ text: footer })
 
         if (relativePage == 0) {
             embed.setTitle(`Spiral Abyss: ${abyss.buff}`)
@@ -115,7 +115,7 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
         const floor = abyss.spiralAbyssFloors[relativePage - 1]
         if (floor)
             return this.getSpiralFloor(floor, abyss.regularFloors.length + relativePage)
-                .setFooter(footer)
+                .setFooter({ text: footer })
 
         return undefined
     }

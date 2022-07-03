@@ -42,7 +42,7 @@ export default class Reminders extends Command {
     getReminders(reminders: Reminder[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed {
         const embed = new MessageEmbed()
             .setTitle("Reminders")
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setDescription(reminders
                 .slice(relativePage * 10, (relativePage + 1) * 10)
                 .map(r => `\`#${r.id}\`: \`${r.subject}\` **${displayTimestamp(new Date(r.timestamp))}**`)

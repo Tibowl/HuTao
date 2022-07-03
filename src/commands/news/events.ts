@@ -96,7 +96,7 @@ export default class Events extends Command {
         if (event == undefined) return undefined
 
         const embed = getEventEmbed(event)
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setColor("#F49C1F")
 
         if (event.end)
@@ -110,7 +110,7 @@ export default class Events extends Command {
         if (event == undefined) return undefined
 
         const embed = getEventEmbed(event)
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setColor("#F4231F")
 
         if (event.start)
@@ -123,7 +123,7 @@ export default class Events extends Command {
         return pages[relativePage]
             .setTitle("Events")
             .setURL(`${client.data.baseURL}events`)
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setColor(Colors.DARK_GREEN)
     }
 

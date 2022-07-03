@@ -237,7 +237,7 @@ New: \`${newSubject}\``)
         const embed = new MessageEmbed()
             .setTitle(`Notes in ${name}`)
             .setDescription(pages[relativePage])
-            .setFooter(`Page ${currentPage} / ${maxPages}`)
+            .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setColor(Colors.GREEN)
 
         return embed

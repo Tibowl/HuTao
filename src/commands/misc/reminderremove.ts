@@ -60,7 +60,7 @@ Example: \`${config.prefix}dr 1\``,
             .setDescription(`I won't remind you about \`${reminder.subject}\` in ${timeLeft(reminder.timestamp - Date.now(), false, false)}
 
 You can re-start this reminder with \`${config.prefix}ar ${reminder.subject} in ${timeLeft(reminder.duration, true, true)}\` or with \`${config.prefix}ar ${reminder.subject} in ${timeLeft(reminder.timestamp - Date.now(), true, true)}\` if you don't want to reset the duration`)
-            .setFooter("In your local timezone")
+            .setFooter({ text: "In your local timezone" })
             .setTimestamp(reminder.timestamp)
 
         const reply = sendMessage(source, embed)

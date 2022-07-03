@@ -204,7 +204,9 @@ export function getEndTime(event: Event, serverTimezone: string) {
 export function getNewsEmbed(post: StoredNews, relativePage = -1, currentPage?: number, maxPages?: number): MessageEmbed | undefined {
     const embed = new MessageEmbed()
         .setTitle(post.subject)
-        .setAuthor(post.nickname)
+        .setAuthor({
+            name: post.nickname
+        })
         .setTimestamp(post.created_at * 1000)
         .setURL(post.lang == "bbs-zh-cn" ? `https://bbs.mihoyo.com/ys/article/${post.post_id}` : `https://www.hoyolab.com/article/${post.post_id}`)
         .setColor(([Colors.AQUA, Colors.GREEN, "#EA6907"][post.type - 1] ?? "#C1C1C1") as ColorResolvable)
@@ -225,7 +227,7 @@ export function getNewsEmbed(post: StoredNews, relativePage = -1, currentPage?: 
             embed.setDescription(truncate(cont.text, 1500))
         else if (cont.img)
             embed.setImage(cont.img).setDescription(`[Open image in browser](${cont.img})`)
-        embed.setFooter(`Page ${currentPage} / ${maxPages}`)
+        embed.setFooter({ text: `Page ${currentPage} / ${maxPages}` })
     } else
         return undefined
     return embed
