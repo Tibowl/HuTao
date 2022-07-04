@@ -1516,6 +1516,15 @@
         "img": "https://i.imgur.com/LqQmtWh.png"
     },
     {
+        "name": "\"Bouncing Blobby Slimes\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/5792365",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/07/04/1015537/70780e0f14bf1d019325e4cf23525fc2_6686738006613412807.jpg",
+        "start": "2022-07-04 12:00:00",
+        "end": "2022-07-10 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "Next Special Program",
         "type": "Stream",
         "prediction": true,
