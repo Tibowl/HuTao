@@ -59,6 +59,12 @@ export default class HuTaoClient extends Discord.Client {
                 stickers: filterAll,
                 users: filterAll
             },
+            allowedMentions: {
+                parse: [],
+                repliedUser: false,
+                roles: [],
+                users: []
+            },
             presence: {
                 status: "online",
                 activities: [{

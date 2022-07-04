@@ -19,18 +19,24 @@ export default class FollowManager {
         process.on("SIGINT", () => process.exit(128 + 2))
         process.on("SIGTERM", () => process.exit(128 + 15))
 
-        this.sql.exec("CREATE TABLE IF NOT EXISTS follows (guildID TEXT, channelID TEXT, category TEXT, addedOn BIGINT, addedBy TEXT, PRIMARY KEY (channelID, category))")
+        this.sql.exec("CREATE TABLE IF NOT EXISTS follows (guildID TEXT, channelID TEXT, category TEXT, addedOn BIGINT, addedBy TEXT, pingRole TEXT DEFAULT '', PRIMARY KEY (channelID, category))")
         this.sql.exec("CREATE INDEX IF NOT EXISTS follows_category ON follows (category)")
         this.sql.exec("CREATE INDEX IF NOT EXISTS follows_channelID ON follows (channelID)")
         this.sql.exec("CREATE INDEX IF NOT EXISTS follows_guildID ON follows (guildID)")
+        try {
+            this.sql.exec("ALTER TABLE follows ADD COLUMN pingRole TEXT DEFAULT ''")
+            Logger.debug("Table migrated for ping roles")
+        } catch (error) {
+            void 0
+        }
 
-        this.addFollowStatement = this.sql.prepare("INSERT OR REPLACE INTO follows VALUES (@guildID, @channelID, @category, @addedOn, @addedBy)")
+        this.addFollowStatement = this.sql.prepare("INSERT OR REPLACE INTO follows VALUES (@guildID, @channelID, @category, @addedOn, @addedBy, @pingRole)")
 
         this.getFollowsStatement = this.sql.prepare("SELECT * FROM follows WHERE category = @category AND channelID = @channelID")
         this.getFollowsInChannelStatement = this.sql.prepare("SELECT * FROM follows WHERE channelID = @channelID")
-        this.followingStatement = this.sql.prepare("SELECT category, channelID FROM follows WHERE guildID = @guildID GROUP BY category, channelID")
-        this.getFollowersStatement = this.sql.prepare("SELECT channelID FROM follows WHERE category = @category")
-        this.followsStatement = this.sql.prepare("SELECT channelID FROM follows WHERE category = @category AND channelID = @channelID")
+        this.followingStatement = this.sql.prepare("SELECT category, channelID, pingRole FROM follows WHERE guildID = @guildID GROUP BY category, channelID")
+        this.getFollowersStatement = this.sql.prepare("SELECT channelID, pingRole FROM follows WHERE category = @category")
+        this.followsStatement = this.sql.prepare("SELECT channelID, pingRole FROM follows WHERE category = @category AND channelID = @channelID")
 
         this.unfollowsStatement = this.sql.prepare("DELETE FROM follows WHERE category = @category AND channelID = @channelID")
         this.dropChannelStatement = this.sql.prepare("DELETE FROM follows WHERE channelID = @channelID")
@@ -38,13 +44,14 @@ export default class FollowManager {
     }
 
     private addFollowStatement: SQLite.Statement
-    addFollow(guild: Guild, channel: Channel, category: FollowCategory, addedBy: string): void {
-        Logger.info(`Following in ${category} for ${addedBy} in ${channel.id} in ${guild.name} (${guild.id})`)
+    addFollow(guild: Guild, channel: Channel, category: FollowCategory, addedBy: string, pingRole: string): void {
+        Logger.info(`Following in ${category} for ${addedBy} in ${channel.id} in ${guild.name} (${guild.id}) - PingRole: ${pingRole}`)
         this.addFollowStatement.run({
             guildID: guild.id,
             channelID: channel.id,
             category,
             addedOn: new Date().getTime(),
+            pingRole,
             addedBy
         })
     }
@@ -62,7 +69,7 @@ export default class FollowManager {
     }
 
     private getFollowersStatement: SQLite.Statement
-    getFollowers(category: string): { channelID: Snowflake }[] {
+    getFollowers(category: string): { channelID: Snowflake, pingRole: Snowflake }[] {
         return this.getFollowersStatement.all({
             category
         })
@@ -103,15 +110,15 @@ export default class FollowManager {
     }
 
     private followingStatement: SQLite.Statement
-    following(guild: Guild): { category: FollowCategory, channelID: Snowflake }[] {
+    following(guild: Guild): { category: FollowCategory, channelID: Snowflake, pingRole: Snowflake }[] {
         return this.followingStatement.all({
             guildID: guild.id
         })
     }
 
     async send(category: FollowCategory, content?: string, embed?: MessageEmbed): Promise<(Message | Message[])[]> {
-        let channels = this.getFollowers(category).map(k => k.channelID)
-        channels = channels.filter((val, ind) => channels.indexOf(val) === ind)
+        let channels = this.getFollowers(category)
+        channels = channels.filter((val, ind) => channels.findIndex(v => v.channelID == val.channelID) === ind)
 
         Logger.info(`Sending ${category} to ${channels.length} channels: ${content}`)
         const messages = (await sendToChannels(channels, content, embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()

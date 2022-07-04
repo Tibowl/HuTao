@@ -1,4 +1,5 @@
-import { CommandInteraction, Message } from "discord.js"
+import { APIInteractionDataResolvedGuildMember } from "discord-api-types/v10"
+import { CommandInteraction, Message, MessageMentions } from "discord.js"
 
 import config from "../../data/config.json"
 import client from "../../main"
@@ -38,7 +39,7 @@ export default class Follow extends Command {
         super({
             name,
             category: "News",
-            usage: `follow <list|add|remove> <${Object.keys(descriptions).join("|")}>\` or just \`follow list`,
+            usage: `follow <list|add|remove> <${Object.keys(descriptions).join("|")}> [pingRole, in the case of add]\` or just \`follow list`,
             help: `Follow certain events in a channel
 
 **Possible events**:
@@ -77,6 +78,10 @@ Example of adding news: \`${config.prefix}follow add news\``,
                             value: d
                         }
                     })
+                }, {
+                    name: "pingrole",
+                    description: "Role to ping",
+                    type: "MENTIONABLE"
                 }]
             }, {
                 name: "remove",
@@ -115,7 +120,7 @@ Example of adding news: \`${config.prefix}follow add news\``,
         if (sub == "list") {
             return this.runList(source, options.getString("category") as (FollowCategory | null))
         } else if (sub == "add") {
-            return this.runFollow(source, options.getString("category", true) as FollowCategory)
+            return this.runFollow(source, options.getString("category", true) as FollowCategory, options.getMentionable("pingrole", false))
         } else if (sub == "remove") {
             return this.runUnfollow(source, options.getString("category", true) as FollowCategory)
         }
@@ -132,6 +137,7 @@ Example of adding news: \`${config.prefix}follow add news\``,
         const sub = args[0]?.toLowerCase() ?? "help"
         args.shift()
         const otherArgs = args[0]?.toLowerCase()
+        args.shift()
 
         const category: FollowCategory | undefined = otherArgs ? Object.keys(descriptions).find(r => r.toLowerCase() == otherArgs) as (FollowCategory | undefined) : undefined
         if (!category)
@@ -145,7 +151,7 @@ Example of adding news: \`${config.prefix}follow add news\``,
         if (["list", "l"].includes(sub)) {
             return this.runList(source, category)
         } else if (["add", "a", "follow", "enable", "on"].includes(sub)) {
-            return this.runFollow(source, category)
+            return this.runFollow(source, category, args[0])
         } else if (["remove", "delete", "d", "r", "disable", "off", "unfollow"].includes(sub)) {
             return this.runUnfollow(source, category)
         } else {
@@ -162,14 +168,15 @@ Example of adding news: \`${config.prefix}follow add news\``,
         if (!category) {
             const following = followManager.following(source.guild)
 
-            const channels: {category: string, channelname: string}[] = []
+            const channels: {category: string, channelname: string, pingRole: string}[] = []
             for (const follow of following)
                 try {
                     const channel = await client.channels.fetch(follow.channelID)
                     if (isNewsable(channel))
                         channels.push({
                             channelname: channel.name,
-                            category: follow.category
+                            category: follow.category,
+                            pingRole: follow.pingRole
                         })
                 } catch (error) {
                     followManager.dropChannel(follow.channelID)
@@ -178,9 +185,9 @@ Example of adding news: \`${config.prefix}follow add news\``,
 
             return sendMessage(source, `Following per event: \`\`\`
 ${createTable(
-        ["Event", "|", "Channel"],
+        ["Event", "|", "Channel", "|", "Ping role ID"],
         channels.map(
-            k => [k.category, "|", k.channelname]
+            k => [k.category, "|", k.channelname, "|", k.pingRole]
         ))}\`\`\``, undefined, true)
         }
 
@@ -209,15 +216,33 @@ ${createTable(
 
         return sendMessage(source, `Unfollowed ${category} in <#${channel.id}>`, undefined, true)
     }
-    async runFollow(source: CommandSource, category: FollowCategory): Promise<SendMessage | undefined> {
+    async runFollow(source: CommandSource, category: FollowCategory, pingRole: string | { id: string } | APIInteractionDataResolvedGuildMember | null): Promise<SendMessage | undefined> {
         const channel = await source.channel?.fetch()
         if (!channel || !isNewsable(channel) || source.guild == null)
             return sendMessage(source, "Unable to follow in this channel", undefined, true)
 
+        let pingedRole = ""
+        if (typeof pingRole == "string") {
+            if (pingRole.match(/^\d+$/))
+                pingedRole = pingRole
+            else {
+                const response = MessageMentions.ROLES_PATTERN.exec(pingRole)
+                if (response == null)
+                    return sendMessage(source, "Unable to extract ping role from message", undefined, true)
+                pingedRole = response[1]
+            }
+        } else if ((pingRole as {id: string})?.id) {
+            const role = await source.guild.roles.fetch((pingRole as {id: string}).id)
+            if (!role)
+                return sendMessage(source, "Unable to extract ping role from command", undefined, true)
+            pingedRole = role.id
+        } else if (pingRole)
+            return sendMessage(source, "Unable to extract ping role from command", undefined, true)
+
         const { followManager } = client
 
-        followManager.addFollow(source.guild, channel, category, getUserID(source))
+        followManager.addFollow(source.guild, channel, category, getUserID(source), pingedRole)
 
-        return sendMessage(source, `Now following ${category} in <#${channel.id}>`, undefined, true)
+        return sendMessage(source, `Now following ${category} in <#${channel.id}> (Ping role: ${pingedRole == "" ? "none" : `<@&${pingedRole}> - make sure the bot can ping this role - this might require the @everyone permission!`})`, undefined, true)
     }
 }

@@ -13,17 +13,21 @@ const Logger = log4js.getLogger("Utils")
  * @param embed Possible embed/attachment to send
  * @returns All the messages send
  */
-export async function sendToChannels(channels: Snowflake[] | undefined, content?: string, embed?: MessageEmbed): Promise<PromiseSettledResult<Message | Message[]>[]> {
+export async function sendToChannels(channels: {channelID: Snowflake, pingRole?: string}[] | undefined, content?: string, embed?: MessageEmbed): Promise<PromiseSettledResult<Message | Message[]>[]> {
     const messages = []
     if (!channels) return Promise.all([])
 
     for (const channel of channels) {
         try {
-            const chanObj = await client.channels.fetch(channel)
+            const chanObj = await client.channels.fetch(channel.channelID)
             if (!(chanObj && chanObj.isText()))
                 continue
-            if (embed && content && content.length > 0)
-                messages.push(chanObj.send({ content, embeds: [embed] }))
+            if (embed && ((content && content.length > 0) || (channel.pingRole && channel.pingRole.length > 0)))
+                messages.push(chanObj.send({
+                    content: `${channel.pingRole && channel.pingRole != "" ? `<@&${channel.pingRole}> ` : ""}${content ?? ""}`.trim(),
+                    embeds: [embed],
+                    allowedMentions: { roles: channel.pingRole ? [channel.pingRole] : [] }
+                }))
             else if (embed)
                 messages.push(chanObj.send({ embeds: [embed] }))
             else if (content)
@@ -44,7 +48,7 @@ export async function sendToChannels(channels: Snowflake[] | undefined, content?
  */
 export async function sendError(content: string, embed?: MessageEmbed): Promise<Message[]> {
     Logger.error(content)
-    return (await sendToChannels(config.errorLog as Snowflake[], content, embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
+    return (await sendToChannels((config.errorLog as Snowflake[]).map(x => ({ channelID: x })), content, embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
 }
 
 export const PAD_START = 0

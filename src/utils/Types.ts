@@ -32,6 +32,7 @@ export interface Follower {
     category: FollowCategory
     addedOn: number
     addedBy: string
+    pingRole: string
 }
 
 // Reminder stuff
