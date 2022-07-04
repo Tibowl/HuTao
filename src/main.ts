@@ -5,7 +5,7 @@ import { join } from "path"
 
 log4js.configure({
     appenders: {
-        file: { type: "dateFile", filename: "./logs/hutao", alwaysIncludePattern: true, backups: 31, compress: true },
+        file: { type: "dateFile", filename: "./logs/hutao", alwaysIncludePattern: true, numBackups: 31, compress: true },
         out: { type: "stdout" },
     }, categories: {
         default: { appenders: ["file", "out"], level: "debug" }
