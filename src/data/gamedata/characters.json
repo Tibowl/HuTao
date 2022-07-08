@@ -20362,7 +20362,10 @@
       "imgs": [
         "https://pbs.twimg.com/media/FS3whoLUAAIAfXu.jpg",
         "https://pbs.twimg.com/media/FS3xTHZUAAASw66.jpg"
-      ]
+      ],
+      "videos": {
+        "Character Demo - \"Shikanoin Heizou: Cyclone of Investigation\"": "https://youtu.be/mp-u0LmUikU"
+      }
     },
     "meta": {
       "association": "Inazuma",
