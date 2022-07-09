@@ -20368,6 +20368,8 @@
       }
     },
     "meta": {
+      "birthDay": 24,
+      "birthMonth": 7,
       "association": "Inazuma",
       "title": "Analytical Harmony",
       "detail": "A young prodigy detective from the Tenryou Commission. His senses are sharp and his thoughts are clear.",
@@ -20383,18 +20385,48 @@
         "talents": [
           {
             "name": "Normal Attack: Fudou Style Martial Arts",
-            "desc": "Performs fisticuffs empowered by a mighty wind.",
-            "icon": "img/skill/Common_Catalyst.png"
+            "desc": "**Normal Attack**\nPerforms up to 5 fisticuffs empowered by a mighty wind, dealing **Anemo DMG**.\n**Charged Attack**\nConsumes a set amount of Stamina to perform a sweeping kick, dealing **Anemo DMG**.",
+            "icon": "img/skill/Common_Catalyst.png",
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Transience",
+                "BossMat": "The Meaning of Aeons",
+                "EnemyDropTier1": "Treasure Hoarder Insignia",
+                "EnemyDropTier2": "Silver Raven Insignia",
+                "EnemyDropTier3": "Golden Raven Insignia"
+              }
+            }
           },
           {
             "name": "Heartstopper Strike",
-            "desc": "Press or hold the skill to charge energy to unleash a blow. Heizou will obtain the Declension effect while charging, which will increase the damage and AoE of the Elemental Skill."
+            "desc": "**Tap**\nWields the swift winds to launch a Heartstopper Strike that deals **Anemo DMG**.\n**Hold**\nCharges energy to unleash an even stronger blow. He will obtain the Declension effect while charging, which will increase the power of the Heartstopper Strike. When the skill button is released or the skill duration ends, he will strike forward, dealing **Anemo DMG**.\n**Declension**\nIncreases the power of the next Heartstopper Strike. Max 4 stacks. When you possess 4 Declension stacks, the Conviction effect will be produced, which will cause the next Heartstopper Strike to be even stronger and have a larger AoE.",
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Transience",
+                "BossMat": "The Meaning of Aeons",
+                "EnemyDropTier1": "Treasure Hoarder Insignia",
+                "EnemyDropTier2": "Silver Raven Insignia",
+                "EnemyDropTier3": "Golden Raven Insignia"
+              }
+            }
           }
         ],
         "ult": {
           "name": "Windmuster Kick",
-          "desc": "Leaps into the air and uses the Fudou Style Vacuum Slugger and kicks his opponent. The Vacuum Slugger will explode upon impact dealing **AoE Anemo DMG** and creating a vacuum pulling in opponents. When the Vacuum hits opponents affected by Hydro/Cryo/Pyro/Electro, it causes an delayed follow-up explosion, dealing damage of the corresponding Elemental Type.",
-          "type": "Anemo"
+          "desc": "Leaps into the air and uses the Fudou Style Vacuum Slugger and kicks his opponent. The Vacuum Slugger will explode upon hit and create an Arresting Windtunnel that pulls in nearby objects and opponents, dealing AoE **Anemo DMG**.\nWhen Fudou Style Vacuum Slugger hits enemies affected by Hydro, Pyro, Cryo or Electro, it afflicts them with Windmuster Iris. Moments later, Windmuster Iris explodes and dissipates, dealing AoE DMG of the corresponding elemental type.\nFudou Style Vacuum Slugger can afflict a maximum of four enemies with the Windmuster Iris. A single enemy cannot be afflicted by Irises of different elemental types at the same time.",
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Transience",
+              "BossMat": "The Meaning of Aeons",
+              "EnemyDropTier1": "Treasure Hoarder Insignia",
+              "EnemyDropTier2": "Silver Raven Insignia",
+              "EnemyDropTier3": "Golden Raven Insignia"
+            },
+            "type": "Anemo"
+          }
         },
         "passive": [
           {
@@ -20403,7 +20435,21 @@
           }
         ]
       }
-    ]
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Runic Fang",
+        "EnemyDropTier1": "Treasure Hoarder Insignia",
+        "EnemyDropTier2": "Silver Raven Insignia",
+        "EnemyDropTier3": "Golden Raven Insignia",
+        "Gem1": "Vayuda Turquoise Sliver",
+        "Gem2": "Vayuda Turquoise Fragment",
+        "Gem3": "Vayuda Turquoise Chunk",
+        "Gem4": "Vayuda Turquoise Gemstone",
+        "Specialty": "Onikabuto"
+      }
+    }
   },
   "Sucrose": {
     "name": "Sucrose",
