@@ -2404,6 +2404,7 @@
   "Cursed Blade": {
     "name": "Cursed Blade",
     "desc": "*Weapon obtained from the relvant 2.8 storyline quest*",
+    "icon": "https://i.imgur.com/HWbJZEY.png",
     "weaponType": "Sword",
     "stars": 4,
     "placeholder": true,
