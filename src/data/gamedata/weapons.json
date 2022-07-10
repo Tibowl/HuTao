@@ -2401,6 +2401,35 @@
       }
     ]
   },
+  "Cursed Blade": {
+    "name": "Cursed Blade",
+    "desc": "*Weapon obtained from the relvant 2.8 storyline quest*",
+    "weaponType": "Sword",
+    "stars": 4,
+    "placeholder": true,
+    "placeholderStats": {
+      "level": 90,
+      "stats": {
+        "Base ATK": 510,
+        "ATK%": 0.413
+      }
+    },
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Gloomy Statuette",
+        "EnemyDropTierA2": "Dark Statuette",
+        "EnemyDropTierA3": "Deathly Statuette",
+        "EnemyDropTierB1": "Spectral Husk",
+        "EnemyDropTierB2": "Spectral Heart",
+        "EnemyDropTierB3": "Spectral Nucleus",
+        "WeaponAsc1": "Mask of the Wicked Lieutenant",
+        "WeaponAsc2": "Mask of the Tiger's Bite",
+        "WeaponAsc3": "Mask of the One-Horned",
+        "WeaponAsc4": "Mask of the Kijin"
+      }
+    }
+  },
   "Dark Iron Sword": {
     "name": "Dark Iron Sword",
     "desc": "A perfectly ordinary iron sword, just slightly darker than most.",
