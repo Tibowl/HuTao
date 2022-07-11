@@ -966,5 +966,71 @@
       40,
       41
     ]
+  },
+  "44": {
+    "start": "2022-07-16 04:00:00",
+    "end": "2022-08-01 03:59:59",
+    "buff": "Valiant Moon",
+    "buffDesc": "When a character takes the field, they will gain 1 Fortitude stack every 2s. This will increase their ATK by 20%. Max 3 stacks. When characters with 3 Fortitude stacks hit opponents with Charged Attacks, a shockwave will be unleashed at the opponents' position, dealing True DMG. A shockwave can be unleashed in this manner once every 2s. When the character leaves the field, all their Fortitude stacks will be cleared.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      42,
+      43
+    ]
+  },
+  "45": {
+    "start": "2022-08-01 04:00:00",
+    "end": "2022-08-16 03:59:59",
+    "buff": "Windswept Moon",
+    "buffDesc": "When a character triggers Swirl on an opponent, that opponent's DEF is decreased by 12% for 10s. Max 3 stacks. Each stack's duration is counted independently.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      42,
+      43
+    ]
+  },
+  "46": {
+    "start": "2022-08-16 04:00:00",
+    "end": "2022-09-01 03:59:59",
+    "buff": "Shivered Moon",
+    "buffDesc": "After the active character's Normal, Charged, or Plunging Attacks hit opponents, that character's Normal, Charged, and Plunging Attack DMG is increased by 12% for 8s. This effect can be triggered once every 0.1s. Max 4 stacks. Each stack's duration is counted independently. This effect will be cleared if the character leaves the field.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      24,
+      25,
+      42,
+      43
+    ]
   }
 }

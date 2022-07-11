@@ -4519,6 +4519,26 @@
       }
     }
   },
+  "Collei": {
+    "name": "Collei",
+    "desc": "\"Oh, you're going to Sumeru? Can you give my regards to Collei? Well... it's been so long, I wonder if her hair has grown out and if she's taller?\" — Amber",
+    "weaponType": "Bow",
+    "icon": "https://i.imgur.com/na2IRvM.png",
+    "media": {
+      "imgs": [
+        "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/1015537/ec24135ef629a8907787d302c88a4936_3952715796977164450.jpg",
+        "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/1015537/24df2696a72666ac91ec2091584e1a71_5530636827900312701.jpg"
+      ]
+    },
+    "meta": {
+      "association": "Sumeru",
+      "title": "Sprout of Rebirth",
+      "detail": "\"Oh, you're going to Sumeru? Can you give my regards to Collei? Well... it's been so long, I wonder if her hair has grown out and if she's taller?\" — Amber",
+      "constellation": "Leptailurus Cervarius",
+      "affiliation": "Avidya Forest Ranger Trainee",
+      "element": "Dendro"
+    }
+  },
   "Diluc": {
     "name": "Diluc",
     "desc": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
@@ -5713,6 +5733,25 @@
         "Gem4": "Shivada Jade Gemstone",
         "Specialty": "Calla Lily"
       }
+    }
+  },
+  "Dori": {
+    "name": "Dori",
+    "desc": "\"No matter how rare the experimental materials are, you can buy them from Dori. I don't know where she gets her goods from... Also, make sure you pay attention to the price when you buy from her. My heart aches every time I pay the bill.\" — Tighnari",
+    "icon": "https://i.imgur.com/UhToAdl.png",
+    "media": {
+      "imgs": [
+        "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/1015537/da95988f4bc8fd46ef2067c06d0a9b20_8226307082552196439.jpg",
+        "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/1015537/600d57cc32ef427d87290eef9261e445_6412562772907320108.jpg"
+      ]
+    },
+    "meta": {
+      "association": "Sumeru",
+      "title": "Treasure of Dream Garden",
+      "detail": "\"No matter how rare the experimental materials are, you can buy them from Dori. I don't know where she gets her goods from... Also, make sure you pay attention to the price when you buy from her. My heart aches every time I pay the bill.\" — Tighnari",
+      "constellation": "Magicae Lucerna",
+      "affiliation": "Sumeru Merchant",
+      "element": "Electro"
     }
   },
   "Eula": {
@@ -22323,6 +22362,25 @@
         "Gem4": "Agnidus Agate Gemstone",
         "Specialty": "Fluorescent Fungus"
       }
+    }
+  },
+  "Tighnari": {
+    "name": "Tighnari",
+    "desc": "\"A message for you. I brought back a specialty from the desert, two packs of honeyed dates, which helps to replenish your energy, whether in the morning or at night. Thank you for your patience in teaching and taking care of Collei. Good luck with your work and best wishes for Collei's studies.\"\n—An anonymously written message left inside a candy box, placed on the watcher's table.",
+    "icon": "https://i.imgur.com/UhToAdl.png",
+    "media": {
+      "imgs": [
+        "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/1015537/176aad92d61c6da625c6655681e166fa_7109809965695512857.jpg",
+        "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/1015537/b95274850500f0d71f288f412afc92fb_5552825347965845106.jpg"
+      ]
+    },
+    "meta": {
+      "association": "Sumeru",
+      "title": "Verdant Strider",
+      "detail": "\"A message for you. I brought back a specialty from the desert, two packs of honeyed dates, which helps to replenish your energy, whether in the morning or at night. Thank you for your patience in teaching and taking care of Collei. Good luck with your work and best wishes for Collei's studies.\"\n—An anonymously written message left inside a candy box, placed on the watcher's table.",
+      "constellation": "Vulpes Zerda",
+      "affiliation": "Avidya Forest Watcher",
+      "element": "Dendro"
     }
   },
   "Traveler": {

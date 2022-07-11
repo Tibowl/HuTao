@@ -1447,8 +1447,8 @@
     {
         "name": "Event Wish \"Leaves in the Wind\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/8VHahtt.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/5915985",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/1015537/6a8aacd1a7af648d7e7a1184d11af2ec_5518970329961643281.jpg",
         "start": "2022-07-13 11:00:00",
         "start_server": false,
         "end": "2022-08-02 17:59:00",
@@ -1457,7 +1457,8 @@
     {
         "name": "Event Wish \"Sparkling Steps\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/8VHahtt.png",
+        "link": "https://www.hoyolab.com/article/5915988",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/1015537/1667dc1eb265d1638839ad3d0c52dbc8_7584677411521188711.jpg",
         "prediction": true,
         "start": "2022-07-13 11:00:00",
         "start_server": false,
@@ -1467,8 +1468,8 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/8VHahtt.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/5915986",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/1015537/f40ad36d2e2b3f75375940183f404e23_4819553739992762925.jpg",
         "start": "2022-07-13 11:00:00",
         "start_server": false,
         "end": "2022-08-02 17:59:00",
@@ -1493,7 +1494,11 @@
     {
         "name": "Summertime Odyssey",
         "type": "In-game",
-        "img": "https://i.imgur.com/3VH6Nbi.png"
+        "img": "https://i.imgur.com/3VH6Nbi.png",
+        "start": "2022-07-15 10:00:00",
+        "end": "2022-08-24 06:00:00",
+        "end_server": false,
+        "reminder": "end"
     },
     {
         "name": "Reminiscent Regimen",
@@ -1503,12 +1508,19 @@
     {
         "name": "Resonating Visions",
         "type": "In-game",
-        "img": "https://i.imgur.com/PoXC6xa.png"
+        "img": "https://i.imgur.com/PoXC6xa.png",
+        "start": "2022-07-15 10:00:00",
+        "end": "2022-08-24 06:00:00",
+        "end_server": false,
+        "reminder": "end"
     },
     {
         "name": "Hidden Strife",
         "type": "In-game",
-        "img": "https://i.imgur.com/d3yEzxX.png"
+        "img": "https://i.imgur.com/d3yEzxX.png",
+        "start": "2022-07-27 10:00:00",
+        "end": "2022-08-15 03:59:00",
+        "reminder": "end"
     },
     {
         "name": "Evermotion Mechanical Painting",

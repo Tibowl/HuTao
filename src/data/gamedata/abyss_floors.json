@@ -2388,5 +2388,13 @@
         ]
       }
     ]
+  },
+  "42": {
+    "teams": 2,
+    "leyline": "All party members receive a 75% Pyro DMG Bonus"
+  },
+  "43": {
+    "teams": 2,
+    "leyline": "For this floor only, the ley line flow will be normal."
   }
 }
