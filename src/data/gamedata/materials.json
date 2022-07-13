@@ -1663,6 +1663,22 @@
     },
     "effect": "Increases all party members' Shield Strength by 35% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
+  "The Only Truth": {
+    "name": "The Only Truth",
+    "desc": "Shikanoin Heizou's specialty. On the tender, moist scrambled eggs lies a juicy katsu fried to golden perfection, its aroma most enticing indeed... Having been tempted to gobble the dish down, you are somehow seized by the urge to let out all that is hidden in your heart — this is not some sort of secret weapon of Heizou... is it?",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/The_Only_Truth.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Shikanoin Heizou",
+      "recipe": "Katsu Sandwich"
+    },
+    "effect": "Increases all party members' ATK by 114 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
     "desc": "Onion-covered toast. Exudes a wonderful aroma. Are the fish biting for the bait, or is it the toast they're after?",
@@ -6090,8 +6106,7 @@
     "icon": "img/material/Vajrada_Amethyst_Sliver.png",
     "sources": [
       "Dropped by Electro Hypostases",
-      "Dropped by Thunder Manifestation",
-      "Purchase from the Souvenir Shop"
+      "Dropped by Thunder Manifestation"
     ]
   },
   "Vajrada Amethyst Fragment": {

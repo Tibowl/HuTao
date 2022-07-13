@@ -325,7 +325,7 @@
   },
   "Anemo Hypostasis": {
     "name": "Anemo Hypostasis",
-    "desc": "Code name: Beth. A high-purity Anemo entity.\nElemental hypostases are life forms which have completely abandoned their former appearance and biological structure, making them able to reach the highest level of elemental purity.\nResearch into hypostases is mainly led by scholars of Sumeru Academia, but due to the level of danger that they pose, little of substance is known about hypostases beyond their scientific name and code name.",
+    "desc": "Code name: Beth. A high-purity Anemo entity.\nElemental hypostases are life forms which have completely abandoned their former appearance and biological structure, making them able to reach the highest level of elemental purity.\nResearch into hypostases is mainly led by scholars of Sumeru Akademiya, but due to the level of danger that they pose, little of substance is known about hypostases beyond their scientific name and code name.",
     "icon": "img/enemy/Anemo_Hypostasis.png",
     "type": "Elemental Lifeforms",
     "kind": "Normal Boss",
@@ -433,7 +433,7 @@
   },
   "Pyro Specter": {
     "name": "Pyro Specter",
-    "desc": "A monster born from highly-concentrated Pyro elements that can float in the air.\nThere was once an Academia student who conducted research into their behavior. He believed that Specters were a form of Crystalfly; since they both had powers of flight and both were birthed in areas saturated with elemental energy. He has not graduated yet.",
+    "desc": "A monster born from highly-concentrated Pyro elements that can float in the air.\nThere was once an Akademiya student who conducted research into their behavior. He believed that Specters were a form of Crystalfly; since they both had powers of flight and both were birthed in areas saturated with elemental energy. He has not graduated yet.",
     "icon": "img/enemy/Pyro_Specter.png",
     "type": "Elemental Lifeforms",
     "kind": "Common Enemy",
@@ -1084,7 +1084,7 @@
   },
   "Electro Abyss Mage": {
     "name": "Electro Abyss Mage",
-    "desc": "Abyss creatures that utilize Electro in battles.\nWhile studying at the Academia, researcher Alva Nikola once conducted a systematic study of the methods by which Electro Abyss Mages manipulate Electro and came up with a theoretical weapon known as the Nikola Coil. However, it has yet to be put into practice. Some say that his research materials were eaten during a fungal infestation.",
+    "desc": "Abyss creatures that utilize Electro in battles.\nWhile studying at the Akademiya, researcher Alva Nikola once conducted a systematic study of the methods by which Electro Abyss Mages manipulate Electro and came up with a theoretical weapon known as the Nikola Coil. However, it has yet to be put into practice. Some say that his research materials were eaten during a fungal infestation.",
     "icon": "img/enemy/Electro_Abyss_Mage.png",
     "type": "The Abyss",
     "kind": "Elite Enemy",
@@ -2292,7 +2292,7 @@
   },
   "Geovishap Hatchling": {
     "name": "Geovishap Hatchling",
-    "desc": "A young vishap with a hard Geo exoskeleton.\nVishaps are exceptionally agile creatures that one would be wise not to underestimate in battle. Experts from Sumeru Academia believe that they become dragons when fully grown. By avoiding predators and natural disasters, perhaps they can even live long enough to become formidable beasts that reign over entire mountains.",
+    "desc": "A young vishap with a hard Geo exoskeleton.\nVishaps are exceptionally agile creatures that one would be wise not to underestimate in battle. Experts from Sumeru Akademiya believe that they become dragons when fully grown. By avoiding predators and natural disasters, perhaps they can even live long enough to become formidable beasts that reign over entire mountains.",
     "icon": "img/enemy/Geovishap_Hatchling.png",
     "type": "Mystical Beasts",
     "kind": "Elite Enemy",
