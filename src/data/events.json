@@ -1494,7 +1494,8 @@
     {
         "name": "Summertime Odyssey",
         "type": "In-game",
-        "img": "https://i.imgur.com/3VH6Nbi.png",
+        "link": "https://www.hoyolab.com/article/5958494",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/07/12/1015537/67decf6ae03c27fdfd5480ea4d6c3284_7231994406816675691.jpg",
         "start": "2022-07-15 10:00:00",
         "end": "2022-08-24 06:00:00",
         "end_server": false,
@@ -1508,7 +1509,8 @@
     {
         "name": "Resonating Visions",
         "type": "In-game",
-        "img": "https://i.imgur.com/PoXC6xa.png",
+        "link": "https://www.hoyolab.com/article/5958498",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/07/12/1015537/dece897170195cbd3fce5dfe90384317_1522700293837853916.jpg",
         "start": "2022-07-15 10:00:00",
         "end": "2022-08-24 06:00:00",
         "end_server": false,
