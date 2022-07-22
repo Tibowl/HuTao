@@ -1539,6 +1539,17 @@
         "reminder": "end"
     },
     {
+        "name": "\"Mesmerizing Dream at Sea\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/6129641",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/07/21/1015537/ed51afe0a53ba2f50b3ae72b415452ab_6568724448433978376.jpg",
+        "start": "2022-07-22 09:00:00",
+        "start_server": true,
+        "end": "2022-07-31 23:59:00",
+        "end_server": true,
+        "reminder": "end"
+    },
+    {
         "name": "Next Special Program",
         "type": "Stream",
         "prediction": true,
