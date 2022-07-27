@@ -1478,7 +1478,8 @@
     {
         "name": "Event Wish \"Tapestry of Golden Flames\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/8VHahtt.png",
+        "link": "https://www.hoyolab.com/article/6197311",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/07/27/1015537/ed728fe4ed6b1b618289320855c8e3d5_8687552112713500420.jpg",
         "start": "2022-08-02 18:00:00",
         "end": "2022-08-23 14:59:00",
         "reminder": "end"
@@ -1486,7 +1487,8 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/8VHahtt.png",
+        "link": "https://www.hoyolab.com/article/6197314",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/07/27/1015537/928723aa2a8f8f46b3cde25a99825dac_3812465405169156817.jpg",
         "start": "2022-08-02 18:00:00",
         "end": "2022-08-23 14:59:00",
         "reminder": "end"
@@ -1504,7 +1506,10 @@
     {
         "name": "Reminiscent Regimen",
         "type": "In-game",
-        "img": "https://i.imgur.com/ZIPDliq.png"
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/07/27/1015537/1e44df63d26a6f56287efbd6e715cb88_5110077629881116267.jpg",
+        "start": "2022-08-04 10:00:00",
+        "end": "2022-08-15 03:59:00",
+        "reminder": "end"
     },
     {
         "name": "Resonating Visions",
@@ -1528,7 +1533,10 @@
     {
         "name": "Evermotion Mechanical Painting",
         "type": "In-game",
-        "img": "https://i.imgur.com/LqQmtWh.png"
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/07/27/1015537/6c08b15407761e57737edb259a085982_628465162395504061.jpg",
+        "start": "2022-08-12 10:00:00",
+        "end": "2022-08-22 03:59:00",
+        "reminder": "end"
     },
     {
         "name": "\"Bouncing Blobby Slimes\" Web Event",
