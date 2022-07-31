@@ -2391,10 +2391,128 @@
   },
   "42": {
     "teams": 2,
-    "leyline": "All party members receive a 75% Pyro DMG Bonus"
+    "leyline": "All party members receive a 75% Pyro DMG Bonus",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 88,
+        "conds": "More than 20/40/60% HP left",
+        "monsters": [
+          [
+            "Ice Shieldwall Mitachurl",
+            "Cryo Specter",
+            "Hydro Specter",
+            "Large Cryo Slime",
+            "Cryo Slime"
+          ],
+          [
+            "Treasure Hoarders: Gravedigger",
+            "Treasure Hoarders: Seaman",
+            "Treasure Hoarders: Pugilist",
+            "Treasure Hoarders: Crusher",
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders: Hydro Potioneer",
+            "Treasure Hoarders: Electro Potioneer",
+            "Treasure Hoarders: Cryo Potioneer"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 90,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Rimebiter Bathysmal Vishap Hatchling",
+            "Bolteater Bathysmal Vishap Hatchling",
+            "Cryo Specter",
+            "Electro Specter",
+            "Hydro Specter"
+          ],
+          [
+            "Fatui Pyro Agent",
+            "Fatui Cryo Cicin Mage",
+            "Fatui Electro Cicin Mage",
+            "Fatui Skirmisher - Cryogunner Legionnaire",
+            "Fatui Skirmisher - Hydrogunner Legionnaire",
+            "Fatui Skirmisher - Pyroslinger Bracer"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 92,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Thunder Manifestation"
+          ],
+          [
+            "Cryo Abyss Mage",
+            "Hydro Abyss Mage",
+            "Electro Abyss Mage"
+          ]
+        ]
+      }
+    ]
   },
   "43": {
     "teams": 2,
-    "leyline": "For this floor only, the ley line flow will be normal."
+    "leyline": "For this floor only, the ley line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 95,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Frostarm Lawachurl",
+            "Ice Shieldwall Mitachurl",
+            "Cryo Samachurl",
+            "Pyro Hilichurl Shooter",
+            "Cryo Hilichurl Shooter",
+            "Electro Hilichurl Shooter",
+            "Ice Shield Hilichurl Guard"
+          ],
+          [
+            "Kairagi: Dancing Thunder",
+            "Kairagi: Fiery Might",
+            "Nobushi: Jintouban",
+            "Nobushi: Hitsukeban",
+            "Nobushi: Kikouban"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 98,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Cryo Hypostasis"
+          ],
+          [
+            "Ruin Grader",
+            "Ruin Cruiser",
+            "Ruin Destroyer",
+            "Ruin Scout"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 100,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Mirror Maiden",
+            "Fatui Skirmisher - Cryogunner Legionnaire"
+          ],
+          [
+            "Ruin Serpent"
+          ]
+        ]
+      }
+    ]
   }
 }
