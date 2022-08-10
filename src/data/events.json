@@ -1506,7 +1506,8 @@
     {
         "name": "Reminiscent Regimen",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/07/27/1015537/1e44df63d26a6f56287efbd6e715cb88_5110077629881116267.jpg",
+        "link": "https://www.hoyolab.com/article/6579482",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/08/02/1015537/b29b96c97277a8fefabb63da6b8f0cd3_5498777567991819303.jpg",
         "start": "2022-08-04 10:00:00",
         "end": "2022-08-15 03:59:00",
         "reminder": "end"
@@ -1533,7 +1534,8 @@
     {
         "name": "Evermotion Mechanical Painting",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/07/27/1015537/6c08b15407761e57737edb259a085982_628465162395504061.jpg",
+        "link": "https://www.hoyolab.com/article/6857289",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/08/09/5fc9ad7662824d36df50bbcaba8bf648_8255495668819400801.jpg",
         "start": "2022-08-12 10:00:00",
         "end": "2022-08-22 03:59:00",
         "reminder": "end"
