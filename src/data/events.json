@@ -1561,14 +1561,15 @@
         "reminder": "end"
     },
     {
-        "name": "Next Special Program",
+        "name": "3.0 Special Program",
         "type": "Stream",
-        "prediction": true,
-        "start": "2022-08-12 08:00:00",
+        "link": "https://www.hoyolab.com/article/6898770",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/08/11/e64bd0218f81a1a73e4221bdea0b7771_1055986311539742240.png",
+        "start": "2022-08-13 08:00:00",
         "timezone": "-04:00"
     },
     {
-        "name": "Next Maintenance",
+        "name": "3.0 Maintenance",
         "type": "Maintenance",
         "prediction": true,
         "start": "2022-08-24 06:00:00",
