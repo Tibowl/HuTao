@@ -1459,7 +1459,6 @@
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/5915988",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/1015537/1667dc1eb265d1638839ad3d0c52dbc8_7584677411521188711.jpg",
-        "prediction": true,
         "start": "2022-07-13 11:00:00",
         "start_server": false,
         "end": "2022-08-02 17:59:00",
@@ -1571,8 +1570,100 @@
     {
         "name": "3.0 Maintenance",
         "type": "Maintenance",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/08/13/0c55b7df66c2e7571f347a3b188c5301_162787463723504107.jpg",
         "prediction": true,
         "start": "2022-08-24 06:00:00",
         "end": "2022-08-24 11:00:00"
+    },
+    {
+        "name": "Event Wish \"Viridescent Vigil\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/6jxGpvP.jpeg",
+        "start": "2022-08-24 11:00:00",
+        "start_server": false,
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Gentry of Hermitage\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/6jxGpvP.jpeg",
+        "start": "2022-08-24 11:00:00",
+        "start_server": false,
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "start": "2022-08-24 11:00:00",
+        "start_server": false,
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish  \"Adrift in the Harbor\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/81TPwmL.png",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Drifting Luminescence\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/81TPwmL.png",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Graven Innocence\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/11s9atu.jpeg",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Fayz Trials\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/wSL4Nyu.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Tablet Analytics\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/Y1qqRAk.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Lost Riches\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/iHjOd1W.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Ley Line Overflow\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/07/01/1015537/d76cdab75f5f952a213e564f6b0a5a51_2925082494527873427.jpg",
+        "reminder": "end"
+    },
+    {
+        "name": "3.1 Maintenance",
+        "type": "Maintenance",
+        "prediction": true,
+        "start": "2022-09-28 06:00:00",
+        "end": "2022-09-28 11:00:00"
+    },
+    {
+        "name": "3.2 Maintenance",
+        "type": "Maintenance",
+        "prediction": true,
+        "start": "2022-11-02 06:00:00",
+        "end": "2022-11-02 11:00:00"
+    },
+    {
+        "name": "3.3 Maintenance",
+        "type": "Maintenance",
+        "prediction": true,
+        "start": "2022-12-07 06:00:00",
+        "end": "2022-12-07 11:00:00"
     }
 ]

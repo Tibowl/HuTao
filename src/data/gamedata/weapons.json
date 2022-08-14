@@ -3477,6 +3477,14 @@
       }
     ]
   },
+  "End of the Line": {
+    "name": "End of the Line",
+    "desc": "This seems to be a now-extinct fish. Its body is sufficiently elastic that a string may be attached to it to let it serve as a bow.",
+    "weaponType": "Bow",
+    "stars": 4,
+    "placeholder": true,
+    "icon": "https://act.hoyoverse.com/ys/event/e20220814prev/images/weapon2.bc6bcb86..png"
+  },
   "Engulfing Lightning": {
     "name": "Engulfing Lightning",
     "desc": "A naginata used to \"cut grass.\" Any army that stands before this weapon will probably be likewise cut down...",
@@ -4977,6 +4985,14 @@
       }
     ]
   },
+  "Forest Regalia": {
+    "name": "Forest Regalia",
+    "desc": "*No description available*",
+    "weaponType": "Claymore",
+    "stars": 4,
+    "placeholder": true,
+    "icon": "https://i.imgur.com/OAnwJqF.png"
+  },
   "Freedom-Sworn": {
     "name": "Freedom-Sworn",
     "desc": "A straight sword, azure as antediluvian song, and as keen as the oaths of freedom taken in the Land of Wind.",
@@ -5226,6 +5242,14 @@
         "desc": "Hitting an opponent with Normal and Charged Attacks has a **100%** chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to **140%** of ATK. Opponents affected by Cryo are instead dealt DMG equal to **360%** of ATK. Can only occur once every 10s."
       }
     ]
+  },
+  "Fruit of Fulfillment": {
+    "name": "Fruit of Fulfillment",
+    "desc": "*No description available*",
+    "weaponType": "Catalyst",
+    "stars": 4,
+    "placeholder": true,
+    "icon": "https://i.imgur.com/Z0YNRbD.png"
   },
   "Hakushin Ring": {
     "name": "Hakushin Ring",
@@ -5928,6 +5952,14 @@
     "lore": "Legend has it that Mondstadt once played host to one who made music on bowstrings—\nOr perhaps it might be more fitting to say that this wandering musician used an instrument's strings to fire arrows.\nBut this is naught but an old folk legend.",
     "refinements": []
   },
+  "Hunter's Path": {
+    "name": "Hunter's Path",
+    "desc": "This gilded bow was made using precious white branches. It has felled countless wicked beasts attempting to infiltrate the woods.",
+    "weaponType": "Bow",
+    "stars": 5,
+    "placeholder": true,
+    "icon": "https://act.hoyoverse.com/ys/event/e20220814prev/images/weapon1.6015251b..png"
+  },
   "Iron Point": {
     "name": "Iron Point",
     "desc": "Sharp and pointy at one end, it is a balanced weapon that is quite popular among travelers.",
@@ -6487,6 +6519,14 @@
         "desc": "Increases Elemental Skill DMG by **12%**. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates **5** Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
       }
     ]
+  },
+  "King's Squire": {
+    "name": "King's Squire",
+    "desc": "*No description available*",
+    "weaponType": "Bow",
+    "stars": 4,
+    "placeholder": true,
+    "icon": "https://i.imgur.com/vaKm29s.png"
   },
   "Kitain Cross Spear": {
     "name": "Kitain Cross Spear",
@@ -7987,6 +8027,14 @@
         "desc": "Normal Attack hits on opponents increase Elemental Skill DMG by **40%** for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by **40%** for 5s."
       }
     ]
+  },
+  "Moonpiercer": {
+    "name": "Moonpiercer",
+    "desc": "*No description available*",
+    "weaponType": "Polearm",
+    "stars": 4,
+    "placeholder": true,
+    "icon": "https://i.imgur.com/vuMXYmc.png"
   },
   "Mouun's Moon": {
     "name": "Mouun's Moon",
@@ -11373,6 +11421,14 @@
         "desc": "After damaging an opponent with an Elemental Skill, the skill has a **80%** chance to end its own CD. Can only occur once every **16s**."
       }
     ]
+  },
+  "Sapwood Blade": {
+    "name": "Sapwood Blade",
+    "desc": "*No description available*",
+    "weaponType": "Catalyst",
+    "stars": 4,
+    "placeholder": true,
+    "icon": "https://i.imgur.com/fdsN9c5.png"
   },
   "Seasoned Hunter's Bow": {
     "name": "Seasoned Hunter's Bow",

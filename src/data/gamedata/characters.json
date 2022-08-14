@@ -4521,7 +4521,8 @@
   },
   "Collei": {
     "name": "Collei",
-    "desc": "\"Oh, you're going to Sumeru? Can you give my regards to Collei? Well... it's been so long, I wonder if her hair has grown out and if she's taller?\" — Amber",
+    "desc": "A trainee ranger active in Avidya Forest. Behind her enthusiastic words and actions hides a slightly introverted personality.",
+    "star": 4,
     "weaponType": "Bow",
     "icon": "https://i.imgur.com/na2IRvM.png",
     "media": {
@@ -4533,11 +4534,32 @@
     "meta": {
       "association": "Sumeru",
       "title": "Sprout of Rebirth",
-      "detail": "\"Oh, you're going to Sumeru? Can you give my regards to Collei? Well... it's been so long, I wonder if her hair has grown out and if she's taller?\" — Amber",
+      "detail": "A trainee ranger active in Avidya Forest. Behind her enthusiastic words and actions hides a slightly introverted personality.",
       "constellation": "Leptailurus Cervarius",
       "affiliation": "Avidya Forest Ranger Trainee",
       "element": "Dendro"
-    }
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Floral Brush",
+            "desc": "Collei's Elemental Skill throws out a **Floral Ring** that will deal **Dendro DMG** to opponents as it flies outward and back."
+          }
+        ],
+        "ult": {
+          "name": "Trump-Card Kitty",
+          "desc": "Her Elemental Burst will summon a **Cuilein-Anbar Doll** to go jumping around a certain area, dealing continuous **Dendro DMG** to opponents within it.",
+          "type": "Dendro"
+        },
+        "passive": [
+          {
+            "name": "Gliding Champion of Sumeru",
+            "desc": "Decreases all party members' gliding Stamina consumption."
+          }
+        ]
+      }
+    ]
   },
   "Diluc": {
     "name": "Diluc",
@@ -5737,8 +5759,10 @@
   },
   "Dori": {
     "name": "Dori",
-    "desc": "\"No matter how rare the experimental materials are, you can buy them from Dori. I don't know where she gets her goods from... Also, make sure you pay attention to the price when you buy from her. My heart aches every time I pay the bill.\" — Tighnari",
-    "icon": "https://i.imgur.com/UhToAdl.png",
+    "desc": "An elusive merchant who has a fondness for glittering Mora.",
+    "star": 4,
+    "weaponType": "Claymore",
+    "icon": "https://i.imgur.com/E5qWiDf.png",
     "media": {
       "imgs": [
         "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/1015537/da95988f4bc8fd46ef2067c06d0a9b20_8226307082552196439.jpg",
@@ -5748,11 +5772,32 @@
     "meta": {
       "association": "Sumeru",
       "title": "Treasure of Dream Garden",
-      "detail": "\"No matter how rare the experimental materials are, you can buy them from Dori. I don't know where she gets her goods from... Also, make sure you pay attention to the price when you buy from her. My heart aches every time I pay the bill.\" — Tighnari",
+      "detail": "An elusive merchant who has a fondness for glittering Mora.",
       "constellation": "Magicae Lucerna",
       "affiliation": "Sumeru Merchant",
       "element": "Electro"
-    }
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Spirit-Warding Lamp: Troubleshooter Cannon",
+            "desc": "Her Elemental Skill fires off **Troubleshooter Shots** and upon hitting opponents, creates two homing **After-Sales Service Rounds**."
+          }
+        ],
+        "ult": {
+          "name": "Alcazarzaray's Exactitude",
+          "desc": "Her Elemental Burst summons a **Jinni** that can connect to a nearby character, constantly regenerating their HP and Elemental Energy. When the connector between the **Jinni** and the character touches opponents, it will deal **Electro DMG** to them.",
+          "type": "Electro"
+        },
+        "passive": [
+          {
+            "name": "Unexpected Order",
+            "desc": "When Dori crafts Character and Weapon Level-Up Materials, she has a chance to refund a portion of the crafting materials used."
+          }
+        ]
+      }
+    ]
   },
   "Eula": {
     "name": "Eula",
@@ -22838,7 +22883,9 @@
   },
   "Tighnari": {
     "name": "Tighnari",
-    "desc": "\"A message for you. I brought back a specialty from the desert, two packs of honeyed dates, which helps to replenish your energy, whether in the morning or at night. Thank you for your patience in teaching and taking care of Collei. Good luck with your work and best wishes for Collei's studies.\"\n—An anonymously written message left inside a candy box, placed on the watcher's table.",
+    "desc": "A young researcher well-versed in botany who currently serves as a Forest Watcher in Avidya Forest. He is a straight shooter with a warm heart — and a dab hand at guiding even the dullest of pupils.",
+    "star": 5,
+    "weaponType": "Bow",
     "icon": "https://i.imgur.com/UhToAdl.png",
     "media": {
       "imgs": [
@@ -22849,11 +22896,37 @@
     "meta": {
       "association": "Sumeru",
       "title": "Verdant Strider",
-      "detail": "\"A message for you. I brought back a specialty from the desert, two packs of honeyed dates, which helps to replenish your energy, whether in the morning or at night. Thank you for your patience in teaching and taking care of Collei. Good luck with your work and best wishes for Collei's studies.\"\n—An anonymously written message left inside a candy box, placed on the watcher's table.",
+      "detail": "A young researcher well-versed in botany who currently serves as a Forest Watcher in Avidya Forest. He is a straight shooter with a warm heart — and a dab hand at guiding even the dullest of pupils.",
       "constellation": "Vulpes Zerda",
       "affiliation": "Avidya Forest Watcher",
       "element": "Dendro"
-    }
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Khanda Barrier-Buster",
+            "desc": "Tighnari's Aimed Shot has two Charge Levels, and can be charged to fire a **Wreath Arrow** which will generate homing **Clusterbloom Arrows** after hitting.",
+            "icon": "img/skill/Common_Bow.png"
+          },
+          {
+            "name": "Vijnana-Phala Mine",
+            "desc": "His Elemental Skill creates a **Vijnana-Khanda Field** that creates mysterious illusions that taunt opponents and decreases the charging time for the next three **Wreath Arrows**."
+          }
+        ],
+        "ult": {
+          "name": "Fashioner's Tanglevine Shaft",
+          "desc": "When Tighnari uses his Elemental Burst, he will fire a great number of homing **Tanglevine Shafts**. These **Tanglevine Shafts** will create secondary shots after hitting.",
+          "type": "Dendro"
+        },
+        "passive": [
+          {
+            "name": "Encyclopedic Knowledge",
+            "desc": "During exploration, Tighnari's Exploration Talent Shows nearby resources unique to Sumeru on the mini-map."
+          }
+        ]
+      }
+    ]
   },
   "Traveler": {
     "name": "Traveler",
