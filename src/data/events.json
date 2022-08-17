@@ -1560,6 +1560,15 @@
         "reminder": "end"
     },
     {
+        "name": "\"A Journey Through Pages\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/7018436",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/08/17/ec82c0cd5edc2007425e01f87aefc7ba_2722372041559016076.jpg",
+        "start": "2022-08-17 09:00:00",
+        "end": "2022-08-23 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "3.0 Special Program",
         "type": "Stream",
         "link": "https://www.hoyolab.com/article/6898770",
