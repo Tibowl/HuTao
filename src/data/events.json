@@ -1569,6 +1569,15 @@
         "reminder": "end"
     },
     {
+        "name": "\"Go Go, Forest Rangers!\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/7056771",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/08/18/8f3f4a5b341d295738f14d3991cd42dc_227533335248747504.jpg",
+        "start": "2022-08-19 12:00:00",
+        "end": "2022-08-24 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "3.0 Special Program",
         "type": "Stream",
         "link": "https://www.hoyolab.com/article/6898770",
