@@ -29,7 +29,7 @@ intents.add(
 )
 
 const filterAll = {
-    filter: () => () => true,
+    filter: () => () => config.production,
     interval: 5 * 60
 }
 

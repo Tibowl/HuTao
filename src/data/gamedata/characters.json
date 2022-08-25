@@ -271,7 +271,7 @@
           "icon": "img/skill/Albedo_2.png",
           "talentTable": [
             {
-              "name": "Elemental Burst DMG",
+              "name": "Burst DMG",
               "values": [
                 "367%",
                 "395%",
@@ -2913,7 +2913,7 @@
                 ]
               },
               {
-                "name": "Charged Attack Spinning DMG",
+                "name": "Charged Attack Cyclic DMG",
                 "values": [
                   "56.2%",
                   "60.8%",
@@ -4105,7 +4105,7 @@
                 ]
               },
               {
-                "name": "Charged Attack Spinning DMG",
+                "name": "Charged Attack Cyclic DMG",
                 "values": [
                   "56.3%",
                   "60.9%",
@@ -4522,44 +4522,529 @@
   "Collei": {
     "name": "Collei",
     "desc": "A trainee ranger active in Avidya Forest. Behind her enthusiastic words and actions hides a slightly introverted personality.",
+    "releasedOn": "2022-08-24 00:00:00",
     "star": 4,
     "weaponType": "Bow",
-    "icon": "https://i.imgur.com/na2IRvM.png",
+    "icon": "img/char/Collei.png",
     "media": {
       "imgs": [
         "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/1015537/ec24135ef629a8907787d302c88a4936_3952715796977164450.jpg",
         "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/1015537/24df2696a72666ac91ec2091584e1a71_5530636827900312701.jpg"
       ]
     },
+    "baseStats": {
+      "hpBase": 820.6118774414062,
+      "attackBase": 16.739519119262695,
+      "defenseBase": 50.358001708984375,
+      "criticalBase": 0.05000000074505806,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 4*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 4*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 4*"
+      }
+    ],
     "meta": {
+      "birthMonth": 5,
+      "birthDay": 8,
       "association": "Sumeru",
       "title": "Sprout of Rebirth",
       "detail": "A trainee ranger active in Avidya Forest. Behind her enthusiastic words and actions hides a slightly introverted personality.",
+      "affiliation": "Gandharva Ville",
+      "element": "Dendro",
       "constellation": "Leptailurus Cervarius",
-      "affiliation": "Avidya Forest Ranger Trainee",
-      "element": "Dendro"
+      "cvChinese": "秦文静",
+      "cvJapanese": "前川涼子",
+      "cvEnglish": "Christina Costello",
+      "cvKorean": "Bang Siu"
     },
     "skills": [
       {
         "talents": [
           {
+            "name": "Normal Attack: Supplicant's Bowmanship",
+            "desc": "**Normal Attack**\nPerform up to 4 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, Dendro energy will accumulate on the arrowhead. A fully charged arrow will deal **Dendro DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "icon": "img/skill/Common_Bow.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "43.6%",
+                  "47.2%",
+                  "50.7%",
+                  "55.8%",
+                  "59.3%",
+                  "63.4%",
+                  "69.0%",
+                  "74.5%",
+                  "80.1%",
+                  "86.2%",
+                  "92.3%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "42.7%",
+                  "46.1%",
+                  "49.6%",
+                  "54.6%",
+                  "58.0%",
+                  "62.0%",
+                  "67.5%",
+                  "72.9%",
+                  "78.4%",
+                  "84.3%",
+                  "90.3%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "54.1%",
+                  "58.5%",
+                  "62.9%",
+                  "69.2%",
+                  "73.6%",
+                  "78.6%",
+                  "85.5%",
+                  "92.5%",
+                  "99.4%",
+                  "106.9%",
+                  "114.5%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "68.0%",
+                  "73.6%",
+                  "79.1%",
+                  "87.0%",
+                  "92.5%",
+                  "98.9%",
+                  "107.6%",
+                  "116.3%",
+                  "125.0%",
+                  "134.5%",
+                  "144.0%"
+                ]
+              },
+              {
+                "name": "Aimed Shot",
+                "values": [
+                  "43.9%",
+                  "47.4%",
+                  "51.0%",
+                  "56.1%",
+                  "59.7%",
+                  "63.7%",
+                  "69.4%",
+                  "75.0%",
+                  "80.6%",
+                  "86.7%",
+                  "92.8%"
+                ]
+              },
+              {
+                "name": "Fully-Charged Aimed Shot",
+                "values": [
+                  "124%",
+                  "133%",
+                  "143%",
+                  "155%",
+                  "164%",
+                  "174%",
+                  "186%",
+                  "198%",
+                  "211%",
+                  "223%",
+                  "236%"
+                ]
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "56.8%",
+                  "61.5%",
+                  "66.1%",
+                  "72.7%",
+                  "77.3%",
+                  "82.6%",
+                  "89.9%",
+                  "97.1%",
+                  "104.4%",
+                  "112.3%",
+                  "120.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "114%/142%",
+                  "123%/153%",
+                  "132%/165%",
+                  "145%/182%",
+                  "155%/193%",
+                  "165%/206%",
+                  "180%/224%",
+                  "194%/243%",
+                  "209%/261%",
+                  "225%/281%",
+                  "240%/300%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Praxis",
+                "BossMat": "Tears of the Calamitous God",
+                "EnemyDropTier1": "Firm Arrowhead",
+                "EnemyDropTier2": "Sharp Arrowhead",
+                "EnemyDropTier3": "Weathered Arrowhead"
+              }
+            }
+          },
+          {
             "name": "Floral Brush",
-            "desc": "Collei's Elemental Skill throws out a **Floral Ring** that will deal **Dendro DMG** to opponents as it flies outward and back."
+            "desc": "Throws out a Floral Ring that deals 1 instance of **Dendro DMG** to targets it comes into contact with.\nThe Floral Ring will return after a set time, dealing **Dendro DMG** once again.\n\n**This is Collei's go-to gadget for dealing with unruly wild beasts. A few good thwacks from this tool will generally improve their behavior. This same principle works just as well on evildoers.**",
+            "icon": "img/skill/Collei_1.png",
+            "talentTable": [
+              {
+                "name": "Skill DMG",
+                "values": [
+                  "151.2%",
+                  "162.5%",
+                  "173.9%",
+                  "189.0%",
+                  "200.3%",
+                  "211.7%",
+                  "226.8%",
+                  "241.9%",
+                  "257.0%",
+                  "272.2%",
+                  "287.3%",
+                  "302.4%",
+                  "321.3%"
+                ]
+              },
+              {
+                "name": "CD",
+                "value": "12.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Praxis",
+                "BossMat": "Tears of the Calamitous God",
+                "EnemyDropTier1": "Firm Arrowhead",
+                "EnemyDropTier2": "Sharp Arrowhead",
+                "EnemyDropTier3": "Weathered Arrowhead"
+              }
+            }
           }
         ],
         "ult": {
           "name": "Trump-Card Kitty",
-          "desc": "Her Elemental Burst will summon a **Cuilein-Anbar Doll** to go jumping around a certain area, dealing continuous **Dendro DMG** to opponents within it.",
+          "desc": "Trusty Cuilein-Anbar comes to save the day!\nThrows the doll named Cuilein-Anbar, causing an explosion that deals **AoE Dendro DMG**, creating a Cuilein-Anbar Zone. Cuilein-Anbar will bounce around within this zone, dealing **AoE Dendro DMG**.\n\n**\"Pretty impressive, huh? ... Eh? You want to know how I came up with the name Cuilein-Anbar? Uh, well, I...\"**",
+          "icon": "img/skill/Collei_2.png",
+          "talentTable": [
+            {
+              "name": "Explosion DMG",
+              "values": [
+                "201.8%",
+                "217.0%",
+                "232.1%",
+                "252.3%",
+                "267.4%",
+                "282.6%",
+                "302.7%",
+                "322.9%",
+                "343.1%",
+                "363.3%",
+                "383.5%",
+                "403.6%",
+                "428.9%"
+              ]
+            },
+            {
+              "name": "Leap DMG",
+              "values": [
+                "43.2%",
+                "46.5%",
+                "49.7%",
+                "54.1%",
+                "57.3%",
+                "60.5%",
+                "64.9%",
+                "69.2%",
+                "73.5%",
+                "77.8%",
+                "82.2%",
+                "86.5%",
+                "91.9%"
+              ]
+            },
+            {
+              "name": "Duration",
+              "value": "6.0s"
+            },
+            {
+              "name": "CD",
+              "value": "15.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "60"
+            }
+          ],
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Praxis",
+              "BossMat": "Tears of the Calamitous God",
+              "EnemyDropTier1": "Firm Arrowhead",
+              "EnemyDropTier2": "Sharp Arrowhead",
+              "EnemyDropTier3": "Weathered Arrowhead"
+            }
+          },
           "type": "Dendro"
         },
         "passive": [
           {
+            "name": "Floral Sidewinder",
+            "desc": "If one of your party members has triggered Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions before the **Floral Ring** returns, it will grant the character the Sprout effect upon return, which will continuously deal **Dendro DMG** equivalent to 40% of Collei's ATK to nearby opponents for 3s.\nIf another Sprout effect is triggered during its initial duration, the initial effect will be removed. DMG dealt by Sprout is considered Elemental Skill DMG.",
+            "icon": "img/skill/Collei_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "The Languid Wood",
+            "desc": "When a character within the **Cuilein-Anbar Zone** triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions, the Zone's duration will be increased by 1s.\nA single **Trump-Card Kitty** can be extended by up to 3s.",
+            "icon": "img/skill/Collei_4.png",
+            "minAscension": 4
+          },
+          {
             "name": "Gliding Champion of Sumeru",
-            "desc": "Decreases all party members' gliding Stamina consumption."
+            "desc": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+            "icon": "img/skill/Common_Decrease_Gliding_Stamina.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Deepwood Patrol",
+            "desc": "When in the party and not on the field, Collei's Energy Recharge is increased by 20%.",
+            "icon": "img/const/Collei_1.png"
+          },
+          {
+            "name": "Through Hill and Copse",
+            "desc": "The Passive Talent Floral Sidewinder is changed to this:\nThe **Floral Ring** will grant the character the Sprout effect from Floral Sidewinder upon return, dealing 40% of Collei's ATK as **Dendro DMG** to nearby opponents for 3s.\nFrom the moment of using **Floral Brush** to the moment when this instance of Sprout effect ends, if any of your party members triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions, the Sprout effect will be extended by 3s.\nThe Sprout effect can only be extended this way once. If another Sprout effect is triggered during its initial duration, the initial effect will be removed. DMG dealt by Sprout is considered Elemental Skill DMG.\nRequires you to have unlocked the Floral Sidewinder Passive Talent.",
+            "icon": "img/const/Collei_2.png"
+          },
+          {
+            "name": "Scent of Summer",
+            "desc": "Increases the Level of **Floral Brush** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Collei_3.png"
+          },
+          {
+            "name": "Gift of the Woods",
+            "desc": "Using **Trump-Card Kitty** will increase all nearby characters' Elemental Mastery by 60 for 12s (not including Collei herself).",
+            "icon": "img/const/Collei_4.png"
+          },
+          {
+            "name": "All Embers",
+            "desc": "Increases the Level of **Trump-Card Kitty** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Collei_5.png"
+          },
+          {
+            "name": "Forest of Falling Arrows",
+            "desc": "When the **Floral Ring** hits, it will create a miniature Cuilein-Anbar that will deal 200% of Collei's ATK as **Dendro DMG**.\nEach **Floral Brush** can only create one such miniature Cuilein-Anbar.",
+            "icon": "img/const/Collei_6.png"
           }
         ]
       }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "ATK%",
+            "value": 0
+          }
     ]
+  },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 613.0391235351562
+          },
+          {
+            "stat": "Base DEF",
+            "value": 37.619998931884766
+          },
+          {
+            "stat": "Base ATK",
+            "value": 12.505572319030762
+          },
+          {
+            "stat": "ATK%",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1048.6195068359375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 64.3499984741211
+          },
+          {
+            "stat": "Base ATK",
+            "value": 21.391109466552734
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.05999999865889549
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1629.3934326171875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 99.98999786376953
+          },
+          {
+            "stat": "Base ATK",
+            "value": 33.238494873046875
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2064.973876953125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 126.72000122070312
+          },
+          {
+            "stat": "Base ATK",
+            "value": 42.12403106689453
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2500.55419921875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 153.4499969482422
+          },
+          {
+            "stat": "Base ATK",
+            "value": 51.00957107543945
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.18000000715255737
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2936.134765625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 180.17999267578125
+          },
+          {
+            "stat": "Base ATK",
+            "value": 59.89510726928711
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.23999999463558197
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Majestic Hooked Beak",
+        "EnemyDropTier1": "Firm Arrowhead",
+        "EnemyDropTier2": "Sharp Arrowhead",
+        "EnemyDropTier3": "Weathered Arrowhead",
+        "Gem1": "Nagadus Emerald Sliver",
+        "Gem2": "Nagadus Emerald Fragment",
+        "Gem3": "Nagadus Emerald Chunk",
+        "Gem4": "Nagadus Emerald Gemstone",
+        "Specialty": "Rukkhashava Mushrooms"
+      }
+    }
   },
   "Diluc": {
     "name": "Diluc",
@@ -4602,7 +5087,7 @@
       "birthMonth": 4,
       "birthDay": 30,
       "association": "Mondstadt",
-      "title": "The Dark Side of Dawn",
+      "title": "Dark Side of Dawn",
       "detail": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
       "affiliation": "Dawn Winery",
       "element": "Pyro",
@@ -4685,7 +5170,7 @@
                 ]
               },
               {
-                "name": "Charged Attack Spinning DMG",
+                "name": "Charged Attack Cyclic DMG",
                 "values": [
                   "68.8%",
                   "74.4%",
@@ -4770,7 +5255,7 @@
           },
           {
             "name": "Searing Onslaught",
-            "desc": "Performs a forward slash that deals **Pyro DMG**.\n\nThis skill can be consecutively used 3 times. Enters CD if not cast again within a short period.\n\n**The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.**",
+            "desc": "Performs a forward slash that deals **Pyro DMG**.\n\nThis skill can be consecutively used 3 times.\nEnters CD if not cast again within a short period.\n\n**The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.**",
             "icon": "img/skill/Diluc_1.png",
             "talentTable": [
               {
@@ -9018,7 +9503,7 @@
               },
               {
                 "name": "Stamina Consumption",
-                "value": "20.0 Per Second"
+                "value": "20.0/s"
               },
               {
                 "name": "Max Duration",
@@ -9047,7 +9532,7 @@
           "icon": "img/skill/Jean_2.png",
           "talentTable": [
             {
-              "name": "Elemental Burst DMG",
+              "name": "Burst DMG",
               "values": [
                 "425%",
                 "457%",
@@ -9103,19 +9588,19 @@
             {
               "name": "Continuous Regeneration",
               "values": [
-                "25.12% ATK+154",
-                "27.00% ATK+169",
-                "28.89% ATK+186",
-                "31.40% ATK+204",
-                "33.28% ATK+223",
-                "35.17% ATK+244",
-                "37.68% ATK+266",
-                "40.19% ATK+289",
-                "42.70% ATK+313",
-                "45.22% ATK+339",
-                "47.73% ATK+366",
-                "50.24% ATK+394",
-                "53.38% ATK+424"
+                "25.12% ATK+154/s",
+                "27.00% ATK+169/s",
+                "28.89% ATK+186/s",
+                "31.40% ATK+204/s",
+                "33.28% ATK+223/s",
+                "35.17% ATK+244/s",
+                "37.68% ATK+266/s",
+                "40.19% ATK+289/s",
+                "42.70% ATK+313/s",
+                "45.22% ATK+339/s",
+                "47.73% ATK+366/s",
+                "50.24% ATK+394/s",
+                "53.38% ATK+424/s"
               ]
             },
             {
@@ -14631,7 +15116,7 @@
           },
           {
             "name": "Mirror Reflection of Doom",
-            "desc": "Creates an illusory Phantom of Fate from coalesced waterspouts.\n\nThe **Phantom** has the following special properties:\n·Continuously taunts nearby opponents, attracting their fire.\n·Continuously deals **Hydro DMG** to nearby opponents.\n·When its duration expires, the Phantom explodes, dealing **AoE Hydro DMG**.\n\n**Hold**\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\n\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\n\n**Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.**",
+            "desc": "Creates an illusory Phantom of Fate from coalesced waterspouts.\n\n**Phantom**\nHas the following special properties:\n·Continuously taunts nearby opponents, attracting their fire.\n·Continuously deals **Hydro DMG** to nearby opponents.\n·When its duration expires, the Phantom explodes, dealing **AoE Hydro DMG**.\n\n**Hold**\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\n\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\n\n**Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.**",
             "icon": "img/skill/Mona_1.png",
             "talentTable": [
               {
@@ -15612,7 +16097,7 @@
                 ]
               },
               {
-                "name": "Charged Attack Spinning DMG",
+                "name": "Charged Attack Cyclic DMG",
                 "values": [
                   "50.7%",
                   "54.9%",
@@ -17576,7 +18061,7 @@
                 ]
               },
               {
-                "name": "Charged Attack Spinning DMG",
+                "name": "Charged Attack Cyclic DMG",
                 "values": [
                   "62.5%",
                   "67.6%",
@@ -17739,7 +18224,7 @@
           "icon": "img/skill/Razor_2.png",
           "talentTable": [
             {
-              "name": "Elemental Burst DMG",
+              "name": "Burst DMG",
               "values": [
                 "160%",
                 "172%",
@@ -20642,7 +21127,7 @@
           },
           {
             "name": "Heartstopper Strike",
-            "desc": "**Tap**\nWields the swift winds to launch a Heartstopper Strike that deals **Anemo DMG**.\n\n**Hold**\nCharges energy to unleash an even stronger blow. He will obtain the Declension effect while charging, which will increase the power of the Heartstopper Strike. When the skill button is released or the skill finishes charging, he will strike forward, dealing **Anemo DMG**.\n\n**Declension**\nIncreases the power of the next Heartstopper Strike. Max 4 stacks.\nWhen you possess 4 Declension stacks, the Conviction effect will be produced, which will cause the next Hearstopper Strike to be even stronger and have a larger AoE.\n\n**This seemingly ordinary strike contains Heizou's desire for criminals to honestly confess and repent.**",
+            "desc": "**Tap**\nWields the swift winds to launch a Heartstopper Strike that deals **Anemo DMG**.\n\n**Hold**\nCharges energy to unleash an even stronger blow. He will obtain the Declension effect while charging, which will increase the power of the Heartstopper Strike. When the skill button is released or the skill finishes charging, he will strike forward, dealing **Anemo DMG**.\n\n**Declension**\nIncreases the power of the next Heartstopper Strike. Max 4 stacks.\nWhen you possess 4 Declension stacks, the Conviction effect will be produced, which will cause the next Heartstopper Strike to be even stronger and have a larger AoE.\n\n**This seemingly ordinary strike contains Heizou's desire for criminals to honestly confess and repent.**",
             "icon": "img/skill/Shikanoin_Heizou_1.png",
             "talentTable": [
               {
@@ -22884,49 +23369,565 @@
   "Tighnari": {
     "name": "Tighnari",
     "desc": "A young researcher well-versed in botany who currently serves as a Forest Watcher in Avidya Forest. He is a straight shooter with a warm heart — and a dab hand at guiding even the dullest of pupils.",
+    "releasedOn": "2022-08-24 00:00:00",
     "star": 5,
     "weaponType": "Bow",
-    "icon": "https://i.imgur.com/UhToAdl.png",
+    "icon": "img/char/Tighnari.png",
     "media": {
       "imgs": [
         "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/1015537/176aad92d61c6da625c6655681e166fa_7109809965695512857.jpg",
         "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/1015537/b95274850500f0d71f288f412afc92fb_5552825347965845106.jpg"
       ]
     },
+    "baseStats": {
+      "hpBase": 844.6415405273438,
+      "attackBase": 20.854400634765625,
+      "defenseBase": 49.06060028076172,
+      "criticalBase": 0.05000000074505806,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
     "meta": {
+      "birthMonth": 12,
+      "birthDay": 29,
       "association": "Sumeru",
       "title": "Verdant Strider",
       "detail": "A young researcher well-versed in botany who currently serves as a Forest Watcher in Avidya Forest. He is a straight shooter with a warm heart — and a dab hand at guiding even the dullest of pupils.",
+      "affiliation": "Gandharva Ville",
+      "element": "Dendro",
       "constellation": "Vulpes Zerda",
-      "affiliation": "Avidya Forest Watcher",
-      "element": "Dendro"
+      "cvChinese": "莫然",
+      "cvJapanese": "小林沙苗",
+      "cvEnglish": "Elliot Gindi",
+      "cvKorean": "Jung Ui-taek"
     },
     "skills": [
       {
         "talents": [
           {
             "name": "Normal Attack: Khanda Barrier-Buster",
-            "desc": "Tighnari's Aimed Shot has two Charge Levels, and can be charged to fire a **Wreath Arrow** which will generate homing **Clusterbloom Arrows** after hitting.",
-            "icon": "img/skill/Common_Bow.png"
+            "desc": "**Normal Attack**\nPerform up to 4 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, the power of Dendro will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off an arrow carrying the power of flora that deals **Dendro DMG**.\n·Charge Level 2: Fires off a Wreath Arrow that deals **Dendro DMG**. Upon hit, the Wreath Arrow will create 4 Clusterbloom Arrows that will track nearby opponents automatically and deal **Dendro DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "icon": "img/skill/Common_Bow.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "44.6%",
+                  "48.3%",
+                  "51.9%",
+                  "57.1%",
+                  "60.7%",
+                  "64.9%",
+                  "70.6%",
+                  "76.3%",
+                  "82.0%",
+                  "88.2%",
+                  "94.5%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "42.0%",
+                  "45.4%",
+                  "48.8%",
+                  "53.7%",
+                  "57.1%",
+                  "61.0%",
+                  "66.4%",
+                  "71.7%",
+                  "77.1%",
+                  "83.0%",
+                  "88.8%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "26.4%×2",
+                  "28.6%×2",
+                  "30.8%×2",
+                  "33.8%×2",
+                  "36.0%×2",
+                  "38.4%×2",
+                  "41.8%×2",
+                  "45.2%×2",
+                  "48.6%×2",
+                  "52.3%×2",
+                  "56.0%×2"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "68.6%",
+                  "74.2%",
+                  "79.8%",
+                  "87.8%",
+                  "93.4%",
+                  "99.8%",
+                  "108.5%",
+                  "117.3%",
+                  "126.1%",
+                  "135.7%",
+                  "145.2%"
+                ]
+              },
+              {
+                "name": "Aimed Shot",
+                "values": [
+                  "43.9%",
+                  "47.4%",
+                  "51.0%",
+                  "56.1%",
+                  "59.7%",
+                  "63.7%",
+                  "69.4%",
+                  "75.0%",
+                  "80.6%",
+                  "86.7%",
+                  "92.8%"
+                ]
+              },
+              {
+                "name": "Level 1 Aimed Shot",
+                "values": [
+                  "124%",
+                  "133%",
+                  "143%",
+                  "155%",
+                  "164%",
+                  "174%",
+                  "186%",
+                  "198%",
+                  "211%",
+                  "223%",
+                  "236%"
+                ]
+              },
+              {
+                "name": "Wreath Arrow DMG",
+                "values": [
+                  "87.2%",
+                  "93.7%",
+                  "100.3%",
+                  "109.0%",
+                  "115.5%",
+                  "122.1%",
+                  "130.8%",
+                  "139.5%",
+                  "148.2%",
+                  "157.0%",
+                  "165.7%"
+                ]
+              },
+              {
+                "name": "Clusterbloom Arrow DMG",
+                "values": [
+                  "38.6%",
+                  "41.5%",
+                  "44.4%",
+                  "48.2%",
+                  "51.1%",
+                  "54.0%",
+                  "57.9%",
+                  "61.8%",
+                  "65.6%",
+                  "69.5%",
+                  "73.3%"
+                ]
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "56.8%",
+                  "61.5%",
+                  "66.1%",
+                  "72.7%",
+                  "77.3%",
+                  "82.6%",
+                  "89.9%",
+                  "97.1%",
+                  "104.4%",
+                  "112.3%",
+                  "120.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "114%/142%",
+                  "123%/153%",
+                  "132%/165%",
+                  "145%/182%",
+                  "155%/193%",
+                  "165%/206%",
+                  "180%/224%",
+                  "194%/243%",
+                  "209%/261%",
+                  "225%/281%",
+                  "240%/300%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Admonition",
+                "BossMat": "The Meaning of Aeons",
+                "EnemyDropTier1": "Fungal Spores",
+                "EnemyDropTier2": "Luminescent Pollen",
+                "EnemyDropTier3": "Crystalline Cyst Dust"
+              }
+            }
           },
           {
             "name": "Vijnana-Phala Mine",
-            "desc": "His Elemental Skill creates a **Vijnana-Khanda Field** that creates mysterious illusions that taunt opponents and decreases the charging time for the next three **Wreath Arrows**."
+            "desc": "Tighnari throws a Vijnana Stormheart ahead that deals **AoE Dendro DMG**, creating a Vijnana-Khanda Field that creates mysterious illusions that taunt opponents and draw their fire.\nAdditionally, Tighnari gains the Vijnana Suffusion effect, which will decrease the Wreath Arrow's charging time by 2.4s. This effect will dissipate once the skill duration ends or after Tighnari has fired 3 Wreath Arrows.\n\n**\"If seeds wither apart from the soil, they will remain a single seed. But if returned to the soil, they shall multiply ten-million fold.\"**",
+            "icon": "img/skill/Tighnari_1.png",
+            "talentTable": [
+              {
+                "name": "Skill DMG",
+                "values": [
+                  "149.6%",
+                  "160.8%",
+                  "172.0%",
+                  "187.0%",
+                  "198.2%",
+                  "209.4%",
+                  "224.4%",
+                  "239.4%",
+                  "254.3%",
+                  "269.3%",
+                  "284.2%",
+                  "299.2%",
+                  "317.9%"
+                ]
+              },
+              {
+                "name": "Vijnana-Khanda Field Duration",
+                "value": "8.0s"
+              },
+              {
+                "name": "Vijnana Suffusion Duration",
+                "value": "12.0s"
+              },
+              {
+                "name": "CD",
+                "value": "12.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Admonition",
+                "BossMat": "The Meaning of Aeons",
+                "EnemyDropTier1": "Fungal Spores",
+                "EnemyDropTier2": "Luminescent Pollen",
+                "EnemyDropTier3": "Crystalline Cyst Dust"
+              }
+            }
           }
         ],
         "ult": {
           "name": "Fashioner's Tanglevine Shaft",
-          "desc": "When Tighnari uses his Elemental Burst, he will fire a great number of homing **Tanglevine Shafts**. These **Tanglevine Shafts** will create secondary shots after hitting.",
+          "desc": "Combines the power of all seeds to fire 6 Tanglevine Shafts that can track opponents and deal **Dendro DMG**.\nAfter they hit, the Tanglevine Shafts will create a secondary wave of Tanglevine Shafts that can also track opponents and deal **Dendro DMG** on hit.\n\n**\"Do not seek to escape so easily. The vines grow and regrow ever on. Things might get dicey if you don't clear every last one of them out.\"**",
+          "icon": "img/skill/Tighnari_2.png",
+          "talentTable": [
+            {
+              "name": "Tanglevine Shaft DMG",
+              "values": [
+                "55.6%",
+                "59.8%",
+                "64.0%",
+                "69.5%",
+                "73.7%",
+                "77.9%",
+                "83.4%",
+                "89.0%",
+                "94.6%",
+                "100.1%",
+                "105.7%",
+                "111.2%",
+                "118.2%"
+              ]
+            },
+            {
+              "name": "Secondary Tanglevine Shaft DMG",
+              "values": [
+                "68.0%",
+                "73.1%",
+                "78.2%",
+                "85.0%",
+                "90.1%",
+                "95.2%",
+                "102.0%",
+                "108.8%",
+                "115.6%",
+                "122.4%",
+                "129.2%",
+                "136.0%",
+                "144.5%"
+              ]
+            },
+            {
+              "name": "CD",
+              "value": "12.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "40"
+            }
+          ],
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Admonition",
+              "BossMat": "The Meaning of Aeons",
+              "EnemyDropTier1": "Fungal Spores",
+              "EnemyDropTier2": "Luminescent Pollen",
+              "EnemyDropTier3": "Crystalline Cyst Dust"
+            }
+          },
           "type": "Dendro"
         },
         "passive": [
           {
+            "name": "Keen Sight",
+            "desc": "After Tighnari fires a **Wreath Arrow**, his Elemental Mastery is increased by 50 for 4s.",
+            "icon": "img/skill/Tighnari_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "Scholarly Blade",
+            "desc": "For every point of Elemental Mastery Tighnari possesses, his Charged Attack and **Fashioner's Tanglevine Shaft** DMG are increased by 0.06%.\nThe maximum DMG Bonus obtainable this way is 60%.",
+            "icon": "img/skill/Tighnari_4.png",
+            "minAscension": 4
+          },
+          {
             "name": "Encyclopedic Knowledge",
-            "desc": "During exploration, Tighnari's Exploration Talent Shows nearby resources unique to Sumeru on the mini-map."
+            "desc": "Displays the location of nearby **resources unique to Sumeru** on the mini-map.",
+            "icon": "img/skill/Tighnari_5.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Beginnings Determined at the Roots",
+            "desc": "Tighnari's Charged Attack CRIT Rate is increased by 15%.",
+            "icon": "img/const/Tighnari_1.png"
+          },
+          {
+            "name": "Origins Known From the Stem",
+            "desc": "When there are opponents within the Vijnana-Khanda Field created by **Vijnana-Phala Mine**, Tighnari gains 20% **Dendro DMG Bonus**.\nThe effect will last up to 6s if the field's duration ends or if it no longer has opponents within it.",
+            "icon": "img/const/Tighnari_2.png"
+          },
+          {
+            "name": "Fortunes Read Amongst the Branches",
+            "desc": "Increases the Level of **Fashioner's Tanglevine Shaft** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Tighnari_3.png"
+          },
+          {
+            "name": "Withering Glimpsed in the Leaves",
+            "desc": "When **Fashioner's Tanglevine Shaft** is unleashed, all nearby party members gain 60 Elemental Mastery for 8s. If the Fashioner's Tanglevine Shaft triggers a Burning, Bloom, Quicken, or Spread reaction, their Elemental Mastery will be further increased by 60. This latter case will also refresh the buff state's duration.",
+            "icon": "img/const/Tighnari_4.png"
+          },
+          {
+            "name": "Comprehension Amidst the Flowers",
+            "desc": "Increases the Level of **Vijnana-Phala Mine** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Tighnari_5.png"
+          },
+          {
+            "name": "Karma Adjudged From the Leaden Fruit",
+            "desc": "**Wreath Arrow**'s charging time is decreased by 0.9s, and will produce 1 additional Clusterbloom Arrow upon hit. This arrow deals 150% of Tighnari's ATK as DMG.",
+            "icon": "img/const/Tighnari_6.png"
           }
         ]
       }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "Dendro DMG Bonus",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 724.2037353515625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 42.066001892089844
+          },
+          {
+            "stat": "Base ATK",
+            "value": 17.87945556640625
+          },
+          {
+            "stat": "Dendro DMG Bonus",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1238.76953125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 71.95500183105469
+          },
+          {
+            "stat": "Base ATK",
+            "value": 30.583280563354492
+          },
+          {
+            "stat": "Dendro DMG Bonus",
+            "value": 0.07199999690055847
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1924.8572998046875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 111.80699920654297
+          },
+          {
+            "stat": "Base ATK",
+            "value": 47.52171325683594
+          },
+          {
+            "stat": "Dendro DMG Bonus",
+            "value": 0.14399999380111694
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2439.423095703125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 141.6959991455078
+          },
+          {
+            "stat": "Base ATK",
+            "value": 60.22553634643555
+          },
+          {
+            "stat": "Dendro DMG Bonus",
+            "value": 0.14399999380111694
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2953.989013671875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 171.5850067138672
+          },
+          {
+            "stat": "Base ATK",
+            "value": 72.92935943603516
+          },
+          {
+            "stat": "Dendro DMG Bonus",
+            "value": 0.2160000056028366
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3468.5546875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 201.4739990234375
+          },
+          {
+            "stat": "Base ATK",
+            "value": 85.63318634033203
+          },
+          {
+            "stat": "Dendro DMG Bonus",
+            "value": 0.2879999876022339
+      }
     ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Majestic Hooked Beak",
+        "EnemyDropTier1": "Fungal Spores",
+        "EnemyDropTier2": "Luminescent Pollen",
+        "EnemyDropTier3": "Crystalline Cyst Dust",
+        "Gem1": "Nagadus Emerald Sliver",
+        "Gem2": "Nagadus Emerald Fragment",
+        "Gem3": "Nagadus Emerald Chunk",
+        "Gem4": "Nagadus Emerald Gemstone",
+        "Specialty": "Nilotpala Lotus"
+      }
+    }
   },
   "Traveler": {
     "name": "Traveler",
@@ -23996,6 +24997,316 @@
             "name": "World-Shaker",
             "desc": "Every 2 Falling Thunder attacks triggered by **Bellowing Thunder** will greatly increase the DMG dealt by the next Falling Thunder, which will deal 200% of its original DMG and will restore an additional 1 Energy to the current character.",
             "icon": "img/const/Traveler_6_2.png"
+          }
+        ]
+      },
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Foreign Fieldcleaver",
+            "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "img/skill/Common_Sword.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "44.5%",
+                  "48.1%",
+                  "51.7%",
+                  "56.9%",
+                  "60.5%",
+                  "64.6%",
+                  "70.3%",
+                  "76.0%",
+                  "81.7%",
+                  "87.9%",
+                  "94.1%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "43.4%",
+                  "47.0%",
+                  "50.5%",
+                  "55.5%",
+                  "59.1%",
+                  "63.1%",
+                  "68.7%",
+                  "74.2%",
+                  "79.8%",
+                  "85.9%",
+                  "91.9%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "53.0%",
+                  "57.3%",
+                  "61.6%",
+                  "67.8%",
+                  "72.1%",
+                  "77.0%",
+                  "83.8%",
+                  "90.6%",
+                  "97.3%",
+                  "104.7%",
+                  "112.1%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "58.3%",
+                  "63.1%",
+                  "67.8%",
+                  "74.6%",
+                  "79.3%",
+                  "84.8%",
+                  "92.2%",
+                  "99.7%",
+                  "107.1%",
+                  "115.3%",
+                  "123.4%"
+                ]
+              },
+              {
+                "name": "5-Hit DMG",
+                "values": [
+                  "70.8%",
+                  "76.5%",
+                  "82.3%",
+                  "90.5%",
+                  "96.3%",
+                  "102.9%",
+                  "111.9%",
+                  "121.0%",
+                  "130.0%",
+                  "139.9%",
+                  "149.8%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "55.9%+72.2%",
+                  "60.4%+78.1%",
+                  "65.0%+84.0%",
+                  "71.5%+92.4%",
+                  "76.1%+98.3%",
+                  "81.3%+105.0%",
+                  "88.4%+114.2%",
+                  "95.6%+123.5%",
+                  "102.7%+132.7%",
+                  "110.5%+142.8%",
+                  "118.3%+152.9%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "20.0"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "63.9%",
+                  "69.1%",
+                  "74.3%",
+                  "81.8%",
+                  "87.0%",
+                  "92.9%",
+                  "101.1%",
+                  "109.3%",
+                  "117.5%",
+                  "126.4%",
+                  "135.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "128%/160%",
+                  "138%/173%",
+                  "149%/186%",
+                  "164%/204%",
+                  "174%/217%",
+                  "186%/232%",
+                  "202%/253%",
+                  "219%/273%",
+                  "235%/293%",
+                  "253%/316%",
+                  "271%/338%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "travelerTalentCosts",
+              "mapping": {
+                "Book1": "Admonition",
+                "Book2": "Ingenuity",
+                "Book3": "Praxis",
+                "BossMat": "Mudra of the Malefic General",
+                "EnemyDropTier1": "Fungal Spores",
+                "EnemyDropTier2": "Luminescent Pollen",
+                "EnemyDropTier3": "Crystalline Cyst Dust"
+              }
+            }
+          },
+          {
+            "name": "Razorgrass Blade",
+            "desc": "With a flourish of your blade, you unleash a spray of razor-sharp leaves that go before you and deal **Dendro DMG**.\n\n**You and Paimon observed the flowing edges of grass and leaf.**",
+            "icon": "img/skill/Traveler_1_3.png",
+            "talentTable": [
+              {
+                "name": "Skill DMG",
+                "values": [
+                  "230%",
+                  "248%",
+                  "265%",
+                  "288%",
+                  "305%",
+                  "323%",
+                  "346%",
+                  "369%",
+                  "392%",
+                  "415%",
+                  "438%",
+                  "461%",
+                  "490%"
+                ]
+              },
+              {
+                "name": "CD",
+                "value": "8.0s"
+              }
+            ],
+            "costs": {
+              "template": "travelerTalentCosts",
+              "mapping": {
+                "Book1": "Admonition",
+                "Book2": "Ingenuity",
+                "Book3": "Praxis",
+                "BossMat": "Mudra of the Malefic General",
+                "EnemyDropTier1": "Fungal Spores",
+                "EnemyDropTier2": "Luminescent Pollen",
+                "EnemyDropTier3": "Crystalline Cyst Dust"
+              }
+            }
+          }
+        ],
+        "ult": {
+          "name": "Surgent Manifestation",
+          "desc": "Calling upon the might of the flora all around you, you create a Lea Lotus Lamp. This Lamp will deal continuous **Dendro DMG** to opponents within its AoE.\n\n**Lotuslight Transfiguration**\nThe Lea Lotus Lamp will undergo the following changes after it comes into contact with **Hydro**/**Electro**/**Pyro**:\n·**Hydro**: the Lamp's AoE and the AoE of its attacks are increased.\n·**Electro**: the Lamp's ATK SPD is increased.\n·**Pyro**: the Lamp will explode after a short delay and then disappear, dealing **AoE Dendro DMG**.\nThe Lea Lotus Lamp can only undergo one Lotuslight Transfiguration in its duration.\n\nOnly one Lamp created by the Traveler can exist at any one time.\n\n**You and Paimon studied the sounds of plants that sprout after the rain.**",
+          "icon": "img/skill/Traveler_2_3.png",
+          "talentTable": [
+            {
+              "name": "Lea Lotus Lamp Attack DMG",
+              "values": [
+                "80.2%",
+                "86.2%",
+                "92.2%",
+                "100.2%",
+                "106.2%",
+                "112.2%",
+                "120.2%",
+                "128.3%",
+                "136.3%",
+                "144.3%",
+                "152.3%",
+                "160.3%",
+                "170.3%"
+              ]
+            },
+            {
+              "name": "Explosion DMG",
+              "values": [
+                "400.8%",
+                "430.9%",
+                "460.9%",
+                "501.0%",
+                "531.1%",
+                "561.1%",
+                "601.2%",
+                "641.3%",
+                "681.4%",
+                "721.4%",
+                "761.5%",
+                "801.6%",
+                "851.7%"
+              ]
+            },
+            {
+              "name": "Lea Lotus Lamp Duration",
+              "value": "12.0s"
+            },
+            {
+              "name": "CD",
+              "value": "20.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "80"
+            }
+          ],
+          "costs": {
+            "template": "travelerTalentCosts",
+            "mapping": {
+              "Book1": "Admonition",
+              "Book2": "Ingenuity",
+              "Book3": "Praxis",
+              "BossMat": "Mudra of the Malefic General",
+              "EnemyDropTier1": "Fungal Spores",
+              "EnemyDropTier2": "Luminescent Pollen",
+              "EnemyDropTier3": "Crystalline Cyst Dust"
+            }
+          },
+          "type": "Dendro"
+        },
+        "passive": [
+          {
+            "name": "Verdant Overgrowth",
+            "desc": "**Lea Lotus Lamp** will obtain one level of Overflowing Lotuslight every second it is on the field, increasing the Elemental Mastery of active character(s) within its AoE by 6. Overflowing Lotuslight has a maximum of 10 stacks.",
+            "icon": "img/skill/Traveler_3_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "Verdant Luxury",
+            "desc": "Every point of Elemental Mastery the Traveler possesses increases the DMG dealt by **Razorgrass Blade** by 0.15% and the DMG dealt by **Surgent Manifestation** by 0.1%.",
+            "icon": "img/skill/Traveler_4_3.png",
+            "minAscension": 4
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Symbiotic Creeper",
+            "desc": "After **Razorgrass Blade** hits an opponent, it will regenerate 3.5 Energy for the Traveler.",
+            "icon": "img/const/Traveler_1_3.png"
+          },
+          {
+            "name": "Green Resilience",
+            "desc": "**Lea Lotus Lamp**'s duration is increased by 3s.",
+            "icon": "img/const/Traveler_2_3.png"
+          },
+          {
+            "name": "Whirling Weeds",
+            "desc": "Increases the Level of **Razorgrass Blade** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Traveler_3_3.png"
+          },
+          {
+            "name": "Treacle Grass",
+            "desc": "After the **Lea Lotus Lamp** triggers a Lotuslight Transfiguration, it will obtain 5 stacks of the Overflowing Lotuslight effect from the Passive Talent \"Verdant Overgrowth.\"\nYou must have unlocked this Passive Talent first.",
+            "icon": "img/const/Traveler_4_3.png"
+          },
+          {
+            "name": "Viridian Transience",
+            "desc": "Increases the Level of **Surgent Manifestation** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Traveler_5_3.png"
+          },
+          {
+            "name": "Withering Aggregation",
+            "desc": "The **Dendro DMG Bonus** of the character under the effect of Overflowing Lotuslight as created by the **Lea Lotus Lamp** is increased by 12%. If the Lamp has experienced a Lotuslight Transfiguration previously, the character will also gain 12% DMG Bonus for the corresponding element.",
+            "icon": "img/const/Traveler_6_3.png"
           }
         ]
       }
@@ -26537,7 +27848,7 @@
                 ]
               },
               {
-                "name": "Charged Attack Spinning DMG",
+                "name": "Charged Attack Cyclic DMG",
                 "values": [
                   "62.5%",
                   "67.6%",

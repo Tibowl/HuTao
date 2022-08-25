@@ -1817,6 +1817,38 @@
       ]
     ]
   },
+  "Ruin Drake: Skywatch": {
+    "name": "Ruin Drake: Skywatch",
+    "desc": "A horrifying dragon-shaped machine.\nIt is said to be a war machine left behind by a now-destroyed nation. It mimics the appearance of the beings known as Vishaps, with some functional enhancements. Such machines have an even greater ability to \"absorb\" — or perhaps the right word is \"counteract\" — elemental powers than the vishaps.\nHow, you wonder, did a civilization that could make such frightening machines of war collapse?",
+    "icon": "img/enemy/Ruin_Drake_Skywatch.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "50%"
+      ]
+    ]
+  },
+  "Ruin Drake: Earthguard": {
+    "name": "Ruin Drake: Earthguard",
+    "desc": "A horrifying dragon-shaped machine.\nIt is said to be a war machine left behind by a now-destroyed nation. It mimics the appearance of the beings known as Vishaps, with some functional enhancements. Such machines have an even greater ability to \"absorb\" — or perhaps the right word is \"counteract\" — elemental powers than the vishaps.\nFrom this ability, one can glimpse the scale of the ambition that the civilization that made these machines must have once held...",
+    "icon": "img/enemy/Ruin_Drake_Skywatch.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "50%"
+      ]
+    ]
+  },
   "Maguu Kenki": {
     "name": "Maguu Kenki",
     "desc": "An disciplined mechanical swordsman.\nDoesn't seem to have the ability nor will to speak, but instead only seeks to communicate with crossed swords.\nIt is said that this machine was made using the memories of the first-generation master of a certain sword school. However, it malfunctioned, lost control, and was ultimately discarded.\nSome sing that the machine's spirit still lingers in the place where its fate was ended. They also say that the vicious mask that serves as its guard was inspired by a famous oni from that era.",
@@ -2145,6 +2177,134 @@
       ]
     ]
   },
+  "Eremite Axe Vanguard": {
+    "name": "Eremite Axe Vanguard",
+    "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThese ax-wielding ladies often wade into the slaughter without fear, creating openings for their comrades to capitalize on.\nThey will sometimes sit by the fireside in their sand-swept homeland and play songs that were lost in that golden sea.",
+    "icon": "img/enemy/Eremite_Axe_Vanguard.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Eremite Crossbow": {
+    "name": "Eremite Crossbow",
+    "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThe Eremite tradition is to use bows to engage their foes, but ever since the Akademiya permitted them to buy crossbows at the bazaars, only the proudest shooters would still use bows, which take many years of practice to master.",
+    "icon": "img/enemy/Eremite_Crossbow.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Eremite Ravenbeak Halberdier": {
+    "name": "Eremite Ravenbeak Halberdier",
+    "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThese warriors use Ravenbeak Halberds in battle. It is said that ascetics who served the deity of the desert would carry these halberds as symbols of their office. These weapons once had a true name, but it has long been lost to the desert sands.",
+    "icon": "img/enemy/Eremite_Ravenbeak_Halberdier.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Eremite Linebreaker": {
+    "name": "Eremite Linebreaker",
+    "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThis warrior wields a unique fist blade and joined the Eremites to seek out stronger foes. Rather than the pay, these warriors fight more to attain greater martial might.",
+    "icon": "img/enemy/Eremite_Linebreaker.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Eremite Sword-Dancer": {
+    "name": "Eremite Sword-Dancer",
+    "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThis desert warrior wields a large curved blade in battle. The skills such fighters boast of have been passed down since the days when their now-lost civilization was still extant, and are not only techniques to be used in battle, but also serve well as a performing art popular in various lands.\nIt is said that this sword art was once practiced from horseback.",
+    "icon": "img/enemy/Eremite_SwordDancer.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Eremite Desert Clearwater": {
+    "name": "Eremite Desert Clearwater",
+    "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nA young lady lost in the ancient dream of the desert songs. To her, the thrill of bloody battle is her true reward. Legend has it that the women of this tribe are often afflicted by the wandering spirits of the desert, a condition that leads many of them to an early end. Perhaps this one can only be free of these apparitions when her blood is up in combat.\nAn ominous, fragmented spirit is sealed within the weapon she uses, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe.",
+    "icon": "img/enemy/Eremite_Desert_Clearwater.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Eremite Sunfrost": {
+    "name": "Eremite Sunfrost",
+    "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nA professional mercenary who cares about nothing outside of work and the mission at hand. To such people, their only game plan is to complete the mission, and their high asking prices on the market match that committment.\nAn ominous, fragmented spirit is sealed within the weapon they use, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe.",
+    "icon": "img/enemy/Eremite_Sunfrost.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Eremite Daythunder": {
+    "name": "Eremite Daythunder",
+    "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nA true scion of a warrior tribe, such warriors see battle as their ordained purpose, and unlike some barbarian who wields a large ax with ease, these tribespeople are also quite well-versed in the lore and songs of the desert ruins.\nAn ominous, fragmented spirit is sealed within the weapon they use, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe.",
+    "icon": "img/enemy/Eremite_Daythunder.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
   "Pyro Whopperflower": {
     "name": "Pyro Whopperflower",
     "desc": "A mimetic plant monster that attacks without warning and uses Pyro to hunt its prey.\nThe world of Teyvat plays host to plants infused with the elements. Having gained a measure of intellect, their \"nutritional needs\" have also greatly increased...",
@@ -2258,6 +2418,22 @@
         "10%",
         "30%",
         "Shield down"
+      ]
+    ]
+  },
+  "Electro Regisvine": {
+    "name": "Electro Regisvine",
+    "desc": "A huge vine that has morphed into a monster through the conduction of high-voltage currents through the Ley Lines.\nElectricity surges constantly from its canopy like the unending rage of the earth itself.\nKshahrewar researchers once submitted that a complex circuit matrix might be set up around this creature to carry electrical energy to the city for use there. This plan was stridently opposed by scholars from Spantamad, who sacrificed 10 Shroomboars to drive home the point about the dangers of utilizing electricity.",
+    "icon": "img/enemy/Electro_Regisvine.png",
+    "resistance": [
+      [
+        "10%",
+        "70%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "30%"
       ]
     ]
   },
@@ -2479,6 +2655,166 @@
         "10%",
         "10%",
         "10%"
+      ]
+    ]
+  },
+  "Floating Dendro Fungus": {
+    "name": "Floating Dendro Fungus",
+    "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\nA researcher once said that these are some species of Dendro Specter. After this view was criticized, he changed his tack, claiming that this was just a literary turn of phrase.",
+    "icon": "img/enemy/Floating_Dendro_Fungus.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Whirling Electro Fungus": {
+    "name": "Whirling Electro Fungus",
+    "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\nResearch has shown that this sort of fungal beast's internal electric current will change periodically. If further developed, perhaps this study may give rise to a wide range of uses...",
+    "icon": "img/enemy/Whirling_Electro_Fungus.png",
+    "resistance": [
+      [
+        "10%",
+        "20%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Whirling Cryo Fungus": {
+    "name": "Whirling Cryo Fungus",
+    "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\nPutting Fungi on ice does not make them taste any better, but it does at least help with relieving the heat.",
+    "icon": "img/enemy/Whirling_Cryo_Fungus.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "20%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Stretchy Pyro Fungus": {
+    "name": "Stretchy Pyro Fungus",
+    "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\nThis creature only looks explosive — it is, in fact, a most gentle soul, so long as you don't get too close...",
+    "icon": "img/enemy/Stretchy_Pyro_Fungus.png",
+    "resistance": [
+      [
+        "20%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Stretchy Anemo Fungus": {
+    "name": "Stretchy Anemo Fungus",
+    "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\nThis mushroom quickly absorbs nutrients through its extended column, and its umbrella-shaped cap turns where the wind's flow carries it.",
+    "icon": "img/enemy/Stretchy_Anemo_Fungus.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "20%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Stretchy Geo Fungus": {
+    "name": "Stretchy Geo Fungus",
+    "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\nThese shrooms' caps have hard outer layers derived from concretions of Geo energy. Its bodily structure is also quite likely to be denser than others of its kind.",
+    "icon": "img/enemy/Stretchy_Geo_Fungus.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "20%",
+        "10%"
+      ]
+    ]
+  },
+  "Grounded Hydroshroom": {
+    "name": "Grounded Hydroshroom",
+    "desc": "A mimetic life form made out of spores that has extreme adaptability.\nThis creature may look like a bird, but it cannot fly. Due to the influence of Hydro energies, it is astoundingly agile compared to others of its kind. Some research has inferred that this creature is in fact an aggregation of countless tiny spores rather than a single entity.\nThis creature has a position of command amongst colonies of Fungi and exhibits heightened intelligence to match.",
+    "icon": "img/enemy/Grounded_Hydroshroom.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "30%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Winged Dendroshroom": {
+    "name": "Winged Dendroshroom",
+    "desc": "A mimetic life form made out of spores that has extreme adaptability.\nGoing well past mere appearances, this being even imitates the habits of birds. It can use its spore-built wings to fly in the sky, spreading yet more spores to yet more distant places.\nThis creature has a position of command amongst colonies of Fungi and exhibits heightened intelligence to match.",
+    "icon": "img/enemy/Winged_Dendroshroom.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Winged Cryoshroom": {
+    "name": "Winged Cryoshroom",
+    "desc": "A mimetic life form made out of spores that has extreme adaptability.\nGoing well past mere appearances, this being even imitates the habits of birds. When it flies about, it will scatter icy flowers in its wake. These crystal cores, too, are spores.\nThis creature has a position of command amongst colonies of fungal beasts and exhibits heightened intelligence to match.",
+    "icon": "img/enemy/Winged_Cryoshroom.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "30%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Jadeplume Terrorshroom": {
+    "name": "Jadeplume Terrorshroom",
+    "desc": "Over many long years, this large fungal beast has morphed into a unique form.\nIts intelligence has already reached and perhaps has even surpassed real animals, and it will actively hunt prey to obtain sustenance. Its tail has a lovely jade plumage that seems very similar to that of the ancient sacred beast that the Spantamad school reveres. As far as the logic of mimesis is concerned, it seems quite likely that the two beings once walked the earth together.",
+    "icon": "img/enemy/Jadeplume_Terrorshroom.png",
+    "resistance": [
+      [
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "25%"
       ]
     ]
   },

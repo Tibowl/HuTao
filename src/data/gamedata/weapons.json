@@ -3457,23 +3457,23 @@
     "refinements": [
       {
         "name": "Rapids",
-        "desc": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by **20%** for 12s."
+        "desc": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, or a Hydro-infused Swirl reaction, increases ATK by **20%** for 12s."
       },
       {
         "name": "Rapids",
-        "desc": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by **25%** for 12s."
+        "desc": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, or a Hydro-infused Swirl reaction, increases ATK by **25%** for 12s."
       },
       {
         "name": "Rapids",
-        "desc": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by **30%** for 12s."
+        "desc": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, or a Hydro-infused Swirl reaction, increases ATK by **30%** for 12s."
       },
       {
         "name": "Rapids",
-        "desc": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by **35%** for 12s."
+        "desc": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, or a Hydro-infused Swirl reaction, increases ATK by **35%** for 12s."
       },
       {
         "name": "Rapids",
-        "desc": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by **40%** for 12s."
+        "desc": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, or a Hydro-infused Swirl reaction, increases ATK by **40%** for 12s."
       }
     ]
   },
@@ -3482,8 +3482,125 @@
     "desc": "This seems to be a now-extinct fish. Its body is sufficiently elastic that a string may be attached to it to let it serve as a bow.",
     "weaponType": "Bow",
     "stars": 4,
-    "placeholder": true,
-    "icon": "https://act.hoyoverse.com/ys/event/e20220814prev/images/weapon2.bc6bcb86..png"
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "Energy Recharge",
+        "init": 0.10000000149011612,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/End_of_the_Line.png",
+    "awakenIcon": "img/weapon_woke/End_of_the_Line.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Inactivated Fungal Nucleus",
+        "EnemyDropTierA2": "Dormant Fungal Nucleus",
+        "EnemyDropTierA3": "Robust Fungal Nucleus",
+        "EnemyDropTierB1": "Fungal Spores",
+        "EnemyDropTierB2": "Luminescent Pollen",
+        "EnemyDropTierB3": "Crystalline Cyst Dust",
+        "WeaponAsc1": "Echo of Scorching Might",
+        "WeaponAsc2": "Remnant Glow of Scorching Might",
+        "WeaponAsc3": "Dream of Scorching Might",
+        "WeaponAsc4": "Olden Days of Scorching Might"
+      }
+    },
+    "lore": "Gurgling water once flowed into the yellow sand, but that was a long time ago.\nThe great being would follow the brontides and divine will into the desert in latter days, but few would survive in the end.\nThe fish that once shot forth like an arrow across a huge lake on the plateau,\nThat would stretch out as straight as a spear, cruising back and forth between the sacred sites,\nWould see its stream seep into the sand, its lake shrink into a puddle,\nTill at last, it wound up curled in a little plash, at the mercy of passing pilgrims.\n\nThe lesson of this story is as such:\nAs long as you are pious and kind, you can get a fish even in the midst of the desert sands.",
+    "refinements": [
+      {
+        "name": "Net Snapper",
+        "desc": "Triggers the Flowrider effect after using an Elemental Skill, dealing **80%** ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s."
+      },
+      {
+        "name": "Net Snapper",
+        "desc": "Triggers the Flowrider effect after using an Elemental Skill, dealing **100%** ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s."
+      },
+      {
+        "name": "Net Snapper",
+        "desc": "Triggers the Flowrider effect after using an Elemental Skill, dealing **120%** ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s."
+      },
+      {
+        "name": "Net Snapper",
+        "desc": "Triggers the Flowrider effect after using an Elemental Skill, dealing **140%** ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s."
+      },
+      {
+        "name": "Net Snapper",
+        "desc": "Triggers the Flowrider effect after using an Elemental Skill, dealing **160%** ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s."
+      }
+    ]
   },
   "Engulfing Lightning": {
     "name": "Engulfing Lightning",
@@ -4987,11 +5104,128 @@
   },
   "Forest Regalia": {
     "name": "Forest Regalia",
-    "desc": "*No description available*",
+    "desc": "A weapon you obtained from an Aranara tale. It has taken on the shape of a greatsword that shall cut down the foes of the forest.",
     "weaponType": "Claymore",
     "stars": 4,
-    "placeholder": true,
-    "icon": "https://i.imgur.com/OAnwJqF.png"
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.734901428222656,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "Energy Recharge",
+        "init": 0.06666699796915054,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Forest_Regalia.png",
+    "awakenIcon": "img/weapon_woke/Forest_Regalia.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Chaos Storage",
+        "EnemyDropTierA2": "Chaos Module",
+        "EnemyDropTierA3": "Chaos Bolt",
+        "EnemyDropTierB1": "Faded Red Satin",
+        "EnemyDropTierB2": "Trimmed Red Silk",
+        "EnemyDropTierB3": "Rich Red Brocade",
+        "WeaponAsc1": "Copper Talisman of the Forest Dew",
+        "WeaponAsc2": "Iron Talisman of the Forest Dew",
+        "WeaponAsc3": "Silver Talisman of the Forest Dew",
+        "WeaponAsc4": "Golden Talisman of the Forest Dew"
+      }
+    },
+    "lore": "\"The forest used to be a giant maze many, many moons ago...\"\n\nThe last king of the forest had returned to Sarva, leaving one who once waited upon him to inherit the name \"Tiger.\"\nIn the past, wherever there was shade, there was the domain of the forest king. And as he wandered through his own territory,\nThe birds and beasts that depended on the jungle would bow their heads as he passed by to show their respect and reverence.\n\nAll Kings had their own palaces: as each successive king of the forest took the throne, the forest changed according to his image and vision.\nThe palace of the last king of the forest was hidden behind a fence of trees and vines, and beyond a network of water and cliffs,\nIt is the disc of pearls made by moonlight through leaves on still water. The king was at the water's edge, basking in the twice and much moonlight all by himself.\n\nThus did the forest maze come about. Legend has it that the forest king traced the path of a maze in his dazzling dappled stripes.\nEach generation of Kings' palaces piled on top of each other so that the paths would intertwine from tree to tree. Streams would break off or would give birth to new branches,\nThe forest paths growing ever more complex. Only the forest king, we Aranara, and the people from the king tree's sanctuary,\nCould freely go into the forest king's sanctuary and find their own way from tree to tree and stream to stream.\n\n...\nLater, the last king of the forest died protecting the forest. The forest would make no new palace, and the maze would disappear henceforth.\nOr perhaps it was a dark herd of beasts that, like a hurricane, brought down the trees like waves of wheat. Either way, the maze was dead, and so was the forest king.\n\nThe Aranara, who gave me this story, was very timid and did not want us to hear him sing, always seeking a place of solitude.\nOne night, he went through a maze in the forest, and found a bright reflection of the moon in the water. Thus did he hear the story of the last king of the forest. \nThen the current changed and the moon's reflection was scattered. Much has changed, and yet, much still remains the same.\nBut even if you, like me, have never met a king, you would still get the impression that Tiger was a noble and powerful king of the forest.",
+    "refinements": [
+      {
+        "name": "Forest Sanctuary",
+        "desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character **60** Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack."
+      },
+      {
+        "name": "Forest Sanctuary",
+        "desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character **75** Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack."
+      },
+      {
+        "name": "Forest Sanctuary",
+        "desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character **90** Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack."
+      },
+      {
+        "name": "Forest Sanctuary",
+        "desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character **105** Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack."
+      },
+      {
+        "name": "Forest Sanctuary",
+        "desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character **120** Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack."
+      }
+    ]
   },
   "Freedom-Sworn": {
     "name": "Freedom-Sworn",
@@ -5245,11 +5479,128 @@
   },
   "Fruit of Fulfillment": {
     "name": "Fruit of Fulfillment",
-    "desc": "*No description available*",
+    "desc": "A fruit you obtained from an Aranara tale. It holds the potential to conquer any crisis.",
     "weaponType": "Catalyst",
     "stars": 4,
-    "placeholder": true,
-    "icon": "https://i.imgur.com/Z0YNRbD.png"
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "Energy Recharge",
+        "init": 0.10000000149011612,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Fruit_of_Fulfillment.png",
+    "awakenIcon": "img/weapon_woke/Fruit_of_Fulfillment.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Gloomy Statuette",
+        "EnemyDropTierA2": "Dark Statuette",
+        "EnemyDropTierA3": "Deathly Statuette",
+        "EnemyDropTierB1": "Fungal Spores",
+        "EnemyDropTierB2": "Luminescent Pollen",
+        "EnemyDropTierB3": "Crystalline Cyst Dust",
+        "WeaponAsc1": "Oasis Garden's Reminiscence",
+        "WeaponAsc2": "Oasis Garden's Kindness",
+        "WeaponAsc3": "Oasis Garden's Mourning",
+        "WeaponAsc4": "Oasis Garden's Truth"
+      }
+    },
+    "lore": "\"In truth, the moon did not always look like a pearl...\"\n\nThat was a story from a long, long time ago — a dreadful story. Fortunately, it is just a story — not some memory of mine or yours.\nOnce upon a time, the moon turned into the shape of fangs that smirked ferociously. Moonlight no longer waltzed through the leaves to cast itself onto the grass, turning the dew into glimmering pearls.\n\nTrees were thrust down to the ground like wheat overwhelmed by strong winds. Every inch of the land was swamped by grief.\nThe grief was so formidably immense and intense that even the streams were fraught with the pungent odor of salt and iron.\n\nOur creator, Queen Aranyani, trusted us with the forest. We thus embarked upon the battles against the monsters that emerged from the darkness, colossi made of iron and steel, and Marana.\nShe entered the desert with the forest's children. They burnt the roots of disaster and tore the branches of calamity, but only a few of them eventually made it back to the embrace of the shade of trees.\nWe lost Vanarana, and too many Aranara returned to the ground before their time. Even the story that survived was bitter and agonizing.\n\nBut we defeated the calamity in the end. Even in the deepest sea of sand, the lotuses still bloomed.\nShe who created us had once again created new life to mend the land's hollowed heart.\n\n...\nCourage and strength still ring out amidst the most bitter of tales. No story is as powerful as \"memories,\" but they empower nevertheless.\nI will cherish the stories you handed to me, stories of our adventure. Should calamity ever recur and the moon mutate, these stories will protect the forest on your behalf.",
+    "refinements": [
+      {
+        "name": "Full Circle",
+        "desc": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining **24** Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field."
+      },
+      {
+        "name": "Full Circle",
+        "desc": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining **27** Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field."
+      },
+      {
+        "name": "Full Circle",
+        "desc": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining **30** Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field."
+      },
+      {
+        "name": "Full Circle",
+        "desc": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining **33** Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field."
+      },
+      {
+        "name": "Full Circle",
+        "desc": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining **36** Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field."
+      }
+    ]
   },
   "Hakushin Ring": {
     "name": "Hakushin Ring",
@@ -5957,8 +6308,125 @@
     "desc": "This gilded bow was made using precious white branches. It has felled countless wicked beasts attempting to infiltrate the woods.",
     "weaponType": "Bow",
     "stars": 5,
-    "placeholder": true,
-    "icon": "https://act.hoyoverse.com/ys/event/e20220814prev/images/weapon1.6015251b..png"
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 44.33580017089844,
+        "curve": "ATK 3.4"
+      },
+      {
+        "stat": "CRIT Rate",
+        "init": 0.09600000083446503,
+        "curve": "C3"
+      }
+    ],
+    "icon": "img/weapon/Hunters_Path.png",
+    "awakenIcon": "img/weapon_woke/Hunters_Path.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts5",
+      "mapping": {
+        "EnemyDropTierA1": "Inactivated Fungal Nucleus",
+        "EnemyDropTierA2": "Dormant Fungal Nucleus",
+        "EnemyDropTierA3": "Robust Fungal Nucleus",
+        "EnemyDropTierB1": "Faded Red Satin",
+        "EnemyDropTierB2": "Trimmed Red Silk",
+        "EnemyDropTierB3": "Rich Red Brocade",
+        "WeaponAsc1": "Echo of Scorching Might",
+        "WeaponAsc2": "Remnant Glow of Scorching Might",
+        "WeaponAsc3": "Dream of Scorching Might",
+        "WeaponAsc4": "Olden Days of Scorching Might"
+      }
+    },
+    "lore": "A golden hunting bow made of white branches that contains the blessing of the forest.\nTrees with such white branches are rarely seen nowadays.\nThe blessings were once covered by darkened blood, but the stains have been washed away by water.\n\nThe hunter pursuing the dark herd seemed to be on a hunt without end.\nNights of waiting under rotten leaves, and days of slumbering inside chunks of meat,\nAll for that fatal arrow that would penetrate the heart of the prey — and then, it was on to the next target.\n\nGradually, the hunter stopped worrying about the wind revealing her location to the prey,\nOr about using wildflowers to camouflage her human scent,\nAs the smell she diffused became similar to the stench wild beasts were familiar with.\n\nShe forgot the human tongue long before she became a hunter.\nDuring her endless hunt, the time and the sun and the moon faded into oblivion,\nAnd so did the boundless hunting fields promised to her.\nEven the blind youth who first found her and gave her the bow made of white branches,\nAnd led her onto the path of the dark beasts,\nWas forgotten in her undistracted hunt.\n\n\"For the bloodstained shall never find yonder hunting grounds of endless viridescence.\"\n\"No, master, this world where barbarous beasts roam shall be my hunting grounds...\"\n\nLooking into the clear water under the moonlight, the hunter found that she, too, had unwittingly turned into a wild beast.\nFollowing the tracks left by the beast, the black knight whose form and sword were reflected in the water found her, at a loss as she was...\n\n\"So, you were just another beast to be destroyed, tempted by the illusory silhouette of the moon in the water.\"\n\"How strange. For a moment, I thought I saw a maiden lost in the forest...\"\n\n\"I must continue westwards. For the sake of justice... To settle the crime of twisting man into a beast's form.\"",
+    "refinements": [
+      {
+        "name": "At the End of the Beast-Paths",
+        "desc": "Gain **12%** All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by **160%** of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s."
+      },
+      {
+        "name": "At the End of the Beast-Paths",
+        "desc": "Gain **15%** All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by **200%** of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s."
+      },
+      {
+        "name": "At the End of the Beast-Paths",
+        "desc": "Gain **18%** All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by **240%** of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s."
+      },
+      {
+        "name": "At the End of the Beast-Paths",
+        "desc": "Gain **21%** All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by **280%** of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s."
+      },
+      {
+        "name": "At the End of the Beast-Paths",
+        "desc": "Gain **24%** All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by **320%** of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s."
+      }
+    ]
   },
   "Iron Point": {
     "name": "Iron Point",
@@ -6262,7 +6730,7 @@
         "WeaponAsc4": "Mask of the Kijin"
       }
     },
-    "lore": "A long blade of the color of blood, upon which has been bestowed the name Isshin. It is remarkably sharp and vividly ominous.\nIt is said that this blade can easily cleave through a porous bamboo basket and the water within it before the latter can even leak out.\n\nPeople often say that within the body of every blade rests a blade-spirit.\nThen it is natural to assume that a blade forged by the Tatarigami is dwelled by a demon of malice.\nThe renowned blade Kagotsurube Isshin is forged by the swordsmith Akame Kanenaga, who failed to become the head blacksmith.\nThough forged by the hand of an Inazuman swordsmith, this blade was not made in the nation of thunder and Jade Steel, but in a snow-covered land in the far north.\nIf beheld in the moonlight, the blade's hamon would look as if it were flowing, like the blood and tears of a wayfaring wanderer.\n\n\"The 'Tatarigami' is pure malice by nature. It bears resentment against mortal desire.\"\n\"Swords are merely instruments of misfortune. Without wickedness, they will not birth slaughter. Without hate, they would never know the taste of blood.\"\n\"'Isshin' is the stillness of the mind, free of distractions. This purity of desire empowers the swordsmith to forge tirelessly.\"\n\"But by this token, resentment against living beings is the metal from which a blade that kills shall be forged.\"\n\nIn their frenzied passion to practice \"Isshin,\" the Akame School had always pursued the forging of a killer blade that could reach the extremes of lethality.\nAs such, the body and mind of the members of the Akame School were often withdrawn and short-spanned, their hearts venomously graven.\nThe blades made by the Akame School were keen indeed, but many of them had some evil within that ultimately led to the school itself being regarded by the authorities as \"undesirable.\"\nFor this reason, the Akame School's position as the leader of the Isshin Art, passed down from Mitsunaga, did not last three generations before being rescinded by the authorities.\n\nAfter that, Akame Kanenaga was involved in the Case of the Eccentric and committed treason.\nThis led him to change his name and leave for a snow-covered nation in the far north, to make a humble living in the land ruled by imperious ice.\nThe only wish of the deceased Kaedehara was to see the Isshin Art celebrated by those who understood a sword's beauty.\nBut the swordsmith, the blade, and the Tatarigami were all tools and titles for people to wield...\n\n\"I spent half of my life in pursuit of the vanity that is the Isshin Art, it only turned out that I became another 'Kaedehara'!\"\n\"Ah, what's done is done. My only hope is that the sword born in the ice and frost will not be as weak as its useless title...\"\n\nThe Kaedehara Clan were master swordsmiths whose works best symbolized Masagomaru's style; whilst the Niwa Clan were humble and diligent, skilled in clay tempering.\nIn their frenzied passion to practice \"Isshin,\" the Akame School had always pursued the forging of a killer blade that could reach the extremes of lethality.\nAs he passed away amidst the vast snow, the man only wished to forge a renowned blade with which to restore the name of Kaedehara and win back the recognition of the people...",
+    "lore": "A long blade the color of blood, upon which has been bestowed the name Isshin. It is remarkably sharp and vividly ominous.\nIt is said that this blade can easily cleave through a porous bamboo basket and the water within it before the latter can even leak out.\n\nPeople often say that within the body of every blade rests a blade-spirit.\nThen it is natural to assume that a blade forged by the Tatarigami is dwelled by a demon of malice.\nThe renowned blade Kagotsurube Isshin is forged by the swordsmith Akame Kanenaga, who failed to become the head blacksmith.\nThough forged by the hand of an Inazuman swordsmith, this blade was not made in the nation of thunder and Jade Steel, but in a snow-covered land in the far north.\nIf beheld in the moonlight, the blade's hamon would look as if it were flowing, like the blood and tears of a wayfaring wanderer.\n\n\"The 'Tatarigami' is pure malice by nature. It bears resentment against mortal desire.\"\n\"Swords are merely instruments of misfortune. Without wickedness, they will not birth slaughter. Without hate, they would never know the taste of blood.\"\n\"'Isshin' is the stillness of the mind, free of distractions. This purity of desire empowers the swordsmith to forge tirelessly.\"\n\"But by this token, resentment against living beings is the metal from which a blade that kills shall be forged.\"\n\nIn their frenzied passion to practice \"Isshin,\" the Akame School had always pursued the forging of a killer blade that could reach the extremes of lethality.\nAs such, the body and mind of the members of the Akame School were often withdrawn and short-spanned, their hearts venomously graven.\nThe blades made by the Akame School were keen indeed, but many of them had some evil within that ultimately led to the school itself being regarded by the authorities as \"undesirable.\"\nFor this reason, the Akame School's position as the leader of the Isshin Art, passed down from Mitsunaga, did not last three generations before being rescinded by the authorities.\n\nAfter that, Akame Kanenaga was involved in the Case of the Eccentric and committed treason.\nThis led him to change his name and leave for a snow-covered nation in the far north, to make a humble living in the land ruled by imperious ice.\nThe only wish of the deceased Kaedehara was to see the Isshin Art celebrated by those who understood a sword's beauty.\nBut the swordsmith, the blade, and the Tatarigami were all tools and titles for people to wield...\n\n\"I spent half of my life in pursuit of the vanity that is the Isshin Art, it only turned out that I became another 'Kaedehara'!\"\n\"Ah, what's done is done. My only hope is that the sword born in the ice and frost will not be as weak as its useless title...\"\n\nThe Kaedehara Clan were master swordsmiths whose works best symbolized Masagomaru's style; whilst the Niwa Clan were humble and diligent, skilled in clay tempering.\nIn their frenzied passion to practice \"Isshin,\" the Akame School had always pursued the forging of a killer blade that could reach the extremes of lethality.\nAs he passed away amidst the vast snow, the man only wished to forge a renowned blade with which to restore the name of Kaedehara and win back the recognition of the people...",
     "refinements": [
       {
         "name": "Isshin Art Clarity",
@@ -6522,11 +6990,128 @@
   },
   "King's Squire": {
     "name": "King's Squire",
-    "desc": "*No description available*",
+    "desc": "A weapon you obtained from an Aranara tale. It has taken on the shape of a bow that can shoot the enemies of the forest down.",
     "weaponType": "Bow",
     "stars": 4,
-    "placeholder": true,
-    "icon": "https://i.imgur.com/vaKm29s.png"
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 41.067100524902344,
+        "curve": "ATK 2.4"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.11999999731779099,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Kings_Squire.png",
+    "awakenIcon": "img/weapon_woke/Kings_Squire.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Inactivated Fungal Nucleus",
+        "EnemyDropTierA2": "Dormant Fungal Nucleus",
+        "EnemyDropTierA3": "Robust Fungal Nucleus",
+        "EnemyDropTierB1": "Firm Arrowhead",
+        "EnemyDropTierB2": "Sharp Arrowhead",
+        "EnemyDropTierB3": "Weathered Arrowhead",
+        "WeaponAsc1": "Echo of Scorching Might",
+        "WeaponAsc2": "Remnant Glow of Scorching Might",
+        "WeaponAsc3": "Dream of Scorching Might",
+        "WeaponAsc4": "Olden Days of Scorching Might"
+      }
+    },
+    "lore": "\"Once upon a time, there was a princess named Cinnamon...\"\n\"...and with the tiger by her side, she left the palace once and for all. The end.\"\n\nBut this tale belongs to your kind. In your stories, everything always has a deeper meaning.\nI understand that this \"palace\" is everything that makes Cinnamon human:\nOthers who share the same bloodline, a more than spacious living place, common sense, and life lessons — while the King was the wish lurking and glowing in her mind like moonlight.\nYet for us, a palace is a palace, Cinnamon is Cinnamon, the Forest King is the Forest King, and moonlight is just the moonlight.\n\nThe story I heard is at variance with the story of Cinnamon.\nOnce upon a time, there was a child who lost her way in the forest. Following the footprints left by the Forest King, she stepped into the tiger's garden.\n\"Grrrr! Be it birds or beasts, my stomach bids everyone welcome, while the earth awaits their return.\"\n\"I am the king of the forest. I slaughter, and I foster. Only a puny human like you have I yet to sample.\"\nSo said the tiger. However, the child hadn't yet forgotten your language, and naturally, she couldn't understand the King.\n\n\"Grrr,\" the child imitated.\n\nThe Forest King was amused. Usually, when he spoke, your kind would hide in their wooden houses,\nAnd beasts would lie on the ground, not daring to move even an inch, and birds would fly away towards the sun. Even those Rishboland Tigers, mighty as they may appear, would hide themselves in the bushes.\n\"Grrr! A tiny outsider who does not understand etiquette. Alright, then let me teach you all about the forest, and its language you shall learn.\"\n\"From now on, you are my squire. This forest will forever be open to you and all beings here can do harm to you no more.\"\n\n\"Remember, this whole world is but a dream of the forest. One day you shall awake from your reality and find your place in this boundless hunting ground.\"\n\"Where our prey head without fail, we shall arrive at one day as well. Always keep that in mind.\"\n\n...\nThere will always be a new king to inherit the seat from his predecessor. The circle of life applies to you, to us, and to every being in the forest just the same.\nBefore the squire met her fate together with the King, a lost child stumbled into the palace without scrunching a single fallen leaf.\nShe passed on all her knowledge to the child. Just as this story was passed on to me, that child passed on the teachings to the children who came after.\nLater, some children became the guardians of the forest, passing on the forest's language and the responsibility of protecting the King's land to their future successors.\nAnd others, when they gazed upon the great agony others suffered, decided to bid farewell to the hunting ground and become hunters who would terrify even the most vicious beasts.",
+    "refinements": [
+      {
+        "name": "Labyrinth Lord's Instruction",
+        "desc": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by **60** for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal **100%** of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s."
+      },
+      {
+        "name": "Labyrinth Lord's Instruction",
+        "desc": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by **80** for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal **120%** of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s."
+      },
+      {
+        "name": "Labyrinth Lord's Instruction",
+        "desc": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by **100** for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal **140%** of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s."
+      },
+      {
+        "name": "Labyrinth Lord's Instruction",
+        "desc": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by **120** for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal **160%** of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s."
+      },
+      {
+        "name": "Labyrinth Lord's Instruction",
+        "desc": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by **140** for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal **180%** of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s."
+      }
+    ]
   },
   "Kitain Cross Spear": {
     "name": "Kitain Cross Spear",
@@ -8030,11 +8615,128 @@
   },
   "Moonpiercer": {
     "name": "Moonpiercer",
-    "desc": "*No description available*",
+    "desc": "A weapon you obtained from an Aranara tale. It is shaped like a giant arrow and can be used as a spear.",
     "weaponType": "Polearm",
     "stars": 4,
-    "placeholder": true,
-    "icon": "https://i.imgur.com/vuMXYmc.png"
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.734901428222656,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "Elemental Mastery",
+        "init": 24,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Moonpiercer.png",
+    "awakenIcon": "img/weapon_woke/Moonpiercer.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Chaos Storage",
+        "EnemyDropTierA2": "Chaos Module",
+        "EnemyDropTierA3": "Chaos Bolt",
+        "EnemyDropTierB1": "Recruit's Insignia",
+        "EnemyDropTierB2": "Sergeant's Insignia",
+        "EnemyDropTierB3": "Lieutenant's Insignia",
+        "WeaponAsc1": "Oasis Garden's Reminiscence",
+        "WeaponAsc2": "Oasis Garden's Kindness",
+        "WeaponAsc3": "Oasis Garden's Mourning",
+        "WeaponAsc4": "Oasis Garden's Truth"
+      }
+    },
+    "lore": "\"This story is about all the children who are fascinated by the moonlight...\"\n\nSometimes, when looking at the solitary moon, the children would mourn just as the last king of the forest did as he was dying.\nAnother legend says that if you drink water reflecting the full moon from a small pool within the footprint of the forest king, you will become the king's attendant.\n\nThe tale of the moon goes like this: this story came from a very ancient dream, one that was hidden in a Nilotpala Lotus.\nLong before Aramuhukunda had been born from the pomegranate, and before a great and noble race and your ancestors walked the earth together,\nThere were once three sisters. When night came, they would leave the pearl-colored palace to roam the desert, and Nilotpala Lotuses would bloom at their feet.\n\n...\nUltimately, two moon-wheels shattered into dust and disappeared. The last of the sisters was so overcome with sorrow that she would never leave her palace again.\nAfter a long time, the moon debris finally fell to the earth. At that time, the god of vegetation had already brought the forest to the desert lands.\nWhere the dust of the moon fell, the Nilotpala Lotuses bloom. And those children who breathe in the dust will have a pearl-like moon in their hearts.\nThis is why there are always children who are confused by the moon, and the reason why the Nilotpala Lotus blossoms every night, and why the moon always favors these children.\nBecause the three sisters, who mirror each other, long to be reunited.\n\nThe Nilotpala Lotus withered after telling this story. She had waited long — long enough for the desert to become a jungle, and for the great race to be dethroned,\nLong enough for us to appear on the earth, and for the Aranara who told me this story to appear before her and speak to her.\nThat Aranara lost many, many more memories time and time again, until Vanarana was destroyed and we entered a dream.\nBut that is just as well, for the story of the moon will grow into a pearly moon in our hearts as well as yours.\n\nChildren fascinated by the moon will weep when they gaze upon it, for the moon has turned into fine sand and entered their eyes.\nIn countless tales, not a single tear will be in vain.",
+    "refinements": [
+      {
+        "name": "Stillwood Moonshadow",
+        "desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character **16%** ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field."
+      },
+      {
+        "name": "Stillwood Moonshadow",
+        "desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character **20%** ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field."
+      },
+      {
+        "name": "Stillwood Moonshadow",
+        "desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character **24%** ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field."
+      },
+      {
+        "name": "Stillwood Moonshadow",
+        "desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character **28%** ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field."
+      },
+      {
+        "name": "Stillwood Moonshadow",
+        "desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character **32%** ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field."
+      }
+    ]
   },
   "Mouun's Moon": {
     "name": "Mouun's Moon",
@@ -8463,7 +9165,7 @@
         "WeaponAsc4": "Dream of the Dandelion Gladiator"
       }
     },
-    "lore": "A mediocre work of fiction telling the tale of an ordinary fellow who finds himself in another world after death.\nThe world is filled with dangers. Steel monsters as vast as galaxies lurk beneath the ground and devour people in the thousands.\nBut there also exists a powerful being who can make the room comfortable in any season and turn night into day with a snap of his fingers. This is a story as groundless as it is meaningless.\nIt only shares one thing in common with the real world: all the precious metals are owned by a handful of individuals, who keep them locked up in safe boxes.",
+    "lore": "A mediocre work of fiction telling the tale of an ordinary fellow who finds himself in another world after death.\nThat world is filled with dangers. Steel monsters as vast as galaxies lurk beneath the ground and devour people in the thousands.\nBut there also exist powerful beings who can make rooms comfortable in any season and turn night into day with a snap of their fingers. This is a story as groundless as it is meaningless.\nIt only shares one thing in common with the real world: most of the precious metals are owned by a handful of individuals, who keep them locked up in the vault.",
     "refinements": [
       {
         "name": "Energy Shower",
@@ -11424,11 +12126,128 @@
   },
   "Sapwood Blade": {
     "name": "Sapwood Blade",
-    "desc": "*No description available*",
-    "weaponType": "Catalyst",
+    "desc": "A weapon you obtained from an Aranara tale. It has taken on the shape of a blade that can cut down the foes of the forest.",
+    "weaponType": "Sword",
     "stars": 4,
-    "placeholder": true,
-    "icon": "https://i.imgur.com/fdsN9c5.png"
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.734901428222656,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "Energy Recharge",
+        "init": 0.06666699796915054,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Sapwood_Blade.png",
+    "awakenIcon": "img/weapon_woke/Sapwood_Blade.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Chaos Storage",
+        "EnemyDropTierA2": "Chaos Module",
+        "EnemyDropTierA3": "Chaos Bolt",
+        "EnemyDropTierB1": "Faded Red Satin",
+        "EnemyDropTierB2": "Trimmed Red Silk",
+        "EnemyDropTierB3": "Rich Red Brocade",
+        "WeaponAsc1": "Copper Talisman of the Forest Dew",
+        "WeaponAsc2": "Iron Talisman of the Forest Dew",
+        "WeaponAsc3": "Silver Talisman of the Forest Dew",
+        "WeaponAsc4": "Golden Talisman of the Forest Dew"
+      }
+    },
+    "lore": "\"This is a story from Valuka...\"\n\nThis is a story from many moons ago, when the jungle was still a shining desert of gold, and we had not yet been born from the pomegranates.\n\nThere were once three friends. They were as good a group of friends as Araji, Aramaha, and Arayama.\nBut one of the friends returned to the earth, while the remaining two went their separate ways.\nOne was determined to create a kingdom on earth and cause all sorrow to disappear,\nWhile the other decided to spread vegetation and greenery and fill the land with wisdom and happiness.\n\nBut eventually, kingdoms will fall, wisdom will be distorted, and the definition of happiness will change.\nYou will forget your dreams, while we will recoil back to ours, forgetting the sun and moon.\n\nEven so, in the depths of the desert, just as the kings of the forest leave footprints behind, and you and I leave stories behind,\nThe traces of our past friendship are said to slumber quietly, like an Aranara that has transformed into a seed.",
+    "refinements": [
+      {
+        "name": "Forest Sanctuary",
+        "desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character **60** Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack."
+      },
+      {
+        "name": "Forest Sanctuary",
+        "desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character **75** Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack."
+      },
+      {
+        "name": "Forest Sanctuary",
+        "desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character **90** Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack."
+      },
+      {
+        "name": "Forest Sanctuary",
+        "desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character **105** Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack."
+      },
+      {
+        "name": "Forest Sanctuary",
+        "desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character **120** Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack."
+      }
+    ]
   },
   "Seasoned Hunter's Bow": {
     "name": "Seasoned Hunter's Bow",

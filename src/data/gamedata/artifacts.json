@@ -1079,7 +1079,7 @@
       },
       {
         "count": 4,
-        "desc": "Increases damage caused by Overloaded, Electro-Charged and Superconduct by 40%. Triggering such effects decreases Elemental Skill CD by 1s. Can only occur once every 0.8s."
+        "desc": "Increases DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, and the DMG Bonus conferred by Aggravate is increased by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s."
       }
     ],
     "artis": [
@@ -1128,7 +1128,7 @@
       },
       {
         "count": 4,
-        "desc": "Increases Overloaded and Burning DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks."
+        "desc": "Increases Overloaded and Burning, and Burgeon DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks."
       }
     ],
     "artis": [
@@ -1816,6 +1816,38 @@
         "count": 4,
         "desc": "After Elemental Skills or Bursts hit opponents, the targets' Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field."
       }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Labyrinth Wayfarer",
+        "desc": "This lovely gold-plated flower was plucked from the crown of the ruler of the forest.",
+        "icon": "img/arti/Labyrinth_Wayfarer.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Scholar of Vines",
+        "desc": "An emerald leaf as fluffy as a feather. Plucked from the raiment of a forest scholar.",
+        "icon": "img/arti/Scholar_of_Vines.png"
+      },
+      {
+        "type": "Sands",
+        "name": "A Time of Insight",
+        "desc": "Such timepieces are used by those who dedicate themselves to the way of the wise. These timepieces do not contain lifeless sand, but instead play host to tiny mustard seeds.",
+        "icon": "img/arti/A_Time_of_Insight.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Lamp of the Lost",
+        "desc": "This was originally an oil lamp in the style of the desert realm, but has since sprouted fluorescent green leaves.",
+        "icon": "img/arti/Lamp_of_the_Lost.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Laurel Coronet",
+        "desc": "This crown was bestowed by the deity with dominion over plants and trees. It was an heirloom of the royal house of the labyrinth. It was, at last, made the inheritance of the king's attendant.",
+        "icon": "img/arti/Laurel_Coronet.png"
+      }
     ]
   },
   "Gilded Dreams": {
@@ -1832,6 +1864,38 @@
       {
         "count": 4,
         "desc": "Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members. ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Dreaming Steelbloom",
+        "desc": "A flower bud made of hammered dark gold. Its crimson core is wrapped by petals that shall never open.",
+        "icon": "img/arti/Dreaming_Steelbloom.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Feather of Judgment",
+        "desc": "This special feather was once used to weigh the hearts of the guilty, but it has since lost its original function.",
+        "icon": "img/arti/Feather_of_Judgment.png"
+      },
+      {
+        "type": "Sands",
+        "name": "The Sunken Years",
+        "desc": "This dark-golden sundial seems to tell the ancient tale of the desert.",
+        "icon": "img/arti/The_Sunken_Years.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Honeyed Final Feast",
+        "desc": "A wine cup that was once used at a grand and ancient feast. It has now lost much of that luster.",
+        "icon": "img/arti/Honeyed_Final_Feast.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Shadow of the Sand King",
+        "desc": "This gold-inlaid headband was once used by desert priests in the days of old. They were made in imitation of one worn by a legendary ruler of the desert peoples.",
+        "icon": "img/arti/Shadow_of_the_Sand_King.png"
       }
     ]
   }

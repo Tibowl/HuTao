@@ -192,6 +192,16 @@
       "Found in the wild"
     ]
   },
+  "Glabrous Beans": {
+    "name": "Glabrous Beans",
+    "desc": "A common legume in Teyvat with a light aroma. It can be prepared in a variety of variety of ways, and is thus widely accepted by people all over the world.",
+    "type": "Cooking Ingredient",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Glabrous_Beans.png",
+    "sources": [
+      "Sold at general goods shops in Sumeru"
+    ]
+  },
   "Seagrass": {
     "name": "Seagrass",
     "desc": "A plant that grows in shallow seas. It adds a unique flavor to dishes.",
@@ -223,6 +233,51 @@
       "Found in the wild"
     ],
     "effect": "Restores 300 HP for the selected character."
+  },
+  "Harra Fruit": {
+    "name": "Harra Fruit",
+    "desc": "Growing in the hot humid rainforest, it is a fruit with a special spicy aroma. When ground to powder, spices can be made from it. It is the most valued spice plant in Sumeru.",
+    "longDesc": "A fruit with a unique spicy flavor that grows in the hot and damp rainforest. It can be ground down into spice powder, which makes it Sumeru's most important spice plant.\nIn the legends of other countries, the Harra Fruit grows on inaccessible cliff faces and is defended by flying snakes and giant birds. Only valiant warriors with Jinn by their side can access these fruits via secret methods and using the protection of Lord Rukkhadevata. However, anyone who has been to Sumeru will know that these stories are just tall tales told by local merchants to raise the prices of their spices.",
+    "type": "Cooking Ingredient",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Harra_Fruit.png",
+    "sources": [
+      "Found in the wild"
+    ]
+  },
+  "Zaytun Peach": {
+    "name": "Zaytun Peach",
+    "desc": "The fruit of a forest shrub. Its flesh is firm and sweet. It is said to have a calming effect on the mind.",
+    "longDesc": "The fruit of a forest shrub. Its flesh is firm and sweet. It is said to have a calming effect on the mind.\nIn the past, Zaytun Peaches were once used as ornamental plants due to their cute appearance. However, its medical properties were discovered over time, and it has now become a very common commercial product, ironically very seldom noticed for its aesthetic value.",
+    "type": "Cooking Ingredient",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Zaytun_Peach.png",
+    "sources": [
+      "Found in the wild"
+    ]
+  },
+  "Sumeru Rose": {
+    "name": "Sumeru Rose",
+    "desc": "Bright and beautiful, these pure purple flowers give off a pleasant fragrance that will give any passerby pause. While some like to call this a type of \"rambler rose,\" its relative lack of multiple flowers means that it falls under a different floral classification.",
+    "longDesc": "Bright and beautiful, these pure purple flowers give off a pleasant fragrance that will give any passerby pause. While some like to call this a type of \"rambler rose,\" its relative lack of multiple flowers means that it falls under a different floral classification.\nFrom very early times, the Sumeru Rose has been used to make fragrant essences and perfumes. Whenever a festival rolls along, the market will always be filled with the scents of roses. Among the poems that enjoy great fame in Sumeru, the Sumeru Rose is oft compared to fine wine, and has thus become a classic symbol within Sumeru literature. \"Come, put away your meaningless tribulations! Enjoy the companionship of wines and roses, for there is nothing more important at this time!\"",
+    "type": "Cooking Ingredient",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Sumeru_Rose.png",
+    "sources": [
+      "Found in the wild"
+    ]
+  },
+  "Viparyas": {
+    "name": "Viparyas",
+    "desc": "A flower without seeds. \nOnce the earth remembers, the Viparyas will bloom.",
+    "longDesc": "A flower without seeds. \nOnce the earth remembers, the Viparyas will bloom.\nThe forests of Sumeru are the seedbed of dreams, and the children of the forest spend a part of their lives walking in dreams. Some of them will later leave these forest dreams behind, but the forest will not forget them.",
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Viparyas.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Found in Vanarana"
+    ]
   },
   "Wolfhook": {
     "name": "Wolfhook",
@@ -541,6 +596,52 @@
       "Recommendation: Found on Tsurumi Island"
     ]
   },
+  "Rukkhashava Mushrooms": {
+    "name": "Rukkhashava Mushrooms",
+    "desc": "A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest. Therefore, they are considered by the people of Sumeru to be the holy crystallization of Rukkhadevata's legacy.",
+    "longDesc": "A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest. Therefore, they are considered by the people of Sumeru to be the holy crystallization of Rukkhadevata's legacy.\nIn Sumeru, those who dwell in the forest have a tradition of offering Rukkhashava Mushrooms to the Akademiya, but no one knows what these offerings are meant to be used for. Word has it that the Akademiya always performs a secret annual ritual at the Sanctuary of Surasthana, during which the sages will consume these mushrooms to commemorate Lord Rukkhadevata's sacrifice.",
+    "type": "Sumeru Regional Specialty",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Rukkhashava_Mushrooms.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Found in the Ashavan Realm",
+      "Recommendation: Found in the Avidya Forest"
+    ]
+  },
+  "Padisarah": {
+    "name": "Padisarah",
+    "desc": "A holy and noble plant. The conditions for growth in its environment are very demanding. The flower buds can be processed to make valuable spices.",
+    "longDesc": "A holy and noble plant. The conditions for growth in its environment are very demanding. The flower buds can be processed to make valuable spices.\nThe Padisarah is said to derive its name from a certain ancient deity. It is said that in those times long past, there were three gods who had struck up excellent relations with one another. In those days, there was once a great plain covered in lovely flowers that people would gather up and use as incense to offer up to their gods.\nThose flowers are no longer extant, but the Padisarah is a cultivar that was brought back to the land via the use of the Anahitian Blessing.",
+    "type": "Sumeru Regional Specialty",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Padisarah.png",
+    "sources": [
+      "Found near Sumeru City"
+    ]
+  },
+  "Nilotpala Lotus": {
+    "name": "Nilotpala Lotus",
+    "desc": "Growing in the forest wetlands, these plants only bloom at night with flowers as bright as the moon.",
+    "longDesc": "Growing in the forest wetlands, these plants only bloom at night with flowers as bright as the moon.\nIn the oldest folk tales of this land, the great chariot of the moon goddess once shone with a light that matched the sun. At this time, all things in the world were at peace. But the arrows that tore the skies apart would shatter the gems that adorned the most ethereal of vehicles, and the people would behold the visage of the sovereign of the moonlit nights no longer. The many flowers would turn and serve a new master, but the Nilotpala Lotuses would bathe in the cool moonlight and continue to remember the glad songs of that afore-time.",
+    "type": "Sumeru Regional Specialty",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Nilotpala_Lotus.png",
+    "sources": [
+      "Found at water bodies in Sumeru"
+    ]
+  },
+  "Kalpalata Lotus": {
+    "name": "Kalpalata Lotus",
+    "desc": "Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
+    "longDesc": "Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.\nVines grow along cliffs everywhere in Sumeru, as timeless as time itself. It is said that these vines were the first thing that Lord Rukkhadevata ever created, making them the progenitors of every plant in Sumeru. All the great plants of the land, even the undying Divine Tree, are connected at the roots through the entanglement of these vines. Of course, this saying has long been refuted by Amurta researchers, but still, it persists amongst the people.",
+    "type": "Sumeru Regional Specialty",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Kalpalata_Lotus.png",
+    "sources": [
+      "Found in the mountains of Sumeru"
+    ]
+  },
   "Fir Wood": {
     "name": "Fir Wood",
     "desc": "Wood from the tree known as \"Faber's Fir.\" Widely used for its fine quality and attractive grain.\nCan be used to create furnishings.",
@@ -684,7 +785,7 @@
     "category": "Teyvat's Resources",
     "icon": "img/material/Northlander_Sword_Billet.png",
     "sources": [
-      "Dropped by bosses"
+      "Reward for completing Trounce Domain Challenge in Mondstadt, Liyue, or Inazuma, or the Dominator of Wolves Challenge"
     ]
   },
   "Northlander Bow Billet": {
@@ -695,7 +796,7 @@
     "category": "Teyvat's Resources",
     "icon": "img/material/Northlander_Bow_Billet.png",
     "sources": [
-      "Dropped by bosses"
+      "Reward for completing Trounce Domain Challenge in Mondstadt, Liyue, or Inazuma, or the Dominator of Wolves Challenge"
     ]
   },
   "Northlander Claymore Billet": {
@@ -706,7 +807,7 @@
     "category": "Teyvat's Resources",
     "icon": "img/material/Northlander_Claymore_Billet.png",
     "sources": [
-      "Dropped by bosses"
+      "Reward for completing Trounce Domain Challenge in Mondstadt, Liyue, or Inazuma, or the Dominator of Wolves Challenge"
     ]
   },
   "Northlander Catalyst Billet": {
@@ -717,7 +818,7 @@
     "category": "Teyvat's Resources",
     "icon": "img/material/Northlander_Catalyst_Billet.png",
     "sources": [
-      "Dropped by bosses"
+      "Reward for completing Trounce Domain Challenge in Mondstadt, Liyue, or Inazuma, or the Dominator of Wolves Challenge"
     ]
   },
   "Northlander Polearm Billet": {
@@ -728,7 +829,7 @@
     "category": "Teyvat's Resources",
     "icon": "img/material/Northlander_Polearm_Billet.png",
     "sources": [
-      "Dropped by bosses"
+      "Reward for completing Trounce Domain Challenge in Mondstadt, Liyue, or Inazuma, or the Dominator of Wolves Challenge"
     ]
   },
   "Fruit Paste Bait": {
@@ -1678,6 +1779,54 @@
       "recipe": "Katsu Sandwich"
     },
     "effect": "Increases all party members' ATK by 114 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
+  "Forest Watcher's Choice": {
+    "name": "Forest Watcher's Choice",
+    "desc": "Tighnari's specialty. The Forest Watcher personally picked out these edible mushrooms — not only the common ones but also a few mysterious-looking shrooms that you have never seen before. No condiments were added, for the limelight should go to the ingredients' unmarred freshness. It must have taken him quite some time to prepare this delicious dish.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Forest_Watchers_Choice.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Tighnari",
+      "recipe": "Mushroom Hodgepodge"
+    },
+    "effect": "Increases all party members' DEF by 151 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
+  "Yearning": {
+    "name": "Yearning",
+    "desc": "Collei's specialty. Nutrient-rich ingredients have been stuffed inside the soft pastry shell to create a filling dish fit for those on the move. According to Collei, the cutlet in it is named \"Forest Rangers' barbecue!\" ... You know, this rather reminds you of a certain enthusiastic girl in red. The dish must be the embodiment of Collei's innermost admiration.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Yearning.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Collei",
+      "recipe": "Pita Pocket"
+    },
+    "effect": "Restores 40% of Max HP and an additional 2,350 HP to the selected character."
+  },
+  "Show Me the Mora": {
+    "name": "Show Me the Mora",
+    "desc": "Dori's specialty. After paying a large sum of Mora, you finally got a chance to taste the dish cooked by Lord Sangemah Bay herself. Firm chicken is covered in the silky sauce with a smooth texture. With the mind-controlling charm of its great flavor, this dish is spurring an impulse in you to spend another fortune just to get another bite!",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Show_Me_the_Mora.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Dori",
+      "recipe": "Butter Chicken"
+    },
+    "effect": "Increases all party members' ATK by 274 for 300s. In Co-op Mode, this effect only applies to your own character(s)."
   },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
@@ -4825,6 +4974,224 @@
       "Delicious Rainbow Aster": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   },
+  "Butter Chicken": {
+    "name": "Butter Chicken",
+    "desc": "A flavorful dish. Juicy chicken is saturated with silky sauce. Every bite orchestrates an \"elemental symphony of flavors\"... Oops, before you even knew it, you had already emptied the plate. Dip the flatbread in the sauce — every last drop of this must go!",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Butter_Chicken.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Fowl"
+      },
+      {
+        "count": 3,
+        "name": "Tomato"
+      },
+      {
+        "count": 1,
+        "name": "Butter"
+      },
+      {
+        "count": 1,
+        "name": "Spice"
+      }
+    ],
+    "effect": {
+      "Suspicious Butter Chicken": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Butter Chicken": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Butter Chicken": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Mushroom Hodgepodge": {
+    "name": "Mushroom Hodgepodge",
+    "desc": "An Aranara-style dish that Paimon drained her brain juice dry to improve. But in fact, it only requires a few common mushrooms from Sumeru, along with some extra seasonings. The heat and cooking time have been adjusted to preserve the distinctive flavors of three different types of mushrooms. Depending on one's preference, they can either be eaten together or one at a time to study the subtly varying flavors.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Mushroom_Hodgepodge.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Rukkhashava Mushrooms"
+      },
+      {
+        "count": 1,
+        "name": "Mushroom"
+      },
+      {
+        "count": 1,
+        "name": "Starshroom"
+      }
+    ],
+    "effect": {
+      "Suspicious Mushroom Hodgepodge": "Increases all party members' DEF by 88 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Mushroom Hodgepodge": "Increases all party members' DEF by 107 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Mushroom Hodgepodge": "Increases all party members' DEF by 126 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Pita Pocket": {
+    "name": "Pita Pocket",
+    "desc": "A bread with varied fillings. Aromatic meat and crunchy vegetables are the leading actors of this big show. The sauce, or the \"gaffer,\" has expertly focused the limelight on their duet, while each \"pocket\" is full of surprises, just like a magician's bag.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Pita_Pocket.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Tomato"
+      },
+      {
+        "count": 2,
+        "name": "Milk"
+      }
+    ],
+    "effect": {
+      "Suspicious Pita Pocket": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+      "Pita Pocket": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
+      "Delicious Pita Pocket": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
+    }
+  },
+  "Minty Bean Soup": {
+    "name": "Minty Bean Soup",
+    "desc": "A rich soup made with simple ingredients. The smooth texture caresses your taste buds, filling your mouth with the refreshing scent of beans and mints. The unadorned yet pleasant flavor reminds you of a leisurely walk in the shade. Who can refuse such simple delight?",
+    "stars": 1,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Minty_Bean_Soup.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Glabrous Beans"
+      },
+      {
+        "count": 2,
+        "name": "Mint"
+      }
+    ],
+    "effect": {
+      "Suspicious Minty Bean Soup": "Revives a character and restores 50 HP.",
+      "Minty Bean Soup": "Revives a character and restores 100 HP.",
+      "Delicious Minty Bean Soup": "Revives a character and restores 150 HP."
+    }
+  },
+  "Biryani": {
+    "name": "Biryani",
+    "desc": "An aromatic rice dish. The golden crown made of long-grain rice and meat is adorned with Padisarah petals, a picture that reminds you of a desert dotted with oases. The enticing scent of spices dances across each grain of rice. Every mouthful soothes your whole body. It won't take long for a customer to empty the plate. They can't help but lick their mouth, savoring the lingering scent.",
+    "stars": 4,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Biryani.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Rice"
+      },
+      {
+        "count": 3,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Spice"
+      },
+      {
+        "count": 1,
+        "name": "Padisarah"
+      }
+    ],
+    "effect": {
+      "Suspicious Biryani": "Increases all party members' DEF by 215 and healing effects by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Biryani": "Increases all party members' DEF by 261 and healing effects by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Biryani": "Increases all party members' DEF by 308 and healing effects by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Tahchin": {
+    "name": "Tahchin",
+    "desc": "A classic rice dish served in large quantities. With the first bite, the crispy outside cracks with delightful crunching sounds. The second bite combines the soft and moist rice with juicy meat in your mouth. Then, the third bite brings in the Padisarah's fragrance... The last bite, however, leaves your heart empty. What a pity it is, that you are too full to continue this wondrous experience. Well then, why not have another serving tomorrow?",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Tahchin.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Rice"
+      },
+      {
+        "count": 2,
+        "name": "Fowl"
+      },
+      {
+        "count": 2,
+        "name": "Fish"
+      },
+      {
+        "count": 1,
+        "name": "Padisarah"
+      }
+    ],
+    "effect": {
+      "Suspicious Tahchin": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
+      "Tahchin": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
+      "Delicious Tahchin": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s."
+    }
+  },
+  "Lambad Fish Roll": {
+    "name": "Lambad Fish Roll",
+    "desc": "A grilled fish dish with a faint floral scent. The rolling golden fish meat and fragrant rose petals remind you of the billowing waves on the sea surface, colored crimson by the setting sun. You see why the dish is also called \"the Romance of Sailors.\" W—Wait just a minute! Does this mean that Lambad's adventure stories are not exaggerated after all?",
+    "stars": 1,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Lambad_Fish_Roll.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Fish"
+      },
+      {
+        "count": 1,
+        "name": "Sumeru Rose"
+      }
+    ],
+    "effect": {
+      "Suspicious Lambad Fish Roll": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
+      "Lambad Fish Roll": "Restores 9% of Max HP and an additional 1,000 HP to the selected character.",
+      "Delicious Lambad Fish Roll": "Restores 10% of Max HP and an additional 1,200 HP to the selected character."
+    }
+  },
   "Rice Pudding": {
     "name": "Rice Pudding",
     "desc": "A dessert made from rice. The soft, sticky rice and the sweet milk have melded together perfectly, their tastes complementing each other. If you eat it hot, you can enjoy the dense rice grains, and if you leave it till it's cold, you can savor the gentle fragrance of milk — each possessing its own beauty. People who eat such a dish cannot help but wonder: how many experiments led up to this moment?",
@@ -5222,7 +5589,8 @@
     "icon": "img/material/Tofu.png",
     "sources": [
       "Sold at general goods shops in Liyue",
-      "Sold at general goods shops in Inazuma"
+      "Sold at general goods shops in Inazuma",
+      "Sold at general goods shops in Sumeru"
     ]
   },
   "Almond": {
@@ -5243,7 +5611,8 @@
     "icon": "img/material/Rice.png",
     "sources": [
       "Sold at general goods shops in Liyue",
-      "Sold at general goods shops in Inazuma"
+      "Sold at general goods shops in Inazuma",
+      "Sold at general goods shops in Sumeru"
     ]
   },
   "Shrimp Meat": {
@@ -5254,7 +5623,8 @@
     "icon": "img/material/Shrimp_Meat.png",
     "sources": [
       "Sold at general goods shops in Liyue",
-      "Sold at general goods shops in Inazuma"
+      "Sold at general goods shops in Inazuma",
+      "Sold at general goods shops in Sumeru"
     ]
   },
   "Flour": {
@@ -5363,6 +5733,16 @@
     "type": "Cooking Ingredient",
     "category": "Food and Potions",
     "icon": "img/material/Crab_Roe.png",
+    "sources": [
+      "Processed"
+    ]
+  },
+  "Spice": {
+    "name": "Spice",
+    "desc": "A seasoning with varied flavors. It is made from dried Harra Fruits and can enrich the taste of a dish. Therefore, Sumeru locals say, \"Spice goes well with anything.\"",
+    "type": "Cooking Ingredient",
+    "category": "Food and Potions",
+    "icon": "img/material/Spice.png",
     "sources": [
       "Processed"
     ]
@@ -5503,6 +5883,18 @@
     ],
     "effect": "Increases all party members' Geo RES by 25% for 300s."
   },
+  "Dendrocide Potion": {
+    "name": "Dendrocide Potion",
+    "desc": "A potion that boosts Dendro RES and suppresses the growth of plants.\nRather than killing the plants, it puts them in deep hibernation. It's also said to be good for the body if ingested.",
+    "stars": 3,
+    "type": "Potion",
+    "category": "Food and Potions",
+    "icon": "img/material/Dendrocide_Potion.png",
+    "sources": [
+      "Crafted"
+    ],
+    "effect": "Increases all party members' Dendro RES by 25% for 300s."
+  },
   "Flaming Essential Oil": {
     "name": "Flaming Essential Oil",
     "desc": "Grants greater affinity for Pyro, boosting Pyro DMG.\nIt is made of materials that gestate Pyro, which serves to draw in Pyro energy more effectively. It also makes the user more fired-up and passionate.",
@@ -5574,6 +5966,18 @@
       "Crafted"
     ],
     "effect": "Increases all party members' Geo DMG by 25% for 300s."
+  },
+  "Forest Essential Oil": {
+    "name": "Forest Essential Oil",
+    "desc": "Grants greater affinity for Dendro, boosting Dendro DMG.\nIt's a nourishing external medicine that promotes growth of plants, able to better channel Dendro energy.",
+    "stars": 3,
+    "type": "Potion",
+    "category": "Food and Potions",
+    "icon": "img/material/Forest_Essential_Oil.png",
+    "sources": [
+      "Crafted"
+    ],
+    "effect": "Increases all party members' Dendro DMG by 25% for 300s."
   },
   "Dvalin's Plume": {
     "name": "Dvalin's Plume",
@@ -5949,6 +6353,28 @@
       "Dropped by Lv. 30+ Ruin Serpents"
     ]
   },
+  "Majestic Hooked Beak": {
+    "name": "Majestic Hooked Beak",
+    "desc": "An elongated bill that you found after defeating the Jadeplume Terrorshroom.\nResearchers still consider it a miracle even now that some soft Fungi have evolved these rock-hard hooked beaks. This magnificent king amongst Fungi has been leisurely pacing on the finish line of evolution. Now and then, it emits a long call to all the living beings in the rainforest: Even the most helpless and timid creature may one day become the monarch of the woods.",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Majestic_Hooked_Beak.png",
+    "sources": [
+      "Dropped by Lv. 30+ Jadeplume Terrorshroom"
+    ]
+  },
+  "Thunderclap Fruitcore": {
+    "name": "Thunderclap Fruitcore",
+    "desc": "The core of an Electro Regisvine, wrapped in razor-sharp leaves, wantonly emits Electro energy.\nThe roaring energy rampaging deep within the earth is eager to pour out its rage, thus even tainting these unfortunate vines with its mania, causing them to wail and flail their branches frantically. One can hardly tell whether it longs for others to taste the pain of being continuously electrocuted and charred or if it is struggling, looking forward to its inevitable doom.",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Thunderclap_Fruitcore.png",
+    "sources": [
+      "Dropped by Lv. 30+ Electro Regisvines"
+    ]
+  },
   "Brilliant Diamond Sliver": {
     "name": "Brilliant Diamond Sliver",
     "desc": "Character Ascension material.\n\"Welcome to this world.\"",
@@ -6106,7 +6532,9 @@
     "icon": "img/material/Vajrada_Amethyst_Sliver.png",
     "sources": [
       "Dropped by Electro Hypostases",
-      "Dropped by Thunder Manifestation"
+      "Dropped by Thunder Manifestation",
+      "Dropped by Electro Regisvines",
+      "Purchase from the Souvenir Shop"
     ]
   },
   "Vajrada Amethyst Fragment": {
@@ -6119,6 +6547,7 @@
     "sources": [
       "Dropped by Lv. 40+ Electro Hypostases",
       "Dropped by Lv. 40+ Thunder Manifestations",
+      "Dropped by Lv. 40+ Electro Regisvines",
       "Crafted"
     ]
   },
@@ -6132,6 +6561,7 @@
     "sources": [
       "Dropped by Lv. 60+ Electro Hypostases",
       "Dropped by Lv. 60+ Thunder Manifestations",
+      "Dropped by Lv. 60+ Electro Regisvines",
       "Crafted"
     ]
   },
@@ -6145,6 +6575,7 @@
     "sources": [
       "Dropped by Lv. 75+ Electro Hypostases",
       "Dropped by Lv. 75+ Thunder Manifestations",
+      "Dropped by Lv. 75+ Electro Regisvines",
       "Crafted"
     ]
   },
@@ -6301,6 +6732,53 @@
       "Dropped by Lv. 75+ Geo Hypostases",
       "Dropped by Lv. 75+ Golden Wolflords",
       "Dropped by Lv. 75+ Ruin Serpents",
+      "Crafted"
+    ]
+  },
+  "Nagadus Emerald Sliver": {
+    "name": "Nagadus Emerald Sliver",
+    "desc": "Character Ascension Material.",
+    "stars": 2,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Nagadus_Emerald_Sliver.png",
+    "sources": [
+      "Dropped by Jadeplume Terrorshroom"
+    ]
+  },
+  "Nagadus Emerald Fragment": {
+    "name": "Nagadus Emerald Fragment",
+    "desc": "Character Ascension material.\n\"I had a very, very long dream...\"",
+    "stars": 3,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Nagadus_Emerald_Fragment.png",
+    "sources": [
+      "Dropped by Lv. 40+ Jadeplume Terrorshroom",
+      "Crafted"
+    ]
+  },
+  "Nagadus Emerald Chunk": {
+    "name": "Nagadus Emerald Chunk",
+    "desc": "Character Ascension material.\n\"I had a very, very long dream...\"\n\"In it, people were holding hands, dancing in a circle, be they sages or fools, dancers or warriors, puppets or statues of gods...\"",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Nagadus_Emerald_Chunk.png",
+    "sources": [
+      "Dropped by Lv. 60+ Jadeplume Terrorshroom",
+      "Crafted"
+    ]
+  },
+  "Nagadus Emerald Gemstone": {
+    "name": "Nagadus Emerald Gemstone",
+    "desc": "Character Ascension material.\n\"I had a very, very long dream...\"\n\"In it, people were holding hands, dancing in a circle, be they sages or fools, dancers or warriors, puppets or statues of gods...\"\n\"That dancing circle embodied everything about the universe. Life has always been the end, while it is wisdom that shall be the means.\"",
+    "stars": 5,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Nagadus_Emerald_Gemstone.png",
+    "sources": [
+      "Dropped by Lv. 75+ Jadeplume Terrorshroom",
       "Crafted"
     ]
   },
@@ -6731,6 +7209,147 @@
     "sources": [
       "Crafted",
       "Domain of Forgery: Sand Burial (Wednesday/Saturday/Sunday)"
+    ]
+  },
+  "Copper Talisman of the Forest Dew": {
+    "name": "Copper Talisman of the Forest Dew",
+    "desc": "Weapon Ascension Material.\nUnder the instructions of the First Sage, the ancestors of the forest people made these talismans using withered trees to commemorate the Lord of Verdure.\nThe talisman's shape was inspired by the forest dew. It symbolizes the permeation of wisdom into mortal minds.",
+    "stars": 2,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Copper_Talisman_of_the_Forest_Dew.png",
+    "sources": [
+      "Domain of Forgery: Tainted Clouds (Monday/Thursday/Sunday)"
+    ]
+  },
+  "Iron Talisman of the Forest Dew": {
+    "name": "Iron Talisman of the Forest Dew",
+    "desc": "Weapon Ascension Material.\nLater, the Lord of Verdure taught people the mystery of the forging of black iron. The innocent mortals thus grasped the knowledge of using fire to forge blades.\nThe Lord of Verdure took pleasure in their knowledge — Lethal as fire and blades were to her, they made ordinary people powerful.",
+    "stars": 3,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Iron_Talisman_of_the_Forest_Dew.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Tainted Clouds (Monday/Thursday/Sunday)"
+    ]
+  },
+  "Silver Talisman of the Forest Dew": {
+    "name": "Silver Talisman of the Forest Dew",
+    "desc": "Weapon Ascension Material.\nIn the myriad lore of the forest, the one in the striped cape that resembled blazing flames was the Greater Lord of the Labyrinths and the Owner of the Moon-Mirrored Spring.\nWhen he bowed his head and struck up a friendship with the Lord of Verdure, the tokens of their friendship were the gems that glimmered like water and silver that gleamed like the moonlight.\nTo repay such a gesture, the Lord of Verdure promised to keep secrets for the Greater Lord of the Labyrinths and safeguard the intricate and beautiful dreams of the rainforest.\nNo one could have foretold that the magnificent mansion of secrets and dreams would later fade away amidst the shroud of the dark flame of oblivion, after which its ash returned to the soil and became nutrients for the virgin rainforests.",
+    "stars": 4,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Silver_Talisman_of_the_Forest_Dew.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Tainted Clouds (Monday/Thursday/Sunday)"
+    ]
+  },
+  "Golden Talisman of the Forest Dew": {
+    "name": "Golden Talisman of the Forest Dew",
+    "desc": "Weapon Ascension Material.\n\"Mortals hold dear three things only: the spring water that embraces the moonlight, verdant life, and ageless youth...\"\nThe nature of \"wisdom\" is not domination over all minds or scheming to gain all the benefit. Instead, it is about empowering even ordinary beings to one day overcome their imposed constraints.\nThough the roar of the tiger is no longer heard in the forest and the resilient guardians would seclude themselves within the dreams of children... On the night when every secret golden seal is lifted and all dreams glow like amber in the moonlight, perhaps she and her beloved people will eventually win genuine freedom.",
+    "stars": 5,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Golden_Talisman_of_the_Forest_Dew.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Tainted Clouds (Monday/Thursday/Sunday)"
+    ]
+  },
+  "Oasis Garden's Reminiscence": {
+    "name": "Oasis Garden's Reminiscence",
+    "desc": "Weapon Ascension Material.\nPeople used to say that the Lord of Flowers was the Lord of Joy and Happiness. Freshwater sprang from her sleeves, and thus was the oasis of blossoming flowers born in the desert. Flowers and grasses followed in her footsteps, and gleaming moonlight cleared the way for her.\nIn the bitter days when the sky turned its back on the ground, the Lord of Flowers extended her mercy to each and every one of the mortals, letting them regain their happiness and egos, allowing leisure and luxury to resume.",
+    "stars": 2,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Oasis_Gardens_Reminiscence.png",
+    "sources": [
+      "Domain of Forgery: Obsession (Tuesday/Friday/Sunday)"
+    ]
+  },
+  "Oasis Garden's Kindness": {
+    "name": "Oasis Garden's Kindness",
+    "desc": "Weapon Ascension Material.\nIn the literature buried deep beneath the yellow sands, the Lord of Flowers was the Mistress of Dreams.\nShe bestowed dreams upon the exiled, the manic, and the foolish. In those dreams, they were presented with their dearest delights. Burdened by the brutality of reality, they were fascinated by the charm of the Lord of Flowers and captivated by her beauty and care.",
+    "stars": 3,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Oasis_Gardens_Kindness.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Obsession (Tuesday/Friday/Sunday)"
+    ]
+  },
+  "Oasis Garden's Mourning": {
+    "name": "Oasis Garden's Mourning",
+    "desc": "Weapon Ascension Material.\nThe Lord of Flowers was in an amicable relationship with the Jinn.\nThe Mistress of Flowers and Oases joined hands with the Lord of Deserts and built Ay-Khanoum, the \"City of Amphitheaters,\" which carried the meaning of \"City of the Moon Maiden\" in the ancient language of the Jinn.\nLater, however, it was said that the Lord of Flowers died due to the malice of the burning sun and yellow sand, after which the blossoms of purple Padisarahs were never seen again in the oases.\nAfter the departure of the Lord of Flowers, the sandstorms keened, the Jinn sobbed, and the moonlight-silver gem disc lost its original, glad purpose, giving off a mournful glimmer.",
+    "stars": 4,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Oasis_Gardens_Mourning.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Obsession (Tuesday/Friday/Sunday)"
+    ]
+  },
+  "Oasis Garden's Truth": {
+    "name": "Oasis Garden's Truth",
+    "desc": "Weapon Ascension Material.\n\"Who would worship a departed god?\"\nThe Lord of Flowers was once in alliance with two other gods. Apart from wisdom and power, she also brought mercy and joy to her people.\nJust as the earth needs more than the burning sunshine and pouring rain, to the people of the Lord of Flowers, joy and love, singing and music, and wine and extravagance were just as vital as strength and sensibility.\nIt is said that flowers blossom so that they may enjoy a spectacular death, and that death was precisely the wholehearted pursuit of the Lord of Flowers — for death adds bitterness to lost joy, and intensifies with time across endless memories.\nThe ignorant Lord of Deserts was never aware of her reasoning. He only reveled in her immense charm and grace — and as misguided as such fervent affections might be, they were well within the calculations of the Lord of Flowers.",
+    "stars": 5,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Oasis_Gardens_Truth.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Obsession (Tuesday/Friday/Sunday)"
+    ]
+  },
+  "Echo of Scorching Might": {
+    "name": "Echo of Scorching Might",
+    "desc": "Weapon Ascension Material.\nA long time ago, the people of the Lord of Deserts carved these imperial insignias based on robust beetles to memorialize the bright sun that marked the shifting of day and night, as well as the infinity of such times.\nThough the name of that Lord is no longer mentioned, these imperial insignias have been preserved through time, each bearing a faint ambiance of those past glories.\nThese insignias travel with the descendants of the Eremite Tribe, silently telling the tales of their then-Lord.",
+    "stars": 2,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Echo_of_Scorching_Might.png",
+    "sources": [
+      "Domain of Forgery: Leading Karma (Wednesday/Saturday/Sunday)"
+    ]
+  },
+  "Remnant Glow of Scorching Might": {
+    "name": "Remnant Glow of Scorching Might",
+    "desc": "Weapon Ascension Material.\nTo weave together myriad thoughts and reign over countless souls — this is the essence of power.\nHowever, power is not cold-blooded tyranny. Its true ideal, at its heart, is to create a utopia free of worry, schemes, and slavery.\nIt was just as the silent lord saw in the crystal's secrets, and just as the lost companion had once taught.\nThe dark insect insignia and the steel judgment thus laid the foundations of the kingdom's rules.",
+    "stars": 3,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Remnant_Glow_of_Scorching_Might.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Leading Karma (Wednesday/Saturday/Sunday)"
+    ]
+  },
+  "Dream of Scorching Might": {
+    "name": "Dream of Scorching Might",
+    "desc": "Weapon Ascension Material.\nSilver moonlight and clear springs once completed the scenery of the oases. But as the Lord of Flowers faded in the darkening sandstorm, so was the worriless golden paradise submerged by death.\nIn the poetry of the Eremite Tribe, the moon cast its silver light on the crimson mantle, causing Al-Ahmar, the Mourning King, to be driven to madness.\nIn a melancholic desert ballad, driven by the haunting nostalgia, the lonely king created an ever-youthful dreamland in the center of the desert, where undisturbed water sprang up and perpetual dusk remained.",
+    "stars": 4,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Dream_of_Scorching_Might.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Leading Karma (Wednesday/Saturday/Sunday)"
+    ]
+  },
+  "Olden Days of Scorching Might": {
+    "name": "Olden Days of Scorching Might",
+    "desc": "Weapon Ascension Material.\nIn the era when the ignorant Lord of Deserts ruled, his power descended upon every inch of the land like the scorching sun.\nAncient stone tablets record that he turned his power into seven rays of blinding light or seven pillars, which he granted equally and mercifully to everyone. No one was neglected, nor was anyone discontented.\nThat was a forgotten golden era, an era when the Lord of Flowers had faded into the sands and the Lord of Verdure was determined to leave. Only the descendants in the yellow sand chose to follow their god. Even as the grim shadow of calamity loomed, the power in which they had faith shone brightly like amber and gold.\nYet calamity befell nonetheless, and the golden insectoid insignias were buried beneath the depths of shrine and palace, under collapsed pillars engraved with images of eagles and bulls.",
+    "stars": 5,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Olden_Days_of_Scorching_Might.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Leading Karma (Wednesday/Saturday/Sunday)"
     ]
   },
   "Damaged Mask": {
@@ -7437,7 +8056,10 @@
     "category": "Trophies",
     "icon": "img/material/Fungal_Spores.png",
     "sources": [
-      "Dropped by Floating Fungi"
+      "Dropped by Fungi",
+      "Dropped uncommonly by Fungi (activated)",
+      "Dropped uncommonly by Fungi (scorched)",
+      "Stardust Exchange"
     ]
   },
   "Luminescent Pollen": {
@@ -7448,8 +8070,11 @@
     "category": "Trophies",
     "icon": "img/material/Luminescent_Pollen.png",
     "sources": [
-      "Dropped by Lv. 40+ Floating Fungi",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 40+ Fungi",
+      "Dropped uncommonly by Lv. 40+ Fungi (activated)",
+      "Dropped uncommonly by Lv. 40+ Fungi (scorched)",
+      "Stardust Exchange"
     ]
   },
   "Crystalline Cyst Dust": {
@@ -7460,8 +8085,10 @@
     "category": "Trophies",
     "icon": "img/material/Crystalline_Cyst_Dust.png",
     "sources": [
-      "Dropped by Lv. 60+ Floating Fungi",
-      "Crafted"
+      "Crafted",
+      "Dropped by Lv. 60+ Fungi",
+      "Dropped uncommonly by Lv. 60+ Fungi (activated)",
+      "Dropped uncommonly by Lv. 60+ Fungi (scorched)"
     ]
   },
   "Gloomy Statuette": {
@@ -7499,6 +8126,120 @@
     "sources": [
       "Crafted",
       "Dropped by Lv. 60+ Black Serpents"
+    ]
+  },
+  "Inactivated Fungal Nucleus": {
+    "name": "Inactivated Fungal Nucleus",
+    "desc": "Body tissue left behind by a Fungus that has been exposed to intense elemental stimulation.\nIts soothing texture makes it shockingly good for stress relief. However, frequent usage can also easily lead to the Fungi multiplying, and thus the material is not suitable for any commercial use.",
+    "stars": 2,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Inactivated_Fungal_Nucleus.png",
+    "sources": [
+      "Dropped by Fungi (activated)",
+      "Dropped by Fungi (scorched)",
+      "Stardust Exchange"
+    ]
+  },
+  "Dormant Fungal Nucleus": {
+    "name": "Dormant Fungal Nucleus",
+    "desc": "Body tissue left behind by a Fungus that has been exposed to intense elemental stimulation.\nThere was once a protracted debate among Amurta researchers on whether the Fungi should be categorized as plants or animals. In the end, they reached an agreement and closed the case for good — the Fungi shall be its own category, neither plant nor animal.",
+    "stars": 3,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Dormant_Fungal_Nucleus.png",
+    "sources": [
+      "Crafted",
+      "Dropped by Lv. 40+ Fungi (activated)",
+      "Dropped by Lv. 40+ Fungi (scorched)",
+      "Stardust Exchange"
+    ]
+  },
+  "Robust Fungal Nucleus": {
+    "name": "Robust Fungal Nucleus",
+    "desc": "Body tissue left behind by a Fungus that has been exposed to intense elemental stimulation.\nIt is generally believed that the Fungi evolved into more mobile forms to better disperse their spores.\nA poet once depicted a shared dream of the Fungi in which their spores covered every inch of the mountains and oceans. The world had never been more tranquil. Then the Fungi turned into fish, birds, beasts, men, and gods, relying on rainfall, land, and their own kind who had returned to the earth.",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Robust_Fungal_Nucleus.png",
+    "sources": [
+      "Crafted",
+      "Dropped by Lv. 60+ Fungi (activated)",
+      "Dropped by Lv. 60+ Fungi (scorched)"
+    ]
+  },
+  "Faded Red Satin": {
+    "name": "Faded Red Satin",
+    "desc": "A piece of red satin used to cover the eyes. The fabric is slightly torn.\nMany Eremites tend to cover their eyes with textiles, but the original intention of this practice has long been lost to the sands of time.",
+    "stars": 1,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Faded_Red_Satin.png",
+    "sources": [
+      "Dropped by The Eremites",
+      "Stardust Exchange"
+    ]
+  },
+  "Trimmed Red Silk": {
+    "name": "Trimmed Red Silk",
+    "desc": "A piece of red silk trimmed with simple decorations.\nA seasoned warrior can detect weaknesses from their foe's eyes and thus take advantage. The Eremites have long since lost a master to serve, and now they have no one to trust but themselves. Word has it that they are more than convinced that all things betray, even their own eyes.",
+    "stars": 2,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Trimmed_Red_Silk.png",
+    "sources": [
+      "Crafted",
+      "Dropped by Lv. 40+ Eremites",
+      "Stardust Exchange"
+    ]
+  },
+  "Rich Red Brocade": {
+    "name": "Rich Red Brocade",
+    "desc": "A piece of red brocade woven with golden thread.\nThose born in the gilded desert under the sun occasionally sing a song, of which the meaning has been forgotten. They would praise the scorching sun that illuminates the earth as equally as ever and bewail the afterglow at the end of the dusk. Some unfamiliar words recur at the end of the song, which are said to be the names of ancient gods. Legend has it that when the King of the Desert was still alive, his people chose to cover their eyes as they dared not look upon him, whose brilliance was beyond that of the sun.",
+    "stars": 3,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Rich_Red_Brocade.png",
+    "sources": [
+      "Crafted",
+      "Dropped by Lv. 60+ Eremites"
+    ]
+  },
+  "Chaos Storage": {
+    "name": "Chaos Storage",
+    "desc": "Comes from a now-inactive ancient Ruin Drake.\nRuin Drakes can absorb Elemental Energy from the outside and store it in this component inside their \"neck.\"",
+    "stars": 2,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Chaos_Storage.png",
+    "sources": [
+      "Dropped by Ruin Drakes",
+      "Stardust Exchange"
+    ]
+  },
+  "Chaos Module": {
+    "name": "Chaos Module",
+    "desc": "Comes from a now-inactive ancient Ruin Drake.\nThe dragons were once the most primitive and ancient bodily form of the supreme elements until they were defeated, conquered, or assimilated.",
+    "stars": 3,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Chaos_Module.png",
+    "sources": [
+      "Crafted",
+      "Dropped by Lv. 40+ Ruin Drakes",
+      "Stardust Exchange"
+    ]
+  },
+  "Chaos Bolt": {
+    "name": "Chaos Bolt",
+    "desc": "Comes from a now-inactive ancient Ruin Drake.\nAmong the lost ancient kingdoms, there was a group of people who were obsessed with the idea of mimesis. Be it the Hypostases' pure ordered elements or the ancient primitive power of the dragons, these people believed that they might all be replicated and modified to the point where they had surpassed their natural counterparts.\nBy this means, a superior and unsullied bodily form could replace the continuously decaying and shattering order.",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Chaos_Bolt.png",
+    "sources": [
+      "Crafted",
+      "Dropped by Lv. 60+ Ruin Drakes"
     ]
   },
   "Tainted Blood": {
@@ -7840,6 +8581,111 @@
       "Domain of Mastery: Vine-Infested Ruins (Wednesday/Saturday/Sunday)"
     ]
   },
+  "Teachings of Admonition": {
+    "name": "Teachings of Admonition",
+    "desc": "Talent Level-Up material.\nAdmonition is the branches of the nation of wisdom.\nAdmonition comes from a pure heart. Only sensible words of goodwill can express profound wisdom and free the sprout of knowledge from the shackles of arrogance.",
+    "stars": 2,
+    "type": "Talent Level-Up Materials",
+    "category": "Trophies",
+    "icon": "img/material/Teachings_of_Admonition.png",
+    "sources": [
+      "Domain of Mastery: Full Moon (Monday/Thursday/Sunday)"
+    ]
+  },
+  "Guide to Admonition": {
+    "name": "Guide to Admonition",
+    "desc": "Talent Level-Up material.\nAdmonition is the branches of the nation of wisdom.\nAdmonition is paired with wise thinking. Careful deliberation affords humble words a clarity that convinces the wise and enlightens the foolish. Such words allow wisdom to flow like an unobstructed river.",
+    "stars": 3,
+    "type": "Talent Level-Up Materials",
+    "category": "Trophies",
+    "icon": "img/material/Guide_to_Admonition.png",
+    "sources": [
+      "Crafted",
+      "Domain of Mastery: Full Moon (Monday/Thursday/Sunday)"
+    ]
+  },
+  "Philosophies of Admonition": {
+    "name": "Philosophies of Admonition",
+    "desc": "Talent Level-Up material.\nAdmonition is the branches of the nation of wisdom.\nAdmonition is completed by good deeds. What is done confers real meaning upon what is said. When one's mind, words, and deeds are aligned, their nourishment shall guarantee the fruition of wisdom's tree.",
+    "stars": 4,
+    "type": "Talent Level-Up Materials",
+    "category": "Trophies",
+    "icon": "img/material/Philosophies_of_Admonition.png",
+    "sources": [
+      "Crafted",
+      "Domain of Mastery: Full Moon (Monday/Thursday/Sunday)"
+    ]
+  },
+  "Teachings of Ingenuity": {
+    "name": "Teachings of Ingenuity",
+    "desc": "Talent Level-Up material.\nIngenuity is the leaf-veins of the nation of wisdom.\nIngenuity springs forth from benevolent consideration. They say that \"a poisonous tree bears no kind fruit.\" Similarly, ingenious nascent ideas are always born from determined and benign minds, for only they are worthy bearers of wisdom.",
+    "stars": 2,
+    "type": "Talent Level-Up Materials",
+    "category": "Trophies",
+    "icon": "img/material/Teachings_of_Ingenuity.png",
+    "sources": [
+      "Domain of Mastery: Witticism (Tuesday/Friday/Sunday)"
+    ]
+  },
+  "Guide to Ingenuity": {
+    "name": "Guide to Ingenuity",
+    "desc": "Talent Level-Up material.\nIngenuity is the leaf-veins of the nation of wisdom. Ingenuity sets words of integrity on the right path. One who thinks out of goodwill and in a clever and careful fashion never deviates from the path of boons. Yet one who thinks with contempt and malice shall taint their words with despicable colors.",
+    "stars": 3,
+    "type": "Talent Level-Up Materials",
+    "category": "Trophies",
+    "icon": "img/material/Guide_to_Ingenuity.png",
+    "sources": [
+      "Crafted",
+      "Domain of Mastery: Witticism (Tuesday/Friday/Sunday)"
+    ]
+  },
+  "Philosophies of Ingenuity": {
+    "name": "Philosophies of Ingenuity",
+    "desc": "Talent Level-Up material.\nIngenuity is the leaf-veins of the nation of wisdom.\nIngenuity is completed by harmonious conduct. What is done completes what is thought. Wisdom blooms where the mind, words, and practice converge.",
+    "stars": 4,
+    "type": "Talent Level-Up Materials",
+    "category": "Trophies",
+    "icon": "img/material/Philosophies_of_Ingenuity.png",
+    "sources": [
+      "Crafted",
+      "Domain of Mastery: Witticism (Tuesday/Friday/Sunday)"
+    ]
+  },
+  "Teachings of Praxis": {
+    "name": "Teachings of Praxis",
+    "desc": "Talent Level-Up material.\nPraxes are the roots of the nation of wisdom.\nPraxes stem from an unwavering will. All wisdom is manifested through the unyielding pursuit of goodness. Where goodness is not practiced, ingenuity and eloquence wither.",
+    "stars": 2,
+    "type": "Talent Level-Up Materials",
+    "category": "Trophies",
+    "icon": "img/material/Teachings_of_Praxis.png",
+    "sources": [
+      "Domain of Mastery: Basket of Discipline (Wednesday/Saturday/Sunday)"
+    ]
+  },
+  "Guide to Praxis": {
+    "name": "Guide to Praxis",
+    "desc": "Talent Level-Up material.\nPraxes are the roots of the nation of wisdom.\nPraxes validate words of honesty. Though one speaks and acts out of goodwill, one has not yet obtained wisdom. Wisdom, born from action, is a signet pressed upon honest words.",
+    "stars": 3,
+    "type": "Talent Level-Up Materials",
+    "category": "Trophies",
+    "icon": "img/material/Guide_to_Praxis.png",
+    "sources": [
+      "Crafted",
+      "Domain of Mastery: Basket of Discipline (Wednesday/Saturday/Sunday)"
+    ]
+  },
+  "Philosophies of Praxis": {
+    "name": "Philosophies of Praxis",
+    "desc": "Talent Level-Up material.\nPraxes are the roots of the nation of wisdom.\nPraxes bring forth the fruit of wisdom. Practice grants itself meaning, and it is only by treading a path that unites action, speech, and thought that the wise may reach perfection.",
+    "stars": 4,
+    "type": "Talent Level-Up Materials",
+    "category": "Trophies",
+    "icon": "img/material/Philosophies_of_Praxis.png",
+    "sources": [
+      "Crafted",
+      "Domain of Mastery: Basket of Discipline (Wednesday/Saturday/Sunday)"
+    ]
+  },
   "Crown of Insight": {
     "name": "Crown of Insight",
     "desc": "A precious Talent Level-Up material.\nOnce a medium for the storage and transfer of wisdom in ancient times. Now, wisdom is found in ancient texts and in profound speech. Nevertheless, this Crown of Insight must still be able to impart some transcendent power and wisdom to its bearer.",
@@ -7892,6 +8738,17 @@
       "Crafted"
     ]
   },
+  "Dendroculus Resonance Stone": {
+    "name": "Dendroculus Resonance Stone",
+    "desc": "A stone that can be used in Sumeru to search for nearby Dendroculi.",
+    "stars": 3,
+    "type": "Consumable",
+    "category": "Utility Items",
+    "icon": "img/material/Dendroculus_Resonance_Stone.png",
+    "sources": [
+      "Crafted"
+    ]
+  },
   "Anemo Treasure Compass": {
     "name": "Anemo Treasure Compass",
     "desc": "A compass that can be used in Mondstadt to search for nearby chests.\nThe needle of the Treasure Compass doesn't spin according to the world's magnetic field, but rather follows the energy of ley lines to lead the user to treasure.",
@@ -7918,6 +8775,14 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "img/material/Electro_Treasure_Compass.png"
+  },
+  "Dendro Treasure Compass": {
+    "name": "Dendro Treasure Compass",
+    "desc": "A compass that can be used in Sumeru to search for nearby chests.",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Dendro_Treasure_Compass.png"
   },
   "Wind Catcher": {
     "name": "Wind Catcher",
@@ -8122,7 +8987,7 @@
   },
   "Seed Dispensary": {
     "name": "Seed Dispensary",
-    "desc": "A special container obtained from Madame Ping. According to her, this dispensary has the power to \"generate seeds\"... That is to say, it can create the seeds of various plants according to their special traits, which can then be planted within the appropriate fields within your Serenitea Pot.\nThe plants that can be grown are as follows: Silk Flower, Sweet Flower, Cecilia, Glaze Lily, Windwheel Aster, Qingxin, Violetgrass, Valberry, Small Lamp Grass, Jueyun Chili, Carrot, Radish, Mint, Mushroom, Naku Weed, Horsetail, Snapdragon, Lotus Head, Calla Lily, Seagrass, Sea Ganoderma.",
+    "desc": "A special container obtained from Madame Ping. According to her, this dispensary has the power to \"generate seeds\"... That is to say, it can create the seeds of various plants according to their special traits, which can then be planted within the appropriate fields within your Serenitea Pot.\nPlants available for planting: Silk Flower, Sweet Flower, Cecilia, Glaze Lily, Windwheel Aster, Qingxin, Violetgrass, Valberry, Small Lamp Grass, Jueyun Chili, Carrot, Radish, Mint, Mushroom, Naku Weed, Horsetail, Snapdragon, Lotus Head, Calla Lily, Seagrass, Sea Ganoderma, Harra Fruit, Zaytun Peach, Sumeru Rose.",
     "stars": 4,
     "type": "Gadget",
     "category": "Utility Items",
@@ -8174,5 +9039,25 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "img/material/Lumenstone_Adjuvant.png"
+  },
+  "Fishing Line Stabilizer": {
+    "name": "Fishing Line Stabilizer",
+    "desc": "A self-adaptive tension stabilizer that can be installed on a fishing rod to facilitate fishing. The device can automatically detect and record how hard different fish struggle. The more data it collects, the better the stabilizer works.\n\nThe device's prototype was the pointless invention of a Fontaine inventor that drew little interest for the longest time until the Fontaine Fishing Association discovered it and modified the product into the fishing line stabilizer used today. When the device first came out, it was most warmly received by the Association members, and now it has gradually been promoted in other regions.\nIt is an exceptionally hot commodity in the Snezhnayan market. Word has it that one of the Lord Harbingers is particularly fond of the product, which explains the hype.",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Fishing_Line_Stabilizer.png",
+    "sources": [
+      "Exchange at the Fishing Association"
+    ]
+  },
+  "Vintage Lyre": {
+    "name": "Vintage Lyre",
+    "desc": "Use this traditional instrument from Mondstadt to play songs. It may work wonders when played in the forests of Sumeru.\nA vintage lyre borrowed from Amadhiah in Vimara Village.\nMondstadt has a long-standing tradition of poetry and song. Bards from there tend to address their instruments as \"Friend\" or \"Partner.\" Thus, one of them trusting Amadhiah with the instrument was nothing less than a gesture of intimacy and trust.",
+    "longDesc": "A vintage lyre borrowed from Amadhiah in Vimara Village. Mondstadt has a long-standing tradition of poetry and song. Bards from there tend to address their instruments as \"Friend\" or \"Partner.\" Thus, one of them trusting Amadhiah with the instrument was nothing less than a gesture of intimacy and trust, and its passage into your hands must also be a gesture of faith and acknowledgment.\nAs Amadhiah puts it, the person who originally gave him this lyre has already disappeared into the forest.",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Vintage_Lyre.png"
   }
 }
