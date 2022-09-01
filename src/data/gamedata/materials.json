@@ -5008,6 +5008,96 @@
       "Delicious Butter Chicken": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   },
+  "Shawarma Wrap": {
+    "name": "Shawarma Wrap",
+    "desc": "A wrap filled with roasted meat. On the thin, soft flatbread lies the tender meat covered in a crispy exterior, and the flavor is enriched by spices and balanced by vegetables. A small mouthful is enough to please one's picky taste buds. Eat carefully, now! You don't want to miss out on a single drop of the juice.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Shawarma_Wrap.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Flour"
+      },
+      {
+        "count": 1,
+        "name": "Spice"
+      }
+    ],
+    "effect": {
+      "Suspicious Shawarma Wrap": "Increases all party members' ATK by 66 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Shawarma Wrap": "Increases all party members' ATK by 81 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Shawarma Wrap": "Increases all party members' ATK by 95 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Selva Salad": {
+    "name": "Selva Salad",
+    "desc": "An Aranara-style salad that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. Crispy and juicy Zaytun Peaches are served with fresh mints and blooming roses. This delicacy tastes refreshingly sweet and feels pleasantly cool on the tongue — This must be \"the Taste of Happiness,\" as Aranara say.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Selva_Salad.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Zaytun Peach"
+      },
+      {
+        "count": 2,
+        "name": "Mint"
+      },
+      {
+        "count": 2,
+        "name": "Sumeru Rose"
+      }
+    ],
+    "effect": {
+      "Suspicious Selva Salad": "Decreases all party members' sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Selva Salad": "Decreases all party members' sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Selva Salad": "Decreases all party members' sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Masala Cheese Balls": {
+    "name": "Masala Cheese Balls",
+    "desc": "An Aranara-style dish that Paimon drained her brain juice dry to improve. It is, in fact, a rather traditional recipe in Sumeru. The spices were mixed with the other ingredients in a special way to bring out the most original scents. They awaken your taste buds and create a multi-layered flavor profile. The cheese balls are crispy on the outside and soft on the inside. They go deliciously well with steamy hot potatoes.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Masala_Cheese_Balls.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Potato"
+      },
+      {
+        "count": 1,
+        "name": "Cheese"
+      },
+      {
+        "count": 1,
+        "name": "Spice"
+      }
+    ],
+    "effect": {
+      "Suspicious Masala Cheese Balls": "Increases all party members' CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Masala Cheese Balls": "Increases all party members' CRIT Rate by 9% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Masala Cheese Balls": "Increases all party members' CRIT Rate by 12% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
   "Mushroom Hodgepodge": {
     "name": "Mushroom Hodgepodge",
     "desc": "An Aranara-style dish that Paimon drained her brain juice dry to improve. But in fact, it only requires a few common mushrooms from Sumeru, along with some extra seasonings. The heat and cooking time have been adjusted to preserve the distinctive flavors of three different types of mushrooms. Depending on one's preference, they can either be eaten together or one at a time to study the subtly varying flavors.",
@@ -5070,6 +5160,36 @@
       "Suspicious Pita Pocket": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
       "Pita Pocket": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
       "Delicious Pita Pocket": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
+    }
+  },
+  "Panipuri": {
+    "name": "Panipuri",
+    "desc": "A delicacy that is served with dipping sauce. The round panipuri balls remind you of Slimes. Anticipate the mysterious, bright-colored juice within, and bring it to your mouth — the coolness, sourness, and tingling sensations are bouncing freely on your tongue as if someone has ignited a stick of dreamy dynamite. No wonder that some people in Sumeru are so obsessed with it...",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Panipuri.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Potato"
+      },
+      {
+        "count": 2,
+        "name": "Glabrous Beans"
+      },
+      {
+        "count": 1,
+        "name": "Spice"
+      }
+    ],
+    "effect": {
+      "Suspicious Panipuri": "Revives a character and restores 250 HP.",
+      "Panipuri": "Revives a character and restores 400 HP.",
+      "Delicious Panipuri": "Revives a character and restores 550 HP."
     }
   },
   "Minty Bean Soup": {
@@ -5190,6 +5310,130 @@
       "Suspicious Lambad Fish Roll": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
       "Lambad Fish Roll": "Restores 9% of Max HP and an additional 1,000 HP to the selected character.",
       "Delicious Lambad Fish Roll": "Restores 10% of Max HP and an additional 1,200 HP to the selected character."
+    }
+  },
+  "Curry Shrimp": {
+    "name": "Curry Shrimp",
+    "desc": "A simple, common dish in Sumeru. Big shrimps are dipped in a creamy sauce, absorbing its rich flavor. The passionate aroma easily finds its way into your nose. Even a person who claims to have lost their appetite will drool over it.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Curry_Shrimp.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Shrimp Meat"
+      },
+      {
+        "count": 2,
+        "name": "Onion"
+      },
+      {
+        "count": 1,
+        "name": "Spice"
+      }
+    ],
+    "effect": {
+      "Suspicious Curry Shrimp": "Restores 20% of Max HP and an additional 900 HP to the selected character.",
+      "Curry Shrimp": "Restores 22% of Max HP and an additional 1,200 HP to the selected character.",
+      "Delicious Curry Shrimp": "Restores 24% of Max HP and an additional 1,500 HP to the selected character."
+    }
+  },
+  "Tandoori Roast Chicken": {
+    "name": "Tandoori Roast Chicken",
+    "desc": "A signature chicken dish in Sumeru. The vibrant flames have locked the umami inside the chicken's reddened skin. Once it slips into your mouth, the rich flavor will awaken your every taste bud. The chicken and spices seem to have performed a mysterious Sumeru dance on the tip of your tongue, evoking the image of a festive banquet...",
+    "stars": 4,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Tandoori_Roast_Chicken.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Fowl"
+      },
+      {
+        "count": 2,
+        "name": "Rukkhashava Mushrooms"
+      },
+      {
+        "count": 1,
+        "name": "Padisarah"
+      },
+      {
+        "count": 1,
+        "name": "Spice"
+      }
+    ],
+    "effect": {
+      "Suspicious Tandoori Roast Chicken": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Tandoori Roast Chicken": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Tandoori Roast Chicken": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Potato Boat": {
+    "name": "Potato Boat",
+    "desc": "A baked appetizer. The oozing cheese flows forth like a golden river, carrying an alluring aroma into your mouth. Soon, you will be amazed by the freshness of the Rukkhashava Mushrooms and the softness of the potato. You can't help but wish that this leisurely and savory tour might last a little longer...",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Potato_Boat.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Potato"
+      },
+      {
+        "count": 2,
+        "name": "Rukkhashava Mushrooms"
+      },
+      {
+        "count": 1,
+        "name": "Cheese"
+      }
+    ],
+    "effect": {
+      "Suspicious Potato Boat": "Revives a character and restores 900 HP.",
+      "Potato Boat": "Revives a character and restores 1,200 HP.",
+      "Delicious Potato Boat": "Revives a character and restores 1,500 HP."
+    }
+  },
+  "Fish With Cream Sauce": {
+    "name": "Fish With Cream Sauce",
+    "desc": "A fish dish served in sauce. The translucent fillet lies upon exquisite cream sauce. With only a small mouthful, one might even see fish leaping on the sea surface.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Fish_With_Cream_Sauce.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Fish"
+      },
+      {
+        "count": 2,
+        "name": "Milk"
+      },
+      {
+        "count": 1,
+        "name": "Mint"
+      }
+    ],
+    "effect": {
+      "Suspicious Fish With Cream Sauce": "Restores 18% of Max HP to the selected character and regenerates 300 HP every 5s for 30s.",
+      "Fish With Cream Sauce": "Restores 20% of Max HP to the selected character and regenerates 390 HP every 5s for 30s.",
+      "Delicious Fish With Cream Sauce": "Restores 22% of Max HP to the selected character and regenerates 470 HP every 5s for 30s."
     }
   },
   "Rice Pudding": {
@@ -5424,6 +5668,104 @@
       "Suspicious Fragrant Mashed Potatoes": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
       "Fragrant Mashed Potatoes": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
       "Delicious Fragrant Mashed Potatoes": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Meat Lovers' Mushroom Pizza": {
+    "name": "Meat Lovers' Mushroom Pizza",
+    "desc": "A pizza freshly baked in an oven. Every inch of the crust is saturated with the fatty aroma of meat. Some mushrooms have been sprinkled on top to add freshness. Just a small mouthful shall greet your taste buds with the rich scent of cheese — most enticing indeed. You can't help reaching for another slice before you've even finished off the one in your hand.",
+    "stars": 4,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Meat_Lovers_Mushroom_Pizza.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 4,
+        "name": "Flour"
+      },
+      {
+        "count": 3,
+        "name": "Mushroom"
+      },
+      {
+        "count": 2,
+        "name": "Cheese"
+      }
+    ],
+    "effect": {
+      "Suspicious Meat Lovers' Mushroom Pizza": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Meat Lovers' Mushroom Pizza": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Meat Lovers' Mushroom Pizza": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Sunset Berry Tea": {
+    "name": "Sunset Berry Tea",
+    "desc": "A fruity drink with a pleasantly sour taste. The redolence of tea carries your thoughts away. With one sip of this tea, you feel as if you are lazing in a flourishing orchard, tipsy in the gentle breeze that carries a fruity scent.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Sunset_Berry_Tea.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Sunsettia"
+      },
+      {
+        "count": 3,
+        "name": "Berry"
+      },
+      {
+        "count": 2,
+        "name": "Sugar"
+      }
+    ],
+    "effect": {
+      "Suspicious Sunset Berry Tea": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Sunset Berry Tea": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Sunset Berry Tea": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Milky Mushroom Crisp Tower": {
+    "name": "Milky Mushroom Crisp Tower",
+    "desc": "A crunchy delicacy. The faint creamy notes melt on your tongue as you munch on the succulent mushrooms and crispy bread. This unmatched sense of satisfaction somehow leaves you insatiable — you do not even hesitate to lick the bread crumbs off your fingertips.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Milky_Mushroom_Crisp_Tower.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Flour"
+      },
+      {
+        "count": 3,
+        "name": "Mushroom"
+      },
+      {
+        "count": 2,
+        "name": "Cheese"
+      },
+      {
+        "count": 1,
+        "name": "Cream"
+      }
+    ],
+    "effect": {
+      "Suspicious Milky Mushroom Crisp Tower": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+      "Milky Mushroom Crisp Tower": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
+      "Delicious Milky Mushroom Crisp Tower": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
     }
   },
   "Holy Water": {
@@ -9039,6 +9381,31 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "img/material/Lumenstone_Adjuvant.png"
+  },
+  "Withered Kusava": {
+    "name": "Withered Kusava",
+    "desc": "Entirely drained of strength, the Kusava appears withered. Yet, the seed, which preserves precious memories, is still alive.",
+    "longDesc": "Entirely drained of strength, the Kusava appears withered. Yet, the seed, which preserves precious memories, is still alive.\nMemory is not some ancient, dead thing, after all, and it is not some lifeless mire. Memory will return to life alongside creation, and it shall in no wise be defeated by forgetting, just as this Kusava still waits for some new camaraderie to nourish it.",
+    "type": "Quest Item",
+    "category": "Utility Items",
+    "icon": "img/material/Withered_Kusava.png"
+  },
+  "Aranyaka": {
+    "name": "Aranyaka",
+    "desc": "Arama handed this book over to you.\nIt seems to have witnessed the passage of many years. By the look of things, someone used to keep records in it, but none of that can be retrieved now.\nUse it to document your shared adventure with Arama.",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Aranyaka.png"
+  },
+  "\"The Boon of the Elder Tree\"": {
+    "name": "\"The Boon of the Elder Tree\"",
+    "desc": "A talisman that can help collect wood.\nTalismans of this kind are often seen in the forests in Sumeru. They possess the ability to gather the power of grass and trees.\nTo prevent the erosion of the forest and, in darker times, to resist the invasion of vicious monsters, trees and vines would form impregnable shelters together. Those who held \"the Boon of the Elder Tree\" were recognized by the forest as its friends and thus gained unfettered access to walk amidst the forest under the guidance of streams and moonlight. But that is archaic lore from a long, long time ago.",
+    "longDesc": "Talismans of this kind are often seen in the forests in Sumeru. They possess the ability to gather the power of grass and trees.\nTo prevent the erosion of the forest and, in darker times, to resist the invasion of vicious monsters, trees and vines would form impregnable shelters together.\nLord Rukkhadevata would grant these talismans to people, giving them unfettered access to walking amidst the forest under the guidance of streams and moonlight.\nOf course, when Lord Rukkhadevata and the Lord of the Forest died, the labyrinth would disappear, and the forest would lose its intellect.\nEven so, the people of Sumeru take these talismans as symbols of the forest's protection — and the forest answers the request of such talismans and gives of its power.",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/The_Boon_of_the_Elder_Tree.png"
   },
   "Fishing Line Stabilizer": {
     "name": "Fishing Line Stabilizer",

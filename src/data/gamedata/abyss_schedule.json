@@ -1032,5 +1032,49 @@
       42,
       43
     ]
+  },
+  "47": {
+    "start": "2022-09-01 04:00:00",
+    "end": "2022-09-16 03:59:59",
+    "buff": "Efflorescent Moon",
+    "buffDesc": "After characters deal DMG to opponents with a Dendro Core (including Burgeon and Hyperbloom), their ATK will be increased by 15% for 8s. This effect can stack up to 4 times, and can be triggered once every 0.1s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      44,
+      45,
+      46,
+      47
+    ]
+  },
+  "48": {
+    "start": "2022-09-16 04:00:00",
+    "end": "2022-10-01 03:59:59",
+    "buff": "Reviving Moon",
+    "buffDesc": "When a character triggers Quicken on an opponent, that opponent's DEF is decreased by 35% for 10s after they are affected by the reaction.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      44,
+      45,
+      46,
+      47
+    ]
   }
 }

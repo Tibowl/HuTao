@@ -2514,5 +2514,268 @@
         ]
       }
     ]
+  },
+  "44": {
+    "teams": 2,
+    "leyline": "DMG dealt by the explosion of Dendro Cores produced by characters' Bloom reaction is increased by 125%. DMG dealt by Burgeon and Hyperbloom reactions triggered by characters is increased by 125%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 72,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Winged Cryoshroom",
+            "Large Hydro Slime",
+            "Stretchy Pyro Fungus",
+            "Stretchy Geo Fungus",
+            "Whirling Electro Fungus",
+            "Whirling Cryo Fungus",
+            "Floating Hydro Fungus",
+            "Floating Dendro Fungus",
+            "Hydro Slime"
+          ],
+          [
+            "Eremite Desert Clearwater",
+            "Eremite Sword-Dancer",
+            "Eremite Linebreaker",
+            "Eremite Ravenbeak Halberdier",
+            "Eremite Crossbow",
+            "Eremite Axe Vanguard"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 74,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Wooden Shieldwall Mitachurl",
+            "Blazing Axe Mitachurl",
+            "Rock Shieldwall Mitachurl",
+            "Crackling Axe Mitachurl",
+            "Geo Samachurl",
+            "Cryo Samachurl",
+            "Wooden Shield Hilichurl Guard",
+            "Hilichurl Berserker",
+            "Pyro Hilichurl Shooter",
+            "Cryo Hilichurl Shooter",
+            "Electro Hilichurl Shooter",
+            "Hilichurl Grenadier",
+            "Cryo Hilichurl Grenadier",
+            "Electro Hilichurl Grenadier"
+          ],
+          [
+            "Hydro Abyss Mage",
+            "Dendro Samachurl",
+            "Large Hydro Slime",
+            "Large Pyro Slime"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 76,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Grounded Hydroshroom",
+            "Winged Dendroshroom",
+            "Whirling Electro Fungus",
+            "Floating Dendro Fungus"
+          ],
+          [
+            "Eremite Sunfrost",
+            "Eremite Daythunder",
+            "Eremite Linebreaker"
+          ]
+        ]
+      }
+    ]
+  },
+  "45": {
+    "teams": 2,
+    "leyline": "When Spread or Aggravate reactions are triggered on opponents, DMG done by these reactions will be increased by 75%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 80,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Winged Cryoshroom",
+            "Large Electro Slime",
+            "Mutant Electro Slime",
+            "Whirling Cryo Fungus",
+            "Whirling Electro Fungus",
+            "Floating Dendro Fungus",
+            "Electro Slime"
+          ],
+          [
+            "Primordial Bathysmal Vishap"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 82,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Kairagi: Dancing Thunder",
+            "Kairagi: Fiery Might",
+            "Eremite Crossbow"
+          ],
+          [
+            "Electro Abyss Mage",
+            "Thunderhelm Lawachurl"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 85,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Eremite Desert Clearwater",
+            "Eremite Sunfrost",
+            "Eremite Daythunder",
+            "Fatui Skirmisher - Pyroslinger Bracer",
+            "Fatui Skirmisher - Hydrogunner Legionnaire"
+          ],
+          [
+            "Mirror Maiden",
+            "Fatui Electro Cicin Mage"
+          ]
+        ]
+      }
+    ]
+  },
+  "46": {
+    "teams": 2,
+    "leyline": "All characters in the party gain a 75% Dendro DMG Bonus.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 88,
+        "conds": "More than 20/40/60% HP left",
+        "monsters": [
+          [
+            "Eremite Daythunder",
+            "Eremite Axe Vanguard",
+            "Eremite Crossbow",
+            "Eremite Ravenbeak Halberdier",
+            "Eremite Linebreaker",
+            "Treasure Hoarders: Crusher",
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders: Hydro Potioneer",
+            "Treasure Hoarders: Electro Potioneer",
+            "Treasure Hoarders: Cryo Potioneer"
+          ],
+          [
+            "Thunderhelm Lawachurl",
+            "Wooden Shieldwall Mitachurl",
+            "Blazing Axe Mitachurl",
+            "Crackling Axe Mitachurl"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 90,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Hydro Mimic Finch",
+            "Hydro Mimic Frog",
+            "Hydro Mimic Boar",
+            "Hydro Mimic Crane",
+            "Hydro Mimic Crab",
+            "Hydro Mimic Mallard",
+            "Hydro Mimic Ferret",
+            "Hydro Mimic Raptor"
+          ],
+          [
+            "Geovishap"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 92,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Fatui Pyro Agent",
+            "Fatui Skirmisher - Pyroslinger Bracer",
+            "Eremite Desert Clearwater",
+            "Eremite Daythunder",
+            "Eremite Crossbow"
+          ],
+          [
+            "Electro Regisvine"
+          ]
+        ]
+      }
+    ]
+  },
+  "47": {
+    "teams": 2,
+    "leyline": "For this floor only, the ley line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 95,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Ruin Drake: Skywatch",
+            "Ruin Drake: Earthguard"
+          ],
+          [
+            "Fatui Skirmisher - Electrohammer Vanguard",
+            "Fatui Skirmisher - Pyroslinger Bracer",
+            "Eremite Sunfrost",
+            "Eremite Desert Clearwater",
+            "Eremite Crossbow"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 98,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Mirror Maiden",
+            "Fatui Electro Cicin Mage",
+            "Eremite Crossbow"
+          ],
+          [
+            "Primo Geovishap"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 100,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Winged Dendroshroom",
+            "Winged Cryoshroom",
+            "Grounded Hydroshroom",
+            "Primordial Bathysmal Vishap",
+            "Rimebiter Bathysmal Vishap Hatchling",
+            "Bolteater Bathysmal Vishap Hatchling"
+          ],
+          [
+            "Jadeplume Terrorshroom"
+          ]
+        ]
+      }
+    ]
   }
 }
