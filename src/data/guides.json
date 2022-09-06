@@ -237,6 +237,47 @@
     ]
   },
   {
+    "name": "Local Specialties (Sumeru)",
+    "pages": [
+      {
+        "name": "Rukkhashava Mushrooms route",
+        "desc": "**Rukkhashava Mushrooms ${Rukkhashava Mushrooms}** can found in the wilderness of Sumeru, near Ashavan Realm and Avidaya Forest and are being sold by [**Aramani**](https://cdn.discordapp.com/attachments/1015767194447130644/1016714232861040680/Aramani.png) and [**Ashpazi**](https://cdn.discordapp.com/attachments/1015767194447130644/1016715859034636408/Ashpazi.png) (up to 5 each per 3 days).\n\n> A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest. Therefore, they are considered by the people of Sumeru to be the holy crystallization of Rukkhadevata’s legacy.",
+        "img": "https://cdn.discordapp.com/attachments/1015767194447130644/1015767229243076679/Rukkhashava_Mushrooms.jpg",
+        "credits": "Soul",
+        "links": {
+          "material": ["Rukkhashava Mushrooms"]
+        }
+      },
+      {
+        "name": "Padisarah route",
+        "desc": "**Padisarah ${Padisarah}** can found near Sumeru City and are being sold by [**Jut**](https://cdn.discordapp.com/attachments/1015428610942832660/1016716793924042784/Jut.png) (up to 5 times per 3 days).\n\n> A holy and noble plant. The conditions for growth in its environment are very demanding. The flower buds can be processed to make valuable spices.",
+        "img": "https://cdn.discordapp.com/attachments/1015428610942832660/1015434003765018634/Padisarah.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Padisarah"]
+        }
+      },
+      {
+        "name": "Nilotpala Lotus route",
+        "desc": "**Nilotpala Lotus ${Nilotpala Lotus}** can found near lakes and river banks in Sumeru.\n\n> Growing in the forest wetlands, these plays only bloom at night with flowers as bright as the moon.",
+        "img": "https://cdn.discordapp.com/attachments/1013223015514906704/1013864949916905572/NiLotus.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Nilotpala Lotus"]
+        }
+      },
+      {
+        "name": "Kalpalata Lotus route",
+        "desc": "**Kalpalata Lotus ${Kalpalata Lotus}** can found in the mountains of Sumeru and are being sold by [**Aramani**](https://cdn.discordapp.com/attachments/1015767194447130644/1016714232861040680/Aramani.png) (up to 5 per 3 days)..\n\n> Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
+        "img": "https://cdn.discordapp.com/attachments/1016421596057051350/1016421658619281479/KalpalataLotus.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Kalpalata Lotus"]
+        }
+      }
+    ]
+  },
+  {
     "name": "Materials",
     "pages": [
       {
