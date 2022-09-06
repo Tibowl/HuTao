@@ -1656,7 +1656,8 @@
     {
         "name": "\"Fayz Trials\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/08/22/6b6ca615a02a56dc1b69ca5d1bc73abc_1368309166967192503.jpg",
+        "link": "https://www.hoyolab.com/article/8380953",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/09/06/c634df396a52a5ea4ed917f3eee84235_4206359030449067270.jpg",
         "start": "2022-09-08 10:00:00",
         "end": "2022-09-26 03:59:00",
         "reminder": "end"
