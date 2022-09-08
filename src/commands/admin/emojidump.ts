@@ -25,7 +25,6 @@ export default class TestGuideCommand extends Command {
     }
 
     async run(source: CommandSource): Promise<SendMessage | undefined> {
-
         const entries = source.guild?.emojis.cache.entries()
         if (!entries)
             return undefined
