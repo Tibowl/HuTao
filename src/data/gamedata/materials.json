@@ -9260,6 +9260,14 @@
     "category": "Utility Items",
     "icon": "img/material/Mini_Seelie_Viola.png"
   },
+  "Mini Seelie: Moss": {
+    "name": "Mini Seelie: Moss",
+    "desc": "A memento from the \"Lost Riches\" event. Equip it to obtain a mini Seelie companion.\nA miniature green Seelie. It becomes most happy indeed when it gets close to a tree.",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Mini_Seelie_Moss.png"
+  },
   "Kamera": {
     "name": "Kamera",
     "desc": "A convenient tool that records and saves images upon use.\nA special item from Fontaine that can record images. People and places to remember must come aplenty for a Traveler roaming the world.",
@@ -9406,6 +9414,15 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "img/material/The_Boon_of_the_Elder_Tree.png"
+  },
+  "Ultra-Hot Burner Lamp Test Model": {
+    "name": "Ultra-Hot Burner Lamp Test Model",
+    "desc": "A gadget that improves the efficiency of food processing by consuming minerals.\nYoung Akademiya researchers are accustomed to cooking with their experimental instruments. Someone invented an \"Ultra-Hot Burner Lamp\" that utilizes the energy of minerals to juice up the heat, all the better to save time and increase cooking efficiency.\nThe one you have is a test model for civilian use with power constraints and a dimmer flame, which should reduce its fire hazard rating. Even so, this convenient gadget is still perfectly capable of cooking jam and drying sausages with ease.",
+    "longDesc": "The young researchers of the Akademiya commonly make use of experimental tools to cook. To save time and maximize efficiency, people from Kshahrewar — experts in machinery — have invented this device, which can draw energy from mineral ores to increase their work efficiency.\nUsing these lamps to make coffee or grill meat really has that \"laboratory\" feel to it, which explains its decent popularity amongst researchers, and how some enthusiasts have made some improvements to it.\nThe superlative burning lamp in your hands is a civilian test type that is meant to be put into mass production. Thus, it has had its output restricted and open flame eliminated to reduce any safety hazards.",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/UltraHot_Burner_Lamp_Test_Model.png"
   },
   "Fishing Line Stabilizer": {
     "name": "Fishing Line Stabilizer",
