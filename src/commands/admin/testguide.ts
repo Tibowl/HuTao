@@ -28,7 +28,7 @@ export default class TestGuideCommand extends Command {
 
     async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
-        return this.run(source, options.getString("guide", true))
+        return this.run(source, options.getString("data", true))
     }
 
     async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {

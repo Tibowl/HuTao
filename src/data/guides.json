@@ -269,7 +269,7 @@
       {
         "name": "Kalpalata Lotus route",
         "desc": "**Kalpalata Lotus ${Kalpalata Lotus}** can found in the mountains of Sumeru and are being sold by [**Aramani**](https://cdn.discordapp.com/attachments/1015767194447130644/1016714232861040680/Aramani.png) (up to 5 per 3 days)..\n\n> Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
-        "img": "https://cdn.discordapp.com/attachments/1016421596057051350/1016421658619281479/KalpalataLotus.png",
+        "img": "https://cdn.discordapp.com/attachments/1016421596057051350/1018206323642482688/KalpalataLotus.png",
         "credits": "Soul",
         "links": {
           "material": ["Kalpalata Lotus"]
@@ -413,6 +413,16 @@
           "enemy": ["Floating Hydro Fungus"],
           "material": ["Fungal Spores", "Luminescent Pollen", "Crystalline Cyst Dust"]
         }
+      },
+      {
+        "name": "Eremites route (Faded Red Satin, Trimmed Red Silk and Rich Red Brocade): Enkanomiya",
+        "desc": "**Eremites ${Eremite Axe Vanguard}, ${Eremite Crossbow}, ${Eremite Ravenbeak Halberdier}, ${Eremite Linebreaker}, ${Eremite Sword-Dancer}, ${Eremite Desert Clearwater}, ${Eremite Sunfrost}, ${Eremite Daythunder}** are Common Enemies found in Sumeru. They drop **Faded Red Satin ${Faded Red Satin}**, **Trimmed Red Silk ${Trimmed Red Silk}** and **Rich Red Brocade ${Rich Red Brocade}**.",
+        "img": "https://cdn.discordapp.com/attachments/1018572132260794459/1018572681379065856/EremiteRoute.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Eremite Axe Vanguard", "Eremite Crossbow", "Eremite Ravenbeak Halberdier", "Eremite Linebreaker", "Eremite Sword-Dancer", "Eremite Desert Clearwater", "Eremite Sunfrost", "Eremite Daythunder"],
+          "material": ["Faded Red Satin", "Trimmed Red Silk", "Rich Red Brocade"]
+        }
       }
     ]
   },
@@ -447,6 +457,16 @@
         "links": {
           "enemy": ["Ruin Cruiser", "Ruin Destroyer", "Ruin Defender", "Ruin Scout"],
           "material": ["Chaos Gear", "Chaos Axis", "Chaos Oculus"]
+        }
+      },
+      {
+        "name": "Ruin Drake route (Chaos Storage, Module and Bolt)",
+        "desc": "**Ruin Drakes ${Ruin Drake: Earthguard}${Ruin Drake: Skywatch}** are Elite Enemies found in Sumeru. They are Automatons and drop **Chaos Storage ${Chaos Storage}**, **Chaos Module ${Chaos Module}** and **Chaos Bolt ${Chaos Bolt}**.",
+        "img": "https://cdn.discordapp.com/attachments/1016891273770176582/1018297123369926756/Ruin_Drakes.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Ruin Drake: Earthguard", "Ruin Drake: Skywatch"],
+          "material": ["Chaos Storage", "Chaos Module", "Chaos Bolt"]
         }
       },
       {

@@ -43,6 +43,11 @@ export default class ReadyCommand extends Command {
         Logger.info(`Readying ${channel.id} (${name}) for ${id} in ${channel.guildId} (${channel.guild.name})`)
 
         await channel.setName(`[READY] ${name}`)
-        await channel.send(`${(await client.users.fetch("127393188729192448"))} this thread is ready.`)
+        await channel.send({
+            content: `${(await client.users.fetch("127393188729192448"))} this thread is ready.`,
+            allowedMentions: {
+                users: ["127393188729192448"]
+            }
+        })
     }
 }
