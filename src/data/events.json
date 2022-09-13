@@ -1673,7 +1673,8 @@
     {
         "name": "\"Tablet Analytics\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/09/08/c937f7702a638599c752ce153cb99f71_4598393026495992705.png",
+        "link": "https://www.hoyolab.com/article/8843590",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/09/13/4d674846982a39a88bf8477013ea9885_6455577495138844109.jpg",
         "start": "2022-09-15 10:00:00",
         "end": "2022-09-26 03:59:00",
         "reminder": "end"
