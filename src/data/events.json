@@ -1706,21 +1706,105 @@
     {
         "name": "3.1 Maintenance",
         "type": "Maintenance",
-        "prediction": true,
         "start": "2022-09-28 06:00:00",
         "end": "2022-09-28 11:00:00"
     },
     {
+        "name": "Event Wish \"Twilight Arbiter\"",
+        "type": "Banner",
+        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020309867539472425/unknown.png",
+        "start": "2022-09-28 11:00:00",
+        "start_server": false,
+        "prediction": true,
+        "end": "2022-10-14 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Ballad in Goblets\"",
+        "type": "Banner",
+        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020309867539472425/unknown.png",
+        "start": "2022-09-28 11:00:00",
+        "start_server": false,
+        "prediction": true,
+        "end": "2022-10-14 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020309927689998346/14-27-15.png",
+        "start": "2022-09-28 11:00:00",
+        "start_server": false,
+        "prediction": true,
+        "end": "2022-10-14 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish  \"Twirling Lotus\"",
+        "type": "Banner",
+        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020309890562015274/unknown.png",
+        "prediction": true,
+        "start": "2022-10-14 18:00:00",
+        "end": "2022-11-01 14:59:59",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Secretum Secretorum\"",
+        "type": "Banner",
+        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020309890562015274/unknown.png",
+        "prediction": true,
+        "start": "2022-10-14 18:00:00",
+        "end": "2022-11-01 14:59:59",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020309927689998346/14-27-15.png",
+        "prediction": true,
+        "start": "2022-10-14 18:00:00",
+        "end": "2022-11-01 14:59:59",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Of Ballads and Brews\" Event",
+        "type": "In-game",
+        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020311420849631283/unknown.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Wind Chaser\" Event",
+        "type": "In-game",
+        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020312189736861787/unknown.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Star-Seeker's Sojourn\" Event",
+        "type": "In-game",
+        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020312387888365578/unknown.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Hyakunin Ikki\" Event",
+        "type": "In-game",
+        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020312513969135616/unknown.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Path of Gleaming Jade\" Event",
+        "type": "In-game",
+        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020312668294352936/unknown.png",
+        "reminder": "end"
+    },
+    {
         "name": "3.2 Maintenance",
         "type": "Maintenance",
-        "prediction": true,
         "start": "2022-11-02 06:00:00",
         "end": "2022-11-02 11:00:00"
     },
     {
         "name": "3.3 Maintenance",
         "type": "Maintenance",
-        "prediction": true,
         "start": "2022-12-07 06:00:00",
         "end": "2022-12-07 11:00:00"
     }
