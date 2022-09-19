@@ -405,8 +405,18 @@
         }
       },
       {
-        "name": "Floating Fungus route (Fungal Spores, Luminescent Pollen and Crystalline Cyst Dust): Enkanomiya",
-        "desc": "**Floating Fungi ${Floating Hydro Fungus}** are Common Enemies found in The Chasm. They are Mystical Beasts and drop **Fungal Spores ${Fungal Spores}**, **Luminescent Pollen ${Luminescent Pollen}** and **Crystalline Cyst Dust ${Crystalline Cyst Dust}**.",
+        "name": "Fungus route (Fungal Spores, Luminescent Pollen and Crystalline Cyst Dust): Sumeru",
+        "desc": "**Fungi ${Floating Dendro Fungus}${Floating Hydro Fungus}${Grounded Hydroshroom}${Stretchy Anemo Fungus}${Stretchy Geo Fungus}${Stretchy Pyro Fungus}${Whirling Cryo Fungus}${Whirling Electro Fungus}${Winged Cryoshroom}${Winged Dendroshroom}** are Common Enemies found in The Chasm. They are Mystical Beasts and drop **Fungal Spores ${Fungal Spores}**, **Luminescent Pollen ${Luminescent Pollen}** and **Crystalline Cyst Dust ${Crystalline Cyst Dust}**.",
+        "img": "https://cdn.discordapp.com/attachments/959819940427358278/1021156698095886476/FungiRoute.jpg",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Floating Dendro Fungus", "Floating Hydro Fungus", "Grounded Hydroshroom", "Stretchy Anemo Fungus", "Stretchy Geo Fungus", "Stretchy Pyro Fungus", "Whirling Cryo Fungus", "Whirling Electro Fungus", "Winged Cryoshroom", "Winged Dendroshroom"],
+          "material": ["Fungal Spores", "Luminescent Pollen", "Crystalline Cyst Dust"]
+        }
+      },
+      {
+        "name": "Fungus route (Fungal Spores, Luminescent Pollen and Crystalline Cyst Dust): Enkanomiya",
+        "desc": "**Fungi ${Floating Hydro Fungus}** are Common Enemies found in The Chasm. They are Mystical Beasts and drop **Fungal Spores ${Fungal Spores}**, **Luminescent Pollen ${Luminescent Pollen}** and **Crystalline Cyst Dust ${Crystalline Cyst Dust}**.",
         "img": "https://cdn.discordapp.com/attachments/959819940427358278/959876421491232778/FloatingFungus.png",
         "credits": "Soul",
         "links": {
