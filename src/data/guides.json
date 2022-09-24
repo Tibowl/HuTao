@@ -306,6 +306,15 @@
         "links": {
           "material": ["Unagi Meat"]
         }
+      },
+      {
+        "name": "Viparyas route",
+        "desc": "**Viparyas** can be found in Sumeru.\n\n> A flower without seeds. Once the earth remembers, the Viparyas will bloom.",
+        "img": "https://cdn.discordapp.com/attachments/1022152008649691216/1022571454434377808/Viparyas.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Viparyas"]
+        }
       }
     ]
   },
