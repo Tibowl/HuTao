@@ -1713,30 +1713,30 @@
     {
         "name": "Event Wish \"Twilight Arbiter\"",
         "type": "Banner",
-        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020309867539472425/unknown.png",
+        "link": "https://www.hoyolab.com/article/9331354",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/09/26/308494d401ffc07e7bafd405dddf2f13_8894145987586301542.jpg",
         "start": "2022-09-28 11:00:00",
         "start_server": false,
-        "prediction": true,
         "end": "2022-10-14 17:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Ballad in Goblets\"",
         "type": "Banner",
-        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020309867539472425/unknown.png",
+        "link": "https://www.hoyolab.com/article/9331369",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/09/26/11ad458890953e17e0a8f88e648d953d_7218572469928382884.jpg",
         "start": "2022-09-28 11:00:00",
         "start_server": false,
-        "prediction": true,
         "end": "2022-10-14 17:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020309927689998346/14-27-15.png",
+        "link": "https://www.hoyolab.com/article/9331357",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/09/26/182827dd92bef79b66e3d0b5a66e31ac_1912360409263282764.jpg",
         "start": "2022-09-28 11:00:00",
         "start_server": false,
-        "prediction": true,
         "end": "2022-10-14 17:59:00",
         "reminder": "end"
     },
@@ -1770,7 +1770,10 @@
     {
         "name": "\"Of Ballads and Brews\" Event",
         "type": "In-game",
-        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020311420849631283/unknown.png",
+        "link": "https://www.hoyolab.com/article/9331346",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/09/23/97737147f99a9e50c206676c7bf74f18_3444441346936042741.jpg",
+        "start": "2022-09-29 10:00:00",
+        "end": "2022-10-17 03:59:59",
         "reminder": "end"
     },
     {
@@ -1794,7 +1797,10 @@
     {
         "name": "\"Path of Gleaming Jade\" Event",
         "type": "In-game",
-        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020312668294352936/unknown.png",
+        "link": "https://www.hoyolab.com/article/9331343",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/09/23/463579293fd9c3c4892f067143faa4bf_3987702962839279100.jpg",
+        "start": "2022-10-14 04:00:00",
+        "end": "2022-10-31 03:59:59",
         "reminder": "end"
     },
     {
