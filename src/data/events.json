@@ -1813,6 +1813,15 @@
         "reminder": "end"
     },
     {
+        "name": "\"Gifts of Encounter\" Web Event",
+        "type": "Web",
+        "link": "https://act.hoyolab.com/bbs/event/e20220906yka/index.html?mhy_presentation_style=fullscreen",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/09/27/e340ba916a8e41e9680bbef75c6b43c1_1815050240288497020.jpg",
+        "start": "2022-09-28 00:00:00",
+        "end": "2022-10-07 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "3.2 Maintenance",
         "type": "Maintenance",
         "start": "2022-11-02 06:00:00",
