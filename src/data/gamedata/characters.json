@@ -56,7 +56,7 @@
         "talents": [
           {
             "name": "Normal Attack: Favonius Bladework - Weiss",
-            "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Sword.png",
             "talentTable": [
               {
@@ -608,7 +608,7 @@
         "talents": [
           {
             "name": "Normal Attack: Rapid Fire",
-            "desc": "**Normal Attack**\nPerform up to 4 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal **Cryo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive shots with a bow.\n\n**Charged Attack**\nPerforms a more precise **Aimed Shot** with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal **Cryo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Bow.png",
             "talentTable": [
               {
@@ -1181,7 +1181,7 @@
         "talents": [
           {
             "name": "Normal Attack: Sharpshooter",
-            "desc": "**Normal Attack**\nPerform up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal **Pyro DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerforms a more precise **Aimed Shot** with increased DMG.\nWhile aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal **Pyro DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Bow.png",
             "talentTable": [
               {
@@ -1747,7 +1747,7 @@
         "talents": [
           {
             "name": "Normal Attack: Fight Club Legend",
-            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\nWhen the 2nd and 4th strikes hit opponents, Itto will gain 1 and 2 stacks of Superlative Superstrength, respectively.\nMax 5 stacks. Triggering this effect will refresh the current duration of any existing stacks.\n\nAdditionally, Itto's Normal Attack combo does not immediately reset after sprinting or using his Elemental Skill, \"Masatsu Zetsugi: Akaushi Burst!\"\n\n**Charged Attack**\nWhen holding to perform a Charged Attack, Itto unleashes a series of Arataki Kesagiri slashes without consuming Stamina. Instead, each Arataki Kesagiri slash consumes 1 stack of Superlative Superstrength. When the final stack is consumed, Itto delivers a powerful final slash.\nIf no stacks of Superlative Superstrength are available, Itto will perform a single Saichimonji Slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive strikes.\nWhen the 2nd and 4th strikes hit opponents, Itto will gain 1 and 2 stacks of Superlative Superstrength, respectively.\nMax 5 stacks. Triggering this effect will refresh the current duration of any existing stacks.\n\nAdditionally, Itto's Normal Attack combo does not immediately reset after sprinting or using his Elemental Skill, \"Masatsu Zetsugi: Akaushi Burst!\"\n\n**Charged Attack**\nWhen holding to perform a Charged Attack, Itto unleashes a series of Arataki Kesagiri slashes without consuming Stamina. Instead, each Arataki Kesagiri slash consumes 1 stack of Superlative Superstrength. When the final stack is consumed, Itto delivers a powerful final slash.\nIf no stacks of Superlative Superstrength are available, Itto will perform a single Saichimonji Slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Claymore.png",
             "talentTable": [
               {
@@ -2296,7 +2296,7 @@
         "talents": [
           {
             "name": "Normal Attack: Whisper of Water",
-            "desc": "**Normal Attack**\nPerform up to 4 water splash attacks that deal **Hydro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to deal **AoE Hydro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Hydro DMG** upon impact with the ground.",
+            "desc": "**Normal Attack**\nPerforms up to 4 water splash attacks that deal **Hydro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to deal **AoE Hydro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Hydro DMG** upon impact with the ground.",
             "icon": "img/skill/Common_Catalyst.png",
             "talentTable": [
               {
@@ -2829,7 +2829,7 @@
         "talents": [
           {
             "name": "Normal Attack: Oceanborne",
-            "desc": "**Normal Attack**\nPerform up to 5 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Claymore.png",
             "talentTable": [
               {
@@ -3434,7 +3434,7 @@
         "talents": [
           {
             "name": "Normal Attack: Strike of Fortune",
-            "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Sword.png",
             "talentTable": [
               {
@@ -3984,6 +3984,568 @@
       }
     }
   },
+  "Candace": {
+    "name": "Candace",
+    "desc": "A descendant of King Deshret with an amber left eye. The defender of Aaru Village.",
+    "releasedOn": "2022-09-27 00:00:00",
+    "star": 4,
+    "weaponType": "Polearm",
+    "icon": "img/char/Candace.png",
+    "media": {
+      "imgs": [
+        "img/char_full/Candace.png"
+      ]
+    },
+    "baseStats": {
+      "hpBase": 911.791015625,
+      "attackBase": 17.808000564575195,
+      "defenseBase": 57.224998474121094,
+      "criticalBase": 0.05000000074505806,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 4*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 4*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 4*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 5,
+      "birthDay": 3,
+      "association": "Sumeru",
+      "title": "Golden Vow",
+      "detail": "A descendant of King Deshret with an amber left eye. The defender of Aaru Village.",
+      "affiliation": "Aaru Village",
+      "element": "Hydro",
+      "constellation": "Sagitta Scutum",
+      "cvChinese": "张琦",
+      "cvJapanese": "柚木涼香",
+      "cvEnglish": "Shara Kirby",
+      "cvKorean": "Jun Young-soo"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Gleaming Spear - Guardian Stance",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "img/skill/Common_Polearm.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "60.8%",
+                  "65.8%",
+                  "70.7%",
+                  "77.8%",
+                  "82.7%",
+                  "88.4%",
+                  "96.2%",
+                  "103.9%",
+                  "111.7%",
+                  "120.2%",
+                  "128.7%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "61.1%",
+                  "66.1%",
+                  "71.1%",
+                  "78.2%",
+                  "83.2%",
+                  "88.9%",
+                  "96.7%",
+                  "104.5%",
+                  "112.3%",
+                  "120.9%",
+                  "129.4%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "35.5%+43.4%",
+                  "38.4%+46.9%",
+                  "41.3%+50.4%",
+                  "45.4%+55.5%",
+                  "48.3%+59.0%",
+                  "51.6%+63.0%",
+                  "56.1%+68.6%",
+                  "60.7%+74.1%",
+                  "65.2%+79.7%",
+                  "70.2%+85.7%",
+                  "75.1%+91.8%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "94.9%",
+                  "102.7%",
+                  "110.4%",
+                  "121.4%",
+                  "129.2%",
+                  "138.0%",
+                  "150.1%",
+                  "162.3%",
+                  "174.4%",
+                  "187.7%",
+                  "200.9%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "124.2%",
+                  "134.3%",
+                  "144.4%",
+                  "158.8%",
+                  "168.9%",
+                  "180.5%",
+                  "196.4%",
+                  "212.3%",
+                  "228.2%",
+                  "245.5%",
+                  "262.8%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "25.0"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "63.9%",
+                  "69.1%",
+                  "74.3%",
+                  "81.8%",
+                  "87.0%",
+                  "92.9%",
+                  "101.1%",
+                  "109.3%",
+                  "117.5%",
+                  "126.4%",
+                  "135.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "128%/160%",
+                  "138%/173%",
+                  "149%/186%",
+                  "164%/204%",
+                  "174%/217%",
+                  "186%/232%",
+                  "202%/253%",
+                  "219%/273%",
+                  "235%/293%",
+                  "253%/316%",
+                  "271%/338%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Admonition",
+                "BossMat": "Tears of the Calamitous God",
+                "EnemyDropTier1": "Faded Red Satin",
+                "EnemyDropTier2": "Trimmed Red Silk",
+                "EnemyDropTier3": "Rich Red Brocade"
+              }
+            }
+          },
+          {
+            "name": "Sacred Rite: Heron's Sanctum",
+            "desc": "Candace's fighting style is capable of warding off an entire tide of foes.\n\n**Tap**\nRushes forward with her shield, dealing **Hydro DMG** to opponents in front of her.\n\n**Hold**\nRaises her shield to block incoming attacks from nearby opponents, forming a barrier that absorbs DMG based on her Max HP and absorbs **Hydro DMG** 250% more effectively. This barrier lasts until the Elemental Skill is unleashed.\nAfter holding for a certain period of time, Candace will finish charging, and when the skill button is released, the skill duration expires, or when the barrier is broken, she will perform a leaping strike that deals **Hydro DMG** to opponents in front of her.\n\n**The oath of the guardians is more stalwart yet than the shields they inherit.**",
+            "icon": "img/skill/Candace_1.png",
+            "talentTable": [
+              {
+                "name": "Shield DMG Absorption",
+                "values": [
+                  "12.0% Max HP+1156",
+                  "12.9% Max HP+1271",
+                  "13.8% Max HP+1396",
+                  "15.0% Max HP+1531",
+                  "15.9% Max HP+1676",
+                  "16.8% Max HP+1830",
+                  "18.0% Max HP+1993",
+                  "19.2% Max HP+2167",
+                  "20.4% Max HP+2350",
+                  "21.6% Max HP+2542",
+                  "22.8% Max HP+2745",
+                  "24.0% Max HP+2957",
+                  "25.5% Max HP+3178"
+                ]
+              },
+              {
+                "name": "Basic DMG",
+                "values": [
+                  "12.0% Max HP",
+                  "12.9% Max HP",
+                  "13.8% Max HP",
+                  "15.0% Max HP",
+                  "15.9% Max HP",
+                  "16.8% Max HP",
+                  "18.0% Max HP",
+                  "19.2% Max HP",
+                  "20.4% Max HP",
+                  "21.6% Max HP",
+                  "22.8% Max HP",
+                  "24.0% Max HP",
+                  "25.5% Max HP"
+                ]
+              },
+              {
+                "name": "Charged Up DMG",
+                "values": [
+                  "19.0% Max HP",
+                  "20.5% Max HP",
+                  "21.9% Max HP",
+                  "23.8% Max HP",
+                  "25.2% Max HP",
+                  "26.7% Max HP",
+                  "28.6% Max HP",
+                  "30.5% Max HP",
+                  "32.4% Max HP",
+                  "34.3% Max HP",
+                  "36.2% Max HP",
+                  "38.1% Max HP",
+                  "40.5% Max HP"
+                ]
+              },
+              {
+                "name": "Press CD",
+                "value": "6.0s"
+              },
+              {
+                "name": "Holding CD",
+                "value": "9.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Admonition",
+                "BossMat": "Tears of the Calamitous God",
+                "EnemyDropTier1": "Faded Red Satin",
+                "EnemyDropTier2": "Trimmed Red Silk",
+                "EnemyDropTier3": "Rich Red Brocade"
+              }
+            }
+          }
+        ],
+        "ult": {
+          "name": "Sacred Rite: Wagtail's Tide",
+          "desc": "Raising her weapon on high, Candace calls upon a divine blessing that deals **AoE Hydro DMG** based on her Max HP and continuously confers the Prayer of the Crimson Crown on your active character.\n\n**Prayer of the Crimson Crown**\nThis effect has the following properties:\n·Characters deal increased Elemental DMG with their Normal Attacks.\n·Whenever a character takes the field, they will unleash a rippling wave of water that deals **Hydro DMG** to nearby opponents. There is a limited number of waves that can be triggered in the duration of this skill.\n·Sword, Claymore, and Polearm-wielding characters under this effect will obtain a **Hydro Infusion**.\n\n**This secret rite has been passed down through Candace's clan from generation to generation. Though the old faiths have become lost over the years, the sands still protect the heirs of the ancient realm.**",
+          "icon": "img/skill/Candace_2.png",
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "6.6% Max HP",
+                "7.1% Max HP",
+                "7.6% Max HP",
+                "8.3% Max HP",
+                "8.8% Max HP",
+                "9.3% Max HP",
+                "9.9% Max HP",
+                "10.6% Max HP",
+                "11.2% Max HP",
+                "11.9% Max HP",
+                "12.6% Max HP",
+                "13.2% Max HP",
+                "14.0% Max HP"
+              ]
+            },
+            {
+              "name": "Duration",
+              "value": "9.0s"
+            },
+            {
+              "name": "DMG Bonus",
+              "value": "20.0%"
+            },
+            {
+              "name": "Wave Impact DMG",
+              "values": [
+                "6.6% Max HP",
+                "7.1% Max HP",
+                "7.6% Max HP",
+                "8.3% Max HP",
+                "8.8% Max HP",
+                "9.3% Max HP",
+                "9.9% Max HP",
+                "10.6% Max HP",
+                "11.2% Max HP",
+                "11.9% Max HP",
+                "12.6% Max HP",
+                "13.2% Max HP",
+                "14.0% Max HP"
+              ]
+            },
+            {
+              "name": "Wave Instances",
+              "value": "3"
+            },
+            {
+              "name": "CD",
+              "value": "15.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "60"
+            }
+          ],
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Admonition",
+              "BossMat": "Tears of the Calamitous God",
+              "EnemyDropTier1": "Faded Red Satin",
+              "EnemyDropTier2": "Trimmed Red Silk",
+              "EnemyDropTier3": "Rich Red Brocade"
+            }
+          },
+          "type": "Hydro"
+        },
+        "passive": [
+          {
+            "name": "Aegis of Crossed Arrows",
+            "desc": "If Candace is hit by an attack in the Hold duration of **Sacred Rite: Heron's Sanctum**, that skill will finish charging instantly.",
+            "icon": "img/skill/Candace_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "Celestial Dome of Sand",
+            "desc": "Characters affected by the Prayer of the Crimson Crown caused by **Sacred Rite: Wagtail's Tide** will deal 0.5% increased DMG to opponents for every 1,000 points of Candace's Max HP when they deal Elemental DMG with their Normal Attacks.",
+            "icon": "img/skill/Candace_4.png",
+            "minAscension": 4
+          },
+          {
+            "name": "To Dawn's First Light",
+            "desc": "Decreases climbing Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+            "icon": "img/skill/Xiao_5.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Returning Heiress of the Scarlet Sands",
+            "desc": "The duration of Prayer of the Crimson Crown effect triggered by **Sacred Rite: Wagtail's Tide** is increased by 3s.",
+            "icon": "img/const/Candace_1.png"
+          },
+          {
+            "name": "Moon-Piercing Brilliance",
+            "desc": "When **Sacred Rite: Heron's Sanctum** hits opponents, Candace's Max HP will be increased by 20% for 15s.",
+            "icon": "img/const/Candace_2.png"
+          },
+          {
+            "name": "Hunter's Supplication",
+            "desc": "Increases the Level of **Sacred Rite: Wagtail's Tide** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Candace_3.png"
+          },
+          {
+            "name": "Sentinel Oath",
+            "desc": "Shortens the Hold CD of **Sacred Rite: Heron's Sanctum** to be the same as that of the Tapping CD.",
+            "icon": "img/const/Candace_4.png"
+          },
+          {
+            "name": "Heterochromatic Gaze",
+            "desc": "Increases the Level of **Sacred Rite: Heron's Sanctum** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Candace_5.png"
+          },
+          {
+            "name": "The Overflow",
+            "desc": "When characters (excluding Candace herself) affected by the Prayer of the Crimson Crown caused by **Sacred Rite: Wagtail's Tide** deal Elemental DMG to opponents using Normal Attacks, an attack wave will be unleashed that deals **AoE Hydro DMG** equal to 15% of Candace's Max HP.\nThis effect can trigger once every 2.3s and is considered Elemental Burst DMG.",
+            "icon": "img/const/Candace_6.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "HP%",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 681.154541015625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 42.75
+          },
+          {
+            "stat": "Base ATK",
+            "value": 13.303799629211426
+          },
+          {
+            "stat": "HP%",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1165.1328125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 73.125
+          },
+          {
+            "stat": "Base ATK",
+            "value": 22.756500244140625
+          },
+          {
+            "stat": "HP%",
+            "value": 0.05999999865889549
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1810.4371337890625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 113.625
+          },
+          {
+            "stat": "Base ATK",
+            "value": 35.36009979248047
+          },
+          {
+            "stat": "HP%",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2294.415283203125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 144
+          },
+          {
+            "stat": "Base ATK",
+            "value": 44.812801361083984
+          },
+          {
+            "stat": "HP%",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2778.3935546875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 174.375
+          },
+          {
+            "stat": "Base ATK",
+            "value": 54.265499114990234
+          },
+          {
+            "stat": "HP%",
+            "value": 0.18000000715255737
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3262.371826171875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 204.75
+          },
+          {
+            "stat": "Base ATK",
+            "value": 63.71820068359375
+          },
+          {
+            "stat": "HP%",
+            "value": 0.23999999463558197
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Light Guiding Tetrahedron",
+        "EnemyDropTier1": "Faded Red Satin",
+        "EnemyDropTier2": "Trimmed Red Silk",
+        "EnemyDropTier3": "Rich Red Brocade",
+        "Gem1": "Varunada Lazurite Sliver",
+        "Gem2": "Varunada Lazurite Fragment",
+        "Gem3": "Varunada Lazurite Chunk",
+        "Gem4": "Varunada Lazurite Gemstone",
+        "Specialty": "Redcrest"
+      }
+    }
+  },
   "Chongyun": {
     "name": "Chongyun",
     "desc": "A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.",
@@ -4037,7 +4599,7 @@
         "talents": [
           {
             "name": "Normal Attack: Demonbane",
-            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Claymore.png",
             "talentTable": [
               {
@@ -4572,7 +5134,7 @@
         "talents": [
           {
             "name": "Normal Attack: Supplicant's Bowmanship",
-            "desc": "**Normal Attack**\nPerform up to 4 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, Dendro energy will accumulate on the arrowhead. A fully charged arrow will deal **Dendro DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive shots with a bow.\n\n**Charged Attack**\nPerforms a more precise **Aimed Shot** with increased DMG.\nWhile aiming, Dendro energy will accumulate on the arrowhead. A fully charged arrow will deal **Dendro DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Bow.png",
             "talentTable": [
               {
@@ -5046,6 +5608,662 @@
       }
     }
   },
+  "Cyno": {
+    "name": "Cyno",
+    "desc": "The General Mahamatra in charge of supervising the researchers of the Akademiya. It is said that when he gets down to work, the General Mahamatra is even more efficient than the \"Great Vayuvyastra\" made by the Kshahrewar.",
+    "releasedOn": "2022-09-27 00:00:00",
+    "star": 5,
+    "weaponType": "Polearm",
+    "icon": "img/char/Cyno.png",
+    "media": {
+      "imgs": [
+        "img/char_full/Cyno.png"
+      ]
+    },
+    "baseStats": {
+      "hpBase": 972.3864135742188,
+      "attackBase": 24.76460075378418,
+      "defenseBase": 66.88993835449219,
+      "criticalBase": 0.05000000074505806,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 6,
+      "birthDay": 23,
+      "association": "Sumeru",
+      "title": "Judicator of Secrets",
+      "detail": "The General Mahamatra in charge of supervising the researchers of the Akademiya. It is said that when he gets down to work, the General Mahamatra is even more efficient than the \"Great Vayuvyastra\" made by the Kshahrewar.",
+      "affiliation": "Temple of Silence",
+      "element": "Electro",
+      "constellation": "Lupus Aureus",
+      "cvChinese": "李轻扬",
+      "cvJapanese": "入野自由",
+      "cvEnglish": "Alejandro Saab",
+      "cvKorean": "Lee Woo-ri"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Invoker's Spear",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "img/skill/Common_Polearm.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "49.3%",
+                  "53.3%",
+                  "57.3%",
+                  "63.0%",
+                  "67.0%",
+                  "71.6%",
+                  "77.9%",
+                  "84.2%",
+                  "90.5%",
+                  "97.4%",
+                  "104.2%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "47.9%",
+                  "51.8%",
+                  "55.7%",
+                  "61.3%",
+                  "65.2%",
+                  "69.7%",
+                  "75.8%",
+                  "81.9%",
+                  "88.0%",
+                  "94.7%",
+                  "101.4%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "29.3%+29.3%",
+                  "31.7%+31.7%",
+                  "34.1%+34.1%",
+                  "37.5%+37.5%",
+                  "39.9%+39.9%",
+                  "42.6%+42.6%",
+                  "46.3%+46.3%",
+                  "50.1%+50.1%",
+                  "53.8%+53.8%",
+                  "57.9%+57.9%",
+                  "62.0%+62.0%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "75.9%",
+                  "82.1%",
+                  "88.2%",
+                  "97.1%",
+                  "103.2%",
+                  "110.3%",
+                  "120.0%",
+                  "129.7%",
+                  "139.4%",
+                  "150.0%",
+                  "160.6%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "122.4%",
+                  "132.3%",
+                  "142.3%",
+                  "156.5%",
+                  "166.5%",
+                  "177.9%",
+                  "193.5%",
+                  "209.2%",
+                  "224.8%",
+                  "241.9%",
+                  "259.0%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "25.0"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "63.9%",
+                  "69.1%",
+                  "74.3%",
+                  "81.8%",
+                  "87.0%",
+                  "92.9%",
+                  "101.1%",
+                  "109.3%",
+                  "117.5%",
+                  "126.4%",
+                  "135.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "128%/160%",
+                  "138%/173%",
+                  "149%/186%",
+                  "164%/204%",
+                  "174%/217%",
+                  "186%/232%",
+                  "202%/253%",
+                  "219%/273%",
+                  "235%/293%",
+                  "253%/316%",
+                  "271%/338%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Admonition",
+                "BossMat": "Mudra of the Malefic General",
+                "EnemyDropTier1": "Divining Scroll",
+                "EnemyDropTier2": "Sealed Scroll",
+                "EnemyDropTier3": "Forbidden Curse Scroll"
+              }
+            }
+          },
+          {
+            "name": "Secret Rite: Chasmic Soulfarer",
+            "desc": "Performs a swift thrust, dealing **Electro DMG** to opponents along the path.\n\nWhen Cyno is under the Pactsworn Pathclearer state triggered by Sacred Rite: Wolf's Swiftness, he will instead unleash a **Mortuary Rite** that deals thunderous **AoE Electro DMG** and extends the duration of Pactsworn Pathclearer.\n\n**\"This judgment brooks no choice. There is no rejection or acceptance here... We have both long been bound up in this conviction.\"**",
+            "icon": "img/skill/Cyno_1.png",
+            "talentTable": [
+              {
+                "name": "Skill DMG",
+                "values": [
+                  "130.4%",
+                  "140.2%",
+                  "150.0%",
+                  "163.0%",
+                  "172.8%",
+                  "182.6%",
+                  "195.6%",
+                  "208.6%",
+                  "221.7%",
+                  "234.7%",
+                  "247.8%",
+                  "260.8%",
+                  "277.1%"
+                ]
+              },
+              {
+                "name": "Mortuary Rite DMG",
+                "values": [
+                  "156.8%",
+                  "168.6%",
+                  "180.3%",
+                  "196.0%",
+                  "207.8%",
+                  "219.5%",
+                  "235.2%",
+                  "250.9%",
+                  "266.6%",
+                  "282.2%",
+                  "297.9%",
+                  "313.6%",
+                  "333.2%"
+                ]
+              },
+              {
+                "name": "Pactsworn Pathclearer Duration Bonus",
+                "value": "4.0s"
+              },
+              {
+                "name": "CD",
+                "value": "7.5s"
+              },
+              {
+                "name": "Mortuary Rite CD",
+                "value": "3.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Admonition",
+                "BossMat": "Mudra of the Malefic General",
+                "EnemyDropTier1": "Divining Scroll",
+                "EnemyDropTier2": "Sealed Scroll",
+                "EnemyDropTier3": "Forbidden Curse Scroll"
+              }
+            }
+          }
+        ],
+        "ult": {
+          "name": "Sacred Rite: Wolf's Swiftness",
+          "desc": "Calls upon a divine spirit to indwell him, morphing into the Pactsworn Pathclearer.\n\n**Pactsworn Pathclearer**\nCyno's Normal, Charged, and Plunging Attacks will be converted to **Electro DMG** that cannot be overridden.\n·Cyno's Elemental Mastery and resistance to interruption will increase, and he gains immunity to Electro-Charged DMG.\n\nThis effect will be canceled when Cyno leaves the field and lasts a maximum of 18s.\n\n**The secret rituals passed down within the ancient nation are as a final judgment to the General Mahamatra.**\n**Whether now or in the past, whether great storm or serpent, none shall shake the majesty of the law.**",
+          "icon": "img/skill/Cyno_2.png",
+          "talentTable": [
+            {
+              "name": "1-Hit DMG",
+              "values": [
+                "78.3%",
+                "84.7%",
+                "91.0%",
+                "100.1%",
+                "106.5%",
+                "113.8%",
+                "123.8%",
+                "133.8%",
+                "143.8%",
+                "154.7%",
+                "165.7%",
+                "176.6%",
+                "187.5%"
+              ]
+            },
+            {
+              "name": "2-Hit DMG",
+              "values": [
+                "82.5%",
+                "89.2%",
+                "95.9%",
+                "105.5%",
+                "112.2%",
+                "119.9%",
+                "130.4%",
+                "141.0%",
+                "151.5%",
+                "163.0%",
+                "174.5%",
+                "186.0%",
+                "197.5%"
+              ]
+            },
+            {
+              "name": "3-Hit DMG",
+              "values": [
+                "104.6%",
+                "113.2%",
+                "121.7%",
+                "133.8%",
+                "142.4%",
+                "152.1%",
+                "165.5%",
+                "178.9%",
+                "192.2%",
+                "206.8%",
+                "221.4%",
+                "236.0%",
+                "250.6%"
+              ]
+            },
+            {
+              "name": "4-Hit DMG",
+              "values": [
+                "51.7%+51.7%",
+                "55.9%+55.9%",
+                "60.1%+60.1%",
+                "66.1%+66.1%",
+                "70.3%+70.3%",
+                "75.1%+75.1%",
+                "81.7%+81.7%",
+                "88.4%+88.4%",
+                "95.0%+95.0%",
+                "102.2%+102.2%",
+                "109.4%+109.4%",
+                "116.6%+116.6%",
+                "123.8%+123.8%"
+              ]
+            },
+            {
+              "name": "5-Hit DMG",
+              "values": [
+                "130.8%",
+                "141.5%",
+                "152.1%",
+                "167.4%",
+                "178.0%",
+                "190.2%",
+                "206.9%",
+                "223.7%",
+                "240.4%",
+                "258.6%",
+                "276.9%",
+                "295.2%",
+                "313.4%"
+              ]
+            },
+            {
+              "name": "Charged Attack DMG",
+              "values": [
+                "101.0%",
+                "109.3%",
+                "117.5%",
+                "129.3%",
+                "137.5%",
+                "146.9%",
+                "159.8%",
+                "172.7%",
+                "185.7%",
+                "199.7%",
+                "213.8%",
+                "228.0%",
+                "242.1%"
+              ]
+            },
+            {
+              "name": "Charged Attack Stamina Cost",
+              "value": "25.0"
+            },
+            {
+              "name": "Plunge DMG",
+              "values": [
+                "63.9%",
+                "69.1%",
+                "74.3%",
+                "81.8%",
+                "87.0%",
+                "92.9%",
+                "101.1%",
+                "109.3%",
+                "117.5%",
+                "126.4%",
+                "135.3%",
+                "144.2%",
+                "153.1%"
+              ]
+            },
+            {
+              "name": "Low/High Plunge DMG",
+              "values": [
+                "128%/160%",
+                "138%/173%",
+                "149%/186%",
+                "164%/204%",
+                "174%/217%",
+                "186%/232%",
+                "202%/253%",
+                "219%/273%",
+                "235%/293%",
+                "253%/316%",
+                "271%/338%",
+                "288%/360%",
+                "306%/382%"
+              ]
+            },
+            {
+              "name": "Elemental Mastery Bonus",
+              "value": "100"
+            },
+            {
+              "name": "Basic Duration",
+              "value": "10.0s"
+            },
+            {
+              "name": "CD",
+              "value": "20.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "80"
+            }
+          ],
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Admonition",
+              "BossMat": "Mudra of the Malefic General",
+              "EnemyDropTier1": "Divining Scroll",
+              "EnemyDropTier2": "Sealed Scroll",
+              "EnemyDropTier3": "Forbidden Curse Scroll"
+            }
+          },
+          "type": "Electro"
+        },
+        "passive": [
+          {
+            "name": "Featherfall Judgment",
+            "desc": "When Cyno is in the Pactsworn Pathclearer state activated by **Sacred Rite: Wolf's Swiftness**, Cyno will enter the Endseer stance at intervals. If he activates **Secret Rite: Chasmic Soulfarer** while affected by this stance, he will activate the Judication effect, increasing the DMG of this Secret Rite: Chasmic Soulfarer by 35%, and firing off 3 Duststalker Bolts that deal 100% of Cyno's ATK as **Electro DMG.**\nDuststalker Bolt DMG is considered Elemental Skill DMG.",
+            "icon": "img/skill/Cyno_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "Authority Over the Nine Bows",
+            "desc": "Cyno's DMG values will be increased based on his Elemental Mastery as follows:\n·Pactsworn Pathclearer's Normal Attack DMG is increased by 150% of his Elemental Mastery.\n·Duststalker Bolt DMG from his Passive Talent Featherfall Judgment is increased by 250% of his Elemental Mastery.",
+            "icon": "img/skill/Cyno_4.png",
+            "minAscension": 4
+          },
+          {
+            "name": "The Gift of Silence",
+            "desc": "Gains 25% more rewards when dispatched on a Sumeru Expedition for 20 hours.",
+            "icon": "img/skill/Cyno_5.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Ordinance: Unceasing Vigil",
+            "desc": "After using **Sacred Rite: Wolf's Swiftness**, Cyno's Normal Attack SPD will be increased by 20% for 10s. If the Judication effect of his Passive Talent Featherfall Judgment is triggered during **Secret Rite: Chasmic Soulfarer**, the duration of this increase will be refreshed.\nYou need to unlock the Passive Talent \"Featherfall Judgment.\"",
+            "icon": "img/const/Cyno_1.png"
+          },
+          {
+            "name": "Ceremony: Homecoming of Spirits",
+            "desc": "When Cyno's Normal Attacks hit opponents, his **Electro DMG Bonus** will increase by 10% for 4s. This effect can be triggered once every 0.1s. Max 5 stacks.",
+            "icon": "img/const/Cyno_2.png"
+          },
+          {
+            "name": "Precept: Lawful Enforcer",
+            "desc": "Increases the Level of **Sacred Rite: Wolf's Swiftness** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Cyno_3.png"
+          },
+          {
+            "name": "Austerity: Forbidding Guard",
+            "desc": "When Cyno is in the Pactsworn Pathclearer state triggered by **Sacred Rite: Wolf's Swiftness**, after he triggers Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or an Electro Swirl reaction, he will restore 3 Elemental Energy for all nearby party members (except himself.)\nThis effect can occur 5 times within one use of **Sacred Rite: Wolf's Swiftness**.",
+            "icon": "img/const/Cyno_4.png"
+          },
+          {
+            "name": "Funerary Rite: The Passing of Starlight",
+            "desc": "Increases the Level of **Secret Rite: Chasmic Soulfarer** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Cyno_5.png"
+          },
+          {
+            "name": "Raiment: Just Scales",
+            "desc": "After using **Sacred Rite: Wolf's Swiftness** or triggering the Judication effect of the Passive Talent \"Featherfall Judgment,\" Cyno will gain 4 stacks of the \"Day of the Jackal\" effect. When he hits opponents with Normal Attacks, he will consume 1 stack of \"Day of the Jackal\" to fire off one Duststalker Bolt.\n\"Day of the Jackal\" lasts for 8s. Max 8 stacks. It will be canceled once Pactsworn Pathclearer ends.\nA maximum of 1 Duststalker Bolt can be unleashed this way every 0.4s.\nYou must first unlock the Passive Talent \"Featherfall Judgment.\"",
+            "icon": "img/const/Cyno_6.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 833.7333984375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 57.35340118408203
+          },
+          {
+            "stat": "Base ATK",
+            "value": 21.231853485107422
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1426.1229248046875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 98.10449981689453
+          },
+          {
+            "stat": "Base ATK",
+            "value": 36.31764602661133
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.09600000083446503
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2215.9755859375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 152.43930053710938
+          },
+          {
+            "stat": "Base ATK",
+            "value": 56.43203353881836
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.19200000166893005
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2808.365234375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 193.19039916992188
+          },
+          {
+            "stat": "Base ATK",
+            "value": 71.517822265625
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.19200000166893005
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3400.754638671875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 233.94149780273438
+          },
+          {
+            "stat": "Base ATK",
+            "value": 86.6036148071289
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.2879999876022339
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3993.144287109375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 274.6925964355469
+          },
+          {
+            "stat": "Base ATK",
+            "value": 101.68940734863281
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.3840000033378601
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Thunderclap Fruitcore",
+        "EnemyDropTier1": "Divining Scroll",
+        "EnemyDropTier2": "Sealed Scroll",
+        "EnemyDropTier3": "Forbidden Curse Scroll",
+        "Gem1": "Vajrada Amethyst Sliver",
+        "Gem2": "Vajrada Amethyst Fragment",
+        "Gem3": "Vajrada Amethyst Chunk",
+        "Gem4": "Vajrada Amethyst Gemstone",
+        "Specialty": "Scarab"
+      }
+    }
+  },
   "Diluc": {
     "name": "Diluc",
     "desc": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
@@ -5102,7 +6320,7 @@
         "talents": [
           {
             "name": "Normal Attack: Tempered Sword",
-            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Claymore.png",
             "talentTable": [
               {
@@ -5694,7 +6912,7 @@
         "talents": [
           {
             "name": "Normal Attack: Kätzlein Style",
-            "desc": "**Normal Attack**\nPerform up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal **Cryo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerforms a more precise **Aimed Shot** with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal **Cryo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Bow.png",
             "talentTable": [
               {
@@ -5855,7 +7073,7 @@
           },
           {
             "name": "Icy Paws",
-            "desc": "Fires an Icy Paw that deals **Cryo DMG** to opponents and forms a shield on hit.\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\n**Press**\nRapidly fires off 2 Icy Paws.\n\n**Hold**\nDashes back quickly before firing five Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\n\nThe shield has a 250% **Cryo DMG** Absorption Bonus, and will cause your active character to become affected by **Cryo** at the point of formation for a short duration.\n\n**When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!**",
+            "desc": "Fires an Icy Paw that deals **Cryo DMG** to opponents and forms a shield on hit.\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\n**Press**\nRapidly fires off 2 Icy Paws.\n\n**Hold**\nDashes back quickly before firing 5 Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\n\nThe shield has a 250% **Cryo DMG** Absorption Bonus, and will cause your active character to become affected by **Cryo** at the point of formation for a short duration.\n\n**When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!**",
             "icon": "img/skill/Diona_1.png",
             "talentTable": [
               {
@@ -6295,7 +7513,7 @@
         "talents": [
           {
             "name": "Normal Attack: Marvelous Sword-Dance (Modified)",
-            "desc": "**Normal Attack**\nPerform up to 3 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 3 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Claymore.png",
             "talentTable": [
               {
@@ -6432,7 +7650,7 @@
           },
           {
             "name": "Spirit-Warding Lamp: Troubleshooter Cannon",
-            "desc": "Directs a Spirit-Warding Lamp to fire off a Troubleshooter Shot at opponents, dealing **Electro DMG**.\nAfter the Troubleshooter Shot hits, it will create 2 After-Sales Service Rounds that will automatically track opponents and deal **Electro DMG**.\n\n**It is said that Dori can fix any problem for you... for the right price.**",
+            "desc": "Directs a Spirit-Warding Lamp to fire off a Troubleshooter Shot at opponents, dealing **Electro DMG**.\nAfter the Troubleshooter Shot hits, it will create 2 After-Sales Service Rounds that will automatically track nearby opponents and deal **Electro DMG**.\n\n**It is said that Dori can fix any problem for you... for the right price.**",
             "icon": "img/skill/Dori_1.png",
             "talentTable": [
               {
@@ -6855,7 +8073,7 @@
         "talents": [
           {
             "name": "Normal Attack: Favonius Bladework - Edel",
-            "desc": "**Normal Attack**\nPerform up to 5 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Claymore.png",
             "talentTable": [
               {
@@ -7515,7 +8733,7 @@
         "talents": [
           {
             "name": "Normal Attack: Bolts of Downfall",
-            "desc": "**Normal Attack**\nPerform up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachsüchtig Blitz shall deal immense **Electro DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerforms a more precise **Aimed Shot** with increased DMG.\nWhile aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachsüchtig Blitz shall deal immense **Electro DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Bow.png",
             "talentTable": [
               {
@@ -8063,7 +9281,7 @@
         "talents": [
           {
             "name": "Normal Attack: Liutian Archery",
-            "desc": "**Normal Attack**\nPerform up to 6 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off an icy arrow that deals **Cryo DMG**.\n·Charge Level 2: Fires off a Frostflake Arrow that deals **Cryo DMG**. The Frostflake Arrow blooms after hitting its target, dealing **AoE Cryo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 6 consecutive shots with a bow.\n\n**Charged Attack**\nPerforms a more precise **Aimed Shot** with increased DMG.\nWhile aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off an icy arrow that deals **Cryo DMG**.\n·Charge Level 2: Fires off a Frostflake Arrow that deals **Cryo DMG**. The Frostflake Arrow blooms after hitting its target, dealing **AoE Cryo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Bow.png",
             "talentTable": [
               {
@@ -8662,7 +9880,7 @@
         "talents": [
           {
             "name": "Normal Attack: Ripping Fang Fletching",
-            "desc": "**Normal Attack**\nPerform up to 4 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal **Geo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive shots with a bow.\n\n**Charged Attack**\nPerforms a more precise **Aimed Shot** with increased DMG.\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal **Geo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Bow.png",
             "talentTable": [
               {
@@ -9226,7 +10444,7 @@
         "talents": [
           {
             "name": "Normal Attack: Secret Spear of Wangsheng",
-            "desc": "**Normal Attack**\nPerforms up to six consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 6 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Polearm.png",
             "talentTable": [
               {
@@ -10420,7 +11638,7 @@
         "talents": [
           {
             "name": "Normal Attack: Garyuu Bladework",
-            "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact. If this Plunging Attack is triggered by Chihayaburu, it will be converted to Plunging Attack: Midare Ranzan.\n\n**Plunging Attack: Midare Ranzan**\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to **Anemo DMG** and will create a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.",
+            "desc": "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact. If this Plunging Attack is triggered by Chihayaburu, it will be converted to Plunging Attack: Midare Ranzan.\n\n**Plunging Attack: Midare Ranzan**\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to **Anemo DMG** and will create a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.",
             "icon": "img/skill/Common_Sword.png",
             "talentTable": [
               {
@@ -10994,7 +12212,7 @@
         "talents": [
           {
             "name": "Normal Attack: Ceremonial Bladework",
-            "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Sword.png",
             "talentTable": [
               {
@@ -12068,7 +13286,7 @@
         "talents": [
           {
             "name": "Normal Attack: Kamisato Art - Marobashi",
-            "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to dash forward and perform an iai.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to dash forward and performs an iai.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Sword.png",
             "talentTable": [
               {
@@ -12689,7 +13907,7 @@
         "talents": [
           {
             "name": "Normal Attack: Yunlai Swordsmanship",
-            "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Sword.png",
             "talentTable": [
               {
@@ -13275,7 +14493,7 @@
         "talents": [
           {
             "name": "Normal Attack: Kaboom!",
-            "desc": "**Normal Attack**\nThrows things that go boom when they hit things! Perform up to 3 explosive attacks, dealing **AoE Pyro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina and deals **AoE Pyro DMG** to opponents after a short casting time.\n\n**Plunging Attack**\nGathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Pyro DMG** upon impact with the ground.",
+            "desc": "**Normal Attack**\nThrows things that go boom when they hit things! Performs up to 3 explosive attacks, dealing **AoE Pyro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina and deals **AoE Pyro DMG** to opponents after a short casting time.\n\n**Plunging Attack**\nGathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Pyro DMG** upon impact with the ground.",
             "icon": "img/skill/Common_Catalyst.png",
             "talentTable": [
               {
@@ -13783,7 +15001,7 @@
         "talents": [
           {
             "name": "Normal Attack: Tengu Bowmanship",
-            "desc": "**Normal Attack**\nPerform up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, crackling lightning will accumulate on the arrowhead. An arrow fully charged with the storm's might will deal **Electro DMG**.\nWhen in the Crowfeather Cover state, a fully-charged arrow will leave a Crowfeather behind after it hits.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerforms a more precise **Aimed Shot** with increased DMG.\nWhile aiming, crackling lightning will accumulate on the arrowhead. An arrow fully charged with the storm's might will deal **Electro DMG**.\nWhen in the Crowfeather Cover state, a fully-charged arrow will leave a Crowfeather behind after it hits.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Bow.png",
             "talentTable": [
               {
@@ -14354,7 +15572,7 @@
         "talents": [
           {
             "name": "Normal Attack: Shinobu's Shadowsword",
-            "desc": "**Normal Attack**\nPerform up to 4 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 4 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Sword.png",
             "talentTable": [
               {
@@ -14919,7 +16137,7 @@
         "talents": [
           {
             "name": "Normal Attack: Lightning Touch",
-            "desc": "**Normal Attack**\nPerform up to 4 lightning attacks that deal **Electro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to deal **AoE Electro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Electro DMG** upon impact with the ground.",
+            "desc": "**Normal Attack**\nPerforms up to 4 lightning attacks that deal **Electro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to deal **AoE Electro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Electro DMG** upon impact with the ground.",
             "icon": "img/skill/Common_Catalyst.png",
             "talentTable": [
               {
@@ -15496,7 +16714,7 @@
         "talents": [
           {
             "name": "Normal Attack: Ripple of Fate",
-            "desc": "**Normal Attack**\nPerform up to 4 water splash attacks that deal **Hydro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to deal **AoE Hydro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Hydro DMG** upon impact with the ground.",
+            "desc": "**Normal Attack**\nPerforms up to 4 water splash attacks that deal **Hydro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to deal **AoE Hydro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Hydro DMG** upon impact with the ground.",
             "icon": "img/skill/Common_Catalyst.png",
             "talentTable": [
               {
@@ -16542,7 +17760,7 @@
         "talents": [
           {
             "name": "Normal Attack: Favonius Bladework - Maid",
-            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Claymore.png",
             "talentTable": [
               {
@@ -17157,7 +18375,7 @@
         "talents": [
           {
             "name": "Normal Attack: Ancient Sword Art",
-            "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Sword.png",
             "talentTable": [
               {
@@ -18506,7 +19724,7 @@
         "talents": [
           {
             "name": "Normal Attack: Steel Fang",
-            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Claymore.png",
             "talentTable": [
               {
@@ -19101,7 +20319,7 @@
         "talents": [
           {
             "name": "Normal Attack: Spear of the Church",
-            "desc": "**Normal Attack**\nPerforms up to five consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Polearm.png",
             "talentTable": [
               {
@@ -20228,7 +21446,7 @@
         "talents": [
           {
             "name": "Normal Attack: Shuumatsuban Ninja Blade",
-            "desc": "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Claymore.png",
             "talentTable": [
               {
@@ -20886,7 +22104,7 @@
         "talents": [
           {
             "name": "Normal Attack: Dawnstar Piercer",
-            "desc": "**Normal Attack**\nPerforms up to five consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Polearm.png",
             "talentTable": [
               {
@@ -22578,7 +23796,7 @@
         "talents": [
           {
             "name": "Normal Attack: Cutting Torrent",
-            "desc": "**Normal Attack**\nPerform up to 6 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal **Hydro DMG** and apply the Riptide status.\n\n**Riptide**\nOpponents affected by Riptide will suffer from **AoE Hydro DMG** effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.\n·Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.\n·Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\nWhen Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.",
+            "desc": "**Normal Attack**\nPerforms up to 6 consecutive shots with a bow.\n\n**Charged Attack**\nPerforms a more precise **Aimed Shot** with increased DMG.\nWhile aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal **Hydro DMG** and apply the Riptide status.\n\n**Riptide**\nOpponents affected by Riptide will suffer from **AoE Hydro DMG** effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.\n·Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.\n·Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\nWhen Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.",
             "icon": "img/skill/Common_Bow.png",
             "talentTable": [
               {
@@ -22791,7 +24009,7 @@
           },
           {
             "name": "Foul Legacy: Raging Tide",
-            "desc": "Unleashes a set of weaponry made of pure water, dealing **Hydro DMG** to surrounding opponents and entering Melee Stance.\nIn this Stance, Tartaglia's Normal and Charged Attacks are converted to **Hydro DMG** that cannot be overridden by any other elemental infusion and change as follows:\n\n**Normal Attack**\nPerform up to 6 consecutive **Hydro** strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash a cross slash, dealing **Hydro DMG**.\n\n**Riptide Slash**\nHitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals **AoE Hydro DMG**. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.\n\nAfter 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD.\nIf the return to a ranged stance occurs automatically after 30s, the CD is even longer.\n\n**He chose the bow as his weapon precisely to overcome his weakness with it. But a serious fight demands that he gets serious...**",
+            "desc": "Unleashes a set of weaponry made of pure water, dealing **Hydro DMG** to surrounding opponents and entering Melee Stance.\nIn this Stance, Tartaglia's Normal and Charged Attacks are converted to **Hydro DMG** that cannot be overridden by any other elemental infusion and change as follows:\n\n**Normal Attack**\nPerforms up to 6 consecutive **Hydro** strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash a cross slash, dealing **Hydro DMG**.\n\n**Riptide Slash**\nHitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals **AoE Hydro DMG**. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.\n\nAfter 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD.\nIf the return to a ranged stance occurs automatically after 30s, the CD is even longer.\n\n**He chose the bow as his weapon precisely to overcome his weakness with it. But a serious fight demands that he gets serious...**",
             "icon": "img/skill/Tartaglia_1.png",
             "talentTable": [
               {
@@ -23351,7 +24569,7 @@
         "talents": [
           {
             "name": "Normal Attack: Swiftshatter Spear",
-            "desc": "**Normal Attack**\nPerforms up to four consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Polearm.png",
             "talentTable": [
               {
@@ -23932,7 +25150,7 @@
         "talents": [
           {
             "name": "Normal Attack: Khanda Barrier-Buster",
-            "desc": "**Normal Attack**\nPerform up to 4 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, the power of Dendro will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off an arrow carrying the power of flora that deals **Dendro DMG**.\n·Charge Level 2: Fires off a Wreath Arrow that deals **Dendro DMG**. Upon hit, the Wreath Arrow will create 4 Clusterbloom Arrows that will track nearby opponents automatically and deal **Dendro DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive shots with a bow.\n\n**Charged Attack**\nPerforms a more precise **Aimed Shot** with increased DMG.\nWhile aiming, the power of Dendro will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off an arrow carrying the power of flora that deals **Dendro DMG**.\n·Charge Level 2: Fires off a Wreath Arrow that deals **Dendro DMG**. Upon hit, the Wreath Arrow will create 4 Clusterbloom Arrows that will track nearby opponents automatically and deal **Dendro DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Bow.png",
             "talentTable": [
               {
@@ -24157,7 +25375,7 @@
         ],
         "ult": {
           "name": "Fashioner's Tanglevine Shaft",
-          "desc": "Combines the power of all seeds to fire 6 Tanglevine Shafts that can track opponents and deal **Dendro DMG**.\nAfter they hit, the Tanglevine Shafts will create a secondary wave of Tanglevine Shafts that can also track opponents and deal **Dendro DMG** on hit.\n\n**\"Do not seek to escape so easily. The vines grow and regrow ever on. Things might get dicey if you don't clear every last one of them out.\"**",
+          "desc": "Combines the power of all seeds to fire 6 Tanglevine Shafts that can track opponents and deal **Dendro DMG**.\nAfter they hit, the Tanglevine Shafts will create a secondary wave of Tanglevine Shafts that can also track nearby opponents and deal **Dendro DMG** on hit.\n\n**\"Do not seek to escape so easily. The vines grow and regrow ever on. Things might get dicey if you don't clear every last one of them out.\"**",
           "icon": "img/skill/Tighnari_2.png",
           "talentTable": [
             {
@@ -24480,7 +25698,6 @@
     ],
     "meta": {
       "association": "MC",
-      "title": "",
       "detail": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
       "affiliation": "-",
       "element": "None",
@@ -24821,7 +26038,7 @@
           },
           {
             "name": "Second Wind",
-            "desc": "**Palm Vortex** kills regenerate 2% HP for 5s. This effect can only occur once every 5s.",
+            "desc": "**Palm Vortex** kills regenerate 2% HP for 5s.\nThis effect can only occur once every 5s.",
             "icon": "img/skill/Traveler_4.png",
             "minAscension": 4
           }
@@ -25517,7 +26734,7 @@
         "talents": [
           {
             "name": "Normal Attack: Foreign Fieldcleaver",
-            "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Sword.png",
             "talentTable": [
               {
@@ -25710,7 +26927,7 @@
         ],
         "ult": {
           "name": "Surgent Manifestation",
-          "desc": "Calling upon the might of the flora all around you, you create a Lea Lotus Lamp. This Lamp will deal continuous **Dendro DMG** to opponents within its AoE.\n\n**Lotuslight Transfiguration**\nThe Lea Lotus Lamp will undergo the following changes after it comes into contact with **Hydro**/**Electro**/**Pyro**:\n·**Hydro**: the Lamp's AoE and the AoE of its attacks are increased.\n·**Electro**: the Lamp's ATK SPD is increased.\n·**Pyro**: the Lamp will explode after a short delay and then disappear, dealing **AoE Dendro DMG**.\nThe Lea Lotus Lamp can only undergo one Lotuslight Transfiguration in its duration.\n\nOnly one Lamp created by the Traveler can exist at any one time.\n\n**You and Paimon studied the sounds of plants that sprout after the rain.**",
+          "desc": "Calling upon the might of the flora all around you, you create a Lea Lotus Lamp.\nThis Lamp will deal continuous **Dendro DMG** to opponents within its AoE.\n\n**Lotuslight Transfiguration**\nThe Lea Lotus Lamp will undergo the following changes after it comes into contact with **Hydro**/**Electro**/**Pyro**:\n·**Hydro**: the Lamp's AoE and the AoE of its attacks are increased.\n·**Electro**: the Lamp's ATK SPD is increased.\n·**Pyro**: the Lamp will explode after a short delay and then disappear, dealing **AoE Dendro DMG**.\nThe Lea Lotus Lamp can only undergo one Lotuslight Transfiguration in its duration.\n\nOnly one Lamp created by the Traveler can exist at any one time.\n\n**You and Paimon studied the sounds of plants that sprout after the rain.**",
           "icon": "img/skill/Traveler_2_3.png",
           "talentTable": [
             {
@@ -26052,7 +27269,7 @@
         "talents": [
           {
             "name": "Normal Attack: Divine Marksmanship",
-            "desc": "**Normal Attack**\nPerform up to 6 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal **Anemo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 6 consecutive shots with a bow.\n\n**Charged Attack**\nPerforms a more precise **Aimed Shot** with increased DMG.\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal **Anemo DMG**.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Bow.png",
             "talentTable": [
               {
@@ -27755,7 +28972,7 @@
         "talents": [
           {
             "name": "Normal Attack: Guhua Style",
-            "desc": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Sword.png",
             "talentTable": [
               {
@@ -28293,7 +29510,7 @@
         "talents": [
           {
             "name": "Normal Attack: Dance on Fire",
-            "desc": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Claymore.png",
             "talentTable": [
               {
@@ -29989,7 +31206,7 @@
         "talents": [
           {
             "name": "Normal Attack: Stealthy Bowshot",
-            "desc": "**Normal Attack**\nPerforms up to 4 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal **Hydro DMG**.\n\n**Breakthrough**\nYelan will enter a \"Breakthrough\" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a \"Breakthrough Barb\" that will deal **AoE Hydro DMG** based on Yelan's Max HP.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive shots with a bow.\n\n**Charged Attack**\nPerforms a more precise **Aimed Shot** with increased DMG.\nWhile aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal **Hydro DMG**.\n\n**Breakthrough**\nYelan will enter a \"Breakthrough\" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a \"Breakthrough Barb\" that will deal **AoE Hydro DMG** based on Yelan's Max HP.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Bow.png",
             "talentTable": [
               {
@@ -31120,7 +32337,7 @@
         "talents": [
           {
             "name": "Normal Attack: Cloud-Grazing Strike",
-            "desc": "**Normal Attack**\nPerforms up to five consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "desc": "**Normal Attack**\nPerforms up to 5 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "icon": "img/skill/Common_Polearm.png",
             "talentTable": [
               {

@@ -7988,6 +7988,131 @@
       }
     ]
   },
+  "Makhaira Aquamarine": {
+    "name": "Makhaira Aquamarine",
+    "desc": "An ancient greatsword that gleams like the waters themselves. A thousand years of sand erosion has not dulled its unnaturally sharp edge one bit.",
+    "weaponType": "Claymore",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "Elemental Mastery",
+        "init": 36,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Makhaira_Aquamarine.png",
+    "awakenIcon": "img/weapon_woke/Makhaira_Aquamarine.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Chaos Storage",
+        "EnemyDropTierA2": "Chaos Module",
+        "EnemyDropTierA3": "Chaos Bolt",
+        "EnemyDropTierB1": "Treasure Hoarder Insignia",
+        "EnemyDropTierB2": "Silver Raven Insignia",
+        "EnemyDropTierB3": "Golden Raven Insignia",
+        "WeaponAsc1": "Echo of Scorching Might",
+        "WeaponAsc2": "Remnant Glow of Scorching Might",
+        "WeaponAsc3": "Dream of Scorching Might",
+        "WeaponAsc4": "Olden Days of Scorching Might"
+      }
+    },
+    "lore": "Legend has it that a thousand years ago, in the era when the foolish king was buried beneath the dunes,\nMany short-lived city-states were scattered throughout the barren, boundless, gilded land.\nThis greatsword belongs to the dancer Makhaira, who was once the tyrant's concubine.\nWith her ruthless sword dance, she won the king's favor as well as the prince's attention.\n\nThe noble king of the decaying kingdom was obese and haughty, reveling in gourmet food, wine, and hunting all day and every day.\nNo different from any other kings of that decadent age, he indulged himself in endless conquest, destruction, and the hoarding of loot.\n\nWhen all things sank into the dark night, the water-colored moonlight soothed the manic kingdom, and everything there fell asleep,\nThe overweight tyrant could not bear the torpor and fell into a deep slumber amidst the misty voices of the Seelie, his snores echoing throughout his chambers like rolling thunder...\nThe enchanting concubine had already seen the signs of destruction, so she polished her sword and prepared for one final dance.\nThe young prince had already foreseen the signs of devastation, so he came to meet the distraught Makhaira at night.\n\n\"What comes from the searing sands will eventually be buried beneath them. Even if the desert is as cold as ice on long nights, its fiery fate shall never be forgotten.\"\n\"If this is your decision, then please do me a favor, and please allow me to contribute but a little something to this old country that has long since fallen.\"\n\"Just a little revenge shall remove the burden on both our hearts. The one addicted to hunting shall finally be executed by the falcon he spoils.\"\n\"My mother, a Jinni, taught me the seven-fold sword dance. If I win the throne for you, I shall no longer have to flatter others, and that will satisfy me.\"\n\nThe conspiracy to bring down the kingdom was thus drawn up on the bed-mattress, and the gentle words of the lovers were also sharp blades.\nThe tyrant thus returned to the land of searing sands in an ugly fashion, and the great cause of conquering kingdoms and harems finally vanished into thin air.\nThe rise and fall of the city-state were but a drunken dream, during which the kind and the evil alike were crushed by an immense millstone like wheat husks.\nThe concubine adept at her sword-dancing failed to become the queen in the end, and the wise old retainer who survived to tell the story too lost his eyes.\nThe displaced, thrown into the sea of sand by the whirlpool that consumed everything, became wanderers or mercenaries before being engulfed by the forest...",
+    "refinements": [
+      {
+        "name": "Desert Pavilion",
+        "desc": "The following effect will trigger every 10s: The equipping character will gain **24%** of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
+      },
+      {
+        "name": "Desert Pavilion",
+        "desc": "The following effect will trigger every 10s: The equipping character will gain **30%** of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
+      },
+      {
+        "name": "Desert Pavilion",
+        "desc": "The following effect will trigger every 10s: the equipping character will gain **36%** of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
+      },
+      {
+        "name": "Desert Pavilion",
+        "desc": "The following effect will trigger every 10s: The equipping character will gain **42%** of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
+      },
+      {
+        "name": "Desert Pavilion",
+        "desc": "The following effect will trigger every 10s: The equipping character will gain **48%** of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
+      }
+    ]
+  },
   "Mappa Mare": {
     "name": "Mappa Mare",
     "desc": "A nautical chart featuring nearby currents and climates that somehow found its way into Liyue via foreign traders.",
@@ -14148,6 +14273,131 @@
       {
         "name": "Reckless Cinnabar",
         "desc": "HP increased by **40%**. Additionally, provides an ATK Bonus based on **1.6%** of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional **1.8%** of Max HP."
+      }
+    ]
+  },
+  "Staff of the Scarlet Sands": {
+    "name": "Staff of the Scarlet Sands",
+    "desc": "One of a paired set of scepters fashioned from obsidian. Legend has it that these staves grant the right to lead the people of the desert, but no retainer now lives who can verify the proper appearance of these regalia.",
+    "weaponType": "Polearm",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 44.33580017089844,
+        "curve": "ATK 3.4"
+      },
+      {
+        "stat": "CRIT Rate",
+        "init": 0.09600000083446503,
+        "curve": "C3"
+      }
+    ],
+    "icon": "img/weapon/Staff_of_the_Scarlet_Sands.png",
+    "awakenIcon": "img/weapon_woke/Staff_of_the_Scarlet_Sands.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts5",
+      "mapping": {
+        "EnemyDropTierA1": "Chaos Storage",
+        "EnemyDropTierA2": "Chaos Module",
+        "EnemyDropTierA3": "Chaos Bolt",
+        "EnemyDropTierB1": "Fungal Spores",
+        "EnemyDropTierB2": "Luminescent Pollen",
+        "EnemyDropTierB3": "Crystalline Cyst Dust",
+        "WeaponAsc1": "Oasis Garden's Reminiscence",
+        "WeaponAsc2": "Oasis Garden's Kindness",
+        "WeaponAsc3": "Oasis Garden's Mourning",
+        "WeaponAsc4": "Oasis Garden's Truth"
+      }
+    },
+    "lore": "First, the sun and the moons were created, and thus day and night came to be. She once described the night sky adorned with three bright moons to me in a language I have now forgotten — yes, the number of moons should be three.\nMay the shadows of the world cast their pearly shimmer upon the earth when they awake, such that people can follow the silver-plated outline of the dunes at night to find their final fate.\n\nNext, weight was created. Thus sand sank, forming the earth. And that which was without weight became the sky. I stipulated that one should rely on the earth, but dream of the sky.\nThe weight should not be excessive, or the land will bind people's feet, impede those longing to travel far, and hinder expansion through exploration, while causing people to be unable to fly high, unable to explore the future.\n\nThen the seven sage monks were established again, and they ruled the trajectories drawn by the earth, water, and stars. Even if the celestial sphere was just an illusion, myths are often born when people look up at the stars and moons.\n\nIn the original world, the barriers were torn down, and the dark poison had penetrated the earth. To heal that fragile, sad, and imperfect world, the spikes descended and pierced through the earth's crust.\nHowever, the rules I have set are more elegant and precise, so there is no need and there should be no followers of hers who shall die meaninglessly on their account, and no poetry should be lost for their sake.\n\nNext, the beastly trail from the poison should be cut off, for taking poison is a sin running deeper than the sky. But how sweet the whispers can be, and how clear the wisdom of which they speak...\nThe wind arises in the new world. The pearly moonlight, the amber afterglow, the waves of grass, and the roots of the waters have gradually ceased to be silent, all singing the poems that she left behind.\n\n...\n\nThe cycle of seven must be removed, because the secret narrative will be blocked.\nFear and grief must be torn down, and so the barrier between life and death must be removed.\nRemove the sun, the moons, and weight, for there should be no barriers between time and space.\nRemove the original principles of rules, verdicts, and grace, so that she will no longer be afraid of the punishment that is laid on her kin.\nRemove birds, beasts, fish, dragons, humans, and seven monk-kings, so that none shall steal wisdom.\n\n...\n\n\"The Sand King sleeps alone in secret dreams, drawing up new theorems.\"\n\"None shall have to drink salt water in the King's realm, for everything in the new world shall be good.\"\n\n...\n\nThis is how perfection can be achieved. I can see the three of us debating in our paradise once more. We are so close.\nYes, this is splendid. I understand now. This is what I have always wanted. That which I have always longed to find once more has never been a paradise for the many.\nAll the parodies of the teachings and the seven wise monks, or that so-called pure world free of all sorrows, none of those things matter anymore...\n\nBut I do not wish that the poison ingested by mistake should remain in this world. Perhaps she might, in light of our old friendship...\n— Even if she will not do it for my sake, that is also fine. I only ask that she do me one last favor for the sake of our mutual friend...",
+    "refinements": [
+      {
+        "name": "Heat Haze at Horizon's End",
+        "desc": "The equipping character gains **52%** of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain **28%** of their Elemental Mastery as bonus ATK. Max 3 stacks."
+      },
+      {
+        "name": "Heat Haze at Horizon's End",
+        "desc": "The equipping character gains **65%** of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain **35%** of their Elemental Mastery as bonus ATK. Max 3 stacks."
+      },
+      {
+        "name": "Heat Haze at Horizon's End",
+        "desc": "The equipping character gains **78%** of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain **42%** of their Elemental Mastery as bonus ATK. Max 3 stacks."
+      },
+      {
+        "name": "Heat Haze at Horizon's End",
+        "desc": "The equipping character gains **91%** of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain **49%** of their Elemental Mastery as bonus ATK. Max 3 stacks."
+      },
+      {
+        "name": "Heat Haze at Horizon's End",
+        "desc": "The equipping character gains **104%** of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain **56%** of their Elemental Mastery as bonus ATK. Max 3 stacks."
       }
     ]
   },

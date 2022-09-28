@@ -192,16 +192,6 @@
       "Found in the wild"
     ]
   },
-  "Glabrous Beans": {
-    "name": "Glabrous Beans",
-    "desc": "A common legume in Teyvat with a light aroma. It can be prepared in a variety of variety of ways, and is thus widely accepted by people all over the world.",
-    "type": "Cooking Ingredient",
-    "category": "Teyvat's Resources",
-    "icon": "img/material/Glabrous_Beans.png",
-    "sources": [
-      "Sold at general goods shops in Sumeru"
-    ]
-  },
   "Seagrass": {
     "name": "Seagrass",
     "desc": "A plant that grows in shallow seas. It adds a unique flavor to dishes.",
@@ -277,6 +267,17 @@
     "sources": [
       "Found in the wild",
       "Recommendation: Found in Vanarana"
+    ]
+  },
+  "Ajilenakh Nut": {
+    "name": "Ajilenakh Nut",
+    "desc": "A fruit that grows on evergreen trees within desert oases. The flesh under the tough skin is thick, sweet, and delicious, making it an important food source amongst the desert peoples.",
+    "longDesc": "A fruit that grows on evergreen trees within desert oases. The flesh beneath the tough skin is thick, sweet, and delicious, making it an important food source amongst the desert peoples.\nTheir extremely high sugar content may be attributed to the special geographical conditions of the desert. They are delicious both on their own as dried fruit and as ingredients in various sweets. Ajilenakh Nuts are said to have a long history of cultivation. They are often mentioned in songs about the olden days. Legend has it that the candied Ajilenakh Nuts served as the first appetizer at the nightly banquets held by the Lord of the Blazing Sun.",
+    "type": "Cooking Ingredient",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Ajilenakh_Nut.png",
+    "sources": [
+      "Found in the desert oases of Sumeru"
     ]
   },
   "Wolfhook": {
@@ -600,20 +601,20 @@
     "name": "Rukkhashava Mushrooms",
     "desc": "A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest. Therefore, they are considered by the people of Sumeru to be the holy crystallization of Rukkhadevata's legacy.",
     "longDesc": "A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest. Therefore, they are considered by the people of Sumeru to be the holy crystallization of Rukkhadevata's legacy.\nIn Sumeru, those who dwell in the forest have a tradition of offering Rukkhashava Mushrooms to the Akademiya, but no one knows what these offerings are meant to be used for. Word has it that the Akademiya always performs a secret annual ritual at the Sanctuary of Surasthana, during which the sages will consume these mushrooms to commemorate Lord Rukkhadevata's sacrifice.",
-    "type": "Sumeru Regional Specialty",
+    "type": "Local Specialty (Sumeru)",
     "category": "Teyvat's Resources",
     "icon": "img/material/Rukkhashava_Mushrooms.png",
     "sources": [
       "Found in the wild",
       "Recommendation: Found in the Ashavan Realm",
-      "Recommendation: Found in the Avidya Forest"
+      "Recommendation: Found in Lokapala Jungle"
     ]
   },
   "Padisarah": {
     "name": "Padisarah",
     "desc": "A holy and noble plant. The conditions for growth in its environment are very demanding. The flower buds can be processed to make valuable spices.",
     "longDesc": "A holy and noble plant. The conditions for growth in its environment are very demanding. The flower buds can be processed to make valuable spices.\nThe Padisarah is said to derive its name from a certain ancient deity. It is said that in those times long past, there were three gods who had struck up excellent relations with one another. In those days, there was once a great plain covered in lovely flowers that people would gather up and use as incense to offer up to their gods.\nThose flowers are no longer extant, but the Padisarah is a cultivar that was brought back to the land via the use of the Anahitian Blessing.",
-    "type": "Sumeru Regional Specialty",
+    "type": "Local Specialty (Sumeru)",
     "category": "Teyvat's Resources",
     "icon": "img/material/Padisarah.png",
     "sources": [
@@ -624,7 +625,7 @@
     "name": "Nilotpala Lotus",
     "desc": "Growing in the forest wetlands, these plants only bloom at night with flowers as bright as the moon.",
     "longDesc": "Growing in the forest wetlands, these plants only bloom at night with flowers as bright as the moon.\nIn the oldest folk tales of this land, the great chariot of the moon goddess once shone with a light that matched the sun. At this time, all things in the world were at peace. But the arrows that tore the skies apart would shatter the gems that adorned the most ethereal of vehicles, and the people would behold the visage of the sovereign of the moonlit nights no longer. The many flowers would turn and serve a new master, but the Nilotpala Lotuses would bathe in the cool moonlight and continue to remember the glad songs of that afore-time.",
-    "type": "Sumeru Regional Specialty",
+    "type": "Local Specialty (Sumeru)",
     "category": "Teyvat's Resources",
     "icon": "img/material/Nilotpala_Lotus.png",
     "sources": [
@@ -635,11 +636,162 @@
     "name": "Kalpalata Lotus",
     "desc": "Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
     "longDesc": "Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.\nVines grow along cliffs everywhere in Sumeru, as timeless as time itself. It is said that these vines were the first thing that Lord Rukkhadevata ever created, making them the progenitors of every plant in Sumeru. All the great plants of the land, even the undying Divine Tree, are connected at the roots through the entanglement of these vines. Of course, this saying has long been refuted by Amurta researchers, but still, it persists amongst the people.",
-    "type": "Sumeru Regional Specialty",
+    "type": "Local Specialty (Sumeru)",
     "category": "Teyvat's Resources",
     "icon": "img/material/Kalpalata_Lotus.png",
     "sources": [
       "Found in the mountains of Sumeru"
+    ]
+  },
+  "Redcrest": {
+    "name": "Redcrest",
+    "desc": "A fruit that grows even in the most hostile of desert environments. Its vibrant crimson fruits are made even more lovely against a backdrop of yellow sand.",
+    "longDesc": "A fruit that grows even in the most hostile of desert environments. Its vibrant crimson fruits are made even more lovely against a backdrop of yellow sand.\nThanks to its extremely bright color, after a simple treatment, it can be made into a pigment. An important part of the desert people's lives, it is said to have been used as a dye for the fiery banner of The Eremites. The red fabric follows them in all their travels. No matter where you are, whenever you see these fluttering textiles, you can almost feel the hot wind of their homeland on your skin.",
+    "type": "Local Specialty (Sumeru)",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Redcrest.png",
+    "sources": [
+      "Found in the deserts of Sumeru"
+    ]
+  },
+  "Scarab": {
+    "name": "Scarab",
+    "desc": "A tenacious beetle that finds repose within the vast ocean of desert sand. The golden pattern on such beetles' shells hints at some deep relationship between them and the ancient ruins that dot the desert.",
+    "longDesc": "A hardy beetle that dwells in the vast desert. Its shell has patterns on it that resemble those that dot the ancient desert ruins, hinting at some deeper relation between the two.\nLegend has it that when the desert king ruled this land, the souls of those vanquished by him would be sealed within these insects by the magically-skilled priests at great triumphs held in the City of the Pillars. The scarabs would then be charged with defending the sacred temples and palaces for all eternity in the name of Al-Ahmar. In the end, the temples would collapse and the palaces would fall, and only these golden insects would remain, fulfilling their ancient, forgotten oaths.",
+    "type": "Local Specialty (Sumeru)",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Scarab.png",
+    "sources": [
+      "Found in the desert ruins of Sumeru"
+    ]
+  },
+  "Northlander Sword Billet": {
+    "name": "Northlander Sword Billet",
+    "desc": "Weapon forging material. Can be used to forge 4-star swords. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
+    "stars": 4,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Northlander_Sword_Billet.png",
+    "sources": [
+      "Reward for completing Trounce Domain Challenge in Mondstadt, Liyue, or Inazuma, or the Dominator of Wolves Challenge"
+    ]
+  },
+  "Northlander Bow Billet": {
+    "name": "Northlander Bow Billet",
+    "desc": "Weapon forging material. Can be used to forge 4-star bows. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
+    "stars": 4,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Northlander_Bow_Billet.png",
+    "sources": [
+      "Reward for completing Trounce Domain Challenge in Mondstadt, Liyue, or Inazuma, or the Dominator of Wolves Challenge"
+    ]
+  },
+  "Northlander Claymore Billet": {
+    "name": "Northlander Claymore Billet",
+    "desc": "Weapon forging material. Can be used to forge 4-star claymores. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
+    "stars": 4,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Northlander_Claymore_Billet.png",
+    "sources": [
+      "Reward for completing Trounce Domain Challenge in Mondstadt, Liyue, or Inazuma, or the Dominator of Wolves Challenge"
+    ]
+  },
+  "Northlander Catalyst Billet": {
+    "name": "Northlander Catalyst Billet",
+    "desc": "Weapon forging material. Can be used to forge 4-star catalysts. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
+    "stars": 4,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Northlander_Catalyst_Billet.png",
+    "sources": [
+      "Reward for completing Trounce Domain Challenge in Mondstadt, Liyue, or Inazuma, or the Dominator of Wolves Challenge"
+    ]
+  },
+  "Northlander Polearm Billet": {
+    "name": "Northlander Polearm Billet",
+    "desc": "Weapon forging material. Can be used to forge 4-star polearms. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
+    "stars": 4,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Northlander_Polearm_Billet.png",
+    "sources": [
+      "Reward for completing Trounce Domain Challenge in Mondstadt, Liyue, or Inazuma, or the Dominator of Wolves Challenge"
+    ]
+  },
+  "Birch Wood": {
+    "name": "Birch Wood",
+    "desc": "Timber obtained from birches. It is easy to work with and produces smooth cuts. Furniture made using such wood is both beautiful and durable.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Birch_Wood.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Windwail Highland"
+    ]
+  },
+  "Cuihua Wood": {
+    "name": "Cuihua Wood",
+    "desc": "Timber obtained from Cuihua Trees. With its lovely color and unique make, it will surely be able to take on myriad uses upon undergoing suitable workmanship.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Cuihua_Wood.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Starfell Valley",
+      "Recommendation: Cut from Bishui Plain"
+    ]
+  },
+  "Pine Wood": {
+    "name": "Pine Wood",
+    "desc": "Timber obtained from pines. Its color and grain are nothing to write home about, but its unpretentious nature is elegant in its own right. The wood is very sturdy as well. In able hands, its products should be able to resist moth and rot alike.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Pine_Wood.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Dragonspine"
+    ]
+  },
+  "Sandbearer Wood": {
+    "name": "Sandbearer Wood",
+    "desc": "Timber from the Sandbearer Tree. Said to be an exceptionally hardy plant resistant to wind and rain with a long lifespan.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Sandbearer_Wood.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Minlin",
+      "Recommendation: Cut from Lisha"
+    ]
+  },
+  "Bamboo Segment": {
+    "name": "Bamboo Segment",
+    "desc": "Segments of bamboo that are light and far stronger than their humble appearance might suggest. It lets off a light fragrance.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Bamboo_Segment.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Bishui Plain"
+    ]
+  },
+  "Fragrant Cedar Wood": {
+    "name": "Fragrant Cedar Wood",
+    "desc": "Wood from the Cedar tree. Also known as the \"Fragrant Cedar\" for the aromatic oils it contains.\nCan be used to create furnishings.",
+    "stars": 1,
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Fragrant_Cedar_Wood.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Cut from Starfell Valley"
     ]
   },
   "Fir Wood": {
@@ -701,135 +853,6 @@
     "sources": [
       "Found in the wild",
       "Recommendation: Cut from Yashiori Island"
-    ]
-  },
-  "Fragrant Cedar Wood": {
-    "name": "Fragrant Cedar Wood",
-    "desc": "Wood from the Cedar tree. Also known as the \"Fragrant Cedar\" for the aromatic oils it contains.\nCan be used to create furnishings.",
-    "stars": 1,
-    "type": "Material",
-    "category": "Teyvat's Resources",
-    "icon": "img/material/Fragrant_Cedar_Wood.png",
-    "sources": [
-      "Found in the wild",
-      "Recommendation: Cut from Starfell Valley"
-    ]
-  },
-  "Bamboo Segment": {
-    "name": "Bamboo Segment",
-    "desc": "Segments of bamboo that are light and far stronger than their humble appearance might suggest. It lets off a light fragrance.\nCan be used to create furnishings.",
-    "stars": 1,
-    "type": "Material",
-    "category": "Teyvat's Resources",
-    "icon": "img/material/Bamboo_Segment.png",
-    "sources": [
-      "Found in the wild",
-      "Recommendation: Cut from Bishui Plain"
-    ]
-  },
-  "Sandbearer Wood": {
-    "name": "Sandbearer Wood",
-    "desc": "Timber from the Sandbearer Tree. Said to be an exceptionally hardy plant resistant to wind and rain with a long lifespan.\nCan be used to create furnishings.",
-    "stars": 1,
-    "type": "Material",
-    "category": "Teyvat's Resources",
-    "icon": "img/material/Sandbearer_Wood.png",
-    "sources": [
-      "Found in the wild",
-      "Recommendation: Cut from Minlin",
-      "Recommendation: Cut from Lisha"
-    ]
-  },
-  "Pine Wood": {
-    "name": "Pine Wood",
-    "desc": "Timber obtained from pines. Its color and grain are nothing to write home about, but its unpretentious nature is elegant in its own right. The wood is very sturdy as well. In able hands, its products should be able to resist moth and rot alike.\nCan be used to create furnishings.",
-    "stars": 1,
-    "type": "Material",
-    "category": "Teyvat's Resources",
-    "icon": "img/material/Pine_Wood.png",
-    "sources": [
-      "Found in the wild",
-      "Recommendation: Cut from Dragonspine"
-    ]
-  },
-  "Cuihua Wood": {
-    "name": "Cuihua Wood",
-    "desc": "Timber obtained from Cuihua Trees. With its lovely color and unique make, it will surely be able to take on myriad uses upon undergoing suitable workmanship.\nCan be used to create furnishings.",
-    "stars": 1,
-    "type": "Material",
-    "category": "Teyvat's Resources",
-    "icon": "img/material/Cuihua_Wood.png",
-    "sources": [
-      "Found in the wild",
-      "Recommendation: Cut from Starfell Valley",
-      "Recommendation: Cut from Bishui Plain"
-    ]
-  },
-  "Birch Wood": {
-    "name": "Birch Wood",
-    "desc": "Timber obtained from birches. It is easy to work with and produces smooth cuts. Furniture made using such wood is both beautiful and durable.\nCan be used to create furnishings.",
-    "stars": 1,
-    "type": "Material",
-    "category": "Teyvat's Resources",
-    "icon": "img/material/Birch_Wood.png",
-    "sources": [
-      "Found in the wild",
-      "Recommendation: Cut from Windwail Highland"
-    ]
-  },
-  "Northlander Sword Billet": {
-    "name": "Northlander Sword Billet",
-    "desc": "Weapon forging material. Can be used to forge 4-star swords. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
-    "stars": 4,
-    "type": "Material",
-    "category": "Teyvat's Resources",
-    "icon": "img/material/Northlander_Sword_Billet.png",
-    "sources": [
-      "Reward for completing Trounce Domain Challenge in Mondstadt, Liyue, or Inazuma, or the Dominator of Wolves Challenge"
-    ]
-  },
-  "Northlander Bow Billet": {
-    "name": "Northlander Bow Billet",
-    "desc": "Weapon forging material. Can be used to forge 4-star bows. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
-    "stars": 4,
-    "type": "Material",
-    "category": "Teyvat's Resources",
-    "icon": "img/material/Northlander_Bow_Billet.png",
-    "sources": [
-      "Reward for completing Trounce Domain Challenge in Mondstadt, Liyue, or Inazuma, or the Dominator of Wolves Challenge"
-    ]
-  },
-  "Northlander Claymore Billet": {
-    "name": "Northlander Claymore Billet",
-    "desc": "Weapon forging material. Can be used to forge 4-star claymores. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
-    "stars": 4,
-    "type": "Material",
-    "category": "Teyvat's Resources",
-    "icon": "img/material/Northlander_Claymore_Billet.png",
-    "sources": [
-      "Reward for completing Trounce Domain Challenge in Mondstadt, Liyue, or Inazuma, or the Dominator of Wolves Challenge"
-    ]
-  },
-  "Northlander Catalyst Billet": {
-    "name": "Northlander Catalyst Billet",
-    "desc": "Weapon forging material. Can be used to forge 4-star catalysts. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
-    "stars": 4,
-    "type": "Material",
-    "category": "Teyvat's Resources",
-    "icon": "img/material/Northlander_Catalyst_Billet.png",
-    "sources": [
-      "Reward for completing Trounce Domain Challenge in Mondstadt, Liyue, or Inazuma, or the Dominator of Wolves Challenge"
-    ]
-  },
-  "Northlander Polearm Billet": {
-    "name": "Northlander Polearm Billet",
-    "desc": "Weapon forging material. Can be used to forge 4-star polearms. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
-    "stars": 4,
-    "type": "Material",
-    "category": "Teyvat's Resources",
-    "icon": "img/material/Northlander_Polearm_Billet.png",
-    "sources": [
-      "Reward for completing Trounce Domain Challenge in Mondstadt, Liyue, or Inazuma, or the Dominator of Wolves Challenge"
     ]
   },
   "Fruit Paste Bait": {
@@ -1827,6 +1850,38 @@
       "recipe": "Butter Chicken"
     },
     "effect": "Increases all party members' ATK by 274 for 300s. In Co-op Mode, this effect only applies to your own character(s)."
+  },
+  "Duel Soul": {
+    "name": "Duel Soul",
+    "desc": "Cyno's specialty. The golden grains of rice have been piled up like a most remarkable hill. As you scoop out a chunk and place the fragrant meat into your mouth, an impulse you cannot name rises within your chest — a desire to whip out your Genius Invokation deck and duel!",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Duel_Soul.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Cyno",
+      "recipe": "Tahchin"
+    },
+    "effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s."
+  },
+  "Utmost Care": {
+    "name": "Utmost Care",
+    "desc": "Candace's specialty. The aroma of this dish hits your nose long before it can be plated up. It would seem that Candace's adept guardianship also extends to sustaining appetites... But, uh, this really is an extraordinary amount of Aaru Mixed Rice. How are you supposed to deal with this mountain of \"overflowing consideration\"?",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Utmost_Care.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Candace",
+      "recipe": "Aaru Mixed Rice"
+    },
+    "effect": "Restores 80 Stamina."
   },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
@@ -5436,6 +5491,172 @@
       "Delicious Fish With Cream Sauce": "Restores 22% of Max HP to the selected character and regenerates 470 HP every 5s for 30s."
     }
   },
+  "Coconut Charcoal Cake": {
+    "name": "Coconut Charcoal Cake",
+    "desc": "A dark-colored pastry. The pastry is fine, almost lustrous, and the fragrance of the Ajilenakh Nuts is both vivid and full of warmth. The cake is fluffy and delicate as it enters your mouth, exorcising exhaustion and muzzling misery. Ah, just as a book may not be judged by its cover, so too should a cake not be convicted by its crust.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Coconut_Charcoal_Cake.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Ajilenakh Nut"
+      },
+      {
+        "count": 1,
+        "name": "Flour"
+      },
+      {
+        "count": 1,
+        "name": "Jam"
+      }
+    ],
+    "effect": {
+      "Suspicious Coconut Charcoal Cake": "Revives a character and restores 900 HP.",
+      "Coconut Charcoal Cake": "Revives a character and restores 1,200 HP.",
+      "Delicious Coconut Charcoal Cake": "Revives a character and restores 1,500 HP."
+    }
+  },
+  "Baklava": {
+    "name": "Baklava",
+    "desc": "A traditional Sumeru dessert. A certain researcher once said that the people of Sumeru can be split into two categories. Those who eat desserts to live, and those who live to eat desserts. The thin puff pastry layers of this dish, and the bone-piercing aroma of butter and honey, may yet consign all who taste it into the second camp.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Baklava.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Ajilenakh Nut"
+      },
+      {
+        "count": 2,
+        "name": "Butter"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
+    ],
+    "effect": {
+      "Suspicious Baklava": "Increases all party members' CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Baklava": "Increases all party members' CRIT Rate by 15% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Baklava": "Increases all party members' CRIT Rate by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Candied Ajilenakh Nut": {
+    "name": "Candied Ajilenakh Nut",
+    "desc": "A rich dessert. The syrup itself melts upon contact with your mouth, revealing the nut like a gem swathed in velvet, layer leading on to layer of joy. One small bite, and it is as if you are soaked in a tub of silken sweetness. Why, you really, really must make a few pieces more next time!",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Candied_Ajilenakh_Nut.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Ajilenakh Nut"
+      },
+      {
+        "count": 2,
+        "name": "Almond"
+      },
+      {
+        "count": 2,
+        "name": "Butter"
+      },
+      {
+        "count": 1,
+        "name": "Sumeru Rose"
+      }
+    ],
+    "effect": {
+      "Suspicious Candied Ajilenakh Nut": "Increases all party members' DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Candied Ajilenakh Nut": "Increases all party members' DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Candied Ajilenakh Nut": "Increases all party members' DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Padisarah Pudding": {
+    "name": "Padisarah Pudding",
+    "desc": "A popular dessert in Sumeru. The moment it enters your mouth, the springy mouthfeel makes you feel like you're wandering atop milk-flavored clouds. As you savor its flavors, the blended fragrance of Padisarah and Sumeru Rose fills the air. When you finally do reach that very last bite, it feels like something has been left unfinished. You cannot help but lick the back of your spoon, as if to savor the final sublime moments of enjoyment.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Padisarah_Pudding.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Padisarah"
+      },
+      {
+        "count": 1,
+        "name": "Sumeru Rose"
+      },
+      {
+        "count": 1,
+        "name": "Milk"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
+    ],
+    "effect": {
+      "Suspicious Padisarah Pudding": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Padisarah Pudding": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Padisarah Pudding": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Aaru Mixed Rice": {
+    "name": "Aaru Mixed Rice",
+    "desc": "A large serving of filling staple food. Each grain of rice is distinct and evenly coated in flavorful sauce as you spoon them into your mouth. No oily meats were used to make this dish, and yet its flavor is more alluring still. This dish stacks flavor like the endless dunes themselves, bringing a most unique satisfaction.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Aaru_Mixed_Rice.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Rice"
+      },
+      {
+        "count": 2,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Glabrous Beans"
+      },
+      {
+        "count": 2,
+        "name": "Tomato"
+      }
+    ],
+    "effect": {
+      "Suspicious Aaru Mixed Rice": "Restores 40 Stamina.",
+      "Aaru Mixed Rice": "Restores 50 Stamina.",
+      "Delicious Aaru Mixed Rice": "Restores 60 Stamina."
+    }
+  },
   "Rice Pudding": {
     "name": "Rice Pudding",
     "desc": "A dessert made from rice. The soft, sticky rice and the sweet milk have melded together perfectly, their tastes complementing each other. If you eat it hot, you can enjoy the dense rice grains, and if you leave it till it's cold, you can savor the gentle fragrance of milk — each possessing its own beauty. People who eat such a dish cannot help but wonder: how many experiments led up to this moment?",
@@ -5967,6 +6188,16 @@
       "Sold at general goods shops in Liyue",
       "Sold at general goods shops in Inazuma",
       "Sold at general goods shops in Sumeru"
+    ]
+  },
+  "Glabrous Beans": {
+    "name": "Glabrous Beans",
+    "desc": "A common legume in Teyvat with a light aroma. It can be prepared in a variety of ways, and is thus widely accepted by people all over the world.",
+    "type": "Cooking Ingredient",
+    "category": "Food and Potions",
+    "icon": "img/material/Glabrous_Beans.png",
+    "sources": [
+      "Sold at restaurants in Sumeru"
     ]
   },
   "Flour": {
@@ -6715,6 +6946,28 @@
     "icon": "img/material/Thunderclap_Fruitcore.png",
     "sources": [
       "Dropped by Lv. 30+ Electro Regisvines"
+    ]
+  },
+  "Perpetual Caliber": {
+    "name": "Perpetual Caliber",
+    "desc": "A motive device obtained from a mysterious ruin machine.\nThe machine it once powered may have been destroyed, but it continues to rotate all the same.\nThere should be no such thing as an energy source that can sustain itself forever in this world, and most research results obtained in the field of \"perpetual motion\" have been eventually proved false. Yet, this device is proof that a now-destroyed civilization once reached heights that present-day nations could not hope to match...",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Perpetual_Caliber.png",
+    "sources": [
+      "Dropped by Lv. 30+ Aeonblight Drakes"
+    ]
+  },
+  "Light Guiding Tetrahedron": {
+    "name": "Light Guiding Tetrahedron",
+    "desc": "A core component obtained via defeating a mysterious ruin machine.\nTo this day, these ancient devices have not forgotten the dreams of their masters or their own duties: to build a thousand palaces, to administrate three thousand machines, to sow ten thousand flowers that shall never bloom again, and to recreate a paradise now buried beneath the desert sands for the sake of all who live in this world.\nThough the lord of the desert no longer lives, and those dreams have long been corrupted by sinful whispers, and though all the magical pillars have been broken and have collapsed, the great beast once favored by the king hides still within the great searing storm.",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Light_Guiding_Tetrahedron.png",
+    "sources": [
+      "Dropped by Lv. 30+ Semi-Intransient Matrices"
     ]
   },
   "Brilliant Diamond Sliver": {
@@ -8584,6 +8837,43 @@
       "Dropped by Lv. 60+ Ruin Drakes"
     ]
   },
+  "Damaged Prism": {
+    "name": "Damaged Prism",
+    "desc": "A damaged component obtained from defeating a Primal Construct.\nThese uniquely-shaped machines are the eternal sentinels of the desert ruins, and they possess the power to pierce the mountains and reshape rocks. The same principles that power many mysterious devices above and beneath the earth also power these machines.",
+    "stars": 2,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Damaged_Prism.png",
+    "sources": [
+      "Dropped by Primal Constructs",
+      "Stardust Exchange"
+    ]
+  },
+  "Turbid Prism": {
+    "name": "Turbid Prism",
+    "desc": "An old component obtained from defeating a Primal Construct.\nIt is said that these machines are different from those ruin machines that come from deep within the desert, for they were not made as heralds of destruction or conquest.",
+    "stars": 3,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Turbid_Prism.png",
+    "sources": [
+      "Crafted",
+      "Dropped by Lv. 40+ Primal Constructs",
+      "Stardust Exchange"
+    ]
+  },
+  "Radiant Prism": {
+    "name": "Radiant Prism",
+    "desc": "An exquisite component obtained from defeating a Primal Construct.\nThe lord of the barren desert once had a dream, and once made a great many promises.\nThe legends of the desert say that these machines were originally vehicles for these unknown promises, which now live on only within their mechanical memory banks.",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Radiant_Prism.png",
+    "sources": [
+      "Crafted",
+      "Dropped by Lv. 60+ Primal Constructs"
+    ]
+  },
   "Tainted Blood": {
     "name": "Tainted Blood",
     "desc": "Substance acquired from defeating Dvalin.\nA crystal imbued with the winds of antiquity as well as another occult power from within the great dragon's body.\n\nThe mighty dragon was once a captive of a cage of toxicity, woven of three poisons:\nThe foul blood he once ingested, the lies whispered from the Abyss, and the anguish of abandonment.\nThrough tears shed and songs sung, the unholy spikes that had grown on Dvalin's body were smashed to pieces, and the web that had ensnared him was torn away...\nPerhaps these feats were achievable only by a free-spirited traveler from a far-away land.",
@@ -9443,5 +9733,21 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "img/material/Vintage_Lyre.png"
+  },
+  "Scarlet Sand Slate": {
+    "name": "Scarlet Sand Slate",
+    "desc": "This object has long been the subject of Akademiya Researcher Tirzad's research. Its etchings and craftsmanship indicate that it is a relic of King Deshret's civilization. It seems to have the power to command devices within ruins associated with King Deshret...",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Scarlet_Sand_Slate.png"
+  },
+  "Cloud Retainer's Damasked Device": {
+    "name": "Cloud Retainer's Damasked Device",
+    "desc": "Made from stacked paper, this lightweight device has the appearance of a bird, and fittingly, was given to you by Cloud Retainer.\nWhile it may be called a \"device,\" you cannot see any traditional mechanical components here — well, not from the outside, anyway.\nIt seems that this adeptus' skills as a mechanist have improved even further...",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Cloud_Retainers_Damasked_Device.png"
   }
 }
