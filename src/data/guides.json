@@ -268,11 +268,29 @@
       },
       {
         "name": "Kalpalata Lotus route",
-        "desc": "**Kalpalata Lotus ${Kalpalata Lotus}** can found in the mountains of Sumeru and are being sold by [**Aramani**](https://cdn.discordapp.com/attachments/1015767194447130644/1016714232861040680/Aramani.png) (up to 5 per 3 days)..\n\n> Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
+        "desc": "**Kalpalata Lotus ${Kalpalata Lotus}** can found in the mountains of Sumeru and are being sold by [**Aramani**](https://cdn.discordapp.com/attachments/1015767194447130644/1016714232861040680/Aramani.png) (up to 5 per 3 days).\n\n> Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
         "img": "https://cdn.discordapp.com/attachments/1016421596057051350/1018206323642482688/KalpalataLotus.png",
         "credits": "Soul",
         "links": {
           "material": ["Kalpalata Lotus"]
+        }
+      },
+      {
+        "name": "Redcrest route",
+        "desc": "**Redcrest ${Redcrest}** can found in the Great Red Sand of Sumeru.\n\n> A fruit that grows even in the most hostile of desert environments. It's vibrant crimson fruits are made even more lovely against a backdrop of yellow sand.",
+        "img": "https://cdn.discordapp.com/attachments/1024787131836682240/1024787291576750240/Redcrests.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Redcrest"]
+        }
+      },
+      {
+        "name": "Scarab route",
+        "desc": "**Scarab ${Scarab}** can found in the Great Red Sand of Sumeru.\n\n> A tenacious beetle that finds repose within the vast ocean of desert sand. The golden pattern on such beetles' shells hints at some deep relationship between them and the ancient ruins that dot the desert.",
+        "img": "https://cdn.discordapp.com/attachments/1024787078254444644/1024787114061205584/Scarabsv1.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Scarab"]
         }
       }
     ]
