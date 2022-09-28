@@ -1822,6 +1822,15 @@
         "reminder": "end"
     },
     {
+        "name": "\"Canvas of Starlight Memories\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/9406156",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/09/27/4ba48a3367db3d876393212c44dd1afb_5941182785504188086.png",
+        "start": "2022-09-28 12:00:00",
+        "end": "2022-10-12 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "3.2 Maintenance",
         "type": "Maintenance",
         "start": "2022-11-02 06:00:00",
