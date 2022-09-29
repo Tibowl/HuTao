@@ -1831,6 +1831,15 @@
         "reminder": "end"
     },
     {
+        "name": "\"A Walk Through the Woods\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/9474002",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/09/29/60b633d621c1942070be3347ccf65092_8135203242130509230.jpg",
+        "start": "2022-09-29 12:00:00",
+        "end": "2022-10-07 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "3.2 Maintenance",
         "type": "Maintenance",
         "start": "2022-11-02 06:00:00",
