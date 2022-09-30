@@ -2777,5 +2777,128 @@
         ]
       }
     ]
+  },
+  "48": {
+    "teams": 2,
+    "leyline": "All characters in the party gain a 75% Electro DMG Bonus.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 88,
+        "conds": "More than 20/40/60% HP left",
+        "monsters": [
+          [
+            "Grounded Geoshroom",
+            "Grounded Hydroshroom",
+            "Winged Cryoshroom",
+            "Floating Dendro Fungus",
+            "Floating Anemo Fungus",
+            "Stretchy Electro Fungus",
+            "Whirling Pyro Fungus",
+            "Whirling Cryo Fungus",
+            "Stretchy Anemo Fungus"
+          ],
+          [
+            "Eremite Stone Enchanter",
+            "Primal Construct: Prospector",
+            "Primal Construct: Repulsor"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 90,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Fatui Skirmisher - Pyroslinger Bracer",
+            "Eremite Desert Clearwater",
+            "Eremite Crossbow"
+          ],
+          [
+            "Mirror Maiden",
+            "Fatui Skirmisher - Hydrogunner Legionnaire",
+            "Fatui Skirmisher - Anemoboxer Vanguard",
+            "Eremite Daythunder",
+            "Eremite Crossbow"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 92,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Eremite Desert Clearwater",
+            "Kairagi: Dancing Thunder",
+            "Kairagi: Fiery Might",
+            "Eremite Crossbow",
+            "Nobushi: Hitsukeban",
+            "Nobushi: Kikouban"
+          ],
+          [
+            "Jadeplume Terrorshroom"
+          ]
+        ]
+      }
+    ]
+  },
+  "49": {
+    "teams": 2,
+    "leyline": "For this floor only, the ley line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 95,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Eremite Desert Clearwater",
+            "Kairagi: Dancing Thunder",
+            "Kairagi: Fiery Might",
+            "Eremite Axe Vanguard",
+            "Eremite Ravenbeak Halberdier",
+            "Eremite Linebreaker",
+            "Eremite Sword-Dancer"
+          ],
+          [
+            "Eremite Stone Enchanter",
+            "Eremite Galehunter",
+            "Primal Construct: Repulsor",
+            "Primal Construct: Reshaper",
+            "Primal Construct: Prospector"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 98,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Ruin Drake: Earthguard",
+            "Ruin Destroyer",
+            "Ruin Scout"
+          ],
+          [
+            "Maguu Kenki"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 100,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Primordial Bathysmal Vishap Hatchling"
+          ],
+          [
+            "Algorithm of Semi-Intransient Matrix of Overseer Network"
+          ]
+        ]
+      }
+    ]
   }
 }

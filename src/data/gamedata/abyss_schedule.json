@@ -1076,5 +1076,71 @@
       46,
       47
     ]
+  },
+  "49": {
+    "start": "2022-10-01 04:00:00",
+    "end": "2022-10-16 03:59:59",
+    "buff": "Pruning Moon",
+    "buffDesc": "After a character triggers Bloom, Hyperbloom, or Burgeon, all party members will have their Elemental Mastery increased by 40 for 10s. This effect can be triggered once every 0.1s. Max 5 stacks. Each stack's duration is counted independently.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      44,
+      45,
+      48,
+      49
+    ]
+  },
+  "50": {
+    "start": "2022-10-16 04:00:00",
+    "end": "2022-11-01 03:59:59",
+    "buff": "Ascending Moon",
+    "buffDesc": "After opponents take DMG from Dendro Cores (this includes Burgeon and Hyperbloom DMG), their All Elemental and Physical RES will decrease by 8% for 6s. Max 4 stacks.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      44,
+      45,
+      48,
+      49
+    ]
+  },
+  "51": {
+    "start": "2022-11-01 04:00:00",
+    "end": "2022-11-16 03:59:59",
+    "buff": "Rupturing Moon",
+    "buffDesc": "When Dendro Core attacks (this includes Burgeon and Hyperbloom attacks) hit an opponent, a shockwave will be unleashed at that opponent's position, dealing True DMG. A shockwave can be unleashed this way every 2s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      44,
+      45,
+      48,
+      49
+    ]
   }
 }
