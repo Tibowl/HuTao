@@ -1791,7 +1791,10 @@
     {
         "name": "\"Hyakunin Ikki\" Event",
         "type": "In-game",
-        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020312513969135616/unknown.png",
+        "link": "https://www.hoyolab.com/article/11665816",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/07/bdaed88b27a3a0084092542d030b89d2_8152117643590176436.jpg",
+        "start": "2022-10-10 10:00:00",
+        "end": "2022-10-24 03:59:59",
         "reminder": "end"
     },
     {
@@ -1837,6 +1840,15 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2022/09/29/60b633d621c1942070be3347ccf65092_8135203242130509230.jpg",
         "start": "2022-09-29 12:00:00",
         "end": "2022-10-07 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Dance of Gratitude\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/11665813",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/07/1e3fd23946c77b26f6a9949d063d8908_104125988155319023.jpg",
+        "start": "2022-10-08 12:00:00",
+        "end": "2022-10-13 23:59:00",
         "reminder": "end"
     },
     {
