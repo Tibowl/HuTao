@@ -127,9 +127,18 @@
         }
       },
       {
-        "name": "Qingxin route",
+        "name": "Qingxin route: Main Liyue",
         "desc": "**Qingxins ${Qingxin}** can be found in the heights of stone forests in Liyue and are being sold by [**Herbalist Gui**](https://cdn.discordapp.com/attachments/926215001088352276/926586479600341032/Herbalist_Gui.png) (up to 10 per 3 days).\n\n> A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
         "img": "https://cdn.discordapp.com/attachments/926215001088352276/926215049285107792/ganyunom.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Qingxin"]
+        }
+      },
+      {
+        "name": "Qingxin route: The Chasm",
+        "desc": "**Qingxins ${Qingxin}** can be found in the heights of stone forests in Liyue and are being sold by [**Herbalist Gui**](https://cdn.discordapp.com/attachments/926215001088352276/926586479600341032/Herbalist_Gui.png) (up to 10 per 3 days).\n\n> A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
+        "img": "https://cdn.discordapp.com/attachments/926215001088352276/1028071268383199242/unknown.png",
         "credits": "Soul",
         "links": {
           "material": ["Qingxin"]
@@ -332,6 +341,15 @@
         "credits": "Soul",
         "links": {
           "material": ["Viparyas"]
+        }
+      },
+      {
+        "name": "Ajilenakh Nut route",
+        "desc": "**Ajilenakh Nuts** can be found in Sumeru and are being sold by Azalai (up to 10 per day).\n\n> A fruit that grows on evergreen trees within desert oases. The flesh under the tough skin is thick, sweet, and delicious, making it an important food source amongst the desert peoples.",
+        "img": "https://cdn.discordapp.com/attachments/1028113928351391804/1028113956990103582/AjiNuts.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Ajilenakh Nut"]
         }
       }
     ]
