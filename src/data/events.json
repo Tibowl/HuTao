@@ -1779,7 +1779,8 @@
     {
         "name": "\"Wind Chaser\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/11/a11da6e705301fd7cd856d09beee9efb_1100102120065898141.jpg",
+        "link": "https://www.hoyolab.com/article/12425989",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/14/b15b3330138b86e38829752faa982127_2854365789234732819.jpg",
         "start": "2022-10-17 10:00:00",
         "end": "2022-10-31 03:59:00",
         "reminder": "end"
