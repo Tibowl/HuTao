@@ -9468,7 +9468,8 @@
   },
   "Dendro Treasure Compass": {
     "name": "Dendro Treasure Compass",
-    "desc": "A compass that can be used in Sumeru to search for nearby chests.",
+    "desc": "A compass that can be used in Sumeru to search for nearby chests.\nFor some people, the significance of life lies in exploration and discovery. Upon reaching each destination, there is always bountiful treasure awaiting.",
+    "longDesc": "A convenient device that can be used to search for nearby chests. For some people, the significance of life lies in exploration and discovery. Upon reaching each destination, there is always bountiful treasure awaiting.\nTravelers on the road will one day find their destiny, and the experiences, stories, and riches that they leave behind will become riches that those who come after will seek.",
     "stars": 4,
     "type": "Gadget",
     "category": "Utility Items",
