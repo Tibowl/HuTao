@@ -317,6 +317,15 @@
         }
       },
       {
+        "name": "Crystalflies (Crystal Core) route",
+        "desc": "**Crystal Cores** can be obtained by catching Crystalflies in the wilderness.\n\n> The core of a crystal butterfly. It absorbs elemental energy that had escaped into the atmosphere.",
+        "img": "https://cdn.discordapp.com/attachments/936705429415792700/936705447933648936/unknown.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Crystal Core"]
+        }
+      },
+      {
         "name": "Loach Pearl route",
         "desc": "**Loach Pearls** can be found in the wilderness near bodies of water.\n\n> A shiny pearl spat out by a loach that has mystical medicinal properties. Minerals and elemental particles ingested by the loach condense into these mildly magical beads. When threatened, the loach spits them out to confuse predators and escape with its life.",
         "img": "https://cdn.discordapp.com/attachments/936705429415792700/936705447933648936/unknown.png",
