@@ -1788,7 +1788,8 @@
     {
         "name": "\"Star-Seeker's Sojourn\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/11/321d97b48f2bb46f94877075840b214c_5347680811879152516.jpg",
+        "link": "https://www.hoyolab.com/article/12739977",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/18/7dd6b9b2026e0b56fded93b8c6454a44_1661890012689982603.jpg",
         "start": "2022-10-21 10:00:00",
         "end": "2022-10-31 03:59:00",
         "reminder": "end"
