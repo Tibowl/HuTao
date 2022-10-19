@@ -260,7 +260,7 @@
       {
         "name": "Padisarah route",
         "desc": "**Padisarah ${Padisarah}** can found near Sumeru City and are being sold by [**Jut**](https://cdn.discordapp.com/attachments/1015428610942832660/1016716793924042784/Jut.png) (up to 5 times per 3 days).\n\n> A holy and noble plant. The conditions for growth in its environment are very demanding. The flower buds can be processed to make valuable spices.",
-        "img": "https://cdn.discordapp.com/attachments/1015428610942832660/1015434003765018634/Padisarah.png",
+        "img": "https://cdn.discordapp.com/attachments/1015428610942832660/1032374749197770782/Padisarah.png",
         "credits": "Soul",
         "links": {
           "material": ["Padisarah"]
@@ -517,7 +517,7 @@
       {
         "name": "Ruin Drake route (Chaos Storage, Module and Bolt)",
         "desc": "**Ruin Drakes ${Ruin Drake: Earthguard}${Ruin Drake: Skywatch}** are Elite Enemies found in Sumeru. They are Automatons and drop **Chaos Storage ${Chaos Storage}**, **Chaos Module ${Chaos Module}** and **Chaos Bolt ${Chaos Bolt}**.",
-        "img": "https://cdn.discordapp.com/attachments/1016891273770176582/1018297123369926756/Ruin_Drakes.png",
+        "img": "https://cdn.discordapp.com/attachments/1016891273770176582/1032374693803597854/RuinDrakesDesertINC.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Ruin Drake: Earthguard", "Ruin Drake: Skywatch"],
