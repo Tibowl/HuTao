@@ -269,7 +269,7 @@
       {
         "name": "Nilotpala Lotus route",
         "desc": "**Nilotpala Lotus ${Nilotpala Lotus}** can found near lakes and river banks in Sumeru.\n\n> Growing in the forest wetlands, these plays only bloom at night with flowers as bright as the moon.",
-        "img": "https://cdn.discordapp.com/attachments/1013223015514906704/1013864949916905572/NiLotus.png",
+        "img": "https://cdn.discordapp.com/attachments/1013223015514906704/1032122987136155648/NiLotus.png",
         "credits": "Soul",
         "links": {
           "material": ["Nilotpala Lotus"]
@@ -522,6 +522,16 @@
         "links": {
           "enemy": ["Ruin Drake: Earthguard", "Ruin Drake: Skywatch"],
           "material": ["Chaos Storage", "Chaos Module", "Chaos Bolt"]
+        }
+      },
+      {
+        "name": "Primal Construct route (Damaged, Turbid and Radiant Prism)",
+        "desc": "**Primal Constructs ${Primal Construct: Prospector}${Primal Construct: Repulsor}${Primal Construct: Reshaper}** are Elite Enemies found in Sumeru. They are Automatons and drop **Damaged Prism ${Damaged Prism}**, **Turbid Prism ${Turbid Prism}** and **Radiant Prism ${Radiant Prism}**.",
+        "img": "https://cdn.discordapp.com/attachments/1025526507390652477/1032384605510193162/PrimeConstructs.jpg",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Primal Construct: Prospector", "Primal Construct: Repulsor", "Primal Construct: Reshaper"],
+          "material": ["Damaged Prism", "Turbid Prism", "Radiant Prism"]
         }
       },
       {
