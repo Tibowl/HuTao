@@ -269,7 +269,7 @@
       {
         "name": "Nilotpala Lotus route",
         "desc": "**Nilotpala Lotus ${Nilotpala Lotus}** can found near lakes and river banks in Sumeru.\n\n> Growing in the forest wetlands, these plays only bloom at night with flowers as bright as the moon.",
-        "img": "https://cdn.discordapp.com/attachments/1013223015514906704/1013864949916905572/NiLotus.png",
+        "img": "https://cdn.discordapp.com/attachments/1013223015514906704/1032122987136155648/NiLotus.png",
         "credits": "Soul",
         "links": {
           "material": ["Nilotpala Lotus"]
@@ -278,7 +278,7 @@
       {
         "name": "Kalpalata Lotus route",
         "desc": "**Kalpalata Lotus ${Kalpalata Lotus}** can found in the mountains of Sumeru and are being sold by [**Aramani**](https://cdn.discordapp.com/attachments/1015767194447130644/1016714232861040680/Aramani.png) (up to 5 per 3 days).\n\n> Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
-        "img": "https://cdn.discordapp.com/attachments/1016421596057051350/1018206323642482688/KalpalataLotus.png",
+        "img": "https://cdn.discordapp.com/attachments/1016421596057051350/1032124509232300073/KalpalataLotus.png",
         "credits": "Soul",
         "links": {
           "material": ["Kalpalata Lotus"]
@@ -314,6 +314,15 @@
         "credits": "Soul",
         "links": {
           "material": ["Frog"]
+        }
+      },
+      {
+        "name": "Crystalflies (Crystal Core) route",
+        "desc": "**Crystal Cores** can be obtained by catching Crystalflies in the wilderness.\n\n> The core of a crystal butterfly. It absorbs elemental energy that had escaped into the atmosphere.",
+        "img": "https://cdn.discordapp.com/attachments/936705429415792700/936705447933648936/unknown.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Crystal Core"]
         }
       },
       {
@@ -517,11 +526,21 @@
       {
         "name": "Ruin Drake route (Chaos Storage, Module and Bolt)",
         "desc": "**Ruin Drakes ${Ruin Drake: Earthguard}${Ruin Drake: Skywatch}** are Elite Enemies found in Sumeru. They are Automatons and drop **Chaos Storage ${Chaos Storage}**, **Chaos Module ${Chaos Module}** and **Chaos Bolt ${Chaos Bolt}**.",
-        "img": "https://cdn.discordapp.com/attachments/1016891273770176582/1018297123369926756/Ruin_Drakes.png",
+        "img": "https://cdn.discordapp.com/attachments/1016891273770176582/1032374693803597854/RuinDrakesDesertINC.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Ruin Drake: Earthguard", "Ruin Drake: Skywatch"],
           "material": ["Chaos Storage", "Chaos Module", "Chaos Bolt"]
+        }
+      },
+      {
+        "name": "Primal Construct route (Damaged, Turbid and Radiant Prism)",
+        "desc": "**Primal Constructs ${Primal Construct: Prospector}${Primal Construct: Repulsor}${Primal Construct: Reshaper}** are Elite Enemies found in Sumeru. They are Automatons and drop **Damaged Prism ${Damaged Prism}**, **Turbid Prism ${Turbid Prism}** and **Radiant Prism ${Radiant Prism}**.",
+        "img": "https://cdn.discordapp.com/attachments/1025526507390652477/1032384605510193162/PrimeConstructs.jpg",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Primal Construct: Prospector", "Primal Construct: Repulsor", "Primal Construct: Reshaper"],
+          "material": ["Damaged Prism", "Turbid Prism", "Radiant Prism"]
         }
       },
       {

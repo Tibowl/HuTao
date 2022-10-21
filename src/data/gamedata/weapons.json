@@ -6988,6 +6988,131 @@
       }
     ]
   },
+  "Key of Khaj-Nisut": {
+    "name": "Key of Khaj-Nisut",
+    "desc": "One of a paired set of scepters fashioned from obsidian. They say that this can be used as a key to open the gate to a paradise that lies at the end of the ocean of sand.",
+    "weaponType": "Sword",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 44.33580017089844,
+        "curve": "ATK 3.4"
+      },
+      {
+        "stat": "HP%",
+        "init": 0.14399999380111694,
+        "curve": "C3"
+      }
+    ],
+    "icon": "img/weapon/Key_of_KhajNisut.png",
+    "awakenIcon": "img/weapon_woke/Key_of_KhajNisut.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts5",
+      "mapping": {
+        "EnemyDropTierA1": "Damaged Prism",
+        "EnemyDropTierA2": "Turbid Prism",
+        "EnemyDropTierA3": "Radiant Prism",
+        "EnemyDropTierB1": "Faded Red Satin",
+        "EnemyDropTierB2": "Trimmed Red Silk",
+        "EnemyDropTierB3": "Rich Red Brocade",
+        "WeaponAsc1": "Copper Talisman of the Forest Dew",
+        "WeaponAsc2": "Iron Talisman of the Forest Dew",
+        "WeaponAsc3": "Silver Talisman of the Forest Dew",
+        "WeaponAsc4": "Golden Talisman of the Forest Dew"
+      }
+    },
+    "lore": "This is a story from the days after the Lord of Sand's dreams fell apart and the Grandmaster of Verdure hid the whispers of the demonic skies away.\nThe ears of decay broke the great divine realm into many kingdoms before grinding them all into sand.\nA queen from amongst those kingdoms burnt the little prince's gilded robes and crown, and had him escape garbed in the sackcloth of a servant;\nYears passed, and the prince was reduced to being the son of one who ruled over the slave markets, and then to a wanderer who had lost everything.\n\n\"When I could still weep over the sunrise above the tower of mirages, I offered advice to my overlord, crushing many cities at his side.\"\n\"I once blessed the son of the former king upon his birth: Even after his departure, hymns of praise for him shall continue on...\"\n\"I have misjudged many people and happenings in the past, but no longer — for now I see nothing at all. This is destiny's punishment upon me.\"\n\"Become my apprentice. Be my eyes and describe to me the people and things in this gilded desert.\"\n\"I hope to one day weave the poems of heroes into the most beautiful tapestry to exist in the divine courts.\"\n\nCoins are eroded when passed from hand to hand, but noble things become stronger as they change hands.\nHis last owner was a blind poet. Later, the story changed from a tale of a master and a servant to that of a master and apprentice.\n\n\"Before we parted, Mother told me that we would meet again in the eternal oasis...\"\n\"Use this sword as the key to the paradise's gate, and rebuild the kingdom amidst emeralds and pomegranates.\"\n\nHearing the story of the wandering princeling, the aged poet caressed the dull blade of the black sword. At length, he replied:\n\"Thus do our crossed destinies duly end, for I am but a trifle in your epic.\"\n\n\"Master...\"\n\n\"Xiphos, your fate is above those of us humble poets. You should not stoop so low as to write stories for others—\"\n\"You are the one favored by the Jinni. You, who wield the Key of Khaj-Nisut, are the prince of the once-lost kingdom.\"\n\"Embark on your wanderings amongst the failing kingdoms. You shall create new tales and find the eternal oasis...\"\n\"In the times when I wrote hymns for my overlord and love poems for the prince, I fantasized about writing for the hero of destiny.\"\n\"Allow me, please, to recount your epic — the epic of your reunion with your mother and the return of the Lord of Sand's glory to this realm.\"\n\nIn the end, their paths would cross — the crown prince who became a slave and then a hero, and the mercenary who fell from the throne.\n\nMany legends mention a certain key. It is said to have commanded the sands to form a flowing river in mid-air and sealed the homeland after the Lord of Sand parted ways with old friends.\nThey even say that it was used to hide the desert tower and paradise of dreams away under the aegis of illusions when the bubble burst and the nations were scattered.\nThis key was passed between the hands of mortal tyrants and kings, till at last it, too, returned to the sand's embrace.\nAs for the aged blind poet, he would follow the trace of stories and blood-tainted footsteps, and finally find his way to the forest...",
+    "refinements": [
+      {
+        "name": "Sunken Song of the Sands",
+        "desc": "HP increased by **20%**. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by **0.12%** of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by **0.2%** of the equipping character's max HP for 20s."
+      },
+      {
+        "name": "Sunken Song of the Sands",
+        "desc": "HP increased by **25%**. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by **0.15%** of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by **0.25%** of the equipping character's max HP for 20s."
+      },
+      {
+        "name": "Sunken Song of the Sands",
+        "desc": "HP increased by **30%**. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by **0.18%** of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by **0.3%** of the equipping character's max HP for 20s."
+      },
+      {
+        "name": "Sunken Song of the Sands",
+        "desc": "HP increased by **35%**. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by **0.21%** of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by **0.35%** of the equipping character's max HP for 20s."
+      },
+      {
+        "name": "Sunken Song of the Sands",
+        "desc": "HP increased by **40%**. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by **0.24%** of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by **0.4%** of the equipping character's max HP for 20s."
+      }
+    ]
+  },
   "King's Squire": {
     "name": "King's Squire",
     "desc": "A weapon you obtained from an Aranara tale. It has taken on the shape of a bow that can shoot the enemies of the forest down.",
@@ -8485,6 +8610,131 @@
       {
         "name": "Archer's Message",
         "desc": "Charged Attack hits on weak points deal an additional **200%** ATK DMG as CRIT DMG. Can only occur once every 10s."
+      }
+    ]
+  },
+  "Missive Windspear": {
+    "name": "Missive Windspear",
+    "desc": "A beacon that shows the direction of the wind. Not every idyll carried on the breeze remains a gentle thing...",
+    "weaponType": "Polearm",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.09000000357627869,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Missive_Windspear.png",
+    "awakenIcon": "img/weapon_woke/Missive_Windspear.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Gloomy Statuette",
+        "EnemyDropTierA2": "Dark Statuette",
+        "EnemyDropTierA3": "Deathly Statuette",
+        "EnemyDropTierB1": "Slime Condensate",
+        "EnemyDropTierB2": "Slime Secretions",
+        "EnemyDropTierB3": "Slime Concentrate",
+        "WeaponAsc1": "Boreal Wolf's Milk Tooth",
+        "WeaponAsc2": "Boreal Wolf's Cracked Tooth",
+        "WeaponAsc3": "Boreal Wolf's Broken Fang",
+        "WeaponAsc4": "Boreal Wolf's Nostalgia"
+      }
+    },
+    "lore": "A beacon that guides a traveler home from afar. No matter where they are, the silver eagle always inclines toward a distant wind.\nThe verdant feather swirled as she sang gently, guiding the homecoming one to the other side, where the gentle wind blew.\n\n\"I don't care about where you came from, or what sins you might have committed. It's just...\"\nThe \"young master\" (though he was not and could never be acknowledged as such) said as he wiped away the blood from her face.\n\"When the time comes for the winds of change to blow through this land, I want to have you by my side.\"\n\"I killed the falcon. Keep that a secret between us...\"\n\nMuch as the kin-blood would in the future be spilled by a brutal lance and left to turn from red to black in the snow,\nHer heart too was pierced, as if by an invisible arrow, when she perceived the real \"young master\" in her mind's eye.\nFrom then on, she kept one eye on the things she had to do as a servant,\nAnd another upon the \"missions\" that had to be accomplished for the vision he had described.\nShe dreamed of being by his side — no, even being in the crowd behind him would be alright,\nIf she could bathe in the winds — which she did not even comprehend — together with him, her real \"young master.\"\nFor this purpose, there were a lot of nails and tenons that needed to be pulled out to cause the great edifice to topple...\n\n\"Don't mourn, Priscilla. Everything in this world comes at a price.\"\n\"Remember: If these matters are betrayed, light the beacon at Stormbearer Point.\"\n\"When the winds of change blow through these lands, we shall be its wild, howling vanguard, you and I.\"\n\n\"Yes, Master Eberhart.\"\nYes — she would forget bloodline and duty, forsake separation and the sickly heart.\nNot many nails were left. The glories bygone would soon return.\n\nBut...\nThe family's falcons and hounds caught the plot's scent, and the silhouettes of sails were never sighted upon the cape.\n\nAt the last, she chuckled. Once, she had railed against her fate and the fate of countless others.\nHowever, at this moment, when she looked up at the pale moonlight and the shadow of the swords that reflected it,\nAnd as she gazed upon the mocking gaggle of nobles, she felt neither distress nor resentment — though she knew not why.\n\nNot many nails are left. The glories bygone will soon return.\nYoung master, you will be like this silver eagle. You shall guide the hurricane.\nDo not mourn for me. I shall soon be a wisp in a thousand winds...",
+    "refinements": [
+      {
+        "name": "The Wind Unattained",
+        "desc": "Within 10s after an Elemental Reaction is triggered, ATK is increased by **12%** and Elemental Mastery is increased by **48**."
+      },
+      {
+        "name": "The Wind Unattained",
+        "desc": "Within 10s after an Elemental Reaction is triggered, ATK is increased by **15%** and Elemental Mastery is increased by **60**."
+      },
+      {
+        "name": "The Wind Unattained",
+        "desc": "Within 10s after an Elemental Reaction is triggered, ATK is increased by **18%** and Elemental Mastery is increased by **72**."
+      },
+      {
+        "name": "The Wind Unattained",
+        "desc": "Within 10s after an Elemental Reaction is triggered, ATK is increased by **21%** and Elemental Mastery is increased by **84**."
+      },
+      {
+        "name": "The Wind Unattained",
+        "desc": "Within 10s after an Elemental Reaction is triggered, ATK is increased by **24%** and Elemental Mastery is increased by **96**."
       }
     ]
   },
@@ -16385,6 +16635,131 @@
       }
     ]
   },
+  "Wandering Evenstar": {
+    "name": "Wandering Evenstar",
+    "desc": "This was originally a device used by researchers to observe and perform calculations on celestial phenomena. It serves as a conduit and catalyst.",
+    "weaponType": "Catalyst",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "Elemental Mastery",
+        "init": 36,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Wandering_Evenstar.png",
+    "awakenIcon": "img/weapon_woke/Wandering_Evenstar.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Inactivated Fungal Nucleus",
+        "EnemyDropTierA2": "Dormant Fungal Nucleus",
+        "EnemyDropTierA3": "Robust Fungal Nucleus",
+        "EnemyDropTierB1": "Fungal Spores",
+        "EnemyDropTierB2": "Luminescent Pollen",
+        "EnemyDropTierB3": "Crystalline Cyst Dust",
+        "WeaponAsc1": "Oasis Garden's Reminiscence",
+        "WeaponAsc2": "Oasis Garden's Kindness",
+        "WeaponAsc3": "Oasis Garden's Mourning",
+        "WeaponAsc4": "Oasis Garden's Truth"
+      }
+    },
+    "lore": "This story takes place thousands of years ago, in an era after the foolish God-King was buried by the sandstorms.\nThe wandering prince, having lost his kingdom, retreated into the cascading rainforest, surrounded by the tranquil moonlight.\nHe had come here with the ambition to conquer new lands, but ended up being pursued by the huntress with the white bow,\nAnd thus did the dejected wanderer come to be trapped by vine branches and, in the cold moonlight, he heard the low growls of the tiger around him.\n\n\"The rainforest trail road was so treacherous that mortals could only tell the way ahead by the moonlight breaking through the leaves.\"\n\"The flickering evening stars lit the wanderer's way but also lured him into a deadly trap.\"\n\"The huntress darted through the deepwood with her white bow, driving this intruder away time and again.\"\n\"Together with the ancient tiger and its roar, she gave the order for his expulsion, but did not take his life.\"\n\nThe old blind poet repeated the story of the wandering prince in a cracked, hoarse voice.\nEven though he had lost his eyes long ago, he still unconsciously looked at the evening star that lay next to the bright moon.\nThe flickering star of the night had led the wanderer toward new hope, but also to a dead end,\n\nAnd years later, when the wanderer who had nothing to lose faced death, he had to make a choice...\nWhen the teachings of death were whispered in his ear, he finally realized the meaning of the warning...\n\n\"You belong to neither the forest nor death, so stay far from the king's palace.\"\n\"If you cherish life and memory still, do not go deep into the dark and dangerous lands.\"\n\n\"Stop repeating those silly words...\"\n\"If my wandering fate leads me to the moon-white bow, and if the evening stars foretell my end,\"\n\"Well then! I would rather accept my fate than die pursuing a falcon.\"",
+    "refinements": [
+      {
+        "name": "Wildling Nightstar",
+        "desc": "The following effect will trigger every 10s: The equipping character will gain **24%** of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
+      },
+      {
+        "name": "Wildling Nightstar",
+        "desc": "The following effect will trigger every 10s: The equipping character will gain **30%** of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
+      },
+      {
+        "name": "Wildling Nightstar",
+        "desc": "The following effect will trigger every 10s: the equipping character will gain **36%** of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
+      },
+      {
+        "name": "Wildling Nightstar",
+        "desc": "The following effect will trigger every 10s: The equipping character will gain **42%** of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
+      },
+      {
+        "name": "Wildling Nightstar",
+        "desc": "The following effect will trigger every 10s: The equipping character will gain **48%** of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
+      }
+    ]
+  },
   "Waster Greatsword": {
     "name": "Waster Greatsword",
     "desc": "A sturdy sheet of iron that may be powerful enough to break apart mountains if wielded with enough willpower.",
@@ -17333,6 +17708,131 @@
       {
         "name": "Wolfish Tracker",
         "desc": "Increases ATK by **40%**. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by **80%** for 12s. Can only occur once every 30s."
+      }
+    ]
+  },
+  "Xiphos' Moonlight": {
+    "name": "Xiphos' Moonlight",
+    "desc": "This ancient double-edged sword glimmers with moonlight. It is said that a now-silent Jinni dwells within it.",
+    "weaponType": "Sword",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "Elemental Mastery",
+        "init": 36,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Xiphos_Moonlight.png",
+    "awakenIcon": "img/weapon_woke/Xiphos_Moonlight.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Damaged Prism",
+        "EnemyDropTierA2": "Turbid Prism",
+        "EnemyDropTierA3": "Radiant Prism",
+        "EnemyDropTierB1": "Faded Red Satin",
+        "EnemyDropTierB2": "Trimmed Red Silk",
+        "EnemyDropTierB3": "Rich Red Brocade",
+        "WeaponAsc1": "Copper Talisman of the Forest Dew",
+        "WeaponAsc2": "Iron Talisman of the Forest Dew",
+        "WeaponAsc3": "Silver Talisman of the Forest Dew",
+        "WeaponAsc4": "Golden Talisman of the Forest Dew"
+      }
+    },
+    "lore": "This story takes place thousands of years ago, in an era after the foolish God-King was buried by the sandstorms.\nMortal cities scattered across the land, amongst which Tulaytullah, where men and women of wisdom gathered and resided, was the most outstanding.\nThe city was dotted with buildings roofed with sapphire domes and adorned with emerald gardens of blooming trees and flowing fountains.\nIn the times following the God-King's departure, this fortunate city still glowed with wisdom and prosperity.\n\nPeople say that a warrior named Xiphos once lived in this city of sapphire and emerald.\nXiphos was adept at wielding his double-edged sword, and he saved many a maiden from monster attacks, snatching many treasures from them in the process.\nIn an ancient Tighnarian lore, his sword was indwelt by a twisted, cruel Jinni,\nWhich was why the blade was not dulled but rather sharpened by slaughters, not smudged but instead brightened by blood.\n\n\"My dearest Master, let me feast on that rosy juice, indulge me with the crimson brew.\"\n\"My affection gushes forth only for you, like the daughter of grapevines entertains the tipplers with her bloody sacrifice.\"\n\"So long as you own my affection, and the moon shines on your ever-youthful face,\"\n\"So long as your foes hold affection for this world, and have not forgotten their mothers' names, you shall be a warrior unmatched.\"\n\nLater on, the swordsman adored by the Jinni of moonlight would encounter an exiled foreign wanderer.\nThe wanderer had accepted silver coins, blood money from kings opposed to Tulaytullah, and he shouldered their grudges and hatred against the hero.\nThus they who should have become friends at some bar became foes in battle, fighting each other to the death with the moonlight as their witness.\nIn the fight, their blades were bathed in ruby wine while the overripe pomegranate burst, vital, vivid red pouring from the rupture...\nThe deadly duel finally settled. The pale moon cast its cold light upon the winner and the defeated alike.\n\n\"Whichever direction the wind blows, there is never a single ripple in the cup of life.\"\n\"The three departed goddesses had long determined the heroes' fate, even if they could never fathom it themselves.\"\n\nThe wanderer took the moonlit sword, picked up the bloodstained silver coins, and trod in silence toward the distant rainforest.\nThus deprived of Xiphos' protection, the city lost its luster and withered away in the following years.\nIts buildings and gardens were ground down into the dirt along with its destiny, and then the howling desert gales consigned them to oblivion.\nUltimately, the black key and the young prince's quest to rejuvenate his kingdom both sank into the sand's embrace...",
+    "refinements": [
+      {
+        "name": "Jinni's Whisper",
+        "desc": "The following effect will trigger every 10s: The equipping character will gain **0.036%** Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
+      },
+      {
+        "name": "Jinni's Whisper",
+        "desc": "The following effect will trigger every 10s: The equipping character will gain **0.045%** Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
+      },
+      {
+        "name": "Jinni's Whisper",
+        "desc": "The following effect will trigger every 10s: the equipping character will gain **0.054%** Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
+      },
+      {
+        "name": "Jinni's Whisper",
+        "desc": "The following effect will trigger every 10s: The equipping character will gain **0.063%** Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
+      },
+      {
+        "name": "Jinni's Whisper",
+        "desc": "The following effect will trigger every 10s: the equipping character will gain **0.072%** Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
       }
     ]
   }

@@ -1743,8 +1743,8 @@
     {
         "name": "Event Wish  \"Twirling Lotus\"",
         "type": "Banner",
-        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020309890562015274/unknown.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/12079386",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/11/de0e37af9754660b92024deb20a1137f_1481363351940958489.jpg",
         "start": "2022-10-14 18:00:00",
         "end": "2022-11-01 14:59:59",
         "reminder": "end"
@@ -1752,8 +1752,8 @@
     {
         "name": "Event Wish \"Secretum Secretorum\"",
         "type": "Banner",
-        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020309890562015274/unknown.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/12079396",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/11/0ea9869ba8d46d71d5d349fbdc20add8_8283091291010876846.jpg",
         "start": "2022-10-14 18:00:00",
         "end": "2022-11-01 14:59:59",
         "reminder": "end"
@@ -1761,8 +1761,8 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020309927689998346/14-27-15.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/12079400",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/11/a061fe08b3d48791a609d37e698704d3_3512969501829621894.jpg",
         "start": "2022-10-14 18:00:00",
         "end": "2022-11-01 14:59:59",
         "reminder": "end"
@@ -1779,13 +1779,19 @@
     {
         "name": "\"Wind Chaser\" Event",
         "type": "In-game",
-        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020312189736861787/unknown.png",
+        "link": "https://www.hoyolab.com/article/12425989",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/14/b15b3330138b86e38829752faa982127_2854365789234732819.jpg",
+        "start": "2022-10-17 10:00:00",
+        "end": "2022-10-31 03:59:00",
         "reminder": "end"
     },
     {
         "name": "\"Star-Seeker's Sojourn\" Event",
         "type": "In-game",
-        "img": "https://cdn.discordapp.com/attachments/363438260514455552/1020312387888365578/unknown.png",
+        "link": "https://www.hoyolab.com/article/12739977",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/18/7dd6b9b2026e0b56fded93b8c6454a44_1661890012689982603.jpg",
+        "start": "2022-10-21 10:00:00",
+        "end": "2022-10-31 03:59:00",
         "reminder": "end"
     },
     {

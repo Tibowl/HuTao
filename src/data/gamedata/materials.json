@@ -1851,6 +1851,22 @@
     },
     "effect": "Increases all party members' ATK by 274 for 300s. In Co-op Mode, this effect only applies to your own character(s)."
   },
+  "Swirling Steps": {
+    "name": "Swirling Steps",
+    "desc": "Nilou's specialty. The crystal-clear cup that reminds you of an ornate jewel case contains a soft, melt-in-your-mouth pudding. The reddish coloration, like a fleeting trance, reminds you ever so much of Nilou's radiant, dancing form. Ah, would that this dance might last forever.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Swirling_Steps.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Nilou",
+      "recipe": "Padisarah Pudding"
+    },
+    "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
   "Duel Soul": {
     "name": "Duel Soul",
     "desc": "Cyno's specialty. The golden grains of rice have been piled up like a most remarkable hill. As you scoop out a chunk and place the fragrant meat into your mouth, an impulse you cannot name rises within your chest — a desire to whip out your Genius Invokation deck and duel!",
@@ -5657,6 +5673,36 @@
       "Delicious Aaru Mixed Rice": "Restores 60 Stamina."
     }
   },
+  "Fruits of the Festival": {
+    "name": "Fruits of the Festival",
+    "desc": "A brightly colored non-alcoholic beverage. The sublime enjoyment brought by the refreshing taste is almost like a sweet, illusory dream. One small sip transports you onto a white, sandy beach, where the sparkling seawater beats with the rhythm to which the hymn of your leisurely vacation shall be composed.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Fruits_of_the_Festival.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Wolfhook"
+      },
+      {
+        "count": 2,
+        "name": "Sunsettia"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
+    ],
+    "effect": {
+      "Suspicious Fruits of the Festival": "Increases all party members' Healing Bonus by 15% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Fruits of the Festival": "Increases all party members' Healing Bonus by 17% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Fruits of the Festival": "Increases all party members' Healing Bonus by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
   "Rice Pudding": {
     "name": "Rice Pudding",
     "desc": "A dessert made from rice. The soft, sticky rice and the sweet milk have melded together perfectly, their tastes complementing each other. If you eat it hot, you can enjoy the dense rice grains, and if you leave it till it's cold, you can savor the gentle fragrance of milk — each possessing its own beauty. People who eat such a dish cannot help but wonder: how many experiments led up to this moment?",
@@ -6060,6 +6106,18 @@
       "Sold at shops"
     ],
     "effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s."
+  },
+  "Sparkling Berry Juice": {
+    "name": "Sparkling Berry Juice",
+    "desc": "An all-new non-alcoholic beverage. Valberries of varying ripeness add layers of sour-to-sweet to this juice while the cooling sparkling water refreshes the soul — a fine companion for a pleasant and leisurely time.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Sparkling_Berry_Juice.png",
+    "sources": [
+      "Shop purchase"
+    ],
+    "effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP."
   },
   "Wheat": {
     "name": "Wheat",
@@ -9372,7 +9430,7 @@
   },
   "Dendroculus Resonance Stone": {
     "name": "Dendroculus Resonance Stone",
-    "desc": "A stone that can be used in Sumeru to search for nearby Dendroculi.",
+    "desc": "A stone that can be used in Sumeru to search for nearby Dendroculi.\nA curious amulet of a similar nature to the Dendro Statues of The Seven. By the same token, it is drawn to Dendroculi.\nIn the world, there are grass and trees, vines and flowers — living beings of Dendro Element that abound in diverse shapes and forms. Though differing in appearance and various other aspects, they were born from the same land and will return to the same land.",
     "stars": 3,
     "type": "Consumable",
     "category": "Utility Items",
@@ -9410,7 +9468,8 @@
   },
   "Dendro Treasure Compass": {
     "name": "Dendro Treasure Compass",
-    "desc": "A compass that can be used in Sumeru to search for nearby chests.",
+    "desc": "A compass that can be used in Sumeru to search for nearby chests.\nFor some people, the significance of life lies in exploration and discovery. Upon reaching each destination, there is always bountiful treasure awaiting.",
+    "longDesc": "A convenient device that can be used to search for nearby chests. For some people, the significance of life lies in exploration and discovery. Upon reaching each destination, there is always bountiful treasure awaiting.\nTravelers on the road will one day find their destiny, and the experiences, stories, and riches that they leave behind will become riches that those who come after will seek.",
     "stars": 4,
     "type": "Gadget",
     "category": "Utility Items",
@@ -9733,6 +9792,14 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "img/material/Vintage_Lyre.png"
+  },
+  "Jumpy Dumpty Party Popper": {
+    "name": "Jumpy Dumpty Party Popper",
+    "desc": "A party popper that, when used, unleashes streamers and confetti.\n\"Jumpy Dumpty is Klee's good friend and fish blasting companion! But if Klee brings Jumpy Dumpty to the festival, Master Jean will be angry... Don't you worry, though! Jumpy Dumpty has gained a new ability with Albedo's help! Just pull on its tail, and beautiful colored strips will come flying out!\"",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Jumpy_Dumpty_Party_Popper.png"
   },
   "Scarlet Sand Slate": {
     "name": "Scarlet Sand Slate",
