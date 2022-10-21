@@ -536,7 +536,7 @@
       {
         "name": "Primal Construct route (Damaged, Turbid and Radiant Prism)",
         "desc": "**Primal Constructs ${Primal Construct: Prospector}${Primal Construct: Repulsor}${Primal Construct: Reshaper}** are Elite Enemies found in Sumeru. They are Automatons and drop **Damaged Prism ${Damaged Prism}**, **Turbid Prism ${Turbid Prism}** and **Radiant Prism ${Radiant Prism}**.",
-        "img": "https://cdn.discordapp.com/attachments/1025526507390652477/1032384605510193162/PrimeConstructs.jpg",
+        "img": "https://cdn.discordapp.com/attachments/1025526507390652477/1033007750361395290/pc.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Primal Construct: Prospector", "Primal Construct: Repulsor", "Primal Construct: Reshaper"],
