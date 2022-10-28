@@ -1867,6 +1867,15 @@
         "reminder": "end"
     },
     {
+        "name": "\"May Your Dreams of Wisdom Come True\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/13156542",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/27/fb54c2f02cc82ebffbbf59e940dea460_88560879904899179.png",
+        "start": "2022-10-28 12:00:00",
+        "end": "2022-11-02 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "3.2 Special Program",
         "type": "Stream",
         "link": "https://www.hoyolab.com/article/12830300",
