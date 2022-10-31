@@ -1886,14 +1886,16 @@
     {
         "name": "3.2 Maintenance",
         "type": "Maintenance",
+        "link": "https://www.hoyolab.com/article/13248355",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/23/ff3f9232f0f064c27a444e2d84f3f7ec_7970764512218925390.jpg",
         "start": "2022-11-02 06:00:00",
         "end": "2022-11-02 11:00:00"
     },
     {
         "name": "Event Wish \"The Moongrass' Enlightenment\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/zO2iLJi.jpeg",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/13249513",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/31/72745c7f2fd0b50c317e72f23f1a2bc2_662489365076269940.jpg",
         "start": "2022-11-02 11:00:00",
         "start_server": false,
         "end": "2022-11-18 17:59:00",
@@ -1902,8 +1904,8 @@
     {
         "name": "Event Wish \"Tapestry of Golden Flames\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/zO2iLJi.jpeg",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/13249513",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/31/27d37843bff4850ab81311fe1e76c46b_5446505309378489961.jpg",
         "start": "2022-11-02 11:00:00",
         "start_server": false,
         "end": "2022-11-18 17:59:00",
@@ -1912,7 +1914,8 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/13249513",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/31/6d7ec82f36985fc3d257248058206e97_7479491428912478012.jpg",
         "start": "2022-11-02 11:00:00",
         "start_server": false,
         "end": "2022-11-18 17:59:00",
@@ -1946,32 +1949,36 @@
     },
     {
         "name": "\"Fabulous Fungus Frenzy\" Event",
-        "img": "https://i.imgur.com/4ktP8WE.jpeg",
         "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/31/ac98b4a7a3648ebabe23ec934112b6ae_5592817635730914991.jpg",
+        "start": "2022-11-10 10:00:00",
+        "end": "2022-11-28 03:59:00",
         "reminder": "end"
     },
     {
         "name": "\"Adventure's Trials\" Event",
-        "img": "https://i.imgur.com/WhTpWE5.jpeg",
         "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/31/6cce4be7c9cdb11cc4d4c0d518f76e4d_2882471429181539143.jpg",
+        "start": "2022-11-04 10:00:00",
+        "end": "2022-11-21 03:59:00",
         "reminder": "end"
     },
     {
         "name": "\"Hypostatic Symphony: Dissonant Verse\" Event",
-        "img": "https://i.imgur.com/n0k6XeL.jpeg",
         "type": "In-game",
+        "img": "https://i.imgur.com/n0k6XeL.jpeg",
         "reminder": "end"
     },
     {
         "name": "\"Outside the Canvas, Inside the Lens: Greenery Chapter\" Event",
-        "img": "https://i.imgur.com/0SSRaL5.jpeg",
         "type": "In-game",
+        "img": "https://i.imgur.com/0SSRaL5.jpeg",
         "reminder": "end"
     },
     {
         "name": "\"Marvelous Merchandise\" Event",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/05/03/1015537/7b928f530c5fd8f641bbc3ef4a871fdd_1572653224675820782.jpg",
         "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/05/03/1015537/7b928f530c5fd8f641bbc3ef4a871fdd_1572653224675820782.jpg",
         "reminder": "daily"
     },
     {
