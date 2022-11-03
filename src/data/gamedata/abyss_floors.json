@@ -2900,5 +2900,13 @@
         ]
       }
     ]
+  },
+  "50": {
+    "teams": 2,
+    "leyline": "All party members have their Elemental Mastery increased by 200."
+  },
+  "51": {
+    "teams": 2,
+    "leyline": "For this floor only, the Ley Line flow will be normal."
   }
 }
