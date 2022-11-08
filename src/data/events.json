@@ -1950,7 +1950,8 @@
     {
         "name": "\"Fabulous Fungus Frenzy\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/31/ac98b4a7a3648ebabe23ec934112b6ae_5592817635730914991.jpg",
+        "link": "https://www.hoyolab.com/article/13595311",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/07/8b644af425bb806db4e3d57929126a8a_3030015466286797666.jpg",
         "start": "2022-11-10 10:00:00",
         "end": "2022-11-28 03:59:00",
         "reminder": "end"
