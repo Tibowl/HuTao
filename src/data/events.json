@@ -1924,8 +1924,8 @@
     {
         "name": "Event Wish \"Everbloom Violet\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/RYDwyUZ.jpeg",
-        "prediction": true,
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/15/3a73e2e3443e36dafa613b1059953739_7629147073467734600.jpg",
+        "link": "https://www.hoyolab.com/article/13736827",
         "start": "2022-11-18 18:00:00",
         "end": "2022-12-06 14:59:00",
         "reminder": "end"
@@ -1933,18 +1933,18 @@
     {
         "name": "Event Wish \"Farewell of Snezhnaya\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/RYDwyUZ.jpeg",
-        "prediction": true,
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/15/d5ef349475c1ddd262be5f396e206994_750297246136169784.jpg",
+        "link": "https://www.hoyolab.com/article/13736827",
         "start": "2022-11-18 18:00:00",
-        "end": "2022-12-06 17:59:00",
+        "end": "2022-12-06 14:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "prediction": true,
+        "link": "https://upload-os-bbs.hoyolab.com/upload/2022/11/15/e001506684341289149b28694b311a11_3623395904205130892.png",
         "start": "2022-11-18 18:00:00",
-        "end": "2022-12-06 17:59:00",
+        "end": "2022-12-06 14:59:00",
         "reminder": "end"
     },
     {
@@ -1968,7 +1968,9 @@
     {
         "name": "\"Hypostatic Symphony: Dissonant Verse\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/n0k6XeL.jpeg",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/15/7b794848a7fc5f1530526930248f5289_2558113747442062075.jpg",
+        "start": "2022-11-24 10:00:00",
+        "end": "2022-12-05 03:59:00",
         "reminder": "end"
     },
     {
@@ -1984,6 +1986,8 @@
         "name": "\"Marvelous Merchandise\" Event",
         "type": "In-game",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2022/05/03/1015537/7b928f530c5fd8f641bbc3ef4a871fdd_1572653224675820782.jpg",
+        "start": "2022-11-28 10:00:00",
+        "end": "2022-12-05 03:59:59",
         "reminder": "daily"
     },
     {
