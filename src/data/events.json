@@ -1942,7 +1942,8 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "link": "https://upload-os-bbs.hoyolab.com/upload/2022/11/15/e001506684341289149b28694b311a11_3623395904205130892.png",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/15/e001506684341289149b28694b311a11_3623395904205130892.png",
+        "link": "https://www.hoyolab.com/article/13736827",
         "start": "2022-11-18 18:00:00",
         "end": "2022-12-06 14:59:00",
         "reminder": "end"
@@ -1968,7 +1969,8 @@
     {
         "name": "\"Hypostatic Symphony: Dissonant Verse\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/15/7b794848a7fc5f1530526930248f5289_2558113747442062075.jpg",
+        "link": "https://www.hoyolab.com/article/13880027",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/21/dedcb051595a2e42189bf183d3418d57_4258745643534506910.jpg",
         "start": "2022-11-24 10:00:00",
         "end": "2022-12-05 03:59:00",
         "reminder": "end"
