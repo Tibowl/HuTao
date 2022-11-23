@@ -1993,6 +1993,14 @@
         "reminder": "daily"
     },
     {
+        "name": "3.3 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/13920721",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/23/3e64a432df0f02d6a5b2a11c0b899d2e_7928635679887452826.jpg",
+        "start": "2022-11-25 07:00:00",
+        "timezone": "-05:00"
+    },
+    {
         "name": "3.3 Maintenance",
         "type": "Maintenance",
         "start": "2022-12-07 06:00:00",
