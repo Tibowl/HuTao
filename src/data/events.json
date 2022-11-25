@@ -1982,9 +1982,103 @@
         "reminder": "daily"
     },
     {
+        "name": "\"Carefree Dreamland\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/13958089",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/23/0daa42b763415d31c255158097b6b8c4_9148213287295437715.jpg",
+        "start": "2022-11-25 12:00:00",
+        "end": "2022-12-04 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "3.3 Maintenance",
         "type": "Maintenance",
         "start": "2022-12-07 06:00:00",
         "end": "2022-12-07 11:00:00"
+    },
+    {
+        "name": "Event Wish \"From Ashes Reborn\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/MLopiJL.png",
+        "prediction": true,
+        "start": "2022-12-07 11:00:00",
+        "start_server": false,
+        "end": "2022-12-23 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Oni's Royale\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/MLopiJL.png",
+        "prediction": true,
+        "start": "2022-12-07 11:00:00",
+        "start_server": false,
+        "end": "2022-12-23 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2022-12-07 11:00:00",
+        "start_server": false,
+        "end": "2022-12-23 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Reign of Serenity\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/okKzO04.png",
+        "prediction": true,
+        "start": "2022-12-23 18:00:00",
+        "end": "2023-01-10 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Azure Excursion\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/okKzO04.png",
+        "prediction": true,
+        "start": "2022-12-23 18:00:00",
+        "end": "2023-01-10 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2022-12-23 18:00:00",
+        "end": "2023-01-10 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Akitsu Kimodameshi\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/LVNUzTK.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Across the Wilderness\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/9ozbi1v.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Windtrace\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/CQquncO.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Misty Dungeon: Realm of Sand\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/B4ChrPK.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Ley Line Overflow\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/09/16/d76cdab75f5f952a213e564f6b0a5a51_8696584731126418758.jpg",
+        "reminder": "end"
     }
 ]
