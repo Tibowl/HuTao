@@ -1924,8 +1924,8 @@
     {
         "name": "Event Wish \"Everbloom Violet\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/RYDwyUZ.jpeg",
-        "prediction": true,
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/15/3a73e2e3443e36dafa613b1059953739_7629147073467734600.jpg",
+        "link": "https://www.hoyolab.com/article/13736827",
         "start": "2022-11-18 18:00:00",
         "end": "2022-12-06 14:59:00",
         "reminder": "end"
@@ -1933,24 +1933,26 @@
     {
         "name": "Event Wish \"Farewell of Snezhnaya\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/RYDwyUZ.jpeg",
-        "prediction": true,
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/15/d5ef349475c1ddd262be5f396e206994_750297246136169784.jpg",
+        "link": "https://www.hoyolab.com/article/13736827",
         "start": "2022-11-18 18:00:00",
-        "end": "2022-12-06 17:59:00",
+        "end": "2022-12-06 14:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "prediction": true,
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/15/e001506684341289149b28694b311a11_3623395904205130892.png",
+        "link": "https://www.hoyolab.com/article/13736827",
         "start": "2022-11-18 18:00:00",
-        "end": "2022-12-06 17:59:00",
+        "end": "2022-12-06 14:59:00",
         "reminder": "end"
     },
     {
         "name": "\"Fabulous Fungus Frenzy\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/31/ac98b4a7a3648ebabe23ec934112b6ae_5592817635730914991.jpg",
+        "link": "https://www.hoyolab.com/article/13595311",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/07/8b644af425bb806db4e3d57929126a8a_3030015466286797666.jpg",
         "start": "2022-11-10 10:00:00",
         "end": "2022-11-28 03:59:00",
         "reminder": "end"
@@ -1958,7 +1960,8 @@
     {
         "name": "\"Adventure's Trials\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/31/6cce4be7c9cdb11cc4d4c0d518f76e4d_2882471429181539143.jpg",
+        "link": "https://www.hoyolab.com/article/13297789",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/01/479f9a47d340e93ba90d31a5b21fb320_5380949301706129920.jpg",
         "start": "2022-11-04 10:00:00",
         "end": "2022-11-21 03:59:00",
         "reminder": "end"
@@ -1966,19 +1969,27 @@
     {
         "name": "\"Hypostatic Symphony: Dissonant Verse\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/n0k6XeL.jpeg",
+        "link": "https://www.hoyolab.com/article/13880027",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/21/dedcb051595a2e42189bf183d3418d57_4258745643534506910.jpg",
+        "start": "2022-11-24 10:00:00",
+        "end": "2022-12-05 03:59:00",
         "reminder": "end"
     },
     {
         "name": "\"Outside the Canvas, Inside the Lens: Greenery Chapter\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/0SSRaL5.jpeg",
+        "link": "https://www.hoyolab.com/article/13718763",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/14/27fc29223ecfb9c24996ed7e0224059a_1087079389391647107.jpg",
+        "start": "2022-11-16 10:00:00",
+        "end": "2022-12-05 03:59:59",
         "reminder": "end"
     },
     {
         "name": "\"Marvelous Merchandise\" Event",
         "type": "In-game",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2022/05/03/1015537/7b928f530c5fd8f641bbc3ef4a871fdd_1572653224675820782.jpg",
+        "start": "2022-11-28 10:00:00",
+        "end": "2022-12-05 03:59:59",
         "reminder": "daily"
     },
     {
@@ -1989,6 +2000,14 @@
         "start": "2022-11-25 12:00:00",
         "end": "2022-12-04 23:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "3.3 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/13920721",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/23/3e64a432df0f02d6a5b2a11c0b899d2e_7928635679887452826.jpg",
+        "start": "2022-11-25 07:00:00",
+        "timezone": "-05:00"
     },
     {
         "name": "3.3 Maintenance",
