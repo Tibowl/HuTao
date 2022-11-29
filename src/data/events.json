@@ -708,7 +708,7 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/08/20/1015537/f9e121e07195ac8d874c5cb0fda1da08_900528074523851922.jpg",
         "start": "2021-11-15 04:00:00",
         "end": "2021-11-22 03:59:00",
-        "reminder": "daily"
+        "reminder": "end"
     },
     {
         "name": "\"Aloy's Exploration Journal\" Web Event",
@@ -1991,7 +1991,8 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/25/42eae87a3c82afbc804be61ce7f88c10_1097876868900925574.jpg",
         "start": "2022-11-28 10:00:00",
         "end": "2022-12-05 03:59:59",
-        "reminder": "daily"
+        "reminder": "daily",
+        "remindtime": "04:00:00"
     },
     {
         "name": "\"Carefree Dreamland\" Web Event",
