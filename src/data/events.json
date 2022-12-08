@@ -2096,7 +2096,8 @@
     {
         "name": "\"Misty Dungeon: Realm of Sand\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/12/05/e0c2a8d34c5a31f2a7accb7b4ee27b6b_4873751072739650967.jpg",
+        "link": "https://www.hoyolab.com/article/14201704",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/12/06/a0e8d861d6088787cca131ec1e54d4cd_1132364854122389914.jpg",
         "start": "2022-12-09 10:00:00",
         "end": "2022-12-19 03:59:00",
         "reminder": "end"
