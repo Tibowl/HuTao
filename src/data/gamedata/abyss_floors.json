@@ -2903,9 +2903,122 @@
   },
   "50": {
     "teams": 2,
-    "leyline": "All party members have their Elemental Mastery increased by 200."
+    "leyline": "All party members have their Elemental Mastery increased by 200.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 88,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Hydro Specter",
+            "Geo Specter",
+            "Anemo Specter",
+            "Cryo Specter"
+          ],
+          [
+            "Fatui Pyro Agent",
+            "Eremite Daythunder",
+            "Eremite Axe Vanguard",
+            "Eremite Crossbow",
+            "Eremite Ravenbeak Halberdier",
+            "Eremite Linebreaker",
+            "Eremite Sword-Dancer"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 90,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Ruin Drake: Skywatch"
+          ],
+          [
+            "Mirror Maiden",
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders: Electro Potioneer",
+            "Treasure Hoarders: Cryo Potioneer",
+            "Nobushi: Jintouban",
+            "Nobushi: Hitsukeban",
+            "Nobushi: Kikouban"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 92,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Geovishap"
+          ],
+          [
+            "Dendro Hypostasis"
+          ]
+        ]
+      }
+    ]
   },
   "51": {
+    "teams": 2,
+    "leyline": "For this floor only, the Ley Line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 95,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Thundercraven Rifthound",
+            "Thundercraven Rifthound Whelp"
+          ],
+          [
+            "Thunder Manifestation"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 98,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Black Serpent Knight: Windcutter",
+            "Shadowy Husk: Standard Bearer",
+            "Shadowy Husk: Line Breaker",
+            "Shadowy Husk: Defender"
+          ],
+          [
+            "Frostarm Lawachurl",
+            "Thunderhelm Lawachurl"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 100,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Aeonblight Drake"
+          ],
+          [
+            "Eremite Galehunter",
+            "Fatui Skirmisher - Anemoboxer Vanguard",
+            "Eremite Stone Enchanter",
+            "Fatui Skirmisher - Geochanter Bracer"
+          ]
+        ]
+      }
+    ]
+  },
+  "52": {
+    "teams": 2,
+    "leyline": "All characters in the party gain a 75% Anemo DMG Bonus."
+  },
+  "53": {
     "teams": 2,
     "leyline": "For this floor only, the Ley Line flow will be normal."
   }

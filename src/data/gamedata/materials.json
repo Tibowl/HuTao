@@ -599,7 +599,7 @@
   },
   "Rukkhashava Mushrooms": {
     "name": "Rukkhashava Mushrooms",
-    "desc": "A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest. Therefore, they are considered by the people of Sumeru to be the holy crystallization of Rukkhadevata's legacy.",
+    "desc": "A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest.",
     "longDesc": "A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest. Therefore, they are considered by the people of Sumeru to be the holy crystallization of Rukkhadevata's legacy.\nIn Sumeru, those who dwell in the forest have a tradition of offering Rukkhashava Mushrooms to the Akademiya, but no one knows what these offerings are meant to be used for. Word has it that the Akademiya always performs a secret annual ritual at the Sanctuary of Surasthana, during which the sages will consume these mushrooms to commemorate Lord Rukkhadevata's sacrifice.",
     "type": "Local Specialty (Sumeru)",
     "category": "Teyvat's Resources",
@@ -646,7 +646,7 @@
   "Henna Berry": {
     "name": "Henna Berry",
     "desc": "A fruit that grows even in the most hostile of desert environments. Its vibrant crimson fruits are made even more lovely against a backdrop of yellow sand.",
-    "longDesc": "A fruit that grows even in the most hostile of desert environments. Its vibrant crimson fruits are made even more lovely against a backdrop of yellow sand.\nThanks to its extremely bright color, after a simple treatment, it can be made into a pigment. An important part of the desert people's lives, it is said to have been used as a dye for the fiery banner of The Eremites. The red fabric follows them in all their travels. No matter where you are, whenever you see these fluttering textiles, you can almost feel the hot wind of their homeland on your skin.",
+    "longDesc": "A fruit that grows even in the most hostile of desert environments. Its vibrant crimson fruits are made even more lovely against a backdrop of yellow sand.\nThanks to its extremely bright color, after a simple treatment, it can be made into a pigment. An important part of the desert people's lives, it is said to have been used as a dye for the fiery banner of the Eremites. The red fabric follows them in all their travels. No matter where you are, whenever you see these fluttering textiles, you can almost feel the hot wind of their homeland on your skin.",
     "type": "Local Specialty (Sumeru)",
     "category": "Teyvat's Resources",
     "icon": "img/material/Henna_Berry.png",
@@ -1899,6 +1899,22 @@
     },
     "effect": "Restores 80 Stamina."
   },
+  "Extravagant Slumber": {
+    "name": "Extravagant Slumber",
+    "desc": "Layla's specialty. The scattered nuts are like stars dotted in the deep and quiet night sky. After just one bite, your body and mind after a day's work suddenly felt relaxed and peaceful. When you told Layla about that feeling, she showed a mixed expression of joy and regret — \"Th—That's great! Ah, if only it could work for me too.\"",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Extravagant_Slumber.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Layla",
+      "recipe": "Rose Custard"
+    },
+    "effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s."
+  },
   "Halvamazd": {
     "name": "Halvamazd",
     "desc": "Nahida's specialty. It is said that \"mazd\" means \"wisdom\" in Sumeru, and such delicate \"wisdom\" is simply irresistible. There is a gentle smile in Nahida's eyes: \"The sea anemone has helped the little fish and witnessed its growth, so it's only natural for the little fish to give something back.\"",
@@ -1914,6 +1930,38 @@
       "recipe": "Candied Ajilenakh Nut"
     },
     "effect": "Increases all party members' DEF by 282 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
+  "Traditionally-Made Charcoal-Baked Ajilenakh Cake": {
+    "name": "Traditionally-Made Charcoal-Baked Ajilenakh Cake",
+    "desc": "Faruzan's specialty. The dark and sweet cake, lying as it does atop a minty-green sauce bed, almost looks like some enigmatic mechanism. Your hesitation must have somehow reached Faruzan, for she then straightened up to assertively reassure you that this was a traditional dish in Sumeru and that its flavor is guaranteed. But you can't help wondering... Is it really a 'traditional' dish that catered to the tastes of Sumeru people a hundred year ago?",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/TraditionallyMade_CharcoalBaked_Ajilenakh_Cake.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Faruzan",
+      "recipe": "Charcoal-Baked Ajilenakh Cake"
+    },
+    "effect": "Revives the selected character and restores 20% of Max HP, then restores an additional 1500 HP."
+  },
+  "Shimi Chazuke": {
+    "name": "Shimi Chazuke",
+    "desc": "Wanderer's specialty. The mildly bitter fragrance of tea and the refreshingly sweet aroma of rice are perfectly blended together, leaving you to wolf it down insatiably. How did he manage to cook something so extraordinary? Ah, your expression must have betrayed this thought to him, for his face suddenly turns grim: \"Have you finished yet? Stop gawking and go wash the dishes now.\"",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Shimi_Chazuke.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Wanderer",
+      "recipe": "Unagi Chazuke"
+    },
+    "effect": "Increases all party members' Healing Bonus by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
@@ -4646,7 +4694,7 @@
     "recipe": [
       {
         "count": 3,
-        "name": "Unagi Meat"
+        "name": "Eel Meat"
       },
       {
         "count": 1,
@@ -4784,7 +4832,7 @@
     "recipe": [
       {
         "count": 4,
-        "name": "Unagi Meat"
+        "name": "Eel Meat"
       },
       {
         "count": 3,
@@ -5749,6 +5797,36 @@
       "Delicious Rose Custard": "Restores 22% of Max HP to the selected character and regenerates 470 HP every 5s for 30s."
     }
   },
+  "Samosa": {
+    "name": "Samosa",
+    "desc": "A deep-fried snack. Each golden, crispy pocket is stuffed full with a soft, glutinous filling. You can't help but wolf one down immediately, and then reach out for a second one, taking your time to savor it... Piece by piece, you become lost in the dish's enticing aroma, and before you know it, you are only left with an empty plate.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Samosa.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 1,
+        "name": "Flour"
+      },
+      {
+        "count": 1,
+        "name": "Spice"
+      }
+    ],
+    "effect": {
+      "Suspicious Samosa": "Restores 20% of Max HP and an additional 900 HP to the selected character.",
+      "Samosa": "Restores 22% of Max HP and an additional 1,200 HP to the selected character.",
+      "Delicious Samosa": "Restores 24% of Max HP and an additional 1,500 HP to the selected character."
+    }
+  },
   "Rice Pudding": {
     "name": "Rice Pudding",
     "desc": "A dessert made from rice. The soft, sticky rice and the sweet milk have melded together perfectly, their tastes complementing each other. If you eat it hot, you can enjoy the dense rice grains, and if you leave it till it's cold, you can savor the gentle fragrance of milk — each possessing its own beauty. People who eat such a dish cannot help but wonder: how many experiments led up to this moment?",
@@ -6477,12 +6555,12 @@
       "Dropped by animals"
     ]
   },
-  "Unagi Meat": {
-    "name": "Unagi Meat",
-    "desc": "The fresh meat of an Unagi. If handled properly, it can be used to make fresh, lovely food.",
+  "Eel Meat": {
+    "name": "Eel Meat",
+    "desc": "The fresh meat of an Unagi/Eel. If handled properly, it can be used to make fresh, lovely food.",
     "type": "Cooking Ingredient",
     "category": "Food and Potions",
-    "icon": "img/material/Unagi_Meat.png",
+    "icon": "img/material/Eel_Meat.png",
     "sources": [
       "Found in the wild",
       "Recommendation: Found on Watatsumi Island"
@@ -6856,7 +6934,7 @@
   },
   "Puppet Strings": {
     "name": "Puppet Strings",
-    "desc": "Tubes that were inserted into the mechanical puppet's back. The colors that flow within them are sometimes dull, and at others, vibrant. The contrast is so great as to be fearful.\nThey provided power to the mechanical puppet, and at the same time served as its strings, controlling it and binding it.\nOnce the support of these tubes is lost, the puppet becomes as weak as a newborn babe, barely able to even move.",
+    "desc": "Tubes that were inserted into the mechanical puppet's back. The colors that flow within them are sometimes dull, and at others, vibrant. The contrast is so great as to be fearful.\nThey provided power to the mechanical puppet, and at the same time served as its strings, controlling it and binding it.\nOnce the support of these tubes is lost, the puppet becomes as weak as a newborn infant, barely able to even move.",
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
@@ -6961,7 +7039,7 @@
     "category": "Trophies",
     "icon": "img/material/Juvenile_Jade.png",
     "sources": [
-      "Dropped by Lv. 30+ primo geovishaps"
+      "Dropped by Lv. 30+ Primo Geovishaps"
     ]
   },
   "Crystalline Bloom": {
@@ -7164,7 +7242,7 @@
   },
   "Agnidus Agate Sliver": {
     "name": "Agnidus Agate Sliver",
-    "desc": "Character Ascension Material.",
+    "desc": "Character Ascension material.",
     "stars": 2,
     "type": "Character Level-Up Material",
     "category": "Trophies",
@@ -7216,7 +7294,7 @@
   },
   "Varunada Lazurite Sliver": {
     "name": "Varunada Lazurite Sliver",
-    "desc": "Character Ascension Material.",
+    "desc": "Character Ascension material.",
     "stars": 2,
     "type": "Character Level-Up Material",
     "category": "Trophies",
@@ -7268,7 +7346,7 @@
   },
   "Vajrada Amethyst Sliver": {
     "name": "Vajrada Amethyst Sliver",
-    "desc": "Character Ascension Material.",
+    "desc": "Character Ascension material.",
     "stars": 2,
     "type": "Character Level-Up Material",
     "category": "Trophies",
@@ -7324,7 +7402,7 @@
   },
   "Vayuda Turquoise Sliver": {
     "name": "Vayuda Turquoise Sliver",
-    "desc": "Character Ascension Material.",
+    "desc": "Character Ascension material.",
     "stars": 2,
     "type": "Character Level-Up Material",
     "category": "Trophies",
@@ -7372,7 +7450,7 @@
   },
   "Shivada Jade Sliver": {
     "name": "Shivada Jade Sliver",
-    "desc": "Character Ascension Material.",
+    "desc": "Character Ascension material.",
     "stars": 2,
     "type": "Character Level-Up Material",
     "category": "Trophies",
@@ -7424,7 +7502,7 @@
   },
   "Prithiva Topaz Sliver": {
     "name": "Prithiva Topaz Sliver",
-    "desc": "Character Ascension Material.",
+    "desc": "Character Ascension material.",
     "stars": 2,
     "type": "Character Level-Up Material",
     "category": "Trophies",
@@ -7480,7 +7558,7 @@
   },
   "Nagadus Emerald Sliver": {
     "name": "Nagadus Emerald Sliver",
-    "desc": "Character Ascension Material.",
+    "desc": "Character Ascension material.",
     "stars": 2,
     "type": "Character Level-Up Material",
     "category": "Trophies",
@@ -8498,8 +8576,8 @@
     "category": "Trophies",
     "icon": "img/material/Fragile_Bone_Shard.png",
     "sources": [
-      "Dropped by geovishap hatchlings",
-      "Dropped by geovishaps",
+      "Dropped by Geovishap Hatchlings",
+      "Dropped by Geovishaps",
       "Dropped by Bathysmal Vishaps",
       "Stardust Exchange"
     ]
@@ -8513,8 +8591,8 @@
     "icon": "img/material/Sturdy_Bone_Shard.png",
     "sources": [
       "Crafted",
-      "Dropped by Lv. 40+ geovishap hatchlings",
-      "Dropped by Lv. 40+ geovishaps",
+      "Dropped by Lv. 40+ Geovishap Hatchlings",
+      "Dropped by Lv. 40+ Geovishaps",
       "Dropped by Lv. 40+ Bathysmal Vishaps",
       "Stardust Exchange"
     ]
@@ -8528,8 +8606,8 @@
     "icon": "img/material/Fossilized_Bone_Shard.png",
     "sources": [
       "Crafted",
-      "Dropped by Lv. 60+ geovishap hatchlings",
-      "Dropped by Lv. 60+ geovishaps",
+      "Dropped by Lv. 60+ Geovishap Hatchlings",
+      "Dropped by Lv. 60+ Geovishaps",
       "Dropped by Lv. 60+ Bathysmal Vishaps"
     ]
   },
@@ -9713,7 +9791,7 @@
   },
   "Mini Seelie: Moss": {
     "name": "Mini Seelie: Moss",
-    "desc": "A memento from the \"Lost Riches\" event. Equip it to obtain a mini Seelie companion.\nA miniature green Seelie. It becomes most happy indeed when it gets close to a tree.",
+    "desc": "A memento from the Lost Riches event. Equip it to obtain a mini Seelie companion.\nA miniature green Seelie. It becomes most happy indeed when it gets close to a tree.",
     "stars": 4,
     "type": "Gadget",
     "category": "Utility Items",
@@ -9918,5 +9996,13 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "img/material/Cloud_Retainers_Damasked_Device.png"
+  },
+  "Casket of Tomes": {
+    "name": "Casket of Tomes",
+    "desc": "A box for cards released by the Genius Invokation TCG Society. Only beginners who have learned the basic rules and are verified as players can collect one.\nThey say that these boxes were made by researchers from the Sumeru Akademiya, and that they feature a special mechanism that can be used to detect nearby people who also possess Caskets of Tomes.\nUse this function to engage in more matches against nearby players!",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Casket_of_Tomes.png"
   }
 }

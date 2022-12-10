@@ -1186,5 +1186,71 @@
       50,
       51
     ]
+  },
+  "54": {
+    "start": "2022-12-16 04:00:00",
+    "end": "2023-01-01 03:59:59",
+    "buff": "Terminal Moon",
+    "buffDesc": "After the active character's Normal, Charged, or Plunging Attack deals DMG to an opponent, the character will gain a 10% corresponding Elemental or Physical DMG Bonus of that attack for 4s. This effect can be triggered once every 1s. Max 6 stacks. It will be removed when the character leaves the field or deals a different type of Elemental or Physical DMG.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      44,
+      45,
+      52,
+      53
+    ]
+  },
+  "55": {
+    "start": "2023-01-01 04:00:00",
+    "end": "2023-01-16 03:59:59",
+    "buff": "Breezecall Moon",
+    "buffDesc": "After the active character triggers a Swirl reaction, all party members will have their CRIT DMG increased by 20% for 8s. Max 3 stacks. This effect can be triggered once every 1s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      44,
+      45,
+      52,
+      53
+    ]
+  },
+  "56": {
+    "start": "2023-01-16 04:00:00",
+    "end": "2023-02-01 03:59:59",
+    "buff": "Supreme Moon",
+    "buffDesc": "When the active character deals consecutive instances of Elemental DMG of the same Elemental Type using Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts to an opponent, they will gain 1 count stack. 1 stack can be gained every 1s. After 5 stacks have been gained, a shockwave will be unleashed at the opponent's position, dealing True DMG and clearing all heretofore accumulated stacks. Should the active character leave the field or deal a different type of Elemental DMG, these stacks will also be cleared. Dealing Physical DMG will not clear the stacks.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      44,
+      45,
+      52,
+      53
+    ]
   }
 }
