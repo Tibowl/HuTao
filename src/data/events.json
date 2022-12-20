@@ -2076,7 +2076,8 @@
     {
         "name": "\"Akitsu Kimodameshi\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/12/05/e0c2a8d34c5a31f2a7accb7b4ee27b6b_4873751072739650967.jpg",
+        "link": "https://www.hoyolab.com/article/14330068",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/12/12/9a8c5fc4be67b4b412e2ff8290ab2cb4_6803040218291885387.jpg",
         "start": "2022-12-15 10:00:00",
         "end": "2023-01-02 03:59:00",
         "reminder": "end"

@@ -3016,10 +3016,119 @@
   },
   "52": {
     "teams": 2,
-    "leyline": "All characters in the party gain a 75% Anemo DMG Bonus."
+    "leyline": "All characters in the party gain a 75% Anemo DMG Bonus.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 88,
+        "conds": "More than 20/40/60% HP left",
+        "monsters": [
+          [
+            "Hydro Specter",
+            "Cryo Specter",
+            "Pyro Specter",
+            "Large Cryo Slime",
+            "Large Hydro Slime",
+            "Large Pyro Slime",
+            "Cryo Slime",
+            "Hydro Slime",
+            "Pyro Slime"
+          ],
+          [
+            "Primal Construct: Repulsor",
+            "Primal Construct: Reshaper",
+            "Primal Construct: Prospector"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 90,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Abyss Lector: Fathomless Flames",
+            "Pyro Abyss Mage",
+            "Cryo Abyss Mage",
+            "Hydro Abyss Mage"
+          ],
+          [
+            "Ruin Drake: Earthguard",
+            "Ruin Destroyer"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 92,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Mirror Maiden",
+            "Fatui Skirmisher - Pyroslinger Bracer",
+            "Fatui Skirmisher - Cryogunner Legionnaire",
+            "Winged Dendroshroom",
+            "Winged Cryoshroom",
+            "Grounded Hydroshroom",
+            "Grounded Geoshroom"
+          ],
+          [
+            "Ruin Drake: Skywatch"
+          ]
+        ]
+      }
+    ]
   },
   "53": {
     "teams": 2,
-    "leyline": "For this floor only, the Ley Line flow will be normal."
+    "leyline": "For this floor only, the Ley Line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 95,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Perpetual Mechanical Array"
+          ],
+          [
+            "Eremite Stone Enchanter",
+            "Fatui Skirmisher - Geochanter Bracer",
+            "Eremite Desert Clearwater",
+            "Eremite Sunfrost"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 98,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Eremite Galehunter",
+            "Primal Construct: Repulsor",
+            "Primal Construct: Reshaper",
+            "Primal Construct: Prospector"
+          ],
+          [
+            "Golden Wolflord"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 100,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Jadeplume Terrorshroom"
+          ],
+          [
+            "Rockfond Rifthound",
+            "Rockfond Rifthound Whelp"
+          ]
+        ]
+      }
+    ]
   }
 }
