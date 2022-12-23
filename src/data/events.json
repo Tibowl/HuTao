@@ -2050,8 +2050,8 @@
     {
         "name": "Event Wish \"Reign of Serenity\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/okKzO04.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/14503241",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/12/22/462a3948a313b5dc39f98394201721c1_7886600083587432893.jpg",
         "start": "2022-12-27 18:00:00",
         "end": "2023-01-17 14:59:00",
         "reminder": "end"
@@ -2059,8 +2059,8 @@
     {
         "name": "Event Wish \"Azure Excursion\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/okKzO04.png",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/14503241",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/12/22/407335279651b6b3c0a143571c7c85c1_8866268625170900413.jpg",
         "start": "2022-12-27 18:00:00",
         "end": "2023-01-17 14:59:00",
         "reminder": "end"
@@ -2068,7 +2068,8 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/14503241",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/12/22/ca62379a11258999282864d194ef6c98_6151170254646431929.jpg",
         "start": "2022-12-27 18:00:00",
         "end": "2023-01-17 14:59:00",
         "reminder": "end"
@@ -2086,12 +2087,17 @@
         "name": "\"Across the Wilderness\" Event",
         "type": "In-game",
         "img": "https://i.imgur.com/9ozbi1v.png",
+        "start": "2023-01-03 10:00:00",
+        "end": "2023-01-13 03:59:00",
         "reminder": "end"
     },
     {
         "name": "\"Windtrace\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/CQquncO.png",
+        "link": "https://www.hoyolab.com/article/14482793",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/12/20/1b976ff28ae8192960f4e6667e8fe26f_659233898075381829.jpg",
+        "start": "2022-12-23 10:00:00",
+        "end": "2023-01-06 03:59:00",
         "reminder": "end"
     },
     {
@@ -2107,13 +2113,15 @@
         "name": "\"Ley Line Overflow\" Event",
         "type": "In-game",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2022/09/16/d76cdab75f5f952a213e564f6b0a5a51_8696584731126418758.jpg",
+        "start": "2023-01-09 04:00:00",
+        "end": "2023-01-16 03:59:00",
         "reminder": "daily"
     },
     {
         "name": "\"Fluttering Footsteps in the Fields\" Web Event",
         "type": "Web",
         "link": "https://www.hoyolab.com/article/14150297",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/12/03/c17c63d48fe67eaba5a846fba0afde85_8805992871444647946.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/12/03/c17c63d48fe67eaba5a846fba0afde85_8805992871444647946.jpg",
         "start": "2022-12-05 13:00:00",
         "end": "2022-12-10 23:59:00",
         "reminder": "end"
@@ -2125,6 +2133,15 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2022/11/23/0daa42b763415d31c255158097b6b8c4_9148213287295437715.jpg",
         "start": "2022-12-05 13:00:00",
         "end": "2022-12-14 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Tales of the Youkai\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/14486468",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/12/20/4cc491ccf1fd25eb61ab4cd03156bfac_4369246286290229582.jpg",
+        "start": "2022-12-21 13:00:00",
+        "end": "2022-12-30 23:59:00",
         "reminder": "end"
     }
 ]
