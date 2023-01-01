@@ -393,7 +393,7 @@ export interface Meta {
     birthMonth?:    number
     birthDay?:      number
     association?:   string
-    title:          string
+    title?:         string
     detail:         string
     affiliation?:   string
     element:        string
