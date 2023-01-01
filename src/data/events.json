@@ -2086,7 +2086,8 @@
     {
         "name": "\"Across the Wilderness\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/9ozbi1v.png",
+        "link": "https://www.hoyolab.com/article/14710888",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/12/30/fded655f2f834f788deb2f15bc3b11df_7657986003684666246.jpg",
         "start": "2023-01-03 10:00:00",
         "end": "2023-01-13 03:59:00",
         "reminder": "end"
