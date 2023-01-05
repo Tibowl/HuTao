@@ -2144,5 +2144,13 @@
         "start": "2022-12-21 13:00:00",
         "end": "2022-12-30 23:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "3.4 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/14794182",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/04/070baa582829f5a38f3c0173b0b428f4_17966985177243945.jpg",
+        "start": "2023-01-06 07:00:00",
+        "timezone": "-05:00"
     }
 ]
