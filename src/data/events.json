@@ -2113,7 +2113,8 @@
     {
         "name": "\"Ley Line Overflow\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/09/16/d76cdab75f5f952a213e564f6b0a5a51_8696584731126418758.jpg",
+        "link": "https://www.hoyolab.com/article/14868347",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/05/d76cdab75f5f952a213e564f6b0a5a51_155737532671932155.jpg",
         "start": "2023-01-09 04:00:00",
         "end": "2023-01-16 03:59:00",
         "reminder": "daily"
@@ -2152,5 +2153,77 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/04/070baa582829f5a38f3c0173b0b428f4_17966985177243945.jpg",
         "start": "2023-01-06 07:00:00",
         "timezone": "-05:00"
+    },
+    {
+        "name": "Event Wish \"Caution in Confidence\" + \"Invitation to Mundane Life\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/gWufO1R.jpeg",
+        "prediction": true,
+        "start": "2023-01-18 11:00:00",
+        "start_server": false,
+        "end": "2023-02-07 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2023-01-18 11:00:00",
+        "start_server": false,
+        "end": "2023-02-07 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Moment of Bloom\" + \"Discerner of Enigmas\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/NTimbZs.png",
+        "prediction": true,
+        "start": "2023-02-07 11:00:00",
+        "end": "2023-02-28 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "prediction": true,
+        "start": "2023-02-07 11:00:00",
+        "end": "2023-02-28 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"The Exquisite Night Chimes\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/0yrZYqI.jpeg",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Almighty Arataki Extraordinary and Exhilarating Extreme Beetle Brawl\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/y9rQHHj.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Warrior's Spirit\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/JWaK2Br.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Second Blooming\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/JXm0LJR.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"May Fortune Find You\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/12/30/1015537/7bd948c60dc45537c1f242d767849ec6_6963048355299034647.jpg",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Overflowing Mastery\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/05/20/1015537/c9b02763a29fe8f44b1b15bba97dbe64_1851936622699851326.jpg",
+        "reminder": "daily"
     }
 ]
