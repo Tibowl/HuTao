@@ -2147,6 +2147,15 @@
         "reminder": "end"
     },
     {
+        "name": "\"The Six Faces of Wisdom\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/14992761",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/13/675ad4a8038769ad73e30582612be32d_2104479523901234857.png",
+        "start": "2023-01-13 13:00:00",
+        "end": "2023-01-18 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "3.4 Special Program",
         "type": "Stream",
         "link": "https://www.hoyolab.com/article/14794182",
