@@ -2164,10 +2164,26 @@
         "timezone": "-05:00"
     },
     {
-        "name": "Event Wish \"Caution in Confidence\" + \"Invitation to Mundane Life\"",
+        "name": "3.4 Maintenance",
+        "type": "Maintenance",
+        "start": "2023-01-18 06:00:00",
+        "end": "2023-01-18 11:00:00"
+    },
+    {
+        "name": "Event Wish \"Caution in Confidence\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/gWufO1R.jpeg",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/15053172",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/16/d71adc63cb611e94ac65a26bf85aae68_1379863698991352912.jpg",
+        "start": "2023-01-18 11:00:00",
+        "start_server": false,
+        "end": "2023-02-07 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Invitation to Mundane Life\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/15053172",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/16/5cc53f6cfa9a1c01d41b1e852a8470c5_5912954181574851504.jpg",
         "start": "2023-01-18 11:00:00",
         "start_server": false,
         "end": "2023-02-07 17:59:00",
@@ -2176,63 +2192,111 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "prediction": true,
+        "link": "https://www.hoyolab.com/article/15053172",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/16/15926835258fc6be5689f40847ece213_5763941840204764849.jpg",
         "start": "2023-01-18 11:00:00",
         "start_server": false,
         "end": "2023-02-07 17:59:00",
         "reminder": "end"
     },
     {
-        "name": "Event Wish \"Moment of Bloom\" + \"Discerner of Enigmas\"",
+        "name": "Event Wish \"Moment of Bloom\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/NTimbZs.png",
-        "prediction": true,
-        "start": "2023-02-07 11:00:00",
-        "end": "2023-02-28 17:59:00",
+        "link": "https://www.hoyolab.com/article/15075039",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/17/2c59c1dac538a44c1b5255f0803c5989_2442189577017542597.jpg",
+        "start": "2023-02-07 18:00:00",
+        "end": "2023-02-28 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Discerner of Enigmas\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/15075039",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/17/cda28f32f7767f97f4f05f0c4c57dc75_8796919604549004823.jpg",
+        "start": "2023-02-07 18:00:00",
+        "end": "2023-02-28 14:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
-        "prediction": true,
-        "start": "2023-02-07 11:00:00",
-        "end": "2023-02-28 17:59:00",
+        "link": "https://www.hoyolab.com/article/15075039",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/17/4f3edc77b6df6302d0c66b0689a35cfc_145834798731240141.jpg",
+        "start": "2023-02-07 18:00:00",
+        "end": "2023-02-28 14:59:00",
         "reminder": "end"
     },
     {
         "name": "\"The Exquisite Night Chimes\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/0yrZYqI.jpeg",
+        "link": "https://www.hoyolab.com/article/15074939",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/17/46b3039ccd839cda4bbdb943c9307650_5547452625956798858.jpg",
+        "start": "2023-01-19 10:00:00",
+        "end": "2023-02-06 03:59:59",
         "reminder": "end"
     },
     {
         "name": "\"Almighty Arataki Extraordinary and Exhilarating Extreme Beetle Brawl\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/y9rQHHj.png",
+        "link": "https://www.hoyolab.com/article/15074939",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/17/3335405ce66b27452067586ed3f001d1_314426184941108966.jpg",
+        "start": "2023-02-16 10:00:00",
+        "end": "2023-02-27 03:59:59",
         "reminder": "end"
     },
     {
         "name": "\"Warrior's Spirit\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/JWaK2Br.png",
+        "link": "https://www.hoyolab.com/article/15074939",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/17/d325c99e3522d1ee6c401f502645fcc5_6398400007406708272.jpg",
+        "start": "2023-02-09 10:00:00",
+        "end": "2023-02-20 03:59:59",
         "reminder": "end"
     },
     {
         "name": "\"Second Blooming\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/JXm0LJR.png",
+        "link": "https://www.hoyolab.com/article/15074939",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/17/c76f9644a3876fc15c36b4aa5f049626_1007626116543411009.jpg",
+        "start": "2023-01-31 10:00:00",
+        "end": "2023-02-13 03:59:59",
         "reminder": "end"
     },
     {
         "name": "\"May Fortune Find You\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2021/12/30/1015537/7bd948c60dc45537c1f242d767849ec6_6963048355299034647.jpg",
+        "link": "https://www.hoyolab.com/article/15074968",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/17/3cbfe86ad974a099cd81ce85539d5b5f_6971642170952958004.jpg",
+        "start": "2023-01-19 04:00:00",
+        "end": "2023-02-03 03:59:59",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Iridescent Splendor\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/15074968",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/17/12a987f966e07887642c02b1ae79ce6d_332972570961311596.jpg",
+        "start": "2023-02-05 00:00:00",
+        "end": "2023-03-01 03:59:59",
+        "end_server": false,
         "reminder": "end"
     },
     {
         "name": "\"Overflowing Mastery\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2022/05/20/1015537/c9b02763a29fe8f44b1b15bba97dbe64_1851936622699851326.jpg",
+        "link": "https://www.hoyolab.com/article/15074968",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/17/713e290d673605bb82d2832ae54d75fd_7695223179940458996.jpg",
+        "start": "2023-02-20 04:00:00",
+        "end": "2023-02-27 03:59:59",
+        "reminder": "daily"
+    },
+    {
+        "name": "\"Genius Invokation TCG\" Heated Battle Mode: Omnipotent Guide",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/15074968",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/17/4c22555d6d258b1dbb583c39f598c3ec_4636866007876656514.jpg",
+        "start": "2023-01-28 10:00:00",
+        "end": "2023-02-06 03:59:59",
         "reminder": "daily"
     }
 ]
