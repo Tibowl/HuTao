@@ -552,6 +552,592 @@
       }
     }
   },
+  "Alhaitham": {
+    "name": "Alhaitham",
+    "desc": "The current scribe of the Sumeru Akademiya, a man endowed with extraordinary intelligence and talent. He lives free — free from the searching eyes of ordinary people, anyway.",
+    "releasedOn": "2023-01-17 00:00:00",
+    "star": 5,
+    "weaponType": "Sword",
+    "icon": "img/char/Alhaitham.png",
+    "media": {
+      "imgs": [
+        "img/char_full/Alhaitham.png"
+      ]
+    },
+    "baseStats": {
+      "hpBase": 1039.1187744140625,
+      "attackBase": 24.392200469970703,
+      "defenseBase": 60.847110748291016,
+      "criticalBase": 0.05000000074505806,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 2,
+      "birthDay": 11,
+      "association": "Sumeru",
+      "title": "Admonishing Instruction",
+      "detail": "The current scribe of the Sumeru Akademiya, a man endowed with extraordinary intelligence and talent. He lives free — free from the searching eyes of ordinary people, anyway.",
+      "affiliation": "Sumeru Akademiya",
+      "element": "Dendro",
+      "constellation": "Vultur Volans",
+      "cvChinese": "杨超然",
+      "cvJapanese": "梅原裕一郎",
+      "cvEnglish": "Nazeeh Tarsha",
+      "cvKorean": "Jun Seung-hwa"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Abductive Reasoning",
+            "desc": "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "img/skill/Common_Sword.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "49.5%",
+                  "53.6%",
+                  "57.6%",
+                  "63.3%",
+                  "67.4%",
+                  "72.0%",
+                  "78.3%",
+                  "84.7%",
+                  "91.0%",
+                  "97.9%",
+                  "104.8%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "50.7%",
+                  "54.9%",
+                  "59.0%",
+                  "64.9%",
+                  "69.0%",
+                  "73.8%",
+                  "80.3%",
+                  "86.7%",
+                  "93.2%",
+                  "100.3%",
+                  "107.4%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "34.2%+34.2%",
+                  "37.0%+37.0%",
+                  "39.7%+39.7%",
+                  "43.7%+43.7%",
+                  "46.5%+46.5%",
+                  "49.7%+49.7%",
+                  "54.0%+54.0%",
+                  "58.4%+58.4%",
+                  "62.8%+62.8%",
+                  "67.6%+67.6%",
+                  "72.3%+72.3%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "66.8%",
+                  "72.2%",
+                  "77.6%",
+                  "85.4%",
+                  "90.8%",
+                  "97.0%",
+                  "105.6%",
+                  "114.1%",
+                  "122.7%",
+                  "132.0%",
+                  "141.3%"
+                ]
+              },
+              {
+                "name": "5-Hit DMG",
+                "values": [
+                  "83.9%",
+                  "90.7%",
+                  "97.5%",
+                  "107.3%",
+                  "114.1%",
+                  "121.9%",
+                  "132.6%",
+                  "143.3%",
+                  "154.1%",
+                  "165.8%",
+                  "177.5%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "55.3%+55.3%",
+                  "59.8%+59.8%",
+                  "64.2%+64.2%",
+                  "70.7%+70.7%",
+                  "75.2%+75.2%",
+                  "80.3%+80.3%",
+                  "87.4%+87.4%",
+                  "94.4%+94.4%",
+                  "101.5%+101.5%",
+                  "109.2%+109.2%",
+                  "116.9%+116.9%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "20.0"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "63.9%",
+                  "69.1%",
+                  "74.3%",
+                  "81.8%",
+                  "87.0%",
+                  "92.9%",
+                  "101.1%",
+                  "109.3%",
+                  "117.5%",
+                  "126.4%",
+                  "135.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "128%/160%",
+                  "138%/173%",
+                  "149%/186%",
+                  "164%/204%",
+                  "174%/217%",
+                  "186%/232%",
+                  "202%/253%",
+                  "219%/273%",
+                  "235%/293%",
+                  "253%/316%",
+                  "271%/338%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Ingenuity",
+                "BossMat": "Mirror of Mushin",
+                "EnemyDropTier1": "Faded Red Satin",
+                "EnemyDropTier2": "Trimmed Red Silk",
+                "EnemyDropTier3": "Rich Red Brocade"
+              }
+            }
+          },
+          {
+            "name": "Universality: An Elaboration on Form",
+            "desc": "Rushes forward, dealing **Dendro DMG** to nearby opponents when the rush ends, causing a Chisel-Light Mirror to form.\nHolding this skill will cause it to behave differently.\n\n**Hold**\nEnters Aiming Mode to adjust the direction of Alhaitham's rush attack.\n\n**Chisel-Light Mirror**\nWhen this skill is unleashed, Alhaitham will generate 1 Chisel-Light Mirror. If there are no Mirrors at this time, he will generate 1 additional Mirror. Chisel-Light Mirrors will have the following properties:\n·When he possesses Chisel-Light Mirrors, Alhaitham's Normal, Charged, and Plunging Attacks will be converted to **Dendro DMG**. This cannot be overridden.\n·When attacks of the aforementioned kind hit opponents, the Chisel-Light Mirrors will unleash a Projection Attack that deals **AoE Dendro DMG** based on the number of Mirrors on the field.\n·A total of 3 Chisel-Light Mirrors can exist at once.\n·The Chisel-Light Mirrors will disappear one after the other over time, and will all disappear when Alhaitham leaves the field.\n\n**\"Truth inherently exists amidst uncertainty. Even the greatest of scholars are not immune to error.\"**",
+            "icon": "img/skill/Alhaitham_1.png",
+            "talentTable": [
+              {
+                "name": "Rush Attack DMG",
+                "values": [
+                  "193.6% ATK+154.9% Elemental Mastery",
+                  "208.1% ATK+166.5% Elemental Mastery",
+                  "222.6% ATK+178.1% Elemental Mastery",
+                  "242.0% ATK+193.6% Elemental Mastery",
+                  "256.5% ATK+205.2% Elemental Mastery",
+                  "271.0% ATK+216.8% Elemental Mastery",
+                  "290.4% ATK+232.3% Elemental Mastery",
+                  "309.8% ATK+247.8% Elemental Mastery",
+                  "329.1% ATK+263.3% Elemental Mastery",
+                  "348.5% ATK+278.8% Elemental Mastery",
+                  "367.8% ATK+294.3% Elemental Mastery",
+                  "387.2% ATK+309.8% Elemental Mastery",
+                  "411.4% ATK+329.1% Elemental Mastery"
+                ]
+              },
+              {
+                "name": "Projection Attack Interval",
+                "value": "1.6s"
+              },
+              {
+                "name": "1-Mirror Projection Attack DMG",
+                "values": [
+                  "67.2% ATK+134.4% Elemental Mastery",
+                  "72.2% ATK+144.5% Elemental Mastery",
+                  "77.3% ATK+154.6% Elemental Mastery",
+                  "84.0% ATK+168.0% Elemental Mastery",
+                  "89.0% ATK+178.1% Elemental Mastery",
+                  "94.1% ATK+188.2% Elemental Mastery",
+                  "100.8% ATK+201.6% Elemental Mastery",
+                  "107.5% ATK+215.0% Elemental Mastery",
+                  "114.2% ATK+228.5% Elemental Mastery",
+                  "121.0% ATK+241.9% Elemental Mastery",
+                  "127.7% ATK+255.4% Elemental Mastery",
+                  "134.4% ATK+268.8% Elemental Mastery",
+                  "142.8% ATK+285.6% Elemental Mastery"
+                ]
+              },
+              {
+                "name": "2-Mirror Projection Attack DMG",
+                "values": [
+                  "(67.2% ATK+134.4% Elemental Mastery)×2",
+                  "(72.2% ATK+144.5% Elemental Mastery)×2",
+                  "(77.3% ATK+154.6% Elemental Mastery)×2",
+                  "(84.0% ATK+168.0% Elemental Mastery)×2",
+                  "(89.0% ATK+178.1% Elemental Mastery)×2",
+                  "(94.1% ATK+188.2% Elemental Mastery)×2",
+                  "(100.8% ATK+201.6% Elemental Mastery)×2",
+                  "(107.5% ATK+215.0% Elemental Mastery)×2",
+                  "(114.2% ATK+228.5% Elemental Mastery)×2",
+                  "(121.0% ATK+241.9% Elemental Mastery)×2",
+                  "(127.7% ATK+255.4% Elemental Mastery)×2",
+                  "(134.4% ATK+268.8% Elemental Mastery)×2",
+                  "(142.8% ATK+285.6% Elemental Mastery)×2"
+                ]
+              },
+              {
+                "name": "3-Mirror Projection Attack DMG",
+                "values": [
+                  "(67.2% ATK+134.4% Elemental Mastery)×3",
+                  "(72.2% ATK+144.5% Elemental Mastery)×3",
+                  "(77.3% ATK+154.6% Elemental Mastery)×3",
+                  "(84.0% ATK+168.0% Elemental Mastery)×3",
+                  "(89.0% ATK+178.1% Elemental Mastery)×3",
+                  "(94.1% ATK+188.2% Elemental Mastery)×3",
+                  "(100.8% ATK+201.6% Elemental Mastery)×3",
+                  "(107.5% ATK+215.0% Elemental Mastery)×3",
+                  "(114.2% ATK+228.5% Elemental Mastery)×3",
+                  "(121.0% ATK+241.9% Elemental Mastery)×3",
+                  "(127.7% ATK+255.4% Elemental Mastery)×3",
+                  "(134.4% ATK+268.8% Elemental Mastery)×3",
+                  "(142.8% ATK+285.6% Elemental Mastery)×3"
+                ]
+              },
+              {
+                "name": "Chisel-Light Mirror Removal Interval",
+                "value": "4.0s"
+              },
+              {
+                "name": "CD",
+                "value": "18.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Ingenuity",
+                "BossMat": "Mirror of Mushin",
+                "EnemyDropTier1": "Faded Red Satin",
+                "EnemyDropTier2": "Trimmed Red Silk",
+                "EnemyDropTier3": "Rich Red Brocade"
+              }
+            }
+          }
+        ],
+        "ult": {
+          "name": "Particular Field: Fetters of Phenomena",
+          "desc": "Creates a Particular Binding Field and deals multiple instances of **AoE Dendro DMG**.\nIf Chisel-Light Mirrors exist when this ability is unleashed, all such Mirrors will be consumed and increase the number of DMG instances dealt.\n2s after this ability is unleashed, if 0/1/2/3 Mirrors were consumed, Alhaitham will generate 3/2/1/0 new Mirrors in turn.\n\n**\"If a researcher makes wisdom their goal, then they should be prepared to make an enemy of every word they read. Only then can they avoid bias.\"**",
+          "icon": "img/skill/Alhaitham_2.png",
+          "talentTable": [
+            {
+              "name": "Single-Instance DMG",
+              "values": [
+                "121.6% ATK+97.3% Elemental Mastery",
+                "130.7% ATK+104.6% Elemental Mastery",
+                "139.8% ATK+111.9% Elemental Mastery",
+                "152.0% ATK+121.6% Elemental Mastery",
+                "161.1% ATK+128.9% Elemental Mastery",
+                "170.2% ATK+136.2% Elemental Mastery",
+                "182.4% ATK+145.9% Elemental Mastery",
+                "194.6% ATK+155.6% Elemental Mastery",
+                "206.7% ATK+165.4% Elemental Mastery",
+                "218.9% ATK+175.1% Elemental Mastery",
+                "231.0% ATK+184.8% Elemental Mastery",
+                "243.2% ATK+194.6% Elemental Mastery",
+                "258.4% ATK+206.7% Elemental Mastery"
+              ]
+            },
+            {
+              "name": "Basic Attack Instances",
+              "value": "4"
+            },
+            {
+              "name": "1-Mirror Attack Instances",
+              "value": "6"
+            },
+            {
+              "name": "2-Mirror Attack Instances",
+              "value": "8"
+            },
+            {
+              "name": "3-Mirror Attack Instances",
+              "value": "10"
+            },
+            {
+              "name": "CD",
+              "value": "18.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "70"
+            }
+          ],
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Ingenuity",
+              "BossMat": "Mirror of Mushin",
+              "EnemyDropTier1": "Faded Red Satin",
+              "EnemyDropTier2": "Trimmed Red Silk",
+              "EnemyDropTier3": "Rich Red Brocade"
+            }
+          },
+          "type": "Dendro"
+        },
+        "passive": [
+          {
+            "name": "Four-Causal Correction",
+            "desc": "When Alhaitham's Charged or Plunging Attacks hit opponents, they will generate 1 Chisel-Light Mirror. This effect can be triggered once every 12s.",
+            "icon": "img/skill/Alhaitham_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "Mysteries Laid Bare",
+            "desc": "Each point of Alhaitham's Elemental Mastery will increase the DMG dealt by Projection Attacks and **Particular Field: Fetters of Phenomena** by 0.1%.\nThe DMG of both aforementioned abilities can be increased by a maximum of 100% this way.",
+            "icon": "img/skill/Alhaitham_4.png",
+            "minAscension": 4
+          },
+          {
+            "name": "Law of Reductive Overdetermination",
+            "desc": "When Alhaitham crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.",
+            "icon": "img/skill/Alhaitham_5.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Intuition",
+            "desc": "When a Projection Attack hits an opponent, **Universality: An Elaboration on Form**'s CD is decreased by 1.2s. This effect can be triggered once every 1s.",
+            "icon": "img/const/Alhaitham_1.png"
+          },
+          {
+            "name": "Debate",
+            "desc": "When Alhaitham generates a Chisel-Light Mirror, his Elemental Mastery will be increased by 50 for 8 seconds, max 4 stacks. Each stack's duration is counted independently. This effect can be triggered even when the maximum number of Chisel-Light Mirrors has been reached.",
+            "icon": "img/const/Alhaitham_2.png"
+          },
+          {
+            "name": "Negation",
+            "desc": "Increases the Level of **Universality: An Elaboration on Form** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Alhaitham_3.png"
+          },
+          {
+            "name": "Elucidation",
+            "desc": "When **Particular Field: Fetters of Phenomena** is unleashed, the following effects will become active based on the number of Chisel-Light Mirrors consumed and created this time around:\n·Each Mirror consumed will increase the Elemental Mastery of all other nearby party members by 30 for 15s.\n·Each Mirror generated will grant Alhaitham a 10% **Dendro DMG Bonus** for 15s.\n\nThe pre-existing duration of the aforementioned effects will be cleared if you use Particular Field: Fetters of Phenomena again while they are in effect.",
+            "icon": "img/const/Alhaitham_4.png"
+          },
+          {
+            "name": "Sagacity",
+            "desc": "Increases the Level of **Particular Field: Fetters of Phenomena** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Alhaitham_5.png"
+          },
+          {
+            "name": "Structuration",
+            "desc": "Alhaitham gains the following effects:\n· 2 seconds after **Particular Field: Fetters of Phenomena** is unleashed, he will generate 3 Chisel-Light Mirrors regardless of the number of mirrors consumed.\n· If Alhaitham generates Chisel-Light Mirrors when their numbers have already maxed out, his CRIT Rate and CRIT DMG will increase by 10% and 70% respectively for 6s. If this effect is triggered again during its initial duration, the duration remaining will be increased by 6s.",
+            "icon": "img/const/Alhaitham_6.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "Dendro DMG Bonus",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 890.950439453125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 52.17210006713867
+          },
+          {
+            "stat": "Base ATK",
+            "value": 20.912578582763672
+          },
+          {
+            "stat": "Dendro DMG Bonus",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1523.994140625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 89.24175262451172
+          },
+          {
+            "stat": "Base ATK",
+            "value": 35.771514892578125
+          },
+          {
+            "stat": "Dendro DMG Bonus",
+            "value": 0.07199999690055847
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2368.052490234375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 138.66795349121094
+          },
+          {
+            "stat": "Base ATK",
+            "value": 55.583431243896484
+          },
+          {
+            "stat": "Dendro DMG Bonus",
+            "value": 0.14399999380111694
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3001.09619140625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 175.7375946044922
+          },
+          {
+            "stat": "Base ATK",
+            "value": 70.44236755371094
+          },
+          {
+            "stat": "Dendro DMG Bonus",
+            "value": 0.14399999380111694
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3634.139892578125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 212.8072509765625
+          },
+          {
+            "stat": "Base ATK",
+            "value": 85.30130767822266
+          },
+          {
+            "stat": "Dendro DMG Bonus",
+            "value": 0.2160000056028366
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 4267.18359375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 249.8769073486328
+          },
+          {
+            "stat": "Base ATK",
+            "value": 100.16024017333984
+          },
+          {
+            "stat": "Dendro DMG Bonus",
+            "value": 0.2879999876022339
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Pseudo-Stamens",
+        "EnemyDropTier1": "Faded Red Satin",
+        "EnemyDropTier2": "Trimmed Red Silk",
+        "EnemyDropTier3": "Rich Red Brocade",
+        "Gem1": "Nagadus Emerald Sliver",
+        "Gem2": "Nagadus Emerald Fragment",
+        "Gem3": "Nagadus Emerald Chunk",
+        "Gem4": "Nagadus Emerald Gemstone",
+        "Specialty": "Sand Grease Pupa"
+      }
+    }
+  },
   "Aloy": {
     "name": "Aloy",
     "desc": "Formerly an outcast, now a hunter of unparalleled skill. Ready to do the right thing at any time.",
@@ -2588,7 +3174,7 @@
             "icon": "img/const/Barbara_3.png"
           },
           {
-            "name": "Attentiveness be My Power",
+            "name": "Attentiveness Be My Power",
             "desc": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her.\nA maximum of 5 energy can be regenerated in this manner with any one Charged Attack.",
             "icon": "img/const/Barbara_4.png"
           },
@@ -9035,7 +9621,7 @@
         "constellations": [
           {
             "name": "Truth by Any Means",
-            "desc": "Faruzan can fire off a maximum of 2 Hurricane Arrows using fully charged Aimed Shots while under the effect of a single Manifest Gale created by  **Wind Realm of Nasamjnin**.",
+            "desc": "Faruzan can fire off a maximum of 2 Hurricane Arrows using fully charged Aimed Shots while under the effect of a single Manifest Gale created by **Wind Realm of Nasamjnin**.",
             "icon": "img/const/Faruzan_1.png"
           },
           {
@@ -9567,7 +10153,7 @@
           },
           {
             "name": "Undone Be Thy Sinful Hex",
-            "desc": "If your current active character triggers an **Electro-related Elemental Reaction** when Oz is on the field, the opponent shall be stricken with Thundering Retribution, dealing **Electro DMG** equal to 80% of Fischl's ATK.",
+            "desc": "If your current active character triggers an **Electro-related Elemental Reaction** when Oz is on the field, the opponent shall be stricken with Thundering Retribution that deals **Electro DMG** equal to 80% of Fischl's ATK.",
             "icon": "img/skill/Fischl_4.png",
             "minAscension": 4
           },
@@ -9581,7 +10167,7 @@
         "constellations": [
           {
             "name": "Gaze of the Deep",
-            "desc": "Even when Oz is not present in combat, he can still watch over Fischl through his raven eyes. When Fischl performs a Normal Attack against an opponent, Oz fires a joint attack, dealing DMG equal to 22% of Fischl's ATK.",
+            "desc": "Even when Oz is not present in combat, he can still watch over Fischl through his raven eyes. When Fischl performs a Normal Attack against an opponent, Oz fires a coordinated attack, dealing DMG equal to 22% of Fischl's ATK.",
             "icon": "img/const/Fischl_1.png"
           },
           {
@@ -9606,7 +10192,7 @@
           },
           {
             "name": "Evernight Raven",
-            "desc": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs joint attacks with your active character when present, dealing 30% of Fischl's ATK as **Electro DMG**.",
+            "desc": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs coordinated attacks with your active character when present, dealing 30% of Fischl's ATK as **Electro DMG**.",
             "icon": "img/const/Fischl_6.png"
           }
         ]
@@ -24143,7 +24729,7 @@
           },
           {
             "name": "Sleep O'Clock",
-            "desc": "The Muji-Muji Daruma created by Sayu's **Yoohoo Art: Mujina Flurry** will now also benefit from her Elemental Mastery. Each point of Sayu's Elemental Mastery will produce the following effects:\n·Increases the damage dealt by the Muji-Muji Daruma's attacks by 0.2% ATK. A maximum of 400% ATK can be gained via this method.\n·Increases the HP restored by the Muji-Muji Daruma by 3. A maximum of 6,000 additional HP can be restored in this manner.",
+            "desc": "The Muji-Muji Daruma created by Sayu's **Yoohoo Art: Mujina Flurry** will now also benefit from her Elemental Mastery. Each point of Sayu's Elemental Mastery will produce the following effects:\n·Increases the damage dealt by the Muji-Muji Daruma's attacks by 0.2% ATK. A maximum DMG increase of 400% ATK can be gained via this method.\n·Increases the HP restored by the Muji-Muji Daruma by 3. A maximum of 6,000 additional HP can be restored in this manner.",
             "icon": "img/const/Sayu_6.png"
           }
         ]
@@ -33935,6 +34521,568 @@
         "Gem3": "Agnidus Agate Chunk",
         "Gem4": "Agnidus Agate Gemstone",
         "Specialty": "Noctilucous Jade"
+      }
+    }
+  },
+  "Yaoyao": {
+    "name": "Yaoyao",
+    "desc": "Streetward Rambler's youngest disciple. A gentle and caring \"little adult.\"",
+    "releasedOn": "2023-01-17 00:00:00",
+    "star": 4,
+    "weaponType": "Polearm",
+    "icon": "img/char/Yaoyao.png",
+    "media": {
+      "imgs": [
+        "img/char_full/Yaoyao.png"
+      ]
+    },
+    "baseStats": {
+      "hpBase": 1030.3238525390625,
+      "attackBase": 17.808000564575195,
+      "defenseBase": 62.9474983215332,
+      "criticalBase": 0.05000000074505806,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 4*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 4*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 4*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 3,
+      "birthDay": 6,
+      "association": "Liyue",
+      "title": "Burgeoning Grace",
+      "detail": "Streetward Rambler's youngest disciple. A gentle and caring \"little adult.\"",
+      "affiliation": "Streetward Rambler's Abode",
+      "element": "Dendro",
+      "constellation": "Osmanthus",
+      "cvChinese": "刘颐诺",
+      "cvJapanese": "門脇舞以",
+      "cvEnglish": "Kelsey Jaffer",
+      "cvKorean": "Yu Hye-ji"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Toss 'N' Turn Spear",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "img/skill/Common_Polearm.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "51.0%",
+                  "55.2%",
+                  "59.3%",
+                  "65.2%",
+                  "69.4%",
+                  "74.1%",
+                  "80.7%",
+                  "87.2%",
+                  "93.7%",
+                  "100.8%",
+                  "107.9%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "47.4%",
+                  "51.3%",
+                  "55.2%",
+                  "60.7%",
+                  "64.5%",
+                  "69.0%",
+                  "75.0%",
+                  "81.1%",
+                  "87.2%",
+                  "93.8%",
+                  "100.4%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "31.4%+32.9%",
+                  "33.9%+35.6%",
+                  "36.5%+38.3%",
+                  "40.1%+42.1%",
+                  "42.7%+44.8%",
+                  "45.6%+47.9%",
+                  "49.6%+52.1%",
+                  "53.6%+56.3%",
+                  "57.6%+60.5%",
+                  "62.0%+65.1%",
+                  "66.4%+69.7%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "77.9%",
+                  "84.3%",
+                  "90.6%",
+                  "99.7%",
+                  "106.0%",
+                  "113.3%",
+                  "123.2%",
+                  "133.2%",
+                  "143.2%",
+                  "154.1%",
+                  "164.9%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "112.7%",
+                  "121.8%",
+                  "131.0%",
+                  "144.1%",
+                  "153.3%",
+                  "163.8%",
+                  "178.2%",
+                  "192.6%",
+                  "207.0%",
+                  "222.7%",
+                  "238.4%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "25.0"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "63.9%",
+                  "69.1%",
+                  "74.3%",
+                  "81.8%",
+                  "87.0%",
+                  "92.9%",
+                  "101.1%",
+                  "109.3%",
+                  "117.5%",
+                  "126.4%",
+                  "135.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "128%/160%",
+                  "138%/173%",
+                  "149%/186%",
+                  "164%/204%",
+                  "174%/217%",
+                  "186%/232%",
+                  "202%/253%",
+                  "219%/273%",
+                  "235%/293%",
+                  "253%/316%",
+                  "271%/338%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Diligence",
+                "BossMat": "Daka's Bell",
+                "EnemyDropTier1": "Slime Condensate",
+                "EnemyDropTier2": "Slime Secretions",
+                "EnemyDropTier3": "Slime Concentrate"
+              }
+            }
+          },
+          {
+            "name": "Raphanus Sky Cluster",
+            "desc": "Calls upon \"Yuegui: Throwing Mode,\" a special device created by a certain adeptus to help Yaoyao solve her problems.\nThis skill will be used differently in Holding Mode.\n\n**Hold**\nEnters Aiming Mode to adjust the throw direction.\n\n**Yuegui: Throwing Mode**\nThrows out White Jade Radishes that will explode upon hitting characters or opponents, dealing **Dendro DMG** to opponents within a certain AoE, and healing characters within that same AoE based on Yaoyao's Max HP. If a radish does not hit either an opponent or a character, the radish will remain where it is and explode on contact with a character or opponent, or will explode after its duration expires.\nYuegui: Throwing Mode will choose its radish-throw targets.\n·If all nearby characters have more than 70% HP remaining, then it will throw the radish at a nearby opponent.\n·If nearby characters have 70% or less HP remaining, it will throw a radish at the character with the lowest HP percentage remaining. If no opponents exist nearby, Yuegui will also throw White Jade Radishes at characters if they all have more than 70% HP and less than 100% HP remaining. Otherwise, it will throw radishes into the area at random.\n\nA maximum of 2 instances of Yuegui: Throwing Mode can exist at any one time.\n\n**\"A radish a day keeps trouble away! ... Oh, this isn't about a radish's medical properties, exactly, but it does have some health benefits, yeah!\"**",
+            "icon": "img/skill/Yaoyao_1.png",
+            "talentTable": [
+              {
+                "name": "White Jade Radish DMG",
+                "values": [
+                  "29.9%",
+                  "32.2%",
+                  "34.4%",
+                  "37.4%",
+                  "39.6%",
+                  "41.9%",
+                  "44.9%",
+                  "47.9%",
+                  "50.9%",
+                  "53.9%",
+                  "56.8%",
+                  "59.8%",
+                  "63.6%"
+                ]
+              },
+              {
+                "name": "White Jade Radish Healing",
+                "values": [
+                  "1.71% Max HP+165",
+                  "1.84% Max HP+182",
+                  "1.97% Max HP+199",
+                  "2.14% Max HP+219",
+                  "2.27% Max HP+239",
+                  "2.40% Max HP+261",
+                  "2.57% Max HP+285",
+                  "2.74% Max HP+310",
+                  "2.91% Max HP+336",
+                  "3.09% Max HP+363",
+                  "3.26% Max HP+392",
+                  "3.43% Max HP+422",
+                  "3.64% Max HP+454"
+                ]
+              },
+              {
+                "name": "Yuegui: Throwing Mode Duration",
+                "value": "10.0s"
+              },
+              {
+                "name": "White Jade Radish Duration",
+                "value": "5.0s"
+              },
+              {
+                "name": "CD",
+                "value": "15.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Diligence",
+                "BossMat": "Daka's Bell",
+                "EnemyDropTier1": "Slime Condensate",
+                "EnemyDropTier2": "Slime Secretions",
+                "EnemyDropTier3": "Slime Concentrate"
+              }
+            }
+          }
+        ],
+        "ult": {
+          "name": "Moonjade Descent",
+          "desc": "At the enjoinment of a certain adeptus, Yuegui's full potential can be unleashed in an emergency, dealing **Dendro DMG** to nearby opponents and entering an (in some sense) unsurpassed Adeptal Legacy state.\n\n**Adeptal Legacy**\n·White Jade Radishes generated will be changed to heal and deal DMG according to this skill. Explosions will heal all nearby party members, and the **Dendro DMG** that they deal will be viewed as Elemental Burst DMG instead.\n·Summons \"Yuegui: Jumping Mode\" at intervals until their limit has been reached. The behavior of this version of Yuegui is the same as that of \"Yuegui: Throwing Mode\" in the Elemental Skill, Raphanus Sky Cluster. A maximum of 3 Yuegui: Jumping Mode can exist at any one time.\n·Yaoyao's Movement SPD is increased by 15%.\n·Yaoyao's **Dendro RES** will be increased.\n\nThe Adeptal Legacy state will end once Yaoyao is off-field, and all remaining Yuegui: Jumping Mode will be cleared once this state ends.\n\n**\"Eh? Which one of these is actually Yuegui, you ask? Aren't they all Yuegui?\"**",
+          "icon": "img/skill/Yaoyao_2.png",
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "114.6%",
+                "123.2%",
+                "131.7%",
+                "143.2%",
+                "151.8%",
+                "160.4%",
+                "171.8%",
+                "183.3%",
+                "194.8%",
+                "206.2%",
+                "217.7%",
+                "229.1%",
+                "243.4%"
+              ]
+            },
+            {
+              "name": "Adeptal Legacy White Jade Radish DMG",
+              "values": [
+                "72.2%",
+                "77.6%",
+                "83.0%",
+                "90.2%",
+                "95.6%",
+                "101.0%",
+                "108.2%",
+                "115.5%",
+                "122.7%",
+                "129.9%",
+                "137.1%",
+                "144.3%",
+                "153.3%"
+              ]
+            },
+            {
+              "name": "Adeptal Legacy White Jade Radish Healing",
+              "values": [
+                "2.02% Max HP+194",
+                "2.17% Max HP+214",
+                "2.32% Max HP+235",
+                "2.52% Max HP+257",
+                "2.67% Max HP+282",
+                "2.82% Max HP+308",
+                "3.03% Max HP+335",
+                "3.23% Max HP+364",
+                "3.43% Max HP+395",
+                "3.63% Max HP+427",
+                "3.83% Max HP+461",
+                "4.03% Max HP+497",
+                "4.29% Max HP+534"
+              ]
+            },
+            {
+              "name": "Dendro RES Bonus",
+              "value": "50%"
+            },
+            {
+              "name": "Adeptal Legacy Duration",
+              "value": "5.0s"
+            },
+            {
+              "name": "CD",
+              "value": "20.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "80"
+            }
+          ],
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Diligence",
+              "BossMat": "Daka's Bell",
+              "EnemyDropTier1": "Slime Condensate",
+              "EnemyDropTier2": "Slime Secretions",
+              "EnemyDropTier3": "Slime Concentrate"
+            }
+          },
+          "type": "Dendro"
+        },
+        "passive": [
+          {
+            "name": "Starscatter",
+            "desc": "While affected by the Adeptal Legacy state caused by **Moonjade Descent**, Yaoyao will constantly throw White Jade Radishes at nearby opponents when she is sprinting, jumping, or running. She can throw 1 White Jade Radish this way once every 0.6s.",
+            "icon": "img/skill/Yaoyao_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "In Others' Shoes",
+            "desc": "When **White Jade Radishes** explode, active characters within their AoE will regain HP every 1s based on 0.8% of Yaoyao's Max HP. This effect lasts 5s.",
+            "icon": "img/skill/Yaoyao_4.png",
+            "minAscension": 4
+          },
+          {
+            "name": "Tailing on Tiptoes",
+            "desc": "When Yaoyao is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on.",
+            "icon": "img/skill/Yaoyao_5.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Adeptus' Tutelage",
+            "desc": "When **White Jade Radishes** explode, active characters within their AoE will gain 15% **Dendro DMG Bonus** for 8s and have 15 Stamina restored to them. This form of Stamina Restoration can only be triggered every 5s.",
+            "icon": "img/const/Yaoyao_1.png"
+          },
+          {
+            "name": "Innocent",
+            "desc": "While affected by the Adeptal Legacy state caused by **Moonjade Descent**, if White Jade Radish explosions hit opponents, 3 Energy will be restored to Yaoyao. This form of Energy regeneration can occur once every 0.8s.",
+            "icon": "img/const/Yaoyao_2.png"
+          },
+          {
+            "name": "Loyal and Kind",
+            "desc": "Increases the Level of **Raphanus Sky Cluster** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Yaoyao_3.png"
+          },
+          {
+            "name": "Winsome",
+            "desc": "After using **Raphanus Sky Cluster** or **Moonjade Descent**, Yaoyao's Elemental Mastery will be increased based on 0.3% of her Max HP for 8s. The maximum Elemental Mastery she can gain this way is 120.",
+            "icon": "img/const/Yaoyao_4.png"
+          },
+          {
+            "name": "Compassionate",
+            "desc": "Increases the Level of **Moonjade Descent** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Yaoyao_5.png"
+          },
+          {
+            "name": "Beneficent",
+            "desc": "For every 2 White Jade Radishes **Yuegui: Throwing Mode** throws out, the next throw will also release a Mega Radish that will have a larger AoE than the standard White Jade Radish and have the following effects upon exploding:\n·Deals **AoE Dendro DMG** based on 75% of Yaoyao's ATK.\n·Restores HP for the active character based on 7.5% of Yaoyao's Max HP.\n\nEvery Yuegui: Throwing Mode can throw out a maximum of 2 Mega Radishes.",
+            "icon": "img/const/Yaoyao_6.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "HP%",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 769.7046508789062
+          },
+          {
+            "stat": "Base DEF",
+            "value": 47.025001525878906
+          },
+          {
+            "stat": "Base ATK",
+            "value": 13.303799629211426
+          },
+          {
+            "stat": "HP%",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1316.60009765625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 80.4375
+          },
+          {
+            "stat": "Base ATK",
+            "value": 22.756500244140625
+          },
+          {
+            "stat": "HP%",
+            "value": 0.05999999865889549
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2045.7939453125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 124.98750305175781
+          },
+          {
+            "stat": "Base ATK",
+            "value": 35.36009979248047
+          },
+          {
+            "stat": "HP%",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2592.689453125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 158.39999389648438
+          },
+          {
+            "stat": "Base ATK",
+            "value": 44.812801361083984
+          },
+          {
+            "stat": "HP%",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3139.584716796875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 191.8125
+          },
+          {
+            "stat": "Base ATK",
+            "value": 54.265499114990234
+          },
+          {
+            "stat": "HP%",
+            "value": 0.18000000715255737
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3686.480224609375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 225.22500610351562
+          },
+          {
+            "stat": "Base ATK",
+            "value": 63.71820068359375
+          },
+          {
+            "stat": "HP%",
+            "value": 0.23999999463558197
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Quelled Creeper",
+        "EnemyDropTier1": "Slime Condensate",
+        "EnemyDropTier2": "Slime Secretions",
+        "EnemyDropTier3": "Slime Concentrate",
+        "Gem1": "Nagadus Emerald Sliver",
+        "Gem2": "Nagadus Emerald Fragment",
+        "Gem3": "Nagadus Emerald Chunk",
+        "Gem4": "Nagadus Emerald Gemstone",
+        "Specialty": "Jueyun Chili"
       }
     }
   },

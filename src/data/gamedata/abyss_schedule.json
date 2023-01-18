@@ -1252,5 +1252,71 @@
       52,
       53
     ]
+  },
+  "57": {
+    "start": "2023-02-01 04:00:00",
+    "end": "2023-02-16 03:59:59",
+    "buff": "Thorn-Twisted Moon",
+    "buffDesc": "The Dendro RES and Electro RES will be decreased by 30% for opponents that are under the Quickened state. This effect will be removed 2s after the Quickened state ends.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      44,
+      45,
+      54,
+      55
+    ]
+  },
+  "58": {
+    "start": "2023-02-16 04:00:00",
+    "end": "2023-03-01 03:59:59",
+    "buff": "Verdant Moon",
+    "buffDesc": "After a character deals Dendro DMG to opponents through Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst, the character will gain one stack of Verdant Vigor: DMG dealt by the character will be increased by 8% for 6s. This effect can be triggered once every 0.1s. Max 6 stacks. Each stack's duration is counted independently.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      44,
+      45,
+      54,
+      55
+    ]
+  },
+  "59": {
+    "start": "2023-03-01 04:00:00",
+    "end": "2023-03-16 03:59:59",
+    "buff": "Luxuriant Moon",
+    "buffDesc": "When a character triggers a Spread or Aggravate reaction on an opponent, a shockwave will be unleashed at the opponent's position, dealing True DMG. A shockwave can be unleashed this way every 3s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      44,
+      45,
+      54,
+      55
+    ]
   }
 }

@@ -3130,5 +3130,13 @@
         ]
       }
     ]
+  },
+  "54": {
+    "teams": 2,
+    "leyline": "All characters in the party gain a 75% Dendro DMG Bonus."
+  },
+  "55": {
+    "teams": 2,
+    "leyline": "For this floor only, the Ley Line flow will be normal."
   }
 }
