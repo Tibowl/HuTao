@@ -2297,6 +2297,15 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/17/4c22555d6d258b1dbb583c39f598c3ec_4636866007876656514.jpg",
         "start": "2023-01-28 10:00:00",
         "end": "2023-02-06 03:59:59",
-        "reminder": "daily"
+        "reminder": "end"
+    },
+    {
+        "name": "\"Iridescence in Papers\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/15787935",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/28/61f7491a71a0648d4eff8fcc6849dcc3_4281744806144245735.png",
+        "start": "2023-01-13 13:00:00",
+        "end": "2023-01-18 23:59:00",
+        "reminder": "end"
     }
 ]
