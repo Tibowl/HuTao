@@ -3133,10 +3133,135 @@
   },
   "54": {
     "teams": 2,
-    "leyline": "All characters in the party gain a 75% Dendro DMG Bonus."
+    "leyline": "All characters in the party gain a 75% Dendro DMG Bonus.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 88,
+        "conds": "More than 20/40/60% HP left",
+        "monsters": [
+          [
+            "Eremite Stone Enchanter",
+            "Eremite Desert Clearwater",
+            "Eremite Sunfrost",
+            "Eremite Crossbow",
+            "Eremite Ravenbeak Halberdier",
+            "Eremite Linebreaker",
+            "Eremite Sword-Dancer",
+            "Treasure Hoarders: Crusher",
+            "Treasure Hoarders: Hydro Potioneer"
+          ],
+          [
+            "Thunderhelm Lawachurl",
+            "Blazing Axe Mitachurl",
+            "Crackling Axe Mitachurl"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 90,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Grounded Geoshroom",
+            "Grounded Hydroshroom",
+            "Winged Dendroshroom",
+            "Winged Cryoshroom",
+            "Rimebiter Bathysmal Vishap Hatchling",
+            "Bolteater Bathysmal Vishap Hatchling"
+          ],
+          [
+            "Abyss Herald: Wicked Torrents",
+            "Consecrated Flying Serpent"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 92,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Kairagi: Dancing Thunder",
+            "Kairagi: Fiery Might",
+            "Nobushi: Jintouban",
+            "Nobushi: Hitsukeban",
+            "Nobushi: Kikouban",
+            "Large Pyro Slime",
+            "Large Hydro Slime",
+            "Large Electro Slime",
+            "Mutant Electro Slime"
+          ],
+          [
+            "Electro Regisvine"
+          ]
+        ]
+      }
+    ]
   },
   "55": {
     "teams": 2,
-    "leyline": "For this floor only, the Ley Line flow will be normal."
+    "leyline": "For this floor only, the Ley Line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 95,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Ruin Drake: Earthguard",
+            "Ruin Grader",
+            "Ruin Guard"
+          ],
+          [
+            "Eremite Desert Clearwater",
+            "Eremite Sunfrost",
+            "Pyro Abyss Mage",
+            "Cryo Abyss Mage",
+            "Electro Abyss Mage",
+            "Cryo Whopperflower",
+            "Pyro Whopperflower",
+            "Electro Whopperflower"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 98,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Consecrated Red Vulture",
+            "Consecrated Scorpion",
+            "Kairagi: Dancing Thunder",
+            "Nobushi: Jintouban"
+          ],
+          [
+            "Maguu Kenki: Lone Gale",
+            "Maguu Kenki: Mask of Terror",
+            "Maguu Kenki: Galloping Frost"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 100,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Algorithm of Semi-Intransient Matrix of Overseer Network"
+          ],
+          [
+            "Eremite Galehunter",
+            "Eremite Scorching Loremaster",
+            "Eremite Floral Ring-Dancer",
+            "Eremite Desert Clearwater",
+            "Eremite Sunfrost",
+            "Eremite Daythunder"
+          ]
+        ]
+      }
+    ]
   }
 }
