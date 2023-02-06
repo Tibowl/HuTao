@@ -301,6 +301,15 @@
         "links": {
           "material": ["Scarab"]
         }
+      },
+      {
+        "name": "Sand Grease Pupa route",
+        "desc": "**Sand Grease Pupa ${Sand Grease Pupa}** can found in the Desert of Hadramaveth.\n\n> You can only find such husks deep in the desert where the Quicksand Eels breed. The hardened shell is meant to protect the Quicksand Eels' larval bodies until they finally acclimate to the conditions of the dry desert.",
+        "img": "https://cdn.discordapp.com/attachments/1065152189833678898/1068612470622658650/SandGreasePupa.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Sand Grease Pupa"]
+        }
       }
     ]
   },
