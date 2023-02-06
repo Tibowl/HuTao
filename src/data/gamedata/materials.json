@@ -665,6 +665,18 @@
       "Found in the desert ruins of Sumeru"
     ]
   },
+  "Sand Grease Pupa": {
+    "name": "Sand Grease Pupa",
+    "desc": "You can only find such husks deep in the desert where the Quicksand Eels breed. The hardened shell is meant to protect the Quicksand Eels' larval bodies until they finally acclimate to the conditions of the dry desert.",
+    "longDesc": "In the legend of the desert folk, Quicksand Eels and Wenut are all descendants of the giant serpent that once devoured the sun. Although this statement is but groundless, judging from the research on Sand Grease Pupa, it does share many similarities with the body fat of Wenut given their respective composition. It is precisely because of this that sometimes cunning merchants will collect Sand Grease Pupae and grind them into powder to pass off as the high-end spices extracted from the body fat of Wenut.",
+    "type": "Local Specialty (Sumeru)",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Sand_Grease_Pupa.png",
+    "sources": [
+      "Found in the deserts of Sumeru",
+      "Recommendation: Found in Wenut Tunnels"
+    ]
+  },
   "Northlander Sword Billet": {
     "name": "Northlander Sword Billet",
     "desc": "Weapon forging material. Can be used to forge 4-star swords. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
@@ -1962,6 +1974,38 @@
       "recipe": "Unagi Chazuke"
     },
     "effect": "Increases all party members' Healing Bonus by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
+  "Ideal Circumstance": {
+    "name": "Ideal Circumstance",
+    "desc": "Alhaitham's specialty. A dish created through the fusion of vegetables and meat prepared in a patterned frying pan. Improvements were made to the recipe, making it taste quite different from the original dish. The words on the food mean \"contemplation.\" In the words of the creator: \"Ideally, everyone should be capable of contemplation, but practically, it doesn't seem very possible.\"",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Ideal_Circumstance.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Alhaitham",
+      "recipe": "Sabz Meat Stew"
+    },
+    "effect": "Restores 40% of Max HP and an additional 2,350 HP to the selected character."
+  },
+  "Qingce Household Dish": {
+    "name": "Qingce Household Dish",
+    "desc": "Yaoyao's specialty. It looks rather mundane as it is not displayed with the same luxurious aesthetic as dishes prepared by a fancy restaurant. However, as soon as you take a bite, the flavor immediately offers you a fragrant and intimate experience, certain to leave an ever-lasting impression. After a single taste, what's on your tongue will be on your heart for good. As for the reason, maybe the secret ingredient to this recipe is simply \"caring.\"",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Qingce_Household_Dish.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Yaoyao",
+      "recipe": "Qingce Stir Fry"
+    },
+    "effect": "Increases all party members' ATK by 274 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
@@ -5827,6 +5871,74 @@
       "Delicious Samosa": "Restores 24% of Max HP and an additional 1,500 HP to the selected character."
     }
   },
+  "Sabz Meat Stew": {
+    "name": "Sabz Meat Stew",
+    "desc": "A meat stew with a unique taste. The fragrant ingredients complement each other perfectly. Large pieces of fresh meat are stewed until tender and coated in dark green, as if inviting all who taste it for a leisurely stroll in the forest.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Sabz_Meat_Stew.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Snapdragon"
+      },
+      {
+        "count": 2,
+        "name": "Onion"
+      },
+      {
+        "count": 1,
+        "name": "Spice"
+      }
+    ],
+    "effect": {
+      "Suspicious Sabz Meat Stew": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+      "Sabz Meat Stew": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
+      "Delicious Sabz Meat Stew": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
+    }
+  },
+  "Scented Meat Balls": {
+    "name": "Scented Meat Balls",
+    "desc": "A dish with ground meat as its base. The crunchy and chewy coating wraps around the savory filling, giving it a layered texture that's easily a cut above regular meatballs. Try eating one, and its irresistible aroma will leave you brimming with satisfaction.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Scented_Meat_Balls.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Mysterious Meat"
+      },
+      {
+        "count": 2,
+        "name": "Wheat"
+      },
+      {
+        "count": 2,
+        "name": "Onion"
+      },
+      {
+        "count": 2,
+        "name": "Spice"
+      }
+    ],
+    "effect": {
+      "Suspicious Scented Meat Balls": "Has a chance to restore 24%/30%/36% of Max HP and an additional 450/600/700 HP to the selected character.",
+      "Scented Meat Balls": "Has a chance to restore 26%/32%/38% of Max HP and an additional 950/1,250/1,550 HP to the selected character.",
+      "Delicious Scented Meat Balls": "Has a chance to restore 28%/34%/40% of Max HP and an additional 1,400/1,900/2,350 HP to the selected character."
+    }
+  },
   "Rice Pudding": {
     "name": "Rice Pudding",
     "desc": "A dessert made from rice. The soft, sticky rice and the sweet milk have melded together perfectly, their tastes complementing each other. If you eat it hot, you can enjoy the dense rice grains, and if you leave it till it's cold, you can savor the gentle fragrance of milk — each possessing its own beauty. People who eat such a dish cannot help but wonder: how many experiments led up to this moment?",
@@ -6566,6 +6678,16 @@
       "Recommendation: Found on Watatsumi Island"
     ]
   },
+  "Mysterious Meat": {
+    "name": "Mysterious Meat",
+    "desc": "A fresh chunk of meat that seems to be radiating an enigmatic aura. Wonder what it'll taste like?",
+    "type": "Cooking Ingredient",
+    "category": "Food and Potions",
+    "icon": "img/material/Mysterious_Meat.png",
+    "sources": [
+      "Dropped by animals"
+    ]
+  },
   "Heatshield Potion": {
     "name": "Heatshield Potion",
     "desc": "A miraculous potion that boosts Pyro RES and makes one able to withstand high heat.\nIt works not by cooling the body, but by helping the body acclimate to high temperatures.",
@@ -7196,6 +7318,17 @@
       "Dropped by Lv.30+ Dendro Hypostases"
     ]
   },
+  "Pseudo-Stamens": {
+    "name": "Pseudo-Stamens",
+    "desc": "The pale wing-sheathes hiding in a Wenut's tail are as thin as the blooming stamens of a flower.\nIt is said that in the past, even before the beginning of time, they used to travel through the moist land under meadows and forests, similar to birds flying across the sky and fish swimming in the water. It is generally believed that their mimicry of flowers is to lure lost prey caught by sandstorms. There is also a theory, however, that their imitation of a blooming flower was inspired by the splendid blossoms countless epochs ago, which have long gone the way of the desert winds.",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/PseudoStamens.png",
+    "sources": [
+      "Dropped by Lv. 30+ Setekh Wenut"
+    ]
+  },
   "Brilliant Diamond Sliver": {
     "name": "Brilliant Diamond Sliver",
     "desc": "Character Ascension material.\n\"Welcome to this world.\"",
@@ -7409,6 +7542,7 @@
     "icon": "img/material/Vayuda_Turquoise_Sliver.png",
     "sources": [
       "Dropped by Anemo Hypostases",
+      "Dropped by Setekh Wenut",
       "Purchase from the Souvenir Shop"
     ]
   },
@@ -7421,6 +7555,7 @@
     "icon": "img/material/Vayuda_Turquoise_Fragment.png",
     "sources": [
       "Dropped by Lv. 40+ Anemo Hypostases",
+      "Dropped by Lv. 40+ Setekh Wenut",
       "Crafted"
     ]
   },
@@ -7433,6 +7568,7 @@
     "icon": "img/material/Vayuda_Turquoise_Chunk.png",
     "sources": [
       "Dropped by Lv. 60+ Anemo Hypostases",
+      "Dropped by Lv. 60+ Setekh Wenut",
       "Crafted"
     ]
   },
@@ -7445,6 +7581,7 @@
     "icon": "img/material/Vayuda_Turquoise_Gemstone.png",
     "sources": [
       "Dropped by Lv. 75+ Anemo Hypostases",
+      "Dropped by Lv. 75+ Setekh Wenut",
       "Crafted"
     ]
   },
@@ -9104,6 +9241,43 @@
       "Dropped by Lv. 60+ Primal Constructs"
     ]
   },
+  "Desiccated Shell": {
+    "name": "Desiccated Shell",
+    "desc": "The ruined shell of a Consecrated Beast.\nA tangible effigy to the grand calamity that devoured the lands of yore, usually only discovered in places few dare tread.",
+    "stars": 2,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Desiccated_Shell.png",
+    "sources": [
+      "Dropped by Consecrated Beasts",
+      "Stardust Exchange"
+    ]
+  },
+  "Sturdy Shell": {
+    "name": "Sturdy Shell",
+    "desc": "The sturdy shell of a Consecrated Beast.\nThe remains of a ruinous beast that once gnawed at the flesh of great, fallen beings. Even should the beasts sup a sliver of power from the gods of yesteryear, they too will greet the same end as said gods.",
+    "stars": 3,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Sturdy_Shell.png",
+    "sources": [
+      "Crafted",
+      "Dropped by Lv. 40+ Consecrated Beasts",
+      "Stardust Exchange"
+    ]
+  },
+  "Marked Shell": {
+    "name": "Marked Shell",
+    "desc": "The marked shell of a Consecrated Beast inscribed with ancient script.\nOn the pallid contours of the shell, the regrets of a time long past have been inlaid. One day, the bones of the beast will scatter like dust in the wind, and then, finally, may the exalted deceased greet their final rest...",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Marked_Shell.png",
+    "sources": [
+      "Crafted",
+      "Dropped by Lv. 60+ Consecrated Beasts"
+    ]
+  },
   "Tainted Blood": {
     "name": "Tainted Blood",
     "desc": "Substance acquired from defeating Dvalin.\nA crystal imbued with the winds of antiquity as well as another occult power from within the great dragon's body.\n\nThe mighty dragon was once a captive of a cage of toxicity, woven of three poisons:\nThe foul blood he once ingested, the lies whispered from the Abyss, and the anguish of abandonment.\nThrough tears shed and songs sung, the unholy spikes that had grown on Dvalin's body were smashed to pieces, and the web that had ensnared him was torn away...\nPerhaps these feats were achievable only by a free-spirited traveler from a far-away land.",
@@ -10004,5 +10178,13 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "img/material/Casket_of_Tomes.png"
+  },
+  "Jinni in the Magic Bottle — Liloupar": {
+    "name": "Jinni in the Magic Bottle — Liloupar",
+    "desc": "Born from water lilies, Liloupar, the great Jinni, whose soul had been shattered due to an ancient punishment, was sealed in a transparent magic bottle.\nNow, it seems that she has found a new master...\n\nAlthough she only possesses a-hundred-millionth of her previous great power, she will use what is left of her to help her master pass through the hot sand and ancient ruins of the Desert of Hadramaveth.",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Jinni_in_the_Magic_Bottle_—_Liloupar.png"
   }
 }
