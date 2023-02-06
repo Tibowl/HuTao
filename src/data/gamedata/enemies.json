@@ -1963,7 +1963,7 @@
   },
   "Maguu Kenki": {
     "name": "Maguu Kenki",
-    "desc": "An disciplined mechanical swordsman.\nDoesn't seem to have the ability nor will to speak, but instead only seeks to communicate with crossed swords.\nIt is said that this machine was made using the memories of the first-generation master of a certain sword school. However, it malfunctioned, lost control, and was ultimately discarded.\nSome sing that the machine's spirit still lingers in the place where its fate was ended. They also say that the vicious mask that serves as its guard was inspired by a famous oni from that era.",
+    "desc": "A disciplined mechanical swordsman.\nDoesn't seem to have the ability nor will to speak, but instead only seeks to communicate with crossed swords.\nIt is said that this machine was made using the memories of the first-generation master of a certain sword school. However, it malfunctioned, lost control, and was ultimately discarded.\nSome sing that the machine's spirit still lingers in the place where its fate was ended. They also say that the vicious mask that serves as its guard was inspired by a famous oni from that era.",
     "icon": "img/enemy/Maguu_Kenki.png",
     "type": "Automatons",
     "kind": "Normal Boss",
@@ -2307,7 +2307,7 @@
   },
   "Eremite Crossbow": {
     "name": "Eremite Crossbow",
-    "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThe Eremite tradition is to use bows to engage their foes, but ever since the Akademiya permitted them to buy crossbows at the bazaars, only the proudest shooters would still use bows, which take many years of practice to master.",
+    "desc": "A member of a loosely-organized mercenary corps hailing from a place where the sands shine like gold. Will work for anyone as long as the pay is good.\nThe Eremite tradition is to use bows to engage their foes, but ever since the Akademiya permitted them to buy crossbows at the bazaars, only the proudest shooters would still use bows, which take many years of practice to master.",
     "icon": "img/enemy/Eremite_Crossbow.png",
     "resistance": [
       [
@@ -2437,6 +2437,38 @@
     "name": "Eremite Galehunter",
     "desc": "A person hailing from the loosely-organized mercenary bands of the desert. Will work for anyone as long as the pay is good.\nIn this age where crossbows are in widespread use, only the most experienced of Eremite warriors know how to use a longbow in battle. They do not even need their eyes — merely their ears with which they sense the flow of wind and sand alike — to judge the location of their foes.\nOminous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished — whether that be their wielders or their wielders' foes.",
     "icon": "img/enemy/Eremite_Galehunter.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Eremite Scorching Loremaster": {
+    "name": "Eremite Scorching Loremaster",
+    "desc": "A person hailing from the loosely-organized mercenary bands of the desert. Even though they will work for anyone as long as the pay is good, they will never forget their roots in the Great Red Sand.\nAfter the collapse of its civilizations, the stories of the desert were passed down generation after generation in oral tradition just like the sparks in the wind and the rain in the clouds. As time passed, some stories were lost while others survived, albeit with significant changes.\n\"The Eremites\" is the umbrella term given to the tribes of the desert by those too ignorant or disdainful to learn the tribes' myriad differences. Within those referred to as the Eremites, many have also indeed already forgotten the tales of the desert. Fear not, however, for those who still remember will never betray the spirit of the sands yet flowing through their veins.",
+    "icon": "img/enemy/Eremite_Scorching_Loremaster.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Eremite Floral Ring-Dancer": {
+    "name": "Eremite Floral Ring-Dancer",
+    "desc": "A person hailing from the loosely-organized mercenary bands of the desert. They will work for anyone as long as the pay is good.\nThe children of the desert have a rich tradition of song and dance. Originally used to praise and serve the gods, the crafts were later adapted for battle and the seduction of kings. Many tales of the sands feature dancers who murdered kings relaxed in their beds or standing atop high towers. Even though all such gods and kings have now faded into the flowing sands, the memory of dance yet persists in the desert-dwellers' veins.\nOminous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished — whether that be their wielders or their wielders' foes.",
+    "icon": "img/enemy/Eremite_Floral_RingDancer.png",
     "resistance": [
       [
         "10%",
@@ -3021,6 +3053,70 @@
         "25%",
         "25%",
         "25%",
+        "25%",
+        "25%"
+      ]
+    ]
+  },
+  "Consecrated Red Vulture": {
+    "name": "Consecrated Red Vulture",
+    "desc": "A scavenging bird of prey that has mutated after feeding from greater lifeforms.\nThe greater lifeforms devoured by Consecrated Beasts often have nigh-immortal consciousness that can never be fully silenced or eradicated. The very power and consciousness gained by Consecrated Beasts devouring these lifeforms will, in turn, drive them to seek more violence and carrion.",
+    "icon": "img/enemy/Consecrated_Red_Vulture.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Consecrated Scorpion": {
+    "name": "Consecrated Scorpion",
+    "desc": "An arthropod that has mutated after feeding from greater lifeforms.\nLifeforms are governed by the laws of evolution, Consecrated Beasts exploited these rules by being fortunate enough to discover a long-dead carcass of a greater being before any of their competition ever did. Animals and humans often have far more in common than the latter is willing to acknowledge.",
+    "icon": "img/enemy/Consecrated_Scorpion.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Consecrated Flying Serpent": {
+    "name": "Consecrated Flying Serpent",
+    "desc": "A reptile that has mutated after feeding from greater lifeforms.\nThough now imbued with the power of elemental manipulation, the Consecrated Beasts themselves still cannot fully digest the pieces of flesh they devoured from the immortal carcasses that they ate. Instead, the pieces slowly fused with the beasts themselves, weaving a bony shell over their body, one that shares a similar composition to a certain type of smelting material from Inazuma.",
+    "icon": "img/enemy/Consecrated_Flying_Serpent.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Setekh Wenut": {
+    "name": "Setekh Wenut",
+    "desc": "An eyeless predator that dwells within the depths of the desert and uses sound and vibrations to seek out its prey.\nLegend has it that in the ancient past before even the concept of time was created, these creatures thrived with their progenitors and offspring in a land of verdant grass and colossal trees, traversing through slick soil like fishes diving through the wet.\nWith the passage of eons, the gifts of heaven have long reduced the soils to sand, rendering a great many creatures extinct. This branch of their genus was able to survive by adapting more toward earth-based living, and became known as the \"Wenut.\"\nSome desert folk still mistakenly believe that Wenut is the final point of a quicksand eel's life cycle, likely due to superficial similarities between the species' behaviors.",
+    "icon": "img/enemy/Setekh_Wenut.png",
+    "resistance": [
+      [
+        "25%",
+        "25%",
+        "25%",
+        "25%",
+        "60%",
         "25%",
         "25%"
       ]
