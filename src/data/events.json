@@ -2307,5 +2307,14 @@
         "start": "2023-01-13 13:00:00",
         "end": "2023-01-18 23:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "\"Starlit Sky\" Web Event",
+        "type": "Web",
+        "link": "https://act.hoyoverse.com/ys/event/e20230205-firework-xm7wly/index.html?game_biz=hk4e_global&hyl_presentation_style=fullscreen&hyl_auth_required=true&hyl_hide_status_bar=true",
+        "img": "https://pbs.twimg.com/media/FoLLhXLWQAA12jv?format=jpg&name=orig",
+        "start": "2023-02-05 13:00:00",
+        "end": "2023-02-11 23:59:00",
+        "reminder": "end"
     }
 ]
