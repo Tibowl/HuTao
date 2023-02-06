@@ -67,6 +67,7 @@
     "Perpetual Caliber": "<:Perpetual_Caliber:1024808870314508319>",
     "Light Guiding Tetrahedron": "<:Light_Guiding_Tetrahedron:1024808868372553802>",
     "Quelled Creeper": "<:Quelled_Creeper:1037678498933907466>",
+    "Pseudo-Stamens": "<:PseudoStamens:1072158644772294716>",
 
     "Crown of Insight": "<:Crown_of_Insight:827978602674520114>",
 
@@ -160,10 +161,13 @@
     "Sango Pearl": "<:Sango_Pearl:883318844918231080>",
     "Fluorescent Fungus": "<:Fluorescent_Fungus:905024499873873941>",
 
+    "Henna Berry": "<:Henna_Berry:1072161707482423346>",
     "Kalpalata Lotus": "<:Kalpalata_Lotus:1012447663951724697>",
     "Nilotpala Lotus": "<:Nilotpala_Lotus:1012447561531003010>",
-    "Rukkhashava Mushrooms": "<:Rukkhashava_Mushrooms:1012447564718690335>",
     "Padisarah": "<:Padisarah:1012447562818654321>",
+    "Rukkhashava Mushrooms": "<:Rukkhashava_Mushrooms:1012447564718690335>",
+    "Sand Grease Pupa": "<:Sand_Grease_Pupa:1072161710250659900>",
+    "Scarab": "<:Scarab:1072161711865471027>",
 
     "Tile of Decarabian's Tower": "<:Tile_of_Decarabians_Tower:827978064104259706>",
     "Debris of Decarabian's City": "<:Debris_of_Decarabians_City:827978602146168943>",
@@ -286,7 +290,10 @@
     "Damaged Prism": "<:Damaged_Prism:1024808859161866290>",
     "Turbid Prism": "<:Turbid_Prism:1024808881123237909>",
     "Radiant Prism": "<:Radiant_Prism:1024808877658755132>",
-    
+    "Desiccated Shell": "<:Desiccated_Shell:1072158316052086834>",
+    "Sturdy Shell": "<:Sturdy_Shell:1072158649948049468>",
+    "Marked Shell": "<:Marked_Shell:1072158325417975871>",
+
     "Pyro Slime": "<:Pyro_Slime:927630038357131374>",
     "Large Pyro Slime": "<:Large_Pyro_Slime:927630038139035758>",
     "Hydro Slime": "<:Hydro_Slime:927630037660889149>",
@@ -421,6 +428,8 @@
     "Eremite Daythunder": "<:Eremite_Daythunder:1012449310585147463>",
     "Eremite Stone Enchanter": "<:Eremite_Stone_Enchanter:1024808863100313600>",
     "Eremite Galehunter": "<:Eremite_Galehunter:1024808861254811688>",
+    "Eremite Scorching Loremaster": "<:Eremite_Scorching_Loremaster:1072158323232743555>",
+    "Eremite Floral Ring-Dancer": "<:Eremite_Floral_RingDancer:1072158319617249340>",
 
     "Pyro Whopperflower": "<:Pyro_Whopperflower:927630040810786898>",
     "Electro Whopperflower": "<:Electro_Whopperflower:927627060531314708>",
@@ -452,6 +461,10 @@
     "Winged Dendroshroom": "<:Winged_Dendroshroom:1012449381884121189>",
     "Winged Cryoshroom": "<:Winged_Cryoshroom:1012449380135092335>",
     "Jadeplume Terrorshroom": "<:Jadeplume_Terrorshroom:1012449330076078181>",
+    "Consecrated Red Vulture": "<:Consecrated_Red_Vulture:1072158310259757128>",
+    "Consecrated Scorpion": "<:Consecrated_Scorpion:1072158313237717023>",
+    "Consecrated Flying Serpent": "<:Consecrated_Flying_Serpent:1072158307986460702>",
+    "Setekh Wenut": "<:Setekh_Wenut:1072158646789746798>",
 
     "Stormterror": "<:Stormterror:927630534480396358>",
     "Lupus Boreas, Dominator of Wolves": "<:Lupus_Boreas_Dominator_of_Wolves:927630041909694577>",
@@ -475,6 +488,7 @@
     "The Rock": "<:The_Rock:927680089955663882>",
 
     "Albedo": "<:Albedo:929382836400717916>",
+    "Alhaitham": "<:Alhaitham:1072158305255956530>",
     "Aloy": "<:Aloy:929382836509765693>",
     "Amber": "<:Amber:929382997973692476>",
     "Arataki Itto": "<:Arataki_Itto:929382997378105385>",
@@ -531,6 +545,7 @@
     "Xinyan": "<:Xinyan:929383161165643806>",
     "Yae Miko": "<:Yae_Miko:943475692249702440>",
     "Yanfei": "<:Yanfei:929383160918183956>",
+    "Yaoyao": "<:Yaoyao:1072159349469880380>",
     "Yelan": "<:Yelan:981098236783771668>",
     "Yoimiya": "<:Yoimiya:929383160880431144>",
     "Yun Jin": "<:Yun_Jin:929383160272285767>",
@@ -551,6 +566,7 @@
     "Crab Roe": "<:Crab_Roe:938500198244708352>",
     "Crab": "<:Crab:938500198320177173>",
     "Cream": "<:Cream:938500197883990108>",
+    "Eel Meat": "<:Eel_Meat:938500345032757259>",
     "Fish": "<:Fish:938500198005604402>",
     "Flour": "<:Flour:938500198617985054>",
     "Fowl": "<:Fowl:938500197758169128>",
@@ -564,6 +580,7 @@
     "Milk": "<:Milk:938500198387314758>",
     "Mint": "<:Mint:938500198110466058>",
     "Mushroom": "<:Mushroom:938500198508941372>",
+    "Mysterious Meat": "<:Mysterious_Meat:1072158642008240310>",
     "Onion": "<:Onion:938500198102085682>",
     "Pepper": "<:Pepper:938500198097899560>",
     "Pinecone": "<:Pinecone:938500198521520168>",
@@ -585,7 +602,7 @@
     "Sweet Flower": "<:Sweet_Flower:938500345028571276>",
     "Tofu": "<:Tofu:938500345171169331>",
     "Tomato": "<:Tomato:938500345074692166>",
-    "Eel Meat": "<:Eel_Meat:938500345032757259>",
+    "Wheat": "<:Wheat:1072158651718058034>",
     "Zaytun Peach": "<:Zaytun_Peach:1012447573379907624>",
 
     "Mora": "<:Mora:827985024745603111>",
