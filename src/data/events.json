@@ -2316,5 +2316,13 @@
         "start": "2023-02-05 13:00:00",
         "end": "2023-02-11 23:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "3.5 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/16388660",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/02/15/cb9bd6d3a1c4fa9b2ebf8a5ed103d559_3285996269730193112.jpg",
+        "start": "2023-02-17 07:00:00",
+        "timezone": "-05:00"
     }
 ]
