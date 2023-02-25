@@ -2318,6 +2318,15 @@
         "reminder": "end"
     },
     {
+        "name": "\"Scarlet Sand Sojourn\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/16570400",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/02/24/14ef591424ac89dbab5d650bafa8861b_8668511906308653749.jpg",
+        "start": "2023-02-24 12:00:00",
+        "end": "2023-03-02 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "3.5 Special Program",
         "type": "Stream",
         "link": "https://www.hoyolab.com/article/16388660",
