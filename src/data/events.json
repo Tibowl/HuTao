@@ -2324,5 +2324,35 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/02/15/cb9bd6d3a1c4fa9b2ebf8a5ed103d559_3285996269730193112.jpg",
         "start": "2023-02-17 07:00:00",
         "timezone": "-05:00"
+    },
+    {
+        "name": "\"Windblume's Breath\" Web Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/6UhckSz.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Spices From the West: Northerly Search\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/EIgHG7i.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Fungus Mechanicus\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/jeLEj5l.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Vibro-Crystal Verification\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/5LNDIMY.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Ley Line Overflow\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/05/d76cdab75f5f952a213e564f6b0a5a51_155737532671932155.jpg",
+        "reminder": "daily"
     }
 ]
