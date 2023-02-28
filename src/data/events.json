@@ -2335,9 +2335,69 @@
         "timezone": "-05:00"
     },
     {
+        "name": "3.5 Maintenance",
+        "type": "Maintenance",
+        "link": "https://www.hoyolab.com/article/16630379",
+        "start": "2023-03-01 06:00:00",
+        "end": "2023-03-01 11:00:00"
+    },
+    {
+        "name": "Event Wish \"Auric Blaze\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/16631471",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/02/27/bd9bdbf1bda289b26ae5f590114adfe8_1012420700022984812.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "start": "2023-03-01 11:00:00",
+        "start_server": false,
+        "end": "2023-03-21 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Twilight Arbiter\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/16631471",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/02/27/afe4d4e3453735547f1bb716e6c8572f_4848351037258428048.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "start": "2023-03-01 11:00:00",
+        "start_server": false,
+        "end": "2023-03-21 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/16631471",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/02/27/641707d64f03d35d393f721857126ad8_2925567541597262527.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "start": "2023-03-01 11:00:00",
+        "start_server": false,
+        "end": "2023-03-21 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"The Heron's Court\"",
+        "type": "Banner",
+        "start": "2023-03-21 18:00:00",
+        "end": "2023-04-11 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"The Transcendent One Returns\"",
+        "type": "Banner",
+        "start": "2023-03-21 18:00:00",
+        "end": "2023-04-11 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "start": "2023-03-21 18:00:00",
+        "end": "2023-04-11 14:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "\"Windblume's Breath\" Event",
         "type": "In-game",
         "img": "https://i.imgur.com/6UhckSz.png",
+        "start": "2023-03-03 10:00:00",
+        "end": "2023-03-20 03:59:00",
         "reminder": "end"
     },
     {
@@ -2356,6 +2416,8 @@
         "name": "\"Vibro-Crystal Verification\" Event",
         "type": "In-game",
         "img": "https://i.imgur.com/5LNDIMY.png",
+        "start": "2023-03-14 10:00:00",
+        "end": "2023-03-27 03:59:00",
         "reminder": "end"
     },
     {
