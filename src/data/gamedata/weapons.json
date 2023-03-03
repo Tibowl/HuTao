@@ -950,6 +950,131 @@
       }
     ]
   },
+  "Beacon of the Reed Sea": {
+    "name": "Beacon of the Reed Sea",
+    "desc": "A large, flat-tipped sword designed in to fit as the weapon of an ancient king or some ceremonial instrument.",
+    "weaponType": "Claymore",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 45.9364013671875,
+        "curve": "ATK 3.1"
+      },
+      {
+        "stat": "CRIT Rate",
+        "init": 0.07199999690055847,
+        "curve": "C3"
+      }
+    ],
+    "icon": "img/weapon/Beacon_of_the_Reed_Sea.png",
+    "awakenIcon": "img/weapon_woke/Beacon_of_the_Reed_Sea.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts5",
+      "mapping": {
+        "EnemyDropTierA1": "Desiccated Shell",
+        "EnemyDropTierA2": "Sturdy Shell",
+        "EnemyDropTierA3": "Marked Shell",
+        "EnemyDropTierB1": "Faded Red Satin",
+        "EnemyDropTierB2": "Trimmed Red Silk",
+        "EnemyDropTierB3": "Rich Red Brocade",
+        "WeaponAsc1": "Echo of Scorching Might",
+        "WeaponAsc2": "Remnant Glow of Scorching Might",
+        "WeaponAsc3": "Dream of Scorching Might",
+        "WeaponAsc4": "Olden Days of Scorching Might"
+      }
+    },
+    "lore": "In the times when kingdoms sprang up like the mushrooms and collapsed like castles in the sand, when heroes rose like stars and fell like comets,\nAfter the Lord of Sand sank into the desert with dreams in his embrace, the blind wandering poet, of the once-privileged origin,\nTraveled across the vast sea of desert, and gathered its ballads from the scattered people of the desert.\n\nHe heard of the fall of his homeland, of the prince who blinded his eyes finally crushing the overwhelmed throne.\nHe heard of the legends of how the dancer aided one after another in becoming the king and made them obliterated by the sandstorm.\nHe heard the elegy of the clear springs that were replaced by flowing sands and the ancient cries of nations that collapsed into villages and tribes.\nHe heard of the story depicting the homeless prince's death, the fate of his swords, and the killer that traversed deep into the forest...\nNow, the ballads, uncontrollable like water yet intriguing like the flowing sand, had all been embedded in his heart.\nIn the searing sandstorms came forth the long-departed dream of the desert from the shards of ballads—\n\n\"On the other side of the sea of sand dunes once stood King Deshret's abode.\"\n\"The many streets and alleys were nothing less than paths of gold, converging towards the only throne.\"\n\"Like the eye that shone with a golden light and the noble heart, King Deshret was once the destination of all paths...\"\n\"But the searing dreams of gold were broken at last, and the great eye was dazzled by the sun and the sand.\"\n\"Fate sank like the sands of the ages into the dark depths, and the kingdom of flowing sands was crushed into golden dust.\"\n\nThe clock of fate never ceased for half-a-second for the folly of the king and the ordinary,\nThe trivial nations, the despicable king, were all finally devoured by the flowing sand...\nOnce, the paranoid prince built up forts outside the forest line to uphold the honor of the sand.\nBut eventually his soldiers and people scattered, and his name was lost in the desert wind.\nOn top of the ruins of the pool where the regalia of past executions of offenders was excavated,\nThose who had lost the dream of the desert, yet were unwilling to give up their vast sea of sand gathered.\nIn the name of the Reed Sea that never existed, they connected with the dream that was promised to them...",
+    "refinements": [
+      {
+        "name": "Desert Watch",
+        "desc": "After the character's Elemental Skill hits an opponent, their ATK will be increased by **20%** for 8s. After the character takes DMG, their ATK will be increased by **20%** for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by **32%**."
+      },
+      {
+        "name": "Desert Watch",
+        "desc": "After the character's Elemental Skill hits an opponent, their ATK will be increased by **25%** for 8s. After the character takes DMG, their ATK will be increased by **25%** for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by **40%**."
+      },
+      {
+        "name": "Desert Watch",
+        "desc": "After the character's Elemental Skill hits an opponent, their ATK will be increased by **30%** for 8s. After the character takes DMG, their ATK will be increased by **30%** for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by **48%**."
+      },
+      {
+        "name": "Desert Watch",
+        "desc": "After the character's Elemental Skill hits an opponent, their ATK will be increased by **35%** for 8s. After the character takes DMG, their ATK will be increased by **35%** for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by **56%**."
+      },
+      {
+        "name": "Desert Watch",
+        "desc": "After the character's Elemental Skill hits an opponent, their ATK will be increased by **40%** for 8s. After the character takes DMG, their ATK will be increased by **40%** for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by **64%**."
+      }
+    ]
+  },
   "Beginner's Protector": {
     "name": "Beginner's Protector",
     "desc": "A polearm as straight as a flag pole. Well suited to most combat situations, it has an imposing presence when swung.",
@@ -3127,7 +3252,7 @@
         "WeaponAsc4": "Mist Veiled Primo Elixir"
       }
     },
-    "lore": "Rumored to be a legendary polearm of Liyue.\nThe polearm features a dragon motif that runs from handle to tip.\nIt used to have a dragon-shaped wooden sheath,\nbut now it no longer needs to contain its might.\nIt shall pierce through anything that stands in its way.\n\nIt is said that when Kunwu forged this Pole, he used a dragon's spine for the haft and a dragon's claw for the tip.\nHence the weapon's body is unbreakable, while its tip is sharp beyond compare — and gleams with a dragon's malice.\n\nThere once was a dragon slayer of unimaginable strength and courage, who defied the ocean's wrath and fought fiercely against the monstrosities it harbored within.\nMany years after the dragon slayer had disappeared without a trace, the hopeless sound of a dragon's cry could be still be heard resounding throughout the ocean.\n\nThe dragon slayer became an urban legend. In the end, both the legend and the dragon-slaying polearm were lost.\nFreed at last from the shackles of its past, it displayed the full force of its ferocity once and for all, as if to mark the dragon's return to the ocean where it belonged.",
+    "lore": "Rumored to be a legendary polearm of Liyue.\nThe polearm features a dragon motif that runs from handle to tip.\nIt used to have a dragon-shaped wooden sheath,\nbut now it no longer needs to contain its might.\nIt shall pierce through anything that stands in its way.\n\nIt is said that when Kunwu forged this Pole, he used a dragon's spine for the haft and a dragon's claw for the tip.\nHence the weapon's body is unbreakable, while its tip is sharp beyond compare — and gleams with a dragon's malice.\n\nThere once was a dragon slayer of unimaginable strength and courage, who defied the ocean's wrath and fought fiercely against the monstrosities it harbored within.\nMany years after the dragon slayer had disappeared without a trace, the hopeless sound of a dragon's cry could still be heard resounding throughout the ocean.\n\nThe dragon slayer became an urban legend. In the end, both the legend and the dragon-slaying polearm were lost.\nFreed at last from the shackles of its past, it displayed the full force of its ferocity once and for all, as if to mark the dragon's return to the ocean where it belonged.",
     "refinements": [
       {
         "name": "Bane of Flame and Water",
@@ -8360,6 +8485,131 @@
       {
         "name": "Bane of Storm and Tide",
         "desc": "Increases DMG against opponents affected by Hydro or Electro by **24%**."
+      }
+    ]
+  },
+  "Mailed Flower": {
+    "name": "Mailed Flower",
+    "desc": "A graceful and elegant greatsword that is decorated with flowers and ribbons.",
+    "weaponType": "Claymore",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.734901428222656,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "Elemental Mastery",
+        "init": 24,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Mailed_Flower.png",
+    "awakenIcon": "img/weapon_woke/Mailed_Flower.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Desiccated Shell",
+        "EnemyDropTierA2": "Sturdy Shell",
+        "EnemyDropTierA3": "Marked Shell",
+        "EnemyDropTierB1": "Spectral Husk",
+        "EnemyDropTierB2": "Spectral Heart",
+        "EnemyDropTierB3": "Spectral Nucleus",
+        "WeaponAsc1": "Fetters of the Dandelion Gladiator",
+        "WeaponAsc2": "Chains of the Dandelion Gladiator",
+        "WeaponAsc3": "Shackles of the Dandelion Gladiator",
+        "WeaponAsc4": "Dream of the Dandelion Gladiator"
+      }
+    },
+    "lore": "The image of the Windblume has been lost amidst the flowing winds of time,\nIn times of peace, it has become synonymous with love and gladness.\nSometimes, even the forged weapons that are to be wielded for conquest and victory,\nAre adorned with such flowers following the commissioner's or forger's wish.\nIt seems that this blade was custom-made by someone for their beloved.\n\n\"Iron blades fail to slash it, neither can imprisonment of stones confine it.\"\n\"The wind has no fear of future, only constantly flowing in its direction.\"\nThe nameless shepherd who belonged not to the church silently told of stories of the wind,\nAnd presented the \"flowers\" to them in whose eyes the light yet shone.\n\nIf the noble descendants had all but forgotten their original oath, if the conceited silence rose to popularity,\nOr if the principle of the blood stood against the flowing wind, the legend of trees and flowers would be forbidden.\nIn that era, numerous flowers blossomed in places not favored by people.\nThe flowers were swept away by the wind, yet left an instant of glorious charm in the bleak world.\n\n\"In the shadow cast by the tower of the past, in the alleys and streets of today,\"\n\"In the smallest corners, the flowers are still blooming with the faintest glow.\"\nThe nameless shepherd who did not hail from the palace silently told of the flowers' stories.\n\nHe said: \"Today, Ludi Harpastum has been taken away by the noble.\"\nBut did you know that, in the ruins where mighty winds once swept, there used to be blooming wild flowers over hill and dale?\nThose flowers were not the common kind. The stronger the wind blew, the sturdier those flowers' root would grow, and the more they flourished.\nThe day when the kingdom was dotted with those flowers would be the day when the tower finally fell down.",
+    "refinements": [
+      {
+        "name": "Whispers of Wind and Flower",
+        "desc": "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by **12%** and **48** respectively."
+      },
+      {
+        "name": "Whispers of Wind and Flower",
+        "desc": "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by **15%** and **60** respectively."
+      },
+      {
+        "name": "Whispers of Wind and Flower",
+        "desc": "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by **18%** and **72** respectively."
+      },
+      {
+        "name": "Whispers of Wind and Flower",
+        "desc": "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by **21%** and **84** respectively."
+      },
+      {
+        "name": "Whispers of Wind and Flower",
+        "desc": "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by **24%** and **96** respectively."
       }
     ]
   },
@@ -16615,23 +16865,23 @@
     "refinements": [
       {
         "name": "Kaidan: Rainfall Earthbinder",
-        "desc": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is taken out during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal **16%** more DMG to the opponent affected by Cursed Parasol."
+        "desc": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal **16%** more DMG to the opponent affected by Cursed Parasol."
       },
       {
         "name": "Kaidan: Rainfall Earthbinder",
-        "desc": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is taken out during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal **20%** more DMG to the opponent affected by Cursed Parasol."
+        "desc": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal **20%** more DMG to the opponent affected by Cursed Parasol."
       },
       {
         "name": "Kaidan: Rainfall Earthbinder",
-        "desc": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is taken out during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal **24%** more DMG to the opponent affected by Cursed Parasol."
+        "desc": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal **24%** more DMG to the opponent affected by Cursed Parasol."
       },
       {
         "name": "Kaidan: Rainfall Earthbinder",
-        "desc": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is taken out during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal **28%** more DMG to the opponent affected by Cursed Parasol."
+        "desc": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal **28%** more DMG to the opponent affected by Cursed Parasol."
       },
       {
         "name": "Kaidan: Rainfall Earthbinder",
-        "desc": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is taken out during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal **32%** more DMG to the opponent affected by Cursed Parasol."
+        "desc": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal **32%** more DMG to the opponent affected by Cursed Parasol."
       }
     ]
   },

@@ -1318,5 +1318,49 @@
       54,
       55
     ]
+  },
+  "60": {
+    "start": "2023-03-16 04:00:00",
+    "end": "2023-04-01 03:59:59",
+    "buff": "Determined Moon",
+    "buffDesc": "After a character's HP decreases, all party members will gain a stack of Implacable: DMG dealt will be increased by 8% for 8s. This effect can be triggered once every 0.3s. Max 4 stacks. Each stack's duration is counted independently.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      44,
+      45,
+      56,
+      57
+    ]
+  },
+  "61": {
+    "start": "2023-04-01 04:00:00",
+    "end": "2023-04-16 03:59:59",
+    "buff": "Incisive Moon",
+    "buffDesc": "When a character's HP decreases, release a shockwave at the current active character's position, dealing True DMG to nearby opponents. This effect can be triggered once every 3s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      44,
+      45,
+      56,
+      57
+    ]
   }
 }

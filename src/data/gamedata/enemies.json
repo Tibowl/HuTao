@@ -1168,6 +1168,22 @@
       ]
     ]
   },
+  "Abyss Herald: Frost Fall": {
+    "name": "Abyss Herald: Frost Fall",
+    "desc": "A monster from the Abyss Order that wields frigid, icy blades in battle.\nJust as there are saints who will spread and glorify the profound gospel, there are envoys who must correct any twisted strains and remove any dissonance.\nPeople often say that steel feels like ice as it pierces the body, but this dark frost is said to freeze even the soul.",
+    "icon": "img/enemy/Abyss_Herald_Frost_Fall.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
   "Abyss Lector: Fathomless Flames": {
     "name": "Abyss Lector: Fathomless Flames",
     "desc": "Wielders of abyssal fire who pursue the meaning behind texts and scriptures. Is a member of the Abyss Order.\nThe surface people have a slightly distorted understanding of what their name means, calling them \"Lectors,\" when their name can also mean \"exegete.\" Reading the word of grace grants them great power.",
@@ -1431,6 +1447,22 @@
       ]
     ]
   },
+  "Black Serpent Knight: Rockbreaker Ax": {
+    "name": "Black Serpent Knight: Rockbreaker Ax",
+    "desc": "A guard of some standing in the court, sundering the foes of the nation's rulers using a sword art known as \"Truthseeker.\"\nThough Truthseeker is, strictly speaking, a sword art, its teachings can also be used with various other weapons — and in the realm's darkest hour, those who had to protect their homeland had little room to be fussy anyway.",
+    "icon": "img/enemy/Black_Serpent_Knight_Rockbreaker_Ax.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "50%",
+        "10%"
+      ]
+    ]
+  },
   "Fatui Skirmisher - Pyroslinger Bracer": {
     "name": "Fatui Skirmisher - Pyroslinger Bracer",
     "desc": "A Fatui soldier who wields a flaming gun.\nSkirmisher weapons can control the elements to a certain extent, and their combat tactics utilize elemental reactions.\nTheir ordnance and knowledge of squad-based combat thus constitute no small threat in battle.",
@@ -1462,7 +1494,7 @@
   },
   "Fatui Skirmisher - Hydrogunner Legionnaire": {
     "name": "Fatui Skirmisher - Hydrogunner Legionnaire",
-    "desc": "A soldier encased within a Fatui war machine.\nArmed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of water.\nThese skirmishers do not question if they shall live or die as they advance into nations far from home to complete advance missions and lay the groundwork for operations to come.",
+    "desc": "A soldier encased within a Fatui war machine.\nArmed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of water.\nThese skirmishers do not question if they shall live or die as they advance into nations far from home to complete reconaissance missions and lay the groundwork for operations to come.",
     "icon": "img/enemy/Fatui_Skirmisher_Hydrogunner_Legionnaire.png",
     "type": "Fatui",
     "kind": "Common Enemy",
