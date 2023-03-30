@@ -2410,7 +2410,8 @@
     {
         "name": "\"Spices From the West: Northerly Search\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/EIgHG7i.png",
+        "link": "https://www.hoyolab.com/article/17337582",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/03/28/071c1605d97f6cb55ce81916a36cc817_7970618670896179485.jpg",
         "start": "2023-03-31 10:00:00",
         "end": "2023-04-10 03:59:00",
         "reminder": "end"
@@ -2439,5 +2440,13 @@
         "start": "2023-04-03 04:00:00",
         "end": "2023-04-10 03:59:00",
         "reminder": "daily"
+    },
+    {
+        "name": "3.6 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/17337586",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/03/29/8d91bf1907f5493f5f5c1af260cafb2e_4205478297519923295.jpg",
+        "start": "2023-03-31 08:00:00",
+        "timezone": "-04:00"
     }
 ]
