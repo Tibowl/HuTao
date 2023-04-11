@@ -1,13 +1,13 @@
+import { exists, existsSync, move, readFileSync, unlink, writeFile } from "fs-extra"
 import log4js from "log4js"
-import { exists, unlink, move, writeFile, existsSync, readFileSync } from "fs-extra"
 import { join } from "path"
 
-import { Artifact, ArtifactType, MainStatInfo, Character, BotEmoji, Store, Weapon, Cost, AbyssSchedule, AbyssFloor, Event, PaimonShop, Guide, CharacterFull, CostTemplate, Enemy, GuidePage, Material, GuideLinks, Item } from "./Types"
+import { AbyssFloor, AbyssSchedule, Artifact, ArtifactType, BotEmoji, Character, CharacterFull, Cost, CostTemplate, Enemy, Event, Guide, GuideLinks, GuidePage, Item, MainStatInfo, Material, PaimonShop, Store, Weapon } from "./Types"
 import { findFuzzy } from "./Utils"
 
 import artifactsData from "../data/gamedata/artifacts.json"
-import artifactsMainStats from "../data/gamedata/artifact_main_stats.json"
 import artifactsMainLevels from "../data/gamedata/artifact_main_levels.json"
+import artifactsMainStats from "../data/gamedata/artifact_main_stats.json"
 
 import costTemplates from "../data/gamedata/cost_templates.json"
 
@@ -29,7 +29,7 @@ import enemyData from "../data/gamedata/enemies.json"
 import materialData from "../data/gamedata/materials.json"
 
 import emojiData from "../data/emojis.json"
-import eventData from "../data/events.json" // Not in gamedata since it also contains webevents
+import eventData from "../data/events.json"; // Not in gamedata since it also contains webevents
 import guideData from "../data/guides.json"
 
 const Logger = log4js.getLogger("DataManager")

@@ -1,5 +1,5 @@
 import log4js from "log4js"
-import { AutocompleteInteraction, CommandInteraction, Message } from "discord.js"
+import { AutocompleteInteraction, ChannelType, ChatInputCommandInteraction, Message } from "discord.js"
 
 import Command from "../utils/Command"
 import client from "../main"
@@ -51,14 +51,14 @@ export function addACStats(cmdInfo: ParsedCommand): void {
     client.data.saveStore()
 }
 
-export async function handleCommand(cmdInfo: ParsedCommand, interaction: CommandInteraction): Promise<void> {
+export async function handleCommand(cmdInfo: ParsedCommand, interaction: ChatInputCommandInteraction): Promise<void> {
     const { command, cmd } = cmdInfo
     try {
         const startTime = Date.now()
         const msg = cmd.runInteraction(interaction, command)
         const id = interaction.user.id
         const midTime = Date.now()
-        if (msg && interaction.channel?.type !== "DM")
+        if (msg && interaction.channel?.type !== ChannelType.DM)
             await handleStuff(id, msg)
         const endTime = Date.now()
         Logger.debug(`${cmdInfo.command} took ${midTime - startTime}ms, sending took ${endTime - midTime}ms, message->start took ${startTime - interaction.createdTimestamp}ms`)

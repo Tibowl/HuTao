@@ -1,5 +1,5 @@
-import { APIInteractionDataResolvedGuildMember } from "discord-api-types/v10"
-import { CommandInteraction, Message, MessageMentions } from "discord.js"
+import { APIInteractionDataResolvedGuildMember, ApplicationCommandOptionType, PermissionFlagsBits } from "discord-api-types/v10"
+import { ChatInputCommandInteraction, Message, MessageMentions } from "discord.js"
 
 import config from "../../data/config.json"
 import client from "../../main"
@@ -50,11 +50,11 @@ Example of adding news: \`${config.prefix}follow add news\``,
             options: [{
                 name: "list",
                 description: "List the currently following events",
-                type: "SUB_COMMAND",
+                type: ApplicationCommandOptionType.Subcommand,
                 options: [{
                     name: "category",
                     description: "Category of the event",
-                    type: "STRING",
+                    type: ApplicationCommandOptionType.String,
                     required: false,
                     choices: Object.keys(descriptions).map(d => {
                         return {
@@ -66,11 +66,11 @@ Example of adding news: \`${config.prefix}follow add news\``,
             }, {
                 name: "add",
                 description: "Add an category to follow in this channel",
-                type: "SUB_COMMAND",
+                type: ApplicationCommandOptionType.Subcommand,
                 options: [{
                     name: "category",
                     description: "Category of the event",
-                    type: "STRING",
+                    type: ApplicationCommandOptionType.String,
                     required: true,
                     choices: Object.keys(descriptions).map(d => {
                         return {
@@ -81,16 +81,16 @@ Example of adding news: \`${config.prefix}follow add news\``,
                 }, {
                     name: "pingrole",
                     description: "Role to ping",
-                    type: "MENTIONABLE"
+                    type: ApplicationCommandOptionType.Role
                 }]
             }, {
                 name: "remove",
                 description: "Remove an category to follow in this channel",
-                type: "SUB_COMMAND",
+                type: ApplicationCommandOptionType.Subcommand,
                 options: [{
                     name: "category",
                     description: "Category of the event",
-                    type: "STRING",
+                    type: ApplicationCommandOptionType.String,
                     required: true,
                     choices: Object.keys(descriptions).map(d => {
                         return {
@@ -103,7 +103,7 @@ Example of adding news: \`${config.prefix}follow add news\``,
         })
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const channel = await source.channel?.fetch()
         if (!channel || !isNewsable(channel) || source.guild == null)
             return sendMessage(source, "This command can only be executed in guild channels. You can invite this bot in your own server via `.invite`", undefined, true)
@@ -111,7 +111,7 @@ Example of adding news: \`${config.prefix}follow add news\``,
         if (typeof source.member?.permissions == "string")
             return sendMessage(source, "Unable to check permissions", undefined, true)
 
-        if (!source.member?.permissions.has("ADMINISTRATOR") && !config.admins.includes(getUserID(source)))
+        if (!source.member?.permissions.has(PermissionFlagsBits.Administrator) && !config.admins.includes(getUserID(source)))
             return sendMessage(source, "You do not have administrator rights in this server, and thus can't edit follows. If you still want to use this feature, add this bot in your own server via `.invite`", undefined, true)
 
         const { options } = source
@@ -131,7 +131,7 @@ Example of adding news: \`${config.prefix}follow add news\``,
         if (!channel || !isNewsable(channel) || source.guild == null)
             return sendMessage(source, "This command can only be executed in guild channels. You can invite this bot in your own server via `.invite`", undefined, true)
 
-        if (!source.member?.permissions.has("ADMINISTRATOR") && !config.admins.includes(getUserID(source)))
+        if (!source.member?.permissions.has(PermissionFlagsBits.Administrator) && !config.admins.includes(getUserID(source)))
             return sendMessage(source, "You do not have administrator rights in this server, and thus can't edit follows. If you still want to use this feature, add this bot in your own server via `.invite`", undefined, true)
 
         const sub = args[0]?.toLowerCase() ?? "help"
@@ -226,7 +226,7 @@ ${createTable(
             if (pingRole.match(/^\d+$/))
                 pingedRole = pingRole
             else {
-                const response = MessageMentions.ROLES_PATTERN.exec(pingRole)
+                const response = MessageMentions.RolesPattern.exec(pingRole)
                 if (response == null)
                     return sendMessage(source, "Unable to extract ping role from message", undefined, true)
                 pingedRole = response[1]

@@ -1,10 +1,10 @@
-import { CommandInteraction, Message } from "discord.js"
+import { ApplicationCommandOptionType, ChatInputCommandInteraction, Message } from "discord.js"
 
-import Command from "../../utils/Command"
-import client from "../../main"
 import config from "../../data/config.json"
-import { sendMessage } from "../../utils/Utils"
+import client from "../../main"
+import Command from "../../utils/Command"
 import { CommandSource, SendMessage } from "../../utils/Types"
+import { sendMessage } from "../../utils/Utils"
 
 export default class WeaponLevelCommand extends Command {
     constructor(name: string) {
@@ -22,26 +22,26 @@ If no target level provided, assuming max for current ascension. If no current l
             options: [{
                 name: "stars",
                 description: "Current level",
-                type: "NUMBER",
+                type: ApplicationCommandOptionType.Number,
                 required: true,
             }, {
                 name: "current-level",
                 description: "Current level",
-                type: "NUMBER",
+                type: ApplicationCommandOptionType.Number,
                 required: true,
             }, {
                 name: "target-level",
                 description: "Target level (default: max level and next ascension)",
-                type: "NUMBER"
+                type: ApplicationCommandOptionType.Number
             }, {
                 name: "current-experience",
                 description: "Current experience over current level (default: 0)",
-                type: "NUMBER"
+                type: ApplicationCommandOptionType.Number
             }]
         })
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
 
         const stars = options.getNumber("stars", true)

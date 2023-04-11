@@ -1,10 +1,10 @@
-import { CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { ApplicationCommandOptionType, ChatInputCommandInteraction, EmbedBuilder, Message } from "discord.js"
 import client from "../../main"
 
-import Command from "../../utils/Command"
-import { Colors, getUserID, sendMessage, timeLeft } from "../../utils/Utils"
 import config from "../../data/config.json"
+import Command from "../../utils/Command"
 import { CommandSource, SendMessage } from "../../utils/Types"
+import { Colors, getUserID, sendMessage, timeLeft } from "../../utils/Utils"
 
 export default class ReminderRemove extends Command {
     constructor(name: string) {
@@ -19,12 +19,12 @@ Example: \`${config.prefix}dr 1\``,
             options: [{
                 name: "id",
                 description: "Current amount of resin",
-                type: "NUMBER",
+                type: ApplicationCommandOptionType.Number,
                 required: true
             }]
         })
     }
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
 
         const id = options.getNumber("id", true)
@@ -54,7 +54,7 @@ Example: \`${config.prefix}dr 1\``,
 
         if (!reminder) return sendMessage(source, `Could not find reminder with ID #${id}`)
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setTitle(`Deleted reminder #${reminder.id}`)
             .setColor(Colors.RED)
             .setDescription(`I won't remind you about \`${reminder.subject}\` in ${timeLeft(reminder.timestamp - Date.now(), false, false)}

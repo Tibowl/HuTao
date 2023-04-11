@@ -1,4 +1,4 @@
-import { CommandInteraction, Guild, Message, MessageEmbed, User } from "discord.js"
+import { ApplicationCommandOptionType, ChatInputCommandInteraction, EmbedBuilder, Guild, Message, PermissionFlagsBits, User } from "discord.js"
 import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
@@ -21,47 +21,47 @@ Requires "Manage Messages" permissions to create/edit/remove, but anyone can see
             options: [{
                 name: "list",
                 description: "View notes",
-                type: "SUB_COMMAND",
+                type: ApplicationCommandOptionType.Subcommand,
             }, {
                 name: "create",
                 description: "Create a new note",
-                type: "SUB_COMMAND",
+                type: ApplicationCommandOptionType.Subcommand,
                 options: [{
                     name: "name",
                     description: "Name to show",
-                    type: "STRING",
+                    type: ApplicationCommandOptionType.String,
                     required: true
                 }]
             }, {
                 name: "edit",
                 description: "Edits a note by ID",
-                type: "SUB_COMMAND",
+                type: ApplicationCommandOptionType.Subcommand,
                 options: [{
                     name: "id",
                     description: "ID to edit",
-                    type: "INTEGER",
+                    type: ApplicationCommandOptionType.Integer,
                     required: true
                 }, {
                     name: "name",
                     description: "New name",
-                    type: "STRING",
+                    type: ApplicationCommandOptionType.String,
                     required: true
                 }]
             }, {
                 name: "remove",
                 description: "Removes a note by ID",
-                type: "SUB_COMMAND",
+                type: ApplicationCommandOptionType.Subcommand,
                 options: [{
                     name: "id",
                     description: "ID to remove",
-                    type: "INTEGER",
+                    type: ApplicationCommandOptionType.Integer,
                     required: true
                 }]
             }]
         })
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
         const sub = options.getSubcommand()
 
@@ -77,7 +77,7 @@ Requires "Manage Messages" permissions to create/edit/remove, but anyone can see
             return sendMessage(source, `Unknown subcommand ${sub}`)
     }
 
-    async runMessage(source: Message|CommandInteraction, args: string[]): Promise<SendMessage | undefined> {
+    async runMessage(source: Message, args: string[]): Promise<SendMessage | undefined> {
         const sub = args[0]?.toLowerCase() ?? "list"
         args.shift()
 
@@ -140,7 +140,7 @@ Requires "Manage Messages" permissions to create/edit/remove, but anyone can see
             id++
 
         notesManager.addNote(guildID, categoryID, id, subject, user.id)
-        const reply = sendMessage(source, new MessageEmbed()
+        const reply = sendMessage(source, new EmbedBuilder()
             .setTitle(`Created note #${id} in ${name}`)
             .setColor(Colors.GREEN)
             .setDescription(`The note #${id}: \`${subject}\` has been created`)
@@ -161,7 +161,7 @@ Requires "Manage Messages" permissions to create/edit/remove, but anyone can see
         if (note == undefined) return sendMessage(source, `Could not find note #${id} in ${name}`)
 
         notesManager.deleteNote(guildID, categoryID, id, user.id)
-        const reply = sendMessage(source, new MessageEmbed()
+        const reply = sendMessage(source, new EmbedBuilder()
             .setTitle(`Deleted note #${id} in ${name}`)
             .setColor(Colors.RED)
             .setDescription(`The note #${id}: \`${note.subject}\` has been deleted`)
@@ -186,7 +186,7 @@ Requires "Manage Messages" permissions to create/edit/remove, but anyone can see
         if (note == undefined) return sendMessage(source, `Could not find note #${id} in ${name}`)
 
         notesManager.editNote(guildID, categoryID, id, newSubject, user.id)
-        const reply = sendMessage(source, new MessageEmbed()
+        const reply = sendMessage(source, new EmbedBuilder()
             .setTitle(`Edited note #${id} in ${name}`)
             .setColor(Colors.ORANGE)
             .setDescription(`Original: \`${note.subject}\`
@@ -200,7 +200,7 @@ New: \`${newSubject}\``)
         if (guild)
             if (source.member == undefined || typeof source.member.permissions == "string")
                 return sendMessage(source, "Unable to check permissions.", undefined, true)
-            else if (!source.member.permissions.has("MANAGE_MESSAGES"))
+            else if (!source.member.permissions.has(PermissionFlagsBits.ManageMessages))
                 return sendMessage(source, "You do not have have \"Manage Messages\" permissions in here.", undefined, true)
     }
 
@@ -230,11 +230,11 @@ New: \`${newSubject}\``)
         return pages
     }
 
-    private getNotePage(pages: string[], name: string, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    private getNotePage(pages: string[], name: string, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         if (relativePage >= pages.length)
             return undefined
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setTitle(`Notes in ${name}`)
             .setDescription(pages[relativePage])
             .setFooter({ text: `Page ${currentPage} / ${maxPages}` })

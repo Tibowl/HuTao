@@ -1,4 +1,4 @@
-import { CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { ChatInputCommandInteraction, EmbedBuilder, Message } from "discord.js"
 import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
@@ -21,7 +21,7 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
     }
 
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         return sendMessage(source, "Slash command not supported")
     }
 
@@ -50,7 +50,7 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
 
             while (stored.join("\n").length > 1500) stored.pop()
 
-            const embed = new MessageEmbed()
+            const embed = new EmbedBuilder()
                 .setColor(Colors.GREEN)
                 .setTitle(`Most recent ${newsManager.getLanguageName(lang)} news articles:`)
                 .setFooter({ text: `You can use open the links or use \`${config.prefix}news <post id>\` to view more details about a post` })

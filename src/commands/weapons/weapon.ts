@@ -1,10 +1,10 @@
-import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { ApplicationCommandOptionType, AutocompleteInteraction, ChatInputCommandInteraction, EmbedBuilder, Message } from "discord.js"
 
-import Command from "../../utils/Command"
-import client from "../../main"
-import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLink, getLinkToGuide, PAD_START, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
-import { CommandSource, SendMessage, Weapon } from "../../utils/Types"
 import config from "../../data/config.json"
+import client from "../../main"
+import Command from "../../utils/Command"
+import { CommandSource, SendMessage, Weapon } from "../../utils/Types"
+import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLink, getLinkToGuide, PAD_START, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 
 const weaponTypes = Object.values(client.data.weapons)
     .map(c => c.weaponType)
@@ -34,7 +34,7 @@ Note: this command supports fuzzy search.`,
             options: [{
                 name: "name",
                 description: "Weapon name",
-                type: "STRING",
+                type: ApplicationCommandOptionType.String,
                 autocomplete: true,
                 required: false
             }]
@@ -74,7 +74,7 @@ Note: this command supports fuzzy search.`,
         }))
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         return this.run(source, (source.options.getString("name") ?? "").split(/ +/g))
 
     }
@@ -188,11 +188,11 @@ Note: this command supports fuzzy search.`,
         return pages
     }
 
-    getWeaponsPage(pages: string[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getWeaponsPage(pages: string[], relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         if (relativePage >= pages.length)
             return undefined
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setTitle("Weapons")
             .setURL(`${client.data.baseURL}weapons`)
             .setDescription(pages[relativePage])
@@ -202,59 +202,64 @@ Note: this command supports fuzzy search.`,
         return embed
     }
 
-    getMainWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getMainWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         const { data } = client
         const hasRefinements = weapon.refinements && weapon.refinements.length > 0
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setTitle(`${weapon.name}: Basic info`)
             .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}`)
             .setColor(Colors.AQUA)
             .setThumbnail(getLink(weapon.icon))
             .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setDescription((weapon.desc ? weapon.desc : "") + ((weapon.placeholder || !weapon.desc) ? "\n\n*This weapon is currently not yet available.*" : ""))
-            .addField("Basics", `${weapon.stars}★ ${data.emoji(weapon.weaponType)}`, (weapon.placeholderStats && !weapon.weaponCurve) ? true : false)
+            .addFields({ name: "Basics", value: `${weapon.stars}★ ${data.emoji(weapon.weaponType)}`, inline: (weapon.placeholderStats && !weapon.weaponCurve) ? true : false })
 
         const maxAscension = weapon.ascensions?.[weapon.ascensions.length - 1]
         if (weapon.weaponCurve && maxAscension)
             embed
-                .addField("Base stats", `${
-                    Object.entries(data.getWeaponStatsAt(weapon, 1, 0))
+                .addFields({ 
+                    name: "Base stats", 
+                    value: Object.entries(data.getWeaponStatsAt(weapon, 1, 0))
                         .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
-                        .join("\n")
-                }`, true)
-                .addField(`Lv. ${maxAscension.maxLevel} A${maxAscension.level} stats`, `${
-                    Object.entries(data.getWeaponStatsAt(weapon, maxAscension.maxLevel, maxAscension.level))
+                        .join("\n"), 
+                    inline: true
+                }, { 
+                    name: `Lv. ${maxAscension.maxLevel} A${maxAscension.level} stats`, 
+                    value: Object.entries(data.getWeaponStatsAt(weapon, maxAscension.maxLevel, maxAscension.level))
                         .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
-                        .join("\n")
-                }`, true)
+                        .join("\n"), 
+                    inline: true
+                })
         else if (weapon.placeholderStats) {
-            embed.addField(`Lv. ${weapon.placeholderStats.level} stats`, `${
-                Object.entries(weapon.placeholderStats.stats)
+            embed.addFields({
+                name: `Lv. ${weapon.placeholderStats.level} stats`, 
+                value: Object.entries(weapon.placeholderStats.stats)
                     .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
-                    .join("\n")
-            }`, true)
+                    .join("\n"),
+                inline: true
+            })
         }
         if (weapon.refinements && hasRefinements)
-            embed.addField(`${weapon.refinements[0].name} (at R1)`, weapon.refinements[0].desc)
+            embed.addFields({ name: `${weapon.refinements[0].name} (at R1)`, value: weapon.refinements[0].desc })
         if (weapon.ascensionCosts)
-            embed.addField("Upgrade material", `Ascensions: ${[
+            embed.addFields({ name: "Upgrade material", value: `Ascensions: ${[
                 weapon.ascensionCosts.mapping.WeaponAsc2,
                 weapon.ascensionCosts.mapping.EnemyDropTierA1,
                 weapon.ascensionCosts.mapping.EnemyDropTierB1,
-            ].map(i => data.emoji(i)).join("")}`)
+            ].map(i => data.emoji(i)).join("")}` })
 
 
         const guides = data.getGuides("weapon", weapon.name).map(({ guide, page }) => getLinkToGuide(guide, page)).join("\n")
 
         if (guides)
-            embed.addField("Guides", guides)
+            embed.addFields({ name: "Guides", value: guides })
 
         return embed
     }
 
-    getStatsWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getStatsWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         const { data } = client
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setColor(Colors.AQUA)
             .setThumbnail(getLink(weapon.icon))
             .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
@@ -282,7 +287,7 @@ Note: this command supports fuzzy search.`,
 
                 const cost = costs[asc.level]
                 if (cost.mora || cost.items.length > 0)
-                    embed.addField(`Ascension ${asc.level} costs`, data.getCosts(cost), true)
+                    embed.addFields({ name: `Ascension ${asc.level} costs`, value: data.getCosts(cost), inline: true })
             }
         }
 
@@ -293,13 +298,13 @@ Note: this command supports fuzzy search.`,
                 rows,
                 [PAD_START]
             ) + "\n```")
-            .setFooter({ text: `${embed.footer?.text} - Use '${config.prefix}weaponstats ${weapon.name} [level] [A<ascension>]' for a specific level` })
+            .setFooter({ text: `${embed.data.footer?.text} - Use '${config.prefix}weaponstats ${weapon.name} [level] [A<ascension>]' for a specific level` })
         return embed
     }
 
-    getRefinementWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getRefinementWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         const { data } = client
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setColor(Colors.AQUA)
             .setThumbnail(getLink(weapon.icon))
             .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
@@ -307,14 +312,14 @@ Note: this command supports fuzzy search.`,
         embed.setTitle(`${weapon.name}: Refinements`)
             .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}#refinements`)
         for (const [refinement, info] of Object.entries(weapon.refinements ?? []))
-            embed.addField(`${info.name} R${+refinement+1}`, info.desc)
+            embed.addFields({ name: `${info.name} R${+refinement+1}`, value: info.desc })
 
         return embed
     }
 
-    getLoreWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getLoreWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         const { data } = client
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setColor(Colors.AQUA)
             .setThumbnail(getLink(weapon.icon))
             .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
@@ -324,38 +329,37 @@ Note: this command supports fuzzy search.`,
         return embed
     }
 
-    getArtWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getArtWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         const { data } = client
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setColor(Colors.AQUA)
             .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setTitle(`${weapon.name}: Base`)
             .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}#media`)
             .setDescription(`[Open image in browser](${data.baseURL}${getLink(weapon.icon)})`)
             .setImage(getLink(weapon.icon))
-        embed.thumbnail = null
+            .setThumbnail(null)
         return embed
     }
 
-    getSecondArtWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getSecondArtWeaponPage(weapon: Weapon, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         const { data } = client
 
         if (!weapon.awakenIcon)
-            return new MessageEmbed()
+            return new EmbedBuilder()
                 .setColor(Colors.RED)
                 .setTitle(`${weapon.name}: 2nd Ascension`)
                 .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
                 .setDescription("Unable to load")
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setColor(Colors.AQUA)
             .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setTitle(`${weapon.name}: 2nd Ascension`)
             .setURL(`${data.baseURL}weapons/${urlify(weapon.name, false)}#media`)
             .setDescription(`[Open image in browser](${data.baseURL}${getLink(weapon.awakenIcon)})`)
             .setImage(getLink(weapon.awakenIcon))
-
-        embed.thumbnail = null
+            .setThumbnail(null)
         return embed
     }
 }

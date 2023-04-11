@@ -1,4 +1,4 @@
-import { CommandInteraction, Message, Snowflake } from "discord.js"
+import { ApplicationCommandOptionType, ChannelType, ChatInputCommandInteraction, Message, Snowflake } from "discord.js"
 import log4js from "log4js"
 import config from "../../data/config.json"
 import Command from "../../utils/Command"
@@ -19,13 +19,13 @@ export default class ThreadCommand extends Command {
             options: [{
                 name: "name",
                 description: "Name of thread",
-                type: "STRING",
+                type: ApplicationCommandOptionType.String,
                 required: true
             }]
         })
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         return this.run(source, source.user.id, source.options.getString("name", true))
     }
 
@@ -40,7 +40,7 @@ export default class ThreadCommand extends Command {
         const channel = source.channel
         await channel?.fetch()
 
-        if (!(channel?.isText() && channel.type == "GUILD_TEXT" && channel.id && config.allowedArchive.includes(channel.id)))
+        if (!(channel?.isTextBased() && channel.type == ChannelType.GuildText && channel.id && config.allowedArchive.includes(channel.id)))
             return sendMessage(source, "This command can not be used here.", undefined, true)
 
         const matched = name.match(/^\[(.*)\]/)
@@ -50,8 +50,7 @@ export default class ThreadCommand extends Command {
         Logger.info(`Creating thread ${name} for ${id} in ${channel.id} (${channel.guild.name})`)
         const msg = await channel.send({ content: `<@${id}>: ${name}` })
         await msg.startThread({
-            name,
-            autoArchiveDuration: "MAX"
+            name
         })
 
         if (msg.pinnable)

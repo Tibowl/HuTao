@@ -1,10 +1,10 @@
-import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { ApplicationCommandOptionType, AutocompleteInteraction, ChatInputCommandInteraction, EmbedBuilder, Message } from "discord.js"
 
-import Command from "../../utils/Command"
-import client from "../../main"
-import { Colors, createTable,  findFuzzyBestCandidates,  getLink,  getLinkToGuide,  sendMessage,  simplePaginator, urlify } from "../../utils/Utils"
-import { Artifact, CommandSource, SendMessage } from "../../utils/Types"
 import config from "../../data/config.json"
+import client from "../../main"
+import Command from "../../utils/Command"
+import { Artifact, CommandSource, SendMessage } from "../../utils/Types"
+import { Colors, createTable, findFuzzyBestCandidates, getLink, getLinkToGuide, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 
 export default class ArtifactCommand extends Command {
     constructor(name: string) {
@@ -20,7 +20,7 @@ Note: this command supports fuzzy search.`,
             options: [{
                 name: "name",
                 description: "Name of the artifact set",
-                type: "STRING",
+                type: ApplicationCommandOptionType.String,
                 autocomplete: true
             }]
         })
@@ -44,7 +44,7 @@ Note: this command supports fuzzy search.`,
         }))
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
 
         const set = options.getString("name")
@@ -97,11 +97,11 @@ Note: this command supports fuzzy search.`,
         return pages
     }
 
-    getArtiSets(pages: string[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getArtiSets(pages: string[], relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         if (relativePage >= pages.length)
             return undefined
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setTitle("Artifact Sets")
             .setURL(`${client.data.baseURL}artifacts`)
             .setDescription(pages[relativePage])
@@ -111,9 +111,9 @@ Note: this command supports fuzzy search.`,
         return embed
     }
 
-    getArti(set: Artifact, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getArti(set: Artifact, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         const { data } = client
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setColor(Colors.AQUA)
             .setThumbnail(getLink(set.artis?.find(x => x.icon)?.icon ?? "img/unknown.png"))
             .setURL(`${data.baseURL}artifacts/${urlify(set.name, false)}`)
@@ -121,11 +121,11 @@ Note: this command supports fuzzy search.`,
 
         if (relativePage == 0) {
             for (const bonus of set.bonuses ?? [])
-                embed.addField(`${bonus.count}-Set Bonus`, bonus.desc)
+                embed.addFields({ name: `${bonus.count}-Set Bonus`, value: bonus.desc })
 
             embed.setTitle(`${set.name}: Set info`)
             if (set.levels)
-                embed.addField("Possible levels", set.levels.map(k => k + "★").join(", "))
+                embed.addFields({ name: "Possible levels", value: set.levels.map(k => k + "★").join(", ") })
             if (set.artis)
                 embed.setDescription(`This set contains ${set.artis.length} artifacts`)
             if (set.note)
@@ -135,7 +135,7 @@ Note: this command supports fuzzy search.`,
             const guides = client.data.getGuides("artifact", set.name).map(({ guide, page }) => getLinkToGuide(guide, page)).join("\n")
 
             if (guides)
-                embed.addField("Guides", guides)
+                embed.addFields({ name: "Guides", value: guides })
 
             return embed
         }
@@ -148,14 +148,16 @@ Note: this command supports fuzzy search.`,
             embed.setTitle(`${arti.name}`)
                 .setURL(`${data.baseURL}artifacts/${urlify(set.name, false)}#artis`)
                 .setDescription(arti.desc)
-                .addField("Possible main stats", `\`\`\`
+                .addFields({
+                    name: "Possible main stats",
+                    value: `\`\`\`
 ${createTable(
         ["Rate", "Stat"],
         mainStats.sort((a, b) => b.weight - a.weight).map(am => [`${(am.weight / total * 100).toFixed(1)}%`, am.name])
     )}
 \`\`\`
 
-*See \`${config.prefix}artifact-levels <main stat> [stars = 5]\` for more info about artifact main stats*`)
+*See \`${config.prefix}artifact-levels <main stat> [stars = 5]\` for more info about artifact main stats*` })
                 .setThumbnail(getLink(arti.icon))
 
             return embed

@@ -1,4 +1,4 @@
-import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { ApplicationCommandOptionType, AutocompleteInteraction, ChatInputCommandInteraction, EmbedBuilder, Message } from "discord.js"
 import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
@@ -22,7 +22,7 @@ Note: this command supports fuzzy search.`,
             options: [{
                 name: "guide",
                 description: "Name of the guide",
-                type: "STRING",
+                type: ApplicationCommandOptionType.String,
                 required: false,
                 autocomplete: true
             }]
@@ -46,7 +46,7 @@ Note: this command supports fuzzy search.`,
         }))
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
         const query = options.getString("guide") ?? ""
 
@@ -111,11 +111,11 @@ ${data.guides.map((guide) => `- *${guide.name}*: ${guide.pages.length} ${guide.p
         return pages
     }
 
-    getGuidesPage(pages: string[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getGuidesPage(pages: string[], relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         if (relativePage >= pages.length)
             return undefined
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setTitle("Guides")
             .setURL(`${client.data.baseURL}guides`)
             .setDescription(pages[relativePage])
@@ -126,14 +126,14 @@ ${data.guides.map((guide) => `- *${guide.name}*: ${guide.pages.length} ${guide.p
     }
 }
 
-export function getGuidePage(guide: Guide, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+export function getGuidePage(guide: Guide, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
     if (relativePage >= guide.pages.length)
         return undefined
 
     const { data } = client
     const page = guide.pages[relativePage]
 
-    const embed = new MessageEmbed()
+    const embed = new EmbedBuilder()
         .setTitle(page.name)
         .setURL(`${data.baseURL}guides/${urlify(guide.name, false)}/${urlify(page.name, true)}`)
         .setColor(Colors.GREEN)

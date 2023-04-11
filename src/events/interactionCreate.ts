@@ -10,7 +10,7 @@ export async function handle(interaction: Interaction): Promise<void> {
     const cmdInfo = getCommand(interaction.commandName)
 
     if (cmdInfo && cmdInfo.cmd) {
-        if (interaction.isCommand()) {
+        if (interaction.isChatInputCommand()) {
             Logger.info(`${interaction.user.id} (${interaction.user.tag}) executes slash command in ${interaction.channel instanceof TextChannel ? interaction.channel.name : interaction.channel?.type} (guild ${interaction.guild ? interaction.guild.id : "NaN"}): ${interaction.commandName} ${interaction.options.data.map(x => `${x.name}->${x.value??"/"}`)}`)
             addStats(cmdInfo)
             await handleCommand(cmdInfo, interaction)

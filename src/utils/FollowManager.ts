@@ -1,5 +1,5 @@
 import SQLite from "better-sqlite3"
-import { Channel, Guild, Message, MessageEmbed, Snowflake } from "discord.js"
+import { Channel, ChannelType, EmbedBuilder, Guild, Message, Snowflake } from "discord.js"
 import { ensureDirSync } from "fs-extra"
 import log4js from "log4js"
 import { FollowCategory, Follower } from "./Types"
@@ -60,19 +60,19 @@ export default class FollowManager {
     private getFollowsInChannelStatement: SQLite.Statement
     getFollows(channel: { id: string }, category?: FollowCategory): Follower[] {
         if (category == undefined) {
-            return this.getFollowsInChannelStatement.all({ channelID: channel.id })
+            return this.getFollowsInChannelStatement.all({ channelID: channel.id }) as Follower[]
         }
         return this.getFollowsStatement.all({
             channelID: channel.id,
             category
-        })
+        }) as Follower[]
     }
 
     private getFollowersStatement: SQLite.Statement
     getFollowers(category: string): { channelID: Snowflake, pingRole: Snowflake }[] {
         return this.getFollowersStatement.all({
             category
-        })
+        }) as { channelID: Snowflake, pingRole: Snowflake }[]
     }
 
     private followsStatement: SQLite.Statement
@@ -113,10 +113,10 @@ export default class FollowManager {
     following(guild: Guild): { category: FollowCategory, channelID: Snowflake, pingRole: Snowflake }[] {
         return this.followingStatement.all({
             guildID: guild.id
-        })
+        }) as { category: FollowCategory, channelID: Snowflake, pingRole: Snowflake }[]
     }
 
-    async send(category: FollowCategory, content?: string, embed?: MessageEmbed): Promise<(Message | Message[])[]> {
+    async send(category: FollowCategory, content?: string, embed?: EmbedBuilder): Promise<(Message | Message[])[]> {
         let channels = this.getFollowers(category)
         channels = channels.filter((val, ind) => channels.findIndex(v => v.channelID == val.channelID) === ind)
 
@@ -124,7 +124,7 @@ export default class FollowManager {
         const messages = (await sendToChannels(channels, content, embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
 
         for (const message of messages)
-            if (message instanceof Message && message.channel.type === "GUILD_NEWS")
+            if (message instanceof Message && message.channel.type === ChannelType.GuildAnnouncement)
                 try {
                     await message.crosspost()
                 } catch (error) {

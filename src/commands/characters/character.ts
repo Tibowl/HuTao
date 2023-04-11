@@ -1,4 +1,4 @@
-import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { ApplicationCommandOptionType, AutocompleteInteraction, ChatInputCommandInteraction, EmbedBuilder, Message } from "discord.js"
 import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
@@ -44,7 +44,7 @@ Note: this command supports fuzzy search.`,
             options: [{
                 name: "name",
                 description: "Character name",
-                type: "STRING",
+                type: ApplicationCommandOptionType.String,
                 autocomplete: true,
                 required: false
             }]
@@ -87,7 +87,7 @@ Note: this command supports fuzzy search.`,
         }))
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         return this.run(source, (source.options.getString("name") ?? "").split(/ +/g))
 
     }
@@ -189,11 +189,11 @@ Note: this command supports fuzzy search.`,
         return pages
     }
 
-    getCharacterPage(pages: string[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getCharacterPage(pages: string[], relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         if (relativePage >= pages.length)
             return undefined
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setTitle("Character list")
             .setURL(`${client.data.baseURL}characters`)
             .setDescription(pages[relativePage])
@@ -213,9 +213,9 @@ Note: this command supports fuzzy search.`,
             return data.emoji(char.meta.element)
     }
 
-    getMainPage(char: Character, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getMainPage(char: Character, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         const { data } = client
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setColor(Colors[char.meta.element] ?? "")
             .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
 
@@ -226,7 +226,7 @@ Note: this command supports fuzzy search.`,
             embed.setTitle(`${char.name}: Description`)
                 .setURL(`${data.baseURL}characters/${urlify(char.name, false)}`)
                 .setDescription(char.desc)
-                .addField("Basics", this.getBasicInfo(char))
+                .addFields({ name: "Basics", value: this.getBasicInfo(char) })
 
             if (char.media.videos)
                 embed.setDescription(`${char.desc}\n${
@@ -237,16 +237,19 @@ Note: this command supports fuzzy search.`,
 
             if (data.isFullCharacter(char)) {
                 const maxAscension = char.ascensions[char.ascensions.length - 1]
-                embed.addField("Base stats", `${
-                    Object.entries(data.getCharStatsAt(char, 1, 0))
-                        .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
-                        .join("\n")
-                }`, true)
-                    .addField(`Lv. ${maxAscension.maxLevel} A${maxAscension.level} stats`, `${
-                        Object.entries(data.getCharStatsAt(char, maxAscension.maxLevel, maxAscension.level))
+                embed.addFields({
+                    name: "Base stats", 
+                    value: Object.entries(data.getCharStatsAt(char, 1, 0))
                             .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
-                            .join("\n")
-                    }`, true)
+                            .join("\n"),
+                    inline: true
+                }, { 
+                    name: `Lv. ${maxAscension.maxLevel} A${maxAscension.level} stats`, 
+                    value: Object.entries(data.getCharStatsAt(char, maxAscension.maxLevel, maxAscension.level))
+                            .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
+                            .join("\n"), 
+                    inline: true
+                })
             }
 
             const upgradeLines: string[] = []
@@ -289,16 +292,16 @@ Note: this command supports fuzzy search.`,
             }
 
             if (upgradeLines.length > 0)
-                embed.addField("Upgrade material", upgradeLines.join("\n"))
+                embed.addFields({ name: "Upgrade material", value: upgradeLines.join("\n") })
 
             const specialties = Object.values(data.materials).filter(x => x.specialty && x.specialty.char == char.name)
             if (specialties.length > 0)
-                embed.addField("Specialty", specialties.map(x => `[**${x.name}**](${data.baseURL}materials/${urlify(x.name, false)}) can be obtained while cooking [**${x.specialty?.recipe}**](${data.baseURL}materials/${urlify(x.specialty?.recipe ?? "", false)})`).join("\n"))
+                embed.addFields({ name: "Specialty", value: specialties.map(x => `[**${x.name}**](${data.baseURL}materials/${urlify(x.name, false)}) can be obtained while cooking [**${x.specialty?.recipe}**](${data.baseURL}materials/${urlify(x.specialty?.recipe ?? "", false)})`).join("\n") })
 
             const guides = client.data.getGuides("character", char.name).map(({ guide, page }) => getLinkToGuide(guide, page)).join("\n")
 
             if (guides)
-                embed.addField("Guides", guides)
+                embed.addFields({ name: "Guides", value: guides })
 
             return embed
         } else if (relativePage == 1) {
@@ -344,7 +347,7 @@ Note: this command supports fuzzy search.`,
                 va.push(`**Korean**: ${char.meta.cvKorean}`)
 
             if (va.length>0)
-                embed.addField("Voice Actors", va.join("\n"))
+                embed.addFields({ name: "Voice Actors", value: va.join("\n") })
 
             return embed
         }
@@ -366,9 +369,9 @@ Note: this command supports fuzzy search.`,
         return basic
     }
 
-    getStatsPage(char: CharacterFull, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getStatsPage(char: CharacterFull, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         const { data } = client
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setColor(Colors[char.meta.element] ?? "")
             .setThumbnail(getLink(char.icon))
             .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
@@ -395,7 +398,7 @@ Note: this command supports fuzzy search.`,
 
                 const cost = costs[asc.level]
                 if (cost.mora || cost.items.length > 0)
-                    embed.addField(`Ascension ${asc.level} costs`, data.getCosts(cost), true)
+                    embed.addFields({ name: `Ascension ${asc.level} costs`, value: data.getCosts(cost), inline: true })
             }
 
             embed.setTitle(`${char.name}: Stats + ascensions`)
@@ -405,7 +408,7 @@ Note: this command supports fuzzy search.`,
                     rows,
                     [PAD_START]
                 ) + "\n```")
-                .setFooter({ text: `${embed.footer?.text} - Use '${config.prefix}charstats ${char.name} [level] [A<ascension>]' for a specific level` })
+                .setFooter({ text: `${embed.data.footer?.text} - Use '${config.prefix}charstats ${char.name} [level] [A<ascension>]' for a specific level` })
 
             return embed
         } else if (relativePage >= 1) {
@@ -416,7 +419,7 @@ Note: this command supports fuzzy search.`,
             let i = 1
             for (const cost of data.getCostsFromTemplate(template)) {
                 if (cost.mora || cost.items.length > 0)
-                    embed.addField(`Talent lv ${++i} costs`, data.getCosts(cost), true)
+                    embed.addFields({ name: `Talent lv ${++i} costs`, value: data.getCosts(cost), inline: true })
             }
 
             embed.setTitle(`${char.name}: Talent upgrade costs`)
@@ -428,9 +431,9 @@ Note: this command supports fuzzy search.`,
         return undefined
     }
 
-    getMediaPage(char: Character, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getMediaPage(char: Character, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         const { data } = client
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setColor(Colors[char.meta.element] ?? "")
             .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setTitle(`${char.name}`)
@@ -449,7 +452,7 @@ ${          Object
             const img = char.media.imgs[relativePage]
             embed.setDescription(`${videos}[Open image in browser](${img})`)
                 .setImage(img)
-            embed.thumbnail = null
+                .setThumbnail(null)
             return embed
         } else {
             embed.setDescription(videos)
@@ -457,9 +460,9 @@ ${          Object
         }
     }
 
-    getCharTalentPage(char: Character, relativePage: number, currentPage: number, maxPages: number, talentMode: TalentMode): MessageEmbed | undefined {
+    getCharTalentPage(char: Character, relativePage: number, currentPage: number, maxPages: number, talentMode: TalentMode): EmbedBuilder | undefined {
         const { data } = client
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setColor(Colors[char.meta.element] ?? "")
             .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
 
@@ -476,7 +479,7 @@ ${          Object
                 .setDescription(skill.desc)
 
             if (skill.charges)
-                embed.addField("Charges", skill.charges.toString())
+                embed.addFields({ name: "Charges", value: skill.charges.toString() })
 
             let hasLevels = false
             for (const talent of skill.talentTable ?? []) {
@@ -487,7 +490,7 @@ ${          Object
                     hasLevels = true
 
                     const talents = skill.video ? [9] : [6, 9, values.length - 1]
-                    embed.addField(name, "```\n"+ createTable(
+                    embed.addFields({ name, value: "```\n"+ createTable(
                         undefined,
                         Object.entries(values)
                             .map(([lv, val]) => [+lv + 1, val])
@@ -503,16 +506,16 @@ ${          Object
                                 }
                             }),
                         [PAD_START, PAD_END]
-                    ) + "\n```", true)
+                    ) + "\n```", inline: true })
                 } else
-                    embed.addField(name, talent.value, true)
+                    embed.addFields({ name, value: talent.value, inline: true })
             }
             if (hasLevels && talentMode == "HIGH")
-                embed.setFooter({ text: `${embed.footer?.text} - Use '${config.prefix}c ${char.name} -low' to display lower levels` })
+                embed.setFooter({ text: `${embed.data.footer?.text} - Use '${config.prefix}c ${char.name} -low' to display lower levels` })
             else if (hasLevels && talentMode == "LOW")
-                embed.setFooter({ text: `${embed.footer?.text} - Use '${config.prefix}c ${char.name} -high' to display higher levels` })
+                embed.setFooter({ text: `${embed.data.footer?.text} - Use '${config.prefix}c ${char.name} -high' to display higher levels` })
             else if (hasLevels && talentMode == "LITTLE")
-                embed.setFooter({ text: `${embed.footer?.text} - Use '${config.prefix}c ${char.name} -high' (or -low) to display higher (or lower) levels` })
+                embed.setFooter({ text: `${embed.data.footer?.text} - Use '${config.prefix}c ${char.name} -high' (or -low) to display higher (or lower) levels` })
 
             if (skill.video && talentMode == "LITTLE") {
                 embed.setImage(skill.video)
@@ -541,11 +544,11 @@ ${          Object
                     .setURL(`${data.baseURL}characters/${urlify(char.name, false)}#${urlify(skills.passive[0].name, false)}`)
                 for (const passive of skills.passive) {
                     if (passive.minAscension)
-                        embed.addField(passive.name, `${passive.desc}
+                        embed.addFields({ name: passive.name, value:  `${passive.desc}
     
-*${passive.minAscension > 0 ? `Unlocks at ascension **${passive.minAscension}**` : "Unlocked by **default**"}*`)
+*${passive.minAscension > 0 ? `Unlocks at ascension **${passive.minAscension}**` : "Unlocked by **default**"}*` })
                     else
-                        embed.addField(passive.name, passive.desc)
+                        embed.addFields({ name: passive.name, value:  passive.desc })
                 }
                 return embed
             }
@@ -556,7 +559,7 @@ ${          Object
                     .setThumbnail(getLink(skills.constellations[0]?.icon))
                 let c = 0
                 for (const constellation of skills.constellations)
-                    embed.addField(`C${++c}: ${constellation.name}`, constellation.desc)
+                    embed.addFields({ name: `C${++c}: ${constellation.name}`, value: constellation.desc })
 
                 return embed
             }

@@ -1,10 +1,10 @@
-import { AutocompleteInteraction, CommandInteraction, Message } from "discord.js"
+import { ApplicationCommandOptionType, AutocompleteInteraction, ChatInputCommandInteraction, Message } from "discord.js"
 
-import Command from "../../utils/Command"
-import client from "../../main"
-import { createTable,  findFuzzyBestCandidates,  PAD_START, sendMessage } from "../../utils/Utils"
-import { CharacterFull, CommandSource, SendMessage } from "../../utils/Types"
 import config from "../../data/config.json"
+import client from "../../main"
+import Command from "../../utils/Command"
+import { CharacterFull, CommandSource, SendMessage } from "../../utils/Types"
+import { createTable, findFuzzyBestCandidates, PAD_START, sendMessage } from "../../utils/Utils"
 
 export default class CharacterStatsCommand extends Command {
     constructor(name: string) {
@@ -24,17 +24,17 @@ Note: this command supports fuzzy search.`,
             options: [{
                 name: "name",
                 description: "Name of the character",
-                type: "STRING",
+                type: ApplicationCommandOptionType.String,
                 required: true,
                 autocomplete: true
             }, {
                 name: "level",
                 description: "Level to show stats at (shows a handful of levels by default)",
-                type: "NUMBER"
+                type: ApplicationCommandOptionType.Number
             }, {
                 name: "ascension",
                 description: "Ascension to show stats at (shows all applicable ascensions by default)",
-                type: "NUMBER"
+                type: ApplicationCommandOptionType.Number
             }]
         })
     }
@@ -48,7 +48,7 @@ Note: this command supports fuzzy search.`,
         }))
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
 
         const name = options.getString("name", true)

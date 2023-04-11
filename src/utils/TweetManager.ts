@@ -1,4 +1,4 @@
-import { MessageEmbed } from "discord.js"
+import { EmbedBuilder } from "discord.js"
 import log4js from "log4js"
 import Twit from "twit"
 
@@ -20,16 +20,17 @@ export default class Tweetmanager {
     }
 
     init(): void {
-        const T = new Twit(config.twitter)
+        // const T = new Twit(config.twitter)
 
-        const follow = Object.values(this.tweeters).map(k => k ?? "")
-        this.stream = T.stream("statuses/filter", { follow })
-        this.stream.on("tweet", async (tweet: Tweet) => this.handleTweet(tweet).catch(Logger.error))
-        this.stream.on("limit", l => Logger.debug("Twitter limit", l))
-        this.stream.on("warning", w => Logger.debug("Twitter warning", w))
-        this.stream.on("error", e => Logger.error("Twitter error", e))
+        // const follow = Object.values(this.tweeters).map(k => k ?? "")
+        // this.stream = T.stream("statuses/filter", { follow })
+        // this.stream.on("tweet", async (tweet: Tweet) => this.handleTweet(tweet).catch(Logger.error))
+        // this.stream.on("limit", l => Logger.debug("Twitter limit", l))
+        // this.stream.on("warning", w => Logger.debug("Twitter warning", w))
+        // this.stream.on("error", e => Logger.error("Twitter error", e))
 
-        Logger.info(`Following ${follow.length} twitter account(s)!`)
+        // Logger.info(`Following ${follow.length} twitter account(s)!`)
+        Logger.error("Twitter feature is disabled due to API changes")
     }
 
     handleTweet = async (tweet: Tweet): Promise<void> => {
@@ -49,7 +50,7 @@ export default class Tweetmanager {
         if (tweet.retweeted_status)
             tweet = tweet.retweeted_status
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setAuthor({
                 name: tweet.user.name,
                 iconURL: tweet.user.profile_image_url_https,
@@ -93,7 +94,7 @@ export default class Tweetmanager {
         await this.send(tweeter, `<${tweetLink}>`, embed)
     }
 
-    async send(tweeter: string, content?: string, embed?: MessageEmbed): Promise<void> {
+    async send(tweeter: string, content?: string, embed?: EmbedBuilder): Promise<void> {
         const category = Object.entries(this.tweeters).find(([_k, v]) => v == tweeter)?.[0] as FollowCategory | undefined
 
         if (!category) {

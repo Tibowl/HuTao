@@ -2,7 +2,7 @@ import log4js from "log4js"
 
 import client from "../main"
 import config from "../data/config.json"
-import { MessageEmbed } from "discord.js"
+import { ActivityType, EmbedBuilder } from "discord.js"
 import { Colors, getDate, getEventEmbed, timeLeft } from "./Utils"
 import { EventType, Reminder } from "./Types"
 
@@ -28,7 +28,7 @@ export default class TimerManager {
                 const start = Date.now()
                 this.lastActivityUpdate = Date.now()
                 await client.user.setActivity(config.activity, {
-                    type: "LISTENING"
+                    type: ActivityType.Listening
                 })
                 Logger.debug(`Updating activity took ${Date.now() - start}ms`)
             }
@@ -158,10 +158,10 @@ export default class TimerManager {
                     try {
                         client.reminderManager.deleteReminder(reminder.user, reminder.id, reminder.timestamp)
 
-                        const embed = new MessageEmbed()
+                        const embed = new EmbedBuilder()
                             .setTitle(`Late reminder: ${reminder.id}`)
                             .setDescription(`Due to technical reasons, this reminder got delivered too late: \`${reminder.subject}\``)
-                            .addField("Repeating the reminder", `You can repeat this reminder with \`${config.prefix}ar ${reminder.subject} in ${timeLeft(reminder.duration, true)}\``)
+                            .addFields({ name: "Repeating the reminder",  value: `You can repeat this reminder with \`${config.prefix}ar ${reminder.subject} in ${timeLeft(reminder.duration, true)}\`` })
                             .setColor(Colors.ORANGE)
                             .setTimestamp(reminder.timestamp)
 
@@ -178,10 +178,10 @@ export default class TimerManager {
     queueReminder(reminder: Reminder): void {
         setTimeout(async () => {
             try {
-                const embed = new MessageEmbed()
+                const embed = new EmbedBuilder()
                     .setTitle(`Reminder: ${reminder.id}`)
                     .setDescription(`I'm here to remind you about \`${reminder.subject}\``)
-                    .addField("Repeating the reminder", `You can repeat this reminder with \`${config.prefix}ar ${reminder.subject} in ${timeLeft(reminder.duration, true)}\``)
+                    .addFields({ name: "Repeating the reminder", value: `You can repeat this reminder with \`${config.prefix}ar ${reminder.subject} in ${timeLeft(reminder.duration, true)}\`` })
                     .setColor(Colors.GREEN)
                     .setTimestamp(reminder.timestamp)
 
@@ -200,7 +200,7 @@ export default class TimerManager {
         return time.getTime() > this.queuedUntil && time.getTime() <= until
     }
 
-    queueTimer(embed: MessageEmbed, targetTime: Date, daily = false): void {
+    queueTimer(embed: EmbedBuilder, targetTime: Date, daily = false): void {
         const { followManager } = client
         setTimeout(() => {
             if (!daily)

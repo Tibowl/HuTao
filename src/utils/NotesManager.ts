@@ -48,7 +48,7 @@ export default class NotesManager {
         return this.getNoteByCategoryStatement.all({
             guild_id: guildId,
             category_id: categoryId,
-        })
+        }) as Note[]
     }
 
     private getNoteByIdStatement: SQLite.Statement
@@ -57,7 +57,7 @@ export default class NotesManager {
             guild_id: guildId,
             category_id: categoryId,
             id
-        })
+        }) as Note
     }
 
     private deleteNoteStatement: SQLite.Statement

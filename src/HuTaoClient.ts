@@ -1,4 +1,4 @@
-import Discord, { ClientEvents, Intents } from "discord.js"
+import Discord, { ActivityType, ClientEvents, GatewayIntentBits, Partials } from "discord.js"
 import Enmap from "enmap"
 import fs from "fs"
 import { join } from "path"
@@ -8,25 +8,17 @@ import TimerManager from "./utils/TimerManager"
 
 import TweetManager from "./utils/TweetManager"
 
-import config from "./data/config.json"
 import log4js from "log4js"
+import config from "./data/config.json"
 import Command from "./utils/Command"
 import FollowManager from "./utils/FollowManager"
 import NewsManager from "./utils/NewsManager"
+import NotesManager from "./utils/NotesManager"
 import ReminderManager from "./utils/ReminderManager"
 import WebManager from "./utils/WebManager"
-import NotesManager from "./utils/NotesManager"
 
 const Logger = log4js.getLogger("main")
-const intents = new Intents()
-intents.add(
-    // For handling commands in DMs
-    "DIRECT_MESSAGES",
-    // For follow stuff, also required for guild messages for some reason?
-    "GUILDS",
-    // For handling commands in guilds
-    "GUILD_MESSAGES",
-)
+
 
 const filterAll = {
     filter: () => () => config.production,
@@ -49,8 +41,13 @@ export default class HuTaoClient extends Discord.Client {
 
     constructor() {
         super({
-            intents,
-            partials: ["CHANNEL", "MESSAGE", "USER", "GUILD_MEMBER"],
+            intents: [
+                // For handling commands in DMs
+                GatewayIntentBits.DirectMessages,
+                // For follow stuff, also required for guild messages for some reason?
+                GatewayIntentBits.Guilds
+            ],
+            partials: [Partials.Channel, Partials.Message, Partials.User, Partials.GuildMember],
             shards: "auto",
             sweepers: {
                 emojis: filterAll,
@@ -69,7 +66,7 @@ export default class HuTaoClient extends Discord.Client {
                 status: "online",
                 activities: [{
                     name: config.activity,
-                    type: "LISTENING"
+                    type: ActivityType.Listening
                 }]
             }
         })

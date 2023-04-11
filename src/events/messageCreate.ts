@@ -17,13 +17,13 @@ export async function handle(message: Message): Promise<void> {
 
     if (cmdInfo && cmdInfo.cmd) {
         if (message.channel instanceof DMChannel)
-            Logger.info(`${message.author.id} (${message.author.tag}) executes command in ${message.channel.recipient.tag}: ${message.content}`)
+            Logger.info(`${message.author.id} (${message.author.tag}) executes command in ${message.channel.recipient?.tag}: ${message.content}`)
         else
             Logger.info(`${message.author.id} (${message.author.tag}) executes command in ${message.channel instanceof TextChannel ? message.channel.name : message.channel.type} (guild ${message.guild ? message.guild.id : "NaN"}): ${message.content}`)
 
         addStats(cmdInfo)
         await handleLegacyCommand(cmdInfo, message, args)
-    } else if (message.channel.type === "DM") {
+    } else if (message.channel.isDMBased()) {
         Logger.info(`${message.author.id} (${message.author.tag}) sends message ${message.type} in dm: ${message.content}`)
     }
 }

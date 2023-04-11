@@ -189,7 +189,7 @@ export default class NewsManager {
     getNews(lang: string): StoredNews[] {
         return this.getNewsStatement.all({
             lang
-        })
+        }) as StoredNews[]
     }
 
     private getNewsByIdLangStatement: SQLite.Statement
@@ -197,7 +197,7 @@ export default class NewsManager {
         return this.getNewsByIdLangStatement.get({
             post_id,
             lang
-        })
+        }) as StoredNews
     }
 
     private hasNewsCache: Map<string, boolean> = new Map()
@@ -218,7 +218,7 @@ export default class NewsManager {
 
     private getEventWishesStatement: SQLite.Statement
     getEventWishes(): StoredNews[] {
-        return this.getEventWishesStatement.all({})
+        return this.getEventWishesStatement.all({}) as StoredNews[]
     }
 
     getLanguages(): string[] {

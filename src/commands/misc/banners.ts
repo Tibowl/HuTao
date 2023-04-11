@@ -1,4 +1,4 @@
-import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { ApplicationCommandOptionType, AutocompleteInteraction, ChatInputCommandInteraction, EmbedBuilder, Message } from "discord.js"
 import log4js from "log4js"
 import config from "../../data/config.json"
 import client from "../../main"
@@ -183,22 +183,22 @@ Note: this command supports fuzzy search.`,
             options: [{
                 name: "search",
                 description: "Search for banners that contain a certain character/weapon",
-                type: "SUB_COMMAND",
+                type: ApplicationCommandOptionType.Subcommand,
                 options: [{
                     name: "query",
                     description: "Name of the character or weapon",
-                    type: "STRING",
+                    type: ApplicationCommandOptionType.String,
                     required: true,
                     autocomplete: true
                 }]
             }, {
                 name: "list",
                 description: "Search for banners that contain a certain character/weapon",
-                type: "SUB_COMMAND",
+                type: ApplicationCommandOptionType.Subcommand,
                 options: [{
                     name: "filter",
                     description: "Name of the character or weapon",
-                    type: "STRING",
+                    type: ApplicationCommandOptionType.String,
                     choices: [{
                         name: "Both",
                         value: "both"
@@ -213,11 +213,11 @@ Note: this command supports fuzzy search.`,
             }, {
                 name: "view",
                 description: "Browse through the current and past banners or view a specific one",
-                type: "SUB_COMMAND",
+                type: ApplicationCommandOptionType.Subcommand,
                 options: [{
                     name: "start_page",
                     description: "Directly skip to this page",
-                    type: "NUMBER"
+                    type: ApplicationCommandOptionType.Number
                 }]
             }]
         })
@@ -234,7 +234,7 @@ Note: this command supports fuzzy search.`,
         }))
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
         const command = options.getSubcommand()
         if (command == "search")
@@ -335,11 +335,11 @@ Note: this command supports fuzzy search.`,
         return pages
     }
 
-    getWishes(pages: string[], relativePage: number, currentPage: number, maxPages: number, filter: string): MessageEmbed | undefined {
+    getWishes(pages: string[], relativePage: number, currentPage: number, maxPages: number, filter: string): EmbedBuilder | undefined {
         if (relativePage >= pages.length)
             return undefined
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setTitle(`Event Wishes (${filter})`)
             .setDescription(pages[relativePage])
             .setFooter({ text: `Page ${currentPage} / ${maxPages} - See '${config.prefix}banners view <id>' for more info about a specific one` })
@@ -349,18 +349,20 @@ Note: this command supports fuzzy search.`,
     }
 
 
-    getWish(wishes: Wish[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getWish(wishes: Wish[], relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         if (relativePage >= wishes.length)
             return undefined
 
         const wish = wishes[relativePage]
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setTitle(wish.title)
             .setImage(getLink(wish.img))
-            .addField("Duration", wish.duration)
-            .addField("Main", wish.main.join("\n"), true)
-            .addField("Other", wish.other.join("\n"), true)
+            .addFields(
+                { name: "Duration", value: wish.duration },
+                { name: "Main", value: wish.main.join("\n"), inline: true },
+                { name: "Other", value: wish.other.join("\n"), inline: true },
+            )
             .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setColor(Colors.GREEN)
 

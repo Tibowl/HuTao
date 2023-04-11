@@ -1,10 +1,10 @@
-import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { ApplicationCommandOptionType, AutocompleteInteraction, ChatInputCommandInteraction, EmbedBuilder, Message } from "discord.js"
 
-import Command from "../../utils/Command"
-import client from "../../main"
-import { Colors, findFuzzy, findFuzzyBestCandidates, getNewsEmbed, parseNewsContent, sendMessage, simplePaginator } from "../../utils/Utils"
 import config from "../../data/config.json"
+import client from "../../main"
+import Command from "../../utils/Command"
 import { CommandSource, NewsLang, SendMessage } from "../../utils/Types"
+import { Colors, findFuzzy, findFuzzyBestCandidates, getNewsEmbed, parseNewsContent, sendMessage, simplePaginator } from "../../utils/Utils"
 
 export default class News extends Command {
     constructor(name: string) {
@@ -19,11 +19,11 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
             options: [{
                 name: "id",
                 description: "ID of the article",
-                type: "NUMBER",
+                type: ApplicationCommandOptionType.Number,
             }, {
                 name: "lang",
                 description: "Language of the article (default: en-us)",
-                type: "STRING",
+                type: ApplicationCommandOptionType.String,
                 autocomplete: true
             }]
         })
@@ -49,7 +49,7 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
         }))
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
 
         const id = options.getNumber("id")
@@ -83,7 +83,7 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
 
             while (stored.join("\n").length > 1500) stored.pop()
 
-            const embed = new MessageEmbed()
+            const embed = new EmbedBuilder()
                 .setColor(Colors.GREEN)
                 .setTitle(`Most recent ${newsManager.getLanguageName(lang)} news articles:`)
                 .setFooter({ text: `You can use open the links or use \`${config.prefix}news <post id>\` to view more details about a post` })

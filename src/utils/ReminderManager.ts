@@ -50,14 +50,14 @@ export default class ReminderManager {
     getUpcomingReminders(end: number): Reminder[] {
         return this.getUpcomingRemindersStatement.all({
             end
-        })
+        }) as Reminder[]
     }
 
     private getUserReminders: SQLite.Statement
     getReminders(userid: string): Reminder[] {
         return this.getUserReminders.all({
             user: userid
-        })
+        }) as Reminder[]
     }
 
     private getReminderByIdStatement: SQLite.Statement
@@ -65,7 +65,7 @@ export default class ReminderManager {
         return this.getReminderByIdStatement.get({
             user: userid,
             id
-        })
+        }) as Reminder | undefined
     }
 
     private deleteReminderByIdStatement: SQLite.Statement

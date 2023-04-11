@@ -1,8 +1,8 @@
-import { CommandInteraction, Message, Snowflake } from "discord.js"
+import { ChatInputCommandInteraction, Message, Snowflake } from "discord.js"
 import { APIMessage } from "discord-api-types/v9"
 
 // Discord shortcuts
-export type CommandSource = Message | CommandInteraction
+export type CommandSource = Message | ChatInputCommandInteraction
 export type SendMessage = Message | APIMessage
 export type CommandResponse = Promise<SendMessage | undefined> | undefined
 

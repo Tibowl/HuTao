@@ -1,4 +1,4 @@
-import { CommandInteraction, Message } from "discord.js"
+import { ChatInputCommandInteraction, Message } from "discord.js"
 import Command from "../../utils/Command"
 import { CommandSource, SendMessage } from "../../utils/Types"
 import { sendMessage } from "../../utils/Utils"
@@ -16,7 +16,7 @@ export default class TestGuideCommand extends Command {
         })
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         return this.run(source)
     }
 

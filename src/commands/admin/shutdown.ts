@@ -1,4 +1,4 @@
-import { CommandInteraction, Message } from "discord.js"
+import { ChatInputCommandInteraction, Message } from "discord.js"
 import log4js from "log4js"
 import config from "../../data/config.json"
 import client from "../../main"
@@ -21,7 +21,7 @@ export default class Shutdown extends Command {
         })
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         return this.run(source, source.user.id)
 
     }

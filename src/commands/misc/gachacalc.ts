@@ -1,12 +1,12 @@
-import { CommandInteraction, Message } from "discord.js"
+import { ApplicationCommandOptionType, ChatInputCommandInteraction, Message } from "discord.js"
 import memoize from "memoizee"
 
-import Command from "../../utils/Command"
-import config from "../../data/config.json"
-import { createTable, PAD_END, PAD_START, sendMessage } from "../../utils/Utils"
 import log4js from "log4js"
-import { CommandSource, SendMessage } from "../../utils/Types"
+import config from "../../data/config.json"
 import client from "../../main"
+import Command from "../../utils/Command"
+import { CommandSource, SendMessage } from "../../utils/Types"
+import { createTable, PAD_END, PAD_START, sendMessage } from "../../utils/Utils"
 
 const Logger = log4js.getLogger("GachaCalc")
 
@@ -96,12 +96,12 @@ Example with 70 pulls, 10 pity and guaranteed for 5 star weapon banner: \`${conf
             options: [{
                 name: "pulls",
                 description: "Amount of pulls to simulate",
-                type: "INTEGER",
+                type: ApplicationCommandOptionType.Integer,
                 required: true
             }, {
                 name: "gacha",
                 description: "Start with guaranteed rate up",
-                type: "STRING",
+                type: ApplicationCommandOptionType.String,
                 choices: [{
                     name: "Character banner (5*)",
                     value: "char"
@@ -116,28 +116,28 @@ Example with 70 pulls, 10 pity and guaranteed for 5 star weapon banner: \`${conf
             }, {
                 name: "pity",
                 description: "Amount of pity to start at",
-                type: "INTEGER",
+                type: ApplicationCommandOptionType.Integer,
                 required: false
             }, {
                 name: "guaranteed",
                 description: "Start with guaranteed rate up",
-                type: "BOOLEAN",
+                type: ApplicationCommandOptionType.Boolean,
                 required: false
             }, {
                 name: "current",
                 description: "Current amount of copies to start with (default: none)",
-                type: "INTEGER",
+                type: ApplicationCommandOptionType.Integer,
                 required: false
             }, {
                 name: "guaranteed_pity",
                 description: "Amount of Epitomized Path to start with (for Weapon banner)",
-                type: "INTEGER",
+                type: ApplicationCommandOptionType.Integer,
                 required: false
             }]
         })
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
 
         const gacha = options.getString("gacha") ?? "char"

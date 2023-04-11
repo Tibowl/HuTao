@@ -1,10 +1,10 @@
-import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { ApplicationCommandOptionType, AutocompleteInteraction, ChatInputCommandInteraction, EmbedBuilder, Message } from "discord.js"
 
-import Command from "../../utils/Command"
-import client from "../../main"
-import { Colors, findFuzzyBestCandidates, getDate, sendMessage, simplePaginator } from "../../utils/Utils"
-import { AbyssSchedule, CommandSource, SendMessage } from "../../utils/Types"
 import config from "../../data/config.json"
+import client from "../../main"
+import Command from "../../utils/Command"
+import { AbyssSchedule, CommandSource, SendMessage } from "../../utils/Types"
+import { Colors, findFuzzyBestCandidates, getDate, sendMessage, simplePaginator } from "../../utils/Utils"
 
 const names: Record<string, string> = {
     "1/1": "Enemies",
@@ -26,12 +26,12 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
             options: [{
                 name: "floor",
                 description: "Directly skip to a certain floor",
-                type: "INTEGER",
+                type: ApplicationCommandOptionType.Integer,
                 required: false
             }, {
                 name: "cycle",
                 description: "Specify a historical time (format: 'yyyy-mm-1' or 'yyyy-mm-2'. Example: 2020-12-2)",
-                type: "STRING",
+                type: ApplicationCommandOptionType.String,
                 required: false,
                 autocomplete: true
             }]
@@ -47,7 +47,7 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
         }))
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
         return this.run(source, options.getInteger("floor") ?? -1, options.getString("cycle"))
 
@@ -98,17 +98,19 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
         return undefined
     }
 
-    getSpiralAbyss(abyss: AbyssSchedule, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getSpiralAbyss(abyss: AbyssSchedule, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         const footer = `Page ${currentPage} / ${maxPages}`
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setColor(Colors.PURPLE)
             .setFooter({ text: footer })
 
         if (relativePage == 0) {
             embed.setTitle(`Spiral Abyss: ${abyss.buff}`)
                 .setDescription(abyss.buffDesc)
-                .addField("Starts", abyss.start, true)
-                .addField("Ends", abyss.end, true)
+                .addFields(
+                    { name: "Starts", value: abyss.start, inline: true }, 
+                    { name: "Ends", value: abyss.end, inline: true }
+                )
             return embed
         }
 
@@ -120,11 +122,11 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
         return undefined
     }
 
-    getSpiralFloor(floorId: number, num: number): MessageEmbed {
+    getSpiralFloor(floorId: number, num: number): EmbedBuilder {
         const { data } = client
         const floor = client.data.abyssFloors[floorId]
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setColor(Colors.PURPLE)
             .setTitle(`Floor ${num}`)
             .setDescription(floor.leyline)
@@ -132,11 +134,11 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
         if (floor.chambers) {
             const lastChamber = floor.chambers[floor.chambers.length - 1]
             for (const chamber of floor.chambers) {
-                embed.addField(`Chamber ${chamber.chamber}: Conditions`, chamber.conds)
+                embed.addFields({ name: `Chamber ${chamber.chamber}: Conditions`, value: chamber.conds })
 
                 for (const [ind, monsters] of Object.entries(chamber.monsters)) {
                     const status = `${+ind+1}/${chamber.monsters.length}`
-                    embed.addField(`${names[status] ?? status}: (Lv. ${chamber.level})`, `${monsters.map(m => data.emoji(m, true)).join("\n")}${chamber == lastChamber ? "" : "\n\u200B"}`, true)
+                    embed.addFields({ name: `${names[status] ?? status}: (Lv. ${chamber.level})`, value: `${monsters.map(m => data.emoji(m, true)).join("\n")}${chamber == lastChamber ? "" : "\n\u200B"}`, inline: true })
                 }
             }
         }

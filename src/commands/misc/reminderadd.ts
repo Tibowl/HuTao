@@ -1,10 +1,10 @@
-import { CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { ApplicationCommandOptionType, ChatInputCommandInteraction, EmbedBuilder, Message } from "discord.js"
 import client from "../../main"
 
-import Command from "../../utils/Command"
-import { Colors, getUserID, parseDuration, sendMessage, timeLeft } from "../../utils/Utils"
 import config from "../../data/config.json"
+import Command from "../../utils/Command"
 import { CommandSource, SendMessage } from "../../utils/Types"
+import { Colors, getUserID, parseDuration, sendMessage, timeLeft } from "../../utils/Utils"
 
 export default class ReminderAdd extends Command {
     constructor(name: string) {
@@ -27,12 +27,12 @@ Example: \`${config.prefix}ar Weekly boss in 36 resin\``,
             options: [{
                 name: "args",
                 description: "Name (and time). Example: 'Ores' or 'Weekly Boss in 16 resin'",
-                type: "STRING",
+                type: ApplicationCommandOptionType.String,
                 required: true
             }]
         })
     }
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
 
         const args = options.getString("args", true)
@@ -40,7 +40,7 @@ Example: \`${config.prefix}ar Weekly boss in 36 resin\``,
         return this.runMessage(source, args.split(/ +/g))
     }
 
-    async runMessage(source: Message|CommandInteraction, args: string[]): Promise<SendMessage | undefined> {
+    async runMessage(source: Message | ChatInputCommandInteraction, args: string[]): Promise<SendMessage | undefined> {
         if (args.length < 1) return this.sendHelp(source)
 
         const words = args.map(l => l.toLowerCase())
@@ -78,7 +78,7 @@ Example: \`${config.prefix}ar Weekly boss in 36 resin\``,
 
         const timestamp = Date.now() + duration
         const reply = sendMessage(source,
-                                  new MessageEmbed()
+                                  new EmbedBuilder()
                                       .setTitle(`Created reminder #${id}`)
                                       .setColor(Colors.GREEN)
                                       .setDescription(`I'll remind you in DM's about \`${name}\` in **${timeLeft(duration, true, false)}**`)

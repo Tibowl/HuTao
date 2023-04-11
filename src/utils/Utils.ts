@@ -1,4 +1,4 @@
-import { AnyChannel, CategoryChannel, ColorResolvable, GuildChannel, Message, MessageActionRow, MessageButton, MessageComponentInteraction, MessageEmbed, NewsChannel, Snowflake, TextBasedChannel, TextChannel, User } from "discord.js"
+import { ActionRowBuilder, ButtonBuilder, ButtonStyle, CategoryChannel, Channel, ChannelType, ColorResolvable, EmbedBuilder, GuildChannel, Message, MessageComponentInteraction, NewsChannel, Snowflake, TextBasedChannel, TextChannel, User } from "discord.js"
 import log4js from "log4js"
 import config from "./../data/config.json"
 import client from "./../main"
@@ -13,14 +13,14 @@ const Logger = log4js.getLogger("Utils")
  * @param embed Possible embed/attachment to send
  * @returns All the messages send
  */
-export async function sendToChannels(channels: {channelID: Snowflake, pingRole?: string}[] | undefined, content?: string, embed?: MessageEmbed): Promise<PromiseSettledResult<Message | Message[]>[]> {
+export async function sendToChannels(channels: {channelID: Snowflake, pingRole?: string}[] | undefined, content?: string, embed?: EmbedBuilder): Promise<PromiseSettledResult<Message | Message[]>[]> {
     const messages = []
     if (!channels) return Promise.all([])
 
     for (const channel of channels) {
         try {
             const chanObj = await client.channels.fetch(channel.channelID)
-            if (!(chanObj && chanObj.isText()))
+            if (!(chanObj && chanObj.isTextBased()))
                 continue
             if (embed && ((content && content.length > 0) || (channel.pingRole && channel.pingRole.length > 0)))
                 messages.push(chanObj.send({
@@ -46,7 +46,7 @@ export async function sendToChannels(channels: {channelID: Snowflake, pingRole?:
  * @param embed Possible embed/attachment to send
  * @returns List of messages
  */
-export async function sendError(content: string, embed?: MessageEmbed): Promise<Message[]> {
+export async function sendError(content: string, embed?: EmbedBuilder): Promise<Message[]> {
     Logger.error(content)
     return (await sendToChannels((config.errorLog as Snowflake[]).map(x => ({ channelID: x })), content, embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
 }
@@ -205,8 +205,8 @@ export function getEndTime(event: Event, serverTimezone: string) {
 }
 
 // Format news
-export function getNewsEmbed(post: StoredNews, relativePage = -1, currentPage?: number, maxPages?: number): MessageEmbed | undefined {
-    const embed = new MessageEmbed()
+export function getNewsEmbed(post: StoredNews, relativePage = -1, currentPage?: number, maxPages?: number): EmbedBuilder | undefined {
+    const embed = new EmbedBuilder()
         .setTitle(post.subject)
         .setAuthor({
             name: post.nickname
@@ -308,15 +308,27 @@ export function displayTimestamp(time: Date, display = "R"): string {
     return `<t:${Math.floor(time.getTime() / 1000)}:${display}>`
 }
 
-export function getEventEmbed(event: Event): MessageEmbed {
-    const embed = new MessageEmbed()
+export function getEventEmbed(event: Event): EmbedBuilder {
+    const embed = new EmbedBuilder()
 
     embed.setTitle(event.name)
     if (event.img) embed.setImage(event.img)
     if (event.link) embed.setURL(event.link)
-    embed.addField(event.type == EventType.Unlock ? "Unlock Time" : "Start Time", event.start ? `${event.prediction ? "(prediction) " : ""}${event.start}${event.timezone?` (GMT${event.timezone})`:""}\n${startTimes(event)}` : "Unknown", true)
-    if (event.end) embed.addField("End Time", `${event.end}${event.timezone?` (GMT${event.timezone})`:""}\n${endTimes(event)}`, true)
-    if (event.type && event.type !== EventType.Unlock) embed.addField("Type", event.type, true)
+    embed.addFields({
+        name: event.type == EventType.Unlock ? "Unlock Time" : "Start Time",
+        value: event.start ? `${event.prediction ? "(prediction) " : ""}${event.start}${event.timezone?` (GMT${event.timezone})`:""}\n${startTimes(event)}` : "Unknown",
+        inline: true
+    })
+    if (event.end) embed.addFields({
+            name: "End Time",
+            value: `${event.end}${event.timezone?` (GMT${event.timezone})`:""}\n${endTimes(event)}`,
+            inline: true
+        })
+    if (event.type && event.type !== EventType.Unlock) embed.addFields({
+            name: "Type", 
+            value: event.type,
+            inline: true
+        })
 
     return embed
 }
@@ -417,14 +429,16 @@ async function updatePage(interaction: MessageComponentInteraction, reply: Messa
 
     const content = { embeds: [embed], components: getButtons(pageInfo, newPage, maxPages) }
     try {
+        // @ts-ignore
         await interaction.update(content)
     } catch (error) {
+        // @ts-ignore
         await reply.edit(content)
     }
     return newPage
 }
 
-type PageFunction = ((relativePage: number, currentPage: number, maxPages: number) => MessageEmbed | undefined)
+type PageFunction = ((relativePage: number, currentPage: number, maxPages: number) => EmbedBuilder | undefined)
 export type Bookmarkable = {
     bookmarkName: string
     bookmarkEmoji: string
@@ -477,22 +491,22 @@ export async function simplePaginator(message: CommandSource, pager: PageFunctio
 
 function getButtons(pageInfo: Bookmarkable[], currentPage: number, maxPages: number) {
     let i = 0
-    let currentRow = new MessageActionRow()
+    let currentRow = new ActionRowBuilder()
     const rows = [currentRow]
 
     let newPage = 0
     for (const pi of pageInfo) {
         if (!pi.invisible) {
             if (i++ % 5 == 0 && i !== 1) {
-                currentRow = new MessageActionRow()
+                currentRow = new ActionRowBuilder()
                 rows.push(currentRow)
             }
 
             currentRow.addComponents(
-                new MessageButton()
+                new ButtonBuilder()
                     .setCustomId(pi.bookmarkName)
                     .setLabel(pi.bookmarkName)
-                    .setStyle("SECONDARY")
+                    .setStyle(ButtonStyle.Secondary)
                     .setDisabled(newPage == currentPage)
                     .setEmoji(pi.bookmarkEmoji),
             )
@@ -502,49 +516,49 @@ function getButtons(pageInfo: Bookmarkable[], currentPage: number, maxPages: num
     }
 
     if (i !== 0 && i % 5 !== 1 && i % 5 !== 2) {
-        currentRow = new MessageActionRow()
+        currentRow = new ActionRowBuilder()
         rows.push(currentRow)
     }
 
     currentRow.addComponents(
-        new MessageButton()
+        new ButtonBuilder()
             .setCustomId("prev")
             .setLabel("Previous")
-            .setStyle("PRIMARY")
+            .setStyle(ButtonStyle.Primary)
             .setDisabled(currentPage == 0)
             .setEmoji(emojis[0]),
 
-        new MessageButton()
+        new ButtonBuilder()
             .setCustomId("next")
             .setLabel("Next")
-            .setStyle("PRIMARY")
+            .setStyle(ButtonStyle.Primary)
             .setDisabled(currentPage >= maxPages - 1)
             .setEmoji(emojis[1]),
 
-        new MessageButton()
+        new ButtonBuilder()
             .setCustomId("delete")
             .setLabel("Delete")
-            .setStyle("DANGER")
+            .setStyle(ButtonStyle.Danger)
             .setEmoji("✖️"),
     )
     return rows
 }
 
-export function getDeleteButton(): MessageActionRow {
-    const row = new MessageActionRow()
+export function getDeleteButton(): ActionRowBuilder {
+    const row = new ActionRowBuilder()
 
     row.addComponents(
-        new MessageButton()
+        new ButtonBuilder()
             .setCustomId("delete")
             .setLabel("Delete")
-            .setStyle("DANGER")
+            .setStyle(ButtonStyle.Danger)
             .setEmoji("✖️"),
     )
     return row
 }
 
-export async function sendMessage(source: CommandSource, response: string | MessageEmbed, components?: (MessageActionRow)[], ephemeral?: boolean): Promise<SendMessage | undefined> {
-    let embeds: (MessageEmbed)[] | undefined
+export async function sendMessage(source: CommandSource, response: string | EmbedBuilder, components?: (ActionRowBuilder)[], ephemeral?: boolean): Promise<SendMessage | undefined> {
+    let embeds: (EmbedBuilder)[] | undefined
     let content: string | undefined
 
     if (typeof response == "string")
@@ -552,13 +566,15 @@ export async function sendMessage(source: CommandSource, response: string | Mess
     else
         embeds = [response]
 
-    if (!components && !(ephemeral && !(source instanceof Message)) && source.channel?.type != "DM")
+    if (!components && !(ephemeral && !(source instanceof Message)) && source.channel?.type != ChannelType.DM)
         components = [getDeleteButton()]
 
     try {
         if (source instanceof Message)
+            // @ts-ignore
             return await source.channel.send({ content, embeds, components })
         else
+            // @ts-ignore
             return await source.reply({ content, embeds, components, fetchReply: true, ephemeral })
     } catch (error) {
         Logger.error("sendMessage", error)
@@ -570,9 +586,9 @@ export function isMessage(msg: SendMessage | CommandSource | undefined): msg is 
 }
 
 export type NewsableChannel = NewsChannel | TextChannel
-export function isNewsable(channel: AnyChannel | GuildChannel | TextBasedChannel | null): channel is NewsableChannel {
+export function isNewsable(channel: Channel | GuildChannel | TextBasedChannel | null): channel is NewsableChannel {
     if (!channel) return false
-    return channel.type == "GUILD_TEXT" || channel.type == "GUILD_NEWS" || channel.type == "GUILD_NEWS_THREAD"
+    return channel.type == ChannelType.GuildText || channel.type == ChannelType.GuildAnnouncement || channel.type == ChannelType.AnnouncementThread
 }
 
 export function getUserID(source: CommandSource): string {

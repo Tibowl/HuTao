@@ -1,9 +1,9 @@
-import { CommandInteraction, Message } from "discord.js"
+import { ApplicationCommandOptionType, ChatInputCommandInteraction, Message } from "discord.js"
 
-import Command from "../../utils/Command"
 import client from "../../main"
-import { createTable, findFuzzy, PAD_START, sendMessage } from "../../utils/Utils"
+import Command from "../../utils/Command"
 import { CommandSource, SendMessage } from "../../utils/Types"
+import { createTable, findFuzzy, PAD_START, sendMessage } from "../../utils/Utils"
 
 export default class ArtifactLevelsCommand extends Command {
     constructor(name: string) {
@@ -22,7 +22,7 @@ Note: this command supports fuzzy search.`,
             options: [{
                 name: "mainstat",
                 description: "Main stat of artifact",
-                type: "STRING",
+                type: ApplicationCommandOptionType.String,
                 required: true,
                 choices: keys.map(k => {
                     return {
@@ -33,12 +33,12 @@ Note: this command supports fuzzy search.`,
             }, {
                 name: "stars",
                 description: "Rarity of the artifact (default: 5)",
-                type: "INTEGER"
+                type: ApplicationCommandOptionType.Integer
             }]
         })
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
 
         const mainStat = options.getString("mainstat", true)

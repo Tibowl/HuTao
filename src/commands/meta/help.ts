@@ -1,15 +1,14 @@
-import Command from "../../utils/Command"
-import { TextChannel, PermissionResolvable, CommandInteraction, Message, AutocompleteInteraction } from "discord.js"
-import client from "../../main"
-import { CommandCategory } from "../../utils/Command"
+import { ApplicationCommandOptionType, AutocompleteInteraction, ChatInputCommandInteraction, Message, PermissionFlagsBits, PermissionResolvable, TextChannel } from "discord.js"
 import config from "../../data/config.json"
-import { findFuzzyBestCandidates, getUserID, sendMessage } from "../../utils/Utils"
+import client from "../../main"
+import Command, { CommandCategory } from "../../utils/Command"
 import { CommandSource, SendMessage } from "../../utils/Types"
+import { findFuzzyBestCandidates, getUserID, sendMessage } from "../../utils/Utils"
 
 const requiredPermissions: PermissionResolvable[] = [
-    "ATTACH_FILES",
-    "EMBED_LINKS",
-    "USE_EXTERNAL_EMOJIS"
+    PermissionFlagsBits.AttachFiles,
+    PermissionFlagsBits.EmbedLinks,
+    PermissionFlagsBits.UseExternalEmojis,
 ]
 
 export default class Help extends Command {
@@ -23,7 +22,7 @@ export default class Help extends Command {
             options: [{
                 name: "name",
                 description: "Name of the command",
-                type: "STRING",
+                type: ApplicationCommandOptionType.String,
                 autocomplete: true
             }]
         })
@@ -47,7 +46,7 @@ export default class Help extends Command {
         }))
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
 
         const command = options.getString("name")

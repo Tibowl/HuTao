@@ -1,4 +1,4 @@
-import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { ApplicationCommandOptionType, AutocompleteInteraction, ChatInputCommandInteraction, EmbedBuilder, Message } from "discord.js"
 import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
@@ -18,7 +18,7 @@ Note: this command supports fuzzy search.`,
             options: [{
                 name: "name",
                 description: "Enemy name",
-                type: "STRING",
+                type: ApplicationCommandOptionType.String,
                 autocomplete: true,
                 required: false
             }]
@@ -43,7 +43,7 @@ Note: this command supports fuzzy search.`,
         }))
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         return this.run(source, (source.options.getString("name") ?? "").split(/ +/g))
 
     }
@@ -106,11 +106,11 @@ Note: this command supports fuzzy search.`,
         return pages
     }
 
-    getEnemiesPage(pages: string[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getEnemiesPage(pages: string[], relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         if (relativePage >= pages.length)
             return undefined
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setTitle("Enemies")
             .setURL(`${client.data.baseURL}enemies`)
             .setDescription(pages[relativePage])
@@ -120,10 +120,10 @@ Note: this command supports fuzzy search.`,
         return embed
     }
 
-    getMainEnemyPage(enemy: Enemy, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getMainEnemyPage(enemy: Enemy, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         const { data } = client
         const guides = data.getGuides("enemy", enemy.name).map(({ guide, page }) => getLinkToGuide(guide, page)).join("\n")
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setTitle(`${enemy.name}: Basic info`)
             .setURL(`${data.baseURL}enemies/${urlify(enemy.name, false)}`)
             .setColor(Colors.AQUA)
@@ -131,19 +131,19 @@ Note: this command supports fuzzy search.`,
             .setDescription(`**Type**: ${enemy.type ?? "Unknown"}${enemy.kind ? ` (${enemy.kind})` : ""}${enemy.notes ? `\n\n${enemy.notes}` : ""}`)
 
         if (guides)
-            embed.addField("Guides", guides)
+            embed.addFields({ name: "Guides", value: guides })
 
         if (enemy.icon)
             embed.setThumbnail(getLink(enemy.icon))
 
         if (enemy.resistance)
-            embed.addField("Resistances", `\`\`\`\n${createTable(["Pyro", "Elec", "Cryo", "Hydro", "Anemo", "Geo", "Phys", "Notes"], enemy.resistance, [PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_END])}\n\`\`\``)
+            embed.addFields({ name: "Resistances", value: `\`\`\`\n${createTable(["Pyro", "Elec", "Cryo", "Hydro", "Anemo", "Geo", "Phys", "Notes"], enemy.resistance, [PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_END])}\n\`\`\`` })
 
         return embed
     }
 
-    getLoreEnemyPage(enemy: Enemy, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
-        const embed = new MessageEmbed()
+    getLoreEnemyPage(enemy: Enemy, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
+        const embed = new EmbedBuilder()
             .setColor(Colors.AQUA)
             .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setTitle(`${enemy.name}: Description`)

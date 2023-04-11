@@ -1,11 +1,11 @@
-import { CommandInteraction, Message, Snowflake } from "discord.js"
 import child_process from "child_process"
+import { ApplicationCommandOptionType, ChatInputCommandInteraction, Message, Snowflake } from "discord.js"
 
-import Command from "../../utils/Command"
-import client from "../../main"
 import config from "../../data/config.json"
-import { displayTimestamp, sendMessage } from "../../utils/Utils"
+import client from "../../main"
+import Command from "../../utils/Command"
 import { CommandSource, SendMessage } from "../../utils/Types"
+import { displayTimestamp, sendMessage } from "../../utils/Utils"
 
 export default class Status extends Command {
     constructor(name: string) {
@@ -18,13 +18,13 @@ export default class Status extends Command {
             options: [{
                 name: "expanded",
                 description: "Show more information",
-                type: "BOOLEAN",
+                type: ApplicationCommandOptionType.Boolean,
                 required: false
             }]
         })
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         return this.run(source, source.user.id, source.options.getBoolean("expanded") ?? false)
 
     }

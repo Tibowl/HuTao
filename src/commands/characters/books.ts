@@ -1,10 +1,10 @@
-import { CommandInteraction, Message } from "discord.js"
+import { ApplicationCommandOptionType, ChatInputCommandInteraction, Message } from "discord.js"
 
-import Command from "../../utils/Command"
-import client from "../../main"
-import { sendMessage } from "../../utils/Utils"
-import { CommandSource, Cost, SendMessage } from "../../utils/Types"
 import config from "../../data/config.json"
+import client from "../../main"
+import Command from "../../utils/Command"
+import { CommandSource, Cost, SendMessage } from "../../utils/Types"
+import { sendMessage } from "../../utils/Utils"
 
 export default class Books extends Command {
     constructor(name: string) {
@@ -19,27 +19,27 @@ Amounts need to be without extras from constellations`,
             options: [{
                 name: "list",
                 description: "List book days",
-                type: "SUB_COMMAND",
+                type: ApplicationCommandOptionType.Subcommand,
             }, {
                 name: "calc",
                 description: "Check how many books you need to go from A/B/C to X/Y/Z",
-                type: "SUB_COMMAND",
+                type: ApplicationCommandOptionType.Subcommand,
                 options: [{
                     name: "current",
                     description: "Current talent levels (Excluding extra from constellations)",
-                    type: "STRING",
+                    type: ApplicationCommandOptionType.String,
                     required: true
                 }, {
                     name: "target",
                     description: "Target talent levels (Excluding extra from constellations)",
-                    type: "STRING",
+                    type: ApplicationCommandOptionType.String,
                     required: true
                 }]
             }, ]
         })
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
         const sub = options.getSubcommand()
 
@@ -50,7 +50,7 @@ Amounts need to be without extras from constellations`,
         else
             return sendMessage(source, `Unknown subcommand ${sub}`)
     }
-    async runMessage(source: Message|CommandInteraction, args: string[]): Promise<SendMessage | undefined> {
+    async runMessage(source: Message|ChatInputCommandInteraction, args: string[]): Promise<SendMessage | undefined> {
         const sub = args[0]?.toLowerCase() ?? "list"
         args.shift()
 

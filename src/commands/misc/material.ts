@@ -1,4 +1,4 @@
-import { AutocompleteInteraction, CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { ApplicationCommandOptionType, AutocompleteInteraction, ChatInputCommandInteraction, EmbedBuilder, Message } from "discord.js"
 import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
@@ -18,7 +18,7 @@ Note: this command supports fuzzy search.`,
             options: [{
                 name: "name",
                 description: "Material name",
-                type: "STRING",
+                type: ApplicationCommandOptionType.String,
                 autocomplete: true,
                 required: false
             }]
@@ -43,7 +43,7 @@ Note: this command supports fuzzy search.`,
         }))
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         return this.run(source, (source.options.getString("name") ?? "").split(/ +/g))
 
     }
@@ -106,11 +106,11 @@ Note: this command supports fuzzy search.`,
         return pages
     }
 
-    getMaterialsPage(pages: string[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getMaterialsPage(pages: string[], relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         if (relativePage >= pages.length)
             return undefined
 
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setTitle("Materials")
             .setURL(`${client.data.baseURL}materials`)
             .setDescription(pages[relativePage])
@@ -120,10 +120,10 @@ Note: this command supports fuzzy search.`,
         return embed
     }
 
-    getMainMaterialPage(material: Material, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getMainMaterialPage(material: Material, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         const { data } = client
         const guides = data.getGuides("material", material.name).map(({ guide, page }) => getLinkToGuide(guide, page)).join("\n")
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setTitle(`${material.name}: Basic info`)
             .setURL(`${data.baseURL}materials/${urlify(material.name, false)}`)
             .setColor(Colors.AQUA)
@@ -131,37 +131,37 @@ Note: this command supports fuzzy search.`,
             .setDescription(material.desc ?? "Upcoming material.")
 
         if (material.category || material.type)
-            embed.addField("Category", `**${material.category ?? "Unknown"}**: ${material.type ?? "Unknown"}`, true)
+            embed.addFields({ name: "Category", value: `**${material.category ?? "Unknown"}**: ${material.type ?? "Unknown"}`, inline: true })
 
         if (material.stars)
-            embed.addField("Rarity", `${material.stars}★`, true)
+            embed.addFields({ name: "Rarity", value: `${material.stars}★`, inline: true })
 
         if (guides)
-            embed.addField("Guides", guides)
+            embed.addFields({ name: "Guides", value: guides })
 
         if (material.sources)
-            embed.addField("Sources", material.sources.join("\n"))
+            embed.addFields({ name: "Sources", value: material.sources.join("\n") })
 
         if (material.specialty)
-            embed.addField("Food specialty", `Can be obtained by using [**${data.emoji(material.specialty.char, true)}**](${data.baseURL}characters/${urlify(material.specialty.char, false)}) while making [**${material.specialty.recipe}**](${data.baseURL}materials/${urlify(material.specialty.recipe, false)})`)
+            embed.addFields({ name: "Food specialty", value: `Can be obtained by using [**${data.emoji(material.specialty.char, true)}**](${data.baseURL}characters/${urlify(material.specialty.char, false)}) while making [**${material.specialty.recipe}**](${data.baseURL}materials/${urlify(material.specialty.recipe, false)})` })
 
         const otherMaterial = Object.values(data.materials).filter(x => x.specialty && x.specialty.recipe == material.name)
         if (otherMaterial.length > 0)
-            embed.addField("Specialty", otherMaterial.map(x => `[**${x.name}**](${data.baseURL}materials/${urlify(x.name, false)}) be obtained by using [**${data.emoji(x.specialty?.char, true)}**](${data.baseURL}characters/${urlify(x.specialty?.char ?? "", false)})`).join("\n"))
+            embed.addFields({ name: "Specialty", value: otherMaterial.map(x => `[**${x.name}**](${data.baseURL}materials/${urlify(x.name, false)}) be obtained by using [**${data.emoji(x.specialty?.char, true)}**](${data.baseURL}characters/${urlify(x.specialty?.char ?? "", false)})`).join("\n") })
 
         const recipe = material.recipe ?? (material.specialty ? data.materials[material.specialty.recipe]?.recipe : undefined)
         if (recipe)
-            embed.addField("Recipe", data.getItemCosts(recipe))
+            embed.addFields({ name: "Recipe", value: data.getItemCosts(recipe) })
 
         const effect = material.effect
         if (effect && typeof effect == "string")
-            embed.addField("Effect", effect)
+            embed.addFields({ name: "Effect", value: effect })
         else if (effect && typeof effect == "object") {
             const effects = [
                 ...Object.entries(effect),
                 ...otherMaterial.filter(x => x.effect && typeof x.effect == "string").map(x => [`[${x.name}](${data.baseURL}materials/${urlify(x.name, false)})`, x.effect as string])
             ]
-            embed.addField("Effects", effects.map(([name, e]) => `**${name}**\n- ${e}`).join("\n"))
+            embed.addFields({ name: "Effects", value: effects.map(([name, e]) => `**${name}**\n- ${e}`).join("\n") })
         }
 
         const charAscension: Character[] = []
@@ -211,7 +211,7 @@ Note: this command supports fuzzy search.`,
 
 
         if (usedByDesc.length > 0)
-            embed.addField("Used by", usedByDesc.join("\n"))
+            embed.addFields({ name: "Used by", value: usedByDesc.join("\n") })
 
         if (material.icon)
             embed.setThumbnail(getLink(material.icon))
@@ -219,9 +219,9 @@ Note: this command supports fuzzy search.`,
         return embed
     }
 
-    getLoreMaterialPage(material: Material, relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getLoreMaterialPage(material: Material, relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         const { data } = client
-        const embed = new MessageEmbed()
+        const embed = new EmbedBuilder()
             .setColor(Colors.AQUA)
             .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setTitle(`${material.name}: Description`)

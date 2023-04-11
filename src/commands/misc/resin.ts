@@ -1,10 +1,10 @@
-import { CommandInteraction, Message } from "discord.js"
+import { ApplicationCommandOptionType, ChatInputCommandInteraction, Message } from "discord.js"
 import client from "../../main"
 
-import Command from "../../utils/Command"
-import { displayTimestamp, sendMessage, timeLeft } from "../../utils/Utils"
 import config from "../../data/config.json"
+import Command from "../../utils/Command"
 import { CommandSource, SendMessage } from "../../utils/Types"
+import { displayTimestamp, sendMessage, timeLeft } from "../../utils/Utils"
 
 const values = [20, 40, 60, client.data.max_resin]
 export default class Resin extends Command {
@@ -21,17 +21,17 @@ Example with time until next resin: \`${config.prefix}resin 77 7:15\``,
             options: [{
                 name: "current",
                 description: "Current amount of resin",
-                type: "NUMBER",
+                type: ApplicationCommandOptionType.Number,
                 required: true
             }, {
                 name: "timeleft",
                 description: "Amount of time until next resin gets refilled, using in-game's mm:ss format.",
-                type: "STRING",
+                type: ApplicationCommandOptionType.String,
                 required: false
             }]
         })
     }
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
 
         const currentResin = options.getNumber("current", true)

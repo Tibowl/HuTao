@@ -1,4 +1,4 @@
-import { CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { ChatInputCommandInteraction, Message, EmbedBuilder } from "discord.js"
 import client from "../../main"
 
 import Command from "../../utils/Command"
@@ -19,7 +19,7 @@ export default class Reminders extends Command {
         })
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         return this.run(source)
     }
 
@@ -39,8 +39,8 @@ export default class Reminders extends Command {
         return undefined
     }
 
-    getReminders(reminders: Reminder[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed {
-        const embed = new MessageEmbed()
+    getReminders(reminders: Reminder[], relativePage: number, currentPage: number, maxPages: number): EmbedBuilder {
+        const embed = new EmbedBuilder()
             .setTitle("Reminders")
             .setFooter({ text: `Page ${currentPage} / ${maxPages}` })
             .setDescription(reminders
@@ -50,8 +50,10 @@ export default class Reminders extends Command {
             )
 
         if (relativePage == 0)
-            embed.addField("Creating reminders", `You can create reminders using \`${config.prefix}remindme <name> in <duration>\``, true)
-                .addField("Deleting reminders", `You can delete reminders using \`${config.prefix}delreminder <id>\``, true)
+            embed.addFields(
+                { name: "Creating reminders", value: `You can create reminders using \`${config.prefix}remindme <name> in <duration>\``, inline: true },
+                { name: "Deleting reminders", value: `You can delete reminders using \`${config.prefix}delreminder <id>\``, inline: true },
+            )
 
         return embed
     }

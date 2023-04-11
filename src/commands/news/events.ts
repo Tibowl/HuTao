@@ -1,4 +1,4 @@
-import { CommandInteraction, Message, MessageEmbed } from "discord.js"
+import { ChatInputCommandInteraction, Message, EmbedBuilder } from "discord.js"
 
 import Command from "../../utils/Command"
 import client from "../../main"
@@ -17,7 +17,7 @@ export default class Events extends Command {
         })
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         return this.run(source)
 
     }
@@ -91,7 +91,7 @@ export default class Events extends Command {
         return undefined
     }
 
-    getOngoingEvent(ongoing: Event[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getOngoingEvent(ongoing: Event[], relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         const event = ongoing[ongoing.length - relativePage - 1]
         if (event == undefined) return undefined
 
@@ -105,7 +105,7 @@ export default class Events extends Command {
         return embed
     }
 
-    getUpcomingEvent(upcoming: Event[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getUpcomingEvent(upcoming: Event[], relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         const event = upcoming[relativePage]
         if (event == undefined) return undefined
 
@@ -119,7 +119,7 @@ export default class Events extends Command {
         return embed
     }
 
-    getSummary(pages: MessageEmbed[], relativePage: number, currentPage: number, maxPages: number): MessageEmbed | undefined {
+    getSummary(pages: EmbedBuilder[], relativePage: number, currentPage: number, maxPages: number): EmbedBuilder | undefined {
         return pages[relativePage]
             .setTitle("Events")
             .setURL(`${client.data.baseURL}events`)
@@ -127,8 +127,8 @@ export default class Events extends Command {
             .setColor(Colors.DARK_GREEN)
     }
 
-    getSummaryPages(ongoing: Event[], upcoming: Event[]): MessageEmbed[] {
-        const pages: MessageEmbed[] = []
+    getSummaryPages(ongoing: Event[], upcoming: Event[]): EmbedBuilder[] {
+        const pages: EmbedBuilder[] = []
         const curr = ongoing
             .map(e =>
                 `${e.end ? `Ending on ${e.end}${e.timezone?` (GMT${e.timezone})`:""}` : "Ongoing"}: ${e.link ? `[${e.name}](${e.link}) ` : e.name}`
@@ -138,40 +138,40 @@ export default class Events extends Command {
                 `${e.type == "Unlock" ? "Unlocks at" : "Starting on"} ${e.prediction ? "*(prediction)* " : ""}${e.start ? e.start : "????"}${e.timezone?` (GMT${e.timezone})`:""}: ${e.link ? `[${e.name}](${e.link})` : e.name}`
             )
 
-        let currentEmbed = new MessageEmbed(), currLine = "", nextLine = ""
+        let currentEmbed = new EmbedBuilder(), currLine = "", nextLine = ""
         while (curr.length > 0) {
             const newCurr = curr.shift()
             if (newCurr == undefined) break
             if (currLine.length + newCurr.length > 950 && currLine.length > 0) {
-                currentEmbed.addField("Current Events", currLine + "***See next page for more***")
+                currentEmbed.addFields({ name: "Current Events", value: currLine + "***See next page for more***" })
                 pages.push(currentEmbed)
-                currentEmbed = new MessageEmbed()
+                currentEmbed = new EmbedBuilder()
                 currLine = ""
             }
             currLine += newCurr + "\n"
         }
         if (currLine.length > 0)
-            currentEmbed.addField("Current Events", currLine.trim())
+            currentEmbed.addFields({ name: "Current Events", value: currLine.trim() })
         if (ongoing.length == 0)
-            currentEmbed.addField("Current Events", "None")
+            currentEmbed.addFields({ name: "Current Events", value: "None" })
 
         while (next.length > 0) {
             const newNext = next.shift()
             if (newNext == undefined) break
             if (nextLine.length + newNext.length > 950 && nextLine.length > 0) {
-                currentEmbed.addField("Upcoming Events", nextLine + "***See next page for more***")
+                currentEmbed.addFields({ name: "Upcoming Events", value: nextLine + "***See next page for more***" })
                 pages.push(currentEmbed)
-                currentEmbed = new MessageEmbed()
+                currentEmbed = new EmbedBuilder()
                 nextLine = ""
             }
             nextLine += newNext + "\n"
         }
         if (nextLine.length > 0) {
-            currentEmbed.addField("Upcoming Events", nextLine.trim())
+            currentEmbed.addFields({ name: "Upcoming Events", value: nextLine.trim() })
             pages.push(currentEmbed)
         }
         if (upcoming.length == 0) {
-            currentEmbed.addField("Upcoming Events", "None")
+            currentEmbed.addFields({ name: "Upcoming Events", value: "None" })
             pages.push(currentEmbed)
         }
 

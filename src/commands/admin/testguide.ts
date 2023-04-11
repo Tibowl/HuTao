@@ -1,4 +1,4 @@
-import { AutocompleteInteraction, CommandInteraction, Message } from "discord.js"
+import { ApplicationCommandOptionType, AutocompleteInteraction, ChatInputCommandInteraction, Message } from "discord.js"
 import Command from "../../utils/Command"
 import { CommandSource, SendMessage } from "../../utils/Types"
 import { sendMessage, simplePaginator } from "../../utils/Utils"
@@ -16,7 +16,7 @@ export default class TestGuideCommand extends Command {
             options: [{
                 name: "data",
                 description: "Data of the guide",
-                type: "STRING",
+                type: ApplicationCommandOptionType.String,
                 required: true
             }]
         })
@@ -26,7 +26,7 @@ export default class TestGuideCommand extends Command {
         await source.respond([])
     }
 
-    async runInteraction(source: CommandInteraction): Promise<SendMessage | undefined> {
+    async runInteraction(source: ChatInputCommandInteraction): Promise<SendMessage | undefined> {
         const { options } = source
         return this.run(source, options.getString("data", true))
     }
