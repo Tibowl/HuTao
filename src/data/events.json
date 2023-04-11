@@ -922,7 +922,7 @@
         "reminder": "end"
     },
     {
-        "name": "Event Wish  \"Adrift in the Harbor\"",
+        "name": "Event Wish \"Adrift in the Harbor\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/1823218",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2021/12/29/1015537/0e949cb2aeddf92a6fa53e0fdf6394cf_5388940225818973429.jpg",
@@ -1624,7 +1624,7 @@
         "reminder": "end"
     },
     {
-        "name": "Event Wish  \"Adrift in the Harbor\"",
+        "name": "Event Wish \"Adrift in the Harbor\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/8554614",
         "img": "https://pbs.twimg.com/media/FcHanOTXwAEaTEo.jpg",
@@ -2419,7 +2419,8 @@
     {
         "name": "\"Fungus Mechanicus\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/jeLEj5l.png",
+        "link": "https://www.hoyolab.com/article/17144800",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/03/20/3f7906a0a2044d7abd0e09bc3df91bb8_83044232869688829.jpg",
         "start": "2023-03-23 10:00:00",
         "end": "2023-04-03 03:59:00",
         "reminder": "end"
@@ -2436,7 +2437,8 @@
     {
         "name": "\"Ley Line Overflow\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/05/d76cdab75f5f952a213e564f6b0a5a51_155737532671932155.jpg",
+        "link": "https://www.hoyolab.com/article/17374982",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/03/30/d76cdab75f5f952a213e564f6b0a5a51_3442022173864656807.jpg",
         "start": "2023-04-03 04:00:00",
         "end": "2023-04-10 03:59:00",
         "reminder": "daily"
@@ -2448,5 +2450,105 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/03/29/8d91bf1907f5493f5f5c1af260cafb2e_4205478297519923295.jpg",
         "start": "2023-03-31 08:00:00",
         "timezone": "-04:00"
+    },
+    {
+        "name": "3.6 Maintenance",
+        "type": "Maintenance",
+        "link": "https://www.hoyolab.com/article/17590298",
+        "start": "2023-04-12 06:00:00",
+        "end": "2023-04-12 11:00:00"
+    },
+    {
+        "name": "Event Wish \"The Moongrass' Enlightenment\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/17591331",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/10/ce10e25f7d1c4733f3460a071eda1257_473853965498479643.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "start": "2023-04-12 11:00:00",
+        "start_server": false,
+        "end": "2023-05-02 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Twirling Lotus\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/17591331",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/10/c9478b85eef66221707dff01baf7f983_6913990035038927513.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "start": "2023-04-12 11:00:00",
+        "start_server": false,
+        "end": "2023-05-02 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/17591331",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/10/7784f98b65ef147915cef7b89f24aabb_5915891821580533152.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "start": "2023-04-12 11:00:00",
+        "start_server": false,
+        "end": "2023-05-02 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Immaculate Pulse\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/BEnIzm8.png",
+        "start": "2023-05-02 18:00:00",
+        "end": "2023-04-11 14:59:00",
+        "prediction": true,
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Adrift in the Harbor\"",
+        "type": "Banner",
+        "img": "https://i.imgur.com/BEnIzm8.png",
+        "start": "2023-05-02 18:00:00",
+        "end": "2023-04-11 14:59:00",
+        "prediction": true,
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "start": "2023-05-02 18:00:00",
+        "end": "2023-04-11 14:59:00",
+        "prediction": true,
+        "reminder": "end"
+    },
+    {
+        "name": "\"A Parade of Providence\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/1DVMRI1.png",
+        "start": "2023-04-27 10:00:00",
+        "end": "2023-05-15 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Brewing Developments\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/17591332",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/07/df56fb0ec8d57b0f8a93dac386a73938_3286986266052733122.jpg",
+        "start": "2023-04-13 10:00:00",
+        "end": "2023-04-24 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Fulminating Sandstorm\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/kRXYCSx.png",
+        "start": "2023-04-21 10:00:00",
+        "end": "2023-05-01 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"The Recollector's Path\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/bdXKtm3.png",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Overflowing Mastery\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/17/713e290d673605bb82d2832ae54d75fd_7695223179940458996.jpg",
+        "reminder": "daily"
     }
 ]
