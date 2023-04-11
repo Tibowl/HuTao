@@ -397,7 +397,7 @@ function paginatorLoop(id: string, reply: Message, pageInfo: Bookmarkable[], cur
 
         paginatorLoop(id, reply, pageInfo, currentPage)
     }).catch(async (error) => {
-        if (error.name == "Error [INTERACTION_COLLECTOR_ERROR]") {
+        if (error.name == "Error [InteractionCollectorError]") {
             client.recentMessages = client.recentMessages.filter(k => k != reply)
             const user = client.user
             if (user == undefined || !reply.editable) return
