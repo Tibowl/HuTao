@@ -677,6 +677,30 @@
       "Recommendation: Found in Wenut Tunnels"
     ]
   },
+  "Trishiraite": {
+    "name": "Trishiraite",
+    "desc": "A splendorous stone that can be found in the depths of desolate mountains, seemingly formed from congealed elemental energy.",
+    "longDesc": "A splendorous stone that can be found in the depths of desolate mountains, seemingly formed from congealed elemental energy.\nAccording to old Sumeru legends, there once was an underground kingdom named Dahri that fell to the dark disaster upon straying from the true path. During the sun-swallowing battles of that bygone age, even the hardest of stones were set aflame. As the flames of war died out, all that remained from the calamity were these deep-red ores. If one should listen closely, one may yet hear the echoing sounds from that battle still ringing forth.",
+    "type": "Local Specialty (Sumeru)",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Trishiraite.png",
+    "sources": [
+      "Found in the deserts of Sumeru",
+      "Recommendation: Found in Temir Mountains"
+    ]
+  },
+  "Mourning Flower": {
+    "name": "Mourning Flower",
+    "desc": "Crimson flowers that bloom on ancient battlefields. They can even flourish in the depths of the desert. Their drooping flowers seem to be in mourning for heroes long past.",
+    "longDesc": "Crimson flowers that can bloom even on ancient battlefields or flourish in the depths of the desert. Its drooping flowers seem to mourn for heroes long past.\nOnce, when beings dark and demonic invaded the lands, countless heroes sacrificed themselves in a battle against them. Legend has it that these flowers are watered by the blood of those martyrs. The tribes of these plains speak additionally of the countless innocents who suffered from that calamity, of how due to being stained by the filth from the war, they are barred from eternal samsara, and can only languish amidst these flowers, lamenting the injustice of fate by weeping.",
+    "type": "Local Specialty (Sumeru)",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Mourning_Flower.png",
+    "sources": [
+      "Found in the deserts of Sumeru",
+      "Recommendation: Found in the Asipattravana Swamp"
+    ]
+  },
   "Northlander Sword Billet": {
     "name": "Northlander Sword Billet",
     "desc": "Weapon forging material. Can be used to forge 4-star swords. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
@@ -1945,7 +1969,7 @@
   },
   "Traditionally-Made Charcoal-Baked Ajilenakh Cake": {
     "name": "Traditionally-Made Charcoal-Baked Ajilenakh Cake",
-    "desc": "Faruzan's specialty. The dark and sweet cake, lying as it does atop a minty-green sauce bed, almost looks like some enigmatic mechanism. Your hesitation must have somehow reached Faruzan, for she then straightened up to assertively reassure you that this was a traditional dish in Sumeru and that its flavor is guaranteed. But you can't help wondering... Is it really a 'traditional' dish that catered to the tastes of Sumeru people a hundred year ago?",
+    "desc": "Faruzan's specialty. The dark and sweet cake, lying as it does atop a minty-green sauce bed, almost looks like some enigmatic mechanism. Your hesitation must have somehow reached Faruzan, for she then straightened up to assertively reassure you that this was a traditional dish in Sumeru and that its flavor is guaranteed. But you can't help wondering... Is it really a 'traditional' dish that catered to the tastes of Sumeru people a hundred years ago?",
     "stars": 3,
     "type": "Food",
     "category": "Food and Potions",
@@ -2022,6 +2046,22 @@
       "recipe": "Gilded Tajine"
     },
     "effect": "Increases all party members' Max HP by 30% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
+  "Surveyor's Breakfast Sandwich": {
+    "name": "Surveyor's Breakfast Sandwich",
+    "desc": "Mika's specialty. The luxurious spread before you is a veritable hillock of ingredients, and as you take a small bite, each clearly-demarcated layer of flavor and savory spice spreads throughout your mouth, as if you have climbed some mountain of gourmet. Are these the culinary skills he has honed while with the Knights?",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Surveyors_Breakfast_Sandwich.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Mika",
+      "recipe": "Adventurer's Breakfast Sandwich"
+    },
+    "effect": "Increases all party members' ATK by 274 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
@@ -4743,7 +4783,7 @@
   },
   "Grilled Unagi Fillet": {
     "name": "Grilled Unagi Fillet",
-    "desc": "A grilled dish. The fat oils sizzle all across the meat's surface like a flowery prelude. The baptism of charcoal fire and moistening sauce has imparted a delicate softness to the unagi's mouthfeel. If you paired this was rice, you'd be liable to leave not even a single drop of sauce behind.",
+    "desc": "A grilled dish. The fat oils sizzle all across the meat's surface like a flowery prelude. The baptism of charcoal fire and moistening sauce has imparted a delicate softness to the unagi's mouthfeel. If you paired this with rice, you'd be liable to leave not even a single drop of sauce behind.",
     "stars": 2,
     "type": "Food",
     "category": "Food and Potions",
@@ -6023,6 +6063,74 @@
       "Delicious Gilded Tajine": "Increases all party members' Max HP by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   },
+  "Fatteh": {
+    "name": "Fatteh",
+    "desc": "A dish from ancient Sumeru. With the Glabrous Beans coated in the silken smoothness of the yogurt sauce, the smooth texture greets your tongue like a blissful dream. And even after you have awoken, you might still taste the filling fragrance of baked flatbread between your teeth.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Fatteh.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Glabrous Beans"
+      },
+      {
+        "count": 2,
+        "name": "Milk"
+      },
+      {
+        "count": 1,
+        "name": "Mint"
+      }
+    ],
+    "effect": {
+      "Suspicious Fatteh": "Revives a character and restores 250 HP.",
+      "Fatteh": "Revives a character and restores 400 HP.",
+      "Delicious Fatteh": "Revives a character and restores 550 HP."
+    }
+  },
+  "Jade Fruit Soup": {
+    "name": "Jade Fruit Soup",
+    "desc": "A traditional Liyue dessert dish. The large chunk of fruit soaked in the soup seems like unto a lonesome boat drifting down a flowing river, and the fresh taste of the dish assails like a sudden breeze.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Jade_Fruit_Soup.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Sunsettia"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      },
+      {
+        "count": 1,
+        "name": "Qingxin"
+      },
+      {
+        "count": 1,
+        "name": "Violetgrass"
+      }
+    ],
+    "effect": {
+      "Suspicious Jade Fruit Soup": "Increases all party members' Healing Bonus by 15% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Jade Fruit Soup": "Increases all party members' Healing Bonus by 17% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Jade Fruit Soup": "Increases all party members' Healing Bonus by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
   "Rice Pudding": {
     "name": "Rice Pudding",
     "desc": "A dessert made from rice. The soft, sticky rice and the sweet milk have melded together perfectly, their tastes complementing each other. If you eat it hot, you can enjoy the dense rice grains, and if you leave it till it's cold, you can savor the gentle fragrance of milk — each possessing its own beauty. People who eat such a dish cannot help but wonder: how many experiments led up to this moment?",
@@ -7249,6 +7357,39 @@
       "Lv. 70+ Shouki no Kami, the Prodigal Challenge Reward"
     ]
   },
+  "Worldspan Fern": {
+    "name": "Worldspan Fern",
+    "desc": "A fern taken from the oasis within Apep's body.\nAt the dawn of time, the world belonged to the dragons. There, the ferns were the first to sprout in the lush verdant world of Apep's court.\nIn the ages after, these ferns would become trees, vines, roots, and leaves, blanketing the world with their touch. But Apep still remembers the first frond as it stretched freely toward the sky, making a sound so delicate as to go unheard.",
+    "stars": 5,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Worldspan_Fern.png",
+    "sources": [
+      "Lv. 70+ Guardian of Apep's Oasis Challenge Reward"
+    ]
+  },
+  "Primordial Greenbloom": {
+    "name": "Primordial Greenbloom",
+    "desc": "A primordial flower procured from the oasis within Apep.\nWith the passing of eons, flowers grew in fragrance and volume, and they gained a collection of titles as numerous as the stars in the night sky.\nHowever, this first flower to bloom never bore any name. For the dragons of old, even if a rose lost its name, it would not lose its scent. Naming things is but how lesser, ephemeral beings understand the world. Life is not constrained by words, and will always grow and evolve.",
+    "stars": 5,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Primordial_Greenbloom.png",
+    "sources": [
+      "Lv. 70+ Guardian of Apep's Oasis Challenge Reward"
+    ]
+  },
+  "Everamber": {
+    "name": "Everamber",
+    "desc": "A piece of amber taken from the oasis within Apep. Inside the amber, a small, long-extinct insect remains frozen in time.\nTo the tree, it was circumstance that led this little life to be wreathed within its amber. But for said life, this was fate.\nFollowing the heaven-sent disaster, wood, vines, roots, and all manner of flora withered and turned to dust. A great many life forms disappeared.\nBut in the stillness of amber, a nameless insect endures in this otherworldly oasis, reaching a future that no others of its kind could.",
+    "stars": 5,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Everamber.png",
+    "sources": [
+      "Lv. 70+ Guardian of Apep's Oasis Challenge Reward"
+    ]
+  },
   "Hurricane Seed": {
     "name": "Hurricane Seed",
     "desc": "The imploded form of an Anemo Hypostasis upon its defeat.\nContains the essence of Anemo energy.\nIt is said that the power to create hurricanes resides within its seemingly fragile body. This butterfly of pure Anemo energy must surely be waiting for the day when it can conjure up storms once again.",
@@ -7489,6 +7630,17 @@
     "icon": "img/material/PseudoStamens.png",
     "sources": [
       "Dropped by Lv. 30+ Setekh Wenut"
+    ]
+  },
+  "Evergloom Ring": {
+    "name": "Evergloom Ring",
+    "desc": "A mystical weapon obtained after defeating the Four-Armed Envoy of dark tidings.\nRings are shaped like passageways, which is why arcane formations that are meant to produce some mystical effect are often ring-shaped. Such rings are perhaps gateways intended to guide the universe itself.",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Evergloom_Ring.png",
+    "sources": [
+      "Dropped by Lv. 30+ Iniquitous Baptists"
     ]
   },
   "Brilliant Diamond Sliver": {
@@ -9438,6 +9590,43 @@
     "sources": [
       "Crafted",
       "Dropped by Lv. 60+ Consecrated Beasts"
+    ]
+  },
+  "A Flower Yet to Bloom": {
+    "name": "A Flower Yet to Bloom",
+    "desc": "A wild flower that a Hilichurl Rogue treasured. It was plucked before it could bloom.\nThe hilichurl takes nothing with it in its sojourn across the wilderness save this flower.",
+    "stars": 2,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/A_Flower_Yet_to_Bloom.png",
+    "sources": [
+      "Dropped by Hilichurl Rogues",
+      "Stardust Exchange"
+    ]
+  },
+  "Treasured Flower": {
+    "name": "Treasured Flower",
+    "desc": "A wild flower that a Hilichurl Rogue treasured, bereft of any special qualities.\nFlowers can be used as gifts or offerings to express one's feelings in many cultures.",
+    "stars": 3,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Treasured_Flower.png",
+    "sources": [
+      "Crafted",
+      "Dropped by Lv. 40+ Hilichurl Rogues",
+      "Stardust Exchange"
+    ]
+  },
+  "Wanderer's Blooming Flower": {
+    "name": "Wanderer's Blooming Flower",
+    "desc": "A blooming wild flower that a Hilichurl Rogue treasured, bereft of any special qualities.\nThe eternal outlander asks not for reward, but only to see their deeds come to fruition...",
+    "stars": 4,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Wanderers_Blooming_Flower.png",
+    "sources": [
+      "Crafted",
+      "Dropped by Lv. 60+ Hilichurl Rogues"
     ]
   },
   "Tainted Blood": {

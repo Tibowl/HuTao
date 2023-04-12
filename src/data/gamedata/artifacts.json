@@ -501,7 +501,7 @@
     "bonuses": [
       {
         "count": 2,
-        "desc": "Increases Normal Attack and Charged Attack DMG by 15%."
+        "desc": "Normal and Charged Attack DMG +15%"
       },
       {
         "count": 4,
@@ -1418,7 +1418,7 @@
     "bonuses": [
       {
         "count": 2,
-        "desc": "HP increased by 20%."
+        "desc": "HP +20%"
       },
       {
         "count": 4,
@@ -1994,6 +1994,104 @@
         "name": "Amethyst Crown",
         "desc": "A crown inlaid with amethyst and emerald. It seems to have been the headgear worn by ancient priests of the Goddess of Flowers.",
         "icon": "img/arti/Amethyst_Crown.png"
+      }
+    ]
+  },
+  "Nymph's Dream": {
+    "name": "Nymph's Dream",
+    "levels": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Hydro DMG Bonus +15%"
+      },
+      {
+        "count": 4,
+        "desc": "After Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts hit opponents, 1 stack of Mirrored Nymph will be triggered, lasting 8s. When under the effect of 1, 2, or 3 or more Mirrored Nymph stacks, ATK will be increased by 7%/16%/25%, and Hydro DMG Bonus will be increased by 4%/9%/15%. Mirrored Nymph stacks created by Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts exist independently."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Odyssean Flower",
+        "desc": "The story must end, and even fresh flowers will wither. But the flower within one's dreams will always remain in full and fragrant bloom.",
+        "icon": "img/arti/Odyssean_Flower.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Wicked Mage's Plumule",
+        "desc": "This was once a decorative feather in someone's hat. Being dark green, it is quite eye-catching indeed.",
+        "icon": "img/arti/Wicked_Mages_Plumule.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Nymph's Constancy",
+        "desc": "A pocket watch that has long stopped working. It seems to have borne witness to many a passing year as its hands spun in vain.",
+        "icon": "img/arti/Nymphs_Constancy.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Heroes' Tea Party",
+        "desc": "A lovely teacup. Perhaps it was once used by people enjoying a leisurely afternoon together.",
+        "icon": "img/arti/Heroes_Tea_Party.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Fell Dragon's Monocle",
+        "desc": "An exquisitely-made monocle. Ancient anecdotes say that one might be able to see the future through it.",
+        "icon": "img/arti/Fell_Dragons_Monocle.png"
+      }
+    ]
+  },
+  "Vourukasha's Glow": {
+    "name": "Vourukasha's Glow",
+    "levels": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "HP +20%"
+      },
+      {
+        "count": 4,
+        "desc": "Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Stamen of Khvarena's Origin",
+        "desc": "An insignia in the shape of a lovely little flower that was once worn by pilgrims in times long bygone.",
+        "icon": "img/arti/Stamen_of_Khvarenas_Origin.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Vibrant Pinion",
+        "desc": "An exquisite feather-shaped decoration on which the vivid hues of verdant leaves and fragrant flowers shimmer.",
+        "icon": "img/arti/Vibrant_Pinion.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Ancient Abscission",
+        "desc": "An ancient timepiece upon which the light of Khvarena gleams. It is filled with a pure liquid that appears alive.",
+        "icon": "img/arti/Ancient_Abscission.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Feast of Boundless Joy",
+        "desc": "An opulent wine goblet that was once filled with nectar and honeydew, but is empty today.",
+        "icon": "img/arti/Feast_of_Boundless_Joy.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Heart of Khvarena's Brilliance",
+        "desc": "Intricate and vibrant earrings upon which the luster of a hundred flowers seems to flow.",
+        "icon": "img/arti/Heart_of_Khvarenas_Brilliance.png"
       }
     ]
   }

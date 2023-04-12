@@ -1051,7 +1051,7 @@
             "Hydro Mimic Crane",
             "Hydro Mimic Crab",
             "Hydro Mimic Mallard",
-            "Hydro Mimic Ferret"
+            "Hydro Mimic Squirrel"
           ]
         ]
       },
@@ -1745,7 +1745,7 @@
           [
             "Geovishap",
             "Hydro Mimic Boar",
-            "Hydro Mimic Ferret"
+            "Hydro Mimic Squirrel"
           ]
         ]
       },
@@ -1854,7 +1854,7 @@
             "Hydro Mimic Frog",
             "Hydro Mimic Finch",
             "Hydro Mimic Boar",
-            "Hydro Mimic Ferret",
+            "Hydro Mimic Squirrel",
             "Hydro Mimic Crab",
             "Hydro Mimic Crane",
             "Hydro Specter",
@@ -1961,7 +1961,7 @@
             "Hydro Mimic Crab",
             "Hydro Mimic Finch",
             "Hydro Mimic Mallard",
-            "Hydro Mimic Ferret",
+            "Hydro Mimic Squirrel",
             "Hydro Mimic Frog",
             "Hydro Mimic Raptor"
           ]
@@ -2694,7 +2694,7 @@
             "Hydro Mimic Crane",
             "Hydro Mimic Crab",
             "Hydro Mimic Mallard",
-            "Hydro Mimic Ferret",
+            "Hydro Mimic Squirrel",
             "Hydro Mimic Raptor"
           ],
           [
@@ -3266,9 +3266,125 @@
   },
   "56": {
     "teams": 2,
-    "leyline": "All party members receive a 75% Pyro DMG Bonus."
+    "leyline": "All party members receive a 75% Pyro DMG Bonus.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 88,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Consecrated Red Vulture",
+            "Consecrated Scorpion",
+            "Kairagi: Dancing Thunder",
+            "Kairagi: Fiery Might"
+          ],
+          [
+            "Eremite Desert Clearwater",
+            "Eremite Sunfrost",
+            "Hydro Abyss Mage"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 90,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Mirror Maiden",
+            "Fatui Cryo Cicin Mage",
+            "Fatui Skirmisher - Cryogunner Legionnaire",
+            "Fatui Skirmisher - Hydrogunner Legionnaire",
+            "Fatui Skirmisher - Geochanter Bracer",
+            "Fatui Skirmisher - Anemoboxer Vanguard"
+          ],
+          [
+            "Hydro Mimic Boar",
+            "Hydro Mimic Crane",
+            "Hydro Mimic Crab",
+            "Hydro Mimic Finch",
+            "Hydro Mimic Mallard",
+            "Hydro Mimic Squirrel",
+            "Hydro Mimic Frog"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 92,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Jadeplume Terrorshroom"
+          ],
+          [
+            "Hydro Hypostasis"
+          ]
+        ]
+      }
+    ]
   },
   "57": {
+    "teams": 2,
+    "leyline": "For this floor only, the Ley Line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 95,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Eremite Scorching Loremaster",
+            "Abyss Herald: Frost Fall",
+            "Eremite Daythunder"
+          ],
+          [
+            "Eremite Floral Ring-Dancer",
+            "Abyss Herald: Wicked Torrents",
+            "Eremite Desert Clearwater",
+            "Eremite Sunfrost"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 98,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Maguu Kenki"
+          ],
+          [
+            "Black Serpent Knight: Rockbreaker Ax",
+            "Black Serpent Knight: Windcutter",
+            "Shadowy Husk: Standard Bearer",
+            "Shadowy Husk: Line Breaker",
+            "Shadowy Husk: Defender"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 100,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Ruin Guard",
+            "Frostarm Lawachurl"
+          ],
+          [
+            "Setekh Wenut"
+          ]
+        ]
+      }
+    ]
+  },
+  "58": {
+    "teams": 2,
+    "leyline": "All characters in the party gain a 75% Dendro DMG Bonus."
+  },
+  "59": {
     "teams": 2,
     "leyline": "For this floor only, the Ley Line flow will be normal."
   }

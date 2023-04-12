@@ -1078,6 +1078,38 @@
       ]
     ]
   },
+  "Anemo Hilichurl Rogue": {
+    "name": "Anemo Hilichurl Rogue",
+    "desc": "Hilichurl wanderers who do not belong to any hilichurl tribe. It almost seems as if they are searching for the fated genesis of their kind, seeking to uncover some bygone splendor that once belonged to their people.\nIf these monsters capable of only crude language and bereft of missing history could record their own epics and legends, the hilichurl wanderers would be the heroes in said tales.",
+    "icon": "img/enemy/Anemo_Hilichurl_Rogue.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "50%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Hydro Hilichurl Rogue": {
+    "name": "Hydro Hilichurl Rogue",
+    "desc": "Hilichurl wanderers unaffiliated with any specific tribe. They can often be found roving the wilds as if in voluntary exile.\nThey may also lend their aid to other hilichurls or hilichurl tribes for various reasons and go their separate ways afterward. They seem to possess a higher level of intelligence than commonplace hilichurls.",
+    "icon": "img/enemy/Hydro_Hilichurl_Rogue.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "50%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
   "Pyro Abyss Mage": {
     "name": "Pyro Abyss Mage",
     "desc": "Abyss creatures who command the power of Pyro in battle.\nFor unknown reasons, Abyss Mages are able to communicate with the hilichurls, thus enabling them to manipulate their minds easily. They say that Abyss Mages utter a long-forgotten language from which they draw magical power.",
@@ -1208,6 +1240,22 @@
     "icon": "img/enemy/Abyss_Lector_Violet_Lightning.png",
     "type": "The Abyss",
     "kind": "Elite Enemy",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Iniquitous Baptist": {
+    "name": "Iniquitous Baptist",
+    "desc": "A monster from the Abyss that wields multiple types of Elemental Power and has gained extra limbs from its \"evolution.\"\n\n**\"The nature of the 'Abyss' is essentially irreconcilable with the elements. However, even the elements of gods can be entrapped and distorted before they are subsumed to become tools of the abyssal will. Just judging from outcomes and practical use, \"Abyssal powers\" seem little different from elemental items, from ones as paltry as the Treasure Hoarders' elemental containers to those as powerful as Visions...\"**\n—Notes left behind in Hangeh Afrasiyab by someone.",
+    "icon": "img/enemy/Iniquitous_Baptist.png",
     "resistance": [
       [
         "10%",
@@ -1494,7 +1542,7 @@
   },
   "Fatui Skirmisher - Hydrogunner Legionnaire": {
     "name": "Fatui Skirmisher - Hydrogunner Legionnaire",
-    "desc": "A soldier encased within a Fatui war machine.\nArmed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of water.\nThese skirmishers do not question if they shall live or die as they advance into nations far from home to complete reconaissance missions and lay the groundwork for operations to come.",
+    "desc": "A soldier encased within a Fatui war machine.\nArmed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of water.\nThese skirmishers do not question if they shall live or die as they advance into nations far from home to complete reconnaissance missions and lay the groundwork for operations to come.",
     "icon": "img/enemy/Fatui_Skirmisher_Hydrogunner_Legionnaire.png",
     "type": "Fatui",
     "kind": "Common Enemy",
@@ -1610,7 +1658,7 @@
   },
   "Fatui Skirmisher - Geochanter Bracer": {
     "name": "Fatui Skirmisher - Geochanter Bracer",
-    "desc": "A skirmisher with the ability to generate a Geo Shield and defend their allies.\nUnlike the elite Mages and Agents, Fatui Skirmishers are soldiers of lesser individual might.\nTo complete their tasks and reduce losses in men and materiel, their tactics are thus more reliant on teamwork.",
+    "desc": "A skirmisher with the ability to generate a Geo Shield and defend their allies.\nUnlike the elite Mages and Agents, Fatui Skirmishers are soldiers of lesser individual might.\nTo complete their tasks and reduce losses in men and material, their tactics are thus more reliant on teamwork.",
     "icon": "img/enemy/Fatui_Skirmisher_Geochanter_Bracer.png",
     "type": "Fatui",
     "kind": "Common Enemy",
@@ -3090,6 +3138,38 @@
       ]
     ]
   },
+  "Consecrated Horned Crocodile": {
+    "name": "Consecrated Horned Crocodile",
+    "desc": "A reptile that has mutated after feeding from greater lifeforms.\nMajestic beasts are sometimes revered by human beings as the embodiment of a greater power, their visages turned to analogy to feed in reference to a person, feeding their ego. However, the majority of beasts that have absorbed the \"greater power\" were slain by the overwhelming nature of the power itself. Only a few among their number evolved new forms.",
+    "icon": "img/enemy/Consecrated_Horned_Crocodile.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Consecrated Fanged Beast": {
+    "name": "Consecrated Fanged Beast",
+    "desc": "A predator that has mutated after feeding from greater lifeforms.\nSurvival of the fittest is written in the law of nature. But pets and Consecrated Beasts are exceptions. Human beings' baits and the remains of immortal beings are essentially deliberate or unintentional traps. The price of coveting the gift of the strongest is much more painful than being locked in a cage.",
+    "icon": "img/enemy/Consecrated_Fanged_Beast.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
   "Consecrated Red Vulture": {
     "name": "Consecrated Red Vulture",
     "desc": "A scavenging bird of prey that has mutated after feeding from greater lifeforms.\nThe greater lifeforms devoured by Consecrated Beasts often have nigh-immortal consciousness that can never be fully silenced or eradicated. The very power and consciousness gained by Consecrated Beasts devouring these lifeforms will, in turn, drive them to seek more violence and carrion.",
@@ -3352,6 +3432,22 @@
       ]
     ]
   },
+  "Guardian of Apep's Oasis": {
+    "name": "Guardian of Apep's Oasis",
+    "desc": "Apep walked through the water like a fish with its many offspring in a sea of fragrant grass, gigantic trees, and unimaginably long vines. Finally, the grass, trees, and vines withered and turned into dust, while countless beings as minute as grains of gravel built a fragile kingdom upon Apep's land.\nApep and its offspring let the sea of sand rage like boiling water and swept houses down as if they were falling leaves. Until the day when the new Lord of Sand reconciled with the king who lost their homeland, the dunes under the sun belonged to humanity, while the dragon's oasis remained in the hearts of the dragons.\nApep shared the knowledge of evolution with its many offspring, because spreading knowledge ensures dissemination while the stagnation of hoarded wisdom courted only decay. Till the day the promise between it and the Lord of Sand was finally attained, with ultimate wisdom claimed. Henceforth, it reaped only sights of oblivion, of an endless calamity.\nApep found itself swallowed alone amidst the scenery of the catastrophe. All the people, gods, dragons, beasts, birds, and fish. All memories, wisdom, words, and hatred were ground into colorless dust, and the last of the moonlight burned away into a rain of pale fire, falling on the barren land.\n...\nApep once deemed the bottom of the sea of sand to be its grave, not the palace of a dispossessed king. The poison of \"wisdom\" would soon free Apep from the hatred and anger festering within it over countless moons. Apep had grown weary of the colorless apocalypse. Then, finally, the young god and the golden Traveler let it recall once again, even though the verdant land it once ruled had been reduced to this gilded wasteland, even though Apep and its many offspring had grown twisted and wretched to secure their continued survival therein, Apep still treasured the sight and scenes of the oasis, sparkling in its heart.",
+    "icon": "img/enemy/Guardian_of_Apeps_Oasis.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
   "Hydro Mimic Boar": {
     "name": "Hydro Mimic Boar",
     "icon": "img/enemy/Hydro_Mimic.png",
@@ -3437,8 +3533,8 @@
       ]
     ]
   },
-  "Hydro Mimic Ferret": {
-    "name": "Hydro Mimic Ferret",
+  "Hydro Mimic Squirrel": {
+    "name": "Hydro Mimic Squirrel",
     "icon": "img/enemy/Hydro_Mimic.png",
     "type": "Elemental Lifeforms",
     "kind": "Unique Enemy",

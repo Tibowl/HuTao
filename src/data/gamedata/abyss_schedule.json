@@ -1362,5 +1362,71 @@
       56,
       57
     ]
+  },
+  "62": {
+    "start": "2023-04-16 04:00:00",
+    "end": "2023-05-01 03:59:59",
+    "buff": "Reverberating Moon",
+    "buffDesc": "When the active character's HP decreases, a shockwave will be unleashed at the character's position, dealing True DMG to nearby opponents. This effect can be triggered once every 0.8s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      44,
+      45,
+      58,
+      59
+    ]
+  },
+  "63": {
+    "start": "2023-05-01 04:00:00",
+    "end": "2023-05-16 03:59:59",
+    "buff": "Erupting Moon",
+    "buffDesc": "After a character triggers a Bloom reaction, all characters' Bloom, Hyperbloom, and Burgeon DMG dealt is increased by 35% for 6s. This effect can be triggered once every 0.1s. Max 4 stacks. Each stack's duration is counted independently.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      44,
+      45,
+      58,
+      59
+    ]
+  },
+  "64": {
+    "start": "2023-05-16 04:00:00",
+    "end": "2023-06-01 03:59:59",
+    "buff": "Flourishing Moon",
+    "buffDesc": "When DMG dealt by Dendro Cores (including DMG from Hyperbloom and Burgeon reactions) hits a character, Elemental Mastery will be increased by 200 for all characters in the party for 4s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      44,
+      45,
+      58,
+      59
+    ]
   }
 }
