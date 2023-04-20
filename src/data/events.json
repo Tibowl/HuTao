@@ -2551,5 +2551,14 @@
         "type": "In-game",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/01/17/713e290d673605bb82d2832ae54d75fd_7695223179940458996.jpg",
         "reminder": "daily"
+    },
+    {
+        "name": "\"Chords of the Forest\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/17836380",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/17/6796449ba04a6fade21b5005f4f1c150_5685147992140398111.jpg",
+        "start": "2023-04-20 12:00:00",
+        "end": "2023-04-27 23:59:00",
+        "reminder": "end"
     }
 ]
