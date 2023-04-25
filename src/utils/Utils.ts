@@ -320,15 +320,15 @@ export function getEventEmbed(event: Event): EmbedBuilder {
         inline: true
     })
     if (event.end) embed.addFields({
-            name: "End Time",
-            value: `${event.end}${event.timezone?` (GMT${event.timezone})`:""}\n${endTimes(event)}`,
-            inline: true
-        })
+        name: "End Time",
+        value: `${event.end}${event.timezone?` (GMT${event.timezone})`:""}\n${endTimes(event)}`,
+        inline: true
+    })
     if (event.type && event.type !== EventType.Unlock) embed.addFields({
-            name: "Type", 
-            value: event.type,
-            inline: true
-        })
+        name: "Type",
+        value: event.type,
+        inline: true
+    })
 
     return embed
 }
