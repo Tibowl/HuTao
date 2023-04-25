@@ -294,21 +294,39 @@
         }
       },
       {
-        "name": "Scarab route",
-        "desc": "**Scarab ${Scarab}** can found in the Great Red Sand of Sumeru.\n\n> A tenacious beetle that finds repose within the vast ocean of desert sand. The golden pattern on such beetles' shells hints at some deep relationship between them and the ancient ruins that dot the desert.",
-        "img": "https://cdn.discordapp.com/attachments/1024787078254444644/1024787114061205584/Scarabsv1.png",
-        "credits": "Soul",
-        "links": {
-          "material": ["Scarab"]
-        }
-      },
-      {
         "name": "Sand Grease Pupa route",
         "desc": "**Sand Grease Pupa ${Sand Grease Pupa}** can found in the Desert of Hadramaveth.\n\n> You can only find such husks deep in the desert where the Quicksand Eels breed. The hardened shell is meant to protect the Quicksand Eels' larval bodies until they finally acclimate to the conditions of the dry desert.",
         "img": "https://cdn.discordapp.com/attachments/1065152189833678898/1068612470622658650/SandGreasePupa.png",
         "credits": "Soul",
         "links": {
           "material": ["Sand Grease Pupa"]
+        }
+      },
+      {
+        "name": "Mourning Flower route",
+        "desc": "**Mourning Flower ${Mourning Flower}** can found in Girdle of the Sands.\n\n> Crimson flowers that bloom on ancient battlefields. They can even flourish in the depths of the desert. Their drooping flowers seem to be in mourning for heroes long past.",
+        "img": "https://cdn.discordapp.com/attachments/1098302663717814465/1098656863471550614/cleanfinished.png",
+        "credits": "Soul & Grun",
+        "links": {
+          "material": ["Mourning Flower"]
+        }
+      },
+      {
+        "name": "Trishiraite route",
+        "desc": "**Trishiraite ${Trishiraite}** can found in Girdle of the Sands.\n\n> A splendorous stone that can be found in the depths of desolate mountains, seemingly formed from congealed elemental energy.",
+        "img": "https://cdn.discordapp.com/attachments/1099439136630390914/1100292193454919771/trishirat2t.png",
+        "credits": "Soul & Grun",
+        "links": {
+          "material": ["Trishiraite"]
+        }
+      },
+      {
+        "name": "Scarab route",
+        "desc": "**Scarab ${Scarab}** can found in the Great Red Sand of Sumeru.\n\n> A tenacious beetle that finds repose within the vast ocean of desert sand. The golden pattern on such beetles' shells hints at some deep relationship between them and the ancient ruins that dot the desert.",
+        "img": "https://cdn.discordapp.com/attachments/1024787078254444644/1024787114061205584/Scarabsv1.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Scarab"]
         }
       }
     ]
@@ -640,6 +658,16 @@
         "links": {
           "enemy": ["Shadowy Husk: Standard Bearer", "Shadowy Husk: Line Breaker", "Shadowy Husk: Defender", "Black Serpent Knight: Windcutter"],
           "material": ["Gloomy Statuette", "Dark Statuette", "Deathly Statuette"]
+        }
+      },
+      {
+        "name": "Hilichurl Rogue route (A Flower Yet to Bloom, Treasured Flower and Wanderer's Blooming Flower)",
+        "desc": "**Hilichurl Rogues ${Anemo Hilichurl Rogue}${Hydro Hilichurl Rogue}** are Elite Enemies found in the Sumeru Desert. They belong to the Hilichurls family and drop **A Flower Yet to Bloom ${A Flower Yet to Bloom}**, **Treasured Flower ${Treasured Flower}** and **Wanderer's Blooming Flower ${Wanderer's Blooming Flower}**.",
+        "img": "https://cdn.discordapp.com/attachments/959275124312383539/959275172236505159/FakeSerpents.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Anemo Hilichurl Rogue", "Hydro Hilichurl Rogue"],
+          "material": ["A Flower Yet to Bloom", "Treasured Flower", "Wanderer's Blooming Flower"]
         }
       }
     ]
