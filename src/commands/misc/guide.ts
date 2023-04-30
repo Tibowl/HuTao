@@ -3,7 +3,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { CommandSource, Guide, SendMessage } from "../../utils/Types"
-import { Colors, findFuzzy, findFuzzyBestCandidates, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
+import { Colors, findFuzzy, findFuzzyBestCandidates, getLink, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 
 
 export default class GuideCommand extends Command {
@@ -149,7 +149,7 @@ export function getGuidePage(guide: Guide, relativePage: number, currentPage: nu
         )
 
     if (page.img)
-        embed.setImage(page.img)
+        embed.setImage(getLink(page.img))
 
     return embed
 }

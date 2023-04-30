@@ -238,16 +238,16 @@ Note: this command supports fuzzy search.`,
             if (data.isFullCharacter(char)) {
                 const maxAscension = char.ascensions[char.ascensions.length - 1]
                 embed.addFields({
-                    name: "Base stats", 
+                    name: "Base stats",
                     value: Object.entries(data.getCharStatsAt(char, 1, 0))
-                            .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
-                            .join("\n"),
+                        .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
+                        .join("\n"),
                     inline: true
-                }, { 
-                    name: `Lv. ${maxAscension.maxLevel} A${maxAscension.level} stats`, 
+                }, {
+                    name: `Lv. ${maxAscension.maxLevel} A${maxAscension.level} stats`,
                     value: Object.entries(data.getCharStatsAt(char, maxAscension.maxLevel, maxAscension.level))
-                            .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
-                            .join("\n"), 
+                        .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
+                        .join("\n"),
                     inline: true
                 })
             }
@@ -449,7 +449,7 @@ ${          Object
             }\n\n`) : ""
 
         if (char.media.imgs && relativePage >= 0 && relativePage < char.media.imgs.length) {
-            const img = char.media.imgs[relativePage]
+            const img = getLink(char.media.imgs[relativePage])
             embed.setDescription(`${videos}[Open image in browser](${img})`)
                 .setImage(img)
                 .setThumbnail(null)
@@ -497,9 +497,9 @@ ${          Object
                             .filter(([lv]) => {
                                 switch (talentMode) {
                                     case "HIGH":
-                                        return lv >= 6
+                                        return +lv >= 6
                                     case "LOW":
-                                        return lv <= 6
+                                        return +lv <= 6
                                     case "LITTLE":
                                     default:
                                         return talents.includes(+lv)
@@ -518,7 +518,7 @@ ${          Object
                 embed.setFooter({ text: `${embed.data.footer?.text} - Use '${config.prefix}c ${char.name} -high' (or -low) to display higher (or lower) levels` })
 
             if (skill.video && talentMode == "LITTLE") {
-                embed.setImage(skill.video)
+                embed.setImage(getLink(skill.video))
                     .setThumbnail("")
             }
         }
