@@ -2494,7 +2494,6 @@
         "img": "https://i.imgur.com/BEnIzm8.png",
         "start": "2023-05-02 18:00:00",
         "end": "2023-04-11 14:59:00",
-        "prediction": true,
         "reminder": "end"
     },
     {
@@ -2503,7 +2502,6 @@
         "img": "https://i.imgur.com/BEnIzm8.png",
         "start": "2023-05-02 18:00:00",
         "end": "2023-04-11 14:59:00",
-        "prediction": true,
         "reminder": "end"
     },
     {
@@ -2511,7 +2509,6 @@
         "type": "Banner",
         "start": "2023-05-02 18:00:00",
         "end": "2023-04-11 14:59:00",
-        "prediction": true,
         "reminder": "end"
     },
     {
