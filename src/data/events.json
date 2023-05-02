@@ -2462,7 +2462,7 @@
         "name": "Event Wish \"The Moongrass' Enlightenment\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/17591331",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/10/ce10e25f7d1c4733f3460a071eda1257_473853965498479643.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/10/ce10e25f7d1c4733f3460a071eda1257_473853965498479643.jpg",
         "start": "2023-04-12 11:00:00",
         "start_server": false,
         "end": "2023-05-02 17:59:00",
@@ -2472,7 +2472,7 @@
         "name": "Event Wish \"Twirling Lotus\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/17591331",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/10/c9478b85eef66221707dff01baf7f983_6913990035038927513.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/10/c9478b85eef66221707dff01baf7f983_6913990035038927513.jpg",
         "start": "2023-04-12 11:00:00",
         "start_server": false,
         "end": "2023-05-02 17:59:00",
@@ -2482,7 +2482,7 @@
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/17591331",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/10/7784f98b65ef147915cef7b89f24aabb_5915891821580533152.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/10/7784f98b65ef147915cef7b89f24aabb_5915891821580533152.jpg",
         "start": "2023-04-12 11:00:00",
         "start_server": false,
         "end": "2023-05-02 17:59:00",
@@ -2491,7 +2491,8 @@
     {
         "name": "Event Wish \"Immaculate Pulse\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/BEnIzm8.png",
+        "link": "https://www.hoyolab.com/article/18031187",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/27/0f3aded8ca018c6140d98fcad6dfe1b8_2164883493949577422.jpg",
         "start": "2023-05-02 18:00:00",
         "end": "2023-04-11 14:59:00",
         "reminder": "end"
@@ -2499,7 +2500,8 @@
     {
         "name": "Event Wish \"Adrift in the Harbor\"",
         "type": "Banner",
-        "img": "https://i.imgur.com/BEnIzm8.png",
+        "link": "https://www.hoyolab.com/article/18031187",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/27/3f56f7f49b04235798875feeef266a51_7906909585325718296.jpg",
         "start": "2023-05-02 18:00:00",
         "end": "2023-04-11 14:59:00",
         "reminder": "end"
@@ -2507,6 +2509,8 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/article/18031187",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/27/d0dca7f8a40346485900c511a0d5a8bf_2043994232230261402.jpg",
         "start": "2023-05-02 18:00:00",
         "end": "2023-04-11 14:59:00",
         "reminder": "end"
@@ -2557,6 +2561,15 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/17/6796449ba04a6fade21b5005f4f1c150_5685147992140398111.jpg",
         "start": "2023-04-20 12:00:00",
         "end": "2023-04-27 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Herbal Remedies\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/18024941",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/25/aa16fbd03b26c91d1f69bfba98650fe8_419478516874233948.jpg",
+        "start": "2023-04-27 12:00:00",
+        "end": "2023-05-03 23:59:00",
         "reminder": "end"
     }
 ]
