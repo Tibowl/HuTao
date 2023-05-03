@@ -2063,6 +2063,38 @@
     },
     "effect": "Increases all party members' ATK by 274 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
+  "The Endeavor": {
+    "name": "The Endeavor",
+    "desc": "Kaveh's specialty. The golden crust of the biscuit is arranged to resemble the Palace of Alcazarzaray, and the meal rises like a tower from a pure-white pond of yogurt sauce. Though the creator of the dish has placed a monumental amount of effort into its creation, he seems to have missed the fact that all the biscuits must be broken during the process of consumption.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/The_Endeavor.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Kaveh",
+      "recipe": "Fatteh"
+    },
+    "effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP."
+  },
+  "Heat-Quelling Soup": {
+    "name": "Heat-Quelling Soup",
+    "desc": "Baizhu's specialty. \"This isn't actually medicine, merely something that can alleviate dryness.\" As Baizhu's concerned voice echoes in your ears, a bowl of lustrous fruit soup greets your gaze. \"This dish didn't use to have sugar, but he was worried that you wouldn't be used to the bitter taste, so he added some to it,\" added Changsheng.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/HeatQuelling_Soup.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Baizhu",
+      "recipe": "Jade Fruit Soup"
+    },
+    "effect": "Increases all party members' Healing Bonus by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
     "desc": "Onion-covered toast. Exudes a wonderful aroma. Are the fish biting for the bait, or is it the toast they're after?",

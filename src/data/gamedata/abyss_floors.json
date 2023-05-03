@@ -3382,10 +3382,124 @@
   },
   "58": {
     "teams": 2,
-    "leyline": "All characters in the party gain a 75% Dendro DMG Bonus."
+    "leyline": "All characters in the party gain a 75% Dendro DMG Bonus.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 88,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Thunderhelm Lawachurl",
+            "Wooden Shieldwall Mitachurl",
+            "Blazing Axe Mitachurl"
+          ],
+          [
+            "Hydro Abyss Mage",
+            "Hydro Mimic Frog",
+            "Hydro Mimic Raptor"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 90,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Ruin Drake: Earthguard",
+            "Ruin Grader"
+          ],
+          [
+            "Anemo Hilichurl Rogue",
+            "Hydro Hilichurl Rogue",
+            "Geovishap"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 92,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Black Serpent Knight: Rockbreaker Ax",
+            "Shadowy Husk: Standard Bearer",
+            "Shadowy Husk: Line Breaker",
+            "Shadowy Husk: Defender",
+            "Kairagi: Dancing Thunder",
+            "Kairagi: Fiery Might"
+          ],
+          [
+            "Mirror Maiden",
+            "Fatui Skirmisher - Hydrogunner Legionnaire",
+            "Fatui Skirmisher - Electrohammer Vanguard"
+          ]
+        ]
+      }
+    ]
   },
   "59": {
     "teams": 2,
-    "leyline": "For this floor only, the Ley Line flow will be normal."
+    "leyline": "For this floor only, the Ley Line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 95,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Consecrated Horned Crocodile",
+            "Consecrated Fanged Beast",
+            "Ruin Destroyer",
+            "Ruin Defender",
+            "Ruin Hunter"
+          ],
+          [
+            "Consecrated Fanged Beast",
+            "Consecrated Scorpion",
+            "Winged Dendroshroom",
+            "Winged Cryoshroom",
+            "Grounded Hydroshroom",
+            "Grounded Geoshroom",
+            "Kairagi: Dancing Thunder",
+            "Kairagi: Fiery Might",
+            "Nobushi: Jintouban"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 98,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Aeonblight Drake"
+          ],
+          [
+            "Hydro Hilichurl Rogue",
+            "Eremite Galehunter",
+            "Eremite Scorching Loremaster",
+            "Eremite Desert Clearwater",
+            "Eremite Sunfrost"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 100,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Algorithm of Semi-Intransient Matrix of Overseer Network"
+          ],
+          [
+            "Maguu Kenki: Lone Gale",
+            "Maguu Kenki: Mask of Terror",
+            "Maguu Kenki: Galloping Frost"
+          ]
+        ]
+      }
+    ]
   }
 }
