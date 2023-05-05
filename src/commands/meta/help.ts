@@ -82,7 +82,7 @@ export default class Help extends Command {
 
         return sendMessage(source, `${command.commandName} - ${command.help}
 
-Usage: \`${config.prefix}${command.usage}\`${command.aliases ? `
+Usage: \`/${command.usage}\`${command.aliases ? `
 Aliases: ${command.aliases.map(k => `\`${k}\``).join(", ")}` : "None"}`)
     }
 
@@ -121,12 +121,12 @@ ${Object.entries(categorized)
             !(category.toLowerCase() == "hidden" ||
             (!config.admins.includes(getUserID(source)) && category.toLowerCase() == "admin"))
         ).map(([category, items]) => `**${category}**
-    ${items.sort((a, b) => a.localeCompare(b)).map(cmd => `${config.prefix}${cmd}`).join(", ")}`)
+    ${items.sort((a, b) => a.localeCompare(b)).map(cmd => `/${cmd}`).join(", ")}`)
         .join("\n")}
 
 *Some commands are also available on the website <${client.data.baseURL}>*
-*Make sure to check out \`${config.prefix}help <command name>\` for more information about a specific command, you might find some useful shortcuts/tips (like command aliases/how most search commands support fuzzy search).*
-*Any problems/suggestions? Check out \`${config.prefix}about\`.*${missingPerms.length > 0 ? `
+*Make sure to check out \`/help <command name>\` for more information about a specific command, you might find some useful shortcuts/tips (like command aliases/how most search commands support fuzzy search).*
+*Any problems/suggestions? Check out \`/about\`.*${missingPerms.length > 0 ? `
 
 **NOTE**: This bot is missing some permissions required for optimal usage, please add ${missingPerms.join(", ")}`: ""}`)
     }
