@@ -2576,5 +2576,22 @@
         "start": "2023-04-27 12:00:00",
         "end": "2023-05-03 23:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "\"Glittering Elixirs\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/18450809",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/05/11/0857b134a233bb92e8795abd75f8b8ce_9046720388303216662.jpg",
+        "start": "2023-05-11 12:00:00",
+        "end": "2023-05-20 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "3.7 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/18451121",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/05/11/38f7435b816d4eb88bef9162f96d5a93_976819937484182759.jpg",
+        "start": "2023-05-13 08:00:00",
+        "timezone": "-04:00"
     }
 ]
