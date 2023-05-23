@@ -2494,7 +2494,7 @@
         "link": "https://www.hoyolab.com/article/18031187",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/27/0f3aded8ca018c6140d98fcad6dfe1b8_2164883493949577422.jpg",
         "start": "2023-05-02 18:00:00",
-        "end": "2023-04-11 14:59:00",
+        "end": "2023-05-23 14:59:00",
         "reminder": "end"
     },
     {
@@ -2503,7 +2503,7 @@
         "link": "https://www.hoyolab.com/article/18031187",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/27/3f56f7f49b04235798875feeef266a51_7906909585325718296.jpg",
         "start": "2023-05-02 18:00:00",
-        "end": "2023-04-11 14:59:00",
+        "end": "2023-05-23 14:59:00",
         "reminder": "end"
     },
     {
@@ -2512,7 +2512,7 @@
         "link": "https://www.hoyolab.com/article/18031187",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/04/27/d0dca7f8a40346485900c511a0d5a8bf_2043994232230261402.jpg",
         "start": "2023-05-02 18:00:00",
-        "end": "2023-04-11 14:59:00",
+        "end": "2023-05-23 14:59:00",
         "reminder": "end"
     },
     {
@@ -2593,5 +2593,80 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/05/11/38f7435b816d4eb88bef9162f96d5a93_976819937484182759.jpg",
         "start": "2023-05-13 08:00:00",
         "timezone": "-04:00"
+    },
+    {
+        "name": "3.7 Maintenance",
+        "type": "Maintenance",
+        "link": "https://www.hoyolab.com/article/18698133",
+        "start": "2023-05-24 06:00:00",
+        "end": "2023-05-24 11:00:00"
+    },
+    {
+        "name": "Event Wish \"Tapestry of Golden Flames\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/18699067",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/05/22/31c53e4baff0545a48b248f9f02eea72_8057426986167935930.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "start": "2023-05-24 11:00:00",
+        "start_server": false,
+        "end": "2023-06-13 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Everbloom Violet\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/18699067",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/05/22/b18fdc32efc4313260032ec54d6463fc_3690443881388186557.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "start": "2023-05-24 11:00:00",
+        "start_server": false,
+        "end": "2023-06-13 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/18699067",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/05/22/de123729c0d3a673c00bab228dabadb0_8571758964929940721.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "start": "2023-05-24 11:00:00",
+        "start_server": false,
+        "end": "2023-06-13 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Leaves in the Wind\"",
+        "type": "Banner",
+        "start": "2023-06-13 18:00:00",
+        "end": "2023-07-04 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Caution in Confidence\"",
+        "type": "Banner",
+        "start": "2023-06-13 18:00:00",
+        "end": "2023-07-04 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "start": "2023-06-13 18:00:00",
+        "end": "2023-07-04 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Duel! The Summoners' Summit!\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/18699059",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/05/19/714658ed27ff034e9d21811e76548150_9104047168885266846.png",
+        "start": "2023-05-25 10:00:00",
+        "end": "2023-06-19 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Divine Ingenuity: Collector's Chapter\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/FfFP8EB.png",
+        "start": "2023-05-08 10:00:00",
+        "end": "2023-05-22 03:59:00",
+        "reminder": "end"
     }
 ]
