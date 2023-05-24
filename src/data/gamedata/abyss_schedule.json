@@ -1428,5 +1428,71 @@
       58,
       59
     ]
+  },
+  "65": {
+    "start": "2023-06-01 04:00:00",
+    "end": "2023-06-16 03:59:59",
+    "buff": "Drumming Moon",
+    "buffDesc": "After the character's Normal Attack hits an opponent, this opponent will be afflicted with a Sign of Snaring. After 3s, the Sign will be removed, dealing True DMG to this opponent. After a character's Normal Attack hits an opponent with a Sign of Snaring, the DMG dealt by the Sign's removal will be increased. This DMG can be increased for no more than 9 times.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      45,
+      46,
+      60,
+      61
+    ]
+  },
+  "66": {
+    "start": "2023-06-16 04:00:00",
+    "end": "2023-07-01 03:59:59",
+    "buff": "Potent Moon",
+    "buffDesc": "After the active character's Normal Attacks hit opponents, the DMG dealt by this character will increase by 12% for 2s. This effect can stack up to 5 times. Each stack's duration is counted independently. This effect can be triggered once every 0.05s. This effect will be canceled when the character leaves the field.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      45,
+      46,
+      60,
+      61
+    ]
+  },
+  "67": {
+    "start": "2023-07-01 04:00:00",
+    "end": "2023-07-16 03:59:59",
+    "buff": "Willowy Moon",
+    "buffDesc": "After the character's Normal Attack hits an opponent, the Physical or Elemental RES of this opponent will decrease by 6% for 2s, matching the Attribute of that attack. This can stack up to 6 times. RES decreases of different types can co-exist, and their stacks and timers will be independent of each other.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      45,
+      46,
+      60,
+      61
+    ]
   }
 }

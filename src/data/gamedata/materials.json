@@ -1165,7 +1165,7 @@
       "char": "Diluc",
       "recipe": "\"Pile 'Em Up\""
     },
-    "effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)"
+    "effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Lighter-Than-Air Pancake": {
     "name": "Lighter-Than-Air Pancake",
@@ -1249,7 +1249,7 @@
   },
   "All-Delicacy Parcels": {
     "name": "All-Delicacy Parcels",
-    "desc": "Xingqiu's specialty. This dish's almost artisan appearance makes one almost reluctant to tuck in. But once you get a taste, its fresh, light and lovely sweetness will make the dish hard to put down.... Hang on a moment. Did he throw the carrots out, by any chance?",
+    "desc": "Xingqiu's specialty. This dish's almost artisan appearance makes one almost reluctant to tuck in. But once you get a taste, its fresh, light and lovely sweetness will make the dish hard to put down... Hang on a moment. Did he throw the carrots out, by any chance?",
     "stars": 2,
     "type": "Food",
     "category": "Food and Potions",
@@ -1357,7 +1357,7 @@
       "char": "Qiqi",
       "recipe": "Come and Get It"
     },
-    "effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)"
+    "effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Flash-Fried Filet": {
     "name": "Flash-Fried Filet",
@@ -1741,7 +1741,7 @@
       "char": "Shenhe",
       "recipe": "Dragon Beard Noodles"
     },
-    "effect": "Increases all party members' ATK by 274 for 300s. In Co-op Mode, this effect only applies to your own character(s)."
+    "effect": "Increases all party members' ATK by 274 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Cloud-Shrouded Jade": {
     "name": "Cloud-Shrouded Jade",
@@ -1885,7 +1885,7 @@
       "char": "Dori",
       "recipe": "Butter Chicken"
     },
-    "effect": "Increases all party members' ATK by 274 for 300s. In Co-op Mode, this effect only applies to your own character(s)."
+    "effect": "Increases all party members' ATK by 274 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Swirling Steps": {
     "name": "Swirling Steps",
@@ -1969,7 +1969,7 @@
   },
   "Traditionally-Made Charcoal-Baked Ajilenakh Cake": {
     "name": "Traditionally-Made Charcoal-Baked Ajilenakh Cake",
-    "desc": "Faruzan's specialty. The dark and sweet cake, lying as it does atop a minty-green sauce bed, almost looks like some enigmatic mechanism. Your hesitation must have somehow reached Faruzan, for she then straightened up to assertively reassure you that this was a traditional dish in Sumeru and that its flavor is guaranteed. But you can't help wondering... Is it really a 'traditional' dish that catered to the tastes of Sumeru people a hundred years ago?",
+    "desc": "Faruzan's specialty. The dark and sweet cake, lying as it does atop a minty-green sauce bed, almost looks like some enigmatic mechanism. Your hesitation must have somehow reached Faruzan, for she then straightened up to assertively reassure you that this was a traditional dish in Sumeru and that its flavor is guaranteed. But you can't help wondering... Is it really a \"traditional\" dish that catered to the tastes of Sumeru people a hundred years ago?",
     "stars": 3,
     "type": "Food",
     "category": "Food and Potions",
@@ -2033,7 +2033,7 @@
   },
   "Goldflame Tajine": {
     "name": "Goldflame Tajine",
-    "desc": "Dehya's specialty. As you open the unassuming lid, the supple meat that lies within is so tender one could get drunk on the sensation of it slipping between your lips... It seems that Dehya's dab kitchen hand is as steady as her sword-arm.",
+    "desc": "Dehya's specialty. As you open the unassuming lid, you are greeted with supple meat that turns out to be so tender that one could get drunk on the sensation of it slipping between your lips... It seems that Dehya's dab kitchen hand is as steady as her sword-arm.",
     "stars": 3,
     "type": "Food",
     "category": "Food and Potions",
@@ -2094,6 +2094,22 @@
       "recipe": "Jade Fruit Soup"
     },
     "effect": "Increases all party members' Healing Bonus by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
+  "Energizing Bento": {
+    "name": "Energizing Bento",
+    "desc": "Kirara's specialty. A human-friendly bento box Kirara put in a great deal of effort to prepare. By observing the preferences of human girls, she came up with this combination of well-balanced side dishes and adorable cat-shaped rice balls. It's just like a carefully wrapped package... You could receive one every day and never get tired of it!",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Energizing_Bento.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Kirara",
+      "recipe": "Invigorating Kitty Meal"
+    },
+    "effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s."
   },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
@@ -3062,7 +3078,7 @@
   },
   "Crystal Shrimp": {
     "name": "Crystal Shrimp",
-    "desc": "One of Liyue's traditional snacks. The outer skin is as clear its crystal namesake, and when it enters the mouth, one's tongue could be forgiven for thinking that the fresh shrimp within is still alive. Those who eat it can only lament that four pieces per serving is far, far too few.",
+    "desc": "One of Liyue's traditional snacks. The outer skin is as clear as its crystal namesake, and when it enters the mouth, one's tongue could be forgiven for thinking that the fresh shrimp within is still alive. Those who eat it can only lament that four pieces per serving is far, far too few.",
     "stars": 2,
     "type": "Food",
     "category": "Food and Potions",
@@ -5143,7 +5159,7 @@
     ],
     "effect": {
       "Suspicious Sangayaki": "Decreases all party members' sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
-      "Sangayaki": "Decreases all party members' sprinting Stamina consumption by 20% for 900s. In Co-op Mode, this effect only applies to your own character(s).",
+      "Sangayaki": "Decreases all party members' sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
       "Delicious Sangayaki": "Decreases all party members' sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   },
@@ -7667,6 +7683,7 @@
   "Evergloom Ring": {
     "name": "Evergloom Ring",
     "desc": "A mystical weapon obtained after defeating the Four-Armed Envoy of dark tidings.\nRings are shaped like passageways, which is why arcane formations that are meant to produce some mystical effect are often ring-shaped. Such rings are perhaps gateways intended to guide the universe itself.",
+    "longDesc": "A mystical weapon obtained after defeating the Four-Armed Envoy of dark tidings.\nRings are shaped like passageways, which is why arcane formations that are meant to produce some mystical effect are often ring-shaped.\nDeep in the land's depths, there once were people who caught a glimpse of an edge of the universe. The majority came to understand that compared to the insignificant lives bound to land by gravity, even the shadows of the magnificent entities within the universe possess a more colorful and concrete form. Among them, there were pioneers who attempted to travel to the dark universe, and those who tried introducing a piece of the real universe to the underground world full of conflict, devoid of hope, with no past or future to speak of. Such rings are perhaps gateways intended to guide the universe itself.",
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
@@ -7832,7 +7849,7 @@
     "icon": "img/material/Vajrada_Amethyst_Sliver.png",
     "sources": [
       "Dropped by Electro Hypostases",
-      "Dropped by Thunder Manifestation",
+      "Dropped by Thunder Manifestations",
       "Dropped by Electro Regisvines",
       "Purchase from the Souvenir Shop"
     ]
@@ -7939,7 +7956,7 @@
     "category": "Trophies",
     "icon": "img/material/Shivada_Jade_Sliver.png",
     "sources": [
-      "Dropped by Cryo Regisvines.",
+      "Dropped by Cryo Regisvines",
       "Dropped by Cryo Hypostases",
       "Purchase from the Souvenir Shop"
     ]
@@ -9639,6 +9656,7 @@
   "Treasured Flower": {
     "name": "Treasured Flower",
     "desc": "A wild flower that a Hilichurl Rogue treasured, bereft of any special qualities.\nFlowers can be used as gifts or offerings to express one's feelings in many cultures.",
+    "longDesc": "A wild flower that a Hilichurl Rogue treasured, bereft of any special qualities.\nFlowers can be used as gifts or offerings to express one's feelings in many cultures.\nThough no longer bound by any cultural framework, perhaps that meaning still holds true.",
     "stars": 3,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
@@ -9652,6 +9670,7 @@
   "Wanderer's Blooming Flower": {
     "name": "Wanderer's Blooming Flower",
     "desc": "A blooming wild flower that a Hilichurl Rogue treasured, bereft of any special qualities.\nThe eternal outlander asks not for reward, but only to see their deeds come to fruition...",
+    "longDesc": "A blooming wild flower that a Hilichurl Rogue treasured, bereft of any special qualities.\nThe eternal outlander asks not for reward, but only to see their deeds come to fruition...\nThey say that languages are representations of one's homeland, but hilichurls are a species lacking in memory and words alike. To these wandering creatures, the fragrant scent on a flower is the only feature that bears any semblance to a token of honor.",
     "stars": 4,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
