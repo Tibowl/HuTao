@@ -6678,6 +6678,131 @@
       }
     ]
   },
+  "Ibis Piercer": {
+    "name": "Ibis Piercer",
+    "desc": "A golden bow forged from the description in the story. If you use it as a normal weapon, you can also view it as a part of a fictional world that has made it off the pages.",
+    "weaponType": "Bow",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.734901428222656,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.05999999865889549,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Ibis_Piercer.png",
+    "awakenIcon": "img/weapon_woke/Ibis_Piercer.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "A Flower Yet to Bloom",
+        "EnemyDropTierA2": "Treasured Flower",
+        "EnemyDropTierA3": "Wanderer's Blooming Flower",
+        "EnemyDropTierB1": "Faded Red Satin",
+        "EnemyDropTierB2": "Trimmed Red Silk",
+        "EnemyDropTierB3": "Rich Red Brocade",
+        "WeaponAsc1": "Copper Talisman of the Forest Dew",
+        "WeaponAsc2": "Iron Talisman of the Forest Dew",
+        "WeaponAsc3": "Silver Talisman of the Forest Dew",
+        "WeaponAsc4": "Golden Talisman of the Forest Dew"
+      }
+    },
+    "lore": "This item was supposed to be a product sample of a pre-order special for the final volume of King of Invokations #1.\nHowever, due to its unique specifications, the request to produce a sample was misunderstood as one to craft an actual weapon.\nAs such, the editors of Yae Publishing House were frustrated at what transpired upon receiving this bow. Yet Fukumoto, who was present when the bow was delivered, was deeply inspired by this turn of events and wrote the following excerpt, which would later be included in the book as an appendix.\n\n\"The one who wields this bow, shall be the most adept archer under the command of the King of the Great Red Sand.\"\nIt is as everyone said, and a belief that the prussian green-skinned young man held strongly. When the Ibis King displayed his trove of treasures, this bejeweled sandstone-hued longbow caught his eye immediately. It was a time when the young man had yet to be poisoned by destiny, a time when he still believed that all that he desired were accolades to be won—\nTo him, it was a mere matter of how much effort one had to devote.\nThus, he posed a question to the Ibis King with an easy confidence, \"If I become the most brilliant archer of all, if I possess power and strength surpassing that of the other kings, would this longbow be mine?\"\nSilence fell over the court. In the shadows yet to be illuminated by the lamps, no one dared to answer.\nThere was only one exception: the man atop the throne with eyes as sharp as a falcon's chuckled, and granted the young man's wish.\n\"The day is bound to come,\" the green-skinned youth thought.\n\nBe that as it may, long, arduous years have passed since.\nIt was several hundred years later when the lord of war fulfilled his wish. Possessing the young man who opened the Casket of Tomes, he entered the sealed \"Room of Duels\" again, and only then did he see the longbow held by the phantom.\nIt was as if time stood still, so that the remnant of his soul could pass through the shattered doors and scattered corridors, and return to the chamber of treachery and machinations. Grasping the inescapable golden arrow fired off by the Bow of Secret Rites that was zipping towards him, he saved the body from an unfortunate fate of being impaled through the chest.\nThat had always been part of his plan.\nBut at this moment, the secret ritual dissipated. The arrow was dispelled and the silhouette of the bow-wielder vanished in a flash.\nHe grabbed the longbow before it clattered to the ground.\nHis multiple attempts at seizing this gold-forged bow had ended in failure, which contributed to the rift between him and the Ibis King. Alas, when he finally acquired the treasure that he had long coveted, he found that his heart was as cold as a stagnant swamp, with nary a ripple of joy. The Crocodile King pondered, and concluded that he no longer had such a great yearning to satisfy those unfulfilled desires as he did in his youth.\nMoreover, the revered Lord of the Scarlet Sands had been hidden in many histories, and the Mistress of Flowers had never been seen again. In vying for the mausoleum's throne, strife and chaos broke out amongst the kingdoms. Amidst the turmoil, he took the opportunity to trample the sea of sands in the name of the \"Rite of Duels,\" all to erase the barriers between multitude of worlds and thus incite a frenzied war. To stop him, a lone, elderly figure clutching onto the golden bow, trudged up the steps leading to the ritual...\nThose were but memories of a bygone era.\nHe ran his fingers over the orb on the bow, until it dawned on him that it wasn't dust that was dimming its glow, let alone the fact that this dust was a mere figment of his imagination.\n\n\"Never mind,\" the lord of war thought.\nHe heard the sound of the table being activated again in the \"Room of Duels\", and guessed that the young man whose his remnant soul had once possessed was eagerly waiting for a duel.\nAnd thus he strapped his longbow to his side, painting a picture of victory he had once dreamed of.\nThe prussian green-skinned king slowly paced towards the battlefield decreed by fate.",
+    "refinements": [
+      {
+        "name": "Secret Wisdom's Favor",
+        "desc": "The character's Elemental Mastery will increase by **40** within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s."
+      },
+      {
+        "name": "Secret Wisdom's Favor",
+        "desc": "The character's Elemental Mastery will increase by **50** within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s."
+      },
+      {
+        "name": "Secret Wisdom's Favor",
+        "desc": "The character's Elemental Mastery will increase by **60** within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s."
+      },
+      {
+        "name": "Secret Wisdom's Favor",
+        "desc": "The character's Elemental Mastery will increase by **70** within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s."
+      },
+      {
+        "name": "Secret Wisdom's Favor",
+        "desc": "The character's Elemental Mastery will increase by **80** within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s."
+      }
+    ]
+  },
   "Iron Point": {
     "name": "Iron Point",
     "desc": "Sharp and pointy at one end, it is a balanced weapon that is quite popular among travelers.",

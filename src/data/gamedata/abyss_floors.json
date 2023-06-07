@@ -3504,10 +3504,120 @@
   },
   "60": {
     "teams": 2,
-    "leyline": "All party members' Normal Attack DMG increased by 50%."
+    "leyline": "All party members' Normal Attack DMG increased by 50%.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 88,
+        "conds": "More than 20/40/60% HP left",
+        "monsters": [
+          [
+            "Frostarm Lawachurl",
+            "Blazing Axe Mitachurl",
+            "Cryo Specter",
+            "Hydro Specter",
+            "Geo Specter",
+            "Electro Specter",
+            "Dendro Specter",
+            "Anemo Specter"
+          ],
+          [
+            "Eremite Scorching Loremaster",
+            "Eremite Sunfrost",
+            "Anemo Hilichurl Rogue",
+            "Hydro Hilichurl Rogue",
+            "Blazing Axe Mitachurl"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 90,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Abyss Lector: Violet Lightning"
+          ],
+          [
+            "Eremite Galehunter",
+            "Eremite Scorching Loremaster",
+            "Winged Dendroshroom",
+            "Winged Cryoshroom",
+            "Grounded Hydroshroom",
+            "Grounded Geoshroom"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 92,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Mirror Maiden",
+            "Ruin Drake: Skywatch"
+          ],
+          [
+            "Abyss Herald: Wicked Torrents",
+            "Pyro Abyss Mage",
+            "Cryo Abyss Mage",
+            "Hydro Abyss Mage"
+          ]
+        ]
+      }
+    ]
   },
   "61": {
     "teams": 2,
-    "leyline": "For this floor only, the Ley Line flow will be normal."
+    "leyline": "For this floor only, the Ley Line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 95,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Cryo Whopperflower",
+            "Pyro Whopperflower",
+            "Primal Construct: Repulsor",
+            "Primal Construct: Reshaper",
+            "Primal Construct: Prospector"
+          ],
+          [
+            "Abyss Herald: Frost Fall",
+            "Abyss Herald: Wicked Torrents",
+            "Cryo Abyss Mage",
+            "Hydro Abyss Mage"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 98,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Jadeplume Terrorshroom"
+          ],
+          [
+            "Thunder Manifestation"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 100,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Consecrated Horned Crocodile",
+            "Consecrated Fanged Beast"
+          ],
+          [
+            "Iniquitous Baptist - Bringer of Flood, Flame, and Frost"
+          ]
+        ]
+      }
+    ]
   }
 }
