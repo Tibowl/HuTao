@@ -2605,7 +2605,7 @@
         "name": "Event Wish \"Tapestry of Golden Flames\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/18699067",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/05/22/31c53e4baff0545a48b248f9f02eea72_8057426986167935930.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/05/22/31c53e4baff0545a48b248f9f02eea72_8057426986167935930.jpg",
         "start": "2023-05-24 11:00:00",
         "start_server": false,
         "end": "2023-06-13 17:59:00",
@@ -2615,7 +2615,7 @@
         "name": "Event Wish \"Everbloom Violet\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/18699067",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/05/22/b18fdc32efc4313260032ec54d6463fc_3690443881388186557.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/05/22/b18fdc32efc4313260032ec54d6463fc_3690443881388186557.jpg",
         "start": "2023-05-24 11:00:00",
         "start_server": false,
         "end": "2023-06-13 17:59:00",
@@ -2625,22 +2625,26 @@
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/18699067",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/05/22/de123729c0d3a673c00bab228dabadb0_8571758964929940721.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/05/22/de123729c0d3a673c00bab228dabadb0_8571758964929940721.jpg",
         "start": "2023-05-24 11:00:00",
         "start_server": false,
         "end": "2023-06-13 17:59:00",
         "reminder": "end"
     },
     {
-        "name": "Event Wish \"Leaves in the Wind\"",
+        "name": "Event Wish \"Caution in Confidence\"",
         "type": "Banner",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/06/08/c0c7e95a67744973a8e8070d33acb2b0_7517868490955022477.jpg",
+        "link": "https://www.hoyolab.com/article/19181094",
         "start": "2023-06-13 18:00:00",
         "end": "2023-07-04 14:59:00",
         "reminder": "end"
     },
     {
-        "name": "Event Wish \"Caution in Confidence\"",
+        "name": "Event Wish \"Leaves in the Wind\"",
         "type": "Banner",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/06/08/f229817db4837c25fcd9a56b5e130989_4664410919051685164.jpg",
+        "link": "https://www.hoyolab.com/article/19181094",
         "start": "2023-06-13 18:00:00",
         "end": "2023-07-04 14:59:00",
         "reminder": "end"
@@ -2648,6 +2652,8 @@
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/06/08/2e0176802a94e08de517fe6964f6f647_1764919967302021321.jpg",
+        "link": "https://www.hoyolab.com/article/19181094",
         "start": "2023-06-13 18:00:00",
         "end": "2023-07-04 14:59:00",
         "reminder": "end"
@@ -2669,5 +2675,29 @@
         "start": "2023-05-08 10:00:00",
         "end": "2023-05-22 03:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "\"Feast of the Departed Warriors\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/ET7NkeS.png",
+        "start": "2023-06-14 10:00:00",
+        "end": "2023-06-26 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Fayz Trials: Hypothesis\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/JTk6pxf.png",
+        "start": "2023-06-21 10:00:00",
+        "end": "2023-07-03 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Ley Line Overflow\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/03/30/d76cdab75f5f952a213e564f6b0a5a51_3442022173864656807.jpg",
+        "start": "2023-06-26 04:00:00",
+        "end": "2023-07-03 03:59:00",
+        "reminder": "daily"
     }
 ]
