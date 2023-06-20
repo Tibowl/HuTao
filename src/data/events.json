@@ -2688,7 +2688,8 @@
     {
         "name": "\"Fayz Trials: Hypothesis\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/JTk6pxf.png",
+        "link": "https://www.hoyolab.com/article/19455798",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/06/16/a97a7366a06ab5750b5489587bbe7835_1679482405510140799.png",
         "start": "2023-06-21 10:00:00",
         "end": "2023-07-03 03:59:00",
         "reminder": "end"
