@@ -2701,5 +2701,59 @@
         "start": "2023-06-26 04:00:00",
         "end": "2023-07-03 03:59:00",
         "reminder": "daily"
+    },
+    {
+        "name": "3.8 Maintenance",
+        "type": "Maintenance",
+        "link": "https://www.hoyolab.com/article/19770260",
+        "start": "2023-07-05 06:00:00",
+        "end": "2023-07-05 11:00:00"
+    },
+    {
+        "name": "Event Wish \"Born of Ocean Swell\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/19771439",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/07/03/eecb91d23c827bb807402b19e88b957a_4688486751746480415.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "start": "2023-07-05 11:00:00",
+        "start_server": false,
+        "end": "2023-07-25 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Sparkling Steps\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/19771439",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/07/03/63c25db6ea7c16a25f22d50ef6b34629_4800338007611570881.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "start": "2023-07-05 11:00:00",
+        "start_server": false,
+        "end": "2023-07-25 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/19771439",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/07/03/b1a6ae3c42af1ffbddfae3d221d4a1d4_4259586167976098900.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "start": "2023-07-05 11:00:00",
+        "start_server": false,
+        "end": "2023-07-25 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Secret Summer Paradise\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/19771436",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/06/30/8c0ca521ca46a25e1aec06008c7538ef_3856584411590780143.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg",
+        "start": "2023-07-05 11:00:00",
+        "end": "2023-08-16 05:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Adventure's Trials: Advanced\" Event",
+        "type": "In-game",
+        "img": "https://i.imgur.com/vKxuoMf.png",
+        "start": "2023-07-20 10:00:00",
+        "end": "2023-07-31 03:59:00",
+        "reminder": "end"
     }
 ]
