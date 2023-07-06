@@ -588,7 +588,7 @@ export function isMessage(msg: SendMessage | CommandSource | undefined): msg is 
 export type NewsableChannel = NewsChannel | TextChannel
 export function isNewsable(channel: Channel | GuildChannel | TextBasedChannel | null): channel is NewsableChannel {
     if (!channel) return false
-    return channel.type == ChannelType.GuildText || channel.type == ChannelType.GuildAnnouncement || channel.type == ChannelType.AnnouncementThread
+    return channel.type == ChannelType.GuildText || channel.type == ChannelType.GuildAnnouncement || channel.type == ChannelType.AnnouncementThread || channel.type == ChannelType.PublicThread || channel.type == ChannelType.PrivateThread
 }
 
 export function getUserID(source: CommandSource): string {
