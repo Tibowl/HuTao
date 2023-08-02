@@ -2796,7 +2796,8 @@
     {
         "name": "\"Shared Sight\" Event",
         "type": "In-game",
-        "img": "https://i.imgur.com/IbaO34w.png",
+        "link": "https://www.hoyolab.com/article/20523384",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/07/31/f98626b994f87298a0b7719642d9adcc_3927696402238293625.jpg",
         "start": "2023-08-03 10:00:00",
         "end": "2023-08-14 03:59:00",
         "reminder": "end"
@@ -2808,5 +2809,13 @@
         "start": "2023-08-07 04:00:00",
         "end": "2023-08-14 03:59:00",
         "reminder": "daily"
+    },
+    {
+        "name": "4.0 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/20569514",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/08/02/3852c2133c4dce0c492c25134b731bc5_5721219603278626367.png",
+        "start": "2023-05-13 07:30:00",
+        "timezone": "-04:00"
     }
 ]
