@@ -2818,5 +2818,23 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/08/02/3852c2133c4dce0c492c25134b731bc5_5721219603278626367.png",
         "start": "2023-08-04 07:30:00",
         "timezone": "-04:00"
+    },
+    {
+        "name": "\"Shadows in Motion\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/20734154",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/08/08/390579cc5c965f2b47336ab99a4165e6_5631590031339142333.jpg",
+        "start": "2023-08-09 12:00:00",
+        "end": "2023-08-15 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Backstage Encounter\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/20790299",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/08/11/62da6987dd919be62cd29568ecca1d2d_4798154769416734633.jpg",
+        "start": "2023-08-11 12:00:00",
+        "end": "2023-08-16 23:59:00",
+        "reminder": "end"
     }
 ]
