@@ -2820,6 +2820,13 @@
         "timezone": "-04:00"
     },
     {
+        "name": "4.0 Maintenance",
+        "type": "Maintenance",
+        "link": "https://www.hoyolab.com/article/20855425",
+        "start": "2023-08-16 06:00:00",
+        "end": "2023-08-16 11:00:00"
+    },
+    {
         "name": "\"Shadows in Motion\" Web Event",
         "type": "Web",
         "link": "https://www.hoyolab.com/article/20734154",
@@ -2835,6 +2842,52 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/08/11/62da6987dd919be62cd29568ecca1d2d_4798154769416734633.jpg",
         "start": "2023-08-11 12:00:00",
         "end": "2023-08-16 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Conjuring Chiaroscuro\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/20856334",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/08/14/c1ce42f6c8cfaa245e925d3358e2d8d2_3165924930691821787.jpg",
+        "start": "2023-08-16 11:00:00",
+        "start_server": false,
+        "end": "2023-09-05 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Discerner of Enigmas\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/20856334",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/08/14/caa2976fc9655462fd98a89cd0b1973b_3306714162227752745.jpg",
+        "start": "2023-08-16 11:00:00",
+        "start_server": false,
+        "end": "2023-09-05 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/20856334",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/08/14/309cb3cc6ac8d883ad4a6700a1851a25_3396364789020065087.jpg",
+        "start": "2023-08-16 11:00:00",
+        "start_server": false,
+        "end": "2023-09-05 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Relic Records: Creations of the Hydro Nation\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/20856332",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/08/13/1d70cf75ece9a581e70efc4edd211dd0_2418487477264042961.jpg",
+        "start": "2023-08-16 06:00:00",
+        "end": "2023-08-28 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Mega Meka Melee\" Event",
+        "type": "In-game",
+        "start": "2023-08-24 10:00:00",
+        "end": "2023-09-11 03:59:00",
         "reminder": "end"
     }
 ]
