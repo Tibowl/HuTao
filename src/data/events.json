@@ -2875,6 +2875,33 @@
         "reminder": "end"
     },
     {
+        "name": "Event Wish \"Gentry of Hermitage\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/21297488",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/08/31/ae1223d0b5d05795a0977a001ea902b0_1190480219371921945.jpg",
+        "start": "2023-09-05 18:00:00",
+        "end": "2023-09-26 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Farewell of Snezhnaya\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/21297488",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/08/31/9a94834661dba53b09831d2a5ea3c54c_1631219295095133862.jpg",
+        "start": "2023-09-05 18:00:00",
+        "end": "2023-09-26 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/21297488",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/08/31/4372e3b0c5bb99fb9c27a3066ec3c66a_8802701211751462905.jpg",
+        "start": "2023-09-05 18:00:00",
+        "end": "2023-09-26 14:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "\"Relic Records: Creations of the Hydro Nation\" Event",
         "type": "In-game",
         "link": "https://www.hoyolab.com/article/20856332",
@@ -2886,8 +2913,34 @@
     {
         "name": "\"Mega Meka Melee\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/21050724",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/08/18/4b9a551972acf66c4428380534f95909_2119597575844136743.jpg",
         "start": "2023-08-24 10:00:00",
         "end": "2023-09-11 03:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "\"Verdict of Blades\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/21344686",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/01/e87f7adfd15fa3dbd1ed0ce7332cf23f_6132551068993628447.jpg",
+        "start": "2023-09-04 10:00:00",
+        "end": "2023-09-18 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Studies in Light and Shadow: A Fontaine of Enchantment\" Event",
+        "type": "In-game",
+        "start": "2023-09-14 10:00:00",
+        "end": "2023-09-25 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Ley Line Overflow\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/03/30/d76cdab75f5f952a213e564f6b0a5a51_3442022173864656807.jpg",
+        "start": "2023-09-18 04:00:00",
+        "end": "2023-09-25 03:59:00",
+        "reminder": "daily"
     }
 ]
