@@ -2931,6 +2931,8 @@
     {
         "name": "\"Studies in Light and Shadow: A Fontaine of Enchantment\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/21575275",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/11/082d8a8b099c29c1fe485178347dc403_2316162350390975589.jpg",
         "start": "2023-09-14 10:00:00",
         "end": "2023-09-25 03:59:00",
         "reminder": "end"
@@ -2938,9 +2940,37 @@
     {
         "name": "\"Ley Line Overflow\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/03/30/d76cdab75f5f952a213e564f6b0a5a51_3442022173864656807.jpg",
+        "link": "https://www.hoyolab.com/article/21658752",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/15/d76cdab75f5f952a213e564f6b0a5a51_6842199020073202801.jpg",
         "start": "2023-09-18 04:00:00",
         "end": "2023-09-25 03:59:00",
         "reminder": "daily"
+    },
+    {
+        "name": "\"Overture of Wandering Notes\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/21575274",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/11/13c1ab5c2d6733e82e9fea9ebbbef1d2_6385563617751647918.jpg",
+        "start": "2023-09-12 12:00:00",
+        "end": "2023-10-19 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Suddenly the Rain Stops\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/21785315",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/21/465052bd17185cece3ef32228d50e248_7708693367975840188.png",
+        "start": "2023-09-22 12:00:00",
+        "end": "2023-09-27 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Studies in Light and Shadow: A Fontaine of Enchantment\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/21575275",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/11/082d8a8b099c29c1fe485178347dc403_2316162350390975589.jpg",
+        "start": "2023-09-14 10:00:00",
+        "end": "2023-09-25 03:59:00",
+        "reminder": "end"
     }
 ]
