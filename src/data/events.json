@@ -2972,5 +2972,74 @@
         "start": "2023-09-14 10:00:00",
         "end": "2023-09-25 03:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "4.1 Maintenance",
+        "type": "Maintenance",
+        "start": "2023-09-27 06:00:00",
+        "end": "2023-09-27 11:00:00"
+    },
+
+    {
+        "name": "Event Wish \"Decree of the Deeps\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/21853619",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/25/4ed60cdb73f41c1a75be7fa35fd39d08_6695733388341390089.jpg",
+        "start": "2023-09-27 11:00:00",
+        "start_server": false,
+        "end": "2023-10-17 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Moment of Bloom\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/21853619",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/25/d4dbea590355942b21339b1347afdf5c_589123189771039171.jpg",
+        "start": "2023-09-27 11:00:00",
+        "start_server": false,
+        "end": "2023-10-17 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/21853619",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/25/8691cf6237a0b71d080164bd0af63845_5311190395288292241.jpg",
+        "start": "2023-09-27 11:00:00",
+        "start_server": false,
+        "end": "2023-10-17 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Bathing in Flowing Moonlight\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/21872779",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/26/7079dfd592f3bd91fefc8b06e360dea3_6824835153591537121.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "start": "2023-09-29 10:00:00",
+        "end": "2023-10-16 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Radiant Harvest\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/21872780",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/26/6c2d71cc8f666b4f9cb3127bbe0ef8fe_9210842023445649040.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "start": "2023-09-28 10:00:00",
+        "end": "2023-10-09 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Waterborn Poetry\" Event",
+        "type": "In-game",
+        "start": "2023-10-12 10:00:00",
+        "end": "2023-10-30 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Dodoco's Bomb-Tastic Adventure\" Event",
+        "type": "In-game",
+        "start": "2023-10-06 10:00:00",
+        "end": "2023-10-16 03:59:00",
+        "reminder": "end"
     }
 ]
