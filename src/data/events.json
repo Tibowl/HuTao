@@ -3014,7 +3014,7 @@
         "name": "\"Bathing in Flowing Moonlight\" Event",
         "type": "In-game",
         "link": "https://www.hoyolab.com/article/21872779",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/26/7079dfd592f3bd91fefc8b06e360dea3_6824835153591537121.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/26/7079dfd592f3bd91fefc8b06e360dea3_6824835153591537121.jpg",
         "start": "2023-09-29 10:00:00",
         "end": "2023-10-16 03:59:00",
         "reminder": "end"
@@ -3023,7 +3023,7 @@
         "name": "\"Radiant Harvest\" Event",
         "type": "In-game",
         "link": "https://www.hoyolab.com/article/21872780",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/26/6c2d71cc8f666b4f9cb3127bbe0ef8fe_9210842023445649040.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/26/6c2d71cc8f666b4f9cb3127bbe0ef8fe_9210842023445649040.jpg",
         "start": "2023-09-28 10:00:00",
         "end": "2023-10-09 03:59:00",
         "reminder": "end"
@@ -3040,6 +3040,24 @@
         "type": "In-game",
         "start": "2023-10-06 10:00:00",
         "end": "2023-10-16 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Gratifying Gathering\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/21893166",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/27/2645a94f764796004761d3f52be0c9d8_4687719554313423823.jpg",
+        "start": "2023-09-27 12:00:00",
+        "end": "2023-10-04 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Dream of Roving Stars\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/21924910",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/27/8fcb5823d052150564860bf8d1577014_3439393600363118376.png",
+        "start": "2023-09-28 12:00:00",
+        "end": "2023-10-12 23:59:00",
         "reminder": "end"
     }
 ]
