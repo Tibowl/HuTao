@@ -2979,7 +2979,6 @@
         "start": "2023-09-27 06:00:00",
         "end": "2023-09-27 11:00:00"
     },
-
     {
         "name": "Event Wish \"Decree of the Deeps\"",
         "type": "Banner",
@@ -3008,6 +3007,33 @@
         "start": "2023-09-27 11:00:00",
         "start_server": false,
         "end": "2023-10-17 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Tempestuous Destiny\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/22272212",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/10/12/a08966ba3b1f8e629214c804a73e3c90_718445230929775422.jpg",
+        "start": "2023-10-17 18:00:00",
+        "end": "2023-11-07 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Ballad in Goblets\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/22272212",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/10/12/e685d7cabd6599ed18f666367586021d_1406353780144084370.jpg",
+        "start": "2023-10-17 18:00:00",
+        "end": "2023-11-07 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/22272212",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/10/12/d2b2084b3717723cdfac5f8ff1468173_9191678987714686038.jpg",
+        "start": "2023-10-17 18:00:00",
+        "end": "2023-11-07 14:59:00",
         "reminder": "end"
     },
     {
@@ -3047,6 +3073,21 @@
         "reminder": "end"
     },
     {
+        "name": "\"The Peaks and Troughs of Life\" Event",
+        "type": "In-game",
+        "start": "2023-10-23 10:00:00",
+        "end": "2023-11-06 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Overflowing Mastery\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/08/04/713e290d673605bb82d2832ae54d75fd_4700445753364011572.jpg",
+        "start": "2023-10-30 04:00:00",
+        "end": "2023-11-06 03:59:00",
+        "reminder": "daily"
+    },
+    {
         "name": "\"Gratifying Gathering\" Web Event",
         "type": "Web",
         "link": "https://www.hoyolab.com/article/21893166",
@@ -3062,6 +3103,15 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/27/8fcb5823d052150564860bf8d1577014_3439393600363118376.png",
         "start": "2023-09-28 12:00:00",
         "end": "2023-10-12 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Cogs in the Machine\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/22269176",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/10/10/0/1d4085fa0a966350b694b0f3cde532c3_463898657080960172.png",
+        "start": "2023-10-12 12:00:00",
+        "end": "2023-10-17 23:59:00",
         "reminder": "end"
     }
 ]
