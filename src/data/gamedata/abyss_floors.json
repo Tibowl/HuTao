@@ -3619,5 +3619,489 @@
         ]
       }
     ]
+  },
+  "62": {
+    "teams": 2,
+    "leyline": "All party members receive a 75% Physical DMG Bonus.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 88,
+        "conds": "More than 20/40/60% HP left",
+        "monsters": [
+          [
+            "Ruin Cruiser",
+            "Ruin Destroyer",
+            "Ruin Defender",
+            "Ruin Scout"
+          ],
+          [
+            "Nobushi: Jintouban",
+            "Nobushi: Hitsukeban",
+            "Nobushi: Kikouban",
+            "Kairagi: Dancing Thunder",
+            "Kairagi: Fiery Might"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 90,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Pyro Abyss Mage",
+            "Cryo Abyss Mage",
+            "Hydro Hilichurl Rogue",
+            "Blazing Axe Mitachurl",
+            "Dendro Samachurl",
+            "Pyro Hilichurl Shooter"
+          ],
+          [
+            "Primordial Bathysmal Vishap Hatchling",
+            "Rimebiter Bathysmal Vishap Hatchling",
+            "Bolteater Bathysmal Vishap Hatchling",
+            "Primordial Bathysmal Vishap"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 92,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Abyss Lector: Fathomless Flames",
+            "Abyss Herald: Frost Fall"
+          ],
+          [
+            "Eremite Stone Enchanter",
+            "Eremite Sunfrost",
+            "Eremite Floral Ring-Dancer",
+            "Eremite Daythunder"
+          ]
+        ]
+      }
+    ]
+  },
+  "63": {
+    "teams": 2,
+    "leyline": "For this floor only, the ley line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 95,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Rockfond Rifthound Whelp",
+            "Thundercraven Rifthound Whelp",
+            "Rockfond Rifthound",
+            "Thundercraven Rifthound",
+            "Abyss Lector: Fathomless Flames"
+          ],
+          [
+            "Primal Construct: Repulsor",
+            "Primal Construct: Reshaper",
+            "Primal Construct: Prospector",
+            "Rimebiter Bathysmal Vishap Hatchling",
+            "Bolteater Bathysmal Vishap Hatchling",
+            "Hydro Hilichurl Rogue",
+            "Thunderhelm Lawachurl"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 98,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Fatui Skirmisher - Pyroslinger Bracer",
+            "Eremite Desert Clearwater",
+            "Black Serpent Knight: Rockbreaker Ax",
+            "Shadowy Husk: Standard Bearer",
+            "Shadowy Husk: Line Breaker",
+            "Shadowy Husk: Defender"
+          ],
+          [
+            "Algorithm of Semi-Intransient Matrix of Overseer Network"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 100,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Eremite Desert Clearwater",
+            "Eremite Daythunder",
+            "Eremite Scorching Loremaster",
+            "Mirror Maiden"
+          ],
+          [
+            "Rimebiter Bathysmal Vishap",
+            "Bolteater Bathysmal Vishap"
+          ]
+        ]
+      }
+    ]
+  },
+  "64": {
+    "teams": 2,
+    "leyline": "After a character triggers a Vaporize reaction, the Vaporize reaction DMG for that character is increased by 50% for 5s.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 72,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Treasure Hoarders: Pyro Potioneer",
+            "Treasure Hoarders: Hydro Potioneer",
+            "Recon Log Mek - Ousia",
+            "Nobushi: Jintouban",
+            "Nobushi: Hitsukeban",
+            "Nobushi: Kikouban",
+            "Geological Survey Mek - Ousia",
+            "Arithmetic Enhancer Mek - Ousia"
+          ],
+          [
+            "Nobushi: Hitsukeban",
+            "Nobushi: Kikouban",
+            "Nimble Harvester Mek - Pneuma",
+            "Assault Specialist Mek - Pneuma",
+            "Arithmetic Enhancer Mek - Pneuma",
+            "Treasure Hoarders: Electro Potioneer"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 74,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Hydro Mimic Boar",
+            "Large Hydro Slime",
+            "Large Cryo Slime",
+            "Cherubic Sea Hare",
+            "Annihilation Specialist Mek - Ousia",
+            "Treasure Hoarders: Cryo Potioneer"
+          ],
+          [
+            "Large Pyro Slime",
+            "Annihilation Specialist Mek - Pneuma",
+            "Treasure Hoarders: Pyro Potioneer",
+            "Sternshield Crab"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 76,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Blazing Axe Mitachurl",
+            "Crackling Axe Mitachurl",
+            "Mirror Maiden",
+            "Suppression Specialist Mek - Ousia"
+          ],
+          [
+            "Fatui Pyro Agent",
+            "Annihilation Specialist Mek - Pneuma"
+          ]
+        ]
+      }
+    ]
+  },
+  "65": {
+    "teams": 2,
+    "leyline": "Character deals 50% increased DMG to opponents affected by Hydro.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 80,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Fatui Skirmisher - Pyroslinger Bracer",
+            "Nimble Harvester Mek - Ousia",
+            "Treasure Hoarders: Gravedigger",
+            "Treasure Hoarders: Seaman",
+            "Treasure Hoarders: Handyman"
+          ],
+          [
+            "Construction Specialist Mek - Pneuma",
+            "Geological Survey Mek - Pneuma"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 82,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Pyro Specter",
+            "Dendro Specter",
+            "Electro Specter",
+            "Winged Dendroshroom",
+            "Winged Cryoshroom",
+            "Grounded Hydroshroom",
+            "Grounded Geoshroom"
+          ],
+          [
+            "Rimebiter Bathysmal Vishap Hatchling",
+            "Bolteater Bathysmal Vishap Hatchling",
+            "Primordial Bathysmal Vishap"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 85,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Eremite Stone Enchanter",
+            "Eremite Sunfrost"
+          ],
+          [
+            "Ruin Grader"
+          ]
+        ]
+      }
+    ]
+  },
+  "66": {
+    "teams": 2,
+    "leyline": "All party members receive a 60% Pyro DMG Bonus.\nAll party members receive a 60% Hydro DMG Bonus.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 88,
+        "conds": "More than 20/40/60% HP left",
+        "monsters": [
+          [
+            "Large Pyro Slime",
+            "Pyro Specter",
+            "Pyro Whopperflower"
+          ],
+          [
+            "Large Cryo Slime",
+            "Cryo Specter",
+            "Cryo Whopperflower"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 90,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Sternshield Crab",
+            "Bubbler Seahorse",
+            "Thunderhelm Lawachurl"
+          ],
+          [
+            "Cherubic Sea Hare",
+            "Primordial Bathysmal Vishap Hatchling",
+            "Rimebiter Bathysmal Vishap Hatchling",
+            "Bolteater Bathysmal Vishap Hatchling",
+            "Frostarm Lawachurl"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 92,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Nobushi: Jintouban",
+            "Nobushi: Hitsukeban",
+            "Nobushi: Kikouban",
+            "Kairagi: Dancing Thunder",
+            "Kairagi: Fiery Might"
+          ],
+          [
+            "Primo Geovishap"
+          ]
+        ]
+      }
+    ]
+  },
+  "67": {
+    "teams": 2,
+    "leyline": "For this floor only, the ley line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 95,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Maguu Kenki"
+          ],
+          [
+            "Tainted Water-Splitting Phantasm",
+            "Tainted Water-Spouting Phantasm",
+            "Construction Specialist Mek - Pneuma",
+            "Suppression Specialist Mek - Pneuma",
+            "Fatui Cryo Cicin Mage"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 98,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Emperor of Fire and Iron"
+          ],
+          [
+            "Eremite Scorching Loremaster",
+            "Eremite Daythunder",
+            "Large Shatterstone Breacher Primus",
+            "Large Overgrown Breacher Primus"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 100,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Suppression Specialist Mek - Ousia",
+            "Annihilation Specialist Mek - Ousia",
+            "Eremite Floral Ring-Dancer",
+            "Fatui Skirmisher - Pyroslinger Bracer"
+          ],
+          [
+            "Icewind Suite: Nemesis of Coppelius"
+          ]
+        ]
+      }
+    ]
+  },
+  "68": {
+    "teams": 2,
+    "leyline": "All party members receive a 60% Cryo DMG Bonus.\nAll party members receive a 60% Hydro DMG Bonus.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 88,
+        "conds": "More than 20/40/60% HP left",
+        "monsters": [
+          [
+            "Eremite Crossbow",
+            "Eremite Ravenbeak Halberdier",
+            "Eremite Linebreaker",
+            "Eremite Sword-Dancer",
+            "Eremite Desert Clearwater"
+          ],
+          [
+            "Stonehide Lawachurl",
+            "Thunderhelm Lawachurl"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 90,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Cryo Specter",
+            "Electro Specter",
+            "Pyro Specter",
+            "Dendro Specter"
+          ],
+          [
+            "Ruin Guard",
+            "Ruin Grader",
+            "Ruin Drake: Earthguard"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 92,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Large Pyro Slime",
+            "Large Electro Slime",
+            "Mutant Electro Slime",
+            "Sternshield Crab",
+            "Bubbler Seahorse",
+            "Pyro Abyss Mage",
+            "Overgrown Breacher Primus"
+          ],
+          [
+            "Veteran Tainted Water-Splitting Phantasm",
+            "Veteran Tainted Water-Spouting Phantasm"
+          ]
+        ]
+      }
+    ]
+  },
+  "69": {
+    "teams": 2,
+    "leyline": "For this floor only, the Ley Line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 95,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Millennial Pearl Seahorse"
+          ],
+          [
+            "Rockfond Rifthound Whelp",
+            "Thundercraven Rifthound Whelp",
+            "Rockfond Rifthound",
+            "Thundercraven Rifthound",
+            "Pyro Abyss Mage"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 98,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Primordial Bathysmal Vishap Hatchling",
+            "Construction Specialist Mek - Pneuma",
+            "Suppression Specialist Mek - Pneuma"
+          ],
+          [
+            "Icewind Suite: Dirge of Coppelia"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 100,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Mirror Maiden",
+            "Wind Operative"
+          ],
+          [
+            "Experimental Field Generator"
+          ]
+        ]
+      }
+    ]
   }
 }

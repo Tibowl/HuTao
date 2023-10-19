@@ -950,6 +950,256 @@
       }
     ]
   },
+  "Ballad of the Boundless Blue": {
+    "name": "Ballad of the Boundless Blue",
+    "desc": "An anthology of exquisite poetry. It contains quite a few poems beloved by Mondstadters, concerning the skies, dandelions, and other such topics.",
+    "weaponType": "Catalyst",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.734901428222656,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "Energy Recharge",
+        "init": 0.06666699796915054,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Ballad_of_the_Boundless_Blue.png",
+    "awakenIcon": "img/weapon_woke/Ballad_of_the_Boundless_Blue.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Fragile Bone Shard",
+        "EnemyDropTierA2": "Sturdy Bone Shard",
+        "EnemyDropTierA3": "Fossilized Bone Shard",
+        "EnemyDropTierB1": "Treasure Hoarder Insignia",
+        "EnemyDropTierB2": "Silver Raven Insignia",
+        "EnemyDropTierB3": "Golden Raven Insignia",
+        "WeaponAsc1": "Boreal Wolf's Milk Tooth",
+        "WeaponAsc2": "Boreal Wolf's Cracked Tooth",
+        "WeaponAsc3": "Boreal Wolf's Broken Fang",
+        "WeaponAsc4": "Boreal Wolf's Nostalgia"
+      }
+    },
+    "lore": "Between two shores, past and present,\nA sky stretches vast and boundless, a limitless realm of freedom.\nFlowers are rooted in the earth, yet they still yearn for the endless sky,\nAnd though they are without wings, they still seek to rise through the air...\n\nJust as the fate of flowers is bound by the roots deep beneath the ground,\nThe dandelions are destined to witness the heights and freedom of the sky.\nThe endless azure empyrean is as if a dome that reflects the world beneath it,\nWith white clouds above dotting the calm and peaceful sky.\n\nJust as the tenacious dandelions and wild chrysanthemums,\nThe people of the verdant ground will heed freedom's call.\nThe tyranny of storms and bitter winter may have oppressed them,\nAnd the virtues they held may have become corrupt and gone astray,\n\nBut so long as the traditions of praising the skyward gales remain,\nAnd so long as this precious freedom continues to be celebrated from generation to generation,\nThen the people will ever soar to the sky like all the seeds of the dandelions,\nLeaning on their spirited souls to pursue a boundless and unshackled freedom.",
+    "refinements": [
+      {
+        "name": "Azure Skies",
+        "desc": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by **8%** and Charged Attack DMG will be increased by **6%**. Max 3 stacks. This effect can be triggered once every 0.3s."
+      },
+      {
+        "name": "Azure Skies",
+        "desc": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by **10%** and Charged Attack DMG will be increased by **7.5%**. Max 3 stacks. This effect can be triggered once every 0.3s."
+      },
+      {
+        "name": "Azure Skies",
+        "desc": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by **12%** and Charged Attack DMG will be increased by **9%**. Max 3 stacks. This effect can be triggered once every 0.3s."
+      },
+      {
+        "name": "Azure Skies",
+        "desc": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by **14%** and Charged Attack DMG will be increased by **10.5%**. Max 3 stacks. This effect can be triggered once every 0.3s."
+      },
+      {
+        "name": "Azure Skies",
+        "desc": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by **16%** and Charged Attack DMG will be increased by **12%**. Max 3 stacks. This effect can be triggered once every 0.3s."
+      }
+    ]
+  },
+  "Ballad of the Fjords": {
+    "name": "Ballad of the Fjords",
+    "desc": "A polearm used by those seeking to catch fish in the tundra. It lets none escape.",
+    "weaponType": "Polearm",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "CRIT Rate",
+        "init": 0.05999999865889549,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Ballad_of_the_Fjords.png",
+    "awakenIcon": "img/weapon_woke/Ballad_of_the_Fjords.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "A Flower Yet to Bloom",
+        "EnemyDropTierA2": "Treasured Flower",
+        "EnemyDropTierA3": "Wanderer's Blooming Flower",
+        "EnemyDropTierB1": "Whopperflower Nectar",
+        "EnemyDropTierB2": "Shimmering Nectar",
+        "EnemyDropTierB3": "Energy Nectar",
+        "WeaponAsc1": "Broken Goblet of the Pristine Sea",
+        "WeaponAsc2": "Wine Goblet of the Pristine Sea",
+        "WeaponAsc3": "Silver Goblet of the Pristine Sea",
+        "WeaponAsc4": "Golden Goblet of the Pristine Sea"
+      }
+    },
+    "lore": "Legends say the winter comes from Hyperborea, and the fjords and auroras there are curved and sharp as the fangs of wolves,\nAnd the glaciers and snowfields are always fissuring forth new crevices, or filling them in, creating an ever-changing land.\nUntil at long last, the frozen earth cut itself from the umbilical cord of the continent, as though it had its own will or dreams,\nLeaving behind only the legend of young Ajax, who discovered the country of gold and white stone in the depths of the frozen sea.\nAmidst the frozen air slowly drifting from the thick layers of ice, the story of the young hero brings forth a sliver of warmth and light.\nThe stories about him are many. Sailed he a ship into the belly of a great whale, and fought he a dragon upon the frozen plains for seven days.\nHe and Snegurochka once fell in love, yet lost each other due to the wicked tricks of the changelings — a truly tragic tale.\n\nThe last story worth telling goes something like this.\nThe boy born to hunt fish beneath the ice with harpoons fell into a hitherto-undiscovered kingdom.\nThis ancient capital had sunk into the depths of the earth due to some ancient disaster, but despite being buried underground, it was still as bright as the dawn.\nThe solemn and silent king yet sat upon his massive chiseled white throne, the scepter in his hands not yet eaten away by insects,\nAnd the silver-white trees in the courtyard were like the arms of a mother or a lover, holding the virtuous and wise priest in their embrace.\nBeautiful yet treacherous life, twisted and violent monsters, one by one awakened from their thousand-year slumber...\n\nA voice, seemingly from a faraway place...\n\"...Father! Father! Hey! We got a bite!\"\n\n\"...Oh. Sorry.\"\n\n\"So what happened? What happened next?\"\n\n\"Oh, right... Finally, the boy defeated the dragon that slept deep within the kingdom.\"\n\"The dragon's treasure was an infinite hoard of gold. But the boy was kind and brave, and knew that gold was the true cause of calamity and chaos, and so only took a small amount, enough for his own needs, and to cure his sick friends.\"\n\n\"Huh? Is that the end of the story?\"\n\n\"The end.\"\n\n\"Really...? Then tell me another story!\"\n\n\"Another story... Next time, alright? Let's stop here today, or even the fish will be scared away.\"",
+    "refinements": [
+      {
+        "name": "Tales of the Tundra",
+        "desc": "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by **120.**"
+      },
+      {
+        "name": "Tales of the Tundra",
+        "desc": "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by **150.**"
+      },
+      {
+        "name": "Tales of the Tundra",
+        "desc": "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by **180.**"
+      },
+      {
+        "name": "Tales of the Tundra",
+        "desc": "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by **210.**"
+      },
+      {
+        "name": "Tales of the Tundra",
+        "desc": "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by **240.**"
+      }
+    ]
+  },
   "Beacon of the Reed Sea": {
     "name": "Beacon of the Reed Sea",
     "desc": "A large, flat-tipped sword designed in to fit as the weapon of an ancient king or some ceremonial instrument.",
@@ -2148,6 +2398,131 @@
       {
         "name": "Extinguishing Precept",
         "desc": "Gain **24%** All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by **6.4%** per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled."
+      }
+    ]
+  },
+  "Cashflow Supervision": {
+    "name": "Cashflow Supervision",
+    "desc": "A floating device that can monitor certain phenomena. It was picked up and modified to serve other purposes following its abandonment.",
+    "weaponType": "Catalyst",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 47.5369987487793,
+        "curve": "ATK 3.2"
+      },
+      {
+        "stat": "CRIT Rate",
+        "init": 0.04800000041723251,
+        "curve": "C3"
+      }
+    ],
+    "icon": "img/weapon/Cashflow_Supervision.png",
+    "awakenIcon": "img/weapon_woke/Cashflow_Supervision.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts5",
+      "mapping": {
+        "EnemyDropTierA1": "Old Operative's Pocket Watch",
+        "EnemyDropTierA2": "Operative's Standard Pocket Watch",
+        "EnemyDropTierA3": "Operative's Constancy",
+        "EnemyDropTierB1": "Transoceanic Pearl",
+        "EnemyDropTierB2": "Transoceanic Chunk",
+        "EnemyDropTierB3": "Xenochromatic Crystal",
+        "WeaponAsc1": "Broken Goblet of the Pristine Sea",
+        "WeaponAsc2": "Wine Goblet of the Pristine Sea",
+        "WeaponAsc3": "Silver Goblet of the Pristine Sea",
+        "WeaponAsc4": "Golden Goblet of the Pristine Sea"
+      }
+    },
+    "lore": "The circulation of money traces the very arteries of the world.\nCountless lives would flow alongside the tides of blood, until they are swept away and swallowed up.\nOf course, everything should have been counted among the accomplishments of humanity.\nJust as numbers and mathematics were born to calculate measures of money,\nThere would be written records to chronicle debts, and laws to determine the transfer of wealth.\n\nHumanity should have been the master of currency, and not its slave.\nAnd the heart of gold should beat for the world of humanity.\n—Of course, no one can truly own money.\nIt has merely been borrowing the hands of humanity,\nTo flow from one corner of the world towards the end of time.\n\nA certain person has found this fact most difficult to comprehend,\nThat this so-called \"corner of the world\" could have been deliberately selected and defined.\nThat same person has also found this fact most impossible to accept,\nThat the great achievement that should have belonged to humanity,\nHas been proposed and constrained by that so-called \"god.\"\nAnd this is why the system must be overhauled.\nSince the heart of money has been seized by a god from a distant land,\nThen they now hold the power to enslave everyone at their whim.\nEven if becoming the master of the heart of gold may be an impossible task to accomplish,\nThe control of money should still be given equally to all.\n\n\"It may be difficult for you to imagine this with words alone, so allow me to show you how it'd look like in the world.\"\n\"We'll start by creating a new currency to replace the dependence on Mora.\"\n\"As for the location, it should be a micro-economy isolated from the rest of the world.\"\n\"I've set my sights on a nation within a nation with minimal interference from the divine.\"\n\"Infiltrating it shouldn't take too much time.\"\n\n\"And what should I name the new currency? Hmm, I am really not a fan of naming things. Oh, I've got just the word.\"\n\"In honor of the credit you've given me to run this experiment, I will call it the Credit Coupon.\"\n\nThe overseer made of precision machinery rumbles as it observes the monetary flow of the tiny nation,\nTirelessly recording the movement of every amount of money, the savings and spending of all,\nThe changes in value, and the number of times each piece of currency is circulated over a specific period.\nThe only law present is the private law of the hoarder, and the only sanctions are poverty or death.\nEither to become a rentier and gain power and control, or to be subjected to control and work to death. The rules are always fair.\n\nThus, humanity will stand on equal ground with the Gods by virtue of their inherent ambitions and wealth,\nAnd the weak who failed to prevail shall be swallowed by the flood that is the mortal world.\nThe power of the Gods shall no longer intervene to embellish the power of the wealthy before the poor,\nNor shall the wealth of the Gods descend, to rescue the dignity of the poor from the feet of the rich.",
+    "refinements": [
+      {
+        "name": "Golden Blood-Tide",
+        "desc": "ATK is increased by **16%**. When current HP increases or decreases, Normal Attack DMG will be increased by **16%** and Charged Attack DMG will be increased by **14%** for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by **8%**."
+      },
+      {
+        "name": "Golden Blood-Tide",
+        "desc": "ATK is increased by **20%**. When current HP increases or decreases, Normal Attack DMG will be increased by **20%** and Charged Attack DMG will be increased by **17.5%** for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by **10%**."
+      },
+      {
+        "name": "Golden Blood-Tide",
+        "desc": "ATK is increased by **24%**. When current HP increases or decreases, Normal Attack DMG will be increased by **24%** and Charged Attack DMG will be increased by **21%** for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by **12%**."
+      },
+      {
+        "name": "Golden Blood-Tide",
+        "desc": "ATK is increased by **28%**. When current HP increases or decreases, Normal Attack DMG will be increased by **28%** and Charged Attack DMG will be increased by **24.5%** for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by **14%**."
+      },
+      {
+        "name": "Golden Blood-Tide",
+        "desc": "ATK is increased by **32%**. When current HP increases or decreases, Normal Attack DMG will be increased by **32%** and Charged Attack DMG will be increased by **28%** for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by **16%**."
       }
     ]
   },
@@ -5349,6 +5724,381 @@
       {
         "name": "Gash",
         "desc": "On hit, has a 50% chance to deal **400%** ATK DMG to a single target. Can only occur once every **11**s."
+      }
+    ]
+  },
+  "Finale of the Deep": {
+    "name": "Finale of the Deep",
+    "desc": "This longsword is as silent as the mysterious ocean depths. It is even more ancient than its stylings might imply.",
+    "weaponType": "Sword",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.734901428222656,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.05999999865889549,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Finale_of_the_Deep.png",
+    "awakenIcon": "img/weapon_woke/Finale_of_the_Deep.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Drop of Tainted Water",
+        "EnemyDropTierA2": "Scoop of Tainted Water",
+        "EnemyDropTierA3": "Newborn Tainted Hydro Phantasm",
+        "EnemyDropTierB1": "Old Handguard",
+        "EnemyDropTierB2": "Kageuchi Handguard",
+        "EnemyDropTierB3": "Famed Handguard",
+        "WeaponAsc1": "Dross of Pure Sacred Dewdrop",
+        "WeaponAsc2": "Sublimation of Pure Sacred Dewdrop",
+        "WeaponAsc3": "Spring of Pure Sacred Dewdrop",
+        "WeaponAsc4": "Essence of Pure Sacred Dewdrop"
+      }
+    },
+    "lore": "Legends have it that this ceremonial sword once belonged to a musician, whose name has long been forgotten.\nLayer upon layer of ostentatious decorations and shining gems prove this was no pedestrian instrumentalist.\n\nAccording to the legends, that musician was immensely proud of an ancient, grand symphony, but never played it in front of anybody else.\nFor that music would no longer inspire applause or lamentation in this chaotic world, nor would any trouble themselves to transcribe such a complex composition...\nThere is an opera in Fontaine that portrays his life — Though none know his origins, all understand his tragedy.\nJust like so many of humble origin, he decided his fate in the city to which all waterways lead.\n\n\"Students! We are the weavers of music, the harmonizers of authority, and the music will advance at our command!\"\n\"Our music is as the waves and the ripples, the rhythm of the truncheon and the caress of a lover, conquering all who hearken!\"\nIn the towering theater academy, the lecturers explained that magnificent music, imparting civilization and art to their ignorant pupils.\nThe notes on the scores and melodies were arranged in flawless order, and were played perfectly with absolute reason and wisdom...\n\n\"But, how can the will of order rely upon adherence to rigid convention? Musicians must be as those who transcend. They must become the voice of the sublime.\"\n\"The sublime must be powerful, like the cry of birds on a mountain summit, the frothing wrath of the stormy sea. Order must have boundless passion.\"\n\"And after, glory shall proceed from passion, passion shall create unity, and unity shall stabilize order — this must be the essential role of music and musicians.\"\n\"The passion from vanquishing one's foes, from loving one's comrades — these are the sublime emotions that separate humanity into masters and slaves.\"\nLater, just as the opera sang, this unique understanding and interpretation of the music elevated the musician to the loftiest of halls...\nIn that age, under the direction and sole authority of the musician, music became the scepter and shield of authority, conquering countless listeners.\n\nIn the golden era, the listeners were intoxicated with this sublime beauty, and shared joy and sorrow in pursuit of the same passion.\nBut when the people's sight is blocked by a mountainous wave, the wailing of those devoured will be silenced...\nAnd when that towering theater academy was finally destroyed amidst the tsunami, the people were terrified to discover—\nThe skeletal corpses of those burned away by the musician's passion, exposed at last, sticking up from beneath the foundations.",
+    "refinements": [
+      {
+        "name": "An End Sublime",
+        "desc": "When using an Elemental Skill, ATK will be increased by **12%** for 15s, and a Bond of Life worth 25% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, a maximum of **150** ATK will be gained based on **2.4%** of the total amount of the Life Bond cleared, lasting for 15s."
+      },
+      {
+        "name": "An End Sublime",
+        "desc": "When using an Elemental Skill, ATK will be increased by **15%** for 15s, and a Bond of Life worth 25% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, a maximum of **187.5** ATK will be gained based on **3%** of the total amount of the Life Bond cleared, lasting for 15s."
+      },
+      {
+        "name": "An End Sublime",
+        "desc": "When using an Elemental Skill, ATK will be increased by **18%** for 15s, and a Bond of Life worth 25% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, a maximum of **225** ATK will be gained based on **3.6%** of the total amount of the Life Bond cleared, lasting for 15s."
+      },
+      {
+        "name": "An End Sublime",
+        "desc": "When using an Elemental Skill, ATK will be increased by **21%** for 15s, and a Bond of Life worth 25% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, a maximum of **262.5** ATK will be gained based on **4.2%** of the total amount of the Life Bond cleared, lasting for 15s."
+      },
+      {
+        "name": "An End Sublime",
+        "desc": "When using an Elemental Skill, ATK will be increased by **24%** for 15s, and a Bond of Life worth 25% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, a maximum of **300** ATK will be gained based on **4.8%** of the total amount of the Life Bond cleared, lasting for 15s."
+      }
+    ]
+  },
+  "Fleuve Cendre Ferryman": {
+    "name": "Fleuve Cendre Ferryman",
+    "desc": "A handy length of abandoned copper pipe that was once used as a weapon. It was famous — or infamous, depending — in some circles.",
+    "weaponType": "Sword",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "Energy Recharge",
+        "init": 0.10000000149011612,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Fleuve_Cendre_Ferryman.png",
+    "awakenIcon": "img/weapon_woke/Fleuve_Cendre_Ferryman.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Drop of Tainted Water",
+        "EnemyDropTierA2": "Scoop of Tainted Water",
+        "EnemyDropTierA3": "Newborn Tainted Hydro Phantasm",
+        "EnemyDropTierB1": "Transoceanic Pearl",
+        "EnemyDropTierB2": "Transoceanic Chunk",
+        "EnemyDropTierB3": "Xenochromatic Crystal",
+        "WeaponAsc1": "Fragment of an Ancient Chord",
+        "WeaponAsc2": "Chapter of an Ancient Chord",
+        "WeaponAsc3": "Movement of an Ancient Chord",
+        "WeaponAsc4": "Echo of an Ancient Chord"
+      }
+    },
+    "lore": "Discarded components washed into the gutters can be used as a weapon in a dire emergency.\nThis one's first opponent was just a monster nourished by \"richly nutritious water.\"\nBut in any case, it broke the knees and jaws of countless \"livestock.\"\nBecause it sent so many who threatened his countrymen into the grey river which embraces all,\nIn Eduardo's hands, it was affectionately called the \"Ferryman.\"\n\nThe endpoint of improving the city of Fontaine was for the sewers to become an undercity beneath the city.\nNaturally, it was not the bureaucracy of the Court of Fontaine which could maintain order in the Fleuve Cendre.\nSo in the days that followed, the outlaw leader began his rise by picking up a bronze pipe to beat back the crocodiles,\nAnd then to protect the merchants from being extorted, harassed, and blackmailed by the gangs,\nResolving the disputes between Fleuve Cendre \"compatriots,\" and blessing the newly wedded.\nTill at last, it was said, \"Let all that the sun shines upon belong to them, and let the Fleuve Cendre belong to us.\"\n\nBut there is no end to improvement.\nThe positions of the people cannot be changed, but the coordinates of those positions can be changed for that purpose.\nAnd from a certain perspective, there is no difference between \"them \" and \"us,\"\nMerely places which may be developed, and trash which should be disposed of or \"moved.\"\n\nEduardo was among those arrested resisting the purge of the Fleuve Cendre, and while being escorted to exile in the desert,\nHe was rescued by his henchmen. Banding together with comrades active near Mont Automnequi, they occupied Poisson,\nAnd seizing the members of the Maison Gardiennage charged with transporting them as hostages, they made a series of unreasonable demands.\nThis incident was finally resolved by the active intervention of the Marechaussee Hunters.\n\nThe reporter who volunteered to deliver the negotiation demands, Karl Ingold, took this photo in Poisson before the situation deteriorated:\nIn the middle of the picture stands Eduardo Baker, leaning on his famous — or infamous — bronze pipe like a cane.\nEduardo's other hand is on his son Jakob's shoulder, who is nervously clutching the sleeve of Rene de Petrichor.\nTo their left is the Great Magician Parsifal, casually leaning on the railing, flashing her signature stage smile.\nTo Eduardo's right is the current mayor of Poisson, Renault de Petrichor. He dressed up quite formally for the occasion, though his collar is askew.\nHis son Rene stands in front of him, attracted by a marvel such as this new Kamera, with eyes wide and somewhat at a loss.\nThe woman to Parsifal's left holding an infant is Rosa Reed, with her husband Thompson, and on the far right of the picture is Tom Alter.\nThey are looking ahead, their faces washed pale by the Kamera's bulb. They seem to be focused not on Ingold, nor on the Kamera.\nBut on the future.",
+    "refinements": [
+      {
+        "name": "Ironbone",
+        "desc": "Increases Elemental Skill CRIT Rate by **8%**. Additionally, increases Energy Recharge by **16%** for 5s after using an Elemental Skill."
+      },
+      {
+        "name": "Ironbone",
+        "desc": "Increases Elemental Skill CRIT Rate by **10%**. Additionally, increases Energy Recharge by **20%** for 5s after using an Elemental Skill."
+      },
+      {
+        "name": "Ironbone",
+        "desc": "Increases Elemental Skill CRIT Rate by **12%**. Additionally, increases Energy Recharge by **24%** for 5s after using an Elemental Skill."
+      },
+      {
+        "name": "Ironbone",
+        "desc": "Increases Elemental Skill CRIT Rate by **14%**. Additionally, increases Energy Recharge by **28%** for 5s after using an Elemental Skill."
+      },
+      {
+        "name": "Ironbone",
+        "desc": "Increases Elemental Skill CRIT Rate by **16%**. Additionally, increases Energy Recharge by **32%** for 5s after using an Elemental Skill."
+      }
+    ]
+  },
+  "Flowing Purity": {
+    "name": "Flowing Purity",
+    "desc": "A strangely-shaped anthology of scripts. All the scripts written by Coppelius are recorded within.",
+    "weaponType": "Catalyst",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.734901428222656,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.05999999865889549,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Flowing_Purity.png",
+    "awakenIcon": "img/weapon_woke/Flowing_Purity.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Rift Core",
+        "EnemyDropTierA2": "Foreign Synapse",
+        "EnemyDropTierA3": "Alien Life Core",
+        "EnemyDropTierB1": "Transoceanic Pearl",
+        "EnemyDropTierB2": "Transoceanic Chunk",
+        "EnemyDropTierB3": "Xenochromatic Crystal",
+        "WeaponAsc1": "Dross of Pure Sacred Dewdrop",
+        "WeaponAsc2": "Sublimation of Pure Sacred Dewdrop",
+        "WeaponAsc3": "Spring of Pure Sacred Dewdrop",
+        "WeaponAsc4": "Essence of Pure Sacred Dewdrop"
+      }
+    },
+    "lore": "...\nFor reasons known to all and sundry, the script of \"Clockwork Coppelia\" has never been publicized or published. Of the survivors of that splendorous opera theater that day, some wrote down their memories of the parts and lines that were performed prior to the intermission.\nAfter obtaining consent from the family of the deceased Mr. Coppelius and the aforementioned parties, our company has collated and organized the relevant materials in an attempt to recreate a part of Mr. Coppelius's original work.\nThough perhaps it is merely speculation and misses the mark, we hope that our effort will get the ball rolling and attract more sophisticated efforts.\n...\nSynopsis: How Coppelius's plan was exposed before the Marechaussee Hunters, and how he said his final farewells to Coppelia before his punishment.\n...\nCoppelius: Sing for me, my Coppelia, my love, my sin, my soul! Sing for me, one last time!\nCoppelius: Wind a thread about my heart, and with it, bind me tightly! Lock me up in chains and fetters, and let me be destroyed in your eyes.\nCoppelius: For mine heart is decided, from today forth, I shall not seek those that make me happy, but bring happiness to those I choose.\nCoppelius: Even if you must mock all that I am, that does not make a mockery of my thoughts, but only of my foolish conduct.\nCoppelia: How would you have me sing? My beloved one, how would you have me sing of this sin and its inevitable punishment?\nCoppelia: All are content with fantastical, colorful facade, just as those of flesh and blood pursue gilded fruit, totally unaware of the lethal poison hidden within.\nCoppelia: Coppelius, my Coppelius, everything you pursue is as hollow as stage scenery, leaving not even a puff of smoke, for temptation will end the journey — this, every intelligent person understands.\n...\nSynopsis: Coppelia confesses the purpose of her journey to the youth traveling with her, and resolves to follow her creator, who in her eyes, has already passed on.\n...\nNathaniel: This is completely absurd, yet also absurdly commonplace. The wise always take orders from fools, and life is but a vulgar comedy.\nCoppelia: Precisely so, sir, so you needn't worry on my account. Soon, all of this terrible suffering shall be completely obliterated.\nCoppelia: The one who created me and gave me life has already bid an eternal farewell to this mortal coil, and when these rusted gears return to the same ash as his bones, all sin will be forgotten, and for flesh and blood, to be forgotten is to be forgiven.\nCoppelia: Never again need I see the sun, moon, or stars, never again need I hear the birds singing joyously in the forests, never again need I force this lonely heart of mine to continue beating on in a world that is already bereft of he who bestowed it upon me.\nNathaniel: What do you plan to do?\nCoppelia: This heart of mine, which beats as though it were ensconced in a vessel of flesh and blood, has already been stained with the same sin on this journey. This heart of mine, so tortured by the pain of regret — where could it ever hope to find peace?\n...",
+    "refinements": [
+      {
+        "name": "Unfinished Masterpiece",
+        "desc": "When using an Elemental Skill, All Elemental DMG Bonus will be increased by **8%** for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide **2%** All Elemental DMG Bonus, up to a maximum of **12%**. This effect lasts 15s."
+      },
+      {
+        "name": "Unfinished Masterpiece",
+        "desc": "When using an Elemental Skill, All Elemental DMG Bonus will be increased by **10%** for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide **2.5%** All Elemental DMG Bonus, up to a maximum of **15%**. This effect lasts 15s."
+      },
+      {
+        "name": "Unfinished Masterpiece",
+        "desc": "When using an Elemental Skill, All Elemental DMG Bonus will be increased by **12%** for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide **3%** All Elemental DMG Bonus, up to a maximum of **18%**. This effect lasts 15s."
+      },
+      {
+        "name": "Unfinished Masterpiece",
+        "desc": "When using an Elemental Skill, All Elemental DMG Bonus will be increased by **14%** for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide **3.5%** All Elemental DMG Bonus, up to a maximum of **21%**. This effect lasts 15s."
+      },
+      {
+        "name": "Unfinished Masterpiece",
+        "desc": "When using an Elemental Skill, All Elemental DMG Bonus will be increased by **16%** for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide **4%** All Elemental DMG Bonus, up to a maximum of **24%**. This effect lasts 15s."
       }
     ]
   },
@@ -10515,6 +11265,131 @@
       }
     ]
   },
+  "Portable Power Saw": {
+    "name": "Portable Power Saw",
+    "desc": "An old-school power saw that you can rarely find nowadays. It was once a cutting tool trusted by workers all around.",
+    "weaponType": "Claymore",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 41.067100524902344,
+        "curve": "ATK 2.4"
+      },
+      {
+        "stat": "HP%",
+        "init": 0.11999999731779099,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Portable_Power_Saw.png",
+    "awakenIcon": "img/weapon_woke/Portable_Power_Saw.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Rift Core",
+        "EnemyDropTierA2": "Foreign Synapse",
+        "EnemyDropTierA3": "Alien Life Core",
+        "EnemyDropTierB1": "Meshing Gear",
+        "EnemyDropTierB2": "Mechanical Spur Gear",
+        "EnemyDropTierB3": "Artificed Dynamic Gear",
+        "WeaponAsc1": "Broken Goblet of the Pristine Sea",
+        "WeaponAsc2": "Wine Goblet of the Pristine Sea",
+        "WeaponAsc3": "Silver Goblet of the Pristine Sea",
+        "WeaponAsc4": "Golden Goblet of the Pristine Sea"
+      }
+    },
+    "lore": "A chainsaw favored by workers of the past to cut through keels and pipes.\nIts simple and sturdy structure made maintenance and swapping parts a breeze.\nGrab the handle tightly with both hands, and even hard steel will be split before you.\nThis all-powerful tool was once the hallmark of progress.\n\nAs the urban areas of Fontaine grew, the light of order drove away the shadows.\nIt was largely due to this convenient tool that the sewers eventually became the Fleuve Cendre.\nThe people of the Fleuve Cendre believed that, though they lived in a city below the city with neither rain nor sun,\nThe workers' abundant diligence and tenacity occasionally won them the right to live on the surface,\nAnd at other times turned their underground watery realm into a residence just as beautiful as the world above.\n\nUnlike dock swords and exploration drills, these chainsaws were not banned.\nThis was because such chainsaws played an irreplaceable role in the early production of clockwork meka.\nLater on, a massive clockwork meka factory was constructed in an absolutely safe area outside the city,\nAnd those who could skillfully utilize these saws were gradually washed away alongside their weapons by the torrent of progress.",
+    "refinements": [
+      {
+        "name": "Sea Shanty",
+        "desc": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain **40** Elemental Mastery, and 2s after the effect occurs, **2** Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      },
+      {
+        "name": "Sea Shanty",
+        "desc": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain **50** Elemental Mastery, and 2s after the effect occurs, **2.5** Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      },
+      {
+        "name": "Sea Shanty",
+        "desc": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain **60** Elemental Mastery, and 2s after the effect occurs, **3** Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      },
+      {
+        "name": "Sea Shanty",
+        "desc": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain **70** Elemental Mastery, and 2s after the effect occurs, **3.5** Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      },
+      {
+        "name": "Sea Shanty",
+        "desc": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain **80** Elemental Mastery, and 2s after the effect occurs, **4** Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      }
+    ]
+  },
   "Predator": {
     "name": "Predator",
     "desc": "A uniquely-designed bow. This should not belong in this world.",
@@ -10871,6 +11746,131 @@
       {
         "name": "Eagle Spear of Justice",
         "desc": "On hit, increases ATK by **6%** for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by **24%**."
+      }
+    ]
+  },
+  "Prospector's Drill": {
+    "name": "Prospector's Drill",
+    "desc": "A long-handled drill that you can rarely find nowadays. It was often used in delving and in carving stones.",
+    "weaponType": "Polearm",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.734901428222656,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.05999999865889549,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Prospectors_Drill.png",
+    "awakenIcon": "img/weapon_woke/Prospectors_Drill.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Old Operative's Pocket Watch",
+        "EnemyDropTierA2": "Operative's Standard Pocket Watch",
+        "EnemyDropTierA3": "Operative's Constancy",
+        "EnemyDropTierB1": "Meshing Gear",
+        "EnemyDropTierB2": "Mechanical Spur Gear",
+        "EnemyDropTierB3": "Artificed Dynamic Gear",
+        "WeaponAsc1": "Fragment of an Ancient Chord",
+        "WeaponAsc2": "Chapter of an Ancient Chord",
+        "WeaponAsc3": "Movement of an Ancient Chord",
+        "WeaponAsc4": "Echo of an Ancient Chord"
+      }
+    },
+    "lore": "A handy tool that can drill into the ground and rocks with ease.\nIt had a wide range of uses in prospecting and other operations.\nEven stonemasons and construction workers utilized its characteristics,\nTo cut rocks and create preliminary shapes and structures.\n\nLike the chainsaw once popular in the workshops and docks,\nIt relied on traditional and inefficient fuel to run.\nAt that time, when controllable Pneumousia annihilation reactions had not been developed,\nThe primitive clockwork meka were hindered by suboptimal kinematics and dynamics,\nAnd were seen as nothing more than curiosities and indulgences,\nWhile manual labor remained a necessity.\n\nThe tool's long grip was a fuel storage compartment and should be treated with care.\nEven so, there were records of the drill being used in battle.\n\nThe tool's piercing and cutting power were unmatched.\nSince it could pierce through even rocks like a hot knife through butter,\nIt made quick work out of penetrating through even softer materials.\nAs society advanced, this type of tool gradually ceased to be used in public.\nAnd like some other tools, unauthorized possession of it also became prohibited by administrative order.",
+    "refinements": [
+      {
+        "name": "Masons' Ditty",
+        "desc": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain **3%** ATK and **7%** All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      },
+      {
+        "name": "Masons' Ditty",
+        "desc": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain **4%** ATK and **8.5%** All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      },
+      {
+        "name": "Masons' Ditty",
+        "desc": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain **5%** ATK and **10%** All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      },
+      {
+        "name": "Masons' Ditty",
+        "desc": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain **6%** ATK and **11.5%** All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      },
+      {
+        "name": "Masons' Ditty",
+        "desc": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain **7%** ATK and **13%** All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
       }
     ]
   },
@@ -11624,6 +12624,131 @@
       }
     ]
   },
+  "Range Gauge": {
+    "name": "Range Gauge",
+    "desc": "A measuring instrument that you can rarely find nowadays. It is capable of firing arrows.",
+    "weaponType": "Bow",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.734901428222656,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.05999999865889549,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Range_Gauge.png",
+    "awakenIcon": "img/weapon_woke/Range_Gauge.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Drop of Tainted Water",
+        "EnemyDropTierA2": "Scoop of Tainted Water",
+        "EnemyDropTierA3": "Newborn Tainted Hydro Phantasm",
+        "EnemyDropTierB1": "Transoceanic Pearl",
+        "EnemyDropTierB2": "Transoceanic Chunk",
+        "EnemyDropTierB3": "Xenochromatic Crystal",
+        "WeaponAsc1": "Fragment of an Ancient Chord",
+        "WeaponAsc2": "Chapter of an Ancient Chord",
+        "WeaponAsc3": "Movement of an Ancient Chord",
+        "WeaponAsc4": "Echo of an Ancient Chord"
+      }
+    },
+    "lore": "A tool often used for urban construction and ruin exploration in the past.\nOften used to measure angles, it also possessed a state of the art ability to measure and estimate distance.\nRelying on precisely crafted special arrows and the hands of trained professionals,\nIt could keep the flight trajectory of arrows as straight as light itself.\n\nIn addition to planning and construction, it also often came in handy for exploration and even criminal investigations.\nIn skilled hands, its distance measurements could be highly accurate.\nDuring past explorations of the ruins of Remuria, the exploration teams often brought this range gauge along,\nMostly to locate the historic sites buried by time and destruction.\nEven the modern Hurlock novels that gained great popularity later on,\nWould feature it in a story about locating a secret chamber.\n\nPresently, many range gauges are gathering dust on the shelves of antique shops or attic cellars.\nAs more and more similar tools with greater ease-of-use and a lower skill requirement came into general use,\nThe production of special arrows has completely ceased, and they too were soon lost and forgotten.\nHowever, as the gauge remains a longbow that can be carried around without arousing any suspicion or questioning,\nIt has been used for several purposes beyond its original design during some certain tumultuous times.",
+    "refinements": [
+      {
+        "name": "Masons' Ditty",
+        "desc": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain **3%** ATK and **7%** All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      },
+      {
+        "name": "Masons' Ditty",
+        "desc": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain **4%** ATK and **8.5%** All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      },
+      {
+        "name": "Masons' Ditty",
+        "desc": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain **5%** ATK and **10%** All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      },
+      {
+        "name": "Masons' Ditty",
+        "desc": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain **6%** ATK and **11.5%** All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      },
+      {
+        "name": "Masons' Ditty",
+        "desc": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain **7%** ATK and **13%** All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      }
+    ]
+  },
   "Raven Bow": {
     "name": "Raven Bow",
     "desc": "Ravens are known to be the ferrymen of the dead. This bow's limb is decorated with raven feathers, which forebode the imminent death of its target.",
@@ -11996,6 +13121,131 @@
       {
         "name": "Gokadaiou Otogibanashi",
         "desc": "DEF is increased by **56%**. Normal and Charged Attack DMG is increased by **80%** of DEF."
+      }
+    ]
+  },
+  "Rightful Reward": {
+    "name": "Rightful Reward",
+    "desc": "A sharp spear. Only its tip remains freshly bloodstained.",
+    "weaponType": "Polearm",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.734901428222656,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "HP%",
+        "init": 0.05999999865889549,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Rightful_Reward.png",
+    "awakenIcon": "img/weapon_woke/Rightful_Reward.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Rift Core",
+        "EnemyDropTierA2": "Foreign Synapse",
+        "EnemyDropTierA3": "Alien Life Core",
+        "EnemyDropTierB1": "Meshing Gear",
+        "EnemyDropTierB2": "Mechanical Spur Gear",
+        "EnemyDropTierB3": "Artificed Dynamic Gear",
+        "WeaponAsc1": "Broken Goblet of the Pristine Sea",
+        "WeaponAsc2": "Wine Goblet of the Pristine Sea",
+        "WeaponAsc3": "Silver Goblet of the Pristine Sea",
+        "WeaponAsc4": "Golden Goblet of the Pristine Sea"
+      }
+    },
+    "lore": "Thieves are, after all, thieves, no matter how clever their tricks.\nCrimes must be publicly punished, and lies must be publicly exposed.\nThat is how the world ought to operate, and how righteousness should be.\nBut when it comes to \"how things ought to be,\" it is always fiendishly difficult to get ideal results.\n\nIn her youth she fought with a young swordsman, but she was bewildered by his crafty eyes, and deceived by his intentionally slow rhythm,\nShe finally revealed a critical weakness that she normally never would and her arm was struck by his blade, forcing her to concede that her spearmanship was inferior.\nShe once thought to seek out that swordsman once again, and give it her all in a final duel, only to accidentally hear that he had long retired...\nLong had he hidden his face, wounded in the pursuit of public service, beneath a mask, and he had lost the frivolous, provocative voice and cadence he once had.\nTired of all that the Marechaussee Hunters faced, he had turned to strong drink.\n\nThis was without doubt a betrayal of his past life, but the spear-wielder had to discover the truth behind the rumors for herself.\nAnd so, chasing the swordsman's footsteps and wounds, she pursued her fated opponent...\nThough someone dear were to fall upon the arena of fate, even if her heart were to be completely shattered,\nAfter following the trail to the mask left behind by the swordsman, all her trials and tribulations seemed to have been rewarded at last.\n\nHowever, the end of that pursuit was most unexpected, and had nothing to do with the justice sought by the once-legendary Champion Duelist...\n\n\"Ah, the renowned Marfisa this time, is it...?\"\n\"Take heart. Your fine spear-arm will be of use.\"\n\n\"Master. This is already the second, I'm afraid that the next...\"\n\n\"I know.\"",
+    "refinements": [
+      {
+        "name": "Tip of the Spear",
+        "desc": "When the wielder is healed, restore **8** Energy. This effect can be triggered once every 10s, and can occur even when the character is not on the field."
+      },
+      {
+        "name": "Tip of the Spear",
+        "desc": "When the wielder is healed, restore **10** Energy. This effect can be triggered once every 10s, and can occur even when the character is not on the field."
+      },
+      {
+        "name": "Tip of the Spear",
+        "desc": "When the wielder is healed, restore **12** Energy. This effect can be triggered once every 10s, and can occur even when the character is not on the field."
+      },
+      {
+        "name": "Tip of the Spear",
+        "desc": "When the wielder is healed, restore **14** Energy. This effect can be triggered once every 10s, and can occur even when the character is not on the field."
+      },
+      {
+        "name": "Tip of the Spear",
+        "desc": "When the wielder is healed, restore **16** Energy. This effect can be triggered once every 10s, and can occur even when the character is not on the field."
       }
     ]
   },
@@ -13124,6 +14374,131 @@
       }
     ]
   },
+  "Sacrificial Jade": {
+    "name": "Sacrificial Jade",
+    "desc": "An ancient jade pendant that gleams like clear water. It seems to have been used in ancient ceremonies.",
+    "weaponType": "Catalyst",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 41.067100524902344,
+        "curve": "ATK 2.4"
+      },
+      {
+        "stat": "CRIT Rate",
+        "init": 0.07999999821186066,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Sacrificial_Jade.png",
+    "awakenIcon": "img/weapon_woke/Sacrificial_Jade.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Mist Grass Pollen",
+        "EnemyDropTierA2": "Mist Grass",
+        "EnemyDropTierA3": "Mist Grass Wick",
+        "EnemyDropTierB1": "Divining Scroll",
+        "EnemyDropTierB2": "Sealed Scroll",
+        "EnemyDropTierB3": "Forbidden Curse Scroll",
+        "WeaponAsc1": "Luminous Sands from Guyun",
+        "WeaponAsc2": "Lustrous Stone from Guyun",
+        "WeaponAsc3": "Relic from Guyun",
+        "WeaponAsc4": "Divine Body from Guyun"
+      }
+    },
+    "lore": "By the time Rex Lapis arrived, the ancestors of the people of Chenyu Vale had long since regressed into tribes scattered amongst the hills.\nCarving jade as pure as fresh water, and conducting festivals in solemn accord with their ancient traditions,\nWaiting for an auspicious day, the tribespeople would cease their onerous labors, and sacrifice their beautiful jade, throwing it into the water as obeisance...\nCommemorating the long-silent messengers of the cerulean sky, and looking forward to the blessings and disasters of the coming year.\n\nWhen the ancient god who once ruled Chenyu Vale had perished in foreign lands, and Rex Lapis's order assumed control of the land,\nThose ancient forebears amidst their mountainous wilds slowly accepted the civilization of Liyue, but retained the tradition of offering sacrifices.\nWith the passing of long years, even the hardest rocks will be eroded by the gentle flow of water into round stones, and the ancient customs of the locals were accepted by the new migrants from Liyue,\nAnd thus, this place has developed different social customs from Liyue Harbor, and the people have a gentle nature different from those of Liyue Harbor.\n\nAs the endless years passed and seasons turned, the ancestral forebears and their tribes mingled and fused with the newcomers to become new clans and settlements...\nHaving lost the ancient art of carving those jade ornaments, in the new era, tea is grown, and tea fields are now spread across Chenyu Vale.\nThough the people of Chenyu Vale no longer toss jade ornaments, clear like pure water, into the eternally flowing rivers as sacrifices,\nThe ceremony of going to Yilong Wharf to commemorate the ancestors and the dead has survived to this day, like gem-bright jade in a clear mountain stream.\n\nSometimes, herb gatherers will still find blueish-green Yilong jade in the ruins among the mountains and valleys,\nThough it no longer responds to the ancient heavens, it still shines brightly with the light of this world.\nThe silent jade itself has never told that ancient history of their ancestors' hardships and wanderings,\nAll the puzzles of the past are left merely waiting for those who accidentally pick them up, to guess and imagine.",
+    "refinements": [
+      {
+        "name": "Jade Circulation",
+        "desc": "When not on the field for more than 5s, Max HP will be increased by **32%** and Elemental Mastery will be increased by **40**. These effects will be canceled after the wielder has been on the field for 10s."
+      },
+      {
+        "name": "Jade Circulation",
+        "desc": "When not on the field for more than 5s, Max HP will be increased by **40%** and Elemental Mastery will be increased by **50**. These effects will be canceled after the wielder has been on the field for 10s."
+      },
+      {
+        "name": "Jade Circulation",
+        "desc": "When not on the field for more than 5s, Max HP will be increased by **48%** and Elemental Mastery will be increased by **60**. These effects will be canceled after the wielder has been on the field for 10s."
+      },
+      {
+        "name": "Jade Circulation",
+        "desc": "When not on the field for more than 5s, Max HP will be increased by **56%** and Elemental Mastery will be increased by **70**. These effects will be canceled after the wielder has been on the field for 10s."
+      },
+      {
+        "name": "Jade Circulation",
+        "desc": "When not on the field for more than 5s, Max HP will be increased by **64%** and Elemental Mastery will be increased by **80**. These effects will be canceled after the wielder has been on the field for 10s."
+      }
+    ]
+  },
   "Sacrificial Sword": {
     "name": "Sacrificial Sword",
     "desc": "A ceremonial sword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
@@ -13371,6 +14746,131 @@
       {
         "name": "Forest Sanctuary",
         "desc": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character **120** Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack."
+      }
+    ]
+  },
+  "Scion of the Blazing Sun": {
+    "name": "Scion of the Blazing Sun",
+    "desc": "An ancient longbow that is a remnant of King Deshret's ancient era. An indecipherable ancient text and solemn patterns have been carved into it.",
+    "weaponType": "Bow",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.734901428222656,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "CRIT Rate",
+        "init": 0.03999999910593033,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Scion_of_the_Blazing_Sun.png",
+    "awakenIcon": "img/weapon_woke/Scion_of_the_Blazing_Sun.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "A Flower Yet to Bloom",
+        "EnemyDropTierA2": "Treasured Flower",
+        "EnemyDropTierA3": "Wanderer's Blooming Flower",
+        "EnemyDropTierB1": "Fungal Spores",
+        "EnemyDropTierB2": "Luminescent Pollen",
+        "EnemyDropTierB3": "Crystalline Cyst Dust",
+        "WeaponAsc1": "Echo of Scorching Might",
+        "WeaponAsc2": "Remnant Glow of Scorching Might",
+        "WeaponAsc3": "Dream of Scorching Might",
+        "WeaponAsc4": "Olden Days of Scorching Might"
+      }
+    },
+    "lore": "In the era when the desert king ruled the lands, authority covered the realm like sunlight over the rolling dunes.\nThe surviving songs of the nomads are like the chirping of desert insects, forever singing of the glory of that forgotten golden age.\nThe red lord, they say, once contended against the bright sun, and ultimately fell to the earth like a meteorite.\nThere are those amongst the priests, they say, who were not slain by the kings and princes who followed, who pass down King Deshret's art of archery...\n\nThe descendants of the priests call themselves the \"Heirs of the Burning Sun,\" and practice the ceremonies of King Deshret's kingdom from days past without ceasing.\nEven the travelling merchants and their information networks know precious little about these mysterious cabals.\nFew among the gilded descendants of the desert have the right to inherit the legacy of King Deshret's priests, and few can still read the ancient texts,\nMuch less the graceful combat arts that the ancient priests had mastered: cudgel, spear, and that of which they were most proud, archery.\n\nThe Eremites name these people \"ascetics,\" and some have now turned their loyalty to the only surviving God King of Sumeru.\nBut most disappeared into the boundless desert, hiding among the snakes, scorpions, and specters of the ancient kingdom.\nThose loyal to the rainforest retain the customs of being hidden and silent, using their strength to repay the ancient favor,\nYet in their heart of hearts, they deeply mourn their ancestors and His Majesty, King Deshret, who met with disaster millennia before.\n\nIn this way, the elegant and ancient art and ceremony of archery has been passed down till today by the descendants of the priests.\nThough the meaning of many ancient texts and pictures have long been lost or have succumbed to error,\nAnd though the mighty figure of the red lord nocking an arrow to his bow has become only a shattered dream of the distant past...\nThe fragile embers of that ancient nation have not yet been extinguished, but have become an even more deeply concealed element,\nPassing on their inherited knowledge of the ancient days, protecting civilization today.\n\nAnd among those \"ascetics\" who disappeared into the desert, some strayed from the path of the priest.\nThey became obsessed with fleeting mirages of authority, attempting to meddle with and mold the nomadic tribes.\nUsing the strict ceremonies of the ancient past, they trained lost children as \"Falcons.\"\nThe advanced techniques honed from generation to generation to cultivate noble warriors have today taken a decidedly different path.\nTo assist in the birth of a new \"king,\" they trained completely mindless Falcons and dogs...\nBut that is another tale for another time, for those with great ambition often disappear into the vast desert,\nWithout a sound, like bitter tears falling into the infinite and endless ocean.",
+    "refinements": [
+      {
+        "name": "The Way of Sunfire",
+        "desc": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing **60%** ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take **28%** more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s."
+      },
+      {
+        "name": "The Way of Sunfire",
+        "desc": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing **75%** ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take **35%** more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s."
+      },
+      {
+        "name": "The Way of Sunfire",
+        "desc": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing **90%** ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take **42%** more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s."
+      },
+      {
+        "name": "The Way of Sunfire",
+        "desc": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing **105%** ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take **49%** more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s."
+      },
+      {
+        "name": "The Way of Sunfire",
+        "desc": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing **120%** ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take **56%** more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s."
       }
     ]
   },
@@ -13877,7 +15377,7 @@
         "WeaponAsc4": "Chunk of Aerosiderite"
       }
     },
-    "lore": "Feeling defeated, it dawned on the Skyrider that there are things that swordsmanship cannot achieve.\nSo instead of believing in his swordsmanship, he turned to the sword itself.\n\"Bigger is always better, and swords are no exception,\" he thought.\nIn the grand Guyun Stone Forest, he embraced his grand ending.\nHis dream of flight came to an end, but his sword and story would never fade...",
+    "lore": "Feeling defeated, it dawned on the Skyrider that there are things that swordsmanship cannot achieve.\nSo instead of believing in his swordsmanship, he turned to the sword itself.\n\"Bigger is always better, and swords are no exception,\" he thought.\nIn the grand Guyun Stone Forest, he embraced his grand ending.\nHis dream of flight came to an end, but his sword and story would never fade...?",
     "refinements": [
       {
         "name": "Courage",
@@ -15151,6 +16651,131 @@
       }
     ]
   },
+  "Song of Stillness": {
+    "name": "Song of Stillness",
+    "desc": "A strange longbow that resembles a sea creature. Its string makes no sound at all.",
+    "weaponType": "Bow",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.09000000357627869,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Song_of_Stillness.png",
+    "awakenIcon": "img/weapon_woke/Song_of_Stillness.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Drop of Tainted Water",
+        "EnemyDropTierA2": "Scoop of Tainted Water",
+        "EnemyDropTierA3": "Newborn Tainted Hydro Phantasm",
+        "EnemyDropTierB1": "Firm Arrowhead",
+        "EnemyDropTierB2": "Sharp Arrowhead",
+        "EnemyDropTierB3": "Weathered Arrowhead",
+        "WeaponAsc1": "Fragment of an Ancient Chord",
+        "WeaponAsc2": "Chapter of an Ancient Chord",
+        "WeaponAsc3": "Movement of an Ancient Chord",
+        "WeaponAsc4": "Echo of an Ancient Chord"
+      }
+    },
+    "lore": "Legend has it that a hero who fell into the abyss left this strange bow behind, the body of which shines brightly like pearls and secret silver.\nThe tint of the string is like the blackest seas or the lightless void, and it is as silent as empty vacuum.\n\nIn the grand days of old, golems formed an army and fought against the dragons in the depths of the sea.\nThe dragons, born of the sea, were a brutal race ruled by a King named Scylla,\nAt that time, the Dragon King Scylla recruited a horde of barbarians and vishaps, driving them toward the threshold of the ancient nation,\nAnd the bow-wielding army moved forward to intercept and resist them, until the great Harmost sealed away Scylla's power...\n\nAfterwards, the once-glorious kingdom became nothing more than a bed of ruins scattered across the seafloor,\nBut the remnants of the golem army continued fighting the descendants of the dragons in places the sunlight couldn't reach...\nThe still deeps had never been perturbed by bloody battle, but its petrified heart gradually began to collapse.\nThe last archer and the lone descendant of the dragon eventually reached a peace agreement.\n\nThe endless clash of tooth and nail had grown vexing,\nAnd so sword and bow would no longer draw any gaze in the lightless abyss.\nThe knights of the lost nation and the vishap warriors could not help but burst out laughing,\nDiscarding their burdensome weapons, as if finally freed from a meaningless blood-feud...\n\nAs for what later happened in the stillness beneath the ocean depths, it was interpreted and re-interpreted by countless operas, far into the future.\nSome say that both betrayed each of their homelands, and built new settlements for exiles...\nLike this ancient, magnificent bow, many stories eventually sink into the still, silent deeps, becoming naught but fanciful legends.\n\"Savagery\" at last had mastery over the former lands of the kingdom, and many stories and songs are now little more than harmless, fictional dramas...",
+    "refinements": [
+      {
+        "name": "Benthic Pulse",
+        "desc": "After the wielder is healed, they will deal **16%** more DMG for 8s. This can be triggered even when the character is not on the field."
+      },
+      {
+        "name": "Benthic Pulse",
+        "desc": "After the wielder is healed, they will deal **20%** more DMG for 8s. This can be triggered even when the character is not on the field."
+      },
+      {
+        "name": "Benthic Pulse",
+        "desc": "After the wielder is healed, they will deal **24%** more DMG for 8s. This can be triggered even when the character is not on the field."
+      },
+      {
+        "name": "Benthic Pulse",
+        "desc": "After the wielder is healed, they will deal **28%** more DMG for 8s. This can be triggered even when the character is not on the field."
+      },
+      {
+        "name": "Benthic Pulse",
+        "desc": "After the wielder is healed, they will deal **32%** more DMG for 8s. This can be triggered even when the character is not on the field."
+      }
+    ]
+  },
   "Staff of Homa": {
     "name": "Staff of Homa",
     "desc": "A \"firewood staff\" that was once used in ancient and long-lost rituals.",
@@ -15632,6 +17257,131 @@
       {
         "name": "Descension",
         "desc": "**Effective only on the following platform: **\n**\"PlayStation Network\"**\nHitting opponents with Normal and Charged Attacks grants a **50%** chance to deal **200%** ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by **66**."
+      }
+    ]
+  },
+  "Talking Stick": {
+    "name": "Talking Stick",
+    "desc": "Most people will find this obsidian-inlaid club quite convincing indeed.",
+    "weaponType": "Claymore",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.734901428222656,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "CRIT Rate",
+        "init": 0.03999999910593033,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Talking_Stick.png",
+    "awakenIcon": "img/weapon_woke/Talking_Stick.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Desiccated Shell",
+        "EnemyDropTierA2": "Sturdy Shell",
+        "EnemyDropTierA3": "Marked Shell",
+        "EnemyDropTierB1": "Slime Condensate",
+        "EnemyDropTierB2": "Slime Secretions",
+        "EnemyDropTierB3": "Slime Concentrate",
+        "WeaponAsc1": "Oasis Garden's Reminiscence",
+        "WeaponAsc2": "Oasis Garden's Kindness",
+        "WeaponAsc3": "Oasis Garden's Mourning",
+        "WeaponAsc4": "Oasis Garden's Truth"
+      }
+    },
+    "lore": "As Tenoch gazed upon the vast burning plains, a turbid black tide welled up from the horizon.\nHe blew his bronze horn, and raised his colossal obsidian club to his shoulder.\n\n\"The crisis emerges, yet the tribal leaders bicker endlessly.\"\n\"Let Tenoch bring his 'talking stick' over, and let it mediate the discussion.\"\n\"Tenoch belongs no longer to any tribe, yet his fury still burns, unquenched.\"\n\nAnd thus did lonely Tenoch go forth, his colossal obsidian club resting on his shoulder,\nTraversing the rugged wilds where dragons roamed, that wilderness of hot springs and lava.\n\nThe first to come forward and receive the hero Tenoch was the great runner Wanjiru and her raucous companion, Kayeke.\nHer dark skin showed traces of her journey with the hero, the deep scars still visible.\nThough the constant infighting among the major tribes was exhausting, Tenoch's invitation had reignited her vigor.\nA ferocious battle for the burning lands of Natlan loomed — what reason did Wanjiru and her tribespeople have to refuse?\n\nThe second to step forward and embrace Tenoch was the brave Menilek and his faithful companion Ngoubou.\n\"Come, come! Though every tribe has chased you from their sight, though we are always at odds,\"\n\"But in my eyes, you, club-carrying Tenoch, are a hero among heroes, a brother amongst brothers!\"\n\nThe third to be found by the hero Tenoch was the cunning Sanhaj Kompore and his enigmatic companion Mahamba.\nSanhaj had been persuaded by the \"talking stick\" before, and the hero agreed to give him the spoils before he agreed to join the fellowship of warriors.\nKompore had foreseen his and Tenoch's heroic end, and how the place that would become known as the \"Mare Jivari\" in later days would be born.\n\"But nay, it matters little, it matters not! Perhaps there may come a day when the scoundrel made famous for being clever as a viper shall become a hero.\"\n\nThe fourth willingly volunteered to join the hero Tenoch. This was young Burkina and his reckless companion, Kongamato.\nBurkina had never experienced the hardships of battle with Tenoch, but the imposing obsidian club guided him towards the perilous journey.\nWar had left countless scars upon Tenoch's body, and for Burkina, these were the proof of the path that he too must tread...\nRevolution should be the fate of the young, to bleed for burning justice, rather than rotting on a comfortable bed of grass.\n\nThe fifth to be persuaded by the hero Tenoch was Sundjatta, chief of the mines, and his steady companion Muhuru.\n\"For the stability of all the tribes, and to avoid further conflict, I once petitioned the Pyro Archon to vote for your expulsion.\"\n\"But even today, you have yet to give up on bloody battle... It just as well, then, that this may be the final battle of our generation.\"\n\"If you are so determined to go, then I have no reason not to accompany you, but do not involve my tribe.\"\n\nThe sixth to go with the hero Tenoch was his greatest foe in his youth, the giant Tupac. No mount could possibly support his massive body.\nWhen Tenoch carried his huge club to Tupac's dwelling to speak with him, he found him carefully counting the multitude of scars left on his body by challengers.\n\"Over 300 scars, twenty broken bones, and over 100 shards of obsidian buried deep within my flesh, like tiny jewels.\"\n\"Two hundred minor wounds, two broken ribs, and one eye that will never again perceive distance. The trophies you left me are equally generous.\"\n\nThe two former enemies burst into riotous laughter, and they joined hands.\nAnd thus, Tenoch found allies from each of the six major tribes.\nGlittering like the flames of roaring wildfire, they crashed into the mountains of darkness...",
+    "refinements": [
+      {
+        "name": "\"The Silver Tongue\"",
+        "desc": "ATK will be increased by **16%** for 15s after being affected by Pyro. This effect can be triggered once every 12s. All Elemental DMG Bonus will be increased by **12%** for 15s after being affected by Hydro, Cryo, Electro, or Dendro. This effect can be triggered once every 12s."
+      },
+      {
+        "name": "\"The Silver Tongue\"",
+        "desc": "ATK will be increased by **20%** for 15s after being affected by Pyro. This effect can be triggered once every 12s. All Elemental DMG Bonus will be increased by **15%** for 15s after being affected by Hydro, Cryo, Electro, or Dendro. This effect can be triggered once every 12s."
+      },
+      {
+        "name": "\"The Silver Tongue\"",
+        "desc": "ATK will be increased by **24%** for 15s after being affected by Pyro. This effect can be triggered once every 12s. All Elemental DMG Bonus will be increased by **18%** for 15s after being affected by Hydro, Cryo, Electro, or Dendro. This effect can be triggered once every 12s."
+      },
+      {
+        "name": "\"The Silver Tongue\"",
+        "desc": "ATK will be increased by **28%** for 15s after being affected by Pyro. This effect can be triggered once every 12s. All Elemental DMG Bonus will be increased by **21%** for 15s after being affected by Hydro, Cryo, Electro, or Dendro. This effect can be triggered once every 12s."
+      },
+      {
+        "name": "\"The Silver Tongue\"",
+        "desc": "ATK will be increased by **32%** for 15s after being affected by Pyro. This effect can be triggered once every 12s. All Elemental DMG Bonus will be increased by **24%** for 15s after being affected by Hydro, Cryo, Electro, or Dendro. This effect can be triggered once every 12s."
       }
     ]
   },
@@ -16132,6 +17882,256 @@
       {
         "name": "Shanty",
         "desc": "Increases Elemental Burst DMG by **32%** and Elemental Burst CRIT Rate by **12%**."
+      }
+    ]
+  },
+  "The Dockhand's Assistant": {
+    "name": "The Dockhand's Assistant",
+    "desc": "A convenient cutting tool that you can rarely find nowadays. You can replace the blades as they are dulled by usage.",
+    "weaponType": "Sword",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "HP%",
+        "init": 0.09000000357627869,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/The_Dockhands_Assistant.png",
+    "awakenIcon": "img/weapon_woke/The_Dockhands_Assistant.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Old Operative's Pocket Watch",
+        "EnemyDropTierA2": "Operative's Standard Pocket Watch",
+        "EnemyDropTierA3": "Operative's Constancy",
+        "EnemyDropTierB1": "Transoceanic Pearl",
+        "EnemyDropTierB2": "Transoceanic Chunk",
+        "EnemyDropTierB3": "Xenochromatic Crystal",
+        "WeaponAsc1": "Dross of Pure Sacred Dewdrop",
+        "WeaponAsc2": "Sublimation of Pure Sacred Dewdrop",
+        "WeaponAsc3": "Spring of Pure Sacred Dewdrop",
+        "WeaponAsc4": "Essence of Pure Sacred Dewdrop"
+      }
+    },
+    "lore": "A once-popular tool during the days when Fontaine was more dependent on manual labor.\nThe blade might not have been strong enough for prolonged, intense use,\nBut it made up for this by allowing the blunt section to be broken off at the user's convenience.\n\nDock workers often used it to cut through thin materials and untie knotted cables.\nAlthough the use of this type of weapon was always heavily regulated and no blade never truly belonged to the user,\nIt was widely circulated under the tables, and was once hailed as the blade of the people.\nIt was perfect for self-preservation in less friendly natural environments, as well as for cutting paths through aquatic plants.\nLegend has it that many people also discovered new uses for it during the purge.\nAs society advanced and more regulations were put into place, this type of blade gradually ceased to appear in public.\n\nAlthough such blades were not owned by their wielders,\nThose who depended on them saw them as extensions of their limbs,\nAnd so they often inscribed their names onto the hilts and blades to avoid losing them.\nThe name inscribed on this blade belongs to one of Poisson's former mayors.",
+    "refinements": [
+      {
+        "name": "Sea Shanty",
+        "desc": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain **40** Elemental Mastery, and 2s after the effect occurs, **2** Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      },
+      {
+        "name": "Sea Shanty",
+        "desc": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain **50** Elemental Mastery, and 2s after the effect occurs, **2.5** Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      },
+      {
+        "name": "Sea Shanty",
+        "desc": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain **60** Elemental Mastery, and 2s after the effect occurs, **3** Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      },
+      {
+        "name": "Sea Shanty",
+        "desc": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain **70** Elemental Mastery, and 2s after the effect occurs, **3.5** Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      },
+      {
+        "name": "Sea Shanty",
+        "desc": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain **80** Elemental Mastery, and 2s after the effect occurs, **4** Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+      }
+    ]
+  },
+  "The First Great Magic": {
+    "name": "The First Great Magic",
+    "desc": "A stage prop once used by a past \"Great Magician.\" Its final secret was that it was also a weapon beyond the pale.",
+    "weaponType": "Bow",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 45.9364013671875,
+        "curve": "ATK 3.1"
+      },
+      {
+        "stat": "CRIT DMG",
+        "init": 0.14399999380111694,
+        "curve": "C3"
+      }
+    ],
+    "icon": "img/weapon/The_First_Great_Magic.png",
+    "awakenIcon": "img/weapon_woke/The_First_Great_Magic.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts5",
+      "mapping": {
+        "EnemyDropTierA1": "Drop of Tainted Water",
+        "EnemyDropTierA2": "Scoop of Tainted Water",
+        "EnemyDropTierA3": "Newborn Tainted Hydro Phantasm",
+        "EnemyDropTierB1": "Transoceanic Pearl",
+        "EnemyDropTierB2": "Transoceanic Chunk",
+        "EnemyDropTierB3": "Xenochromatic Crystal",
+        "WeaponAsc1": "Fragment of an Ancient Chord",
+        "WeaponAsc2": "Chapter of an Ancient Chord",
+        "WeaponAsc3": "Movement of an Ancient Chord",
+        "WeaponAsc4": "Echo of an Ancient Chord"
+      }
+    },
+    "lore": "\"It is I, the masterful magician — Parsifal 'the Great'!\"\n\"You will bear witness to a fantastic world, never before imagined!\"\n\"This hat, for instance, leads to the legendary eastern Paradise!\"\n\"Or perhaps, let us witness peril within a mirror, unrestrained by our laws of space and time!\"\n\nWhat is called magic is quite similar to fraud and theft,\nThe first relies on acting and narrative creation, the second on technique.\n\n\"There was an elusive thief in Master Coppelius's play who was a master of appearing and disappearing at their leisure, wasn't there?\"\n\"Let's use that for our stage name! Whaddaya think?\"\nThe excited youth sitting at a snack stall next to the Fleuve Cendre spoke without hesitation.\n\"Parsifal? What about me, then? Am I to be the lady of the sapphire, the beauty you stole?\"\nReplied the youngster's partner. Laughter lit up the undercity that had never seen sunlight.\n\nAnd thus, the two young thieving sisters who made their living cheating and stealing at the glorious opera house,\nWere dazzled by the comic stories of knights-errant onstage, and forgot their original purpose for entering the theater,\nAnd the idea of relying on their skills and technique to step onto the stage, under the shining lights, began to bud,\nOf using their brilliant performances to illuminate equally the dreams of those forced to stand, as well as those seated in luxurious VIP boxes.\nOne of them would play \"Parsifal,\" the other, her assistant Josephine.\nTheir first performances were in Eduardo's taverns, beside the sewers, and in front of food stalls,\nFrom being before the eyes of children, brightly shining out from beneath faces stained with ash and oil and amidst the applause of the denizens,\nTo the bright spotlights of the splendorous theater, brilliant, burning like the sun.\n\"Feathers into Butterflies,\" \"Paradise,\" \"Fire in the Mirror,\" \"The Golden Fish\"...\nJust as the light of these performances illuminated both the luxurious VIP booths and the standing audience,\nThe name \"Parsifal\" became the talk of the town in the cities, both above and below.\n\nThose clothed in purple say that all have their place, and those before the stage are no different:\nWhether in the exquisite booths overlooking the stage, or along the crowded floor with standing room only.\nYet, though the light of the performance shines equally upon all who see it, outside the theater,\nBriefly forgotten anger and indignation will permeate, like tree roots penetrating a stone wall.\n\nDuring the Fleuve Cendre operation, that wall finally collapsed.\nThe girl who always played Josephine rushed back to the Fleuve Cendre.\nApart from the ever-present smell of iron and rot,\nThere was only the smell of anger, grief, and blood that had not yet dried.\n\nAll the people knew Parsifal, but an assistant is merely an assistant.\nIf that really was all things were, it would be simple, and easy.\nBut just as the assistant on stage is lopped in two by the sword, yet never harmed,\nAnd the missing pocket watch always returns to the audience unseen,\nThe girl finally lost her \"place\" in life.\nAnd thusly she designed a \"grand magic trick\" that belonged to them.\n\n\"It is I, the masterful magician — Parsifal 'the Great'!\"\n\"You will bear witness to a fantastic world, never before imagined!\"\n\"Here there shall be no aristocrats, no kings — no swords shall be pointed at you!\"\n\"None shall be born into wealth, none into poverty inescapable!\"",
+    "refinements": [
+      {
+        "name": "Parsifal the Great",
+        "desc": "DMG dealt by Charged Attacks increased by **16%**. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by **16%/32%/48%**. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by **4%/7%/10%**."
+      },
+      {
+        "name": "Parsifal the Great",
+        "desc": "DMG dealt by Charged Attacks increased by **20%**. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by **20%/40%/60%**. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by **6%/9%/12%**."
+      },
+      {
+        "name": "Parsifal the Great",
+        "desc": "DMG dealt by Charged Attacks increased by **24%**. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by **24%/48%/72%**. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by **8%/11%/14%**."
+      },
+      {
+        "name": "Parsifal the Great",
+        "desc": "DMG dealt by Charged Attacks increased by **28%**. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by **28%/56%/84%**. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by **10%/13%/16%**."
+      },
+      {
+        "name": "Parsifal the Great",
+        "desc": "DMG dealt by Charged Attacks increased by **32%**. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by **32%/64%/96%**. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by **12%/15%/18%**."
       }
     ]
   },
@@ -17007,6 +19007,256 @@
       {
         "name": "Rule by Thunder",
         "desc": "Increases ATK by **40%** and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by **24/48/80%**. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+      }
+    ]
+  },
+  "Tidal Shadow": {
+    "name": "Tidal Shadow",
+    "desc": "An exquisitely-crafted, standard-model sword forged for the high-ranking officers and flagship captains of Fontaine's old navy.",
+    "weaponType": "Claymore",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.09000000357627869,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Tidal_Shadow.png",
+    "awakenIcon": "img/weapon_woke/Tidal_Shadow.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Rift Core",
+        "EnemyDropTierA2": "Foreign Synapse",
+        "EnemyDropTierA3": "Alien Life Core",
+        "EnemyDropTierB1": "Meshing Gear",
+        "EnemyDropTierB2": "Mechanical Spur Gear",
+        "EnemyDropTierB3": "Artificed Dynamic Gear",
+        "WeaponAsc1": "Broken Goblet of the Pristine Sea",
+        "WeaponAsc2": "Wine Goblet of the Pristine Sea",
+        "WeaponAsc3": "Silver Goblet of the Pristine Sea",
+        "WeaponAsc4": "Golden Goblet of the Pristine Sea"
+      }
+    },
+    "lore": "In the glorious past, the pure white ironclad flagship \"Sponsian\" was the pride of Fontaine's Navy.\nIn that age, the metal-armored warships armed with heavy cannons and sturdy prows for ramming were the darlings of the Court of Fontaine.\nIn the age of the splendor of the opera house, none in the audience failed to give the white armada a standing ovation when it swept the golem legion aside.\n\nBefore her retirement, the proud Admiral Basil Elton could always be seen upon the Sponsian's bridge.\nElton's First Mate, Nathaniel Pickman, lost his place in the end, and spent the rest of his days trapped by a false heroic reputation.\nAt this time, the Navy had been completely disbanded due to the armada ceasing to exist forevermore. The once renowned Minister of the Navy had resigned with honors.\nPickman busied himself for many years attempting to persuade the Court of Fontaine to salvage and rebuild the \"Sponsian.\"\nBut his efforts were in vain, and the families of the fallen believed his efforts to rebuild the Fontainian Navy were little more than an attempt to fish for more glory...\nIn the end, the only thing remaining besides falsehoods and legends was this blue and white epee that once belonged to the Admiral.\n\n\"The 'Sponsian'? Awful name. What were you thinking, Pickman?\"\n\"The name of a usurper? Why, he and his dynasty may never have even existed—\"\n\"Anyway... I was just thinking aloud, y'know, and it just slipped out. Apologies, Captain.\"\n\n\"Relax, Pickman. You know what? Let's just call it that.\"\n\"That sense of unreal reality, I don't hate it.\"\n\nMany legends regarding the \"Sponsian\" and \"White Armada\" remained popular for some time after the destruction of the splendorous opera house,\nAnd they were staged at the newly-rebuilt opera house on Erinnyes to great success, until an accident put paid to such performances.\nOf them, the most memorable performance is the final battle of the armada: A heroic battle with a formidable barrage performed by ten battleship cannons onstage,\nWith the details having been reconstructed from the records of Basil Elton's First Mate.\nPerhaps Pickman did not think that absurd action worth writing down, just as he never once discussed it,\nOr perhaps the writers removed that detail from the script, feeling that it detracted from the intended epic tragedy,\nBut Basil Elton boarded the flagship once more after several years away, and muttered to Pickman and the other sailors:\n\"Looks like this time we can finally open fire on our enemies.\"\n\nIt was only after that she smiled and called out, as performed in the opera house:\n\"Well now, boys and girls! Can't do without me, I see! But if you wanna get nostalgic over tea, it'll have to wait!\"\n\"First, let's send that oversized punk who doesn't know what's what back down to the bottom of the waterfall!\"",
+    "refinements": [
+      {
+        "name": "White Cruising Wave",
+        "desc": "After the wielder is healed, ATK will be increased by **24%** for 8s. This can be triggered even when the character is not on the field."
+      },
+      {
+        "name": "White Cruising Wave",
+        "desc": "After the wielder is healed, ATK will be increased by **30%** for 8s. This can be triggered even when the character is not on the field."
+      },
+      {
+        "name": "White Cruising Wave",
+        "desc": "After the wielder is healed, ATK will be increased by **36%** for 8s. This can be triggered even when the character is not on the field."
+      },
+      {
+        "name": "White Cruising Wave",
+        "desc": "After the wielder is healed, ATK will be increased by **42%** for 8s. This can be triggered even when the character is not on the field."
+      },
+      {
+        "name": "White Cruising Wave",
+        "desc": "After the wielder is healed, ATK will be increased by **48%** for 8s. This can be triggered even when the character is not on the field."
+      }
+    ]
+  },
+  "Tome of the Eternal Flow": {
+    "name": "Tome of the Eternal Flow",
+    "desc": "A manual that was once passed down from generation to generation within an underwater priory. Today, none know of its existence.",
+    "weaponType": "Catalyst",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 44.33580017089844,
+        "curve": "ATK 3.4"
+      },
+      {
+        "stat": "CRIT DMG",
+        "init": 0.19200000166893005,
+        "curve": "C3"
+      }
+    ],
+    "icon": "img/weapon/Tome_of_the_Eternal_Flow.png",
+    "awakenIcon": "img/weapon_woke/Tome_of_the_Eternal_Flow.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts5",
+      "mapping": {
+        "EnemyDropTierA1": "Rift Core",
+        "EnemyDropTierA2": "Foreign Synapse",
+        "EnemyDropTierA3": "Alien Life Core",
+        "EnemyDropTierB1": "Meshing Gear",
+        "EnemyDropTierB2": "Mechanical Spur Gear",
+        "EnemyDropTierB3": "Artificed Dynamic Gear",
+        "WeaponAsc1": "Dross of Pure Sacred Dewdrop",
+        "WeaponAsc2": "Sublimation of Pure Sacred Dewdrop",
+        "WeaponAsc3": "Spring of Pure Sacred Dewdrop",
+        "WeaponAsc4": "Essence of Pure Sacred Dewdrop"
+      }
+    },
+    "lore": "\"We shall remember this oath of the thousand years, and defend the foundation of the capital of water.\"\n\"Never forget the shackles of sin that were once tempting as honey,\"\n\"And never forget our heavy responsibilities that may now seem like fetters.\"\n\"They represent the deity's honey-sweet grace and faith in us.\"\n\"We are the shield that guards against the disaster of the flood, and the line of defense against the breach.\"\n\nThe first watcher always led the new recruits to recite their oath.\nIndeed, no one would wish for such a life, but everything comes with a price.\nWe once succumbed to the euphoria of violence, or were driven by greed.\nThis vow is the recompense of justice, as well as the final chance at redemption.\nNeither sunlight nor family are present here, so we must find a semblance of joy.\nAlthough the watcher sometimes wondered if the sinners took these vows on their own accord,\nOr merely uttered syllables that meant nothing to them,\nHe still sincerely hoped that the wild joy he experienced when the deity entrusted this heavy responsibility to him,\nWould light up the path of these \"brothers and sisters\" of his, and give meaning to their lives,\nJust as it had lit up his hopeless and dreary future.\nThe teachings of the watchers would thus be passed from generation to generation, flowing down like an endless stream.\nFor if the harbinger of the apocalypse would indeed one day arrive, the flood would wash everything away.\nThe watchers would fight with both duty and joy in their our hearts, just as the goddess had found empathy for them in hers.\n\nMy duty is now complete, so I shall leave the goddess' grace and duty to you all.\nThe first watcher was buried between mineral veins of extraordinary splendor,\nBecause it is the place most filled with light. The man who had lived for many years in the shadows\nHeld the light he once saw in his heart as he quietly slumbered beneath the soil by the breach.\n\nThe flood that would wash everything away is never unleashed,\nAs fate is often loath to grant would-be heroes an honorable death.\nEven so, an inaudible trickle began to silently corrode the priory as if a thief shrouded in the shadows.\nThose forced to join the order and live underwater gradually increased in number,\nYet those who swore the oath, understood its meaning, and knew the teachings only declined over time.\nMany long years later, a grand and ominous fortress would rise from the seabed,\nBut as for the last brother who called himself a watcher and shouldered the expectations of a god,\nThe location of his grave would become known to none.\n\nStill, perhaps this place can still be called fortunate,\nAs the other suppressed breach was eventually discovered many years later by one who set out to reveal its secrets.",
+    "refinements": [
+      {
+        "name": "Aeon Wave",
+        "desc": "HP is increased by **16%**. When current HP increases or decreases, Charged Attack DMG will be increased by **14%** for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the character has 3 stacks or a third stack's duration refreshes, **8** Energy will be restored. This Energy restoration effect can be triggered once every 12s."
+      },
+      {
+        "name": "Aeon Wave",
+        "desc": "HP is increased by **20%**. When current HP increases or decreases, Charged Attack DMG will be increased by **18%** for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the character has 3 stacks or a third stack's duration refreshes, **9** Energy will be restored. This Energy restoration effect can be triggered once every 12s."
+      },
+      {
+        "name": "Aeon Wave",
+        "desc": "HP is increased by **24%**. When current HP increases or decreases, Charged Attack DMG will be increased by **22%** for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the character has 3 stacks or a third stack's duration refreshes, **10** Energy will be restored. This Energy restoration effect can be triggered once every 12s."
+      },
+      {
+        "name": "Aeon Wave",
+        "desc": "HP is increased by **28%**. When current HP increases or decreases, Charged Attack DMG will be increased by **26%** for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the character has 3 stacks or a third stack's duration refreshes, **11** Energy will be restored. This Energy restoration effect can be triggered once every 12s."
+      },
+      {
+        "name": "Aeon Wave",
+        "desc": "HP is increased by **32%**. When current HP increases or decreases, Charged Attack DMG will be increased by **30%** for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the character has 3 stacks or a third stack's duration refreshes, **12** Energy will be restored. This Energy restoration effect can be triggered once every 12s."
       }
     ]
   },
@@ -18583,6 +20833,131 @@
       {
         "name": "Ever-Changing",
         "desc": "Hitting an opponent with a Normal Attack decreases the Stamina consumption of Sprint or Alternate Sprint by **22%** for 5s. Additionally, using a Sprint or Alternate Sprint ability increases ATK by **40%** for 5s."
+      }
+    ]
+  },
+  "Wolf-Fang": {
+    "name": "Wolf-Fang",
+    "desc": "Legend has it that this longsword was once used by a wandering knight in the distant past.",
+    "weaponType": "Sword",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "CRIT Rate",
+        "init": 0.05999999865889549,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/WolfFang.png",
+    "awakenIcon": "img/weapon_woke/WolfFang.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Chaos Device",
+        "EnemyDropTierA2": "Chaos Circuit",
+        "EnemyDropTierA3": "Chaos Core",
+        "EnemyDropTierB1": "Damaged Mask",
+        "EnemyDropTierB2": "Stained Mask",
+        "EnemyDropTierB3": "Ominous Mask",
+        "WeaponAsc1": "Tile of Decarabian's Tower",
+        "WeaponAsc2": "Debris of Decarabian's City",
+        "WeaponAsc3": "Fragment of Decarabian's Epic",
+        "WeaponAsc4": "Scattered Piece of Decarabian's Dream"
+      }
+    },
+    "lore": "The knights of Mondstadt, whether it be by coincidence or fate,\nHave as most their distinguished titles and corresponding animal insignia the following two:\nThe first is the title and repute of the Lion, passed down from the first Grand Master of the Knights of Favonius,\nAnd the second, from almost the same period, is that of the Wolf Knight, Boreas.\n\nThere is, in truth, no record at all of the Knight of Boreas.\nThe name's origin instead comes from stories that circulated through the streets at that time.\nAt the end of the tale, the merchant (or farmer) whose daughter was saved asked:\n\"How can we ever thank you, O Honored Knight?\"\nThe Knight replied: \"When thine precious daughter is married, raise a glass in toast from afar.\"\n\"Ah! I am very sorry... if I am to toast you, might I humbly ask your distinguished name, O Knight?\"\nThe Knight thought for a moment, and replied thusly:\n\"Then thou should toast my companion instead. 'Boreas' is his name.\"\n\nThe end of the story often goes something like this:\nAt the same time, in the forest (or on a mountainside, or someplace out of sight),\nA sudden gust of wind blows. The merchant (or farmer) gazed in that direction,\nBut saw only a pair of bestial eyes in the darkness, cold as ice.\nThese two lights quickly disappeared. After the merchant (or farmer) came to, the Knight was gone as well.\nThere are many versions of the story, though the daughter is always saved, and the Knight is always nameless.\n\nBut before the story was a story, he was merely a strange traveler clad in a dust-stained and tattered cloak. Some noticed the exquisitely crafted yet battle-worn armor beneath the cape. But that didn't mean anything. Perhaps the armor's bearer was just another lost soul who had lost their prestigious position with the changes wrought by revolution.\nThe tavern's owner noticed that the man paid with real gold and silver coins, though none recognized the symbols on them. Still, that too meant nothing, for gold and silver have no master and are always changing hands. Nor would anyone speak ill of a customer who paid their tab on the spot and was not prone to rowdy drunkenness.\nFor its part, the story came from a snake demon who arrived on Mondstadt's shores from the sea beyond the horizon, following the current of warmth and peace. In the early days of the Knights of Favonius, when they were still weak, the nameless knight left the city to hunt demons, for the price of a single silver coin. The scent of blood and carrion rotting on the beach attracted thousands of falcons, who circled for days. Thus, the true origin of the name of Falcon Coast comes not from the romantic legend of the Falcon of the West.\nIn the years afterwards, the Knights of Favonius did their utmost to convince the nameless knight to join them, but he never agreed. In reality, the events that corresponded to the story of \"Boreas\" likely happened between the Grand Master of the early days of the founding of the Knights and the nameless knight. The events unfolded such that the Grand Master, having lost patience after being rejected countless times, had the nameless knight surrounded in the street. The two famous lines in the story were likely spoken when the nameless knight \"Boreas\" left, and though the meaning was similar, the tone of both sides was far less civil.\nBut such a story would be exceedingly dull if committed to poetry, and thus talented bards took that dialogue, combined it with a few events surrounding the Knight while he was in Mondstadt, and from that wove a multitude of stories.\nThough he stayed in Mondstadt for but a few years, in leaving, his shadow has ever remained.",
+    "refinements": [
+      {
+        "name": "Northwind Wolf",
+        "desc": "DMG dealt by Elemental Skill and Elemental Burst is increased by **16%**. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by **2%**. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by **2%**. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s."
+      },
+      {
+        "name": "Northwind Wolf",
+        "desc": "DMG dealt by Elemental Skill and Elemental Burst is increased by **20%**. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by **2.5%**. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by **2.5%**. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s."
+      },
+      {
+        "name": "Northwind Wolf",
+        "desc": "DMG dealt by Elemental Skill and Elemental Burst is increased by **24%**. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by **3%**. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by **3%**. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s."
+      },
+      {
+        "name": "Northwind Wolf",
+        "desc": "DMG dealt by Elemental Skill and Elemental Burst is increased by **28%**. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by **3.5%**. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by **3.5%**. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s."
+      },
+      {
+        "name": "Northwind Wolf",
+        "desc": "DMG dealt by Elemental Skill and Elemental Burst is increased by **32%**. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by **4%**. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by **4%**. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s."
       }
     ]
   },

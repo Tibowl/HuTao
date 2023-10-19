@@ -681,7 +681,7 @@
   },
   "Hilichurl Shooter": {
     "name": "Hilichurl Shooter",
-    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nHilichurl archers who wield simple crossbows. Hilichurls do not, in truth, possess the craftsmanship needed to build crossbows. As such, it is commonly believed that there is an organization that controls the hilichurls from behind the scenes and furnishes them with equipment and material supplies. The Abyss Mages that often accompany these hilichurls are especially suspicious.",
+    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nHilichurl Shooters who wield simple crossbows. Hilichurls do not, in truth, possess the craftsmanship needed to build crossbows. As such, it is commonly believed that there is an organization that controls the hilichurls from behind the scenes and furnishes them with equipment and material supplies. The Abyss Mages that often accompany these hilichurls are especially suspicious.",
     "icon": "img/enemy/Hilichurl.png",
     "type": "Hilichurls",
     "kind": "Common Enemy",
@@ -717,7 +717,7 @@
   },
   "Electro Hilichurl Shooter": {
     "name": "Electro Hilichurl Shooter",
-    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nThese archers wield simple crossbows, and their arrowheads are crafted from carved Electro Crystals that will deliver an electric shock upon impact. They say that hilichurl archers of exceptional skill can fire five crossbow bolts at once — a most impressive feat indeed.",
+    "desc": "The primitive wandering inhabitants of Teyvat's wildernesses.\nThese archers wield simple crossbows, and their arrowheads are crafted from carved Electro Crystals that will deliver an electric shock upon impact. They say that Hilichurl Shooters of exceptional skill can fire five crossbow bolts at once — a most impressive feat indeed.",
     "icon": "img/enemy/Electro_Hilichurl.png",
     "type": "Hilichurls",
     "kind": "Common Enemy",
@@ -1830,7 +1830,7 @@
   },
   "Ruin Cruiser": {
     "name": "Ruin Cruiser",
-    "desc": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.\nLegend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their forms have greater value in the study of biomimesis. The inspiration for its decentralized design and combat modes seem to have come from honeybee colonies, rendering it able to change forms and to attack from different directions.",
+    "desc": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.\nLegend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their forms have greater value in the study of biomimesis. The inspiration for its decentralized design and combat modes seems to have come from honeybee colonies, rendering it able to change forms and to attack from different directions.",
     "icon": "img/enemy/Ruin_Cruiser.png",
     "type": "Automatons",
     "kind": "Elite Enemy",
@@ -3650,6 +3650,550 @@
         "0%",
         "0%",
         "0%"
+      ]
+    ]
+  },
+  "Tainted Water-Splitting Phantasm": {
+    "name": "Tainted Water-Splitting Phantasm",
+    "desc": "Today, with the Oceanids extirpated from Fontaine, strange elemental life forms have appeared in the waters.\nThe elemental spirits that appeared after the calamity lack the elegance and beauty of the Oceanids, and thus have been called \"tainted.\" Though the toxins dissolved in the water have long since been diluted and cleansed, unless there are still containers of pure water somewhere, Fontaine's waters will never again naturally birth Oceanids.",
+    "icon": "img/enemy/Tainted_WaterSplitting_Phantasm.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Tainted Water-Spouting Phantasm": {
+    "name": "Tainted Water-Spouting Phantasm",
+    "desc": "Today, with the Oceanids extirpated from Fontaine, strange elemental life forms have appeared in the waters.\nIt is said that in Egeria's era, the Oceanids often lived alongside humans, and lived in the springs of clear waters dotted across the lands, and through this, they connected the waters of the world. But most died with their god, and for the survivors, the world no longer has any god they recognize.",
+    "icon": "img/enemy/Tainted_WaterSpouting_Phantasm.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Large Shatterstone Breacher Primus": {
+    "name": "Large Shatterstone Breacher Primus",
+    "desc": "A strange life form that mostly appears in Elynas.\nMelusines perceive Breacher Primuses as harmless creatures, and many even find them completely adorable.\nThe visual perception of Melusines is very different from humans.",
+    "icon": "img/enemy/Large_Shatterstone_Breacher_Primus.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "50%",
+        "10%"
+      ]
+    ]
+  },
+  "Shatterstone Breacher Primus": {
+    "name": "Shatterstone Breacher Primus",
+    "desc": "A strange life form that mostly appears in Elynas.\nReceives a powerful shock from encountering ousia or pneuma energy, and thus Breacher Primuses can be driven away using this relatively nonaggressive and noninvasive means.",
+    "icon": "img/enemy/Shatterstone_Breacher_Primus.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "30%",
+        "10%"
+      ]
+    ]
+  },
+  "Large Overgrown Breacher Primus": {
+    "name": "Large Overgrown Breacher Primus",
+    "desc": "A strange life form that mostly appears in Elynas.\nThe nature of a Breacher Primus defies known categories: they are not animals, plants, Shroom-Kin, nor Elementals. The debate among scholars of Sumeru never formally reached a consensus on just what it is, until it was finally banned as a research topic. The reason is that based on the current system of knowledge, this problem is like \"the definitions prescribed by language and the true nature of things,\" and it is impossible to have a meaningful, final answer.",
+    "icon": "img/enemy/Large_Overgrown_Breacher_Primus.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Overgrown Breacher Primus": {
+    "name": "Overgrown Breacher Primus",
+    "desc": "A strange life form that mostly appears in Elynas.\nIn Fontaine, the earliest recorded observations of a Breacher Primus appeared shortly after the cataclysm. Records from the time show instances of Breacher Primuses both attacking and protecting humans.",
+    "icon": "img/enemy/Overgrown_Breacher_Primus.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Recon Log Mek": {
+    "name": "Recon Log Mek",
+    "desc": "One of the earliest new-type clockwork meka to be made.\nIt is said that during his time at the Institute of Natural Philosophy, the Lord-Artificer Guillotin created machines that could simulate genuine intelligence.\nThough he never openly admitted it, this rumor nonetheless spurred on subsequent generations of ambitious engineers. Decades ago, one of them announced that they had created a machine that not only possessed basic thinking abilities but could also read human emotions, but in the end the results went unacknowledged.",
+    "icon": "img/enemy/Recon_Log_Mek.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Arithmetic Enhancer Mek": {
+    "name": "Arithmetic Enhancer Mek",
+    "desc": "A clockwork meka designed to transmit and enhance signals.\nThe power that drives this clockwork meka is generated from a controlled annihilation reaction between ousia and pneuma in the kinetic core. As a result, overloading it with excessive energy will cause its original equilibrium to be disrupted.",
+    "icon": "img/enemy/Arithmetic_Enhancer_Mek.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Underwater Survey Mek": {
+    "name": "Underwater Survey Mek",
+    "desc": "A clockwork meka designed for underwater surveying.\nIn the absence of significant breakthroughs in dynamics research, kinematics research has had the most significant impact on clockwork meka design. For machines designed to perform specific tasks, biomimesis has sometimes provided the most convenient solutions.",
+    "icon": "img/enemy/Underwater_Survey_Mek.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Geological Survey Mek": {
+    "name": "Geological Survey Mek",
+    "desc": "A clockwork meka designed for surveying underground resources and certain minerals.\nDue to the fact that the desired metal type can be set, this device has proven very popular among Treasure Hoarders and Adventurers alike.",
+    "icon": "img/enemy/Geological_Survey_Mek.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Underwater Patrol Mek": {
+    "name": "Underwater Patrol Mek",
+    "desc": "This type of clockwork meka was designed to search out, repel, and if need be exterminate aquatic life forms that pose a threat to underwater equipment.\nEver since the first diluvian period, the Fontaine Research Institute has been preoccupied with the thought that there might be a second one. Some had the idea of taking back the ruins lost to the waves and building an underwater city, whereas others looked up to the untouchable sky islands overhead with the intention of building a metropolis in the clouds.\nUnderwater Patrol Meks were conceived by the former, but judging from the results, it is the latter that have gained the upper hand in recent years.",
+    "icon": "img/enemy/Underwater_Patrol_Mek.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Nimble Harvester Mek": {
+    "name": "Nimble Harvester Mek",
+    "desc": "A clockwork meka designed to dig up and transport soil.\nDue to the inherent ability of the local water and soil to store and transmit ousia and pneuma, clockwork meka powered by the annihilation of these energies are highly favored in Fontaine. This also explains why adventurers may come across Ousia and Pneuma Blocks from time to time.",
+    "icon": "img/enemy/Nimble_Harvester_Mek.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Assault Specialist Mek": {
+    "name": "Assault Specialist Mek",
+    "desc": "Alongside the Recon Log Mek, this was one of the first new-type clockwork meka to be made (though of course, after hundreds of years, no one refers to them as \"new-type\" anymore – this was simply to differentiate them from traditional clockwork mechanisms that were powered by potential energy.)\nIt was named to commemorate a friend of its inventor, and was originally designed to help people. However, its ability to attack people – thereby avoiding the need to put friendly personnel at risk – subsequently came to be seen as its real strength.",
+    "icon": "img/enemy/Assault_Specialist_Mek.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Suppression Specialist Mek": {
+    "name": "Suppression Specialist Mek",
+    "desc": "A clockwork meka adapted from the Cal. Scherbius type. Unfortunately, aside from its ability to attack, it has no other capabilities.\nClockwork meka based on annihilation energy normally produce their energy by utilizing Repeaters composed of special crystals to refine ousia and pneuma from Fontaine's environment. But outside of Fontaine, they can use pre-prepared Energy Blocks to move over short distances for short periods of time. The difference can be observed from the shape of the crystal components on the meka.",
+    "icon": "img/enemy/Suppression_Specialist_Mek.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Annihilation Specialist Mek": {
+    "name": "Annihilation Specialist Mek",
+    "desc": "Although the Fontaine Research Institute of Kinetic Energy Engineering is the main organization involved in clockwork meka research and design, there are also many independent engineers and workshops that are not affiliated with the Research Institute.\nThe first ever machine of this type was designed by an independent engineer to commemorate their lover and sponsor. In the end, it was acquired by the Maison Gardiennage as a tool to uphold municipal security — or, as some would have it, state apparatus enforcing the monopoly on violence.",
+    "icon": "img/enemy/Annihilation_Specialist_Mek.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Area Alert Mek": {
+    "name": "Area Alert Mek",
+    "desc": "A mechanism that is able to fire out the energy produced by an annihilation reaction. Strictly speaking, it was originally a test device that emerged from research undertaken by the Institute of Natural Philosophy before the Fontaine Research Institute had been established.\nAs such, despite its considerable commercial success as a sentinel and defensive device, most engineers do not consider it to be a true clockwork meka.",
+    "icon": "img/enemy/Area_Alert_Mek.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Construction Specialist Mek": {
+    "name": "Construction Specialist Mek",
+    "desc": "A type of large clockwork meka which also has immeasurable value when utilized in building construction and archeological excavation. Its name comes from an engineer employed by Callas during the construction of the Clementine Line.\nWith Callas' financial backing, this engineer built the legendary \"Golden Vessel\" – a gigantic piece of construction machinery which was used to dig the Poisson Tunnel. Once the job was complete, this type of clockwork meka was designed with a similar structure but reduced to a smaller scale.",
+    "icon": "img/enemy/Construction_Specialist_Mek.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Icewind Suite": {
+    "name": "Icewind Suite",
+    "desc": "Artificed Dancers developed by the Fontaine Research Institute.\nBossuet originally intended for Artificed Dancers to be works of art that transcended the era of mechanical reproduction. But after Bossuet was forced to resign, the project was taken over by Maillardet, who had his own unique understanding of what he wanted to achieve. As a result, while their features were perfected during the course of its development, the Artificed Dancers gradually strayed from Bossuet's original vision.",
+    "icon": "img/enemy/Icewind_Suite.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "70%",
+        "10%",
+        "70%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Hunter's Ray": {
+    "name": "Hunter's Ray",
+    "desc": "A stingray that can release blades of water.\nAmong the Fontemer Aberrants, there are certain strange \"Xenochromatic\" lifeforms. It is said that these are not actually living creatures, but rather spirits from the ocean that have neither taken physical form nor swallowed bait. They are said to bestow blessings upon those accepted by the Fontemer as well as those that are able to control it. Of course, those that have a deeper understanding of natural philosophy would discount such groundless speculation.",
+    "icon": "img/enemy/Hunters_Ray.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Armored Crab": {
+    "name": "Armored Crab",
+    "desc": "A crab that makes its home in borrowed shells.\nIt seems not to have any of the aggressiveness possessed by many wild animals. Perhaps it is because animals who attack for purposes other than obtaining food possess some degree of territoriality, yet the territory of the Armored Crab is naught but the small home upon its back.",
+    "icon": "img/enemy/Armored_Crab.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Blubberbeast": {
+    "name": "Blubberbeast",
+    "desc": "A type of mammal that resides in the watery regions of Fontaine. It communicates with its companions through melodious sounds.\nDue to its density, water is a much more efficient medium of sound than air. Drawing inspiration from the Blubberbeast, someone from the Research Institute invented a type of technology that converted images into data to facilitate instant transmission. But due to the technical limitations of the experiment, it never became widely adopted outside the Institute.\nIn reality, however, data transmission technology based on fluid and sound has existed since ancient times. As the saying goes, there's nothing new under the sun.",
+    "icon": "img/enemy/Blubberbeast.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Hat Jellyfish": {
+    "name": "Hat Jellyfish",
+    "desc": "An aquatic creature that hunts by firing watery projectiles.\nAlthough it looks like a hat, it actually eats from its underside, so attempting to wear it is strongly disadvised. In the words of someone who once did this: \"That wasn't very clever, was it?\"",
+    "icon": "img/enemy/Hat_Jellyfish.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Bubbly Seahorse": {
+    "name": "Bubbly Seahorse",
+    "desc": "An aquatic creature that hunts by firing watery projectiles.\nAmong the (admittedly somewhat sparse) ranks of Fontemer Aberrant enthusiasts, Bubbly Seahorses have many fans. As with clockwork meka enthusiasts, a small minority of Fontemer Aberrant enthusiasts can be very standoffish when it comes to people whose opinions differ from their own.",
+    "icon": "img/enemy/Bubbly_Seahorse.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Ball Octopus": {
+    "name": "Ball Octopus",
+    "desc": "An aquatic creature that hunts by firing watery projectiles.\nThe ability to fire water bombs is of course not uncommon among Fontemer Aberrants. But for your average careless diver, most of whom are tourists, a high-pressure water current of this kind can pose a significant threat. The thickness of diving equipment is therefore necessary for two reasons – firstly, to resist the pressure of the water itself, but secondly, to protect against the attacks of Fontemer Aberrants.",
+    "icon": "img/enemy/Ball_Octopus.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Angelic Sea Hare": {
+    "name": "Angelic Sea Hare",
+    "desc": "An aquatic creature that hunts by firing watery projectiles.\nFrom an evolutionary perspective, it is assumed that Fontemer Aberrants have developed from aquatic creatures due to environmental factors specific to Fontaine. As such, it can be inferred that at some point in the past, Fontaine's original aquatic lifeforms differed little from those native to the other regions of Teyvat.",
+    "icon": "img/enemy/Angelic_Sea_Hare.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Sternshield Crab": {
+    "name": "Sternshield Crab",
+    "desc": "A crab that makes its home in borrowed shells.\nArmored Crabs are constantly searching for shells that fit their bodies as they grow. A storybook that told the tale of the trials of an Armored Crab searching for a suitable shell was extremely popular in Fontaine for a time. Though the story is filled with childlike wonder, the reaction after proved that, like many fairytales, it touched adults even more deeply.",
+    "icon": "img/enemy/Sternshield_Crab.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Cherubic Sea Hare": {
+    "name": "Cherubic Sea Hare",
+    "desc": "The adult form of an Angelic Sea Hare. The \"wings\" on its back are actually fat used for storing elemental energy.\nThis type of sea creature spends its whole life eating and conserving energy far beyond its actual requirements. Perhaps if the oceans dry out some day, they will be able to continue to survive – or simply become an important source of nutrition for other creatures...",
+    "icon": "img/enemy/Cherubic_Sea_Hare.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Bubbler Seahorse": {
+    "name": "Bubbler Seahorse",
+    "desc": "The adult form of a male Bubbly Seahorse. It is extremely aggressive.\nSome people even claim to have encountered the king among the seahorses. It is said that they are proud beings with four long limbs.",
+    "icon": "img/enemy/Bubbler_Seahorse.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Emperor of Fire and Iron": {
+    "name": "Emperor of Fire and Iron",
+    "desc": "One of the two sovereigns who once stood at the apex of the aberrant species of the Fontemer, and the subject of many a tale among sailors.\nAn Armored Crab that avoids predation, and can keep hunting and eating, will continue to grow, continually seeking out suitable shells to become its new armor. But eventually, it became simply too gargantuan. Before the first diluvian period, a massive Armored Crab once attacked a ship, and was finally forced back into the depths by Basil Elton, who had not yet been reinstated as a naval commander.\nImagine this world: All of humanity has been purged from Teyvat, and the ever-growing Emperor of Fire and Iron eventually wears the Palais Mermonia upon its body like a luxurious coat of white stone. Of course, in such a world, there naturally would be no one to call it, half-jokingly and half in awe, the \"Emperor of Fire and Iron.\"",
+    "icon": "img/enemy/Emperor_of_Fire_and_Iron.png",
+    "resistance": [
+      [
+        "60%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Frost Operative": {
+    "name": "Frost Operative",
+    "desc": "An elite agent among the Fatui.\nSelected while still children, they can only become an \"Operative\" after many long years of training and teaching, after countless rounds have winnowed the field. They are the most outstanding soldiers among the Fatui, with extraordinary skill and unswerving loyalty.",
+    "icon": "img/enemy/Frost_Operative.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "50%",
+        "10%",
+        "10%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Wind Operative": {
+    "name": "Wind Operative",
+    "desc": "An elite agent among the Fatui.\n\"Operatives\" have no ordinary military rank among the Fatui. Based on their orders and the content of their missions, they can work in concert with other soldiers, work alone, or in tandem with the \"tacks\" hidden and scattered across the world. They spy, conduct counter-espionage, protect, assassinate, and conduct other tasks. In order to effectively carry out missions of a more special nature, \"Operatives\" also need to master all kinds of other skills and even various arts and talents.",
+    "icon": "img/enemy/Wind_Operative.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "50%",
+        "10%",
+        "-20%"
+      ]
+    ]
+  },
+  "Deepwater Assault Mek": {
+    "name": "Deepwater Assault Mek",
+    "desc": "A clockwork meka designed to conducting underwater attacks. Unlike \"Underwater Patrol Mek\" models, it is expected to take on much larger and fiercer opponents. Of course, the price it pays for such capabilities and its cost of manufacture is that is unable to fully unleash its capabilities against smaller opponents.\nLong ago, Fontaine was once scarred by the tragic invasion of a massive monster. The revered White Armada that sailed upon the great terrestrial lake was completely destroyed in defense of the nation. The designer hoped that were such a thing to happen again, the clockwork meka would possess enough naval firepower to be the first line of defense, going before the soldiers and generals.",
+    "icon": "img/enemy/Deepwater_Assault_Mek.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Experimental Field Generator": {
+    "name": "Experimental Field Generator",
+    "desc": "A large device designed by the late Edwin Eastinghouse. It has the ability to \"counteract\" the effects of gravity. According to the original design intentions, this was the first step in a plan to turn Fontaine into a city in the sky, so never again would the people have to worry about the waves that once swept over the land. Even if all seven nations were to be swallowed by the deeps, the elegant Court of Fontaine would float above it all, just like Celestia. Even the secrets of the universe would no longer seem so distant.\nThe Arkhium in the device's core has the characteristics of \"splitting\" or \"precipitation,\" and can take matter, or certain things outside of matter, and separate them. It is said that this process can be reversed, but the Fontaine Research Institute is infatuated only with the physical effects it can produce.",
+    "icon": "img/enemy/Experimental_Field_Generator.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "70%",
+        "10%"
+      ]
+    ]
+  },
+  "Millennial Pearl Seahorse": {
+    "name": "Millennial Pearl Seahorse",
+    "desc": "One of the two sovereigns standing at the apex of the Fontemer Aberrants.\nPoets and authors often proclaim it to be proud and noble due to its solitary tendencies, but the true reason behind such adulatory descriptions is its elegant and slender body. As such, it is a \"Pearl Seahorse,\" while the suzerain of the Armored Crabs is an \"Emperor.\"\nIn the legends and rumors of Fontaine, a brutal war was once waged among the Aberrants of the Fontemer, leaving only the \"Millennial Pearl Seahorse\" and \"Emperor of Fire and Iron\" splitting the great lake into two courts, one ruling over the north, the other the south. In the \"Song of Dobharcu,\" the writer describes the outcome of the war: the great Hunter's Ray known as the Stormlord stirred huge waves in its death throes, causing what is now known by the people as the \"first diluvian period\"...\nOf course, all of this is nothing more than the romantic imaginations of people who are unwilling to accept the bland realities of the world. For the Fontemer Aberrants are in fact just simple aquatic animals, and they have no grand courts nor fallen kingdoms, nor do they possess words meant to exalt or curse.",
+    "icon": "img/enemy/Millennial_Pearl_Seahorse.png",
+    "resistance": [
+      [
+        "10%",
+        "60%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
       ]
     ]
   }

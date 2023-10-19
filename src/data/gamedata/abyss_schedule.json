@@ -1494,5 +1494,181 @@
       60,
       61
     ]
+  },
+  "68": {
+    "start": "2023-07-16 04:00:00",
+    "end": "2023-08-01 03:59:59",
+    "buff": "Fleeting Moon",
+    "buffDesc": "Within 10s after the character enters the field, the character's Normal, Charged, and Plunging Attacks will deal 30% increased DMG. Their ATK SPD will also be increased by 10%. This effect will be canceled when the character leaves the field.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      45,
+      46,
+      62,
+      63
+    ]
+  },
+  "69": {
+    "start": "2023-08-01 04:00:00",
+    "end": "2023-08-16 03:59:59",
+    "buff": "Shifting Moon",
+    "buffDesc": "When a character loses or restores HP, all party members will gain 7.5% increased ATK for 10s. This effect can be triggered once every 0.1s. Max 4 stacks. Each stack will be counted independently.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      45,
+      46,
+      62,
+      63
+    ]
+  },
+  "70": {
+    "start": "2023-08-16 04:00:00",
+    "end": "2023-09-01 03:59:59",
+    "buff": "Ingressing Moon",
+    "buffDesc": "When the active character deals consecutive instances of Elemental DMG of the same Elemental Type or Physical DMG using Normal, Charged, or Plunging Attacks to an opponent, they will gain 1 count stack. 1 stack can be gained every 0.3s. The stacks for every Elemental and Physical DMG will be counted independently. After 6 stacks have been gained, a shockwave will be unleashed at the opponent's position, dealing True DMG and clearing all previously accumulated stacks for this DMG type. Should the active character leave the field, these stacks will be cleared.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      45,
+      46,
+      62,
+      63
+    ]
+  },
+  "71": {
+    "start": "2023-09-01 04:00:00",
+    "end": "2023-09-16 03:59:59",
+    "buff": "Keen Moon",
+    "buffDesc": "When a character recovers HP, that character gains 10% increased ATK for 10s. Max 3 stacks. Each stack will be counted independently. When a character loses HP, that character gains 40 Elemental Mastery for 10s. Max 3 stacks. Each stack will be counted independently. The effects from recovering and losing HP are independent from each other, and stacks are counted independently.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      64,
+      65,
+      66,
+      67
+    ]
+  },
+  "72": {
+    "start": "2023-09-16 04:00:00",
+    "end": "2023-10-01 03:59:59",
+    "buff": "Gyrating Moon",
+    "buffDesc": "When a character recovers or loses HP, that character gains 40% increased All Elemental and Physical DMG Bonus for 3s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      64,
+      65,
+      66,
+      67
+    ]
+  },
+  "73": {
+    "start": "2023-10-01 04:00:00",
+    "end": "2023-10-16 03:59:59",
+    "buff": "Cleaving Moon",
+    "buffDesc": "When the character's HP increases or decreases, their Normal Attack and Charged Attack DMG will be increased by 16% for 6s. This effect can be triggered once every 0.5s. Max 3 stacks.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      64,
+      65,
+      68,
+      69
+    ]
+  },
+  "74": {
+    "start": "2023-10-16 04:00:00",
+    "end": "2023-11-01 03:59:59",
+    "buff": "Converging Moon",
+    "buffDesc": "After the character's Charged Attack hits an opponent, the character will receive a 20% Elemental or Physical DMG Bonus, corresponding to the Elemental or Physical DMG type of the Charged Attack, for 5s. This effect can be triggered once every 0.5s. Max 3 stacks. Charged Attack DMG bonuses from different Elemental types or Physical DMG are counted independently.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      64,
+      65,
+      68,
+      69
+    ]
+  },
+  "75": {
+    "start": "2023-11-01 04:00:00",
+    "end": "2023-11-16 03:59:59",
+    "buff": "Coalescing Moon",
+    "buffDesc": "After the active character's Normal or Charged Attack hits an opponent, that character's Normal and Charged Attack CRIT Rate is increased by 6% for 5s. This effect can be triggered once every 0.1s. Max 5 stacks. Each stack's duration is counted independently. This effect will be cleared if the character leaves the field.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      64,
+      65,
+      68,
+      69
+    ]
   }
 }

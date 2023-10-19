@@ -2094,5 +2094,103 @@
         "icon": "img/arti/Heart_of_Khvarenas_Brilliance.png"
       }
     ]
+  },
+  "Marechaussee Hunter": {
+    "name": "Marechaussee Hunter",
+    "levels": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Normal and Charged Attack DMG +15%"
+      },
+      {
+        "count": 4,
+        "desc": "When current HP increases or decreases, CRIT Rate will be increased by 12% for 5s. Max 3 stacks."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Hunter's Brooch",
+        "desc": "An ancient emblem that was once awarded to those who had made exceptional contributions in battle.",
+        "icon": "img/arti/Hunters_Brooch.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Masterpiece's Overture",
+        "desc": "A portable tool used to adjust the torque on some old-school clockwork machine. It has since lost its practical value.",
+        "icon": "img/arti/Masterpieces_Overture.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Moment of Judgment",
+        "desc": "A standard pocket watch. Its accuracy is not particularly high.",
+        "icon": "img/arti/Moment_of_Judgment.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Forgotten Vessel",
+        "desc": "A portable metal vessel containing strong wine. Can be stuffed into the pocket of an outer coat for ease of access and use.",
+        "icon": "img/arti/Forgotten_Vessel.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Veteran's Visage",
+        "desc": "An old mask that can, to some extent, stand in for a face marred by wounds. Its design can vary based on the wounded areas and the user's gender.",
+        "icon": "img/arti/Veterans_Visage.png"
+      }
+    ]
+  },
+  "Golden Troupe": {
+    "name": "Golden Troupe",
+    "levels": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases Elemental Skill DMG by 20%."
+      },
+      {
+        "count": 4,
+        "desc": "Increases Elemental Skill DMG by 25%. Additionally, when not on the field, Elemental Skill DMG will be further increased by 25%. This effect will be cleared 2s after taking the field."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Golden Song's Variation",
+        "desc": "A flower constructed out of clam, mother-of-pearl, and gold leaf. It blooms proudly.",
+        "icon": "img/arti/Golden_Songs_Variation.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Golden Bird's Shedding",
+        "desc": "A gold feather made using silver and gold filigree. A crystal-clear sapphire is mounted atop it.",
+        "icon": "img/arti/Golden_Birds_Shedding.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Golden Era's Prelude",
+        "desc": "This lovely sundial is inlaid with silver and gold. It seems that time has stopped flowing atop its dial plate.",
+        "icon": "img/arti/Golden_Eras_Prelude.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Golden Night's Bustle",
+        "desc": "An ancient silver urn that was once filled with fine wine as red as rubies. Now, it contains nothing but bitter seawater.",
+        "icon": "img/arti/Golden_Nights_Bustle.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Golden Troupe's Reward",
+        "desc": "An ancient crown that resembles a stage prop more than it does some suzerain's headgear.",
+        "icon": "img/arti/Golden_Troupes_Reward.png"
+      }
+    ]
   }
 }

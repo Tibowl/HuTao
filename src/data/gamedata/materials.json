@@ -67,6 +67,18 @@
       "Recommendation: Found on Narukami Island"
     ]
   },
+  "Condessence Crystal": {
+    "name": "Condessence Crystal",
+    "desc": "A bright and clear crystal with a core that is both tough and malleable.",
+    "longDesc": "A bright and clear crystal, the core is both tough and malleable.\nAccording to ancient legend, this resplendent crystal was a gift bestowed by envoys of the heavens. The shimmering light reflected day and night is a symbol of the white moon's favor, giving humanity the authority to forge wondrous objects. Such legends have long been impossible to verify, but modern artisans still use this kind of bright yet strong crystal to create all kinds of accessories and weapons.",
+    "type": "Forging Ore",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Condessence_Crystal.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Found in Elynas (Surface)"
+    ]
+  },
   "Apple": {
     "name": "Apple",
     "desc": "Crisp and fragrant. Delicious raw or made into wine.",
@@ -278,6 +290,51 @@
     "icon": "img/material/Ajilenakh_Nut.png",
     "sources": [
       "Found in the desert oases of Sumeru"
+    ]
+  },
+  "Pluie Lotus": {
+    "name": "Pluie Lotus",
+    "desc": "A plant that grows in environments rich with Hydro. This plant can be found everywhere in Fontaine after its long rainy seasons. The plant is named \"Pluie\" — which means \"rain\" in the local tongue — for that reason.",
+    "longDesc": "A plant that grows in environments rich with Hydro. This plant can be found everywhere in Fontaine after its long rainy seasons. The plant is named \"Pluie\" — which means \"rain\" in the local tongue — for that reason.\nThe plant's growth can be influenced by abnormal Hydro density in its surroundings. It is said that ancient Fontainian natural philosophers would perform divination based on Pluie Lotuses' growth, predicting living souls' destinies and futures. The method they employed, however, was lost to time.",
+    "type": "Material",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Pluie_Lotus.png",
+    "sources": [
+      "Found near lakes and river banks"
+    ]
+  },
+  "Bulle Fruit": {
+    "name": "Bulle Fruit",
+    "desc": "A fruit that grows in warm and damp environments with ample sunlight. Inside this round and rotund fruit hides a sweet and refreshing surprise.",
+    "longDesc": "A fruit that grows in warm and damp environments with ample sunlight. Inside this round and rotund fruit hides a sweet and refreshing surprise.\nThey say that in times of old, there was once a protracted debate among Fontainian philosophers on whether Bulle Fruit was closer to sunrise or sunset in color and whether it should be called \"Sunriseia\" or \"Sunsettia.\" This heated debate was eventually brought to an end when these philosophers discovered that Sunsettia already existed. They unwillingly compromised and agreed to name the sweet fruit for its shape instead.",
+    "type": "Food",
+    "category": "Teyvat's Resources",
+    "icon": "img/food/Bulle_Fruit.png",
+    "sources": [
+      "Found in the wild"
+    ],
+    "effect": "Restores 300 HP for the selected character."
+  },
+  "Marcotte": {
+    "name": "Marcotte",
+    "desc": "A pink flower with a pearl-like luster and rich scent profile. It is one of the most important ingredients in a perfumer's arsenal.",
+    "longDesc": "A pink flower with a pearl-like luster and rich scent profile. It is one of the major perfume ingredients.\nMarcotte is said to represent purity and sincere care.\nIn Fontaine, the first thing a perfumer learns is to extract fragrant substances from Marcotte. On top of that, the plant's honey can be used for making jam and mulled wine, making it an indispensable part of everyday life in Fontaine.",
+    "type": "Cooking Ingredient",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Marcotte.png",
+    "sources": [
+      "Found in the wild"
+    ]
+  },
+  "Tidalga": {
+    "name": "Tidalga",
+    "desc": "An algae floating with the tides that sustains itself by feeding on substances produced by other plants. Though often mistaken for zooplankton, based on its nature, Tidalga is actually a type of phytoplankton.",
+    "longDesc": "An algae floating with the tides and feeding on substances produced by other plants. Though often mistaken for zooplankton, Tidalga falls under the category of phytoplankton by nature.\nAccording to ancient records, philosophers of old once thought highly of Tidalga, calling it \"the noblest life form in the mortal world,\" for it is \"an animal of free will that feeds not on lives.\" Such praises later passed into oblivion with the advancement of biology.",
+    "type": "Cooking Ingredient",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Tidalga.png",
+    "sources": [
+      "Found in Fontaine's underwater areas"
     ]
   },
   "Wolfhook": {
@@ -699,6 +756,78 @@
     "sources": [
       "Found in the deserts of Sumeru",
       "Recommendation: Found in the Asipattravana Swamp"
+    ]
+  },
+  "Beryl Conch": {
+    "name": "Beryl Conch",
+    "desc": "A conch-like structure that gives off a faint glow. Despite the name, it is not a shell but something condensed from pure elemental energy.",
+    "longDesc": "A conch-like structure that gives off a faint glow. Despite the name, it is not a shell but something condensed from primordial elemental energy.\nNatural historians used to hold that the salt-white pattern on the conch was one of the many marks left by the Hydro Lord. However, archaeologists later discovered that it has many connections to ancient civilizations.",
+    "type": "Local Specialty (Fontaine)",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Beryl_Conch.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Found in Salacia Plain"
+    ]
+  },
+  "Romaritime Flower": {
+    "name": "Romaritime Flower",
+    "desc": "An ethereal and elegant blue flower. Its tender petals are elastic and water-absorbent, making it the ideal raw material for various daily necessities.",
+    "longDesc": "An ethereal and elegant blue flower. Its tender petals are elastic and water-absorbent, making it the ideal raw material for various daily necessities.\nRomaritime Flower is said to represent loyalty and unswerving oaths.\nIn the folklore of Fontaine, Romaritime Flower is said to have been a Hydro spirit in love with Egeria. People base this story on the flower's trait to blossom upon contact with Hydro. On top of that, human beings' lack of knowledge and excessive desire to express themselves certainly have contributed to the tale, too.",
+    "type": "Local Specialty (Fontaine)",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Romaritime_Flower.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Found in Salacia Plain"
+    ]
+  },
+  "Lumidouce Bell": {
+    "name": "Lumidouce Bell",
+    "desc": "A serene and tranquil violet flower. It has a light, soft, and lasting scent and is often used for making luxurious perfumes.",
+    "longDesc": "A serene and tranquil violet flower. It has a light, soft, and lasting scent and is often used for making rare perfumes.\nLumidouce Bell is said to represent parting and the wish for reunion.\nIn Coppelius's play Golden Hyperborea, the flower is referred to as \"Weeping Crystal.\" The play depicts a homesick flower wandering in the freezing lands of the north. Its beauty is made eternal by the icy winds. Critics of Coppelius's time thought that he was obsessed with eternal beauty and eternal love — this obsession was written into every line of his last works.",
+    "type": "Local Specialty (Fontaine)",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Lumidouce_Bell.png",
+    "sources": [
+      "Found in the wild",
+      "Found in the north of the Court of Fontaine"
+    ]
+  },
+  "Rainbow Rose": {
+    "name": "Rainbow Rose",
+    "desc": "A delicate and tender pink flower. Despite their name, Rainbow Roses are essentially more akin to Lilies.",
+    "longDesc": "A delicate and tender pink flower. Despite the name, Rainbow Roses are essentially more akin to Lilies.\nIt is said to represent passion and romantic encounters.\nAccording to ancient records, rainbow-colored roses were once a common sight. Their bright colors could almost rival the blazing flames of the seven heavens. This flower has gone extinct, and as the era came to a tumultuous end, a plant that used to grow symbiotically with it stole the name \"Rainbow Rose.\"",
+    "type": "Local Specialty (Fontaine)",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Rainbow_Rose.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Found in Beryl Region"
+    ]
+  },
+  "Lumitoile": {
+    "name": "Lumitoile",
+    "desc": "A soft-bodied animal that emits a gentle light. Often found climbing the walls of buildings near the water or underwater.",
+    "longDesc": "A soft-bodied animal that emits a gentle light. Often found climbing the walls of buildings near the water or underwater.\nThough the weak light they give off is often ignored by divers, these small soft-bodied animals have the remarkable ability to consume and degrade industrial waste present in the water. It is said that reseachers once wished to give the Lumitoile the title of \"Honorary Ecological Engineer\" but the proposal was rejected by the Senior Technician at the time (who also held the post of Honorary Marine Ecology Research Engineer).",
+    "type": "Local Specialty (Fontaine)",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Lumitoile.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Found in Liffey Region"
+    ]
+  },
+  "Subdetection Unit": {
+    "name": "Subdetection Unit",
+    "desc": "Detection units produced by Fontaine Research Institute using new models of artificed components. Its original purpose was monitoring all kinds of environmental data.",
+    "longDesc": "Detection units produced by the Fontaine Research Institute using new models of artificed components. Its original purpose was monitoring all kinds of environmental data.\nThese units were originally cooperatively managed by the Advanced Artificed Technology Research and Development Department and the Natural Ecological Environment Monitoring Department, where the former was in charge of manufacturing and deployment of the detection units while the latter was responsible for collecting and sorting data. Now that the latter department has been dismissed due to a previous experimental accident, only the former department's duties are now being performed by the Fontaine Research Institute.",
+    "type": "Local Specialty (Fontaine)",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Subdetection_Unit.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation:Found in Fontaine Research Institute of Kinetic Energy Engineering Region"
     ]
   },
   "Northlander Sword Billet": {
@@ -2110,6 +2239,86 @@
       "recipe": "Invigorating Kitty Meal"
     },
     "effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s."
+  },
+  "\"Seabird's Sojourn\"": {
+    "name": "\"Seabird's Sojourn\"",
+    "desc": "Freminet's specialty. He fled after leaving this pot of soup. The ingredients don't seem to come from shallow seas, which means he must've dived into the deep sea to catch them. You want to express your gratitude, but... where can you find him?",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Seabirds_Sojourn.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Freminet",
+      "recipe": "Poisson Seafood Soup"
+    },
+    "effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s."
+  },
+  "Cubic Tricks": {
+    "name": "Cubic Tricks",
+    "desc": "Lyney's specialty. He covered the fruit you picked with velvet and then uncovered it — voila! You were greeted by a colorful assortment of gummies. You sampled one and your mood immediately changed. Did the great magician cast some incredible enchantment spell to bewitch the heart while no one was watching?",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Cubic_Tricks.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Lyney",
+      "recipe": "Pate de Fruit"
+    },
+    "effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
+  "A Leisurely Sip": {
+    "name": "A Leisurely Sip",
+    "desc": "Lynette's specialty. It was time for afternoon tea, and Lynette laid down a snack made especially for you. The image of the young lady who taking small sips from the cup and the image of the kitten-shaped dessert seemed to overlap. Your heart was filled with sweetness, but you were also a bit concerned about the state of the kitchenware...",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/A_Leisurely_Sip.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Lynette",
+      "recipe": "Conch Madeleine"
+    },
+    "effect": "Increases all party members' Healing Bonus by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
+  "\"Consomme Purete\"": {
+    "name": "\"Consomme Purete\"",
+    "desc": "Neuvillette's specialty. He claims he specifically selected the purest, chilliest waters from the highest mountains to create this exquisite and matchless treasure. Though it does have a refreshing quality, as for how the overall flavor of the soup is no different from ordinary soups... It's probably best not to mention it.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Consomme_Purete.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Neuvillette",
+      "recipe": "Consomme"
+    },
+    "effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
+  "Secret Sauce BBQ Ribs": {
+    "name": "Secret Sauce BBQ Ribs",
+    "desc": "Wriothesley's specialty. Soon after kicking out his subordinates with the excuse, \"Feel free to leave, but I'm staying! Things are heating up in here, and it could blow!\", a meatastic delicacy greets your eyes. A full-bodied sauce slathered over flaky skin brings an extraordinary double blast of deliciousness, though as you taste it, it does seem to be practically identically to a condiment that has become awfully popular recently...",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Secret_Sauce_BBQ_Ribs.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Wriothesley",
+      "recipe": "Barbeque Ribs"
+    },
+    "effect": "Restores 30% of Max HP and an additional 1,750 HP to the selected character."
   },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
@@ -6179,6 +6388,856 @@
       "Delicious Jade Fruit Soup": "Increases all party members' Healing Bonus by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   },
+  "Duck Confit": {
+    "name": "Duck Confit",
+    "desc": "A pan-fried dish. With the magic of \"confit,\" the plump and meaty duck leg is cooked until crispy on the outside and meltingly tender on the inside — one cannot help but exclaim that every second spent on this dish is worth it!",
+    "stars": 1,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Duck_Confit.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Fowl"
+      },
+      {
+        "count": 1,
+        "name": "Potato"
+      }
+    ],
+    "effect": {
+      "Suspicious Duck Confit": "Restores 8% of Max HP and an additional 800 HP to the selected character.",
+      "Duck Confit": "Restores 9% of Max HP and an additional 1,000 HP to the selected character.",
+      "Delicious Duck Confit": "Restores 10% of Max HP and an additional 1,200 HP to the selected character."
+    }
+  },
+  "Fontainian Foie Gras": {
+    "name": "Fontainian Foie Gras",
+    "desc": "A traditional dish of Fontaine. The tender and buttery foie gras greets your tastebuds with silky dance moves before waltzing down your throat like smooth satin. Such a supreme delight makes all other dishes you will have in the future taste bland in comparison — that being said, you can hardly regret eating it, can you?",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Fontainian_Foie_Gras.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Fowl"
+      },
+      {
+        "count": 1,
+        "name": "Jam"
+      },
+      {
+        "count": 1,
+        "name": "Marcotte"
+      }
+    ],
+    "effect": {
+      "Suspicious Fontainian Foie Gras": "Increases all party members' DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Fontainian Foie Gras": "Increases all party members' DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Fontainian Foie Gras": "Increases all party members' DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Cream of Mushroom Soup": {
+    "name": "Cream of Mushroom Soup",
+    "desc": "A bisque that can be found everywhere. Its creamy texture feels like a silky garment, and you seem to be dancing on the stage in this beautiful attire... The curtain has fallen, but the memory lingers.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Cream_of_Mushroom_Soup.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Mushroom"
+      },
+      {
+        "count": 3,
+        "name": "Cream"
+      }
+    ],
+    "effect": {
+      "Suspicious Cream of Mushroom Soup": "Revives a character and restores 250 HP.",
+      "Cream of Mushroom Soup": "Revives a character and restores 400 HP.",
+      "Delicious Cream of Mushroom Soup": "Revives a character and restores 550 HP."
+    }
+  },
+  "Garlic Baguette": {
+    "name": "Garlic Baguette",
+    "desc": "Sliced baguette. It is said that every now and then, the people of Fontaine organize baking competitions. The bakers who make the best baguette get to show off their skills in the Palais Mermonia. This baguette could definitely win first prize in those competitions!",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Garlic_Baguette.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Butter"
+      }
+    ],
+    "effect": {
+      "Suspicious Garlic Baguette": "Increases all party members' ATK by 66 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Garlic Baguette": "Increases all party members' ATK by 81 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Garlic Baguette": "Increases all party members' ATK by 95 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Fish and Chips": {
+    "name": "Fish and Chips",
+    "desc": "A deep-fried appetizer. As the fish fillets and chips crack up with laughter in the hot, sizzling oil, their aromas meld perfectly before permeating the room... If there is anything that's more pleasurable than eating chips, that must be eating chips while also taking a huge bite of the fish fillet!",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Fish_and_Chips.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Fish"
+      },
+      {
+        "count": 3,
+        "name": "Potato"
+      },
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 1,
+        "name": "Salt"
+      }
+    ],
+    "effect": {
+      "Suspicious Fish and Chips": "Restores 70 Stamina.",
+      "Fish and Chips": "Restores 85 Stamina.",
+      "Delicious Fish and Chips": "Restores 100 Stamina."
+    }
+  },
+  "Lasagna": {
+    "name": "Lasagna",
+    "desc": "A baked pasta dish. The Song of Pots and Fire eulogizes the meat sauce's ascension to the Pasta Throne. The moment it enters your mouth, it graces you with bliss so unparalleled that you almost want to make today Lasagna Day!",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Lasagna.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Cheese"
+      },
+      {
+        "count": 1,
+        "name": "Butter"
+      }
+    ],
+    "effect": {
+      "Suspicious Lasagna": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+      "Lasagna": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
+      "Delicious Lasagna": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
+    }
+  },
+  "Poissonchant Pie": {
+    "name": "Poissonchant Pie",
+    "desc": "A fish pie. Fish fat sizzles near the dancing flame and then drips into the dough as the crust becomes golden and crispy. No one can resist the temptation to immediately have a try once the dish is freshly out of the oven. It feels as if the fish were singing a romantic and savory paean on the tip of your tongue.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Poissonchant_Pie.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Fish"
+      },
+      {
+        "count": 2,
+        "name": "Flour"
+      },
+      {
+        "count": 1,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 1,
+        "name": "Bacon"
+      }
+    ],
+    "effect": {
+      "Suspicious Poissonchant Pie": "Revives a character and restores 900 HP.",
+      "Poissonchant Pie": "Revives a character and restores 1,200 HP.",
+      "Delicious Poissonchant Pie": "Revives a character and restores 1,500 HP."
+    }
+  },
+  "Fruity Trio": {
+    "name": "Fruity Trio",
+    "desc": "A dessert with a romantic flair. The crispy and flaky tart shell and refreshing fruit fillings melt in your mouth. The harmonious coalescence of brown and white colors on the meringue reminds one of a stretch of gilded cloud in the warm sunlight. A pleasant surprise to your tastebuds indeed.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Fruity_Trio.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Marcotte"
+      },
+      {
+        "count": 1,
+        "name": "Bulle Fruit"
+      },
+      {
+        "count": 1,
+        "name": "Jam"
+      },
+      {
+        "count": 1,
+        "name": "Bird Egg"
+      }
+    ],
+    "effect": {
+      "Suspicious Fruity Trio": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Fruity Trio": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Fruity Trio": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Tasses Ragout": {
+    "name": "Tasses Ragout",
+    "desc": "A vegetable ragout. It is said that this dish once moved a picky Fontainian gourmet to tears after reminding them of their childhood. The story may be somewhat exaggerated in some respects, but you should have no doubt that it is truly honest with regard to how tasty the dish is.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Tasses_Ragout.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Tomato"
+      },
+      {
+        "count": 3,
+        "name": "Onion"
+      },
+      {
+        "count": 2,
+        "name": "Salt"
+      }
+    ],
+    "effect": {
+      "Suspicious Tasses Ragout": "Restores 20% of Max HP and an additional 900 HP to the selected character.",
+      "Tasses Ragout": "Restores 22% of Max HP and an additional 1,200 HP to the selected character.",
+      "Delicious Tasses Ragout": "Restores 24% of Max HP and an additional 1,500 HP to the selected character."
+    }
+  },
+  "Steak Tartare": {
+    "name": "Steak Tartare",
+    "desc": "A fresh dish of raw meat. Tender meat that is minced properly and coated with egg yolk that tastes exceptionally juicy and sweet. The aromatic juice of the meat fills your mouth with euphoria, giving people an exceptionally pure and primitive gourmet delight.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Steak_Tartare.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 3,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 2,
+        "name": "Onion"
+      },
+      {
+        "count": 2,
+        "name": "Marcotte"
+      }
+    ],
+    "effect": {
+      "Suspicious Steak Tartare": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+      "Steak Tartare": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
+      "Delicious Steak Tartare": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
+    }
+  },
+  "Vessie Chicken": {
+    "name": "Vessie Chicken",
+    "desc": "A famous Fontainian cuisine. Delicious juice locked inside the meat gives off a rich and layered aroma. This dish is considered a highly sought-after cuisine by many gourmets. After wolfing down the whole plate, one can't help but lick their lips, savoring the lingering scent. This exquisite cuisine is no doubt the crown jewel of Fontaine's gastronomy.",
+    "stars": 4,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Vessie_Chicken.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Fowl"
+      },
+      {
+        "count": 4,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 3,
+        "name": "Marcotte"
+      },
+      {
+        "count": 2,
+        "name": "Fermented Juice"
+      }
+    ],
+    "effect": {
+      "Suspicious Vessie Chicken": "Increases all party members' Physical DMG by 25% and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Vessie Chicken": "Increases all party members' Physical DMG by 35% and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Vessie Chicken": "Increases all party members' Physical DMG by 45% and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Fontainian Onion Soup": {
+    "name": "Fontainian Onion Soup",
+    "desc": "An onion soup. Stretchy and golden cheese lies on a slice of bread that is crispy on top and soft on the bottom. The rich onion aroma is combined with a slightly salty taste. A small sip is enough to warm one up.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Fontainian_Onion_Soup.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Onion"
+      },
+      {
+        "count": 2,
+        "name": "Flour"
+      },
+      {
+        "count": 1,
+        "name": "Cheese"
+      }
+    ],
+    "effect": {
+      "Suspicious Fontainian Onion Soup": "Increases all party members' DEF by 88 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Fontainian Onion Soup": "Increases all party members' DEF by 107 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Fontainian Onion Soup": "Increases all party members' DEF by 126 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Ile flottante": {
+    "name": "Ile flottante",
+    "desc": "A dessert made of egg whites. Light egg-white dew that floats on the creamy sauce is like mysterious treasure chests awaiting travelers' exploration. \"Enjoyment\" would be an understatement, for the dessert brings you the joy of opening a luxurious chest!",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Ile_flottante.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Sugar"
+      },
+      {
+        "count": 1,
+        "name": "Bird Egg"
+      }
+    ],
+    "effect": {
+      "Suspicious Ile flottante": "Restores 18% of Max HP to the selected character and regenerates 300 HP every 5s for 30s.",
+      "Ile flottante": "Restores 20% of Max HP to the selected character and regenerates 390 HP every 5s for 30s.",
+      "Delicious Ile flottante": "Restores 22% of Max HP to the selected character and regenerates 470 HP every 5s for 30s."
+    }
+  },
+  "Poisson Seafood Soup": {
+    "name": "Poisson Seafood Soup",
+    "desc": "A seafood soup. The buttery soup resembles gilded waves under the bright sun, as the rich seafood aromas melt in your mouth. The bounties of the ocean form a harmonious masterpiece. After emptying the bowl quickly, you can't help but dip the bread in what remains — it would be a great loss to miss even one drop of it!",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Poisson_Seafood_Soup.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Fish"
+      },
+      {
+        "count": 2,
+        "name": "Tomato"
+      },
+      {
+        "count": 2,
+        "name": "Mint"
+      },
+      {
+        "count": 2,
+        "name": "Marcotte"
+      }
+    ],
+    "effect": {
+      "Suspicious Poisson Seafood Soup": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
+      "Poisson Seafood Soup": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
+      "Delicious Poisson Seafood Soup": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s."
+    }
+  },
+  "Fontaine Aspic": {
+    "name": "Fontaine Aspic",
+    "desc": "A cold dish made from seafood. The fish roe in the aspic explodes on your tastebuds, igniting delightful surprises. It didn't take long before you clean your plate. Since there is no one around... it's okay to lick the plate, right?",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Fontaine_Aspic.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Fish"
+      },
+      {
+        "count": 2,
+        "name": "Fowl"
+      },
+      {
+        "count": 1,
+        "name": "Cream"
+      }
+    ],
+    "effect": {
+      "Suspicious Fontaine Aspic": "Increases all party members' CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Fontaine Aspic": "Increases all party members' CRIT Rate by 9% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Fontaine Aspic": "Increases all party members' CRIT Rate by 12% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Pate de Fruit": {
+    "name": "Pate de Fruit",
+    "desc": "A gummy candy. It fills your mouth with fruity aromas as if a whole orchard were condensed inside the little gummy. Before you know it, you've devoured the entire jar, and not even the frosting on your fingers is spared!",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Pate_de_Fruit.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Bulle Fruit"
+      },
+      {
+        "count": 1,
+        "name": "Jam"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
+    ],
+    "effect": {
+      "Suspicious Pate de Fruit": "Increases all party members' CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Pate de Fruit": "Increases all party members' CRIT Rate by 15% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Pate de Fruit": "Increases all party members' CRIT Rate by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Conch Madeleine": {
+    "name": "Conch Madeleine",
+    "desc": "A lovely-looking dessert. There's a saying in Fontaine: \"There are only two types of people: those who love Conch Madeleine and those who haven't tried it.\" Everyone falls in love with this cake the instant they taste it!",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Conch_Madeleine.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 2,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Butter"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
+    ],
+    "effect": {
+      "Suspicious Conch Madeleine": "Increases all party members' Healing Bonus by 15% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Conch Madeleine": "Increases all party members' Healing Bonus by 17% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Conch Madeleine": "Increases all party members' Healing Bonus by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Trout Amandine": {
+    "name": "Trout Amandine",
+    "desc": "A scrumptious piece of artfully fried fish. Sweet and crisp almonds paired with perfectly fatty fish make you feel like you are floating blissfully along the ocean currents, buffeted by waves of gastronomic delight.",
+    "stars": 1,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Trout_Amandine.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Fish"
+      },
+      {
+        "count": 1,
+        "name": "Almond"
+      }
+    ],
+    "effect": {
+      "Suspicious Trout Amandine": "Restores 8% of Max HP to the selected character and regenerates 210 HP every 5s for 30s.",
+      "Trout Amandine": "Restores 9% of Max HP to the selected character and regenerates 260 HP every 5s for 30s.",
+      "Delicious Trout Amandine": "Restores 10% of Max HP to the selected character and regenerates 300 HP every 5s for 30s."
+    }
+  },
+  "Barbeque Ribs": {
+    "name": "Barbeque Ribs",
+    "desc": "A tender meat dish with crispy skin. Even before it has been taken off the grill, the enticing meaty aroma assails your nostrils with promises of heaven. Take a single bite, and the crackling of the skin gives way to the juicy, tender meat within... No wonder this dish steals the show the moment it is placed onto the table!",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Barbeque_Ribs.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Marcotte"
+      }
+    ],
+    "effect": {
+      "Suspicious Barbeque Ribs": "Restores 20% of Max HP and an additional 900 HP to the selected character.",
+      "Barbeque Ribs": "Restores 22% of Max HP and an additional 1,200 HP to the selected character.",
+      "Delicious Barbeque Ribs": "Restores 24% of Max HP and an additional 1,500 HP to the selected character."
+    }
+  },
+  "Coffee Bavarois": {
+    "name": "Coffee Bavarois",
+    "desc": "A refreshing dessert. The rich fragrance of custard and savory scent of coffee mingle on the tip of your tongue, the steps of their delicate dance light, leaving a surprisingly silky and smooth texture lingering in your mouth. No wonder this dish is always the darling of the dessert menu!",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Coffee_Bavarois.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Coffee Beans"
+      },
+      {
+        "count": 3,
+        "name": "Milk"
+      },
+      {
+        "count": 3,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 2,
+        "name": "Cream"
+      }
+    ],
+    "effect": {
+      "Suspicious Coffee Bavarois": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
+      "Coffee Bavarois": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
+      "Delicious Coffee Bavarois": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s."
+    }
+  },
+  "Haggis": {
+    "name": "Haggis",
+    "desc": "A dish with strong and distinctive flavors. After venturing a nibble, the mellow and rich taste of the offal and various spices serve up layer after layer of piquancy to your taste buds. As you savor the flavor, the abundant meaty aroma fills your mouth with a bountiful aftertaste that lingers long after you have finished. No wonder it inspires such strong emotions in the hearts of poets, and they can seldom resist dedicating a paean to this dish after trying it.",
+    "stars": 4,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Haggis.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 3,
+        "name": "Potato"
+      },
+      {
+        "count": 3,
+        "name": "Radish"
+      },
+      {
+        "count": 2,
+        "name": "Marcotte"
+      }
+    ],
+    "effect": {
+      "Suspicious Haggis": "Increases all party members' DEF by 215 and healing effects by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Haggis": "Increases all party members' DEF by 261 and healing effects by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Haggis": "Increases all party members' DEF by 308 and healing effects by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Tripes du Port": {
+    "name": "Tripes du Port",
+    "desc": "An offal dish. The flaky yet soft cow's stomach has an almost fruity fragrance. Unlike other surprising delicacies that take the world by storm, the dish is overflowing with rich traditional savor, and once you have a single bite, you simply cannot stop!",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Tripes_du_Port.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 3,
+        "name": "Carrot"
+      },
+      {
+        "count": 2,
+        "name": "Onion"
+      },
+      {
+        "count": 1,
+        "name": "Fermented Juice"
+      }
+    ],
+    "effect": {
+      "Suspicious Tripes du Port": "Revives a character and restores 900 HP.",
+      "Tripes du Port": "Revives a character and restores 1,200 HP.",
+      "Delicious Tripes du Port": "Revives a character and restores 1,500 HP."
+    }
+  },
+  "Tomates Narbonnaises": {
+    "name": "Tomates Narbonnaises",
+    "desc": "A dish of meat and vegetables. Juicy mouthwatering tomatoes filled with hearty meat, each one has an agile, charming aroma, which explodes into a splendid savor after biting into it. After eating a single one, all the dark clouds in your heart will have been banished by the rich deliciousness emanating from your tongue.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Tomates_Narbonnaises.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 3,
+        "name": "Tomato"
+      },
+      {
+        "count": 1,
+        "name": "Bacon"
+      },
+      {
+        "count": 1,
+        "name": "Onion"
+      }
+    ],
+    "effect": {
+      "Suspicious Tomates Narbonnaises": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Tomates Narbonnaises": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Tomates Narbonnaises": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Consomme": {
+    "name": "Consomme",
+    "desc": "A soup with a complex recipe. A clear soup the combines the essence of the boundless blue skies above and the limitless land below, the aromas of meat and vegetables blended seamlessly into a greater whole. No wonder a columnist for The Steambird, once unable to squeeze out a single word onto the blank paper before them, drank a single bowl and immediately became a font of literary genius, every word nearly as exquisite as this dish.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Consomme.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Fowl"
+      },
+      {
+        "count": 3,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 2,
+        "name": "Carrot"
+      },
+      {
+        "count": 1,
+        "name": "Marcotte"
+      }
+    ],
+    "effect": {
+      "Suspicious Consomme": "Increases all party members' CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Consomme": "Increases all party members' CRIT Rate by 15% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Consomme": "Increases all party members' CRIT Rate by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Boudin Noir aux Pommes": {
+    "name": "Boudin Noir aux Pommes",
+    "desc": "A traditional Fontainian dish. A perfect combination, with the sweet fragrance of the apples neutralizing the fat of the blood sausage. An enticing, slightly burnt smell wafts upwards from the plate, and the eyes of those who see it light up as they shout with joy and anticipation.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Boudin_Noir_aux_Pommes.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Apple"
+      },
+      {
+        "count": 1,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 1,
+        "name": "Butter"
+      }
+    ],
+    "effect": {
+      "Suspicious Boudin Noir aux Pommes": "Decreases all party members' sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Boudin Noir aux Pommes": "Decreases all party members' sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Boudin Noir aux Pommes": "Decreases all party members' sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Cassoulet": {
+    "name": "Cassoulet",
+    "desc": "A simple rustic stew. Time is the most wondrous of weapons for catalyzing the creation of deliciousness, and time allows the meat in this dish to soak up the ocean of stewed flavor it is bathing in, becoming soft and fragrant. Together with the rich aroma of the beans, it conjures a warm delight in one's mouth that stirs the spirit.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Cassoulet.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Sausage"
+      },
+      {
+        "count": 1,
+        "name": "Fowl"
+      },
+      {
+        "count": 1,
+        "name": "Glabrous Beans"
+      },
+      {
+        "count": 1,
+        "name": "Marcotte"
+      }
+    ],
+    "effect": {
+      "Suspicious Cassoulet": "Increases all party members' Shield Strength by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Cassoulet": "Increases all party members' Shield Strength by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Cassoulet": "Increases all party members' Shield Strength by 30% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Crepes Suzette": {
+    "name": "Crepes Suzette",
+    "desc": "Crepes with fillings. The light cream and delectable jam are composed into a symphony of flavor, folded into a masterfully cooked soft crepe, as though robed in silken perfection, inviting your tongue to join an elegant, endless waltz of culinary delight.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Crepes_Suzette.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Bulle Fruit"
+      },
+      {
+        "count": 1,
+        "name": "Cream"
+      },
+      {
+        "count": 1,
+        "name": "Jam"
+      },
+      {
+        "count": 1,
+        "name": "Flour"
+      }
+    ],
+    "effect": {
+      "Suspicious Crepes Suzette": "Decreases all party members' gliding and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Crepes Suzette": "Decreases all party members' gliding and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Crepes Suzette": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
   "Rice Pudding": {
     "name": "Rice Pudding",
     "desc": "A dessert made from rice. The soft, sticky rice and the sweet milk have melded together perfectly, their tastes complementing each other. If you eat it hot, you can enjoy the dense rice grains, and if you leave it till it's cold, you can savor the gentle fragrance of milk — each possessing its own beauty. People who eat such a dish cannot help but wonder: how many experiments led up to this moment?",
@@ -6579,6 +7638,74 @@
       "Delicious Minty Fruit Tea": "Increases all party members' DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   },
+  "Fruity Duet": {
+    "name": "Fruity Duet",
+    "desc": "A dual-flavored fruity beverage. A small sip sends you to a beach paradise, the fragrance of fruit dancing upon your lips as you lie upon the white sands, watching the orange sun slowly rising, warming your heart and lifting your spirits.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Fruity_Duet.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Sunsettia"
+      },
+      {
+        "count": 1,
+        "name": "Jam"
+      },
+      {
+        "count": 1,
+        "name": "Qingxin"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
+    ],
+    "effect": {
+      "Suspicious Fruity Duet": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Fruity Duet": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Fruity Duet": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Fruity Smoothie": {
+    "name": "Fruity Smoothie",
+    "desc": "A beverage of simple and clean colors. The refreshing smoothie with a faint fruity scent reminds you of the ethereal clouds above Qingyun Peak. Does it taste as light and fluffy?",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Fruity_Smoothie.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Berry"
+      },
+      {
+        "count": 3,
+        "name": "Milk"
+      },
+      {
+        "count": 1,
+        "name": "Qingxin"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
+    ],
+    "effect": {
+      "Suspicious Fruity Smoothie": "Revives a character and restores 900 HP.",
+      "Fruity Smoothie": "Revives a character and restores 1,200 HP.",
+      "Delicious Fruity Smoothie": "Revives a character and restores 1,500 HP."
+    }
+  },
   "Holy Water": {
     "name": "Holy Water",
     "desc": "A bottle of clear, colorless, and contaminant-free liquid. Indistinguishable from ordinary spring water. May or may not be worth putting all of one's hopes into.",
@@ -6590,6 +7717,19 @@
     "sources": [
       "Sold at shops"
     ]
+  },
+  "\"Pure Water\"": {
+    "name": "\"Pure Water\"",
+    "desc": "It is said to be the legacy of a genius potioneer. It can draw out the purest strength from within one's body.",
+    "longDesc": "Said to be the legacy of a certain genius Potioneer, it can draw out the purest strength from within the body.\nThe Fontaine Research Institute does not take the academic discipline of alchemy potions seriously. For that reason, even a genius Potioneer could not leave a mark on the storied history of the Institute.\nOnly the stories passed back and forth among children provide a glimpse into his life. One of the tales shared most enthusiastically is that of how he was drowned in the pure water he created.\nAnd the life of the creator and the disappearance of their name seem to have made this glittering potion, which shines with a pure color, purer still.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Pure_Water.png",
+    "sources": [
+      "Crafted"
+    ],
+    "effect": "Increases all party members' ATK by 320, CRIT Rate by 10%, and damage taken by 20% for 30s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Pop's Teas": {
     "name": "Pop's Teas",
@@ -6662,6 +7802,18 @@
       "Shop purchase"
     ],
     "effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP."
+  },
+  "Fonta": {
+    "name": "Fonta",
+    "desc": "A specialty drink created by the Fontaine Research Institute. It is well-received by locals.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Fonta.png",
+    "sources": [
+      "Purchased from the shop"
+    ],
+    "effect": "Refreshing Fonta, a Font of Refreshment!"
   },
   "Wheat": {
     "name": "Wheat",
@@ -6765,7 +7917,8 @@
     "category": "Food and Potions",
     "icon": "img/material/Almond.png",
     "sources": [
-      "Sold at general goods shops in Liyue"
+      "Sold at general goods shops in Liyue",
+      "Sold at general goods shops in Fontaine"
     ]
   },
   "Rice": {
@@ -6799,7 +7952,8 @@
     "category": "Food and Potions",
     "icon": "img/material/Glabrous_Beans.png",
     "sources": [
-      "Sold at restaurants in Sumeru"
+      "Sold at restaurants in Sumeru",
+      "Sold at general goods shops in Fontaine"
     ]
   },
   "Coffee Beans": {
@@ -6809,7 +7963,18 @@
     "category": "Food and Potions",
     "icon": "img/material/Coffee_Beans.png",
     "sources": [
-      "Sold at cafes in Sumeru"
+      "Sold at cafés in Sumeru",
+      "Sold at cafés in Fontaine"
+    ]
+  },
+  "Fermented Juice": {
+    "name": "Fermented Juice",
+    "desc": "A fermented juice with a unique fruity scent. It is often used as a marinade.",
+    "type": "Cooking Ingredient",
+    "category": "Food and Potions",
+    "icon": "img/material/Fermented_Juice.png",
+    "sources": [
+      "Sold at general goods shops in Fontaine"
     ]
   },
   "Flour": {
@@ -7444,10 +8609,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Hurricane_Seed.png",
-    "sources": [
-      "Dropped by Lv. 30+ Anemo Hypostases"
-    ]
+    "icon": "img/material/Hurricane_Seed.png"
   },
   "Lightning Prism": {
     "name": "Lightning Prism",
@@ -7455,10 +8617,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Lightning_Prism.png",
-    "sources": [
-      "Dropped by Lv. 30+ Electro Hypostases"
-    ]
+    "icon": "img/material/Lightning_Prism.png"
   },
   "Basalt Pillar": {
     "name": "Basalt Pillar",
@@ -7466,10 +8625,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Basalt_Pillar.png",
-    "sources": [
-      "Dropped by Lv.30+ Geo Hypostases"
-    ]
+    "icon": "img/material/Basalt_Pillar.png"
   },
   "Hoarfrost Core": {
     "name": "Hoarfrost Core",
@@ -7477,10 +8633,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Hoarfrost_Core.png",
-    "sources": [
-      "Dropped by Lv. 30+ Cryo Regisvines"
-    ]
+    "icon": "img/material/Hoarfrost_Core.png"
   },
   "Everflame Seed": {
     "name": "Everflame Seed",
@@ -7488,10 +8641,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Everflame_Seed.png",
-    "sources": [
-      "Dropped by Lv. 30+ Pyro Regisvines"
-    ]
+    "icon": "img/material/Everflame_Seed.png"
   },
   "Cleansing Heart": {
     "name": "Cleansing Heart",
@@ -7499,10 +8649,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Cleansing_Heart.png",
-    "sources": [
-      "Dropped by Lv. 30+ Oceanids"
-    ]
+    "icon": "img/material/Cleansing_Heart.png"
   },
   "Juvenile Jade": {
     "name": "Juvenile Jade",
@@ -7510,10 +8657,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Juvenile_Jade.png",
-    "sources": [
-      "Dropped by Lv. 30+ Primo Geovishaps"
-    ]
+    "icon": "img/material/Juvenile_Jade.png"
   },
   "Crystalline Bloom": {
     "name": "Crystalline Bloom",
@@ -7521,10 +8665,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Crystalline_Bloom.png",
-    "sources": [
-      "Dropped by Lv.30+ Cryo Hypostases"
-    ]
+    "icon": "img/material/Crystalline_Bloom.png"
   },
   "Marionette Core": {
     "name": "Marionette Core",
@@ -7532,10 +8673,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Marionette_Core.png",
-    "sources": [
-      "Dropped by Lv. 30+ Maguu Kenki"
-    ]
+    "icon": "img/material/Marionette_Core.png"
   },
   "Perpetual Heart": {
     "name": "Perpetual Heart",
@@ -7543,10 +8681,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Perpetual_Heart.png",
-    "sources": [
-      "Dropped by Lv. 30+ Perpetual Mechanical Arrays"
-    ]
+    "icon": "img/material/Perpetual_Heart.png"
   },
   "Smoldering Pearl": {
     "name": "Smoldering Pearl",
@@ -7554,10 +8689,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Smoldering_Pearl.png",
-    "sources": [
-      "Dropped by Lv.30+ Pyro Hypostases"
-    ]
+    "icon": "img/material/Smoldering_Pearl.png"
   },
   "Dew of Repudiation": {
     "name": "Dew of Repudiation",
@@ -7565,10 +8697,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Dew_of_Repudiation.png",
-    "sources": [
-      "Dropped by Lv. 30+ Hydro Hypostases"
-    ]
+    "icon": "img/material/Dew_of_Repudiation.png"
   },
   "Storm Beads": {
     "name": "Storm Beads",
@@ -7576,10 +8705,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Storm_Beads.png",
-    "sources": [
-      "Dropped by Lv. 30+ Thunder Manifestations"
-    ]
+    "icon": "img/material/Storm_Beads.png"
   },
   "Riftborn Regalia": {
     "name": "Riftborn Regalia",
@@ -7587,10 +8713,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Riftborn_Regalia.png",
-    "sources": [
-      "Dropped by Lv. 30+ Golden Wolflords"
-    ]
+    "icon": "img/material/Riftborn_Regalia.png"
   },
   "Dragonheir's False Fin": {
     "name": "Dragonheir's False Fin",
@@ -7598,10 +8721,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Dragonheirs_False_Fin.png",
-    "sources": [
-      "Dropped by Lv. 30+ Bathysmal Vishap Herds"
-    ]
+    "icon": "img/material/Dragonheirs_False_Fin.png"
   },
   "Runic Fang": {
     "name": "Runic Fang",
@@ -7609,10 +8729,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Runic_Fang.png",
-    "sources": [
-      "Dropped by Lv. 30+ Ruin Serpents"
-    ]
+    "icon": "img/material/Runic_Fang.png"
   },
   "Majestic Hooked Beak": {
     "name": "Majestic Hooked Beak",
@@ -7620,10 +8737,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Majestic_Hooked_Beak.png",
-    "sources": [
-      "Dropped by Lv. 30+ Jadeplume Terrorshroom"
-    ]
+    "icon": "img/material/Majestic_Hooked_Beak.png"
   },
   "Thunderclap Fruitcore": {
     "name": "Thunderclap Fruitcore",
@@ -7631,10 +8745,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Thunderclap_Fruitcore.png",
-    "sources": [
-      "Dropped by Lv. 30+ Electro Regisvines"
-    ]
+    "icon": "img/material/Thunderclap_Fruitcore.png"
   },
   "Perpetual Caliber": {
     "name": "Perpetual Caliber",
@@ -7642,10 +8753,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Perpetual_Caliber.png",
-    "sources": [
-      "Dropped by Lv. 30+ Aeonblight Drakes"
-    ]
+    "icon": "img/material/Perpetual_Caliber.png"
   },
   "Light Guiding Tetrahedron": {
     "name": "Light Guiding Tetrahedron",
@@ -7653,10 +8761,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Light_Guiding_Tetrahedron.png",
-    "sources": [
-      "Dropped by Lv. 30+ Semi-Intransient Matrices"
-    ]
+    "icon": "img/material/Light_Guiding_Tetrahedron.png"
   },
   "Quelled Creeper": {
     "name": "Quelled Creeper",
@@ -7664,10 +8769,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Quelled_Creeper.png",
-    "sources": [
-      "Dropped by Lv.30+ Dendro Hypostases"
-    ]
+    "icon": "img/material/Quelled_Creeper.png"
   },
   "Pseudo-Stamens": {
     "name": "Pseudo-Stamens",
@@ -7675,10 +8777,7 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/PseudoStamens.png",
-    "sources": [
-      "Dropped by Lv. 30+ Setekh Wenut"
-    ]
+    "icon": "img/material/PseudoStamens.png"
   },
   "Evergloom Ring": {
     "name": "Evergloom Ring",
@@ -7687,10 +8786,52 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Evergloom_Ring.png",
-    "sources": [
-      "Dropped by Lv. 30+ Iniquitous Baptists"
-    ]
+    "icon": "img/material/Evergloom_Ring.png"
+  },
+  "Artificed Spare Clockwork Component — Coppelia": {
+    "name": "Artificed Spare Clockwork Component — Coppelia",
+    "desc": "An artificed spare clockwork component belonging to Coppelia. It powers this artificed dancer.\nAccording to its creator's design, the story of the artificed dancer with delicate joints ends at a merry moment. Coppelia will send whoever attempts to disturb that moment to a chapter of misfortune with her superb combat skills.",
+    "longDesc": "An artificed spare clockwork component belonging to Coppelia. It powers this artificed dancer.\nAccording to its creator's design, the story of the artificed dancer with delicate joints ends at a merry moment. Coppelia will send whoever attempts to disturb that moment to a chapter of misfortune with her superb combat skills.\nThe Icewind Suite's inspiration comes from \"Clockwork Coppelia,\" a play that was only performed on stage once, and even then, staged only the first couple acts. The play's protagonist fell in love with Coppelia, a clockwork doll he invented that possessed what seemed to be a \"human heart.\" Critics, artists, and writers had looked forward to the premiere, but during the first intermission, the cataclysm that would scar the world befell.\nAll that remained of the story was ruined theater advertisements in outdated magazines, and lines from the first couple acts — retold by audience members who had been present that day.\nThat was many years ago. The first brick of the Opera Epiclese hadn't been laid down, nor had the ruined theater been rebuilt, then sold and resold to a myriad of owners before eventually becoming what is known today as the Hotel Debord. But after centuries, the incomplete Clockwork Coppelia still inspires creators who yearn to depict golden eras or tragedies (and the two often coexist in one story), nor has it ceased to bring new ideas to engineers and inventors devoted to the arts.",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Artificed_Spare_Clockwork_Component_—_Coppelia.png"
+  },
+  "Artificed Spare Clockwork Component — Coppelius": {
+    "name": "Artificed Spare Clockwork Component — Coppelius",
+    "desc": "An artificed spare clockwork component belonging to Coppelius. It powers this artificed dancer.\nThe artificed dancer whirls to a platinum tune, performing an unending waltz of icewind. Coppelius's dance will not stop. He will continue whirling till the bell tolls.",
+    "longDesc": "An artificed spare clockwork component belonging to Coppelius. It powers this artificed dancer.\nThe artificed dancer whirls to a platinum tune, performing an unending waltz of icewind. Coppelius's dance will not stop. He will continue whirling till the bell tolls.\nIn the original Clockwork Coppelia, Coppelius was the clockwork lady's creator and suitor. These are excerpts from the audience members' recollection:\n\"Mine heart is decided, from today forth, I shall not seek those that make me happy, but bring happiness to those I choose.\"\n\"This is completely absurd, yet also absurdly commonplace. The wise always take orders from fools, and life is but a vulgar comedy.\"",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Artificed_Spare_Clockwork_Component_—_Coppelius.png"
+  },
+  "Emperor's Resolution": {
+    "name": "Emperor's Resolution",
+    "desc": "The war hammer of the Emperor of Fire and Iron. The mighty crab has crushed countless foes with this giant claw. Be it clockwork meka, other Fontemer Aberrants, or hunters with ill-placed curiosity — all have yielded under its power.\nFontemer Aberrants are different from human beings in that the concepts of aristocracy or inheritance are entirely foreign to them. None of them are born superior. One that survives deadly predators and adversities is able to accumulate infinite power as it keeps hunting and feeding over centuries. Such a creature is often referred to as an overlord for the fear it inspires.",
+    "longDesc": "The giant Armored Crab known as \"Emperor of Fire and Iron\" has crushed countless foes with this claw. Be it clockwork meka, other Fontemer Aberrants, or hunters with ill-placed curiosity — all have yielded under its power.\nFontemer Aberrants are different from human beings in that the concepts of aristocracy or inheritance are entirely foreign to them. None of them are born superior. One that survives deadly predators and adversities is able to accumulate infinite power as it keeps hunting and feeding over centuries. Such a creature is often referred to as an overlord for the fear it inspires.\nIn Fontainian folklore, there are two lords amongst Fontemer Aberrants. The strife between them lasted for long years, and one eventually ended up retreating underground and his fury was so intense that it was able to agitate the bitter waters.",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Emperors_Resolution.png"
+  },
+  "\"Tourbillon Device\"": {
+    "name": "\"Tourbillon Device\"",
+    "desc": "The core component of the Experimental Field Generator.\nA precision-machined mechanical component that counteracts the effects of gravity via high-speed rotation. The revolution speed is so fast that it is almost impossible to capture with the naked eye.\nThroughout its long history, the Fontaine Research Institute of Kinetic Energy Engineering has always warred against a flood that once washed countless lives away, and may yet cover the earth and sky one day far in the future, searching for a means to survive.\nArkhium, with its immense energetic potential and power to shatter the shackles of the earth, was once considered the key to the gate of salvation.",
+    "longDesc": "A precision-machined mechanical component that counteracts the effects of gravity via high-speed rotations almost impossible to capture with the naked eye.\nIn its long history, the Fontaine Research Institute of Kinetic Energy Engineering has always warred against a flood that once washed countless lives away, and may yet cover earth and sky someday in the future, searching for a means to survive.\nArkhium, with its immense energetic potential and power to break the shackles of earth, was once considered the key to the gate of salvation. Though the experimental device built around it failed to achieve the expected results, Fontainian research into it actually began long ago, and ended without any trouble. It has the property of separating matter — or should one say, things that are not specific types of matter.",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Tourbillon_Device.png"
+  },
+  "Fontemer Unihorn": {
+    "name": "Fontemer Unihorn",
+    "desc": "The electricity-emitting section of the Millennial Pearl Seahorse, and its regalia, the symbol of its surpassing might — now snapped off amidst a clash against a mighty challenger.\nAs the greatest predator that can arise from seahorses, this being's evolutionary journey is not the same as that experienced by other Fontemer Aberrants. It did not start from a base form before growing larger and stronger, but instead grew limbs and a horn that have no place on an ordinary seahorse. Even its musculature and skeleton have changed. It really seems to resemble a fantastical beast from legends of yore more than its original shape. In the imaginations of poets and authors, even seahorses can frolick upon the earth.",
+    "longDesc": "As the greatest predator that can arise from seahorses, this being's evolutionary journey is not the same as that experienced by other Fontemer Aberrants. It did not start from a base form before growing larger and stronger, but instead grew limbs and horns that have no place on an ordinary seahorse. Even its musculature and skeleton have changed. It really seems to resemble a fantastical beast from legends of yore more than its original shape. In the imaginations of poets and authors, even seahorses can frolick upon the earth.\nFontaine's legends speak of two lords of the Fontemer Aberrants, equals and rivals for many long years. One of them, in time, grew far greater than all its kin, and would eventually establish a lonely court in a cavern.",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Fontemer_Unihorn.png"
   },
   "Brilliant Diamond Sliver": {
     "name": "Brilliant Diamond Sliver",
@@ -7746,6 +8887,7 @@
     "sources": [
       "Dropped by Pyro Regisvines",
       "Dropped by Pyro Hypostases",
+      "Dropped by the Emperor of Fire and Iron",
       "Purchase from the Souvenir Shop"
     ]
   },
@@ -7759,6 +8901,7 @@
     "sources": [
       "Dropped by Lv. 40+ Pyro Regisvines",
       "Dropped by Lv. 40+ Pyro Hypostases",
+      "Dropped by Lv. 40+ Emperor of Fire and Iron",
       "Crafted"
     ]
   },
@@ -7772,6 +8915,7 @@
     "sources": [
       "Dropped by Lv. 60+ Pyro Regisvines",
       "Dropped by Lv. 60+ Pyro Hypostases",
+      "Dropped by Lv. 60+ Emperor of Fire and Iron",
       "Crafted"
     ]
   },
@@ -7785,6 +8929,7 @@
     "sources": [
       "Dropped by Lv. 75+ Pyro Regisvines",
       "Dropped by Lv. 75+ Pyro Hypostases",
+      "Dropped by Lv. 75+ Emperor of Fire and Iron",
       "Crafted"
     ]
   },
@@ -7851,6 +8996,7 @@
       "Dropped by Electro Hypostases",
       "Dropped by Thunder Manifestations",
       "Dropped by Electro Regisvines",
+      "Dropped by Millennial Pearl Seahorses",
       "Purchase from the Souvenir Shop"
     ]
   },
@@ -7865,6 +9011,7 @@
       "Dropped by Lv. 40+ Electro Hypostases",
       "Dropped by Lv. 40+ Thunder Manifestations",
       "Dropped by Lv. 40+ Electro Regisvines",
+      "Dropped by Lv. 40+ Millennial Pearl Seahorses",
       "Crafted"
     ]
   },
@@ -7879,6 +9026,7 @@
       "Dropped by Lv. 60+ Electro Hypostases",
       "Dropped by Lv. 60+ Thunder Manifestations",
       "Dropped by Lv. 60+ Electro Regisvines",
+      "Dropped by Lv. 60+ Millennial Pearl Seahorses",
       "Crafted"
     ]
   },
@@ -7893,6 +9041,7 @@
       "Dropped by Lv. 75+ Electro Hypostases",
       "Dropped by Lv. 75+ Thunder Manifestations",
       "Dropped by Lv. 75+ Electro Regisvines",
+      "Dropped by Lv. 75+ Millennial Pearl Seahorses",
       "Crafted"
     ]
   },
@@ -8011,6 +9160,7 @@
       "Dropped by Geo Hypostases",
       "Dropped by Golden Wolflords",
       "Dropped by Ruin Serpents",
+      "Dropped by Experimental Field Generators",
       "Purchase from the Souvenir Shop"
     ]
   },
@@ -8025,6 +9175,7 @@
       "Dropped by Lv. 40+ Geo Hypostases",
       "Dropped by Lv. 40+ Golden Wolflords",
       "Dropped by Lv. 40+ Ruin Serpents",
+      "Dropped by Lv. 40+ Experimental Field Generators",
       "Crafted"
     ]
   },
@@ -8039,6 +9190,7 @@
       "Dropped by Lv. 60+ Geo Hypostases",
       "Dropped by Lv. 60+ Golden Wolflords",
       "Dropped by Lv. 60+ Ruin Serpents",
+      "Dropped by Lv. 60+ Experimental Field Generators",
       "Crafted"
     ]
   },
@@ -8053,6 +9205,7 @@
       "Dropped by Lv. 75+ Geo Hypostases",
       "Dropped by Lv. 75+ Golden Wolflords",
       "Dropped by Lv. 75+ Ruin Serpents",
+      "Dropped by Lv. 75+ Experimental Field Generators",
       "Crafted"
     ]
   },
@@ -8677,21 +9830,154 @@
       "Domain of Forgery: Leading Karma (Wednesday/Saturday/Sunday)"
     ]
   },
+  "Fragment of an Ancient Chord": {
+    "name": "Fragment of an Ancient Chord",
+    "desc": "Weapon Ascension Material.\nA harp with rotten keys. Its voice blocked, it cannot be played nor its sound heard.\nIt is said the descendants of the forgotten music once lacquered mechanical wooden harps with gold in order to revive the magnificent remnants of the ancient dynasty, futilely attempting to match them to the silent golems...\nA long time passed, and then more, and the rotten, off-key harps remained in the grasp of those silent giants, caressed by the waves, playing only sorrowful strains.",
+    "stars": 2,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Fragment_of_an_Ancient_Chord.png",
+    "sources": [
+      "Domain of Forgery: Robotic Ruse (Monday/Thursday/Sunday)"
+    ]
+  },
+  "Chapter of an Ancient Chord": {
+    "name": "Chapter of an Ancient Chord",
+    "desc": "Weapon Ascension Material.\nLegends say that the survivors of that ancient dynasty once cast a harp out of black iron to commemorate and mourn.\nA harp cast of black iron cannot be played. To mourn that ancient dynasty that was once so proud of its golden music, those remaining forged this heavy instrument and its yet weightier silence.\nBut no matter what, the black iron harp remained as silent as that lost era.",
+    "stars": 3,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Chapter_of_an_Ancient_Chord.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Robotic Ruse (Monday/Thursday/Sunday)"
+    ]
+  },
+  "Movement of an Ancient Chord": {
+    "name": "Movement of an Ancient Chord",
+    "desc": "Weapon Ascension Material.\nIn that great disaster, the golden palace sank with its throne, the music was shattered, the notes turned to silence...\nBut the remnants of that empire never gave up their desire for salvation and to surpass fate.\nTo save their waning civilization and their desire to transcend, the Golden Troupe played melodies most wondrous, enticing children to offer their precious souls to the sleeping golems.",
+    "stars": 4,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Movement_of_an_Ancient_Chord.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Robotic Ruse (Monday/Thursday/Sunday)"
+    ]
+  },
+  "Echo of an Ancient Chord": {
+    "name": "Echo of an Ancient Chord",
+    "desc": "Weapon Ascension Material.\nThe God King's Grand Symphony is composed of countless melodies linked together, but its main thesis is submerged under the common destiny of the Water Nation.\nThe harmonies of those carefree years and sonatas were once the greatest representation of civilization and order, but when the prosperous empire descended into a playground for tyrants, the brutal despots tore the connection with the source asunder under the cover of golden cloaks, and discord finally swarmed through the empire—\nThe original song of fate continued to ring out on a score of fading gold, unperturbed by all... until all was dissolved, and all returned to chaos.",
+    "stars": 5,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Echo_of_an_Ancient_Chord.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Robotic Ruse (Monday/Thursday/Sunday)"
+    ]
+  },
+  "Dross of Pure Sacred Dewdrop": {
+    "name": "Dross of Pure Sacred Dewdrop",
+    "desc": "Weapon Ascension Material.\nLegends say that before the birth of life, there was a dense primordial sea. It is the purest origin of all things, and one day, it will also swallow all life... and those things which did not arise from it will be filtered out, becoming naught but floating detritus.\n\"The existence of detritus also has meaning — What kind of thing would be rejected by the source of all things that swallows all life?\" the young Harmost asked the great usurper, pondering this conundrum.",
+    "stars": 2,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Dross_of_Pure_Sacred_Dewdrop.png",
+    "sources": [
+      "Domain of Forgery: Artisanship (Tuesday/Friday/Sunday)"
+    ]
+  },
+  "Sublimation of Pure Sacred Dewdrop": {
+    "name": "Sublimation of Pure Sacred Dewdrop",
+    "desc": "Weapon Ascension Material.\n\"Life that came from the primordial sea is inevitably fated to return to it.\" Thus spoke the Harmost Boethius. \"But there are infinite possibilities for humans to transcend, and even the waters of the primordial sea cannot completely dissolve them...\"\nThe arrogant usurper once attempted to mix insoluble Ichor with pure water, to contain wisdom and memories, allowing his subjects and servants to discard their physical bodies, and obtain independent, eternal lives.\nBut the pain of severing soul and body cannot be endured by any ordinary life, and the usurper's order tore apart and shattered souls...\nThe Ichor was dyed black by the crying and howling of so many souls, and it lost its harmony and wisdom, leaving only chaos and madness.",
+    "stars": 3,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Sublimation_of_Pure_Sacred_Dewdrop.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Artisanship (Tuesday/Friday/Sunday)"
+    ]
+  },
+  "Spring of Pure Sacred Dewdrop": {
+    "name": "Spring of Pure Sacred Dewdrop",
+    "desc": "Weapon Ascension Material.\nThis is a relic from a time when the Lochknights still roamed — the knights said, there were still loyal spirits in the mountain springs and valleys where none tread, guarding those pure, unpolluted springs...\nHowever, the creator of artificial Ichor couldn't tolerate any discord in his great symphony. It is said that wherever the Harmost Boethius went, the natural nectar was buried, the aqueducts of the empire were built, and the spirits born of pure water vanished without a trace...",
+    "stars": 4,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Spring_of_Pure_Sacred_Dewdrop.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Artisanship (Tuesday/Friday/Sunday)"
+    ]
+  },
+  "Essence of Pure Sacred Dewdrop": {
+    "name": "Essence of Pure Sacred Dewdrop",
+    "desc": "Weapon Ascension Material.\nA dense and pure solution, derived and refined from drops of the vast primordial sea. The ancient God King once believed it would bring eternal life and infinite wisdom, but listening carefully— it was quietly, faintly prophesizing the final end of all dissolving into one.\nThis was once the God King's unfinished Grand Symphony — a boundless, sourceless golden Ichor replacing the wild primeval waters, and the glorious immortal sages bringing nectar-like enlightenment to the ignorant corners of the world.\nBut the God King's delusions ultimately sank into the depths of the black abyss, and with the ravages of time, the golden Ichor was eventually corroded by the primordial soup...\nThe tuner turned a blind eye to the evil omens, and supporting his broken body, continued to give life to his compatriots according to the plans once laid, so that the old order might one day return...\nEven today, many mad poets and painters of Fontaine see the apocalypse experienced by Boethius, a reminder of the inescapable cycle of the world.",
+    "stars": 5,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Essence_of_Pure_Sacred_Dewdrop.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Artisanship (Tuesday/Friday/Sunday)"
+    ]
+  },
+  "Broken Goblet of the Pristine Sea": {
+    "name": "Broken Goblet of the Pristine Sea",
+    "desc": "Weapon Ascension Material.\nLegend says that when the first usurper came to the primordial sea, the first sovereign gave him a goblet of water.\nLater, he became the unquestioned god-king, and used this goblet of water to refine the mysterious drops of dew, establishing a splendid and powerful empire.\nBut that is now an ancient story, whose main characters now sleep in the phosphorescence of the schools of the deepwater fish.",
+    "stars": 2,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Broken_Goblet_of_the_Pristine_Sea.png",
+    "sources": [
+      "Domain of Forgery: Curious Contraptions (Wednesday/Saturday/Sunday)"
+    ]
+  },
+  "Wine Goblet of the Pristine Sea": {
+    "name": "Wine Goblet of the Pristine Sea",
+    "desc": "Weapon Ascension Material.\nWhat kind of empire can last for a thousand years? After returning from the kingdom of dragons, the usurper once pondered this question.\nCombining the immortal stone with the Ichor essence extracted from primordial water, and carved into a race as black as iron — with arcane lithos for skin and Ichor for blood, never again fearing the curse of returning to the primeval past...\nThe silent golem still dreams the dream of the empire — not knowing it has been over a thousand years since the empire's obliteration.",
+    "stars": 3,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Wine_Goblet_of_the_Pristine_Sea.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Curious Contraptions (Wednesday/Saturday/Sunday)"
+    ]
+  },
+  "Silver Goblet of the Pristine Sea": {
+    "name": "Silver Goblet of the Pristine Sea",
+    "desc": "Weapon Ascension Material.\nIn the years when the golden shroud covered the land, pure spring water had to be hidden away in concealed mountain streams, and the Lochknights were born in these sanctuaries.\nThe knights swear by armor of silver, to protect the spirits born from pure water, to protect their fellows who also keep faith in the one true font, resisting the omnipresent golden power that blotted out the sky and outshone the sun.\nBut that is an ancient legend... Not long after the empire collapsed and sank, the knights who resisted the usurper shed their armor, and their stories were hidden in a tangled web of stories and ballads.",
+    "stars": 4,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Silver_Goblet_of_the_Pristine_Sea.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Curious Contraptions (Wednesday/Saturday/Sunday)"
+    ]
+  },
+  "Golden Goblet of the Pristine Sea": {
+    "name": "Golden Goblet of the Pristine Sea",
+    "desc": "Weapon Ascension Material.\nWhen the Usurper of the sunken city played the last movement of the golden symphony, the favored musician stole the golden goblet brimming with Ichor.\nShocked by the foolhardy betrayal of the God King, the musician summoned the last guards, and used the insoluble Ichor to seal the dragon beneath the tall tower, and sank into the abyss with the capital.\nAfterwards, this noble thief vanished silently from history, and only the \"Golden Troupe\" faithfully remembers his prophecy.",
+    "stars": 5,
+    "type": "Weapon Ascension Material",
+    "category": "Trophies",
+    "icon": "img/material/Golden_Goblet_of_the_Pristine_Sea.png",
+    "sources": [
+      "Crafted",
+      "Domain of Forgery: Curious Contraptions (Wednesday/Saturday/Sunday)"
+    ]
+  },
   "Damaged Mask": {
     "name": "Damaged Mask",
     "desc": "A broken bone mask that once belonged to some hilichurl.\nNow more broken than complete, it can no longer perform its primary function.",
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Damaged_Mask.png",
-    "sources": [
-      "Dropped by hilichurls",
-      "Dropped uncommonly by hilichurl archers",
-      "Dropped uncommonly by samachurls",
-      "Dropped uncommonly by mitachurls",
-      "Dropped uncommonly by lawachurls",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Damaged_Mask.png"
   },
   "Stained Mask": {
     "name": "Stained Mask",
@@ -8701,13 +9987,7 @@
     "category": "Trophies",
     "icon": "img/material/Stained_Mask.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ hilichurls",
-      "Dropped uncommonly by Lv. 40+ hilichurl archers",
-      "Dropped uncommonly by Lv. 40+ samachurls",
-      "Dropped uncommonly by Lv. 40+ mitachurls",
-      "Dropped uncommonly by Lv. 40+ lawachurls",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Ominous Mask": {
@@ -8718,12 +9998,7 @@
     "category": "Trophies",
     "icon": "img/material/Ominous_Mask.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ hilichurls",
-      "Dropped uncommonly by Lv. 60+ hilichurl archers",
-      "Dropped uncommonly by Lv. 60+ samachurls",
-      "Dropped uncommonly by Lv. 60+ mitachurls",
-      "Dropped uncommonly by Lv. 60+ lawachurls"
+      "Crafted"
     ]
   },
   "Divining Scroll": {
@@ -8732,11 +10007,7 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Divining_Scroll.png",
-    "sources": [
-      "Dropped by samachurls",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Divining_Scroll.png"
   },
   "Sealed Scroll": {
     "name": "Sealed Scroll",
@@ -8746,9 +10017,7 @@
     "category": "Trophies",
     "icon": "img/material/Sealed_Scroll.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ samachurls",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Forbidden Curse Scroll": {
@@ -8759,8 +10028,7 @@
     "category": "Trophies",
     "icon": "img/material/Forbidden_Curse_Scroll.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ samachurls"
+      "Crafted"
     ]
   },
   "Firm Arrowhead": {
@@ -8769,11 +10037,7 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Firm_Arrowhead.png",
-    "sources": [
-      "Dropped by hilichurl archers",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Firm_Arrowhead.png"
   },
   "Sharp Arrowhead": {
     "name": "Sharp Arrowhead",
@@ -8783,9 +10047,7 @@
     "category": "Trophies",
     "icon": "img/material/Sharp_Arrowhead.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ hilichurl archers",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Weathered Arrowhead": {
@@ -8796,8 +10058,7 @@
     "category": "Trophies",
     "icon": "img/material/Weathered_Arrowhead.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ hilichurl archers"
+      "Crafted"
     ]
   },
   "Heavy Horn": {
@@ -8806,12 +10067,7 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Heavy_Horn.png",
-    "sources": [
-      "Dropped by mitachurls",
-      "Dropped by lawachurls",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Heavy_Horn.png"
   },
   "Black Bronze Horn": {
     "name": "Black Bronze Horn",
@@ -8821,10 +10077,7 @@
     "category": "Trophies",
     "icon": "img/material/Black_Bronze_Horn.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ mitachurls",
-      "Dropped by Lv. 40+ lawachurls",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Black Crystal Horn": {
@@ -8835,9 +10088,7 @@
     "category": "Trophies",
     "icon": "img/material/Black_Crystal_Horn.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ mitachurls",
-      "Dropped by Lv. 60+ lawachurls"
+      "Crafted"
     ]
   },
   "Dead Ley Line Branch": {
@@ -8846,11 +10097,7 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Dead_Ley_Line_Branch.png",
-    "sources": [
-      "Dropped by Abyss Mages",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Dead_Ley_Line_Branch.png"
   },
   "Dead Ley Line Leaves": {
     "name": "Dead Ley Line Leaves",
@@ -8860,9 +10107,7 @@
     "category": "Trophies",
     "icon": "img/material/Dead_Ley_Line_Leaves.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Abyss Mages",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Ley Line Sprout": {
@@ -8873,8 +10118,7 @@
     "category": "Trophies",
     "icon": "img/material/Ley_Line_Sprout.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Abyss Mages"
+      "Crafted"
     ]
   },
   "Mist Grass Pollen": {
@@ -8883,11 +10127,7 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Mist_Grass_Pollen.png",
-    "sources": [
-      "Dropped by Fatui Cicin Mages",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Mist_Grass_Pollen.png"
   },
   "Mist Grass": {
     "name": "Mist Grass",
@@ -8897,9 +10137,7 @@
     "category": "Trophies",
     "icon": "img/material/Mist_Grass.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Fatui Cicin Mages",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Mist Grass Wick": {
@@ -8910,8 +10148,7 @@
     "category": "Trophies",
     "icon": "img/material/Mist_Grass_Wick.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Fatui Cicin Mages"
+      "Crafted"
     ]
   },
   "Hunter's Sacrificial Knife": {
@@ -8920,11 +10157,7 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Hunters_Sacrificial_Knife.png",
-    "sources": [
-      "Dropped by Fatui Agents",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Hunters_Sacrificial_Knife.png"
   },
   "Agent's Sacrificial Knife": {
     "name": "Agent's Sacrificial Knife",
@@ -8934,9 +10167,7 @@
     "category": "Trophies",
     "icon": "img/material/Agents_Sacrificial_Knife.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Fatui Agents",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Inspector's Sacrificial Knife": {
@@ -8947,8 +10178,7 @@
     "category": "Trophies",
     "icon": "img/material/Inspectors_Sacrificial_Knife.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Fatui Agents"
+      "Crafted"
     ]
   },
   "Recruit's Insignia": {
@@ -8957,13 +10187,7 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Recruits_Insignia.png",
-    "sources": [
-      "Dropped by Fatui Skirmishers",
-      "Dropped by some Fatui Agents",
-      "Dropped uncommonly by Fatui Cicin Mages",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Recruits_Insignia.png"
   },
   "Sergeant's Insignia": {
     "name": "Sergeant's Insignia",
@@ -8973,11 +10197,7 @@
     "category": "Trophies",
     "icon": "img/material/Sergeants_Insignia.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Fatui Skirmishers",
-      "Dropped uncommonly by Lv. 40+ Fatui Agents",
-      "Dropped uncommonly by Lv. 40+ Fatui Cicin Mages",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Lieutenant's Insignia": {
@@ -8988,10 +10208,7 @@
     "category": "Trophies",
     "icon": "img/material/Lieutenants_Insignia.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Fatui Skirmishers",
-      "Dropped uncommonly by Lv. 60+ Fatui Agents",
-      "Dropped uncommonly by Lv. 60+ Fatui Cicin Mages"
+      "Crafted"
     ]
   },
   "Slime Condensate": {
@@ -9000,11 +10217,7 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Slime_Condensate.png",
-    "sources": [
-      "Dropped by slimes",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Slime_Condensate.png"
   },
   "Slime Secretions": {
     "name": "Slime Secretions",
@@ -9014,9 +10227,7 @@
     "category": "Trophies",
     "icon": "img/material/Slime_Secretions.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ slimes",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Slime Concentrate": {
@@ -9027,8 +10238,7 @@
     "category": "Trophies",
     "icon": "img/material/Slime_Concentrate.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ slimes"
+      "Crafted"
     ]
   },
   "Whopperflower Nectar": {
@@ -9037,11 +10247,7 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Whopperflower_Nectar.png",
-    "sources": [
-      "Dropped by whopperflowers",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Whopperflower_Nectar.png"
   },
   "Shimmering Nectar": {
     "name": "Shimmering Nectar",
@@ -9051,9 +10257,7 @@
     "category": "Trophies",
     "icon": "img/material/Shimmering_Nectar.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ whopperflowers",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Energy Nectar": {
@@ -9064,8 +10268,7 @@
     "category": "Trophies",
     "icon": "img/material/Energy_Nectar.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ whopperflowers"
+      "Crafted"
     ]
   },
   "Fragile Bone Shard": {
@@ -9074,13 +10277,7 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Fragile_Bone_Shard.png",
-    "sources": [
-      "Dropped by Geovishap Hatchlings",
-      "Dropped by Geovishaps",
-      "Dropped by Bathysmal Vishaps",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Fragile_Bone_Shard.png"
   },
   "Sturdy Bone Shard": {
     "name": "Sturdy Bone Shard",
@@ -9090,11 +10287,7 @@
     "category": "Trophies",
     "icon": "img/material/Sturdy_Bone_Shard.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Geovishap Hatchlings",
-      "Dropped by Lv. 40+ Geovishaps",
-      "Dropped by Lv. 40+ Bathysmal Vishaps",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Fossilized Bone Shard": {
@@ -9105,10 +10298,7 @@
     "category": "Trophies",
     "icon": "img/material/Fossilized_Bone_Shard.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Geovishap Hatchlings",
-      "Dropped by Lv. 60+ Geovishaps",
-      "Dropped by Lv. 60+ Bathysmal Vishaps"
+      "Crafted"
     ]
   },
   "Treasure Hoarder Insignia": {
@@ -9117,11 +10307,7 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Treasure_Hoarder_Insignia.png",
-    "sources": [
-      "Dropped by Treasure Hoarders",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Treasure_Hoarder_Insignia.png"
   },
   "Silver Raven Insignia": {
     "name": "Silver Raven Insignia",
@@ -9131,9 +10317,7 @@
     "category": "Trophies",
     "icon": "img/material/Silver_Raven_Insignia.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Treasure Hoarders",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Golden Raven Insignia": {
@@ -9144,8 +10328,7 @@
     "category": "Trophies",
     "icon": "img/material/Golden_Raven_Insignia.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Treasure Hoarders"
+      "Crafted"
     ]
   },
   "Chaos Device": {
@@ -9154,12 +10337,7 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Chaos_Device.png",
-    "sources": [
-      "Dropped by Ruin Guards",
-      "Dropped by Ruin Hunters",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Chaos_Device.png"
   },
   "Chaos Circuit": {
     "name": "Chaos Circuit",
@@ -9169,10 +10347,7 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Circuit.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Ruin Guards",
-      "Dropped by Lv. 40+ Ruin Hunters",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Chaos Core": {
@@ -9183,9 +10358,7 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Core.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Ruin Guards",
-      "Dropped by Lv. 60+ Ruin Hunters"
+      "Crafted"
     ]
   },
   "Old Handguard": {
@@ -9194,11 +10367,7 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Old_Handguard.png",
-    "sources": [
-      "Dropped by Nobushi",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Old_Handguard.png"
   },
   "Kageuchi Handguard": {
     "name": "Kageuchi Handguard",
@@ -9208,9 +10377,7 @@
     "category": "Trophies",
     "icon": "img/material/Kageuchi_Handguard.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Nobushi",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Famed Handguard": {
@@ -9221,8 +10388,7 @@
     "category": "Trophies",
     "icon": "img/material/Famed_Handguard.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Nobushi"
+      "Crafted"
     ]
   },
   "Chaos Gear": {
@@ -9231,11 +10397,7 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Chaos_Gear.png",
-    "sources": [
-      "Dropped by Ruin Sentinels",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Chaos_Gear.png"
   },
   "Chaos Axis": {
     "name": "Chaos Axis",
@@ -9245,9 +10407,7 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Axis.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Ruin Sentinels",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Chaos Oculus": {
@@ -9258,8 +10418,7 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Oculus.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Ruin Sentinels"
+      "Crafted"
     ]
   },
   "Dismal Prism": {
@@ -9268,11 +10427,7 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Dismal_Prism.png",
-    "sources": [
-      "Dropped by Mirror Maidens",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Dismal_Prism.png"
   },
   "Crystal Prism": {
     "name": "Crystal Prism",
@@ -9282,9 +10437,7 @@
     "category": "Trophies",
     "icon": "img/material/Crystal_Prism.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Mirror Maidens",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Polarizing Prism": {
@@ -9295,8 +10448,7 @@
     "category": "Trophies",
     "icon": "img/material/Polarizing_Prism.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Mirror Maidens"
+      "Crafted"
     ]
   },
   "Spectral Husk": {
@@ -9305,11 +10457,7 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Spectral_Husk.png",
-    "sources": [
-      "Dropped by Specters",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Spectral_Husk.png"
   },
   "Spectral Heart": {
     "name": "Spectral Heart",
@@ -9319,9 +10467,7 @@
     "category": "Trophies",
     "icon": "img/material/Spectral_Heart.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Specters",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Spectral Nucleus": {
@@ -9332,8 +10478,7 @@
     "category": "Trophies",
     "icon": "img/material/Spectral_Nucleus.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Specters"
+      "Crafted"
     ]
   },
   "Concealed Claw": {
@@ -9342,11 +10487,7 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Concealed_Claw.png",
-    "sources": [
-      "Dropped by Riftwolves",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Concealed_Claw.png"
   },
   "Concealed Unguis": {
     "name": "Concealed Unguis",
@@ -9356,9 +10497,7 @@
     "category": "Trophies",
     "icon": "img/material/Concealed_Unguis.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Riftwolves",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Concealed Talon": {
@@ -9369,8 +10508,7 @@
     "category": "Trophies",
     "icon": "img/material/Concealed_Talon.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Riftwolves"
+      "Crafted"
     ]
   },
   "Fungal Spores": {
@@ -9379,13 +10517,7 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Fungal_Spores.png",
-    "sources": [
-      "Dropped by Fungi",
-      "Dropped uncommonly by Fungi (activated)",
-      "Dropped uncommonly by Fungi (scorched)",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Fungal_Spores.png"
   },
   "Luminescent Pollen": {
     "name": "Luminescent Pollen",
@@ -9395,11 +10527,7 @@
     "category": "Trophies",
     "icon": "img/material/Luminescent_Pollen.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Fungi",
-      "Dropped uncommonly by Lv. 40+ Fungi (activated)",
-      "Dropped uncommonly by Lv. 40+ Fungi (scorched)",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Crystalline Cyst Dust": {
@@ -9410,10 +10538,7 @@
     "category": "Trophies",
     "icon": "img/material/Crystalline_Cyst_Dust.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Fungi",
-      "Dropped uncommonly by Lv. 60+ Fungi (activated)",
-      "Dropped uncommonly by Lv. 60+ Fungi (scorched)"
+      "Crafted"
     ]
   },
   "Gloomy Statuette": {
@@ -9422,11 +10547,7 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Gloomy_Statuette.png",
-    "sources": [
-      "Dropped by the Black Serpents",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Gloomy_Statuette.png"
   },
   "Dark Statuette": {
     "name": "Dark Statuette",
@@ -9436,9 +10557,7 @@
     "category": "Trophies",
     "icon": "img/material/Dark_Statuette.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Black Serpents",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Deathly Statuette": {
@@ -9449,8 +10568,7 @@
     "category": "Trophies",
     "icon": "img/material/Deathly_Statuette.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Black Serpents"
+      "Crafted"
     ]
   },
   "Inactivated Fungal Nucleus": {
@@ -9459,12 +10577,7 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Inactivated_Fungal_Nucleus.png",
-    "sources": [
-      "Dropped by Fungi (activated)",
-      "Dropped by Fungi (scorched)",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Inactivated_Fungal_Nucleus.png"
   },
   "Dormant Fungal Nucleus": {
     "name": "Dormant Fungal Nucleus",
@@ -9474,10 +10587,7 @@
     "category": "Trophies",
     "icon": "img/material/Dormant_Fungal_Nucleus.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Fungi (activated)",
-      "Dropped by Lv. 40+ Fungi (scorched)",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Robust Fungal Nucleus": {
@@ -9488,9 +10598,7 @@
     "category": "Trophies",
     "icon": "img/material/Robust_Fungal_Nucleus.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Fungi (activated)",
-      "Dropped by Lv. 60+ Fungi (scorched)"
+      "Crafted"
     ]
   },
   "Faded Red Satin": {
@@ -9499,11 +10607,7 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Faded_Red_Satin.png",
-    "sources": [
-      "Dropped by The Eremites",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Faded_Red_Satin.png"
   },
   "Trimmed Red Silk": {
     "name": "Trimmed Red Silk",
@@ -9513,9 +10617,7 @@
     "category": "Trophies",
     "icon": "img/material/Trimmed_Red_Silk.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Eremites",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Rich Red Brocade": {
@@ -9526,8 +10628,7 @@
     "category": "Trophies",
     "icon": "img/material/Rich_Red_Brocade.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Eremites"
+      "Crafted"
     ]
   },
   "Chaos Storage": {
@@ -9536,11 +10637,7 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Chaos_Storage.png",
-    "sources": [
-      "Dropped by Ruin Drakes",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Chaos_Storage.png"
   },
   "Chaos Module": {
     "name": "Chaos Module",
@@ -9550,9 +10647,7 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Module.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Ruin Drakes",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Chaos Bolt": {
@@ -9563,8 +10658,7 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Bolt.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Ruin Drakes"
+      "Crafted"
     ]
   },
   "Damaged Prism": {
@@ -9573,11 +10667,7 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Damaged_Prism.png",
-    "sources": [
-      "Dropped by Primal Constructs",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Damaged_Prism.png"
   },
   "Turbid Prism": {
     "name": "Turbid Prism",
@@ -9587,9 +10677,7 @@
     "category": "Trophies",
     "icon": "img/material/Turbid_Prism.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Primal Constructs",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Radiant Prism": {
@@ -9600,8 +10688,7 @@
     "category": "Trophies",
     "icon": "img/material/Radiant_Prism.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Primal Constructs"
+      "Crafted"
     ]
   },
   "Desiccated Shell": {
@@ -9610,11 +10697,7 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Desiccated_Shell.png",
-    "sources": [
-      "Dropped by Consecrated Beasts",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/Desiccated_Shell.png"
   },
   "Sturdy Shell": {
     "name": "Sturdy Shell",
@@ -9624,9 +10707,7 @@
     "category": "Trophies",
     "icon": "img/material/Sturdy_Shell.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Consecrated Beasts",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Marked Shell": {
@@ -9637,8 +10718,7 @@
     "category": "Trophies",
     "icon": "img/material/Marked_Shell.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Consecrated Beasts"
+      "Crafted"
     ]
   },
   "A Flower Yet to Bloom": {
@@ -9647,11 +10727,7 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/A_Flower_Yet_to_Bloom.png",
-    "sources": [
-      "Dropped by Hilichurl Rogues",
-      "Stardust Exchange"
-    ]
+    "icon": "img/material/A_Flower_Yet_to_Bloom.png"
   },
   "Treasured Flower": {
     "name": "Treasured Flower",
@@ -9662,9 +10738,7 @@
     "category": "Trophies",
     "icon": "img/material/Treasured_Flower.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 40+ Hilichurl Rogues",
-      "Stardust Exchange"
+      "Crafted"
     ]
   },
   "Wanderer's Blooming Flower": {
@@ -9676,8 +10750,165 @@
     "category": "Trophies",
     "icon": "img/material/Wanderers_Blooming_Flower.png",
     "sources": [
-      "Crafted",
-      "Dropped by Lv. 60+ Hilichurl Rogues"
+      "Crafted"
+    ]
+  },
+  "Transoceanic Pearl": {
+    "name": "Transoceanic Pearl",
+    "desc": "A small crystal obtained from a defeated Fontemer Aberrant.\nFontemer Aberrants arise from Fontaine's sea. They are believed to be a unique life form born from the mysterious energy in the water.",
+    "stars": 1,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Transoceanic_Pearl.png"
+  },
+  "Transoceanic Chunk": {
+    "name": "Transoceanic Chunk",
+    "desc": "A crystal obtained from a defeated Fontemer Aberrant.\nIt gives off a somewhat mysterious energy.\nAlthough many legends speak of great life forms residing in remote seas beyond human reach, ordinary oceans can hardly compare to the vibrant seas of Fontaine.",
+    "longDesc": "A crystal obtained from a defeated Fontemer Aberrant. It gives off a somewhat mysterious energy.\nAlthough many legends speak of great life forms residing in remote seas beyond human reach, ordinary oceans can hardly compare to the vibrant seas of Fontaine.\nTherefore, life forms and substances indigenous to Fontaine often harbor a mysterious power.",
+    "stars": 2,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Transoceanic_Chunk.png",
+    "sources": [
+      "Crafted"
+    ]
+  },
+  "Xenochromatic Crystal": {
+    "name": "Xenochromatic Crystal",
+    "desc": "A large crystal obtained from a defeated Fontemer Aberrant.\nIt contains a mysterious energy.\nAll rivers and seas originate in Fontaine, but the water loses all its unique properties once it flows outside Fontaine's borders.",
+    "longDesc": "A large crystal obtained from a defeated Fontemer Aberrant. It contains a mysterious energy.\nAll rivers and seas originate in Fontaine, but the water loses all its unique properties once it flows outside Fontaine's borders. Therefore, some believe that the water itself is not special and that something beneath Fontaine results in its unique seawater.\nIt is said that a certain scholar from the now-destroyed Fontaine Institute of Natural Philosophy had once conducted comprehensive research on this subject.",
+    "stars": 3,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Xenochromatic_Crystal.png",
+    "sources": [
+      "Crafted"
+    ]
+  },
+  "Meshing Gear": {
+    "name": "Meshing Gear",
+    "desc": "Clockwork meka's gear.\nIt is a crucial part of the meka's transmission structure. The whole system will malfunction if this gear is absent.",
+    "stars": 1,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Meshing_Gear.png"
+  },
+  "Mechanical Spur Gear": {
+    "name": "Mechanical Spur Gear",
+    "desc": "Clockwork meka gear.\nAlthough many breakthroughs have been made in the kinematics of clockwork meka, its dynamics research has not seen any major advancements beyond the framework laid down by Alain Guillotin four hundred years ago.",
+    "longDesc": "Clockwork meka gear.\nAlthough many breakthroughs have been made in the kinematics of clockwork meka, its dynamics research has not seen any major advancement since Alain Guillotin — also known as the \"Lord-Artificer\" — four hundred years ago.\nAs a matter of fact, clockwork meka got its name from an ancient clockwork mechanism powered by potential energy before Alain Guillotin's time.",
+    "stars": 2,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Mechanical_Spur_Gear.png",
+    "sources": [
+      "Crafted"
+    ]
+  },
+  "Artificed Dynamic Gear": {
+    "name": "Artificed Dynamic Gear",
+    "desc": "Clockwork meka gear.\nPrecision processing and advancement of material science are the keys to clockwork meka development in Fontaine. With the help of advanced equipment, any engineer is capable of making a meka that outshines \"Lord-Artificer\" Alain Guillotin's creation.",
+    "longDesc": "Clockwork meka gear.\nPrecision processing and advancement of material science are the keys to clockwork meka development in Fontaine. With the help of advanced equipment, any engineer is capable of making a meka that outshines Alain Guillotin's creation.\nHowever, the most advanced clockwork meka producer at the present time is the Fortress of Meropide, as workshops can never ever rival factories.",
+    "stars": 3,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Artificed_Dynamic_Gear.png",
+    "sources": [
+      "Crafted"
+    ]
+  },
+  "Drop of Tainted Water": {
+    "name": "Drop of Tainted Water",
+    "desc": "A small drop of water obtained from a defeated Tainted Hydro Phantasm.\nThe life force in it has yet to ebb away.",
+    "stars": 2,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Drop_of_Tainted_Water.png"
+  },
+  "Scoop of Tainted Water": {
+    "name": "Scoop of Tainted Water",
+    "desc": "Water obtained from a defeated Tainted Hydro Phantasm.\nThe life force in it has yet to ebb away.\nToday, with the Oceanids extirpated from Fontaine, strange elemental life forms that are far from elegant have appeared in the waters.",
+    "stars": 3,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Scoop_of_Tainted_Water.png",
+    "sources": [
+      "Crafted"
+    ]
+  },
+  "Newborn Tainted Hydro Phantasm": {
+    "name": "Newborn Tainted Hydro Phantasm",
+    "desc": "A new life form that arose from the dispersed Tainted Hydro Phantasm. It is trapped inside a bottle.\nThe life contained within the waters is formless, and formless life is born of water and gains water's shape.",
+    "longDesc": "The life contained within the waters is formless, and formless life is born of water and gains water's shape.\nAncient Fontainian poets and philosophers believed (or hoped) that countless lives had converged in the waters before the start of time and would converge in the waters again after the end of time. Form, language, and physical contact had been and would be irrelevant, and birth and death, non-existent.\nThe world of water is an extension of all that is alive.\nThis is the world's primordial and ultimate form, a golden era that had been missed and has yet descended.",
+    "stars": 4,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Newborn_Tainted_Hydro_Phantasm.png",
+    "sources": [
+      "Crafted"
+    ]
+  },
+  "Rift Core": {
+    "name": "Rift Core",
+    "desc": "A shard left by Breacher Primus.\nIt bears no resemblance to any other known form of life in the world.",
+    "stars": 2,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Rift_Core.png"
+  },
+  "Foreign Synapse": {
+    "name": "Foreign Synapse",
+    "desc": "A shard left by Breacher Primus.\nThis strange life form originates in Elynas and inhabits the area.",
+    "stars": 3,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Foreign_Synapse.png",
+    "sources": [
+      "Crafted"
+    ]
+  },
+  "Alien Life Core": {
+    "name": "Alien Life Core",
+    "desc": "Breacher Primus's core.\nThere is no way to exterminate this life form. One reduced to nothing but its core will resurrect the next day or in decades. Luckily, it is neither aggressive nor intelligent, so Fontainians can just keep their distance.",
+    "longDesc": "The core left behind by a Breacher Primus.\nThere is no way to exterminate this life form. One reduced to nothing but its core will resurrect the next day or in decades. Luckily, it is neither aggressive nor intelligent, so Fontainians can just keep their distance.\nAccording to the Marechaussee Hunter who accompanied the White Cavalier of Protection, countless Breacher Primus emerged after the horrible battle in Elynas, but none assaulted the two.",
+    "stars": 4,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Alien_Life_Core.png",
+    "sources": [
+      "Crafted"
+    ]
+  },
+  "Old Operative's Pocket Watch": {
+    "name": "Old Operative's Pocket Watch",
+    "desc": "A standard-issue pocket watch given to Fatui Operatives.\nThe erosion and oxidation on the casing serve as a loyal record of its owners' days spent as an instrument, enforcing the Fatui's will.",
+    "stars": 2,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Old_Operatives_Pocket_Watch.png"
+  },
+  "Operative's Standard Pocket Watch": {
+    "name": "Operative's Standard Pocket Watch",
+    "desc": "A standard-issue pocket watch given to Fatui Operatives.\nThe head of the watch is not well-designed, as the outer casing has way too many sharp angles, which can cause excessive wear and tear on clothes. As such, there will always be those who will stuff this watch into a more practical, less distinctive casing for use.",
+    "longDesc": "A standard-issue pocket watch given to Fatui Operatives.\nThe handle of the watch is not well-designed, as the outer casing has way too many sharp angles, which can cause excessive wear and tear on clothes. As such, there will always be those who will stuff this watch inside more practical, less distinctive casings for use.\nMore experienced Operatives will often half-jokingly claim that the issuing of such a watch is a test that the quartermaster gives to new special agents, because the art of disguise follows similar principles.",
+    "stars": 3,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Operatives_Standard_Pocket_Watch.png",
+    "sources": [
+      "Crafted"
+    ]
+  },
+  "Operative's Constancy": {
+    "name": "Operative's Constancy",
+    "desc": "An accessory with a Delusion mounted on it. This is source of the Fatui Operative's power.\nThat said, taking it off would not detract from the fact that said Operative has physical abilities far beyond that of ordinary humans, forged through long years of training and combat experience. As for them, they are well-aware that they have sacrificed their past, present, and future upon the altar of the Fatui's ideal paradise, such that the damage they cause themselves on account of using a Delusion's power matters not at all.",
+    "longDesc": "An accessory with a Delusion mounted on it. This is the source of the Fatui Operative's power.\nThat said, removing it would not detract from said Operative having physical abilities far beyond that of ordinary humans, forged from long years of training and combat experience. As for them, they are well aware that they have sacrificed their past, present, and future upon the altar of the Fatui's ideal paradise, such that the damage they cause themselves on account of using a Delusion's power matters not at all.\nThey fight to the last when in danger not because they fear death, but because they know that the time and resources to hone them into Operatives were dearly spent.",
+    "stars": 4,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Operatives_Constancy.png",
+    "sources": [
+      "Crafted"
     ]
   },
   "Tainted Blood": {
@@ -10132,6 +11363,111 @@
       "Domain of Mastery: Basket of Discipline (Wednesday/Saturday/Sunday)"
     ]
   },
+  "Teachings of Equity": {
+    "name": "Teachings of Equity",
+    "desc": "Talent Level-Up Material.\nThe shore of the Nation of Water is equity.\nEquity sets boundaries on rights. Without equity, the rights granted by law will be abused, and become a tool to damage our virtuous customs.",
+    "stars": 2,
+    "type": "Character Talent Material",
+    "category": "Trophies",
+    "icon": "img/material/Teachings_of_Equity.png",
+    "sources": [
+      "Domain of Mastery: Rhyming Rhythm (Monday/Thursday/Sunday)"
+    ]
+  },
+  "Guide to Equity": {
+    "name": "Guide to Equity",
+    "desc": "Talent Level-Up Material.\nThe shore of the Nation of Water is equity.\nEquity is the foundation upon which Fontaine was founded. Equity forms the standard of the law. If law loses the essence of equity, it will become a chessboard played for profit.",
+    "stars": 3,
+    "type": "Character Talent Material",
+    "category": "Trophies",
+    "icon": "img/material/Guide_to_Equity.png",
+    "sources": [
+      "Crafted",
+      "Domain of Mastery: Rhyming Rhythm (Monday/Thursday/Sunday)"
+    ]
+  },
+  "Philosophies of Equity": {
+    "name": "Philosophies of Equity",
+    "desc": "Talent Level-Up Material.\nThe shore of the Nation of Water is equity.\nEquity is the foundation upon which Fontaine was founded. Equity requires the continuous and steady support of morality and law, and morality and law constantly change based upon the invariant principle of equity.",
+    "stars": 4,
+    "type": "Character Talent Material",
+    "category": "Trophies",
+    "icon": "img/material/Philosophies_of_Equity.png",
+    "sources": [
+      "Crafted",
+      "Domain of Mastery: Rhyming Rhythm (Monday/Thursday/Sunday)"
+    ]
+  },
+  "Teachings of Justice": {
+    "name": "Teachings of Justice",
+    "desc": "Talent Level-Up Material.\nThe sword of the Nation of Water is justice.\nThe law of Fontaine walks with the sword of justice in hand. Without the guidance of justice, all law is reduced to meaningless words, to be tampered with and slaughtered at a whim.",
+    "stars": 2,
+    "type": "Character Talent Material",
+    "category": "Trophies",
+    "icon": "img/material/Teachings_of_Justice.png",
+    "sources": [
+      "Domain of Mastery: Admonishing Engraving (Tuesday/Friday/Sunday)"
+    ]
+  },
+  "Guide to Justice": {
+    "name": "Guide to Justice",
+    "desc": "Talent Level-Up Material.\nThe sword of the Nation of Water is justice.\nThe law of Fontaine walks with the sword of justice in hand. Justice must be blind, and those who wield the sword of justice must not be led astray by their own interests or affairs.",
+    "stars": 3,
+    "type": "Character Talent Material",
+    "category": "Trophies",
+    "icon": "img/material/Guide_to_Justice.png",
+    "sources": [
+      "Crafted",
+      "Domain of Mastery: Admonishing Engraving (Tuesday/Friday/Sunday)"
+    ]
+  },
+  "Philosophies of Justice": {
+    "name": "Philosophies of Justice",
+    "desc": "Talent Level-Up Material.\nThe sword of the Nation of Water is justice.\nThe law of Fontaine walks with the sword of justice in hand. Justice means judgment and reconciliation, the blade of judgment arrests the actions of evil, while reconciliation maintains order.",
+    "stars": 4,
+    "type": "Character Talent Material",
+    "category": "Trophies",
+    "icon": "img/material/Philosophies_of_Justice.png",
+    "sources": [
+      "Crafted",
+      "Domain of Mastery: Admonishing Engraving (Tuesday/Friday/Sunday)"
+    ]
+  },
+  "Teachings of Order": {
+    "name": "Teachings of Order",
+    "desc": "Talent Level-Up Material.\nThe shield of the Nation of Water is order.\nAll law in Fontaine ultimately serves to maintain a stable order. Without order, there is chaos, and there can be no fairness in chaos.",
+    "stars": 2,
+    "type": "Character Talent Material",
+    "category": "Trophies",
+    "icon": "img/material/Teachings_of_Order.png",
+    "sources": [
+      "Domain of Mastery: Chiming Recitation (Wednesday/Saturday/Sunday)"
+    ]
+  },
+  "Guide to Order": {
+    "name": "Guide to Order",
+    "desc": "Talent Level-Up Material.\nThe shield of the Nation of Water is order.\nAll law in Fontaine ultimately serves to maintain a stable order. Without the guarantee provided by order, justice will be reduced to unlimited violence, a weapon used by all against all.",
+    "stars": 3,
+    "type": "Character Talent Material",
+    "category": "Trophies",
+    "icon": "img/material/Guide_to_Order.png",
+    "sources": [
+      "Crafted",
+      "Domain of Mastery: Chiming Recitation (Wednesday/Saturday/Sunday)"
+    ]
+  },
+  "Philosophies of Order": {
+    "name": "Philosophies of Order",
+    "desc": "Talent Level-Up Material.\nThe shield of the Nation of Water is order.\nAll law in Fontaine ultimately serves to maintain a stable order. Equity and justice come from order, and serve order. Like the still, ripple-less surface of the waters of Fontaine, order is the cornerstone of Fontaine's existence.",
+    "stars": 4,
+    "type": "Character Talent Material",
+    "category": "Trophies",
+    "icon": "img/material/Philosophies_of_Order.png",
+    "sources": [
+      "Crafted",
+      "Domain of Mastery: Chiming Recitation (Wednesday/Saturday/Sunday)"
+    ]
+  },
   "Crown of Insight": {
     "name": "Crown of Insight",
     "desc": "A precious Talent Level-Up material.\nOnce a medium for the storage and transfer of wisdom in ancient times. Now, wisdom is found in ancient texts and in profound speech. Nevertheless, this Crown of Insight must still be able to impart some transcendent power and wisdom to its bearer.",
@@ -10195,6 +11531,14 @@
       "Crafted"
     ]
   },
+  "Hydroculus Resonance Stone": {
+    "name": "Hydroculus Resonance Stone",
+    "desc": "A talisman that can be used in Fontaine to search for nearby Hydroculi.\nA curious talisman that possesses similar properties to the Hydro Statues of The Seven. It seems to be able to detect the Elemental Flow of Hydroculi.\nOculi are by nature scattered pieces of power belonging to the Statues of The Seven. Returning them to the Statues is therefore the reasonable, right, and lawful thing to do.",
+    "stars": 3,
+    "type": "Consumable",
+    "category": "Utility Items",
+    "icon": "img/material/Hydroculus_Resonance_Stone.png"
+  },
   "Anemo Treasure Compass": {
     "name": "Anemo Treasure Compass",
     "desc": "A compass that can be used in Mondstadt to search for nearby chests.\nThe needle of the Treasure Compass doesn't spin according to the world's magnetic field, but rather follows the energy of ley lines to lead the user to treasure.",
@@ -10230,6 +11574,14 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "img/material/Dendro_Treasure_Compass.png"
+  },
+  "Hydro Treasure Compass": {
+    "name": "Hydro Treasure Compass",
+    "desc": "A compass that can be used in Fontaine to search for nearby chests.\nThese chests scattered across Fontaine are not the lawful property of any individual or organization. In most circumstances, it is legal to claim the contents found within.",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Hydro_Treasure_Compass.png"
   },
   "Wind Catcher": {
     "name": "Wind Catcher",
@@ -10450,7 +11802,7 @@
   },
   "Seed Dispensary": {
     "name": "Seed Dispensary",
-    "desc": "A special container obtained from Madame Ping. According to her, this dispensary has the power to \"generate seeds\"... That is to say, it can create the seeds of various plants according to their special traits, which can then be planted within the appropriate fields within your Serenitea Pot.\nPlants available for planting: Silk Flower, Sweet Flower, Cecilia, Glaze Lily, Windwheel Aster, Qingxin, Violetgrass, Valberry, Small Lamp Grass, Jueyun Chili, Carrot, Radish, Mint, Mushroom, Naku Weed, Horsetail, Snapdragon, Lotus Head, Calla Lily, Seagrass, Sea Ganoderma, Harra Fruit, Zaytun Peach, Sumeru Rose.",
+    "desc": "A special container obtained from Madame Ping. According to her, this dispensary has the power to \"generate seeds\"... That is to say, it can create the seeds of various plants according to their special traits, which can then be planted within the appropriate fields within your Serenitea Pot.\nPlants available for planting: Silk Flower, Sweet Flower, Cecilia, Glaze Lily, Windwheel Aster, Qingxin, Violetgrass, Valberry, Small Lamp Grass, Jueyun Chili, Carrot, Radish, Mint, Mushroom, Naku Weed, Horsetail, Snapdragon, Lotus Head, Calla Lily, Seagrass, Sea Ganoderma, Harra Fruit, Zaytun Peach, Sumeru Rose, Pluie Lotus, Marcotte, Lumidouce Bell, Rainbow Rose.",
     "stars": 4,
     "type": "Gadget",
     "category": "Utility Items",
@@ -10596,5 +11948,37 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "img/material/Jinni_in_the_Magic_Bottle_—_Liloupar.png"
+  },
+  "Crystalfly Trap": {
+    "name": "Crystalfly Trap",
+    "desc": "A Crystalfly Trap, developed by a senior researcher named Fawitzki from Fontaine Research Institute of Kinetic Energy Engineering.\nAfter being properly deployed and inserting the required materials, this device will start working and lure Crystalflies inside.\nFawitzki once led research on \"Low-Temperature Lighting Devices,\" which required a large amount of Crystal Cores as research materials, which led to the development of the Crystalfly Trap.\nHowever, the project was suspended for various reasons.\n\"We are here to commemorate the diligent Mr. Fawitzki. We sincerely hope that there are those who will carry on his research. The Institute will provide maximum support in any areas deemed appropriate.\"",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Crystalfly_Trap.png"
+  },
+  "Wind-Powered Wind Generator": {
+    "name": "Wind-Powered Wind Generator",
+    "desc": "A wind generating device developed by Refait, senior researcher from Fontaine Research Institute of Kinetic Energy Engineering.\nAfter being activated, this device can provide a strong lifting force for the Wind Glider user.\nHowever, due to design limitations, the device requires utilizing significant wind power to activate. The wind energy required is approximately equal to that produced by the working Wind Glider.\n\"Umm... So you mean I can only activate this device when I'm already using the Wind Glider.\"\n\"But the only reason I even want to activate it is to give my Wind Glider a push!\"",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/WindPowered_Wind_Generator.png"
+  },
+  "Itty Bitty Octobaby": {
+    "name": "Itty Bitty Octobaby",
+    "desc": "A type of tiny octopus that normally lives in the depths of the ocean.\nPerhaps out of an overabundance of curiosity, or a desire to travel, it begins to cruise throughout the seas while still extremely young. If it sees a creature it likes, it will follow it everywhere.\nBut who knows what it will be like when it grows up...",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Itty_Bitty_Octobaby.png"
+  },
+  "Portable Aerodynamic Gelatinous Bubble Generator": {
+    "name": "Portable Aerodynamic Gelatinous Bubble Generator",
+    "desc": "A mechanism that can be used to create large amounts of colloid bubbles.\n\nGivalois, a researcher from the Fontaine Research Institute, developed this prototype.\nThe original purpose was to create a large generator of gelatinous bubbles. Just as the project aimed to do, the bubbles so produced could carry some amount of water within them, and move or hover stably in the air, potentially achieving the aim of being able to quickly transport water resources.\nHowever, as they were never able to find a material to make gelatinous bubbles of this type, the project stalled at the prototype stage.\nBut it is said the researcher Givalois's children loved this prototype bubble machine, so perhaps it would be possible to sell it as a toy?\n\n\"This machine is a product of Daddy's research, and it's called the Portable Aerodynamic Gelatinous Bubble Generator...\"\n\"Bubbles! So pretty! Daddy, you're amazing!\"",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Portable_Aerodynamic_Gelatinous_Bubble_Generator.png"
   }
 }

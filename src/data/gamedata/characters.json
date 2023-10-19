@@ -10757,7 +10757,7 @@
           },
           {
             "name": "Lost Wisdom of the Seven Caverns",
-            "desc": "When characters affected by **The Wind's Secret Ways**' Prayerful Wind's Gift deal **Anemo DMG** using Normal, Charged, Plunging Attacks, Elemental Skills, or Elemental Bursts to opponents, they will gain the Hurricane Guard effect: This DMG will be increased based on 32% of Faruzan's Base ATK. 1 instance of Hurricane Guard can occur once every 0.8s. This DMG Bonus will be cleared after Prayerful Wind's Benefit expires or after the effect is triggered once.",
+            "desc": "When characters affected by **The Wind's Secret Ways**' Prayerful Wind's Benefit deal **Anemo DMG** using Normal, Charged, Plunging Attacks, Elemental Skills, or Elemental Bursts to opponents, they will gain the Hurricane Guard effect: This DMG will be increased based on 32% of Faruzan's Base ATK. 1 instance of Hurricane Guard can occur once every 0.8s. This DMG Bonus will be cleared after Prayerful Wind's Benefit expires or after the effect is triggered once.",
             "icon": "img/skill/Faruzan_4.png",
             "minAscension": 4
           },
@@ -11516,6 +11516,652 @@
         "Gem3": "Vajrada Amethyst Chunk",
         "Gem4": "Vajrada Amethyst Gemstone",
         "Specialty": "Small Lamp Grass"
+      }
+    }
+  },
+  "Freminet": {
+    "name": "Freminet",
+    "desc": "A reserved young man who is well-versed in diving. Beneath his distant, icy demeanor lies a pure heart bereft of all flaws.",
+    "releasedOn": "2023-09-05 18:00:00",
+    "star": 4,
+    "weaponType": "Claymore",
+    "icon": "img/char/Freminet.png",
+    "media": {
+      "imgs": [
+        "img/char_full/Freminet.png"
+      ]
+    },
+    "baseStats": {
+      "hpBase": 1012.0880126953125,
+      "attackBase": 21.369600296020508,
+      "defenseBase": 59.39955139160156,
+      "criticalBase": 0.05000000074505806,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 4*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 4*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 4*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 9,
+      "birthDay": 24,
+      "association": "Fontaine",
+      "title": "Yearning for Unseen Depths",
+      "detail": "A reserved young man who is well-versed in diving. Beneath his distant, icy demeanor lies a pure heart bereft of all flaws.",
+      "affiliation": "Hotel Bouffes d'ete",
+      "element": "Cryo",
+      "constellation": "Automaton",
+      "cvChinese": "锦鲤",
+      "cvJapanese": "土岐隼一",
+      "cvEnglish": "Paul Castro Jr.",
+      "cvKorean": "Lee Ju-seung"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Flowing Eddies",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "img/skill/Common_Claymore.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "84.2%",
+                  "91.1%",
+                  "98.0%",
+                  "107.7%",
+                  "114.6%",
+                  "122.4%",
+                  "133.2%",
+                  "144.0%",
+                  "154.8%",
+                  "166.5%",
+                  "178.3%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "80.7%",
+                  "87.2%",
+                  "93.8%",
+                  "103.2%",
+                  "109.8%",
+                  "117.3%",
+                  "127.6%",
+                  "137.9%",
+                  "148.2%",
+                  "159.5%",
+                  "170.7%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "101.9%",
+                  "110.2%",
+                  "118.5%",
+                  "130.3%",
+                  "138.6%",
+                  "148.1%",
+                  "161.2%",
+                  "174.2%",
+                  "187.2%",
+                  "201.4%",
+                  "215.7%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "123.8%",
+                  "133.9%",
+                  "144.0%",
+                  "158.4%",
+                  "168.4%",
+                  "179.9%",
+                  "195.8%",
+                  "211.6%",
+                  "227.5%",
+                  "244.7%",
+                  "262.0%"
+                ]
+              },
+              {
+                "name": "Charged Attack Cyclic DMG",
+                "values": [
+                  "62.5%",
+                  "67.6%",
+                  "72.7%",
+                  "80.0%",
+                  "85.1%",
+                  "90.9%",
+                  "98.9%",
+                  "106.9%",
+                  "114.9%",
+                  "123.6%",
+                  "132.3%"
+                ]
+              },
+              {
+                "name": "Charged Attack Final DMG",
+                "values": [
+                  "113%",
+                  "122%",
+                  "132%",
+                  "145%",
+                  "154%",
+                  "164%",
+                  "179%",
+                  "193%",
+                  "208%",
+                  "224%",
+                  "239%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "40.0/s"
+              },
+              {
+                "name": "Max Duration",
+                "value": "5.0s"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "74.6%",
+                  "80.7%",
+                  "86.7%",
+                  "95.4%",
+                  "101.5%",
+                  "108.4%",
+                  "118.0%",
+                  "127.5%",
+                  "137.0%",
+                  "147.4%",
+                  "157.8%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "149%/186%",
+                  "161%/201%",
+                  "173%/217%",
+                  "191%/238%",
+                  "203%/253%",
+                  "217%/271%",
+                  "236%/295%",
+                  "255%/318%",
+                  "274%/342%",
+                  "295%/368%",
+                  "316%/394%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Justice",
+                "BossMat": "Worldspan Fern",
+                "EnemyDropTier1": "Transoceanic Pearl",
+                "EnemyDropTier2": "Transoceanic Chunk",
+                "EnemyDropTier3": "Xenochromatic Crystal"
+              }
+            }
+          },
+          {
+            "name": "Pressurized Floe",
+            "desc": "Performs an upward thrust that deals **Cryo DMG** and causes Freminet to enter Pers Timer for 10s.\nWhile Pers Timer is active, his Elemental Skill will turn into Shattering Pressure.\n\n**Shattering Pressure**\nExecutes different sorts of attacks based on the Pressure Level of Pers Timer, and then cancels Pers Timer.\n·Level 0: Unleashes a vertical cut, dealing **Cryo DMG**.\n·Levels 1 to 3: Unleashes a vertical cut alongside Pers, dealing **Cryo DMG** and Physical DMG. DMG dealt scales based on Pressure Level.\n·Level 4: Borrows the power of a fully-pressurized Pers to deal Physical DMG. Meanwhile, Normal Attack: Flowing Eddies will be replaced by Shattering Pressure.\n\n**Pers Timer**\nWhen Freminet uses Normal Attacks, he will also unleash waves of frost that deal **Cryo DMG** and increase Pers's Pressure Level.\nThe accompanying **Cryo DMG** dealt this way is considered Elemental Skill DMG.\n\n**Arkhe: Pneuma**\nAt certain intervals, after using the upward thrust, a Spiritbreath Thorn in the form of another upward thrust will be created, dealing Pneuma-aligned **Cryo DMG**.\n\n**To immobilize one's opponent without taking their life can also be considered something of a \"survival\" strategy that one may choose.**\n**\"Pers... I leave the rest to you.\"**",
+            "icon": "img/skill/Freminet_1.png",
+            "talentTable": [
+              {
+                "name": "Upward Thrust DMG",
+                "values": [
+                  "83.0%",
+                  "89.3%",
+                  "95.5%",
+                  "103.8%",
+                  "110.0%",
+                  "116.3%",
+                  "124.6%",
+                  "132.9%",
+                  "141.2%",
+                  "149.5%",
+                  "157.8%",
+                  "166.1%",
+                  "176.5%"
+                ]
+              },
+              {
+                "name": "Frost DMG",
+                "values": [
+                  "7.2%",
+                  "7.7%",
+                  "8.2%",
+                  "9.0%",
+                  "9.5%",
+                  "10.0%",
+                  "10.7%",
+                  "11.5%",
+                  "12.2%",
+                  "12.9%",
+                  "13.6%",
+                  "14.3%",
+                  "15.2%"
+                ]
+              },
+              {
+                "name": "Level 0 Shattering Pressure DMG",
+                "values": [
+                  "200.5%",
+                  "215.5%",
+                  "230.6%",
+                  "250.6%",
+                  "265.6%",
+                  "280.7%",
+                  "300.7%",
+                  "320.8%",
+                  "340.8%",
+                  "360.9%",
+                  "380.9%",
+                  "401.0%",
+                  "426.0%"
+                ]
+              },
+              {
+                "name": "Level 1 Shattering Pressure DMG",
+                "values": [
+                  "100.2% Cryo + 48.7% Physical",
+                  "107.8% Cryo + 52.3% Physical",
+                  "115.3% Cryo + 56.0% Physical",
+                  "125.3% Cryo + 60.9% Physical",
+                  "132.8% Cryo + 64.5% Physical",
+                  "140.3% Cryo + 68.2% Physical",
+                  "150.4% Cryo + 73.0% Physical",
+                  "160.4% Cryo + 77.9% Physical",
+                  "170.4% Cryo + 82.8% Physical",
+                  "180.4% Cryo + 87.6% Physical",
+                  "190.5% Cryo + 92.5% Physical",
+                  "200.5% Cryo + 97.4% Physical",
+                  "213.0% Cryo + 103.5% Physical"
+                ]
+              },
+              {
+                "name": "Level 2 Shattering Pressure DMG",
+                "values": [
+                  "70.2% Cryo + 85.2% Physical",
+                  "75.4% Cryo + 91.6% Physical",
+                  "80.7% Cryo + 98.0% Physical",
+                  "87.7% Cryo + 106.5% Physical",
+                  "93.0% Cryo + 112.9% Physical",
+                  "98.2% Cryo + 119.3% Physical",
+                  "105.3% Cryo + 127.8% Physical",
+                  "112.3% Cryo + 136.3% Physical",
+                  "119.3% Cryo + 144.8% Physical",
+                  "126.3% Cryo + 153.4% Physical",
+                  "133.3% Cryo + 161.9% Physical",
+                  "140.3% Cryo + 170.4% Physical",
+                  "149.1% Cryo + 181.1% Physical"
+                ]
+              },
+              {
+                "name": "Level 3 Shattering Pressure DMG",
+                "values": [
+                  "40.1% Cryo + 121.7% Physical",
+                  "43.1% Cryo + 130.8% Physical",
+                  "46.1% Cryo + 140.0% Physical",
+                  "50.1% Cryo + 152.1% Physical",
+                  "53.1% Cryo + 161.3% Physical",
+                  "56.1% Cryo + 170.4% Physical",
+                  "60.1% Cryo + 182.6% Physical",
+                  "64.2% Cryo + 194.8% Physical",
+                  "68.2% Cryo + 206.9% Physical",
+                  "72.2% Cryo + 219.1% Physical",
+                  "76.2% Cryo + 231.3% Physical",
+                  "80.2% Cryo + 243.4% Physical",
+                  "85.2% Cryo + 258.7% Physical"
+                ]
+              },
+              {
+                "name": "Level 4 Shattering Pressure DMG",
+                "values": [
+                  "243.4%",
+                  "261.7%",
+                  "280.0%",
+                  "304.3%",
+                  "322.6%",
+                  "340.8%",
+                  "365.2%",
+                  "389.5%",
+                  "413.8%",
+                  "438.2%",
+                  "462.5%",
+                  "486.9%",
+                  "517.3%"
+                ]
+              },
+              {
+                "name": "Spiritbreath Thorn DMG",
+                "values": [
+                  "14.4%",
+                  "15.5%",
+                  "16.6%",
+                  "18.0%",
+                  "19.1%",
+                  "20.2%",
+                  "21.6%",
+                  "23.0%",
+                  "24.5%",
+                  "25.9%",
+                  "27.4%",
+                  "28.8%",
+                  "30.6%"
+                ]
+              },
+              {
+                "name": "Spiritbreath Thorn Interval",
+                "value": "9.0s"
+              },
+              {
+                "name": "CD",
+                "value": "10.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Justice",
+                "BossMat": "Worldspan Fern",
+                "EnemyDropTier1": "Transoceanic Pearl",
+                "EnemyDropTier2": "Transoceanic Chunk",
+                "EnemyDropTier3": "Xenochromatic Crystal"
+              }
+            }
+          }
+        ],
+        "ult": {
+          "name": "Shadowhunter's Ambush",
+          "desc": "Unleashes a wave of untouchable cold, dealing **AoE Cryo DMG**, resetting the CD of the Elemental Skill \"Pressurized Floe,\" and causing Freminet to enter the Subnautical Hunter mode for 10s.\n\nWhile in Subnautical Hunter mode, Freminet's resistance to interruption will increase, and his Elemental Skill \"Pressurized Floe\" will obtain the following buffs:\n·CD is decreased by 70%.\n·Normal Attacks will increase the Pers Timer by 1 additional Pressure Level, and the frost released by his Normal Attacks deal 200% of their original DMG.\n\nThese effects will be canceled when Freminet leaves the field.\n\n**\"Now... I have no need of any extraneous noise.\"**",
+          "icon": "img/skill/Freminet_2.png",
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "318.4%",
+                "342.3%",
+                "366.2%",
+                "398.0%",
+                "421.9%",
+                "445.8%",
+                "477.6%",
+                "509.4%",
+                "541.3%",
+                "573.1%",
+                "605.0%",
+                "636.8%",
+                "676.6%"
+              ]
+            },
+            {
+              "name": "Duration",
+              "value": "10.0s"
+            },
+            {
+              "name": "CD",
+              "value": "15.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "60"
+            }
+          ],
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Justice",
+              "BossMat": "Worldspan Fern",
+              "EnemyDropTier1": "Transoceanic Pearl",
+              "EnemyDropTier2": "Transoceanic Chunk",
+              "EnemyDropTier3": "Xenochromatic Crystal"
+            }
+          },
+          "type": "Cryo"
+        },
+        "passive": [
+          {
+            "name": "Saturation Deep Dive",
+            "desc": "When Freminet unleashes **Pressurized Floe: Shattering Pressure**, if Pers Timer has yet to reach Pressure Level 4, the CD of Pressurized Floe will be decreased by 1s.",
+            "icon": "img/skill/Freminet_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "Parallel Condensers",
+            "desc": "When Freminet triggers Shatter against opponents, the DMG dealt by **Pressurized Floe: Shattering Pressure** will be increased by 40% for 5s.",
+            "icon": "img/skill/Freminet_4.png",
+            "minAscension": 4
+          },
+          {
+            "name": "Deepwater Navigation",
+            "desc": "Decreases Aquatic Stamina consumption for your own party members by 35%.\nNot stackable with Passive Talents that provide the exact same effects.",
+            "icon": "img/skill/Freminet_5.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Dreams of the Foamy Deep",
+            "desc": "The CRIT Rate of **Pressurized Floe: Shattering Pressure** will be increased by 15%.",
+            "icon": "img/const/Freminet_1.png"
+          },
+          {
+            "name": "Penguins and the Land of Plenty",
+            "desc": "Unleashing **Pressurized Floe: Shattering Pressure** will restore 2 Energy to Freminet. If a Pressure Level 4 Shattering Pressure is unleashed, this will restore 3 Energy.",
+            "icon": "img/const/Freminet_2.png"
+          },
+          {
+            "name": "Song of the Eddies and Bleached Sands",
+            "desc": "Increases the Level of **Normal Attack: Flowing Eddies** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Freminet_3.png"
+          },
+          {
+            "name": "Dance of the Snowy Moon and Flute",
+            "desc": "After Freminet triggers Frozen, Shatter, or Superconduct against opponents, his ATK will be increased by 9% for 6s. Max 2 stacks. This can be triggered once every 0.3s.",
+            "icon": "img/const/Freminet_4.png"
+          },
+          {
+            "name": "Nights of Hearth and Happiness",
+            "desc": "Increases the Level of **Pressurized Floe** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Freminet_5.png"
+          },
+          {
+            "name": "Moment of Waking and Resolve",
+            "desc": "After Freminet triggers Frozen, Shatter, or Superconduct against opponents, his CRIT DMG will be increased by 12% for 6s. Max 3 stacks. This can be triggered once every 0.3s.",
+            "icon": "img/const/Freminet_6.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "ATK%",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 756.08154296875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 44.3745002746582
+          },
+          {
+            "stat": "Base ATK",
+            "value": 15.964559555053711
+          },
+          {
+            "stat": "ATK%",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1293.29736328125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 75.90374755859375
+          },
+          {
+            "stat": "Base ATK",
+            "value": 27.30780029296875
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.05999999865889549
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2009.585205078125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 117.9427490234375
+          },
+          {
+            "stat": "Base ATK",
+            "value": 42.43212127685547
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2546.801025390625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 149.4720001220703
+          },
+          {
+            "stat": "Base ATK",
+            "value": 53.775360107421875
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3084.016845703125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 181.00125122070312
+          },
+          {
+            "stat": "Base ATK",
+            "value": 65.11859893798828
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.18000000715255737
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3621.232666015625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 212.53050231933594
+          },
+          {
+            "stat": "Base ATK",
+            "value": 76.46183776855469
+          },
+          {
+            "stat": "ATK%",
+            "value": 0.23999999463558197
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Artificed Spare Clockwork Component — Coppelius",
+        "EnemyDropTier1": "Transoceanic Pearl",
+        "EnemyDropTier2": "Transoceanic Chunk",
+        "EnemyDropTier3": "Xenochromatic Crystal",
+        "Gem1": "Shivada Jade Sliver",
+        "Gem2": "Shivada Jade Fragment",
+        "Gem3": "Shivada Jade Chunk",
+        "Gem4": "Shivada Jade Gemstone",
+        "Specialty": "Romaritime Flower"
       }
     }
   },
@@ -20601,6 +21247,1196 @@
       }
     }
   },
+  "Lynette": {
+    "name": "Lynette",
+    "desc": "A magic assistant of few words, her emotions are as inscrutable as any cat's.",
+    "releasedOn": "2023-08-15 00:00:00",
+    "star": 4,
+    "weaponType": "Sword",
+    "icon": "img/char/Lynette.png",
+    "media": {
+      "imgs": [
+        "img/char_full/Lynette.png"
+      ]
+    },
+    "baseStats": {
+      "hpBase": 1039.4417724609375,
+      "attackBase": 19.410720825195312,
+      "defenseBase": 59.68567657470703,
+      "criticalBase": 0.05000000074505806,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 4*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 4*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 4*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 2,
+      "birthDay": 2,
+      "association": "Fontaine",
+      "title": "Elegance in the Shadows",
+      "detail": "A magic assistant of few words, her emotions are as inscrutable as any cat's.",
+      "affiliation": "Hotel Bouffes d'ete",
+      "element": "Anemo",
+      "constellation": "Felis Alba",
+      "cvChinese": "可可味",
+      "cvJapanese": "篠原侑",
+      "cvEnglish": "Anairis Quiñones",
+      "cvKorean": "Lee Myoung-hwa"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Rapid Ritesword",
+            "desc": "**Normal Attack**\nPerforms up to 4 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "img/skill/Common_Sword.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "43.1%",
+                  "46.6%",
+                  "50.1%",
+                  "55.1%",
+                  "58.6%",
+                  "62.6%",
+                  "68.1%",
+                  "73.6%",
+                  "79.2%",
+                  "85.2%",
+                  "91.2%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "37.6%",
+                  "40.7%",
+                  "43.7%",
+                  "48.1%",
+                  "51.2%",
+                  "54.7%",
+                  "59.5%",
+                  "64.3%",
+                  "69.1%",
+                  "74.3%",
+                  "79.6%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "27.9%+21.6%",
+                  "30.1%+23.4%",
+                  "32.4%+25.1%",
+                  "35.6%+27.6%",
+                  "37.9%+29.4%",
+                  "40.5%+31.4%",
+                  "44.1%+34.1%",
+                  "47.6%+36.9%",
+                  "51.2%+39.7%",
+                  "55.1%+42.7%",
+                  "59.0%+45.7%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "63.2%",
+                  "68.3%",
+                  "73.4%",
+                  "80.8%",
+                  "85.9%",
+                  "91.8%",
+                  "99.9%",
+                  "107.9%",
+                  "116.0%",
+                  "124.8%",
+                  "133.7%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "44.2%+61.4%",
+                  "47.8%+66.4%",
+                  "51.4%+71.4%",
+                  "56.5%+78.5%",
+                  "60.1%+83.5%",
+                  "64.2%+89.2%",
+                  "69.9%+97.1%",
+                  "75.6%+105.0%",
+                  "81.2%+112.8%",
+                  "87.4%+121.4%",
+                  "93.5%+129.9%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "20.0"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "63.9%",
+                  "69.1%",
+                  "74.3%",
+                  "81.8%",
+                  "87.0%",
+                  "92.9%",
+                  "101.1%",
+                  "109.3%",
+                  "117.5%",
+                  "126.4%",
+                  "135.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "128%/160%",
+                  "138%/173%",
+                  "149%/186%",
+                  "164%/204%",
+                  "174%/217%",
+                  "186%/232%",
+                  "202%/253%",
+                  "219%/273%",
+                  "235%/293%",
+                  "253%/316%",
+                  "271%/338%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Order",
+                "BossMat": "Everamber",
+                "EnemyDropTier1": "Meshing Gear",
+                "EnemyDropTier2": "Mechanical Spur Gear",
+                "EnemyDropTier3": "Artificed Dynamic Gear"
+              }
+            }
+          },
+          {
+            "name": "Enigmatic Feint",
+            "desc": "Flicks her mantle and executes an Enigma Thrust, dealing **Anemo DMG**.\nWhen the Enigma Thrust hits an opponent, it will restore Lynette's HP based on her Max HP, and in the 4s afterward, she will lose a certain amount of HP per second.\nBased on whether you press or hold this ability, she will use Enigma Thrust differently.\n\n**Press**\nShe swiftly uses an Enigma Thrust.\n\n**Hold**\nLynette will enter a high-speed Pilfering Shadow state and apply Shadowsign to a nearby opponent. You can control her movement direction during this state, and you can end it prematurely by using this skill again.\nWhen this high-speed state ends, Lynette will unleash her Enigma Thrust. If there is an opponent with Shadowsign applied to them nearby, Lynette will approach them in a flash before using Enigma Thrust.\n\nA maximum of 1 opponent can have Shadowsign at any one time. When this opponent gets too far from Lynette, the Shadowsign will be canceled.\n\n**Arkhe: Ousia**\nAt specific intervals, Lynette will unleash a Surging Blade when she uses Enigma Thrust, dealing Ousia-aligned **Anemo DMG**.\n\n**\"Now then, turn your eyes to the stage and continue to enjoy the performance. When I next appear, I'll be where you least expect.\"**",
+            "icon": "img/skill/Lynette_1.png",
+            "talentTable": [
+              {
+                "name": "Enigma Thrust DMG",
+                "values": [
+                  "268.0%",
+                  "288.1%",
+                  "308.2%",
+                  "335.0%",
+                  "355.1%",
+                  "375.2%",
+                  "402.0%",
+                  "428.8%",
+                  "455.6%",
+                  "482.4%",
+                  "509.2%",
+                  "536.0%",
+                  "569.5%"
+                ]
+              },
+              {
+                "name": "Surging Blade DMG",
+                "values": [
+                  "31.2%",
+                  "33.5%",
+                  "35.9%",
+                  "39.0%",
+                  "41.3%",
+                  "43.7%",
+                  "46.8%",
+                  "49.9%",
+                  "53.0%",
+                  "56.2%",
+                  "59.3%",
+                  "62.4%",
+                  "66.3%"
+                ]
+              },
+              {
+                "name": "Surging Blade Interval",
+                "value": "10.0s"
+              },
+              {
+                "name": "HP Regeneration",
+                "value": "25% Max HP"
+              },
+              {
+                "name": "HP Cost",
+                "value": "6% Current HP/s"
+              },
+              {
+                "name": "Hold Max Duration",
+                "value": "2.5s"
+              },
+              {
+                "name": "CD",
+                "value": "12.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Order",
+                "BossMat": "Everamber",
+                "EnemyDropTier1": "Meshing Gear",
+                "EnemyDropTier2": "Mechanical Spur Gear",
+                "EnemyDropTier3": "Artificed Dynamic Gear"
+              }
+            }
+          }
+        ],
+        "ult": {
+          "name": "Magic Trick: Astonishing Shift",
+          "desc": "Lynette raises her mantle high, dealing **AoE Anemo DMG**, using skillful sleight of hand to make a giant Bogglecat Box appear!\n\n**Bogglecat Box**\n·Taunts nearby opponents, attracting their attacks.\n·Deals **Anemo DMG** to nearby opponents at intervals.\n·When the Bogglecat Box comes into contact with **Hydro**/**Pyro**/**Cryo**/**Electro**, it will gain the corresponding element and additionally fire Vivid Shots that will deal DMG from that element at intervals.\nElemental Absorption of this kind will only occur once during this ability's duration.\n\n**\"Look this way, and look closely. This is a time for miracles, just for us.\"**",
+          "icon": "img/skill/Lynette_2.png",
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "83.2%",
+                "89.4%",
+                "95.7%",
+                "104.0%",
+                "110.2%",
+                "116.5%",
+                "124.8%",
+                "133.1%",
+                "141.4%",
+                "149.8%",
+                "158.1%",
+                "166.4%",
+                "176.8%"
+              ]
+            },
+            {
+              "name": "Bogglecat Box DMG",
+              "values": [
+                "51.2%",
+                "55.0%",
+                "58.9%",
+                "64.0%",
+                "67.8%",
+                "71.7%",
+                "76.8%",
+                "81.9%",
+                "87.0%",
+                "92.2%",
+                "97.3%",
+                "102.4%",
+                "108.8%"
+              ]
+            },
+            {
+              "name": "Vivid Shot DMG",
+              "values": [
+                "45.6%",
+                "49.0%",
+                "52.4%",
+                "57.0%",
+                "60.4%",
+                "63.8%",
+                "68.4%",
+                "73.0%",
+                "77.5%",
+                "82.1%",
+                "86.6%",
+                "91.2%",
+                "96.9%"
+              ]
+            },
+            {
+              "name": "Bogglecat Box Duration",
+              "value": "12.0s"
+            },
+            {
+              "name": "CD",
+              "value": "18.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "70"
+            }
+          ],
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Order",
+              "BossMat": "Everamber",
+              "EnemyDropTier1": "Meshing Gear",
+              "EnemyDropTier2": "Mechanical Spur Gear",
+              "EnemyDropTier3": "Artificed Dynamic Gear"
+            }
+          },
+          "type": "Anemo"
+        },
+        "passive": [
+          {
+            "name": "Sophisticated Synergy",
+            "desc": "Within 10s after using **Magic Trick: Astonishing Shift**, when there are 1/2/3/4 Elemental Types in the party, all party members' ATK will be increased by 8%/12%/16%/20% respectively.",
+            "icon": "img/skill/Lynette_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "Props Positively Prepped",
+            "desc": "After the Bogglecat Box summoned by **Magic Trick: Astonishing Shift** performs Elemental Conversion, Lynette's Elemental Burst will deal 15% more DMG. This effect will persist until the Bogglecat Box's duration ends.",
+            "icon": "img/skill/Lynette_4.png",
+            "minAscension": 4
+          },
+          {
+            "name": "Loci-Based Mnemonics",
+            "desc": "Shows the location of nearby **Recovery Orbs** on the minimap. The Aquatic Stamina and HP gained from touching Orbs will be increased by 25%.",
+            "icon": "img/skill/Lynette_5.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "A Cold Blade Like a Shadow",
+            "desc": "When **Enigmatic Feint**'s Enigma Thrust hits an opponent with Shadowsign, a vortex will be created at that opponent's position that will pull nearby opponents in.",
+            "icon": "img/const/Lynette_1.png"
+          },
+          {
+            "name": "Endless Mysteries",
+            "desc": "Whenever the Bogglecat Box summoned by **Magic Trick: Astonishing Shift** fires a Vivid Shot, it will fire an extra Vivid Shot.",
+            "icon": "img/const/Lynette_2.png"
+          },
+          {
+            "name": "Cognition-Inverting Gaze",
+            "desc": "Increases the Level of **Magic Trick: Astonishing Shift** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Lynette_3.png"
+          },
+          {
+            "name": "Tacit Coordination",
+            "desc": "Increases **Enigmatic Feint**'s charges by 1.",
+            "icon": "img/const/Lynette_4.png"
+          },
+          {
+            "name": "Obscuring Ambiguity",
+            "desc": "Increases the Level of **Enigmatic Feint** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Lynette_5.png"
+          },
+          {
+            "name": "Watchful Eye",
+            "desc": "When Lynette uses **Enigmatic Feint**'s Enigma Thrust, she will gain an **Anemo Infusion** and 20% **Anemo DMG Bonus** for 6s.",
+            "icon": "img/const/Lynette_6.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "Anemo DMG Bonus",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 776.5161743164062
+          },
+          {
+            "stat": "Base DEF",
+            "value": 44.58824920654297
+          },
+          {
+            "stat": "Base ATK",
+            "value": 14.501141548156738
+          },
+          {
+            "stat": "Anemo DMG Bonus",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1328.2513427734375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 76.26937866210938
+          },
+          {
+            "stat": "Base ATK",
+            "value": 24.804584503173828
+          },
+          {
+            "stat": "Anemo DMG Bonus",
+            "value": 0.05999999865889549
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2063.8984375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 118.51087188720703
+          },
+          {
+            "stat": "Base ATK",
+            "value": 38.54250717163086
+          },
+          {
+            "stat": "Anemo DMG Bonus",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2615.633544921875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 150.19200134277344
+          },
+          {
+            "stat": "Base ATK",
+            "value": 48.845951080322266
+          },
+          {
+            "stat": "Anemo DMG Bonus",
+            "value": 0.11999999731779099
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3167.36865234375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 181.8731231689453
+          },
+          {
+            "stat": "Base ATK",
+            "value": 59.14939498901367
+          },
+          {
+            "stat": "Anemo DMG Bonus",
+            "value": 0.18000000715255737
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3719.10400390625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 213.5542449951172
+          },
+          {
+            "stat": "Base ATK",
+            "value": 69.45283508300781
+          },
+          {
+            "stat": "Anemo DMG Bonus",
+            "value": 0.23999999463558197
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Artificed Spare Clockwork Component — Coppelia",
+        "EnemyDropTier1": "Meshing Gear",
+        "EnemyDropTier2": "Mechanical Spur Gear",
+        "EnemyDropTier3": "Artificed Dynamic Gear",
+        "Gem1": "Vayuda Turquoise Sliver",
+        "Gem2": "Vayuda Turquoise Fragment",
+        "Gem3": "Vayuda Turquoise Chunk",
+        "Gem4": "Vayuda Turquoise Gemstone",
+        "Specialty": "Lumidouce Bell"
+      }
+    }
+  },
+  "Lyney": {
+    "name": "Lyney",
+    "desc": "A famed Fontainian magician who possesses great stage presence as well as gift of the gab. Audiences are enthralled by his exquisite skills, and they hang on to his every clever word.",
+    "releasedOn": "2023-08-15 00:00:00",
+    "star": 5,
+    "weaponType": "Bow",
+    "icon": "img/char/Lyney.png",
+    "media": {
+      "imgs": [
+        "img/char_full/Lyney.png"
+      ]
+    },
+    "baseStats": {
+      "hpBase": 857.9879760742188,
+      "attackBase": 24.76460075378418,
+      "defenseBase": 41.88100051879883,
+      "criticalBase": 0.05000000074505806,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 2,
+      "birthDay": 2,
+      "association": "Fontaine",
+      "title": "Spectacle of Phantasmagoria",
+      "detail": "A famed Fontainian magician who possesses great stage presence as well as gift of the gab. Audiences are enthralled by his exquisite skills, and they hang on to his every clever word.",
+      "affiliation": "Hotel Bouffes d'ete",
+      "element": "Pyro",
+      "constellation": "Felis Fuscus",
+      "cvChinese": "锦鲤",
+      "cvJapanese": "下野紘",
+      "cvEnglish": "Daman Mills",
+      "cvKorean": "Park Seong-yeong"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Card Force Translocation",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive shots with a bow.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\n\n**Charged Attack**\nPerforms a more precise **Aimed Shot** with increased DMG.\nWhile aiming, flames will run across the arrowhead before being fired. Different effects will occur based on the time spent charging.\n·Charge Level 1: Fires off a Pyro-infused arrow, dealing **Pyro DMG**.\n·Charge Level 2: Fires off a Prop Arrow that deals **Pyro DMG**, and upon hit, it will summon a Grin-Malkin Hat.\nWhen firing the Prop Arrow, and when Lyney has more than 60% HP, he will consume a portion of his HP to obtain 1 Prop Surplus stack. Max 5 stacks. The effect will be removed after the character spends 30s out of combat.\nThe lowest Lyney can drop to through this method is 60% of his Max HP.\n\n**Grin-Malkin Hat**\n·Can taunt nearby opponents and attract their attacks. Each opponent can only be taunted by the Hat once every 5s.\n·The Hat will inherit a percentage of Lyney's Max HP.\n·If destroyed, or if its duration expires, it will fire off a **Pyrotechnic Strike** at 1 nearby opponent, dealing **Pyro DMG**.\nOnly 1 Hat can exist at any given time.\n\n**Arkhe: Pneuma**\nAt certain intervals, the Prop Arrow will cause a Spiritbreath Thorn to descend upon its hit location, dealing Pneuma-aligned **Pyro DMG**.",
+            "icon": "img/skill/Common_Bow.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "38.8%",
+                  "41.9%",
+                  "45.1%",
+                  "49.6%",
+                  "52.8%",
+                  "56.4%",
+                  "61.3%",
+                  "66.3%",
+                  "71.3%",
+                  "76.7%",
+                  "82.1%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "38.0%",
+                  "41.1%",
+                  "44.2%",
+                  "48.6%",
+                  "51.7%",
+                  "55.3%",
+                  "60.1%",
+                  "65.0%",
+                  "69.8%",
+                  "75.1%",
+                  "80.4%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "27.3%+27.3%",
+                  "29.5%+29.5%",
+                  "31.7%+31.7%",
+                  "34.9%+34.9%",
+                  "37.1%+37.1%",
+                  "39.6%+39.6%",
+                  "43.1%+43.1%",
+                  "46.6%+46.6%",
+                  "50.1%+50.1%",
+                  "53.9%+53.9%",
+                  "57.7%+57.7%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "56.9%",
+                  "61.6%",
+                  "66.2%",
+                  "72.8%",
+                  "77.5%",
+                  "82.7%",
+                  "90.0%",
+                  "97.3%",
+                  "104.6%",
+                  "112.5%",
+                  "120.5%"
+                ]
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "56.8%",
+                  "61.5%",
+                  "66.1%",
+                  "72.7%",
+                  "77.3%",
+                  "82.6%",
+                  "89.9%",
+                  "97.1%",
+                  "104.4%",
+                  "112.3%",
+                  "120.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "113.6%/141.9%",
+                  "122.9%/153.5%",
+                  "132.1%/165.0%",
+                  "145.3%/181.5%",
+                  "154.6%/193.1%",
+                  "165.2%/206.3%",
+                  "179.7%/224.5%",
+                  "194.2%/242.6%",
+                  "208.8%/260.8%",
+                  "224.6%/280.6%",
+                  "240.5%/300.4%"
+                ]
+              },
+              {
+                "name": "Aimed Shot",
+                "values": [
+                  "43.9%",
+                  "47.4%",
+                  "51.0%",
+                  "56.1%",
+                  "59.7%",
+                  "63.7%",
+                  "69.4%",
+                  "75.0%",
+                  "80.6%",
+                  "86.7%",
+                  "92.8%"
+                ]
+              },
+              {
+                "name": "Aimed Shot Charge Level 1",
+                "values": [
+                  "124.0%",
+                  "133.3%",
+                  "142.6%",
+                  "155.0%",
+                  "164.3%",
+                  "173.6%",
+                  "186.0%",
+                  "198.4%",
+                  "210.8%",
+                  "223.2%",
+                  "235.6%"
+                ]
+              },
+              {
+                "name": "Prop Arrow DMG",
+                "values": [
+                  "172.8%",
+                  "185.8%",
+                  "198.7%",
+                  "216.0%",
+                  "229.0%",
+                  "241.9%",
+                  "259.2%",
+                  "276.5%",
+                  "293.8%",
+                  "311.0%",
+                  "328.3%"
+                ]
+              },
+              {
+                "name": "HP Cost",
+                "value": "20% Max HP"
+              },
+              {
+                "name": "Grin-Malkin Hat Inherited HP",
+                "values": [
+                  "64%",
+                  "69%",
+                  "74%",
+                  "80%",
+                  "85%",
+                  "90%",
+                  "96%",
+                  "102%",
+                  "109%",
+                  "115%",
+                  "122%"
+                ]
+              },
+              {
+                "name": "Grin-Malkin Hat Duration",
+                "value": "4.0s"
+              },
+              {
+                "name": "Pyrotechnic Strike DMG",
+                "values": [
+                  "212.0%",
+                  "227.9%",
+                  "243.8%",
+                  "265.0%",
+                  "280.9%",
+                  "296.8%",
+                  "318.0%",
+                  "339.2%",
+                  "360.4%",
+                  "381.6%",
+                  "402.8%"
+                ]
+              },
+              {
+                "name": "Spiritbreath Thorn DMG",
+                "values": [
+                  "27.6%",
+                  "29.6%",
+                  "31.7%",
+                  "34.4%",
+                  "36.5%",
+                  "38.6%",
+                  "41.3%",
+                  "44.1%",
+                  "46.8%",
+                  "49.6%",
+                  "52.3%"
+                ]
+              },
+              {
+                "name": "Spiritbreath Thorn Interval",
+                "value": "6.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Equity",
+                "BossMat": "Primordial Greenbloom",
+                "EnemyDropTier1": "Recruit's Insignia",
+                "EnemyDropTier2": "Sergeant's Insignia",
+                "EnemyDropTier3": "Lieutenant's Insignia"
+              }
+            }
+          },
+          {
+            "name": "Bewildering Lights",
+            "desc": "Lyney does a flourish with his hat, unleashing a firework surprise!\nWhen used, he will clear all current Prop Surplus stacks and deal **AoE Pyro DMG** to opponents in front of him. DMG will be increased according to the stacks cleared, and this will also regenerate Lyney's HP based on his Max HP.\n\nWhen a Grin-Malkin Hat created by Lyney is on the field, the fireworks will cause it to explode, dealing **AoE Pyro DMG** equal to that of a Pyrotechnic Strike.\nThe DMG dealt through the Grin-Malkin Hat in this way is considered Charged Attack DMG.\n\n**\"Everyone knows that magicians will intentionally misdirect the audience... Ah, yes, while you were looking my way, the hat and assistant over there have both disappeared... Fascinating, is it not?\"**",
+            "icon": "img/skill/Lyney_1.png",
+            "talentTable": [
+              {
+                "name": "Skill DMG",
+                "values": [
+                  "167.2%",
+                  "179.7%",
+                  "192.3%",
+                  "209.0%",
+                  "221.5%",
+                  "234.1%",
+                  "250.8%",
+                  "267.5%",
+                  "284.2%",
+                  "301.0%",
+                  "317.7%",
+                  "334.4%",
+                  "355.3%"
+                ]
+              },
+              {
+                "name": "Skill DMG Bonus",
+                "values": [
+                  "53.2% ATK/Stack",
+                  "57.2% ATK/Stack",
+                  "61.2% ATK/Stack",
+                  "66.5% ATK/Stack",
+                  "70.5% ATK/Stack",
+                  "74.5% ATK/Stack",
+                  "79.8% ATK/Stack",
+                  "85.1% ATK/Stack",
+                  "90.4% ATK/Stack",
+                  "95.8% ATK/Stack",
+                  "101.1% ATK/Stack",
+                  "106.4% ATK/Stack",
+                  "113.0% ATK/Stack"
+                ]
+              },
+              {
+                "name": "HP Regeneration",
+                "value": "20%/Stack"
+              },
+              {
+                "name": "CD",
+                "value": "15.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Equity",
+                "BossMat": "Primordial Greenbloom",
+                "EnemyDropTier1": "Recruit's Insignia",
+                "EnemyDropTier2": "Sergeant's Insignia",
+                "EnemyDropTier3": "Lieutenant's Insignia"
+              }
+            }
+          }
+        ],
+        "ult": {
+          "name": "Wondrous Trick: Miracle Parade",
+          "desc": "Unleashing his magic, Lyney turns himself into a Grin-Malkin Cat that can move around quickly. (Not to be mistaken for the Grin-Malkin Hat. They're two different props!)\nWhen the Grin-Malkin Cat gets close to opponents, it will send flames falling down on them, dealing at most 1 instance of **Pyro DMG** to each opponent. When the duration ends, he will dismiss the Grin-Malkin Cat and ignite fireworks that deal **AoE Pyro DMG**, summon 1 Grin-Malkin Hat, and grant himself 1 Prop Surplus stack.\n\nGrin-Malkin Cat can be actively canceled.\n\n**\"Watch closely now. This is a time for miracles, and it belongs to just the two of us!\"**",
+          "icon": "img/skill/Lyney_2.png",
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "154.0%",
+                "165.6%",
+                "177.1%",
+                "192.5%",
+                "204.0%",
+                "215.6%",
+                "231.0%",
+                "246.4%",
+                "261.8%",
+                "277.2%",
+                "292.6%",
+                "308.0%",
+                "327.3%"
+              ]
+            },
+            {
+              "name": "Explosive Firework DMG",
+              "values": [
+                "414.0%",
+                "445.1%",
+                "476.1%",
+                "517.5%",
+                "548.5%",
+                "579.6%",
+                "621.0%",
+                "662.4%",
+                "703.8%",
+                "745.2%",
+                "786.6%",
+                "828.0%",
+                "879.7%"
+              ]
+            },
+            {
+              "name": "Duration",
+              "value": "3.0s"
+            },
+            {
+              "name": "CD",
+              "value": "15.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "60"
+            }
+          ],
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Equity",
+              "BossMat": "Primordial Greenbloom",
+              "EnemyDropTier1": "Recruit's Insignia",
+              "EnemyDropTier2": "Sergeant's Insignia",
+              "EnemyDropTier3": "Lieutenant's Insignia"
+            }
+          },
+          "type": "Pyro"
+        },
+        "passive": [
+          {
+            "name": "Perilous Performance",
+            "desc": "If Lyney consumes HP when firing off a **Prop Arrow**, the Grin-Malkin hat summoned by the arrow will, upon hitting an opponent, restore 3 Energy to Lyney and increase DMG dealt by 80% of his ATK.",
+            "icon": "img/skill/Lyney_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "Conclusive Ovation",
+            "desc": "The DMG Lyney deals to opponents affected by **Pyro** will receive the following buffs:\n·Increases the DMG dealt by 60%.\n·Each **Pyro** party member other than Lyney will cause the DMG dealt to increase by an additional 20%.\nLyney can deal up to 100% increased DMG to opponents affected by **Pyro** in this way.",
+            "icon": "img/skill/Lyney_4.png",
+            "minAscension": 4
+          },
+          {
+            "name": "Trivial Observations",
+            "desc": "Displays the location of nearby **resources unique to Fontaine** on the mini-map.",
+            "icon": "img/skill/Lyney_5.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Whimsical Wonders",
+            "desc": "Lyney can have 2 **Grin-Malkin Hats** present at once.\nAdditionally, Prop Arrows will summon 2 Grin-Malkin Hats and grant Lyney 1 extra stack of Prop Surplus. This effect can occur once every 15s.",
+            "icon": "img/const/Lyney_1.png"
+          },
+          {
+            "name": "Loquacious Cajoling",
+            "desc": "When Lyney is on the field, he will gain a stack of Crisp Focus every 2s. Each stack will increase his CRIT DMG by 20%. Max 3 stacks. This effect will be canceled when Lyney leaves the field.",
+            "icon": "img/const/Lyney_2.png"
+          },
+          {
+            "name": "Prestidigitation",
+            "desc": "Increases the Level of **Normal Attack: Card Force Translocation** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Lyney_3.png"
+          },
+          {
+            "name": "Well-Versed, Well-Rehearsed",
+            "desc": "After an opponent is hit by Lyney's **Pyro** Charged Attack, this opponent's **Pyro RES** will be decreased by 20% for 6s.",
+            "icon": "img/const/Lyney_4.png"
+          },
+          {
+            "name": "To Pierce Enigmas",
+            "desc": "Increases the Level of **Wondrous Trick: Miracle Parade** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Lyney_5.png"
+          },
+          {
+            "name": "Guarded Smile",
+            "desc": "When Lyney fires a **Prop Arrow**, he will fire a Pyrotechnic Strike: Reprised that will deal 80% of a Pyrotechnic Strike's DMG. This DMG is considered Charged Attack DMG.",
+            "icon": "img/const/Lyney_6.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 735.6471557617188
+          },
+          {
+            "stat": "Base DEF",
+            "value": 35.90999984741211
+          },
+          {
+            "stat": "Base ATK",
+            "value": 21.231853485107422
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1258.34375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 61.42499923706055
+          },
+          {
+            "stat": "Base ATK",
+            "value": 36.31764602661133
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.04800000041723251
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1955.2725830078125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 95.44499969482422
+          },
+          {
+            "stat": "Base ATK",
+            "value": 56.43203353881836
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.09600000083446503
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2477.96923828125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 120.95999908447266
+          },
+          {
+            "stat": "Base ATK",
+            "value": 71.517822265625
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.09600000083446503
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3000.666015625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 146.47500610351562
+          },
+          {
+            "stat": "Base ATK",
+            "value": 86.6036148071289
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.14399999380111694
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3523.362548828125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 171.99000549316406
+          },
+          {
+            "stat": "Base ATK",
+            "value": 101.68940734863281
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.19200000166893005
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Emperor's Resolution",
+        "EnemyDropTier1": "Recruit's Insignia",
+        "EnemyDropTier2": "Sergeant's Insignia",
+        "EnemyDropTier3": "Lieutenant's Insignia",
+        "Gem1": "Agnidus Agate Sliver",
+        "Gem2": "Agnidus Agate Fragment",
+        "Gem3": "Agnidus Agate Chunk",
+        "Gem4": "Agnidus Agate Gemstone",
+        "Specialty": "Rainbow Rose"
+      }
+    }
+  },
   "Mika": {
     "name": "Mika",
     "desc": "A young knight born to an ordinary family. He serves as a Front-Line Surveyor in his Company. He is a low-key and cautious character.",
@@ -22398,6 +24234,550 @@
       }
     }
   },
+  "Neuvillette": {
+    "name": "Neuvillette",
+    "desc": "The Chief Justice of Fontaine, known as the Iudex, is renowned for his unassailable impartiality.",
+    "releasedOn": "2023-09-26 00:00:00",
+    "star": 5,
+    "weaponType": "Catalyst",
+    "icon": "img/char/Neuvillette.png",
+    "media": {
+      "imgs": [
+        "img/char_full/Neuvillette.png"
+      ]
+    },
+    "baseStats": {
+      "hpBase": 1143.9840087890625,
+      "attackBase": 16.218019485473633,
+      "defenseBase": 44.872501373291016,
+      "criticalBase": 0.05000000074505806,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 12,
+      "birthDay": 18,
+      "association": "Fontaine",
+      "title": "Ordainer of Inexorable Judgment",
+      "detail": "The Chief Justice of Fontaine, known as the Iudex, is renowned for his unassailable impartiality.",
+      "affiliation": "Court of Fontaine",
+      "element": "Hydro",
+      "constellation": "???",
+      "cvChinese": "桑毓泽",
+      "cvJapanese": "神谷浩史",
+      "cvEnglish": "Ray Chase",
+      "cvKorean": "Kwak Yoon-sang"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: As Water Seeks Equilibrium",
+            "desc": "**Normal Attack**\nWith light flourishes, Neuvillette commands the tides to unleash a maximum of 3 attacks, dealing **Hydro DMG**.\n\n**Charged Attack Empowerment: Legal Evaluation**\nWhile charging up, Neuvillette will gather the power of water, forming it into a Seal of Arbitration. In this state, Neuvillette can move and change facing, and also absorb any Sourcewater Droplets in a certain AoE.\nEvery Droplet he absorbs will increase the formation speed of the Seal, and will heal Neuvillette.\nWhen the charging is stopped, if the Symbol has yet to be formed, then a Charged Attack will be unleashed. If it has been formed, then a Charged Attack: Equitable Judgment will be unleashed.\n\n**Charged Attack**\nConsumes a fixed amount of Stamina to attack opponents with a rupturing blast of water, dealing **AoE Hydro DMG**.\n\n**Charged Attack: Equitable Judgment**\nUnleashes surging torrents, dealing continuous **AoE Hydro DMG** to all opponents in a straight-line area in front of him.\nEquitable Judgment will not consume any Stamina and lasts 3s.\nIf Neuvillette's HP is above 50%, he will continuously lose HP while using this attack.\n\n**Plunging Attack**\nGathering the might of Hydro, Neuvillette plunges towards the ground from mid-air, damaging all opponents in his path. Deals **AoE Hydro DMG** upon impact with the ground.",
+            "icon": "img/skill/Common_Catalyst.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "54.6%",
+                  "58.7%",
+                  "62.8%",
+                  "68.2%",
+                  "72.3%",
+                  "76.4%",
+                  "81.9%",
+                  "87.3%",
+                  "92.8%",
+                  "98.2%",
+                  "103.7%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "46.2%",
+                  "49.7%",
+                  "53.2%",
+                  "57.8%",
+                  "61.3%",
+                  "64.7%",
+                  "69.4%",
+                  "74.0%",
+                  "78.6%",
+                  "83.2%",
+                  "87.9%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "72.3%",
+                  "77.8%",
+                  "83.2%",
+                  "90.4%",
+                  "95.8%",
+                  "101.3%",
+                  "108.5%",
+                  "115.7%",
+                  "123.0%",
+                  "130.2%",
+                  "137.4%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "136.8%",
+                  "147.1%",
+                  "157.3%",
+                  "171.0%",
+                  "181.3%",
+                  "191.5%",
+                  "205.2%",
+                  "218.9%",
+                  "232.6%",
+                  "246.2%",
+                  "259.9%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "50.0"
+              },
+              {
+                "name": "Charged Attack: Equitable Judgment",
+                "values": [
+                  "7.32% Max HP",
+                  "7.91% Max HP",
+                  "8.51% Max HP",
+                  "9.36% Max HP",
+                  "9.96% Max HP",
+                  "10.64% Max HP",
+                  "11.57% Max HP",
+                  "12.51% Max HP",
+                  "13.45% Max HP",
+                  "14.47% Max HP",
+                  "15.49% Max HP"
+                ]
+              },
+              {
+                "name": "HP Restored",
+                "value": "16.0% Max HP/Droplet"
+              },
+              {
+                "name": "HP Loss",
+                "value": "8.0% Max HP/0.5s"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "56.8%",
+                  "61.5%",
+                  "66.1%",
+                  "72.7%",
+                  "77.3%",
+                  "82.6%",
+                  "89.9%",
+                  "97.1%",
+                  "104.4%",
+                  "112.3%",
+                  "120.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "114%/142%",
+                  "123%/153%",
+                  "132%/165%",
+                  "145%/182%",
+                  "155%/193%",
+                  "165%/206%",
+                  "180%/224%",
+                  "194%/243%",
+                  "209%/261%",
+                  "225%/281%",
+                  "240%/300%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Equity",
+                "BossMat": "Everamber",
+                "EnemyDropTier1": "Transoceanic Pearl",
+                "EnemyDropTier2": "Transoceanic Chunk",
+                "EnemyDropTier3": "Xenochromatic Crystal"
+              }
+            }
+          },
+          {
+            "name": "O Tears, I Shall Repay",
+            "desc": "Summons a Raging Waterfall that will deal **AoE Hydro DMG** to opponents in front of Neuvillette based on his Max HP. After hitting an opponent, this skill will generate 3 Sourcewater Droplets near that opponent.\n\n**Arkhe: Pneuma**\nAt certain intervals, when the Raging Waterfall descends, a Spiritbreath Thorn will descend that will pierce opponents, dealing Pneuma-aligned **Hydro DMG**.\n\n**\"The law can restrict all manner of crimes, but it cannot extirpate evil itself.**",
+            "icon": "img/skill/Neuvillette_1.png",
+            "talentTable": [
+              {
+                "name": "Skill DMG",
+                "values": [
+                  "12.86% Max HP",
+                  "13.83% Max HP",
+                  "14.79% Max HP",
+                  "16.08% Max HP",
+                  "17.04% Max HP",
+                  "18.01% Max HP",
+                  "19.30% Max HP",
+                  "20.58% Max HP",
+                  "21.87% Max HP",
+                  "23.16% Max HP",
+                  "24.44% Max HP",
+                  "25.73% Max HP",
+                  "27.34% Max HP"
+                ]
+              },
+              {
+                "name": "Spiritbreath Thorn DMG",
+                "values": [
+                  "20.8%",
+                  "22.4%",
+                  "23.9%",
+                  "26.0%",
+                  "27.6%",
+                  "29.1%",
+                  "31.2%",
+                  "33.3%",
+                  "35.4%",
+                  "37.4%",
+                  "39.5%",
+                  "41.6%",
+                  "44.2%"
+                ]
+              },
+              {
+                "name": "Spiritbreath Thorn Interval",
+                "value": "10.0s"
+              },
+              {
+                "name": "Sourcewater Droplet Duration",
+                "value": "15.0s"
+              },
+              {
+                "name": "CD",
+                "value": "12.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Equity",
+                "BossMat": "Everamber",
+                "EnemyDropTier1": "Transoceanic Pearl",
+                "EnemyDropTier2": "Transoceanic Chunk",
+                "EnemyDropTier3": "Xenochromatic Crystal"
+              }
+            }
+          }
+        ],
+        "ult": {
+          "name": "O Tides, I Have Returned",
+          "desc": "Unleashes waves that will deal **AoE Hydro DMG** based on Neuvillette's Max HP. After a short interval, 2 waterfalls will descend and deal **Hydro DMG** in a somewhat smaller AoE, and will generate 6 Sourcewater Droplets within an area in front.\n\n**\"The law is only established after its publication, and above that, the laws of nature have governed all species and eras since ancient times.**",
+          "icon": "img/skill/Neuvillette_2.png",
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "22.26% Max HP",
+                "23.93% Max HP",
+                "25.60% Max HP",
+                "27.82% Max HP",
+                "29.49% Max HP",
+                "31.16% Max HP",
+                "33.39% Max HP",
+                "35.61% Max HP",
+                "37.84% Max HP",
+                "40.06% Max HP",
+                "42.29% Max HP",
+                "44.52% Max HP",
+                "47.30% Max HP"
+              ]
+            },
+            {
+              "name": "Waterfall DMG",
+              "values": [
+                "9.11% Max HP",
+                "9.79% Max HP",
+                "10.47% Max HP",
+                "11.38% Max HP",
+                "12.06% Max HP",
+                "12.75% Max HP",
+                "13.66% Max HP",
+                "14.57% Max HP",
+                "15.48% Max HP",
+                "16.39% Max HP",
+                "17.30% Max HP",
+                "18.21% Max HP",
+                "19.35% Max HP"
+              ]
+            },
+            {
+              "name": "CD",
+              "value": "18.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "70"
+            }
+          ],
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Equity",
+              "BossMat": "Everamber",
+              "EnemyDropTier1": "Transoceanic Pearl",
+              "EnemyDropTier2": "Transoceanic Chunk",
+              "EnemyDropTier3": "Xenochromatic Crystal"
+            }
+          },
+          "type": "Hydro"
+        },
+        "passive": [
+          {
+            "name": "Heir to the Ancient Sea's Authority",
+            "desc": "When a party member triggers a Vaporize, Frozen, Electro-Charged, Bloom, Hydro Swirl, or a Hydro Crystallize reaction on opponents, 1 stack of Past Draconic Glories will be granted to Neuvillette for 30s. Max 3 stacks. Past Draconic Glories causes Charged Attack: Equitable Judgment to deal 110%/125%/160% of its original DMG.\nThe stacks of Past Draconic Glories created by each kind of Elemental Reaction exist independently.",
+            "icon": "img/skill/Neuvillette_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "Discipline of the Supreme Arbitration",
+            "desc": "For each 1% of Neuvillette's current HP greater than 30% of Max HP, he will gain 0.6% **Hydro DMG Bonus**. A maximum bonus of 30% can be obtained this way.",
+            "icon": "img/skill/Neuvillette_4.png",
+            "minAscension": 4
+          },
+          {
+            "name": "Gather Like the Tide",
+            "desc": "Increases underwater Sprint SPD for your own party members by 15%.\nNot stackable with Passive Talents that provide the exact same effects.",
+            "icon": "img/skill/Neuvillette_5.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Venerable Institution",
+            "desc": "When Neuvillette takes the field, he will obtain 1 stack of Past Draconic Glories from the Passive Talent \"Heir to the Ancient Sea's Authority.\" You must first unlock the Passive Talent \"Heir to the Ancient Sea's Authority.\"\nAdditionally, his interruption resistance will be increased while using the Charged Attack Empowerment: Legal Evaluation and the Charged Attack: Equitable Judgment.",
+            "icon": "img/const/Neuvillette_1.png"
+          },
+          {
+            "name": "Juridical Exhortation",
+            "desc": "The Passive Talent \"Heir to the Ancient Sea's Authority\" will be enhanced: Each stack of Past Draconic Glories will increase the CRIT DMG of Charged Attack: Equitable Judgment by 14%. The maximum increase that can be achieved this way is 42%.\nYou must first unlock the Passive Talent \"Heir to the Ancient Sea's Authority.\"",
+            "icon": "img/const/Neuvillette_2.png"
+          },
+          {
+            "name": "Ancient Postulation",
+            "desc": "Increases the Level of **Normal Attack: As Water Seeks Equilibrium** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Neuvillette_3.png"
+          },
+          {
+            "name": "Crown of Commiseration",
+            "desc": "When Neuvillette is on the field and is healed, 1 Sourcewater Droplet will be generated. This effect can occur once every 4s.",
+            "icon": "img/const/Neuvillette_4.png"
+          },
+          {
+            "name": "Axiomatic Judgment",
+            "desc": "Increases the Level of **O Tides, I Have Returned** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Neuvillette_5.png"
+          },
+          {
+            "name": "Wrathful Recompense",
+            "desc": "When using Charged Attack: Equitable Judgment, Neuvillette can absorb nearby Sourcewater Droplets in an AoE. Each absorbed Droplet will increase the duration of Charged Attack: Equitable Judgment by 1s.\nAdditionally, when Equitable Judgment hits opponents, it will fire off 2 additional currents every 2s, each of which will deal 10% of Neuvillette's Max HP as **Hydro DMG**. DMG dealt this way will count as DMG dealt by Equitable Judgment.",
+            "icon": "img/const/Neuvillette_6.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 980.8628540039062
+          },
+          {
+            "stat": "Base DEF",
+            "value": 38.474998474121094
+          },
+          {
+            "stat": "Base ATK",
+            "value": 13.904470443725586
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1677.791748046875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 65.8125
+          },
+          {
+            "stat": "Base ATK",
+            "value": 23.78396224975586
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.09600000083446503
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2607.0302734375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 102.26249694824219
+          },
+          {
+            "stat": "Base ATK",
+            "value": 36.95661544799805
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.19200000166893005
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3303.958984375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 129.60000610351562
+          },
+          {
+            "stat": "Base ATK",
+            "value": 46.83610916137695
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.19200000166893005
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 4000.887939453125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 156.9375
+          },
+          {
+            "stat": "Base ATK",
+            "value": 56.71560287475586
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.2879999876022339
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 4697.81689453125
+          },
+          {
+            "stat": "Base DEF",
+            "value": 184.27499389648438
+          },
+          {
+            "stat": "Base ATK",
+            "value": 66.5950927734375
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.3840000033378601
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Fontemer Unihorn",
+        "EnemyDropTier1": "Transoceanic Pearl",
+        "EnemyDropTier2": "Transoceanic Chunk",
+        "EnemyDropTier3": "Xenochromatic Crystal",
+        "Gem1": "Varunada Lazurite Sliver",
+        "Gem2": "Varunada Lazurite Fragment",
+        "Gem3": "Varunada Lazurite Chunk",
+        "Gem4": "Varunada Lazurite Gemstone",
+        "Specialty": "Lumitoile"
+      }
+    }
+  },
   "Nilou": {
     "name": "Nilou",
     "desc": "The star of the Zubayr Theater. She is full of warmth and innocence, and her dances are lively and elegant.",
@@ -23112,7 +25492,7 @@
           },
           {
             "name": "Jade Screen",
-            "desc": "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing **AoE Geo DMG**.\n\n**Jade Screen**\n·Blocks opponents' projectiles.\n·Endurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a **Geo Construct** and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\n\n**The canvas of stars is written upon this jade screen.**",
+            "desc": "Ningguang creates a Jade Screen out of gold, obsidian, and her great opulence, dealing **AoE Geo DMG**.\n\n**Jade Screen**\n·Blocks opponents' projectiles.\n·Endurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a **Geo Construct** and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\n\n**The canvas of stars is written upon this jade screen.**",
             "icon": "img/skill/Ningguang_1.png",
             "talentTable": [
               {
@@ -32769,6 +35149,364 @@
             "icon": "img/const/Traveler_6_3.png"
           }
         ]
+      },
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Foreign Stream",
+            "desc": "**Normal Attack**\nPerforms up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "img/skill/Common_Sword.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "44.5%",
+                  "48.1%",
+                  "51.7%",
+                  "56.9%",
+                  "60.5%",
+                  "64.6%",
+                  "70.3%",
+                  "76.0%",
+                  "81.7%",
+                  "87.9%",
+                  "94.1%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "43.4%",
+                  "47.0%",
+                  "50.5%",
+                  "55.5%",
+                  "59.1%",
+                  "63.1%",
+                  "68.7%",
+                  "74.2%",
+                  "79.8%",
+                  "85.9%",
+                  "91.9%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "53.0%",
+                  "57.3%",
+                  "61.6%",
+                  "67.8%",
+                  "72.1%",
+                  "77.0%",
+                  "83.8%",
+                  "90.6%",
+                  "97.3%",
+                  "104.7%",
+                  "112.1%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "58.3%",
+                  "63.1%",
+                  "67.8%",
+                  "74.6%",
+                  "79.3%",
+                  "84.8%",
+                  "92.2%",
+                  "99.7%",
+                  "107.1%",
+                  "115.3%",
+                  "123.4%"
+                ]
+              },
+              {
+                "name": "5-Hit DMG",
+                "values": [
+                  "70.8%",
+                  "76.5%",
+                  "82.3%",
+                  "90.5%",
+                  "96.3%",
+                  "102.9%",
+                  "111.9%",
+                  "121.0%",
+                  "130.0%",
+                  "139.9%",
+                  "149.8%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "55.9%+72.2%",
+                  "60.4%+78.1%",
+                  "65.0%+84.0%",
+                  "71.5%+92.4%",
+                  "76.1%+98.3%",
+                  "81.3%+105.0%",
+                  "88.4%+114.2%",
+                  "95.6%+123.5%",
+                  "102.7%+132.7%",
+                  "110.5%+142.8%",
+                  "118.3%+152.9%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "20.0"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "63.9%",
+                  "69.1%",
+                  "74.3%",
+                  "81.8%",
+                  "87.0%",
+                  "92.9%",
+                  "101.1%",
+                  "109.3%",
+                  "117.5%",
+                  "126.4%",
+                  "135.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "128%/160%",
+                  "138%/173%",
+                  "149%/186%",
+                  "164%/204%",
+                  "174%/217%",
+                  "186%/232%",
+                  "202%/253%",
+                  "219%/273%",
+                  "235%/293%",
+                  "253%/316%",
+                  "271%/338%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "travelerTalentCosts",
+              "mapping": {
+                "Book1": "Equity",
+                "Book2": "Justice",
+                "Book3": "Order",
+                "BossMat": "Worldspan Fern",
+                "EnemyDropTier1": "Transoceanic Pearl",
+                "EnemyDropTier2": "Transoceanic Chunk",
+                "EnemyDropTier3": "Xenochromatic Crystal"
+              }
+            }
+          },
+          {
+            "name": "Aquacrest Saber",
+            "desc": "Unleashes a torrent that can cleanse the world.\n\n**Press**\nSends a Torrent Surge forward that will deal **Hydro DMG** to opponents it comes into contact with.\n\n**Hold**\nEnter Aiming Mode and constantly fire off Dewdrops in the direction in which you are aiming, dealing **Hydro DMG** to opponents they hit.\nWhen the skill ends, it will send a Torrent Surge forward that will deal **Hydro DMG** to opponents it comes into contact with.\nSuffusion: When using the Hold configuration of this skill, if the Traveler's HP is higher than 50%, the DMG dealt by Dewdrops will increase based on the Traveler's Max HP, and the Traveler will lose a fixed amount of HP every second.\n\n**Arkhe: Pneuma**\nAt certain intervals, after using Torrent Surge, this skill will unleash a Spiritbreath Thorn that pierces opponents, dealing Pneuma-aligned **Hydro DMG**.\n\n**You studied the ripples in the water with Paimon.**",
+            "icon": "img/skill/Traveler_1_4.png",
+            "talentTable": [
+              {
+                "name": "Torrent Surge DMG",
+                "values": [
+                  "189.3%",
+                  "203.5%",
+                  "217.7%",
+                  "236.6%",
+                  "250.8%",
+                  "265.0%",
+                  "283.9%",
+                  "302.8%",
+                  "321.8%",
+                  "340.7%",
+                  "359.6%",
+                  "378.6%",
+                  "402.2%"
+                ]
+              },
+              {
+                "name": "Dewdrop DMG",
+                "values": [
+                  "32.8%",
+                  "35.3%",
+                  "37.7%",
+                  "41.0%",
+                  "43.5%",
+                  "45.9%",
+                  "49.2%",
+                  "52.5%",
+                  "55.8%",
+                  "59.0%",
+                  "62.3%",
+                  "65.6%",
+                  "69.7%"
+                ]
+              },
+              {
+                "name": "Spiritbreath Thorn DMG",
+                "values": [
+                  "32.8%",
+                  "35.3%",
+                  "37.7%",
+                  "41.0%",
+                  "43.5%",
+                  "45.9%",
+                  "49.2%",
+                  "52.5%",
+                  "55.8%",
+                  "59.0%",
+                  "62.3%",
+                  "65.6%",
+                  "69.7%"
+                ]
+              },
+              {
+                "name": "Spiritbreath Thorn Interval",
+                "value": "9.0s"
+              },
+              {
+                "name": "Suffusion HP Cost",
+                "value": "4.00% Max HP"
+              },
+              {
+                "name": "Suffusion DMG Bonus",
+                "values": [
+                  "0.64% Max HP",
+                  "0.69% Max HP",
+                  "0.74% Max HP",
+                  "0.80% Max HP",
+                  "0.85% Max HP",
+                  "0.90% Max HP",
+                  "0.96% Max HP",
+                  "1.02% Max HP",
+                  "1.09% Max HP",
+                  "1.15% Max HP",
+                  "1.22% Max HP",
+                  "1.28% Max HP",
+                  "1.36% Max HP"
+                ]
+              },
+              {
+                "name": "Hold Duration",
+                "value": "Max 6.0s"
+              },
+              {
+                "name": "CD",
+                "value": "10.0s"
+              }
+            ],
+            "costs": {
+              "template": "travelerTalentCosts",
+              "mapping": {
+                "Book1": "Equity",
+                "Book2": "Justice",
+                "Book3": "Order",
+                "BossMat": "Worldspan Fern",
+                "EnemyDropTier1": "Transoceanic Pearl",
+                "EnemyDropTier2": "Transoceanic Chunk",
+                "EnemyDropTier3": "Xenochromatic Crystal"
+              }
+            }
+          }
+        ],
+        "ult": {
+          "name": "Rising Waters",
+          "desc": "Unleashes a slow-moving floating bubble that deals continuous **Hydro DMG** to nearby opponents.\n\n**You studied the ebb and flow of the tides with Paimon.**",
+          "icon": "img/skill/Traveler_2_4.png",
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "101.9%",
+                "109.5%",
+                "117.1%",
+                "127.3%",
+                "135.0%",
+                "142.6%",
+                "152.8%",
+                "163.0%",
+                "173.2%",
+                "183.4%",
+                "193.5%",
+                "203.7%",
+                "216.5%"
+              ]
+            },
+            {
+              "name": "Duration",
+              "value": "4.0s"
+            },
+            {
+              "name": "CD",
+              "value": "20.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "80"
+            }
+          ],
+          "costs": {
+            "template": "travelerTalentCosts",
+            "mapping": {
+              "Book1": "Equity",
+              "Book2": "Justice",
+              "Book3": "Order",
+              "BossMat": "Worldspan Fern",
+              "EnemyDropTier1": "Transoceanic Pearl",
+              "EnemyDropTier2": "Transoceanic Chunk",
+              "EnemyDropTier3": "Xenochromatic Crystal"
+            }
+          },
+          "type": "Hydro"
+        },
+        "passive": [
+          {
+            "name": "Spotless Waters",
+            "desc": "After the Dewdrop fired by the Hold Mode of the **Aquacrest Saber** hits an opponent, a Sourcewater Droplet will be generated near to the Traveler. If the Traveler picks it up, they will restore 7% HP.\n1 Droplet can be created this way every second, and each use of Aquacrest Saber can create 4 Droplets at most.",
+            "icon": "img/skill/Traveler_3_4.png",
+            "minAscension": 1
+          },
+          {
+            "name": "Clear Waters",
+            "desc": "If HP has been consumed via Suffusion while using the Hold Mode **Aquacrest Saber**, the Torrent Surge at the skill's end will deal Bonus DMG equal to 45% of the total HP the Traveler has consumed in this skill use via Suffusion.\nThe maximum DMG Bonus that can be gained this way is 5,000.",
+            "icon": "img/skill/Traveler_4_4.png",
+            "minAscension": 4
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Swelling Lake",
+            "desc": "Picking up a Sourcewater Droplet will restore 2 Energy to the Traveler.\nRequires the Passive Talent \"Spotless Waters.\"",
+            "icon": "img/const/Traveler_1_4.png"
+          },
+          {
+            "name": "Trickling Purity",
+            "desc": "The Movement SPD of **Rising Waters**' bubble will be decreased by 30%, and its duration increased by 3s.",
+            "icon": "img/const/Traveler_2_4.png"
+          },
+          {
+            "name": "Turbulent Ripples",
+            "desc": "Increases the Level of **Aquacrest Saber** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Traveler_3_4.png"
+          },
+          {
+            "name": "Pouring Descent",
+            "desc": "When using **Aquacrest Saber**, an Aquacrest Aegis that can absorb 10% of the Traveler's Max HP in DMG will be created and will absorb **Hydro DMG** with 250% effectiveness. It will persist until the Traveler finishes using the skill.\nOnce every 2s, after a Dewdrop hits an opponent, if the Traveler is being protected by Aquacrest Aegis, the DMG Absorption of the Aegis will be restored to 10% of the Traveler's Max HP. If the Traveler is not presently being protected by an Aegis, one will be redeployed.",
+            "icon": "img/const/Traveler_4_4.png"
+          },
+          {
+            "name": "Churning Whirlpool",
+            "desc": "Increases the Level of **Rising Waters** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Traveler_5_4.png"
+          },
+          {
+            "name": "Tides of Justice",
+            "desc": "When the Traveler picks up a Sourcewater Droplet, they will restore HP to a nearby party member with the lowest remaining HP percentage based on 6% of said member's Max HP.",
+            "icon": "img/const/Traveler_6_4.png"
+          }
+        ]
       }
     ],
     "ascensions": [
@@ -34040,6 +36778,544 @@
         "Gem3": "Vayuda Turquoise Chunk",
         "Gem4": "Vayuda Turquoise Gemstone",
         "Specialty": "Rukkhashava Mushrooms"
+      }
+    }
+  },
+  "Wriothesley": {
+    "name": "Wriothesley",
+    "desc": "Duke of the Fortress of Meropide, Lord Incognito of the murky depths.",
+    "releasedOn": "2023-10-17 18:00:00",
+    "star": 5,
+    "weaponType": "Catalyst",
+    "icon": "img/char/Wriothesley.png",
+    "media": {
+      "imgs": [
+        "img/char_full/Wriothesley.png"
+      ]
+    },
+    "baseStats": {
+      "hpBase": 1058.1851806640625,
+      "attackBase": 24.20599937438965,
+      "defenseBase": 59.411190032958984,
+      "criticalBase": 0.05000000074505806,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 11,
+      "birthDay": 23,
+      "association": "Fontaine",
+      "title": "Emissary of Solitary Iniquity",
+      "detail": "Duke of the Fortress of Meropide, Lord Incognito of the murky depths.",
+      "affiliation": "Fortress of Meropide",
+      "element": "Cryo",
+      "constellation": "Cerberus",
+      "cvChinese": "刘北辰",
+      "cvJapanese": "小野大輔",
+      "cvEnglish": "Joe Zieja",
+      "cvKorean": "Kwon Chang-wook"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Forceful Fists of Frost",
+            "desc": "**Normal Attack**\nCoalescing frost about his fist, Wriothesley will unleash powerful **Repelling Fists**, performing up to 5 rapid attacks that deal **Cryo DMG**.\nApart from this, Normal Attack combo count will not reset for a short time after using Icefang Rush or sprinting.\n\n**Charged Attack**\nConsumes a fixed amount of Stamina to leap and unleash a **Vaulting Fist**, dealing **AoE Cryo DMG**.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing **AoE Cryo DMG** upon impact.",
+            "icon": "img/skill/Common_Catalyst.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "53.4%",
+                  "57.7%",
+                  "62.0%",
+                  "68.3%",
+                  "72.6%",
+                  "77.6%",
+                  "84.4%",
+                  "91.2%",
+                  "98.0%",
+                  "105.5%",
+                  "112.9%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "51.8%",
+                  "56.0%",
+                  "60.2%",
+                  "66.3%",
+                  "70.5%",
+                  "75.3%",
+                  "81.9%",
+                  "88.5%",
+                  "95.2%",
+                  "102.4%",
+                  "109.6%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "67.2%",
+                  "72.7%",
+                  "78.2%",
+                  "86.0%",
+                  "91.5%",
+                  "97.7%",
+                  "106.3%",
+                  "114.9%",
+                  "123.5%",
+                  "132.9%",
+                  "142.3%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "37.9%+37.9%",
+                  "41.0%+41.0%",
+                  "44.1%+44.1%",
+                  "48.5%+48.5%",
+                  "51.6%+51.6%",
+                  "55.1%+55.1%",
+                  "59.9%+59.9%",
+                  "64.8%+64.8%",
+                  "69.6%+69.6%",
+                  "74.9%+74.9%",
+                  "80.2%+80.2%"
+                ]
+              },
+              {
+                "name": "5-Hit DMG",
+                "values": [
+                  "90.7%",
+                  "98.1%",
+                  "105.5%",
+                  "116.1%",
+                  "123.5%",
+                  "131.9%",
+                  "143.5%",
+                  "155.1%",
+                  "166.7%",
+                  "179.4%",
+                  "192.0%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "153.0%",
+                  "164.4%",
+                  "175.9%",
+                  "191.2%",
+                  "202.7%",
+                  "214.1%",
+                  "229.4%",
+                  "244.7%",
+                  "260.0%",
+                  "275.3%",
+                  "290.6%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "50.0"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "56.8%",
+                  "61.5%",
+                  "66.1%",
+                  "72.7%",
+                  "77.3%",
+                  "82.6%",
+                  "89.9%",
+                  "97.1%",
+                  "104.4%",
+                  "112.3%",
+                  "120.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "114%/142%",
+                  "123%/153%",
+                  "132%/165%",
+                  "145%/182%",
+                  "155%/193%",
+                  "165%/206%",
+                  "180%/224%",
+                  "194%/243%",
+                  "209%/261%",
+                  "225%/281%",
+                  "240%/300%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Order",
+                "BossMat": "Primordial Greenbloom",
+                "EnemyDropTier1": "Meshing Gear",
+                "EnemyDropTier2": "Mechanical Spur Gear",
+                "EnemyDropTier3": "Artificed Dynamic Gear"
+              }
+            }
+          },
+          {
+            "name": "Icefang Rush",
+            "desc": "Adjusting his breathing, rhythm, and pace, Wriothesley sprints forward a short distance, entering the **Chilling Penalty** state and unleashing more powerful attacks than before.\n\n**Chilling Penalty**\n·Increases Wriothesley's interruption resistance\n·When his HP is above 50%, it will enhance the Repelling Fists of **Normal Attack: Forceful Fists of Frost** and increase its DMG. When such an attack hits, it will consume a fixed amount of Wriothesley's HP. HP can be lost this way once every 0.1s.\nThis effect will be canceled should Wriothesley leave the field.\n\n**\"Past convictions are past. It is our future choices that we must grasp.\"\n\"Defy your fate, or else this glutton be, to pay your fate's due, by the crime and thee.\"**",
+            "icon": "img/skill/Wriothesley_1.png",
+            "talentTable": [
+              {
+                "name": "Enhanced Repelling Fist DMG",
+                "values": [
+                  "143.2% Normal Attack DMG",
+                  "145.8% Normal Attack DMG",
+                  "148.3% Normal Attack DMG",
+                  "151.7% Normal Attack DMG",
+                  "154.3% Normal Attack DMG",
+                  "156.9% Normal Attack DMG",
+                  "160.2% Normal Attack DMG",
+                  "163.6% Normal Attack DMG",
+                  "167.0% Normal Attack DMG",
+                  "170.3% Normal Attack DMG",
+                  "173.7% Normal Attack DMG",
+                  "177.0% Normal Attack DMG",
+                  "180.4% Normal Attack DMG"
+                ]
+              },
+              {
+                "name": "HP Cost",
+                "value": "4.5% Max HP"
+              },
+              {
+                "name": "Duration",
+                "value": "10.0s"
+              },
+              {
+                "name": "CD",
+                "value": "16.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Order",
+                "BossMat": "Primordial Greenbloom",
+                "EnemyDropTier1": "Meshing Gear",
+                "EnemyDropTier2": "Mechanical Spur Gear",
+                "EnemyDropTier3": "Artificed Dynamic Gear"
+              }
+            }
+          }
+        ],
+        "ult": {
+          "name": "Darkgold Wolfbite",
+          "desc": "Activating his boxing gloves, Wriothesley strikes out with an icy straight, then uses Icicle Impact to cause multiple instances of **AoE Cryo DMG** in a frontal area.\n\n**Arkhe: Ousia**\nAfter Icicle Impact ends, a Surging Blade will descend upon the opponent's position, dealing Ousia-aligned **Cryo DMG**.\n\n**There are some things that even the Duke of the Fortress of Meropide can do little about — for example, complicated paperwork, the trivialities of a supervisor, or even... little kids pasting a whole host of cute but difficult-to-remove stickers on his boxing gloves.**",
+          "icon": "img/skill/Wriothesley_2.png",
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "127.20%×5",
+                "136.74%×5",
+                "146.28%×5",
+                "159.00%×5",
+                "168.54%×5",
+                "178.08%×5",
+                "190.80%×5",
+                "203.52%×5",
+                "216.24%×5",
+                "228.96%×5",
+                "241.68%×5",
+                "254.40%×5",
+                "270.30%×5"
+              ]
+            },
+            {
+              "name": "Surging Blade DMG",
+              "values": [
+                "42.40%",
+                "45.58%",
+                "48.76%",
+                "53.00%",
+                "56.18%",
+                "59.36%",
+                "63.60%",
+                "67.84%",
+                "72.08%",
+                "76.32%",
+                "80.56%",
+                "84.80%",
+                "90.10%"
+              ]
+            },
+            {
+              "name": "CD",
+              "value": "15.0s"
+            },
+            {
+              "name": "Surging Blade CD",
+              "value": "10.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "60"
+            }
+          ],
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Order",
+              "BossMat": "Primordial Greenbloom",
+              "EnemyDropTier1": "Meshing Gear",
+              "EnemyDropTier2": "Mechanical Spur Gear",
+              "EnemyDropTier3": "Artificed Dynamic Gear"
+            }
+          },
+          "type": "Cryo"
+        },
+        "passive": [
+          {
+            "name": "There Shall Be a Plea for Justice",
+            "desc": "When Wriothesley's HP is less than 60%, he will obtain a Gracious Rebuke. The next Charged Attack of his **Normal Attack: Forceful Fists of Frost** will be enhanced to become Rebuke: Vaulting Fist. It will not consume Stamina, will deal 50% increased DMG, and after hitting will restore HP for Wriothesley equal to 30% of his Max HP.\nYou can gain a Gracious Rebuke this way once every 5s.",
+            "icon": "img/skill/Wriothesley_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "There Shall Be a Reckoning for Sin",
+            "desc": "When Wriothesley's current HP increases or decreases, if he is in the Chilling Penalty state conferred by **Icefang Rush**, Chilling Penalty will gain one stack of Prosecution Edict. Max 5 stacks. Each stack will increase Wriothesley's ATK by 6%.",
+            "icon": "img/skill/Wriothesley_4.png",
+            "minAscension": 4
+          },
+          {
+            "name": "The Duke's Grace",
+            "desc": "When Wriothesley crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.",
+            "icon": "img/skill/Common_Double_Weapon_Ascension_Materials.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Terror for the Evildoers",
+            "desc": "The Gracious Rebuke from the Passive Talent \"There Shall Be a Plea for Justice\" is changed to this:\nWhen Wriothesley's HP is less than 60% or while he is in the Chilling Penalty state caused by **Icefang Rush**, when the fifth attack of Repelling Fists hits, it will create a Gracious Rebuke. 1 Gracious Rebuke effect can be obtained every 2.5s.\n\nAdditionally, Rebuke: Vaulting Fist will obtain the following enhancement:\n·The DMG Bonus gained will be further increased to 200%.\n·When it hits while Wriothesley is in the Chilling Penalty state, that state's duration is extended by 4s. 1 such extension can occur per 1 Chilling Penalty duration.\n\nYou must first unlock the Passive Talent \"There Shall Be a Plea for Justice.\"",
+            "icon": "img/const/Wriothesley_1.png"
+          },
+          {
+            "name": "Shackles for the Arrogant",
+            "desc": "When using **Darkgold Wolfbite**, each Prosecution Edict stack from the Passive Talent \"There Shall Be a Reckoning for Sin\" will increase said ability's DMG dealt by 40%.\nYou must first unlock the Passive Talent \"There Shall Be a Reckoning for Sin.\"",
+            "icon": "img/const/Wriothesley_2.png"
+          },
+          {
+            "name": "Punishment for the Frauds",
+            "desc": "Increases the Level of **Normal Attack: Forceful Fists of Frost** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Wriothesley_3.png"
+          },
+          {
+            "name": "Redemption for the Suffering",
+            "desc": "The HP restored to Wriothesley through Rebuke: Vaulting Fist will be increased to 50% of his Max HP. You must first unlock the Passive Talent \"There Shall Be a Plea for Justice.\"\nAdditionally, when Wriothesley is healed, if the amount of healing overflows, the following effects will occur depending on whether he is on the field or not. If he is on the field, his ATK SPD will be increased by 20% for 4s. If he is off-field, all of your own party members' ATK SPD will be increased by 10% for 6s. These two methods of increasing ATK SPD cannot stack.",
+            "icon": "img/const/Wriothesley_4.png"
+          },
+          {
+            "name": "Mercy for the Wronged",
+            "desc": "Increases the Level of **Darkgold Wolfbite** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Wriothesley_5.png"
+          },
+          {
+            "name": "Esteem for the Innocent",
+            "desc": "The CRIT Rate of Rebuke: Vaulting Fist will be increased by 10%, and its CRIT DMG by 80%. When unleashed, it will also create an additional icicle that deals 100% of Rebuke: Vaulting Fist's Base DMG as **Cryo DMG**. DMG dealt this way is regarded as Charged Attack DMG.\nYou must first unlock the Passive Talent \"There Shall Be a Plea for Justice.\"",
+            "icon": "img/const/Wriothesley_6.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 907.2981567382812
+          },
+          {
+            "stat": "Base DEF",
+            "value": 50.94089889526367
+          },
+          {
+            "stat": "Base ATK",
+            "value": 20.752939224243164
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1551.957275390625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 87.13574981689453
+          },
+          {
+            "stat": "Base ATK",
+            "value": 35.498451232910156
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.09600000083446503
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2411.5029296875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 135.3955535888672
+          },
+          {
+            "stat": "Base ATK",
+            "value": 55.15913009643555
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.19200000166893005
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3056.162109375
+          },
+          {
+            "stat": "Base DEF",
+            "value": 171.59039306640625
+          },
+          {
+            "stat": "Base ATK",
+            "value": 69.9046401977539
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.19200000166893005
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3700.8212890625
+          },
+          {
+            "stat": "Base DEF",
+            "value": 207.78524780273438
+          },
+          {
+            "stat": "Base ATK",
+            "value": 84.650146484375
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.2879999876022339
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 4345.48046875
+          },
+          {
+            "stat": "Base DEF",
+            "value": 243.9801025390625
+          },
+          {
+            "stat": "Base ATK",
+            "value": 99.39566040039062
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.3840000033378601
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "\"Tourbillon Device\"",
+        "EnemyDropTier1": "Meshing Gear",
+        "EnemyDropTier2": "Mechanical Spur Gear",
+        "EnemyDropTier3": "Artificed Dynamic Gear",
+        "Gem1": "Shivada Jade Sliver",
+        "Gem2": "Shivada Jade Fragment",
+        "Gem3": "Shivada Jade Chunk",
+        "Gem4": "Shivada Jade Gemstone",
+        "Specialty": "Subdetection Unit"
       }
     }
   },
