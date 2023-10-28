@@ -246,11 +246,11 @@ export function parseNewsContent(content: string, maxLength = 1000): Content[] {
     const target: Content[] = []
     let currentLine = ""
 
-    const matches = content.match(/<(p|div|h\d).*?>(.*?)<\/(p|div|h\d)>/g)
+    const matches = content.match(/<(p|div|h\d).*?>(.*?)<\/\1>/g)
     if (!matches) return target
 
     for (const paragraph of matches) {
-        let middle = paragraph.match(/<(p|div|h\d).*?>(.*?)<\/(p|div|h\d)>/)?.[2]
+        let middle = paragraph.match(/<(p|div|h\d).*?>(.*?)<\/\1>/)?.[2]
         if (!middle) continue
         middle = middle
             .replace(/<\/?br.*?>/g, "\n")
@@ -264,8 +264,9 @@ export function parseNewsContent(content: string, maxLength = 1000): Content[] {
             .replace(/<\/?b>/g, "**")
             .replace(/<\/?i>/g, "*")
             .replace(/<\/?em>/g, "*")
-            .replace(/<a.*?href="(.*?)".*?>(.*?)<\/a>/g, (_, link, title) => `[${title}](${link})`)
+            .replace(/<a.*?href="(.*?)".*?>(.*?)<\/a>/g, (_, link, title) => title == link ? `[Link](${link})` : `[${title}](${link})`)
             .replace(/<iframe.*?src="(.*?)".*?><\/iframe>/g, (_, link) => `[Link](${link})`)
+            .replace(/<\/?(p|div|h\d)(| .*?)>/g, "")
 
         const imgFinder = middle.match(/<img.*?src="(.*?)".*?>/)
 
@@ -429,9 +430,11 @@ async function updatePage(interaction: MessageComponentInteraction, reply: Messa
 
     const content = { embeds: [embed], components: getButtons(pageInfo, newPage, maxPages) }
     try {
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-ignore
         await interaction.update(content)
     } catch (error) {
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-ignore
         await reply.edit(content)
     }
@@ -571,9 +574,11 @@ export async function sendMessage(source: CommandSource, response: string | Embe
 
     try {
         if (source instanceof Message)
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
             // @ts-ignore
             return await source.channel.send({ content, embeds, components })
         else
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
             // @ts-ignore
             return await source.reply({ content, embeds, components, fetchReply: true, ephemeral })
     } catch (error) {
