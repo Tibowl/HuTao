@@ -3084,7 +3084,8 @@
     {
         "name": "\"Overflowing Mastery\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/08/04/713e290d673605bb82d2832ae54d75fd_4700445753364011572.jpg",
+        "link": "https://www.hoyolab.com/article/22596608",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/10/27/d57d50a9b8fd0e6fc427f0f0b9e0f426_4750585987172909689.jpg",
         "start": "2023-10-30 04:00:00",
         "end": "2023-11-06 03:59:00",
         "reminder": "daily"
@@ -3130,7 +3131,7 @@
         "type": "Stream",
         "link": "https://www.hoyolab.com/article/22539555",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/10/25/fc432d5c59b195cdd916993cbd357fdf_7489268744849366651.png",
-        "start": "2023-10-27 08:00:00",
+        "start": "2023-11-03 08:10:00",
         "timezone": "-04:00"
     }
 ]
