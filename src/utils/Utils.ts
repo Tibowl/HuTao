@@ -20,8 +20,17 @@ export async function sendToChannels(channels: {channelID: Snowflake, pingRole?:
     for (const channel of channels) {
         try {
             const chanObj = await client.channels.fetch(channel.channelID)
-            if (!(chanObj && chanObj.isTextBased()))
+            if (!(chanObj && chanObj.isTextBased())) {
+                Logger.error(`Invalid channel ${channel.channelID}`)
                 continue
+            }
+
+            if (chanObj instanceof GuildChannel)
+                if (!(chanObj.permissionsFor(client.user!)?.has("SendMessages") && chanObj.permissionsFor(client.user!)?.has("ViewChannel"))) {
+                    Logger.error(`Missing permissions in ${chanObj.id} (${chanObj.name})`)
+                    continue
+                }
+
             if (embed && ((content && content.length > 0) || (channel.pingRole && channel.pingRole.length > 0)))
                 messages.push(chanObj.send({
                     content: `${channel.pingRole && channel.pingRole != "" ? `<@&${channel.pingRole}> ` : ""}${content ?? ""}`.trim(),
