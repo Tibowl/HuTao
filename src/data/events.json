@@ -3133,5 +3133,68 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/10/25/fc432d5c59b195cdd916993cbd357fdf_7489268744849366651.png",
         "start": "2023-11-03 08:10:00",
         "timezone": "-04:00"
+    },
+    {
+        "name": "4.2 Maintenance",
+        "type": "Maintenance"
+    },
+    {
+        "name": "Event Wish \"Chanson of Many Waters\"",
+        "type": "Banner",
+        "start_server": false,
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Immaculate Pulse\"",
+        "type": "Banner",
+        "start_server": false,
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "start_server": false,
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Twilight Arbiter\"",
+        "type": "Banner",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Azure Excursion\"",
+        "type": "Banner",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Thelxie's Fantastic Adventures\" Event",
+        "type": "In-game",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Lil' Fungi's Fun-Tastic Fiesta\" Event",
+        "type": "In-game",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Graph Adversarial Technology Experiment Log\" Event",
+        "type": "In-game",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Misty Dungeon: Realm of Water\" Event",
+        "type": "In-game",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Ley Line Overflow\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/15/d76cdab75f5f952a213e564f6b0a5a51_6842199020073202801.jpg",
+        "reminder": "daily"
     }
 ]
