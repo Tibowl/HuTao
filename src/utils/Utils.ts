@@ -13,41 +13,36 @@ const Logger = log4js.getLogger("Utils")
  * @param embed Possible embed/attachment to send
  * @returns All the messages send
  */
-export async function sendToChannels(channels: {channelID: Snowflake, pingRole?: string}[] | undefined, content?: string, embed?: EmbedBuilder): Promise<PromiseSettledResult<Message | Message[]>[]> {
-    const messages = []
-    if (!channels) return Promise.all([])
+export async function sendToChannels(channels: {channelID: Snowflake, pingRole?: string}[] | undefined, content?: string, embed?: EmbedBuilder): Promise<(Message | undefined)[]> {
+    if (!channels) return []
 
-    for (const channel of channels) {
-        try {
-            const chanObj = await client.channels.fetch(channel.channelID)
-            if (!(chanObj && chanObj.isTextBased())) {
-                Logger.error(`Invalid channel ${channel.channelID}`)
-                continue
-            }
-
-            if (chanObj instanceof GuildChannel)
-                if (!(chanObj.permissionsFor(client.user!)?.has("SendMessages") && chanObj.permissionsFor(client.user!)?.has("ViewChannel"))) {
-                    Logger.error(`Missing permissions in ${chanObj.id} (${chanObj.name})`)
-                    continue
-                }
-
-            if (embed && ((content && content.length > 0) || (channel.pingRole && channel.pingRole.length > 0)))
-                messages.push(chanObj.send({
-                    content: `${channel.pingRole && channel.pingRole != "" ? `<@&${channel.pingRole}> ` : ""}${content ?? ""}`.trim(),
-                    embeds: [embed],
-                    allowedMentions: { roles: channel.pingRole ? [channel.pingRole] : [] }
-                }))
-            else if (embed)
-                messages.push(chanObj.send({ embeds: [embed] }))
-            else if (content)
-                messages.push(chanObj.send(content))
-        } catch (error) {
-            Logger.error(`Failed to fetch ${channel}`)
-        }
-    }
-
-    return Promise.allSettled(messages)
+    return await Promise.all(channels.map(async (c) => sendToChannel(c, content, embed)))
 }
+
+export async function sendToChannel(channel: {channelID: Snowflake, pingRole?: string}, content?: string, embed?: EmbedBuilder): Promise<Message | undefined> {
+    try {
+        const chanObj = await client.channels.fetch(channel.channelID)
+        if (!(chanObj && chanObj.isTextBased())) {
+            Logger.error(`Invalid channel ${channel.channelID}`)
+            return undefined
+        }
+
+        if (embed && ((content && content.length > 0) || (channel.pingRole && channel.pingRole.length > 0)))
+            return await chanObj.send({
+                content: `${channel.pingRole && channel.pingRole != "" ? `<@&${channel.pingRole}> ` : ""}${content ?? ""}`.trim(),
+                embeds: [embed],
+                allowedMentions: { roles: channel.pingRole ? [channel.pingRole] : [] }
+            })
+        else if (embed)
+            return await chanObj.send({ embeds: [embed] })
+        else if (content)
+            return await chanObj.send(content)
+    } catch (error) {
+        Logger.error(`Failed to fetch ${channel.channelID}`)
+        return undefined
+    }
+}
+
 
 /**
  * Send something to the error log channels
@@ -57,7 +52,12 @@ export async function sendToChannels(channels: {channelID: Snowflake, pingRole?:
  */
 export async function sendError(content: string, embed?: EmbedBuilder): Promise<Message[]> {
     Logger.error(content)
-    return (await sendToChannels((config.errorLog as Snowflake[]).map(x => ({ channelID: x })), content, embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
+    try {
+        return (await sendToChannels((config.errorLog as Snowflake[]).map(x => ({ channelID: x })), content, embed)).filter((x): x is Message => x !== undefined)
+    } catch (error) {
+        Logger.error("Error occurred while sending error", error)
+        return []
+    }
 }
 
 export const PAD_START = 0

@@ -121,16 +121,20 @@ export default class FollowManager {
         channels = channels.filter((val, ind) => channels.findIndex(v => v.channelID == val.channelID) === ind)
 
         Logger.info(`Sending ${category} to ${channels.length} channels: ${content}`)
-        const messages = (await sendToChannels(channels, content, embed)).filter((x): x is PromiseFulfilledResult<Message | Message[]> => x.status == "fulfilled").map(x => x.value).flat()
+        try {
+            const messages = (await sendToChannels(channels, content, embed)).filter((x): x is Message => x !== undefined)
 
-        for (const message of messages)
-            if (message instanceof Message && message.channel.type === ChannelType.GuildAnnouncement)
-                try {
-                    await message.crosspost()
-                } catch (error) {
-                    Logger.error(`Unable to publish to ${message.channel.id} from ${message.guild?.id}: `, error)
-                }
-
-        return messages
+            for (const message of messages)
+                if (message instanceof Message && message.channel.type === ChannelType.GuildAnnouncement)
+                    try {
+                        await message.crosspost()
+                    } catch (error) {
+                        Logger.error(`Unable to publish to ${message.channel.id} from ${message.guild?.id}: `, error)
+                    }
+            return messages
+        } catch (error) {
+            Logger.error(`Unable to send to ${channels.length} channels: `, error)
+            return []
+        }
     }
 }
