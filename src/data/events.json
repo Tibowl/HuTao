@@ -3136,24 +3136,38 @@
     },
     {
         "name": "4.2 Maintenance",
-        "type": "Maintenance"
+        "type": "Maintenance",
+        "start": "2023-11-08 06:00:00",
+        "end": "2023-11-08 11:00:00"
     },
     {
         "name": "Event Wish \"Chanson of Many Waters\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/article/22782167",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/11/06/c0ad6acf1e5b1786d61b6c69dce24e73_8359607582121621610.jpg",
+        "start": "2023-11-08 11:00:00",
         "start_server": false,
+        "end": "2023-11-28 17:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Immaculate Pulse\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/article/22782167",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/11/06/b806384ae54e15f27fa98a557d2e5b3c_1536369754315367827.jpg",
+        "start": "2023-11-08 11:00:00",
         "start_server": false,
+        "end": "2023-11-28 17:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/article/22782167",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/11/06/494b312011674d44c59f5627ebde2794_6808587747693560990.jpg",
+        "start": "2023-11-08 11:00:00",
         "start_server": false,
+        "end": "2023-11-28 17:59:00",
         "reminder": "end"
     },
     {
@@ -3174,6 +3188,8 @@
     {
         "name": "\"Thelxie's Fantastic Adventures\" Event",
         "type": "In-game",
+        "start": "2023-11-23 10:00:00",
+        "end": "2023-12-11 03:59:00",
         "reminder": "end"
     },
     {
@@ -3184,11 +3200,15 @@
     {
         "name": "\"Graph Adversarial Technology Experiment Log\" Event",
         "type": "In-game",
+        "start": "2023-11-17 10:00:00",
+        "end": "2023-11-27 03:59:00",
         "reminder": "end"
     },
     {
         "name": "\"Misty Dungeon: Realm of Water\" Event",
         "type": "In-game",
+        "start": "2023-11-09 10:00:00",
+        "end": "2023-11-20 03:59:00",
         "reminder": "end"
     },
     {
@@ -3196,5 +3216,14 @@
         "type": "In-game",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/15/d76cdab75f5f952a213e564f6b0a5a51_6842199020073202801.jpg",
         "reminder": "daily"
+    },
+    {
+        "name": "\"VIP Ace Detective\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/22782130",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/11/02/0/8dfbef19d245e8b95de73b6a4f792c55_3722282249940283724.png",
+        "start": "2023-11-06 12:00:00",
+        "end": "2023-11-12 23:59:00",
+        "reminder": "end"
     }
 ]

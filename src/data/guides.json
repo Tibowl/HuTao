@@ -4,8 +4,8 @@
     "pages": [
       {
         "name": "Wolfhook route",
-        "desc": "**Wolfhooks ${Wolfhook}** can be found in the wilderness around Wolvendom and are being sold by [**Chloris**](https://cdn.discordapp.com/attachments/924280082212737044/924743743062569000/Chloris.png) (up to 5 per 3 days).\n\n> A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
-        "img": "https://cdn.discordapp.com/attachments/924280082212737044/924286334863028244/unknown.png",
+        "desc": "**Wolfhooks ${Wolfhook}** can be found in the wilderness around Wolvendom and are being sold by [**Chloris**](https://static.hutaobot.moe/images/Chloris_fb0f2e00.png) (up to 5 per 3 days).\n\n> A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
+        "img": "https://static.hutaobot.moe/images/Wolfhook_37aef66e.png",
         "credits": "Maple",
         "links": {
           "material": ["Wolfhook"]
@@ -13,8 +13,8 @@
       },
       {
         "name": "Valberry route",
-        "desc": "**Valberries ${Valberry}** can be found in the wilderness of Stormbearer Mountains and are being sold by [**Chloris**](https://cdn.discordapp.com/attachments/921999711358054430/922149813477318656/Chloris.png) (up to 5 per 3 days).\n\n> A plump and translucent berry that has a fragrant smell and a sweet, refreshing taste. In the past, the storm watchers' only solace was the sweetness of this fruit and hope for the city's peace.",
-        "img": "https://cdn.discordapp.com/attachments/921999711358054430/921999863565148190/unknown.png",
+        "desc": "**Valberries ${Valberry}** can be found in the wilderness of Stormbearer Mountains and are being sold by [**Chloris**](https://static.hutaobot.moe/images/Chloris_66f0dbee.png) (up to 5 per 3 days).\n\n> A plump and translucent berry that has a fragrant smell and a sweet, refreshing taste. In the past, the storm watchers' only solace was the sweetness of this fruit and hope for the city's peace.",
+        "img": "https://static.hutaobot.moe/images/Valberry_13b0dea7.png",
         "credits": "Maple",
         "links": {
           "material": ["Valberry"]
@@ -22,8 +22,8 @@
       },
       {
         "name": "Cecilia route",
-        "desc": "**Cecilias ${Cecilia}** can be found in the wilderness of Starsnatch Cliff and are being sold by [**Flora**](https://cdn.discordapp.com/attachments/922011009428910160/922151480461525046/Flora.png) (up to 5 per 3 days).\n\n> A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
-        "img": "https://cdn.discordapp.com/attachments/922011009428910160/953730420577562694/unknown.png",
+        "desc": "**Cecilias ${Cecilia}** can be found in the wilderness of Starsnatch Cliff and are being sold by [**Flora**](https://static.hutaobot.moe/images/Flora_e27a3f13.png) (up to 5 per 3 days).\n\n> A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
+        "img": "https://static.hutaobot.moe/images/Cecilia_6ef9f776.png",
         "url": "https://youtu.be/YlSgzeoy4wA",
         "credits": "Maple",
         "links": {
@@ -32,8 +32,8 @@
       },
       {
         "name": "Windwheel Aster route",
-        "desc": "**Windwheel Asters ${Windwheel Aster}** can be found in the wilderness of Mondstadt and are being sold by [**Flora**](https://cdn.discordapp.com/attachments/923194392959918090/923316038328778823/Flora.png) (up to 5 per 3 days).\n\n> A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\"",
-        "img": "https://cdn.discordapp.com/attachments/923194392959918090/925716459391434772/Windwheel_Asters.png",
+        "desc": "**Windwheel Asters ${Windwheel Aster}** can be found in the wilderness of Mondstadt and are being sold by [**Flora**](https://static.hutaobot.moe/images/Flora_8c7f0a59.png) (up to 5 per 3 days).\n\n> A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\"",
+        "img": "https://static.hutaobot.moe/images/Windwheel_Asters_e9654312.png",
         "url": "https://youtu.be/KDWFR2sAxfM",
         "credits": "Yukie",
         "links": {
@@ -42,8 +42,8 @@
       },
       {
         "name": "Philanemo Mushroom route",
-        "desc": "**Philanemo Mushrooms ${Philanemo Mushroom}** can be found in under the eaves of houses in Mondstadt and are being sold by [**Chloris**](https://cdn.discordapp.com/attachments/923461709358850059/923724200026451998/unknown.png) (up to 5 per 3 days).\n\n> A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
-        "img": "https://cdn.discordapp.com/attachments/923461709358850059/923723763030298674/unknown.png",
+        "desc": "**Philanemo Mushrooms ${Philanemo Mushroom}** can be found in under the eaves of houses in Mondstadt and are being sold by [**Chloris**](https://static.hutaobot.moe/images/Chloris_d44fc52a.png) (up to 5 per 3 days).\n\n> A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
+        "img": "https://static.hutaobot.moe/images/Philanemo_Mushroom_1e7af628.png",
         "credits": "Soul",
         "links": {
           "material": ["Philanemo Mushroom"]
@@ -51,8 +51,8 @@
       },
       {
         "name": "Small Lamp Grass route",
-        "desc": "**Small Lamp Grass ${Small Lamp Grass}** can be found all over Mondstadt and glows at night. It is also being sold by [**Flora**](https://cdn.discordapp.com/attachments/937120266990022656/938192271914975292/Flora.png) (up to 5 per 3 days).\n\n> A wild grass that emits light at night. Used in cooking to enhance other flavors.",
-        "img": "https://cdn.discordapp.com/attachments/937120266990022656/937160266636996648/unknown.png",
+        "desc": "**Small Lamp Grass ${Small Lamp Grass}** can be found all over Mondstadt and glows at night. It is also being sold by [**Flora**](https://static.hutaobot.moe/images/Flora_f509195a.png) (up to 5 per 3 days).\n\n> A wild grass that emits light at night. Used in cooking to enhance other flavors.",
+        "img": "https://static.hutaobot.moe/images/Small_Lamp_Grass_d6784e79.png",
         "credits": "Maple",
         "links": {
           "material": ["Small Lamp Grass"]
@@ -60,8 +60,8 @@
       },
       {
         "name": "Calla Lily route",
-        "desc": "**Calla Lilies ${Calla Lily}** can be found near lakes in Mondstadt and are being sold by [**Flora**](https://cdn.discordapp.com/attachments/938544643849719820/939658413405786193/Flora.png) (up to 5 per 3 days).\n\n> A flower that grows near water sources. When cooked, the petals have a chunky texture, yet are sweet and a little bitter.",
-        "img": "https://cdn.discordapp.com/attachments/938544643849719820/938550213298249788/unknown.png",
+        "desc": "**Calla Lilies ${Calla Lily}** can be found near lakes in Mondstadt and are being sold by [**Flora**](https://static.hutaobot.moe/images/Flora_57aeaaad.png) (up to 5 per 3 days).\n\n> A flower that grows near water sources. When cooked, the petals have a chunky texture, yet are sweet and a little bitter.",
+        "img": "https://static.hutaobot.moe/images/Calla_Lily_f803b8d8.png",
         "credits": "Maple",
         "links": {
           "material": ["Calla Lily"]
@@ -70,7 +70,7 @@
       {
         "name": "Dandelion Seed route",
         "desc": "**Dandelion Seeds ${Dandelion Seed}** can be found in the wilderness of Mondstadt and at Mondstadt gates. They are also being sold by **Karpillia** for way too much mora (up to 5 per 3 days).\n\n> A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
-        "img": "https://cdn.discordapp.com/attachments/929392674480463933/929477294202949712/unknown.png",
+        "img": "https://static.hutaobot.moe/images/Dandelion_Seed_50923a5d.png",
         "credits": "Maple",
         "links": {
           "material": ["Dandelion Seed"]
@@ -83,8 +83,8 @@
     "pages": [
       {
         "name": "Cor Lapis route",
-        "desc": "**Cor Lapis ${Cor Lapis}** can be found in the wilderness of Liyue and are being sold by [**Changshun**](https://cdn.discordapp.com/attachments/957351134757019758/972157255044702328/Changshun.png) (up to 5 per 3 days).\n\n> A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\"",
-        "img": "https://cdn.discordapp.com/attachments/957351134757019758/971444403619135509/unknown.png",
+        "desc": "**Cor Lapis ${Cor Lapis}** can be found in the wilderness of Liyue and are being sold by [**Changshun**](https://static.hutaobot.moe/images/Changshun_1eb0adc1.png) (up to 5 per 3 days).\n\n> A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\"",
+        "img": "https://static.hutaobot.moe/images/Cor_Lapis_e315d853.png",
         "credits": "Maple",
         "links": {
           "material": ["Cor Lapis"]
@@ -92,8 +92,8 @@
       },
       {
         "name": "Jueyun Chili route",
-        "desc": "**Jueyun Chilis ${Jueyun Chili}** can be found in the wilderness of Liyue and are being sold by [**Chef Mao**](https://cdn.discordapp.com/attachments/925096309763997747/925125045855076392/Chef_Mao.png) (up to 5 per 3 days).\n\n> A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
-        "img": "https://cdn.discordapp.com/attachments/925096309763997747/925096336947286026/unknown.png",
+        "desc": "**Jueyun Chilis ${Jueyun Chili}** can be found in the wilderness of Liyue and are being sold by [**Chef Mao**](https://static.hutaobot.moe/images/Chef_Mao_7f1dfb18.png) (up to 5 per 3 days).\n\n> A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
+        "img": "https://static.hutaobot.moe/images/Jueyun_Chili_d775c6ac.png",
         "credits": "Soul",
         "links": {
           "material": ["Jueyun Chili"]
@@ -101,8 +101,8 @@
       },
       {
         "name": "Noctilucous Jade route",
-        "desc": "**Noctilucous Jades ${Noctilucous Jade}** can be found in caves in Liyue. They are being sold by [**Shitou**](https://cdn.discordapp.com/attachments/949748021611073536/972156385708105788/Shitou.png) (up to 5 per 3 days).\n\n> A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world.",
-        "img": "https://cdn.discordapp.com/attachments/949748021611073536/971937496021741608/unknown.png",
+        "desc": "**Noctilucous Jades ${Noctilucous Jade}** can be found in caves in Liyue. They are being sold by [**Shitou**](https://static.hutaobot.moe/images/Shitou_3d0ef1a8.png) (up to 5 per 3 days).\n\n> A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world.",
+        "img": "https://static.hutaobot.moe/images/Noctilucous_Jades_191ef248.png",
         "credits": "Maple",
         "links": {
           "material": ["Noctilucous Jade"]
@@ -110,8 +110,8 @@
       },
       {
         "name": "Silk Flower route",
-        "desc": "**Silk Flowers ${Silk Flower}** can be found in the near Yujing Terrace and Wangshu Inn. They are being sold by [**Ms. Bai**](https://cdn.discordapp.com/attachments/942081521181917184/942191358691667998/Ms._Bai.png) and [**Verr Goldet**](https://cdn.discordapp.com/attachments/942081521181917184/942193167195848784/Verr_Goldet.png) (up to 5 each per 3 days).\n\n> A crimson flower that blooms like the rainbow clouds in Liyue. It can be made into silky-smooth fabric.",
-        "img": "https://cdn.discordapp.com/attachments/942081521181917184/942084185252855818/unknown.png",
+        "desc": "**Silk Flowers ${Silk Flower}** can be found in the near Yujing Terrace and Wangshu Inn. They are being sold by [**Ms. Bai**](https://static.hutaobot.moe/images/Ms._Bai_f531c867.png) and [**Verr Goldet**](https://static.hutaobot.moe/images/Verr_Goldet_27aaca4a.png) (up to 5 each per 3 days).\n\n> A crimson flower that blooms like the rainbow clouds in Liyue. It can be made into silky-smooth fabric.",
+        "img": "https://static.hutaobot.moe/images/Silk_Flower_aa0ec71f.png",
         "credits": "Maple",
         "links": {
           "material": ["Silk Flower"]
@@ -119,8 +119,8 @@
       },
       {
         "name": "Glaze Lily route",
-        "desc": "**Glaze Lilies ${Glaze Lily}** can be found in the wilderness of Liyue and are being sold by [**Ms. Bai**](https://cdn.discordapp.com/attachments/942110117283905626/942191944287805471/Ms._Bai.png) (up to 3 per week).\n\n> An extremely ancient flower that was said to be commonly seen in Liyue. It transforms the memories of the land into its fragrance during florescence.",
-        "img": "https://cdn.discordapp.com/attachments/942110117283905626/972153065903910912/unknown.png",
+        "desc": "**Glaze Lilies ${Glaze Lily}** can be found in the wilderness of Liyue and are being sold by [**Ms. Bai**](https://static.hutaobot.moe/images/Ms._Bai_517cdf0d.png) (up to 3 per week).\n\n> An extremely ancient flower that was said to be commonly seen in Liyue. It transforms the memories of the land into its fragrance during florescence.",
+        "img": "https://static.hutaobot.moe/images/Glaze_Lily_6ca76fb3.png",
         "credits": "Maple",
         "links": {
           "material": ["Glaze Lily"]
@@ -128,8 +128,8 @@
       },
       {
         "name": "Qingxin route: Main Liyue",
-        "desc": "**Qingxins ${Qingxin}** can be found in the heights of stone forests in Liyue and are being sold by [**Herbalist Gui**](https://cdn.discordapp.com/attachments/926215001088352276/926586479600341032/Herbalist_Gui.png) (up to 10 per 3 days).\n\n> A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
-        "img": "https://cdn.discordapp.com/attachments/926215001088352276/926215049285107792/ganyunom.png",
+        "desc": "**Qingxins ${Qingxin}** can be found in the heights of stone forests in Liyue and are being sold by [**Herbalist Gui**](https://static.hutaobot.moe/images/Herbalist_Gui_cb4dfa44.png) (up to 10 per 3 days).\n\n> A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
+        "img": "https://static.hutaobot.moe/images/ganyunom_cf0c30e3.png",
         "credits": "Soul",
         "links": {
           "material": ["Qingxin"]
@@ -137,8 +137,8 @@
       },
       {
         "name": "Qingxin route: The Chasm",
-        "desc": "**Qingxins ${Qingxin}** can be found in the heights of stone forests in Liyue and are being sold by [**Herbalist Gui**](https://cdn.discordapp.com/attachments/926215001088352276/926586479600341032/Herbalist_Gui.png) (up to 10 per 3 days).\n\n> A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
-        "img": "https://cdn.discordapp.com/attachments/926215001088352276/1028071268383199242/unknown.png",
+        "desc": "**Qingxins ${Qingxin}** can be found in the heights of stone forests in Liyue and are being sold by [**Herbalist Gui**](https://static.hutaobot.moe/images/Herbalist_Gui_cb4dfa44.png) (up to 10 per 3 days).\n\n> A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
+        "img": "https://static.hutaobot.moe/images/ganyunom_422af8c3.png",
         "credits": "Soul",
         "links": {
           "material": ["Qingxin"]
@@ -146,8 +146,8 @@
       },
       {
         "name": "Starconch route",
-        "desc": "**Starconches ${Starconch}** can be found on the beaches of Liyue and are being sold by [**Bolai**](https://cdn.discordapp.com/attachments/951160501361049670/972154982071664650/Bolai.png) (up to 5 per 3 days).\n\n> Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.",
-        "img": "https://cdn.discordapp.com/attachments/951160501361049670/984091648168431717/unknown.png",
+        "desc": "**Starconches ${Starconch}** can be found on the beaches of Liyue and are being sold by [**Bolai**](https://static.hutaobot.moe/images/Bolai_41308ed9.png) (up to 5 per 3 days).\n\n> Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.",
+        "img": "https://static.hutaobot.moe/images/Starconch_e2e9db12.png",
         "credits": "Maple",
         "links": {
           "material": ["Starconch"]
@@ -161,7 +161,7 @@
       {
         "name": "Onikabuto route",
         "desc": "**Onikabuto ${Onikabuto}** can be found in the wilderness of Inazuma.\n\n> A strange beetle that inhabits areas rich with Electro energy. Its docile and sedentary temperament could not be more different from the fierce, demonic visage displayed on its armored shell.",
-        "img": "https://i.imgur.com/V3gpYvh.png",
+        "img": "https://static.hutaobot.moe/images/Onikabuto_4858ab83.png",
         "credits": "Soul",
         "links": {
           "material": ["Onikabuto"]
@@ -170,7 +170,7 @@
       {
         "name": "Sakura Bloom route",
         "desc": "**Sakura Blooms ${Sakura Bloom}** can be found in the wilderness of Inazuma.\n\n> Blossoms from the Sacred Sakura at the Grand Narukami Shrine, filled with a fondness for Inazuma.",
-        "img": "https://cdn.discordapp.com/attachments/923173940338245673/923320425998610492/Sakura_Bloom.png",
+        "img": "https://static.hutaobot.moe/images/Sakura_Bloom_5b903ad1.png",
         "url": "https://youtu.be/V_zl_rckNvc",
         "credits": "Soul",
         "links": {
@@ -180,7 +180,7 @@
       {
         "name": "Crystal Marrow route",
         "desc": "**Crystal Marrow ${Crystal Marrow}** can be found in the wilderness of Inazuma.\n\n> A crystal that contains a sliver of Tatarigami power. Adding this material during smelting will greatly increase the strength and toughness of metals.",
-        "img": "https://cdn.discordapp.com/attachments/921888154267566120/922146919839592448/Crystal_Marrow.png",
+        "img": "https://static.hutaobot.moe/images/Crystal_Marrow_16c3ba31.png",
         "credits": "Soul",
         "links": {
           "material": ["Crystal Marrow"]
@@ -189,7 +189,7 @@
       {
         "name": "Dendrobium route",
         "desc": "**Dendrobiums ${Dendrobium}** can be found in the wilderness of Inazuma.\n\n> A vibrant plant that has also been named the \"lycoris\" by the poets. It was once thought extinct in the Inazuman archipelago, only to re-emerge now upon the battlefields. It is said that it blooms most enchantingly where much blood was spilled.",
-        "img": "https://cdn.discordapp.com/attachments/921888052476006430/922146556369567774/Dendrobium.png",
+        "img": "https://static.hutaobot.moe/images/Dendrobium_d0b7e70a.png",
         "credits": "Soul",
         "links": {
           "material": ["Dendrobium"]
@@ -197,8 +197,8 @@
       },
       {
         "name": "Naku Weed route",
-        "desc": "**Naku Weeds ${Naku Weed}** can be found in the wilderness of Inazuma and are being sold by [**Aoi**](https://cdn.discordapp.com/attachments/921171356484263996/921401724185477190/unknown.png) (up to 5 per 3 days).\n\n> Even on windless days, this plant will tremble lightly amid the cries of thunder. The part of it that resembles petals are in fact extensions of the leaves meant to protect the fragile flower.",
-        "img": "https://cdn.discordapp.com/attachments/921171356484263996/921399115974344795/waytoodank.png",
+        "desc": "**Naku Weeds ${Naku Weed}** can be found in the wilderness of Inazuma and are being sold by [**Aoi**](https://static.hutaobot.moe/images/Aoi_a6aead3f.png) (up to 5 per 3 days).\n\n> Even on windless days, this plant will tremble lightly amid the cries of thunder. The part of it that resembles petals are in fact extensions of the leaves meant to protect the fragile flower.",
+        "img": "https://static.hutaobot.moe/images/waytoodank_16c1609a.png",
         "credits": "Soul",
         "links": {
           "material": ["Naku Weed"]
@@ -206,8 +206,8 @@
       },
       {
         "name": "Sea Ganoderma route",
-        "desc": "**Sea Ganoderma ${Sea Ganoderma}** can be found in Inazuman seawater and are being sold by [**Obata**](https://cdn.discordapp.com/attachments/936714993754312724/936749485336453181/Obata.png) (up to 5 per 3 days).\n\n> A plant species that only grows in certain regions and islands of the ocean. Though it looks like a fungus of some sort, it actually comes from a substance secreted by certain soft-bodied organisms.",
-        "img": "https://cdn.discordapp.com/attachments/936714993754312724/943251544856485968/unknown.png",
+        "desc": "**Sea Ganoderma ${Sea Ganoderma}** can be found in Inazuman seawater and are being sold by [**Obata**](https://static.hutaobot.moe/images/Obata_ba6bc721.png) (up to 5 per 3 days).\n\n> A plant species that only grows in certain regions and islands of the ocean. Though it looks like a fungus of some sort, it actually comes from a substance secreted by certain soft-bodied organisms.",
+        "img": "https://static.hutaobot.moe/images/Sea_Ganoderma_629cfc97.png",
         "url": "https://youtu.be/exjuYuYT_F0",
         "credits": "Soul",
         "links": {
@@ -216,8 +216,8 @@
       },
       {
         "name": "Sango Pearl route",
-        "desc": "**Sango Pearls ${Sango Pearl}** can be found in the wilderness of Watatsumi Island and are being sold by [**Yamashiro Kenta**](https://cdn.discordapp.com/attachments/921188291842277476/972158194010968094/Yamashiro_Kenta.png) (up to 5 per 3 days).\n\n> A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of a moonlight.",
-        "img": "https://cdn.discordapp.com/attachments/921188291842277476/950198796795658331/unknown.png",
+        "desc": "**Sango Pearls ${Sango Pearl}** can be found in the wilderness of Watatsumi Island and are being sold by [**Yamashiro Kenta**](https://static.hutaobot.moe/images/Yamashiro_Kenta_071cf2e8.png) (up to 5 per 3 days).\n\n> A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of a moonlight.",
+        "img": "https://static.hutaobot.moe/images/Sango_Pearl_708e8dd9.png",
         "url": "https://youtu.be/FYzudicm1gs",
         "credits": "Soul",
         "links": {
@@ -227,7 +227,7 @@
       {
         "name": "Amakumo Fruit route",
         "desc": "**Amakumo Fruits ${Amakumo Fruit}** can be found in the wilderness of Seirai Island.\n\n> The fruit of the Amakumo Grass, which grows on Seirai Island. You can hear it crackling with a tiny current if you hold it up to your ear.",
-        "img": "https://cdn.discordapp.com/attachments/923174006306267146/923320095764279356/Amakumo_Fruit.png",
+        "img": "https://static.hutaobot.moe/images/Amakumo_Fruit_25f381e8.png",
         "url": "https://youtu.be/T8ccQ4-vDu0",
         "credits": "Soul",
         "links": {
@@ -237,7 +237,7 @@
       {
         "name": "Fluorescent Fungus route",
         "desc": "**Fluorescent Fungi ${Fluorescent Fungus}** can be found in the wilderness of Tsurumi Island.\n\n> A mushroom that glows like a night-light. Some curious power lies hidden within it.",
-        "img": "https://cdn.discordapp.com/attachments/921888264808452096/922147275579465768/Fluorescent_Fungi.png",
+        "img": "https://static.hutaobot.moe/images/Fluorescent_Fungi_ba0809ba.png",
         "credits": "Soul",
         "links": {
           "material": ["Fluorescent Fungus"]
@@ -250,8 +250,8 @@
     "pages": [
       {
         "name": "Rukkhashava Mushrooms route",
-        "desc": "**Rukkhashava Mushrooms ${Rukkhashava Mushrooms}** can found in the wilderness of Sumeru, near Ashavan Realm and Lokapala Jungle and are being sold by [**Aramani**](https://cdn.discordapp.com/attachments/1015767194447130644/1016714232861040680/Aramani.png) and [**Ashpazi**](https://cdn.discordapp.com/attachments/1015767194447130644/1016715859034636408/Ashpazi.png) (up to 5 each per 3 days).\n\n> A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest. Therefore, they are considered by the people of Sumeru to be the holy crystallization of Rukkhadevata’s legacy.",
-        "img": "https://cdn.discordapp.com/attachments/1015767194447130644/1019404693807566910/Rukkhashava_Mushrooms.png",
+        "desc": "**Rukkhashava Mushrooms ${Rukkhashava Mushrooms}** can found in the wilderness of Sumeru, near Ashavan Realm and Lokapala Jungle and are being sold by [**Aramani**](https://static.hutaobot.moe/images/Aramani_13df9c31.png) and [**Ashpazi**](https://static.hutaobot.moe/images/Ashpazi_82f8a0b8.png) (up to 5 each per 3 days).\n\n> A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest. Therefore, they are considered by the people of Sumeru to be the holy crystallization of Rukkhadevata’s legacy.",
+        "img": "https://static.hutaobot.moe/images/Rukkhashava_Mushrooms_f2b80ced.png",
         "credits": "Soul",
         "links": {
           "material": ["Rukkhashava Mushrooms"]
@@ -259,8 +259,8 @@
       },
       {
         "name": "Padisarah route",
-        "desc": "**Padisarah ${Padisarah}** can found near Sumeru City and are being sold by [**Jut**](https://cdn.discordapp.com/attachments/1015428610942832660/1016716793924042784/Jut.png) (up to 5 times per 3 days).\n\n> A holy and noble plant. The conditions for growth in its environment are very demanding. The flower buds can be processed to make valuable spices.",
-        "img": "https://cdn.discordapp.com/attachments/1015428610942832660/1032418333989023844/Padisarah.png",
+        "desc": "**Padisarah ${Padisarah}** can found near Sumeru City and are being sold by [**Jut**](https://static.hutaobot.moe/images/Jut_1c2963bd.png) (up to 5 times per 3 days).\n\n> A holy and noble plant. The conditions for growth in its environment are very demanding. The flower buds can be processed to make valuable spices.",
+        "img": "https://static.hutaobot.moe/images/Padisarah_dd571b4e.png",
         "credits": "Soul",
         "links": {
           "material": ["Padisarah"]
@@ -269,7 +269,7 @@
       {
         "name": "Nilotpala Lotus route",
         "desc": "**Nilotpala Lotus ${Nilotpala Lotus}** can found near lakes and river banks in Sumeru.\n\n> Growing in the forest wetlands, these plays only bloom at night with flowers as bright as the moon.",
-        "img": "https://cdn.discordapp.com/attachments/1013223015514906704/1032122987136155648/NiLotus.png",
+        "img": "https://static.hutaobot.moe/images/NiLotus_e3cad8c8.png",
         "credits": "Soul",
         "links": {
           "material": ["Nilotpala Lotus"]
@@ -277,8 +277,8 @@
       },
       {
         "name": "Kalpalata Lotus route",
-        "desc": "**Kalpalata Lotus ${Kalpalata Lotus}** can found in the mountains of Sumeru and are being sold by [**Aramani**](https://cdn.discordapp.com/attachments/1015767194447130644/1016714232861040680/Aramani.png) (up to 5 per 3 days).\n\n> Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
-        "img": "https://cdn.discordapp.com/attachments/1016421596057051350/1032124509232300073/KalpalataLotus.png",
+        "desc": "**Kalpalata Lotus ${Kalpalata Lotus}** can found in the mountains of Sumeru and are being sold by [**Aramani**](https://static.hutaobot.moe/images/Aramani_13df9c31.png) (up to 5 per 3 days).\n\n> Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
+        "img": "https://static.hutaobot.moe/images/KalpalataLotus_064293fc.png",
         "credits": "Soul",
         "links": {
           "material": ["Kalpalata Lotus"]
@@ -287,7 +287,7 @@
       {
         "name": "Redcrest route",
         "desc": "**Redcrest ${Redcrest}** can found in the Great Red Sand of Sumeru.\n\n> A fruit that grows even in the most hostile of desert environments. It's vibrant crimson fruits are made even more lovely against a backdrop of yellow sand.",
-        "img": "https://cdn.discordapp.com/attachments/1024787131836682240/1025526652857483344/Redcrests.png",
+        "img": "https://static.hutaobot.moe/images/Redcrests_791525e3.png",
         "credits": "Soul",
         "links": {
           "material": ["Redcrest"]
@@ -296,7 +296,7 @@
       {
         "name": "Sand Grease Pupa route",
         "desc": "**Sand Grease Pupa ${Sand Grease Pupa}** can found in the Desert of Hadramaveth.\n\n> You can only find such husks deep in the desert where the Quicksand Eels breed. The hardened shell is meant to protect the Quicksand Eels' larval bodies until they finally acclimate to the conditions of the dry desert.",
-        "img": "https://cdn.discordapp.com/attachments/1065152189833678898/1068612470622658650/SandGreasePupa.png",
+        "img": "https://static.hutaobot.moe/images/SandGreasePupa_fe48d43c.png",
         "credits": "Soul",
         "links": {
           "material": ["Sand Grease Pupa"]
@@ -305,7 +305,7 @@
       {
         "name": "Mourning Flower route",
         "desc": "**Mourning Flower ${Mourning Flower}** can found in Girdle of the Sands.\n\n> Crimson flowers that bloom on ancient battlefields. They can even flourish in the depths of the desert. Their drooping flowers seem to be in mourning for heroes long past.",
-        "img": "https://cdn.discordapp.com/attachments/1098302663717814465/1098656863471550614/cleanfinished.png",
+        "img": "https://static.hutaobot.moe/images/cleanfinished_045dcaa3.png",
         "credits": "Soul & Grun",
         "links": {
           "material": ["Mourning Flower"]
@@ -314,7 +314,7 @@
       {
         "name": "Trishiraite route",
         "desc": "**Trishiraite ${Trishiraite}** can found in Girdle of the Sands.\n\n> A splendorous stone that can be found in the depths of desolate mountains, seemingly formed from congealed elemental energy.",
-        "img": "https://cdn.discordapp.com/attachments/1099439136630390914/1100292193454919771/trishirat2t.png",
+        "img": "https://static.hutaobot.moe/images/trishirat2t_b26f9b68.png",
         "credits": "Soul & Grun",
         "links": {
           "material": ["Trishiraite"]
@@ -323,10 +323,69 @@
       {
         "name": "Scarab route",
         "desc": "**Scarab ${Scarab}** can found in the Great Red Sand of Sumeru.\n\n> A tenacious beetle that finds repose within the vast ocean of desert sand. The golden pattern on such beetles' shells hints at some deep relationship between them and the ancient ruins that dot the desert.",
-        "img": "https://cdn.discordapp.com/attachments/1024787078254444644/1024787114061205584/Scarabsv1.png",
+        "img": "https://static.hutaobot.moe/images/Scarabsv1_efe67d5c.png",
         "credits": "Soul",
         "links": {
           "material": ["Scarab"]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Local Specialties (Fontaine)",
+    "pages": [
+      {
+        "name": "Beryl Conch route",
+        "desc": "**Beryl Conches ${Beryl Conch}** can found in the wilderness of Fontaine, near Salacia Plain and are being sold by **Hinterman** (up to 5 each per 3 days).\n\n> A conch-like structure that gives off a faint glow. Despite the name, it is not a shell but something condensed from pure elemental energy.",
+        "img": "https://static.hutaobot.moe/images/Beryl_Conches_72d2904f.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Beryl Conch"]
+        }
+      },
+      {
+        "name": "Romartime Flower route",
+        "desc": "**Romartime Flowers ${Romartime Flower}** can found in the wilderness of Fontaine, near Salacia Plain and are being sold by **Hinterman** (up to 5 each per 3 days).\n\n> An ethereal and elegant blue flower. Its tender petals are elastic and water-absorbent, making it the ideal raw material for various daily necessities.",
+        "img": "https://static.hutaobot.moe/images/RomaritimeFlowers_14fd6246.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Romartime Flower"]
+        }
+      },
+      {
+        "name": "Lumidouce Bell route",
+        "desc": "**Lumidouce Bells ${Lumidouce Bell}** can found in the wilderness of Fontaine, north of the Court of Fontaine.\n\n> A serene and tranquil violet flower. It has a light, soft, and lasting scent and is often used for making luxurious perfumes.",
+        "img": "https://static.hutaobot.moe/images/LumiBells_34d6ad6d.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Lumidouce Bell"]
+        }
+      },
+      {
+        "name": "Rainbow Rose route",
+        "desc": "**Rainbow Roses ${Rainbow Rose}** can found in the wilderness of Fontaine, near Beryl Region.\n\n> A delicate and tender pink flower. Despite their name, Rainbow Roses are essentially more akin to Lilies.",
+        "img": "https://static.hutaobot.moe/images/RainbowRose_5d81e17a.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Rainbow Rose"]
+        }
+      },
+      {
+        "name": "Lumitoile route",
+        "desc": "**Lumitoiles ${Lumitoile}** can found in the wilderness of Fontaine, near Liffey Region.\n\n> A soft-bodied animal that emits a gentle light. Often found climbing the walls of buildings near the water or underwater.",
+        "img": "https://static.hutaobot.moe/images/Lumitoile_e928fab2.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Lumitoile"]
+        }
+      },
+      {
+        "name": "Subdetection Unit route",
+        "desc": "**Subdetection Units ${Subdetection Unit}** can found in the wilderness of Fontaine, near Fontaine Research Institute of Kinetic Energy Engineering Region.\n\n> Detection units produced by Fontaine Research Institute using new models of artificed components. Its original purpose was monitoring all kinds of environmental data.",
+        "img": "https://static.hutaobot.moe/images/SubdetectionUnit_53856a58.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Subdetection Unit"]
         }
       }
     ]
@@ -337,7 +396,7 @@
       {
         "name": "Frog route",
         "desc": "**Frogs** can be found in the wilderness near bodies of fresh water. They are used in crafting.\n\n> Common frog found in moist environments. Full of energy, they secrete a substance that will keep you full of vitality.",
-        "img": "https://cdn.discordapp.com/attachments/924811279246454874/924811791706497054/FrogRoute404.png",
+        "img": "https://static.hutaobot.moe/images/FrogRoute404_986a2e89.png",
         "credits": "Soul",
         "links": {
           "material": ["Frog"]
@@ -346,7 +405,7 @@
       {
         "name": "Crystalflies (Crystal Core) route",
         "desc": "**Crystal Cores** can be obtained by catching Crystalflies in the wilderness.\n\n> The core of a crystal butterfly. It absorbs elemental energy that had escaped into the atmosphere.",
-        "img": "https://cdn.discordapp.com/attachments/1022979079651213383/1023123624024088616/Crystalflies.png",
+        "img": "https://static.hutaobot.moe/images/Crystalflies_5dad436a.png",
         "credits": "Soul",
         "links": {
           "material": ["Crystal Core"]
@@ -355,7 +414,7 @@
       {
         "name": "Loach Pearl route",
         "desc": "**Loach Pearls** can be found in the wilderness near bodies of water.\n\n> A shiny pearl spat out by a loach that has mystical medicinal properties. Minerals and elemental particles ingested by the loach condense into these mildly magical beads. When threatened, the loach spits them out to confuse predators and escape with its life.",
-        "img": "https://cdn.discordapp.com/attachments/936705429415792700/936705447933648936/unknown.png",
+        "img": "https://static.hutaobot.moe/images/Loach_Pearl_cde7e10b.png",
         "credits": "Soul",
         "links": {
           "material": ["Loach Pearl"]
@@ -364,7 +423,7 @@
       {
         "name": "Unagi Meat route",
         "desc": "**Unagi** can be found on Watatsumi Island.\n\n> The fresh meat of an Unagi. If handled properly, it can be used to make fresh, lovely food.",
-        "img": "https://cdn.discordapp.com/attachments/950425246995996742/950539712324587590/Genshin_-_Unagi_Guide.jpg",
+        "img": "https://static.hutaobot.moe/images/Genshin_-_Unagi_Guide_09921d24.jpg",
         "credits": "Jnight",
         "links": {
           "material": ["Unagi Meat"]
@@ -373,7 +432,7 @@
       {
         "name": "Viparyas route",
         "desc": "**Viparyas** can be found in Sumeru.\n\n> A flower without seeds. Once the earth remembers, the Viparyas will bloom.",
-        "img": "https://cdn.discordapp.com/attachments/1022152008649691216/1022571454434377808/Viparyas.png",
+        "img": "https://static.hutaobot.moe/images/Viparyas_ddcf7c92.png",
         "credits": "Soul",
         "links": {
           "material": ["Viparyas"]
@@ -382,10 +441,37 @@
       {
         "name": "Ajilenakh Nut route",
         "desc": "**Ajilenakh Nuts** can be found in Sumeru and are being sold by Azalai (up to 10 per day).\n\n> A fruit that grows on evergreen trees within desert oases. The flesh under the tough skin is thick, sweet, and delicious, making it an important food source amongst the desert peoples.",
-        "img": "https://cdn.discordapp.com/attachments/1028113928351391804/1028349836010983545/AjiNuts.png",
+        "img": "https://static.hutaobot.moe/images/AjiNuts_bb41de6d.png",
         "credits": "Soul",
         "links": {
           "material": ["Ajilenakh Nut"]
+        }
+      },
+      {
+        "name": "Condessence Crystals route",
+        "desc": "**Condessence Crystals ${Condessence Crystal}** can found in the wilderness of Fontaine.\n\n> A bright and clear crystal with a core that is both tough and malleable.",
+        "img": "https://static.hutaobot.moe/images/Condessence_Crystal40_9e68b771.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Condessence Crystal"]
+        }
+      },
+      {
+        "name": "Pluie Lotus route",
+        "desc": "**Pluie Loti ${Pluie Lotus}** can found near lakes and river banks.\n\n> A plant that grows in environments rich with Hydro. This plant can be found everywhere in Fontaine after its long rainy seasons. The plant is named \"Pluie\" - which means \"rain\" in the local tongue - for that reason.",
+        "img": "https://static.hutaobot.moe/images/PluieLotus_aeb0db02.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Pluie Lotus"]
+        }
+      },
+      {
+        "name": "Tidalga route",
+        "desc": "**Tidalgas ${Tidalga}** can found while diving.\n\n> An algae floating with the tides that sustains itself by feeding on substances produced by other plants. Though often mistaken for zooplankton, based on its nature, Tidalga is actually a type of phytoplankton.",
+        "img": "https://static.hutaobot.moe/images/Tidalga_c08a98cf.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Tidalga"]
         }
       }
     ]
@@ -396,7 +482,7 @@
       {
         "name": "Maple Wood route",
         "desc": "**Maple Wood** can be obtained from the Amur Maple and can be used to create furnishings.\n\n> Excellent quality wood with a fine color and texture.",
-        "img": "https://cdn.discordapp.com/attachments/933121651468554270/933136609178693732/Maple_Wood_Guide.png",
+        "img": "https://static.hutaobot.moe/images/Maple_Wood_Guide_8a16d2ba.png",
         "credits": "Jnight",
         "links": {
           "material": ["Maple Wood"]
@@ -405,7 +491,7 @@
       {
         "name": "Aralia Wood route",
         "desc": "**Aralia Wood** can be obtained from the Inazuman Cedar and can be used to create furnishings.\n\n> It is soft, has straight veins, and gives off a light fragrance.",
-        "img": "https://cdn.discordapp.com/attachments/940049609743556639/940268392202510406/Aralia_Wood_Guide.png",
+        "img": "https://static.hutaobot.moe/images/Aralia_Wood_Guide_feadf911.png",
         "credits": "Jnight",
         "links": {
           "material": ["Aralia Wood"]
@@ -414,7 +500,7 @@
       {
         "name": "Otogi Wood route",
         "desc": "**Otogi Wood** can be obtained from the Otogi Tree and can be used to create furnishings.\n\n> It has just the right amount of moisture and oil, and as such has a great many uses.",
-        "img": "https://cdn.discordapp.com/attachments/932438480376717353/932725498759512084/Otogi_Wood_Guide.png",
+        "img": "https://static.hutaobot.moe/images/Otogi_Wood_Guide_3256b287.png",
         "credits": "Jnight",
         "links": {
           "material": ["Otogi Wood"]
@@ -423,7 +509,7 @@
       {
         "name": "Yumemiru Wood route",
         "desc": "**Yumemiru Wood** can be obtained from Sakura Trees and can be used to create furnishings.\n\n> Exquisite in quality and full of moisture, people say that it can lull people into dreams as sweet as the warm spring.",
-        "img": "https://cdn.discordapp.com/attachments/933728939711529001/933754674589360178/Yumemiru_Wood_Guide.png",
+        "img": "https://static.hutaobot.moe/images/Yumemiru_Wood_Guide_53ea141a.png",
         "credits": "Jnight",
         "links": {
           "material": ["Yumemiru Wood"]
@@ -432,7 +518,7 @@
       {
         "name": "Sandbearer Wood route",
         "desc": "**Sandbearer Wood** can be obtained from Sandbearer Trees and can be used to create furnishings.\n\n> Said to be an exceptionally hardy plant resistant to wind and rain with a long lifespan.",
-        "img": "https://cdn.discordapp.com/attachments/948753038338826240/949848941300711464/Sandbearer_Wood_Guidev2.jpg",
+        "img": "https://static.hutaobot.moe/images/Sandbearer_Wood_Guidev2_9131ba4c.jpg",
         "credits": "Jnight",
         "links": {
           "material": ["Sandbearer Wood"]
@@ -446,7 +532,7 @@
       {
         "name": "Whopperflower route (Whopperflower, Shimmering and Energy Nectar): Inazuma",
         "desc": "**Whopperflowers ${Pyro Whopperflower}${Electro Whopperflower}${Cryo Whopperflower}** are Common Enemies found wandering in the wild or disguised as plants such as Mints and Sweet Flowers. They are Mystical Beasts and drop **Whopperflower Nectar ${Whopperflower Nectar}**, **Shimmering Nectar ${Shimmering Nectar}** and **Energy Nectar ${Energy Nectar}**.\n\nThis route only contains Whopperflowers in **Inazuma**.",
-        "img": "https://cdn.discordapp.com/attachments/921485115002060831/921485224892846110/WhooperInazuma.png",
+        "img": "https://static.hutaobot.moe/images/WhooperInazuma_76d37e9b.png",
         "credits": "Yukie",
         "links": {
           "enemy": ["Pyro Whopperflower", "Electro Whopperflower", "Cryo Whopperflower"],
@@ -456,7 +542,7 @@
       {
         "name": "Nobushi route (Old, Kageuchi and Famed Handguard)",
         "desc": "**Nobushi ${Nobushi: Jintouban}${Nobushi: Hitsukeban}${Nobushi: Kikouban}** are Common Enemies found in Inazuma. They drop **Old Handguard ${Old Handguard}**, **Kageuchi Handguard ${Kageuchi Handguard}** and **Famed Handguard ${Famed Handguard}**.",
-        "img": "https://cdn.discordapp.com/attachments/922981096164044840/922981140795654184/unknown.png",
+        "img": "https://static.hutaobot.moe/images/Nobushi_cb0522e9.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Nobushi: Jintouban", "Nobushi: Hitsukeban", "Nobushi: Kikouban"],
@@ -466,7 +552,7 @@
       {
         "name": "Specter route (Spectral Husk, Heart and Nucleus): Inazuma",
         "desc": "**Specters ${Hydro Specter}${Anemo Specter}${Geo Specter}${Electro Specter}${Cryo Specter}** are Common Enemies found in Inazuma. They are Elemental Lifeforms and drop **Spectral Husk ${Spectral Husk}**, **Spectral Heart ${Spectral Heart}** and **Spectral Nucleus ${Spectral Nucleus}**.",
-        "img": "https://cdn.discordapp.com/attachments/922995664957350030/922997225880166440/Specters_Route_Inazuma.png",
+        "img": "https://static.hutaobot.moe/images/Specters_Route_Inazuma_10f88282.png",
         "url": "https://youtu.be/5Kb79QIzwn0",
         "credits": "Yukie",
         "links": {
@@ -477,7 +563,7 @@
       {
         "name": "Specter route (Spectral Husk, Heart and Nucleus): Enkanomiya",
         "desc": "**Specters ${Hydro Specter}${Anemo Specter}${Geo Specter}${Electro Specter}${Cryo Specter}** are Common Enemies found in Inazuma. They are Elemental Lifeforms and drop **Spectral Husk ${Spectral Husk}**, **Spectral Heart ${Spectral Heart}** and **Spectral Nucleus ${Spectral Nucleus}**.",
-        "img": "https://cdn.discordapp.com/attachments/928691743719837706/928691820395900998/Enka_Specters.png",
+        "img": "https://static.hutaobot.moe/images/Enka_Specters_0db6af7e.png",
         "url": "https://youtu.be/uCOvNkOG1-c",
         "credits": "Yukie",
         "links": {
@@ -488,7 +574,7 @@
       {
         "name": "Fungus route (Fungal Spores, Luminescent Pollen and Crystalline Cyst Dust): Sumeru",
         "desc": "**Fungi ${Floating Dendro Fungus}${Floating Hydro Fungus}${Grounded Hydroshroom}${Stretchy Anemo Fungus}${Stretchy Geo Fungus}${Stretchy Pyro Fungus}${Whirling Cryo Fungus}${Whirling Electro Fungus}${Winged Cryoshroom}${Winged Dendroshroom}** are Common Enemies found in The Chasm. They are Mystical Beasts and drop **Fungal Spores ${Fungal Spores}**, **Luminescent Pollen ${Luminescent Pollen}** and **Crystalline Cyst Dust ${Crystalline Cyst Dust}**.",
-        "img": "https://cdn.discordapp.com/attachments/959819940427358278/1021156698095886476/FungiRoute.jpg",
+        "img": "https://static.hutaobot.moe/images/FungiRoute_b364ec75.jpg",
         "credits": "Soul",
         "links": {
           "enemy": ["Floating Dendro Fungus", "Floating Hydro Fungus", "Grounded Hydroshroom", "Stretchy Anemo Fungus", "Stretchy Geo Fungus", "Stretchy Pyro Fungus", "Whirling Cryo Fungus", "Whirling Electro Fungus", "Winged Cryoshroom", "Winged Dendroshroom"],
@@ -498,7 +584,7 @@
       {
         "name": "Fungus route (Fungal Spores, Luminescent Pollen and Crystalline Cyst Dust): Enkanomiya",
         "desc": "**Fungi ${Floating Hydro Fungus}** are Common Enemies found in The Chasm. They are Mystical Beasts and drop **Fungal Spores ${Fungal Spores}**, **Luminescent Pollen ${Luminescent Pollen}** and **Crystalline Cyst Dust ${Crystalline Cyst Dust}**.",
-        "img": "https://cdn.discordapp.com/attachments/959819940427358278/959876421491232778/FloatingFungus.png",
+        "img": "https://static.hutaobot.moe/images/FloatingFungus_c1bdda7f.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Floating Hydro Fungus"],
@@ -508,11 +594,41 @@
       {
         "name": "Eremites route (Faded Red Satin, Trimmed Red Silk and Rich Red Brocade)",
         "desc": "**Eremites ${Eremite Axe Vanguard}, ${Eremite Crossbow}, ${Eremite Ravenbeak Halberdier}, ${Eremite Linebreaker}, ${Eremite Sword-Dancer}, ${Eremite Desert Clearwater}, ${Eremite Sunfrost}, ${Eremite Daythunder}** are Common Enemies found in Sumeru. They drop **Faded Red Satin ${Faded Red Satin}**, **Trimmed Red Silk ${Trimmed Red Silk}** and **Rich Red Brocade ${Rich Red Brocade}**.",
-        "img": "https://cdn.discordapp.com/attachments/1018572132260794459/1018572681379065856/EremiteRoute.png",
+        "img": "https://static.hutaobot.moe/images/EremiteRoute_ba95ff52.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Eremite Axe Vanguard", "Eremite Crossbow", "Eremite Ravenbeak Halberdier", "Eremite Linebreaker", "Eremite Sword-Dancer", "Eremite Desert Clearwater", "Eremite Sunfrost", "Eremite Daythunder"],
           "material": ["Faded Red Satin", "Trimmed Red Silk", "Rich Red Brocade"]
+        }
+      },
+      {
+        "name": "Fontemer Aberrant route (Transoceanic Pearl, Transoceanic Chunk and Xenochromatic Crystal)",
+        "desc": "**Fontemer Aberrants ${Angelic Sea Hare}, ${Armored Crab}, ${Ball Octopus}, ${Blubberbeast}, ${Bubbly Seahorse}, ${Hat Jellyfish}, ${Hunter's Ray}, ${Bubbler Seahorse}, ${Cherubic Sea Hare}, ${Sternshield Crab}** are Common Enemies found in Fontaine. They drop **Transoceanic Pearl ${Transoceanic Pearl}**, **Transoceanic Chunk ${Transoceanic Chunk}** and **Xenochromatic Crystal ${Xenochromatic Crystal}**.",
+        "img": "https://static.hutaobot.moe/images/Fontemer_Aberrant_f9939eec.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Angelic Sea Hare", "Armored Crab", "Ball Octopus", "Blubberbeast", "Bubbly Seahorse", "Hat Jellyfish", "Hunter's Ray", "Bubbler Seahorse", "Cherubic Sea Hare", "Sternshield Crab"],
+          "material": ["Transoceanic Pearl", "Transoceanic Chunk", "Xenochromatic Crystal"]
+        }
+      },
+      {
+        "name": "Fontemer Aberrant route (Transoceanic Pearl, Transoceanic Chunk and Xenochromatic Crystal) - 4.1 region",
+        "desc": "**Fontemer Aberrants ${Angelic Sea Hare}, ${Armored Crab}, ${Ball Octopus}, ${Blubberbeast}, ${Bubbly Seahorse}, ${Hat Jellyfish}, ${Hunter's Ray}, ${Bubbler Seahorse}, ${Cherubic Sea Hare}, ${Sternshield Crab}** are Common Enemies found in Fontaine. They drop **Transoceanic Pearl ${Transoceanic Pearl}**, **Transoceanic Chunk ${Transoceanic Chunk}** and **Xenochromatic Crystal ${Xenochromatic Crystal}**.",
+        "img": "https://static.hutaobot.moe/images/Fontemer_Aberrant_41_c6daa4fb.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Angelic Sea Hare", "Armored Crab", "Ball Octopus", "Blubberbeast", "Bubbly Seahorse", "Hat Jellyfish", "Hunter's Ray", "Bubbler Seahorse", "Cherubic Sea Hare", "Sternshield Crab"],
+          "material": ["Transoceanic Pearl", "Transoceanic Chunk", "Xenochromatic Crystal"]
+        }
+      },
+      {
+        "name": "Clockwork Meka route (Meshing Gear, Mechanical Spur Gear and Artificed Dynamic Gear) - 4.1 region",
+        "desc": "**Clockwork Mekas ${Area Alert Mek}, ${Arithmetic Enhancer Mek}, ${Geological Survey Mek}, ${Nimble Harvester Mek}, ${Recon Log Mek}, ${Underwater Patrol Mek}, ${Underwater Survey Mek}, ${Annihilation Specialist Mek}, ${Assault Specialist Mek}, ${Deepwater Assault Mek}, ${Construction Specialist Mek}, ${Suppression Specialist Mek}** are Common Enemies found in Fontaine. They drop **Meshing Gear ${Meshing Gear}**, **Mechanical Spur Gear ${Mechanical Spur Gear}** and **Artificed Dynamic Gear ${Artificed Dynamic Gear}**.",
+        "img": "https://static.hutaobot.moe/images/Clockwork_Mekas_a1f70c51.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Area Alert Mek", "Arithmetic Enhancer Mek", "Geological Survey Mek", "Nimble Harvester Mek", "Recon Log Mek", "Underwater Patrol Mek", "Underwater Survey Mek", "Annihilation Specialist Mek", "Assault Specialist Mek", "Deepwater Assault Mek", "Construction Specialist Mek", "Suppression Specialist Mek"],
+          "material": ["Meshing Gear", "Mechanical Spur Gear", "Artificed Dynamic Gear"]
         }
       }
     ]
@@ -523,7 +639,7 @@
       {
         "name": "Ruin Guard route (Chaos Device, Circuit and Core)",
         "desc": "**Ruin Guards ${Ruin Guard}** are Elite Enemies found across Teyvat. They are Automatons and drop **Chaos Device ${Chaos Device}**, **Chaos Circuit ${Chaos Circuit}** and **Chaos Core ${Chaos Core}**.",
-        "img": "https://cdn.discordapp.com/attachments/936758706459279390/936758743989882941/RG.png",
+        "img": "https://static.hutaobot.moe/images/RG_1c1367f6.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Ruin Guard"],
@@ -533,7 +649,7 @@
       {
         "name": "Ruin Sentinel route (Chaos Gear, Axis and Oculus): Inazuma",
         "desc": "**Ruin Sentinels ${Ruin Cruiser}${Ruin Destroyer}${Ruin Defender}${Ruin Scout}** are Elite Enemies found in Inazuma. They are Automatons and drop **Chaos Gear ${Chaos Gear}**, **Chaos Axis ${Chaos Axis}** and **Chaos Oculus ${Chaos Oculus}**.",
-        "img": "https://cdn.discordapp.com/attachments/939624503821103195/939628452192084028/Inazuma-RevisedSentinel.png",
+        "img": "https://static.hutaobot.moe/images/Inazuma-RevisedSentinel_c244a384.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Ruin Cruiser", "Ruin Destroyer", "Ruin Defender", "Ruin Scout"],
@@ -543,7 +659,7 @@
       {
         "name": "Ruin Sentinel route (Chaos Gear, Axis and Oculus): Enkanomiya",
         "desc": "**Ruin Sentinels ${Ruin Cruiser}${Ruin Destroyer}${Ruin Defender}${Ruin Scout}** are Elite Enemies found in Inazuma. They are Automatons and drop **Chaos Gear ${Chaos Gear}**, **Chaos Axis ${Chaos Axis}** and **Chaos Oculus ${Chaos Oculus}**.",
-        "img": "https://cdn.discordapp.com/attachments/939624503821103195/939650116841795615/EnkaSentinel.png",
+        "img": "https://static.hutaobot.moe/images/EnkaSentinel_54817e48.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Ruin Cruiser", "Ruin Destroyer", "Ruin Defender", "Ruin Scout"],
@@ -553,7 +669,7 @@
       {
         "name": "Ruin Drake route (Chaos Storage, Module and Bolt)",
         "desc": "**Ruin Drakes ${Ruin Drake: Earthguard}${Ruin Drake: Skywatch}** are Elite Enemies found in Sumeru. They are Automatons and drop **Chaos Storage ${Chaos Storage}**, **Chaos Module ${Chaos Module}** and **Chaos Bolt ${Chaos Bolt}**.",
-        "img": "https://cdn.discordapp.com/attachments/1016891273770176582/1032374693803597854/RuinDrakesDesertINC.png",
+        "img": "https://static.hutaobot.moe/images/RuinDrakesDesertINC_6c10c768.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Ruin Drake: Earthguard", "Ruin Drake: Skywatch"],
@@ -563,7 +679,7 @@
       {
         "name": "Primal Construct route (Damaged, Turbid and Radiant Prism)",
         "desc": "**Primal Constructs ${Primal Construct: Prospector}${Primal Construct: Repulsor}${Primal Construct: Reshaper}** are Elite Enemies found in Sumeru. They are Automatons and drop **Damaged Prism ${Damaged Prism}**, **Turbid Prism ${Turbid Prism}** and **Radiant Prism ${Radiant Prism}**.",
-        "img": "https://cdn.discordapp.com/attachments/1025526507390652477/1033007750361395290/pc.png",
+        "img": "https://static.hutaobot.moe/images/pc_474fd37b.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Primal Construct: Prospector", "Primal Construct: Repulsor", "Primal Construct: Reshaper"],
@@ -573,7 +689,7 @@
       {
         "name": "Fatui Pyro Agent route (Knives and Insignia)",
         "desc": "**Fatui Pyro Agents ${Fatui Pyro Agent}** are Elite Enemies found in Liyue and Inazuma. They are members of the Fatui and drop **Hunter's Sacrificial Knife ${Hunter's Sacrificial Knife}**, **Agent's Sacrificial Knife ${Agent's Sacrificial Knife}**, **Inspector's Sacrificial Knife ${Inspector's Sacrificial Knife}**, **Recruit's Insignia ${Recruit's Insignia}**, **Sergeant's Insignia ${Sergeant's Insignia}** and **Lieutenant's Insignia ${Lieutenant's Insignia}**.",
-        "img": "https://cdn.discordapp.com/attachments/925462737876828190/925462814653579284/Agents.png",
+        "img": "https://static.hutaobot.moe/images/Agents_e89363e9.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Fatui Pyro Agent"],
@@ -583,7 +699,7 @@
       {
         "name": "Fatui Cicin Mages route (Mist Grass and Insignia)",
         "desc": "**Fatui Cicin Mages ${Fatui Electro Cicin Mage}${Fatui Cryo Cicin Mage}** are Elite Enemies found wandering by themselves. They are members of the Fatui and drop **Mist Grass Pollen ${Mist Grass Pollen}**, **Mist Grass ${Mist Grass}**, **Mist Grass Wick ${Mist Grass Wick}**, **Recruit's Insignia ${Recruit's Insignia}**, **Sergeant's Insignia ${Sergeant's Insignia}** and **Lieutenant's Insignia ${Lieutenant's Insignia}**.",
-        "img": "https://cdn.discordapp.com/attachments/927679751987028018/927679779409363055/unknown.png",
+        "img": "https://static.hutaobot.moe/images/Fatui_Cicin_Mages_4c15be2d.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Fatui Electro Cicin Mage", "Fatui Cryo Cicin Mage"],
@@ -593,7 +709,7 @@
       {
         "name": "Fatui Mirror Maiden route (Dismal, Crystal and Polarizing Prism)",
         "desc": "**Fatui Mirror Maidens ${Mirror Maiden}** are Elite Enemies found in Inazuma. They are members of the Fatui and drop **Dismal Prism ${Dismal Prism}**, **Crystal Prism ${Crystal Prism}** and **Polarizing Prism ${Polarizing Prism}**.",
-        "img": "https://cdn.discordapp.com/attachments/924306487684243476/924306632693907487/Maiden.png",
+        "img": "https://static.hutaobot.moe/images/Maiden_1756a66a.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Mirror Maiden"],
@@ -603,7 +719,7 @@
       {
         "name": "Geovishap route (Fragile, Sturdy and Fossilized Bone Shard)",
         "desc": "**Geovishaps ${Geovishap}** are Elite Enemies found in Liyue. They belong to the Vishaps and drop **Fragile Bone Shard ${Fragile Bone Shard}**, **Sturdy Bone Shard ${Sturdy Bone Shard}** and **Fossilized Bone Shard ${Fossilized Bone Shard}**.",
-        "img": "https://cdn.discordapp.com/attachments/927702270995476481/927702300011671593/unknown.png",
+        "img": "https://static.hutaobot.moe/images/Geovishap_3549db7f.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Geovishap", "Geovishap Hatchling"],
@@ -613,7 +729,7 @@
       {
         "name": "Abyss Mage route (Dead Ley Line Branch, Leaves and Sprout): Mondstadt and Liyue",
         "desc": "**Abyss Mages ${Pyro Abyss Mage}${Hydro Abyss Mage}${Cryo Abyss Mage}** are Elite Enemies found around Teyvat. They belong to the Abyss and drop **Dead Ley Line Branch ${Dead Ley Line Branch}**, **Dead Ley Line Leaves ${Dead Ley Line Leaves}** and **Ley Line Sprout ${Ley Line Sprout}**.",
-        "img": "https://cdn.discordapp.com/attachments/939285463464833165/939294037528150096/MLAbyss.png",
+        "img": "https://static.hutaobot.moe/images/MLAbyss_33f2dd2f.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Pyro Abyss Mage", "Hydro Abyss Mage", "Cryo Abyss Mage"],
@@ -623,7 +739,7 @@
       {
         "name": "Abyss Mage route (Dead Ley Line Branch, Leaves and Sprout): Inazuma",
         "desc": "**Abyss Mages ${Pyro Abyss Mage}${Hydro Abyss Mage}${Electro Abyss Mage}${Cryo Abyss Mage}** are Elite Enemies found around Teyvat. They belong to the Abyss and drop **Dead Ley Line Branch ${Dead Ley Line Branch}**, **Dead Ley Line Leaves ${Dead Ley Line Leaves}** and **Ley Line Sprout ${Ley Line Sprout}**.",
-        "img": "https://cdn.discordapp.com/attachments/939285463464833165/939301007614177330/InAbyss.png",
+        "img": "https://static.hutaobot.moe/images/InAbyss_ea9733e3.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Pyro Abyss Mage", "Hydro Abyss Mage", "Electro Abyss Mage", "Cryo Abyss Mage"],
@@ -633,7 +749,7 @@
       {
         "name": "Abyss Mage, Herald and Lector route (Dead Ley Line Branch, Leaves and Sprout): Enkanomiya",
         "desc": "**Abyss Mages ${Pyro Abyss Mage}${Hydro Abyss Mage}${Electro Abyss Mage}${Cryo Abyss Mage}**, **Abyss Herald ${Abyss Herald: Wicked Torrents}** and **Abyss Lector ${Abyss Lector: Violet Lightning}** are Elite Enemies found around Teyvat. They belong to the Abyss and drop **Dead Ley Line Branch ${Dead Ley Line Branch}**, **Dead Ley Line Leaves ${Dead Ley Line Leaves}** and **Ley Line Sprout ${Ley Line Sprout}**.",
-        "img": "https://cdn.discordapp.com/attachments/939285463464833165/939285525293064212/EnkAbyss.png",
+        "img": "https://static.hutaobot.moe/images/EnkAbyss_929ca11e.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Pyro Abyss Mage", "Hydro Abyss Mage", "Electro Abyss Mage", "Cryo Abyss Mage", "Abyss Herald: Wicked Torrents", "Abyss Lector: Violet Lightning"],
@@ -643,7 +759,7 @@
       {
         "name": "Rifthound route (Concealed Claw, Unguis and Talon)",
         "desc": "**Rifthounds ${Rockfond Rifthound Whelp}${Thundercraven Rifthound Whelp}${Rockfond Rifthound}${Thundercraven Rifthound}** are Elite Enemies found on Tsurumi Island. They belong to the Abyss and drop **Concealed Claw ${Concealed Claw}**, **Concealed Unguis ${Concealed Unguis}** and **Concealed Talon ${Concealed Talon}**.",
-        "img": "https://cdn.discordapp.com/attachments/923108653949665311/931992280523489280/unknown.png",
+        "img": "https://static.hutaobot.moe/images/Rifthound_0ffd1d7a.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Rockfond Rifthound Whelp", "Thundercraven Rifthound Whelp", "Rockfond Rifthound", "Thundercraven Rifthound"],
@@ -653,7 +769,7 @@
       {
         "name": "Black Serpent Knight route (Gloomy, Dark and Deathly Statuette)",
         "desc": "**Black Serpent Knights ${Shadowy Husk: Standard Bearer}${Shadowy Husk: Line Breaker}${Shadowy Husk: Defender}${Black Serpent Knight: Windcutter}** are Elite Enemies found in The Chasm. They belong to the Abyss and drop **Gloomy Statuette ${Gloomy Statuette}**, **Dark Statuette ${Dark Statuette}** and **Deathly Statuette ${Deathly Statuette}**.",
-        "img": "https://cdn.discordapp.com/attachments/959275124312383539/959275172236505159/FakeSerpents.png",
+        "img": "https://static.hutaobot.moe/images/FakeSerpents_a56eb81f.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Shadowy Husk: Standard Bearer", "Shadowy Husk: Line Breaker", "Shadowy Husk: Defender", "Black Serpent Knight: Windcutter"],
@@ -663,11 +779,21 @@
       {
         "name": "Hilichurl Rogue route (A Flower Yet to Bloom, Treasured Flower and Wanderer's Blooming Flower)",
         "desc": "**Hilichurl Rogues ${Anemo Hilichurl Rogue}${Hydro Hilichurl Rogue}** are Elite Enemies found in the Sumeru Desert. They belong to the Hilichurls family and drop **A Flower Yet to Bloom ${A Flower Yet to Bloom}**, **Treasured Flower ${Treasured Flower}** and **Wanderer's Blooming Flower ${Wanderer's Blooming Flower}**.",
-        "img": "https://cdn.discordapp.com/attachments/959275124312383539/959275172236505159/FakeSerpents.png",
+        "img": "https://static.hutaobot.moe/images/FakeSerpents_a56eb81f.png",
         "credits": "Soul",
         "links": {
           "enemy": ["Anemo Hilichurl Rogue", "Hydro Hilichurl Rogue"],
           "material": ["A Flower Yet to Bloom", "Treasured Flower", "Wanderer's Blooming Flower"]
+        }
+      },
+      {
+        "name": "Fatui Operative route (Old Operative's Pocket Watch, Operative's Standard Pocket Watch and Operative's Constancy)",
+        "desc": "**Fatui Operatives ${Frost Operative}${Wind Operative}** are Elite Enemies found in the Fontaine. They belong to the Fatui and drop **Old Operative's Pocket Watch ${Old Operative's Pocket Watch}**, **Operative's Standard Pocket Watch ${Operative's Standard Pocket Watch}** and **Operative's Constancy ${Operative's Constancy}**.",
+        "img": "https://static.hutaobot.moe/images/FatuiOperative_2337b51d.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Frost Operative", "Wind Operative"],
+          "material": ["Old Operative's Pocket Watch", "Operative's Standard Pocket Watch", "Operative's Constancy"]
         }
       }
     ]
@@ -678,7 +804,7 @@
       {
         "name": "Radiant Spincrystals",
         "desc": "**Radiant Spincrystals** are used to unlock soundtracks in the Serenitea Pot. This guide includes the ones obtained from **Teyvat**, the other ones can be obtained from **Chubby**.",
-        "img": "https://cdn.discordapp.com/attachments/959592219982065664/962004982033440848/Genshin_-_Raidant_Spincrystal.jpg",
+        "img": "https://static.hutaobot.moe/images/Genshin_-_Raidant_Spincrystal_030e6db1.jpg",
         "credits": "Jnight"
       }
     ]
@@ -689,43 +815,43 @@
       {
         "name": "Locked Gate with Lumenspar in Underground Mines",
         "desc": "Lumenspar behind a locked gate that requires the use of map fragments.",
-        "img": "https://cdn.discordapp.com/attachments/964148007815741460/966720148465672252/LBLG.jpg",
+        "img": "https://static.hutaobot.moe/images/LBLG_776ba02f.jpg",
         "credits": "Soul"
       },
       {
         "name": "Locked Gate near Tiangong Gorge",
         "desc": "Unlocked from the bottom of the underground north of the main mining area.",
-        "img": "https://cdn.discordapp.com/attachments/964148007815741460/966720342510948392/LGTG.png",
+        "img": "https://static.hutaobot.moe/images/LGTG_38a325d7.png",
         "credits": "Soul"
       },
       {
         "name": "\"Paleontological Investigation\" - Fossil Locations",
         "desc": "Fossil locations for Khedive's \"Paleontological Investigation\" quest. Take pictures at the highlighted locations.",
-        "img": "https://cdn.discordapp.com/attachments/964148007815741460/966719739835588648/PIITC.jpg",
+        "img": "https://static.hutaobot.moe/images/PIITC_a3c60709.jpg",
         "credits": "Soul"
       },
       {
         "name": "\"The Millenial Mountains\" - Item Locations",
         "desc": "Locations of the different items for the \"The Millenial Mountains\" quest.",
-        "img": "https://cdn.discordapp.com/attachments/964148007815741460/966720080467591278/CTMM.jpg",
+        "img": "https://static.hutaobot.moe/images/CTMM_8ddb56d4.jpg",
         "credits": "Soul"
       },
       {
         "name": "\"The Nine-Word Rumor\" - Text Locations",
         "desc": "Locations of the secret messages for the \"The Nine-Word Rumor\" achievement. Unequip your Lumenstone so you can observere them.",
-        "img": "https://cdn.discordapp.com/attachments/964148007815741460/966719851513118811/T9WR.jpg",
+        "img": "https://static.hutaobot.moe/images/T9WR_ab3c4c82.jpg",
         "credits": "Soul"
       },
       {
         "name": "\"If Not Us, Then Who?\" - Fatui Action Log Locations",
         "desc": "Fatui Action Log locations for the \"If Not Us, Then Who?\" achievement.",
-        "img": "https://cdn.discordapp.com/attachments/964148007815741460/966720294066720828/INUTW.jpg",
+        "img": "https://static.hutaobot.moe/images/INUTW_b4393eb1.jpg",
         "credits": "Soul"
       },
       {
         "name": "\"The Chasm Mining Records\" - text fragment locations",
         "desc": "Locations of the text fragments related to mining for the \"The Chasm Mining Records\" achievement.",
-        "img": "https://cdn.discordapp.com/attachments/964148007815741460/966720405253525535/TCMR.png",
+        "img": "https://static.hutaobot.moe/images/TCMR_233d6851.png",
         "credits": "Soul"
       }
     ]
@@ -736,26 +862,26 @@
       {
         "name": "Damaged Stone Slate locations",
         "desc": "Locations of the 7 Damaged Stone Slates that you need to find. Needed for The Bunkoku Enigma event quest. Solution for the tile puzzle is also available (see next page).",
-        "img": "https://cdn.discordapp.com/attachments/945055392638070794/945055816875114567/8slateA.png",
+        "img": "https://static.hutaobot.moe/images/8slateA_783ef96d.png",
         "credits": "Soul"
       },
       {
         "name": "The Bunkoku Enigma Tile Puzzle solution",
         "desc": "Solution for tile puzzle that is needed for The Bunkoku Enigma event quest. Locations of the 7 Stone Slates that are needed are also available (see previous page).",
-        "img": "https://cdn.discordapp.com/attachments/945055392638070794/945055933191557190/sbYX1rZ.png",
+        "img": "https://static.hutaobot.moe/images/sbYX1rZ_17ac36c1.png",
         "url": "https://youtu.be/ng-WrSDGPjY",
         "credits": "Soul"
       },
       {
         "name": "Evernight Temple Electro Monument puzzle",
         "desc": "Unlocking the Evernight Temple during the event requires the activation of 4 Electro monuments.",
-        "img": "https://cdn.discordapp.com/attachments/945055392638070794/945056132953686106/0sWzq7L.png",
+        "img": "https://static.hutaobot.moe/images/0sWzq7L_74182449.png",
         "credits": "Soul"
       },
       {
         "name": "South-west Island 3 Seelie locations",
         "desc": "Locations of the 3 Seelies needed for a trial during the event.",
-        "img": "https://cdn.discordapp.com/attachments/945055392638070794/945056563599642664/kz7HavJ.png",
+        "img": "https://static.hutaobot.moe/images/kz7HavJ_576cb7bd.png",
         "credits": "Soul"
       }
     ]
