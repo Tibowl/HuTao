@@ -3207,6 +3207,8 @@
     {
         "name": "\"Misty Dungeon: Realm of Water\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/22800499",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/11/06/f75ce4f3dfe83928ba858a5e4e91568a_4505579816077673011.jpg",
         "start": "2023-11-09 10:00:00",
         "end": "2023-11-20 03:59:00",
         "reminder": "end"
