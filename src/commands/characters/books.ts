@@ -70,7 +70,7 @@ Amounts need to be without extras from constellations`,
         const { materials } = data
 
         const allBooks = Object.values(materials)
-            .filter(x => x.type?.startsWith("Talent Level-Up Material") && x.stars == 3)
+            .filter(x => x.type?.startsWith("Character Talent Material") && x.stars == 3)
 
         const days = [
             ["Monday & Thursday", "Monday/Thursday/Sunday"],

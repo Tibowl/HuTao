@@ -4196,5 +4196,46 @@
         "10%"
       ]
     ]
+  },
+  "Hydro Tulpa": {
+    "name": "Hydro Tulpa",
+    "desc": "A humanoid monster formed from the agglomeration of water.",
+    "icon": "img/enemy/Hydro_Tulpa.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "All-Devouring Narwhal": {
+    "name": "All-Devouring Narwhal",
+    "desc": "A mysterious and gargantuan creature from another world.",
+    "icon": "img/enemy/AllDevouring_Narwhal.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "70%",
+        "10%",
+        "10%",
+        "10%"
+      ],
+      [
+        "10%",
+        "70%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
   }
 }

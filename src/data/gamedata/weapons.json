@@ -16776,6 +16776,131 @@
       }
     ]
   },
+  "Splendor of Tranquil Waters": {
+    "name": "Splendor of Tranquil Waters",
+    "desc": "A scepter around which swirls pure water. In days long past, it once symbolized the highest authority over the seas.",
+    "weaponType": "Sword",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 44.33580017089844,
+        "curve": "ATK 3.4"
+      },
+      {
+        "stat": "CRIT DMG",
+        "init": 0.19200000166893005,
+        "curve": "C3"
+      }
+    ],
+    "icon": "img/weapon/Splendor_of_Tranquil_Waters.png",
+    "awakenIcon": "img/weapon_woke/Splendor_of_Tranquil_Waters.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts5",
+      "mapping": {
+        "EnemyDropTierA1": "Drop of Tainted Water",
+        "EnemyDropTierA2": "Scoop of Tainted Water",
+        "EnemyDropTierA3": "Newborn Tainted Hydro Phantasm",
+        "EnemyDropTierB1": "Transoceanic Pearl",
+        "EnemyDropTierB2": "Transoceanic Chunk",
+        "EnemyDropTierB3": "Xenochromatic Crystal",
+        "WeaponAsc1": "Dross of Pure Sacred Dewdrop",
+        "WeaponAsc2": "Sublimation of Pure Sacred Dewdrop",
+        "WeaponAsc3": "Spring of Pure Sacred Dewdrop",
+        "WeaponAsc4": "Essence of Pure Sacred Dewdrop"
+      }
+    },
+    "lore": "\"Sin tempted the City of Eternity to its fall, with countless slaves and usurpers thrown down in a night of wrath.\"\n\"In the name of Egeria, we swear to find the Pure Grail and restore her to her land.\"\n\"For only in this way can we atone for the sin we have borne since birth and avoid a similar death.\"\n\"No matter the sacrifice, we shall complete this noble mission in the name of the Lochknights.\"\n\nThe great symphony would reach its fated end, and on the ruins of a decaying world, the upholders of righteousness made their oath.\nThis water-blue scepter once belonged to a knight named Erinnyes who, in the time of the song of harmony, unified those of the high waters who rebelled against the gods.\nLegend has it that her home was destroyed early on by the wrathful God King, with an army from the Golden City enslaving or killing her family.\nOnly two were to escape that fate. One met with the proud Harmost during the war and ultimately rose to inherit his authority.\nThe other received the grace of the Mistress of Many Waters and was taken in by the Prince of Aremorica, to guard those pure waters not yet seized by the God King.\nTwo people, survivors of the same home, drifting apart like duckweed on the seas of fate, one toward good, one toward evil.\n\nAnd so, guided by the sea breeze and the whispers of the maiden in the lake, the noble and determined knights set out on their quest.\nThey faced unimaginable trials and endured sufferings never before known. But in the end, the heartfelt longing of the people reached the heavens.\nThen, thanks to their pure hearts and the Pure Grail obtained through countless sacrifices, the Mistress of Many Waters was freed from imprisonment and restored...\n\n\"O Mistress of Many Waters, O gracious Egeria, I yearn for your judgment.\"\n\"I have done deeds good and great, but sinned in that doing.\"\n\"Your ideals permit no corruption. Only my expulsion can bring me peace.\"\n\"O Mistress of Many Waters, O gracious Egeria, grant me this final wish.\"\n\nOn a morning clear as the light reflected on the lake, the Mistress of Many Waters was moved by that pained plea.\nAnd so the kindly goddess granted her wish and gave her blessing to the journey ahead.\nFor the Mistress of Many Waters knew that a fair judgment was the greatest leniency one could give a selfless soul.\nAnd perhaps that is why that noble verdict dyed fate in its colors.\n\nAnd thus did a sword as pure as lake-light sink into the lake alongside Egeria's blessings,\nAnd the knight who had wielded that sword left, her head held high, never to be seen again.\n\"Sin tempted the City of Eternity to its fall, with countless slaves and usurpers thrown down in a night of wrath.\"\n\"In the name of the Mother Goddess, we swear to retrieve the Pure Grail and shatter the shackles that confine her.\"\n\"For only in this way can we wash for the sin we have borne since birth away, and avoid a similar death.\"\n\"No matter the sacrifice, we must see this justice done.\"\n\nThe great symphony would reach its fated end, and on the ruins of a decaying world, the avengers enamored of revenge made their oath.\nThis water-blue scepter once belonged to a singer named Erinnyes who, in the time of the song of harmony, unified those of the high waters who rebelled against the gods.\nLegend has it that her tribe was destroyed by the conquering God King, and that an army from the Golden City enslaved or slew her tribespeople.\nOnly two were to escape that fate. One met with the proud Harmost during the war and ultimately rose to inherit his authority.\nThe other hid amidst the bones and was taken in by the chieftain of Aremorica, to guard those pure waters not yet seized by the God King.\nTwo people who had been lulled to sleep by the same lullabies and sea breezes, found themselves now drifting apart, one on each side of the conflict.\n\nAnd so, guided by the tides and the whispers of the spirit, the sword-singer of destruction set out on her quest.\nShe faced unimaginable trials and endured sufferings never before known. Yet, she remained unable to find that Pure Grail.\nBut it was the heavens who chose the Mistress of Many Waters, commanding her to return from her primeval prison to take over from the golden king and rule the sea-ruins.\n\n\"O Mistress of Many Waters, glorious primordial mother, I beg for your wisdom.\"\n\"For you, I have killed the unrighteous and toppled countless cities.\"\n\"Please tell me, this I plead, how the descendants of all seas might avoid disaster.\"\n\"O Mistress of Many Waters, glorious primordial mother, please show mercy, just this once.\"\n\nIn the bloodstained dusk, the Queen of All Waters was moved by that plaintive plea.\nAnd so the kindly goddess told the supplicant what she had once told the King of Fortuna.\nBut the goddess did not yet know that a self-interested plea could lead only to despair.\nAnd perhaps for that reason, the collapsing illusion thus dyed that so-called faith in its colors.\n\nThe aqua-shaded sword, long stained with blood, fell away, carrying the last thread of reason with it.\nThe singer who had wielded that sword stumbled from the valley, and she was never to be seen again.\n\nThe chieftain who dreamed of honor and glory did not see the land of her dreams, nor would she ever find absolution, much like the goddess who shared similar hopes.\nMany years later, when the musician known as the Golden Hunter remembered this name,\nNeither blood nor tears were in his thoughts. Only the sound of a distant flute, a twisting melody under a watery moon.",
+    "refinements": [
+      {
+        "name": "Dawn and Dusk by the Lake",
+        "desc": "When the equipping character's current HP increases or decreases, Elemental Skill DMG dealt will be increased by **8%** for 6s. Max 3 stacks. This effect can be triggered once every 0.2s. When other party members' current HP increases or decreases, the equipping character's Max HP will be increased by **14%** for 6s. Max 2 stacks. This effect can be triggered once every 0.2s. The aforementioned effects can be triggered even if the wielder is off-field."
+      },
+      {
+        "name": "Dawn and Dusk by the Lake",
+        "desc": "When the equipping character's current HP increases or decreases, Elemental Skill DMG dealt will be increased by **10%** for 6s. Max 3 stacks. This effect can be triggered once every 0.2s. When other party members' current HP increases or decreases, the equipping character's Max HP will be increased by **17.5%** for 6s. Max 2 stacks. This effect can be triggered once every 0.2s. The aforementioned effects can be triggered even if the wielder is off-field."
+      },
+      {
+        "name": "Dawn and Dusk by the Lake",
+        "desc": "When the equipping character's current HP increases or decreases, Elemental Skill DMG dealt will be increased by **12%** for 6s. Max 3 stacks. This effect can be triggered once every 0.2s. When other party members' current HP increases or decreases, the equipping character's Max HP will be increased by **21%** for 6s. Max 2 stacks. This effect can be triggered once every 0.2s. The aforementioned effects can be triggered even if the wielder is off-field."
+      },
+      {
+        "name": "Dawn and Dusk by the Lake",
+        "desc": "When the equipping character's current HP increases or decreases, Elemental Skill DMG dealt will be increased by **14%** for 6s. Max 3 stacks. This effect can be triggered once every 0.2s. When other party members' current HP increases or decreases, the equipping character's Max HP will be increased by **24.5%** for 6s. Max 2 stacks. This effect can be triggered once every 0.2s. The aforementioned effects can be triggered even if the wielder is off-field."
+      },
+      {
+        "name": "Dawn and Dusk by the Lake",
+        "desc": "When the equipping character's current HP increases or decreases, Elemental Skill DMG dealt will be increased by **16%** for 6s. Max 3 stacks. This effect can be triggered once every 0.2s. When other party members' current HP increases or decreases, the equipping character's Max HP will be increased by **28%** for 6s. Max 2 stacks. This effect can be triggered once every 0.2s. The aforementioned effects can be triggered even if the wielder is off-field."
+      }
+    ]
+  },
   "Staff of Homa": {
     "name": "Staff of Homa",
     "desc": "A \"firewood staff\" that was once used in ancient and long-lost rituals.",
@@ -17257,6 +17382,131 @@
       {
         "name": "Descension",
         "desc": "**Effective only on the following platform: **\n**\"PlayStation Network\"**\nHitting opponents with Normal and Charged Attacks grants a **50%** chance to deal **200%** ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by **66**."
+      }
+    ]
+  },
+  "Sword of Narzissenkreuz": {
+    "name": "Sword of Narzissenkreuz",
+    "desc": "A sword whose power faded when the story ended. It will now embark upon a new journey with the power that remains within it, which commemorates a certain great dream.",
+    "weaponType": "Sword",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.09000000357627869,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Sword_of_Narzissenkreuz.png",
+    "awakenIcon": "img/weapon/Sword_of_Narzissenkreuz.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Old Operative's Pocket Watch",
+        "EnemyDropTierA2": "Operative's Standard Pocket Watch",
+        "EnemyDropTierA3": "Operative's Constancy",
+        "EnemyDropTierB1": "Transoceanic Pearl",
+        "EnemyDropTierB2": "Transoceanic Chunk",
+        "EnemyDropTierB3": "Xenochromatic Crystal",
+        "WeaponAsc1": "Fragment of an Ancient Chord",
+        "WeaponAsc2": "Chapter of an Ancient Chord",
+        "WeaponAsc3": "Movement of an Ancient Chord",
+        "WeaponAsc4": "Echo of an Ancient Chord"
+      }
+    },
+    "lore": "Travels are full of meetings and partings.\nPerhaps the only trusty and inseparable companions of a Traveler,\nAre the sword in their hand and the dream in their heart.\n\nBefore growing old, the eternal Traveler shall pass through many worlds.\nLeaving behind naught but stories beyond count and a slightly brighter future.",
+    "refinements": [
+      {
+        "name": "Hero's Blade",
+        "desc": "When the equipping character does not have an Arkhe: When Normal Attacks, Charged Attacks, or Plunging Attacks strike, a Pneuma or Ousia energy blast will be unleashed, dealing **160%** of ATK as DMG. This effect can be triggered once every 12s. The energy blast type is determined by the current type of the Sword of Narzissenkreuz."
+      },
+      {
+        "name": "Hero's Blade",
+        "desc": "When the equipping character does not have an Arkhe: When Normal Attacks, Charged Attacks, or Plunging Attacks strike, a Pneuma or Ousia energy blast will be unleashed, dealing **200%** of ATK as DMG. This effect can be triggered once every 12s. The energy blast type is determined by the current type of the Sword of Narzissenkreuz."
+      },
+      {
+        "name": "Hero's Blade",
+        "desc": "When the equipping character does not have an Arkhe: When Normal Attacks, Charged Attacks, or Plunging Attacks strike, a Pneuma or Ousia energy blast will be unleashed, dealing **240%** of ATK as DMG. This effect can be triggered once every 12s. The energy blast type is determined by the current type of the Sword of Narzissenkreuz."
+      },
+      {
+        "name": "Hero's Blade",
+        "desc": "When the equipping character does not have an Arkhe: When Normal Attacks, Charged Attacks, or Plunging Attacks strike, a Pneuma or Ousia energy blast will be unleashed, dealing **280%** of ATK as DMG. This effect can be triggered once every 12s. The energy blast type is determined by the current type of the Sword of Narzissenkreuz."
+      },
+      {
+        "name": "Hero's Blade",
+        "desc": "When the equipping character does not have an Arkhe: When Normal Attacks, Charged Attacks, or Plunging Attacks strike, a Pneuma or Ousia energy blast will be unleashed, dealing **320%** of ATK as DMG. This effect can be triggered once every 12s. The energy blast type is determined by the current type of the Sword of Narzissenkreuz."
       }
     ]
   },

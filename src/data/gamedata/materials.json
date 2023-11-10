@@ -830,6 +830,30 @@
       "Recommendation:Found in Fontaine Research Institute of Kinetic Energy Engineering Region"
     ]
   },
+  "Lakelight Lily": {
+    "name": "Lakelight Lily",
+    "desc": "A clear and clean azure flower, it is born where Water Veins come together. It has a simple, cool, and elegant fragrance, pungent and refreshing yet gentle.",
+    "longDesc": "A clear and clean azure flower, it is born where Water Veins come together. It has a simple, cool, and elegant fragrance, pungent and refreshing yet gentle.\nIn the language of flowers, it means \"waiting\" and \"everlasting promise.\"\nIn ancient legends, the Mistress of Many Waters gave a flower as pure as Lakelight to the last Lochknight as a farewell gift. To this day, Fontaine maintains the tradition of picking a Lily and giving it to those on long journeys, wishing one another a road ahead as tranquil as pure water, and that those most precious will be able to follow its cool light, returning to their side.",
+    "type": "Local Specialty (Fontaine)",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Lakelight_Lily.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Found in Erinnyes Forest"
+    ]
+  },
+  "Spring of the First Dewdrop": {
+    "name": "Spring of the First Dewdrop",
+    "desc": "A limpid drop of dew floating amidst the waters of Morte Region. It is different from other pure water bodies, as though it is a conglomeration of even more pure and primordial Elemental Energy.",
+    "longDesc": "A limpid drop of dew floating amidst the waters of Morte Region. It is different from other pure water bodies, as though it is a conglomeration of even more pure and primordial Elemental Energy.\nThe Natural Philosophers of ancient Fontaine never recorded such a creation, until engineers from the Fontaine Research Institute began to conduct some scattered research over 400 years ago. Some scholars believe that this pure Ichor was the final legacy Egeria bequeathed to Fontaine — but even today, this theory has no reliable evidence to support it.",
+    "type": "Local Specialty (Fontaine)",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Spring_of_the_First_Dewdrop.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Found underwater in Morte Region"
+    ]
+  },
   "Northlander Sword Billet": {
     "name": "Northlander Sword Billet",
     "desc": "Weapon forging material. Can be used to forge 4-star swords. \nPhilosophers believe marble has the potential to be sculpted into a beautiful statue. Likewise, these billets have the potential to become something greater.",
@@ -2319,6 +2343,38 @@
       "recipe": "Barbeque Ribs"
     },
     "effect": "Restores 30% of Max HP and an additional 1,750 HP to the selected character."
+  },
+  "\"Pour la Justice\"": {
+    "name": "\"Pour la Justice\"",
+    "desc": "Furina's specialty. \"Pour la Justice\" means \"veneration of justice\" in Fontaine, and she who once performed on the greatest of stages bore witness to the birth of sublime justice. Its layered flavors seem to swell and fade like the waves of the sea, before finally relaxing as though laying down a heavy burden. Perhaps it reflects something she personally experienced?",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Pour_la_Justice.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Furina",
+      "recipe": "La Lettre a Focalors"
+    },
+    "effect": "Increases all party members' Max HP by 30% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
+  "Exclusive Scoop: Gourmet Column": {
+    "name": "Exclusive Scoop: Gourmet Column",
+    "desc": "Charlotte's specialty. A snack that she stuffed in your hands while you accompany her on a relentless pursuit of exclusive scoops. You glance at her skipping beside you, and the excited rhythm of her steps slowly overlaps with the crackling of crispy fried fish fillets in your mouth... Though this latest news has yet to be turned into a finished story, the joy and contentment in your heart has already reached its peak.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Exclusive_Scoop_Gourmet_Column.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Charlotte",
+      "recipe": "Fish and Chips"
+    },
+    "effect": "Restores 130 Stamina."
   },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
@@ -7238,6 +7294,74 @@
       "Delicious Crepes Suzette": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   },
+  "La Lettre a Focalors": {
+    "name": "La Lettre a Focalors",
+    "desc": "A small cake, shaped into a long rectangle. The endlessly indulgent aroma of coffee and almonds draws you in and pushes your thoughts forward, as though you absentmindedly stumbled into an extravagant opera without even realizing it. You find yourself drowning in the twists and turns of this luxurious performance, and only hope that the finale never comes.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/La_Lettre_a_Focalors.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 3,
+        "name": "Coffee Beans"
+      },
+      {
+        "count": 2,
+        "name": "Almond"
+      }
+    ],
+    "effect": {
+      "Suspicious La Lettre a Focalors": "Increases all party members' Max HP by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "La Lettre a Focalors": "Increases all party members' Max HP by 22% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious La Lettre a Focalors": "Increases all party members' Max HP by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Blubber Profiterole": {
+    "name": "Blubber Profiterole",
+    "desc": "A cream-filled dessert. After the first morsel crosses your lips, you simply cannot help but scarf the rest down! Even the remnants of the cream lingering on the corners of your mouth is enough to flood your heart with contented bliss. If only every meal could be followed by such sweet perfection... Ah! How wondrous would this adventrous life be!",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Blubber_Profiterole.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 3,
+        "name": "Milk"
+      },
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Cream"
+      }
+    ],
+    "effect": {
+      "Suspicious Blubber Profiterole": "Increases all party members' Physical DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Blubber Profiterole": "Increases all party members' Physical DMG by 30% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Blubber Profiterole": "Increases all party members' Physical DMG by 40% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
   "Rice Pudding": {
     "name": "Rice Pudding",
     "desc": "A dessert made from rice. The soft, sticky rice and the sweet milk have melded together perfectly, their tastes complementing each other. If you eat it hot, you can enjoy the dense rice grains, and if you leave it till it's cold, you can savor the gentle fragrance of milk — each possessing its own beauty. People who eat such a dish cannot help but wonder: how many experiments led up to this moment?",
@@ -8345,10 +8469,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Dvalins_Plume.png",
-    "sources": [
-      "Lv. 70+ Stormterror Challenge Reward"
-    ]
+    "icon": "img/material/Dvalins_Plume.png"
   },
   "Dvalin's Claw": {
     "name": "Dvalin's Claw",
@@ -8356,10 +8477,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Dvalins_Claw.png",
-    "sources": [
-      "Lv. 70+ Stormterror Challenge Reward"
-    ]
+    "icon": "img/material/Dvalins_Claw.png"
   },
   "Dvalin's Sigh": {
     "name": "Dvalin's Sigh",
@@ -8367,10 +8485,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Dvalins_Sigh.png",
-    "sources": [
-      "Lv. 70+ Stormterror Challenge Reward"
-    ]
+    "icon": "img/material/Dvalins_Sigh.png"
   },
   "Tail of Boreas": {
     "name": "Tail of Boreas",
@@ -8378,10 +8493,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Tail_of_Boreas.png",
-    "sources": [
-      "Lv. 70+ Wolf of the North Challenge Reward"
-    ]
+    "icon": "img/material/Tail_of_Boreas.png"
   },
   "Ring of Boreas": {
     "name": "Ring of Boreas",
@@ -8389,10 +8501,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Ring_of_Boreas.png",
-    "sources": [
-      "Lv. 70+ Wolf of the North Challenge Reward"
-    ]
+    "icon": "img/material/Ring_of_Boreas.png"
   },
   "Spirit Locket of Boreas": {
     "name": "Spirit Locket of Boreas",
@@ -8400,10 +8509,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Spirit_Locket_of_Boreas.png",
-    "sources": [
-      "Lv. 70+ Wolf of the North Challenge Reward"
-    ]
+    "icon": "img/material/Spirit_Locket_of_Boreas.png"
   },
   "Tusk of Monoceros Caeli": {
     "name": "Tusk of Monoceros Caeli",
@@ -8411,10 +8517,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Tusk_of_Monoceros_Caeli.png",
-    "sources": [
-      "Lv. 70+ Childe Challenge Reward"
-    ]
+    "icon": "img/material/Tusk_of_Monoceros_Caeli.png"
   },
   "Shard of a Foul Legacy": {
     "name": "Shard of a Foul Legacy",
@@ -8422,10 +8525,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Shard_of_a_Foul_Legacy.png",
-    "sources": [
-      "Lv. 70+ Childe Challenge Reward"
-    ]
+    "icon": "img/material/Shard_of_a_Foul_Legacy.png"
   },
   "Shadow of the Warrior": {
     "name": "Shadow of the Warrior",
@@ -8433,10 +8533,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Shadow_of_the_Warrior.png",
-    "sources": [
-      "Lv. 70+ Childe Challenge Reward"
-    ]
+    "icon": "img/material/Shadow_of_the_Warrior.png"
   },
   "Dragon Lord's Crown": {
     "name": "Dragon Lord's Crown",
@@ -8444,10 +8541,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Dragon_Lords_Crown.png",
-    "sources": [
-      "Lv. 70+ Azhdaha Challenge Reward"
-    ]
+    "icon": "img/material/Dragon_Lords_Crown.png"
   },
   "Bloodjade Branch": {
     "name": "Bloodjade Branch",
@@ -8455,10 +8549,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Bloodjade_Branch.png",
-    "sources": [
-      "Lv. 70+ Azhdaha Challenge Reward"
-    ]
+    "icon": "img/material/Bloodjade_Branch.png"
   },
   "Gilded Scale": {
     "name": "Gilded Scale",
@@ -8466,10 +8557,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Gilded_Scale.png",
-    "sources": [
-      "Lv. 70+ Azhdaha Challenge Reward"
-    ]
+    "icon": "img/material/Gilded_Scale.png"
   },
   "Molten Moment": {
     "name": "Molten Moment",
@@ -8477,10 +8565,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Molten_Moment.png",
-    "sources": [
-      "Lv. 70+ Signora Challenge Reward"
-    ]
+    "icon": "img/material/Molten_Moment.png"
   },
   "Hellfire Butterfly": {
     "name": "Hellfire Butterfly",
@@ -8488,10 +8573,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Hellfire_Butterfly.png",
-    "sources": [
-      "Lv. 70+ Signora Challenge Reward"
-    ]
+    "icon": "img/material/Hellfire_Butterfly.png"
   },
   "Ashen Heart": {
     "name": "Ashen Heart",
@@ -8499,10 +8581,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Ashen_Heart.png",
-    "sources": [
-      "Lv. 70+ Signora Challenge Reward"
-    ]
+    "icon": "img/material/Ashen_Heart.png"
   },
   "Mudra of the Malefic General": {
     "name": "Mudra of the Malefic General",
@@ -8510,10 +8589,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Mudra_of_the_Malefic_General.png",
-    "sources": [
-      "Lv. 70+ Guardian of Eternity Challenge Reward"
-    ]
+    "icon": "img/material/Mudra_of_the_Malefic_General.png"
   },
   "Tears of the Calamitous God": {
     "name": "Tears of the Calamitous God",
@@ -8521,10 +8597,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Tears_of_the_Calamitous_God.png",
-    "sources": [
-      "Lv. 70+ Guardian of Eternity Challenge Reward"
-    ]
+    "icon": "img/material/Tears_of_the_Calamitous_God.png"
   },
   "The Meaning of Aeons": {
     "name": "The Meaning of Aeons",
@@ -8532,10 +8605,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/The_Meaning_of_Aeons.png",
-    "sources": [
-      "Lv. 70+ Guardian of Eternity Challenge Reward"
-    ]
+    "icon": "img/material/The_Meaning_of_Aeons.png"
   },
   "Puppet Strings": {
     "name": "Puppet Strings",
@@ -8543,10 +8613,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Puppet_Strings.png",
-    "sources": [
-      "Lv. 70+ Shouki no Kami, the Prodigal Challenge Reward"
-    ]
+    "icon": "img/material/Puppet_Strings.png"
   },
   "Mirror of Mushin": {
     "name": "Mirror of Mushin",
@@ -8554,10 +8621,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Mirror_of_Mushin.png",
-    "sources": [
-      "Lv. 70+ Shouki no Kami, the Prodigal Challenge Reward"
-    ]
+    "icon": "img/material/Mirror_of_Mushin.png"
   },
   "Daka's Bell": {
     "name": "Daka's Bell",
@@ -8565,10 +8629,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Dakas_Bell.png",
-    "sources": [
-      "Lv. 70+ Shouki no Kami, the Prodigal Challenge Reward"
-    ]
+    "icon": "img/material/Dakas_Bell.png"
   },
   "Worldspan Fern": {
     "name": "Worldspan Fern",
@@ -8576,10 +8637,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Worldspan_Fern.png",
-    "sources": [
-      "Lv. 70+ Guardian of Apep's Oasis Challenge Reward"
-    ]
+    "icon": "img/material/Worldspan_Fern.png"
   },
   "Primordial Greenbloom": {
     "name": "Primordial Greenbloom",
@@ -8587,10 +8645,7 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Primordial_Greenbloom.png",
-    "sources": [
-      "Lv. 70+ Guardian of Apep's Oasis Challenge Reward"
-    ]
+    "icon": "img/material/Primordial_Greenbloom.png"
   },
   "Everamber": {
     "name": "Everamber",
@@ -8598,10 +8653,33 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Everamber.png",
-    "sources": [
-      "Lv. 70+ Guardian of Apep's Oasis Challenge Reward"
-    ]
+    "icon": "img/material/Everamber.png"
+  },
+  "Lightless Silk String": {
+    "name": "Lightless Silk String",
+    "desc": "A slender strand that somehow ended up entangled on your weapon while fighting the All-Devouring Narwhal.\nIn ancient Fontaine, some thought that Fortuna, which ruled the world, was woven from countless fibers, like the strings of a harp. Strings that resonate with the majestic music would bring happiness to all, while discord would destroy the fabric of the universe.",
+    "stars": 5,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Lightless_Silk_String.png"
+  },
+  "Lightless Eye of the Maelstrom": {
+    "name": "Lightless Eye of the Maelstrom",
+    "desc": "A strange \"substance\" obtained from fighting against the All-Devouring Narwhal. Its actual weight far exceeds what would be expected given its size.\nEverything gathers around heavy objects, just as gold attracts more than iron, or the ground more than in the breeze blowing above. Just as light cannot escape from the vortex of darkness, cause and effect is attached to fate, perhaps irreversibly so.",
+    "longDesc": "A strange \"substance\" obtained from fighting against the All-Devouring Narwhal. Its actual weight far exceeds what would be expected given its size.\nEverything gathers around heavy objects, just as gold attracts more than iron, or the ground more than in the breeze blowing above. Just as light cannot escape from the vortex of darkness, cause and effect is attached to fate, perhaps irreversibly so.\nBut the heavy \"substance\" in your hand doesn't feel real, as if it was only a shadow of the All-Devouring Narwhal's prey. Perhaps you only fought the echoes from the depths of the universe.",
+    "stars": 5,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Lightless_Eye_of_the_Maelstrom.png"
+  },
+  "Lightless Mass": {
+    "name": "Lightless Mass",
+    "desc": "A fragment produced from the intense battle against the All-Devouring Narwhal.\nThe universe is a dark and cold place.\nBut look carefully. Inside are always faint glimmers of light, like pearls gleaming from within the sand, splinters of diamond sprinkled over asphalt, lights lancing through the fog on a misty night, and sparks that ignite the brightest blazes.",
+    "longDesc": "A fragment produced from the intense battle against the All-Devouring Narwhal.\nEven in the dark night sky, there are always faint glimmers of light, like pearls gleaming from within the sand, splinters of diamond sprinkled over asphalt, lights lancing through the fog on a misty night, and sparks that ignite the brightest blazes.\nBut look carefully. The lights are slowly disappearing and the darkness is invading from every direction. You will become an incandescent inferno, a new star burning brightly and illuminating the universe for but a brief period. Or, you will become the ruler of darkness that stamps out all such trifling sparks.",
+    "stars": 5,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Lightless_Mass.png"
   },
   "Hurricane Seed": {
     "name": "Hurricane Seed",
@@ -8833,6 +8911,15 @@
     "category": "Trophies",
     "icon": "img/material/Fontemer_Unihorn.png"
   },
+  "Water That Failed To Transcend": {
+    "name": "Water That Failed To Transcend",
+    "desc": "The only remnants of Hydro Tulpas after their parts are dispersed.\nThis substance is very similar to the crystals extracted from the bodies of Fontemer Aberrants, but they contain a lot of tiny impurities, like the bubbles in glass crafted by clumsy craftsmen.",
+    "longDesc": "The only remnants of Hydro Tulpas after their parts are dispersed.\nThis substance is very similar to the crystals extracted from the bodies of Fontemer Aberrants, but they contain a lot of tiny impurities, like the bubbles in glass crafted by clumsy craftsmen.\nThey don't look as smooth as the Transoceanic Pearls from the Fontemer Aberrants, but have incredibly sharp spikes extending in all directions. However, instead of appearing dangerous or aggressive, these spikes look as though they wish to escape the center of the crystal, or stretch out and extend in all directions.",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Water_That_Failed_To_Transcend.png"
+  },
   "Brilliant Diamond Sliver": {
     "name": "Brilliant Diamond Sliver",
     "desc": "Character Ascension material.\n\"Welcome to this world.\"",
@@ -8943,6 +9030,7 @@
     "sources": [
       "Dropped by Oceanids",
       "Dropped by Hydro Hypostases",
+      "Dropped by Hydro Tulpas",
       "Purchase from the Souvenir Shop"
     ]
   },
@@ -8956,6 +9044,7 @@
     "sources": [
       "Dropped by Lv. 40+ Oceanids",
       "Dropped by Lv. 40+ Hydro Hypostases",
+      "Dropped by Lv. 40+ Hydro Tulpas",
       "Crafted"
     ]
   },
@@ -8969,6 +9058,7 @@
     "sources": [
       "Dropped by Lv. 60+ Oceanids",
       "Dropped by Lv. 60+ Hydro Hypostases",
+      "Dropped by Lv. 60+ Hydro Tulpas",
       "Crafted"
     ]
   },
@@ -8982,6 +9072,7 @@
     "sources": [
       "Dropped by Lv. 75+ Oceanids",
       "Dropped by Lv. 75+ Hydro Hypostases",
+      "Dropped by Lv. 75+ Hydro Tulpas",
       "Crafted"
     ]
   },
@@ -11740,6 +11831,14 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "img/material/Special_Kamera.png"
+  },
+  "\"Special Analysis Zoom Lens\"": {
+    "name": "\"Special Analysis Zoom Lens\"",
+    "desc": "A new type of Kamera accessory developed to enhance image recognition capabilities.\nAfter equipping this accessory, a normal Kamera can quickly adjust its focus, allowing it to capture images of your travels so you can record precious memories at a moment's notice.",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Special_Analysis_Zoom_Lens.png"
   },
   "Memento Lens": {
     "name": "Memento Lens",
