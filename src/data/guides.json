@@ -473,6 +473,15 @@
         "links": {
           "material": ["Tidalga"]
         }
+      },
+      {
+        "name": "Lakelight Lily route (No quests)",
+        "desc": "**Lakelight Lilies ${Lakelight Lily}** can be found in the wilderness of Fontaine near Erinnyes Forest.\n\n> A clear and clean azure flower, it is born where Water Veins come together. It has a simple, cool, and elegant fragrance, pungent and refreshing yet gentle.",
+        "img": "https://static.hutaobot.moe/images/LakelightLilyNQ_06a733b2.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Lakelight Lily"]
+        }
       }
     ]
   },
