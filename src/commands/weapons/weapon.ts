@@ -4,7 +4,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { CommandSource, SendMessage, Weapon } from "../../utils/Types"
-import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLink, getLinkToGuide, PAD_START, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
+import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidatesForAutocomplete, getLink, getLinkToGuide, PAD_START, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 
 const weaponTypes = Object.values(client.data.weapons)
     .map(c => c.weaponType)
@@ -63,13 +63,13 @@ Note: this command supports fuzzy search.`,
             if (foundChar == "")
                 targets = [...weaponTypes, ...possibleStars.map(n => `${n}*`)].map(x => `-${x.toLowerCase()}`)
 
-            return await source.respond(findFuzzyBestCandidates(targets, lastWord, 20).map(value => {
+            return await source.respond(findFuzzyBestCandidatesForAutocomplete(targets, lastWord, 20).map(value => {
                 value = `${args.join(" ")} ${value}`
                 return { name: value, value }
             }))
         }
 
-        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+        await source.respond(findFuzzyBestCandidatesForAutocomplete(targetNames, search, 20).map(value => {
             return { name: value, value }
         }))
     }
@@ -217,22 +217,22 @@ Note: this command supports fuzzy search.`,
         const maxAscension = weapon.ascensions?.[weapon.ascensions.length - 1]
         if (weapon.weaponCurve && maxAscension)
             embed
-                .addFields({ 
-                    name: "Base stats", 
+                .addFields({
+                    name: "Base stats",
                     value: Object.entries(data.getWeaponStatsAt(weapon, 1, 0))
                         .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
-                        .join("\n"), 
+                        .join("\n"),
                     inline: true
-                }, { 
-                    name: `Lv. ${maxAscension.maxLevel} A${maxAscension.level} stats`, 
+                }, {
+                    name: `Lv. ${maxAscension.maxLevel} A${maxAscension.level} stats`,
                     value: Object.entries(data.getWeaponStatsAt(weapon, maxAscension.maxLevel, maxAscension.level))
                         .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
-                        .join("\n"), 
+                        .join("\n"),
                     inline: true
                 })
         else if (weapon.placeholderStats) {
             embed.addFields({
-                name: `Lv. ${weapon.placeholderStats.level} stats`, 
+                name: `Lv. ${weapon.placeholderStats.level} stats`,
                 value: Object.entries(weapon.placeholderStats.stats)
                     .map(([name, value]) => `**${name}**: ${data.stat(name, value)}`)
                     .join("\n"),

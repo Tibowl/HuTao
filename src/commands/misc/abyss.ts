@@ -4,7 +4,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { AbyssSchedule, CommandSource, SendMessage } from "../../utils/Types"
-import { Colors, findFuzzyBestCandidates, getDate, sendMessage, simplePaginator } from "../../utils/Utils"
+import { Colors, findFuzzyBestCandidatesForAutocomplete, getDate, sendMessage, simplePaginator } from "../../utils/Utils"
 
 const names: Record<string, string> = {
     "1/1": "Enemies",
@@ -42,7 +42,7 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
         const targetNames = client.data.getAbyssSchedules().map(s => s.start.substring(0, 7)).flatMap((s, i, arr) => `${s}-${i - arr.indexOf(s) + 1}`).reverse()
         const search = source.options.getFocused().toString()
 
-        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+        await source.respond(findFuzzyBestCandidatesForAutocomplete(targetNames, search, 20).map(value => {
             return { name: value, value }
         }))
     }
@@ -108,7 +108,7 @@ Old abyss floors/buffs can be accessed by giving the cycle (like \`${config.pref
             embed.setTitle(`Spiral Abyss: ${abyss.buff}`)
                 .setDescription(abyss.buffDesc)
                 .addFields(
-                    { name: "Starts", value: abyss.start, inline: true }, 
+                    { name: "Starts", value: abyss.start, inline: true },
                     { name: "Ends", value: abyss.end, inline: true }
                 )
             return embed

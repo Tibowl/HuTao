@@ -3,7 +3,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { BotEmoji, Character, CharacterFull, CommandSource, SendMessage, Skill, TalentTable, TalentValue } from "../../utils/Types"
-import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidates, getLink, getLinkToGuide, PAD_END, PAD_START, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
+import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidatesForAutocomplete, getLink, getLinkToGuide, PAD_END, PAD_START, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 
 
 const elementTypes = client.data.getCharacters()
@@ -76,13 +76,13 @@ Note: this command supports fuzzy search.`,
                 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
                 targets = [...elementTypes.filter(elem => this.getElementIcons(client.data.getCharacterByName("Traveler")!).includes(elem)).map(x => `-${x.toLowerCase()}`), ...targets]
 
-            return await source.respond(findFuzzyBestCandidates(targets, lastWord, 20).map(value => {
+            return await source.respond(findFuzzyBestCandidatesForAutocomplete(targets, lastWord, 20).map(value => {
                 value = `${args.join(" ")} ${value}`
                 return { name: value, value }
             }))
         }
 
-        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+        await source.respond(findFuzzyBestCandidatesForAutocomplete(targetNames, search, 20).map(value => {
             return { name: value, value }
         }))
     }

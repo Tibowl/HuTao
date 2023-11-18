@@ -750,7 +750,13 @@ export function findFuzzy(target: string[], search: string): string | undefined 
     const min = Math.min(...lengths)
     return candidates[lengths.indexOf(min)]
 }
-
+export function findFuzzyBestCandidatesForAutocomplete(target: string[], search: string, amount: number): string[] {
+    return findFuzzyBestCandidates(target, search, amount).map(e => {
+        if (e.length < 100) return e
+        if (e.match(/\(.*\)/)) return e.replace(/\(.*\)/, "")
+        return e
+    }).map(e => e.substring(0, 99).trim().replace(/ :/g, ""))
+}
 export function findFuzzyBestCandidates(target: string[], search: string, amount: number): string[] {
     const cleaned = searchClean(search)
     const found = target.find(t => searchClean(t) == search)

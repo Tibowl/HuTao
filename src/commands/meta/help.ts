@@ -3,7 +3,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command, { CommandCategory } from "../../utils/Command"
 import { CommandSource, SendMessage } from "../../utils/Types"
-import { findFuzzyBestCandidates, getUserID, sendMessage } from "../../utils/Utils"
+import { findFuzzyBestCandidatesForAutocomplete, getUserID, sendMessage } from "../../utils/Utils"
 
 const requiredPermissions: PermissionResolvable[] = [
     PermissionFlagsBits.AttachFiles,
@@ -41,7 +41,7 @@ export default class Help extends Command {
             ])
         }
 
-        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+        await source.respond(findFuzzyBestCandidatesForAutocomplete(targetNames, search, 20).map(value => {
             return { name: value, value }
         }))
     }

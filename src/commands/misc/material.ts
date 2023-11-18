@@ -3,7 +3,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { Character, CommandSource, Material, SendMessage, Weapon } from "../../utils/Types"
-import { Bookmarkable, Colors, findFuzzyBestCandidates, getLink, getLinkToGuide, joinMulti, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
+import { Bookmarkable, Colors, findFuzzyBestCandidatesForAutocomplete, getLink, getLinkToGuide, joinMulti, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 
 export default class MaterialCommand extends Command {
     constructor(name: string) {
@@ -38,7 +38,7 @@ Note: this command supports fuzzy search.`,
             ])
         }
 
-        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+        await source.respond(findFuzzyBestCandidatesForAutocomplete(targetNames, search, 20).map(value => {
             return { name: value, value }
         }))
     }

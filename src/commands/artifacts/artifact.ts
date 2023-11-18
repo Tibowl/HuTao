@@ -4,7 +4,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { Artifact, CommandSource, SendMessage } from "../../utils/Types"
-import { Colors, createTable, findFuzzyBestCandidates, getLink, getLinkToGuide, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
+import { Colors, createTable, findFuzzyBestCandidatesForAutocomplete, getLink, getLinkToGuide, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 
 export default class ArtifactCommand extends Command {
     constructor(name: string) {
@@ -39,7 +39,7 @@ Note: this command supports fuzzy search.`,
             ])
         }
 
-        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+        await source.respond(findFuzzyBestCandidatesForAutocomplete(targetNames, search, 20).map(value => {
             return { name: value, value }
         }))
     }

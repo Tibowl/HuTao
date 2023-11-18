@@ -4,7 +4,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { CommandSource, NewsLang, SendMessage } from "../../utils/Types"
-import { Colors, findFuzzy, findFuzzyBestCandidates, getNewsEmbed, parseNewsContent, sendMessage, simplePaginator } from "../../utils/Utils"
+import { Colors, findFuzzy, findFuzzyBestCandidatesForAutocomplete, getNewsEmbed, parseNewsContent, sendMessage, simplePaginator } from "../../utils/Utils"
 
 export default class News extends Command {
     constructor(name: string) {
@@ -44,7 +44,7 @@ Supported languages: ${client.newsManager.getLanguages().map(l => `\`${l}\``).jo
             ])
         }
 
-        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+        await source.respond(findFuzzyBestCandidatesForAutocomplete(targetNames, search, 20).map(value => {
             return { name: value, value }
         }))
     }

@@ -4,7 +4,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { CommandSource, SendMessage, StoredNews } from "../../utils/Types"
-import { Colors, findFuzzy, findFuzzyBestCandidates, getLink, parseNewsContent, sendMessage, simplePaginator } from "../../utils/Utils"
+import { Colors, findFuzzy, findFuzzyBestCandidatesForAutocomplete, getLink, parseNewsContent, sendMessage, simplePaginator } from "../../utils/Utils"
 
 
 const Logger = log4js.getLogger("main")
@@ -229,7 +229,7 @@ Note: this command supports fuzzy search.`,
         const targetNames = eventWishes.flatMap(w => [...w.other, ...w.main]).filter((v, i, arr) => arr.indexOf(v) == i)
         const search = source.options.getFocused().toString()
 
-        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+        await source.respond(findFuzzyBestCandidatesForAutocomplete(targetNames, search, 20).map(value => {
             return { name: value, value }
         }))
     }

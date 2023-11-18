@@ -3,7 +3,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { CommandSource, Guide, SendMessage } from "../../utils/Types"
-import { Colors, findFuzzy, findFuzzyBestCandidates, getLink, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
+import { Colors, findFuzzy, findFuzzyBestCandidatesForAutocomplete, getLink, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
 
 
 export default class GuideCommand extends Command {
@@ -41,7 +41,7 @@ Note: this command supports fuzzy search.`,
             ])
         }
 
-        await source.respond(findFuzzyBestCandidates(this.targetNames, search, 20).map(value => {
+        await source.respond(findFuzzyBestCandidatesForAutocomplete(this.targetNames, search, 20).map(value => {
             return { name: value, value }
         }))
     }

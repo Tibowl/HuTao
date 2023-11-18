@@ -4,7 +4,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { CommandSource, SendMessage, Weapon } from "../../utils/Types"
-import { createTable, findFuzzyBestCandidates, PAD_START, sendMessage } from "../../utils/Utils"
+import { createTable, findFuzzyBestCandidatesForAutocomplete, PAD_START, sendMessage } from "../../utils/Utils"
 
 export default class WeaponStatsCommand extends Command {
     constructor(name: string) {
@@ -43,7 +43,7 @@ Note: this command supports fuzzy search.`,
         const targetNames = Object.keys(client.data.weapons)
         const search = source.options.getFocused().toString()
 
-        await source.respond(findFuzzyBestCandidates(targetNames, search, 20).map(value => {
+        await source.respond(findFuzzyBestCandidatesForAutocomplete(targetNames, search, 20).map(value => {
             return { name: value, value }
         }))
     }
