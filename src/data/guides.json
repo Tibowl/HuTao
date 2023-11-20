@@ -904,12 +904,12 @@
         "img": "https://static.hutaobot.moe/images/StellarReunion_5a0dda57.png"
       },
       {
-        "name": "How to get to Fontaine?",
+        "name": "How to get to Fontaine",
         "desc": "There is no need to manually go all the way to Fontaine!\nThere will be some waypoints automatically unlocked in/near Fontaine if you have completed \"Prologue: Act III - Song of the Dragon and Freedom\" Archon quest! (Mondstadt Archon quest)\n\nIf using the Waypoint in the Realm of Farakhert you can take a waverider to the Romaritime Harbor Statue of the 7 using the path as shown [here](https://static.hutaobot.moe/images/Path_f184cdc2.png).",
         "img": "https://static.hutaobot.moe/images/Teleports_5415c140.png"
       },
       {
-        "name": "How do I gain exploration % for Reunion Locales?",
+        "name": "How do I gain exploration progress for Reunion Locales",
         "desc": "Additionally, there are a number of Major questlines that can be done to access locked areas, you can find their start locations [here](https://static.hutaobot.moe/images/Questlines_158be03b.png).",
         "img": "https://static.hutaobot.moe/images/ExplorationProgress_feebe810.png"
       }
