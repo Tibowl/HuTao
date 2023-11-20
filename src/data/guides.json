@@ -894,5 +894,25 @@
         "credits": "Soul"
       }
     ]
+  },
+  {
+    "name": "Stellar Reunion (Event)",
+    "pages": [
+      {
+        "name": "Stellar Reunion has gotten a new look!",
+        "desc": "Replacing the old quest system is the \"Reunion Locales\", where you can gain rewards for exploring the new regions.\n\n\"Homeward Path\" now gives rewards by completing the 3 listed Archon Quests.\n\nReunion Rewards include \"Passage of Time\" and \"Reunion Blessing\" which give daily log-in bonuses (containing a total of 500 Primogems, 5 Fragile Resin and a Northlander Billet Throve) and 28 total (4 per day) double rewards from Domains of Blessing, Forgery and Mastery and Ley Line Challenges; as well as 3 \"Returning Companion\" you can use in place of Story Keys to unlock Story Quests.",
+        "img": "https://static.hutaobot.moe/images/StellarReunion_5a0dda57.png"
+      },
+      {
+        "name": "How to get to Fontaine?",
+        "desc": "There is no need to manually go all the way to Fontaine!\nThere will be some waypoints automatically unlocked in/near Fontaine if you have completed \"Prologue: Act III - Song of the Dragon and Freedom\" Archon quest! (Mondstadt Archon quest)\n\nIf using the Waypoint in the Realm of Farakhert you can take a waverider to the Romaritime Harbor Statue of the 7 using the path as shown [here](https://static.hutaobot.moe/images/Path_f184cdc2.png).",
+        "img": "https://static.hutaobot.moe/images/Teleports_5415c140.png"
+      },
+      {
+        "name": "How do I gain exploration % for Reunion Locales?",
+        "desc": "Additionally, there are a number of Major questlines that can be done to access locked areas, you can find their start locations [here](https://static.hutaobot.moe/images/Questlines_158be03b.png).",
+        "img": "https://static.hutaobot.moe/images/ExplorationProgress_feebe810.png"
+      }
+    ]
   }
 ]
