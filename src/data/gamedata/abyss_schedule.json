@@ -1670,5 +1670,71 @@
       68,
       69
     ]
+  },
+  "76": {
+    "start": "2023-11-16 04:00:00",
+    "end": "2023-12-01 03:59:59",
+    "buff": "Tidal Moon",
+    "buffDesc": "When a character's HP increases or decreases, it will be counted. When it reaches a total of 12, a shockwave will be unleashed at the character's position, dealing True DMG to nearby opponents and clearing the count. 1 such shockwave can be unleashed every 4s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      64,
+      65,
+      70,
+      71
+    ]
+  },
+  "77": {
+    "start": "2023-12-01 04:00:00",
+    "end": "2023-12-16 03:59:59",
+    "buff": "Uncanny Moon",
+    "buffDesc": "When off-field characters deal Elemental Skill DMG to an opponent, an Uncanny Mark will be placed upon that opponent. When another active character hits a marked opponent with an attack of the same Elemental Type, a shockwave will be unleashed at that opponent's position, dealing True DMG. The Uncanny Mark lasts 5s, and Marks created through different attacks with different Elemental Types can exist independently. 1 such shockwave can be unleashed every 2s. When a character enters the field, the Uncanny Marks placed by that character on opponents will be removed.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      64,
+      65,
+      70,
+      71
+    ]
+  },
+  "78": {
+    "start": "2023-12-16 04:00:00",
+    "end": "2024-01-01 03:59:59",
+    "buff": "Soaring Moon",
+    "buffDesc": "After a character takes the field, they will gain one stack of Soar every 2.5s. Each stack will increase the DMG dealt by this character by 8%. Max 3 stacks. A character with 3 stacks will unleash a shockwave at an opponent's position when they deal DMG to that opponent, dealing True DMG. This effect will be cleared when the character leaves the field. 1 such shockwave can be unleashed every 1s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      64,
+      65,
+      70,
+      71
+    ]
   }
 }
