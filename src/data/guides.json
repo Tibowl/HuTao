@@ -900,7 +900,7 @@
     "pages": [
       {
         "name": "Stellar Reunion has gotten a new look!",
-        "desc": "Replacing the old quest system is the \"Reunion Locales\", where you can gain rewards for exploring the new regions.\n\n\"Homeward Path\" now gives rewards by completing the 3 listed Archon Quests.\n\nReunion Rewards include \"Passage of Time\" and \"Reunion Blessing\" which give **daily log-in bonuses** (containing a total of 500 Primogems, 5 Fragile Resin and a Northlander Billet Throve) and 28 total (4 per day) **double rewards from Domains** of Blessing, Forgery and Mastery **and Ley Line Challenges**; as well as **3 \"Returning Companion\"** you can use in place of Story Keys to unlock Story Quests.",
+        "desc": "You can now earn rewards by completing new sets of missions including; **Reunion Locales** where you explore the new regions and clearing 3 given Archon quests for the **Homeward Path**!\n\n**Passage of Time** daily login rewards increased to 500 Primogems, 5 Fragile Resin and 1 Northlander Billet Trove total.\nThere is also the **Reunion Blessing** which provides 4 daily double rewards from Domains of Blessing, Forgery, Mastery or Ley Line Blossoms for 7 days, increased from 3 daily attempts.\nFinally **Returning Companions** provides 3 Keys you can use to unlock Character Story Quests and Hangouts for free.\n**Returning Gift Package** and **Homeward Path** daily quests have been removed, distributing their rewards among the other benefits.\n\nIn total you can now obtain 500 Primogems, 8 Fragile Resin, 54 Hero's Wits, 48 Mystic Enhancement Ore and 630000 Mora in addition to the double drops and **Returning Companions** Keys!",
         "img": "https://static.hutaobot.moe/images/StellarReunion_5a0dda57.png"
       },
       {
@@ -910,7 +910,7 @@
       },
       {
         "name": "How do I gain exploration progress for Reunion Locales",
-        "desc": "Additionally, there are a number of Major questlines that can be done to access locked areas, you can find their start locations [here](https://static.hutaobot.moe/images/Questlines_158be03b.png).",
+        "desc": "There are a number of Major questlines that can be done to access locked areas, you can find their start locations [here](https://static.hutaobot.moe/images/Questlines_158be03b.png).",
         "img": "https://static.hutaobot.moe/images/ExplorationProgress_feebe810.png"
       }
     ]
