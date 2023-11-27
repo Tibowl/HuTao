@@ -3173,16 +3173,28 @@
     {
         "name": "Event Wish \"Twilight Arbiter\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/article/23172294",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/11/23/49e0604056553b8a40fae728ea0c3ea9_1476645955269067342.jpg",
+        "start": "2023-11-28 18:00:00",
+        "end": "2023-12-19 14:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Azure Excursion\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/article/23172294",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/11/23/0fe49fd56cda2ba88909f0470e0d87ea_5283375360884895418.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "start": "2023-11-28 18:00:00",
+        "end": "2023-12-19 14:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/article/23172294",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/11/23/0b476f418f704eeae083ca36f47f8f79_1604101283277054639.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "start": "2023-11-28 18:00:00",
+        "end": "2023-12-19 14:59:00",
         "reminder": "end"
     },
     {
@@ -3197,6 +3209,8 @@
     {
         "name": "\"Lil' Fungi's Fun-Tastic Fiesta\" Event",
         "type": "In-game",
+        "start": "2023-12-06 10:00:00",
+        "end": "2023-12-18 03:59:00",
         "reminder": "end"
     },
     {
@@ -3221,6 +3235,8 @@
         "name": "\"Ley Line Overflow\" Event",
         "type": "In-game",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/09/15/d76cdab75f5f952a213e564f6b0a5a51_6842199020073202801.jpg",
+        "start": "2023-12-11 04:00:00",
+        "end": "2023-12-18 03:59:00",
         "reminder": "daily"
     },
     {
