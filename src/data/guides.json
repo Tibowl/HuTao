@@ -477,10 +477,19 @@
       {
         "name": "Lakelight Lily route (No quests)",
         "desc": "**Lakelight Lilies ${Lakelight Lily}** can be found in the wilderness of Fontaine near Erinnyes Forest.\n\n> A clear and clean azure flower, it is born where Water Veins come together. It has a simple, cool, and elegant fragrance, pungent and refreshing yet gentle.",
-        "img": "https://static.hutaobot.moe/images/LakelightLilyNQ_06a733b2.png",
+        "img": "https://static.hutaobot.moe/images/LakelightLilyQ_a6f968b6.png",
         "credits": "Soul",
         "links": {
           "material": ["Lakelight Lily"]
+        }
+      },
+      {
+        "name": "Spring of the First Dewdrop route",
+        "desc": "**Spring of the First Dewdrops ${Spring of the First Dewdrop}** can be found underwater in Morte Region.\n\n> A limpid drop of dew floating amidst the waters of Morte Region. It is different from other pure water bodies, as though it is a conglomeration of even more pure and primordial Elemental Energy.",
+        "img": "https://static.hutaobot.moe/images/Spring_of_the_First_Dewdrop_513203cf.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Spring of the First Dewdrop"]
         }
       }
     ]
