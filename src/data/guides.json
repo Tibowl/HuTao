@@ -373,7 +373,7 @@
       {
         "name": "Lumitoile route",
         "desc": "**Lumitoiles ${Lumitoile}** can found in the wilderness of Fontaine, near Liffey Region.\n\n> A soft-bodied animal that emits a gentle light. Often found climbing the walls of buildings near the water or underwater.",
-        "img": "https://static.hutaobot.moe/images/Lumitoile_e928fab2.png",
+        "img": "https://static.hutaobot.moe/images/LumitoileNew2_807369d4.png",
         "credits": "Soul",
         "links": {
           "material": ["Lumitoile"]
@@ -386,6 +386,15 @@
         "credits": "Soul",
         "links": {
           "material": ["Subdetection Unit"]
+        }
+      },
+      {
+        "name": "Lakelight Lily route",
+        "desc": "**Lakelight Lilies ${Lakelight Lily}** can be found in the wilderness of Fontaine near Erinnyes Forest.\n\n> A clear and clean azure flower, it is born where Water Veins come together. It has a simple, cool, and elegant fragrance, pungent and refreshing yet gentle.",
+        "img": "https://static.hutaobot.moe/images/LakelightLilyQ_a6f968b6.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Lakelight Lily"]
         }
       }
     ]
@@ -472,15 +481,6 @@
         "credits": "Soul",
         "links": {
           "material": ["Tidalga"]
-        }
-      },
-      {
-        "name": "Lakelight Lily route (No quests)",
-        "desc": "**Lakelight Lilies ${Lakelight Lily}** can be found in the wilderness of Fontaine near Erinnyes Forest.\n\n> A clear and clean azure flower, it is born where Water Veins come together. It has a simple, cool, and elegant fragrance, pungent and refreshing yet gentle.",
-        "img": "https://static.hutaobot.moe/images/LakelightLilyQ_a6f968b6.png",
-        "credits": "Soul",
-        "links": {
-          "material": ["Lakelight Lily"]
         }
       },
       {
