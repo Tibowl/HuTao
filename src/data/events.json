@@ -1741,7 +1741,7 @@
         "reminder": "end"
     },
     {
-        "name": "Event Wish  \"Twirling Lotus\"",
+        "name": "Event Wish \"Twirling Lotus\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/12079386",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2022/10/11/de0e37af9754660b92024deb20a1137f_1481363351940958489.jpg",
@@ -3248,6 +3248,75 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/11/02/0/8dfbef19d245e8b95de73b6a4f792c55_3722282249940283724.png",
         "start": "2023-11-06 12:00:00",
         "end": "2023-11-12 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "4.3 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/23420993",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/12/06/0/6f9a0bac74147ef9470308485c0acc49_7011050858771084291.png",
+        "start": "2023-12-08 08:00:00",
+        "timezone": "-04:00"
+    },
+    {
+        "name": "4.3 Maintenance",
+        "type": "Maintenance",
+        "start": "2023-12-20 06:00:00",
+        "end": "2023-12-20 11:00:00"
+    },
+    {
+        "name": "Event Wish \"In the Name of the Rosula\"",
+        "type": "Banner",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"The Heron's Court\"",
+        "type": "Banner",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Reign of Serenity\"",
+        "type": "Banner",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Tapestry of Golden Flames\"",
+        "type": "Banner",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Roses and Muskets\" Event",
+        "type": "In-game",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Arataki Blazing Armor Beetle Battle Boot Camp\" Event",
+        "type": "In-game",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Lost Riches\" Event",
+        "type": "In-game",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Dance of Resolute Will\" Event",
+        "type": "In-game",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Marvelous Merchandise\" Event",
+        "type": "In-game",
         "reminder": "end"
     }
 ]
