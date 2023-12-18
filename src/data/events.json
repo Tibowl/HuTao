@@ -3183,7 +3183,7 @@
         "name": "Event Wish \"Azure Excursion\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/23172294",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/11/23/0fe49fd56cda2ba88909f0470e0d87ea_5283375360884895418.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/11/23/0fe49fd56cda2ba88909f0470e0d87ea_5283375360884895418.jpg",
         "start": "2023-11-28 18:00:00",
         "end": "2023-12-19 14:59:00",
         "reminder": "end"
@@ -3192,7 +3192,7 @@
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/23172294",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/11/23/0b476f418f704eeae083ca36f47f8f79_1604101283277054639.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/11/23/0b476f418f704eeae083ca36f47f8f79_1604101283277054639.jpg",
         "start": "2023-11-28 18:00:00",
         "end": "2023-12-19 14:59:00",
         "reminder": "end"
@@ -3252,6 +3252,15 @@
         "reminder": "end"
     },
     {
+        "name": "\"Macaron Melange\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/23606395",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/12/14/0/d9e934c355a34dd396b23aa4619b766f_4603763640692523801.jpeg",
+        "start": "2023-12-15 12:00:00",
+        "end": "2023-12-20 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "4.3 Special Program",
         "type": "Stream",
         "link": "https://www.hoyolab.com/article/23420993",
@@ -3268,16 +3277,31 @@
     {
         "name": "Event Wish \"In the Name of the Rosula\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/article/23668466",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/12/18/24c9cbafefb1274269530558c54af282_3624704089167157575.jpg",
+        "start": "2023-12-20 11:00:00",
+        "start_server": false,
+        "end": "2024-01-09 17:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"The Heron's Court\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/article/23668466",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/12/18/7ce6183340d3a724a41a32a124060700_2264583725770957780.jpg",
+        "start": "2023-12-20 11:00:00",
+        "start_server": false,
+        "end": "2024-01-09 17:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/article/23668466",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/12/18/dfd8daebb0a3befe9e4ded7378cffaf1_5329545448695623942.jpg",
+        "start": "2023-12-20 11:00:00",
+        "start_server": false,
+        "end": "2024-01-09 17:59:00",
         "reminder": "end"
     },
     {
@@ -3298,6 +3322,16 @@
     {
         "name": "\"Roses and Muskets\" Event",
         "type": "In-game",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Gazing Up at Eternity, Looking Down at the World\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/23668468",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/12/15/a9e70d60de164dcb57c98c4b5c5f4135_1485012546033884879.png",
+        "start": "2023-12-20 11:00:00",
+        "start_server": false,
+        "end": "2024-01-31 05:59:00",
         "reminder": "end"
     },
     {
