@@ -3353,5 +3353,14 @@
         "name": "\"Marvelous Merchandise\" Event",
         "type": "In-game",
         "reminder": "end"
+    },
+    {
+        "name": "\"Ancient Treasures Unearthed\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/23719588",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/12/19/0/9649e5bcb9b7e5c396293410c653dfe8_8526176575588468462.jpeg",
+        "start": "2023-12-20 12:00:00",
+        "end": "2024-01-02 23:59:00",
+        "reminder": "end"
     }
 ]
