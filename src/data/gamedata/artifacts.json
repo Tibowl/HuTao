@@ -2192,5 +2192,103 @@
         "icon": "img/arti/Golden_Troupes_Reward.png"
       }
     ]
+  },
+  "Song of Days Past": {
+    "name": "Song of Days Past",
+    "levels": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Healing Bonus +15%."
+      },
+      {
+        "count": 4,
+        "desc": "When the equipping character heals a party member, the Yearning effect will be created for 6s, which records the total amount of healing provided (including overflow healing). When the duration expires, the Yearning effect will be transformed into the \"Waves of Days Past\" effect: When your active party member hits an opponent with a Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst, the DMG dealt will be increased by 8% of the total healing amount recorded by the Yearning effect. The \"Waves of Days Past\" effect is removed after it has taken effect 5 times or after 10s. A single instance of the Yearning effect can record up to 15,000 healing, and only a single instance can exist at once, but it can record the healing from multiple equipping characters. Equipping characters on standby can still trigger this effect."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Forgotten Oath of Days Past",
+        "desc": "An ever-blooming flower shaped from larimar and shimmering silver. They say that this is still viewed as a symbol of resistance.",
+        "icon": "img/arti/Forgotten_Oath_of_Days_Past.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Recollection of Days Past",
+        "desc": "A butterfly-shaped feather accessory made from silver and azure crystals. It is said to, in the distant past, have symbolized an oath to never be parted.",
+        "icon": "img/arti/Recollection_of_Days_Past.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Echoing Sound From Days Past",
+        "desc": "An oddly shaped hourglass made from lazurite and aqua jade. It was reportedly inspired by the bell tower in Petrichor.",
+        "icon": "img/arti/Echoing_Sound_From_Days_Past.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Promised Dream of Days Past",
+        "desc": "An opulent vessel made based on the form of the legendary \"Pure Grail.\" It is said to be able to fulfill the wishes of the purest of people.",
+        "icon": "img/arti/Promised_Dream_of_Days_Past.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Poetry of Days Past",
+        "desc": "A formal hat that was once in vogue amongst creators of opera in Fontaine. Word has it that its feathered adornment was based on the legendary helms of the Lochknights.",
+        "icon": "img/arti/Poetry_of_Days_Past.png"
+      }
+    ]
+  },
+  "Nighttime Whispers in the Echoing Woods": {
+    "name": "Nighttime Whispers in the Echoing Woods",
+    "levels": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "ATK +18%."
+      },
+      {
+        "count": 4,
+        "desc": "After using an Elemental Skill, gain a 20% Geo DMG Bonus for 10s. While under a shield granted by the Crystallize reaction, the above effect will be increased by 150%, and this additional increase disappears 1s after that shield is lost."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Selfless Floral Accessory",
+        "desc": "A brooch that the witch in the tale wore. As with the other ornaments she loved, this was characterized by butterfly-like shapes.",
+        "icon": "img/arti/Selfless_Floral_Accessory.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Honest Quill",
+        "desc": "The witch in the tale used this dip pen. Among its various advantages, its silky-smooth writing is the least worthy of mention.",
+        "icon": "img/arti/Honest_Quill.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Faithful Hourglass",
+        "desc": "A sand timepiece that the witch relied on in the story. Legend has it that if you recite the wrong incantation over it, time will suddenly flow exceptionally quickly.",
+        "icon": "img/arti/Faithful_Hourglass.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Magnanimous Ink Bottle",
+        "desc": "An ink bottle utilized by the witch in the story. It possesses a strange enchantment no less powerful than the one cast upon the dip pen.",
+        "icon": "img/arti/Magnanimous_Ink_Bottle.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Compassionate Ladies' Hat",
+        "desc": "The lady's hat favored by the witch in the story. She loved this piece of headwear for how it weaves together solemnity and playfulness.",
+        "icon": "img/arti/Compassionate_Ladies_Hat.png"
+      }
+    ]
   }
 }

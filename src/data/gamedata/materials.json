@@ -2376,6 +2376,38 @@
     },
     "effect": "Restores 130 Stamina."
   },
+  "Sin: The Kind that Doesn't Need to be Dealt With": {
+    "name": "Sin: The Kind that Doesn't Need to be Dealt With",
+    "desc": "Chevreuse's specialty. There is something indubitably \"sinful\" about this dish from a health standpoint. As the leader of the Special Security and Surveillance Patrol, she will not lightly hand the task of dealing with sin to others — this is a matter of professionalism and personal ethics, after all. Sometimes, though, sharing such a solemn duty with one she trusts deeply is an... acceptable way of relieving stress.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Sin_The_Kind_that_Doesnt_Need_to_be_Dealt_With.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Chevreuse",
+      "recipe": "Feast-O's"
+    },
+    "effect": "Increases all party members' Healing Bonus by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
+  "\"Pick What You Like!\"": {
+    "name": "\"Pick What You Like!\"",
+    "desc": "Navia's specialty. \"Come on, pick the one you like!\" Along with the familiar cries of joy, you see before your eyes the aesthetically pleasing double-layered dessert stand and the neat rows of macarons with different expressions painted onto them. One thought suddenly fascinates you... What expression would Navia make if you were to give in to greed and steal all of them for yourself?",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Pick_What_You_Like!.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Navia",
+      "recipe": "Rainbow Macarons"
+    },
+    "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
     "desc": "Onion-covered toast. Exudes a wonderful aroma. Are the fish biting for the bait, or is it the toast they're after?",
@@ -7362,6 +7394,74 @@
       "Delicious Blubber Profiterole": "Increases all party members' Physical DMG by 40% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   },
+  "Feast-O's": {
+    "name": "Feast-O's",
+    "desc": "A golden brown fried snack. Freshly fried and fully fragrant they come, ready to get appetites roaring. With the ring in your left hand and the round in your right, behold, the crest of crispness lies in your grasp. Dig in! Let the flavor flood forth into your mouth.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/FeastOs.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Onion"
+      },
+      {
+        "count": 3,
+        "name": "Fowl"
+      },
+      {
+        "count": 3,
+        "name": "Fish"
+      },
+      {
+        "count": 2,
+        "name": "Potato"
+      }
+    ],
+    "effect": {
+      "Suspicious Feast-O's": "Increases all party members' Healing Bonus by 15% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Feast-O's": "Increases all party members' Healing Bonus by 17% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Feast-O's": "Increases all party members' Healing Bonus by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Rainbow Macarons": {
+    "name": "Rainbow Macarons",
+    "desc": "Small, multi-colored round pastries. The crisp shell wraps a thick, soft filling, and all is right with the world. Try one, and it shall be as if a little kitten's nose is nuzzling against your chest. Surely no one could help but fall for such an experience.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Rainbow_Macarons.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 2,
+        "name": "Sugar"
+      },
+      {
+        "count": 2,
+        "name": "Almond"
+      },
+      {
+        "count": 1,
+        "name": "Bulle Fruit"
+      }
+    ],
+    "effect": {
+      "Suspicious Rainbow Macarons": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Rainbow Macarons": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Rainbow Macarons": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
   "Rice Pudding": {
     "name": "Rice Pudding",
     "desc": "A dessert made from rice. The soft, sticky rice and the sweet milk have melded together perfectly, their tastes complementing each other. If you eat it hot, you can enjoy the dense rice grains, and if you leave it till it's cold, you can savor the gentle fragrance of milk — each possessing its own beauty. People who eat such a dish cannot help but wonder: how many experiments led up to this moment?",
@@ -7828,6 +7928,40 @@
       "Suspicious Fruity Smoothie": "Revives a character and restores 900 HP.",
       "Fruity Smoothie": "Revives a character and restores 1,200 HP.",
       "Delicious Fruity Smoothie": "Revives a character and restores 1,500 HP."
+    }
+  },
+  "Fontinalia Mousse": {
+    "name": "Fontinalia Mousse",
+    "desc": "A true blue Fontinalia Festival snack. Its crystalline coloration would not be ashamed if compared to the light scattering off the rippling waves. Its featherweight elegance is like that of falling petals, its airy texture like a snowflake melting in your throat. To eat such a delicacy must surely be the loveliest thing that could happen during the Festival!",
+    "stars": 4,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Fontinalia_Mousse.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 2,
+        "name": "Cream"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      },
+      {
+        "count": 1,
+        "name": "Jam"
+      }
+    ],
+    "effect": {
+      "Suspicious Fontinalia Mousse": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Fontinalia Mousse": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Fontinalia Mousse": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   },
   "Holy Water": {
@@ -8561,7 +8695,7 @@
   },
   "Molten Moment": {
     "name": "Molten Moment",
-    "desc": "A certain deformed fragment containing great might. You obtained this from defeating Signora, who unleashed her original power.\n\"I had a long, long dream.\n\"I dreamed that you and I met again in the pure white world that we created.\n\"But I woke up at last, having long been consumed by the raging flames, while you had long returned to the earth along with that poisoned blood.\n\"But none of it matters anymore. I must continue forging ahead. I must incinerate everything behind me. I must believe in that pure, spotless, everlasting realm that he spoke of — that I saw in the 'delusion' he let me see, at the end of the horizon of Her Majesty's dreams.\"",
+    "desc": "A certain deformed fragment containing great might. You obtained this from defeating La Signora, who unleashed her original power.\n\"I had a long, long dream.\"\n\"I dreamed that you and I met again in the pure white world that we created.\"\n\"But I woke up at last, having long been consumed by the raging flames, while you had long returned to the earth along with that poisoned blood.\"\n\"But none of it matters anymore. I must continue forging ahead. I must incinerate everything behind me. I must believe in that pure, spotless, everlasting realm that he spoke of — that I saw in the 'delusion' he let me see, at the end of the horizon of Her Majesty's dreams.\"",
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
@@ -11034,6 +11168,14 @@
     "category": "Trophies",
     "icon": "img/material/Silver_Twig.png"
   },
+  "Tears Among the Stars": {
+    "name": "Tears Among the Stars",
+    "desc": "A drop of water obtained from within the colossal beast who coveted the primordial sea of life.\n\nA philosopher in the faraway ancient world once posited that where there is life, there is death; naturally where there is death, there is life.\nIf not, then the fleeting light cannot resist the eternal darkness, and all withers into nothingness at the end of time.\nThe rules among the stars dictate that nature must be conserved, but the laws of the universe have never been conserved.\nIn a sealed box, destruction always overpowers new life. Millennia upon millennia of prosperity are but an instant in a span of billions of years. The greatest of achievements, the proudest accomplishments, in time all will tarnish, decay, dissipate, and ultimately fade into oblivion.\nThus there are things floating in among the stars, once adorned with countless prestigious titles from innumerable civilizations, shedding tears for their ordained demise.\nTheir tears stream down, out of desperation, out of hope, because all desperation and hope alike will be utterly extinguished along with the innumerable stars.\nTheir tears stream down out of sorrow, out of joy, because both will eventually scatter into the cold, dark endless void.\nEvery tiny yet beautiful silhouette and every moment worth remembering will fade with time, even stars.\nAnd then there are these so-called \"gods\" that are determined to save everything worth saving, and devour everything that should be devoured.\nUntil the end of time, until the sea of stars recess into nothing but dying embers, until a newborn \"world\" moves for the first time in the stomach of the whale.\n\"There will be no more sins, no more sadness, and no more tears, because everything died with the ancient stars.\"",
+    "stars": 5,
+    "type": "Quest Item",
+    "category": "Trophies",
+    "icon": "img/material/Tears_Among_the_Stars.png"
+  },
   "Teachings of Freedom": {
     "name": "Teachings of Freedom",
     "desc": "Talent Level-Up material.\nFreedom is the spirit of the land of the wind.\nThe freedom to live is one of such. It is the freedom to live freely and healthily without concerns of one's own safety.",
@@ -11815,6 +11957,14 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "img/material/Mini_Seelie_Moss.png"
+  },
+  "Mini Seelie: Brilliance": {
+    "name": "Mini Seelie: Brilliance",
+    "desc": "A memento from Lost Riches. Equip the Seelie to gain its company.\nA mini Seelie with brilliant colors, it can move freely underwater.",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Mini_Seelie_Brilliance.png"
   },
   "Kamera": {
     "name": "Kamera",
