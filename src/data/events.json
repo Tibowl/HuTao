@@ -3362,5 +3362,14 @@
         "start": "2023-12-20 12:00:00",
         "end": "2024-01-02 23:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "\"Melusines' Survey\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/23829470",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/12/22/0/2465c8a91f34ade6fa413d99028039db_4771454868646255656.png",
+        "start": "2023-12-25 12:00:00",
+        "end": "2024-01-07 23:59:00",
+        "reminder": "end"
     }
 ]
