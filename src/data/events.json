@@ -3322,6 +3322,10 @@
     {
         "name": "\"Roses and Muskets\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/23689256",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/12/18/639b408b51ce8f4df6ea703922af0ee7_4855306398423924000.png",
+        "start": "2023-12-21 10:00:00",
+        "end": "2024-01-08 03:59:00",
         "reminder": "end"
     },
     {
@@ -3370,6 +3374,15 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2023/12/22/0/2465c8a91f34ade6fa413d99028039db_4771454868646255656.png",
         "start": "2023-12-25 12:00:00",
         "end": "2024-01-07 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"A Little Stroll Backstage\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/23871589",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/12/26/0/175a2214b005bdc4b5807146b0e3e373_2881302720355725189.jpeg",
+        "start": "2023-12-27 12:00:00",
+        "end": "2024-01-02 23:59:00",
         "reminder": "end"
     }
 ]
