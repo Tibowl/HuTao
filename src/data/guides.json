@@ -923,5 +923,20 @@
         "img": "https://static.hutaobot.moe/images/ExplorationProgress_feebe810.png"
       }
     ]
+  },
+  {
+    "name": "Unlocking The Chasm: Underground Mines in the Archon Quest: Requiem of the Echoing Depths",
+    "pages": [
+      {
+        "name": "Unlocking The Chasm: Underground Mines",
+        "desc": "Originally, completing the world quest *\"Surreptitious Seven-Star Seal Sundering\"* as part of *\"The Chasm Delvers\"* series was necessary to gain access to The Chasm: Underground Mines. However, thanks to the optimization introduced in 4.3, navigating to the underground mines while completing the Archon Quests has become easier.\nAfter completing the sub-quest *\"Look for the miner who posted the commission at The Chasm\"*, **a teleport waypoint in The Chasm: Underground Mines will unlock automatically**. This waypoint can then be used by opening the map and navigating to The Chasm: Underground Mines after opening the layered map by clicking the current region's name in the bottom right corner.",
+        "img": "https://static.hutaobot.moe/images/ChasmStart_b18cd84a.png"
+      },
+      {
+        "name": "Exploring in the Archon Quest",
+        "desc": "While the (mini-)map might be covered in a black mist - this shouldn't pose an issue for progressing through the Archon Quest as the quest markers will still be visible and are within a short distance of eachother (shown below).\n\nIf the screen is too dark, you may increase the game's brightness by opening the Paimon Menu → Settings → Graphics → Brightness. The Lumenstone can also be used to lighten up the area around you and can be unlocked while completing the world quest *\"The Chasm Delvers\"*. While progressing through this world quest, more and more areas of the map will also become visible, removing the black mist.",
+        "img": "https://static.hutaobot.moe/images/ChasmExplore_80b41ad9.png"
+      }
+    ]
   }
 ]
