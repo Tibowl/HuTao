@@ -8,7 +8,7 @@ An invite link for this bot can be found [here](https://discord.com/oauth2/autho
 ![Showcase](https://i.imgur.com/ZQhZZtW.gif)
 
 ## Commands
-The bot command prefix is `/`, but also supports slash-commands. Help for a specific command can be retrieved via `/help <command>`. Syntax for these commands might be slightly different due to limitations of Discord, you can see the usage for those commands by typing `/` in a chat with the bot. For example typing `/char` will show the commands that start with `char` like [this](https://i.imgur.com/vEf0IGD.png). Most commands support [autocomplete](https://i.imgur.com/PeecLQm.png) when using the slash command version.
+Help for a specific command can be retrieved via `/help <command>`. Syntax for these commands might be slightly different due to limitations of Discord, you can see the usage for those commands by typing `/` in a chat with the bot. For example typing `/char` will show the commands that start with `char` like [this](https://i.imgur.com/vEf0IGD.png). Most commands support [autocomplete](https://i.imgur.com/PeecLQm.png) when using the slash command version.
 
 Every reply to commands will include an ❌ delete button, users can click this button to remove the bot post. This allows users to clean up in case something wasn't relevant to the conversation/reduce spam.
 
