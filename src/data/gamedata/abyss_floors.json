@@ -4214,5 +4214,115 @@
         ]
       }
     ]
+  },
+  "72": {
+    "teams": 2,
+    "leyline": "All party members receive a 75% Geo DMG Bonus.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 88,
+        "conds": "More than 20/40/60% HP left",
+        "monsters": [
+          [
+            "Large Electro Slime",
+            "Mutant Electro Slime",
+            "Large Cryo Slime",
+            "Large Hydro Slime",
+            "Large Pyro Slime"
+          ],
+          [
+            "Dendro Specter",
+            "Anemo Specter",
+            "Hydro Mimic Mallard",
+            "Hydro Mimic Crane",
+            "Hydro Mimic Boar"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 90,
+        "conds": "More than 60/180/300 seconds left",
+        "monsters": [
+          [
+            "Sternshield Crab",
+            "Cherubic Sea Hare",
+            "Bubbler Seahorse",
+            "Ruin Grader"
+          ],
+          [
+            "Hydro Hilichurl Rogue",
+            "Ruin Drake: Earthguard"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 92,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Construction Specialist Mek - Pneuma",
+            "Annihilation Specialist Mek - Pneuma"
+          ],
+          [
+            "Jadeplume Terrorshroom"
+          ]
+        ]
+      }
+    ]
+  },
+  "73": {
+    "teams": 2,
+    "leyline": "For this floor only, the Ley Line flow will be normal.",
+    "chambers": [
+      {
+        "chamber": 1,
+        "level": 95,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Perpetual Mechanical Array"
+          ],
+          [
+            "Thunder Manifestation"
+          ]
+        ]
+      },
+      {
+        "chamber": 2,
+        "level": 98,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Construction Specialist Mek - Pneuma",
+            "Ruin Guard",
+            "Ruin Grader"
+          ],
+          [
+            "Geovishap",
+            "Large Geo Slime",
+            "Geo Specter",
+            "Stonehide Lawachurl"
+          ]
+        ]
+      },
+      {
+        "chamber": 3,
+        "level": 100,
+        "conds": "More than 180/300/420 seconds left",
+        "monsters": [
+          [
+            "Hydro Tulpa"
+          ],
+          [
+            "Thunderhelm Lawachurl",
+            "Eremite Scorching Loremaster",
+            "Eremite Floral Ring-Dancer"
+          ]
+        ]
+      }
+    ]
   }
 }

@@ -1736,5 +1736,49 @@
       70,
       71
     ]
+  },
+  "79": {
+    "start": "2024-01-01 04:00:00",
+    "end": "2024-01-16 03:59:59",
+    "buff": "Sturdy Moon",
+    "buffDesc": "After a character obtains an Elemental Shard created by the Crystallize reaction, they will gain the Redoubtable state. Active characters in this state deal 15% increased DMG. This state lasts for 8s and can stack up to 3 times, with the duration of each stack counted independently.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      64,
+      65,
+      72,
+      73
+    ]
+  },
+  "80": {
+    "start": "2024-01-16 04:00:00",
+    "end": "2024-02-01 03:59:59",
+    "buff": "Bursting Moon",
+    "buffDesc": "After a character obtains an Elemental Shard created by the Crystallize reaction, it will be counted. When the count reaches 3, a shockwave will be released at the character's location, dealing True DMG to nearby opponents, and resetting the count. 1 such shockwave can be triggered every 6s.",
+    "regularFloors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "spiralAbyssFloors": [
+      64,
+      65,
+      72,
+      73
+    ]
   }
 }
