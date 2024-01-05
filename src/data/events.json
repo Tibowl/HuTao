@@ -3307,16 +3307,28 @@
     {
         "name": "Event Wish \"Reign of Serenity\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/article/24107940",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/04/de1114fcd9eeeffd60885098941b231b_2897158492808959207.jpg",
+        "start": "2024-01-09 18:00:00",
+        "end": "2024-01-30 14:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Tapestry of Golden Flames\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/article/24107940",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/04/2d0ee9954d8675ae05d7ed187996a9db_648134274281182983.jpg",
+        "start": "2024-01-09 18:00:00",
+        "end": "2024-01-30 14:59:00",
         "reminder": "end"
     },
     {
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
+        "link": "https://www.hoyolab.com/article/24107940",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/04/cf4ba41bdfd5cc644c5cb30601271c2b_7415131051791291909.jpg",
+        "start": "2024-01-09 18:00:00",
+        "end": "2024-01-30 14:59:00",
         "reminder": "end"
     },
     {
@@ -3341,6 +3353,8 @@
     {
         "name": "\"Arataki Blazing Armor Beetle Battle Boot Camp\" Event",
         "type": "In-game",
+        "start": "2024-01-17 10:00:00",
+        "end": "2024-01-29 03:59:00",
         "reminder": "end"
     },
     {
@@ -3355,11 +3369,15 @@
     {
         "name": "\"Dance of Resolute Will\" Event",
         "type": "In-game",
+        "start": "2024-01-10 10:00:00",
+        "end": "2024-01-22 03:59:00",
         "reminder": "end"
     },
     {
         "name": "\"Marvelous Merchandise\" Event",
         "type": "In-game",
+        "start": "2024-01-22 10:00:00",
+        "end": "2024-01-29 03:59:00",
         "reminder": "end"
     },
     {
