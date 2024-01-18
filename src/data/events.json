@@ -3410,5 +3410,31 @@
         "start": "2023-12-27 12:00:00",
         "end": "2024-01-02 23:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "\"Lean, Mean, Cleaning Machine!\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/24416551",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/16/9bb6a65792bd9dc1b1ac9134423e8c0b_810585052524876664.jpg",
+        "start": "2024-01-18 12:00:00",
+        "end": "2024-01-24 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Starlit Letter\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/24416478",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/17/915852b1d5c25aaf24ddbf89c4a50491_4362848011382317854.jpg",
+        "start": "2024-01-18 12:00:00",
+        "end": "2024-01-24 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "4.4 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/24393745",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/17/0/1cd68ff37c5f8d11b8cf5270d146aba8_2274881351151775953.jpeg",
+        "start": "2024-01-19 07:00:00",
+        "timezone": "-05:00"
     }
 ]
