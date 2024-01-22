@@ -938,5 +938,20 @@
         "img": "https://static.hutaobot.moe/images/ChasmExplore_80b41ad9.png"
       }
     ]
+  },
+  {
+    "name": "4.4 Developers Discussion",
+    "pages": [
+      {
+        "name": "Fast Equip Artifacts",
+        "desc": "The 4.4 update introduces two new methods to quickly equip Artifacts to your characters. You can either use the \"Quick Loadout\" or \"Custom Loadout\" feature after clicking the \"Fast Equip\" button on the character's Artifact screen.\n\nThe \"Quick Loadout\" feature will generate and equip a set (of currently unused) Artifacts based on recently active players. This can be useful to quickly equip a character without having to check how said character should be equipped. For more advanced users there's also a \"Custom Loadout\" feature which allows you to select the Artifact Main Affix, Set Type and prioritize certain Minor Affixes, as well as to use all Artifacts in your inventory (including those equipped on other characters).",
+        "img": "https://static.hutaobot.moe/images/FastEquip_bc3dd223.png"
+      },
+      {
+        "name": "Other Optimizations",
+        "desc": "The Serenitea Pot also has some optimizations. The Filter and Search functions have been improved and the Furnishings have been re-organized into different categories. The editing screen no longer resets the scroll position when switching Furnishing categories and the Companion list now shows the current Friendship Level of each Companion.\n\nThe Adventure's Handbook will now show a red prompt when the Daily Commission rewards haven't been claimed from Katheryne. Selecting \"Claim Rewards\" will guide you towards Katheryne.\n\nA \"Borderless Mode\" has been added to the Graphics Settings. This will allow you to play the game in a borderless window, which can be useful to have other applications stacked on top of the game such as your browser with a guide or map.",
+        "img": "https://static.hutaobot.moe/images/AdvHandbookRedPrompt_6c62ba16.png"
+      }
+    ]
   }
 ]
