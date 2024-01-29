@@ -3380,6 +3380,8 @@
     {
         "name": "\"Marvelous Merchandise\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/24467758",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/18/d237f04da33a0eca74eb39dc03103587_1028908055297615752.png",
         "start": "2024-01-22 10:00:00",
         "end": "2024-01-29 03:59:00",
         "reminder": "end"
@@ -3436,5 +3438,77 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/17/0/1cd68ff37c5f8d11b8cf5270d146aba8_2274881351151775953.jpeg",
         "start": "2024-01-19 07:00:00",
         "timezone": "-05:00"
+    },
+    {
+        "name": "4.4 Maintenance",
+        "type": "Maintenance",
+        "start": "2024-01-31 06:00:00",
+        "end": "2024-01-31 11:00:00"
+    },
+    {
+        "name": "Event Wish \"The Crane Soars Skyward\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/24683839",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/29/454dc8aa88f0ce55f98fbc079277d9e2_6950360055222173106.jpg",
+        "start": "2024-01-31 11:00:00",
+        "start_server": false,
+        "end": "2024-02-20 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"The Moongrass' Enlightenment\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/24683839",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/29/341bae25debe64e46637b4c6dd4dc017_2595739581958931233.jpg",
+        "start": "2024-01-31 11:00:00",
+        "start_server": false,
+        "end": "2024-02-20 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/24683839",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/29/fe982ec2f3e1985c56aba6be6899ef30_1871717414048410646.jpg",
+        "start": "2024-01-31 11:00:00",
+        "start_server": false,
+        "end": "2024-02-20 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Vibrant Harriers Aloft in Spring Breeze\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/24683838",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/26/278f89d7ba90d3d03032e2c06bb86269_8544657792849347252.png",
+        "start": "2024-02-05 10:00:00",
+        "end": "2024-02-26 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"May Fortune Find You\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/24683799",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/26/06237e280dabff3677319812c54c88a8_8011236765492165439.png",
+        "start": "2024-02-03 04:00:00",
+        "end": "2024-02-18 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Triumphant Frenzy\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/24683799",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/26/b1a216153427bdfdeda97d1ad431450e_4876014403900474154.png",
+        "start": "2024-02-15 04:00:00",
+        "end": "2024-02-26 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Adeptus Mechanical Marvel \" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/24596240",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/25/0/6de2b1a2576bc4d0f99d666a43113bb8_5703128602698949114.jpeg",
+        "start": "2024-01-26 12:00:00",
+        "end": "2024-01-31 23:59:00",
+        "reminder": "end"
     }
 ]
