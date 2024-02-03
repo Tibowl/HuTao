@@ -337,6 +337,18 @@
       "Found in Fontaine's underwater areas"
     ]
   },
+  "Chenyu Adeptea": {
+    "name": "Chenyu Adeptea",
+    "desc": "Tea grown in warm, moist areas in Chenyu Vale. After millennia of careful cultivation, the tea today emits a rich fragrance that can be savored from several streets away.",
+    "longDesc": "Tea grown in warm, moist areas in Chenyu Vale. After millennia of careful cultivation, the tea today emits a rich fragrance that can be savored from several streets away.\n\"Adeptea\" is the collective term for the various teas produced in Chenyu Vale: Sunglo Tea, Yunlai White Tea, Bishui Green Tea, Single-Origin Yauwan Tea... Each offers subtle yet wonderful flavor distinctions and requires different tea-making techniques, which may only be appreciated by tea connoisseurs.\nThere are many legends about the tea in Chenyu Vale. The most well-known suggests that an adeptus planted the first tea tree in ancient days, bestowing its branches to the early residents of the Vale, and the aroma of tea has filled the misty fields ever since. However, these tales now become part of storytellers' repertoires and are told in teahouses, blending with the fragrant steam of brewing tea.",
+    "type": "Cooking Ingredient",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Chenyu_Adeptea.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Found in Qiaoying Village"
+    ]
+  },
   "Wolfhook": {
     "name": "Wolfhook",
     "desc": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
@@ -544,6 +556,18 @@
     "sources": [
       "Found in the wild",
       "Recommendation: Found in the bamboo forest near Qingce Village"
+    ]
+  },
+  "Clearwater Jade": {
+    "name": "Clearwater Jade",
+    "desc": "Jade from Chenyu Vale. Named for its cool, refreshing touch, that is much like clear water.",
+    "longDesc": "A jade from Chenyu Vale named for its cool, refreshing touch, being akin to cool water.\nAncestral legends have it that the jade scattered among the rocks came from the azure heavens. The envoys, before they became silent, bestowed these beauteous gems upon the early residents and guided them to build an altar that reached the heavens, that they may receive the blessings and curses from above. Later on, many tribes that descended from these ancestors kept this primordial, simple faith, and their reverence for jade was merged into Liyue tradition, shaping the culture we see today.",
+    "type": "Local Specialty (Liyue)",
+    "category": "Teyvat's Resources",
+    "icon": "img/material/Clearwater_Jade.png",
+    "sources": [
+      "Found in the wild",
+      "Recommendation: Found in Chenyu Vale: Southern Mountain"
     ]
   },
   "Sakura Bloom": {
@@ -2407,6 +2431,38 @@
       "recipe": "Rainbow Macarons"
     },
     "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
+  "Encompassing Gladness": {
+    "name": "Encompassing Gladness",
+    "desc": "Xianyun's specialty. Before you can even look shocked to see these fragrant meatballs, she says: \"Ah, and you thought such pedestrian culinary work could confound one? Now then, enjoy it while it remains hot — and may one wish you peace, joy, prosperity, and freedom from distress... *cough* What? A little ritual formality now and then could do no ill.\"",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Encompassing_Gladness.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Xianyun",
+      "recipe": "Braised Meatball"
+    },
+    "effect": "Increases all party members' ATK by 274 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
+  "Yummy Yum Cha": {
+    "name": "Yummy Yum Cha",
+    "desc": "Gaming's specialty. Row upon row of lifelike suanni buns sit pretty within the steamer, bringing the formidable, clever youth leaping amidst the Plum Blossom Pole... \"What's with that dumbfounded expression? Have a cup of tea first, eh?\" With that, the cheerfully smiling fellow passes you another cup.",
+    "stars": 1,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Yummy_Yum_Cha.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Gaming",
+      "recipe": "Honey Char Siu"
+    },
+    "effect": "Restores 14% of Max HP to the selected character and regenerates 350 HP every 5s for 30s."
   },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
@@ -5988,7 +6044,7 @@
   },
   "Fish With Cream Sauce": {
     "name": "Fish With Cream Sauce",
-    "desc": "A fish dish served in sauce. The translucent fillet lies upon exquisite cream sauce. With only a small mouthful, one might even see fish leaping on the sea surface.",
+    "desc": "A fish dish served with sauce. The translucent fillet lies upon exquisite cream sauce, offering a burst of freshness reminiscent of fish leaping from water with just one bite.",
     "stars": 2,
     "type": "Food",
     "category": "Food and Potions",
@@ -7462,6 +7518,226 @@
       "Delicious Rainbow Macarons": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   },
+  "Deep-Fried Doublecrisp": {
+    "name": "Deep-Fried Doublecrisp",
+    "desc": "One of Liyue's famous dishes. Scalloped red and white meat flowers, stir-fried as one, bloom tastiness on the tip of the tongue. Smooth, crispy, salty, and delicious, this is a must-have dish. You won't stop singing its praises even as you lick the plate clean.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/DeepFried_Doublecrisp.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Fowl"
+      },
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      }
+    ],
+    "effect": {
+      "Suspicious Deep-Fried Doublecrisp": "Increases all party members' CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Deep-Fried Doublecrisp": "Increases all party members' CRIT Rate by 9% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Deep-Fried Doublecrisp": "Increases all party members' CRIT Rate by 12% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Braised Meatball": {
+    "name": "Braised Meatball",
+    "desc": "A classic Liyue dish. Emerald green onions and the ruby red meatball complement each other perfectly, while exquisite and extraordinary knife skills make for a melt-in-your-mouth meatball, fatty but not greasy, guaranteed to have you praising it all week. Don't forget to clean your plate for good luck!",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Braised_Meatball.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Bamboo Shoot"
+      },
+      {
+        "count": 2,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 1,
+        "name": "Salt"
+      }
+    ],
+    "effect": {
+      "Suspicious Braised Meatball": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Braised Meatball": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Braised Meatball": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Honey Char Siu": {
+    "name": "Honey Char Siu",
+    "desc": "A type of roasted meat from Liyue. Richly red in color, aromatic, and intensely flavorful. Why, one might even faint from gluttony if one stares at it for too long. Between mouthfuls of delicious meat and rich sauce, one bowl of rice might seem too measly a match for this taste experience!",
+    "stars": 1,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Honey_Char_Siu.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
+    ],
+    "effect": {
+      "Suspicious Honey Char Siu": "Restores 8% of Max HP to the selected character and regenerates 210 HP every 5s for 30s.",
+      "Honey Char Siu": "Restores 9% of Max HP to the selected character and regenerates 260 HP every 5s for 30s.",
+      "Delicious Honey Char Siu": "Restores 10% of Max HP to the selected character and regenerates 300 HP every 5s for 30s."
+    }
+  },
+  "Fine Tea, Full Moon": {
+    "name": "Fine Tea, Full Moon",
+    "desc": "A tea pastry containing egg yolk. The loose and delicate texture of the grainy egg yolk mingles with a faint fragrance of tea. One small mouthful brings earthy happiness enough to make you swoon. You could pop several in your mouth at once, and woe betide any who should seek to steal a single crumb from the corner of your lips.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Fine_Tea_Full_Moon.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Chenyu Adeptea"
+      },
+      {
+        "count": 2,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 2,
+        "name": "Flour"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
+    ],
+    "effect": {
+      "Suspicious Fine Tea, Full Moon": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+      "Fine Tea, Full Moon": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
+      "Delicious Fine Tea, Full Moon": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
+    }
+  },
+  "Jadevein Tea Eggs": {
+    "name": "Jadevein Tea Eggs",
+    "desc": "A traditional Liyue snack. The aroma of tea finds itself perfectly blended into the eggs. A dollop of deliciousness whether eaten all in one go or savored in small nibbles.",
+    "stars": 1,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Jadevein_Tea_Eggs.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Chenyu Adeptea"
+      },
+      {
+        "count": 1,
+        "name": "Bird Egg"
+      }
+    ],
+    "effect": {
+      "Suspicious Jadevein Tea Eggs": "Revives a character and restores 50 HP.",
+      "Jadevein Tea Eggs": "Revives a character and restores 100 HP.",
+      "Delicious Jadevein Tea Eggs": "Revives a character and restores 150 HP."
+    }
+  },
+  "Tea-Smoked Squab": {
+    "name": "Tea-Smoked Squab",
+    "desc": "A very popular dish. The translucent squab skin is crispy and thin as a sheet of ochre paper, and the meat is firm and plump. Accompanied by delicate gravy, this dish will capture hearts and stomachs alike.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/TeaSmoked_Squab.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Chenyu Adeptea"
+      },
+      {
+        "count": 2,
+        "name": "Fowl"
+      }
+    ],
+    "effect": {
+      "Suspicious Tea-Smoked Squab": "Restores 20% of Max HP and an additional 900 HP to the selected character.",
+      "Tea-Smoked Squab": "Restores 22% of Max HP and an additional 1,200 HP to the selected character.",
+      "Delicious Tea-Smoked Squab": "Restores 24% of Max HP and an additional 1,500 HP to the selected character."
+    }
+  },
+  "Guhua Fish & Lamb Soup": {
+    "name": "Guhua Fish & Lamb Soup",
+    "desc": "An ancient dish, long recorded throughout history. As the milky white soup slides down the throat, you can only wish you had two stomachs. Eat a pot of this in winter, and you'll wish you were still eating it the following spring.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Guhua_Fish_&_Lamb_Soup.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Fish"
+      }
+    ],
+    "effect": {
+      "Suspicious Guhua Fish & Lamb Soup": "Increases all party members' DEF by 88 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Guhua Fish & Lamb Soup": "Increases all party members' DEF by 107 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Guhua Fish & Lamb Soup": "Increases all party members' DEF by 126 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Chenyu Brew": {
+    "name": "Chenyu Brew",
+    "desc": "Common Liyue tea. Your initial sip brings forth flavor on an elegant light breeze, the sweet fragrances of Chenyu Vale alighting upon your lips and tongue. Hark — is that the sweet tinkling of the mountain springs singing in your ear?",
+    "stars": 1,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Chenyu_Brew.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Chenyu Adeptea"
+      }
+    ],
+    "effect": {
+      "Suspicious Chenyu Brew": "Restores 8% of Max HP to the selected character and regenerates 210 HP every 5s for 30s.",
+      "Chenyu Brew": "Restores 9% of Max HP to the selected character and regenerates 260 HP every 5s for 30s.",
+      "Delicious Chenyu Brew": "Restores 10% of Max HP to the selected character and regenerates 300 HP every 5s for 30s."
+    }
+  },
   "Rice Pudding": {
     "name": "Rice Pudding",
     "desc": "A dessert made from rice. The soft, sticky rice and the sweet milk have melded together perfectly, their tastes complementing each other. If you eat it hot, you can enjoy the dense rice grains, and if you leave it till it's cold, you can savor the gentle fragrance of milk — each possessing its own beauty. People who eat such a dish cannot help but wonder: how many experiments led up to this moment?",
@@ -7596,6 +7872,176 @@
       "Suspicious Chili-Mince Cornbread Buns": "Increases all party members' Shield Strength by 25% and DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
       "Chili-Mince Cornbread Buns": "Increases all party members' Shield Strength by 30% and DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
       "Delicious Chili-Mince Cornbread Buns": "Increases all party members' Shield Strength by 35% and DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "The Palace Jewels": {
+    "name": "The Palace Jewels",
+    "desc": "A deliciously fragrant Liyue dish. Soft, smooth crab meat is wrapped in tender, chewy shrimp meat, like a luxurious treasure that people unconsciously reach for. One delicate bite fills your mouth with flavor, like waves billowing across your palate as you float in a delicious river of shrimp and crab.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/The_Palace_Jewels.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Shrimp Meat"
+      },
+      {
+        "count": 1,
+        "name": "Crab Roe"
+      },
+      {
+        "count": 1,
+        "name": "Snapdragon"
+      },
+      {
+        "count": 1,
+        "name": "Salt"
+      }
+    ],
+    "effect": {
+      "Suspicious The Palace Jewels": "Increases all party members' Max HP by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "The Palace Jewels": "Increases all party members' Max HP by 22% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious The Palace Jewels": "Increases all party members' Max HP by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Trembling Strings and Rushing Reeds": {
+    "name": "Trembling Strings and Rushing Reeds",
+    "desc": "A unique meat dish. Each type of shredded meat plays its role in an orchestra of flavor, while the delicate seasoning skillfully blends the various tonal tastes. As one critic put it, just as there are myriad modes, nuanced notes, and complex compositional correspondence, so is it with flavor, the apex of which might even transport you to a different realm...",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Trembling_Strings_and_Rushing_Reeds.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Ham"
+      },
+      {
+        "count": 1,
+        "name": "Fowl"
+      },
+      {
+        "count": 1,
+        "name": "Pepper"
+      }
+    ],
+    "effect": {
+      "Suspicious Trembling Strings and Rushing Reeds": "Increases all party members' CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Trembling Strings and Rushing Reeds": "Increases all party members' CRIT Rate by 15% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Trembling Strings and Rushing Reeds": "Increases all party members' CRIT Rate by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Humbly Enough": {
+    "name": "Humbly Enough",
+    "desc": "A spiced tofu dish. The fried tofu comes with a rich soybean sauce as its classy chaperone. A single bite proves spicy with a hint of a meaty aroma, flooding your mouth with its mellow fragrance and long-lasting aftertaste.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Humbly_Enough.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Tofu"
+      },
+      {
+        "count": 2,
+        "name": "Jueyun Chili"
+      },
+      {
+        "count": 1,
+        "name": "Flour"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
+    ],
+    "effect": {
+      "Suspicious Humbly Enough": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s.",
+      "Humbly Enough": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s.",
+      "Delicious Humbly Enough": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s."
+    }
+  },
+  "Right at Home": {
+    "name": "Right at Home",
+    "desc": "A staple dish with many ingredients. Golden egg yolk coats each grain of rice, the high heat having infused the rich flavor of the ham within. Such a familiar, home-style flavor will surely make any family or friends who've traveled from afar feel right at home.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Right_at_Home.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Rice"
+      },
+      {
+        "count": 2,
+        "name": "Ham"
+      },
+      {
+        "count": 1,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 1,
+        "name": "Bamboo Shoot"
+      }
+    ],
+    "effect": {
+      "Suspicious Right at Home": "Increases all party members' DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Right at Home": "Increases all party members' DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Right at Home": "Increases all party members' DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Eight-Treasure Duck": {
+    "name": "Eight-Treasure Duck",
+    "desc": "A dish that needs true skill to make. The plump and juicy lucky duck is irresistible as soon as it's out of the pot. Add fragrant gravy and a touch of rosy gloss, and this can be said to be the perfect combination of color, flavor, and shape, every bite a veritable flood of flavor with an enduring aftertaste.",
+    "stars": 4,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/EightTreasure_Duck.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Fowl"
+      },
+      {
+        "count": 3,
+        "name": "Fish"
+      },
+      {
+        "count": 2,
+        "name": "Matsutake"
+      },
+      {
+        "count": 1,
+        "name": "Ham"
+      }
+    ],
+    "effect": {
+      "Suspicious Eight-Treasure Duck": "Increases all party members' Shield Strength by 25% and DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Eight-Treasure Duck": "Increases all party members' Shield Strength by 30% and DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Eight-Treasure Duck": "Increases all party members' Shield Strength by 35% and DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   },
   "Golden Fried Chicken": {
@@ -9054,6 +9500,15 @@
     "category": "Trophies",
     "icon": "img/material/Water_That_Failed_To_Transcend.png"
   },
+  "Cloudseam Scale": {
+    "name": "Cloudseam Scale",
+    "desc": "Cold and solid scales from a Solitary Suanni. They retain pure adeptal energy even after falling off and cannot be damaged by ordinary weapons.\nOrdinary beasts can sometimes be affected by errant adeptal energy and become more powerful than usual. However, a suanni's adeptal energy originates from within themselves, which is why their leader is often regarded as equal to adepti.",
+    "longDesc": "Cold and solid scales from a Solitary Suanni. They retain pure adeptal energy even after falling off and cannot be damaged by ordinary weapons.\nOrdinary beasts can sometimes be affected by errant adeptal energy and become more powerful than usual. However, a suanni's adeptal energy originates from within themselves, which is why their leader is often regarded as equal to adepti.\nDespite being considered auspicious beasts, there are nearly-forgotten legends of a suanni named \"the mountain lord\" attacking villages. The Wushou Dance was thought to have originated from a ritual to appease said being. However, since very few people have seen a suanni at all, the theory naturally cannot be verified.",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/Cloudseam_Scale.png"
+  },
   "Brilliant Diamond Sliver": {
     "name": "Brilliant Diamond Sliver",
     "desc": "Character Ascension material.\n\"Welcome to this world.\"",
@@ -9106,9 +9561,6 @@
     "category": "Trophies",
     "icon": "img/material/Agnidus_Agate_Sliver.png",
     "sources": [
-      "Dropped by Pyro Regisvines",
-      "Dropped by Pyro Hypostases",
-      "Dropped by the Emperor of Fire and Iron",
       "Purchase from the Souvenir Shop"
     ]
   },
@@ -9120,9 +9572,6 @@
     "category": "Trophies",
     "icon": "img/material/Agnidus_Agate_Fragment.png",
     "sources": [
-      "Dropped by Lv. 40+ Pyro Regisvines",
-      "Dropped by Lv. 40+ Pyro Hypostases",
-      "Dropped by Lv. 40+ Emperor of Fire and Iron",
       "Crafted"
     ]
   },
@@ -9134,9 +9583,6 @@
     "category": "Trophies",
     "icon": "img/material/Agnidus_Agate_Chunk.png",
     "sources": [
-      "Dropped by Lv. 60+ Pyro Regisvines",
-      "Dropped by Lv. 60+ Pyro Hypostases",
-      "Dropped by Lv. 60+ Emperor of Fire and Iron",
       "Crafted"
     ]
   },
@@ -9148,9 +9594,6 @@
     "category": "Trophies",
     "icon": "img/material/Agnidus_Agate_Gemstone.png",
     "sources": [
-      "Dropped by Lv. 75+ Pyro Regisvines",
-      "Dropped by Lv. 75+ Pyro Hypostases",
-      "Dropped by Lv. 75+ Emperor of Fire and Iron",
       "Crafted"
     ]
   },
@@ -9162,9 +9605,6 @@
     "category": "Trophies",
     "icon": "img/material/Varunada_Lazurite_Sliver.png",
     "sources": [
-      "Dropped by Oceanids",
-      "Dropped by Hydro Hypostases",
-      "Dropped by Hydro Tulpas",
       "Purchase from the Souvenir Shop"
     ]
   },
@@ -9176,9 +9616,6 @@
     "category": "Trophies",
     "icon": "img/material/Varunada_Lazurite_Fragment.png",
     "sources": [
-      "Dropped by Lv. 40+ Oceanids",
-      "Dropped by Lv. 40+ Hydro Hypostases",
-      "Dropped by Lv. 40+ Hydro Tulpas",
       "Crafted"
     ]
   },
@@ -9190,9 +9627,6 @@
     "category": "Trophies",
     "icon": "img/material/Varunada_Lazurite_Chunk.png",
     "sources": [
-      "Dropped by Lv. 60+ Oceanids",
-      "Dropped by Lv. 60+ Hydro Hypostases",
-      "Dropped by Lv. 60+ Hydro Tulpas",
       "Crafted"
     ]
   },
@@ -9204,9 +9638,6 @@
     "category": "Trophies",
     "icon": "img/material/Varunada_Lazurite_Gemstone.png",
     "sources": [
-      "Dropped by Lv. 75+ Oceanids",
-      "Dropped by Lv. 75+ Hydro Hypostases",
-      "Dropped by Lv. 75+ Hydro Tulpas",
       "Crafted"
     ]
   },
@@ -9218,10 +9649,6 @@
     "category": "Trophies",
     "icon": "img/material/Vajrada_Amethyst_Sliver.png",
     "sources": [
-      "Dropped by Electro Hypostases",
-      "Dropped by Thunder Manifestations",
-      "Dropped by Electro Regisvines",
-      "Dropped by Millennial Pearl Seahorses",
       "Purchase from the Souvenir Shop"
     ]
   },
@@ -9233,10 +9660,6 @@
     "category": "Trophies",
     "icon": "img/material/Vajrada_Amethyst_Fragment.png",
     "sources": [
-      "Dropped by Lv. 40+ Electro Hypostases",
-      "Dropped by Lv. 40+ Thunder Manifestations",
-      "Dropped by Lv. 40+ Electro Regisvines",
-      "Dropped by Lv. 40+ Millennial Pearl Seahorses",
       "Crafted"
     ]
   },
@@ -9248,10 +9671,6 @@
     "category": "Trophies",
     "icon": "img/material/Vajrada_Amethyst_Chunk.png",
     "sources": [
-      "Dropped by Lv. 60+ Electro Hypostases",
-      "Dropped by Lv. 60+ Thunder Manifestations",
-      "Dropped by Lv. 60+ Electro Regisvines",
-      "Dropped by Lv. 60+ Millennial Pearl Seahorses",
       "Crafted"
     ]
   },
@@ -9263,10 +9682,6 @@
     "category": "Trophies",
     "icon": "img/material/Vajrada_Amethyst_Gemstone.png",
     "sources": [
-      "Dropped by Lv. 75+ Electro Hypostases",
-      "Dropped by Lv. 75+ Thunder Manifestations",
-      "Dropped by Lv. 75+ Electro Regisvines",
-      "Dropped by Lv. 75+ Millennial Pearl Seahorses",
       "Crafted"
     ]
   },
@@ -9278,8 +9693,6 @@
     "category": "Trophies",
     "icon": "img/material/Vayuda_Turquoise_Sliver.png",
     "sources": [
-      "Dropped by Anemo Hypostases",
-      "Dropped by Setekh Wenut",
       "Purchase from the Souvenir Shop"
     ]
   },
@@ -9291,8 +9704,6 @@
     "category": "Trophies",
     "icon": "img/material/Vayuda_Turquoise_Fragment.png",
     "sources": [
-      "Dropped by Lv. 40+ Anemo Hypostases",
-      "Dropped by Lv. 40+ Setekh Wenut",
       "Crafted"
     ]
   },
@@ -9304,8 +9715,6 @@
     "category": "Trophies",
     "icon": "img/material/Vayuda_Turquoise_Chunk.png",
     "sources": [
-      "Dropped by Lv. 60+ Anemo Hypostases",
-      "Dropped by Lv. 60+ Setekh Wenut",
       "Crafted"
     ]
   },
@@ -9317,8 +9726,6 @@
     "category": "Trophies",
     "icon": "img/material/Vayuda_Turquoise_Gemstone.png",
     "sources": [
-      "Dropped by Lv. 75+ Anemo Hypostases",
-      "Dropped by Lv. 75+ Setekh Wenut",
       "Crafted"
     ]
   },
@@ -9330,8 +9737,6 @@
     "category": "Trophies",
     "icon": "img/material/Shivada_Jade_Sliver.png",
     "sources": [
-      "Dropped by Cryo Regisvines",
-      "Dropped by Cryo Hypostases",
       "Purchase from the Souvenir Shop"
     ]
   },
@@ -9343,8 +9748,6 @@
     "category": "Trophies",
     "icon": "img/material/Shivada_Jade_Fragment.png",
     "sources": [
-      "Dropped by Lv. 40+ Cryo Regisvines",
-      "Dropped by Lv. 40+ Cryo Hypostases",
       "Crafted"
     ]
   },
@@ -9356,8 +9759,6 @@
     "category": "Trophies",
     "icon": "img/material/Shivada_Jade_Chunk.png",
     "sources": [
-      "Dropped by Lv. 60+ Cryo Regisvines",
-      "Dropped by Lv. 60+ Cryo Hypostases",
       "Crafted"
     ]
   },
@@ -9369,8 +9770,6 @@
     "category": "Trophies",
     "icon": "img/material/Shivada_Jade_Gemstone.png",
     "sources": [
-      "Dropped by Lv. 75+ Cryo Regisvines",
-      "Dropped by Lv. 75+ Cryo Hypostases",
       "Crafted"
     ]
   },
@@ -9382,10 +9781,6 @@
     "category": "Trophies",
     "icon": "img/material/Prithiva_Topaz_Sliver.png",
     "sources": [
-      "Dropped by Geo Hypostases",
-      "Dropped by Golden Wolflords",
-      "Dropped by Ruin Serpents",
-      "Dropped by Experimental Field Generators",
       "Purchase from the Souvenir Shop"
     ]
   },
@@ -9397,10 +9792,6 @@
     "category": "Trophies",
     "icon": "img/material/Prithiva_Topaz_Fragment.png",
     "sources": [
-      "Dropped by Lv. 40+ Geo Hypostases",
-      "Dropped by Lv. 40+ Golden Wolflords",
-      "Dropped by Lv. 40+ Ruin Serpents",
-      "Dropped by Lv. 40+ Experimental Field Generators",
       "Crafted"
     ]
   },
@@ -9412,10 +9803,6 @@
     "category": "Trophies",
     "icon": "img/material/Prithiva_Topaz_Chunk.png",
     "sources": [
-      "Dropped by Lv. 60+ Geo Hypostases",
-      "Dropped by Lv. 60+ Golden Wolflords",
-      "Dropped by Lv. 60+ Ruin Serpents",
-      "Dropped by Lv. 60+ Experimental Field Generators",
       "Crafted"
     ]
   },
@@ -9427,10 +9814,6 @@
     "category": "Trophies",
     "icon": "img/material/Prithiva_Topaz_Gemstone.png",
     "sources": [
-      "Dropped by Lv. 75+ Geo Hypostases",
-      "Dropped by Lv. 75+ Golden Wolflords",
-      "Dropped by Lv. 75+ Ruin Serpents",
-      "Dropped by Lv. 75+ Experimental Field Generators",
       "Crafted"
     ]
   },
@@ -9440,11 +9823,7 @@
     "stars": 2,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Nagadus_Emerald_Sliver.png",
-    "sources": [
-      "Dropped by Jadeplume Terrorshroom",
-      "Dropped by Dendro Hypostases"
-    ]
+    "icon": "img/material/Nagadus_Emerald_Sliver.png"
   },
   "Nagadus Emerald Fragment": {
     "name": "Nagadus Emerald Fragment",
@@ -9454,8 +9833,6 @@
     "category": "Trophies",
     "icon": "img/material/Nagadus_Emerald_Fragment.png",
     "sources": [
-      "Dropped by Lv. 40+ Jadeplume Terrorshroom",
-      "Dropped by Lv. 40+ Dendro Hypostases",
       "Crafted"
     ]
   },
@@ -9467,8 +9844,6 @@
     "category": "Trophies",
     "icon": "img/material/Nagadus_Emerald_Chunk.png",
     "sources": [
-      "Dropped by Lv. 60+ Jadeplume Terrorshroom",
-      "Dropped by Lv. 60+ Dendro Hypostases",
       "Crafted"
     ]
   },
@@ -9480,8 +9855,6 @@
     "category": "Trophies",
     "icon": "img/material/Nagadus_Emerald_Gemstone.png",
     "sources": [
-      "Dropped by Lv. 75+ Jadeplume Terrorshroom",
-      "Dropped by Lv. 75+ Dendro Hypostases",
       "Crafted"
     ]
   },
@@ -11132,6 +11505,38 @@
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
     "icon": "img/material/Operatives_Constancy.png",
+    "sources": [
+      "Crafted"
+    ]
+  },
+  "Feathery Fin": {
+    "name": "Feathery Fin",
+    "desc": "A fin fragment taken from a defeated Xuanwen Beast's back.\nEven though Xuanwen Beasts can't fly over long distances, these feather-like fins enable them to swiftly pursue their prey.",
+    "stars": 2,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Feathery_Fin.png"
+  },
+  "Lunar Fin": {
+    "name": "Lunar Fin",
+    "desc": "A fin taken from a defeated Xuanwen Beast's back.\nThe soft, moonlight-esque glow on the fin gives off a sense of serenity.",
+    "longDesc": "A fin taken from a defeated Xuanwen Beast's back.\nThe soft, moonlight-esque glow on the fin gives off a sense of serenity. There's a saying that goes \"jade flows through the void as the Xuanwen lights the shadows.\" No matter how much time has passed, the beasts roaming the mountains will always remember the moonlight, just as they do their secrets, hidden within the shadows and the night breeze.",
+    "stars": 3,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Lunar_Fin.png",
+    "sources": [
+      "Crafted"
+    ]
+  },
+  "Chasmlight Fin": {
+    "name": "Chasmlight Fin",
+    "desc": "An elegant fin taken from a defeated Xuanwen Beast's back.\nThe faint light it reflects contains traces of adeptal energy. In the still of the night, even the most violent beasts briefly sink into a peaceful slumber, reminiscing on times when dreams belonged not only to humans.",
+    "longDesc": "An elegant fin taken from a defeated Xuanwen Beast's back.\nThe faint light it reflects contains traces of adeptal energy. In the still of the night, even the most violent beasts briefly sink into a peaceful slumber, reminiscing on times when dreams belonged not only to humans. However, many dream weavers have long since passed, and those dreams from the past are nowhere to be found, like light falling to the bottom of the abyss.",
+    "stars": 4,
+    "type": "Character and Weapon Enhancement Material",
+    "category": "Trophies",
+    "icon": "img/material/Chasmlight_Fin.png",
     "sources": [
       "Crafted"
     ]

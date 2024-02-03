@@ -4237,5 +4237,37 @@
         "10%"
       ]
     ]
+  },
+  "Solitary Suanni": {
+    "name": "Solitary Suanni",
+    "desc": "These elegant and proud mystical beasts only live in mountains shrouded in adeptal energy.\nSince ancient times, they have been considered a symbol of good fortune, and their preference for living aloof from the material world has been admired by intellectuals for generations. In ancient legends from Chenyu Vale, the leader of the suanni was called the Mountain Lord and was considered to be of the same standing as the adepti.\nAnother theory claims that the Xuanwen Beasts that roam the mountains these days are the descendants of the suanni, but that the thinning of their blood over the years has caused them to devolve into violent creatures. Although this contradicts another theory regarding the origin of Xuanwen Beasts, the few records of the suanni often show them attended by a large number of Xuanwen Beasts.\nThese days, the well-known Wushou Dance in Chenyu Vale came from the movements of the suanni. But since only a handful of people have actually seen such creatures, most can only imagine what they look like. After thousands of years of changes and different artistic interpretations, the Wushou Dance costume head has developed into its current style.",
+    "icon": "img/enemy/Solitary_Suanni.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "70%",
+        "70%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Xuanwen Beast": {
+    "name": "Xuanwen Beast",
+    "desc": "Xuanwen Beasts, named for the dark patterns on their bodies, are fierce creatures that inhabit the mountains of Chenyu Vale.\nIn the region's folklore, these beasts were the servants of an adeptus in ancient times, tasked with vanquishing evil and protecting the region. However, they devolved into brutal creatures after said adeptus passed away. These legends cannot be verified, and no one knows the true identity of this adeptus. This much is for sure, however — one should stay away from these aggressive creatures for one's safety.\nFor over a thousand years, these beasts have lost a tremendous amount of territory that once belonged to them to relentless human encroachment. These days, they can only occasionally be spotted in the remote mountains of Chenyu Vale...",
+    "icon": "img/enemy/Xuanwen_Beast.png",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "50%",
+        "50%",
+        "10%",
+        "10%"
+      ]
+    ]
   }
 }
