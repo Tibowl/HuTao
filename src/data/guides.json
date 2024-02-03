@@ -152,6 +152,15 @@
         "links": {
           "material": ["Starconch"]
         }
+      },
+      {
+        "name": "Clearwater Jade route",
+        "desc": "**Clearwater Jades ${Clearwater Jade}** can be found in Chenyu Vale, Liyue and are being sold by **Fengtai** (up to 5 per 3 days).\n\n> Jade from Chenyu Vale. Named for its cool, refreshing touch, that is much like clear water.",
+        "img": "https://static.hutaobot.moe/images/Clearwater_Jade_8a52e94d.png",
+        "credits": "Soul & Grun",
+        "links": {
+          "material": ["Clearwater Jade"]
+        }
       }
     ]
   },
