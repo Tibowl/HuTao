@@ -971,5 +971,60 @@
         "img": "https://static.hutaobot.moe/images/AdvHandbookRedPrompt_6c62ba16.png"
       }
     ]
+  },
+  {
+    "name": "An Introduction to Chenyu Vale",
+    "pages": [
+      {
+        "name": "Qiaoying Village",
+        "desc": "Famous throughout Teyvat, in upper Chenyu Value you should visit Qiaoying Village as it prides itself in providing high quality tea and living a rich tradition of it. It is not all too surprising then that \"Qiaoying\" means \"tea\" in traditional chinese culture.",
+        "img": "https://static.hutaobot.moe/images/QiaoyingVillage_16051405.png"
+      },
+      {
+        "name": "Yilong Wharf",
+        "desc": "While Liyue Harbor proudly stands as Liyues biggest trade hub, far up north in the country Yilong Wharf guards the eastern port of Liyue, watching the straits to Fontaine.",
+        "img": "https://static.hutaobot.moe/images/YilongWharf_272c9221.png"
+      },
+      {
+        "name": "Mt. Xuanlian",
+        "desc": "Shaped by mountains, Chenyu Vale has many fascinating geological formations, such as the ethereal Mt. Xuanlian, easily recognizable by its peaks that seem to defy gravity. Sacred Springs can be found running from the sides of the mountains here, guided by Jade Hairpins.",
+        "img": "https://static.hutaobot.moe/images/MtXuanlian_396e9ceb.png"
+      },
+      {
+        "name": "Tea with Friends",
+        "desc": "Famous for its Adeptea and possessing many beautiful landscapes, there's nothing better than relaxing alongside friends with a cup of this fragrant beverage under the shade of a tree.",
+        "img": "https://static.hutaobot.moe/images/TeaWithFriends_1f890c1f.png"
+      },
+      {
+        "name": "Jademouth",
+        "desc": "Shaped by history, a final adventure of friends, Jademouth and Mt. Lingmeng stand as monuments to the calamities of the past. Legends speak of a slab of Jade on a sacred mountain, which was thrown into the water. This is believed to be the origin of the name \"Chenyu\" meaning \"Sunken Jade\". Perhaps Jademouth may be able to help you on your journey to uncover these story to this legend.",
+        "img": "https://static.hutaobot.moe/images/Jademouth_6859168d.png"
+      },
+      {
+        "name": "Guhua Clan",
+        "desc": "Proclaimed the stronghold of the Guhua Clan, what mysteries does this gate hide? Grand Master Guhua is told to have established 12 Secret Chambers within upon its creation, hiding long forgotten treasures inside, can such a story really be true?",
+        "img": "https://static.hutaobot.moe/images/GuhuaClan_f04496cb.png"
+      },
+      {
+        "name": "The Adepti",
+        "desc": "Like other regions of Liyue, various Adepti have been present during Chenyu Vales rich history. You may even stumble upon their tracks during your exploration.",
+        "img": "https://static.hutaobot.moe/images/Adepti_efd4f95c.png"
+      },
+      {
+        "name": "Herblord",
+        "desc": "One of the Adepti of Chenyu Vale, \"Herblord\" took on the shape of a white snake. This reminds you of Changsheng, Baizhus trusty companion. Maybe they are related?.",
+        "img": "https://static.hutaobot.moe/images/Herblord_7b648ad1.png"
+      },
+      {
+        "name": "Simulacrums",
+        "desc": " Peculiar statues known as \"Simulacrums\" can be found around Chenyu Vale as well. Some even appear to be lost! Return them where they belong and they may reward you for your efforts.",
+        "img": "https://static.hutaobot.moe/images/Simulacrums_50669a5e.png"
+      },
+      {
+        "name": "Ancient Ruins",
+        "desc": "Scattered around Chenyu Vale many Ancient Ruins can be found, resting in disrepair and weathered by time. Yet maybe an intrepid adventurer would be able to restore them to be as *Good as New*.",
+        "img": "https://static.hutaobot.moe/images/AncientRuins_beba4691.png"
+      }
+    ]
   }
 ]
