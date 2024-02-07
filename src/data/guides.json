@@ -822,6 +822,15 @@
           "enemy": ["Frost Operative", "Wind Operative"],
           "material": ["Old Operative's Pocket Watch", "Operative's Standard Pocket Watch", "Operative's Constancy"]
         }
+      },
+      {
+        "name": "Xuanwen Beast route (Feathery Fin, Lunar Fin and Chasmlight Fin)",
+        "desc": "**Xuanwen Beasts ${Xuanwen Beasts}** are Elite Enemies. They are Mystical Beasts and drop **Feathery Fin ${Feathery Fin}**, **Lunar Fin ${Lunar Fin}** and **Chasmlight Fin ${Chasmlight Fin}**.",
+        "img": "https://static.hutaobot.moe/images/XuanwenBeasts_109fe27c.png",
+        "links": {
+          "enemy": ["Xuanwen Beasts"],
+          "material": ["Feathery Fin", "Lunar Fin", "Chasmlight Fin"]
+        }
       }
     ]
   },
