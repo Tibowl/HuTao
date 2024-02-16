@@ -3476,6 +3476,33 @@
         "reminder": "end"
     },
     {
+        "name": "Event Wish \"Invitation to Mundane Life\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/24708380",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/30/e18846c36fd46384b3b4e48def63d3db_4811680201172591478.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "start": "2024-02-20 18:00:00",
+        "end": "2024-02-20 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Everbloom Violet\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/24708380",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/30/34be2b401ebb1eea5799980fed3f4a43_5510961432010783013.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "start": "2024-02-20 18:00:00",
+        "end": "2024-02-20 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/24708380",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/30/cbe88c342ff8a92a74a96996492838e8_7667710938831438876.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "start": "2024-02-20 18:00:00",
+        "end": "2024-02-20 14:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "\"Vibrant Harriers Aloft in Spring Breeze\" Event",
         "type": "In-game",
         "link": "https://www.hoyolab.com/article/24683838",
@@ -3509,6 +3536,15 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/25/0/6de2b1a2576bc4d0f99d666a43113bb8_5703128602698949114.jpeg",
         "start": "2024-01-26 12:00:00",
         "end": "2024-01-31 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Adeptus Mechanical Marvel \" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/25061234",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/02/07/0/a724347bb3d2bea56b9b81b18739beee_8242917311947846822.jpeg",
+        "start": "2024-02-08 12:00:00",
+        "end": "2024-02-17 23:59:00",
         "reminder": "end"
     }
 ]
