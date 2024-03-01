@@ -3479,7 +3479,7 @@
         "name": "Event Wish \"Invitation to Mundane Life\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/24708380",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/30/e18846c36fd46384b3b4e48def63d3db_4811680201172591478.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/30/e18846c36fd46384b3b4e48def63d3db_4811680201172591478.jpg",
         "start": "2024-02-20 18:00:00",
         "end": "2024-02-20 14:59:00",
         "reminder": "end"
@@ -3488,7 +3488,7 @@
         "name": "Event Wish \"Everbloom Violet\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/24708380",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/30/34be2b401ebb1eea5799980fed3f4a43_5510961432010783013.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/30/34be2b401ebb1eea5799980fed3f4a43_5510961432010783013.jpg",
         "start": "2024-02-20 18:00:00",
         "end": "2024-02-20 14:59:00",
         "reminder": "end"
@@ -3497,7 +3497,7 @@
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/24708380",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/30/cbe88c342ff8a92a74a96996492838e8_7667710938831438876.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/30/cbe88c342ff8a92a74a96996492838e8_7667710938831438876.jpg",
         "start": "2024-02-20 18:00:00",
         "end": "2024-02-20 14:59:00",
         "reminder": "end"
@@ -3528,6 +3528,33 @@
         "start": "2024-02-15 04:00:00",
         "end": "2024-02-26 03:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "\"Receiver of Friends From Afar\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/24708406",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/29/f71bcbebf7f16998027f16c7a19808f3_304078699539520513.png",
+        "start": "2024-02-21 10:00:00",
+        "end": "2024-03-04 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Journey Through Hilinigmatic Terrain\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/24708406",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/29/5d4c5fb8a2f22a643a134dfbb1a384b5_7758885174669598529.png",
+        "start": "2024-02-29 10:00:00",
+        "end": "2024-03-11 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Overflowing Mastery\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/24708406",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/29/d57d50a9b8fd0e6fc427f0f0b9e0f426_5987716192671425172.jpg",
+        "start": "2024-03-04 04:00:00",
+        "end": "2024-03-11 03:59:00",
+        "reminder": "daily"
     },
     {
         "name": "\"Adeptus Mechanical Marvel \" Web Event",
