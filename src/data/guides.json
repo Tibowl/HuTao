@@ -1089,5 +1089,40 @@
         "img": "https://static.hutaobot.moe/images/Chiori_teams_840fe455.png"
       }
     ]
+  },
+  {
+    "name": "Training Guide",
+    "pages": [
+      {
+        "name": "Training Guide",
+        "desc": "The Training Guide is a new feature you can access through the Paimon menu to bring up a menu which will show you the Adventure Power of the current characters in your party!\n\nClicking the **More Characters** button or the **Enhance** button on the displayed characters will bring you to a menu showing all your characters as well as bringing up the **Possible Improvements** tabs.",
+        "img": "https://static.hutaobot.moe/images/Training_Guide_62e793cb.png"
+      },
+      {
+        "name": "Character Levels",
+        "desc": "The Character Level tab is the first tab of possible improvements - this tab will list the sources of all the materials you are missing to ascend a character, allowing you to quickly get an overview of what materials you still need to gather.\n\nClick the location icons to view where on the map these items can be found as well!",
+        "img": "https://static.hutaobot.moe/images/Training_Guide_Levels_2f34d813.png"
+      },
+      {
+        "name": "Weapons",
+        "desc": "The Weapons tab will show whether or not you can Ascend and level up that character's current weapon, as well as show 3 commonly used Weapons on the chosen character by other Travelers!",
+        "img": "https://static.hutaobot.moe/images/Training_Guide_Weapons_f58c4f6c.png"
+      },
+      {
+        "name": "Artifacts",
+        "desc": "The Artifacts tab will recommend you 3 artifact loadouts that are commonly used by other Travelers, as well as displaying if there is a recommended Artifact configuration it can equip using Quick Configurations.\n\nClicking the arrows next to the recommended artifact sets will navigate you to the domains that drop these artifacts.",
+        "img": "https://static.hutaobot.moe/images/Training_Guide_Artifacts_9ed475af.png"
+      },
+      {
+        "name": "Character Talents",
+        "desc": "The Character Talents tab shows what Talents can still be upgraded, as well as displaying the sources of materials you may be missing - Clicking the location icons will show where these materials can be obtained. This feature also displays both the days Talent books can be obtained as well as showing the priority other Travelers raised the chosen character's Talents.",
+        "img": "https://static.hutaobot.moe/images/Training_Guide_Character_Talents_e2087873.png"
+      },
+      {
+        "name": "Closing thoughts",
+        "desc": "The Training Guide feature is a useful feature for any Traveler who may be wondering how to further enhance their characters by providing advice from other recently active Travelers - it should be noted that there are always alternate ways to improve your characters based on the teams a Traveler may desire to use and there is not always one best way to build your characters for all situations!",
+        "img": "https://static.hutaobot.moe/images/Training_Guide_Closing_26e8db73.png"
+      }
+    ]
   }
 ]
