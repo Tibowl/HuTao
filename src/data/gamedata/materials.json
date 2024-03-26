@@ -2464,6 +2464,22 @@
     },
     "effect": "Restores 14% of Max HP to the selected character and regenerates 350 HP every 5s for 30s."
   },
+  "\"Fashion Show\"": {
+    "name": "\"Fashion Show\"",
+    "desc": "Chiori's specialty. At the ministrations of her nimble fingers, even the common taiyaki is transformed, garbed in glorious fillings that serenade the senses, regaling your taste buds and eyes with such a grand feast that it threatens to overwhelm them. It would be no overstatement to call this a masterpiece of culinary artistry.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Fashion_Show.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Chiori",
+      "recipe": "Taiyaki"
+    },
+    "effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s."
+  },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
     "desc": "Onion-covered toast. Exudes a wonderful aroma. Are the fish biting for the bait, or is it the toast they're after?",
@@ -8410,6 +8426,36 @@
       "Delicious Fontinalia Mousse": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   },
+  "Mega-Meaty Sushi": {
+    "name": "Mega-Meaty Sushi",
+    "desc": "Sushi made using barbecued meat. The tender meat bursting with rich juices quickly fills every nook and cranny of your mouth. Conquering the entire plate feels like you are standing atop a lofty summit, surveying the world below with pure satisfaction as contentment wells up from deep within.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/MegaMeaty_Sushi.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 3,
+        "name": "Rice"
+      },
+      {
+        "count": 2,
+        "name": "Radish"
+      }
+    ],
+    "effect": {
+      "Suspicious Mega-Meaty Sushi": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+      "Mega-Meaty Sushi": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
+      "Delicious Mega-Meaty Sushi": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
+    }
+  },
   "Holy Water": {
     "name": "Holy Water",
     "desc": "A bottle of clear, colorless, and contaminant-free liquid. Indistinguishable from ordinary spring water. May or may not be worth putting all of one's hopes into.",
@@ -12634,5 +12680,13 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "img/material/Portable_Aerodynamic_Gelatinous_Bubble_Generator.png"
+  },
+  "\"Fateometer\"": {
+    "name": "\"Fateometer\"",
+    "desc": "A deceptively grandiose-looking card box that is actually quite simple. The number drawn seems to indicate a certain direction of fate, or perhaps the success or failure of a certain choice...\n\"As long as you believe in your bond with the cards, the numbers shown will show your fate.\" — Since Lyney said that, let's just tentatively take his word with a shaker of salt.",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Fateometer.png"
   }
 }

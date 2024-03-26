@@ -3526,6 +3526,131 @@
       }
     ]
   },
+  "Dialogues of the Desert Sages": {
+    "name": "Dialogues of the Desert Sages",
+    "desc": "A caduceus symbolizing the glory of alchemy, made from special alloys to match its special status. It is exceedingly rigid and heavy, and would probably hurt pretty bad if used as a cudgel.",
+    "weaponType": "Polearm",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.4010009765625,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "HP%",
+        "init": 0.09000000357627869,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Dialogues_of_the_Desert_Sages.png",
+    "awakenIcon": "img/weapon_woke/Dialogues_of_the_Desert_Sages.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.899999618530273
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.900001525878906
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.80000305175781
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.69999694824219
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.6999969482422
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Feathery Fin",
+        "EnemyDropTierA2": "Lunar Fin",
+        "EnemyDropTierA3": "Chasmlight Fin",
+        "EnemyDropTierB1": "Spectral Husk",
+        "EnemyDropTierB2": "Spectral Heart",
+        "EnemyDropTierB3": "Spectral Nucleus",
+        "WeaponAsc1": "Copper Talisman of the Forest Dew",
+        "WeaponAsc2": "Iron Talisman of the Forest Dew",
+        "WeaponAsc3": "Silver Talisman of the Forest Dew",
+        "WeaponAsc4": "Golden Talisman of the Forest Dew"
+      }
+    },
+    "lore": "The seven sages of King Deshret have long vanished, their deeds blown away by the winds, leaving behind only their names, carved in stone. Now, even these engravings have been eroded by the winds of time, turning into little more than golden grains of sand.\nThe right hand of King Deshret, the head of the Seven Sages, the minister of ministers — The Goat King;\nThe great bird winging skyward towards the sun, the King's soul — The saint Bennu;\nThe lioness with a human head, the King's will — The saint Shesepankh;\nAnd the dragon who obtained the flesh and blood of the King, who never counted itself among the Seven — Al-Apep.\nThe four named above have nothing to do with the story that follows.\n\nThe Crocodile King and Ibis King were arguing ceaselessly, as ever, and that day the subject of their debate was the changing of things.\nThe Crocodile King sought a person who possessed mystic arts. That person had been blessed by an Oceanid who was staying there, and any liquid that passed through his hands would transform itself into an exquisite wine, perfectly proportioned.\nThe Ibis King brought forth another rare being, one who had accidentally touched the tomb and remains of an ancient god, and been cursed. Due to the curse, anything touched by both his hands would slowly become pure silver — after all, from today, we know that transformation into gold and Mora is the sole province of Deus Auri.\nThe two of them bet on which effect would win out in the end. They also asked Hermanubis — who is the last of the Seven Sages to be mentioned — to make a conjecture as to the eventual result.\nHermanubis was a sage of the desert, and the leader of the priestly class. For this reason, he was both a warrior and a sage. And as the learning known as alchemy was passed down amongst humans, and he was well-versed in its secrets, asking him to judge was eminently reasonable.\n\n\"Both forms of power clash directly, as sharp spears striking sturdy shields,\" spake Hermanubis, \"And they must each yield unto the other, and take a step back. This is the principle of equilibrium.\"\nIn the end, the final result was that the cup became pure silver, while the silted water within became a fine liquor with suspended grains of silver.\n\nYet the Crocodile King and Ibis King did not understand Hermanubis's admonishment, instead continuing their battle. In the end, they invented a strange summoning magic. And now, the two of them have traversed millennia to continue their battle upon the field of Genius Invokation TCG...\nAll of this is part of this version of the story of \"King of Invokations.\"",
+    "refinements": [
+      {
+        "name": "Principle of Equilibrium",
+        "desc": "When the wielder performs healing, restore **8** Energy. This effect can be triggered once every 10s and can occur even when the character is not on the field."
+      },
+      {
+        "name": "Principle of Equilibrium",
+        "desc": "When the wielder performs healing, restore **10** Energy. This effect can be triggered once every 10s and can occur even when the character is not on the field."
+      },
+      {
+        "name": "Principle of Equilibrium",
+        "desc": "When the wielder performs healing, restore **12** Energy. This effect can be triggered once every 10s and can occur even when the character is not on the field."
+      },
+      {
+        "name": "Principle of Equilibrium",
+        "desc": "When the wielder performs healing, restore **14** Energy. This effect can be triggered once every 10s and can occur even when the character is not on the field."
+      },
+      {
+        "name": "Principle of Equilibrium",
+        "desc": "When the wielder performs healing, restore **16** Energy. This effect can be triggered once every 10s and can occur even when the character is not on the field."
+      }
+    ]
+  },
   "Dodoco Tales": {
     "name": "Dodoco Tales",
     "desc": "A children's book filled with childish short stories at which one cannot help but laugh.\nEven those readers who have long reached adulthood cannot help but be absorbed by the innocent, naive little adventures portrayed within.",
@@ -20257,6 +20382,131 @@
       {
         "name": "Melussistance!",
         "desc": "ATK increased by **24%**. That's not all! The support from all Melusines you've helped in Merusea Village fills you with strength! Based on the number of them you've helped, your ATK is increased by up to an additional **24%**."
+      }
+    ]
+  },
+  "Uraku Misugiri": {
+    "name": "Uraku Misugiri",
+    "desc": "This famous blade was once created by the hand of Urakusai, the renowned literatus. Legend has it that it has never cut any living creature in all these hundreds of years.",
+    "weaponType": "Sword",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 44.33580017089844,
+        "curve": "ATK 3.4"
+      },
+      {
+        "stat": "CRIT DMG",
+        "init": 0.19200000166893005,
+        "curve": "C3"
+      }
+    ],
+    "icon": "img/weapon/Uraku_Misugiri.png",
+    "awakenIcon": "img/weapon_woke/Uraku_Misugiri.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.100000381469727
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.20000076293945
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4000015258789
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.60000610351562
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.6999969482422
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts5",
+      "mapping": {
+        "EnemyDropTierA1": "Chaos Gear",
+        "EnemyDropTierA2": "Chaos Axis",
+        "EnemyDropTierA3": "Chaos Oculus",
+        "EnemyDropTierB1": "Old Handguard",
+        "EnemyDropTierB2": "Kageuchi Handguard",
+        "EnemyDropTierB3": "Famed Handguard",
+        "WeaponAsc1": "Coral Branch of a Distant Sea",
+        "WeaponAsc2": "Jeweled Branch of a Distant Sea",
+        "WeaponAsc3": "Jade Branch of a Distant Sea",
+        "WeaponAsc4": "Golden Branch of a Distant Sea"
+      }
+    },
+    "lore": "Legends tell of how the Kitsune Urakusai once earned the undying enmity of the bake-danuki by cutting the gold-lacquered screen curtains of the stage within the forest while caught up in a drunken reverie.\nThis act earned his sword its name, and the Kitsune's drunken dance, blade wild beneath the moon, became a tale told amongst all who saw, save for the bake-danuki.\nLater, it is said that Urakusai apologized to the bake-danuki who had held the play, and gave them his precious teaset and other treasures.\nAnd he \"of the Front Gate,\" who had met him but once before the incident, received the blade \"Misugiri\" as a reward for mediating between the parties.\n\nAs for this recipient, he was slightly different from the rumors. Not only was he a strange character who had fought a vicious battle against Lavender Melon trees, but one who had a sense of elegance, enjoying plays, toys, and clothing.\nWhen throwing himself into battle, he would garb himself in golden brocade threaded with autumn grass and clouds, and the garish oil paints on his face would give him a fantastical form.\nHowever, neither ancient texts nor folk stories describe how he carried the great golden blade \"Misugiri\" in his final battle.\nInstead, his weapon is always the same in many anecdotes and stories, a prodigiously-sized blade with a name just as long and difficult to pronounce as his own.\nThough there are scrolls depict him wielding a sword in each hand, one large and one small, his majestic form cutting through the onrushing tide of black monsters,\nAccording to the authoritative \"Anthology\" of the time, \"Misugiri\" had already been lost by he \"of the Front Gate\" in the summer of some year before the disaster.\nFor this reason, the blade that may never have cut an enemy, \"Misugiri,\" has always piqued the imaginations of those who discuss historical tales while deep into their cups.\n\nAmong the Oni, who tell their history and legends only through song and chant and never through writing, there is a story that is different from or perhaps complementary to that which is recorded in the \"Anthology.\"\nAfter a wrestling match during a festival, he \"of the Front Gate\" gifted the renowned blade \"Misugiri\" to a tailor, who was not from a martial family.\nIt seems as though a young girl patched and mended a golden flower that had come loose from his haori, and he gifted her the sword at his side by way of reward.\n\n\"Whaddaya mean, you don't want a reward? How about this then: I'll trade this here sword of mine for your scissors! It won't count as a reward then, eh?\"\n\"Huh? What're you saying? Of course it can be used cut cloth! Such a young lady, but when you open your mouth, you actually sound like one of them boring tengu!\"\n\"What kind of lame excuse is 'there's a difference between martial families and commoners'!? You use such tiny little scissors to snip cloth! A nice long blade like this oughta work better, don'cha think?\"\n\"No way! I'm giving you this sword because its long-winded old owner just kept rambling on, something about how famous stuff oughta get hung on walls for people to admire.\"\n\"...I'm not just giving it to you, it's a transaction, y'know! Better that you cut some clothes with it than me having that old fox popping by to ask me how the sword's doing every few days!\"\n\"Hey, I can hear what you're saying about me! And keep my voice outta this! Whatever, just watch closely—!\"\n\nWith that, the Oni abruptly stood and drew the sword forth from the scabbard, its cold edge reflecting moonlight and the festival's smoke.\nThen, he cut one of his sleeves clean off with no hesitation, before sheathing the sword and sitting upright, offering the brocaded sleeve along with the sword.\nThis Oni warrior, who usually laughed and shouted in front of all and sundry upon the streets and cared little for minor matters, seemed a little more like a fierce fiend when serious.\n\n\"See? Even an oaf like me who doesn't know squat about tailoring can slice through cloth like butter using this here knife, so you'd best give it some credit, y'hear?\"\n\"Alright! Take good care of it, now! I'm figurin' that you're the only one who'll put it to good use! I'll just end up breaking it.\"\n\"You want me to keep it as some kinda family heirloom? Haha, I've thought about that! But a famous sword gets sad if it ain't used.\"\n\"And if that happens, next time Urakusai shows up, he'll mock me for being a dumb lout, boring, uncultured, y'know, that kinda claptrap.\"\n\nFace to face with the suddenly solemn Oni's visage, the young tailor girl of common birth was absolutely terrified.\nAfter waiting for the girl, now shaking with fear, to accept the precious thank-you gift, the Oni let loose a few great guffaws, thinking himself quite clever, and left most satisfied.\nHe \"of the Front Gate\" thus earned the title of \"The Great Idiot\" among the villagers, and he did not dislike it.\nThough he was quick to laugh and quick to anger, he made many friends and protected many lives in his life, which was itself neither exceptionally long nor overly short.\nAfterward, when countless textless embroidered scrolls were woven for those gods, kitsune, youkai, oni, and humans who protected lives beyond counting,\nWracked by guilt for never managing to return the blade to him to help him fell his foes, the tailor designed that awe-inspiring image of his likeness wielding two blades.\nBut that was later. Before that would come to pass, Urakusai had to first grieve for the scattered, wandering people for years.\n\nWhenever descendants of that Oni who bore his name saw one carrying the magnificent blade who was not the young seamstress, they would recall:\n\"Uncle often sighed as he cleaned that sword, blaming Urakusai for leaving such an extraordinary treasure to such an oaf like himself.\"\n\"'This thing outta enjoy the comfort and beauty of the world. How could I ever stand to taint it with slaughter and fury?'\"\n\nBut to get back on topic, when the girl discovered the blade's marvelous uses off the battlefield, it was still some time before she would weave that particular scroll.\nIn those days, the Oni Chiyo danced in her resplendent juunihitoe, sword in hand, dazzling as dainty flowers fluttering in the spring breeze.",
+    "refinements": [
+      {
+        "name": "Brocade Bloom, Shrine Sword",
+        "desc": "Normal Attack DMG is increased by **16%** and Elemental Skill DMG is increased by **24%**. After a nearby active character deals Geo DMG, the aforementioned effects increase by 100% for 15s. Additionally, the wielder's DEF is increased by **20%**."
+      },
+      {
+        "name": "Brocade Bloom, Shrine Sword",
+        "desc": "Normal Attack DMG is increased by **20%** and Elemental Skill DMG is increased by **30%**. After a nearby active character deals Geo DMG, the aforementioned effects increase by 100% for 15s. Additionally, the wielder's DEF is increased by **25%**."
+      },
+      {
+        "name": "Brocade Bloom, Shrine Sword",
+        "desc": "Normal Attack DMG is increased by **24%** and Elemental Skill DMG is increased by **36%**. After a nearby active character deals Geo DMG, the aforementioned effects increase by 100% for 15s. Additionally, the wielder's DEF is increased by **30%**."
+      },
+      {
+        "name": "Brocade Bloom, Shrine Sword",
+        "desc": "Normal Attack DMG is increased by **28%** and Elemental Skill DMG is increased by **42%**. After a nearby active character deals Geo DMG, the aforementioned effects increase by 100% for 15s. Additionally, the wielder's DEF is increased by **35%**."
+      },
+      {
+        "name": "Brocade Bloom, Shrine Sword",
+        "desc": "Normal Attack DMG is increased by **32%** and Elemental Skill DMG is increased by **48%**. After a nearby active character deals Geo DMG, the aforementioned effects increase by 100% for 15s. Additionally, the wielder's DEF is increased by **40%**."
       }
     ]
   },
