@@ -1012,7 +1012,7 @@
       },
       {
         "name": "Herblord",
-        "desc": "One of the Adepti of Chenyu Vale, \"Herblord\" took on the shape of a white snake. This reminds you of Changsheng, Baizhus trusty companion. Maybe they are related?.",
+        "desc": "One of the Adepti of Chenyu Vale, \"Herblord\" took on the shape of a white snake. This reminds you of Changsheng, Baizhus trusty companion. Maybe they are related?",
         "img": "https://static.hutaobot.moe/images/Herblord_7b648ad1.png"
       },
       {
@@ -1024,6 +1024,69 @@
         "name": "Ancient Ruins",
         "desc": "Scattered around Chenyu Vale many Ancient Ruins can be found, resting in disrepair and weathered by time. Yet maybe an intrepid adventurer would be able to restore them to be as *Good as New*.",
         "img": "https://static.hutaobot.moe/images/AncientRuins_beba4691.png"
+      }
+    ]
+  },
+  {
+    "name": "Chiori Guide",
+    "pages": [
+      {
+        "name": "Chiori Quick Overview",
+        "desc": "Chiori, the Thundering Seamstress is a 5 star Geo Sword character from Inazuma, though in the present day you will find her running Chioriya Boutique in Fontaine, being the designer of the outfits of many known faces like Kirara and Navia!\n\nChiori is primarily an off-field damage dealer, doing significant damage through her summoned constructs, known as **Tamoto**. Her damage comes primarily from her Elemental Skill, which in addition to summoning \"Tamoto\" to the field, features a new Quick-Time Event which can trigger different effects based on input during it.",
+        "img": "https://static.hutaobot.moe/images/Chiori_QO_3513e568.png"
+      },
+      {
+        "name": "Normal Attack Mechanics",
+        "desc": "Chiori's Normal Attack talent is quite simple, performing up to 4 consecutive elegant strikes.\n\nHer Charged Attack performs a quick double slash in front of her, and moves her slightly backwards, being one of the few Sword characters who step back instead of forwards.\n\nGenerally, her Normal Attacks are not too valuable to use before she has her 6th Constellation unlocked, but when she does, she becomes quite a potent on-field damage dealer as well.\n\nAs an additional flair, the flowers that appear after her 4th Normal Attack will match the color of any infusion currently active on her!",
+        "url": "https://youtu.be/yFoVC7VBJlU",
+        "img": "https://static.hutaobot.moe/images/ChioriSlash2_125f6aae.png"
+      },
+      {
+        "name": "Elemental Skill Mechanics",
+        "desc": "As Chiori's kit primarily revolves around her Elemental Skill knowing how it works is crucial to use Chiori to her full potential!\n\nWhen activating her Elemental Skill, Chiori will lunge forward and perform a slash dealing Geo DMG to all enemies hit, then summoning a **Tamoto** to the field\n- After activating this skill, if her 1st Ascension Passive is unlocked, it will also trigger a Quick-Time Event, granting Chiori either **Tailoring** if a Normal Attack is performed during it or **Tapestry** if her Elemental Skill is pressed again.\n- **Tailoring** grants Chiori a Geo infusion for 5 seconds, allowing her to perform an on-field role if desired, though without her final Constellation her Normal Attacks do not do significant damage.\n- **Tapestry** immediately switches Chiori to the next character in your party, ignoring the character-switching cooldown, then allows **Tamoto** to perform coordinated attacks when your allied Normal/Charged or Plunging attacks hit the enemy up to two times.\n- If no action is input **Tailoring** will trigger once the time event passes - Note that if you manually switch to a different character during this window, neither effect will be triggered.\n\nYou can also hold down her Elemental Skill to aim where she dashes - this can be used to launch her into the air to perform a plunging attack, and she can even swap to another character mid air!",
+        "img": "https://static.hutaobot.moe/images/ChioriSweep_f765f2e1.png"
+      },
+      {
+        "name": "Tamoto and Kinu Mechanics",
+        "desc": "While her Elemental Skill summons **1 Tamoto**, a second can be summoned if there is a Geo Construct near the first **Tamoto** doll when Chiori uses her skill, or if a construct is created nearby while it exists.\n- Note that the distance from the construct to summon another is based on proximity to the existing **Tamoto** and not Chiori herself.\n- The duration of each **Tamoto** is independent and only one each from her Elemental Skill and additional one from construct can exist at one time - Her C1 **Tamoto** shares a limit with the additionally summoned one.\n\n**Tamoto** will do Geo DMG in a small AoE to a nearby enemy at regular intervals and can grant between 1-2 Geo particles each time the first summoned **Tamoto** attacks.\n\n**Tamoto** can be pushed around, and moved by certain abilities, but are not Geo constructs and can not be destroyed.\n\nAfter unlocking her 2nd or 4th Constellations, Chiori will now also be able to summon **Kinu** constructs - these act identically to **Tamoto** dolls but do higher damage. They can not be moved, and will disappear after attacking once, or after being on the field for 3 seconds.\n\n- For an example for the distance to **Tamoto** to spawn the second one you can refer to [this video](https://youtu.be/qE6qKzCKUqI) - while **Tamoto** does not appear to be pushed in co-op for other players viewing it, the second **Tamoto** is not spawned when Chiori herself runs to the construct in the first clip.",
+        "url": "https://youtu.be/qE6qKzCKUqI",
+        "img": "https://static.hutaobot.moe/images/Chiori_Tamoto_Kinu_14545148.png"
+      },
+      {
+        "name": "Elemental Burst Mechanics",
+        "desc": "Chiori's Elemental Burst is a simple and elegant attack, doing significant Geo DMG in a large AoE around her - this attack also does a large amount of damage to any Geo shields and constructs!",
+        "img": "https://static.hutaobot.moe/images/Chiori_Burst_0b0a21a3.png"
+      },
+      {
+        "name": "Constellations",
+        "desc": "While Chiori is already a strong character at C0, her Constellations are all quite useful if further investment into her is desired.\n- **C1** - A very nice Quality of Life Constellation allowing Chiori to get full benefits of her Talents as long as there is another Geo character in the party removing the need for a construct. This notably increases her synergy with characters such as Navia and Noelle!\n- **C2** - Chiori will now summon **Kinu** constructs after using her Elemental Burst, these constructs will spawn next to Chiori every 3 seconds, and a total of 3 will be summoned each use. This Constellation provides a very significant damage boost, but makes building Energy Recharge more appreciated on her as well.\n- **C3** - Offers a significant damage increase, as the majority of her damage is from her Elemental Skill, this also increases the damage of the **Kinu** constructs.\n- **C4** - Provides up to 3 more **Kinu** dolls when character Normal, Charged or Plunging attacks hit enemies after triggering either follow-effect of her Elemental Skills, provides the same overall damage as her 2nd Constellation.\n- **C5** - Increased Elemental Burst levels increase her burst potential, but this Constellation is relatively minor otherwise.\n- **C6** - Makes Chiori a very effective on-field damage dealer, both reducing the cooldown of her Elemental Skill, allowing her to permanently benefit from the Geo infusion from **Tailoring** as well as increasing her Normal Attack damage by a large portion of her defense.\nThis bonus applies to all her Normal Attack damage, regardless of infusion, but does not apply to her Charged Attack or Plunging Attack damage.",
+        "img": "https://static.hutaobot.moe/images/Chiori_Constellations_a7f2f39d.png"
+      },
+      {
+        "name": "Artifacts",
+        "desc": "- 4pc **Golden Troupe** - This set maximizes her Elemental Skill damage, which is her primary source of damage.\n- 4pc **Husk of Opulent Dreams** - While offering less Elemental Skill damage than Golden Troupe, this set offers higher Elemental Burst damage and can be kept up while on-field, synergizing well with her 6th Constellation.\n\n2 piece combination mixes of **Golden Troupe**/**Husk of Opulent Dreams**/**Archaic Petra** and potentially 18% ATK sets can be utilized as well if lacking 4pc sets of **Golden Troupe** or **Husk of Opulent Dreams**.\n\nFor Artifact mainstats, Chiori prefers using a DEF% Sands, Geo % or DEF% Goblet and a Crit Rate/Crit Damage Circlet, primarily looking for Crit Rate, Crit Damage, DEF% and potentially Energy Recharge % substats.",
+        "img": "https://static.hutaobot.moe/images/Chiori_Artefacts_201cd25f.png"
+      },
+      {
+        "name": "Weapons",
+        "desc": "These weapons are typically the most recommended to use\n- **Uraku Misugiri** - Chiori's signature weapon, and best in slot option, providing everything she wants from Crit DMG to Defense.\n- **Primordial Jade Cutter** - Provides a very large amount of Crit Rate, and a decent amount of ATK, making it generally Chiori's second best option.\n- **Harbinger of Dawn** - Extremely easy to obtain and performs better than most premium options when the passive is active, as Chiori does not primarily scale on attack.\n- **Wolf-Fang** - at Refinement level 5, **Wolf-Fang** can perform similarly to **Primordial Jade Cutter**.\n\nIf none of the above options are possessed these options below can be considered as well:\n- **Light of Foliar Incision** - A strong option off its base stats alone, providing a large amount of Crit Damage as well as a small amount of Crit Rate.\n- **Mistsplitter Reforged** - It can be hard for Chiori to keep more than 1 stack of its passive, though if more can be obtained its performance increases. The high base ATK also makes this option stronger when Chiori receives ATK% buffs.\n- **Haran Geppaku Futsu** - A good stat stick, providing good base stats and a good elemental damage bonus, the normal attack bonus can even be taken advantage of if Chiori is used on-field!\n- **Cinnabar Spindle** - Defense substat is appreciated, however, it may be hard for Chiori to fully benefit from the Spotless Heart passive when she has 2 **Tamoto** active, as the gap between their attacks are less than the cooldown of this passive.\n\nIf Energy Recharge% is desired to use her Elemental Burst more often, these weapons can also be considered:\n- **Festering Desire** - An old event weapon, providing a nice buff to her Elemental Skill damage and Crit Rate.\n- **Fleuve Cendre Ferryman** - Free weapon from fishing, provides some Crit Rate for her Elemental Skill.",
+        "img": "https://static.hutaobot.moe/images/Chiori_Weapons_d05f60ef.png"
+      },
+      {
+        "name": "Exploration Utility",
+        "desc": "Chiori brings an exceptional amount of utility to any exploration team, having excellent synergies with many other characters who are useful to have while exploring.\n\nFirst and foremost, she has an excellent exploration passive, granting the **Swift Stride** effect to the party, increasing their Movement SPD by 10%, when anyone in the party is equipping a Wind Glider that is not **Wings of First Flight**,  being the first ability of this kind that is effectively permanent! \n* Note that this bonus does not work in content such as the Spiral Abyss.\n\nHer Elemental Skill is extremely versatile, being able to cross large distances both vertical and horizontal, boasting the highest vertical reach of any ability in the game - beating even Venti's wind current! - as well as significant horizontal range, slightly beating out similar abilities like Alhaitham and Keqing.\n* Her ability to swap to a different character in mid-air is also quite helpful when paired with characters who can use abilities while airborne like Xiao and Kazuha, allowing Chiori to adapt her abilities to help you during any difficult stretch of exploration!\n\nA demonstration of her abilities can be seen [here](https://youtu.be/PLIWWiS9-XM)",
+        "url": "https://youtu.be/PLIWWiS9-XM",
+        "img": "https://static.hutaobot.moe/images/Chiori_Exploration_9c58fad2.png"
+      },
+      {
+        "name": "Materials",
+        "desc": "Chiori's required boss material is **Artificed Spare Clockwork Component — Coppelia** which are obtained by defeating **Coppelia** in the **\"Icewind Suite\"** challenge in Fontaine.\n\nAs Chiori is a Geo character, she requires **Prithiva Topaz** gems to be ascended.\n\n[**Dendrobium**](https://hutaobot.moe/guides/local-specialties-inazuma/dendrobium-route) are the local **Inazuma** specialty required to ascend her.\n\nThe common enemy drop she requires is from **Specters**, which can primarily be found in **[Inazuma](https://hutaobot.moe/guides/common-enemies/specter-route-inazuma) and [Enkanomiya](https://hutaobot.moe/guides/common-enemies/specter-route-enkanomiya)**.\n\nChiori's requires Talent books of **Light** which can be obtained from the **Inazuma** Talent Book domain on Wednesdays, Saturdays and Sundays.\n\nFor leveling up her Talents past level 6, Chiori requires the Weekly Boss material; **Lightless Silk String** which can be obtained from the **Shadow of Another World** Trounce domain which is unlocked after completing **Chapter IV: Act V - Masquerade of the Guilty** Archon quest.",
+        "img": "https://static.hutaobot.moe/images/Chiori_Materials_927798d4.png"
+      },
+      {
+        "name": "Team Setups",
+        "desc": "Chiori is very flexible in the teams she can be run in, though requiring another Geo character with a construct can appear limiting at first, she still performs excellently in teams without one even at C0, and with her 1st Constellation she can reach her full potential in teams with just another Geo character - like for an example in Navia teams!\nBelow are some example teams, but there are plenty of options that can be substituted in each of the teams, as her teams are very flexible.\n* Particularly Zhongli paired with Chiori forms an extremely solid team core, being able to slot in almost any two other characters and yielding excellent results!",
+        "img": "https://static.hutaobot.moe/images/Chiori_teams_840fe455.png"
       }
     ]
   }
