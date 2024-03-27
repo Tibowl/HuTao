@@ -3573,5 +3573,62 @@
         "start": "2024-02-08 12:00:00",
         "end": "2024-02-17 23:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Of Silken Clouds Woven\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/25833243",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/03/11/2cb6ea36ea1d2891107fc1450ca203ac_6850452297145298128.jpg",
+        "start": "2024-03-13 11:00:00",
+        "start_server": false,
+        "end": "2024-04-02 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Oni's Royale\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/25833243",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/03/11/bd7e214492c7bb904e47c12fd8f1d060_5753804662580310502.jpg",
+        "start": "2024-03-13 11:00:00",
+        "start_server": false,
+        "end": "2024-04-02 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/25833243",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/03/11/8e26a224c14e81e43c3a49d9620c3adb_7151065056049491259.jpg",
+        "start": "2024-03-13 11:00:00",
+        "start_server": false,
+        "end": "2024-04-02 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Alchemical Ascension\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/25852855",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/03/11/75b1b6c094d535cddc5ecb329180028d_2384484539128424355.jpg",
+        "start": "2024-03-14 10:00:00",
+        "end": "2024-04-01 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"The Great Fayz Reaction Debate\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/26132015",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/03/18/1d62acd87deb1e2162620ef53749f471_6659678949240019470.jpg",
+        "start": "2024-03-22 10:00:00",
+        "end": "2024-04-03 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Discover Traces, Explore Nature \" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/25947671",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/03/16/6852683839ed526512b1bbdd0784b097_3002431252030574614.png",
+        "start": "2024-03-16 12:00:00",
+        "end": "2024-06-15 23:59:00",
+        "reminder": "end"
     }
 ]
