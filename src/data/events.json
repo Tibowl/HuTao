@@ -3481,7 +3481,7 @@
         "link": "https://www.hoyolab.com/article/24708380",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/30/e18846c36fd46384b3b4e48def63d3db_4811680201172591478.jpg",
         "start": "2024-02-20 18:00:00",
-        "end": "2024-02-20 14:59:00",
+        "end": "2024-03-12 14:59:00",
         "reminder": "end"
     },
     {
@@ -3490,7 +3490,7 @@
         "link": "https://www.hoyolab.com/article/24708380",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/30/34be2b401ebb1eea5799980fed3f4a43_5510961432010783013.jpg",
         "start": "2024-02-20 18:00:00",
-        "end": "2024-02-20 14:59:00",
+        "end": "2024-03-12 14:59:00",
         "reminder": "end"
     },
     {
@@ -3499,7 +3499,7 @@
         "link": "https://www.hoyolab.com/article/24708380",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/30/cbe88c342ff8a92a74a96996492838e8_7667710938831438876.jpg",
         "start": "2024-02-20 18:00:00",
-        "end": "2024-02-20 14:59:00",
+        "end": "2024-03-12 14:59:00",
         "reminder": "end"
     },
     {
@@ -3605,6 +3605,33 @@
         "reminder": "end"
     },
     {
+        "name": "Event Wish \"Decree of the Deeps\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/26434736",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/03/26/0/2b81ac1b782658dd261bbf97b4cc80c1_3530185507245030338.jpeg",
+        "start": "2024-04-02 18:00:00",
+        "end": "2024-04-23 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Leaves in the Wind\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/26434736",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/03/26/0/3770956de0576e560a8797e1aa128664_7046143550680899393.jpeg",
+        "start": "2024-04-02 18:00:00",
+        "end": "2024-04-23 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/26434736",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/03/26/0/7f5213f079113214ad3a976cd63ee0a2_7859130167413757988.jpeg",
+        "start": "2024-04-02 18:00:00",
+        "end": "2024-04-23 14:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "\"Alchemical Ascension\" Event",
         "type": "In-game",
         "link": "https://www.hoyolab.com/article/25852855",
@@ -3621,6 +3648,30 @@
         "start": "2024-03-22 10:00:00",
         "end": "2024-04-03 03:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "\"Rolling Crossfire \" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/26498562",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/03/28/3e52ef429561ee6d13bc5a5886780d80_1149213285669114447.jpg",
+        "start": "2024-04-01 10:00:00",
+        "end": "2024-04-11 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Feline Fortress Furrdyssey \" Event",
+        "type": "In-game",
+        "start": "2024-04-08 10:00:00",
+        "end": "2024-04-18 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Ley Line Overflow\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/12/08/d76cdab75f5f952a213e564f6b0a5a51_5922830346865640491.jpg",
+        "start": "2024-04-15 04:00:00",
+        "end": "2024-04-22 03:59:00",
+        "reminder": "daily"
     },
     {
         "name": "\"Discover Traces, Explore Nature \" Web Event",
