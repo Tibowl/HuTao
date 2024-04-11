@@ -3661,6 +3661,8 @@
     {
         "name": "\"Feline Fortress Furrdyssey \" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/26819466",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/04/02/4588eb097e46bf6ef032a862cea8c2b6_3400404889451442080.jpg",
         "start": "2024-04-08 10:00:00",
         "end": "2024-04-18 03:59:00",
         "reminder": "end"
@@ -3681,5 +3683,13 @@
         "start": "2024-03-16 12:00:00",
         "end": "2024-06-15 23:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "4.6 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/26994988",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/04/10/dd1c90604184bc031089648ff7e31ab6_6788296091301350521.jpg",
+        "start": "2024-04-12 08:00:00",
+        "timezone": "-04:00"
     }
 ]
