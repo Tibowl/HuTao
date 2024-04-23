@@ -3691,5 +3691,64 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2024/04/10/dd1c90604184bc031089648ff7e31ab6_6788296091301350521.jpg",
         "start": "2024-04-12 08:00:00",
         "timezone": "-04:00"
+    },
+    {
+        "name": "\"Phantom of the Night \" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/27402010",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/04/18/0/177e9f26ebe36bd35804afad7685e4c2_2205892909510989972.png",
+        "start": "2024-04-19 12:00:00",
+        "end": "2024-04-25 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "4.6 Maintenance",
+        "type": "Maintenance",
+        "start": "2024-04-24 06:00:00",
+        "end": "2024-04-24 11:00:00"
+    },
+    {
+        "name": "Event Wish \"The Hearth's Ashen Shadow\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/27519521",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/04/19/0/8d4cbb628e9c3ebf699ca4b1776f61e3_6749090137919414726.jpeg",
+        "start": "2024-04-24 11:00:00",
+        "start_server": false,
+        "end": "2024-05-14 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Conjuring Chiaroscuro\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/27519521",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/04/19/0/7891457f591d061b946bb1604693e051_1546404474779026272.jpeg",
+        "start": "2024-04-24 11:00:00",
+        "start_server": false,
+        "end": "2024-05-14 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/27519521",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/04/19/0/5d0397dd0b1a9ef85805043aee409d0b_6013317998874088768.jpeg",
+        "start": "2024-04-24 11:00:00",
+        "start_server": false,
+        "end": "2024-05-14 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Iridescent Arataki Rockin' for Life Tour de Force of Awesomeness \" Event",
+        "type": "In-game",
+        "start": "2024-05-06 10:00:00",
+        "end": "2024-05-27 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Vibro-Crystal Applications\" Event",
+        "type": "In-game",
+        "start": "2024-04-28 10:00:00",
+        "end": "2024-05-09 03:59:00",
+        "reminder": "end"
     }
 ]
