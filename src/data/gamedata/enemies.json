@@ -363,6 +363,7 @@
     "name": "Dendro Hypostasis",
     "desc": "Code Name: Zayin. A high-purity Dendro entity.\nAccording to the deductions of some researchers, Elemental Hypostases have the knowledge required to \"learn,\" which is how they use \"mimesis\" to initiate attacks. However, the ability to incorporate information to create change also opens one to the risk of information contamination. As this creature learns and changes, the purpose of its birth — no matter how academically unquantifiable it may still be — may yet become so distorted as to be rendered irrelevant.",
     "icon": "img/enemy/Dendro_Hypostasis.png",
+    "type": "Elemental Lifeforms",
     "resistance": [
       [
         "10%",
@@ -523,6 +524,7 @@
     "name": "Dendro Specter",
     "desc": "A monster born from high-density Dendro energy that can float in the air.\nA researcher from Vahumana once did research into the ecological peculiarities of Dendro Specters, finding them to be quite similar to the legendary \"Aranara.\" His conclusion was that the Aranara were actually Dendro Specters. This researcher would become a little-known writer of fairy tales.",
     "icon": "img/enemy/Dendro_Specter.png",
+    "type": "Elemental Lifeforms",
     "resistance": [
       [
         "10%",
@@ -1082,6 +1084,7 @@
     "name": "Anemo Hilichurl Rogue",
     "desc": "Hilichurl wanderers who do not belong to any hilichurl tribe. It almost seems as if they are searching for the fated genesis of their kind, seeking to uncover some bygone splendor that once belonged to their people.\nIf these monsters capable of only crude language and bereft of missing history could record their own epics and legends, the hilichurl wanderers would be the heroes in said tales.",
     "icon": "img/enemy/Anemo_Hilichurl_Rogue.png",
+    "type": "Hilichurls",
     "resistance": [
       [
         "10%",
@@ -1098,6 +1101,7 @@
     "name": "Hydro Hilichurl Rogue",
     "desc": "Hilichurl wanderers unaffiliated with any specific tribe. They can often be found roving the wilds as if in voluntary exile.\nThey may also lend their aid to other hilichurls or hilichurl tribes for various reasons and go their separate ways afterward. They seem to possess a higher level of intelligence than commonplace hilichurls.",
     "icon": "img/enemy/Hydro_Hilichurl_Rogue.png",
+    "type": "Hilichurls",
     "resistance": [
       [
         "10%",
@@ -1204,6 +1208,7 @@
     "name": "Abyss Herald: Frost Fall",
     "desc": "A monster from the Abyss Order that wields frigid, icy blades in battle.\nJust as there are saints who will spread and glorify the profound gospel, there are envoys who must correct any twisted strains and remove any dissonance.\nPeople often say that steel feels like ice as it pierces the body, but this dark frost is said to freeze even the soul.",
     "icon": "img/enemy/Abyss_Herald_Frost_Fall.png",
+    "type": "The Abyss",
     "resistance": [
       [
         "10%",
@@ -1256,6 +1261,7 @@
     "name": "Iniquitous Baptist",
     "desc": "A monster from the Abyss that wields multiple types of Elemental Power and has gained extra limbs from its \"evolution.\"\n\n**\"The nature of the 'Abyss' is essentially irreconcilable with the elements. However, even the elements of gods can be entrapped and distorted before they are subsumed to become tools of the abyssal will. Just judging from outcomes and practical use, \"Abyssal powers\" seem little different from elemental items, from ones as paltry as the Treasure Hoarders' elemental containers to those as powerful as Visions...\"**\n—Notes left behind in Hangeh Afrasiyab by someone.",
     "icon": "img/enemy/Iniquitous_Baptist.png",
+    "type": "The Abyss",
     "resistance": [
       [
         "10%",
@@ -1499,6 +1505,7 @@
     "name": "Black Serpent Knight: Rockbreaker Ax",
     "desc": "A guard of some standing in the court, sundering the foes of the nation's rulers using a sword art known as \"Truthseeker.\"\nThough Truthseeker is, strictly speaking, a sword art, its teachings can also be used with various other weapons — and in the realm's darkest hour, those who had to protect their homeland had little room to be fussy anyway.",
     "icon": "img/enemy/Black_Serpent_Knight_Rockbreaker_Ax.png",
+    "type": "The Abyss",
     "resistance": [
       [
         "10%",
@@ -1933,6 +1940,7 @@
     "name": "Ruin Drake: Skywatch",
     "desc": "A horrifying dragon-shaped machine.\nIt is said to be a war machine left behind by a now-destroyed nation. It mimics the appearance of the beings known as Vishaps, with some functional enhancements. Such machines have an even greater ability to \"absorb\" — or perhaps the right word is \"counteract\" — elemental powers than the vishaps.\nHow, you wonder, did a civilization that could make such frightening machines of war collapse?",
     "icon": "img/enemy/Ruin_Drake_Skywatch.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -1949,6 +1957,7 @@
     "name": "Aeonblight Drake",
     "desc": "This dragon-shaped combat machine is a being that inspires fear, much like the lord who once ruled these vast lands.\nIt is said that the now-destroyed realm once sought forbidden knowledge and attempted to create perpetual-motion machines that could match or even surpass primordial lifeforms. This mysterious, tireless mechanical monstrosity seems to be proof that they did indeed reach heights that mortals should never have attained.",
     "icon": "img/enemy/Aeonblight_Drake.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -1965,6 +1974,7 @@
     "name": "Primal Construct: Repulsor",
     "desc": "The guardians of the lost ancient desert ruins have power enough to punish any who would presume to disturb the pure dreams of their lord.\nThese machines were not first built to be temple guards or palace defenders, but instead to rebirth the paradise that the foolish desert ruler dreamed of.\nToday, that utopia is long gone, and the dreams and oaths, forgotten by the world, are now only found in the mantras inscribed upon these machines.",
     "icon": "img/enemy/Primal_Construct_Repulsor.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -1981,6 +1991,7 @@
     "name": "Primal Construct: Reshaper",
     "desc": "The guardians of the lost ancient desert ruins have power enough to punish any who would presume to disturb the pure dreams of their lord.\nThe lord of the blazing sun who once ruled this desert once promised his people a utopia on the other side of existence, though it ultimately turned out to be a mirage made of folly.\nToday, that utopia is long gone, and the dreams and oaths, forgotten by the world, are now only found in the mantras inscribed upon these machines.",
     "icon": "img/enemy/Primal_Construct_Repulsor.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -1997,6 +2008,7 @@
     "name": "Primal Construct: Prospector",
     "desc": "The guardians of the lost ancient desert ruins have power enough to punish any who would presume to disturb the pure dreams of their lord.\nThe master of the sands once took to studying taboo knowledge in an effort to create a dream paradise, and these machines may or may not have been the fruits of that research.\nToday, that utopia is long gone, and the dreams and oaths, forgotten by the world, are now only found in the mantras inscribed upon these machines.",
     "icon": "img/enemy/Primal_Construct_Repulsor.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -2013,6 +2025,7 @@
     "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
     "desc": "A perpetual motion machine that rules over the many constructs scattered throughout the desert. It seems that the lonely ruler's will still indwells this device.\nPerhaps due to a friend's teachings in a dream or perhaps because he coveted the power of the holy ones in the skies, the king created mysterious devices that should not exist in this world before founding his realm in these lands.\nAmidst the ruins of the City of the Pillars, the ancient crystals still reflect the glory of the golden paradise, though none now live who remember the king's dreams.",
     "icon": "img/enemy/Algorithm_of_SemiIntransient_Matrix_of_Overseer_Network.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -2029,6 +2042,7 @@
     "name": "Ruin Drake: Earthguard",
     "desc": "A horrifying dragon-shaped machine.\nIt is said to be a war machine left behind by a now-destroyed nation. It mimics the appearance of the beings known as Vishaps, with some functional enhancements. Such machines have an even greater ability to \"absorb\" — or perhaps the right word is \"counteract\" — elemental powers than the vishaps.\nFrom this ability, one can glimpse the scale of the ambition that the civilization that made these machines must have once held...",
     "icon": "img/enemy/Ruin_Drake_Skywatch.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -2373,6 +2387,7 @@
     "name": "Eremite Axe Vanguard",
     "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThese ax-wielding ladies often wade into the slaughter without fear, creating openings for their comrades to capitalize on.\nThey will sometimes sit by the fireside in their sand-swept homeland and play songs that were lost in that golden sea.",
     "icon": "img/enemy/Eremite_Axe_Vanguard.png",
+    "type": "Other Human Factions",
     "resistance": [
       [
         "10%",
@@ -2389,6 +2404,7 @@
     "name": "Eremite Crossbow",
     "desc": "A member of a loosely-organized mercenary corps hailing from a place where the sands shine like gold. Will work for anyone as long as the pay is good.\nThe Eremite tradition is to use bows to engage their foes, but ever since the Akademiya permitted them to buy crossbows at the bazaars, only the proudest shooters would still use bows, which take many years of practice to master.",
     "icon": "img/enemy/Eremite_Crossbow.png",
+    "type": "Other Human Factions",
     "resistance": [
       [
         "10%",
@@ -2405,6 +2421,7 @@
     "name": "Eremite Ravenbeak Halberdier",
     "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThese warriors use Ravenbeak Halberds in battle. It is said that ascetics who served the deity of the desert would carry these halberds as symbols of their office. These weapons once had a true name, but it has long been lost to the desert sands.",
     "icon": "img/enemy/Eremite_Ravenbeak_Halberdier.png",
+    "type": "Other Human Factions",
     "resistance": [
       [
         "10%",
@@ -2421,6 +2438,7 @@
     "name": "Eremite Linebreaker",
     "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThis warrior wields a unique fist blade and joined the Eremites to seek out stronger foes. Rather than the pay, these warriors fight more to attain greater martial might.",
     "icon": "img/enemy/Eremite_Linebreaker.png",
+    "type": "Other Human Factions",
     "resistance": [
       [
         "10%",
@@ -2437,6 +2455,7 @@
     "name": "Eremite Sword-Dancer",
     "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThis desert warrior wields a large curved blade in battle. The skills such fighters boast of have been passed down since the days when their now-lost civilization was still extant, and are not only techniques to be used in battle, but also serve well as a performing art popular in various lands.\nIt is said that this sword art was once practiced from horseback.",
     "icon": "img/enemy/Eremite_SwordDancer.png",
+    "type": "Other Human Factions",
     "resistance": [
       [
         "10%",
@@ -2453,6 +2472,7 @@
     "name": "Eremite Desert Clearwater",
     "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nA young lady lost in the ancient dream of the desert songs. To her, the thrill of bloody battle is her true reward. Legend has it that the women of this tribe are often afflicted by the wandering spirits of the desert, a condition that leads many of them to an early end. Perhaps this one can only be free of these apparitions when her blood is up in combat.\nAn ominous, fragmented spirit is sealed within the weapon she uses, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe.",
     "icon": "img/enemy/Eremite_Desert_Clearwater.png",
+    "type": "Other Human Factions",
     "resistance": [
       [
         "10%",
@@ -2469,6 +2489,7 @@
     "name": "Eremite Sunfrost",
     "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nA professional mercenary who cares about nothing outside of work and the mission at hand. To such people, their only game plan is to complete the mission, and their high asking prices on the market match that committment.\nAn ominous, fragmented spirit is sealed within the weapon they use, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe.",
     "icon": "img/enemy/Eremite_Sunfrost.png",
+    "type": "Other Human Factions",
     "resistance": [
       [
         "10%",
@@ -2485,6 +2506,7 @@
     "name": "Eremite Daythunder",
     "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nA true scion of a warrior tribe, such warriors see battle as their ordained purpose, and unlike some barbarian who wields a large ax with ease, these tribespeople are also quite well-versed in the lore and songs of the desert ruins.\nAn ominous, fragmented spirit is sealed within the weapon they use, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe.",
     "icon": "img/enemy/Eremite_Daythunder.png",
+    "type": "Other Human Factions",
     "resistance": [
       [
         "10%",
@@ -2501,6 +2523,7 @@
     "name": "Eremite Stone Enchanter",
     "desc": "A person hailing from the loosely-organized mercenary bands of the desert. Will work for anyone as long as the pay is good.\nIn ancient days, these heavily-equipped warriors were the domain of the personal, trusted guards of the Lord of the Blazing Sun. It is perhaps on this account that they gleam like the golden sun itself to this day.\nOminous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished — whether that be their wielders or their wielders' foes.",
     "icon": "img/enemy/Eremite_Stone_Enchanter.png",
+    "type": "Other Human Factions",
     "resistance": [
       [
         "10%",
@@ -2517,6 +2540,7 @@
     "name": "Eremite Galehunter",
     "desc": "A person hailing from the loosely-organized mercenary bands of the desert. Will work for anyone as long as the pay is good.\nIn this age where crossbows are in widespread use, only the most experienced of Eremite warriors know how to use a longbow in battle. They do not even need their eyes — merely their ears with which they sense the flow of wind and sand alike — to judge the location of their foes.\nOminous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished — whether that be their wielders or their wielders' foes.",
     "icon": "img/enemy/Eremite_Galehunter.png",
+    "type": "Other Human Factions",
     "resistance": [
       [
         "10%",
@@ -2533,6 +2557,7 @@
     "name": "Eremite Scorching Loremaster",
     "desc": "A person hailing from the loosely-organized mercenary bands of the desert. Even though they will work for anyone as long as the pay is good, they will never forget their roots in the Great Red Sand.\nAfter the collapse of its civilizations, the stories of the desert were passed down generation after generation in oral tradition just like the sparks in the wind and the rain in the clouds. As time passed, some stories were lost while others survived, albeit with significant changes.\n\"The Eremites\" is the umbrella term given to the tribes of the desert by those too ignorant or disdainful to learn the tribes' myriad differences. Within those referred to as the Eremites, many have also indeed already forgotten the tales of the desert. Fear not, however, for those who still remember will never betray the spirit of the sands yet flowing through their veins.",
     "icon": "img/enemy/Eremite_Scorching_Loremaster.png",
+    "type": "Other Human Factions",
     "resistance": [
       [
         "10%",
@@ -2549,6 +2574,7 @@
     "name": "Eremite Floral Ring-Dancer",
     "desc": "A person hailing from the loosely-organized mercenary bands of the desert. They will work for anyone as long as the pay is good.\nThe children of the desert have a rich tradition of song and dance. Originally used to praise and serve the gods, the crafts were later adapted for battle and the seduction of kings. Many tales of the sands feature dancers who murdered kings relaxed in their beds or standing atop high towers. Even though all such gods and kings have now faded into the flowing sands, the memory of dance yet persists in the desert-dwellers' veins.\nOminous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished — whether that be their wielders or their wielders' foes.",
     "icon": "img/enemy/Eremite_Floral_RingDancer.png",
+    "type": "Other Human Factions",
     "resistance": [
       [
         "10%",
@@ -2681,6 +2707,7 @@
     "name": "Electro Regisvine",
     "desc": "A huge vine that has morphed into a monster through the conduction of high-voltage currents through the Ley Lines.\nElectricity surges constantly from its canopy like the unending rage of the earth itself.\nKshahrewar researchers once submitted that a complex circuit matrix might be set up around this creature to carry electrical energy to the city for use there. This plan was stridently opposed by scholars from Spantamad, who sacrificed 10 Shroomboars to drive home the point about the dangers of utilizing electricity.",
     "icon": "img/enemy/Electro_Regisvine.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -2918,6 +2945,7 @@
     "name": "Floating Anemo Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\nThis mushroom may have a sizable cap, but the umbrella-shaped structure is in fact hollow, and thus does not make for a particularly good meal.",
     "icon": "img/enemy/Floating_Anemo_Fungus.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -2934,6 +2962,7 @@
     "name": "Floating Dendro Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\nA researcher once said that these are some species of Dendro Specter. After this view was criticized, he changed his tack, claiming that this was just a literary turn of phrase.",
     "icon": "img/enemy/Floating_Dendro_Fungus.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -2950,6 +2979,7 @@
     "name": "Whirling Pyro Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\nDue to the abundant amount of Pyro these creatures contain, they have a tendency to cause forest fires during dry seasons, and thus are considered a dangerous invasive species to the forest.",
     "icon": "img/enemy/Whirling_Pyro_Fungus.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "20%",
@@ -2966,6 +2996,7 @@
     "name": "Whirling Electro Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\nResearch has shown that this sort of fungal beast's internal electric current will change periodically. If further developed, perhaps this study may give rise to a wide range of uses...",
     "icon": "img/enemy/Whirling_Electro_Fungus.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -2982,6 +3013,7 @@
     "name": "Whirling Cryo Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\nPutting Fungi on ice does not make them taste any better, but it does at least help with relieving the heat.",
     "icon": "img/enemy/Whirling_Cryo_Fungus.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -2998,6 +3030,7 @@
     "name": "Stretchy Pyro Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\nThis creature only looks explosive — it is, in fact, a most gentle soul, so long as you don't get too close...",
     "icon": "img/enemy/Stretchy_Pyro_Fungus.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "20%",
@@ -3014,6 +3047,7 @@
     "name": "Stretchy Anemo Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\nThis mushroom quickly absorbs nutrients through its extended column, and its umbrella-shaped cap turns where the wind's flow carries it.",
     "icon": "img/enemy/Stretchy_Anemo_Fungus.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -3030,6 +3064,7 @@
     "name": "Stretchy Electro Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\nUnlike other Fungi, this creature possesses a cap with a luminous tendril sticking out of it. When in danger, it will release small electric orbs as a form of self-defense.",
     "icon": "img/enemy/Stretchy_Electro_Fungus.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -3046,6 +3081,7 @@
     "name": "Stretchy Geo Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\nThese shrooms' caps have hard outer layers derived from concretions of Geo energy. Its bodily structure is also quite likely to be denser than others of its kind so as to withstand the heavy weight of its cap.",
     "icon": "img/enemy/Stretchy_Geo_Fungus.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -3062,6 +3098,7 @@
     "name": "Grounded Hydroshroom",
     "desc": "A mimetic life form made out of spores that has extreme adaptability.\nThis creature may look like a bird, but it cannot fly. Due to the influence of Hydro energies, it is astoundingly agile compared to others of its kind. Some research has inferred that this creature is in fact an aggregation of countless tiny spores rather than a single entity.\nThis creature has a position of command amongst colonies of Fungi and exhibits heightened intelligence to match.",
     "icon": "img/enemy/Grounded_Hydroshroom.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -3078,6 +3115,7 @@
     "name": "Winged Dendroshroom",
     "desc": "A mimetic life form made out of spores that has extreme adaptability.\nGoing well past mere appearances, this being even imitates the habits of birds. It can use its spore-built wings to fly in the sky, spreading yet more spores to yet more distant places.\nThis creature has a position of command amongst colonies of Fungi and exhibits heightened intelligence to match.",
     "icon": "img/enemy/Winged_Dendroshroom.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -3094,6 +3132,7 @@
     "name": "Winged Cryoshroom",
     "desc": "A mimetic life form made out of spores that has extreme adaptability.\nGoing well past mere appearances, this being even imitates the habits of birds. When it flies about, it will scatter icy flowers in its wake. These crystal cores, too, are spores.\nThis creature has a position of command amongst colonies of fungal beasts and exhibits heightened intelligence to match.",
     "icon": "img/enemy/Winged_Cryoshroom.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -3110,6 +3149,7 @@
     "name": "Grounded Geoshroom",
     "desc": "A mimetic life form made out of spores that has extreme adaptability.\nThis being has undergone almost complete keratinization due to the influence of Geo. When one considers that Fungi evolved from spores, perhaps this one might even be the foundation for a further evolution into some new life form altogether — if given time, that is.\nThis creature has a position of command amongst colonies of fungal beasts and exhibits heightened intelligence to match.",
     "icon": "img/enemy/Grounded_Geoshroom.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -3126,6 +3166,7 @@
     "name": "Jadeplume Terrorshroom",
     "desc": "Over many long years, this large fungal beast has morphed into a unique form.\nIts intelligence has already reached and perhaps has even surpassed real animals, and it will actively hunt prey to obtain sustenance. Its tail has a lovely jade plumage that seems very similar to that of the ancient sacred beast that the Spantamad school reveres. As far as the logic of mimesis is concerned, it seems quite likely that the two beings once walked the earth together.",
     "icon": "img/enemy/Jadeplume_Terrorshroom.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "25%",
@@ -3142,6 +3183,7 @@
     "name": "Consecrated Horned Crocodile",
     "desc": "A reptile that has mutated after feeding from greater lifeforms.\nMajestic beasts are sometimes revered by human beings as the embodiment of a greater power, their visages turned to analogy to feed in reference to a person, feeding their ego. However, the majority of beasts that have absorbed the \"greater power\" were slain by the overwhelming nature of the power itself. Only a few among their number evolved new forms.",
     "icon": "img/enemy/Consecrated_Horned_Crocodile.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -3158,6 +3200,7 @@
     "name": "Consecrated Fanged Beast",
     "desc": "A predator that has mutated after feeding from greater lifeforms.\nSurvival of the fittest is written in the law of nature. But pets and Consecrated Beasts are exceptions. Human beings' baits and the remains of immortal beings are essentially deliberate or unintentional traps. The price of coveting the gift of the strongest is much more painful than being locked in a cage.",
     "icon": "img/enemy/Consecrated_Fanged_Beast.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -3174,6 +3217,7 @@
     "name": "Consecrated Red Vulture",
     "desc": "A scavenging bird of prey that has mutated after feeding from greater lifeforms.\nThe greater lifeforms devoured by Consecrated Beasts often have nigh-immortal consciousness that can never be fully silenced or eradicated. The very power and consciousness gained by Consecrated Beasts devouring these lifeforms will, in turn, drive them to seek more violence and carrion.",
     "icon": "img/enemy/Consecrated_Red_Vulture.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -3190,6 +3234,7 @@
     "name": "Consecrated Scorpion",
     "desc": "An arthropod that has mutated after feeding from greater lifeforms.\nLifeforms are governed by the laws of evolution, Consecrated Beasts exploited these rules by being fortunate enough to discover a long-dead carcass of a greater being before any of their competition ever did. Animals and humans often have far more in common than the latter is willing to acknowledge.",
     "icon": "img/enemy/Consecrated_Scorpion.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -3206,6 +3251,7 @@
     "name": "Consecrated Flying Serpent",
     "desc": "A reptile that has mutated after feeding from greater lifeforms.\nThough now imbued with the power of elemental manipulation, the Consecrated Beasts themselves still cannot fully digest the pieces of flesh they devoured from the immortal carcasses that they ate. Instead, the pieces slowly fused with the beasts themselves, weaving a bony shell over their body, one that shares a similar composition to a certain type of smelting material from Inazuma.",
     "icon": "img/enemy/Consecrated_Flying_Serpent.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -3222,6 +3268,7 @@
     "name": "Setekh Wenut",
     "desc": "An eyeless predator that dwells within the depths of the desert and uses sound and vibrations to seek out its prey.\nLegend has it that in the ancient past before even the concept of time was created, these creatures thrived with their progenitors and offspring in a land of verdant grass and colossal trees, traversing through slick soil like fishes diving through the wet.\nWith the passage of eons, the gifts of heaven have long reduced the soils to sand, rendering a great many creatures extinct. This branch of their genus was able to survive by adapting more toward earth-based living, and became known as the \"Wenut.\"\nSome desert folk still mistakenly believe that Wenut is the final point of a quicksand eel's life cycle, likely due to superficial similarities between the species' behaviors.",
     "icon": "img/enemy/Setekh_Wenut.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "25%",
@@ -3420,6 +3467,7 @@
     "name": "Shouki no Kami, the Prodigal",
     "desc": "Shouki no Kami, as an artificial divinity created using all the might of Sumeru's Six Darshans, has power that rivals that of true gods.\nBut those of this world who call such a being a \"false deity\" misunderstand the true meaning of the word.\nShouki no Kami now understands countless things and shoulders unassailable might, and may be said to surpass mortals.\nIf gods must love mortals,\nthen Shouki no Kami, who grants failure in equal measure to humanity, loves them also.\nIf gods must watch over humanity,\n...\n...\nthen Shouki no Kami, who has borne witness to infinite love, hatred, partings, grudges, and maddening anger — thus does he watch over mortals.\n\n**\"Too much happiness you have had!\"**\n**\"It has made you foolish. Arrogant. Horrifying in your greed.\"**\n**\"Let this era end!\"**\n**\"Let the new god announce the defeat of the old.\"**\n**\"Foolish mortal... There is yet time for you to kneel.\"**",
     "icon": "img/enemy/Shouki_no_Kami_the_Prodigal.png",
+    "type": "Enemies of Note",
     "resistance": [
       [
         "30%",
@@ -3436,6 +3484,7 @@
     "name": "Guardian of Apep's Oasis",
     "desc": "Apep walked through the water like a fish with its many offspring in a sea of fragrant grass, gigantic trees, and unimaginably long vines. Finally, the grass, trees, and vines withered and turned into dust, while countless beings as minute as grains of gravel built a fragile kingdom upon Apep's land.\nApep and its offspring let the sea of sand rage like boiling water and swept houses down as if they were falling leaves. Until the day when the new Lord of Sand reconciled with the king who lost their homeland, the dunes under the sun belonged to humanity, while the dragon's oasis remained in the hearts of the dragons.\nApep shared the knowledge of evolution with its many offspring, because spreading knowledge ensures dissemination while the stagnation of hoarded wisdom courted only decay. Till the day the promise between it and the Lord of Sand was finally attained, with ultimate wisdom claimed. Henceforth, it reaped only sights of oblivion, of an endless calamity.\nApep found itself swallowed alone amidst the scenery of the catastrophe. All the people, gods, dragons, beasts, birds, and fish. All memories, wisdom, words, and hatred were ground into colorless dust, and the last of the moonlight burned away into a rain of pale fire, falling on the barren land.\n...\nApep once deemed the bottom of the sea of sand to be its grave, not the palace of a dispossessed king. The poison of \"wisdom\" would soon free Apep from the hatred and anger festering within it over countless moons. Apep had grown weary of the colorless apocalypse. Then, finally, the young god and the golden Traveler let it recall once again, even though the verdant land it once ruled had been reduced to this gilded wasteland, even though Apep and its many offspring had grown twisted and wretched to secure their continued survival therein, Apep still treasured the sight and scenes of the oasis, sparkling in its heart.",
     "icon": "img/enemy/Guardian_of_Apeps_Oasis.png",
+    "type": "Enemies of Note",
     "resistance": [
       [
         "10%",
@@ -3657,6 +3706,7 @@
     "name": "Tainted Water-Splitting Phantasm",
     "desc": "Today, with the Oceanids extirpated from Fontaine, strange elemental life forms have appeared in the waters.\nThe elemental spirits that appeared after the calamity lack the elegance and beauty of the Oceanids, and thus have been called \"tainted.\" Though the toxins dissolved in the water have long since been diluted and cleansed, unless there are still containers of pure water somewhere, Fontaine's waters will never again naturally birth Oceanids.",
     "icon": "img/enemy/Tainted_WaterSplitting_Phantasm.png",
+    "type": "Elemental Lifeforms",
     "resistance": [
       [
         "10%",
@@ -3673,6 +3723,7 @@
     "name": "Tainted Water-Spouting Phantasm",
     "desc": "Today, with the Oceanids extirpated from Fontaine, strange elemental life forms have appeared in the waters.\nIt is said that in Egeria's era, the Oceanids often lived alongside humans, and lived in the springs of clear waters dotted across the lands, and through this, they connected the waters of the world. But most died with their god, and for the survivors, the world no longer has any god they recognize.",
     "icon": "img/enemy/Tainted_WaterSpouting_Phantasm.png",
+    "type": "Elemental Lifeforms",
     "resistance": [
       [
         "10%",
@@ -3689,6 +3740,7 @@
     "name": "Large Shatterstone Breacher Primus",
     "desc": "A strange life form that mostly appears in Elynas.\nMelusines perceive Breacher Primuses as harmless creatures, and many even find them completely adorable.\nThe visual perception of Melusines is very different from humans.",
     "icon": "img/enemy/Large_Shatterstone_Breacher_Primus.png",
+    "type": "The Abyss",
     "resistance": [
       [
         "10%",
@@ -3705,6 +3757,7 @@
     "name": "Shatterstone Breacher Primus",
     "desc": "A strange life form that mostly appears in Elynas.\nReceives a powerful shock from encountering ousia or pneuma energy, and thus Breacher Primuses can be driven away using this relatively nonaggressive and noninvasive means.",
     "icon": "img/enemy/Shatterstone_Breacher_Primus.png",
+    "type": "The Abyss",
     "resistance": [
       [
         "10%",
@@ -3721,6 +3774,7 @@
     "name": "Large Overgrown Breacher Primus",
     "desc": "A strange life form that mostly appears in Elynas.\nThe nature of a Breacher Primus defies known categories: they are not animals, plants, Shroom-Kin, nor Elementals. The debate among scholars of Sumeru never formally reached a consensus on just what it is, until it was finally banned as a research topic. The reason is that based on the current system of knowledge, this problem is like \"the definitions prescribed by language and the true nature of things,\" and it is impossible to have a meaningful, final answer.",
     "icon": "img/enemy/Large_Overgrown_Breacher_Primus.png",
+    "type": "The Abyss",
     "resistance": [
       [
         "10%",
@@ -3737,6 +3791,7 @@
     "name": "Overgrown Breacher Primus",
     "desc": "A strange life form that mostly appears in Elynas.\nIn Fontaine, the earliest recorded observations of a Breacher Primus appeared shortly after the cataclysm. Records from the time show instances of Breacher Primuses both attacking and protecting humans.",
     "icon": "img/enemy/Overgrown_Breacher_Primus.png",
+    "type": "The Abyss",
     "resistance": [
       [
         "10%",
@@ -3753,6 +3808,7 @@
     "name": "Recon Log Mek",
     "desc": "One of the earliest new-type clockwork meka to be made.\nIt is said that during his time at the Institute of Natural Philosophy, the Lord-Artificer Guillotin created machines that could simulate genuine intelligence.\nThough he never openly admitted it, this rumor nonetheless spurred on subsequent generations of ambitious engineers. Decades ago, one of them announced that they had created a machine that not only possessed basic thinking abilities but could also read human emotions, but in the end the results went unacknowledged.",
     "icon": "img/enemy/Recon_Log_Mek.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -3769,6 +3825,7 @@
     "name": "Arithmetic Enhancer Mek",
     "desc": "A clockwork meka designed to transmit and enhance signals.\nThe power that drives this clockwork meka is generated from a controlled annihilation reaction between ousia and pneuma in the kinetic core. As a result, overloading it with excessive energy will cause its original equilibrium to be disrupted.",
     "icon": "img/enemy/Arithmetic_Enhancer_Mek.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -3785,6 +3842,7 @@
     "name": "Underwater Survey Mek",
     "desc": "A clockwork meka designed for underwater surveying.\nIn the absence of significant breakthroughs in dynamics research, kinematics research has had the most significant impact on clockwork meka design. For machines designed to perform specific tasks, biomimesis has sometimes provided the most convenient solutions.",
     "icon": "img/enemy/Underwater_Survey_Mek.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -3801,6 +3859,7 @@
     "name": "Geological Survey Mek",
     "desc": "A clockwork meka designed for surveying underground resources and certain minerals.\nDue to the fact that the desired metal type can be set, this device has proven very popular among Treasure Hoarders and Adventurers alike.",
     "icon": "img/enemy/Geological_Survey_Mek.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -3817,6 +3876,7 @@
     "name": "Underwater Patrol Mek",
     "desc": "This type of clockwork meka was designed to search out, repel, and if need be exterminate aquatic life forms that pose a threat to underwater equipment.\nEver since the first diluvian period, the Fontaine Research Institute has been preoccupied with the thought that there might be a second one. Some had the idea of taking back the ruins lost to the waves and building an underwater city, whereas others looked up to the untouchable sky islands overhead with the intention of building a metropolis in the clouds.\nUnderwater Patrol Meks were conceived by the former, but judging from the results, it is the latter that have gained the upper hand in recent years.",
     "icon": "img/enemy/Underwater_Patrol_Mek.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -3833,6 +3893,7 @@
     "name": "Nimble Harvester Mek",
     "desc": "A clockwork meka designed to dig up and transport soil.\nDue to the inherent ability of the local water and soil to store and transmit ousia and pneuma, clockwork meka powered by the annihilation of these energies are highly favored in Fontaine. This also explains why adventurers may come across Ousia and Pneuma Blocks from time to time.",
     "icon": "img/enemy/Nimble_Harvester_Mek.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -3849,6 +3910,7 @@
     "name": "Assault Specialist Mek",
     "desc": "Alongside the Recon Log Mek, this was one of the first new-type clockwork meka to be made (though of course, after hundreds of years, no one refers to them as \"new-type\" anymore – this was simply to differentiate them from traditional clockwork mechanisms that were powered by potential energy.)\nIt was named to commemorate a friend of its inventor, and was originally designed to help people. However, its ability to attack people – thereby avoiding the need to put friendly personnel at risk – subsequently came to be seen as its real strength.",
     "icon": "img/enemy/Assault_Specialist_Mek.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -3865,6 +3927,7 @@
     "name": "Suppression Specialist Mek",
     "desc": "A clockwork meka adapted from the Cal. Scherbius type. Unfortunately, aside from its ability to attack, it has no other capabilities.\nClockwork meka based on annihilation energy normally produce their energy by utilizing Repeaters composed of special crystals to refine ousia and pneuma from Fontaine's environment. But outside of Fontaine, they can use pre-prepared Energy Blocks to move over short distances for short periods of time. The difference can be observed from the shape of the crystal components on the meka.",
     "icon": "img/enemy/Suppression_Specialist_Mek.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -3881,6 +3944,7 @@
     "name": "Annihilation Specialist Mek",
     "desc": "Although the Fontaine Research Institute of Kinetic Energy Engineering is the main organization involved in clockwork meka research and design, there are also many independent engineers and workshops that are not affiliated with the Research Institute.\nThe first ever machine of this type was designed by an independent engineer to commemorate their lover and sponsor. In the end, it was acquired by the Maison Gardiennage as a tool to uphold municipal security — or, as some would have it, state apparatus enforcing the monopoly on violence.",
     "icon": "img/enemy/Annihilation_Specialist_Mek.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -3897,6 +3961,7 @@
     "name": "Area Alert Mek",
     "desc": "A mechanism that is able to fire out the energy produced by an annihilation reaction. Strictly speaking, it was originally a test device that emerged from research undertaken by the Institute of Natural Philosophy before the Fontaine Research Institute had been established.\nAs such, despite its considerable commercial success as a sentinel and defensive device, most engineers do not consider it to be a true clockwork meka.",
     "icon": "img/enemy/Area_Alert_Mek.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -3913,6 +3978,7 @@
     "name": "Construction Specialist Mek",
     "desc": "A type of large clockwork meka which also has immeasurable value when utilized in building construction and archeological excavation. Its name comes from an engineer employed by Callas during the construction of the Clementine Line.\nWith Callas' financial backing, this engineer built the legendary \"Golden Vessel\" – a gigantic piece of construction machinery which was used to dig the Poisson Tunnel. Once the job was complete, this type of clockwork meka was designed with a similar structure but reduced to a smaller scale.",
     "icon": "img/enemy/Construction_Specialist_Mek.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -3929,6 +3995,7 @@
     "name": "Icewind Suite",
     "desc": "Artificed Dancers developed by the Fontaine Research Institute.\nBossuet originally intended for Artificed Dancers to be works of art that transcended the era of mechanical reproduction. But after Bossuet was forced to resign, the project was taken over by Maillardet, who had his own unique understanding of what he wanted to achieve. As a result, while their features were perfected during the course of its development, the Artificed Dancers gradually strayed from Bossuet's original vision.",
     "icon": "img/enemy/Icewind_Suite.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -3945,6 +4012,7 @@
     "name": "Hunter's Ray",
     "desc": "A stingray that can release blades of water.\nAmong the Fontemer Aberrants, there are certain strange \"Xenochromatic\" lifeforms. It is said that these are not actually living creatures, but rather spirits from the ocean that have neither taken physical form nor swallowed bait. They are said to bestow blessings upon those accepted by the Fontemer as well as those that are able to control it. Of course, those that have a deeper understanding of natural philosophy would discount such groundless speculation.",
     "icon": "img/enemy/Hunters_Ray.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -3961,6 +4029,7 @@
     "name": "Armored Crab",
     "desc": "A crab that makes its home in borrowed shells.\nIt seems not to have any of the aggressiveness possessed by many wild animals. Perhaps it is because animals who attack for purposes other than obtaining food possess some degree of territoriality, yet the territory of the Armored Crab is naught but the small home upon its back.",
     "icon": "img/enemy/Armored_Crab.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -3977,6 +4046,7 @@
     "name": "Blubberbeast",
     "desc": "A type of mammal that resides in the watery regions of Fontaine. It communicates with its companions through melodious sounds.\nDue to its density, water is a much more efficient medium of sound than air. Drawing inspiration from the Blubberbeast, someone from the Research Institute invented a type of technology that converted images into data to facilitate instant transmission. But due to the technical limitations of the experiment, it never became widely adopted outside the Institute.\nIn reality, however, data transmission technology based on fluid and sound has existed since ancient times. As the saying goes, there's nothing new under the sun.",
     "icon": "img/enemy/Blubberbeast.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -3993,6 +4063,7 @@
     "name": "Hat Jellyfish",
     "desc": "An aquatic creature that hunts by firing watery projectiles.\nAlthough it looks like a hat, it actually eats from its underside, so attempting to wear it is strongly disadvised. In the words of someone who once did this: \"That wasn't very clever, was it?\"",
     "icon": "img/enemy/Hat_Jellyfish.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -4009,6 +4080,7 @@
     "name": "Bubbly Seahorse",
     "desc": "An aquatic creature that hunts by firing watery projectiles.\nAmong the (admittedly somewhat sparse) ranks of Fontemer Aberrant enthusiasts, Bubbly Seahorses have many fans. As with clockwork meka enthusiasts, a small minority of Fontemer Aberrant enthusiasts can be very standoffish when it comes to people whose opinions differ from their own.",
     "icon": "img/enemy/Bubbly_Seahorse.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -4025,6 +4097,7 @@
     "name": "Ball Octopus",
     "desc": "An aquatic creature that hunts by firing watery projectiles.\nThe ability to fire water bombs is of course not uncommon among Fontemer Aberrants. But for your average careless diver, most of whom are tourists, a high-pressure water current of this kind can pose a significant threat. The thickness of diving equipment is therefore necessary for two reasons – firstly, to resist the pressure of the water itself, but secondly, to protect against the attacks of Fontemer Aberrants.",
     "icon": "img/enemy/Ball_Octopus.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -4041,6 +4114,7 @@
     "name": "Angelic Sea Hare",
     "desc": "An aquatic creature that hunts by firing watery projectiles.\nFrom an evolutionary perspective, it is assumed that Fontemer Aberrants have developed from aquatic creatures due to environmental factors specific to Fontaine. As such, it can be inferred that at some point in the past, Fontaine's original aquatic lifeforms differed little from those native to the other regions of Teyvat.",
     "icon": "img/enemy/Angelic_Sea_Hare.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -4057,6 +4131,7 @@
     "name": "Sternshield Crab",
     "desc": "A crab that makes its home in borrowed shells.\nArmored Crabs are constantly searching for shells that fit their bodies as they grow. A storybook that told the tale of the trials of an Armored Crab searching for a suitable shell was extremely popular in Fontaine for a time. Though the story is filled with childlike wonder, the reaction after proved that, like many fairytales, it touched adults even more deeply.",
     "icon": "img/enemy/Sternshield_Crab.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -4073,6 +4148,7 @@
     "name": "Cherubic Sea Hare",
     "desc": "The adult form of an Angelic Sea Hare. The \"wings\" on its back are actually fat used for storing elemental energy.\nThis type of sea creature spends its whole life eating and conserving energy far beyond its actual requirements. Perhaps if the oceans dry out some day, they will be able to continue to survive – or simply become an important source of nutrition for other creatures...",
     "icon": "img/enemy/Cherubic_Sea_Hare.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -4089,6 +4165,7 @@
     "name": "Bubbler Seahorse",
     "desc": "The adult form of a male Bubbly Seahorse. It is extremely aggressive.\nSome people even claim to have encountered the king among the seahorses. It is said that they are proud beings with four long limbs.",
     "icon": "img/enemy/Bubbler_Seahorse.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -4105,6 +4182,7 @@
     "name": "Emperor of Fire and Iron",
     "desc": "One of the two sovereigns who once stood at the apex of the aberrant species of the Fontemer, and the subject of many a tale among sailors.\nAn Armored Crab that avoids predation, and can keep hunting and eating, will continue to grow, continually seeking out suitable shells to become its new armor. But eventually, it became simply too gargantuan. Before the first diluvian period, a massive Armored Crab once attacked a ship, and was finally forced back into the depths by Basil Elton, who had not yet been reinstated as a naval commander.\nImagine this world: All of humanity has been purged from Teyvat, and the ever-growing Emperor of Fire and Iron eventually wears the Palais Mermonia upon its body like a luxurious coat of white stone. Of course, in such a world, there naturally would be no one to call it, half-jokingly and half in awe, the \"Emperor of Fire and Iron.\"",
     "icon": "img/enemy/Emperor_of_Fire_and_Iron.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "60%",
@@ -4121,6 +4199,7 @@
     "name": "Frost Operative",
     "desc": "An elite agent among the Fatui.\nSelected while still children, they can only become an \"Operative\" after many long years of training and teaching, after countless rounds have winnowed the field. They are the most outstanding soldiers among the Fatui, with extraordinary skill and unswerving loyalty.",
     "icon": "img/enemy/Frost_Operative.png",
+    "type": "Fatui",
     "resistance": [
       [
         "10%",
@@ -4137,6 +4216,7 @@
     "name": "Wind Operative",
     "desc": "An elite agent among the Fatui.\n\"Operatives\" have no ordinary military rank among the Fatui. Based on their orders and the content of their missions, they can work in concert with other soldiers, work alone, or in tandem with the \"tacks\" hidden and scattered across the world. They spy, conduct counter-espionage, protect, assassinate, and conduct other tasks. In order to effectively carry out missions of a more special nature, \"Operatives\" also need to master all kinds of other skills and even various arts and talents.",
     "icon": "img/enemy/Wind_Operative.png",
+    "type": "Fatui",
     "resistance": [
       [
         "10%",
@@ -4153,6 +4233,7 @@
     "name": "Deepwater Assault Mek",
     "desc": "A clockwork meka designed to conducting underwater attacks. Unlike \"Underwater Patrol Mek\" models, it is expected to take on much larger and fiercer opponents. Of course, the price it pays for such capabilities and its cost of manufacture is that is unable to fully unleash its capabilities against smaller opponents.\nLong ago, Fontaine was once scarred by the tragic invasion of a massive monster. The revered White Armada that sailed upon the great terrestrial lake was completely destroyed in defense of the nation. The designer hoped that were such a thing to happen again, the clockwork meka would possess enough naval firepower to be the first line of defense, going before the soldiers and generals.",
     "icon": "img/enemy/Deepwater_Assault_Mek.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -4169,6 +4250,7 @@
     "name": "Experimental Field Generator",
     "desc": "A large device designed by the late Edwin Eastinghouse. It has the ability to \"counteract\" the effects of gravity. According to the original design intentions, this was the first step in a plan to turn Fontaine into a city in the sky, so never again would the people have to worry about the waves that once swept over the land. Even if all seven nations were to be swallowed by the deeps, the elegant Court of Fontaine would float above it all, just like Celestia. Even the secrets of the universe would no longer seem so distant.\nThe Arkhium in the device's core has the characteristics of \"splitting\" or \"precipitation,\" and can take matter, or certain things outside of matter, and separate them. It is said that this process can be reversed, but the Fontaine Research Institute is infatuated only with the physical effects it can produce.",
     "icon": "img/enemy/Experimental_Field_Generator.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",
@@ -4185,6 +4267,7 @@
     "name": "Millennial Pearl Seahorse",
     "desc": "One of the two sovereigns standing at the apex of the Fontemer Aberrants.\nPoets and authors often proclaim it to be proud and noble due to its solitary tendencies, but the true reason behind such adulatory descriptions is its elegant and slender body. As such, it is a \"Pearl Seahorse,\" while the suzerain of the Armored Crabs is an \"Emperor.\"\nIn the legends and rumors of Fontaine, a brutal war was once waged among the Aberrants of the Fontemer, leaving only the \"Millennial Pearl Seahorse\" and \"Emperor of Fire and Iron\" splitting the great lake into two courts, one ruling over the north, the other the south. In the \"Song of Dobharcu,\" the writer describes the outcome of the war: the great Hunter's Ray known as the Stormlord stirred huge waves in its death throes, causing what is now known by the people as the \"first diluvian period\"...\nOf course, all of this is nothing more than the romantic imaginations of people who are unwilling to accept the bland realities of the world. For the Fontemer Aberrants are in fact just simple aquatic animals, and they have no grand courts nor fallen kingdoms, nor do they possess words meant to exalt or curse.",
     "icon": "img/enemy/Millennial_Pearl_Seahorse.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -4201,6 +4284,7 @@
     "name": "Hydro Tulpa",
     "desc": "A humanoid monster formed from the agglomeration of water.",
     "icon": "img/enemy/Hydro_Tulpa.png",
+    "type": "Elemental Lifeforms",
     "resistance": [
       [
         "10%",
@@ -4217,6 +4301,7 @@
     "name": "All-Devouring Narwhal",
     "desc": "A mysterious and gargantuan creature from another world.",
     "icon": "img/enemy/AllDevouring_Narwhal.png",
+    "type": "Enemies of Note",
     "resistance": [
       [
         "10%",
@@ -4242,6 +4327,7 @@
     "name": "Solitary Suanni",
     "desc": "These elegant and proud mystical beasts only live in mountains shrouded in adeptal energy.\nSince ancient times, they have been considered a symbol of good fortune, and their preference for living aloof from the material world has been admired by intellectuals for generations. In ancient legends from Chenyu Vale, the leader of the suanni was called the Mountain Lord and was considered to be of the same standing as the adepti.\nAnother theory claims that the Xuanwen Beasts that roam the mountains these days are the descendants of the suanni, but that the thinning of their blood over the years has caused them to devolve into violent creatures. Although this contradicts another theory regarding the origin of Xuanwen Beasts, the few records of the suanni often show them attended by a large number of Xuanwen Beasts.\nThese days, the well-known Wushou Dance in Chenyu Vale came from the movements of the suanni. But since only a handful of people have actually seen such creatures, most can only imagine what they look like. After thousands of years of changes and different artistic interpretations, the Wushou Dance costume head has developed into its current style.",
     "icon": "img/enemy/Solitary_Suanni.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -4258,6 +4344,7 @@
     "name": "Xuanwen Beast",
     "desc": "Xuanwen Beasts, named for the dark patterns on their bodies, are fierce creatures that inhabit the mountains of Chenyu Vale.\nIn the region's folklore, these beasts were the servants of an adeptus in ancient times, tasked with vanquishing evil and protecting the region. However, they devolved into brutal creatures after said adeptus passed away. These legends cannot be verified, and no one knows the true identity of this adeptus. This much is for sure, however — one should stay away from these aggressive creatures for one's safety.\nFor over a thousand years, these beasts have lost a tremendous amount of territory that once belonged to them to relentless human encroachment. These days, they can only occasionally be spotted in the remote mountains of Chenyu Vale...",
     "icon": "img/enemy/Xuanwen_Beast.png",
+    "type": "Mystical Beasts",
     "resistance": [
       [
         "10%",
@@ -4265,6 +4352,57 @@
         "10%",
         "50%",
         "50%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Legatus Golem": {
+    "name": "Legatus Golem",
+    "desc": "A centaur-shaped golem forged of marble and brass. Under the hard stone exterior flows Ichor blood. Towering as one who commands a legion, it is ready to trample any foe that might transgress against its honor.\nThe now sunken civilization believed that war was as music, an art of rhythms to be followed. Therefore, one who marshals a legion must be like a conductor, whose shield and sword are like the strings and bow of a violin, performing a blazing melody like the raging flames upon the merciless battlefield.\n\"War is a necessary evil on the path to all-encompassing peace.\" Thus spake a Harmost, one who once led the golem legions to conquest over the entire high sea.",
+    "icon": "img/enemy/Legatus_Golem.png",
+    "type": "Mystical Beasts",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Praetorian Golem": {
+    "name": "Praetorian Golem",
+    "desc": "A moving statue shaped like a warrior who will swing their sword at all who dare trespass upon the area under their guardianship. It is unclear if it is a soul or magic that powers them.\nThey say that legions of golems once conquered the nations that called the high sea home, and this might have been amongst their number. The great towers and palaces that now sleep beneath the waves once bore witness to the fate of those who stand in the path of the wheel of fate.",
+    "icon": "img/enemy/Praetorian_Golem.png",
+    "type": "Mystical Beasts",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "The Knave": {
+    "name": "The Knave",
+    "desc": "The Knave, Fourth of the Fatui Harbingers.",
+    "icon": "img/enemy/The_Knave.png",
+    "type": "Enemies of Note",
+    "resistance": [
+      [
+        "70%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
         "10%",
         "10%"
       ]

@@ -2290,5 +2290,103 @@
         "icon": "img/arti/Compassionate_Ladies_Hat.png"
       }
     ]
+  },
+  "Fragment of Harmonic Whimsy": {
+    "name": "Fragment of Harmonic Whimsy",
+    "levels": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "ATK +18%."
+      },
+      {
+        "count": 4,
+        "desc": "When the value of a Bond of Life increases or decreases, this character deals 18% increased DMG for 6s. Max 3 stacks."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Harmonious Symphony Prelude",
+        "desc": "An honorary medal in the shape of a blooming flower. Adorned with blue stone and gold, it was once bestowed upon immortals.",
+        "icon": "img/arti/Harmonious_Symphony_Prelude.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Ancient Sea's Nocturnal Musing",
+        "desc": "A feather accessory carved in the shape of the wings of the golden bees of legend. They seem to flutter with the slightest breeze.",
+        "icon": "img/arti/Ancient_Seas_Nocturnal_Musing.png"
+      },
+      {
+        "type": "Sands",
+        "name": "The Grand Jape of the Turning of Fate",
+        "desc": "A timepiece made in imitation of the wheel of fate. It ceased turning long ago.",
+        "icon": "img/arti/The_Grand_Jape_of_the_Turning_of_Fate.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "Ichor Shower Rhapsody",
+        "desc": "A rhyton fired with copper as the base, that was once filled with fine wine from paradise.",
+        "icon": "img/arti/Ichor_Shower_Rhapsody.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Whimsical Dance of the Withered",
+        "desc": "A mask once covered in gold leaf. Perhaps it is a relic from some ancient officer of the legions.",
+        "icon": "img/arti/Whimsical_Dance_of_the_Withered.png"
+      }
+    ]
+  },
+  "Unfinished Reverie": {
+    "name": "Unfinished Reverie",
+    "levels": [
+      4,
+      5
+    ],
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "ATK +18%."
+      },
+      {
+        "count": 4,
+        "desc": "After leaving combat for 3s, DMG dealt increased by 50%. In combat, if no Burning opponents are nearby for more than 6s, this DMG Bonus will decrease by 10% per second until it reaches 0%. When a Burning opponent exists, it will increase by 10% instead until it reaches 50%. This effect still triggers if the equipping character is off-field."
+      }
+    ],
+    "artis": [
+      {
+        "type": "Flower",
+        "name": "Dark Fruit of Bright Flowers",
+        "desc": "A flower carved from grey stone covered with gold foil. Legends say that during a war, it was used to differentiate friend from foe.",
+        "icon": "img/arti/Dark_Fruit_of_Bright_Flowers.png"
+      },
+      {
+        "type": "Plume",
+        "name": "Faded Emerald Tail",
+        "desc": "A tail feather ornament whose luster has long faded. The patterns on it are said to have been etched by the hand of a skilled artisan from long ago.",
+        "icon": "img/arti/Faded_Emerald_Tail.png"
+      },
+      {
+        "type": "Sands",
+        "name": "Moment of Attainment",
+        "desc": "A sundial used by an ancient kingdom to tell time. Tiny marks have been left at a certain scale that can only be seen through careful observation.",
+        "icon": "img/arti/Moment_of_Attainment.png"
+      },
+      {
+        "type": "Goblet",
+        "name": "The Wine-Flask Over Which the Plan Was Hatched",
+        "desc": "A three-legged cup. Once, many heroes were gathered around the bonfire, raising their cups high in toast and drinking their fill while discussing their wishes and ambitions.",
+        "icon": "img/arti/The_WineFlask_Over_Which_the_Plan_Was_Hatched.png"
+      },
+      {
+        "type": "Circlet",
+        "name": "Crownless Crown",
+        "desc": "A golden crown decorated with turquoise and emerald feathers, it has never been used in a coronation, living alone atop a velvet cushion.",
+        "icon": "img/arti/Crownless_Crown.png"
+      }
+    ]
   }
 }
