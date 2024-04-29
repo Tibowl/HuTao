@@ -567,6 +567,16 @@
         }
       },
       {
+        "name": "Fatui Skirmisher route (Recruit's Insignia, Sergeant's Insignia and Lieutenant's Insignia)",
+        "desc": "**Fatui Skirmishers ${Geochanter Bracers}${Pyroslinger Bracers}${Cryogunner Legionnaires}${Hydrogunner Legionnaires}${Anemoboxer Vanguards}${Electrohammer Vanguards}** are Common Enemies found across Teyvat. They are members of the Fatui and drop **Recruit's Insignia ${Recruit's Insignia}**, **Sergeant's Insignia ${Sergeant's Insignia}** and **Lieutenant's Insignia ${Lieutenant's Insignia}**.",
+        "img": "https://static.hutaobot.moe/images/Fatui_Skirmisher_c6b125d3.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Geochanter Bracers", "Pyroslinger Bracers", "Cryogunner Legionnaires", "Hydrogunner Legionnaires", "Anemoboxer Vanguards", "Electrohammer Vanguards"],
+          "material": ["Recruit's Insignia", "Sergeant's Insignia", "Lieutenant's Insignia"]
+        }
+      },
+      {
         "name": "Nobushi route (Old, Kageuchi and Famed Handguard)",
         "desc": "**Nobushi ${Nobushi: Jintouban}${Nobushi: Hitsukeban}${Nobushi: Kikouban}** are Common Enemies found in Inazuma. They drop **Old Handguard ${Old Handguard}**, **Kageuchi Handguard ${Kageuchi Handguard}** and **Famed Handguard ${Famed Handguard}**.",
         "img": "https://static.hutaobot.moe/images/Nobushi_cb0522e9.png",
