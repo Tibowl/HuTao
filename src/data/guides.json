@@ -831,6 +831,15 @@
           "enemy": ["Xuanwen Beasts"],
           "material": ["Feathery Fin", "Lunar Fin", "Chasmlight Fin"]
         }
+      },
+      {
+        "name": "Praetorian Golem route (Ruined Hilt, Splintered Hilt and Still-Smoldering Hilt)",
+        "desc": "**Praetorian Golems ${Praetorian Golem}** are Elite Enemies. They are Mystical Beasts and drop **Ruined Hilt ${Ruined Hilt}**, **Splintered Hilt ${Splintered Hilt}** and **Still-Smoldering Hilt ${Still-Smoldering Hilt}**.",
+        "img": "https://static.hutaobot.moe/images/Praetorian_Golem_6850d8fe.png",
+        "links": {
+          "enemy": ["Praetorian Golem"],
+          "material": ["Ruined Hilt", "Splintered Hilt", "Still-Smoldering Hilt"]
+        }
       }
     ]
   },
