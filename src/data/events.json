@@ -3752,5 +3752,14 @@
         "start": "2024-04-28 10:00:00",
         "end": "2024-05-09 03:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "\"Savoring the Breeze\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/27880536",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/04/25/0/753cf7b48ac227b51716c49be2a5767d_1101125079683537617.jpeg",
+        "start": "2024-04-29 12:00:00",
+        "end": "2024-05-06 23:59:00",
+        "reminder": "end"
     }
 ]
