@@ -29,7 +29,7 @@ export default class Help extends Command {
     }
 
     async autocomplete(source: AutocompleteInteraction): Promise<void> {
-        const targetNames = client.commands.keyArray()
+        const targetNames = [...client.commands.keys()]
         const search = source.options.getFocused().toString()
 
         if (search == "") {
@@ -61,7 +61,7 @@ export default class Help extends Command {
     }
 
     async run(source: CommandSource, name?: string | null): Promise<SendMessage | undefined> {
-        const { commands } = client
+        const commands = [...client.commands.values()]
         if (!name) {
             return this.sendCommands(source)
         }

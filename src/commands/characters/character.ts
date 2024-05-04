@@ -3,7 +3,7 @@ import config from "../../data/config.json"
 import client from "../../main"
 import Command from "../../utils/Command"
 import { BotEmoji, Character, CharacterFull, CommandSource, SendMessage, Skill, TalentTable, TalentValue } from "../../utils/Types"
-import { addArg, Bookmarkable, Colors, createTable, findFuzzyBestCandidatesForAutocomplete, getLink, getLinkToGuide, PAD_END, PAD_START, paginator, sendMessage, simplePaginator, urlify } from "../../utils/Utils"
+import { Bookmarkable, Colors, PAD_END, PAD_START, addArg, createTable, findFuzzyBestCandidatesForAutocomplete, getLink, getLinkToGuide, paginator, sendMessage, simplePaginator, splitByLength, urlify } from "../../utils/Utils"
 
 
 const elementTypes = client.data.getCharacters()
@@ -519,7 +519,6 @@ ${          Object
 
             if (skill.video && talentMode == "LITTLE") {
                 embed.setImage(getLink(skill.video))
-                    .setThumbnail("")
             }
         }
 
@@ -543,12 +542,18 @@ ${          Object
                 embed.setTitle(`${char.name}: Passives`)
                     .setURL(`${data.baseURL}characters/${urlify(char.name, false)}#${urlify(skills.passive[0].name, false)}`)
                 for (const passive of skills.passive) {
-                    if (passive.minAscension)
-                        embed.addFields({ name: passive.name, value:  `${passive.desc}
+                    const descText = passive.minAscension ? `${passive.desc}
     
-*${passive.minAscension > 0 ? `Unlocks at ascension **${passive.minAscension}**` : "Unlocked by **default**"}*` })
-                    else
-                        embed.addFields({ name: passive.name, value:  passive.desc })
+*${passive.minAscension > 0 ? `Unlocks at ascension **${passive.minAscension}**` : "Unlocked by **default**"}*` : passive.desc
+
+                    const splitted = descText.split("\n\n").flatMap(x => splitByLength(x, 1000, "\n"))
+                    for (let i = 0; i < splitted.length; i++) {
+                        const line = splitted[i]
+                        if (i == 0)
+                            embed.addFields({ name: `${passive.minAscension ? "*" : ""}${passive.name}`, value: line })
+                        else
+                            embed.addFields({ name: ` `, value: line })
+                    }
                 }
                 return embed
             }
@@ -558,8 +563,17 @@ ${          Object
                     .setURL(`${data.baseURL}characters/${urlify(char.name, false)}#${urlify(skills.constellations[0].name, false)}`)
                     .setThumbnail(getLink(skills.constellations[0]?.icon))
                 let c = 0
-                for (const constellation of skills.constellations)
-                    embed.addFields({ name: `C${++c}: ${constellation.name}`, value: constellation.desc })
+                for (const constellation of skills.constellations) {
+                    const splitted = constellation.desc.split("\n\n").flatMap(x => splitByLength(x, 1000, "\n"))
+
+                    for (let i = 0; i < splitted.length; i++) {
+                        const line = splitted[i]
+                        if (i == 0)
+                            embed.addFields({ name: `C${++c}: ${constellation.name}`, value: line })
+                        else
+                            embed.addFields({ name: ` `, value: line })
+                    }
+                }
 
                 return embed
             }

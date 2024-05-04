@@ -1,5 +1,4 @@
 import Discord, { ActivityType, ClientEvents, GatewayIntentBits, Partials } from "discord.js"
-import Enmap from "enmap"
 import fs from "fs"
 import { join } from "path"
 
@@ -36,7 +35,7 @@ export default class HuTaoClient extends Discord.Client {
     newsManager: NewsManager = new NewsManager()
     webManager: WebManager = new WebManager()
 
-    commands: Enmap<string, Command> = new Enmap()
+    commands: Map<string, Command> = new Map()
     recentMessages: Discord.Message[] = []
 
     constructor() {
@@ -76,8 +75,7 @@ export default class HuTaoClient extends Discord.Client {
         fs.readdir(join(__dirname, "./events/"), (err, files) => {
             if (err) return Logger.error(err)
             files.forEach(file => {
-                // eslint-disable-next-line @typescript-eslint/no-var-requires
-                const event = require(`./events/${file}`)
+                const event: any = require(`./events/${file}`)
                 const eventName = file.split(".")[0] as keyof ClientEvents
                 this.on(eventName, event.handle)
             })
@@ -89,8 +87,7 @@ export default class HuTaoClient extends Discord.Client {
                 if (err) return Logger.error(err)
                 files.forEach(file => {
                     if (!(file.endsWith(".js") || file.endsWith(".ts"))) return readDir(dir + file + "/")
-                    // eslint-disable-next-line @typescript-eslint/no-var-requires
-                    const props = require(`${dir}${file}`)
+                    const props: any = require(`${dir}${file}`)
                     const commandName = file.split(".")[0]
                     Logger.info(`Loading ${commandName}`)
 

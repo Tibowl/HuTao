@@ -107,6 +107,24 @@ function limitIndex(words: string[], maxLength = 50): number {
     return end
 }
 
+export function splitByLength(text: string, maxLength: number, splitOn: string): string[] {
+    const splitted = text.split(splitOn)
+    const result: string[] = []
+    let currentLine = ""
+
+    for (const line of splitted) {
+        if (currentLine.length + line.length >= maxLength) {
+            result.push(currentLine)
+            currentLine = line
+        } else
+            currentLine += splitOn + line
+    }
+    if (currentLine.length > 0)
+        result.push(currentLine)
+
+    return result
+}
+
 export function truncate(text: string, maxLength = 50): string {
     const words = text.split(" ")
     const end = limitIndex(words, maxLength)

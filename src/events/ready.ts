@@ -18,7 +18,7 @@ export async function handle(): Promise<void> {
     client.newsManager.fetchNews().catch(e => Logger.error(e))
 
     if (!client.application?.owner) await client.application?.fetch()
-    const cmds = client.commands.array()
+    const cmds = [...client.commands.values()]
 
     try {
         if (config.production) {
