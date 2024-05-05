@@ -3740,6 +3740,8 @@
     {
         "name": "\"Iridescent Arataki Rockin' for Life Tour de Force of Awesomeness \" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/28116868",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/04/28/616e285ed112c19342bdf844125e79ea_2069808790239709254.jpg",
         "start": "2024-05-06 10:00:00",
         "end": "2024-05-27 03:59:00",
         "reminder": "end"
@@ -3751,15 +3753,6 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2024/04/24/627e6e950d90bc79f9762efa118da467_7543637527226335014.jpg",
         "start": "2024-04-28 10:00:00",
         "end": "2024-05-09 03:59:00",
-        "reminder": "end"
-    },
-    {
-        "name": "\"Iridescent Arataki Rockin' for Life Tour de Force of Awesomeness\" Event",
-        "type": "In-game",
-        "link": "https://www.hoyolab.com/article/28116868",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/04/28/616e285ed112c19342bdf844125e79ea_2069808790239709254.jpg",
-        "start": "2024-05-06 10:00:00",
-        "end": "2024-05-27 03:59:00",
         "reminder": "end"
     },
     {
