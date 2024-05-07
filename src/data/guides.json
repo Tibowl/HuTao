@@ -1208,5 +1208,65 @@
         "img": "https://static.hutaobot.moe/images/Arle_Teams_76c7cff9.png"
       }
     ]
+  },
+  {
+    "name": "Canticles of Harmony",
+    "pages": [
+      {
+        "name": "Canticles of Harmony Overview",
+        "desc": "Taking a journey through the area once known as **Remuria**, the **Canticles of Harmony** questline is the primary questline for the **Nostoi** and the **Sea of Bygone Eras** regions of **Fontaine**.\n\n**Remuria** was once a kingdom located in what is modern day **Fontaine**, founded by **Remus Sebastos**. In this questline you will journey with **Osse**, a talking... cat?, and travel through the ruins of **Remuria** to investigate the mystery of people falling into a dream-like state in **Petrichor**.\n\nThis questline is required to unlock the  **Faded Castle** underground area at **Petrichor** and the **Sea of Bygone Eras** map.\n\nYou can use code **[RERBJ93N741C](https://genshin.hoyoverse.com/en/gift?code=RERBJ93N741C)** for some ingame rewards!",
+        "img": "https://static.hutaobot.moe/images/CoH_intro_cb09cf6d.png"
+      },
+      {
+        "name": "Prerequisites and where to start",
+        "desc": "To start the questline, approach the NPC with a **!** above them near the Statue of the Seven in **Petrichor**.\n\n- It is recommended to have completed the **Archon Quest Prologue: Act III \"Song of the Dragon and Freedom\"** to automatically unlock the waypoint at **Petrichor**.",
+        "img": "https://static.hutaobot.moe/images/CoH_start_e6ac77b2.png"
+      },
+      {
+        "name": "Exploring Petrichor",
+        "desc": "1 - After triggering the first cutscene, head into **Petrichor** and approach the NPC shown as **???** in the town square.\n\n2 - Then follow the quest navigation to the seal into the **Faded Castle**. Defeat the Praetorian Golem that is guarding the Score and pick it up from the Pedestal to unlock the seal, then enter the **Faded Castle**.",
+        "img": "https://static.hutaobot.moe/images/CoH_Petrichor_641e2256.png"
+      },
+      {
+        "name": "The Faded Castle",
+        "desc": "Upon entering the **Faded Castle** keep progressing deeper into the ruins following the quest navigation.\n- Once you reach the first intersection (Marked **1**) you will obtain the **Ancient Autoharmonic Music Box** as well as obtain score number 1: **Locus Amoenus**.\n- You can access the **Legatus Golem** world boss after this step! Take the stairs down and to the south at the intersection instead to reach it as seen [here](https://static.hutaobot.moe/images/Legastus_Golem_Location_093fce6f.png).\n\nFollow Osse into the room marked **2** and solve the puzzle\n- Hold the Music/Symphony button down to move the markers on each device, move the markers so they light up the same symbol as on the wall behind each device to solve.\n\nHead to the stage marked **3**, insert the **Blank Score** and defeat the enemies to activate the portal, then enter the **Sea of Bygone Eras**.",
+        "img": "https://static.hutaobot.moe/images/CoH_The_Faded_Castle_933c369c.png"
+      },
+      {
+        "name": "Initium Iani and Scylla",
+        "desc": "After entering the **Sea of Bygone Eras** the first half of the map will be lit up after taking the water current and approaching **Scylla**.\n\nNow, the aim is to free **Scylla**. To do this, follow the 3 links that form the prison to a puzzle each to solve them. After solving each puzzle **hold down** the **Music/Symphony** button near the red spire that connects the seal to release the seal.\n* 1 - Enter the cave at **1** and talk to the **Praetorian Golems** nearby and start negotiating with them. The correct answers to avoid fighting them are: **The Sebastos does not permit the harm of innocent people.**, **Yet you are not receiving the melody.** and **Phobos's silence signifies rejection.**\n* 2 - Defeat the **Praetorian Golems** inside the cave.\n* 3 - [Solve the puzzle](https://static.hutaobot.moe/images/CoH_Music_puzzle_168cc170.png) by pausing the **Washer Octopi** by **tapping** the **Music/Symphony** button near them so they activate all the **Resonant Anemones**.\n\nIf you pause a **Washer Octopus** at an incorrect spot, you can make it start moving again by **holding** the **Music/Symphony** button near it.",
+        "img": "https://static.hutaobot.moe/images/CoH_Initium_Iani_and_Scylla_7c133cf6.png"
+      },
+      {
+        "name": "Approaching the Domus Aurea",
+        "desc": "After freeing **Scylla** you must break the seal to the second half of the **Sea of Bygone Eras**. This is done by hitting the button prompt on screen within the countdown when it appears.\n\nIf a prompt is missed, you will be taken back to the start of the current. The challenge can easily be restarted by just talking to **Scylla** again though!\n* Completing this challenge will light up the rest of the **Sea of Bygone Eras** map.",
+        "img": "https://static.hutaobot.moe/images/CoH_Approaching_the_Domus_Aurea_9e3dce73.png"
+      },
+      {
+        "name": "Scylla Taxi Service",
+        "desc": "After freeing **Scylla** you can fast travel to him when you are nearby, pressing the interaction button that appears to quickly rush to him. After doing so you can **Summon the current...** to launch yourself in a direction of your choice.\n* At intervals an arrow button will appear on screen. Hit the prompt before it expires if you wish to travel further.\n* **Scylla**'s location on the map will also be indicated by a Whale icon!\n\nThis mechanic can be used to quickly navigate between areas during this next part of the quest!\n\nDoing this for the first time also yields the achievement **Vishap Corps Scylla**!",
+        "img": "https://static.hutaobot.moe/images/CoH_Scylla_Taxi_Service_f9210ec1.png"
+      },
+      {
+        "name": "Domus Aurea and the Aqueducts",
+        "desc": "Follow the quest marker and enter the **Domus Aurea** after entering you will be challenged by a few praetorian golems, there is no need to defeat them, as surviving for a little while will see the next cutscene begin.\n\nAfter you progress the quest to rebuild the **Golden Aqueducts** you will receive 2 additional quests in your quest log:\n* **Golden Aqueduct Reconstruction: Part I** and **Golden Aqueduct Reconstruction: Part II**\n* You can navigate these quests to see where you need to go to restore them. **Scylla** will be located near them so you can use him to quickly travel to them.\n\nTo repair each aqueduct you must move the flying birds (the ones you must move are marked in the image below) by **touching** them until they go to their marked spots on the mural.\n* During **Part II** the flying anemo slimes must be popped to free one of the trapped birds, and the **Pink Hat Jellyfish** in the area can be used to reach the two suspended birds!\n\nIn addition you also need to align the projectors so their perspective has the horn overlapping the horn on the mural!",
+        "img": "https://static.hutaobot.moe/images/CoH_Domus_Aurea_and_the_Aqueducts_22696f9d.png"
+      },
+      {
+        "name": "Releasing the Ichor into the Aqueducts",
+        "desc": "After following the Bird Phantasms and repairing the Aqueducts, head back to the **Domus Aurea** and activate the Wheel device to release the Ichor.\n\nThis will start another sequence where you must hit the button prompts when they appear on screen.\n\nEnter the **Domus Aurea** again at the end and prepare to face **Boethius**.\n* Note that Co-Op mode will be disabled after this step, so make sure you are prepared!",
+        "img": "https://static.hutaobot.moe/images/CoH_Releasing_the_Ichor_into_the_Aqueducts_13523acd.png"
+      },
+      {
+        "name": "Confronting Boethius",
+        "desc": "**Boethius** takes the form of a **Legatus Golem** during battle, and is a relatively straightforward fight.\n* During the first phase, **Boethius** will be shielded and take significantly reduced damage. This shield can quickly be depleted using **Blunt** attacks like **Claymores**, **Plunging Attacks** and certain **Geo** attacks. In addition reactions like **Overloaded** can do significant damage to his shield too!\n* Breaking the **resonators** that spawn will also further deplete the shield.\n\nDon't forget that you can use food buffs if you're struggling with the fight!",
+        "img": "https://static.hutaobot.moe/images/CoH_Confronting_Boethius_4961dc13.png"
+      },
+      {
+        "name": "Requiem",
+        "desc": "At the end of it all is the **Requiem**, this is the final sequence, where a timed button prompt must be hit within the displayed window on screen.\n* Missing a prompt will cause a section to replay, but it will not restart the entire **Requiem**.\n\nAfter completing the **Requiem** you will receive the 6th score for the **Ancient Autoharmonic Music Box**, known as \"**Lacrimosa**\".\n* The other 4 scores can be found by exploring these two new regions! (Or if you just want the locations you can see this image [here!](https://static.hutaobot.moe/images/CoH_Autoharmonic_music_box_store_e813dd2f.png))",
+        "img": "https://static.hutaobot.moe/images/CoH_Requiem_88f178f0.png"
+      }
+    ]
   }
 ]
