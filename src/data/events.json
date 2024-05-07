@@ -3763,5 +3763,14 @@
         "start": "2024-04-29 12:00:00",
         "end": "2024-05-06 23:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "\"Fragmented Memories\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/28259998",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/04/30/3c075c75fac2377084041ba30aee2b82_3390524856249544832.jpg",
+        "start": "2024-05-07 12:00:00",
+        "end": "2024-05-26 23:59:00",
+        "reminder": "end"
     }
 ]
