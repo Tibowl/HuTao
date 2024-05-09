@@ -3738,6 +3738,33 @@
         "reminder": "end"
     },
     {
+        "name": "Event Wish \"From Ashes Reborn\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/28344952",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/05/07/0/3a80ff1accea621f2966db4402dc21a5_7009942807875137811.jpeg",
+        "start": "2024-05-14 18:00:00",
+        "end": "2024-06-04 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Immaculate Pulse\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/28344952",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/05/07/0/ce00cc95b10ed050f072d1ecc5b57144_2381136404729301018.jpeg",
+        "start": "2024-05-14 18:00:00",
+        "end": "2024-06-04 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/28344952",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/05/09/532df17589bbae0fbcad20bb5a877c7f_7299762259818261105.jpg",
+        "start": "2024-05-14 18:00:00",
+        "end": "2024-06-04 14:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "\"Iridescent Arataki Rockin' for Life Tour de Force of Awesomeness \" Event",
         "type": "In-game",
         "link": "https://www.hoyolab.com/article/28116868",
@@ -3754,6 +3781,28 @@
         "start": "2024-04-28 10:00:00",
         "end": "2024-05-09 03:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "\"Windtrace: Seekers and Strategy\" Event",
+        "type": "In-game",
+        "start": "2024-05-14 10:00:00",
+        "end": "2024-05-27 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Specially-Shaped Saurian Search\" Web Event",
+        "type": "In-game",
+        "start": "2024-05-22 10:00:00",
+        "end": "2024-06-03 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Overflowing Mastery\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/29/d57d50a9b8fd0e6fc427f0f0b9e0f426_5987716192671425172.jpg",
+        "start": "2024-05-27 04:00:00",
+        "end": "2024-06-03 03:59:00",
+        "reminder": "daily"
     },
     {
         "name": "\"Savoring the Breeze\" Web Event",
