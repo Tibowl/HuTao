@@ -3792,8 +3792,10 @@
         "reminder": "end"
     },
     {
-        "name": "\"Specially-Shaped Saurian Search\" Web Event",
+        "name": "\"Specially-Shaped Saurian Search\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/28846633",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/05/17/9259f38f51f474ff39270fb67b9848d8_5556941282896266482.jpg",
         "start": "2024-05-22 10:00:00",
         "end": "2024-06-03 03:59:00",
         "reminder": "end"
