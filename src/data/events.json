@@ -3825,5 +3825,13 @@
         "start": "2024-05-07 12:00:00",
         "end": "2024-05-26 23:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "4.7 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/28922280",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/05/22/231f8abf11bd810933bcf855bc6f8fde_4223442776182024307.jpg",
+        "start": "2024-05-24 08:00:00",
+        "timezone": "-04:00"
     }
 ]
