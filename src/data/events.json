@@ -3833,5 +3833,55 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2024/05/22/231f8abf11bd810933bcf855bc6f8fde_4223442776182024307.jpg",
         "start": "2024-05-24 08:00:00",
         "timezone": "-04:00"
+    },
+    {
+        "name": "4.7 Maintenance",
+        "type": "Maintenance",
+        "start": "2024-06-05 06:00:00",
+        "end": "2024-06-05 11:00:00"
+    },
+    {
+        "name": "Event Wish \"Illuminating Lightning\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/29435758",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/06/03/0/336fc05cc3c090e458694afa2dd21f5c_1547623558721712866.jpeg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "start": "2024-06-04 10:00:00",
+        "start_server": false,
+        "end": "2024-06-25 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Caution in Confidence\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/29435758",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/06/03/0/fe4fed1c844e02b7e6b5c7945eadb1f6_3864784085139083932.jpeg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "start": "2024-06-04 10:00:00",
+        "start_server": false,
+        "end": "2024-06-25 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/29435758",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/06/03/0/f2d4e2a3d46f7963cdbc26717268c27f_2152209064727485197.jpeg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+        "start": "2024-06-04 10:00:00",
+        "start_server": false,
+        "end": "2024-06-25 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Mutual Security Enhancing Simulation\" Event",
+        "type": "In-game",
+        "start": "2024-06-07 10:00:00",
+        "end": "2024-06-17 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Record of Reflective Writing\" Event",
+        "type": "In-game",
+        "start": "2024-06-18 10:00:00",
+        "end": "2024-06-24 03:59:00",
+        "reminder": "end"
     }
 ]
