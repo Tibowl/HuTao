@@ -124,6 +124,131 @@
       }
     ]
   },
+  "Absolution": {
+    "name": "Absolution",
+    "desc": "A rapier once wielded by a deceiver who had forsaken everything. In the past, it was primarily used as a tool when he had to disguise his identity.",
+    "weaponType": "Sword",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 47.537,
+        "curve": "ATK 3.2"
+      },
+      {
+        "stat": "CRIT DMG",
+        "init": 0.096,
+        "curve": "C3"
+      }
+    ],
+    "icon": "img/weapon/Absolution.png",
+    "awakenIcon": "img/weapon_woke/Absolution.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.1
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.2
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.7
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts5",
+      "mapping": {
+        "EnemyDropTierA1": "Old Operative's Pocket Watch",
+        "EnemyDropTierA2": "Operative's Standard Pocket Watch",
+        "EnemyDropTierA3": "Operative's Constancy",
+        "EnemyDropTierB1": "Meshing Gear",
+        "EnemyDropTierB2": "Mechanical Spur Gear",
+        "EnemyDropTierB3": "Artificed Dynamic Gear",
+        "WeaponAsc1": "Fragment of an Ancient Chord",
+        "WeaponAsc2": "Chapter of an Ancient Chord",
+        "WeaponAsc3": "Movement of an Ancient Chord",
+        "WeaponAsc4": "Echo of an Ancient Chord"
+      }
+    },
+    "lore": "\"Sincerity and diligence will surely be rewarded. That's what you always taught us, Mother.\"\n\"But those who favor sincerity are often liars, and the diligent will be exploited by others.\"\n\"Mother, it turns out you were a liar too. Why else would you be buried here?\"\n\"And so, I must thank you. I now finally understand your true teachings...\"\nBefore a piece of wood becomes an axe's haft, it can neither be picky about methods nor too fastidious about dignity.\nWhether cumbersome formal attire or rags stained with grease and blood, all are costumes required to move upwards.\n\nIn those times — nay, perhaps even were a thousand, or ten thousand years to pass since then—\nThere will always be young people who grow up all too soon, who rise up in society under the banner of the so-called \"survival of the fittest,\"\nWho will feed upon sincerity, gorge upon hope, and devour dreams, metamorphosing into a magnificent monster of the city above ground,\nFor whom the two cities, whether touched or untouched by sunlight, were both bountiful hunting grounds.\n\n\"Oh my. Whose daughter might you be, gentle lady, and what brings you to our Fleuve Cendre?\"\nAs for the noble girl who had stumbled into the Fleuve Cendre, she was, naturally, quarry most worthy of being hung upon the mantlepiece...\nHow the fear dims her beautiful visage, like clouds choking the moon, thought the monster.\nShe recognized the face of a monster, but what slipped out instead was a question as to how her disguise had been discovered.\n\"Well, you're a terrible liar, for one. You've as much as admitted to being an outsider now, haven't you?\"\n\"...And my dear lady, your clothes lack either soot or machine oil, nor have they ever been stained by blood...\"\n\nYes, yes — this was a wondrous opportunity, not to be missed, he thought, as he reached out his hand to her.\nThe threads of spider's silk silently hanging down from the clouds above. I shall use this to enter that greatest of houses,\nThis ladder unto the skies, this key unto the gates of pearl.\nI must not let her leave me... I must never leave her...\n\n\"Leticia, your noble soul is one I adore.\"\nA peculiar foreboding struck him as he spoke these words, but nevertheless, he continued to speak...\n\n...\nAll things have their portents, and that was the night before the storm,\nAnd strangely, he was uncharacteristically nattering on about his selfish wishes:\n\"Leticia, have you ever imagined a world—\"\n\"One with three times the sunshine and boundless fertile lands,\"\n\"One where people are free as birds, free of segregation, free from deception and despoiling,\"\n\"Where we may fly across boundless plains, or rivers and lakes, mountains and valleys,\"\n\"Until we find a tree to call our own, roost there, and build our home,\"\n\"With no one to disturb us, and nothing to trouble us...\"\n\nPerhaps by then, he already believed that the once ephemeral hope had now vanished like smoke,\nOr had already been buried in silence and blood alongside their comrades.\n\n\"Dear Leticia, think of the children, of those newly sprouted trees,\"\n\"Surely they should not be born amidst cannon fire, or grow up amidst the mud and filthy waters.\"\n\"Are we to nurture them with wrathful tears and hateful oaths?\"\n\"Shall we leave them to inherit confused dreams or a mission with its outlook yet unknown?\"\n\nBut no, there is no need to worry, he thought. Everything has already been arranged.\nOur future... My future... It is assured.\nAnd again, he felt a bout of that now-familiar, peculiar foreboding.\n\n...\nBy then, he had not walked amongst nobles for some time already. When asked the reason for his betrayal,\n\"To be rewarded with a position higher still.\" \"To win peace for her and the children.\"\nHe no longer remembered which was the pretext, and which was the truth.\nFor when a liar tells a lie ten thousand times, even they themselves may believe it.\n\nSo when his wife asked him that same question at the last, he still had not figured it out.\nBut he remembered the promise he had made to her. If nothing else, they two alone could keep their initial contract.",
+    "refinements": [
+      {
+        "name": "Deathly Pact",
+        "desc": "CRIT DMG increased by **20%**. Increasing the value of a Bond of Life increases the DMG the equipping character deals by **16%** for 6s. Max 3 stacks."
+      },
+      {
+        "name": "Deathly Pact",
+        "desc": "CRIT DMG increased by **25%**. Increasing the value of a Bond of Life increases the DMG the equipping character deals by **20%** for 6s. Max 3 stacks."
+      },
+      {
+        "name": "Deathly Pact",
+        "desc": "CRIT DMG increased by **30%**. Increasing the value of a Bond of Life increases the DMG the equipping character deals by **24%** for 6s. Max 3 stacks."
+      },
+      {
+        "name": "Deathly Pact",
+        "desc": "CRIT DMG increased by **35%**. Increasing the value of a Bond of Life increases the DMG the equipping character deals by **28%** for 6s. Max 3 stacks."
+      },
+      {
+        "name": "Deathly Pact",
+        "desc": "CRIT DMG increased by **40%**. Increasing the value of a Bond of Life increases the DMG the equipping character deals by **32%** for 6s. Max 3 stacks."
+      }
+    ]
+  },
   "Akuoumaru": {
     "name": "Akuoumaru",
     "desc": "The beloved sword of the legendary \"Akuou.\" The blade is huge and majestic, but is surprisingly easy to wield.",
@@ -2651,7 +2776,7 @@
       }
     ]
   },
-  "Compound Bow": {
+    "Compound Bow": {
     "name": "Compound Bow",
     "desc": "An exotic metallic bow from a distant land. Though extremely difficult to maintain, it is easy to nock and fires with tremendous force.",
     "weaponType": "Bow",
@@ -6578,7 +6703,7 @@
         "WeaponAsc4": "Golden Talisman of the Forest Dew"
       }
     },
-    "lore": "\"The forest used to be a giant maze many, many moons ago...\"\n\nThe last king of the forest had returned to Sarva, leaving one who once waited upon him to inherit the name \"Tiger.\"\nIn the past, wherever there was shade, there was the domain of the forest king. And as he wandered through his own territory,\nThe birds and beasts that depended on the jungle would bow their heads as he passed by to show their respect and reverence.\n\nAll Kings had their own palaces: as each successive king of the forest took the throne, the forest changed according to his image and vision.\nThe palace of the last king of the forest was hidden behind a fence of trees and vines, and beyond a network of water and cliffs,\nIt is the disc of pearls made by moonlight through leaves on still water. The king was at the water's edge, basking in the twice and much moonlight all by himself.\n\nThus did the forest maze come about. Legend has it that the forest king traced the path of a maze in his dazzling dappled stripes.\nEach generation of Kings' palaces piled on top of each other so that the paths would intertwine from tree to tree. Streams would break off or would give birth to new branches,\nThe forest paths growing ever more complex. Only the forest king, we Aranara, and the people from the king tree's sanctuary,\nCould freely go into the forest king's sanctuary and find their own way from tree to tree and stream to stream.\n\n...\nLater, the last king of the forest died protecting the forest. The forest would make no new palace, and the maze would disappear henceforth.\nOr perhaps it was a dark herd of beasts that, like a hurricane, brought down the trees like waves of wheat. Either way, the maze was dead, and so was the forest king.\n\nThe Aranara, who gave me this story, was very timid and did not want us to hear him sing, always seeking a place of solitude.\nOne night, he went through a maze in the forest, and found a bright reflection of the moon in the water. Thus did he hear the story of the last king of the forest. \nThen the current changed and the moon's reflection was scattered. Much has changed, and yet, much still remains the same.\nBut even if you, like me, have never met a king, you would still get the impression that Tiger was a noble and powerful king of the forest.",
+    "lore": "\"The forest used to be a giant maze many, many moons ago...\"\n\nThe last king of the forest had returned to Sarva, leaving one who once waited upon him to inherit the name \"Tiger.\"\nIn the past, wherever there was shade, there was the domain of the forest king. And as he wandered through his own territory,\nThe birds and beasts that depended on the jungle would bow their heads as he passed by to show their respect and reverence.\n\nAll Kings had their own palaces: as each successive king of the forest took the throne, the forest changed according to his image and vision.\nThe palace of the last king of the forest was hidden behind a fence of trees and vines, and beyond a network of water and cliffs,\nIt is the disc of pearls made by moonlight through leaves on still water. The king was at the water's edge, basking in the twice and much moonlight all by himself.\n\nThus did the forest maze come about. Legend has it that the forest king traced the path of a maze in his dazzling dappled stripes.\nEach generation of Kings' palaces piled on top of each other so that the paths would intertwine from tree to tree. Streams would break off or would give birth to new branches,\nThe forest paths growing ever more complex. Only the forest king, we Aranara, and the people from the king tree's sanctuary,\nCould freely go into the forest king's sanctuary and find their own way from tree to tree and stream to stream.\n\n...\nLater, the last king of the forest died protecting the forest. The forest would make no new palace, and the maze would disappear henceforth.\nOr perhaps it was a dark herd of beasts that, like a hurricane, brought down the trees like waves of wheat. Either way, the maze was dead, and so was the forest king.\n\nThe Aranara, who gave me this story, was very timid and did not want us to hear him sing, always seeking a place of solitude.\nOne night, he went through a maze in the forest, and found a bright reflection of the moon in the water. Thus did he hear the story of the last king of the forest. \nThen the current changed and the moon's reflection was scattered. Much has changed, and yet, much will now remain unchanged forevermore.\nBut even if you, like me, have never met a king, you would still get the impression that Tiger was a noble and powerful king of the forest.",
     "refinements": [
       {
         "name": "Forest Sanctuary",

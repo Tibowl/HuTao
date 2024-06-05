@@ -3873,6 +3873,8 @@
     {
         "name": "\"Mutual Security Enhancing Simulation\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/29523218",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/06/03/ba1ede423ef86f23a2bb29f8d420f7c9_9214596002557306522.png",
         "start": "2024-06-07 10:00:00",
         "end": "2024-06-17 03:59:00",
         "reminder": "end"

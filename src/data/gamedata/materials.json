@@ -529,7 +529,7 @@
   },
   "Starconch": {
     "name": "Starconch",
-    "desc": "Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.",
+    "desc": "Empty seashells brought ashore by the tides. Hold one close to your ear, and hear the longing calls of the sea.",
     "type": "Local Specialty (Liyue)",
     "category": "Teyvat's Resources",
     "icon": "img/material/Starconch.png",
@@ -2495,6 +2495,38 @@
       "recipe": "Steak Tartare"
     },
     "effect": "Restores 40% of Max HP and an additional 2,350 HP to the selected character."
+  },
+  "\"Tagged and Bagged\"": {
+    "name": "\"Tagged and Bagged\"",
+    "desc": "Clorinde's specialty. It consists of freshly caught Fowl that has been but only very slightly roasted. Your initial apprehension quickly vanishes after experiencing its tender texture and refreshing aftertaste for yourself. Anyway, Clorinde already took a bite herself. Surely your digestive system is as robust as a seasoned hunter's is... right?",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Tagged_and_Bagged.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Clorinde",
+      "recipe": "Bulle Sauce Duck Breast"
+    },
+    "effect": "Restores 80 Stamina."
+  },
+  "Super-Dee-Duper Delicious Meat Roll": {
+    "name": "Super-Dee-Duper Delicious Meat Roll",
+    "desc": "Sethos's specialty. A subtle coarseness gives the pastry a satisfying, chewy texture. The grilled meat is seasoned in a way that makes it stand out from the usual recipes you'd find in a market, its delicious novelty taking your taste buds by storm. Sensing your desire for more, the unaffected youth sitting to one side gives you a wink and says: \"Secret recipe — you won't find it anywhere else.\"",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/SuperDeeDuper_Delicious_Meat_Roll.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Sethos",
+      "recipe": "Shawarma Wrap"
+    },
+    "effect": "Increases all party members' ATK by 114 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
@@ -7804,6 +7836,32 @@
       "Delicious Bulle Souffle": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s."
     }
   },
+  "Bulle Sauce Duck Breast": {
+    "name": "Bulle Sauce Duck Breast",
+    "desc": "A meat dish with the fragrant fullness of fruit. The citrusy flavor of tangerine gives the succulent duck a unique, fresh sweetness. It's so irresistibly delicious that you can barely stop yourself from reaching for the next piece even before you've swallowed the last one. No matter how much Fontaine's food culture has evolved over the years, it's no surprise that this dish has always kept its place among the classics.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Bulle_Sauce_Duck_Breast.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Bulle Fruit"
+      },
+      {
+        "count": 2,
+        "name": "Fowl"
+      }
+    ],
+    "effect": {
+      "Suspicious Bulle Sauce Duck Breast": "Restores 40 Stamina.",
+      "Bulle Sauce Duck Breast": "Restores 50 Stamina.",
+      "Delicious Bulle Sauce Duck Breast": "Restores 60 Stamina."
+    }
+  },
   "Rice Pudding": {
     "name": "Rice Pudding",
     "desc": "A dessert made from rice. The soft, sticky rice and the sweet milk have melded together perfectly, their tastes complementing each other. If you eat it hot, you can enjoy the dense rice grains, and if you leave it till it's cold, you can savor the gentle fragrance of milk — each possessing its own beauty. People who eat such a dish cannot help but wonder: how many experiments led up to this moment?",
@@ -9634,8 +9692,8 @@
   },
   "Fragment of a Golden Melody": {
     "name": "Fragment of a Golden Melody",
-    "desc": "A golden fragment that fell from the centaur golem's chest. Putting the tune inscribed upon the shattered rubble back together, it appears to be a small sliver of a grander musical movement.\nPeople once believed that the song of eternal happiness and harmony would resound throughout the world till the end of all destinies. But harmonies can be changed. When the rebellious God King fell from his throne, the imperishable capital was reduced to refuse and rubble — for who, then, shall the lyre in the hands of a legion-less commander play?",
-    "longDesc": "A golden fragment that fell from the centaur golem's chest. Putting the tune inscribed upon the shattered rubble back together, it appears to be a small sliver of a grander musical movement.\nOne legion, one symphony, one rhythm — when the conductor of Legion Athanatoi should lift up the song of flagrant revolt against fate, countless burning blades of titanic aspect would follow their marshal's melody and strike forth in concert against the foes of their God King.\nPeople once believed that the song of eternal happiness and harmony would resound throughout the world till the end of all destinies. But harmonies can be changed. When the rebellious God King fell from his throne, the imperishable capital was reduced to refuse and rubble — for who, then, shall the lyre in the hands of a legion-less commander play?",
+    "desc": "A golden fragment that fell from the centaur golem's chest. Putting the tune inscribed upon the shattered rubble back together, it appears to be a small sliver of a grander musical movement.\nPeople once believed that the song of eternal happiness and harmony would resound throughout the world till the end of all destinies. But harmonies can be changed. When the rebellious God King fell from his throne, the imperishable capital was reduced to refuse and rubble — for whom, then, shall the lyre in the hands of a legion-less commander play?",
+    "longDesc": "A golden fragment that fell from the centaur golem's chest. Putting the tune inscribed upon the shattered rubble back together, it appears to be a small sliver of a grander musical movement.\nOne legion, one symphony, one rhythm — when the conductor of Legion Athanatoi should lift up the song of flagrant revolt against fate, countless burning blades of titanic aspect would follow their marshal's melody and strike forth in concert against the foes of their God King.\nPeople once believed that the song of eternal happiness and harmony would resound throughout the world till the end of all destinies. But harmonies can be changed. When the rebellious God King fell from his throne, the imperishable capital was reduced to refuse and rubble — for whom, then, shall the lyre in the hands of a legion-less commander play?",
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
