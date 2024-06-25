@@ -3871,6 +3871,33 @@
         "reminder": "end"
     },
     {
+        "name": "Event Wish \"Romaritime Meluserenity\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/30071782",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/06/20/0/6eb598c1e597742de52aede98949d5ff_2494949888003000342.jpeg",
+        "start": "2024-06-25 18:00:00",
+        "end": "2024-07-16 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Chanson of Many Waters\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/30071782",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/06/20/0/dad653cd0d05d855ed74474c473ed3e2_2487057028963381089.jpeg",
+        "start": "2024-06-25 18:00:00",
+        "end": "2024-07-16 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/30071782",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/06/20/0/8498b7ea05e401f022cfa5489d07fc71_310087367442193773.jpeg",
+        "start": "2024-06-25 18:00:00",
+        "end": "2024-07-16 14:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "\"Mutual Security Enhancing Simulation\" Event",
         "type": "In-game",
         "link": "https://www.hoyolab.com/article/29523218",
@@ -3887,5 +3914,29 @@
         "start": "2024-06-18 10:00:00",
         "end": "2024-06-24 03:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "\"Endless Forms Most Martial\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/30192615",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/06/20/b7fd458d64011eca2172a1a6a84c12ba_4248092489807166260.png",
+        "start": "2024-06-25 10:00:00",
+        "end": "2024-07-01 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Spino Doubleblaster\" Event",
+        "type": "In-game",
+        "start": "2024-07-02 10:00:00",
+        "end": "2024-07-08 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Ley Line Overflow\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/12/08/d76cdab75f5f952a213e564f6b0a5a51_5922830346865640491.jpg",
+        "start": "2024-07-08 04:00:00",
+        "end": "2024-07-15 03:59:00",
+        "reminder": "daily"
     }
 ]
