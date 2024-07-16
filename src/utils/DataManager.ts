@@ -43,7 +43,7 @@ const defaultStore: Store = {}
 export default class DataManager {
     store: Store = defaultStore
 
-    readonly max_resin = 160
+    readonly max_resin = 200
     readonly minutes_per_resin = 8
     readonly baseURL = "https://hutaobot.moe/"
 
