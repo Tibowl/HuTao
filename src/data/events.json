@@ -3927,6 +3927,8 @@
     {
         "name": "\"Spino Doubleblaster\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/30443958",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/06/27/6e35b50aa9efc4e54b0779b910c5f4dd_8525783747403784704.png",
         "start": "2024-07-02 10:00:00",
         "end": "2024-07-08 03:59:00",
         "reminder": "end"
@@ -3934,9 +3936,79 @@
     {
         "name": "\"Ley Line Overflow\" Event",
         "type": "In-game",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2023/12/08/d76cdab75f5f952a213e564f6b0a5a51_5922830346865640491.jpg",
+        "link": "https://www.hoyolab.com/article/30689501",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/07/04/d76cdab75f5f952a213e564f6b0a5a51_3962188697956248255.jpg",
         "start": "2024-07-08 04:00:00",
         "end": "2024-07-15 03:59:00",
         "reminder": "daily"
+    },
+    {
+        "name": "\"Fragrant Fantasy\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/30815333",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/07/08/0/1bd512e5f578a0d37c7bd073a695d85f_4949978749698459728.jpeg",
+        "start": "2024-07-09 12:00:00",
+        "end": "2024-07-15 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "4.8 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/30552226",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/07/03/0/9e6cac290fa0a94359ba3276bb55394e_4037177311223546877.png",
+        "start": "2024-07-05 08:05:00",
+        "timezone": "-04:00"
+    },
+    {
+        "name": "4.8 Maintenance",
+        "type": "Maintenance",
+        "start": "2024-07-17 06:00:00",
+        "end": "2024-07-17 11:00:00"
+    },
+    {
+        "name": "Event Wish \"In the Name of the Rosula\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/31070419",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/07/12/0/1a1bf1359ce8ee5e967ffad413a3c89d_698020643238534062.jpeg",
+        "start": "2024-07-17 11:00:00",
+        "start_server": false,
+        "end": "2024-08-06 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Twirling Lotus\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/31070419",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/07/12/0/30c81139c817fc2032404e9770eb70c5_7739987410574205965.jpeg",
+        "start": "2024-07-17 11:00:00",
+        "start_server": false,
+        "end": "2024-08-06 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/31070419",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/07/12/0/88635a96c7754fe459e08d22b95a97ea_4584507704093888749.jpeg",
+        "start": "2024-07-17 11:00:00",
+        "start_server": false,
+        "end": "2024-08-06 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Summertide Scales and Tales\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/31070415",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/07/12/806c0439f5bba06fd297f182fc59e0c5_6686049692244280998.jpg",
+        "start": "2024-07-17 11:00:00",
+        "end": "2024-08-28 05:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Outside the Canvas, Inside the Lens: Dew-Kissed Chapter\" Event",
+        "type": "In-game",
+        "start": "2024-07-29 10:00:00",
+        "end": "2024-08-08 03:59:00",
+        "reminder": "end"
     }
 ]
