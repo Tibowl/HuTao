@@ -4007,8 +4007,18 @@
     {
         "name": "\"Outside the Canvas, Inside the Lens: Dew-Kissed Chapter\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/31507365",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/07/25/b067caa0f03e983af00d4f0fef3aefc2_9054586706439963895.jpg",
         "start": "2024-07-29 10:00:00",
         "end": "2024-08-08 03:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "5.0 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/31405929",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/07/23/0/a5ecf3b754b5e5a5dcc972e1b96c4f60_52165321811925880.jpeg",
+        "start": "2024-08-16 12:00:00",
+        "timezone": "-04:00"
     }
 ]
