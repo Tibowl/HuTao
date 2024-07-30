@@ -1484,7 +1484,7 @@
       },
       {
         "name": "Rechecking Tutorials",
-        "desc": "Certain tutorials for the event mechanics can be replayed in the event menu as well. Follow these steps to view them:\n* 1. Open the Event menu\n* 2. Open the **Fairytale Voyage** menu\n* 3. Press the **Gameplay Tutorial** button located at the bottom left",
+        "desc": "Certain tutorials for the event mechanics can be replayed in the event menu as well. Follow these steps to view them:\n1. Open the Event menu\n2. Open the **Fairytale Voyage** menu\n3. Press the **Gameplay Tutorial** button located at the bottom left",
         "img": "https://static.hutaobot.moe/images/Rechecking_Tutorials_ec0fe359.png"
       }
     ]
