@@ -1036,7 +1036,7 @@
       },
       {
         "name": "Simulacrums",
-        "desc": " Peculiar statues known as \"Simulacrums\" can be found around Chenyu Vale as well. Some even appear to be lost! Return them where they belong and they may reward you for your efforts.",
+        "desc": "Peculiar statues known as \"Simulacrums\" can be found around Chenyu Vale as well. Some even appear to be lost! Return them where they belong and they may reward you for your efforts.",
         "img": "https://static.hutaobot.moe/images/Simulacrums_50669a5e.png"
       },
       {
@@ -1351,6 +1351,141 @@
         "name": "Closing Thoughts",
         "desc": "The **Imaginarium Theater** is an interesting endgame mode that emphasizes having a diverse roster of invested characters. Its cyclical and semi-random nature means that it is advantageous to invest into characters that can easily synergize with others, instead of focusing only on characters with only a few extremely strong teams.\n\n\nSeasons being limited to only specific elements with a few special guests encourage players to find more unique styles of teams to try out when their normal options are not available as well.\n\n\nThese limits and generally weaker enemies than Floor 12 of the **Spiral Abyss** also makes it a great place to try out fun character combinations that would normally struggle in those challenges.\n\n\nThe cosmetic rewards and Theater interactions are a nice touch to add more flair and flavor to the open world outside the Performances as well!",
         "img": "https://static.hutaobot.moe/images/Closing_Thoughts_971bb76c.png"
+      }
+    ]
+  },
+  {
+    "name": "Simulanka Checklist and Puzzles",
+    "pages": [
+      {
+        "name": "Summertide Scales and Tales Exploration Checklist and Puzzle Overview",
+        "desc": "The limited time event, **Summertides Scales and Tales**, introduces a whole new map to explored called **Simulanka**.\n\nThis guide aims to give a quick overview over the types of unique puzzles, and quests that can be found in this magical world.",
+        "img": "https://static.hutaobot.moe/images/Simulanka_intro_20218bba.png"
+      },
+      {
+        "name": "Simulanka Checklist",
+        "desc": "If you are trying to make sure you have collected everything in **Simulanka**, make sure to collect all the chests in the limited time domain during the **Until the End of the World** quest, and check the number of **Excerpts of Bliss** that have been collected!\n* **Excerpts of Bliss** are obtained from collecting Origami Birds (Jubilant Feathers) and chests found in Simulanka.\n\n\nIf everything has been collected, you should have **242 Excerpts of Bliss**, **17 waypoints** and **143 Treasure Chests** collected.\n* You can check how many waypoints unlocked and chests you have collected on the [HoYoLAB Battle Chronicle](https://act.hoyolab.com/app/community-game-records-sea/index.html#/ys)!",
+        "img": "https://static.hutaobot.moe/images/Simulanka_Checklist_026d0045.png"
+      },
+      {
+        "name": "Jocund/Joyous Letters",
+        "desc": "Once you have collected 75/200 **Excerpts of Bliss**, you can claim these gadgets from the **Summer Gifts** tab in the event menu.\n\n\nThese gadgets can be equipped and then activated to highlight unclaimed **Excerpts of Bliss** in a nearby area - or even the entire **Simulanka** map once the **Joyous Letters** have been obtained!",
+        "img": "https://static.hutaobot.moe/images/Jocund_sound_20a6ad32.png"
+      },
+      {
+        "name": "Limited Time Event Quests",
+        "desc": "There are 3 (+1 Unique) notable event quest chains present in the version 4.8 Simulanka event.\n* Some chests will only appear during/after completing these quests, so make sure you have done them if it appears you are missing **Excerpts of Bliss** and no more are getting marked!\n\n**Forest of Blessings**\n* **The Lotus Leaf and the Champion**\n* **The Forest and the Princess**\n* **The Answer of the Lotus Leaves and Forest** - After completing the two above quests this quest should appear automatically in your quest log.\n\n**Constellation Metropole**\n* **Narration Footnotes**\n* **Text's Coda** - Set time 2 days forward in game after completing Narration Footnotes.\n\n**Broken Sea**\n* **Towards the Lighthouse, or Far Away**\n\n**Other**\n* **An Odd Textual Mystery** - Complete **Afterword (Summertide Scales and Tales)** of the main Event Quests to obtain this quest - this quest takes place in **Sumeru**.\n\nThese quests can be started at the locations shown below, or by following the steps listed next to them.",
+        "img": "https://static.hutaobot.moe/images/Simulanka_Quests_07226172.png"
+      },
+      {
+        "name": "Until the End of the World Domain Chests",
+        "desc": "During the **Until the End of the World** quest, you will enter a domain, which will contain missable chests. Make sure to pick them all up when clearing it, as you can not enter this domain once completed!",
+        "img": "https://static.hutaobot.moe/images/Until_the_End_of_the_World_Domain_Chests_b2df8077.png"
+      },
+      {
+        "name": "Figurine Fabrication and Starsail Coins",
+        "desc": "There are three **Fantastical Fabricators** located in **Simulanka**, each with their own unique set of Figurines that can be created and collected.\n\n\nEach fabricator has 30 uses, using 5 **Starsail Coins** to create one figurine. \n* To obtain **Starsail Coins**, complete the event challenges in the Mosaic of Moments tab!\n* There are enough **Starsail Coins** to pull 30 times on all 3 fabricators.",
+        "img": "https://static.hutaobot.moe/images/Simulanka_Figurine_Fabrication_and_Starsail_Coins_2c90ed41.png"
+      },
+      {
+        "name": "Aiding the Alpacas",
+        "desc": "You will find paper Alpacas in need of help around the **Forest of Blessings**!\n\nTo help them, you must connect to the string at their back, then rotate them to face the direction you wish to interact. Once facing the correct direction, adjust your distance from the Alpaca to adjust the height of their neck as necessary, then press the attack button for it to nod its head and interact.",
+        "img": "https://static.hutaobot.moe/images/Simulanka_Alpaca_Aid_ffa18e56.png"
+      },
+      {
+        "name": "Jumping Frogs",
+        "desc": "Help frogs find their way to the finish mark!\n\nIn the **Forest of Blessings** you will encounter paper Frogs with strings at their back who you must help jump across to the markers, usually by jumping across Lily Pads.\n\nTo help them, connect the string at their back, then adjust their jumping distance based on your distance from the frog and direction - the jump path is highlighted while holding the string.\n\nIf all Lily Pads are too far, obstructed, or otherwise inaccessible **look for friends in the area** who may be able to move or remove the obstacles to make a path to the end!",
+        "img": "https://static.hutaobot.moe/images/Simulanka_Jumping_Frogs_57ba6869.png"
+      },
+      {
+        "name": "Paper Frog Choir",
+        "desc": "In the **Forest of Blessings** and **Constellation Metropole** you will occasionally encounter groups of Paper Frog Choirs.\n\nHelp the **rightmost** frog jump in rhythm with the other frogs. Pay attention to the delay between their jumps and jump the frog you're helping after the same delay.\n\nOnce the dancers show up, they will jump in a specific pattern you want to replicate with the frogs - for an example two leftmost dancers turn around, then the two rightmost, then you should turn in sync with the delay between the turn of the rightmost dancers.",
+        "img": "https://static.hutaobot.moe/images/Simulanka_Paper_Frog_Choir_466290ab.png"
+      },
+      {
+        "name": "Magic Tonic Guidance",
+        "desc": "You will encounter **Magic Tonic** challenges during the main event quest as well as rarely in other areas of **Simulanka**.\n\n\nGuide the **Magic Tonic** to the faucet by rotating the pipes to connect the entire network.\n\n\nNote that pieces are not locked in place after you release the tonic, so pieces can be moved to shape new paths after it has passed a spot if it looks like there is no solution!",
+        "img": "https://static.hutaobot.moe/images/Simulanka_Magic_Tonic_Guidance_305e1d26.png"
+      },
+      {
+        "name": "Flying Squirrels",
+        "desc": "Many Flying Squirrels in the **Forest of Blessings** need your assistance to complete their trials!\n\n\nGuide them through all the **Garlands** to complete their challenges. You will be able to see the trajectory of the squirrel (the yellow line) and any **Garlands** or other interactable objects it will collide with will be highlighted with a translucent overlay.\n\n\nThe Flying Squirrels will return straight to you after being released and reaching the end of their trajectory unless they hit a **Flower Ball**, in which case you must press the attack button again to pull them to you - line yourself up with any **Garlands** that appear at this point and make sure it passes through them all on the way back!\n\n\nIf a **Garland** appears too far away for it to pass through in the same flight, look for **Curled Flowers** around that you can hit with the Squirrel to spawn a wind current to help push them in line!",
+        "img": "https://static.hutaobot.moe/images/Simulanka_Flying_Squirrels_54c8a421.png"
+      },
+      {
+        "name": "Cimest and the Cave of Eerie Murmurs",
+        "desc": "The Flying Squirrel Princess **Cimest** is also able to ride with the wind currents!\n\nIn certain puzzles during the quests where you explore the **Forest of Blessings** with her you can use this to your advantage to complete her special trials!\n\nBelow you can find solutions for the puzzles in the **Cave of Eerie Murmurs** accessed during **The Answer of the Lotus Leaves and Forest** quest!",
+        "img": "https://static.hutaobot.moe/images/Simulanka_Cimest_and_the_Cave_of_Eerie_Murmurs_f4b04b08.png"
+      },
+      {
+        "name": "Rewind Puzzles",
+        "desc": "In the **Constellation Metropole** you will come across a multitude of puzzles where you must change the course of history by rewinding time and changing the nearby area.\n\n\nAttack the clockwork devices to turn back time until it looks like you will be able to adjust the area.\n\n\nObjects like **Glue Cannons** and **Oracle Pillars** can be used to create hazards and paths for the Toy figures to take.\n* Note that certain objects like **Glue Cannons** may only be activated if someone is standing on their trigger plate! - You can rewind time until someone stands on them, then attack them to launch up to 3 glue drops.",
+        "img": "https://static.hutaobot.moe/images/Simulanka_Rewind_Puzzles_d10a5913.png"
+      },
+      {
+        "name": "Match Sequential Buttons",
+        "desc": "In the **Constellation Metropole** you may encounter colored buttons on the ground near a set of symbols on the wall - help the Toy figure step on the buttons in the correct order using the **Clockwork devices** to adjust their movement.\n\n\nAn example is given below, often you will have to **rewind the clockwork while the toy is moving** to make it step back!",
+        "img": "https://static.hutaobot.moe/images/Sequential_Buttons_7c93ffd9.png"
+      },
+      {
+        "name": "Mysterious Signposts - Matching the Pattern",
+        "desc": "There are 4 Signposts in the **Constellation Metropole** that give clues to puzzles, they are usually quite straightforward, but the one near the north-east end of the city can occasionally be hard to spot all the symbols.\n\n\nThis image below shows what images need to be filled in to complete this pattern puzzle!",
+        "img": "https://static.hutaobot.moe/images/Simulanka_Match_the_Pattern_ab451078.png"
+      },
+      {
+        "name": "Oracle Pillars",
+        "desc": "Occasionally, you will find **Oracle Pillars** scattered around the **Constellation Metropole**.\n\n\nYou can form patterns to solve various puzzles by interacting with the pillar with the string ring above it, pulling it to nearby pillars while near them.\n\n\nConnections can be severed by **attacking the connected pillars** to reset the puzzles.\n\n\nBelow are solutions for the **Narration Footnotes** version of these puzzles - form the shapes shown to match the emblems of the 3 clans.",
+        "img": "https://static.hutaobot.moe/images/Oracle_Pillars_980d2f57.png"
+      },
+      {
+        "name": "Ziplines",
+        "desc": "You can find **Ziplines** scattered around the **Constellation Metropole** and **Broken Sea**, connecting them like Oracle Pillars allows you to traverse between the points using magic!",
+        "img": "https://static.hutaobot.moe/images/Ziplines_0ac20e00.png"
+      },
+      {
+        "name": "Hide and Seek",
+        "desc": "You can find a couple groups of Toy Figures wanting to play **Hide and Seek** in the **Constellation Metropole**.\n\n\nFind all 3 Toy Figures without leaving the play area to win the challenge! These figures can be hidden behind corners and inside bushes so make sure to search every nook and cranny without going too far away!",
+        "img": "https://static.hutaobot.moe/images/Simulanka_Hide_and_Seek_549fdf85.png"
+      },
+      {
+        "name": "Toy Bombs",
+        "desc": "In the **Broken Sea**, you may encounter obstacles like walls and boulders with glowing yellow spots on them.\n\n\nThese spots are often removable and part of puzzles - when you encounter these, look around for Orange/Red **Toy Bombs** you can pick up and place on these spots to blow them up!",
+        "img": "https://static.hutaobot.moe/images/Simulanka_Toy_Bombs_0fa5c37d.png"
+      },
+      {
+        "name": "Incomplete Toy Structures",
+        "desc": "In the **Broken Sea** you will often come across incomplete structures made of toy blocks - help complete these structures and you may be given a reward!\n\n\nTo complete these structures, you must use the nearby toy blocks to form a complete cohesive structure.\n* There are often hints nearby to how these should be completed - pay attention to what the nearby Toy Figures may be saying!\n* Not all nearby blocks always need to be used.",
+        "img": "https://static.hutaobot.moe/images/Incomplete_Toy_Structures_fa45e72a.png"
+      },
+      {
+        "name": "Toy Flowers",
+        "desc": "You can find **Toy Flowers** in the **Broken Sea** - These devices can create **Wind Currents** when attacked to help you reach otherwise inaccessible areas and can occasionally be moved around like **Toy Blocks**.",
+        "img": "https://static.hutaobot.moe/images/Toy_Flowers_c3690529.png"
+      },
+      {
+        "name": "Toy Torches and Changing Toy Block Colors",
+        "desc": "When you encounter empty matchsticks in the **Broken Sea** you can look for **red** toy blocks you can place on top of them and light using **Pyro** elemental attacks.\n\nThese can substitute real torches, warm up nearby toys and even change the color of the toy blocks for some puzzles!",
+        "img": "https://static.hutaobot.moe/images/Toy_Torches_and_Changing_Toy_Block_Colors_0ae38c70.png"
+      },
+      {
+        "name": "Removable Blocks",
+        "desc": "Certain blocks in the walls in the **Broken Sea** can be pulled out to reveal hidden areas! What treasures hide behind these parts?",
+        "img": "https://static.hutaobot.moe/images/Removable_Blocks_6c6ecf54.png"
+      },
+      {
+        "name": "Broken Sea Windy Cave",
+        "desc": "A common question is how to enter this Cave with a strong with current pushing you out in the **Broken Sea**.\n\n\nTo access this cave, you must accept and progress the **Towards the Lighthouse, or Far Away** quest until you have encountered the cutscene with **Panuelle** found on top of the island with the cave.\n* After finishing **Panuelle**'s section of the quest, talk to them again, then return to the cave and **walk into** the wind current and tell the flower that **Panuelle** sent you.\n* Maybe reuniting old friends will grant a reward?",
+        "img": "https://static.hutaobot.moe/images/Broken_Sea_Windy_Cave_4fcee5b7.png"
+      },
+      {
+        "name": "Helping Others!",
+        "desc": "You will find certain Toys around the entire **Simulanka** map who may want assistance. Helping these people out may have them reward you with collectibles that offer **Mora** that will not be marked by the Letters that mark **Excerpts of Bliss**.\n* Listen to what these figures/toys are saying to find out if they want help or not.\n* This can be anything from helping Origami creatures stuck inside crevices, to pushing Toy figures down slides!",
+        "img": "https://static.hutaobot.moe/images/Helping_Others_6080ac06.png"
+      },
+      {
+        "name": "Rechecking Tutorials",
+        "desc": "Certain tutorials for the event mechanics can be replayed in the event menu as well. Follow these steps to view them:\n* 1. Open the Event menu\n* 2. Open the **Fairytale Voyage** menu\n* 3. Press the **Gameplay Tutorial** button located at the bottom left",
+        "img": "https://static.hutaobot.moe/images/Rechecking_Tutorials_ec0fe359.png"
       }
     ]
   }
