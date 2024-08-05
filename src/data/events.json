@@ -3996,6 +3996,33 @@
         "reminder": "end"
     },
     {
+        "name": "Event Wish \"Ambrosial Essence\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/31676908",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/07/31/0/eba37cf51342934b798cfd932c1be613_388107139389473550.jpeg",
+        "start": "2024-08-06 18:00:00",
+        "end": "2024-08-27 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Discerner of Enigmas\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/31676908",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/07/31/0/8cf92a3f871bb2858e6f31dfdb13d29b_3437054714311869393.jpeg",
+        "start": "2024-08-06 18:00:00",
+        "end": "2024-08-27 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/31676908",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/07/31/0/5988ffeeb1c34502f51d200f564cea22_2902469049231203077.jpeg",
+        "start": "2024-08-06 18:00:00",
+        "end": "2024-08-27 14:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "\"Summertide Scales and Tales\" Event",
         "type": "In-game",
         "link": "https://www.hoyolab.com/article/31070415",
@@ -4011,6 +4038,39 @@
         "img": "https://upload-os-bbs.hoyolab.com/upload/2024/07/25/b067caa0f03e983af00d4f0fef3aefc2_9054586706439963895.jpg",
         "start": "2024-07-29 10:00:00",
         "end": "2024-08-08 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Bing-Bang Finchball\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/31777295",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/08/01/762d470a0db582ded7f18c14e30057bc_7615980774104992191.jpg",
+        "start": "2024-08-06 10:00:00",
+        "end": "2024-08-19 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Energy Amplifier: Lemma\" Event",
+        "type": "In-game",
+        "start": "2024-08-12 10:00:00",
+        "end": "2024-08-26 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Overflowing Mastery\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/01/29/d57d50a9b8fd0e6fc427f0f0b9e0f426_5987716192671425172.jpg",
+        "start": "2024-08-19 04:00:00",
+        "end": "2024-08-26 03:59:00",
+        "reminder": "daily"
+    },
+    {
+        "name": "\"An Introduction to Perfumery\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/31671442",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/07/31/0/798883ac14acba982550619707a320bb_3642319053645626904.png",
+        "start": "2024-08-01 12:00:00",
+        "end": "2024-08-07 23:59:00",
         "reminder": "end"
     },
     {
