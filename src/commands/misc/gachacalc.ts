@@ -17,7 +17,7 @@ function pityRate(baseRate: number, pityStart: number): (pity: number) => number
 const gachas: Record<string, Banner> = {
     char: {
         bannerName: "5* Banner character",
-        banner: 0.5,
+        banner: 0.55,
         guaranteed: 1,
         minConst: -1,
         maxConst: 6,
@@ -41,7 +41,7 @@ const gachas: Record<string, Banner> = {
         bannerName: "Specific 5* banner weapon",
         banner: 0.75,
         guaranteed: 1/2,
-        guaranteedPity: 3,
+        guaranteedPity: 2,
         minConst: 0,
         maxConst: 5,
         constFormat: "R",
@@ -79,7 +79,7 @@ export default class GachaCalc extends Command {
         super({
             name,
             category: "Misc",
-            help: `Calculate chance to get banner character/weapon in a certain amount of pulls.
+            help: `Calculate chance to get banner character/weapon in a certain amount of pulls. (Updated for 5.0+)
 Also available online at <${client.data.baseURL}tools/gachacalc>
 
 Available banners: ${Object.keys(gachas).map(x => `\`${x}\``).join(", ")}
