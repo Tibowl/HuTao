@@ -4149,6 +4149,8 @@
     {
         "name": "\"Brilliant Dawn\" Daily Login Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/32554889",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/08/27/427eb930f369cef97ea963801e94e0c7_6881231531381733541.jpg",
         "start": "2024-08-30 04:00:00",
         "end": "2024-09-18 03:59:00",
         "reminder": "end"
@@ -4165,6 +4167,15 @@
         "type": "In-game",
         "start": "2024-09-09 10:00:00",
         "end": "2024-09-23 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Roaming Through the Realm of Saurians\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/32554885",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/08/20/6b2fb21c1f9fe7e4914056845fe7f70a_6036575912515582561.jpg",
+        "start": "2024-08-28 12:00:00",
+        "end": "2024-10-06 23:59:00",
         "reminder": "end"
     }
 ]
