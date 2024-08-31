@@ -12653,6 +12653,564 @@
       }
     }
   },
+  "Emilie": {
+    "name": "Emilie",
+    "desc": "A Fontainian perfumer, one who bottles secrets.",
+    "releasedOn": "2024-08-06 18:00:00",
+    "star": 5,
+    "weaponType": "Polearm",
+    "icon": "img/char/Emilie.png",
+    "media": {
+      "imgs": [
+        "img/char_full/Emilie.png"
+      ]
+    },
+    "baseStats": {
+      "hpBase": 1056.2786,
+      "attackBase": 26.068,
+      "defenseBase": 56.8385,
+      "criticalBase": 0.05,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 9,
+      "birthDay": 22,
+      "association": "Fontaine",
+      "title": "A Thousand Scents Traced",
+      "detail": "A Fontainian perfumer, one who bottles secrets.",
+      "affiliation": "Court of Fontaine",
+      "element": "Dendro",
+      "constellation": "Pomum de Ambra",
+      "cvChinese": "木子橙",
+      "cvJapanese": "日笠陽子",
+      "cvEnglish": "Amber Aviles",
+      "cvKorean": "Kwon Da-ye"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Shadow-Hunting Spear (Custom)",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to perform an upward slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "img/skill/Common_Polearm.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "48.6%",
+                  "52.5%",
+                  "56.5%",
+                  "62.1%",
+                  "66.1%",
+                  "70.6%",
+                  "76.8%",
+                  "83.0%",
+                  "89.2%",
+                  "96.0%",
+                  "102.8%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "44.9%",
+                  "48.5%",
+                  "52.2%",
+                  "57.4%",
+                  "61.1%",
+                  "65.3%",
+                  "71.0%",
+                  "76.7%",
+                  "82.5%",
+                  "88.7%",
+                  "95.0%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "59.3%",
+                  "64.1%",
+                  "69.0%",
+                  "75.8%",
+                  "80.7%",
+                  "86.2%",
+                  "93.8%",
+                  "101.4%",
+                  "108.9%",
+                  "117.2%",
+                  "125.5%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "75.1%",
+                  "81.2%",
+                  "87.3%",
+                  "96.1%",
+                  "102.2%",
+                  "109.2%",
+                  "118.8%",
+                  "128.4%",
+                  "138.0%",
+                  "148.5%",
+                  "158.9%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "91.3%",
+                  "98.8%",
+                  "106.2%",
+                  "116.8%",
+                  "124.3%",
+                  "132.8%",
+                  "144.4%",
+                  "156.1%",
+                  "167.8%",
+                  "180.5%",
+                  "193.3%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "25.0"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "63.9%",
+                  "69.1%",
+                  "74.3%",
+                  "81.8%",
+                  "87.0%",
+                  "92.9%",
+                  "101.1%",
+                  "109.3%",
+                  "117.5%",
+                  "126.4%",
+                  "135.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "128%/160%",
+                  "138%/173%",
+                  "149%/186%",
+                  "164%/204%",
+                  "174%/217%",
+                  "186%/232%",
+                  "202%/253%",
+                  "219%/273%",
+                  "235%/293%",
+                  "253%/316%",
+                  "271%/338%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Order",
+                "BossMat": "Silken Feather",
+                "EnemyDropTier1": "Meshing Gear",
+                "EnemyDropTier2": "Mechanical Spur Gear",
+                "EnemyDropTier3": "Artificed Dynamic Gear"
+              }
+            }
+          },
+          {
+            "name": "Fragrance Extraction",
+            "desc": "Creates a Lumidouce Case that deals **AoE Dendro DMG**.\n\n**Lumidouce Case**\n·Fires Puffs of Puredew at nearby opponents at intervals, dealing **Dendro DMG**.\n·When nearby opponents are affected by Burning, they will give off Scents at intervals, and 1 Scent can be created this way every 2s. The Lumidouce Case collects nearby Scents. The Lumidouce Case will level up after gathering 2 of them, after which it will fire 1 extra Puff of Puredew when firing, while the DMG dealt by and DMG AoE of the above attack will also be increased.\n·1 Lumidouce Case created by Emilie herself can exist at any one time. The Case starts at Level 1 and can go up to Level 2. If the Case does not collect any Scents for 8s while it is on the field, it will go back to Level 1.\n\n**Arkhe: Pneuma**\nAt intervals, after Emilie creates a Lumidouce Case this way, a Spiritbreath Thorn will descend in front of her and pierce her opponent, dealing Pneuma-aligned **Dendro DMG**.\n\n**\"The world is an endless harmony of fragrance, color, and song.\"**",
+            "icon": "img/skill/Emilie_1.png",
+            "talentTable": [
+              {
+                "name": "Skill DMG",
+                "values": [
+                  "47.1%",
+                  "50.6%",
+                  "54.1%",
+                  "58.9%",
+                  "62.4%",
+                  "65.9%",
+                  "70.6%",
+                  "75.3%",
+                  "80.0%",
+                  "84.7%",
+                  "89.5%",
+                  "94.2%",
+                  "100.0%"
+                ]
+              },
+              {
+                "name": "Level 1 Lumidouce Case Attack DMG",
+                "values": [
+                  "39.6%",
+                  "42.6%",
+                  "45.5%",
+                  "49.5%",
+                  "52.5%",
+                  "55.4%",
+                  "59.4%",
+                  "63.4%",
+                  "67.3%",
+                  "71.3%",
+                  "75.2%",
+                  "79.2%",
+                  "84.2%"
+                ]
+              },
+              {
+                "name": "Level 2 Lumidouce Case Attack DMG",
+                "values": [
+                  "84.0%×2",
+                  "90.3%×2",
+                  "96.6%×2",
+                  "105.0%×2",
+                  "111.3%×2",
+                  "117.6%×2",
+                  "126.0%×2",
+                  "134.4%×2",
+                  "142.8%×2",
+                  "151.2%×2",
+                  "159.6%×2",
+                  "168.0%×2",
+                  "178.5%×2"
+                ]
+              },
+              {
+                "name": "Lumidouce Case Duration",
+                "value": "22.0s"
+              },
+              {
+                "name": "Spiritbreath Thorn DMG",
+                "values": [
+                  "38.5%",
+                  "41.4%",
+                  "44.3%",
+                  "48.1%",
+                  "51.0%",
+                  "53.9%",
+                  "57.8%",
+                  "61.6%",
+                  "65.5%",
+                  "69.3%",
+                  "73.2%",
+                  "77.0%",
+                  "81.9%"
+                ]
+              },
+              {
+                "name": "Spiritbreath Thorn Interval",
+                "value": "10.0s"
+              },
+              {
+                "name": "Skill CD",
+                "value": "14.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Order",
+                "BossMat": "Silken Feather",
+                "EnemyDropTier1": "Meshing Gear",
+                "EnemyDropTier2": "Mechanical Spur Gear",
+                "EnemyDropTier3": "Artificed Dynamic Gear"
+              }
+            }
+          }
+        ],
+        "ult": {
+          "name": "Aromatic Explication",
+          "desc": "Guiding the fragrances collected within the Case, Emilie converts them into pure Dendro energy, creating a Level 3 Lumidouce Case and stowing existing Cases away.\nWhile it exists, the Level 3 Lumidouce Case will not gather nearby Scents, but it will continuously cause Scented Dew to descend, attacking opponents within range and dealing **Dendro DMG**. During this time, 1 drop of Scented Dew will descend every 0.3 seconds, and 1 opponent can become the target every 0.7 seconds.\nWhen the duration ends, a Level 1 Lumidouce Case will be recreated. If a Lumidouce Case was stowed away when using Aromatic Explication, then the Case that was stowed away will be deployed instead, and its duration will be reset.\nWhile **Aromatic Explication** is active, the Elemental Skill \"Fragrance Extraction\" will not create a Lumidouce Case.\n\n**No matter the perfume, it will begin to change the instant it comes into contact with the air, before finally dissipating amidst the whispers of wind, trees, and grass. In that sense, no two people will appreciate the exact same fragrance.\nSo it is for the paths taken by all who live. In that sense, you can consider perfumes an explication of human life.**",
+          "icon": "img/skill/Emilie_2.png",
+          "talentTable": [
+            {
+              "name": "Level 3 Lumidouce Case Attack DMG",
+              "values": [
+                "217.2%",
+                "233.5%",
+                "249.8%",
+                "271.5%",
+                "287.8%",
+                "304.1%",
+                "325.8%",
+                "347.5%",
+                "369.2%",
+                "391.0%",
+                "412.7%",
+                "434.4%",
+                "461.6%"
+              ]
+            },
+            {
+              "name": "Level 3 Lumidouce Case Duration",
+              "value": "2.8s"
+            },
+            {
+              "name": "CD",
+              "value": "13.5s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "50"
+            }
+          ],
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Order",
+              "BossMat": "Silken Feather",
+              "EnemyDropTier1": "Meshing Gear",
+              "EnemyDropTier2": "Mechanical Spur Gear",
+              "EnemyDropTier3": "Artificed Dynamic Gear"
+            }
+          },
+          "type": "Dendro"
+        },
+        "passive": [
+          {
+            "name": "Lingering Fragrance",
+            "desc": "Each time it collects 2 **Scents**, the Level 2 Lumidouce Case will consume Scents and release Cleardew Cologne that deals **AoE Dendro DMG** equal to 600% of Emilie's ATK to opponents. This DMG is not considered Elemental Skill DMG.",
+            "icon": "img/skill/Emilie_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "Rectification",
+            "desc": "Emilie deals increased DMG to Burning opponents based on her ATK, with every 1,000 ATK increasing DMG dealt by 15%. The maximum DMG bonus that can be gained this way is 36%.",
+            "icon": "img/skill/Emilie_4.png",
+            "minAscension": 4
+          },
+          {
+            "name": "Headspace Capture",
+            "desc": "When the Lumidouce Case created by Emilie is on the field, all party members gain 85% **Pyro RES** against Burning DMG.",
+            "icon": "img/skill/Emilie_5.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Light Fragrance Leaching",
+            "desc": "Increases the DMG dealt by **Fragrance Extraction** and her Passive Talent's Cleardew Cologne \"Lingering Fragrance\" by 20%. The latter requires unlocking said Passive Talent first.\nAdditionally, when nearby party members trigger the Burning reaction on opponents or deal **Dendro DMG** to Burning opponents, they will generate an additional **Scent**. This effect can be triggered once every 2.9s.",
+            "icon": "img/const/Emilie_1.png"
+          },
+          {
+            "name": "Lakelight Top Note",
+            "desc": "When **Fragrance Extraction**, **Aromatic Explication**, or Cleardew Cologne produced by the Passive Talent \"Lingering Fragrance\" (the last of which requires Passive Talent activation) hits opponents, those opponents' **Dendro RES** is decreased by 30% for 10s.",
+            "icon": "img/const/Emilie_2.png"
+          },
+          {
+            "name": "Exquisite Essence",
+            "desc": "Increases the Level of **Fragrance Extraction** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Emilie_3.png"
+          },
+          {
+            "name": "Lumidouce Heart Note",
+            "desc": "**Aromatic Explication**'s duration is increased by 2s. The interval between opponents being selected as the target for Scented Dew is decreased by 0.3s.",
+            "icon": "img/const/Emilie_4.png"
+          },
+          {
+            "name": "Puredew Aroma",
+            "desc": "Increases the Level of **Aromatic Explication** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Emilie_5.png"
+          },
+          {
+            "name": "Marcotte Sillage",
+            "desc": "When using **Fragrance Extraction** or **Aromatic Explication**, Emilie will gain Abiding Fragrance for 5s.\nWhile this is active, after Emilie uses Normal or Charged Attacks, she will generate 1 Scent, and her Normal and Charged Attack DMG will be converted into **Dendro DMG** that cannot be overridden, and the DMG dealt will be increased by 300% of Emilie's ATK.\n\nThe Abiding Fragrance effect will be removed after 4 Scents are created this way or after its duration expires. Abiding Fragrance can be triggered once every 12s.",
+            "icon": "img/const/Emilie_6.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 905.6633
+          },
+          {
+            "stat": "Base DEF",
+            "value": 48.735
+          },
+          {
+            "stat": "Base ATK",
+            "value": 22.34932
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1549.161
+          },
+          {
+            "stat": "Base DEF",
+            "value": 83.3625
+          },
+          {
+            "stat": "Base ATK",
+            "value": 38.2291
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.096
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2407.158
+          },
+          {
+            "stat": "Base DEF",
+            "value": 129.5325
+          },
+          {
+            "stat": "Base ATK",
+            "value": 59.40214
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.192
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3050.6555
+          },
+          {
+            "stat": "Base DEF",
+            "value": 164.16
+          },
+          {
+            "stat": "Base ATK",
+            "value": 75.28192
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.192
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3694.153
+          },
+          {
+            "stat": "Base DEF",
+            "value": 198.7875
+          },
+          {
+            "stat": "Base ATK",
+            "value": 91.1617
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.288
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 4337.651
+          },
+          {
+            "stat": "Base DEF",
+            "value": 233.415
+          },
+          {
+            "stat": "Base ATK",
+            "value": 107.04148
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.384
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Fragment of a Golden Melody",
+        "EnemyDropTier1": "Meshing Gear",
+        "EnemyDropTier2": "Mechanical Spur Gear",
+        "EnemyDropTier3": "Artificed Dynamic Gear",
+        "Gem1": "Nagadus Emerald Sliver",
+        "Gem2": "Nagadus Emerald Fragment",
+        "Gem3": "Nagadus Emerald Chunk",
+        "Gem4": "Nagadus Emerald Gemstone",
+        "Specialty": "Lakelight Lily"
+      }
+    }
+  },
   "Eula": {
     "name": "Eula",
     "desc": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
@@ -18589,6 +19147,530 @@
         "Gem3": "Vayuda Turquoise Chunk",
         "Gem4": "Vayuda Turquoise Gemstone",
         "Specialty": "Dandelion Seed"
+      }
+    }
+  },
+  "Kachina": {
+    "name": "Kachina",
+    "desc": "A young warrior of the Nanatzcayan, given the Ancient Name of \"Uthabiti.\" Kind-hearted and insatiably persistent, she grows stronger and more capable with each setback she faces.",
+    "releasedOn": "2024-08-27 00:00:00",
+    "star": 4,
+    "weaponType": "Polearm",
+    "icon": "img/char/Kachina.png",
+    "media": {
+      "imgs": [
+        "img/char_full/Kachina.png"
+      ]
+    },
+    "baseStats": {
+      "hpBase": 989.2932,
+      "attackBase": 18.16416,
+      "defenseBase": 66.438225,
+      "criticalBase": 0.05,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 4*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 4*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 4*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 4,
+      "birthDay": 22,
+      "association": "Natlan",
+      "title": "Mottled Gold Yet Unsmelted",
+      "detail": "A young warrior of the Nanatzcayan, given the Ancient Name of \"Uthabiti.\" Kind-hearted and insatiably persistent, she grows stronger and more capable with each setback she faces.",
+      "affiliation": "Nanatzcayan",
+      "element": "Geo",
+      "constellation": "Ochotona Princeps",
+      "cvChinese": "静宸",
+      "cvJapanese": "久保ユリカ",
+      "cvEnglish": "Kristen McGuire",
+      "cvKorean": "Son Sun-young"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Cragbiter",
+            "desc": "**Normal Attack**\nPerforms up to 4 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "img/skill/Common_Polearm.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "49.4%",
+                  "53.4%",
+                  "57.4%",
+                  "63.2%",
+                  "67.2%",
+                  "71.8%",
+                  "78.1%",
+                  "84.4%",
+                  "90.8%",
+                  "97.6%",
+                  "104.5%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "27.6%+30.6%",
+                  "29.8%+33.1%",
+                  "32.1%+35.6%",
+                  "35.3%+39.2%",
+                  "37.5%+41.7%",
+                  "40.1%+44.5%",
+                  "43.6%+48.4%",
+                  "47.1%+52.4%",
+                  "50.7%+56.3%",
+                  "54.5%+60.6%",
+                  "58.3%+64.8%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "70.4%",
+                  "76.2%",
+                  "81.9%",
+                  "90.1%",
+                  "95.8%",
+                  "102.4%",
+                  "111.4%",
+                  "120.4%",
+                  "129.4%",
+                  "139.2%",
+                  "149.0%"
+                ]
+              },
+              {
+                "name": "4-Hit DMG",
+                "values": [
+                  "77.4%",
+                  "83.7%",
+                  "90.0%",
+                  "99.0%",
+                  "105.3%",
+                  "112.6%",
+                  "122.5%",
+                  "132.4%",
+                  "142.3%",
+                  "153.1%",
+                  "163.9%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "112.7%",
+                  "121.8%",
+                  "131.0%",
+                  "144.1%",
+                  "153.3%",
+                  "163.8%",
+                  "178.2%",
+                  "192.6%",
+                  "207.0%",
+                  "222.7%",
+                  "238.4%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "25.0"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "63.9%",
+                  "69.1%",
+                  "74.3%",
+                  "81.8%",
+                  "87.0%",
+                  "92.9%",
+                  "101.1%",
+                  "109.3%",
+                  "117.5%",
+                  "126.4%",
+                  "135.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "128%/160%",
+                  "138%/173%",
+                  "149%/186%",
+                  "164%/204%",
+                  "174%/217%",
+                  "186%/232%",
+                  "202%/253%",
+                  "219%/273%",
+                  "235%/293%",
+                  "253%/316%",
+                  "271%/338%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Conflict",
+                "BossMat": "Fading Candle",
+                "EnemyDropTier1": "Sentry's Wooden Whistle",
+                "EnemyDropTier2": "Warrior's Metal Whistle",
+                "EnemyDropTier3": "Saurian-Crowned Warrior's Golden Whistle"
+              }
+            }
+          },
+          {
+            "name": "Go, Go Turbo Twirly!",
+            "desc": "Fight alongside the turbo trusty Turbo Twirly!\nSummons Turbo Twirly. When the skill is Held and released, Kachina will summon and ride Turbo Twirly.\nAfter the Skill is used, Kachina will gain 60 Nightsoul points and enter the Nightsoul's Blessing state.\n\n**Nightsoul's Blessing: Kachina**\nTurbo Twirly's various actions consume Kachina's Nightsoul points.\nThe Nightsoul's Blessing state will end when these points have been depleted.\n\n**Turbo Twirly**\nCan exist independently or be ridden and operated by Kachina. When Turbo Twirly is present, Kachina's Elemental Skill, \"Go, Go Turbo Twirly!\", will change to an option to Mount/Dismount Turbo Twirly.\n·When present independent of Kachina, it will slam the ground at intervals, dealing Nightsoul-aligned **AoE Geo DMG** based on Kachina's DEF.\n·When Kachina is riding Turbo Twirly, she can control it to move and climb swiftly, and use Normal Attacks to slam the ground, dealing Nightsoul-aligned **AoE Geo DMG** based on Kachina's DEF.\n\nTurbo Twirly will disappear once Kachina's Nightsoul's Blessing state ends, and it is considered a Geo Construct. Only 1 Turbo Twirly created by Kachina herself can exist on the field at any one time.\n\n**Turbo Twirly only looks like a top — it is, in fact, a drill that can split even the strongest rock asunder!**",
+            "icon": "img/skill/Kachina_1.png",
+            "talentTable": [
+              {
+                "name": "Turbo Twirly Mounted DMG",
+                "values": [
+                  "87.8% DEF",
+                  "94.3% DEF",
+                  "100.9% DEF",
+                  "109.7% DEF",
+                  "116.3% DEF",
+                  "122.9% DEF",
+                  "131.6% DEF",
+                  "140.4% DEF",
+                  "149.2% DEF",
+                  "158.0% DEF",
+                  "166.7% DEF",
+                  "175.5% DEF",
+                  "186.5% DEF"
+                ]
+              },
+              {
+                "name": "Turbo Twirly Independent DMG",
+                "values": [
+                  "63.8% DEF",
+                  "68.5% DEF",
+                  "73.3% DEF",
+                  "79.7% DEF",
+                  "84.5% DEF",
+                  "89.3% DEF",
+                  "95.6% DEF",
+                  "102.0% DEF",
+                  "108.4% DEF",
+                  "114.8% DEF",
+                  "121.1% DEF",
+                  "127.5% DEF",
+                  "135.5% DEF"
+                ]
+              },
+              {
+                "name": "Nightsoul Point Limit",
+                "value": "60.0"
+              },
+              {
+                "name": "CD",
+                "value": "20.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Conflict",
+                "BossMat": "Fading Candle",
+                "EnemyDropTier1": "Sentry's Wooden Whistle",
+                "EnemyDropTier2": "Warrior's Metal Whistle",
+                "EnemyDropTier3": "Saurian-Crowned Warrior's Golden Whistle"
+              }
+            }
+          }
+        ],
+        "ult": {
+          "name": "Time to Get Serious!",
+          "desc": "Striking the ground, Kachina deals **AoE Geo DMG** based on her DEF and creates a Turbo Drill Field.\nThe Field increases Turbo Twirly's attack AoE and its Movement SPD when Kachina is riding it.\n\nIf Kachina's own Turbo Twirly is present when this is used, the Turbo Twirly will be summoned to her side.\n\n**Just as nervous performers might imagine audience members as wooden puppets, Kachina imagines that her opponents are the loveliest of gem-bearing ores — the kind you'd be proud to bring home and hoard.**",
+          "icon": "img/skill/Kachina_2.png",
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "380.6% DEF",
+                "413.7% DEF",
+                "442.5% DEF",
+                "481.0% DEF",
+                "509.9% DEF",
+                "538.7% DEF",
+                "577.2% DEF",
+                "615.7% DEF",
+                "654.2% DEF",
+                "692.6% DEF",
+                "731.1% DEF",
+                "769.6% DEF",
+                "817.7% DEF"
+              ]
+            },
+            {
+              "name": "Field Duration",
+              "value": "12.0s"
+            },
+            {
+              "name": "CD",
+              "value": "18.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "70"
+            }
+          ],
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Conflict",
+              "BossMat": "Fading Candle",
+              "EnemyDropTier1": "Sentry's Wooden Whistle",
+              "EnemyDropTier2": "Warrior's Metal Whistle",
+              "EnemyDropTier3": "Saurian-Crowned Warrior's Golden Whistle"
+            }
+          },
+          "type": "Geo"
+        },
+        "passive": [
+          {
+            "name": "Mountain Echoes",
+            "desc": "After nearby party members trigger a Nightsoul Burst, Kachina's **Geo DMG Bonus** increases by 20% for 12s.",
+            "icon": "img/skill/Kachina_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "The Weight of Stone",
+            "desc": "**Turbo Twirly**'s DMG is increased by 20% of Kachina's DEF.",
+            "icon": "img/skill/Kachina_4.png",
+            "minAscension": 4
+          },
+          {
+            "name": "Night Realm's Gift: Heart of Unity",
+            "desc": "After her Nightsoul points are depleted, Kachina will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Kachina. When the active character is currently sprinting, climbing, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Kachina: Kachina will enter the Nightsoul's Blessing state and ride **Turbo Twirly** when taking the field while gaining 30 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team.\n\nAdditionally, while in Natlan, Kachina will consume 90% less Stamina when climbing while riding **Turbo Twirly**.",
+            "icon": "img/skill/Kachina_5.png",
+            "minAscension": 0
+          },
+          {
+            "name": "Boon of Crystal Flame",
+            "desc": "While in an area with Phlogiston Mechanics within Natlan, 20 Stamina will be restored when interacting with some harvestable items. Additionally, the location of nearby **resources unique to Natlan** will appear on your mini-map.",
+            "icon": "img/skill/Kachina_6.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Shards Are Gems Too",
+            "desc": "When Kachina mounts or dismounts **Turbo Twirly**, she will absorb nearby Elemental Shards created by Crystallize.\nAdditionally, when a party member picks up such a Shard, 3 Energy will be restored to Kachina. Energy can be restored this way once every 5s.",
+            "icon": "img/const/Kachina_1.png"
+          },
+          {
+            "name": "Never Leave Home Without... Turbo Twirly",
+            "desc": "When Kachina uses **\"Time to Get Serious!\"**, she will regain 20 Nightsoul points. If there is no **Turbo Twirly** belonging to her on the field, she will enter Nightsoul's Blessing and summon one.",
+            "icon": "img/const/Kachina_2.png"
+          },
+          {
+            "name": "Improved Stabilizer",
+            "desc": "Increases the Level of **Go, Go Turbo Twirly!** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Kachina_3.png"
+          },
+          {
+            "name": "More Foes, More Caution",
+            "desc": "When there are 1/2/3/4 (or more) opponents within the Turbo Drill Field created by **\"Time to Get Serious!\"**, the active character within the field gains 8%/12%/16%/20% increased DEF.",
+            "icon": "img/const/Kachina_4.png"
+          },
+          {
+            "name": "All I've Collected Till Now",
+            "desc": "Increases the Level of **Time to Get Serious!** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Kachina_5.png"
+          },
+          {
+            "name": "This Time, I've Gotta Win",
+            "desc": "When your active character's Shield is replaced or destroyed for any reason, Kachina will deal 200% of her DEF as **AoE Geo DMG**. This effect can be triggered once every 5s.",
+            "icon": "img/const/Kachina_6.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "Geo DMG Bonus",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 739.0527
+          },
+          {
+            "stat": "Base DEF",
+            "value": 49.63275
+          },
+          {
+            "stat": "Base ATK",
+            "value": 13.569876
+          },
+          {
+            "stat": "Geo DMG Bonus",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1264.1691
+          },
+          {
+            "stat": "Base DEF",
+            "value": 84.898125
+          },
+          {
+            "stat": "Base ATK",
+            "value": 23.21163
+          },
+          {
+            "stat": "Geo DMG Bonus",
+            "value": 0.06
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1964.3242
+          },
+          {
+            "stat": "Base DEF",
+            "value": 131.91862
+          },
+          {
+            "stat": "Base ATK",
+            "value": 36.067303
+          },
+          {
+            "stat": "Geo DMG Bonus",
+            "value": 0.12
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2489.4407
+          },
+          {
+            "stat": "Base DEF",
+            "value": 167.184
+          },
+          {
+            "stat": "Base ATK",
+            "value": 45.709057
+          },
+          {
+            "stat": "Geo DMG Bonus",
+            "value": 0.12
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3014.5571
+          },
+          {
+            "stat": "Base DEF",
+            "value": 202.44937
+          },
+          {
+            "stat": "Base ATK",
+            "value": 55.35081
+          },
+          {
+            "stat": "Geo DMG Bonus",
+            "value": 0.18
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3539.6733
+          },
+          {
+            "stat": "Base DEF",
+            "value": 237.71475
+          },
+          {
+            "stat": "Base ATK",
+            "value": 64.99256
+          },
+          {
+            "stat": "Geo DMG Bonus",
+            "value": 0.24
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Overripe Flamegranate",
+        "EnemyDropTier1": "Sentry's Wooden Whistle",
+        "EnemyDropTier2": "Warrior's Metal Whistle",
+        "EnemyDropTier3": "Saurian-Crowned Warrior's Golden Whistle",
+        "Gem1": "Prithiva Topaz Sliver",
+        "Gem2": "Prithiva Topaz Fragment",
+        "Gem3": "Prithiva Topaz Chunk",
+        "Gem4": "Prithiva Topaz Gemstone",
+        "Specialty": "Quenepa Berry"
       }
     }
   },
@@ -27667,6 +28749,532 @@
         "Gem3": "Varunada Lazurite Chunk",
         "Gem4": "Varunada Lazurite Gemstone",
         "Specialty": "Philanemo Mushroom"
+      }
+    }
+  },
+  "Mualani": {
+    "name": "Mualani",
+    "desc": "A well-known guide in Natlan who owns a watersports shop, and expert in all forms of wave-chasing.",
+    "releasedOn": "2024-08-27 00:00:00",
+    "star": 5,
+    "weaponType": "Catalyst",
+    "icon": "img/char/Mualani.png",
+    "media": {
+      "imgs": [
+        "img/char_full/Mualani.png"
+      ]
+    },
+    "baseStats": {
+      "hpBase": 1182.1168,
+      "attackBase": 14.1512,
+      "defenseBase": 44.39386,
+      "criticalBase": 0.05,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 8,
+      "birthDay": 3,
+      "association": "Natlan",
+      "title": "Splish-Splash Wavechaser",
+      "detail": "A well-known guide in Natlan who owns a watersports shop, and expert in all forms of wave-chasing.",
+      "affiliation": "Meztli",
+      "element": "Hydro",
+      "constellation": "Phoca Neomonachus",
+      "cvChinese": "王晓彤",
+      "cvJapanese": "東山奈央",
+      "cvEnglish": "Cassandra Lee Morris",
+      "cvKorean": "Kim Do-hee"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Cooling Treatment",
+            "desc": "**Normal Attack**\nPerforms up to 3 attacks that deal **Hydro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to smack a Pufferball into the air that deals **AoE Hydro DMG** upon landing.\n\n**Plunging Attack**\nGathers the power of Hydro and plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Hydro DMG** upon impact with the ground.",
+            "icon": "img/skill/Common_Catalyst.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "51.4%",
+                  "55.3%",
+                  "59.1%",
+                  "64.2%",
+                  "68.1%",
+                  "72.0%",
+                  "77.1%",
+                  "82.2%",
+                  "87.4%",
+                  "92.5%",
+                  "97.7%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "44.6%",
+                  "48.0%",
+                  "51.3%",
+                  "55.8%",
+                  "59.1%",
+                  "62.5%",
+                  "66.9%",
+                  "71.4%",
+                  "75.9%",
+                  "80.3%",
+                  "84.8%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "70.0%",
+                  "75.3%",
+                  "80.5%",
+                  "87.5%",
+                  "92.8%",
+                  "98.0%",
+                  "105.1%",
+                  "112.1%",
+                  "119.1%",
+                  "126.1%",
+                  "133.1%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "143%",
+                  "154%",
+                  "164%",
+                  "179%",
+                  "189%",
+                  "200%",
+                  "214%",
+                  "229%",
+                  "243%",
+                  "257%",
+                  "271%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "50.0"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "56.8%",
+                  "61.5%",
+                  "66.1%",
+                  "72.7%",
+                  "77.3%",
+                  "82.6%",
+                  "89.9%",
+                  "97.1%",
+                  "104.4%",
+                  "112.3%",
+                  "120.3%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "114%/142%",
+                  "123%/153%",
+                  "132%/165%",
+                  "145%/182%",
+                  "155%/193%",
+                  "165%/206%",
+                  "180%/224%",
+                  "194%/243%",
+                  "209%/261%",
+                  "225%/281%",
+                  "240%/300%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Contention",
+                "BossMat": "Lightless Mass",
+                "EnemyDropTier1": "Sentry's Wooden Whistle",
+                "EnemyDropTier2": "Warrior's Metal Whistle",
+                "EnemyDropTier3": "Saurian-Crowned Warrior's Golden Whistle"
+              }
+            }
+          },
+          {
+            "name": "Surfshark Wavebreaker",
+            "desc": "Combining her mastery of speed and the waves and water, Mualani can surf anytime, anywhere.\nAfter using this skill, Mualani will gain 60 Nightsoul points and enter the Nightsoul's Blessing state.\n\n**Nightsoul's Blessing: Mualani**\nContinuously consume Nightsoul points. When they are depleted or when the skill is used again, Mualani's Nightsoul's Blessing will end. The state itself has the following traits:\n·Mualani mounts her Sharky Surfboard, increasing Mualani's Movement SPD and interruption resistance. Mualani can move on water and liquid Phlogiston while this state is active, and she will take no DMG from the latter.\n·Normal Attacks will be converted to Sharky's Bites, dealing Nightsoul-aligned **Hydro DMG** based on Mualani's Max HP. Sharky's Bites can be used in mid-air. DMG dealt this way is considered Normal Attack DMG.\n·When she makes contact with opponents in this state, Mualani applies \"Marked as Prey\" to them and gains 1 Wave Momentum stack. Max 3 stacks. 1 stack can be gained from the same opponent every 0.7s.\n\n**Wave Momentum and Marked as Prey**\nWhen Mualani uses Sharky's Bite, her DMG dealt increases based on Wave Momentum stacks. When she has 3 stacks, Sharky's Bite will be converted to Sharky's Surging Bite, further increasing her DMG and removing all her stacks when hitting an opponent.\nWhen Sharky's Bite hits an opponent Marked as Prey, that mark will be removed, and she will fire Shark Missiles at up to 5 nearby opponents Marked as Prey, dealing DMG to them equal to this Sharky's Bite instance and clearing their Marks. If more than 1 opponent is the target of Sharky's Bite and Shark Missiles, the DMG dealt will decrease, decreasing at most to 72% of the original DMG when 3 opponents are targeted.\n\n**First off, Sharky is a freshwater shark on top of being a surfboard. Second, it's not that it wants to eat for real, just that it definitely bites for real.**",
+            "icon": "img/skill/Mualani_1.png",
+            "talentTable": [
+              {
+                "name": "Sharky's Bite Base DMG",
+                "values": [
+                  "8.68% Max HP",
+                  "9.33% Max HP",
+                  "9.98% Max HP",
+                  "10.85% Max HP",
+                  "11.50% Max HP",
+                  "12.15% Max HP",
+                  "13.02% Max HP",
+                  "13.89% Max HP",
+                  "14.76% Max HP",
+                  "15.62% Max HP",
+                  "16.49% Max HP",
+                  "17.36% Max HP",
+                  "18.45% Max HP"
+                ]
+              },
+              {
+                "name": "Wave Momentum DMG Bonus",
+                "values": [
+                  "4.34% Max HP/Stack",
+                  "4.67% Max HP/Stack",
+                  "4.99% Max HP/Stack",
+                  "5.42% Max HP/Stack",
+                  "5.75% Max HP/Stack",
+                  "6.08% Max HP/Stack",
+                  "6.51% Max HP/Stack",
+                  "6.94% Max HP/Stack",
+                  "7.38% Max HP/Stack",
+                  "7.81% Max HP/Stack",
+                  "8.25% Max HP/Stack",
+                  "8.68% Max HP/Stack",
+                  "9.22% Max HP/Stack"
+                ]
+              },
+              {
+                "name": "Sharky's Surging Bite Additional DMG Bonus",
+                "values": [
+                  "21.70% Max HP",
+                  "23.33% Max HP",
+                  "24.95% Max HP",
+                  "27.13% Max HP",
+                  "28.75% Max HP",
+                  "30.38% Max HP",
+                  "32.55% Max HP",
+                  "34.72% Max HP",
+                  "36.89% Max HP",
+                  "39.06% Max HP",
+                  "41.23% Max HP",
+                  "43.40% Max HP",
+                  "46.11% Max HP"
+                ]
+              },
+              {
+                "name": "Sharky's Bite CD",
+                "value": "1.8s"
+              },
+              {
+                "name": "Nightsoul Point Limit",
+                "value": "60.0"
+              },
+              {
+                "name": "CD",
+                "value": "6.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Contention",
+                "BossMat": "Lightless Mass",
+                "EnemyDropTier1": "Sentry's Wooden Whistle",
+                "EnemyDropTier2": "Warrior's Metal Whistle",
+                "EnemyDropTier3": "Saurian-Crowned Warrior's Golden Whistle"
+              }
+            }
+          }
+        ],
+        "ult": {
+          "name": "Boomsharka-laka",
+          "desc": "Fires a Super Shark Missile that can track opponents, dealing Nightsoul-aligned **AoE Hydro DMG** based on Mualani's Max HP.\n\n**Mualani picked this moniker for launching her Shark Missile because it combines the warmth of explosive passion with a more chill, laid-back vibe — most hot spring-ish.**",
+          "icon": "img/skill/Mualani_2.png",
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "58.4% Max HP",
+                "62.8% Max HP",
+                "67.2% Max HP",
+                "73.0% Max HP",
+                "77.4% Max HP",
+                "81.8% Max HP",
+                "87.7% Max HP",
+                "93.5% Max HP",
+                "99.3% Max HP",
+                "105.2% Max HP",
+                "111.0% Max HP",
+                "116.9% Max HP",
+                "124.2% Max HP"
+              ]
+            },
+            {
+              "name": "CD",
+              "value": "15.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "60"
+            }
+          ],
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Contention",
+              "BossMat": "Lightless Mass",
+              "EnemyDropTier1": "Sentry's Wooden Whistle",
+              "EnemyDropTier2": "Warrior's Metal Whistle",
+              "EnemyDropTier3": "Saurian-Crowned Warrior's Golden Whistle"
+            }
+          },
+          "type": "Hydro"
+        },
+        "passive": [
+          {
+            "name": "Heat-Resistant Freshwater Floater",
+            "desc": "When Sharky's Surging Bite hits an opponent, a Puffer will be generated nearby. Mualani will restore 20 Nightsoul points when she picks up a Puffer. Only 2 such Puffers can be created in this way during a single instance of being in Nightsoul's Blessing.",
+            "icon": "img/skill/Mualani_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "Natlan's Greatest Guide",
+            "desc": "After a nearby party member triggers a Nightsoul Burst, Mualani will gain 1 stack of Wavechaser's Exploits, which lasts for 20s. Max 3 stacks. When she uses **Boomsharka-laka**, Mualani will clear all Wavechaser's Exploits stacks and increase the DMG of this Boomsharka-laka by 15%/30%/45% of her Max HP based on the number of stacks cleared.",
+            "icon": "img/skill/Mualani_4.png",
+            "minAscension": 4
+          },
+          {
+            "name": "Night Realm's Gift: Crests and Troughs",
+            "desc": "After her Nightsoul points are depleted, Mualani will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Mualani. When the active character is currently sprinting, swimming, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Mualani: Mualani will enter the Nightsoul's Blessing state and gain 40 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team.\n\nAdditionally, Mualani's Nightsoul point or Phlogiston consumption while moving on water and Liquid Phlogiston during Nightsoul's Blessing is decreased by 75% while in Natlan, and her Nightsoul point consumption is decreased by 35% while doing the same outside Natlan.",
+            "icon": "img/skill/Mualani_5.png",
+            "minAscension": 0
+          },
+          {
+            "name": "The Trick Is to Keep Smiling!",
+            "desc": "While in an area with Phlogiston Mechanics within Natlan, 15 Phlogiston will be restored when interacting with some harvestable items. Additionally, the location of nearby **resources unique to Natlan** will appear on your mini-map.",
+            "icon": "img/skill/Kachina_6.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "The Leisurely \"Meztli\"...",
+            "desc": "The DMG dealt by the first Sharky's Surging Bite after Mualani enters Nightsoul's Blessing and the Shark Missiles it triggers is increased by 66% of Mualani's Max HP. This instance of increased DMG is subject to the diminishing DMG rules of **Surfshark Wavebreaker**.\nIn addition, while out of combat, Mualani's Nightsoul's Blessing state consumes 30% less Phlogiston and Nightsoul points.",
+            "icon": "img/const/Mualani_1.png"
+          },
+          {
+            "name": "Mualani, Going All Out!",
+            "desc": "Mualani gains 2 of **Surfshark Wavebreaker**'s Wave Momentum stacks when she enters Nightsoul's Blessing state. She will gain 1 stack when obtaining a Puffer.\nIn addition, whenever Mualani obtains 2 Puffers within a single instance of the Nightsoul's Blessing state, she will recover an additional 12 Nightsoul points over 2s. This effect requires the Passive Talent \"Heat-Resistant Freshwater Floater\" to be unlocked first.",
+            "icon": "img/const/Mualani_2.png"
+          },
+          {
+            "name": "Surfing Atop Joyous Seas",
+            "desc": "Increases the Level of **Surfshark Wavebreaker** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Mualani_3.png"
+          },
+          {
+            "name": "Sharky Eats Puffies",
+            "desc": "Mualani regenerates 8 Energy when obtaining a Puffer. Must first unlock the Passive Talent \"Heat-Resistant Freshwater Floater.\"\nAdditionally, **Boomsharka-laka** deals 75% increased DMG.",
+            "icon": "img/const/Mualani_4.png"
+          },
+          {
+            "name": "Same Style of Surfboard on Sale!",
+            "desc": "Increases the Level of **Boomsharka-laka** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Mualani_5.png"
+          },
+          {
+            "name": "Spirit of the Springs' People",
+            "desc": "The DMG increase from the Constellation \"The Leisurely 'Meztli'...\" is no longer limited to being triggered once every Nightsoul's Blessing.",
+            "icon": "img/const/Mualani_6.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1013.5583
+          },
+          {
+            "stat": "Base DEF",
+            "value": 38.0646
+          },
+          {
+            "stat": "Base ATK",
+            "value": 12.132488
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1733.7181
+          },
+          {
+            "stat": "Base DEF",
+            "value": 65.1105
+          },
+          {
+            "stat": "Base ATK",
+            "value": 20.75294
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.048
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2693.9312
+          },
+          {
+            "stat": "Base DEF",
+            "value": 101.1717
+          },
+          {
+            "stat": "Base ATK",
+            "value": 32.246876
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.096
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3414.091
+          },
+          {
+            "stat": "Base DEF",
+            "value": 128.2176
+          },
+          {
+            "stat": "Base ATK",
+            "value": 40.86733
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.096
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 4134.251
+          },
+          {
+            "stat": "Base DEF",
+            "value": 155.2635
+          },
+          {
+            "stat": "Base ATK",
+            "value": 49.48778
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.144
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 4854.4106
+          },
+          {
+            "stat": "Base DEF",
+            "value": 182.3094
+          },
+          {
+            "stat": "Base ATK",
+            "value": 58.10823
+          },
+          {
+            "stat": "CRIT Rate",
+            "value": 0.192
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Mark of the Binding Blessing",
+        "EnemyDropTier1": "Sentry's Wooden Whistle",
+        "EnemyDropTier2": "Warrior's Metal Whistle",
+        "EnemyDropTier3": "Saurian-Crowned Warrior's Golden Whistle",
+        "Gem1": "Varunada Lazurite Sliver",
+        "Gem2": "Varunada Lazurite Fragment",
+        "Gem3": "Varunada Lazurite Chunk",
+        "Gem4": "Varunada Lazurite Gemstone",
+        "Specialty": "Sprayfeather Gill"
       }
     }
   },
@@ -36818,7 +38426,7 @@
           },
           {
             "name": "Emergency Dose",
-            "desc": "While underwater, heal your active character over 2.5s when their HP falls under 50%. The amount healed is equal to 50% of their Max HP, and their All Elemental and Physical RES will be decreased by 10% for 10s. This effect can be triggered up to once every 20s.",
+            "desc": "While underwater, heals your active character over 2.5s when their HP falls under 50%. The amount healed is equal to 50% of their Max HP, and their All Elemental and Physical RES will be decreased by 10% for 10s. This effect can be triggered up to once every 20s.",
             "icon": "img/skill/Sigewinne_5.png",
             "minAscension": 0
           }
@@ -37028,7 +38636,7 @@
       }
     }
   },
-    "Sucrose": {
+  "Sucrose": {
     "name": "Sucrose",
     "desc": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
     "releasedOn": "2020-09-15 04:00:00",

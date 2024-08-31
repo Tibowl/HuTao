@@ -1075,6 +1075,131 @@
       }
     ]
   },
+  "Ash-Graven Drinking Horn": {
+    "name": "Ash-Graven Drinking Horn",
+    "desc": "A ritual vessel passed down amongst the Meztli. They say that this was once a treasure much-valued, yet never used, by the hero \"Giant\" Tupac.",
+    "weaponType": "Catalyst",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.401,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "HP%",
+        "init": 0.09,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/AshGraven_Drinking_Horn.png",
+    "awakenIcon": "img/weapon_woke/AshGraven_Drinking_Horn.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.9
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.9
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.8
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.7
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.7
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.6
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Axis of the Secret Source",
+        "EnemyDropTierA2": "Sheath of the Secret Source",
+        "EnemyDropTierA3": "Heart of the Secret Source",
+        "EnemyDropTierB1": "Juvenile Fang",
+        "EnemyDropTierB2": "Seasoned Fang",
+        "EnemyDropTierB3": "Tyrant's Fang",
+        "WeaponAsc1": "Night-Wind's Mystic Consideration",
+        "WeaponAsc2": "Night-Wind's Mystic Premonition",
+        "WeaponAsc3": "Night-Wind's Mystic Augury",
+        "WeaponAsc4": "Night-Wind's Mystic Revelation"
+      }
+    },
+    "lore": "Often do I hear people sing, hear them tell tales,\nAt this joyous banquet, when they gather together.\nMy heart spurs me on to recite a new song for you:\nI shall strum my strings, weave my melody,\nStart my song, begin my tale,\nOf an ancient ancestor, the valiant giant Tupac.\n...\nThe young, heroic Tenoch would be enraged to hear this,\nLike a fierce gator, a prideful stag.\nHe would have raised his stick high and said to Tupac:\nWhy did you come out to sea? Why did you cross the waves?\nYour ancestor Uenuku would not have been so audacious.\nIf you dare oppose me, I shall make sure you end up as fish food!\n\nTupac, built like a mountain, would have laughed upon hearing this,\nLike a fierce rhino, a majestic emu.\nGrasping his drinking horn tightly, he would have replied:\nHow could a weakling like you harm me in the slightest?\nBy right, this drinking horn belongs to me, to the kin of my homeland.\nIf you dare to seize it from me, come wrestle me first!\n\nTupac, built like a mountain, had always been a heroic figure:\nOnce, in a fit of rage, he had broken mountains with his bare hands,\nThrust rocks into the earth to make hot springs bubble up.\n(The hot springs that can now be seen in the southwest,\nAre his legacy, still visible to this day.)\nAlone he once set out to sea to battle a giant two-tailed whale,\nTore off the fierce beast's teeth to carry with him.\nLike the springs of that era, his heart was fervent and untamed,\nHow could the young, heroic Tenoch possibly hope to impress him?\n...\nTupac, built like a mountain, recalled the events of decades past,\nWhen he contended with Tenoch for the drinking horn.\nAnd so he spoke before the lord of the blazing flames,\nTupac, built like a mountain, would offer up the drinking horn.\nHe would present it, revealing his final hope,\nRevealing his final hope, thus holding the flame high,\nThus holding the flame high, even till his final breath,\nEven till his final breath, he had not betrayed his oath.\n...\nThis is where my story ends; may the youth remember well,\nRemember the words I spoke, the legends of the ancients.\nMy father once sang, in a golden sea breeze,\nMy mother taught me too, when I was young and naive.\nThe years of darkness have long passed, the calamities subsided.\nThere is always singing above the flowing springs; always feasts when dusk begins to fall.\nBut let the new generation remember, lest they forget this warning:\nAbove all else, there are two things that must never be forsaken — unity and promises.",
+    "refinements": [
+      {
+        "name": "Tupac's Grip",
+        "desc": "When an attack hits an opponent, deal AoE DMG equal to **40%** of Max HP at the target location. This effect can be triggered once every 15s."
+      },
+      {
+        "name": "Tupac's Grip",
+        "desc": "When an attack hits an opponent, deal AoE DMG equal to **50%** of Max HP at the target's location. This effect can be triggered once every 15s."
+      },
+      {
+        "name": "Tupac's Grip",
+        "desc": "When an attack hits an opponent, deal AoE DMG equal to **60%** of Max HP at the target's location. This effect can be triggered once every 15s."
+      },
+      {
+        "name": "Tupac's Grip",
+        "desc": "When an attack hits an opponent, deal AoE DMG equal to **70%** of Max HP at the target's location. This effect can be triggered once every 15s."
+      },
+      {
+        "name": "Tupac's Grip",
+        "desc": "When an attack hits an opponent, deal AoE DMG equal to **80%** of Max HP at the target's location. This effect can be triggered once every 15s."
+      }
+    ]
+  },
   "Ballad of the Boundless Blue": {
     "name": "Ballad of the Boundless Blue",
     "desc": "An anthology of exquisite poetry. It contains quite a few poems beloved by Mondstadters, concerning the skies, dandelions, and other such topics.",
@@ -2651,6 +2776,131 @@
       }
     ]
   },
+  "Chain Breaker": {
+    "name": "Chain Breaker",
+    "desc": "A jade-adorned longbow. The gentle winds always seem to swirl gently about its string. Legends claim that this weapon was made in a far more ancient era by a dragon artisan.",
+    "weaponType": "Bow",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.7349,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.06,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Chain_Breaker.png",
+    "awakenIcon": "img/weapon_woke/Chain_Breaker.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.9
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.9
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.8
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.7
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.7
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.6
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Feathery Fin",
+        "EnemyDropTierA2": "Lunar Fin",
+        "EnemyDropTierA3": "Chasmlight Fin",
+        "EnemyDropTierB1": "Juvenile Fang",
+        "EnemyDropTierB2": "Seasoned Fang",
+        "EnemyDropTierB3": "Tyrant's Fang",
+        "WeaponAsc1": "Night-Wind's Mystic Consideration",
+        "WeaponAsc2": "Night-Wind's Mystic Premonition",
+        "WeaponAsc3": "Night-Wind's Mystic Augury",
+        "WeaponAsc4": "Night-Wind's Mystic Revelation"
+      }
+    },
+    "lore": "Long, long ago, in what we today call an age of myth, when great dragons still strode amongst the thick jungles,\nThe abandoned girl was adopted by the mother of dragons, and grew up amidst lush winds and chirping birds.\n\n\"Lianca, my dearest and beloved daughter, my pride and joy\"\n\"Go, and find your own path, like your brothers and sisters\"\n\"Though you have neither hard scales, nor claws and fangs as sharp as razors\"\n\"Remember that you will always be the daughter of the mother of dragons, an honorable princess\"\n\"In this world, you kneel to no one, be they human or dragon\"\n\"Choose your path with pride, just like a true dragon\"\n\nAnd so, in keeping with the traditions of dragonkind, the young maiden named Lianca took the bow from the matriarch,\nAnd accompanied by bounteous flowers and quetzals, she embarked alone on her journey to \"seek her own path.\"\nIt was not until she had traversed many lands belonging to both humans and dragons that the girl who had long grown accustomed to the jungle realized,\nDespite the vastness of this world, the ability to fly freely and unrestrained, like a sparrow, seemed to be akin to a luxury.\nLaws held mortals in thrall, while obsession confined dragonkind. So-called \"freedom\" was an article of faith for the strong alone.\n—But if that be so, then let all chains be broken, all shackles that hold the weak back from flight be shot from the sky.\n\nIn the beginning, it was only a few orphans who had nowhere to go who stayed by her side,\nAnd then, the wandering warriors, unwilling to be bound by the rules of the tribe, who chose to follow her song,\nAnd then, those dragons who had been banished also came to the forest, seeking her protection.\nThe uncrowned princess accepted them all, human or dragon, whether they had been foe or friend before:\nWith but a single staff she defeated a bandit massive as a mountain who would waylay passersby, and then all former enmity forgotten with a hearty laugh,\nThe evil arrogant dragon was shot down three times and cured three times, and they became fast friends.\nThis was the founding moment of the tribe that would be known as the \"Flower-Feather Clan\" for the next thousand years,\nWhere even those who were weak, feeble, and homeless would no need fear the wind and open sky.\n\n\"O Outlander hailed as a hero, you seem to misunderstand. I am not their King, and they have no need to submit to anyone\"\n\"None can rule here, for everyone is a crownless king. Let go of those overwrought, convoluted, needless formalities, for the only thing that can please us is the sound of song\"\n\"However, if you are as sincere as your words, if you truly desire to whip up a blazing wind to burn away the eternal shackles\"\n\"If you truly wish to bestow the weak with a place where they are equal, then, O Outlander, whom they acclaim as a hero, I shall journey with you.\"\n\"My mother cannot understand your noble resolve, my King. Should she know of this, the Flower-Feather Clan would surely be the first to raise the banner of rebellion against the Grand Alliance\"\n\"My King, for an incandescent, resplendent tomorrow, for the vision of a thousand years, we must completely eradicate the hidden danger as soon as possible. You can hesitate no longer.\"\n\nIt was the age when the banners of the tribes had not yet been coated in dust, and the colors of the pact had not yet faded.\nOn a night when the quetzals no longer sang, by the fading fire of the hearth, the youth made this suggestion to the usurper.\nTo this day, none know whether it was to fan the flames of burning ambition, or done out of greed.\nAll the people know is that the blood-red fires of the banquet in the city of cinders burned away the King's last reservations.\n\n\"Heh... Old friend, you need only take care of little old me. Why the need to dispatch hundreds of men?\"\n\"Still, as it was I who misjudged my own blood... Then allow me to repay the blood-debt with blood.\"\n\nThe bowstring was severed, blood drained dry, and even the ever-carried dagger was wielded till it was cloven in two,\nAnd so the hero who had shot countless dragons out of the sky was forced to the end of her rope.\nBut even so, the First Speaker for the Flower-Feather Clan stood straight and tall amidst the overflowing crimson river.\nThe very first arrow, she gifted to her treacherous heir, and the remaining arrows to the usurper's minions,\nThough her bones had long since shattered, then she would use her final arrow to nail her shattered body to the jade bow.\nAnd the end of that road, not even death could force the proud daughter of the dragons to bend the knee.\n\n\"My honored mother... Your daughter has finally found her own path\"\n\"Only suffering belongs to me, and only my song belongs to me... Let this be my epitaph\"\n\"To remember the pain I endured... and finally, surmounted.\"\n\"I once offered my life to all, and now... I offer my death to the world.\"",
+    "refinements": [
+      {
+        "name": "Flower-Feather Song",
+        "desc": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains **4.8%** increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains **24** Elemental Mastery."
+      },
+      {
+        "name": "Flower-Feather Song",
+        "desc": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains **6%** increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains **30** Elemental Mastery."
+      },
+      {
+        "name": "Flower-Feather Song",
+        "desc": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains **7.2%** increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains **36** Elemental Mastery."
+      },
+      {
+        "name": "Flower-Feather Song",
+        "desc": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains **8.4%** increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains **42** Elemental Mastery."
+      },
+      {
+        "name": "Flower-Feather Song",
+        "desc": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains **9.6%** increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains **48** Elemental Mastery."
+      }
+    ]
+  },
   "Cinnabar Spindle": {
     "name": "Cinnabar Spindle",
     "desc": "A sword made from materials that do not belong in this world. The power within might even be able to withstand the corruption of a venom that could corrode a mighty dragon.",
@@ -2901,7 +3151,7 @@
       }
     ]
   },
-    "Compound Bow": {
+  "Compound Bow": {
     "name": "Compound Bow",
     "desc": "An exotic metallic bow from a distant land. Though extremely difficult to maintain, it is easy to nock and fires with tremendous force.",
     "weaponType": "Bow",
@@ -4476,6 +4726,131 @@
     },
     "lore": "Travels are full of meetings and partings.\nPerhaps the only trusty and inseparable companions of a Traveler,\nAre the sword in their hand and the dream in their heart.",
     "refinements": []
+  },
+  "Earth Shaker": {
+    "name": "Earth Shaker",
+    "desc": "A heavy blade that people claim was beloved by the hero known as the Firethief. They say that even the Lord of Cinder Keep's flames could not burn it away.",
+    "weaponType": "Claymore",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 43.7349,
+        "curve": "ATK 2.2"
+      },
+      {
+        "stat": "ATK%",
+        "init": 0.06,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Earth_Shaker.png",
+    "awakenIcon": "img/weapon_woke/Earth_Shaker.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.9
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.9
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.8
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.7
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.7
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.6
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Ignited Stone",
+        "EnemyDropTierA2": "Ignited Seed of Life",
+        "EnemyDropTierA3": "Ignited Seeing Eye",
+        "EnemyDropTierB1": "Sentry's Wooden Whistle",
+        "EnemyDropTierB2": "Warrior's Metal Whistle",
+        "EnemyDropTierB3": "Saurian-Crowned Warrior's Golden Whistle",
+        "WeaponAsc1": "Blazing Sacrificial Heart's Terror",
+        "WeaponAsc2": "Blazing Sacrificial Heart's Hesitance",
+        "WeaponAsc3": "Blazing Sacrificial Heart's Resolve",
+        "WeaponAsc4": "Blazing Sacrificial Heart's Splendor"
+      }
+    },
+    "lore": "Long, long ago, in what now is seen as an age of myth, when great dragons still soared above the canopy,\nThere lived a hero who — though he later came to be revered as the Firethief — was at that time still in his youth, and as reckless as a Halberd-Crest Bird.\nBorn strong, brave, and boastful, he would roam the woods, challenging passersby to duels,\nYet he was easily defeated by a half-human hero, the follower of a great warrior, who with cunning footwork lured him into a mire.\n\nSeeing the young man in such a sorry state, the archer could not help but laugh;\nOf habit so stern and taciturn, you would not have thought that she would tease others so.\nHalf of shame, half of annoyance, the young man made up his mind;\nHe would follow these oddballs, if only to cover up the shame of defeat.\n\n\"Hey! You aren't seriously thinking of taking on that... Uh, whatever it is, without me, are you?\"\n\"Listen up, you lot! I am Yupanqui, and it is I that is destined to shake the very foundations of the... Wait, I haven't finished!\"\n\nMany years later, whenever he thought back upon that journey, he couldn't help laughing at how awkwardly childish he used to be.\nMore than once did his failure to heed advice land him in great danger; more than once did his boisterousness earn him the quiet artisan's annoyance.\nThough it is true that countless enemies fell to the swings of his greatsword, on balance, his contributions were still outweighed by the trouble he caused.\nDespite this, the companions who journeyed by the warrior's side tolerated his youthful ignorance.\nWhen his vision was taken by the fire of delirium, it seemed to him that he heard the silent priest's words once more...\n\n\"One day, you will understand why you embarked on this verdant path.\"\n\"By past fuel, and present flame, life marches ever on.\"\n\"We will answer to the fire for all our deeds. This is your path, and yours alone.\"\nThat was the age when the banners of all the tribes had returned to the corroded ruins of the Cinder City, when oaths had long since faded away.\nHaving gradually fallen into delirium, the human king now babbled of his crazed obsessions, his eyes reflecting naught but fear.\nThough still given to lament how the grand vision he had once held — of humans and dragons coexisting — was now beyond reach,\nYet the aging hero could not bring himself to rebel against his only surviving friend of old.\n\nIn the end, he thought, the color would thus fade from all verdant paths.\nIn this way, passion is just like fire — despite regret and unwillingness, once extinguished, it is gone.\nJust as there was no such thing as a flame that could itself be rekindled, so there would never be a path that was his, and his alone.\nAnd thus, the disheartened old man silently accepted the idle position of ordnance officer for the Grand Alliance,\nResolving never to interfere with his old friend's orders again, waiting only for the day that he would return to the Sacred Flame...\n\nUntil, having saved the dragons from the shadow of the sword, alone at night came the scarlet-eyed youth to pay a visit to the ordnance officer's abode,\nWith that zeal, at once both strange and familiar, he pleaded with the old hero to break the chains of the broken oath.\n\nSteadfast and taciturn, the old man did not answer him directly, only glancing at the dusty greatsword beside him.\nIn his eyes, over the long years glazed dull with gloom, a spark of fiery brilliance flashed up once more.",
+    "refinements": [
+      {
+        "name": "Oath of Qhapaq Nan",
+        "desc": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by **16%** for 8s. This effect can be triggered even when the triggering party member is not on the field."
+      },
+      {
+        "name": "Oath of Qhapaq Nan",
+        "desc": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by **20%** for 8s. This effect can be triggered even when the triggering party member is not on the field."
+      },
+      {
+        "name": "Oath of Qhapaq Nan",
+        "desc": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by **24%** for 8s. This effect can be triggered even when the triggering party member is not on the field."
+      },
+      {
+        "name": "Oath of Qhapaq Nan",
+        "desc": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by **28%** for 8s. This effect can be triggered even when the triggering party member is not on the field."
+      },
+      {
+        "name": "Oath of Qhapaq Nan",
+        "desc": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by **32%** for 8s. This effect can be triggered even when the triggering party member is not on the field."
+      }
+    ]
   },
   "Elegy for the End": {
     "name": "Elegy for the End",
@@ -6724,6 +7099,256 @@
       {
         "name": "Unfinished Masterpiece",
         "desc": "When using an Elemental Skill, All Elemental DMG Bonus will be increased by **16%** for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide **4%** All Elemental DMG Bonus, up to a maximum of **24%**. This effect lasts 15s."
+      }
+    ]
+  },
+  "Flute of Ezpitzal": {
+    "name": "Flute of Ezpitzal",
+    "desc": "A peculiarly shaped jade longsword that has been passed down amongst the Masters of the Night-Wind as a \"priestly flute.\"",
+    "weaponType": "Sword",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 41.0671,
+        "curve": "ATK 2.4"
+      },
+      {
+        "stat": "DEF%",
+        "init": 0.150133,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Flute_of_Ezpitzal.png",
+    "awakenIcon": "img/weapon_woke/Flute_of_Ezpitzal.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.9
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.9
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.8
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.7
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.7
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.6
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Ruined Hilt",
+        "EnemyDropTierA2": "Splintered Hilt",
+        "EnemyDropTierA3": "Still-Smoldering Hilt",
+        "EnemyDropTierB1": "Juvenile Fang",
+        "EnemyDropTierB2": "Seasoned Fang",
+        "EnemyDropTierB3": "Tyrant's Fang",
+        "WeaponAsc1": "Blazing Sacrificial Heart's Terror",
+        "WeaponAsc2": "Blazing Sacrificial Heart's Hesitance",
+        "WeaponAsc3": "Blazing Sacrificial Heart's Resolve",
+        "WeaponAsc4": "Blazing Sacrificial Heart's Splendor"
+      }
+    },
+    "lore": "Long, long ago, in what now is seen as an age of myth, when great dragons still roamed the deep valley,\nThere lived a girl who — despite having had her ankles mutilated at birth — inherited the title of Holy Sovereign, just as tradition dictated.\n\nBack then, when the deep valley had not yet been given the name of \"Mictlan,\" there was but a lowly village that owed its very existence to the protection of the dragons.\nBy ancient beacons was the dragons' prideful honor incinerated, driving them to flee fearfully into withering dreams.\nSo did they come to make a pact with the mortals who sought their protection, instructing them to ordain a Holy Sovereign of exceptional talent...\n\n\"A labyrinth of mirrors and a fortress of mist, these shall we build to shield your tiny mortal tribes from the scourge of war.\"\n\"In return, we ask only one thing — that you choose a Sovereign who will guide us into our dreams.\"\n\nAs with all worldly aspirations, dreams are windows onto an inferno of desire, fired by the kindling known as \"life.\"\nThis so-called fated Sovereign was but an offering to dreams, destined to be dispersed like smoking embers by the cold night wind.\nAnd so it was that the Holy Sovereign's only companions were a flute and her silent attendant.\nPerhaps out of loyalty, or perhaps sympathy, he never left his young master's side, doomed as she was to an early demise.\n\nYet this hero, venerated by future generations, did not yet know that the young seer had long since discerned how the dream would end.\nUntil the hero passed through mist and mirrors, guided by her flutesong — only then did the girl who had lost her ankles embrace him.\nAnd so, in a gentle song woven from whispers and the dainty night wind, she murmured into his ear all that she had heard...\n\n\"...\"\n\"When the day comes that we meet once more, pierce my heart, I beseech you. Let my name be engulfed by the flaming beacons and the burning winds.\"\n\"The old pact shall be broken, and in its place you will establish a new one, bringing them true peace.\"\n\"Until the day we meet once more, my most loyal servant Dinga, dragon slayer and fated Sovereign Maghan.\"\n\"Hero of mine, and mine alone, this is my final command. May the name of Mictlan endure for millennia.\"\nIn the end, the dark night was devoured by the heat of the scorching sun. As the smoke dispersed, thus too did the sweetest of dreams dissipate, gone without a trace.\nEven before the crimson flames had waned, the inhabitants of the village that had worshipped the dragons were denounced as traitorous enemies by the ruler of the Cinder City...\nShattered was the labyrinth of mirrors, crashing down in the face of the Python King's fury; so too did the fortress of mist crumble before his armies, sweeping through like the ocean tide.\nLeading the charge was the hero Maghan, he who had once fought alongside the One Entombed With the Primal Fire, showing courage undiminished since yesteryear,\nAnd before the dragons could awaken from their dream, he had slain the traitors who had made a pact with them, thus ending the conflict.\nYet granted a royal audience, the aging hero would not receive the favor that was offered by the Cinder City's ruler, instead simply seeking a chance to atone:\n\n\"My lord, I failed in my endeavor to catch those beasts; they escaped into the depths of the smoke-shrouded valleys.\"\n\"Though once a dragon slayer, now I am old and frail, unfit to serve the alliance any longer. Please permit me to retire on account of this.\"\n\nThis was the origin of Mictlan, one of the six great tribes in the thousand years to come.\nAs for how, when the Cinder City fell, the priest Maghan's successor renewed the pact with the dragons,\nAnd how, according to his wishes, he was buried amongst unmarked graves, rather than being returned to the Sacred Flame;\nThat is another story altogether, completely unrelated to Maghan the dragon slayer.\n\n\"I dream of a katun without fear... the city of jade shall be established where the sun rises, and a new lord shall be born twice.\"\n\"The golden emissary shall come, the green bird shall come, Aq're Q'aq shall come. It is the promise of the night.\"\n\"I dream of your descendants... free from fears of smoke and phantasms, no longer in tears, no longer in pain.\"\n\"The master of flames and blazing infernos... will protect the dreams of humans and dragons alike, watching over them until the stars cease to turn.\"\n\"Hero of mine, and mine alone, this is my final vision. Please make this future a reality.\"\n\"...\"",
+    "refinements": [
+      {
+        "name": "Smoke-and-Mirror Mystery",
+        "desc": "Using an Elemental Skill increases DEF by **16%** for 15s."
+      },
+      {
+        "name": "Smoke-and-Mirror Mystery",
+        "desc": "Using an Elemental Skill increases DEF by **20%** for 15s."
+      },
+      {
+        "name": "Smoke-and-Mirror Mystery",
+        "desc": "Using an Elemental Skill increases DEF by **24%** for 15s."
+      },
+      {
+        "name": "Smoke-and-Mirror Mystery",
+        "desc": "Using an Elemental Skill increases DEF by **28%** for 15s."
+      },
+      {
+        "name": "Smoke-and-Mirror Mystery",
+        "desc": "Using an Elemental Skill increases DEF by **32%** for 15s."
+      }
+    ]
+  },
+  "Footprint of the Rainbow": {
+    "name": "Footprint of the Rainbow",
+    "desc": "A keen polearm forged from jade. It gives off rainbow-hued light when exposed to sunlight.",
+    "weaponType": "Polearm",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.401,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "DEF%",
+        "init": 0.1126,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Footprint_of_the_Rainbow.png",
+    "awakenIcon": "img/weapon_woke/Footprint_of_the_Rainbow.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.9
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.9
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.8
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.7
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.7
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.6
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Axis of the Secret Source",
+        "EnemyDropTierA2": "Sheath of the Secret Source",
+        "EnemyDropTierA3": "Heart of the Secret Source",
+        "EnemyDropTierB1": "Sentry's Wooden Whistle",
+        "EnemyDropTierB2": "Warrior's Metal Whistle",
+        "EnemyDropTierB3": "Saurian-Crowned Warrior's Golden Whistle",
+        "WeaponAsc1": "Delirious Decadence of the Sacred Lord",
+        "WeaponAsc2": "Delirious Desolation of the Sacred Lord",
+        "WeaponAsc3": "Delirious Demeanor of the Sacred Lord",
+        "WeaponAsc4": "Delirious Divinity of the Sacred Lord"
+      }
+    },
+    "lore": "Long, long ago, in what now is seen as an age of myth, when great dragons still swum the flowing springs,\nThere was a fairy who, having drifted to this place carrying a mission from a distant land, met with a valiant youth under the watery moonlight.\nThe young man was Uenuku of the Meztli, known to posterity as the Treader of the Rainbow.\nJust as the spring waters have never taken a fixed form, so too are there many different versions of the legend of the Rainbow King, each with their own origins.\nYet invariably, they all mention his encounter with the water sprite.\n\n\"I am a tear born of the primordial chalice, the daughter of clear springs, sweet dew, gentle winds, and light mist.\"\n\"O hero, he who has embarked on a journey to protect the weak, the justice you pursue is the ideal I yearn for.\"\n\"Please allow me to bless your spear with my song, and allow me to accompany you on this lonely journey.\"\n\"I ask only that when you become King, as my reward, you grant me the spring where vicious beasts prowl.\"\n\nFor the Mistress of Many Waters' noble and compassionate vision, for the all-embracing love spread through the land along the flowing waters,\nFor these things, the searing waters must be turned into clear springs; the flowing phlogiston purged utterly from the water veins.\nSo, in the name of justice, was the warrior guided onto his journey, to challenge the order that belonged solely to the dragons—\n\nThough he discerned the fairy's true intentions, realized that the Oceanid messenger merely saw him as a means to fulfill an end,\nSince they shared a common enemy, he would fight by the side of this girl who sought to deceive him, until the time came that they were to betray one another.\n\nAnd that was enough, he thought to himself. Even if all her words were simply designed to entice, and though it would eventually all dissipate into mist and rain,\nAt least the justice that he so firmly believed in, the justice that had the power to \"unite\" the weak; at least that would not fade at the journey's end.\n\nIt was only after dozens of winters had passed, and he had spent his life in vain trying to fulfill that promise, that the \"King\" realized—\nAt the end of that glorious journey, it was the unwavering faith he had held from the very beginning that he ultimately regretted the most.\nJust as the spring waters have never taken a fixed form, so too do the hearts of humans and fairies sway with the night breeze.\nOnly when the young man was on the verge of being consumed by the dragonlord's flames did she realize that her objective had long since become muddled.\nAll she had to do was abandon the one with blind faith in justice here; after all, she had already advised him to abandon his village.\nThen, she had simply to find another who could become King; after all, his ideals had never concerned her anyway.\n\nBut if that was the case, then why did she now face the dragon's fire for his folly, beheld by his astonished eyes?\nPerhaps this was the \"communication and understanding\" that the Mistress of Many Waters sought after, thought the water sprite to herself,\nAs she gave him one last smile, covering the sunlike blaze, leaving only rainbow hues in the rising vapor.\n\n...\n\nThe ancient scrolls of the Meztli tell a completely different story, however—\nUnder the gentle moonlight, the hero Uenuku met the wandering water sprite and fell in love.\nYet, in a moment of suspicion, he was separated from his beloved, whose name was Hineila (or Ianeira).\n\"They say that the human heart is as capricious as the tides. Yet how easy it is to conquer the tides; how difficult the human heart.\"\nFilled with regret, the hero Uenuku wandered every inch of the scorched lands, searching only for his beloved.\nAfter decades of relentless pursuit, the water sprite's hardened heart softened, finally showing a trace of compassion.\nShe plucked a soft cloud from the sky and turned it into a rainbow, guiding the hero towards the sea's other side.\nBlessed by the Sacred Flame, Uenuku and his lover were finally reunited, never to be separated again.\nThe tribal elders believe that the shells we see today are fragments of the rainbow that fell into the sea back then,\nAnd that the reason they are always formed with two connected sides is because they symbolize our wish for reunion.",
+    "refinements": [
+      {
+        "name": "Pact of Flowing Springs",
+        "desc": "Using an Elemental Skill increases DEF by **16%** for 15s."
+      },
+      {
+        "name": "Pact of Flowing Springs",
+        "desc": "Using an Elemental Skill increases DEF by **20%** for 15s."
+      },
+      {
+        "name": "Pact of Flowing Springs",
+        "desc": "Using an Elemental Skill increases DEF by **24%** for 15s."
+      },
+      {
+        "name": "Pact of Flowing Springs",
+        "desc": "Using an Elemental Skill increases DEF by **28%** for 15s."
+      },
+      {
+        "name": "Pact of Flowing Springs",
+        "desc": "Using an Elemental Skill increases DEF by **32%** for 15s."
       }
     ]
   },
@@ -9860,6 +10485,131 @@
       {
         "name": "Boundless Blessing",
         "desc": "Increases Movement SPD by 10%. When in battle, gain a **16%** Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat."
+      }
+    ]
+  },
+  "Lumidouce Elegy": {
+    "name": "Lumidouce Elegy",
+    "desc": "A magnificent polearm adorned with azure crystal. It is said to have been a certain legendary Champion Duelist's treasure — and yet, not once was it ever used.",
+    "weaponType": "Polearm",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 45.9364,
+        "curve": "ATK 3.1"
+      },
+      {
+        "stat": "CRIT Rate",
+        "init": 0.072,
+        "curve": "C3"
+      }
+    ],
+    "icon": "img/weapon/Lumidouce_Elegy.png",
+    "awakenIcon": "img/weapon_woke/Lumidouce_Elegy.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.1
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.2
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.7
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts5",
+      "mapping": {
+        "EnemyDropTierA1": "Ruined Hilt",
+        "EnemyDropTierA2": "Splintered Hilt",
+        "EnemyDropTierA3": "Still-Smoldering Hilt",
+        "EnemyDropTierB1": "Whopperflower Nectar",
+        "EnemyDropTierB2": "Shimmering Nectar",
+        "EnemyDropTierB3": "Energy Nectar",
+        "WeaponAsc1": "Broken Goblet of the Pristine Sea",
+        "WeaponAsc2": "Wine Goblet of the Pristine Sea",
+        "WeaponAsc3": "Silver Goblet of the Pristine Sea",
+        "WeaponAsc4": "Golden Goblet of the Pristine Sea"
+      }
+    },
+    "lore": "In the undercity that knows neither rain nor sun, she eked out a miserable existence, and for as little as a slice or two of moldy bread,\nShe would not flinch from pulling out a rusty blade to take the life of someone as insignificant as herself.\nThat the weak and cowardly inevitably become prey for the strong — this is the \"natural order\" that rules the Fleuve Cendre.\nAs such, if some day the hunter should become the hunted, they should accept their fate as prey,\nJust as her late mother had taught her: Ashes to ashes, dust to dust.\n\nLooking back on her life, everything up to this point seemed utterly without meaning, with nothing achieved and nothing to hope for.\nYet if this was the \"natural\" way of the world, then coming to accept this was surely a form of happiness in its own right?\nHowever, in spite of her expectations, death did not come. Opening one eye nervously, she looked up,\nTo see a girl in strange attire smiling back gently, who then placed a flower — whence it came she knew not — behind her ear.\n\n\"We call this flower a Lumidouce Bell, which in the language of flowers... means hope. Look, the color matches your hair.\"\n\"You have such beautiful eyes. It would be such a pity if all they reflected was despair.\"\n\"Come, little lass with the sapphire eyes, let me trade this flower for your heart.\"\n\nThus did Marfisa, who would be later famed as a Champion Duelist, first step into the city above ground.\nWatching on from the luxury of a VIP box in the magnificent theater, she could no longer remember the smiling faces of the magician and their assistant on stage,\nOnly how, as the fantasy played out, a profusion of flowers blossomed under the dazzling spotlight — bright, pure, and ever so strong.\nIf she could walk in the sunlight as \"naturally\" as her, she would no longer need to hide in the ashes.\nSeeing this, she understood that she should yet cherish hope — that this life, having now seen the light, might blossom like Lumidouce.\n\nIn this way, just as she dreamed, the girl born from the ashes finally stepped onto a stage of her own,\nAnd with no master passing down techniques but relying only on her own astonishing talent, all the spear-fighting techniques she had ever seen found expression in her performance.\nThere was no mercy under the sharp edge of her lance, only showers of crimson, like a bed of scarlet roses falling for her alone.\nOn stage, hers was a cold and noble figure that seemed to dance with \"death\" itself,\nAlmost like the sapphire witch in Master Coppelius's famous work, who was said to be able to visualize fatal flaws.\n\nLife and death, victory and defeat, all was the way it should be, and so long as she acted in accordance with logic as she saw it,\nThe path to \"victory\" would open up before her — irrespective of good, evil, and the so-called rules of the overworld.\nUntil one day, finally reaching the end of her unbeaten streak, she was deceived by a swordsman's sly eyes, tricked by a deliberate slowing of the rhythm,\nInto revealing a fatal flaw of her own, her arm struck by his blade, forcing her to concede that her skill was inferior.\n\n\"You have an interesting style of fighting, albeit slightly stiff, as if you follow a predetermined path.\"\n\"But human hearts change, and in this world there is no such thing as a light that burns forever. Being a stickler for the rules is your weakness.\"\n\"That said, your style seems to rely solely on the 'rules' you so trust in, hence your difficulty in abandoning them.\"\n\"Perhaps you should consider changing your approach, and making 'that which is immutable' your 'rule' instead?\"\n\"For instance, take 'justice.' As the Golden Hunter put it, even should the sky fall and the earth be rent asunder, there would still be justice in the world.\"\n\n\"What right do you surface dwellers have to speak of justice? Your skills may be slightly superior to mine, yet you need not lecture me so, all high and mighty.\"\n\"Sooner or later, Hunter, there will come a day when you too will fall before my lance.\"\n\nDespite her reply, perhaps the man was right — crimes should be punished and lies exposed.\nThis is how the world should be, justice prevailing over all. Otherwise, how could he have defeated her?\nAs it was so, it made sense for her to be guided by justice, and offer up a cold elegy to those who would seek to evade judgment.\nAnd so, the girl born from the ashes abandoned her original set of rules, becoming a purple-clad enforcer instead,\nUpholding justice \"as it ought to be,\" until the fire of Poisson brought the criminal Parsifal before her...\n\n...\nLooking back on her life, everything up to this point seemed utterly without meaning, with nothing achieved and nothing to hope for.\nYet if this was the \"natural\" way of the world, then coming to accept this was surely a form of happiness in its own right?\nBut despite this, when she fell into those pure sourcewaters, all that had previously seemed self-evident lost its meaning.\nUp to the moment her memories dissolved in the water, she never knew that the Lumidouce Bell's true meaning in the language of flowers was never hope,\nJust as her late mother had taught her: Ashes to ashes, dust to dust,\nAnd at the end of that long pursuit, even fate did not offer her the blossoming elegy that it ought to have.",
+    "refinements": [
+      {
+        "name": "Bright Dawn Overture",
+        "desc": "ATK increased by **15%**. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by **18%**. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore **12** Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field."
+      },
+      {
+        "name": "Bright Dawn Overture",
+        "desc": "ATK increased by **19%**. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by **23%**. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore **13** Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field."
+      },
+      {
+        "name": "Bright Dawn Overture",
+        "desc": "ATK increased by **23%**. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by **28%**. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore **14** Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field."
+      },
+      {
+        "name": "Bright Dawn Overture",
+        "desc": "ATK increased by **27%**. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by **33%**. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore **15** Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field."
+      },
+      {
+        "name": "Bright Dawn Overture",
+        "desc": "ATK increased by **31%**. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by **38%**. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore **16** Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field."
       }
     ]
   },
@@ -13871,6 +14621,131 @@
       {
         "name": "Tip of the Spear",
         "desc": "When the wielder is healed, restore **16** Energy. This effect can be triggered once every 10s, and can occur even when the character is not on the field."
+      }
+    ]
+  },
+  "Ring of Yaxche": {
+    "name": "Ring of Yaxche",
+    "desc": "This jade vessel was created by a hero of yesteryear. Legend has it that it once shot the giant dragon that dwelt in the volcano down from the skies.",
+    "weaponType": "Catalyst",
+    "stars": 4,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 42.401,
+        "curve": "ATK 2.1"
+      },
+      {
+        "stat": "HP%",
+        "init": 0.09,
+        "curve": "C2"
+      }
+    ],
+    "icon": "img/weapon/Ring_of_Yaxche.png",
+    "awakenIcon": "img/weapon_woke/Ring_of_Yaxche.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 25.9
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 51.9
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 77.8
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 103.7
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 129.7
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.6
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts4",
+      "mapping": {
+        "EnemyDropTierA1": "Shard of a Shattered Will",
+        "EnemyDropTierA2": "Locus of a Clear Will",
+        "EnemyDropTierA3": "Sigil of a Striding Will",
+        "EnemyDropTierB1": "Damaged Mask",
+        "EnemyDropTierB2": "Stained Mask",
+        "EnemyDropTierB3": "Ominous Mask",
+        "WeaponAsc1": "Delirious Decadence of the Sacred Lord",
+        "WeaponAsc2": "Delirious Desolation of the Sacred Lord",
+        "WeaponAsc3": "Delirious Demeanor of the Sacred Lord",
+        "WeaponAsc4": "Delirious Divinity of the Sacred Lord"
+      }
+    },
+    "lore": "Long, long ago, in what now is seen as an age of myth, when great dragons still roamed above the scorched lands,\nHaving passed through countless trials, the lost twin heroes reunited once more before the evil dragon's corpse, and made a vow.\n\n\"Father lost his life due to the Dragonlord's impulsive whims, and Mother sacrificed herself to protect her children\"\n\"Were it not for the assistance of the Collective of Plenty and the clans of the mines, Ahpub and Ixquieh reuniting would have been an impossibility\"\n\"Therefore, we swear upon sacred Yaxche, that we will obliterate death, destruction, and pain\"\n\"And make it so the strong of the world can never again bully the weak, and bring light to this land bereft of day and night\"\n\nAnd so, following the path of \"strength\" and \"blessings,\" the twin heroes ventured forth,\nAnd the young man with an explosive temperament and the calm, unflappable young girl accompanied one another, each complementing the other's shortcomings...\n\n\"Me and mine are but frail mortals, whilst thou are a great dragon who can shake the heavens themselves, the wind and rain at thy beck and call.\"\n\"Thou may summon thy flashing lightning thrice. Should thou fail to strike us down, then thou must endure three of our blows.\"\n\"O Great Dragon, thou art known to boast of thy pride and noble nature, dost thou not have the courage to vie with mortals? Or dost thou only dare to flee?\"\n\nSuch was the challenge issued to the conceited, self-proclaimed sun god, and with a strength far beyond mortal ken,\nThey faced the thunder and lightning that shook the very mountains, and finally, with but a blowdart did they shoot the false sun from the sky.\n\n\"See, O Glorious King? How could the crude arts of ordinary mortals forge such a beautiful gem?\"\n\"Our Master has given me and my foolish brother orders to come and offer you a secret salve with which to heal your wounds.\"\n\"The gem that our Master bestowed upon us is here. Please, you may inspect it personally. Really, how could we possibly harm you?\"\n\nIn this way, an imitation gemstone that seemed perfectly identical to the original, forged with fire hitherto unknown to mortals,\nFooled the earthquake-causing great dragon into drinking the elixir which stripped it of its power, and thus was it buried alive amidst the mountains.\n\nCountless legends of adventure that beggar the imagination would later become the origins of the traditions of both the Collective of Plenty and the mines,\nAnd at the crossroads where all roads end, the twin heroes who met the warrior walked with him together into the night wind...\n\n\"O Brave Hero, should thy path lead to executing fell dragons\"\n\"O Brave Hero, if your path leads to stamping out suffering\"\n\"We swear upon sacred Yaxche and the ancestors\"\n\"Ahpub's blowdarts and Ixquieh's forge-fires shall be yours to use.\"\nIt was the age when the banners of the tribes had not yet been coated in dust, and the colors of the pact had not yet faded.\nThe new King of the Cinder City had yet to seize that highest authority, and the plot to betray his oath had yet to be hatched,\nThe twin heroes of yesteryear, once inseparable as form and shadow, were now at odds, separated by their respective positions.\n\nThough born of the same blood, and though they had embarked on the same journey together with the One Entombed With the Primal Fire,\nThe eyes of the warrior who wallowed in blood and vengeance still saw dragonkind much differently than the flame-forging artisan,\nThough he had never publicly opposed the hero's prohibition, his enmity toward the dragons was known to all.\nAnd thus it was that when the Lord of the Cinder City tentatively ordered that the fleeing wicked dragons be pursued,\nAmong the heroes who still served the Alliance at that time, only Ahpub answered the call,\nAnd as Chief, he led countless warriors of the Collective of Plenty before the mines in the mountains,\nAsking the ruler of the Nanatzcayan to hand over the \"ferocious beasts hidden in the mountains\" or face their blades.\nAfter facing off for several days, the firebrand hero invited his twin sister to the place of reunion to speak,\nIntending to convince the other party with sincere arguments to remember the oath made that day. However...\n\n\"Utterly, irredeemably stupid... Foolish beyond belief! Has the haze of the forge-fires befuddled thy heart, and caused thee to forget our old blood-vengeance?\"\n\"The new King's decree has been issued. Wilt thou yet seek to shelter those cruel beasts? To betray the Alliance and our vow?\"\n\n\"It is you and the usurper ruling the Cinder City who are the real oathbreakers, my foolish brother... Surely you recall the hero's prohibition?\"\n\"Should you insist on hurting these peace-loving dragons, who wish no ill upon us... Nanatzcayan will see you as enemies who betrayed our Alliance.\"\n\"O Brother, my foolish brother... What you seek has long ceased to be vengeance, but a blind bloodlust, merely to satiate yourself.\"\n\nThe increasingly incendiary language and the sneering moonlight stole the last trace of his rationality, and brought about a burning rage,\nThe hero who once locked horns with the titanic dragon drew the blade at his waist and leveled it at the neck of his closest kin.\nHe intended to do no more than cow the opposition, so as to make that calm Chief of the mines of the mountains obey the new King's decree,\nBut the crimson that spurted forth terminated all talk, leaving only despairing wails.\nAt the end of the path of \"strength\" and \"blessings,\" the hero held the one closest to him in his embrace and walked into the incinerating fire.\n\nIn the end, the beacons of war between the tribes were not lit, but rather, were extinguished along with the disappearance of the two Chiefs.\nPretending to forgive the dragons, the King sent emissaries to attempt to persuade those of the canyons and Plenty to temporarily hand authority over to the Alliance,\nUntil such time as the two tribes had each chosen new Chiefs, and the banners that signified their glory would be returned to them;\nWhile secretly recording the names of those who had sheltered the dragons, waiting for a chance to take the traitors' heads.\nBut Sakkuk, who was later proclaimed the agent of the tribe, was at that time yet aware of the course fate had charted for her...\n\nEven the scheming usurper could not have known that the obstacles to seizing authority would be swept aside so easily.\nAnd just as he was wailing and rejoicing, the young heir of the Flower-Feather Clan offered him yet more secret counsel...",
+    "refinements": [
+      {
+        "name": "Echoes of the Plentiful Land",
+        "desc": "Using an Elemental Skill grants the Jade-Forged Crown effect: Every 1,000 Max HP will increase the Normal Attack DMG dealt by the equipping character by **0.6%** for 10s. Normal Attack DMG can be increased this way by a maximum of **16%**."
+      },
+      {
+        "name": "Echoes of the Plentiful Land",
+        "desc": "Using an Elemental Skill grants the Jade-Forged Crown effect: Every 1,000 Max HP will increase the Normal Attack DMG dealt by the equipping character by **0.7%** for 10s. Normal Attack DMG can be increased this way by a maximum of **20%**."
+      },
+      {
+        "name": "Echoes of the Plentiful Land",
+        "desc": "Using an Elemental Skill grants the Jade-Forged Crown effect: Every 1,000 Max HP will increase the Normal Attack DMG dealt by the equipping character by **0.8%** for 10s. Normal Attack DMG can be increased this way by a maximum of **24%**."
+      },
+      {
+        "name": "Echoes of the Plentiful Land",
+        "desc": "Using an Elemental Skill grants the Jade-Forged Crown effect: Every 1,000 Max HP will increase the Normal Attack DMG dealt by the equipping character by **0.9%** for 10s. Normal Attack DMG can be increased this way by a maximum of **28%**."
+      },
+      {
+        "name": "Echoes of the Plentiful Land",
+        "desc": "Using an Elemental Skill grants the Jade-Forged Crown effect: Every 1,000 Max HP will increase the Normal Attack DMG dealt by the equipping character by **1%** for 10s. Normal Attack DMG can be increased this way by a maximum of **32%**."
       }
     ]
   },
@@ -18023,6 +18898,131 @@
       {
         "name": "Golden Majesty",
         "desc": "Increases Shield Strength by **40%**. Scoring hits on opponents increases ATK by **8%** for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
+      }
+    ]
+  },
+  "Surf's Up": {
+    "name": "Surf's Up",
+    "desc": "A commemorative item originally reserved for the champion of the \"First All-Tribe Surfing Championship.\" Since said tournament is currently in the preparatory stage, the prize is in temporary storage at the Leisurely Puffer, with the shop owner as its custodian.",
+    "weaponType": "Catalyst",
+    "stars": 5,
+    "weaponCurve": [
+      {
+        "stat": "Base ATK",
+        "init": 44.3358,
+        "curve": "ATK 3.4"
+      },
+      {
+        "stat": "CRIT DMG",
+        "init": 0.192,
+        "curve": "C3"
+      }
+    ],
+    "icon": "img/weapon/Surfs_Up.png",
+    "awakenIcon": "img/weapon_woke/Surfs_Up.png",
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": []
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 31.1
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 62.2
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 93.4
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 124.5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 155.6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base ATK",
+            "value": 186.7
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "weaponAscensionsCosts5",
+      "mapping": {
+        "EnemyDropTierA1": "Shard of a Shattered Will",
+        "EnemyDropTierA2": "Locus of a Clear Will",
+        "EnemyDropTierA3": "Sigil of a Striding Will",
+        "EnemyDropTierB1": "Juvenile Fang",
+        "EnemyDropTierB2": "Seasoned Fang",
+        "EnemyDropTierB3": "Tyrant's Fang",
+        "WeaponAsc1": "Blazing Sacrificial Heart's Terror",
+        "WeaponAsc2": "Blazing Sacrificial Heart's Hesitance",
+        "WeaponAsc3": "Blazing Sacrificial Heart's Resolve",
+        "WeaponAsc4": "Blazing Sacrificial Heart's Splendor"
+      }
+    },
+    "lore": "This is one part of the story of the Volcano Lord's struggle with Natlan's tribes.\n\nEveryone should already know all about the vile Volcano Lord. A huge, hulking monster, with a body like a salamander with black and purple body, it took advantage of the other great ancient dragons' absence to sneak in and occupy the empty Great Volcano of Tollan, and began to run roughshod over the people, committing all manner of abuses and outrages, its crimes beyond count, and the various tribes suffered greatly. Fortunately, the black Volcano Lord was completely driven out of Natlan in the end, so kids these days don't need to worry about him getting up to his antics anymore!\nWhat we will speak of today is how the ancient Pyro Archon Cochanina cleverly kicked the Volcano Lord out of the lands of the People of the Springs.\n\nOn that day, the Volcano Lord was lying in his volcano, admiring his own pitch-black body, and scratching his head, when boom! He thought up another outrageously evil idea.\n\"Bleh, it's just so dark down here under the volcano — even darker than a moonless night! Why, I can't even see my own body.\"\n\"I hear those 'People of the Springs' down south have the cleanest, purest water in all of Natlan! If I can throw all the dark, filthy things down here over there and give 'em a good washing, maybe we can clean this place up nice and good! As for those insignificant little tribespeople... Eh, who gives a hoot what they think?\"\nAs the great Volcano Lord thought this, he couldn't help but be immeasurably self-satisfied and rejoice at the idea of getting nice and clean. And so he made the volcano belch out thick smoke, giving him shadows in which to hide, and came among the People of the Springs. Completely and utterly indifferent to the protests of the people and their attempts to stop him, he dumped all his filthy black things — absolutely everything, even the kitchen sink — into the springs. This royally fouled up the air of the entire tribe itself, so that even the Flowcurrent Birds couldn't take it anymore and winged it right outta there one by one.\nIt couldn't go on like that any longer! So the elder of the tribe hauled tail to find Cochanina, who was Pyro Archon, and told her what had gone down.\nCochanina gave a big sigh. This wasn't the first time the Volcano Lord had stirred up serious trouble in Natlan. But alas, the Volcano Lord was just too tough a customer. Though he'd been defeated many times by previous Pyro Archons, he'd always manage to slip away by some fluke, hiding down at the pitch-black bottom of the volcano for a time, before eventually emerging once more. So, Cochanina thought of a plan to drive the Volcano Lord from those lands once and for all. She didn't bring her trusted weapon — the renowned Unu Pachacuti blade — but brought only a surfboard.\nWhen Cochanina arrived before the Volcano Lord, he happened to be leisurely soaking in a hot spring that had already been stained black, jiggling his big round fat belly in circles, looking totally chilled out.\n\"Ah, great Volcano Lord! How can the springs these pathetic little humans use for bathing be enough to wash your precious treasures? Only the ancient, secret treasure left behind by the great hero Uenuku and passed down among the 'People of the Springs,' the 'Iridescent Chalice' from which infinite rainbows spill forth, is worthy of your noble self.\"\n\"Oh?\" The Volcano Lord's interest was instantly piqued. Though the woman in front of him was nothing more than a worthless, inconsequential tribesperson, but her suggestion and humble attitude meant she might be of use. \"In that case, why are you still standing there instead of taking my illustrious self to retrieve that which is rightfully mine?\"\n\"Ah, great Volcano Lord, there is something of which you may not be aware. That treasure is not on land, but is hidden in the depths of the sea. Alas, you don't know how to surf, and we are but puny humans, and cannot make a boat that could accommodate your glorious, majestic form...\"\n\"Hmph! You better not underestimate me!\" The Volcano Lord replied in a huff. He was always like this. Whenever one of those inferior little peons said he couldn't do something, he'd always make a show of insisting he could do it. \"Lead the way! It's just surfing, after all, how could it possibly be hard for one as magnificent as I?\"\nAnd just like that, Cochanina led the Volcano Lord right out towards the deep sea. The clumsy Volcano Lord simply could not compete with the tribe's surfing champion, and could only follow along in her wake, eating the spray her board kicked up. Seeing that he was already dizzy, Cochanina tossed out a Drifting Pufferfish way off into the distance and shouted loudly:\n\"Look! The treasure's right over there! This is the key to opening it!\"\nThe splish-splashing waves made it difficult for the Volcano Lord to see just what she'd thrown, but he was the mighty Volcano Lord, so how could he ever admit he was inferior to humans in any way? And so he charged after the \"treasure\" with a roar, only to end up getting struck right and good by the drifting pufferfish, and was in so much pain he fell right off his surfboard into the sea.\nEven the massive body of the Volcano Lord is but a grain of sand compared to the vastness of the sea, and moreover, there are more terrifying things lurking beneath the waves than he. Anyway, the Volcano Lord struggled sorrily in the sea for a good long while before finally latching onto some reeds, and drifted for a long, long time before he made it back to shore. Though Cochanina didn't manage to get him out of Natlan entirely, the Volcano Lord never again dared to mess with the People of the Springs.",
+    "refinements": [
+      {
+        "name": "Aqua Remembrance",
+        "desc": "Max HP increased by **20%**. Once every 15s, for the 14s after using an Elemental Skill: Gain 4 Scorching Summer stacks. Each stack increases Normal Attack DMG by **12%**. For the duration of the effect, once every 1.5s, lose 1 stack after a Normal Attack hits an opponent; once every 1.5s, gain 1 stack after triggering a Vaporize reaction on an opponent. Max 4 Scorching Summer stacks."
+      },
+      {
+        "name": "Aqua Remembrance",
+        "desc": "Max HP increased by **25%**. Once every 15s, for the 14s after using an Elemental Skill: Gain 4 Scorching Summer stacks. Each stack increases Normal Attack DMG by **15%**. For the duration of the effect, once every 1.5s, lose 1 stack after a Normal Attack hits an opponent; once every 1.5s, gain 1 stack after triggering a Vaporize reaction on an opponent. Max 4 Scorching Summer stacks."
+      },
+      {
+        "name": "Aqua Remembrance",
+        "desc": "Max HP increased by **30%**. Once every 15s, for the 14s after using an Elemental Skill: Gain 4 Scorching Summer stacks. Each stack increases Normal Attack DMG by **18%**. For the duration of the effect, once every 1.5s, lose 1 stack after a Normal Attack hits an opponent; once every 1.5s, gain 1 stack after triggering a Vaporize reaction on an opponent. Max 4 Scorching Summer stacks."
+      },
+      {
+        "name": "Aqua Remembrance",
+        "desc": "Max HP increased by **35%**. Once every 15s, for the 14s after using an Elemental Skill: Gain 4 Scorching Summer stacks. Each stack increases Normal Attack DMG by **21%**. For the duration of the effect, once every 1.5s, lose 1 stack after a Normal Attack hits an opponent; once every 1.5s, gain 1 stack after triggering a Vaporize reaction on an opponent. Max 4 Scorching Summer stacks."
+      },
+      {
+        "name": "Aqua Remembrance",
+        "desc": "Max HP increased by **40%**. Once every 15s, for the 14s after using an Elemental Skill: Gain 4 Scorching Summer stacks. Each stack increases Normal Attack DMG by **24%**. For the duration of the effect, once every 1.5s, lose 1 stack after a Normal Attack hits an opponent; once every 1.5s, gain 1 stack after triggering a Vaporize reaction on an opponent. Max 4 Scorching Summer stacks."
       }
     ]
   },

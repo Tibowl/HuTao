@@ -137,7 +137,7 @@ Note: this command supports fuzzy search.`,
             embed.setThumbnail(getLink(enemy.icon))
 
         if (enemy.resistance)
-            embed.addFields({ name: "Resistances", value: `\`\`\`\n${createTable(["Pyro", "Elec", "Cryo", "Hydro", "Anemo", "Geo", "Phys", "Notes"], enemy.resistance, [PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_END])}\n\`\`\`` })
+            embed.addFields({ name: "Resistances", value: `\`\`\`\n${createTable(["Pyro", "Elec", "Cryo", "Hydro", "Anemo", "Geo", "Dendro", "Phys", "Notes"], enemy.resistance, [PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_START, PAD_END])}\n\`\`\`` })
 
         return embed
     }
