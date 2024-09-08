@@ -409,6 +409,56 @@
     ]
   },
   {
+    "name": "Local Specialties (Natlan)",
+    "pages": [
+      {
+        "name": "Sprayfeather Gill route (before quests)",
+        "desc": "**Sprayfeather Gilles ${Sprayfeather Gill}** can found in Natlan.\n\n> A special feather-shaped species of plant that grows by the seaside. It looks kind of like a seagrass but is in truth a soft-bodied aquatic coral with a unique shape.",
+        "img": "https://static.hutaobot.moe/images/Sprayfeather_Gill_NQ_ca782542.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Sprayfeather Gill"]
+        }
+      },
+      {
+        "name": "Sprayfeather Gill route (after quests)",
+        "desc": "**Sprayfeather Gilles ${Sprayfeather Gill}** can found in Natlan.\n\n> A special feather-shaped species of plant that grows by the seaside. It looks kind of like a seagrass but is in truth a soft-bodied aquatic coral with a unique shape.",
+        "img": "https://static.hutaobot.moe/images/Sprayfeather_Gill_PQ_6a78fcc9.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Sprayfeather Gill"]
+        }
+      },
+      {
+        "name": "Brilliant Chrysanthemum route",
+        "desc": "**Brilliant Chrysanthemum ${Brilliant Chrysanthemum}** can found in Natlan.\n\n> A flower with a shape like floating wings. Its petals sway in an unbelievably relaxed, serene manner as they are caressed by the wind.",
+        "img": "https://static.hutaobot.moe/images/BrilliantChrysantemum_e6147716.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Brilliant Chrysanthemum"]
+        }
+      },
+      {
+        "name": "Quenepa Berry route",
+        "desc": "**Quenepa Berries ${Quenepa Berry}** can found in Natlan and are being sold by **Cintli** (up to 5 each per 3 days).\n\n> Bluish, juicy berries that grow in large amounts near the Scions of the Canopy. Their shape is similar to that of Flamegranates.",
+        "img": "https://static.hutaobot.moe/images/Quenepa_Berry_1ddff3e5.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Quenepa Berry"]
+        }
+      },
+      {
+        "name": "Saurian Claw Succulent route",
+        "desc": "**Saurian Claw Succulents ${Saurian Claw Succulent}** can found in Natlan.\n\n> A succulent shaped like the paw of a great animal.",
+        "img": "https://static.hutaobot.moe/images/SaurianClawSucculent_a9e66a9a.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Saurian Claw Succulent"]
+        }
+      }
+    ]
+  },
+  {
     "name": "Materials",
     "pages": [
       {
@@ -499,6 +549,15 @@
         "credits": "Soul",
         "links": {
           "material": ["Spring of the First Dewdrop"]
+        }
+      },
+      {
+        "name": "Embercore Flower route",
+        "desc": "**Embercore Flowers ${Embercore Flower}** can be found in the wild.\n\n> A strange flower that can be found all over the plains and highlands.\n> Mature buds will bloom after being hit.",
+        "img": "https://static.hutaobot.moe/images/EmbercoreFlowers_7734a89d.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Embercore Flower"]
         }
       }
     ]
@@ -849,6 +908,33 @@
         "links": {
           "enemy": ["Praetorian Golem"],
           "material": ["Ruined Hilt", "Splintered Hilt", "Still-Smoldering Hilt"]
+        }
+      },
+      {
+        "name": "Wayob Manifestation route (Shard of a Shattered Will, Locus of a Clear Will and Sigil of a Striding Will)",
+        "desc": "**Wayob Manifestations ${Flow-Inverted Wayob Manifestation}${Foliar-Swift Wayob Manifestation}${Rock-Cavernous Wayob Manifestation}** are Elite Enemies. They are Mystical Beasts and drop **Shard of a Shattered Will ${Shard of a Shattered Will}**, **Locus of a Clear Will ${Locus of a Clear Will}** and **Sigil of a Striding Will ${Sigil of a Striding Will}**.",
+        "img": "https://static.hutaobot.moe/images/WayobManif_c8b3806b.png",
+        "links": {
+          "enemy": ["Flow-Inverted Wayob Manifestation", "Foliar-Swift Wayob Manifestation", "Rock-Cavernous Wayob Manifestation"],
+          "material": ["Shard of a Shattered Will", "Locus of a Clear Will", "Sigil of a Striding Will"]
+        }
+      },
+      {
+        "name": "Eroding Avatar of Lava route (Ignited Stone, Seed of Life and Seeing Eye)",
+        "desc": "**Eroding Avatar of Lavas ${Eroding Avatar of Lava}** are Elite Enemies. They are Mystical Beasts and drop **Ignited Stone ${Ignited Stone}**, **Ignited Seed of Life ${Ignited Seed of Life}** and **Ignited Seeing Eye ${Ignited Seeing Eye}**.",
+        "img": "https://static.hutaobot.moe/images/EAvatarsOfLava_8733ce03.png",
+        "links": {
+          "enemy": ["Eroding Avatar of Lava"],
+          "material": ["Ignited Stone", "Ignited Seed of Life", "Ignited Seeing Eye"]
+        }
+      },
+      {
+        "name": "Secret Source Automaton route (Axis of the Secret Source, Sheath of the Secret Source and Heart of the Secret Source)",
+        "desc": "**Secret Source Automatons ${Secret Source Automaton: Hunter-Seeker}** are Elite Enemies. They are Automatons and drop **Axis of the Secret Source ${Axis of the Secret Source}**, **Sheath of the Secret Source ${Sheath of the Secret Source}** and **Heart of the Secret Source ${Heart of the Secret Source}**.",
+        "img": "https://static.hutaobot.moe/images/SecretSourceAutomatons_31ef3870.png",
+        "links": {
+          "enemy": ["Secret Source Automaton: Hunter-Seeker"],
+          "material": ["Axis of the Secret Source", "Sheath of the Secret Source", "Heart of the Secret Source"]
         }
       }
     ]
