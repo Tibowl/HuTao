@@ -412,7 +412,7 @@
     "name": "Local Specialties (Natlan)",
     "pages": [
       {
-        "name": "Sprayfeather Gill route (before quests)",
+        "name": "Sprayfeather Gill no quests route",
         "desc": "**Sprayfeather Gilles ${Sprayfeather Gill}** can found in Natlan.\n\n> A special feather-shaped species of plant that grows by the seaside. It looks kind of like a seagrass but is in truth a soft-bodied aquatic coral with a unique shape.",
         "img": "https://static.hutaobot.moe/images/Sprayfeather_Gill_NQ_ca782542.png",
         "credits": "Soul",
@@ -421,7 +421,7 @@
         }
       },
       {
-        "name": "Sprayfeather Gill route (after quests)",
+        "name": "Sprayfeather Gill quests route",
         "desc": "**Sprayfeather Gilles ${Sprayfeather Gill}** can found in Natlan.\n\n> A special feather-shaped species of plant that grows by the seaside. It looks kind of like a seagrass but is in truth a soft-bodied aquatic coral with a unique shape.",
         "img": "https://static.hutaobot.moe/images/Sprayfeather_Gill_PQ_6a78fcc9.png",
         "credits": "Soul",
