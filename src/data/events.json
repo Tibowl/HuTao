@@ -4201,6 +4201,8 @@
     {
         "name": "\"Of Thorns and Crowns\" Event",
         "type": "In-game",
+        "url": "https://www.hoyolab.com/article/33358228",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/09/14/1fdb8fef78c3dba7b02d579f007d8af6_596759327170243869.jpg",
         "start": "2024-09-20 10:00:00",
         "end": "2024-09-30 03:59:00",
         "reminder": "end"
@@ -4215,6 +4217,7 @@
     {
         "name": "\"Ley Line Overflow\" Event",
         "type": "In-game",
+        "url": "https://www.hoyolab.com/article/33249105",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2024/07/04/d76cdab75f5f952a213e564f6b0a5a51_3962188697956248255.jpg",
         "start": "2024-09-16 04:00:00",
         "end": "2024-09-23 03:59:00",
@@ -4228,5 +4231,13 @@
         "start": "2024-08-28 12:00:00",
         "end": "2024-10-06 23:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "5.1 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/33612100",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/09/25/0/e8291389c744b0cc21e4670400122c0f_4391635490642722509.jpeg",
+        "start": "2024-09-27 08:00:00",
+        "timezone": "-04:00"
     }
 ]
