@@ -4185,6 +4185,8 @@
     {
         "name": "\"Gift for a New Horizon\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/33642500",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/09/24/14d8f7bc888002a82449846457cf4242_6803808296063063687.jpg",
         "start": "2024-09-28 00:00:00",
         "end": "2024-10-08 14:59:00",
         "reminder": "end"
@@ -4210,6 +4212,8 @@
     {
         "name": "\"Mementos of Teyvat\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/33642499",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/09/24/973d8cc2e7d9e6d2d16bde4142f1ffbc_835201835431266028.jpg",
         "start": "2024-09-28 10:00:00",
         "end": "2024-10-08 03:59:00",
         "reminder": "end"
@@ -4233,11 +4237,79 @@
         "reminder": "end"
     },
     {
+        "name": "\"Starlight Reverie\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/33700041",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/09/27/0/28c96210f6ac40f900dfe75c5a97eb62_7005923925212239656.jpeg",
+        "start": "2024-09-28 12:00:00",
+        "end": "2024-10-12 23:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Urgent Orders\" Web Event",
+        "type": "Web",
+        "link": "https://www.hoyolab.com/article/33914247",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/09/27/44de49424893b2b27c648c011d8320db_7242735399544146405.jpg",
+        "start": "2024-10-04 12:00:00",
+        "end": "2024-10-11 23:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "5.1 Special Program",
         "type": "Stream",
         "link": "https://www.hoyolab.com/article/33612100",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2024/09/25/0/e8291389c744b0cc21e4670400122c0f_4391635490642722509.jpeg",
         "start": "2024-09-27 08:00:00",
         "timezone": "-04:00"
+    },
+    {
+        "name": "5.0 Maintenance",
+        "type": "Maintenance",
+        "start": "2024-10-09 06:00:00",
+        "end": "2024-10-09 11:00:00"
+    },
+    {
+        "name": "Event Wish \"Forgefire's Blessing\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/34010550",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/10/06/0/cb6bc66ea52831db26ecc32052b55624_1164933379887802631.jpeg",
+        "start": "2024-10-09 11:00:00",
+        "start_server": false,
+        "end": "2024-10-29 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Of Silken Clouds Woven\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/34010550",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/10/06/0/31612ce67adb70f819b734a288b146e4_3396890663088724333.jpeg",
+        "start": "2024-10-09 11:00:00",
+        "start_server": false,
+        "end": "2024-10-29 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/34010550",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/10/06/0/d2d5265050e0455dd44ae239770e7170_5817720916961488534.jpeg",
+        "start": "2024-10-09 11:00:00",
+        "start_server": false,
+        "end": "2024-10-29 17:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Aphid Treasure Trace\" Event",
+        "type": "In-game",
+        "start": "2024-10-10 10:00:00",
+        "end": "2024-10-21 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Reminiscent Regimen: Thrill\" Event",
+        "type": "In-game",
+        "start": "2024-10-17 10:00:00",
+        "end": "2024-10-28 03:59:00",
+        "reminder": "end"
     }
 ]
