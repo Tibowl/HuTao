@@ -726,6 +726,16 @@
           "enemy": ["Area Alert Mek", "Arithmetic Enhancer Mek", "Geological Survey Mek", "Nimble Harvester Mek", "Recon Log Mek", "Underwater Patrol Mek", "Underwater Survey Mek", "Annihilation Specialist Mek", "Assault Specialist Mek", "Deepwater Assault Mek", "Construction Specialist Mek", "Suppression Specialist Mek"],
           "material": ["Meshing Gear", "Mechanical Spur Gear", "Artificed Dynamic Gear"]
         }
+      },
+      {
+        "name": "Natlan Saurians route (Juvenile Fang, Seasoned Fang and Tyrant's Fang)",
+        "desc": "**Natlan Saurians ${Koholasaur Whelp}, ${Koholasaurus}, ${Tepetlisaur Whelp}, ${Tepetlisaurus}, ${Yumkasaur Whelp}, ${Yumkasaurus} are Common Enemies found in Natlan. They drop **Juvenile Fang ${Juvenile Fang}**, **Seasoned Fang ${Seasoned Fang}** and **Tyrant's Fang ${Tyrant's Fang}**.",
+        "img": "https://static.hutaobot.moe/images/SaurianFangs_98ceccaf.png",
+        "credits": "Soul",
+        "links": {
+          "enemy": ["Koholasaur Whelp", "Koholasaurus", "Tepetlisaur Whelp", "Tepetlisaurus", "Yumkasaur Whelp", "Yumkasaurus"],
+          "material": ["Juvenile Fang", "Seasoned Fang", "Tyrant's Fang"]
+        }
       }
     ]
   },
