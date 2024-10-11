@@ -4301,6 +4301,8 @@
     {
         "name": "\"Aphid Treasure Trace\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/34043094",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/09/29/f72897fc630cefb3c97d0657b0e4f1c5_8269941610971944468.png",
         "start": "2024-10-10 10:00:00",
         "end": "2024-10-21 03:59:00",
         "reminder": "end"
