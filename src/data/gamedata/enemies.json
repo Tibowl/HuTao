@@ -1235,7 +1235,7 @@
   },
   "Cryo Abyss Mage": {
     "name": "Cryo Abyss Mage",
-    "desc": "Abyss creatures that call upon Cryo in battle.\nThough they dabble with great power and can even create icicles by condensing and freezing water vapor in the atmosphere, their bodies are very vulnerable in and of themselves. Once their protective barrier has been broken, they are at your mercy.",
+    "desc": "Abyss creatures that call upon Cryo in battle.\nThough they dabble with great power and can even create icicles by condensing and freezing water vapor in the atmosphere, their bodies are very vulnerable in and of themselves. Once their protective Ward has been broken, they are at your mercy.",
     "icon": "img/enemy/Cryo_Abyss_Mage.png",
     "type": "The Abyss",
     "kind": "Elite Enemy",
@@ -1762,7 +1762,7 @@
   },
   "Fatui Skirmisher - Geochanter Bracer": {
     "name": "Fatui Skirmisher - Geochanter Bracer",
-    "desc": "A skirmisher with the ability to generate a Geo Shield and defend their allies.\nUnlike the elite Mages and Agents, Fatui Skirmishers are soldiers of lesser individual might.\nTo complete their tasks and reduce losses in men and material, their tactics are thus more reliant on teamwork.",
+    "desc": "A skirmisher with the ability to generate a Geo Ward and defend their allies.\nUnlike the elite Mages and Agents, Fatui Skirmishers are soldiers of lesser individual might.\nTo complete their tasks and reduce losses in men and material, their tactics are thus more reliant on teamwork.",
     "icon": "img/enemy/Fatui_Skirmisher_Geochanter_Bracer.png",
     "type": "Fatui",
     "kind": "Common Enemy",
@@ -5179,6 +5179,42 @@
     "desc": "A strange monster that must continually absorb heat to stay in an active state.\nThe ancient civilization used many different types of golden designs to drive the flow of phlogiston, allowing massive constructs and magnificent cities to operate under the wisdom of the golden patterns. It is said that in addition to machines with fixed structures, the creatures known as Avatars of Lava are actually badly damaged lifeforms that were once created in the same way. However, after the flames of the sacred mountain were extinguished, most of them lost their sense of purpose and direction.",
     "icon": "img/enemy/Eroding_Avatar_of_Lava.png",
     "type": "Mystical Beasts",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Tenebrous Mimiflora": {
+    "name": "Tenebrous Mimiflora",
+    "desc": "Abyssal monsters that have descended to this world from the deep, dark depths of a twisted and alien world, they possess a plant-like appearance.\nIt is said that where the corrosive waves of the dark tide lap, such plant-like dark monsters will grow. But they only bear a superficial resemblance to plants, for it is a form they only adopted to get closer to the tree-like world, that they might extract the necessary concepts from it, and analyze and imitate them.\nSome raving lunatics who have lost their minds say that those things that extend out like leaves are actually the beginnings of gates to other worlds.",
+    "icon": "img/enemy/Tenebrous_Mimiflora.png",
+    "type": "The Abyss",
+    "resistance": [
+      [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%"
+      ]
+    ]
+  },
+  "Secret Source Automaton: Configuration Device": {
+    "name": "Secret Source Automaton: Configuration Device",
+    "desc": "A manufacturing machine from the ancient ruins. This type of machine, which can transform into numerous shapes, was used by the masters of the ancient ruins to perform various manufacturing tasks. As long as you learn how to use such a machine, you could build a city colossal beyond imagination, even within extreme environments like the depths of a volcano.\nIn addition, it also seems to be able to be used as a weapon. Though the ancient civilization has long since fallen, this machine, shaped like a giant claw and powered by the golden designs engraved on it, can still engage in battle based upon its preset instructions.",
+    "icon": "img/enemy/Secret_Source_Automaton_Configuration_Device.png",
+    "type": "Automatons",
     "resistance": [
       [
         "10%",

@@ -23063,6 +23063,548 @@
       }
     }
   },
+  "Kinich": {
+    "name": "Kinich",
+    "desc": "A Huitztlan Saurian Hunter skilled at counting costs.",
+    "releasedOn": "2024-09-17 18:00:00",
+    "star": 5,
+    "weaponType": "Claymore",
+    "icon": "img/char/Kinich.png",
+    "media": {
+      "imgs": [
+        "img/char_full/Kinich.png"
+      ]
+    },
+    "baseStats": {
+      "hpBase": 1000.986,
+      "attackBase": 25.8818,
+      "defenseBase": 62.40269,
+      "criticalBase": 0.05,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 11,
+      "birthDay": 11,
+      "association": "Natlan",
+      "title": "Turnfire Hunt",
+      "detail": "A Huitztlan Saurian Hunter skilled at counting costs.",
+      "affiliation": "Huitztlan",
+      "element": "Dendro",
+      "constellation": "Chimaera Alebriius",
+      "cvChinese": "斑马 & 弭洋",
+      "cvJapanese": "杉山紀彰 & 竹内順子",
+      "cvEnglish": "John Patneaude & Abby Espiritu",
+      "cvKorean": "Kang Seong-woo & Park Li-na"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Nightsun Style",
+            "desc": "**Normal Attack**\nPerforms up to 3 rapid strikes.\nAfter using his Elemental Skill \"Canopy Hunter: Riding High\"'s mid-air swing, he can perform a Normal Attack in mid-air before landing.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to spin and throw his Claymore forward to attack opponents.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "img/skill/Common_Claymore.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "99.0%",
+                  "107.0%",
+                  "115.1%",
+                  "126.6%",
+                  "134.7%",
+                  "143.9%",
+                  "156.5%",
+                  "169.2%",
+                  "181.9%",
+                  "195.7%",
+                  "209.5%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "82.9%",
+                  "89.7%",
+                  "96.4%",
+                  "106.0%",
+                  "112.8%",
+                  "120.5%",
+                  "131.1%",
+                  "141.7%",
+                  "152.3%",
+                  "163.9%",
+                  "175.4%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "123.5%",
+                  "133.5%",
+                  "143.6%",
+                  "158.0%",
+                  "168.0%",
+                  "179.5%",
+                  "195.3%",
+                  "211.1%",
+                  "226.9%",
+                  "244.1%",
+                  "261.4%"
+                ]
+              },
+              {
+                "name": "Mid-Air Normal Attack DMG",
+                "values": [
+                  "167.7%",
+                  "181.3%",
+                  "195.0%",
+                  "214.5%",
+                  "228.1%",
+                  "243.8%",
+                  "265.2%",
+                  "286.6%",
+                  "308.1%",
+                  "331.5%",
+                  "354.9%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "48.4%×3",
+                  "52.4%×3",
+                  "56.3%×3",
+                  "61.9%×3",
+                  "65.9%×3",
+                  "70.4%×3",
+                  "76.6%×3",
+                  "82.8%×3",
+                  "89.0%×3",
+                  "95.7%×3",
+                  "102.5%×3"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "50.0"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "74.6%",
+                  "80.7%",
+                  "86.7%",
+                  "95.4%",
+                  "101.5%",
+                  "108.4%",
+                  "118.0%",
+                  "127.5%",
+                  "137.0%",
+                  "147.4%",
+                  "157.8%"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "149%/186%",
+                  "161%/201%",
+                  "173%/217%",
+                  "191%/238%",
+                  "203%/253%",
+                  "217%/271%",
+                  "236%/295%",
+                  "255%/318%",
+                  "274%/342%",
+                  "295%/368%",
+                  "316%/394%"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Kindling",
+                "BossMat": "Denial and Judgment",
+                "EnemyDropTier1": "Juvenile Fang",
+                "EnemyDropTier2": "Seasoned Fang",
+                "EnemyDropTier3": "Tyrant's Fang"
+              }
+            }
+          },
+          {
+            "name": "Canopy Hunter: Riding High",
+            "desc": "Kinich uses his big-game hunting skills to either move swiftly or attack his opponent.\nWhen there is an opponent or object that can be attacked nearby, he will attach a grappling hook to the target and enter Nightsoul's Blessing with 0 Nightsoul points. If neither is nearby, he fires a grappling hook forward and swings in mid-air, and this Skill's CD is decreased by 60%.\nThis skill can be Held to release. When it is Held, Kinich can aim the grappling hook.\n\n**Nightsoul's Blessing: Kinich**\nKinich's Nightsoul's Blessing lasts 10s and generates 2 Nightsoul points every second.\nIn this state, Kinich will hook onto a nearby opponent and perform a variable attack:\n·When using a Normal Attack, Kinich will fire Loop Shots as he loops around the grappled target based on his current movement direction, dealing Nightsoul-aligned **Dendro DMG** and generating 3 Nightsoul points. Loop Shot DMG is considered Elemental Skill DMG.\n·When Nightsoul points are at max, he can use the Elemental Skill \"Scalespiker Cannon\": Consume all Nightsoul points to deal Nightsoul-aligned **Dendro DMG**. When \"Scalespiker Cannon\" is Held, Kinich can aim this shot. After firing the Cannon, Kinich will try to grapple to its target.\nWhile in Nightsoul's Blessing, after grappling an opponent or firing \"Scalespiker Cannon,\" a Blind Spot will be generated next to the opponent. When Kinich enters this Blind Spot, it will disappear and he will generate 4 Nightsoul points.\nIf the grapple connection should snap due to exceeding the maximum distance or some other reason, using a Normal Attack will establish a new connection with a nearby opponent before performing Loop Shots.\n\n**\"All things come with a cost. I suggest you make a suitable offer... What? No, I don't do installments.\"**",
+            "icon": "img/skill/Kinich_1.png",
+            "talentTable": [
+              {
+                "name": "Loop Shot DMG",
+                "values": [
+                  "57.3%×2",
+                  "61.6%×2",
+                  "65.9%×2",
+                  "71.6%×2",
+                  "75.9%×2",
+                  "80.2%×2",
+                  "85.9%×2",
+                  "91.6%×2",
+                  "97.4%×2",
+                  "103.1%×2",
+                  "108.8%×2",
+                  "114.6%×2",
+                  "121.7%×2"
+                ]
+              },
+              {
+                "name": "Scalespiker Cannon DMG",
+                "values": [
+                  "687.4%",
+                  "739.0%",
+                  "790.6%",
+                  "859.3%",
+                  "910.9%",
+                  "962.4%",
+                  "1031.2%",
+                  "1099.9%",
+                  "1168.6%",
+                  "1237.4%",
+                  "1306.1%",
+                  "1374.9%",
+                  "1460.8%"
+                ]
+              },
+              {
+                "name": "Nightsoul Point Limit",
+                "value": "20.0"
+              },
+              {
+                "name": "CD",
+                "value": "18.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Kindling",
+                "BossMat": "Denial and Judgment",
+                "EnemyDropTier1": "Juvenile Fang",
+                "EnemyDropTier2": "Seasoned Fang",
+                "EnemyDropTier3": "Tyrant's Fang"
+              }
+            }
+          }
+        ],
+        "ult": {
+          "name": "Hail to the Almighty Dragonlord",
+          "desc": "Unleashes the power of the Almighty Dragonlord, K'uhul Ajaw (on a limited, conditional, restricted, contractual, partial, temporary basis), dealing Nightsoul-aligned **AoE Dendro DMG**. Ajaw will unleash his Dragon Breath at intervals, dealing Nightsoul-aligned **AoE Dendro DMG**.\nIf Kinich is in Nightsoul's Blessing when this is used, this Blessing's duration is extended by 1.7s.\n\n**\"Yes, yes! You stand before K'uhul Ajaw the Almighty Dragonlord! Come forward, then! Kneel, and kiss our feet!\"**",
+          "icon": "img/skill/Kinich_2.png",
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "134.0%",
+                "144.0%",
+                "154.1%",
+                "167.5%",
+                "177.6%",
+                "187.6%",
+                "201.0%",
+                "214.4%",
+                "227.8%",
+                "241.2%",
+                "254.6%",
+                "268.0%",
+                "284.8%"
+              ]
+            },
+            {
+              "name": "Dragon Breath DMG",
+              "values": [
+                "120.7%",
+                "129.8%",
+                "138.8%",
+                "150.9%",
+                "160.0%",
+                "169.0%",
+                "181.1%",
+                "193.2%",
+                "205.3%",
+                "217.3%",
+                "229.4%",
+                "241.5%",
+                "256.6%"
+              ]
+            },
+            {
+              "name": "Duration",
+              "value": "15.0s"
+            },
+            {
+              "name": "CD",
+              "value": "18.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "70"
+            }
+          ],
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Kindling",
+              "BossMat": "Denial and Judgment",
+              "EnemyDropTier1": "Juvenile Fang",
+              "EnemyDropTier2": "Seasoned Fang",
+              "EnemyDropTier3": "Tyrant's Fang"
+            }
+          },
+          "type": "Dendro"
+        },
+        "passive": [
+          {
+            "name": "The Price of Desolation",
+            "desc": "When Kinich is in Nightsoul's Blessing state, opponents hit by his Elemental Skill will enter the Desolation state, and when affected by Burning or Burgeon reaction DMG, they will restore 7 Nightsoul points to him. Nightsoul points can be gained this way once every 0.8s. The Desolation state will persist until this instance of Kinich's Nightsoul's Blessing state ends.",
+            "icon": "img/skill/Kinich_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "Flame Spirit Pact",
+            "desc": "After a nearby party member triggers a Nightsoul Burst, Kinich will gain 1 stack of Hunter's Experience that lasts 15s. Max 2 stacks. When Kinich uses **Canopy Hunter: Riding High**'s Scalespiker Cannon, all stacks of Hunter's Experience will be consumed, with each stack consumed increasing the DMG dealt by this Cannon shot by 320% of Kinich's ATK.",
+            "icon": "img/skill/Kinich_4.png",
+            "minAscension": 4
+          },
+          {
+            "name": "Night Realm's Gift: Repaid in Full",
+            "desc": "When Kinich is in the air following **Canopy Hunter: Riding High**'s mid-air swing, he can consume 10 Phlogiston points to perform another mid-air swing.\nWhile in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Kinich. When the current active character is sprinting, in movement states that result from specific Talents, or in the air, when you switch to Kinich: Kinich will perform one of the following actions depending on the conditions met:\n·When facing a Coilgrass Sigil that can be interacted with: He will fire a grappling hook towards it to move;\n·When there are nearby opponents and you are in combat: Kinich will use Canopy Hunter: Riding High in the direction of the opponents;\nOtherwise, Kinich will fire a grappling hook and swing, prioritizing valid Coilgrass Sigils as grapple targets.\nNightsoul Transmission can be triggered once every 10s by your own party.\n\nWhen interacting with Coilgrass Sigils and other items that Yumkasaurs can interact with, \"Canopy Hunter: Riding High\" will be converted to \"Yumkasaur Mimesis,\" which causes interactions with such items to follow rules applicable to Yumkasaurs, and which will not put Canopy Hunter: Riding High on CD.",
+            "icon": "img/skill/Kinich_5.png",
+            "minAscension": 0
+          },
+          {
+            "name": "Swift Envoy",
+            "desc": "While in an area with Phlogiston Mechanics within Natlan, interacting with some harvestable items will increase your own party members' Movement SPD by 15% for 10s. Additionally, the location of nearby **resources unique to Natlan** will appear on your mini-map.",
+            "icon": "img/skill/Kachina_6.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Parrot's Beak",
+            "desc": "After Kinich lands from **Canopy Hunter: Riding High**'s mid-air swing, his Movement SPD will increase by 30% for 6s.\nAdditionally, Scalespiker Cannon's CRIT DMG is increased by 100%.",
+            "icon": "img/const/Kinich_1.png"
+          },
+          {
+            "name": "Tiger Beetle's Palm",
+            "desc": "When Kinich's Elemental Skill hits an opponent, it will decrease their **Dendro RES** by 30% for 6s.\nAdditionally, the first Scalespiker Cannon Kinich fires after entering Nightsoul's Blessing has increased AoE, and its DMG increases by 100%.",
+            "icon": "img/const/Kinich_2.png"
+          },
+          {
+            "name": "Protosuchian's Claw",
+            "desc": "Increases the Level of **Canopy Hunter: Riding High** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Kinich_3.png"
+          },
+          {
+            "name": "Hummingbird's Feather",
+            "desc": "When in Nightsoul's Blessing, Kinich will restore 5 Energy after using his Loop Shots or after unleashing the Scalespiker Cannon. Energy can be regenerated this way once every 2.8s.\nAdditionally, **Hail to the Almighty Dragonlord** deals 70% more DMG.",
+            "icon": "img/const/Kinich_4.png"
+          },
+          {
+            "name": "Howler Monkey's Tail",
+            "desc": "Increases the Level of **Hail to the Almighty Dragonlord** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Kinich_5.png"
+          },
+          {
+            "name": "Auspicious Beast's Shape",
+            "desc": "After Scalespiker Cannon hits an opponent, it will bounce between opponents once, dealing 700% of Kinich's ATK as **Dendro DMG**.\nIf this Scalespiker Cannon triggers the buffs that Passive Talent \"Flame Spirit Pact\" or the Constellation \"Tiger Beetle's Palm\" grant to the Cannon, the bouncing attack will also obtain the relevant buffs.",
+            "icon": "img/const/Kinich_6.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 858.255
+          },
+          {
+            "stat": "Base DEF",
+            "value": 53.5059
+          },
+          {
+            "stat": "Base ATK",
+            "value": 22.189682
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1468.0677
+          },
+          {
+            "stat": "Base DEF",
+            "value": 91.52325
+          },
+          {
+            "stat": "Base ATK",
+            "value": 37.956036
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.096
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2281.1514
+          },
+          {
+            "stat": "Base DEF",
+            "value": 142.21304
+          },
+          {
+            "stat": "Base ATK",
+            "value": 58.97784
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.192
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2890.964
+          },
+          {
+            "stat": "Base DEF",
+            "value": 180.2304
+          },
+          {
+            "stat": "Base ATK",
+            "value": 74.744194
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.192
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3500.7769
+          },
+          {
+            "stat": "Base DEF",
+            "value": 218.24776
+          },
+          {
+            "stat": "Base ATK",
+            "value": 90.510544
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.288
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 4110.59
+          },
+          {
+            "stat": "Base DEF",
+            "value": 256.2651
+          },
+          {
+            "stat": "Base ATK",
+            "value": 106.2769
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 0.384
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Overripe Flamegranate",
+        "EnemyDropTier1": "Juvenile Fang",
+        "EnemyDropTier2": "Seasoned Fang",
+        "EnemyDropTier3": "Tyrant's Fang",
+        "Gem1": "Nagadus Emerald Sliver",
+        "Gem2": "Nagadus Emerald Fragment",
+        "Gem3": "Nagadus Emerald Chunk",
+        "Gem4": "Nagadus Emerald Gemstone",
+        "Specialty": "Saurian Claw Succulent"
+      }
+    }
+  },
   "Kirara": {
     "name": "Kirara",
     "desc": "A courier for Komaniya Express, a delivery company in Inazuma. A nekomata who loves her job and human society.",
@@ -46309,6 +46851,622 @@
         "Gem3": "Vayuda Turquoise Chunk",
         "Gem4": "Vayuda Turquoise Gemstone",
         "Specialty": "Qingxin"
+      }
+    }
+  },
+  "Xilonen": {
+    "name": "Xilonen",
+    "desc": "A Name Engraver of the Nanatzcayan, she is especially skilled at finding a good balance between the heavy responsibilities of her job and living well.",
+    "releasedOn": "2024-10-08 00:00:00",
+    "star": 5,
+    "weaponType": "Sword",
+    "icon": "img/char/Xilonen.png",
+    "media": {
+      "imgs": [
+        "img/char_full/Xilonen.png"
+      ]
+    },
+    "baseStats": {
+      "hpBase": 965.71313,
+      "attackBase": 21.413,
+      "defenseBase": 72.3943,
+      "criticalBase": 0.05,
+      "criticalDmgBase": 0.5
+    },
+    "curves": [
+      {
+        "name": "Base HP",
+        "curve": "Regular hpdef 5*"
+      },
+      {
+        "name": "Base ATK",
+        "curve": "Regular atk 5*"
+      },
+      {
+        "name": "Base DEF",
+        "curve": "Regular hpdef 5*"
+      }
+    ],
+    "meta": {
+      "birthMonth": 3,
+      "birthDay": 13,
+      "association": "Natlan",
+      "title": "Ardent Flames Forge the Soul",
+      "detail": "A Name Engraver of the Nanatzcayan, she is especially skilled at finding a good balance between the heavy responsibilities of her job and living well.",
+      "affiliation": "Nanatzcayan",
+      "element": "Geo",
+      "constellation": "Panthera Ocelota",
+      "cvChinese": "弭洋",
+      "cvJapanese": "ファイルーズあい",
+      "cvEnglish": "Beth Curry",
+      "cvKorean": "Kim I-an"
+    },
+    "skills": [
+      {
+        "talents": [
+          {
+            "name": "Normal Attack: Ehecatl's Roar",
+            "desc": "**Normal Attack**\nPerforms up to 3 rapid strikes.\n\n**Charged Attack**\nConsumes a fixed amount of Stamina and performs a forward kick.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact, both based on Xilonen's DEF.\n\n**Nightsoul's Blessing: Blade Roller**\nWhen in the Nightsoul's Blessing state, Xilonen will enter the Blade Roller mode. While in this mode, Xilonen's Normal Attacks will allow her to perform up to 4 kicks using her roller blades, and she will be unable to use Charged Attacks.\nWhen her Normal and Plunging Attacks are used in this mode, they will switch to being based on her DEF, and Xilonen will deal Nightsoul-aligned **Geo DMG** that cannot be overridden.",
+            "icon": "img/skill/Common_Sword.png",
+            "talentTable": [
+              {
+                "name": "1-Hit DMG",
+                "values": [
+                  "51.8%",
+                  "56.0%",
+                  "60.2%",
+                  "66.2%",
+                  "70.5%",
+                  "75.3%",
+                  "81.9%",
+                  "88.5%",
+                  "95.2%",
+                  "102.4%",
+                  "109.6%"
+                ]
+              },
+              {
+                "name": "2-Hit DMG",
+                "values": [
+                  "27.4%+27.4%",
+                  "29.6%+29.6%",
+                  "31.8%+31.8%",
+                  "35.0%+35.0%",
+                  "37.2%+37.2%",
+                  "39.8%+39.8%",
+                  "43.3%+43.3%",
+                  "46.8%+46.8%",
+                  "50.3%+50.3%",
+                  "54.1%+54.1%",
+                  "57.9%+57.9%"
+                ]
+              },
+              {
+                "name": "3-Hit DMG",
+                "values": [
+                  "72.9%",
+                  "78.9%",
+                  "84.8%",
+                  "93.3%",
+                  "99.2%",
+                  "106.0%",
+                  "115.4%",
+                  "124.7%",
+                  "134.0%",
+                  "144.2%",
+                  "154.4%"
+                ]
+              },
+              {
+                "name": "Charged Attack DMG",
+                "values": [
+                  "91.3%",
+                  "98.8%",
+                  "106.2%",
+                  "116.8%",
+                  "124.3%",
+                  "132.8%",
+                  "144.4%",
+                  "156.1%",
+                  "167.8%",
+                  "180.5%",
+                  "193.3%"
+                ]
+              },
+              {
+                "name": "Charged Attack Stamina Cost",
+                "value": "20.0"
+              },
+              {
+                "name": "Plunge DMG",
+                "values": [
+                  "63.9% DEF",
+                  "69.1% DEF",
+                  "74.3% DEF",
+                  "81.8% DEF",
+                  "87.0% DEF",
+                  "92.9% DEF",
+                  "101.1% DEF",
+                  "109.3% DEF",
+                  "117.5% DEF",
+                  "126.4% DEF",
+                  "135.3% DEF"
+                ]
+              },
+              {
+                "name": "Low/High Plunge DMG",
+                "values": [
+                  "127.8% DEF/159.7% DEF",
+                  "138.2% DEF/172.7% DEF",
+                  "148.6% DEF/185.7% DEF",
+                  "163.5% DEF/204.2% DEF",
+                  "173.9% DEF/217.2% DEF",
+                  "185.8% DEF/232.1% DEF",
+                  "202.2% DEF/252.5% DEF",
+                  "218.5% DEF/272.9% DEF",
+                  "234.9% DEF/293.4% DEF",
+                  "252.7% DEF/315.6% DEF",
+                  "270.5% DEF/337.9% DEF"
+                ]
+              },
+              {
+                "name": "Blade Roller 1-Hit DMG",
+                "values": [
+                  "56.0% DEF",
+                  "60.6% DEF",
+                  "65.1% DEF",
+                  "71.7% DEF",
+                  "76.2% DEF",
+                  "81.4% DEF",
+                  "88.6% DEF",
+                  "95.8% DEF",
+                  "102.9% DEF",
+                  "110.7% DEF",
+                  "118.6% DEF"
+                ]
+              },
+              {
+                "name": "Blade Roller 2-Hit DMG",
+                "values": [
+                  "55.0% DEF",
+                  "59.5% DEF",
+                  "64.0% DEF",
+                  "70.4% DEF",
+                  "74.9% DEF",
+                  "80.0% DEF",
+                  "87.1% DEF",
+                  "94.1% DEF",
+                  "101.1% DEF",
+                  "108.8% DEF",
+                  "116.5% DEF"
+                ]
+              },
+              {
+                "name": "Blade Roller 3-Hit DMG",
+                "values": [
+                  "65.8% DEF",
+                  "71.2% DEF",
+                  "76.5% DEF",
+                  "84.2% DEF",
+                  "89.5% DEF",
+                  "95.7% DEF",
+                  "104.1% DEF",
+                  "112.5% DEF",
+                  "120.9% DEF",
+                  "130.1% DEF",
+                  "139.3% DEF"
+                ]
+              },
+              {
+                "name": "Blade Roller 4-Hit DMG",
+                "values": [
+                  "86.0% DEF",
+                  "93.0% DEF",
+                  "100.0% DEF",
+                  "110.0% DEF",
+                  "117.0% DEF",
+                  "125.0% DEF",
+                  "136.0% DEF",
+                  "147.0% DEF",
+                  "158.1% DEF",
+                  "170.1% DEF",
+                  "182.1% DEF"
+                ]
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Kindling",
+                "BossMat": "Mirror of Mushin",
+                "EnemyDropTier1": "Sentry's Wooden Whistle",
+                "EnemyDropTier2": "Warrior's Metal Whistle",
+                "EnemyDropTier3": "Saurian-Crowned Warrior's Golden Whistle"
+              }
+            }
+          },
+          {
+            "name": "Yohual's Scratch",
+            "desc": "Let the rhythms of passion resound throughout the land! Xilonen switches to high-speed combat blading gear and rushes forward a certain distance before dealing Nightsoul-aligned **Geo DMG** based on her DEF.\nAfter using this, Xilonen will gain 45 Nightsoul points and enter the Nightsoul's Blessing state. In this state, she will shift to the Blade Roller mode.\n\n**Source Samples**\nXilonen has 3 Samplers with her that can generate different Soundscapes based on her other party members' Elemental Types, decreasing nearby opponents' corresponding Elemental RES while active.\nThe initial recorded Source Sample within each Sampler will be **Geo**, and for each party member who is **Pyro**/**Hydro**/**Cryo**/**Electro**, 1 **Geo** Sample will change to that corresponding Element.\nWhile Xilonen is in the Nightsoul's Blessing state, the **Geo** Source Sample she carries will always be active. After unlocking her Passive Talent, \"Netotiliztli's Echoes,\" Xilonen can trigger said Passive Talent's effects to regenerate Nightsoul points for herself. When her Nightsoul points hit the maximum, she will consume all her Nightsoul points and activate the 3 Source Samples she has on hand for 15s.\nWhen the Source Samples are active, nearby opponents' corresponding Elemental RES will decrease. Source Sample effects of the same Elemental Type cannot stack. Xilonen can trigger these effects even when off-field.\n\n**Nightsoul's Blessing: Xilonen**\nContinuously consume Nightsoul points. When these points are depleted or if used again, this Nightsoul's Blessing state will end. This state has the following traits:\n·Switches to the Blade Roller mode, increasing Xilonen's Movement SPD and climbing speed, and she can perform high-speed leaps in Ocelot Form while climbing.\n·Xilonen's Nightsoul's Blessing has the following restrictions: When in this state, Xilonen's Nightsoul points have a 9s time limit. After this limit passes, her Nightsoul points will immediately expire.\n\nAfter Xilonen's Nightsoul points have expired while she is in the Nightsoul's Blessing state, she will no longer be able to generate Nightsoul points via the Passive Talent \"Netotiliztli's Echoes.\"\n\n**In some ways, gem-craft and music-mixing share similar principles: Filtering out impurities and retaining only the most radiant things.\nXilonen isn't picky about the two, however. She enjoys both immensely, after all!**",
+            "icon": "img/skill/Xilonen_1.png",
+            "talentTable": [
+              {
+                "name": "Rush DMG",
+                "values": [
+                  "179.2% DEF",
+                  "192.6% DEF",
+                  "206.1% DEF",
+                  "224.0% DEF",
+                  "237.4% DEF",
+                  "250.9% DEF",
+                  "268.8% DEF",
+                  "286.7% DEF",
+                  "304.6% DEF",
+                  "322.6% DEF",
+                  "340.5% DEF",
+                  "358.4% DEF",
+                  "380.8% DEF"
+                ]
+              },
+              {
+                "name": "Elemental RES Decrease",
+                "values": [
+                  "9.0%",
+                  "12.0%",
+                  "15.0%",
+                  "18.0%",
+                  "21.0%",
+                  "24.0%",
+                  "27.0%",
+                  "30.0%",
+                  "33.0%",
+                  "36.0%",
+                  "39.0%",
+                  "42.0%",
+                  "45.0%"
+                ]
+              },
+              {
+                "name": "Source Sample Activation Duration",
+                "value": "15.0s"
+              },
+              {
+                "name": "Nightsoul Point Time Limit",
+                "value": "9.0s"
+              },
+              {
+                "name": "Nightsoul Point Limit",
+                "value": "90.0"
+              },
+              {
+                "name": "CD",
+                "value": "7.0s"
+              }
+            ],
+            "costs": {
+              "template": "talentCosts",
+              "mapping": {
+                "Book": "Kindling",
+                "BossMat": "Mirror of Mushin",
+                "EnemyDropTier1": "Sentry's Wooden Whistle",
+                "EnemyDropTier2": "Warrior's Metal Whistle",
+                "EnemyDropTier3": "Saurian-Crowned Warrior's Golden Whistle"
+              }
+            }
+          }
+        ],
+        "ult": {
+          "name": "Ocelotlicue Point!",
+          "desc": "Activates the Phlogiston Stereo DJ Controller (Portable) at full power, dealing Nightsoul-aligned **AoE Geo DMG** based on Xilonen's DEF.\n\nAdditionally, she will trigger the following effects based on her different Source Samples:\n·If she has at least 2 Source Samples that have had their Elemental Types changed, Xilonen will play an Ebullient rhythm, healing nearby active characters at intervals based on her DEF.\n·If she has fewer than 2 Source Samples that have had their Elemental Types changed, Xilonen will start up an Ardent rhythm, which will play two additional beats that deal Nightsoul-aligned **AoE Geo DMG** based on her DEF.\n\n**\"Alright, time for a time-out!\"\n\"It's cool, I recorded those beats just now. Let's see what we get when we mix our rhythms!\"**",
+          "icon": "img/skill/Xilonen_2.png",
+          "talentTable": [
+            {
+              "name": "Skill DMG",
+              "values": [
+                "281.3% DEF",
+                "302.4% DEF",
+                "323.5% DEF",
+                "351.6% DEF",
+                "372.7% DEF",
+                "393.8% DEF",
+                "421.9% DEF",
+                "450.0% DEF",
+                "478.2% DEF",
+                "506.3% DEF",
+                "534.4% DEF",
+                "562.6% DEF",
+                "597.7% DEF"
+              ]
+            },
+            {
+              "name": "Continuous Healing",
+              "values": [
+                "104.0% DEF+501",
+                "111.8% DEF+551",
+                "119.6% DEF+605",
+                "130.0% DEF+664",
+                "137.8% DEF+726",
+                "145.6% DEF+793",
+                "156.0% DEF+864",
+                "166.4% DEF+939",
+                "176.8% DEF+1018",
+                "187.2% DEF+1102",
+                "197.6% DEF+1189",
+                "208.0% DEF+1281",
+                "221.0% DEF+1377"
+              ]
+            },
+            {
+              "name": "Ebullient Rhythm Duration",
+              "value": "12.0s"
+            },
+            {
+              "name": "Follow-Up Beat DMG",
+              "values": [
+                "281.3% DEF",
+                "302.4% DEF",
+                "323.5% DEF",
+                "351.6% DEF",
+                "372.7% DEF",
+                "393.8% DEF",
+                "421.9% DEF",
+                "450.0% DEF",
+                "478.2% DEF",
+                "506.3% DEF",
+                "534.4% DEF",
+                "562.6% DEF",
+                "597.7% DEF"
+              ]
+            },
+            {
+              "name": "CD",
+              "value": "15.0s"
+            },
+            {
+              "name": "Energy Cost",
+              "value": "60"
+            }
+          ],
+          "costs": {
+            "template": "talentCosts",
+            "mapping": {
+              "Book": "Kindling",
+              "BossMat": "Mirror of Mushin",
+              "EnemyDropTier1": "Sentry's Wooden Whistle",
+              "EnemyDropTier2": "Warrior's Metal Whistle",
+              "EnemyDropTier3": "Saurian-Crowned Warrior's Golden Whistle"
+            }
+          },
+          "type": "Geo"
+        },
+        "passive": [
+          {
+            "name": "Netotiliztli's Echoes",
+            "desc": "While in the Nightsoul's Blessing state:\n·If Xilonen has at least 2 Source Samples that have had their Elemental Types changed, she gains 35 Nightsoul points when her Normal or Plunging Attacks hit opponents. Can be triggered once every 0.1s.\n·If Xilonen has fewer than 2 Source Samples that have had their Elemental Types changed, her Normal and Plunging Attacks deal 30% increased DMG.",
+            "icon": "img/skill/Xilonen_3.png",
+            "minAscension": 1
+          },
+          {
+            "name": "Portable Armored Sheath",
+            "desc": "While in the Nightsoul's Blessing state, when Xilonen's Nightsoul points reach the maximum, she will trigger an effect equal to that of her Nightsoul Burst. This effect can be triggered once every 14s.\nAdditionally, when nearby party members trigger a Nightsoul Burst, Xilonen's DEF is increased by 20% for 15s.",
+            "icon": "img/skill/Xilonen_4.png",
+            "minAscension": 4
+          },
+          {
+            "name": "Night Realm's Gift: Blessing of Forge-Fire",
+            "desc": "After her Nightsoul points are fully depleted, Xilonen will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Xilonen. When the active character is currently sprinting, climbing, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Xilonen: Xilonen will enter the Nightsoul's Blessing state and gain 20 Nightsoul points. In this situation, Xilonen's Nightsoul points have a 4s time limit, after which her Nightsoul points will immediately expire. After she uses **Yohual's Scratch** within this time limit, her Nightsoul point time limit will be extended by 9s. Nightsoul Transmission can be triggered once every 10s by your own team.\n\nAdditionally, while in Natlan, Xilonen will not consume Stamina when climbing while in the Nightsoul's Blessing state.",
+            "icon": "img/skill/Xilonen_5.png",
+            "minAscension": 0
+          },
+          {
+            "name": "Tour of Tepeilhuitl",
+            "desc": "Triggering Nightsoul Transmission restores 15 Phlogiston.",
+            "icon": "img/skill/Xilonen_6.png",
+            "minAscension": 0
+          }
+        ],
+        "constellations": [
+          {
+            "name": "Sabbatical Phrase",
+            "desc": "Xilonen's Nightsoul point and Phlogiston consumption in her Nightsoul's Blessing state is decreased by 30%, and her Nightsoul point time limit is extended by 45%.\nAdditionally, when Xilonen's Source Samples are active, she can also increase nearby active characters' interruption resistance.",
+            "icon": "img/const/Xilonen_1.png"
+          },
+          {
+            "name": "Chiucue Mix",
+            "desc": "Xilonen's **Geo** Source Samples will always remain active. Additionally, when her Source Samples activate, all nearby party members will gain effects corresponding to the active Source Sample that matches their Elemental Type:\n·**Geo**: DMG dealt +50%.\n·**Pyro**: ATK +45%.\n·**Hydro**: Max HP +45%.\n·**Cryo**: CRIT DMG +60%.\n·**Electro**: Restore 25 Energy, decrease Elemental Burst CD by 6s.",
+            "icon": "img/const/Xilonen_2.png"
+          },
+          {
+            "name": "Tonalpohualli's Loop",
+            "desc": "Increases the Level of **Yohual's Scratch** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Xilonen_3.png"
+          },
+          {
+            "name": "Suchitl's Trance",
+            "desc": "After Xilonen uses **Yohual's Scratch**, she will grant all nearby party members the Blooming Blessing effect for 15s.\nCharacters with Blooming Blessing deal 65% of Xilonen's DEF as increased Normal, Charged, and Plunging Attack DMG. This effect will be removed after triggering 6 times or when the duration ends.\nWhen you hit more than one opponent, trigger counts will be consumed based on the number of opponents hit. The counts for each party member with Blooming Blessing are counted independently.",
+            "icon": "img/const/Xilonen_4.png"
+          },
+          {
+            "name": "Tlaltecuhtli's Crossfade",
+            "desc": "Increases the Level of **Ocelotlicue Point!** by 3.\nMaximum upgrade level is 15.",
+            "icon": "img/const/Xilonen_5.png"
+          },
+          {
+            "name": "Imperishable Night Carnival",
+            "desc": "When Xilonen is in the Nightsoul's Blessing state, when she sprints, leaps, or uses Normal or Plunging Attacks, she will gain Imperishable Night's Blessing, ignoring the limitations of her Nightsoul's Blessing state and increasing the DMG dealt by her Normal and Plunging Attacks for 5s.\nDuring this time:\n·Her Nightsoul's Blessing time limit countdown will be paused. Xilonen's Nightsoul points, Phlogiston, and Stamina will not decrease, and when her Nightsoul points reach the maximum, her Nightsoul's Blessing state will not end either.\n·Xilonen deals 300% of her DEF as increased Normal and Plunging Attack DMG while in the Nightsoul's Blessing state.\n·She heals nearby party members for 120% of her DEF every 1.5s.\nShe can gain 1 Imperishable Night's Blessing once every 15s.",
+            "icon": "img/const/Xilonen_6.png"
+          }
+        ]
+      }
+    ],
+    "ascensions": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 0
+          },
+          {
+            "stat": "Base DEF",
+            "value": 0
+          },
+          {
+            "stat": "Base ATK",
+            "value": 0
+          },
+          {
+            "stat": "DEF%",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "maxLevel": 40,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 828.0117
+          },
+          {
+            "stat": "Base DEF",
+            "value": 62.073
+          },
+          {
+            "stat": "Base ATK",
+            "value": 18.35837
+          },
+          {
+            "stat": "DEF%",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "maxLevel": 50,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 1416.3358
+          },
+          {
+            "stat": "Base DEF",
+            "value": 106.1775
+          },
+          {
+            "stat": "Base ATK",
+            "value": 31.402475
+          },
+          {
+            "stat": "DEF%",
+            "value": 0.09
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "maxLevel": 60,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2200.768
+          },
+          {
+            "stat": "Base DEF",
+            "value": 164.9835
+          },
+          {
+            "stat": "Base ATK",
+            "value": 48.794617
+          },
+          {
+            "stat": "DEF%",
+            "value": 0.18
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "maxLevel": 70,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 2789.092
+          },
+          {
+            "stat": "Base DEF",
+            "value": 209.088
+          },
+          {
+            "stat": "Base ATK",
+            "value": 61.83872
+          },
+          {
+            "stat": "DEF%",
+            "value": 0.18
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "maxLevel": 80,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3377.4163
+          },
+          {
+            "stat": "Base DEF",
+            "value": 253.1925
+          },
+          {
+            "stat": "Base ATK",
+            "value": 74.88283
+          },
+          {
+            "stat": "DEF%",
+            "value": 0.27
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "maxLevel": 90,
+        "statsUp": [
+          {
+            "stat": "Base HP",
+            "value": 3965.7402
+          },
+          {
+            "stat": "Base DEF",
+            "value": 297.297
+          },
+          {
+            "stat": "Base ATK",
+            "value": 87.92693
+          },
+          {
+            "stat": "DEF%",
+            "value": 0.36
+          }
+        ]
+      }
+    ],
+    "ascensionCosts": {
+      "template": "charAscensionsCosts",
+      "mapping": {
+        "BossMat": "Gold-Inscribed Secret Source Core",
+        "EnemyDropTier1": "Sentry's Wooden Whistle",
+        "EnemyDropTier2": "Warrior's Metal Whistle",
+        "EnemyDropTier3": "Saurian-Crowned Warrior's Golden Whistle",
+        "Gem1": "Prithiva Topaz Sliver",
+        "Gem2": "Prithiva Topaz Fragment",
+        "Gem3": "Prithiva Topaz Chunk",
+        "Gem4": "Prithiva Topaz Gemstone",
+        "Specialty": "Brilliant Chrysanthemum"
       }
     }
   },

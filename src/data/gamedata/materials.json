@@ -945,8 +945,8 @@
   },
   "Sprayfeather Gill": {
     "name": "Sprayfeather Gill",
-    "desc": "A special feather-shaped species of plant that grows by the seaside. It looks kind of like a seagrass but is in truth a soft-bodied aquatic coral with a unique shape.",
-    "longDesc": "A special feather-shaped species of plant that grows by the seaside. It looks kind of like a seagrass but is in truth a soft-bodied aquatic coral with a unique shape.\nIt is said that the Koholasaurs of the People of the Springs love to snack upon them.",
+    "desc": "A special feather-shaped species that grows by the seaside. It looks kind of like a seagrass but is in truth a soft-bodied aquatic coral with a unique shape.",
+    "longDesc": "A special feather-shaped species that grows by the seaside. It looks kind of like a seagrass but is in truth a soft-bodied aquatic coral with a unique shape.\nIt is said that the Koholasaurs of the People of the Springs love to snack upon them.",
     "type": "Local Specialty (Natlan)",
     "category": "Teyvat's Resources",
     "icon": "img/material/Sprayfeather_Gill.png",
@@ -2636,6 +2636,22 @@
     },
     "effect": "Increases all party members' ATK by 274 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
+  "Saurian Hunter's Reward": {
+    "name": "Saurian Hunter's Reward",
+    "desc": "Kinich's specialty. The large, richly flavored chunks of meat come in hot... and spicy to boot. Ajaw keeps mumbling by your side. \"Consider yourself lucky to enjoy this for free! Why, in days past, we would only reward ourselves thus for a true big-game hunt. Indeed, you should be offering delicious fruit juice unto me as thanksgiving!\" To which Kinich helpfully supplies, \"Just eat. Ignore his nonsense.\"",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Saurian_Hunters_Reward.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Kinich",
+      "recipe": "Blazed Meat Stew"
+    },
+    "effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
   "Pass the Luck": {
     "name": "Pass the Luck",
     "desc": "Mualani's specialty. Feet planted on her surfboard, dish in hand, she made not one, not two, but three loops around you before placing the sizable lobster before you. \"Ta-da! Super huge and freshly caught — a stroke of luck if ever there was one! And now, I pass that luck onto you!\" Her cheerful words all but grant the bean balls wrapped around the shrimp a golden glow.",
@@ -2667,6 +2683,22 @@
       "recipe": "Grainfruit Chips"
     },
     "effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s."
+  },
+  "Fruit-Flavored Milk Candies": {
+    "name": "Fruit-Flavored Milk Candies",
+    "desc": "Xilonen's specialty. As you sit side-by-side atop the tree, she passes you an exquisite box filled with... variously shaped candies? \"Cacahuatl is actually considered a kind of fruit. So, it should be fine to call candies made out of cacahuatl and milk 'fruit-flavored.' C'mon, let's dig in.\" So saying, she swiftly snatches one, tossing it into her mouth before biting down.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/FruitFlavored_Milk_Candies.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "specialty": {
+      "char": "Xilonen",
+      "recipe": "Chocolate"
+    },
+    "effect": "Restores 130 Stamina."
   },
   "Fisherman's Toast": {
     "name": "Fisherman's Toast",
@@ -8586,6 +8618,70 @@
       "Delicious Blazed Meat Stew": "Increases all party members' CRIT Rate by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   },
+  "BBQ Beef Heart Skewers": {
+    "name": "BBQ Beef Heart Skewers",
+    "desc": "Commonly seen street-stall barbeque. The crackling flames and sizzling sounds herald an imminent feast, igniting your craving for that first bite. The firmness of the thick hunks of meat and the abundance of savory juices that burst forth with every bite perfectly complement one another in a culinary experience that might be called bathing in BBQ bliss.",
+    "stars": 2,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/BBQ_Beef_Heart_Skewers.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 2,
+        "name": "Raw Meat"
+      },
+      {
+        "count": 2,
+        "name": "Potato"
+      },
+      {
+        "count": 1,
+        "name": "Grainfruit"
+      }
+    ],
+    "effect": {
+      "Suspicious BBQ Beef Heart Skewers": "Restores 40 Stamina.",
+      "BBQ Beef Heart Skewers": "Restores 50 Stamina.",
+      "Delicious BBQ Beef Heart Skewers": "Restores 60 Stamina."
+    }
+  },
+  "Xocoatl": {
+    "name": "Xocoatl",
+    "desc": "A Natlan drink made from Cacahuatl. The rich, deep fragrance of the Cacahuatl is infused with a pure creaminess, tenderly caressing your tongue with the softness of smooth silk, leaving behind a touch of sweetness that is more than enough to melt your heart.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Xocoatl.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 3,
+        "name": "Cacahuatl"
+      },
+      {
+        "count": 3,
+        "name": "Mint"
+      },
+      {
+        "count": 3,
+        "name": "Milk"
+      },
+      {
+        "count": 1,
+        "name": "Sugar"
+      }
+    ],
+    "effect": {
+      "Suspicious Xocoatl": "Increases all party members' DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Xocoatl": "Increases all party members' DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Xocoatl": "Increases all party members' DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
   "Rice Pudding": {
     "name": "Rice Pudding",
     "desc": "A dessert made from rice. The soft, sticky rice and the sweet milk have melded together perfectly, their tastes complementing each other. If you eat it hot, you can enjoy the dense rice grains, and if you leave it till it's cold, you can savor the gentle fragrance of milk — each possessing its own beauty. People who eat such a dish cannot help but wonder: how many experiments led up to this moment?",
@@ -9356,6 +9452,74 @@
       "Delicious Crisp Croissant Combo": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   },
+  "Golden Apple Pastry": {
+    "name": "Golden Apple Pastry",
+    "desc": "A little dessert made from apples. The honey-sweet filling surges across your taste buds like a thread of golden light passing through the interlaced fingers of tree and leaf and warming your very heart. Ah, how could you ever stop at one of these?",
+    "stars": 4,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Golden_Apple_Pastry.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 4,
+        "name": "Apple"
+      },
+      {
+        "count": 3,
+        "name": "Flour"
+      },
+      {
+        "count": 2,
+        "name": "Butter"
+      },
+      {
+        "count": 2,
+        "name": "Sugar"
+      }
+    ],
+    "effect": {
+      "Suspicious Golden Apple Pastry": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Golden Apple Pastry": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "Delicious Golden Apple Pastry": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    }
+  },
+  "Delights of Wondrous Wanderings": {
+    "name": "Delights of Wondrous Wanderings",
+    "desc": "A dessert box based on the recipes of several different companions, simply overflowing with heartfelt intentions. The artisanry here is akin to the exquisite scene of the moon cutting through the clouds. Indeed, you can barely bear to eat such a precious gift.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Delights_of_Wondrous_Wanderings.png",
+    "sources": [
+      "Obtained by cooking"
+    ],
+    "recipe": [
+      {
+        "count": 1,
+        "name": "Flour"
+      },
+      {
+        "count": 1,
+        "name": "Bird Egg"
+      },
+      {
+        "count": 1,
+        "name": "Butter"
+      },
+      {
+        "count": 1,
+        "name": "Jam"
+      }
+    ],
+    "effect": {
+      "Suspicious Delights of Wondrous Wanderings": "Restores 30% of Max HP and an additional 600 HP to the selected character.",
+      "Delights of Wondrous Wanderings": "Restores 32% of Max HP and an additional 1,250 HP to the selected character.",
+      "Delicious Delights of Wondrous Wanderings": "Restores 34% of Max HP and an additional 1,900 HP to the selected character."
+    }
+  },
   "Holy Water": {
     "name": "Holy Water",
     "desc": "A bottle of clear, colorless, and contaminant-free liquid. Indistinguishable from ordinary spring water. May or may not be worth putting all of one's hopes into.",
@@ -9380,6 +9544,18 @@
       "Crafted"
     ],
     "effect": "Increases all party members' ATK by 320, CRIT Rate by 10%, and damage taken by 20% for 30s. In Co-Op Mode, this effect only applies to your own character(s)."
+  },
+  "Strength Tonic": {
+    "name": "Strength Tonic",
+    "desc": "A potion of mysterious origins that has a simple formula. Some might even call it a healthy drink. As the name suggests, it can make people stronger.",
+    "stars": 3,
+    "type": "Food",
+    "category": "Food and Potions",
+    "icon": "img/food/Strength_Tonic.png",
+    "sources": [
+      "Crafted"
+    ],
+    "effect": "Increases all party members' Physical DMG by 45%, CRIT Rate by 10%, and DMG taken by 20% for 30s. In Co-Op Mode, this effect only applies to your own character(s)."
   },
   "Pop's Teas": {
     "name": "Pop's Teas",
@@ -9996,7 +10172,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Dvalins_Plume.png"
+    "icon": "img/material/Dvalins_Plume.png",
+    "sources": [
+      "Lv. 70+ Stormterror Challenge Reward"
+    ]
   },
   "Dvalin's Claw": {
     "name": "Dvalin's Claw",
@@ -10004,7 +10183,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Dvalins_Claw.png"
+    "icon": "img/material/Dvalins_Claw.png",
+    "sources": [
+      "Lv. 70+ Stormterror Challenge Reward"
+    ]
   },
   "Dvalin's Sigh": {
     "name": "Dvalin's Sigh",
@@ -10012,7 +10194,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Dvalins_Sigh.png"
+    "icon": "img/material/Dvalins_Sigh.png",
+    "sources": [
+      "Lv. 70+ Stormterror Challenge Reward"
+    ]
   },
   "Tail of Boreas": {
     "name": "Tail of Boreas",
@@ -10020,7 +10205,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Tail_of_Boreas.png"
+    "icon": "img/material/Tail_of_Boreas.png",
+    "sources": [
+      "Lv. 70+ Wolf of the North Challenge Reward"
+    ]
   },
   "Ring of Boreas": {
     "name": "Ring of Boreas",
@@ -10028,7 +10216,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Ring_of_Boreas.png"
+    "icon": "img/material/Ring_of_Boreas.png",
+    "sources": [
+      "Lv. 70+ Wolf of the North Challenge Reward"
+    ]
   },
   "Spirit Locket of Boreas": {
     "name": "Spirit Locket of Boreas",
@@ -10036,7 +10227,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Spirit_Locket_of_Boreas.png"
+    "icon": "img/material/Spirit_Locket_of_Boreas.png",
+    "sources": [
+      "Lv. 70+ Wolf of the North Challenge Reward"
+    ]
   },
   "Tusk of Monoceros Caeli": {
     "name": "Tusk of Monoceros Caeli",
@@ -10044,7 +10238,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Tusk_of_Monoceros_Caeli.png"
+    "icon": "img/material/Tusk_of_Monoceros_Caeli.png",
+    "sources": [
+      "Lv. 70+ Childe Challenge Reward"
+    ]
   },
   "Shard of a Foul Legacy": {
     "name": "Shard of a Foul Legacy",
@@ -10052,7 +10249,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Shard_of_a_Foul_Legacy.png"
+    "icon": "img/material/Shard_of_a_Foul_Legacy.png",
+    "sources": [
+      "Lv. 70+ Childe Challenge Reward"
+    ]
   },
   "Shadow of the Warrior": {
     "name": "Shadow of the Warrior",
@@ -10060,7 +10260,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Shadow_of_the_Warrior.png"
+    "icon": "img/material/Shadow_of_the_Warrior.png",
+    "sources": [
+      "Lv. 70+ Childe Challenge Reward"
+    ]
   },
   "Dragon Lord's Crown": {
     "name": "Dragon Lord's Crown",
@@ -10068,7 +10271,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Dragon_Lords_Crown.png"
+    "icon": "img/material/Dragon_Lords_Crown.png",
+    "sources": [
+      "Lv. 70+ Azhdaha Challenge Reward"
+    ]
   },
   "Bloodjade Branch": {
     "name": "Bloodjade Branch",
@@ -10076,7 +10282,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Bloodjade_Branch.png"
+    "icon": "img/material/Bloodjade_Branch.png",
+    "sources": [
+      "Lv. 70+ Azhdaha Challenge Reward"
+    ]
   },
   "Gilded Scale": {
     "name": "Gilded Scale",
@@ -10084,7 +10293,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Gilded_Scale.png"
+    "icon": "img/material/Gilded_Scale.png",
+    "sources": [
+      "Lv. 70+ Azhdaha Challenge Reward"
+    ]
   },
   "Molten Moment": {
     "name": "Molten Moment",
@@ -10092,7 +10304,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Molten_Moment.png"
+    "icon": "img/material/Molten_Moment.png",
+    "sources": [
+      "Lv. 70+ Signora Challenge Reward"
+    ]
   },
   "Hellfire Butterfly": {
     "name": "Hellfire Butterfly",
@@ -10100,7 +10315,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Hellfire_Butterfly.png"
+    "icon": "img/material/Hellfire_Butterfly.png",
+    "sources": [
+      "Lv. 70+ Signora Challenge Reward"
+    ]
   },
   "Ashen Heart": {
     "name": "Ashen Heart",
@@ -10108,7 +10326,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Ashen_Heart.png"
+    "icon": "img/material/Ashen_Heart.png",
+    "sources": [
+      "Lv. 70+ Signora Challenge Reward"
+    ]
   },
   "Mudra of the Malefic General": {
     "name": "Mudra of the Malefic General",
@@ -10116,7 +10337,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Mudra_of_the_Malefic_General.png"
+    "icon": "img/material/Mudra_of_the_Malefic_General.png",
+    "sources": [
+      "Lv. 70+ Guardian of Eternity Challenge Reward"
+    ]
   },
   "Tears of the Calamitous God": {
     "name": "Tears of the Calamitous God",
@@ -10124,7 +10348,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Tears_of_the_Calamitous_God.png"
+    "icon": "img/material/Tears_of_the_Calamitous_God.png",
+    "sources": [
+      "Lv. 70+ Guardian of Eternity Challenge Reward"
+    ]
   },
   "The Meaning of Aeons": {
     "name": "The Meaning of Aeons",
@@ -10132,7 +10359,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/The_Meaning_of_Aeons.png"
+    "icon": "img/material/The_Meaning_of_Aeons.png",
+    "sources": [
+      "Lv. 70+ Guardian of Eternity Challenge Reward"
+    ]
   },
   "Puppet Strings": {
     "name": "Puppet Strings",
@@ -10140,7 +10370,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Puppet_Strings.png"
+    "icon": "img/material/Puppet_Strings.png",
+    "sources": [
+      "Lv. 70+ Shouki no Kami, the Prodigal Challenge Reward"
+    ]
   },
   "Mirror of Mushin": {
     "name": "Mirror of Mushin",
@@ -10148,7 +10381,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Mirror_of_Mushin.png"
+    "icon": "img/material/Mirror_of_Mushin.png",
+    "sources": [
+      "Lv. 70+ Shouki no Kami, the Prodigal Challenge Reward"
+    ]
   },
   "Daka's Bell": {
     "name": "Daka's Bell",
@@ -10156,7 +10392,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Dakas_Bell.png"
+    "icon": "img/material/Dakas_Bell.png",
+    "sources": [
+      "Lv. 70+ Shouki no Kami, the Prodigal Challenge Reward"
+    ]
   },
   "Worldspan Fern": {
     "name": "Worldspan Fern",
@@ -10164,7 +10403,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Worldspan_Fern.png"
+    "icon": "img/material/Worldspan_Fern.png",
+    "sources": [
+      "Lv. 70+ Guardian of Apep's Oasis Challenge Reward"
+    ]
   },
   "Primordial Greenbloom": {
     "name": "Primordial Greenbloom",
@@ -10172,7 +10414,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Primordial_Greenbloom.png"
+    "icon": "img/material/Primordial_Greenbloom.png",
+    "sources": [
+      "Lv. 70+ Guardian of Apep's Oasis Challenge Reward"
+    ]
   },
   "Everamber": {
     "name": "Everamber",
@@ -10180,7 +10425,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Everamber.png"
+    "icon": "img/material/Everamber.png",
+    "sources": [
+      "Lv. 70+ Guardian of Apep's Oasis Challenge Reward"
+    ]
   },
   "Lightless Silk String": {
     "name": "Lightless Silk String",
@@ -10188,7 +10436,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Lightless_Silk_String.png"
+    "icon": "img/material/Lightless_Silk_String.png",
+    "sources": [
+      "Lv. 70+ All-Devouring Narwhal Challenge Reward"
+    ]
   },
   "Lightless Eye of the Maelstrom": {
     "name": "Lightless Eye of the Maelstrom",
@@ -10197,7 +10448,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Lightless_Eye_of_the_Maelstrom.png"
+    "icon": "img/material/Lightless_Eye_of_the_Maelstrom.png",
+    "sources": [
+      "Lv. 70+ All-Devouring Narwhal Challenge Reward"
+    ]
   },
   "Lightless Mass": {
     "name": "Lightless Mass",
@@ -10206,7 +10460,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Lightless_Mass.png"
+    "icon": "img/material/Lightless_Mass.png",
+    "sources": [
+      "Lv. 70+ All-Devouring Narwhal Challenge Reward"
+    ]
   },
   "Fading Candle": {
     "name": "Fading Candle",
@@ -10215,7 +10472,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Fading_Candle.png"
+    "icon": "img/material/Fading_Candle.png",
+    "sources": [
+      "Lv. 70+ The Knave Challenge Reward"
+    ]
   },
   "Silken Feather": {
     "name": "Silken Feather",
@@ -10224,7 +10484,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Silken_Feather.png"
+    "icon": "img/material/Silken_Feather.png",
+    "sources": [
+      "Lv. 70+ The Knave Challenge Reward"
+    ]
   },
   "Denial and Judgment": {
     "name": "Denial and Judgment",
@@ -10233,7 +10496,10 @@
     "stars": 5,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Denial_and_Judgment.png"
+    "icon": "img/material/Denial_and_Judgment.png",
+    "sources": [
+      "Lv. 70+ The Knave Challenge Reward"
+    ]
   },
   "The Cornerstone of Stars and Flames": {
     "name": "The Cornerstone of Stars and Flames",
@@ -10249,7 +10515,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Hurricane_Seed.png"
+    "icon": "img/material/Hurricane_Seed.png",
+    "sources": [
+      "Dropped by Lv. 30+ Anemo Hypostases"
+    ]
   },
   "Lightning Prism": {
     "name": "Lightning Prism",
@@ -10257,7 +10526,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Lightning_Prism.png"
+    "icon": "img/material/Lightning_Prism.png",
+    "sources": [
+      "Dropped by Lv. 30+ Electro Hypostases"
+    ]
   },
   "Basalt Pillar": {
     "name": "Basalt Pillar",
@@ -10265,7 +10537,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Basalt_Pillar.png"
+    "icon": "img/material/Basalt_Pillar.png",
+    "sources": [
+      "Dropped by Lv.30+ Geo Hypostases"
+    ]
   },
   "Hoarfrost Core": {
     "name": "Hoarfrost Core",
@@ -10273,7 +10548,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Hoarfrost_Core.png"
+    "icon": "img/material/Hoarfrost_Core.png",
+    "sources": [
+      "Dropped by Lv. 30+ Cryo Regisvines"
+    ]
   },
   "Everflame Seed": {
     "name": "Everflame Seed",
@@ -10281,7 +10559,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Everflame_Seed.png"
+    "icon": "img/material/Everflame_Seed.png",
+    "sources": [
+      "Dropped by Lv. 30+ Pyro Regisvines"
+    ]
   },
   "Cleansing Heart": {
     "name": "Cleansing Heart",
@@ -10289,7 +10570,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Cleansing_Heart.png"
+    "icon": "img/material/Cleansing_Heart.png",
+    "sources": [
+      "Dropped by Lv. 30+ Oceanids"
+    ]
   },
   "Juvenile Jade": {
     "name": "Juvenile Jade",
@@ -10297,7 +10581,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Juvenile_Jade.png"
+    "icon": "img/material/Juvenile_Jade.png",
+    "sources": [
+      "Dropped by Lv. 30+ Primo Geovishaps"
+    ]
   },
   "Crystalline Bloom": {
     "name": "Crystalline Bloom",
@@ -10305,7 +10592,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Crystalline_Bloom.png"
+    "icon": "img/material/Crystalline_Bloom.png",
+    "sources": [
+      "Dropped by Lv.30+ Cryo Hypostases"
+    ]
   },
   "Marionette Core": {
     "name": "Marionette Core",
@@ -10313,7 +10603,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Marionette_Core.png"
+    "icon": "img/material/Marionette_Core.png",
+    "sources": [
+      "Dropped by Lv. 30+ Maguu Kenki"
+    ]
   },
   "Perpetual Heart": {
     "name": "Perpetual Heart",
@@ -10321,7 +10614,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Perpetual_Heart.png"
+    "icon": "img/material/Perpetual_Heart.png",
+    "sources": [
+      "Dropped by Lv. 30+ Perpetual Mechanical Arrays"
+    ]
   },
   "Smoldering Pearl": {
     "name": "Smoldering Pearl",
@@ -10329,7 +10625,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Smoldering_Pearl.png"
+    "icon": "img/material/Smoldering_Pearl.png",
+    "sources": [
+      "Dropped by Lv.30+ Pyro Hypostases"
+    ]
   },
   "Dew of Repudiation": {
     "name": "Dew of Repudiation",
@@ -10337,7 +10636,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Dew_of_Repudiation.png"
+    "icon": "img/material/Dew_of_Repudiation.png",
+    "sources": [
+      "Dropped by Lv. 30+ Hydro Hypostases"
+    ]
   },
   "Storm Beads": {
     "name": "Storm Beads",
@@ -10345,7 +10647,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Storm_Beads.png"
+    "icon": "img/material/Storm_Beads.png",
+    "sources": [
+      "Dropped by Lv. 30+ Thunder Manifestations"
+    ]
   },
   "Riftborn Regalia": {
     "name": "Riftborn Regalia",
@@ -10353,7 +10658,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Riftborn_Regalia.png"
+    "icon": "img/material/Riftborn_Regalia.png",
+    "sources": [
+      "Dropped by Lv. 30+ Golden Wolflords"
+    ]
   },
   "Dragonheir's False Fin": {
     "name": "Dragonheir's False Fin",
@@ -10361,7 +10669,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Dragonheirs_False_Fin.png"
+    "icon": "img/material/Dragonheirs_False_Fin.png",
+    "sources": [
+      "Dropped by Lv. 30+ Bathysmal Vishap Herds"
+    ]
   },
   "Runic Fang": {
     "name": "Runic Fang",
@@ -10369,7 +10680,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Runic_Fang.png"
+    "icon": "img/material/Runic_Fang.png",
+    "sources": [
+      "Dropped by Lv. 30+ Ruin Serpents"
+    ]
   },
   "Majestic Hooked Beak": {
     "name": "Majestic Hooked Beak",
@@ -10377,7 +10691,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Majestic_Hooked_Beak.png"
+    "icon": "img/material/Majestic_Hooked_Beak.png",
+    "sources": [
+      "Dropped by Lv. 30+ Jadeplume Terrorshroom"
+    ]
   },
   "Thunderclap Fruitcore": {
     "name": "Thunderclap Fruitcore",
@@ -10385,7 +10702,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Thunderclap_Fruitcore.png"
+    "icon": "img/material/Thunderclap_Fruitcore.png",
+    "sources": [
+      "Dropped by Lv. 30+ Electro Regisvines"
+    ]
   },
   "Perpetual Caliber": {
     "name": "Perpetual Caliber",
@@ -10393,7 +10713,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Perpetual_Caliber.png"
+    "icon": "img/material/Perpetual_Caliber.png",
+    "sources": [
+      "Dropped by Lv. 30+ Aeonblight Drakes"
+    ]
   },
   "Light Guiding Tetrahedron": {
     "name": "Light Guiding Tetrahedron",
@@ -10401,7 +10724,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Light_Guiding_Tetrahedron.png"
+    "icon": "img/material/Light_Guiding_Tetrahedron.png",
+    "sources": [
+      "Dropped by Lv. 30+ Semi-Intransient Matrices"
+    ]
   },
   "Quelled Creeper": {
     "name": "Quelled Creeper",
@@ -10409,7 +10735,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Quelled_Creeper.png"
+    "icon": "img/material/Quelled_Creeper.png",
+    "sources": [
+      "Dropped by Lv.30+ Dendro Hypostases"
+    ]
   },
   "Pseudo-Stamens": {
     "name": "Pseudo-Stamens",
@@ -10417,7 +10746,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/PseudoStamens.png"
+    "icon": "img/material/PseudoStamens.png",
+    "sources": [
+      "Dropped by Lv. 30+ Setekh Wenut"
+    ]
   },
   "Evergloom Ring": {
     "name": "Evergloom Ring",
@@ -10426,7 +10758,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Evergloom_Ring.png"
+    "icon": "img/material/Evergloom_Ring.png",
+    "sources": [
+      "Dropped by Lv. 30+ Iniquitous Baptists"
+    ]
   },
   "Artificed Spare Clockwork Component — Coppelia": {
     "name": "Artificed Spare Clockwork Component — Coppelia",
@@ -10435,7 +10770,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Artificed_Spare_Clockwork_Component_—_Coppelia.png"
+    "icon": "img/material/Artificed_Spare_Clockwork_Component_—_Coppelia.png",
+    "sources": [
+      "Dropped by Lv. 30+ \"Icewind Suite\""
+    ]
   },
   "Artificed Spare Clockwork Component — Coppelius": {
     "name": "Artificed Spare Clockwork Component — Coppelius",
@@ -10444,16 +10782,22 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Artificed_Spare_Clockwork_Component_—_Coppelius.png"
+    "icon": "img/material/Artificed_Spare_Clockwork_Component_—_Coppelius.png",
+    "sources": [
+      "Dropped by Lv. 30+ \"Icewind Suite\""
+    ]
   },
   "Emperor's Resolution": {
     "name": "Emperor's Resolution",
-    "desc": "The war hammer of the Emperor of Fire and Iron. The mighty crab has crushed countless foes with this giant claw. Be it clockwork meka, other Fontemer Aberrants, or hunters with ill-placed curiosity — all have yielded under its power.\nFontemer Aberrants are different from human beings in that the concepts of aristocracy or inheritance are entirely foreign to them. None of them are born superior. One that survives deadly predators and adversities is able to accumulate infinite power as it keeps hunting and feeding over centuries. Such a creature is often referred to as an overlord for the fear it inspires.",
+    "desc": "The war hammer of the Emperor of Fire and Iron.\nThe mighty crab has crushed countless foes with this giant claw. Be they clockwork meka, other Fontemer Aberrants, or hunters with ill-placed curiosity — all have yielded under its power.\nFontemer Aberrants are different from human beings in that the concepts of aristocracy or inheritance are entirely foreign to them. None of them are born superior. One that survives deadly predators and adversities can accumulate infinite power as it keeps hunting and feeding over centuries. Such a creature is often referred to as an overlord for the fear it inspires.",
     "longDesc": "The giant Armored Crab known as \"Emperor of Fire and Iron\" has crushed countless foes with this claw. Be it clockwork meka, other Fontemer Aberrants, or hunters with ill-placed curiosity — all have yielded under its power.\nFontemer Aberrants are different from human beings in that the concepts of aristocracy or inheritance are entirely foreign to them. None of them are born superior. One that survives deadly predators and adversities is able to accumulate infinite power as it keeps hunting and feeding over centuries. Such a creature is often referred to as an overlord for the fear it inspires.\nIn Fontainian folklore, there are two lords amongst Fontemer Aberrants. The strife between them lasted for long years, and one eventually ended up retreating underground and his fury was so intense that it was able to agitate the bitter waters.",
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Emperors_Resolution.png"
+    "icon": "img/material/Emperors_Resolution.png",
+    "sources": [
+      "Dropped by Lv. 30+ Emperor of Fire and Iron"
+    ]
   },
   "\"Tourbillon Device\"": {
     "name": "\"Tourbillon Device\"",
@@ -10462,7 +10806,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Tourbillon_Device.png"
+    "icon": "img/material/Tourbillon_Device.png",
+    "sources": [
+      "Dropped by Lv. 30+ Experimental Field Generators"
+    ]
   },
   "Fontemer Unihorn": {
     "name": "Fontemer Unihorn",
@@ -10471,7 +10818,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Fontemer_Unihorn.png"
+    "icon": "img/material/Fontemer_Unihorn.png",
+    "sources": [
+      "Dropped by Lv. 30+ Millennial Pearl Seahorses"
+    ]
   },
   "Water That Failed To Transcend": {
     "name": "Water That Failed To Transcend",
@@ -10480,7 +10830,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Water_That_Failed_To_Transcend.png"
+    "icon": "img/material/Water_That_Failed_To_Transcend.png",
+    "sources": [
+      "Dropped by Lv. 30+ Hydro Tulpas"
+    ]
   },
   "Cloudseam Scale": {
     "name": "Cloudseam Scale",
@@ -10489,7 +10842,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Cloudseam_Scale.png"
+    "icon": "img/material/Cloudseam_Scale.png",
+    "sources": [
+      "Dropped by Lv. 30+ Solitary Suanni"
+    ]
   },
   "Fragment of a Golden Melody": {
     "name": "Fragment of a Golden Melody",
@@ -10498,7 +10854,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Fragment_of_a_Golden_Melody.png"
+    "icon": "img/material/Fragment_of_a_Golden_Melody.png",
+    "sources": [
+      "Dropped by Lv. 30+ Legatus Golems"
+    ]
   },
   "Mark of the Binding Blessing": {
     "name": "Mark of the Binding Blessing",
@@ -10506,7 +10865,10 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Mark_of_the_Binding_Blessing.png"
+    "icon": "img/material/Mark_of_the_Binding_Blessing.png",
+    "sources": [
+      "Dropped by Lv. 30+ Goldflame Qucusaur Tyrant"
+    ]
   },
   "Overripe Flamegranate": {
     "name": "Overripe Flamegranate",
@@ -10514,7 +10876,21 @@
     "stars": 4,
     "type": "Character Level-Up Material",
     "category": "Trophies",
-    "icon": "img/material/Overripe_Flamegranate.png"
+    "icon": "img/material/Overripe_Flamegranate.png",
+    "sources": [
+      "Dropped by Lv. 30+ Gluttonous Yumkasaur Mountain King"
+    ]
+  },
+  "Gold-Inscribed Secret Source Core": {
+    "name": "Gold-Inscribed Secret Source Core",
+    "desc": "This is a core component that separated from the body of a Secret Source Automaton: Configuration Device that lost its ability to move after being defeated.\nSome say that the cores that power all the Secret Source Automatons are actually the same kind of device, and that they simply carry different information, as attested to by the fact that the golden patterns on them are different. At first, the many commands were only added to the circuits to aid in its smooth running, but it seems that all the superimposition and layering of orders onto one another has wound up creating a rudimentary artificial intelligence.",
+    "stars": 4,
+    "type": "Character Level-Up Material",
+    "category": "Trophies",
+    "icon": "img/material/GoldInscribed_Secret_Source_Core.png",
+    "sources": [
+      "Dropped by Lv. 30+ Secret Source Automaton: Configuration Device"
+    ]
   },
   "Brilliant Diamond Sliver": {
     "name": "Brilliant Diamond Sliver",
@@ -10577,10 +10953,7 @@
     "stars": 3,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Agnidus_Agate_Fragment.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Agnidus_Agate_Fragment.png"
   },
   "Agnidus Agate Chunk": {
     "name": "Agnidus Agate Chunk",
@@ -10588,10 +10961,7 @@
     "stars": 4,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Agnidus_Agate_Chunk.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Agnidus_Agate_Chunk.png"
   },
   "Agnidus Agate Gemstone": {
     "name": "Agnidus Agate Gemstone",
@@ -10599,10 +10969,7 @@
     "stars": 5,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Agnidus_Agate_Gemstone.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Agnidus_Agate_Gemstone.png"
   },
   "Varunada Lazurite Sliver": {
     "name": "Varunada Lazurite Sliver",
@@ -10621,10 +10988,7 @@
     "stars": 3,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Varunada_Lazurite_Fragment.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Varunada_Lazurite_Fragment.png"
   },
   "Varunada Lazurite Chunk": {
     "name": "Varunada Lazurite Chunk",
@@ -10632,10 +10996,7 @@
     "stars": 4,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Varunada_Lazurite_Chunk.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Varunada_Lazurite_Chunk.png"
   },
   "Varunada Lazurite Gemstone": {
     "name": "Varunada Lazurite Gemstone",
@@ -10643,10 +11004,7 @@
     "stars": 5,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Varunada_Lazurite_Gemstone.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Varunada_Lazurite_Gemstone.png"
   },
   "Vajrada Amethyst Sliver": {
     "name": "Vajrada Amethyst Sliver",
@@ -10665,10 +11023,7 @@
     "stars": 3,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Vajrada_Amethyst_Fragment.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Vajrada_Amethyst_Fragment.png"
   },
   "Vajrada Amethyst Chunk": {
     "name": "Vajrada Amethyst Chunk",
@@ -10676,10 +11031,7 @@
     "stars": 4,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Vajrada_Amethyst_Chunk.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Vajrada_Amethyst_Chunk.png"
   },
   "Vajrada Amethyst Gemstone": {
     "name": "Vajrada Amethyst Gemstone",
@@ -10687,10 +11039,7 @@
     "stars": 5,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Vajrada_Amethyst_Gemstone.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Vajrada_Amethyst_Gemstone.png"
   },
   "Vayuda Turquoise Sliver": {
     "name": "Vayuda Turquoise Sliver",
@@ -10709,10 +11058,7 @@
     "stars": 3,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Vayuda_Turquoise_Fragment.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Vayuda_Turquoise_Fragment.png"
   },
   "Vayuda Turquoise Chunk": {
     "name": "Vayuda Turquoise Chunk",
@@ -10720,10 +11066,7 @@
     "stars": 4,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Vayuda_Turquoise_Chunk.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Vayuda_Turquoise_Chunk.png"
   },
   "Vayuda Turquoise Gemstone": {
     "name": "Vayuda Turquoise Gemstone",
@@ -10731,10 +11074,7 @@
     "stars": 5,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Vayuda_Turquoise_Gemstone.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Vayuda_Turquoise_Gemstone.png"
   },
   "Shivada Jade Sliver": {
     "name": "Shivada Jade Sliver",
@@ -10753,10 +11093,7 @@
     "stars": 3,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Shivada_Jade_Fragment.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Shivada_Jade_Fragment.png"
   },
   "Shivada Jade Chunk": {
     "name": "Shivada Jade Chunk",
@@ -10764,10 +11101,7 @@
     "stars": 4,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Shivada_Jade_Chunk.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Shivada_Jade_Chunk.png"
   },
   "Shivada Jade Gemstone": {
     "name": "Shivada Jade Gemstone",
@@ -10775,10 +11109,7 @@
     "stars": 5,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Shivada_Jade_Gemstone.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Shivada_Jade_Gemstone.png"
   },
   "Prithiva Topaz Sliver": {
     "name": "Prithiva Topaz Sliver",
@@ -10797,10 +11128,7 @@
     "stars": 3,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Prithiva_Topaz_Fragment.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Prithiva_Topaz_Fragment.png"
   },
   "Prithiva Topaz Chunk": {
     "name": "Prithiva Topaz Chunk",
@@ -10808,10 +11136,7 @@
     "stars": 4,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Prithiva_Topaz_Chunk.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Prithiva_Topaz_Chunk.png"
   },
   "Prithiva Topaz Gemstone": {
     "name": "Prithiva Topaz Gemstone",
@@ -10819,10 +11144,7 @@
     "stars": 5,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Prithiva_Topaz_Gemstone.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Prithiva_Topaz_Gemstone.png"
   },
   "Nagadus Emerald Sliver": {
     "name": "Nagadus Emerald Sliver",
@@ -10838,10 +11160,7 @@
     "stars": 3,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Nagadus_Emerald_Fragment.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Nagadus_Emerald_Fragment.png"
   },
   "Nagadus Emerald Chunk": {
     "name": "Nagadus Emerald Chunk",
@@ -10849,10 +11168,7 @@
     "stars": 4,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Nagadus_Emerald_Chunk.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Nagadus_Emerald_Chunk.png"
   },
   "Nagadus Emerald Gemstone": {
     "name": "Nagadus Emerald Gemstone",
@@ -10860,10 +11176,7 @@
     "stars": 5,
     "type": "Character Ascension Material",
     "category": "Trophies",
-    "icon": "img/material/Nagadus_Emerald_Gemstone.png",
-    "sources": [
-      "Crafted"
-    ]
+    "icon": "img/material/Nagadus_Emerald_Gemstone.png"
   },
   "Tile of Decarabian's Tower": {
     "name": "Tile of Decarabian's Tower",
@@ -10874,6 +11187,7 @@
     "icon": "img/material/Tile_of_Decarabians_Tower.png",
     "sources": [
       "Purchase from the Souvenir Shop in Mondstadt",
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: City of Reflections (Monday/Thursday/Sunday)"
     ]
   },
@@ -10885,7 +11199,6 @@
     "category": "Trophies",
     "icon": "img/material/Debris_of_Decarabians_City.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: City of Reflections (Monday/Thursday/Sunday)"
     ]
   },
@@ -10897,7 +11210,6 @@
     "category": "Trophies",
     "icon": "img/material/Fragment_of_Decarabians_Epic.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: City of Reflections (Monday/Thursday/Sunday)"
     ]
   },
@@ -10909,7 +11221,6 @@
     "category": "Trophies",
     "icon": "img/material/Scattered_Piece_of_Decarabians_Dream.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: City of Reflections (Monday/Thursday/Sunday)"
     ]
   },
@@ -10922,6 +11233,7 @@
     "icon": "img/material/Boreal_Wolfs_Milk_Tooth.png",
     "sources": [
       "Purchase from the Souvenir Shop in Mondstadt",
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Submerged Valley (Tuesday/Friday/Sunday)"
     ]
   },
@@ -10933,7 +11245,6 @@
     "category": "Trophies",
     "icon": "img/material/Boreal_Wolfs_Cracked_Tooth.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Submerged Valley (Tuesday/Friday/Sunday)"
     ]
   },
@@ -10945,7 +11256,6 @@
     "category": "Trophies",
     "icon": "img/material/Boreal_Wolfs_Broken_Fang.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Submerged Valley (Tuesday/Friday/Sunday)"
     ]
   },
@@ -10957,7 +11267,6 @@
     "category": "Trophies",
     "icon": "img/material/Boreal_Wolfs_Nostalgia.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Submerged Valley (Tuesday/Friday/Sunday)"
     ]
   },
@@ -10970,6 +11279,7 @@
     "icon": "img/material/Fetters_of_the_Dandelion_Gladiator.png",
     "sources": [
       "Purchase from the Souvenir Shop in Mondstadt",
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Ruins of Thirsting Capital (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -10981,7 +11291,6 @@
     "category": "Trophies",
     "icon": "img/material/Chains_of_the_Dandelion_Gladiator.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Ruins of Thirsting Capital (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -10993,7 +11302,6 @@
     "category": "Trophies",
     "icon": "img/material/Shackles_of_the_Dandelion_Gladiator.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Ruins of Thirsting Capital (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11005,7 +11313,6 @@
     "category": "Trophies",
     "icon": "img/material/Dream_of_the_Dandelion_Gladiator.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Ruins of Thirsting Capital (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11018,6 +11325,7 @@
     "icon": "img/material/Luminous_Sands_from_Guyun.png",
     "sources": [
       "Purchase from the Souvenir Shop in Liyue",
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Thundercloud Altar (Monday/Thursday/Sunday)"
     ]
   },
@@ -11029,7 +11337,6 @@
     "category": "Trophies",
     "icon": "img/material/Lustrous_Stone_from_Guyun.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Thundercloud Altar (Monday/Thursday/Sunday)"
     ]
   },
@@ -11041,7 +11348,6 @@
     "category": "Trophies",
     "icon": "img/material/Relic_from_Guyun.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Thundercloud Altar (Monday/Thursday/Sunday)"
     ]
   },
@@ -11053,7 +11359,6 @@
     "category": "Trophies",
     "icon": "img/material/Divine_Body_from_Guyun.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Thundercloud Altar (Monday/Thursday/Sunday)"
     ]
   },
@@ -11066,6 +11371,7 @@
     "icon": "img/material/Mist_Veiled_Lead_Elixir.png",
     "sources": [
       "Purchase from the Souvenir Shop in Liyue",
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Thundering Ruins (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11077,7 +11383,6 @@
     "category": "Trophies",
     "icon": "img/material/Mist_Veiled_Mercury_Elixir.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Thundering Ruins (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11089,7 +11394,6 @@
     "category": "Trophies",
     "icon": "img/material/Mist_Veiled_Gold_Elixir.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Thundering Ruins (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11101,7 +11405,6 @@
     "category": "Trophies",
     "icon": "img/material/Mist_Veiled_Primo_Elixir.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Thundering Ruins (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11114,6 +11417,7 @@
     "icon": "img/material/Grain_of_Aerosiderite.png",
     "sources": [
       "Purchase from the Souvenir Shop in Liyue",
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Trial Grounds of Thunder (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11125,7 +11429,6 @@
     "category": "Trophies",
     "icon": "img/material/Piece_of_Aerosiderite.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Trial Grounds of Thunder (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11137,7 +11440,6 @@
     "category": "Trophies",
     "icon": "img/material/Bit_of_Aerosiderite.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Trial Grounds of Thunder (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11149,7 +11451,6 @@
     "category": "Trophies",
     "icon": "img/material/Chunk_of_Aerosiderite.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Trial Grounds of Thunder (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11161,6 +11462,7 @@
     "category": "Trophies",
     "icon": "img/material/Coral_Branch_of_a_Distant_Sea.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Sunken Sands (Monday/Thursday/Sunday)"
     ]
   },
@@ -11172,7 +11474,6 @@
     "category": "Trophies",
     "icon": "img/material/Jeweled_Branch_of_a_Distant_Sea.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Sunken Sands (Monday/Thursday/Sunday)"
     ]
   },
@@ -11184,7 +11485,6 @@
     "category": "Trophies",
     "icon": "img/material/Jade_Branch_of_a_Distant_Sea.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Sunken Sands (Monday/Thursday/Sunday)"
     ]
   },
@@ -11196,7 +11496,6 @@
     "category": "Trophies",
     "icon": "img/material/Golden_Branch_of_a_Distant_Sea.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Sunken Sands (Monday/Thursday/Sunday)"
     ]
   },
@@ -11208,6 +11507,7 @@
     "category": "Trophies",
     "icon": "img/material/Narukamis_Wisdom.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Altar of Sands (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11219,7 +11519,6 @@
     "category": "Trophies",
     "icon": "img/material/Narukamis_Joy.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Altar of Sands (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11231,7 +11530,6 @@
     "category": "Trophies",
     "icon": "img/material/Narukamis_Affection.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Altar of Sands (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11243,7 +11541,6 @@
     "category": "Trophies",
     "icon": "img/material/Narukamis_Valor.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Altar of Sands (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11255,6 +11552,7 @@
     "category": "Trophies",
     "icon": "img/material/Mask_of_the_Wicked_Lieutenant.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Sand Burial (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11266,7 +11564,6 @@
     "category": "Trophies",
     "icon": "img/material/Mask_of_the_Tigers_Bite.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Sand Burial (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11278,7 +11575,6 @@
     "category": "Trophies",
     "icon": "img/material/Mask_of_the_OneHorned.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Sand Burial (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11290,7 +11586,6 @@
     "category": "Trophies",
     "icon": "img/material/Mask_of_the_Kijin.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Sand Burial (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11302,6 +11597,7 @@
     "category": "Trophies",
     "icon": "img/material/Copper_Talisman_of_the_Forest_Dew.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Tainted Clouds (Monday/Thursday/Sunday)"
     ]
   },
@@ -11313,7 +11609,6 @@
     "category": "Trophies",
     "icon": "img/material/Iron_Talisman_of_the_Forest_Dew.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Tainted Clouds (Monday/Thursday/Sunday)"
     ]
   },
@@ -11325,7 +11620,6 @@
     "category": "Trophies",
     "icon": "img/material/Silver_Talisman_of_the_Forest_Dew.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Tainted Clouds (Monday/Thursday/Sunday)"
     ]
   },
@@ -11337,7 +11631,6 @@
     "category": "Trophies",
     "icon": "img/material/Golden_Talisman_of_the_Forest_Dew.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Tainted Clouds (Monday/Thursday/Sunday)"
     ]
   },
@@ -11349,6 +11642,7 @@
     "category": "Trophies",
     "icon": "img/material/Oasis_Gardens_Reminiscence.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Obsession (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11360,7 +11654,6 @@
     "category": "Trophies",
     "icon": "img/material/Oasis_Gardens_Kindness.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Obsession (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11372,7 +11665,6 @@
     "category": "Trophies",
     "icon": "img/material/Oasis_Gardens_Mourning.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Obsession (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11384,7 +11676,6 @@
     "category": "Trophies",
     "icon": "img/material/Oasis_Gardens_Truth.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Obsession (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11396,6 +11687,7 @@
     "category": "Trophies",
     "icon": "img/material/Echo_of_Scorching_Might.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Leading Karma (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11407,7 +11699,6 @@
     "category": "Trophies",
     "icon": "img/material/Remnant_Glow_of_Scorching_Might.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Leading Karma (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11419,7 +11710,6 @@
     "category": "Trophies",
     "icon": "img/material/Dream_of_Scorching_Might.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Leading Karma (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11431,7 +11721,6 @@
     "category": "Trophies",
     "icon": "img/material/Olden_Days_of_Scorching_Might.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Leading Karma (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11443,6 +11732,7 @@
     "category": "Trophies",
     "icon": "img/material/Fragment_of_an_Ancient_Chord.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Robotic Ruse (Monday/Thursday/Sunday)"
     ]
   },
@@ -11454,7 +11744,6 @@
     "category": "Trophies",
     "icon": "img/material/Chapter_of_an_Ancient_Chord.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Robotic Ruse (Monday/Thursday/Sunday)"
     ]
   },
@@ -11466,7 +11755,6 @@
     "category": "Trophies",
     "icon": "img/material/Movement_of_an_Ancient_Chord.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Robotic Ruse (Monday/Thursday/Sunday)"
     ]
   },
@@ -11478,7 +11766,6 @@
     "category": "Trophies",
     "icon": "img/material/Echo_of_an_Ancient_Chord.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Robotic Ruse (Monday/Thursday/Sunday)"
     ]
   },
@@ -11490,6 +11777,7 @@
     "category": "Trophies",
     "icon": "img/material/Dross_of_Pure_Sacred_Dewdrop.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Artisanship (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11501,7 +11789,6 @@
     "category": "Trophies",
     "icon": "img/material/Sublimation_of_Pure_Sacred_Dewdrop.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Artisanship (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11513,7 +11800,6 @@
     "category": "Trophies",
     "icon": "img/material/Spring_of_Pure_Sacred_Dewdrop.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Artisanship (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11525,7 +11811,6 @@
     "category": "Trophies",
     "icon": "img/material/Essence_of_Pure_Sacred_Dewdrop.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Artisanship (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11537,6 +11822,7 @@
     "category": "Trophies",
     "icon": "img/material/Broken_Goblet_of_the_Pristine_Sea.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Curious Contraptions (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11548,7 +11834,6 @@
     "category": "Trophies",
     "icon": "img/material/Wine_Goblet_of_the_Pristine_Sea.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Curious Contraptions (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11560,7 +11845,6 @@
     "category": "Trophies",
     "icon": "img/material/Silver_Goblet_of_the_Pristine_Sea.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Curious Contraptions (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11572,7 +11856,6 @@
     "category": "Trophies",
     "icon": "img/material/Golden_Goblet_of_the_Pristine_Sea.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Curious Contraptions (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11584,6 +11867,7 @@
     "category": "Trophies",
     "icon": "img/material/Blazing_Sacrificial_Hearts_Terror.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Scrying Shadows (Monday/Thursday/Sunday)"
     ]
   },
@@ -11595,7 +11879,6 @@
     "category": "Trophies",
     "icon": "img/material/Blazing_Sacrificial_Hearts_Hesitance.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Scrying Shadows (Monday/Thursday/Sunday)"
     ]
   },
@@ -11607,7 +11890,6 @@
     "category": "Trophies",
     "icon": "img/material/Blazing_Sacrificial_Hearts_Resolve.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Scrying Shadows (Monday/Thursday/Sunday)"
     ]
   },
@@ -11619,7 +11901,6 @@
     "category": "Trophies",
     "icon": "img/material/Blazing_Sacrificial_Hearts_Splendor.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Scrying Shadows (Monday/Thursday/Sunday)"
     ]
   },
@@ -11631,6 +11912,7 @@
     "category": "Trophies",
     "icon": "img/material/Delirious_Decadence_of_the_Sacred_Lord.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Attentive Observation (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11642,7 +11924,6 @@
     "category": "Trophies",
     "icon": "img/material/Delirious_Desolation_of_the_Sacred_Lord.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Attentive Observation (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11654,7 +11935,6 @@
     "category": "Trophies",
     "icon": "img/material/Delirious_Demeanor_of_the_Sacred_Lord.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Attentive Observation (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11666,7 +11946,6 @@
     "category": "Trophies",
     "icon": "img/material/Delirious_Divinity_of_the_Sacred_Lord.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Attentive Observation (Tuesday/Friday/Sunday)"
     ]
   },
@@ -11678,6 +11957,7 @@
     "category": "Trophies",
     "icon": "img/material/NightWinds_Mystic_Consideration.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Forgery: Estimation (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11689,7 +11969,6 @@
     "category": "Trophies",
     "icon": "img/material/NightWinds_Mystic_Premonition.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Estimation (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11701,7 +11980,6 @@
     "category": "Trophies",
     "icon": "img/material/NightWinds_Mystic_Augury.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Estimation (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11713,7 +11991,6 @@
     "category": "Trophies",
     "icon": "img/material/NightWinds_Mystic_Revelation.png",
     "sources": [
-      "Crafted",
       "Domain of Forgery: Estimation (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -11723,7 +12000,15 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Damaged_Mask.png"
+    "icon": "img/material/Damaged_Mask.png",
+    "sources": [
+      "Dropped by hilichurls",
+      "Dropped uncommonly by Hilichurl Shooters",
+      "Dropped uncommonly by samachurls",
+      "Dropped uncommonly by mitachurls",
+      "Dropped uncommonly by lawachurls",
+      "Stardust Exchange"
+    ]
   },
   "Stained Mask": {
     "name": "Stained Mask",
@@ -11733,7 +12018,12 @@
     "category": "Trophies",
     "icon": "img/material/Stained_Mask.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ hilichurls",
+      "Dropped uncommonly by Lv. 40+ Hilichurl Shooters",
+      "Dropped uncommonly by Lv. 40+ samachurls",
+      "Dropped uncommonly by Lv. 40+ mitachurls",
+      "Dropped uncommonly by Lv. 40+ lawachurls",
+      "Stardust Exchange"
     ]
   },
   "Ominous Mask": {
@@ -11744,7 +12034,11 @@
     "category": "Trophies",
     "icon": "img/material/Ominous_Mask.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ hilichurls",
+      "Dropped uncommonly by Lv. 60+ Hilichurl Shooters",
+      "Dropped uncommonly by Lv. 60+ samachurls",
+      "Dropped uncommonly by Lv. 60+ mitachurls",
+      "Dropped uncommonly by Lv. 60+ lawachurls"
     ]
   },
   "Divining Scroll": {
@@ -11753,7 +12047,11 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Divining_Scroll.png"
+    "icon": "img/material/Divining_Scroll.png",
+    "sources": [
+      "Dropped by samachurls",
+      "Stardust Exchange"
+    ]
   },
   "Sealed Scroll": {
     "name": "Sealed Scroll",
@@ -11763,7 +12061,8 @@
     "category": "Trophies",
     "icon": "img/material/Sealed_Scroll.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ samachurls",
+      "Stardust Exchange"
     ]
   },
   "Forbidden Curse Scroll": {
@@ -11774,7 +12073,7 @@
     "category": "Trophies",
     "icon": "img/material/Forbidden_Curse_Scroll.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ samachurls"
     ]
   },
   "Firm Arrowhead": {
@@ -11783,7 +12082,11 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Firm_Arrowhead.png"
+    "icon": "img/material/Firm_Arrowhead.png",
+    "sources": [
+      "Dropped by Hilichurl Shooters",
+      "Stardust Exchange"
+    ]
   },
   "Sharp Arrowhead": {
     "name": "Sharp Arrowhead",
@@ -11793,7 +12096,8 @@
     "category": "Trophies",
     "icon": "img/material/Sharp_Arrowhead.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Hilichurl Shooters",
+      "Stardust Exchange"
     ]
   },
   "Weathered Arrowhead": {
@@ -11804,7 +12108,7 @@
     "category": "Trophies",
     "icon": "img/material/Weathered_Arrowhead.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Hilichurl Shooters"
     ]
   },
   "Heavy Horn": {
@@ -11813,7 +12117,12 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Heavy_Horn.png"
+    "icon": "img/material/Heavy_Horn.png",
+    "sources": [
+      "Dropped by mitachurls",
+      "Dropped by lawachurls",
+      "Stardust Exchange"
+    ]
   },
   "Black Bronze Horn": {
     "name": "Black Bronze Horn",
@@ -11823,7 +12132,9 @@
     "category": "Trophies",
     "icon": "img/material/Black_Bronze_Horn.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ mitachurls",
+      "Dropped by Lv. 40+ lawachurls",
+      "Stardust Exchange"
     ]
   },
   "Black Crystal Horn": {
@@ -11834,7 +12145,8 @@
     "category": "Trophies",
     "icon": "img/material/Black_Crystal_Horn.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ mitachurls",
+      "Dropped by Lv. 60+ lawachurls"
     ]
   },
   "Dead Ley Line Branch": {
@@ -11843,7 +12155,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Dead_Ley_Line_Branch.png"
+    "icon": "img/material/Dead_Ley_Line_Branch.png",
+    "sources": [
+      "Dropped by Abyss Mages",
+      "Stardust Exchange"
+    ]
   },
   "Dead Ley Line Leaves": {
     "name": "Dead Ley Line Leaves",
@@ -11853,7 +12169,8 @@
     "category": "Trophies",
     "icon": "img/material/Dead_Ley_Line_Leaves.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Abyss Mages",
+      "Stardust Exchange"
     ]
   },
   "Ley Line Sprout": {
@@ -11864,7 +12181,7 @@
     "category": "Trophies",
     "icon": "img/material/Ley_Line_Sprout.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Abyss Mages"
     ]
   },
   "Mist Grass Pollen": {
@@ -11873,7 +12190,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Mist_Grass_Pollen.png"
+    "icon": "img/material/Mist_Grass_Pollen.png",
+    "sources": [
+      "Dropped by Fatui Cicin Mages",
+      "Stardust Exchange"
+    ]
   },
   "Mist Grass": {
     "name": "Mist Grass",
@@ -11883,7 +12204,8 @@
     "category": "Trophies",
     "icon": "img/material/Mist_Grass.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Fatui Cicin Mages",
+      "Stardust Exchange"
     ]
   },
   "Mist Grass Wick": {
@@ -11894,7 +12216,7 @@
     "category": "Trophies",
     "icon": "img/material/Mist_Grass_Wick.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Fatui Cicin Mages"
     ]
   },
   "Hunter's Sacrificial Knife": {
@@ -11903,7 +12225,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Hunters_Sacrificial_Knife.png"
+    "icon": "img/material/Hunters_Sacrificial_Knife.png",
+    "sources": [
+      "Dropped by Fatui Agents",
+      "Stardust Exchange"
+    ]
   },
   "Agent's Sacrificial Knife": {
     "name": "Agent's Sacrificial Knife",
@@ -11913,7 +12239,8 @@
     "category": "Trophies",
     "icon": "img/material/Agents_Sacrificial_Knife.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Fatui Agents",
+      "Stardust Exchange"
     ]
   },
   "Inspector's Sacrificial Knife": {
@@ -11924,7 +12251,7 @@
     "category": "Trophies",
     "icon": "img/material/Inspectors_Sacrificial_Knife.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Fatui Agents"
     ]
   },
   "Recruit's Insignia": {
@@ -11933,7 +12260,13 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Recruits_Insignia.png"
+    "icon": "img/material/Recruits_Insignia.png",
+    "sources": [
+      "Dropped by Fatui Skirmishers",
+      "Dropped by some Fatui Agents",
+      "Dropped uncommonly by Fatui Cicin Mages",
+      "Stardust Exchange"
+    ]
   },
   "Sergeant's Insignia": {
     "name": "Sergeant's Insignia",
@@ -11943,7 +12276,10 @@
     "category": "Trophies",
     "icon": "img/material/Sergeants_Insignia.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Fatui Skirmishers",
+      "Dropped uncommonly by Lv. 40+ Fatui Agents",
+      "Dropped uncommonly by Lv. 40+ Fatui Cicin Mages",
+      "Stardust Exchange"
     ]
   },
   "Lieutenant's Insignia": {
@@ -11954,7 +12290,9 @@
     "category": "Trophies",
     "icon": "img/material/Lieutenants_Insignia.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Fatui Skirmishers",
+      "Dropped uncommonly by Lv. 60+ Fatui Agents",
+      "Dropped uncommonly by Lv. 60+ Fatui Cicin Mages"
     ]
   },
   "Slime Condensate": {
@@ -11963,7 +12301,11 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Slime_Condensate.png"
+    "icon": "img/material/Slime_Condensate.png",
+    "sources": [
+      "Dropped by slimes",
+      "Stardust Exchange"
+    ]
   },
   "Slime Secretions": {
     "name": "Slime Secretions",
@@ -11973,7 +12315,8 @@
     "category": "Trophies",
     "icon": "img/material/Slime_Secretions.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ slimes",
+      "Stardust Exchange"
     ]
   },
   "Slime Concentrate": {
@@ -11984,7 +12327,7 @@
     "category": "Trophies",
     "icon": "img/material/Slime_Concentrate.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ slimes"
     ]
   },
   "Whopperflower Nectar": {
@@ -11993,7 +12336,11 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Whopperflower_Nectar.png"
+    "icon": "img/material/Whopperflower_Nectar.png",
+    "sources": [
+      "Dropped by whopperflowers",
+      "Stardust Exchange"
+    ]
   },
   "Shimmering Nectar": {
     "name": "Shimmering Nectar",
@@ -12003,7 +12350,8 @@
     "category": "Trophies",
     "icon": "img/material/Shimmering_Nectar.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ whopperflowers",
+      "Stardust Exchange"
     ]
   },
   "Energy Nectar": {
@@ -12014,7 +12362,7 @@
     "category": "Trophies",
     "icon": "img/material/Energy_Nectar.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ whopperflowers"
     ]
   },
   "Fragile Bone Shard": {
@@ -12023,7 +12371,13 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Fragile_Bone_Shard.png"
+    "icon": "img/material/Fragile_Bone_Shard.png",
+    "sources": [
+      "Dropped by Geovishap Hatchlings",
+      "Dropped by Geovishaps",
+      "Dropped by Bathysmal Vishaps",
+      "Stardust Exchange"
+    ]
   },
   "Sturdy Bone Shard": {
     "name": "Sturdy Bone Shard",
@@ -12033,7 +12387,10 @@
     "category": "Trophies",
     "icon": "img/material/Sturdy_Bone_Shard.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Geovishap Hatchlings",
+      "Dropped by Lv. 40+ Geovishaps",
+      "Dropped by Lv. 40+ Bathysmal Vishaps",
+      "Stardust Exchange"
     ]
   },
   "Fossilized Bone Shard": {
@@ -12044,7 +12401,9 @@
     "category": "Trophies",
     "icon": "img/material/Fossilized_Bone_Shard.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Geovishap Hatchlings",
+      "Dropped by Lv. 60+ Geovishaps",
+      "Dropped by Lv. 60+ Bathysmal Vishaps"
     ]
   },
   "Treasure Hoarder Insignia": {
@@ -12053,7 +12412,11 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Treasure_Hoarder_Insignia.png"
+    "icon": "img/material/Treasure_Hoarder_Insignia.png",
+    "sources": [
+      "Dropped by Treasure Hoarders",
+      "Stardust Exchange"
+    ]
   },
   "Silver Raven Insignia": {
     "name": "Silver Raven Insignia",
@@ -12063,7 +12426,8 @@
     "category": "Trophies",
     "icon": "img/material/Silver_Raven_Insignia.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Treasure Hoarders",
+      "Stardust Exchange"
     ]
   },
   "Golden Raven Insignia": {
@@ -12074,7 +12438,7 @@
     "category": "Trophies",
     "icon": "img/material/Golden_Raven_Insignia.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Treasure Hoarders"
     ]
   },
   "Chaos Device": {
@@ -12083,7 +12447,12 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Chaos_Device.png"
+    "icon": "img/material/Chaos_Device.png",
+    "sources": [
+      "Dropped by Ruin Guards",
+      "Dropped by Ruin Hunters",
+      "Stardust Exchange"
+    ]
   },
   "Chaos Circuit": {
     "name": "Chaos Circuit",
@@ -12093,7 +12462,9 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Circuit.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Ruin Guards",
+      "Dropped by Lv. 40+ Ruin Hunters",
+      "Stardust Exchange"
     ]
   },
   "Chaos Core": {
@@ -12104,7 +12475,8 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Core.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Ruin Guards",
+      "Dropped by Lv. 60+ Ruin Hunters"
     ]
   },
   "Old Handguard": {
@@ -12113,7 +12485,11 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Old_Handguard.png"
+    "icon": "img/material/Old_Handguard.png",
+    "sources": [
+      "Dropped by Nobushi",
+      "Stardust Exchange"
+    ]
   },
   "Kageuchi Handguard": {
     "name": "Kageuchi Handguard",
@@ -12123,7 +12499,8 @@
     "category": "Trophies",
     "icon": "img/material/Kageuchi_Handguard.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Nobushi",
+      "Stardust Exchange"
     ]
   },
   "Famed Handguard": {
@@ -12134,7 +12511,7 @@
     "category": "Trophies",
     "icon": "img/material/Famed_Handguard.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Nobushi"
     ]
   },
   "Chaos Gear": {
@@ -12143,7 +12520,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Chaos_Gear.png"
+    "icon": "img/material/Chaos_Gear.png",
+    "sources": [
+      "Dropped by Ruin Sentinels",
+      "Stardust Exchange"
+    ]
   },
   "Chaos Axis": {
     "name": "Chaos Axis",
@@ -12153,7 +12534,8 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Axis.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Ruin Sentinels",
+      "Stardust Exchange"
     ]
   },
   "Chaos Oculus": {
@@ -12164,7 +12546,7 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Oculus.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Ruin Sentinels"
     ]
   },
   "Dismal Prism": {
@@ -12173,7 +12555,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Dismal_Prism.png"
+    "icon": "img/material/Dismal_Prism.png",
+    "sources": [
+      "Dropped by Mirror Maidens",
+      "Stardust Exchange"
+    ]
   },
   "Crystal Prism": {
     "name": "Crystal Prism",
@@ -12183,7 +12569,8 @@
     "category": "Trophies",
     "icon": "img/material/Crystal_Prism.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Mirror Maidens",
+      "Stardust Exchange"
     ]
   },
   "Polarizing Prism": {
@@ -12194,7 +12581,7 @@
     "category": "Trophies",
     "icon": "img/material/Polarizing_Prism.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Mirror Maidens"
     ]
   },
   "Spectral Husk": {
@@ -12203,7 +12590,11 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Spectral_Husk.png"
+    "icon": "img/material/Spectral_Husk.png",
+    "sources": [
+      "Dropped by Specters",
+      "Stardust Exchange"
+    ]
   },
   "Spectral Heart": {
     "name": "Spectral Heart",
@@ -12213,7 +12604,8 @@
     "category": "Trophies",
     "icon": "img/material/Spectral_Heart.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Specters",
+      "Stardust Exchange"
     ]
   },
   "Spectral Nucleus": {
@@ -12224,7 +12616,7 @@
     "category": "Trophies",
     "icon": "img/material/Spectral_Nucleus.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Specters"
     ]
   },
   "Concealed Claw": {
@@ -12233,7 +12625,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Concealed_Claw.png"
+    "icon": "img/material/Concealed_Claw.png",
+    "sources": [
+      "Dropped by Riftwolves",
+      "Stardust Exchange"
+    ]
   },
   "Concealed Unguis": {
     "name": "Concealed Unguis",
@@ -12243,7 +12639,8 @@
     "category": "Trophies",
     "icon": "img/material/Concealed_Unguis.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Riftwolves",
+      "Stardust Exchange"
     ]
   },
   "Concealed Talon": {
@@ -12254,7 +12651,7 @@
     "category": "Trophies",
     "icon": "img/material/Concealed_Talon.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Riftwolves"
     ]
   },
   "Fungal Spores": {
@@ -12263,7 +12660,13 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Fungal_Spores.png"
+    "icon": "img/material/Fungal_Spores.png",
+    "sources": [
+      "Dropped by Fungi",
+      "Dropped uncommonly by Fungi (activated)",
+      "Dropped uncommonly by Fungi (scorched)",
+      "Stardust Exchange"
+    ]
   },
   "Luminescent Pollen": {
     "name": "Luminescent Pollen",
@@ -12273,7 +12676,10 @@
     "category": "Trophies",
     "icon": "img/material/Luminescent_Pollen.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Fungi",
+      "Dropped uncommonly by Lv. 40+ Fungi (activated)",
+      "Dropped uncommonly by Lv. 40+ Fungi (scorched)",
+      "Stardust Exchange"
     ]
   },
   "Crystalline Cyst Dust": {
@@ -12284,7 +12690,9 @@
     "category": "Trophies",
     "icon": "img/material/Crystalline_Cyst_Dust.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Fungi",
+      "Dropped uncommonly by Lv. 60+ Fungi (activated)",
+      "Dropped uncommonly by Lv. 60+ Fungi (scorched)"
     ]
   },
   "Gloomy Statuette": {
@@ -12293,7 +12701,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Gloomy_Statuette.png"
+    "icon": "img/material/Gloomy_Statuette.png",
+    "sources": [
+      "Dropped by the Black Serpents",
+      "Stardust Exchange"
+    ]
   },
   "Dark Statuette": {
     "name": "Dark Statuette",
@@ -12303,7 +12715,8 @@
     "category": "Trophies",
     "icon": "img/material/Dark_Statuette.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Black Serpents",
+      "Stardust Exchange"
     ]
   },
   "Deathly Statuette": {
@@ -12314,7 +12727,7 @@
     "category": "Trophies",
     "icon": "img/material/Deathly_Statuette.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Black Serpents"
     ]
   },
   "Inactivated Fungal Nucleus": {
@@ -12323,7 +12736,12 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Inactivated_Fungal_Nucleus.png"
+    "icon": "img/material/Inactivated_Fungal_Nucleus.png",
+    "sources": [
+      "Dropped by Fungi (activated)",
+      "Dropped by Fungi (scorched)",
+      "Stardust Exchange"
+    ]
   },
   "Dormant Fungal Nucleus": {
     "name": "Dormant Fungal Nucleus",
@@ -12333,7 +12751,9 @@
     "category": "Trophies",
     "icon": "img/material/Dormant_Fungal_Nucleus.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Fungi (activated)",
+      "Dropped by Lv. 40+ Fungi (scorched)",
+      "Stardust Exchange"
     ]
   },
   "Robust Fungal Nucleus": {
@@ -12344,7 +12764,8 @@
     "category": "Trophies",
     "icon": "img/material/Robust_Fungal_Nucleus.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Fungi (activated)",
+      "Dropped by Lv. 60+ Fungi (scorched)"
     ]
   },
   "Faded Red Satin": {
@@ -12353,7 +12774,11 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Faded_Red_Satin.png"
+    "icon": "img/material/Faded_Red_Satin.png",
+    "sources": [
+      "Dropped by The Eremites",
+      "Stardust Exchange"
+    ]
   },
   "Trimmed Red Silk": {
     "name": "Trimmed Red Silk",
@@ -12363,7 +12788,8 @@
     "category": "Trophies",
     "icon": "img/material/Trimmed_Red_Silk.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Eremites",
+      "Stardust Exchange"
     ]
   },
   "Rich Red Brocade": {
@@ -12374,7 +12800,7 @@
     "category": "Trophies",
     "icon": "img/material/Rich_Red_Brocade.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Eremites"
     ]
   },
   "Chaos Storage": {
@@ -12383,7 +12809,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Chaos_Storage.png"
+    "icon": "img/material/Chaos_Storage.png",
+    "sources": [
+      "Dropped by Ruin Drakes",
+      "Stardust Exchange"
+    ]
   },
   "Chaos Module": {
     "name": "Chaos Module",
@@ -12393,7 +12823,8 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Module.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Ruin Drakes",
+      "Stardust Exchange"
     ]
   },
   "Chaos Bolt": {
@@ -12404,7 +12835,7 @@
     "category": "Trophies",
     "icon": "img/material/Chaos_Bolt.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Ruin Drakes"
     ]
   },
   "Damaged Prism": {
@@ -12413,7 +12844,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Damaged_Prism.png"
+    "icon": "img/material/Damaged_Prism.png",
+    "sources": [
+      "Dropped by Primal Constructs",
+      "Stardust Exchange"
+    ]
   },
   "Turbid Prism": {
     "name": "Turbid Prism",
@@ -12423,7 +12858,8 @@
     "category": "Trophies",
     "icon": "img/material/Turbid_Prism.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Primal Constructs",
+      "Stardust Exchange"
     ]
   },
   "Radiant Prism": {
@@ -12434,7 +12870,7 @@
     "category": "Trophies",
     "icon": "img/material/Radiant_Prism.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Primal Constructs"
     ]
   },
   "Desiccated Shell": {
@@ -12443,7 +12879,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Desiccated_Shell.png"
+    "icon": "img/material/Desiccated_Shell.png",
+    "sources": [
+      "Dropped by Consecrated Beasts",
+      "Stardust Exchange"
+    ]
   },
   "Sturdy Shell": {
     "name": "Sturdy Shell",
@@ -12453,7 +12893,8 @@
     "category": "Trophies",
     "icon": "img/material/Sturdy_Shell.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Consecrated Beasts",
+      "Stardust Exchange"
     ]
   },
   "Marked Shell": {
@@ -12464,7 +12905,7 @@
     "category": "Trophies",
     "icon": "img/material/Marked_Shell.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Consecrated Beasts"
     ]
   },
   "A Flower Yet to Bloom": {
@@ -12473,7 +12914,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/A_Flower_Yet_to_Bloom.png"
+    "icon": "img/material/A_Flower_Yet_to_Bloom.png",
+    "sources": [
+      "Dropped by Hilichurl Rogues",
+      "Stardust Exchange"
+    ]
   },
   "Treasured Flower": {
     "name": "Treasured Flower",
@@ -12484,7 +12929,8 @@
     "category": "Trophies",
     "icon": "img/material/Treasured_Flower.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Hilichurl Rogues",
+      "Stardust Exchange"
     ]
   },
   "Wanderer's Blooming Flower": {
@@ -12496,7 +12942,7 @@
     "category": "Trophies",
     "icon": "img/material/Wanderers_Blooming_Flower.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Hilichurl Rogues"
     ]
   },
   "Transoceanic Pearl": {
@@ -12505,7 +12951,11 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Transoceanic_Pearl.png"
+    "icon": "img/material/Transoceanic_Pearl.png",
+    "sources": [
+      "Dropped by Fontemer Aberrants",
+      "Stardust Exchange"
+    ]
   },
   "Transoceanic Chunk": {
     "name": "Transoceanic Chunk",
@@ -12516,7 +12966,8 @@
     "category": "Trophies",
     "icon": "img/material/Transoceanic_Chunk.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Fontemer Aberrants",
+      "Stardust Exchange"
     ]
   },
   "Xenochromatic Crystal": {
@@ -12528,7 +12979,7 @@
     "category": "Trophies",
     "icon": "img/material/Xenochromatic_Crystal.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Fontemer Aberrants"
     ]
   },
   "Meshing Gear": {
@@ -12537,7 +12988,11 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Meshing_Gear.png"
+    "icon": "img/material/Meshing_Gear.png",
+    "sources": [
+      "Dropped by Clockwork Meka",
+      "Stardust Exchange"
+    ]
   },
   "Mechanical Spur Gear": {
     "name": "Mechanical Spur Gear",
@@ -12548,7 +13003,8 @@
     "category": "Trophies",
     "icon": "img/material/Mechanical_Spur_Gear.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Clockwork Meka",
+      "Stardust Exchange"
     ]
   },
   "Artificed Dynamic Gear": {
@@ -12560,7 +13016,7 @@
     "category": "Trophies",
     "icon": "img/material/Artificed_Dynamic_Gear.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Clockwork Meka"
     ]
   },
   "Drop of Tainted Water": {
@@ -12569,7 +13025,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Drop_of_Tainted_Water.png"
+    "icon": "img/material/Drop_of_Tainted_Water.png",
+    "sources": [
+      "Dropped by Tainted Hydro Phantasms",
+      "Stardust Exchange"
+    ]
   },
   "Scoop of Tainted Water": {
     "name": "Scoop of Tainted Water",
@@ -12579,7 +13039,8 @@
     "category": "Trophies",
     "icon": "img/material/Scoop_of_Tainted_Water.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Tainted Hydro Phantasms",
+      "Stardust Exchange"
     ]
   },
   "Newborn Tainted Hydro Phantasm": {
@@ -12591,7 +13052,7 @@
     "category": "Trophies",
     "icon": "img/material/Newborn_Tainted_Hydro_Phantasm.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Tainted Hydro Phantasms"
     ]
   },
   "Rift Core": {
@@ -12600,7 +13061,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Rift_Core.png"
+    "icon": "img/material/Rift_Core.png",
+    "sources": [
+      "Dropped by Breacher Primuses",
+      "Stardust Exchange"
+    ]
   },
   "Foreign Synapse": {
     "name": "Foreign Synapse",
@@ -12610,7 +13075,8 @@
     "category": "Trophies",
     "icon": "img/material/Foreign_Synapse.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Breacher Primuses",
+      "Stardust Exchange"
     ]
   },
   "Alien Life Core": {
@@ -12622,7 +13088,7 @@
     "category": "Trophies",
     "icon": "img/material/Alien_Life_Core.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Breacher Primuses"
     ]
   },
   "Old Operative's Pocket Watch": {
@@ -12631,7 +13097,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Old_Operatives_Pocket_Watch.png"
+    "icon": "img/material/Old_Operatives_Pocket_Watch.png",
+    "sources": [
+      "Dropped by Fatui Operatives",
+      "Stardust Exchange"
+    ]
   },
   "Operative's Standard Pocket Watch": {
     "name": "Operative's Standard Pocket Watch",
@@ -12642,7 +13112,8 @@
     "category": "Trophies",
     "icon": "img/material/Operatives_Standard_Pocket_Watch.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Fatui Operatives",
+      "Stardust Exchange"
     ]
   },
   "Operative's Constancy": {
@@ -12654,7 +13125,7 @@
     "category": "Trophies",
     "icon": "img/material/Operatives_Constancy.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Fatui Operatives"
     ]
   },
   "Feathery Fin": {
@@ -12663,7 +13134,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Feathery_Fin.png"
+    "icon": "img/material/Feathery_Fin.png",
+    "sources": [
+      "Dropped by Xuanwen Beasts",
+      "Stardust Exchange"
+    ]
   },
   "Lunar Fin": {
     "name": "Lunar Fin",
@@ -12674,7 +13149,8 @@
     "category": "Trophies",
     "icon": "img/material/Lunar_Fin.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Xuanwen Beasts",
+      "Stardust Exchange"
     ]
   },
   "Chasmlight Fin": {
@@ -12686,7 +13162,7 @@
     "category": "Trophies",
     "icon": "img/material/Chasmlight_Fin.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Xuanwen Beasts"
     ]
   },
   "Ruined Hilt": {
@@ -12696,7 +13172,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Ruined_Hilt.png"
+    "icon": "img/material/Ruined_Hilt.png",
+    "sources": [
+      "Dropped by Praetorian Golems",
+      "Stardust Exchange"
+    ]
   },
   "Splintered Hilt": {
     "name": "Splintered Hilt",
@@ -12707,7 +13187,8 @@
     "category": "Trophies",
     "icon": "img/material/Splintered_Hilt.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Praetorian Golems",
+      "Stardust Exchange"
     ]
   },
   "Still-Smoldering Hilt": {
@@ -12719,7 +13200,7 @@
     "category": "Trophies",
     "icon": "img/material/StillSmoldering_Hilt.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Praetorian Golems"
     ]
   },
   "Juvenile Fang": {
@@ -12728,7 +13209,11 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Juvenile_Fang.png"
+    "icon": "img/material/Juvenile_Fang.png",
+    "sources": [
+      "Dropped by Natlan Saurians",
+      "Stardust Exchange"
+    ]
   },
   "Seasoned Fang": {
     "name": "Seasoned Fang",
@@ -12738,7 +13223,8 @@
     "category": "Trophies",
     "icon": "img/material/Seasoned_Fang.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Natlan Saurians",
+      "Stardust Exchange"
     ]
   },
   "Tyrant's Fang": {
@@ -12749,7 +13235,7 @@
     "category": "Trophies",
     "icon": "img/material/Tyrants_Fang.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Natlan Saurians"
     ]
   },
   "Sentry's Wooden Whistle": {
@@ -12758,7 +13244,11 @@
     "stars": 1,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Sentrys_Wooden_Whistle.png"
+    "icon": "img/material/Sentrys_Wooden_Whistle.png",
+    "sources": [
+      "Dropped by Sauroform Tribal Warriors",
+      "Stardust Exchange"
+    ]
   },
   "Warrior's Metal Whistle": {
     "name": "Warrior's Metal Whistle",
@@ -12768,7 +13258,8 @@
     "category": "Trophies",
     "icon": "img/material/Warriors_Metal_Whistle.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Sauroform Tribal Warriors",
+      "Stardust Exchange"
     ]
   },
   "Saurian-Crowned Warrior's Golden Whistle": {
@@ -12779,7 +13270,7 @@
     "category": "Trophies",
     "icon": "img/material/SaurianCrowned_Warriors_Golden_Whistle.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Sauroform Tribal Warriors"
     ]
   },
   "Shard of a Shattered Will": {
@@ -12788,7 +13279,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Shard_of_a_Shattered_Will.png"
+    "icon": "img/material/Shard_of_a_Shattered_Will.png",
+    "sources": [
+      "Dropped by Wayob Manifestations",
+      "Stardust Exchange"
+    ]
   },
   "Locus of a Clear Will": {
     "name": "Locus of a Clear Will",
@@ -12798,7 +13293,8 @@
     "category": "Trophies",
     "icon": "img/material/Locus_of_a_Clear_Will.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Wayob Manifestations",
+      "Stardust Exchange"
     ]
   },
   "Sigil of a Striding Will": {
@@ -12809,7 +13305,7 @@
     "category": "Trophies",
     "icon": "img/material/Sigil_of_a_Striding_Will.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Wayob Manifestations"
     ]
   },
   "Ignited Stone": {
@@ -12818,7 +13314,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Ignited_Stone.png"
+    "icon": "img/material/Ignited_Stone.png",
+    "sources": [
+      "Dropped by Avatars of Lava",
+      "Stardust Exchange"
+    ]
   },
   "Ignited Seed of Life": {
     "name": "Ignited Seed of Life",
@@ -12828,7 +13328,8 @@
     "category": "Trophies",
     "icon": "img/material/Ignited_Seed_of_Life.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Avatars of Lava",
+      "Stardust Exchange"
     ]
   },
   "Ignited Seeing Eye": {
@@ -12839,7 +13340,7 @@
     "category": "Trophies",
     "icon": "img/material/Ignited_Seeing_Eye.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Avatars of Lava"
     ]
   },
   "Axis of the Secret Source": {
@@ -12848,7 +13349,11 @@
     "stars": 2,
     "type": "Character and Weapon Enhancement Material",
     "category": "Trophies",
-    "icon": "img/material/Axis_of_the_Secret_Source.png"
+    "icon": "img/material/Axis_of_the_Secret_Source.png",
+    "sources": [
+      "Dropped by Secret Source Automaton: Hunter-Seeker",
+      "Stardust Exchange"
+    ]
   },
   "Sheath of the Secret Source": {
     "name": "Sheath of the Secret Source",
@@ -12858,7 +13363,8 @@
     "category": "Trophies",
     "icon": "img/material/Sheath_of_the_Secret_Source.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 40+ Secret Source Automaton: Hunter-Seeker",
+      "Stardust Exchange"
     ]
   },
   "Heart of the Secret Source": {
@@ -12869,7 +13375,7 @@
     "category": "Trophies",
     "icon": "img/material/Heart_of_the_Secret_Source.png",
     "sources": [
-      "Crafted"
+      "Dropped by Lv. 60+ Secret Source Automaton: Hunter-Seeker"
     ]
   },
   "Tainted Blood": {
@@ -12920,6 +13426,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Freedom.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Frosted Altar (Monday/Thursday/Sunday)"
     ]
   },
@@ -12931,7 +13438,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Freedom.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Frosted Altar (Monday/Thursday/Sunday)"
     ]
   },
@@ -12943,7 +13449,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Freedom.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Frosted Altar (Monday/Thursday/Sunday)"
     ]
   },
@@ -12955,6 +13460,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Resistance.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Frozen Abyss (Tuesday/Friday/Sunday)"
     ]
   },
@@ -12966,7 +13472,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Resistance.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Frozen Abyss (Tuesday/Friday/Sunday)"
     ]
   },
@@ -12978,7 +13483,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Resistance.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Frozen Abyss (Tuesday/Friday/Sunday)"
     ]
   },
@@ -12990,6 +13494,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Ballad.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Realm of Slumber (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13001,7 +13506,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Ballad.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Realm of Slumber (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13013,7 +13517,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Ballad.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Realm of Slumber (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13025,6 +13528,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Prosperity.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Altar of Flames (Monday/Thursday/Sunday)"
     ]
   },
@@ -13036,7 +13540,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Prosperity.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Altar of Flames (Monday/Thursday/Sunday)"
     ]
   },
@@ -13048,7 +13551,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Prosperity.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Altar of Flames (Monday/Thursday/Sunday)"
     ]
   },
@@ -13060,6 +13562,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Diligence.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Heart of the Flames (Tuesday/Friday/Sunday)"
     ]
   },
@@ -13071,7 +13574,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Diligence.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Heart of the Flames (Tuesday/Friday/Sunday)"
     ]
   },
@@ -13083,7 +13585,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Diligence.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Heart of the Flames (Tuesday/Friday/Sunday)"
     ]
   },
@@ -13095,6 +13596,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Gold.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Circle of Embers (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13106,7 +13608,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Gold.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Circle of Embers (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13118,7 +13619,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Gold.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Circle of Embers (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13130,6 +13630,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Transience.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Reign of Violet (Monday/Thursday/Sunday)"
     ]
   },
@@ -13141,7 +13642,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Transience.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Reign of Violet (Monday/Thursday/Sunday)"
     ]
   },
@@ -13153,7 +13653,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Transience.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Reign of Violet (Monday/Thursday/Sunday)"
     ]
   },
@@ -13165,6 +13664,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Elegance.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Thundering Valley (Tuesday/Friday/Sunday)"
     ]
   },
@@ -13176,7 +13676,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Elegance.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Thundering Valley (Tuesday/Friday/Sunday)"
     ]
   },
@@ -13188,7 +13687,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Elegance.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Thundering Valley (Tuesday/Friday/Sunday)"
     ]
   },
@@ -13200,6 +13698,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Light.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Vine-Infested Ruins (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13211,7 +13710,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Light.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Vine-Infested Ruins (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13223,7 +13721,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Light.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Vine-Infested Ruins (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13235,6 +13732,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Admonition.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Full Moon (Monday/Thursday/Sunday)"
     ]
   },
@@ -13246,7 +13744,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Admonition.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Full Moon (Monday/Thursday/Sunday)"
     ]
   },
@@ -13258,7 +13755,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Admonition.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Full Moon (Monday/Thursday/Sunday)"
     ]
   },
@@ -13270,6 +13766,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Ingenuity.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Witticism (Tuesday/Friday/Sunday)"
     ]
   },
@@ -13281,7 +13778,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Ingenuity.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Witticism (Tuesday/Friday/Sunday)"
     ]
   },
@@ -13293,7 +13789,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Ingenuity.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Witticism (Tuesday/Friday/Sunday)"
     ]
   },
@@ -13305,6 +13800,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Praxis.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Basket of Discipline (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13316,7 +13812,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Praxis.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Basket of Discipline (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13328,7 +13823,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Praxis.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Basket of Discipline (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13340,6 +13834,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Equity.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Rhyming Rhythm (Monday/Thursday/Sunday)"
     ]
   },
@@ -13351,7 +13846,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Equity.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Rhyming Rhythm (Monday/Thursday/Sunday)"
     ]
   },
@@ -13363,7 +13857,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Equity.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Rhyming Rhythm (Monday/Thursday/Sunday)"
     ]
   },
@@ -13375,6 +13868,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Justice.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Admonishing Engraving (Tuesday/Friday/Sunday)"
     ]
   },
@@ -13386,7 +13880,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Justice.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Admonishing Engraving (Tuesday/Friday/Sunday)"
     ]
   },
@@ -13398,7 +13891,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Justice.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Admonishing Engraving (Tuesday/Friday/Sunday)"
     ]
   },
@@ -13410,6 +13902,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Order.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Chiming Recitation (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13421,7 +13914,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Order.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Chiming Recitation (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13433,7 +13925,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Order.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Chiming Recitation (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13445,6 +13936,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Contention.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Sublime Turning (Monday/Thursday/Sunday)"
     ]
   },
@@ -13456,7 +13948,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Contention.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Sublime Turning (Monday/Thursday/Sunday)"
     ]
   },
@@ -13468,7 +13959,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Contention.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Sublime Turning (Monday/Thursday/Sunday)"
     ]
   },
@@ -13480,6 +13970,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Kindling.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Myriad Illusions (Tuesday/Friday/Sunday)"
     ]
   },
@@ -13491,7 +13982,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Kindling.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Myriad Illusions (Tuesday/Friday/Sunday)"
     ]
   },
@@ -13503,7 +13993,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Kindling.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Myriad Illusions (Tuesday/Friday/Sunday)"
     ]
   },
@@ -13515,6 +14004,7 @@
     "category": "Trophies",
     "icon": "img/material/Teachings_of_Conflict.png",
     "sources": [
+      "Exchanged in the Gift Shop",
       "Domain of Mastery: Return (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13526,7 +14016,6 @@
     "category": "Trophies",
     "icon": "img/material/Guide_to_Conflict.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Return (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -13538,7 +14027,6 @@
     "category": "Trophies",
     "icon": "img/material/Philosophies_of_Conflict.png",
     "sources": [
-      "Crafted",
       "Domain of Mastery: Return (Wednesday/Saturday/Sunday)"
     ]
   },
@@ -14103,5 +14591,29 @@
     "type": "Gadget",
     "category": "Utility Items",
     "icon": "img/material/Artifact_Transmuter.png"
+  },
+  "Firstborn Firesprite": {
+    "name": "Firstborn Firesprite",
+    "desc": "A tiny lifeform that emerged from a flame within a shell.\nThere is something quite endearing about its over-reliance on the shell it found protecting it at the moment it gained its sentience — perhaps it feels secure in this closed-up world. After all, when its eggshell is completely enclosed, it reigns supreme in its own little universe.\nIt is said that in ancient times, the Primal Fire burned with a similar life force.",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Firstborn_Firesprite.png"
+  },
+  "Kaboom Box": {
+    "name": "Kaboom Box",
+    "desc": "A mechanism that continually absorbs the force it receives.\nApparently, when the power within reaches bursting point, it will explode in a dazzling display of fireworks. But the amount of force needed to trigger this explosion seems to vary each time... So why not take turns attacking it with your friends? They say that whoever makes it go \"kaboom\" will have extraordinarily good luck for the rest of the day.",
+    "stars": 4,
+    "type": "Gadget",
+    "category": "Utility Items",
+    "icon": "img/material/Kaboom_Box.png"
+  },
+  "Pilgrim's Chronicle": {
+    "name": "Pilgrim's Chronicle",
+    "desc": "Obtained from the Lord of the Night, this material plays a key role in the creation of Ancient Names. Its essence is \"memory,\" for Natlan's Ley Lines do not record the adventures of outsiders, and so, a special \"vessel\" is needed here.\nMemory flows within this receptacle, and if you focus on its surface, it will display the vital footprints you have left in Natlan.\nFrom what you've heard, Xilonen and Citlali had a rather easy time obtaining this material. This, you presume, is thanks to the Lord of the Night's gentleness and generosity.",
+    "stars": 4,
+    "type": "Quest Item",
+    "category": "Utility Items",
+    "icon": "img/material/Pilgrims_Chronicle.png"
   }
 }
