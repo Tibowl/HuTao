@@ -4302,7 +4302,7 @@
         "name": "Event Wish \"The Moongrass' Enlightenment\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/34470331",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/10/23/0/d5d534334d0d7f170a750272c37e42ac_3319645081812169425.jpeg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/10/23/0/d5d534334d0d7f170a750272c37e42ac_3319645081812169425.jpeg",
         "start": "2024-10-29 18:00:00",
         "end": "2024-11-19 14:59:00",
         "reminder": "end"
@@ -4311,7 +4311,7 @@
         "name": "Event Wish \"Moment of Bloom\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/34470331",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/10/23/0/7da3f0e61c6252342082f83244662067_4465537971219842450.jpeg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/10/23/0/7da3f0e61c6252342082f83244662067_4465537971219842450.jpeg",
         "start": "2024-10-29 18:00:00",
         "end": "2024-11-19 14:59:00",
         "reminder": "end"
@@ -4320,7 +4320,7 @@
         "name": "Event Wish \"Epitome Invocation\"",
         "type": "Banner",
         "link": "https://www.hoyolab.com/article/34470331",
-        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/10/23/0/ebb7a558038da75e85bc61d65037a4fe_5951500030333480086.jpeg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/10/23/0/ebb7a558038da75e85bc61d65037a4fe_5951500030333480086.jpeg",
         "start": "2024-10-29 18:00:00",
         "end": "2024-11-19 14:59:00",
         "reminder": "end"
@@ -4355,6 +4355,8 @@
     {
         "name": "\"Feast of Pursuit\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/34613230",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/10/28/02d494380c853b311ce9b8ee7be3dc90_87779421965420044.png",
         "start": "2024-11-01 10:00:00",
         "end": "2024-11-15 03:59:00",
         "reminder": "end"
@@ -4365,5 +4367,13 @@
         "start": "2024-11-11 10:00:00",
         "end": "2024-11-18 10:00:00",
         "reminder": "daily"
+    },
+    {
+        "name": "5.2 Special Program",
+        "type": "Stream",
+        "link": "https://www.hoyolab.com/article/34757498",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/11/05/0/9b00bf2e8b9a0e77cdcbd65512bccbba_2459415063801725080.jpeg",
+        "start": "2024-11-08 07:00:00",
+        "timezone": "-05:00"
     }
 ]
