@@ -4364,8 +4364,10 @@
     {
         "name": "\"Marvelous Merchandise\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/34826357",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/11/07/d237f04da33a0eca74eb39dc03103587_6300123537233191187.png",
         "start": "2024-11-11 10:00:00",
-        "end": "2024-11-18 10:00:00",
+        "end": "2024-11-18 03:59:00",
         "reminder": "daily"
     },
     {
