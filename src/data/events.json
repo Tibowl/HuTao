@@ -4437,13 +4437,17 @@
     {
         "name": "\"Iktomi Spiritseeking Scrolls\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/35194805",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/11/22/ee76313e9907653449fe4e2e29aecc73_3363197082625390540.jpg",
         "start": "2024-11-28 10:00:00",
-        "end": "2025-12-16 03:59:00",
+        "end": "2024-12-16 03:59:00",
         "reminder": "end"
     },
     {
         "name": "\"Claw Convoy\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/35053992",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/11/18/ea6c09c2ea21dea839f4a07c494024a5_424878618392543398.jpg",
         "start": "2024-11-22 10:00:00",
         "end": "2025-12-02 03:59:00",
         "reminder": "end"
