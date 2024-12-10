@@ -4435,6 +4435,33 @@
         "reminder": "end"
     },
     {
+        "name": "Event Wish \"Decree of the Deeps\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/35393826",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/12/04/0/e7886b2ecf1fa96717f7d1eb9cf1d67d_2162828033304102219.jpeg",
+        "start": "2024-12-10 18:00:00",
+        "end": "2024-12-31 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Gentry of Hermitage\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/35393826",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/12/04/0/b9492d3e26ab5d605b050254642d9925_1637186439728682823.jpeg",
+        "start": "2024-12-10 18:00:00",
+        "end": "2024-12-31 14:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "Event Wish \"Epitome Invocation\"",
+        "type": "Banner",
+        "link": "https://www.hoyolab.com/article/35393826",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/12/04/0/0bdfa17c2bedd590d581da7de1e372da_2850786684916876409.jpeg",
+        "start": "2024-12-10 18:00:00",
+        "end": "2024-12-31 14:59:00",
+        "reminder": "end"
+    },
+    {
         "name": "\"Iktomi Spiritseeking Scrolls\" Event",
         "type": "In-game",
         "link": "https://www.hoyolab.com/article/35194805",
@@ -4449,7 +4476,31 @@
         "link": "https://www.hoyolab.com/article/35053992",
         "img": "https://upload-os-bbs.hoyolab.com/upload/2024/11/18/ea6c09c2ea21dea839f4a07c494024a5_424878618392543398.jpg",
         "start": "2024-11-22 10:00:00",
-        "end": "2025-12-02 03:59:00",
+        "end": "2024-12-02 03:59:00",
         "reminder": "end"
+    },
+    {
+        "name": "\"Adventurer's Trials: Metamorphosis\" Event",
+        "type": "In-game",
+        "link": "https://www.hoyolab.com/article/35477560",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/12/06/cc771acc578451d3d5b4d633dd06ecf5_1234649391790301277.jpg",
+        "start": "2024-12-11 10:00:00",
+        "end": "2024-12-23 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Adventurer's Trials: Metamorphosis\" Event",
+        "type": "In-game",
+        "start": "2024-12-18 10:00:00",
+        "end": "2024-12-30 03:59:00",
+        "reminder": "end"
+    },
+    {
+        "name": "\"Ley Line Overflow\" Event",
+        "type": "In-game",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/07/04/d76cdab75f5f952a213e564f6b0a5a51_3962188697956248255.jpg",
+        "start": "2024-12-23 04:00:00",
+        "end": "2024-12-30 03:59:00",
+        "reminder": "daily"
     }
 ]
