@@ -455,6 +455,24 @@
         "links": {
           "material": ["Saurian Claw Succulent"]
         }
+      },
+      {
+        "name": "Glowing Hornshroom route",
+        "desc": "**Glowing Hornshrooms ${Glowing Hornshroom}** can found in Natlan.\n\n> A fungus that emits a faint light in the darkness. It is so named because its shape resembles the crest of an Iktomisaurus.",
+        "img": "https://static.hutaobot.moe/images/GlowingHornshroom_7d752e55.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Glowing Hornshroom"]
+        }
+      },
+      {
+        "name": "Withering Purpurbloom route",
+        "desc": "**Withering Purpurblooms ${Withering Purpurbloom}** can found in Natlan.\n\n> A flower, the leaves and petals of which look scorched and withered, that can often be seen in places where ash abounds.",
+        "img": "https://static.hutaobot.moe/images/WitheringPurpurbloomNoQuest_1f07f0a8.png",
+        "credits": "Soul",
+        "links": {
+          "material": ["Withering Purpurbloom"]
+        }
       }
     ]
   },
