@@ -4489,8 +4489,10 @@
         "reminder": "end"
     },
     {
-        "name": "\"Adventurer's Trials: Metamorphosis\" Event",
+        "name": "\"Exercise Surging Storm\" Event",
         "type": "In-game",
+        "link": "https://www.hoyolab.com/article/35621396",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/12/12/41e12857dd3515762f7e0ab73339710b_4632825352934582930.jpg",
         "start": "2024-12-18 10:00:00",
         "end": "2024-12-30 03:59:00",
         "reminder": "end"
@@ -4502,5 +4504,11 @@
         "start": "2024-12-23 04:00:00",
         "end": "2024-12-30 03:59:00",
         "reminder": "daily"
+    },
+    {
+        "name": "5.3 Maintenance",
+        "type": "Maintenance",
+        "start": "2025-01-01 06:00:00",
+        "end": "2025-01-01 11:00:00"
     }
 ]
