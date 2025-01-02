@@ -4605,6 +4605,8 @@
     {
         "name": "\"Shuyu's Baffling Beetle Battle Bowl\" Event",
         "type": "Event",
+        "link": "https://www.hoyolab.com/article/36006504",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2024/12/31/9f3c7b5f9c858a5bfe33a26c6af78f80_5669349751245872602.png",
         "start": "2025-01-03 10:00:00",
         "end": "2025-01-13 03:59:00",
         "reminder": "end"
