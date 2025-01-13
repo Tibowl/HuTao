@@ -4621,6 +4621,8 @@
     {
         "name": "\"On the Trail of Behemoths\" Event",
         "type": "Event",
+        "link": "https://www.hoyolab.com/article/36301798",
+        "img": "https://upload-os-bbs.hoyolab.com/upload/2025/01/10/56d94828cc092726baab51db679c2138_4173315865664327353.png",
         "start": "2025-01-14 10:00:00",
         "end": "2025-01-27 03:59:00",
         "reminder": "end"
