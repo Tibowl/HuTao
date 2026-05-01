@@ -120,7 +120,7 @@ Example of adding news: \`${config.prefix}follow add news\``,
         if (sub == "list") {
             return this.runList(source, options.getString("category") as (FollowCategory | null))
         } else if (sub == "add") {
-            return this.runFollow(source, options.getString("category", true) as FollowCategory, options.getMentionable("pingrole", false))
+            return this.runFollow(source, options.getString("category", true) as FollowCategory, options.getMentionable("pingrole", false) as any)
         } else if (sub == "remove") {
             return this.runUnfollow(source, options.getString("category", true) as FollowCategory)
         }

@@ -22,7 +22,7 @@ export async function sendToChannels(channels: {channelID: Snowflake, pingRole?:
 export async function sendToChannel(channel: {channelID: Snowflake, pingRole?: string}, content?: string, embed?: EmbedBuilder): Promise<Message | undefined> {
     try {
         const chanObj = await client.channels.fetch(channel.channelID)
-        if (!(chanObj && chanObj.isTextBased())) {
+        if (!(chanObj && chanObj.isTextBased() && "send" in chanObj)) {
             Logger.error(`Invalid channel ${channel.channelID}`)
             return undefined
         }
