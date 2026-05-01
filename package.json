@@ -19,7 +19,7 @@
     },
     "homepage": "https://github.com/Tibowl/HuTao#readme",
     "dependencies": {
-        "better-sqlite3": "^9.6.0",
+        "better-sqlite3": "^12.9.0",
         "body-parser": "^1.20.2",
         "discord-api-types": "0.37.83",
         "discord.js": "^14.15.1",
