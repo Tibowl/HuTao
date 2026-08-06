@@ -1,7 +1,6 @@
 import SQLite from "better-sqlite3"
 import { ensureDirSync } from "fs-extra"
 import log4js from "log4js"
-import fetch from "node-fetch"
 import { parseEventWishNews } from "../commands/misc/banners"
 import client from "../main"
 import { FollowCategory, News, NewsLang, StoredNews } from "./Types"
@@ -44,6 +43,14 @@ const languages: { [x in FollowCategory]?: NewsLang} = {
     "news_ru-ru": "ru-ru",
     "news_th-th": "th-th",
     "news_vi-vn": "vi-vn",
+}
+
+interface NewsListResponse {
+    data?: { list?: News[] }
+}
+
+interface PostFullResponse {
+    data?: { post?: News }
 }
 
 export default class NewsManager {
@@ -92,14 +99,14 @@ export default class NewsManager {
                         continue
                     }
 
-                    let data
+                    let data: NewsListResponse | undefined
                     for (let attempt = 1; attempt <= 5; attempt++) {
                         try {
                             this.lastFetched = Date.now()
                             if (langid == "bbs-zh-cn")
-                                data = await (await fetch(`https://bbs-api.mihoyo.com/post/wapi/getNewsList?gids=2&page_size=20&type=${type}`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, timeout: 15000 })).json()
+                                data = await (await fetch(`https://bbs-api.mihoyo.com/post/wapi/getNewsList?gids=2&page_size=20&type=${type}`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, signal: AbortSignal.timeout(15000) })).json() as NewsListResponse
                             else
-                                data = await (await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getNewsList?gids=2&page_size=20&type=${type}`, { headers: { "x-rpc-language": langid, Referer: "https://www.hoyolab.com/" }, timeout: 29000 })).json()
+                                data = await (await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getNewsList?gids=2&page_size=20&type=${type}`, { headers: { "x-rpc-language": langid, Referer: "https://www.hoyolab.com/" }, signal: AbortSignal.timeout(29000) })).json() as NewsListResponse
                             break
                         } catch (error) {
                             Logger.error(`Failed to fetch ${language} - ${type}, attempt #${attempt}.`)
@@ -140,9 +147,9 @@ export default class NewsManager {
             try {
                 this.lastFetched = Date.now()
                 if (langid == "bbs-zh-cn")
-                    fetched = await fetch(`https://bbs-api.mihoyo.com/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, timeout: 15000 })
+                    fetched = await fetch(`https://bbs-api.mihoyo.com/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, signal: AbortSignal.timeout(15000) })
                 else
-                    fetched = await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, timeout: 29000 })
+                    fetched = await fetch(`https://bbs-api-os.hoyolab.com/community/post/wapi/getPostFull?gids=2&post_id=${post_id}&read=1`, { headers: { "x-rpc-language": langid, Referer: "https://bbs.mihoyo.com/" }, signal: AbortSignal.timeout(29000) })
                 break
             } catch (error) {
                 Logger.error(`Failed to fetch ${langid} - ${type}, attempt #${attempt}.`)
@@ -150,7 +157,7 @@ export default class NewsManager {
             }
 
         if (!fetched) return
-        const postdata = await fetched.json()
+        const postdata = await fetched.json() as PostFullResponse
 
         this.lastFetched = Date.now()
         if (!postdata?.data?.post) return

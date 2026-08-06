@@ -5,8 +5,9 @@
     "main": "dist/main.js",
     "scripts": {
         "start": "node dist/main.js",
-        "dev": "nodemon --ignore src/data/*.json src/main.ts",
-        "build": "tsc -p ."
+        "dev": "tsx watch --ignore \"src/data/*.json\" src/main.ts",
+        "build": "tsc -p .",
+        "lint": "eslint ."
     },
     "repository": {
         "type": "git",
@@ -26,23 +27,22 @@
         "fs-extra": "^11.4.0",
         "log4js": "^6.9.1",
         "memoizee": "^0.4.15",
-        "node-fetch": "^2.6.9",
         "twit": "^2.2.11"
     },
     "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@stylistic/eslint-plugin": "^5.10.0",
         "@types/better-sqlite3": "^9.6.0",
         "@types/express": "^5.0.6",
         "@types/fs-extra": "^11.0.4",
         "@types/memoizee": "^0.4.11",
         "@types/node": "^24.13.3",
-        "@types/node-fetch": "^2.6.11",
         "@types/twit": "^2.2.35",
         "@types/ws": "^8.5.10",
-        "@typescript-eslint/eslint-plugin": "^8.66.0",
-        "@typescript-eslint/parser": "^8.66.0",
-        "eslint": "^9.2.0",
-        "nodemon": "^3.1.0",
-        "ts-node": "^10.9.2",
-        "typescript": "^5.9.3"
+        "eslint": "^10.8.0",
+        "globals": "^17.9.0",
+        "tsx": "^4.23.8",
+        "typescript": "^5.9.3",
+        "typescript-eslint": "^8.66.0"
     }
 }

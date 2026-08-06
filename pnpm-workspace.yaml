@@ -1,9 +1,11 @@
 allowBuilds:
   better-sqlite3: true
   es5-ext: true
+  esbuild: true
 
 ignoredBuiltDependencies:
   - es5-ext
 
 onlyBuiltDependencies:
   - better-sqlite3
+  - esbuild
