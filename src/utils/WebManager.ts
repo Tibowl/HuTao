@@ -1,4 +1,3 @@
-import bodyParser from "body-parser"
 import express, { Express, NextFunction, Request, Response } from "express"
 import log4js from "log4js"
 import { getEventWishes } from "../commands/misc/banners"
@@ -18,7 +17,7 @@ export default class WebManager {
         Logger.info("Starting server")
         this.app = express()
 
-        this.app.use(bodyParser.json())
+        this.app.use(express.json())
         this.app.use((req: Req<unknown>, res: Res, next: NextFunction) => {
             if (req.headers.authorization === config.web) {
                 next()
